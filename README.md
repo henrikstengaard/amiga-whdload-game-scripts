@@ -27,4 +27,11 @@ A PowerShell script to download all games from www.whdownload.com.
 A PowerShell script to filter games downloaded from www.whdownload.com by excluding unwanted versions and picking spreferred versions.
 
 1. Double-click 'filter_whdownload_games.cmd' in Windows Explorer or start 'filter_whdownload_games.ps1' from Powershell to run script.
-2. Wait for all games being downloaded to folder 'whdownload_games'.
+2. Wait for all filtered games being copied to folder 'whdload_games'.
+
+## Download WHDLoad Installs
+
+A PowerShell script to download all whdload installs from www.whdload.de.
+
+1. Double-click 'download_whdload_installs.cmd' in Windows Explorer or start 'download_whdload_installs.ps1' from Powershell to run script.
+2. Wait for all installs being downloaded to folder 'whdload_installs'.
