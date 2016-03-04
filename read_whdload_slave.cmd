@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File read_whdload_slave.ps1 -path %1

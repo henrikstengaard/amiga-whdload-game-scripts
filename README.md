@@ -35,3 +35,11 @@ A PowerShell script to download all whdload installs from www.whdload.de.
 
 1. Double-click 'download_whdload_installs.cmd' in Windows Explorer or start 'download_whdload_installs.ps1' from Powershell to run script.
 2. Wait for all installs being downloaded to folder 'whdload_installs'.
+
+## Read WHDLoad Slave
+
+A PowerShell script to read and print whdload slave information.
+
+* Open Command Prompt and type 'read_whdload_slave.cmd [PATH-TO-SLAVE]'.
+* Open Powershell and type 'read_whdload_slave.ps1 [PATH-TO-SLAVE]' to run script.
+
