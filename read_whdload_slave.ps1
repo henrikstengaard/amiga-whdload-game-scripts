@@ -63,7 +63,7 @@ function ReadWhdloadSlave($whdloadSlavePath)
 	if (!(Test-Path -path $whdloadSlavePath))
 	{
 		Write-Error "File doesn't exist '$whdloadSlavePath'"
-		return $false
+		return
 	}
 
 	$whdloadSlaveItem = (Get-Item $whdloadSlavePath)
@@ -86,14 +86,14 @@ function ReadWhdloadSlave($whdloadSlavePath)
 	if ($binaryReader.BaseStream.Seek($headerOffset, [System.IO.SeekOrigin]::Begin) -ne $headerOffset)
 	{
 		Write-Error "Failed to seek header offset in '$whdloadSlavePath'"
-		return $false
+		return
 	}
 
 	# read data bytes to array. Return false, if bytes read doesn't match data length
 	if ($dataLength -ne $binaryReader.Read($dataBytes, 0, $dataLength))
 	{
 		Write-Error "Failed to read data from '$whdloadSlavePath'"
-		return $false
+		return
 	}
 
 	# close binary reader
@@ -124,7 +124,7 @@ function ReadWhdloadSlave($whdloadSlavePath)
 	if ($id -ne 'WHDLOADS')
 	{
 		Write-Error "Failed to read header: Id is not valid '$id'"
-		return $false
+		return
 	}
 
 	# add flags enum type
@@ -158,25 +158,25 @@ function ReadWhdloadSlave($whdloadSlavePath)
 	$dontCache = ReadString $dataBytes $dontCacheOffset
 
 	# print default information
-	Write-Host "Size = '$size'"
-	Write-Host "Date = '$date'"
-	Write-Host "Version: '$version'"
-	Write-Host "Flags = '$flags'"
-	Write-Host "ExecInstall = '$execInstall'"
-	Write-Host "GameLoader = '$gameLoader'"
-	Write-Host "CurrentDir = '$currentDir'"
-	Write-Host "DontCache = '$dontCache'"
+	Write-Output "Size = '$size'"
+	Write-Output "Date = '$date'"
+	Write-Output "Version = '$version'"
+	Write-Output "Flags = '$flags'"
+	Write-Output "ExecInstall = '$execInstall'"
+	Write-Output "GameLoader = '$gameLoader'"
+	Write-Output "CurrentDir = '$currentDir'"
+	Write-Output "DontCache = '$dontCache'"
 
 	if ($version -ge 4)
 	{
 		# print key debug and exit information
-		Write-Host "KeyDebug = '$([String]::Format("{0:x}", $keyDebug))'"
-		Write-Host "KeyExit = '$([String]::Format("{0:x}", $keyExit))'"
+		Write-Output "KeyDebug = '$([String]::Format("{0:x}", $keyDebug))'"
+		Write-Output "KeyExit = '$([String]::Format("{0:x}", $keyExit))'"
 	}
 	if ($version -ge 8)
 	{
 		# print exp mem information
-		Write-Host "ExpMem = '$expMem'"
+		Write-Output "ExpMem = '$expMem'"
 	} 
 	if ($version -ge 10)
 	{
@@ -184,9 +184,9 @@ function ReadWhdloadSlave($whdloadSlavePath)
 		$name = ReadString $dataBytes $nameOffset
 		$copy = ReadString $dataBytes $copyOffset
 		$info = ReadString $dataBytes $infoOffset
-		Write-Host "Name = '$name'"
-		Write-Host "Copy = '$copy'"
-		Write-Host "Info = '$info'"
+		Write-Output "Name = '$name'"
+		Write-Output "Copy = '$copy'"
+		Write-Output "Info = '$info'"
 	}
 	if ($version -ge 16)
 	{
@@ -199,20 +199,18 @@ function ReadWhdloadSlave($whdloadSlavePath)
 		else
 		{
 			$kickname = ReadString $dataBytes $kicknameOffset
-			Write-Host "Kickname = '$kickname'"
-			Write-Host "Kicksize = '$kicksize'"
+			Write-Output "Kickname = '$kickname'"
+			Write-Output "Kicksize = '$kicksize'"
 		}
-		Write-Host "Kickcrc = '$kickcrc'"
+		Write-Output "Kickcrc = '$kickcrc'"
 	} 	
 	if ($version -ge 17)
 	{
 		# print config information
 		$config = ReadString $dataBytes $configOffset
-		Write-Host "Config = '$config'"
+		Write-Output "Config = '$config'"
 	}
-	
-	return $true
 }
 
 # read and print whdload slave information
-ReadWhdloadSlave $path | Out-Null
+ReadWhdloadSlave $path
