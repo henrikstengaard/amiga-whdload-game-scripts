@@ -1,0 +1,2 @@
+powershell -ExecutionPolicy Bypass -File build_whdload_index.ps1 -whdloadArchiveFilesPath whdload_installs\installs whdload_installs_index
+powershell -ExecutionPolicy Bypass -File build_whdload_index.ps1 -whdloadArchiveFilesPath whdownload_games whdownload_games_index
