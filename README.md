@@ -43,3 +43,12 @@ A PowerShell script to read and print whdload slave information.
 * Open Command Prompt and type 'read_whdload_slave.cmd [PATH-TO-SLAVE]'.
 * Open Powershell and type 'read_whdload_slave.ps1 [PATH-TO-SLAVE]' to run script.
 
+## Build WHDLoad Index
+
+A PowerShell script to build whdload index .csv file by extracting archive files, scan for whdload slave files and read available information from whdload slave depending on whdload slave version.
+Note: The script uses drive Z:\ as temp to extract and scan whdload archives, if drive is present. Otherwise it will use [SystemDrive]:\Temp, which is usually C:\Temp.
+
+**Requires 7-zip installed**
+
+1. Double-click 'build_whdload_index.cmd' in Windows Explorer or start 'build_whdload_index.ps1' from Powershell to run script.
+2. Wait for whdload indexes being built to folders 'whdload_installs_index' and 'whdownload_games_index'.
