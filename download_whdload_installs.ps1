@@ -76,8 +76,24 @@ function DownloadWhdloadInstallsFromUrls($outputPath, $whdloadInstallUrls)
 	Write-Host ""
 }
 
+# Build whdload install index
+function BuildWhdloadInstallsIndex($outputPath)
+{
+	$whdloadInstallsHtmlPath = [System.IO.Path]::Combine($outputPath, "whdload_installs.html");
+
+	$whdloadInstallsHtml = [System.IO.File]::ReadAllText($whdloadInstallsHtmlPath)
+
+	$whdloadInstallsIndexPath = [System.IO.Path]::Combine($outputPath, "whdload_installs_index.csv");
+
+	Add-Content $whdloadInstallsIndexPath "Whdload Install Archive File;Name"
+	$whdloadInstallsHtml | Select-String -Pattern "<tr><td\s+align=center><a\s+href=""([^""<>]+\.lha)"">([^<>]+)" -AllMatches | % { $_.Matches } | ForEach { Add-Content $whdloadInstallsIndexPath "$($_.Groups[1].Value);$($_.Groups[2].Value)" }
+}
+
 # 1. Get whdload install urls
 $whdloadInstallUrls = GetWhdloadInstallUrls $whdloadInstallsPath
 
 # 2. Download whdload installs from urls
 DownloadWhdloadInstallsFromUrls $installsPath $whdloadInstallUrls
+
+# 3. Build whdload installs index
+BuildWhdloadInstallsIndex $whdloadInstallsPath

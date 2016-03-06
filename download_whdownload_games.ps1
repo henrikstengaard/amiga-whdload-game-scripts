@@ -92,8 +92,24 @@ function DownloadWhdownloadGamesFromUrls($outputPath, $whdownloadGameUrls)
 	Write-Host ""
 }
 
+# Build whdownload games index
+function BuildWhdownloadGamesIndex($outputPath)
+{
+	$whdownloadAllHtmlPath = [System.IO.Path]::Combine($outputPath, "whdownload_all.html");
+
+	$whdownloadAllHtml = [System.IO.File]::ReadAllText($whdownloadAllHtmlPath)
+
+	$whdownloadIndexPath = [System.IO.Path]::Combine($outputPath, "whdownload_games_index.csv");
+
+	Add-Content $whdownloadIndexPath "Whdownload Game Archive File;Whdload Name"
+	$whdownloadAllHtml | Select-String -Pattern "<a\s+href=""games/.+/([^/""<>]+)"">([^<>]+)" -AllMatches | % { $_.Matches } | ForEach { Add-Content $whdownloadIndexPath "$($_.Groups[1].Value);$($_.Groups[2].Value)" }
+}
+
 # 1. Get whdload game urls
 $whdownloadGameUrls = GetWhdownloadGameUrls $whdownloadGamesPath
 
 # 2. Download whdownload games from urls
 DownloadWhdownloadGamesFromUrls $whdownloadGamesPath $whdownloadGameUrls
+
+# 3. Build whdownload games index
+BuildWhdownloadGamesIndex $whdownloadGamesPath
