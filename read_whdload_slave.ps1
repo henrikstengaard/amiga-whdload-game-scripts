@@ -162,6 +162,7 @@ function ReadWhdloadSlave($whdloadSlavePath)
 	Write-Output "Date = '$date'"
 	Write-Output "Version = '$version'"
 	Write-Output "Flags = '$flags'"
+	Write-Output "BaseMemSize = '$baseMemSize'"
 	Write-Output "ExecInstall = '$execInstall'"
 	Write-Output "GameLoader = '$gameLoader'"
 	Write-Output "CurrentDir = '$currentDir'"
