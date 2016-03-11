@@ -1,0 +1,49 @@
+Short:        Screenshots Update Pack For iGame
+Author:       Troels Jacobsen (aka TroelsDK)
+Uploader:     Troels Jacobsen (aka TroelsDK)
+Type:         game/misc
+Version:      1.1
+Architecture: m68k-amigaos
+
+*************************************************
+MEGAiGameUpdatePackTroelsDK
+
+----------> Updated 24/12/14 - Merry Christmas! <----------
+
+- All files, Approximately 500 (except for 3 I had to find on HOL),
+are new screenshots of actual gameplay! No logos or menus!
+- All pictures cropped to fit full screen in iGame,
+and converted to .iff and organized in folders.
+- Some pictures uses more colours than others, but at a maximum of 256.
+- Most screenshots are for games that didn't have any,
+and some are updates for games that had a logo etc. as a screenshot.
+- Approximately 20 screenshots from standard CWB iGame-pack
+converted to full screen size.
+- The 'Alternate iGame screenshot' is a replacement for the
+standard iGame startscreen, if you like me think that that one is boring.
+Just overwrite the one in iGame main folder.
+- Foldernames fixed so they have the same names as the WHDLoad directory names.
+Some games have several different folders for more WHDLoad installs,
+e.g. "AlienBreed2" and "AlienBreed2AGA".
+(The screenshots will almost every time be the same though, OCS=ECS=AGA).
+* There is around 500 files, but only for around 400 games.
+This is because of the duplicates.
+
+256x128 is for non-interlaced, e.g. Classic Workbench LITE + FULL (screen 640 x 256)
+320x256 is for interlaced displays, e.g. Classic Workbench ADV + ADVSP (screen 640 x 512)
+If the wrong pack is used, iGame will crash.
+
+INSTALL:
+
+- Copy the archives to your games directory.
+- Overwrite the folders so the new screenshots replaces previous ones in the standard CWB iGame-pack.
+- You can do this before unarchiving games or after, it works either way.
+
+By TroelsDK (EAB)
+Nov. 07 - 2013
+Any questions/requests/other:
+Troels83dk@hotmail.com
+
+
+Thanks to JakobK for help with XnView :)
+
