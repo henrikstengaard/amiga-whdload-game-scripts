@@ -469,7 +469,7 @@ def main(argv):
     # calculate palette offset for placing colors et end of palette
     paletteOffset = max_colors - len(new_image.getcolors()) - 2
 
-    # add unused colors to calculated palette offset
+    # add unused colors to push palette to calculated palette offset
     for i in xrange(paletteOffset):
         palette.append((0, 0, 0))
 
@@ -485,7 +485,7 @@ def main(argv):
             palette.append((r, g, b))
 
     # palette index 254: text background color
-    palette.append((4, 4, 7))
+    palette.append((0, 0, 0))
     
     # palette index 255: text color
     palette.append((255, 255, 255))
@@ -493,14 +493,14 @@ def main(argv):
     pixels = new_image.load()
     width, height = new_image.size
 
-    # force width and weight
+    # TODO: Make a more elegant way of resizing with new width and weight
     width = 320
     height = 128
 
     # set pixels to palette index 0
     for y in xrange(height):
         for x in xrange(width):
-            pixels[x, y] = 253
+            pixels[x, y] = 254
 
     with open(outfile, "wb") as f:
         if options.format.upper() == "ILBM":

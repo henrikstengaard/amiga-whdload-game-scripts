@@ -469,7 +469,7 @@ def main(argv):
     # calculate palette offset for placing colors et end of palette
     paletteOffset = max_colors - len(new_image.getcolors()) - 2
 
-    # add unused colors to calculated palette offset
+    # add unused colors to push palette to calculated palette offset
     for i in xrange(paletteOffset):
         palette.append((0, 0, 0))
 
@@ -478,6 +478,7 @@ def main(argv):
         r = ord(p[i * 3])
         g = ord(p[i * 3 + 1])
         b = ord(p[i * 3 + 2])
+        # TODO: Make a more elegant way of search and replace background color index
         if r == 4 and g == 4 and b == 7:
             backgroundColorIndex = i
         if mode == OCS:
@@ -488,7 +489,7 @@ def main(argv):
             palette.append((r, g, b))
 
     # palette index 254: text background color
-    palette.append((4, 4, 7))
+    palette.append((0, 0, 0))
 
     # palette index 255: text color
     palette.append((255, 255, 255))
@@ -496,6 +497,7 @@ def main(argv):
     pixels = new_image.load()
     width, height = new_image.size
 
+	# push pixel palette index by calculated palette offset and set background color index
     for y in xrange(height):
         for x in xrange(width):
             colorIndex = pixels[x, y]

@@ -464,6 +464,10 @@ def main(argv):
         new_image = im.copy()
     
     palette = list()
+	
+    # palette index 0: background color
+    palette.append((0, 0, 0))
+	
     p = new_image.im.getpalette("RGB")
     for i in xrange(min(max_colors, len(new_image.getcolors()))):
         r = ord(p[i * 3])
@@ -475,9 +479,15 @@ def main(argv):
                             (b & 0xf0) | (b >> 4)))
         else:
             palette.append((r, g, b))
-    
+	
     pixels = new_image.load()
     width, height = new_image.size
+
+	# push pixel palette index by 1 for added background color index
+    for y in xrange(height):
+        for x in xrange(width):
+            pixels[x, y] = pixels[x, y] + 1
+
     with open(outfile, "wb") as f:
         if options.format.upper() == "ILBM":
             f.write(create_ilbm(width, height, pixels, palette, options.mode, pack))
