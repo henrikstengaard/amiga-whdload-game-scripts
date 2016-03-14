@@ -401,9 +401,7 @@ def main(argv):
         r = int(columns[0])
         g = int(columns[1])
         b = int(columns[2])
-        palette.append(((r & 0xf0) | (r >> 4),
-                        (g & 0xf0) | (g >> 4),
-                        (b & 0xf0) | (b >> 4)))
+        palette.append((r, g, b))
     print len(palette), "colors read from palette file"
     
     if options.ocs:
@@ -479,17 +477,20 @@ def main(argv):
     else:
         new_image = im.copy()
     
+    # convert palette to ocs
+    for i in xrange(len(palette)):
+        color = palette[i]
+        palette[i] = ((color[0] & 0xf0) | (color[0] >> 4),
+                    (color[1] & 0xf0) | (color[1] >> 4),
+                    (color[2] & 0xf0) | (color[2] >> 4))
+
     pixels = new_image.load()
     width, height = new_image.size
 
-    # TODO: Make a more elegant way of resizing with new width and weight
-    width = 320
-    height = 128
-
-    # set pixels to palette index 0
+    # set pixels to palette index 14: text background color
     for y in xrange(height):
         for x in xrange(width):
-            pixels[x, y] = 14
+            pixels[x, y] = 0
 
     with open(outfile, "wb") as f:
         if options.format.upper() == "ILBM":

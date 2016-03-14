@@ -381,14 +381,26 @@ def main(argv):
     p.add_option("-f", "--format",  action="store", default="ILBM", help="ILBM or ACBM.")
     p.add_option("-q", "--quant",   action="store", default="adaptive", help="'adaptive' (fast) or 'spatial' (best).")
     options, argv = p.parse_args(argv)
-    if len(argv) != 3:
+    if len(argv) != 4:
         print >>sys.stderr, p.get_usage()
         return 1
     
     # Argument parsing.
     
-    infile = argv[1]
-    outfile = argv[2]
+    palfile = argv[1]
+    infile = argv[2]
+    outfile = argv[3]
+    
+    # read palette file
+    palette = list()
+    file = open(palfile, 'r')
+    for line in file:
+        columns = line.split()
+        r = int(columns[0])
+        g = int(columns[1])
+        b = int(columns[2])
+        palette.append((r, g, b))
+    print len(palette), "colors read from palette file"
     
     if options.ocs:
         mode = OCS
@@ -401,7 +413,7 @@ def main(argv):
         new_size = options.scale
     else:
         new_size = None
-
+    
     if options.colors:
         if options.colors < 2 or options.colors > max_colors:
             print >>sys.stderr, "Colors should be between 2 and %d" % max_colors
@@ -462,46 +474,38 @@ def main(argv):
                                    colors=max_colors)
     else:
         new_image = im.copy()
-    
-    palette = list()
-    p = new_image.im.getpalette("RGB")
-    
-    # calculate palette offset for placing colors et end of palette
-    paletteOffset = max_colors - len(new_image.getcolors()) - 2
-
-    # add unused colors to push palette to calculated palette offset
-    for i in xrange(paletteOffset):
-        palette.append((0, 0, 0))
-
-    for i in xrange(min(max_colors, len(new_image.getcolors()))):
-        r = ord(p[i * 3])
-        g = ord(p[i * 3 + 1])
-        b = ord(p[i * 3 + 2])
-        if mode == OCS:
-            palette.append(((r & 0xf0) | (r >> 4),
-                            (g & 0xf0) | (g >> 4),
-                            (b & 0xf0) | (b >> 4)))
-        else:
-            palette.append((r, g, b))
-
-    # palette index 254: text background color
-    palette.append((0, 0, 0))
-    
-    # palette index 255: text color
-    palette.append((255, 255, 255))
 
     pixels = new_image.load()
     width, height = new_image.size
 
-    # TODO: Make a more elegant way of resizing with new width and weight
-    width = 320
-    height = 128
+    # build palette map
+    paletteMap = list()
+    p = new_image.im.getpalette("RGB")
+    for s in xrange(min(max_colors, len(new_image.getcolors()))):
+        # get source palette color
+        sr = ord(p[s * 3])
+        sg = ord(p[s * 3 + 1])
+        sb = ord(p[s * 3 + 2])
+        exists = False
+        for d in xrange(len(palette)):
+            # get destination palette color
+            dr, dg, db = palette[d]
+            # add destination palette index, if colors match
+            if sr == dr and sg == dg and sb == db:
+                exists = True
+                paletteMap.append(d)
+                break
 
-    # set pixels to palette index 0
+        # map to palette index 0, source color doesn't exist in palette
+        if (exists == False):
+            paletteMap.append(0)
+
+    # remap pixels
     for y in xrange(height):
         for x in xrange(width):
-            pixels[x, y] = 254
-
+            paletteIndex = pixels[x, y]
+            pixels[x, y] = paletteMap[paletteIndex]
+    
     with open(outfile, "wb") as f:
         if options.format.upper() == "ILBM":
             f.write(create_ilbm(width, height, pixels, palette, options.mode, pack))

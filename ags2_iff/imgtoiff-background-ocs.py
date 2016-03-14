@@ -401,10 +401,7 @@ def main(argv):
         r = int(columns[0])
         g = int(columns[1])
         b = int(columns[2])
-        print r, g, b
-        palette.append(((r & 0xf0) | (r >> 4),
-                        (g & 0xf0) | (g >> 4),
-                        (b & 0xf0) | (b >> 4)))
+        palette.append((r, g, b))
     print len(palette), "colors read from palette file"
 
     if options.ocs:
@@ -491,13 +488,26 @@ def main(argv):
         sr = ord(p[s * 3])
         sg = ord(p[s * 3 + 1])
         sb = ord(p[s * 3 + 2])
+        exists = False
         for d in xrange(len(palette)):
             # get destination palette color
             dr, dg, db = palette[d]
             # add destination palette index, if colors match
-            if sr == dr and sg == dg and sb == dg:
+            if sr == dr and sg == dg and sb == db:
+                exists = True
                 paletteMap.append(d)
                 break
+
+        # map to palette index 0, source color doesn't exist in palette
+        if (exists == False):
+            paletteMap.append(0)
+
+    # convert palette to ocs
+    for i in xrange(len(palette)):
+        color = palette[i]
+        palette[i] = ((color[0] & 0xf0) | (color[0] >> 4),
+                    (color[1] & 0xf0) | (color[1] >> 4),
+                    (color[2] & 0xf0) | (color[2] >> 4))
 
     # remap pixels
     for y in xrange(height):
