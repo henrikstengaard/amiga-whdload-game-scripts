@@ -6,6 +6,7 @@
 #
 # A PowerShell script to build whdload index .csv file by extracting archive files, scan for whdload slave files and read available information from whdload slave depending on whdload slave version.
 # Note: The script uses drive Z:\ as temp to extract and scan whdload archives, if drive is present. Otherwise it will use [SystemDrive]:\Temp, which is usually C:\Temp.
+
 Param(
 	[Parameter(Mandatory=$true)]
 	[string]$whdloadArchiveFilesPath,
@@ -35,15 +36,13 @@ function BuildWhdloadIndexFromFiles($outputPath, $whdloadArchiveFiles)
 		md $outputPath | Out-Null
 	}	
 
-	$whdloadIndexPath = [System.IO.Path]::Combine($outputPath, "whdload_index.csv")
+	$whdloadIndexPath = [System.IO.Path]::Combine($outputPath, "whdload_slave_index.csv")
 
 	# add header to index
-	Add-Content $whdloadIndexPath "ArchiveFile;SlaveFile;Name;Copy;Size;Version;Flags;BaseMemSize;KeyDebug;KeyExit;ExpMem"
+	Add-Content $whdloadIndexPath "ArchiveFile;SlaveFile;SlaveOutputFile;Name;Copy;Size;Version;Flags;BaseMemSize;KeyDebug;KeyExit;ExpMem"
 
 	ForEach ($whdloadArchiveFile in $whdloadArchiveFiles)
 	{
-		Write-Output $whdloadArchiveFile.Name
-		
 		# delete temp path, if it exists
 		if(test-path -path $tempPath)
 		{
@@ -64,7 +63,7 @@ function BuildWhdloadIndexFromFiles($outputPath, $whdloadArchiveFiles)
 		}
 
 		# get temp files from temp path
-		$tempFiles = Get-ChildItem -Recurse -File -Path $tempPath
+		$tempFiles = Get-ChildItem -Path $tempPath -Recurse -File
 
 		# add no files to index, if no files exist in temp path
 		if (!$tempFiles)
@@ -78,7 +77,13 @@ function BuildWhdloadIndexFromFiles($outputPath, $whdloadArchiveFiles)
 		{
 			# read temp file bytes
 			$tempFileBytes = [System.IO.File]::ReadAllBytes($tempFile.FullName)
-		
+
+			# skip, if file is less than 50 bytes
+			if ($tempFileBytes.Count -lt 50)
+			{
+				continue;
+			}
+			
 			# get magic bytes from temp file
 			$tempFileMagicBytes = New-Object byte[](4)
 			[Array]::Copy($tempFileBytes, 0, $tempFileMagicBytes, 0, 4)
@@ -100,39 +105,41 @@ function BuildWhdloadIndexFromFiles($outputPath, $whdloadArchiveFiles)
 				continue
 			}
 			
-			Write-Output $tempFile.Name
-			
 			$whdloadSlaves++
 			$whdloadSlaveFile = $tempFile
 			
-			$whdloadSlaveTextFile = [System.IO.Path]::Combine($outputPath, "$($whdloadArchiveFile.Name)_$($whdloadSlaveFile.Name).txt")
+			$whdloadSlaveOutputFileName = "$($whdloadArchiveFile.Name)_$($whdloadSlaveFile.Name).txt"
+			$whdloadSlaveOutputFile = [System.IO.Path]::Combine($outputPath, $whdloadSlaveOutputFileName)
 		
 			# read whdload slave information and write to text
-			& $readWhdloadSlavePath -path $whdloadSlaveFile.FullName | Out-File $whdloadSlaveTextFile
+			& $readWhdloadSlavePath -path $whdloadSlaveFile.FullName | Out-File $whdloadSlaveOutputFile
 			
-			# read whdload slave text
-			$whdloadSlaveText = Get-Content $whdloadSlaveTextFile
+			# read whdload slave output
+			$whdloadSlaveOutput = Get-Content $whdloadSlaveOutputFile
 			
 			# delete whdload slave text file, if file is empty
-			if ($whdloadSlaveText.length -eq 0)
+			if ($whdloadSlaveOutput.length -eq 0)
 			{
-				Remove-Item $whdloadSlaveTextFile
+				Remove-Item $whdloadSlaveOutputFile
 				continue
 			}
+
+			# Get whdload slave path
+			$whdloadSlavePath = $whdloadSlaveFile.FullName.Replace($tempPath + "\", "")
 			
 			# get whdload information
-			$size = $whdloadSlaveText | Select-String -Pattern  "Size\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$version = $whdloadSlaveText | Select-String -Pattern  "Version\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$flags = $whdloadSlaveText | Select-String -Pattern  "Flags\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$baseMemSize = $whdloadSlaveText | Select-String -Pattern  "BaseMemSize\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$keyDebug = $whdloadSlaveText | Select-String -Pattern  "KeyDebug\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$keyExit = $whdloadSlaveText | Select-String -Pattern  "KeyExit\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$expMem = $whdloadSlaveText | Select-String -Pattern  "ExpMem\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$name = $whdloadSlaveText | Select-String -Pattern  "Name\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
-			$copy = $whdloadSlaveText | Select-String -Pattern  "Copy\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$size = $whdloadSlaveOutput | Select-String -Pattern  "Size\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$version = $whdloadSlaveOutput | Select-String -Pattern  "Version\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$flags = $whdloadSlaveOutput | Select-String -Pattern  "Flags\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$baseMemSize = $whdloadSlaveOutput | Select-String -Pattern  "BaseMemSize\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$keyDebug = $whdloadSlaveOutput | Select-String -Pattern  "KeyDebug\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$keyExit = $whdloadSlaveOutput | Select-String -Pattern  "KeyExit\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$expMem = $whdloadSlaveOutput | Select-String -Pattern  "ExpMem\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$name = $whdloadSlaveOutput | Select-String -Pattern  "Name\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+			$copy = $whdloadSlaveOutput | Select-String -Pattern  "Copy\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
 
 			# add whdload details to index
-			Add-Content $whdloadIndexPath "$($whdloadArchiveFile.Name);$($whdloadSlaveFile.Name);$name;$copy;$size;$version;$flags;$baseMemSize;$keyDebug;$keyExit;$expMem"
+			Add-Content $whdloadIndexPath "$($whdloadArchiveFile.Name);$whdloadSlavePath;$whdloadSlaveOutputFileName;$name;$copy;$size;$version;$flags;$baseMemSize;$keyDebug;$keyExit;$expMem"
 		}
 		
 		# add no slaves to index, if no slaves exist in temp path
@@ -157,7 +164,7 @@ if (!(Test-Path -path $sevenZipPath))
 }
 
 # 2. Get whdload archive files
-$whdloadArchiveFiles = Get-ChildItem -recurse -Path $whdloadArchiveFilesPath -exclude *.html -File
+$whdloadArchiveFiles = Get-ChildItem -recurse -Path $whdloadArchiveFilesPath -exclude *.html,*.csv -File
 
 # 3. Build whdload index from whdload archive files
 BuildWhdloadIndexFromFiles $outputPath $whdloadArchiveFiles
