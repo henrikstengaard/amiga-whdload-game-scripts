@@ -6,8 +6,15 @@
 #
 # A PowerShell script to filter games downloaded from www.whdownload.com by excluding unwanted versions and picking preferred versions.
 
-$whdownloadGamesPath = "whdownload_games"
-$whdloadGamesPath = "whdload_games"
+Param(
+	[Parameter(Mandatory=$true)]
+	[string]$whdownloadGamesPath,
+	[Parameter(Mandatory=$true)]
+	[string]$outputPath,
+	[Parameter()]
+	[string]$exclude
+)
+
 
 # Excludes unwanted language and demo versions by examening filename
 function ExcludeUnwantedLanguageAndDemoVersions($whdownloadFiles)
@@ -40,9 +47,9 @@ function ParseWhdloadGame($whdownloadFile)
 	
 	$whdloadGame = @{}
 	$whdloadGame.Name = $whdloadSegments[0]
-	$whdloadGame.IsAga = $whdloadFileName -match '_aga'
-	$whdloadGame.IsCd32 = $whdloadFileName -match '_cd32'
-	$whdloadGame.IsCdtv = $whdloadFileName -match '_cdtv'
+	$whdloadGame.IsAga = $whdownloadFile -match '_aga'
+	$whdloadGame.IsCd32 = $whdownloadFile -match '_cd32'
+	$whdloadGame.IsCdtv = $whdownloadFile -match '_cdtv'
 	$whdloadGame.File = $whdownloadFile
 
 	$versionMatches = $whdloadSegments[1] | Select-String -Pattern "v(\d+\.\d+)"
@@ -66,7 +73,26 @@ function ParseWhdloadGame($whdownloadFile)
 	{
 		$whdloadGame.Number = 0
 	}
-	
+
+	$whdloadGame.HardwareRank = 0
+	$whdloadGame.Hardware = ""
+
+	if ($whdloadGame.IsCd32)
+	{
+		$whdloadGame.HardwareRank = 3
+		$whdloadGame.Hardware = "CD32"
+	}
+	if ($whdloadGame.IsAga)
+	{
+		$whdloadGame.HardwareRank = 2
+		$whdloadGame.Hardware = "AGA"
+	}
+	if ($whdloadGame.IsCdtv)
+	{
+		$whdloadGame.HardwareRank = 1
+		$whdloadGame.Hardware = "CDTV"
+	}
+
 	return New-Object psobject –Prop $whdloadGame
 }
 
@@ -77,12 +103,17 @@ function PickPreferredWhdloadGameVersions($whdloadGames)
 
 	ForEach ($whdloadGame in $whdloadGames)
 	{
-		$oldWhdloadGame = $indexedWhdloadGames.Get_Item($whdloadGame.Name)
-		if ($indexedWhdloadGames.ContainsKey($whdloadGame.Name) -and !(IsWhdloadGameBetter $oldWhdloadGame $whdloadGame))
+		# unique by name and hardware
+		#$name = "$($whdloadGame.Name).$($whdloadGame.Hardware)"
+		# unique by name
+		$name = $whdloadGame.Name
+
+		$oldWhdloadGame = $indexedWhdloadGames.Get_Item($name)
+		if ($indexedWhdloadGames.ContainsKey($name) -and !(IsWhdloadGameBetter $oldWhdloadGame $whdloadGame))
 		{
 			continue;
 		}
-		$indexedWhdloadGames.Set_Item($whdloadGame.Name, $whdloadGame)
+		$indexedWhdloadGames.Set_Item($name, $whdloadGame)
 	}
 	
 	$preferedWhdloadGames = $indexedWhdloadGames.GetEnumerator() | % { $_.Value } | Sort-Object Name
@@ -95,32 +126,22 @@ function PickPreferredWhdloadGameVersions($whdloadGames)
 # Examines old and new whdload game and returnes true if new whdload game is better. The new whdload game is better if it has better hardware(cd32, aga, cdtv), version is higher or number is higher
 function IsWhdloadGameBetter($oldWhdloadGame, $newWhdloadGame)
 {
-	if ($newWhdloadGame.IsCd32 -and !$oldWhdloadGame.IsCd32)
+	if ($newWhdloadGame.HardwareRank -gt $oldWhdloadGame.HardwareRank)
 	{
-		return $true;
-	}
-
-	if ($newWhdloadGame.IsAga -and !$oldWhdloadGame.IsAga)
-	{
-		return $true;
-	}
-
-	if ($newWhdloadGame.IsCdtv -and !$oldWhdloadGame.IsCdtv)
-	{
-		return $true;
+		return $true
 	}
 
 	if ($newWhdloadGame.Version -gt $oldWhdloadGame.Version)
 	{
-		return $true;
+		return $true
 	}
 
 	if ($newWhdloadGame.Number -gt $oldWhdloadGame.Number)
 	{
-		return $true;
+		return $true
 	}
 
-	return $false;
+	return $false
 }
 
 # Get game index name from first character in game name
@@ -159,18 +180,56 @@ function CopyWhdloadGames($outputPath, $whdloadGames)
 	}
 }
 
-# 1. Get whdownload files
-$whdownloadFiles = Get-ChildItem -recurse -Path $whdownloadGamesPath -exclude *.html
+# Build whdownload games index
+function BuildWhdownloadGamesIndex($whdownloadGamesPath, $whdloadGamesPath, $preferredWhdloadGames)
+{
+	$whdownloadGameIndexPath = [System.IO.Path]::Combine($whdownloadGamesPath, "whdownload_games_index.csv")
 
-# 2. Excluding unwanted language and demo versions
+	$whdownloadIndex = @{}
+	ForEach($line in Get-Content $whdownloadGameIndexPath)
+	{
+		$columns = $line -split ";"
+		$whdownloadIndex.Set_Item($columns[0], $columns[1])
+	}
+
+	$whdloadGameIndexPath = [System.IO.Path]::Combine($whdloadGamesPath, "whdload_games_index.csv")
+
+	Add-Content $whdloadGameIndexPath "Whdownload Game Archive File;Whdload Name"
+	
+	ForEach ($preferredWhdloadGame in $preferredWhdloadGames)
+	{
+		$fileName = [System.IO.Path]::GetFileName($preferredWhdloadGame.File)
+		$name = $whdownloadIndex.Get_Item($fileName)
+		
+		Add-Content $whdloadGameIndexPath "$fileName;$name"
+	}
+}
+
+# 1. Get whdownload files
+$whdownloadFiles = Get-ChildItem -recurse -Path $whdownloadGamesPath -exclude *.html,*.csv -File
+
+# 2. Exclude whdownload files, if defined
+if ($exclude)
+{
+	$excludeItems = $exclude -split ','
+
+	ForEach ($excludeItem in $excludeItems)
+	{
+		$whdownloadFiles = $whdownloadFiles | Where { $_ -notmatch $excludeItem }
+	}
+}
+
+# 3. Excluding unwanted language and demo versions
 $filteredWhdownloadFiles = ExcludeUnwantedLanguageAndDemoVersions $whdownloadFiles
 
-# 3. Parse whdload games from whdownload files
+# 4. Parse whdload games from whdownload files
 $whdloadGames = $filteredWhdownloadFiles | ForEach { ParseWhdloadGame $_ }
 
-# 4. Pick preferred whdload game versions
+# 5. Pick preferred whdload game versions
 $preferredWhdloadGames = PickPreferredWhdloadGameVersions $whdloadGames
 
-# 5. Copy preferred whdload games 
-CopyWhdloadGames $whdloadGamesPath $preferredWhdloadGames
+# 6. Copy preferred whdload games 
+CopyWhdloadGames $outputPath $preferredWhdloadGames
 
+# 7. Build whdownload games index
+BuildWhdownloadGamesIndex $whdownloadGamesPath $outputPath $preferredWhdloadGames
