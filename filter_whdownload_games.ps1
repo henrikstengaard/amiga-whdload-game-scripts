@@ -186,22 +186,22 @@ function BuildWhdownloadGamesIndex($whdownloadGamesPath, $whdloadGamesPath, $pre
 	$whdownloadGameIndexPath = [System.IO.Path]::Combine($whdownloadGamesPath, "whdownload_games_index.csv")
 
 	$whdownloadIndex = @{}
-	ForEach($line in Get-Content $whdownloadGameIndexPath)
+	ForEach($line in (Get-Content $whdownloadGameIndexPath | Select-Object -Skip 1))
 	{
 		$columns = $line -split ";"
-		$whdownloadIndex.Set_Item($columns[0], $columns[1])
+		$whdownloadIndex.Set_Item($columns[0], $line)
 	}
 
 	$whdloadGameIndexPath = [System.IO.Path]::Combine($whdloadGamesPath, "whdload_games_index.csv")
 
-	Add-Content $whdloadGameIndexPath "Whdownload Game Archive File;Whdload Name"
+	Add-Content $whdloadGameIndexPath (Get-Content $whdownloadGameIndexPath | Select-Object -First 1)
 	
 	ForEach ($preferredWhdloadGame in $preferredWhdloadGames)
 	{
 		$fileName = [System.IO.Path]::GetFileName($preferredWhdloadGame.File)
-		$name = $whdownloadIndex.Get_Item($fileName)
+		$line = $whdownloadIndex.Get_Item($fileName)
 		
-		Add-Content $whdloadGameIndexPath "$fileName;$name"
+		Add-Content $whdloadGameIndexPath "$line"
 	}
 }
 
