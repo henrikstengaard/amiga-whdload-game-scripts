@@ -8,6 +8,10 @@
 
 $whdownloadGamesPath = "whdownload_games"
 
+# programs 
+$sevenZipPath = "$env:ProgramFiles\7-Zip\7z.exe"
+
+
 # Get whdownload games urls by downloading html and use regex to find game urls
 function GetWhdownloadGameUrls($outputPath)
 {
@@ -92,6 +96,16 @@ function DownloadWhdownloadGamesFromUrls($outputPath, $whdownloadGameUrls)
 	Write-Host ""
 }
 
+# get archive files using list function in 7-zip
+function GetArchiveFiles($archivePath)
+{
+	$output = & $sevenZipPath l $archivePath
+
+	return $output | Select-String -Pattern "^([^\s]+)\s+([^\s]+)\s+([^\s\d]+)\s+([\d]+)\s+([\d]+)\s+(.+)\s*$" -AllMatches | 
+	% { $_.Matches } | 
+	% { @{ "Date" = $_.Groups[1].Value; "Time" = $_.Groups[2].Value; "Attr" = $_.Groups[3].Value; "Size" = $_.Groups[4].Value; "Compressed" = $_.Groups[5].Value; "Name" = $_.Groups[6].Value -replace "/", "\" } }
+}
+
 # Build whdownload games index
 function BuildWhdownloadGamesIndex($outputPath)
 {
@@ -101,8 +115,31 @@ function BuildWhdownloadGamesIndex($outputPath)
 
 	$whdownloadIndexPath = [System.IO.Path]::Combine($outputPath, "whdownload_games_index.csv");
 
-	Add-Content $whdownloadIndexPath "Whdownload Game Archive File;Whdload Name"
-	$whdownloadAllHtml | Select-String -Pattern "<a\s+href=""games/.+/([^/""<>]+)"">([^<>]+)" -AllMatches | % { $_.Matches } | ForEach { Add-Content $whdownloadIndexPath "$($_.Groups[1].Value);$($_.Groups[2].Value)" }
+	Add-Content $whdownloadIndexPath "Whdownload Game Archive File;Whdload Name;Uncompressed Size;Compressed Size"
+	$whdownloadGameMatches = $whdownloadAllHtml | Select-String -Pattern "<a\s+href=""games/.+/([^/""<>]+)"">([^<>]+)" -AllMatches | % { $_.Matches } 
+	
+	
+	ForEach ($whdownloadGameMatch in $whdownloadGameMatches)
+	{
+		$whdloadFileName = $whdownloadGameMatch.Groups[1].Value
+		$whdloadGameName = $whdownloadGameMatch.Groups[2].Value
+
+		$whdloadGameIndexName = GetGameIndexName $whdloadFileName
+		$whdloadGameIndexPath = [System.IO.Path]::Combine($outputPath, $whdloadGameIndexName)
+		$whdloadGameFile = [System.IO.Path]::Combine($whdloadGameIndexPath, $whdloadFileName)
+
+		$archiveFiles = GetArchiveFiles $whdloadGameFile
+		$uncompressedSize = 0;
+		$compressedSize = 0;
+
+		ForEach($archiveFile in $archiveFiles)
+		{
+			$uncompressedSize += $archiveFile.Size;
+			$compressedSize += $archiveFile.Compressed;
+		}
+		
+		Add-Content $whdownloadIndexPath "$whdloadFileName;$whdloadGameName;$uncompressedSize;$compressedSize"
+	}
 }
 
 # 1. Get whdload game urls
