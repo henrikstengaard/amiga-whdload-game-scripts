@@ -57,6 +57,11 @@ $amigaGameBasePngScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Ga
 $amsBootMenuIffScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "AMS BootMenu")
 
 
+#log paths
+$logPath = [System.IO.Path]::Combine($scriptPath, "logs")
+$logFile = [System.IO.Path]::Combine($logPath, "build_whdload_screenshots_" + [DateTime]::Now.ToString("yyyyMMdd-HHmmss") + ".txt")
+
+
 # set temp path using drive Z:\ (ramdisk), if present
 if (Test-Path -path "Z:\")
 {
@@ -161,7 +166,14 @@ function BuildScreenshotIndex($path, $useDirectoryName)
 }
 
 
-# 1. check if 7-zip is installed, exit if not
+# 1. Create log path, if it doesn't exist
+if(!(test-path -path $logPath))
+{
+	md $logPath | Out-Null
+}
+
+
+# 2. check if 7-zip is installed, exit if not
 if (!(Test-Path -path $sevenZipPath))
 {
 	Write-Error "7-zip is not installed at '$sevenZipPath'"
@@ -169,7 +181,7 @@ if (!(Test-Path -path $sevenZipPath))
 }
 
 
-# 2. check if nconvert is installed, exit if not
+# 3. check if nconvert is installed, exit if not
 if (!(Test-Path -path $nconvertPath))
 {
 	Write-Error "nconvert is not installed at '$nconvertPath'"
@@ -177,7 +189,7 @@ if (!(Test-Path -path $nconvertPath))
 }
 
 
-# 3. check if nconvert is installed, exit if not
+# 4. check if nconvert is installed, exit if not
 if (!(Test-Path -path $imageMagickConvertPath))
 {
 	Write-Error "image magick is not installed at '$imageMagickConvertPath'"
@@ -244,7 +256,15 @@ $whdloadScreenshotIndex = ReadWhdloadScreenshotIndex $whdloadScreenshotIndexPath
 # 13. Process whdload game files
 ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 {
+	# get whdload game slave file name and slave file columns
 	$whdloadGameFileName = $whdloadGameSlave[0]
+	$whdloadGameSlaveFile = $whdloadGameSlave[1]
+
+	if ($whdloadScreenshotIndex.ContainsKey($whdloadGameFileName + $whdloadGameSlaveFile))
+	{
+		Add-Content $logFile "skipping $whdloadGameFileName, $whdloadGameSlaveFile, exists in index"
+		continue
+	}
 
 	$isCd32 = $whdloadGameFileName -match '_cd32'
 	$isAga = $whdloadGameFileName -match '_aga'
@@ -279,13 +299,12 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 
 	if(test-path -path $whdloadScreenshotPath)
 	{
+		Add-Content $logFile "skipping $whdloadGameFileName, $whdloadGameSlaveFile, directory exists"
 		continue
 	}
 	
 	Write-Output $whdloadGameName
 	
-	# get whdload game slave file name and copy columns
-	$whdloadGameSlaveFile = $whdloadGameSlave[1]
 	
 	# get whdload game slave directory from whdload game slave file
 	$whdloadGameSlaveDirectory = [System.IO.Path]::GetDirectoryName($whdloadGameSlaveFile)
@@ -349,6 +368,7 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	# skip, if no screenshot
 	if (!$screenshot)
 	{
+		Add-Content $logFile "skipping $whdloadGameFileName, $whdloadGameSlaveFile, no screenshots found"
 		continue
 	}
 	
