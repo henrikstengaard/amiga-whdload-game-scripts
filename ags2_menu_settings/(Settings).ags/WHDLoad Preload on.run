@@ -1,0 +1,5 @@
+echo "*ec"
+echo "Preload" > AGS:whdloadargs
+copy AGS:whdloadargs ENV:whdloadargs
+echo "WHDLoad Preload turned on"
+wait 3
