@@ -57,7 +57,7 @@ $amigaGameBasePngScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Ga
 $amsBootMenuIffScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "AMS BootMenu")
 
 
-#log paths
+# logs
 $logPath = [System.IO.Path]::Combine($scriptPath, "logs")
 $logFile = [System.IO.Path]::Combine($logPath, "build_whdload_screenshots_" + [DateTime]::Now.ToString("yyyyMMdd-HHmmss") + ".txt")
 
@@ -484,7 +484,7 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	}
 	
 
-	#
+	# create whdload screenshot path
 	if(!(test-path -path $whdloadScreenshotPath))
 	{
 		md $whdloadScreenshotPath | Out-Null
@@ -502,6 +502,7 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	Copy-Item $nconvertiGameScreenshotFile $whdloadiGameScreenshotFile -force
 	Copy-Item $imgToIffAgs2AgaScreenshotFile $whdloadAgs2AgaScreenshotFile -force
 
+	# copy AGS2 OCS screenshot, if it exists
 	if(test-path -path $imgToIffAgs2OcsScreenshotFile)
 	{
 		Copy-Item $imgToIffAgs2OcsScreenshotFile $whdloadAgs2OcsScreenshotFile -force
