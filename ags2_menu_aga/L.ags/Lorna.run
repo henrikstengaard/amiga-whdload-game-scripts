@@ -1,0 +1,6 @@
+cd A-Games1:L/Lorna
+IF $whdloadargs EQ ""
+  whdload Lorna.slave
+ELSE
+  whdload Lorna.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:B/BionicCommando
+IF $whdloadargs EQ ""
+  whdload BionicCommando.slave
+ELSE
+  whdload BionicCommando.slave $whdloadargs
+ENDIF

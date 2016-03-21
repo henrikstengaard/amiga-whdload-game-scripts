@@ -1,0 +1,6 @@
+cd A-Games1:0/4th&Inches
+IF $whdloadargs EQ ""
+  whdload 4th&Inches.Slave
+ELSE
+  whdload 4th&Inches.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:N/NoBuddiesLand
+IF $whdloadargs EQ ""
+  whdload NoBuddiesLand.slave
+ELSE
+  whdload NoBuddiesLand.slave $whdloadargs
+ENDIF

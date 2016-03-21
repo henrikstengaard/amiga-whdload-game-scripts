@@ -1,0 +1,6 @@
+cd A-Games2:U/UniversalMilitarySim
+IF $whdloadargs EQ ""
+  whdload UniversalMilitarySim.Slave
+ELSE
+  whdload UniversalMilitarySim.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/ChuckRock
+IF $whdloadargs EQ ""
+  whdload ChuckRock.Slave
+ELSE
+  whdload ChuckRock.Slave $whdloadargs
+ENDIF

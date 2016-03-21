@@ -1,0 +1,6 @@
+cd A-Games1:P/Plutos
+IF $whdloadargs EQ ""
+  whdload Plutos.Slave
+ELSE
+  whdload Plutos.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/Cabal
+IF $whdloadargs EQ ""
+  whdload Cabal.Slave
+ELSE
+  whdload Cabal.Slave $whdloadargs
+ENDIF

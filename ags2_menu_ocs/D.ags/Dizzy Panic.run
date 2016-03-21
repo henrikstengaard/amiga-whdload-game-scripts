@@ -1,0 +1,6 @@
+cd A-Games1:D/DizzyPanic
+IF $whdloadargs EQ ""
+  whdload DizzyPanic.slave
+ELSE
+  whdload DizzyPanic.slave $whdloadargs
+ENDIF

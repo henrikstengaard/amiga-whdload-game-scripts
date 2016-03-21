@@ -1,0 +1,6 @@
+cd A-Games2:T/Tusker
+IF $whdloadargs EQ ""
+  whdload Tusker.Slave
+ELSE
+  whdload Tusker.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:0/1stDivisionManager
+IF $whdloadargs EQ ""
+  whdload 1stDivisionManager.Slave
+ELSE
+  whdload 1stDivisionManager.Slave $whdloadargs
+ENDIF

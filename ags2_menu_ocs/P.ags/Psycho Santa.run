@@ -1,0 +1,6 @@
+cd A-Games1:P/PsychoSanta
+IF $whdloadargs EQ ""
+  whdload PsychoSanta.Slave
+ELSE
+  whdload PsychoSanta.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:L/LegendsCD32
+IF $whdloadargs EQ ""
+  whdload LegendsCD32.Slave
+ELSE
+  whdload LegendsCD32.Slave $whdloadargs
+ENDIF

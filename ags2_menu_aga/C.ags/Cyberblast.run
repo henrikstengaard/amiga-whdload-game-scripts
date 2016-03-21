@@ -1,0 +1,6 @@
+cd A-Games1:C/Cyberblast
+IF $whdloadargs EQ ""
+  whdload Cyberblast.slave
+ELSE
+  whdload Cyberblast.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:M/MaupitiIsland
+IF $whdloadargs EQ ""
+  whdload MaupitiIsland.Slave
+ELSE
+  whdload MaupitiIsland.Slave $whdloadargs
+ENDIF

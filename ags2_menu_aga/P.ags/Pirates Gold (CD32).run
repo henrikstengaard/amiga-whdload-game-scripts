@@ -1,0 +1,6 @@
+cd A-Games2:P/PiratesGoldCD32
+IF $whdloadargs EQ ""
+  whdload PiratesGoldCD32.slave
+ELSE
+  whdload PiratesGoldCD32.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:I/Intact15MB
+IF $whdloadargs EQ ""
+  whdload Intact15MB.Slave
+ELSE
+  whdload Intact15MB.Slave $whdloadargs
+ENDIF

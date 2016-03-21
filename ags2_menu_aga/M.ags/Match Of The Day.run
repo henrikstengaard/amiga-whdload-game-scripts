@@ -1,0 +1,6 @@
+cd A-Games1:M/MatchOfTheDay
+IF $whdloadargs EQ ""
+  whdload MatchOfTheDay.Slave
+ELSE
+  whdload MatchOfTheDay.Slave $whdloadargs
+ENDIF

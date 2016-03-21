@@ -1,0 +1,6 @@
+cd A-Games1:N/NewYorkWarriors
+IF $whdloadargs EQ ""
+  whdload NewYorkWarriors.Slave
+ELSE
+  whdload NewYorkWarriors.Slave $whdloadargs
+ENDIF

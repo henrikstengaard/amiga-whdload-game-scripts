@@ -1,0 +1,6 @@
+cd A-Games1:N/NoExcuses
+IF $whdloadargs EQ ""
+  whdload NoExcuses.slave
+ELSE
+  whdload NoExcuses.slave $whdloadargs
+ENDIF

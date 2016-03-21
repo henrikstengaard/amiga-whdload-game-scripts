@@ -1,0 +1,6 @@
+cd A-Games1:P/Perihelion
+IF $whdloadargs EQ ""
+  whdload Perihelion.Slave
+ELSE
+  whdload Perihelion.Slave $whdloadargs
+ENDIF

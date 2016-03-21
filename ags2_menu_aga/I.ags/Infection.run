@@ -1,0 +1,6 @@
+cd A-Games1:I/Infection
+IF $whdloadargs EQ ""
+  whdload Infection.Slave
+ELSE
+  whdload Infection.Slave $whdloadargs
+ENDIF

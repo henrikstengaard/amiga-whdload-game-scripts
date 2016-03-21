@@ -1,0 +1,6 @@
+cd A-Games2:T/Titan
+IF $whdloadargs EQ ""
+  whdload Titan.slave
+ELSE
+  whdload Titan.slave $whdloadargs
+ENDIF

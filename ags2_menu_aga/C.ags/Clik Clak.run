@@ -1,0 +1,6 @@
+cd A-Games1:C/ClikClak
+IF $whdloadargs EQ ""
+  whdload ClikClak.Slave
+ELSE
+  whdload ClikClak.Slave $whdloadargs
+ENDIF

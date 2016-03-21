@@ -1,0 +1,6 @@
+cd A-Games1:M/Mindshadow
+IF $whdloadargs EQ ""
+  whdload Mindshadow.Slave
+ELSE
+  whdload Mindshadow.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:F/Firepower
+IF $whdloadargs EQ ""
+  whdload Firepower.Slave
+ELSE
+  whdload Firepower.Slave $whdloadargs
+ENDIF

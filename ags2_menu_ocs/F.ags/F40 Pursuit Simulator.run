@@ -1,0 +1,6 @@
+cd A-Games1:F/F40PursuitSimulator
+IF $whdloadargs EQ ""
+  whdload F40PursuitSimulator.Slave
+ELSE
+  whdload F40PursuitSimulator.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/Corx
+IF $whdloadargs EQ ""
+  whdload Corx.Slave
+ELSE
+  whdload Corx.Slave $whdloadargs
+ENDIF

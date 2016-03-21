@@ -1,0 +1,6 @@
+cd A-Games1:B/BlockShock
+IF $whdloadargs EQ ""
+  whdload BlockShock.Slave
+ELSE
+  whdload BlockShock.Slave $whdloadargs
+ENDIF

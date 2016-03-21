@@ -1,0 +1,6 @@
+cd A-Games1:G/GridStart
+IF $whdloadargs EQ ""
+  whdload GridStart.Slave
+ELSE
+  whdload GridStart.Slave $whdloadargs
+ENDIF

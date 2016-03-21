@@ -1,0 +1,6 @@
+cd A-Games1:D/DownhillChallenge
+IF $whdloadargs EQ ""
+  whdload DownhillChallenge.Slave
+ELSE
+  whdload DownhillChallenge.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:D/DisposableHeroFast
+IF $whdloadargs EQ ""
+  whdload DisposableHeroFast.slave
+ELSE
+  whdload DisposableHeroFast.slave $whdloadargs
+ENDIF

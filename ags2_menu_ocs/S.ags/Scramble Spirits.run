@@ -1,0 +1,6 @@
+cd A-Games2:S/ScrambleSpirits
+IF $whdloadargs EQ ""
+  whdload ScrambleSpirits.Slave
+ELSE
+  whdload ScrambleSpirits.Slave $whdloadargs
+ENDIF

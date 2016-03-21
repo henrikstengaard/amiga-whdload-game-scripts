@@ -1,0 +1,6 @@
+cd A-Games1:C/ColorBuster
+IF $whdloadargs EQ ""
+  whdload ColorBuster.slave
+ELSE
+  whdload ColorBuster.slave $whdloadargs
+ENDIF

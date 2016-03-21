@@ -1,0 +1,6 @@
+cd A-Games1:N/NitroBoostChallenge
+IF $whdloadargs EQ ""
+  whdload NitroBoostChallenge.slave
+ELSE
+  whdload NitroBoostChallenge.slave $whdloadargs
+ENDIF

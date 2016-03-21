@@ -1,0 +1,6 @@
+cd A-Games1:M/ManiacMansion
+IF $whdloadargs EQ ""
+  whdload ManiacMansion.slave
+ELSE
+  whdload ManiacMansion.slave $whdloadargs
+ENDIF

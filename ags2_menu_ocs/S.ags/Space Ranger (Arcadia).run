@@ -1,0 +1,6 @@
+cd A-Games2:S/SpaceRangerArcadia
+IF $whdloadargs EQ ""
+  whdload SpaceRangerArcadia.Slave
+ELSE
+  whdload SpaceRangerArcadia.Slave $whdloadargs
+ENDIF

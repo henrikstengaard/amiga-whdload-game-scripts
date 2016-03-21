@@ -1,0 +1,6 @@
+cd A-Games1:M/Magician
+IF $whdloadargs EQ ""
+  whdload Magician.Slave
+ELSE
+  whdload Magician.Slave $whdloadargs
+ENDIF

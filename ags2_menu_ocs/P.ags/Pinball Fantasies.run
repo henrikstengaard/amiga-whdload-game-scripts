@@ -1,0 +1,6 @@
+cd A-Games1:P/PinballFantasies
+IF $whdloadargs EQ ""
+  whdload PinballFantasies.slave
+ELSE
+  whdload PinballFantasies.slave $whdloadargs
+ENDIF

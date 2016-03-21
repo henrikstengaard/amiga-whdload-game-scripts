@@ -1,0 +1,6 @@
+cd A-Games1:B/BattleChessCDTV
+IF $whdloadargs EQ ""
+  whdload BattleChessCDTV.Slave
+ELSE
+  whdload BattleChessCDTV.Slave $whdloadargs
+ENDIF

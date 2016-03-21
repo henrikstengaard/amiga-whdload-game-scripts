@@ -1,0 +1,6 @@
+cd A-Games1:O/Omega
+IF $whdloadargs EQ ""
+  whdload Omega.Slave
+ELSE
+  whdload Omega.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:H/LemmingsHoliday1993
+IF $whdloadargs EQ ""
+  whdload LemmingsHoliday1993.Slave
+ELSE
+  whdload LemmingsHoliday1993.Slave $whdloadargs
+ENDIF

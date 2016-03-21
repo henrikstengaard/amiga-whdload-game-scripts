@@ -1,0 +1,6 @@
+cd A-Games1:G/GuardianCD32
+IF $whdloadargs EQ ""
+  whdload GuardianCD32.slave
+ELSE
+  whdload GuardianCD32.slave $whdloadargs
+ENDIF

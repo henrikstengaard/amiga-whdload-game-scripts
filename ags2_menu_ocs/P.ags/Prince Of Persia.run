@@ -1,0 +1,6 @@
+cd A-Games1:P/PrinceOfPersia
+IF $whdloadargs EQ ""
+  whdload PrinceOfPersia.slave
+ELSE
+  whdload PrinceOfPersia.slave $whdloadargs
+ENDIF

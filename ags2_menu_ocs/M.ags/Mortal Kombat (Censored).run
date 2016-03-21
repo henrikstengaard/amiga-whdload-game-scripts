@@ -1,0 +1,6 @@
+cd A-Games1:M/MortalKombatCensored
+IF $whdloadargs EQ ""
+  whdload MortalKombatCensored.Slave
+ELSE
+  whdload MortalKombatCensored.Slave $whdloadargs
+ENDIF

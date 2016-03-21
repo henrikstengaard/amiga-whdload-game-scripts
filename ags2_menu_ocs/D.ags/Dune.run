@@ -1,0 +1,6 @@
+cd A-Games1:D/Dune
+IF $whdloadargs EQ ""
+  whdload Dune.Slave
+ELSE
+  whdload Dune.Slave $whdloadargs
+ENDIF

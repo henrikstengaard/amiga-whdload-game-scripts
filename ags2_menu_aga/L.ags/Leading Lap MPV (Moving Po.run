@@ -1,0 +1,6 @@
+cd A-Games1:L/LeadingLapMPVAGA
+IF $whdloadargs EQ ""
+  whdload LeadingLapMPVAGA.slave
+ELSE
+  whdload LeadingLapMPVAGA.slave $whdloadargs
+ENDIF

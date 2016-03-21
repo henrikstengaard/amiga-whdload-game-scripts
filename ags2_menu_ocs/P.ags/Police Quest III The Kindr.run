@@ -1,0 +1,6 @@
+cd A-Games1:P/PoliceQuest3
+IF $whdloadargs EQ ""
+  whdload PoliceQuest3.slave
+ELSE
+  whdload PoliceQuest3.slave $whdloadargs
+ENDIF

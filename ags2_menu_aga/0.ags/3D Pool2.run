@@ -1,0 +1,6 @@
+cd A-Games1:0/3DPool
+IF $whdloadargs EQ ""
+  whdload 3DPool.Slave
+ELSE
+  whdload 3DPool.Slave $whdloadargs
+ENDIF

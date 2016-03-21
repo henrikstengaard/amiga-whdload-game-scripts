@@ -1,0 +1,6 @@
+cd A-Games1:L/Lemmings21MB
+IF $whdloadargs EQ ""
+  whdload Lemmings21MB.slave
+ELSE
+  whdload Lemmings21MB.slave $whdloadargs
+ENDIF

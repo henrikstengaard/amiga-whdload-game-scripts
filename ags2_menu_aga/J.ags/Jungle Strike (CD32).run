@@ -1,0 +1,6 @@
+cd A-Games1:J/JungleStrikeCD32
+IF $whdloadargs EQ ""
+  whdload JungleStrikeCD32.Slave
+ELSE
+  whdload JungleStrikeCD32.Slave $whdloadargs
+ENDIF

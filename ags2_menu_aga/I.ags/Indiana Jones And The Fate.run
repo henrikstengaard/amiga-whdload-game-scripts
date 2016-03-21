@@ -1,0 +1,6 @@
+cd A-Games1:I/IndianaJonesAtlantisAct
+IF $whdloadargs EQ ""
+  whdload IndianaJonesAtlantisAct.slave
+ELSE
+  whdload IndianaJonesAtlantisAct.slave $whdloadargs
+ENDIF

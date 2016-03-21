@@ -1,0 +1,6 @@
+cd A-Games1:D/Dominium
+IF $whdloadargs EQ ""
+  whdload Dominium.Slave
+ELSE
+  whdload Dominium.Slave $whdloadargs
+ENDIF

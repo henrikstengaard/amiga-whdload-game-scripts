@@ -1,0 +1,6 @@
+cd A-Games1:C/ChaosStrikesBack
+IF $whdloadargs EQ ""
+  whdload ChaosStrikesBack.Slave
+ELSE
+  whdload ChaosStrikesBack.Slave $whdloadargs
+ENDIF

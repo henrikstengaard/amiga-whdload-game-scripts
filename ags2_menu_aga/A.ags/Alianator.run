@@ -1,0 +1,6 @@
+cd A-Games1:A/Alianator
+IF $whdloadargs EQ ""
+  whdload Alianator.Slave
+ELSE
+  whdload Alianator.Slave $whdloadargs
+ENDIF

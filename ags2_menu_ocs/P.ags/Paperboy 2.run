@@ -1,0 +1,6 @@
+cd A-Games1:P/Paperboy2
+IF $whdloadargs EQ ""
+  whdload Paperboy2.slave
+ELSE
+  whdload Paperboy2.slave $whdloadargs
+ENDIF

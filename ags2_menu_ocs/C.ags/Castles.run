@@ -1,0 +1,6 @@
+cd A-Games1:C/Castles
+IF $whdloadargs EQ ""
+  whdload Castles.slave
+ELSE
+  whdload Castles.slave $whdloadargs
+ENDIF

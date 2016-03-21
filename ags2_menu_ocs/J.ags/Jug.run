@@ -1,0 +1,6 @@
+cd A-Games1:J/Jug
+IF $whdloadargs EQ ""
+  whdload Jug.Slave
+ELSE
+  whdload Jug.Slave $whdloadargs
+ENDIF

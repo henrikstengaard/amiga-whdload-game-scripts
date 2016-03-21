@@ -1,0 +1,6 @@
+cd A-Games1:N/NoExit
+IF $whdloadargs EQ ""
+  whdload NoExit.Slave
+ELSE
+  whdload NoExit.Slave $whdloadargs
+ENDIF

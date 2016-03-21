@@ -1,0 +1,6 @@
+cd A-Games1:P/PowerPinballCDTV
+IF $whdloadargs EQ ""
+  whdload PowerPinballCDTV.slave
+ELSE
+  whdload PowerPinballCDTV.slave $whdloadargs
+ENDIF

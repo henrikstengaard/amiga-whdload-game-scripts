@@ -1,0 +1,6 @@
+cd A-Games1:C/Cyberpunks
+IF $whdloadargs EQ ""
+  whdload Cyberpunks.Slave
+ELSE
+  whdload Cyberpunks.Slave $whdloadargs
+ENDIF

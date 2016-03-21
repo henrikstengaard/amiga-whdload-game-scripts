@@ -1,0 +1,6 @@
+cd A-Games1:A/AmigaKarate
+IF $whdloadargs EQ ""
+  whdload AmigaKarate.Slave
+ELSE
+  whdload AmigaKarate.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:T/TurboCupFr
+IF $whdloadargs EQ ""
+  whdload TurboCupFr.Slave
+ELSE
+  whdload TurboCupFr.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:Q/QuestionOfSport
+IF $whdloadargs EQ ""
+  whdload QuestionOfSport.Slave
+ELSE
+  whdload QuestionOfSport.Slave $whdloadargs
+ENDIF

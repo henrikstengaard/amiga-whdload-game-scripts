@@ -1,0 +1,6 @@
+cd A-Games1:Q/Qwak
+IF $whdloadargs EQ ""
+  whdload Qwak.Slave
+ELSE
+  whdload Qwak.Slave $whdloadargs
+ENDIF

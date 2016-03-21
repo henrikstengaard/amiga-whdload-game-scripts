@@ -1,0 +1,6 @@
+cd A-Games1:H/HoundOfShadow
+IF $whdloadargs EQ ""
+  whdload HoundOfShadow.Slave
+ELSE
+  whdload HoundOfShadow.Slave $whdloadargs
+ENDIF

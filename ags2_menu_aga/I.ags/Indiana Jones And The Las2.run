@@ -1,0 +1,6 @@
+cd A-Games1:I/IndyLastCrusade
+IF $whdloadargs EQ ""
+  whdload IndyLastCrusade.slave
+ELSE
+  whdload IndyLastCrusade.slave $whdloadargs
+ENDIF

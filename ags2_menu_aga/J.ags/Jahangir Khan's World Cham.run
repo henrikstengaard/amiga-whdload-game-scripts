@@ -1,0 +1,6 @@
+cd A-Games1:J/JahangirKhansWChampSquash
+IF $whdloadargs EQ ""
+  whdload JahangirKhansWChampSquash.Slave
+ELSE
+  whdload JahangirKhansWChampSquash.Slave $whdloadargs
+ENDIF

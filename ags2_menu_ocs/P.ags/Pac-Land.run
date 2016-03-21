@@ -1,0 +1,6 @@
+cd A-Games1:P/PacLand
+IF $whdloadargs EQ ""
+  whdload PacLand.Slave
+ELSE
+  whdload PacLand.Slave $whdloadargs
+ENDIF

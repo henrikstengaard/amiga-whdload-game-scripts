@@ -1,0 +1,6 @@
+cd A-Games1:H/Hugo1Dk
+IF $whdloadargs EQ ""
+  whdload Hugo1Dk.Slave
+ELSE
+  whdload Hugo1Dk.Slave $whdloadargs
+ENDIF

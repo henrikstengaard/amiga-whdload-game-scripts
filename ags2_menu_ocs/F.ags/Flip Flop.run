@@ -1,0 +1,6 @@
+cd A-Games1:F/FlipFlop
+IF $whdloadargs EQ ""
+  whdload FlipFlop.Slave
+ELSE
+  whdload FlipFlop.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/CrazySeasons
+IF $whdloadargs EQ ""
+  whdload CrazySeasons.Slave
+ELSE
+  whdload CrazySeasons.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:Q/QuestForGlory2
+IF $whdloadargs EQ ""
+  whdload QuestForGlory2.Slave
+ELSE
+  whdload QuestForGlory2.Slave $whdloadargs
+ENDIF

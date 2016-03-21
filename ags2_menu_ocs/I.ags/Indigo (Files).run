@@ -1,0 +1,6 @@
+cd A-Games1:I/IndigoFiles
+IF $whdloadargs EQ ""
+  whdload IndigoFiles.Slave
+ELSE
+  whdload IndigoFiles.Slave $whdloadargs
+ENDIF

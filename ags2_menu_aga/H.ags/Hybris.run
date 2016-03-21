@@ -1,0 +1,6 @@
+cd A-Games1:H/Hybris
+IF $whdloadargs EQ ""
+  whdload Hybris.slave
+ELSE
+  whdload Hybris.slave $whdloadargs
+ENDIF

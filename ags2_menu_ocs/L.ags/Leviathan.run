@@ -1,0 +1,6 @@
+cd A-Games1:L/Leviathan
+IF $whdloadargs EQ ""
+  whdload Leviathan.Slave
+ELSE
+  whdload Leviathan.Slave $whdloadargs
+ENDIF

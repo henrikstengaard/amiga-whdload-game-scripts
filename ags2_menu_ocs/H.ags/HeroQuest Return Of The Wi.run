@@ -1,0 +1,6 @@
+cd A-Games1:H/HeroQuest&ReturnWitchLord
+IF $whdloadargs EQ ""
+  whdload HeroQuest&ReturnWitchLord.Slave
+ELSE
+  whdload HeroQuest&ReturnWitchLord.Slave $whdloadargs
+ENDIF

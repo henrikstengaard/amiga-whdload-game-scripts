@@ -1,0 +1,6 @@
+cd A-Games1:B/BlackViperCD32
+IF $whdloadargs EQ ""
+  whdload BlackViperCD32.Slave
+ELSE
+  whdload BlackViperCD32.Slave $whdloadargs
+ENDIF

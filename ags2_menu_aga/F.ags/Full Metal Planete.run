@@ -1,0 +1,6 @@
+cd A-Games1:F/FullMetalPlanete
+IF $whdloadargs EQ ""
+  whdload FullMetalPlanete.Slave
+ELSE
+  whdload FullMetalPlanete.Slave $whdloadargs
+ENDIF

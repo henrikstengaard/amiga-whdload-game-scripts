@@ -1,0 +1,6 @@
+cd A-Games1:K/KrustysSuperFunHouse
+IF $whdloadargs EQ ""
+  whdload KrustysSuperFunHouse.Slave
+ELSE
+  whdload KrustysSuperFunHouse.Slave $whdloadargs
+ENDIF

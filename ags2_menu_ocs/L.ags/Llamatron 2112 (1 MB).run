@@ -1,0 +1,6 @@
+cd A-Games1:L/Llamatron1MB
+IF $whdloadargs EQ ""
+  whdload Llamatron1MB.Slave
+ELSE
+  whdload Llamatron1MB.Slave $whdloadargs
+ENDIF

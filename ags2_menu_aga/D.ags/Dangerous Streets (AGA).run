@@ -1,0 +1,6 @@
+cd A-Games1:D/DangerousStreetsAGA
+IF $whdloadargs EQ ""
+  whdload DangerousStreetsAGA.slave
+ELSE
+  whdload DangerousStreetsAGA.slave $whdloadargs
+ENDIF

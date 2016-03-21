@@ -1,0 +1,6 @@
+cd A-Games2:W/WesternGames
+IF $whdloadargs EQ ""
+  whdload WesternGames.Slave
+ELSE
+  whdload WesternGames.Slave $whdloadargs
+ENDIF

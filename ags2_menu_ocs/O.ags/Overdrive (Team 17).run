@@ -1,0 +1,6 @@
+cd A-Games1:O/Overdrive
+IF $whdloadargs EQ ""
+  whdload Overdrive.Slave
+ELSE
+  whdload Overdrive.Slave $whdloadargs
+ENDIF

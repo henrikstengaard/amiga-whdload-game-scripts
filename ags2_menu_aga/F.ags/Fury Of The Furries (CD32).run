@@ -1,0 +1,6 @@
+cd A-Games1:F/FuryOfTheFurriesCD32
+IF $whdloadargs EQ ""
+  whdload FuryOfTheFurriesCD32.Slave
+ELSE
+  whdload FuryOfTheFurriesCD32.Slave $whdloadargs
+ENDIF

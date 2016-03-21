@@ -1,0 +1,6 @@
+cd A-Games1:G/GlobalGladiators
+IF $whdloadargs EQ ""
+  whdload GlobalGladiators.slave
+ELSE
+  whdload GlobalGladiators.slave $whdloadargs
+ENDIF

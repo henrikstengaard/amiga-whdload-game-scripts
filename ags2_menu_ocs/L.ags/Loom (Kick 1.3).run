@@ -1,0 +1,6 @@
+cd A-Games1:L/LoomKick13
+IF $whdloadargs EQ ""
+  whdload LoomKick13.slave
+ELSE
+  whdload LoomKick13.slave $whdloadargs
+ENDIF

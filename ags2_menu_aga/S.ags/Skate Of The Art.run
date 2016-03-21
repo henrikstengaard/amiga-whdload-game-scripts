@@ -1,0 +1,6 @@
+cd A-Games2:S/SkateOfTheArt
+IF $whdloadargs EQ ""
+  whdload SkateOfTheArt.Slave
+ELSE
+  whdload SkateOfTheArt.Slave $whdloadargs
+ENDIF

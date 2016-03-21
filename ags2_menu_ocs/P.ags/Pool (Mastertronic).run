@@ -1,0 +1,6 @@
+cd A-Games1:P/Pool
+IF $whdloadargs EQ ""
+  whdload Pool.Slave
+ELSE
+  whdload Pool.Slave $whdloadargs
+ENDIF

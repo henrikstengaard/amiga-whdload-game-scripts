@@ -1,0 +1,6 @@
+cd A-Games2:S/SuprStrtFtr2TrboCD32
+IF $whdloadargs EQ ""
+  whdload SuprStrtFtr2TrboIntroCD32.slave
+ELSE
+  whdload SuprStrtFtr2TrboIntroCD32.slave $whdloadargs
+ENDIF

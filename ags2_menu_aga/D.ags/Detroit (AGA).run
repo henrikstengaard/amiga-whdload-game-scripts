@@ -1,0 +1,6 @@
+cd A-Games1:D/DetroitAGA
+IF $whdloadargs EQ ""
+  whdload DetroitAGA.Slave
+ELSE
+  whdload DetroitAGA.Slave $whdloadargs
+ENDIF

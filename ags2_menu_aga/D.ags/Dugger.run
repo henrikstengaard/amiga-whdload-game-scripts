@@ -1,0 +1,6 @@
+cd A-Games1:D/Dugger
+IF $whdloadargs EQ ""
+  whdload Dugger.Slave
+ELSE
+  whdload Dugger.Slave $whdloadargs
+ENDIF

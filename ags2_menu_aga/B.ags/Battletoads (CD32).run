@@ -1,0 +1,6 @@
+cd A-Games1:B/BattletoadsCD32
+IF $whdloadargs EQ ""
+  whdload BattletoadsCD32.slave
+ELSE
+  whdload BattletoadsCD32.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:P/PopulousWorldEditor
+IF $whdloadargs EQ ""
+  whdload PopulousWorldEditor.Slave
+ELSE
+  whdload PopulousWorldEditor.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:F/FireAndBrimstone
+IF $whdloadargs EQ ""
+  whdload FireAndBrimstone.Slave
+ELSE
+  whdload FireAndBrimstone.Slave $whdloadargs
+ENDIF

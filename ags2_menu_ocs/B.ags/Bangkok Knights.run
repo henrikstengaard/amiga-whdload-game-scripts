@@ -1,0 +1,6 @@
+cd A-Games1:B/BangkokKnights
+IF $whdloadargs EQ ""
+  whdload BangkokKnights.slave
+ELSE
+  whdload BangkokKnights.slave $whdloadargs
+ENDIF

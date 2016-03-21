@@ -1,0 +1,6 @@
+cd A-Games1:B/BattleIsle&DataDisks
+IF $whdloadargs EQ ""
+  whdload BattleIsle.Slave
+ELSE
+  whdload BattleIsle.Slave $whdloadargs
+ENDIF

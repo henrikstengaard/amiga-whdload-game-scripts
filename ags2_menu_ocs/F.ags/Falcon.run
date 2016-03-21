@@ -1,0 +1,6 @@
+cd A-Games1:F/Falcon
+IF $whdloadargs EQ ""
+  whdload Falcon.Slave
+ELSE
+  whdload Falcon.Slave $whdloadargs
+ENDIF

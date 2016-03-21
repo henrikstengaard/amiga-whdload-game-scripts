@@ -1,0 +1,6 @@
+cd A-Games1:F/FoundationsWaste
+IF $whdloadargs EQ ""
+  whdload FoundationsWaste.Slave
+ELSE
+  whdload FoundationsWaste.Slave $whdloadargs
+ENDIF

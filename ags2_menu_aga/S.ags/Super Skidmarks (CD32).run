@@ -1,0 +1,6 @@
+cd A-Games2:S/SuperSkidmarksCD32
+IF $whdloadargs EQ ""
+  whdload SuperSkidMarksCD32.Slave
+ELSE
+  whdload SuperSkidMarksCD32.Slave $whdloadargs
+ENDIF

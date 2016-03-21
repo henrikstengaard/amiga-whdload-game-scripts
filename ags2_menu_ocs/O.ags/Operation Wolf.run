@@ -1,0 +1,6 @@
+cd A-Games1:O/OperationWolf
+IF $whdloadargs EQ ""
+  whdload OperationWolf.Slave
+ELSE
+  whdload OperationWolf.Slave $whdloadargs
+ENDIF

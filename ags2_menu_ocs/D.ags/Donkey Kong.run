@@ -1,0 +1,6 @@
+cd A-Games1:D/DonkeyKong
+IF $whdloadargs EQ ""
+  whdload DonkeyKong.slave
+ELSE
+  whdload DonkeyKong.slave $whdloadargs
+ENDIF

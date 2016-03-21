@@ -1,0 +1,6 @@
+cd A-Games1:P/PhotonStorm
+IF $whdloadargs EQ ""
+  whdload PhotonStorm.slave
+ELSE
+  whdload PhotonStorm.slave $whdloadargs
+ENDIF

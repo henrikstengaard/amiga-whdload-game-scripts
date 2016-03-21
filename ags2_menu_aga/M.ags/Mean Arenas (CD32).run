@@ -1,0 +1,6 @@
+cd A-Games1:M/MeanArenasCD32
+IF $whdloadargs EQ ""
+  whdload MeanArenasCD32.slave
+ELSE
+  whdload MeanArenasCD32.slave $whdloadargs
+ENDIF

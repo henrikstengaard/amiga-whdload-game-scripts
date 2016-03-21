@@ -1,0 +1,6 @@
+cd A-Games2:P/ProTennisSimulatorFiles
+IF $whdloadargs EQ ""
+  whdload ProTennisSimulatorFiles.Slave
+ELSE
+  whdload ProTennisSimulatorFiles.Slave $whdloadargs
+ENDIF

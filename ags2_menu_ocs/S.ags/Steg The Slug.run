@@ -1,0 +1,6 @@
+cd A-Games2:S/StegTheSlug
+IF $whdloadargs EQ ""
+  whdload StegTheSlug.slave
+ELSE
+  whdload StegTheSlug.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:S/ShadowFighterCD32
+IF $whdloadargs EQ ""
+  whdload ShadowFighterCD32.Slave
+ELSE
+  whdload ShadowFighterCD32.Slave $whdloadargs
+ENDIF

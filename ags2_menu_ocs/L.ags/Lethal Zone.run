@@ -1,0 +1,6 @@
+cd A-Games1:L/LethalZone
+IF $whdloadargs EQ ""
+  whdload LethalZone.Slave
+ELSE
+  whdload LethalZone.Slave $whdloadargs
+ENDIF

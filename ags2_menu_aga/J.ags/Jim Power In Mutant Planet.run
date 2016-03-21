@@ -1,0 +1,6 @@
+cd A-Games1:J/JimPower
+IF $whdloadargs EQ ""
+  whdload JimPower.Slave
+ELSE
+  whdload JimPower.Slave $whdloadargs
+ENDIF

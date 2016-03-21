@@ -1,0 +1,6 @@
+cd A-Games1:N/NightShift
+IF $whdloadargs EQ ""
+  whdload NightShift.slave
+ELSE
+  whdload NightShift.slave $whdloadargs
+ENDIF

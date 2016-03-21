@@ -1,0 +1,6 @@
+cd A-Games1:0/4DSportsDriving
+IF $whdloadargs EQ ""
+  whdload 4DSportsDriving.Slave
+ELSE
+  whdload 4DSportsDriving.Slave $whdloadargs
+ENDIF

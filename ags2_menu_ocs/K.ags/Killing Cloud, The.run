@@ -1,0 +1,6 @@
+cd A-Games1:K/KillingCloud
+IF $whdloadargs EQ ""
+  whdload KillingCloud.Slave
+ELSE
+  whdload KillingCloud.Slave $whdloadargs
+ENDIF

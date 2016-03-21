@@ -1,0 +1,6 @@
+cd A-Games1:C/Commando
+IF $whdloadargs EQ ""
+  whdload Commando.Slave
+ELSE
+  whdload Commando.Slave $whdloadargs
+ENDIF

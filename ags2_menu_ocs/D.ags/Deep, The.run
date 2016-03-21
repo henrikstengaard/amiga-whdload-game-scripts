@@ -1,0 +1,6 @@
+cd A-Games1:D/Deep
+IF $whdloadargs EQ ""
+  whdload Deep.Slave
+ELSE
+  whdload Deep.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:U/Untouchables
+IF $whdloadargs EQ ""
+  whdload Untouchables.Slave
+ELSE
+  whdload Untouchables.Slave $whdloadargs
+ENDIF

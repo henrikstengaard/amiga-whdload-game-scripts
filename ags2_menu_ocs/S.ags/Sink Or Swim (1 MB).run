@@ -1,0 +1,6 @@
+cd A-Games2:S/SinkOrSwim1MB
+IF $whdloadargs EQ ""
+  whdload SinkOrSwim1MB.Slave
+ELSE
+  whdload SinkOrSwim1MB.Slave $whdloadargs
+ENDIF

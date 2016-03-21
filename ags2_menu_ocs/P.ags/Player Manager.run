@@ -1,0 +1,6 @@
+cd A-Games1:P/PlayerManager
+IF $whdloadargs EQ ""
+  whdload PlayerManager.slave
+ELSE
+  whdload PlayerManager.slave $whdloadargs
+ENDIF

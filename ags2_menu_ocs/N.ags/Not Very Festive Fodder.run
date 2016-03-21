@@ -1,0 +1,6 @@
+cd A-Games1:N/NotVeryFestiveFodder
+IF $whdloadargs EQ ""
+  whdload NotVeryFestiveFodder.Slave
+ELSE
+  whdload NotVeryFestiveFodder.Slave $whdloadargs
+ENDIF

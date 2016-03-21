@@ -1,0 +1,6 @@
+cd A-Games1:A/Arcticfox
+IF $whdloadargs EQ ""
+  whdload ArcticFox.Slave
+ELSE
+  whdload ArcticFox.Slave $whdloadargs
+ENDIF

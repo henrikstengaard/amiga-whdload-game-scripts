@@ -1,0 +1,6 @@
+cd A-Games1:P/Plague
+IF $whdloadargs EQ ""
+  whdload Plague.slave
+ELSE
+  whdload Plague.slave $whdloadargs
+ENDIF

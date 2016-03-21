@@ -1,0 +1,6 @@
+cd A-Games1:D/DizzyDice
+IF $whdloadargs EQ ""
+  whdload DizzyDice.Slave
+ELSE
+  whdload DizzyDice.Slave $whdloadargs
+ENDIF

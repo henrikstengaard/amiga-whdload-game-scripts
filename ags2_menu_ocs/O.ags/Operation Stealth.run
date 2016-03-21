@@ -1,0 +1,6 @@
+cd A-Games1:O/OperationStealth
+IF $whdloadargs EQ ""
+  whdload OperationStealth.slave
+ELSE
+  whdload OperationStealth.slave $whdloadargs
+ENDIF

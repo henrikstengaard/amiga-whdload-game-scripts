@@ -1,0 +1,6 @@
+cd A-Games1:P/Predator2
+IF $whdloadargs EQ ""
+  whdload Predator2.Slave
+ELSE
+  whdload Predator2.Slave $whdloadargs
+ENDIF

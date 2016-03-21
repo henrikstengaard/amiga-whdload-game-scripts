@@ -1,0 +1,6 @@
+cd A-Games1:B/BurningRubber
+IF $whdloadargs EQ ""
+  whdload BurningRubber.slave
+ELSE
+  whdload BurningRubber.slave $whdloadargs
+ENDIF

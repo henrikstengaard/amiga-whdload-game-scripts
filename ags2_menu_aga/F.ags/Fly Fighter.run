@@ -1,0 +1,6 @@
+cd A-Games1:F/FlyFighter
+IF $whdloadargs EQ ""
+  whdload FlyFighter.Slave
+ELSE
+  whdload FlyFighter.Slave $whdloadargs
+ENDIF

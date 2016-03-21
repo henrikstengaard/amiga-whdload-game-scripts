@@ -1,0 +1,6 @@
+cd A-Games2:O/OhNoMoreLemmings
+IF $whdloadargs EQ ""
+  whdload OhNoMoreLemmings.Slave
+ELSE
+  whdload OhNoMoreLemmings.Slave $whdloadargs
+ENDIF

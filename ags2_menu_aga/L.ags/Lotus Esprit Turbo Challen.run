@@ -1,0 +1,6 @@
+cd A-Games1:L/LotusCD32
+IF $whdloadargs EQ ""
+  whdload LotusCD32.Slave
+ELSE
+  whdload LotusCD32.Slave $whdloadargs
+ENDIF

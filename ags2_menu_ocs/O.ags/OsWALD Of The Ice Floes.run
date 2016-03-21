@@ -1,0 +1,6 @@
+cd A-Games1:O/OsWALDOfTheIceFloes
+IF $whdloadargs EQ ""
+  whdload OsWALDOfTheIceFloes.Slave
+ELSE
+  whdload OsWALDOfTheIceFloes.Slave $whdloadargs
+ENDIF

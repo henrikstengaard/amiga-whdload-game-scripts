@@ -1,0 +1,6 @@
+cd A-Games1:E/Elvira2
+IF $whdloadargs EQ ""
+  whdload Elvira2.Slave
+ELSE
+  whdload Elvira2.Slave $whdloadargs
+ENDIF

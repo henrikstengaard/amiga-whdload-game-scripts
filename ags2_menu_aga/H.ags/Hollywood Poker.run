@@ -1,0 +1,6 @@
+cd A-Games1:H/HollywoodPoker
+IF $whdloadargs EQ ""
+  whdload HollywoodPoker.Slave
+ELSE
+  whdload HollywoodPoker.Slave $whdloadargs
+ENDIF

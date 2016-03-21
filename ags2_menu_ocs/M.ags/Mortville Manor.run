@@ -1,0 +1,6 @@
+cd A-Games1:M/MortvilleManor
+IF $whdloadargs EQ ""
+  whdload MortvilleManor.Slave
+ELSE
+  whdload MortvilleManor.Slave $whdloadargs
+ENDIF

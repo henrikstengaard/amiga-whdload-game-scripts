@@ -1,0 +1,6 @@
+cd A-Games1:P/ParanoiaComplex
+IF $whdloadargs EQ ""
+  whdload ParanoiaComplex.Slave
+ELSE
+  whdload ParanoiaComplex.Slave $whdloadargs
+ENDIF

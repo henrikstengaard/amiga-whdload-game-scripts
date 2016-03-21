@@ -1,0 +1,6 @@
+cd A-Games2:S/SensibleSoccerEuro
+IF $whdloadargs EQ ""
+  whdload SensibleSoccerEuro.Slave
+ELSE
+  whdload SensibleSoccerEuro.Slave $whdloadargs
+ENDIF

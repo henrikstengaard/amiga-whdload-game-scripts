@@ -1,0 +1,6 @@
+cd A-Games1:H/Heimdall2CD32
+IF $whdloadargs EQ ""
+  whdload Heimdall2CD32.Slave
+ELSE
+  whdload Heimdall2CD32.Slave $whdloadargs
+ENDIF

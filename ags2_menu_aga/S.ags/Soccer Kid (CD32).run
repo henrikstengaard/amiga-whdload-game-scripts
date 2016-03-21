@@ -1,0 +1,6 @@
+cd A-Games2:S/SoccerKidCD32
+IF $whdloadargs EQ ""
+  whdload SoccerKidCD32.Slave
+ELSE
+  whdload SoccerKidCD32.Slave $whdloadargs
+ENDIF

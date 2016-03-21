@@ -1,0 +1,6 @@
+cd A-Games2:W/WormsCD321MB
+IF $whdloadargs EQ ""
+  whdload WormsCD321MB.Slave
+ELSE
+  whdload WormsCD321MB.Slave $whdloadargs
+ENDIF

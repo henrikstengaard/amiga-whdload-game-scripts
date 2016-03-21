@@ -1,0 +1,6 @@
+cd A-Games1:0/688AttackSub
+IF $whdloadargs EQ ""
+  whdload 688AttackSub.slave
+ELSE
+  whdload 688AttackSub.slave $whdloadargs
+ENDIF

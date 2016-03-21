@@ -1,0 +1,6 @@
+cd A-Games1:P/POW
+IF $whdloadargs EQ ""
+  whdload POW.Slave
+ELSE
+  whdload POW.Slave $whdloadargs
+ENDIF

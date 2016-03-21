@@ -1,0 +1,6 @@
+cd A-Games1:M/MiniGolf
+IF $whdloadargs EQ ""
+  whdload MiniGolf.Slave
+ELSE
+  whdload MiniGolf.Slave $whdloadargs
+ENDIF

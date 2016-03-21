@@ -1,0 +1,6 @@
+cd A-Games1:G/Genesia
+IF $whdloadargs EQ ""
+  whdload Genesia.slave
+ELSE
+  whdload Genesia.slave $whdloadargs
+ENDIF

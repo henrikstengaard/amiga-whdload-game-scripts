@@ -1,0 +1,6 @@
+cd A-Games1:P/ProSoccer2190
+IF $whdloadargs EQ ""
+  whdload ProSoccer2190.Slave
+ELSE
+  whdload ProSoccer2190.Slave $whdloadargs
+ENDIF

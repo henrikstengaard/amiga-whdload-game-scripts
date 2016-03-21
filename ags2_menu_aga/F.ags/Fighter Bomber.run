@@ -1,0 +1,6 @@
+cd A-Games1:F/FighterBomber
+IF $whdloadargs EQ ""
+  whdload FighterBomber.slave
+ELSE
+  whdload FighterBomber.slave $whdloadargs
+ENDIF

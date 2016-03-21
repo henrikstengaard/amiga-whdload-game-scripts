@@ -1,0 +1,6 @@
+cd A-Games2:S/StripPotCD32
+IF $whdloadargs EQ ""
+  whdload StripPotCD32.Slave
+ELSE
+  whdload StripPotCD32.Slave $whdloadargs
+ENDIF

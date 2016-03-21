@@ -1,0 +1,6 @@
+cd A-Games2:T/TBird
+IF $whdloadargs EQ ""
+  whdload TBird.Slave
+ELSE
+  whdload TBird.Slave $whdloadargs
+ENDIF

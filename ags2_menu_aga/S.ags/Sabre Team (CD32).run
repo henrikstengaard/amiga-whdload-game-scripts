@@ -1,0 +1,6 @@
+cd A-Games2:S/SabreTeamCD32
+IF $whdloadargs EQ ""
+  whdload SabreTeamCD32.Slave
+ELSE
+  whdload SabreTeamCD32.Slave $whdloadargs
+ENDIF

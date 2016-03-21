@@ -1,0 +1,6 @@
+cd A-Games1:P/Prehistorik
+IF $whdloadargs EQ ""
+  whdload Prehistorik.slave
+ELSE
+  whdload Prehistorik.slave $whdloadargs
+ENDIF

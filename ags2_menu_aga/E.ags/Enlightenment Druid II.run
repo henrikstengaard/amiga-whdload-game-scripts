@@ -1,0 +1,6 @@
+cd A-Games1:E/Enlightenment
+IF $whdloadargs EQ ""
+  whdload Enlightenment.Slave
+ELSE
+  whdload Enlightenment.Slave $whdloadargs
+ENDIF

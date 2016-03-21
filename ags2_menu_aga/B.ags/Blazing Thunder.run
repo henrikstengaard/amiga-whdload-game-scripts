@@ -1,0 +1,6 @@
+cd A-Games1:B/BlazingThunder
+IF $whdloadargs EQ ""
+  whdload BlazingThunder.Slave
+ELSE
+  whdload BlazingThunder.Slave $whdloadargs
+ENDIF

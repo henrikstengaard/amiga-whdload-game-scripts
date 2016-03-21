@@ -1,0 +1,6 @@
+cd A-Games1:J/Jet&HawaiianScenery
+IF $whdloadargs EQ ""
+  whdload Jet&HawaiianScenery.Slave
+ELSE
+  whdload Jet&HawaiianScenery.Slave $whdloadargs
+ENDIF

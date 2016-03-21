@@ -1,0 +1,6 @@
+cd A-Games1:C/CodeNameIceman
+IF $whdloadargs EQ ""
+  whdload CodeNameIceman.slave
+ELSE
+  whdload CodeNameIceman.slave $whdloadargs
+ENDIF

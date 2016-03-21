@@ -1,0 +1,6 @@
+cd A-Games2:U/UnsensibleSoccer
+IF $whdloadargs EQ ""
+  whdload UnsensibleSoccer.Slave
+ELSE
+  whdload UnsensibleSoccer.Slave $whdloadargs
+ENDIF

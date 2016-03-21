@@ -1,0 +1,6 @@
+cd A-Games1:P/PowerDrive
+IF $whdloadargs EQ ""
+  whdload PowerDrive.Slave
+ELSE
+  whdload PowerDrive.Slave $whdloadargs
+ENDIF

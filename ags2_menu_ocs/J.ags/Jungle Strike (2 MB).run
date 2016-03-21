@@ -1,0 +1,6 @@
+cd A-Games1:J/JungleStrike2MB
+IF $whdloadargs EQ ""
+  whdload JungleStrike2MB.Slave
+ELSE
+  whdload JungleStrike2MB.Slave $whdloadargs
+ENDIF

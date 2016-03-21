@@ -1,0 +1,6 @@
+cd A-Games1:D/DungeonMaster2AGA
+IF $whdloadargs EQ ""
+  whdload DungeonMaster2AGA.Slave
+ELSE
+  whdload DungeonMaster2AGA.Slave $whdloadargs
+ENDIF

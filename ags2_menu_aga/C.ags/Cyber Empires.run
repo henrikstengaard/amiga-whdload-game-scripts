@@ -1,0 +1,6 @@
+cd A-Games1:C/CyberEmpires
+IF $whdloadargs EQ ""
+  whdload CyberEmpires.Slave
+ELSE
+  whdload CyberEmpires.Slave $whdloadargs
+ENDIF

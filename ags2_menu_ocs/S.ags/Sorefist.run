@@ -1,0 +1,6 @@
+cd A-Games2:S/Sorefist
+IF $whdloadargs EQ ""
+  whdload Sorefist.Slave
+ELSE
+  whdload Sorefist.Slave $whdloadargs
+ENDIF

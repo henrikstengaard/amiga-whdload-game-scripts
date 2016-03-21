@@ -1,0 +1,6 @@
+cd A-Games1:C/CombatAirPatrol
+IF $whdloadargs EQ ""
+  whdload CombatAirPatrol.slave
+ELSE
+  whdload CombatAirPatrol.slave $whdloadargs
+ENDIF
