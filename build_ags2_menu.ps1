@@ -298,11 +298,25 @@ ForEach ($whdloadGameFile in $whdloadGameFiles)
 		
 		$whdloadExtractPath = $whdloadExtract[1]
 		$whdloadGamePath = "$($whdloadExtractPath)/$($whdloadGameSlaveDirectory)"
+
+		$ags2GameRunLines = @( 
+			"cd $($whdloadGamePath)", 
+			"IF `$whdloadargs EQ """"", 
+			"  whdload $($whdloadGameSlaveFileName)", 
+			"ELSE", 
+			"  whdload $($whdloadGameSlaveFileName) `$whdloadargs", 
+			"ENDIF" )
 		
 		# write ags 2 game run file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2GameRunFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes("cd $($whdloadGamePath)`nwhdload $($whdloadGameSlaveFileName) `$whdloadargs`n")), [System.Text.Encoding]::ASCII)
+		[System.IO.File]::WriteAllText($ags2GameRunFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2GameRunLines -join "`n")), [System.Text.Encoding]::ASCII)
 
+		$ags2GameTxtLines = @(
+			"$($whdloadGameName)",
+			"",
+			"$($whdloadGameSlaveName)"
+			"$($whdloadGameSlaveCopy)")
+		
 		# write ags 2 game txt file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2GameTxtFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes("$($whdloadGameName)`n`n$($whdloadGameSlaveName)`n$($whdloadGameSlaveCopy)`n")), [System.Text.Encoding]::ASCII)
+		[System.IO.File]::WriteAllText($ags2GameTxtFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2GameTxtLines -join "`n")), [System.Text.Encoding]::ASCII)
 	}
 }
