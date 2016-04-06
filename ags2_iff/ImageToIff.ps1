@@ -14,7 +14,7 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[string]$iffPath,
 	[Parameter(Mandatory=$false)]
-	[bool]$pack = $true
+	[int]$pack = 1
 )
 
 Add-Type -AssemblyName System.Drawing
@@ -85,15 +85,24 @@ function BitMapHeaderChunk($image, $depth)
 }
 
 # create map chunk
-function ColorMapChunk($image)
+function ColorMapChunk($image, $depth)
 {
 	$cmapStream = New-Object System.IO.MemoryStream
 
 	ForEach ($color in $image.Palette.Entries)
 	{
-		$cmapStream.WriteByte($color.R)
-		$cmapStream.WriteByte($color.G)
-		$cmapStream.WriteByte($color.B)
+		if ($depth -eq 8)
+		{
+			$cmapStream.WriteByte($color.R)
+			$cmapStream.WriteByte($color.G)
+			$cmapStream.WriteByte($color.B)
+		}
+		else
+		{
+			$cmapStream.WriteByte((($color.R -band 0xf0) -bor ($color.R -shr $depth)))
+			$cmapStream.WriteByte((($color.G -band 0xf0) -bor ($color.G -shr $depth)))
+			$cmapStream.WriteByte((($color.B -band 0xf0) -bor ($color.B -shr $depth)))
+		}
 	}
 
 	return IffChunk 'CMAP' $cmapStream.ToArray()
@@ -129,29 +138,34 @@ function ConvertPlanar($image, $depth)
 	[System.Runtime.InteropServices.Marshal]::Copy($dataPointer, $values, 0, $totalBytes);                
 	$image.UnlockBits($imageData);
 
-
-	
     # Calculate dimensions.
     $planeWidth = [math]::floor((($image.width + 15) / 16)) * 16
     $bpr = [math]::floor($planeWidth / 8)
     $planeSize = $bpr * $image.height
 	
 	$planes = New-Object System.Collections.Generic.List[System.Object]
-
+	
 	For ($plane = 0; $plane -lt $depth; $plane++)
 	{
 		$planes.Add((New-Object 'byte[]' $planeSize))
 	}
-	
+
 	For ($y = 0; $y -lt $image.height; $y++)
 	{
 		$rowoffset = $y * $bpr
-		For ($x = 0; $x -lt $image.width; $x++)
+		For ($x = 0; $x -lt $imageData.width; $x++)
 		{
 			$offset = $rowoffset + [math]::floor($x / 8)
 			$xmod = 7 - ($x -band 7)
-
-			$p = $values[$y * $image.width + $x]
+			
+			if ($depth -eq 8)
+			{
+				$p = $values[($y * $image.width) + $x]
+			}
+			else
+			{
+				$p = $values[($y * $imageData.Stride) + [math]::floor($x / 2)] -shr $depth
+			}
 			
 			For ($plane = 0; $plane -lt $depth; $plane++)
 			{
@@ -159,7 +173,7 @@ function ConvertPlanar($image, $depth)
 			}
 		}
 	}
-
+	
 	return $bpr, $planes
 }
 
@@ -207,11 +221,24 @@ function PackBits($data)
     # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     # THE SOFTWARE.
-	
+
+    if ($data.Count -eq 0)
+	{
+        return $data
+	}
+
     $rleStream = New-Object System.IO.MemoryStream
+    
+    if ($data.Count -eq 1)
+	{
+		$rleStream.WriteByte(0)
+		$rleStream.WriteByte($data[0])
+		return ,$rleStream.ToArray()
+	}
+	
     $count = 0
     $maxLength = 127
-
+	
     $bufferStream = New-Object System.IO.MemoryStream
 
 	$state = 'raw'
@@ -314,7 +341,7 @@ function CreateIlbmImage($image, $pack)
 
 	$ilbmWriter.Write([System.Text.Encoding]::ASCII.GetBytes('ILBM'))
 	$ilbmWriter.Write((BitMapHeaderChunk $image $depth))
-	$ilbmWriter.Write((ColorMapChunk $image))
+	$ilbmWriter.Write((ColorMapChunk $image $depth))
 	$ilbmWriter.Write((CreateBodyChunk $image $depth $pack))
     
     return IffChunk 'FORM' $ilbmStream.ToArray()
@@ -331,6 +358,7 @@ function ResizeImage($image, $width, $height)
 	$graphics.DrawImage($image, 0, 0, $width, $height)
 	return $resizedImage
 }
+
 
 # check if image path exists
 if (!(test-path -path $imagePath))
