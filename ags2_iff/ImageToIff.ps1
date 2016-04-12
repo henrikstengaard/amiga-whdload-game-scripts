@@ -134,8 +134,8 @@ function ConvertPlanar($image, $depth)
 	$imageData = $image.LockBits($rect, $lockmode, $image.PixelFormat);
 	$dataPointer = $imageData.Scan0;
 	$totalBytes = $imageData.Stride * $image.Height;
-	$values = New-Object byte[] $totalBytes
-	[System.Runtime.InteropServices.Marshal]::Copy($dataPointer, $values, 0, $totalBytes);                
+	$imageBytes = New-Object byte[] $totalBytes
+	[System.Runtime.InteropServices.Marshal]::Copy($dataPointer, $imageBytes, 0, $totalBytes);                
 	$image.UnlockBits($imageData);
 
     # Calculate dimensions.
@@ -160,16 +160,27 @@ function ConvertPlanar($image, $depth)
 			
 			if ($depth -eq 8)
 			{
-				$p = $values[($y * $image.width) + $x]
+				$imageIndex = ($y * $image.width) + $x
+				$paletteIndex = $imageBytes[$imageIndex]
 			}
 			else
 			{
-				$p = $values[($y * $imageData.Stride) + [math]::floor($x / 2)] -shr $depth
+				$imageIndex = ($y * $imageData.Stride) + [math]::floor($x / 2)
+				$paletteIndex = $imageBytes[$imageIndex]
+				
+				if (($x -band 1) -eq 1)
+				{
+					$paletteIndex = $paletteIndex -band 0x0F
+				}
+				else
+				{
+					$paletteIndex = $paletteIndex -shr $depth
+				}
 			}
 			
 			For ($plane = 0; $plane -lt $depth; $plane++)
 			{
-				$planes[$plane][$offset] = $planes[$plane][$offset] -bor ((($p -shr $plane) -band 1) -shl $xmod)
+				$planes[$plane][$offset] = $planes[$plane][$offset] -bor ((($paletteIndex -shr $plane) -band 1) -shl $xmod)
 			}
 		}
 	}
