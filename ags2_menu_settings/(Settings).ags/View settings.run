@@ -1,3 +1,6 @@
 echo "*ec"
+echo "Settings:"
+echo ""
 echo "WHDLoad arguments: '$whdloadargs'"
 wait 5
+echo "*ec"

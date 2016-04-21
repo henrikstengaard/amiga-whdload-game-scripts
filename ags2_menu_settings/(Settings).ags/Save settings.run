@@ -1,0 +1,5 @@
+echo "*ec"
+copy ENV:whdloadargs AGS:whdloadargs 
+echo "Settings saved"
+wait 3
+echo "*ec"
