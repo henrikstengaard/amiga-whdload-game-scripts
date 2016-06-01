@@ -1,4 +1,4 @@
-cd A-Games1:P/Popeye2
+cd A-Games2:P/Popeye2
 IF $whdloadargs EQ ""
   whdload Popeye2.Slave
 ELSE

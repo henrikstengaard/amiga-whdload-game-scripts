@@ -1,4 +1,4 @@
-cd A-Games1:P/PsychoSanta
+cd A-Games2:P/PsychoSanta
 IF $whdloadargs EQ ""
   whdload PsychoSanta.Slave
 ELSE

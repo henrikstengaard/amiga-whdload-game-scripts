@@ -1,4 +1,4 @@
-cd A-Games1:M/MajorMotion
+cd A-Games2:M/MajorMotion
 IF $whdloadargs EQ ""
   whdload MajorMotion.Slave
 ELSE

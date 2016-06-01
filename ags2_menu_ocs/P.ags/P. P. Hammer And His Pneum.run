@@ -1,4 +1,4 @@
-cd A-Games1:P/PPHammer
+cd A-Games2:P/PPHammer
 IF $whdloadargs EQ ""
   whdload PPHammer.Slave
 ELSE

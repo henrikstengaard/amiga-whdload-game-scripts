@@ -1,4 +1,4 @@
-cd A-Games1:P/PersianGulfInferno
+cd A-Games2:P/PersianGulfInferno
 IF $whdloadargs EQ ""
   whdload PersianGulfInferno.Slave
 ELSE

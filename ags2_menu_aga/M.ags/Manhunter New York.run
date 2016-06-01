@@ -1,4 +1,4 @@
-cd A-Games1:M/Manhunter
+cd A-Games2:M/Manhunter
 IF $whdloadargs EQ ""
   whdload Manhunter.slave
 ELSE

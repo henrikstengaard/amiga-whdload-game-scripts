@@ -1,4 +1,4 @@
-cd A-Games1:M/Mindbender
+cd A-Games2:M/Mindbender
 IF $whdloadargs EQ ""
   whdload Mindbender.Slave
 ELSE

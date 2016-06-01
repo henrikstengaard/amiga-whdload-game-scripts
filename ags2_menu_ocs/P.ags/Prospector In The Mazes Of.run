@@ -1,4 +1,4 @@
-cd A-Games1:P/ProspectorInTheMazesOfXor
+cd A-Games2:P/ProspectorInTheMazesOfXor
 IF $whdloadargs EQ ""
   whdload ProspectorInTheMazesOfXor.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/PowerDrive
+cd A-Games2:P/PowerDrive
 IF $whdloadargs EQ ""
   whdload PowerDrive.Slave
 ELSE

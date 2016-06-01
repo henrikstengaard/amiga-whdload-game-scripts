@@ -1,4 +1,4 @@
-cd A-Games1:M/Manix
+cd A-Games2:M/Manix
 IF $whdloadargs EQ ""
   whdload Manix.Slave
 ELSE

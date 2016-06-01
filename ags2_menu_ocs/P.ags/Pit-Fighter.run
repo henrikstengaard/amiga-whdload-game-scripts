@@ -1,4 +1,4 @@
-cd A-Games1:P/PitFighter
+cd A-Games2:P/PitFighter
 IF $whdloadargs EQ ""
   whdload PitFighter.slave
 ELSE

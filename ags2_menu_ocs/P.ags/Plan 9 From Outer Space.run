@@ -1,4 +1,4 @@
-cd A-Games1:P/Plan9FromOuterSpace
+cd A-Games2:P/Plan9FromOuterSpace
 IF $whdloadargs EQ ""
   whdload Plan9FromOuterSpace.Slave
 ELSE

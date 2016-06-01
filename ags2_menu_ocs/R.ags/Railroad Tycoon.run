@@ -1,4 +1,4 @@
-cd A-Games1:R/RailroadTycoon
+cd A-Games2:R/RailroadTycoon
 IF $whdloadargs EQ ""
   whdload RailroadTycoon.slave
 ELSE

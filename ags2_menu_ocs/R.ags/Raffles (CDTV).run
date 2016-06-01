@@ -1,4 +1,4 @@
-cd A-Games1:R/RafflesCDTV
+cd A-Games2:R/RafflesCDTV
 IF $whdloadargs EQ ""
   whdload RafflesCDTV.slave
 ELSE

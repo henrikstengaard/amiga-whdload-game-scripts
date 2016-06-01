@@ -1,4 +1,4 @@
-cd A-Games1:P/PlayerManager
+cd A-Games2:P/PlayerManager
 IF $whdloadargs EQ ""
   whdload PlayerManager.slave
 ELSE

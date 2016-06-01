@@ -1,4 +1,4 @@
-cd A-Games1:Q/QuestOfAgravain
+cd A-Games2:Q/QuestOfAgravain
 IF $whdloadargs EQ ""
   whdload QuestOfAgravain.Slave
 ELSE

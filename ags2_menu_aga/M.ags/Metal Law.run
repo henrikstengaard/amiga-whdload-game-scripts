@@ -1,4 +1,4 @@
-cd A-Games1:M/MetalLaw
+cd A-Games2:M/MetalLaw
 IF $whdloadargs EQ ""
   whdload MetalLaw.slave
 ELSE

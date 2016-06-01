@@ -1,4 +1,4 @@
-cd A-Games1:M/MikroMortalTennis
+cd A-Games2:M/MikroMortalTennis
 IF $whdloadargs EQ ""
   whdload MikroMortalTennis.Slave
 ELSE

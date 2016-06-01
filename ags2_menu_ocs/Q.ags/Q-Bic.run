@@ -1,4 +1,4 @@
-cd A-Games1:Q/QBic
+cd A-Games2:Q/QBic
 IF $whdloadargs EQ ""
   whdload QBic.slave
 ELSE

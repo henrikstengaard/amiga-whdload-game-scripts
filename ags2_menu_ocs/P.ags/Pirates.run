@@ -1,4 +1,4 @@
-cd A-Games1:P/Pirates
+cd A-Games2:P/Pirates
 IF $whdloadargs EQ ""
   whdload Pirates.slave
 ELSE

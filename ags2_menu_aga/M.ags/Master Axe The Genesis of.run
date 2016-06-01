@@ -1,4 +1,4 @@
-cd A-Games1:M/MasterAxe
+cd A-Games2:M/MasterAxe
 IF $whdloadargs EQ ""
   whdload MasterAxe.slave
 ELSE

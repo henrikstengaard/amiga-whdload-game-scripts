@@ -1,4 +1,4 @@
-cd A-Games1:M/MadTV
+cd A-Games2:M/MadTV
 IF $whdloadargs EQ ""
   whdload MadTV.Slave
 ELSE

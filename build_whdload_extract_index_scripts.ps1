@@ -101,10 +101,11 @@ $partitionNumber = 1
 $partitionSize = 0
 $assignName = "A-Games"
 
-$whdloadExtractScriptFile = [System.IO.Path]::Combine($outputPath, "whdload_extract_partition$partitionNumber")
+$whdloadExtractScriptName = "whdload_extract_$($assignName)$($partitionNumber)".ToLower()
+$whdloadExtractScriptFile = [System.IO.Path]::Combine($outputPath, $whdloadExtractScriptName).ToLower()
 $whdloadExtractScript = "; Extract whdload to $($assignName)$($partitionNumber):`n"
 $whdloadExtractScript += "; assign $($assignName)$($partitionNumber): DH$($partitionNumber):WHDLoad/Games`n"
-$whdloadExtractScript += "; execute whdload_extract_partition$partitionNumber`n`n"
+$whdloadExtractScript += "; execute $($whdloadExtractScriptName)`n`n"
 
 $whdloadExtractIndexFile = [System.IO.Path]::Combine($outputPath, "whdload_extract_index.csv")
 $whdloadExtractIndex = "Whdload Game FileName;Whdload Game Extract Path`r`n"
@@ -128,7 +129,7 @@ ForEach ($whdloadGameFile in $whdloadGameFiles)
 	$whdloadGameUncompressedSize = $whdloadGame[2]
 
 	# if partition is full, increase partition number 
-	if (($partitionSize + $whdloadGameUncompressedSize) -gt 1900000000)
+	if (($partitionSize + $whdloadGameUncompressedSize) -gt 1750000000)
 	{
 		# write whdload extract script
 		[System.IO.File]::WriteAllText($whdloadExtractScriptFile, $whdloadExtractScript, [System.Text.Encoding]::ASCII)
@@ -136,10 +137,11 @@ ForEach ($whdloadGameFile in $whdloadGameFiles)
 		$partitionNumber++
 		$partitionSize = 0;
 
-		$whdloadExtractScriptFile = [System.IO.Path]::Combine($outputPath, "whdload_extract_partition$partitionNumber")
+		$whdloadExtractScriptName = "whdload_extract_$($assignName)$($partitionNumber)".ToLower()
+		$whdloadExtractScriptFile = [System.IO.Path]::Combine($outputPath, $whdloadExtractScriptName).ToLower()
 		$whdloadExtractScript = "; Extract whdload to $($assignName)$($partitionNumber):`n"
 		$whdloadExtractScript += "; assign $($assignName)$($partitionNumber): DH$($partitionNumber):WHDLoad/Games`n"
-		$whdloadExtractScript += "; execute whdload_extract_partition$partitionNumber`n`n"
+		$whdloadExtractScript += "; execute $($whdloadExtractScriptName)`n`n"
 	}
 
 	# add uncompressed whdload game size to partition size

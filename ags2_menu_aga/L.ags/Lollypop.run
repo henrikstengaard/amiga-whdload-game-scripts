@@ -1,4 +1,4 @@
-cd A-Games1:L/Lollypop
+cd A-Games2:L/Lollypop
 IF $whdloadargs EQ ""
   whdload Lollypop.Slave
 ELSE

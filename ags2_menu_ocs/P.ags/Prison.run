@@ -1,4 +1,4 @@
-cd A-Games1:P/Prison
+cd A-Games2:P/Prison
 IF $whdloadargs EQ ""
   whdload Prison.Slave
 ELSE

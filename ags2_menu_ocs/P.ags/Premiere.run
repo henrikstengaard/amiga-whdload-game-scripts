@@ -1,4 +1,4 @@
-cd A-Games1:P/Premiere
+cd A-Games2:P/Premiere
 IF $whdloadargs EQ ""
   whdload Premiere.Slave
 ELSE

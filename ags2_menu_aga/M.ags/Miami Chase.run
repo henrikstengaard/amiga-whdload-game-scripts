@@ -1,4 +1,4 @@
-cd A-Games1:M/MiamiChase
+cd A-Games2:M/MiamiChase
 IF $whdloadargs EQ ""
   whdload MiamiChase.Slave
 ELSE

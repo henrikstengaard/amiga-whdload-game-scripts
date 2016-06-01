@@ -1,4 +1,4 @@
-cd A-Games1:P/Prehistorik
+cd A-Games2:P/Prehistorik
 IF $whdloadargs EQ ""
   whdload Prehistorik.slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:M/MeanMachine
+cd A-Games2:M/MeanMachine
 IF $whdloadargs EQ ""
   whdload MeanMachine.slave
 ELSE

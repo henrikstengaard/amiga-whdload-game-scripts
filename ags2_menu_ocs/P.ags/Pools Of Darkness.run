@@ -1,4 +1,4 @@
-cd A-Games1:P/PoolsOfDarkness
+cd A-Games2:P/PoolsOfDarkness
 IF $whdloadargs EQ ""
   whdload PoolsOfDarkness.slave
 ELSE

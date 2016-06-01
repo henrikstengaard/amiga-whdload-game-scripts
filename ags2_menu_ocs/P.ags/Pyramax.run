@@ -1,4 +1,4 @@
-cd A-Games1:P/Pyramax
+cd A-Games2:P/Pyramax
 IF $whdloadargs EQ ""
   whdload Pyramax.Slave
 ELSE

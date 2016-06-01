@@ -1,4 +1,4 @@
-cd A-Games1:P/PostmanPat
+cd A-Games2:P/PostmanPat
 IF $whdloadargs EQ ""
   whdload PostmanPat.Slave
 ELSE

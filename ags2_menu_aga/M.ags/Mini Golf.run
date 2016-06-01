@@ -1,4 +1,4 @@
-cd A-Games1:M/MiniGolf
+cd A-Games2:M/MiniGolf
 IF $whdloadargs EQ ""
   whdload MiniGolf.Slave
 ELSE

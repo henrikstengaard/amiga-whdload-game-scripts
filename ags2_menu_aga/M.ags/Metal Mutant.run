@@ -1,4 +1,4 @@
-cd A-Games1:M/MetalMutant
+cd A-Games2:M/MetalMutant
 IF $whdloadargs EQ ""
   whdload MetalMutant.Slave
 ELSE

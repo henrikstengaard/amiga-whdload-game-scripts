@@ -1,4 +1,4 @@
-cd A-Games1:L/LostPatrol
+cd A-Games2:L/LostPatrol
 IF $whdloadargs EQ ""
   whdload LostPatrol.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:M/Maya
+cd A-Games2:M/Maya
 IF $whdloadargs EQ ""
   whdload Maya.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/Pinkie
+cd A-Games2:P/Pinkie
 IF $whdloadargs EQ ""
   whdload Pinkie.Slave
 ELSE

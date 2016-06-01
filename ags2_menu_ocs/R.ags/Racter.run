@@ -1,4 +1,4 @@
-cd A-Games1:R/Racter
+cd A-Games2:R/Racter
 IF $whdloadargs EQ ""
   whdload Racter.Slave
 ELSE

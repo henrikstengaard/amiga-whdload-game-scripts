@@ -1,4 +1,4 @@
-cd A-Games1:L/Lotus3
+cd A-Games2:L/Lotus3
 IF $whdloadargs EQ ""
   whdload Lotus3.slave
 ELSE

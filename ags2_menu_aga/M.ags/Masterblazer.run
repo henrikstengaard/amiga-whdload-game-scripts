@@ -1,4 +1,4 @@
-cd A-Games1:M/Masterblazer
+cd A-Games2:M/Masterblazer
 IF $whdloadargs EQ ""
   whdload Masterblazer.slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/Pegasus
+cd A-Games2:P/Pegasus
 IF $whdloadargs EQ ""
   whdload Pegasus.Slave
 ELSE

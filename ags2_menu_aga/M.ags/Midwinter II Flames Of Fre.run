@@ -1,4 +1,4 @@
-cd A-Games1:M/Midwinter2
+cd A-Games2:M/Midwinter2
 IF $whdloadargs EQ ""
   whdload Midwinter2.Slave
 ELSE

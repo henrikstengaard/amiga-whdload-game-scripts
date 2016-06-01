@@ -1,4 +1,4 @@
-cd A-Games1:P/PipelineNomad
+cd A-Games2:P/PipelineNomad
 IF $whdloadargs EQ ""
   whdload PipelineNomad.Slave
 ELSE

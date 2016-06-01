@@ -1,4 +1,4 @@
-cd A-Games1:Q/QuiksilverPinball
+cd A-Games2:Q/QuiksilverPinball
 IF $whdloadargs EQ ""
   whdload QuiksilverPinball.Slave
 ELSE

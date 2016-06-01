@@ -1,4 +1,4 @@
-cd A-Games1:P/Puzznic
+cd A-Games2:P/Puzznic
 IF $whdloadargs EQ ""
   whdload Puzznic.Slave
 ELSE

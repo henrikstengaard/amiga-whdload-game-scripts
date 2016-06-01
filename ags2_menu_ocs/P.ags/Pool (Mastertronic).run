@@ -1,4 +1,4 @@
-cd A-Games1:P/Pool
+cd A-Games2:P/Pool
 IF $whdloadargs EQ ""
   whdload Pool.Slave
 ELSE

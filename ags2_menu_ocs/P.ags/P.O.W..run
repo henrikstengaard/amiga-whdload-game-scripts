@@ -1,4 +1,4 @@
-cd A-Games1:P/POW
+cd A-Games2:P/POW
 IF $whdloadargs EQ ""
   whdload POW.Slave
 ELSE

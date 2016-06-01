@@ -1,4 +1,4 @@
-cd A-Games1:P/PowerPinballCDTV
+cd A-Games2:P/PowerPinballCDTV
 IF $whdloadargs EQ ""
   whdload PowerPinballCDTV.slave
 ELSE

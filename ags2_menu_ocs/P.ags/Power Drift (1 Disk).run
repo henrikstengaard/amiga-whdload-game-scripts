@@ -1,4 +1,4 @@
-cd A-Games1:P/PowerDrift
+cd A-Games2:P/PowerDrift
 IF $whdloadargs EQ ""
   whdload PowerDrift.Slave
 ELSE

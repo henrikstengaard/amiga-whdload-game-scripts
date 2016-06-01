@@ -1,4 +1,4 @@
-cd A-Games1:M/MegaLoMania
+cd A-Games2:M/MegaLoMania
 IF $whdloadargs EQ ""
   whdload MegaLoMania.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/ProTennisSimulatorFiles
+cd A-Games2:P/ProTennisSimulatorFiles
 IF $whdloadargs EQ ""
   whdload ProTennisSimulatorFiles.Slave
 ELSE

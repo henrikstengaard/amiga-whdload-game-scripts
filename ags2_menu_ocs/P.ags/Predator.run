@@ -1,4 +1,4 @@
-cd A-Games1:P/Predator
+cd A-Games2:P/Predator
 IF $whdloadargs EQ ""
   whdload Predator.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:M/MPythonsFlyingCircus
+cd A-Games2:M/MPythonsFlyingCircus
 IF $whdloadargs EQ ""
   whdload MPythonsFlyingCircus.Slave
 ELSE

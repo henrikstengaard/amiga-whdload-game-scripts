@@ -1,4 +1,4 @@
-cd A-Games1:M/ManchesterUtdPLC&Data
+cd A-Games2:M/ManchesterUtdPLC&Data
 IF $whdloadargs EQ ""
   whdload ManchesterUtdPLC&Data.Slave
 ELSE

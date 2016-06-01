@@ -1,4 +1,4 @@
-cd A-Games1:P/PinkPanther
+cd A-Games2:P/PinkPanther
 IF $whdloadargs EQ ""
   whdload PinkPanther.slave
 ELSE

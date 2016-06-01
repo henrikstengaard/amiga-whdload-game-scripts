@@ -1,4 +1,4 @@
-cd A-Games1:M/Magnatron
+cd A-Games2:M/Magnatron
 IF $whdloadargs EQ ""
   whdload Magnatron.Slave
 ELSE

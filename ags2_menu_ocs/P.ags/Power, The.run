@@ -1,4 +1,4 @@
-cd A-Games1:P/Power
+cd A-Games2:P/Power
 IF $whdloadargs EQ ""
   whdload Power.Slave
 ELSE

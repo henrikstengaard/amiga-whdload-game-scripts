@@ -1,4 +1,4 @@
-cd A-Games1:Q/QuikThunderRabbit
+cd A-Games2:Q/QuikThunderRabbit
 IF $whdloadargs EQ ""
   whdload QuikThunderRabbit.Slave
 ELSE

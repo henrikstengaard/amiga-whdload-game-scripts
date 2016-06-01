@@ -1,4 +1,4 @@
-cd A-Games1:P/PersonalNightmare
+cd A-Games2:P/PersonalNightmare
 IF $whdloadargs EQ ""
   whdload PersonalNightmare.Slave
 ELSE

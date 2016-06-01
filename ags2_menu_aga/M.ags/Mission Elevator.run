@@ -1,4 +1,4 @@
-cd A-Games1:M/MissionElevator
+cd A-Games2:M/MissionElevator
 IF $whdloadargs EQ ""
   whdload MissionElevator.Slave
 ELSE

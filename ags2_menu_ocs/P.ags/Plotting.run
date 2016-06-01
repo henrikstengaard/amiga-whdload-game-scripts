@@ -1,4 +1,4 @@
-cd A-Games1:P/Plotting
+cd A-Games2:P/Plotting
 IF $whdloadargs EQ ""
   whdload Plotting.slave
 ELSE

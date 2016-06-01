@@ -1,4 +1,4 @@
-cd A-Games1:M/MervTheMerciless
+cd A-Games2:M/MervTheMerciless
 IF $whdloadargs EQ ""
   whdload MervTheMerciless.slave
 ELSE

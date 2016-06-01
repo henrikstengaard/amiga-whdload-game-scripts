@@ -1,4 +1,4 @@
-cd A-Games1:L/Loopz
+cd A-Games2:L/Loopz
 IF $whdloadargs EQ ""
   whdload Loopz.Slave
 ELSE

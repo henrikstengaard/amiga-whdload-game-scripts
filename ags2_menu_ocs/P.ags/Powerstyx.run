@@ -1,4 +1,4 @@
-cd A-Games1:P/Powerstyx
+cd A-Games2:P/Powerstyx
 IF $whdloadargs EQ ""
   whdload Powerstyx.slave
 ELSE

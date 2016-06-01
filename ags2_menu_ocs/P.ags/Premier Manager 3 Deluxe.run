@@ -1,4 +1,4 @@
-cd A-Games1:P/PremierManager3Deluxe
+cd A-Games2:P/PremierManager3Deluxe
 IF $whdloadargs EQ ""
   whdload PremierManager3Deluxe.Slave
 ELSE

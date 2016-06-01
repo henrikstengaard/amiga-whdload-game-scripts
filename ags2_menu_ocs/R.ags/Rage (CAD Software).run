@@ -1,4 +1,4 @@
-cd A-Games1:R/RageCAD
+cd A-Games2:R/RageCAD
 IF $whdloadargs EQ ""
   whdload RageCAD.Slave
 ELSE

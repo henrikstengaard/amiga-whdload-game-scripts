@@ -1,4 +1,4 @@
-cd A-Games1:P/Powerplay
+cd A-Games2:P/Powerplay
 IF $whdloadargs EQ ""
   whdload Powerplay.Slave
 ELSE

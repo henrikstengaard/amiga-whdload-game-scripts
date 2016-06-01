@@ -1,4 +1,4 @@
-cd A-Games1:P/PrimeMover
+cd A-Games2:P/PrimeMover
 IF $whdloadargs EQ ""
   whdload PrimeMover.Slave
 ELSE

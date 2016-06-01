@@ -1,4 +1,4 @@
-cd A-Games1:M/MarvinsMarvellousAdvCD32
+cd A-Games2:M/MarvinsMarvellousAdvCD32
 IF $whdloadargs EQ ""
   whdload MarvinsMarvellousAdvCD32.Slave
 ELSE

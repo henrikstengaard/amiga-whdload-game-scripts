@@ -1,4 +1,4 @@
-cd A-Games1:M/MidnightResistance
+cd A-Games2:M/MidnightResistance
 IF $whdloadargs EQ ""
   whdload MidnightResistance.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/PowermongerWW1Edition
+cd A-Games2:P/PowermongerWW1Edition
 IF $whdloadargs EQ ""
   whdload PowermongerWW1Edition.slave
 ELSE

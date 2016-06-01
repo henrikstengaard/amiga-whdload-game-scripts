@@ -1,4 +1,4 @@
-cd A-Games1:M/ManchesterUnitedEurope23
+cd A-Games2:M/ManchesterUnitedEurope23
 IF $whdloadargs EQ ""
   whdload ManchesterUnitedEurope23.Slave
 ELSE

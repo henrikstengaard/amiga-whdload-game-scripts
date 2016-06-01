@@ -1,4 +1,4 @@
-cd A-Games1:M/MicroProseGolf
+cd A-Games2:M/MicroProseGolf
 IF $whdloadargs EQ ""
   whdload MicroProseGolf.slave
 ELSE

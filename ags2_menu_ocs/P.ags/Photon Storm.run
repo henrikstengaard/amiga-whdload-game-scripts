@@ -1,4 +1,4 @@
-cd A-Games1:P/PhotonStorm
+cd A-Games2:P/PhotonStorm
 IF $whdloadargs EQ ""
   whdload PhotonStorm.slave
 ELSE

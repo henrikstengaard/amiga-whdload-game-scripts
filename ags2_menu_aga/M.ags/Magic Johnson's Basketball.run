@@ -1,4 +1,4 @@
-cd A-Games1:M/MagicJohnsonsBasketball
+cd A-Games2:M/MagicJohnsonsBasketball
 IF $whdloadargs EQ ""
   whdload MagicJohnsonsBasketball.Slave
 ELSE

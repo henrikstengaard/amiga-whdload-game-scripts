@@ -1,4 +1,4 @@
-cd A-Games1:P/Perihelion
+cd A-Games2:P/Perihelion
 IF $whdloadargs EQ ""
   whdload Perihelion.Slave
 ELSE

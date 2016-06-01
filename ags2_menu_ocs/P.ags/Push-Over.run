@@ -1,4 +1,4 @@
-cd A-Games1:P/PushOver
+cd A-Games2:P/PushOver
 IF $whdloadargs EQ ""
   whdload PushOver.slave
 ELSE

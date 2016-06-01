@@ -1,4 +1,4 @@
-cd A-Games1:P/PinballPrelude
+cd A-Games2:P/PinballPrelude
 IF $whdloadargs EQ ""
   whdload PinballPrelude.slave
 ELSE

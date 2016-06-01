@@ -1,4 +1,4 @@
-cd A-Games1:P/PinballWizard
+cd A-Games2:P/PinballWizard
 IF $whdloadargs EQ ""
   whdload PinballWizard.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/Populous&DataDisks
+cd A-Games2:P/Populous&DataDisks
 IF $whdloadargs EQ ""
   whdload Populous.Slave
 ELSE

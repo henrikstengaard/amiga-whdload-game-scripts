@@ -1,4 +1,4 @@
-cd A-Games1:P/Projectyle
+cd A-Games2:P/Projectyle
 IF $whdloadargs EQ ""
   whdload Projectyle.slave
 ELSE

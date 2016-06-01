@@ -1,4 +1,4 @@
-cd A-Games1:P/ProPowerBoatSimulator
+cd A-Games2:P/ProPowerBoatSimulator
 IF $whdloadargs EQ ""
   whdload ProPowerBoatSimulator.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/Platoon
+cd A-Games2:P/Platoon
 IF $whdloadargs EQ ""
   whdload Platoon.Slave
 ELSE

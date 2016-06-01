@@ -1,4 +1,4 @@
-cd A-Games1:M/MagicLines
+cd A-Games2:M/MagicLines
 IF $whdloadargs EQ ""
   whdload MagicLines.Slave
 ELSE

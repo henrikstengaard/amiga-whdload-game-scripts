@@ -1,4 +1,4 @@
-cd A-Games1:P/PortsOfCall
+cd A-Games2:P/PortsOfCall
 IF $whdloadargs EQ ""
   whdload PortsOfCall.Slave
 ELSE

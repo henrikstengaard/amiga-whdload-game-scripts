@@ -1,4 +1,4 @@
-cd A-Games1:M/MissilesOverXerion
+cd A-Games2:M/MissilesOverXerion
 IF $whdloadargs EQ ""
   whdload MissilesOverXerion.slave
 ELSE

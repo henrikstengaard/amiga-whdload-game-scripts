@@ -1,4 +1,4 @@
-cd A-Games1:P/Psyborg
+cd A-Games2:P/Psyborg
 IF $whdloadargs EQ ""
   whdload Psyborg.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:M/MeanArenasCD32
+cd A-Games2:M/MeanArenasCD32
 IF $whdloadargs EQ ""
   whdload MeanArenasCD32.slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/ProjectXSE
+cd A-Games2:P/ProjectXSE
 IF $whdloadargs EQ ""
   whdload ProjectXSE.slave
 ELSE

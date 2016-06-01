@@ -1,4 +1,4 @@
-cd A-Games1:M/MaupitiIsland
+cd A-Games2:M/MaupitiIsland
 IF $whdloadargs EQ ""
   whdload MaupitiIsland.Slave
 ELSE

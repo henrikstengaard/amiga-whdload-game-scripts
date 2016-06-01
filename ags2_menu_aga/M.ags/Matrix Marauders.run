@@ -1,4 +1,4 @@
-cd A-Games1:M/MatrixMarauders
+cd A-Games2:M/MatrixMarauders
 IF $whdloadargs EQ ""
   whdload MatrixMarauders.slave
 ELSE

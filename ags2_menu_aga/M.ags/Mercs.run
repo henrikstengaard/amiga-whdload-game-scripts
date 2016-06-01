@@ -1,4 +1,4 @@
-cd A-Games1:M/Mercs
+cd A-Games2:M/Mercs
 IF $whdloadargs EQ ""
   whdload Mercs.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:M/MindWalker
+cd A-Games2:M/MindWalker
 IF $whdloadargs EQ ""
   whdload MindWalker.slave
 ELSE

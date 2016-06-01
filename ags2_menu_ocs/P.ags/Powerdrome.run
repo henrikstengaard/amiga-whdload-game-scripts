@@ -1,4 +1,4 @@
-cd A-Games1:P/Powerdrome
+cd A-Games2:P/Powerdrome
 IF $whdloadargs EQ ""
   whdload Powerdrome.Slave
 ELSE

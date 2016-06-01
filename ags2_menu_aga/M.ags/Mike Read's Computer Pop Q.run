@@ -1,4 +1,4 @@
-cd A-Games1:M/MikeReadsComputerPopQuiz
+cd A-Games2:M/MikeReadsComputerPopQuiz
 IF $whdloadargs EQ ""
   whdload MikeReadsComputerPopQuiz.Slave
 ELSE

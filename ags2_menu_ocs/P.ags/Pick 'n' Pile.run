@@ -1,4 +1,4 @@
-cd A-Games1:P/PickNPile
+cd A-Games2:P/PickNPile
 IF $whdloadargs EQ ""
   whdload PickNPile.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/ProTennisTour
+cd A-Games2:P/ProTennisTour
 IF $whdloadargs EQ ""
   whdload ProTennisTour.slave
 ELSE

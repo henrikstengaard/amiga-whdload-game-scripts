@@ -1,4 +1,4 @@
-cd A-Games1:P/Populous
+cd A-Games2:P/Populous
 IF $whdloadargs EQ ""
   whdload Populous.Slave
 ELSE

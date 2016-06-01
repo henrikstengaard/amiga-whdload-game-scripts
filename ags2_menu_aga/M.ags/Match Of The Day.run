@@ -1,4 +1,4 @@
-cd A-Games1:M/MatchOfTheDay
+cd A-Games2:M/MatchOfTheDay
 IF $whdloadargs EQ ""
   whdload MatchOfTheDay.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:Q/Quadrel
+cd A-Games2:Q/Quadrel
 IF $whdloadargs EQ ""
   whdload Quadrel.Slave
 ELSE

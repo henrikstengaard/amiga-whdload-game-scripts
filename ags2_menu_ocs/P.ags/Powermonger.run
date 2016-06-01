@@ -1,4 +1,4 @@
-cd A-Games1:P/Powermonger
+cd A-Games2:P/Powermonger
 IF $whdloadargs EQ ""
   whdload Powermonger.Slave
 ELSE

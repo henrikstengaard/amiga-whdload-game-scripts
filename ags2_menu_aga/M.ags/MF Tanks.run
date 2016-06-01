@@ -1,4 +1,4 @@
-cd A-Games1:M/MFTanks
+cd A-Games2:M/MFTanks
 IF $whdloadargs EQ ""
   whdload MFTanks.Slave
 ELSE

@@ -1,4 +1,4 @@
-cd A-Games1:P/Portal
+cd A-Games2:P/Portal
 IF $whdloadargs EQ ""
   whdload Portal.slave
 ELSE
