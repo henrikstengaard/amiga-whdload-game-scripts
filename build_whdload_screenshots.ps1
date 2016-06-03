@@ -2,9 +2,10 @@
 # -------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-03-11
+# Date:   2016-06-03
 #
 # A PowerShell script to build whdload screenshots for iGame and AGS2 in AGA and OCS mode.
+# Lucene is used to index screenshots for better search and matching between games and screenshots
 #
 # Following software is required for running this script.
 #
@@ -29,6 +30,18 @@
 # https://pypi.python.org/packages/2.7/P/Pillow/Pillow-2.7.0.win32-py2.7.exe#md5=a776412924049796bf34e8fa7af680db
 
 
+using assembly Lucene.Net.dll
+
+using namespace System.IO
+using namespace Lucene.Net.Analysis
+using namespace Lucene.Net.Analysis.Standard
+using namespace Lucene.Net.Documents
+using namespace Lucene.Net.Index
+using namespace Lucene.Net.QueryParsers
+using namespace Lucene.Net.Store
+using namespace Lucene.Net.Util
+using namespace Lucene.Net.Search
+
 Param(
 	[Parameter(Mandatory=$true)]
 	[string]$whdloadGameSlaveIndexPath,
@@ -47,19 +60,16 @@ $nconvertPath = "${Env:ProgramFiles(x86)}\XnView\nconvert.exe"
 $imageMagickConvertPath = "$env:ProgramFiles\ImageMagick-6.9.3-Q8\convert.exe"
 $imgToIffAgaPath = [System.IO.Path]::Combine($scriptPath, "ags2_iff\imgtoiff-aga.py")
 $imgToIffOcsPath = [System.IO.Path]::Combine($scriptPath, "ags2_iff\imgtoiff-ocs.py")
-$levenshteinDistanceScriptPath = [System.IO.Path]::Combine($scriptPath, "Levenshtein-distance.ps1")
 
 
 # screenshot paths
 $screenshotPath = [System.IO.Path]::Combine($scriptPath, "screenshots")
-$troelsDkIffScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "iGameUpdatePackTroelsDK")
-$igameGameplayIffScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "iGame_Gameplay_Shots_256")
-$amigaGameBasePngScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "GameBase Amiga v2.0 Screenshots")
-$openAmigaGameDatabasePngScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Open Amiga Game Database")
-#$amigaGameBasePngScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "GameBase Amiga v1.6 Screenshots")
-$amsBootMenuIffScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "AMS BootMenu")
-
-
+$troelsDkScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "iGameUpdatePackTroelsDK")
+$gameBaseAmigaScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "GameBase Amiga v2.0 Screenshots")
+$openAmigaGameDatabaseScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Open Amiga Game Database")
+$lemonAmigaScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Lemon Amiga")
+$igameGameplayScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "iGame_Gameplay_Shots_256")
+$customScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "Custom")
 
 
 # logs
@@ -76,6 +86,12 @@ else
 {
 	$tempPath = [System.IO.Path]::Combine("$env:SystemDrive\Temp", [System.IO.Path]::GetRandomFileName())
 }
+
+
+# lucene
+$analyzer  = [StandardAnalyzer]::new("LUCENE_CURRENT")
+$directory = [RAMDirectory]::new()
+
 
 
 # get game index name from first character in game name
@@ -99,10 +115,13 @@ function ReadWhdloadGamesSlaveIndex($whdloadGameSlaveIndexFile)
 {
 	$index = @()
 
-	ForEach($line in (Get-Content $whdloadGameSlaveIndexFile | Select-Object -Skip 1))
+	if (Test-Path -Path $whdloadGameSlaveIndexFile)
 	{
-		$columns = $line -split ";"
-		$index += , $columns
+		ForEach($line in (Get-Content $whdloadGameSlaveIndexFile | Select-Object -Skip 1))
+		{
+			$columns = $line -split ";"
+			$index += , $columns
+		}
 	}
 
 	return $index
@@ -126,86 +145,43 @@ function ReadWhdloadScreenshotIndex($whdloadScreenshotIndexPath)
 	return $index
 }
 
-
-# simplify name by removing "the" word, special characters and converting roman numbers
-function SimplifyName($name)
+# index screenshots
+function IndexScreenshots($screenshots)
 {
-	return $name -replace "[\(\)\&,_\-!':]", " " -replace "the", "" -replace "[-_ ]vii", " 7 " 	-replace "[-_ ]vi", " 6 " -replace "[-_ ]v", " 5 " -replace "[-_ ]iv", " 4 " -replace "[-_ ]iii", " 3 " -replace "[-_ ]ii", " 2 " -replace "[-_ ]i", " 1 " -replace "\s+", " "
-}
+    $writer = [IndexWriter]::new($directory,$analyzer,$true,[IndexWriter+MaxFieldLength]::new(25000))
 
-
-# make comparable name by simplifying name, removing whitespaces and non-word characters
-function MakeComparableName($name)
-{
-    return ((SimplifyName $name) -replace "\s+", "" -replace "[^\w]", "").ToLower()
-}
-
-function MakeKeywords([string]$text)
-{
-	# change odd chars to space
-	$text = $text -creplace "[&\-_\(\):\.,!+]", " "
-
-	# remove the and demo
-	$text = $text -replace "the", " " -replace "demo", " "
-	
-	# replace roman numbers
-	$text = $text -replace "[-_ ]vii", " 7 " -replace "[-_ ]vi", " 6 " -replace "[-_ ]v", " 5 " -replace "[-_ ]iv", " 4 " -replace "[-_ ]iii", " 3 " -replace "[-_ ]ii", " 2 " -replace "[-_ ]i", " 1 "
-	
-	# remove odd chars
-	$text = $text -creplace "[']", ""
-
-	# add space between number and letters, if not the character 'D'
-	$text = $text -creplace "(\d+)([^D\d])", "`$1 `$2"
-	
-	# add space before and after 3D or 4D
-	$text = $text -replace "([34]D)", " `$1 "
-	
-	# add space between lower and upper case letters or numbers
-	$text = $text -creplace "([a-z])([A-Z0-9])", "`$1 `$2"
-	
-	# replace multiple space with a single space
-	$text = $text -replace "\s+", " "
-	
-	return , ($text.ToLower().Trim() -split " ")
-}
-
-# build screenshot index from files
-function BuildScreenshotIndex($path, $useDirectoryName, $priority, $filter)
-{
-	$screenshotFiles = Get-ChildItem -include *.iff,*.png -File -recurse -Path $path | Sort-Object $_.FullName
-
-	if ($filter)
+    foreach ($screenshot in $screenshots)
 	{
-		$screenshotFiles = $screenshotFiles | Where {$_.FullName -match $filter}
-	}
-	
+        $document = [Document]::new()
+        $document.Add([Field]::new("Name",$screenshot.Name,"YES","ANALYZED"))
+        $document.Add([Field]::new("File",$screenshot.File,"YES","NOT_ANALYZED"))
+        $document.Add([Field]::new("Priority",$screenshot.Priority,"YES","NOT_ANALYZED"))
+        $writer.AddDocument($document)
+    }
+
+    $writer.close()
+}
+
+function SearchScreenshots($q)
+{
+	$searcher = [IndexSearcher]::new($directory, $true)
+	$parser = [QueryParser]::new("LUCENE_CURRENT", "Name", $analyzer)    
+	$query = $parser.Parse($q)
+	$result = $searcher.Search($query, $null, 100)
+	$hits = $result.ScoreDocs
+
 	$screenshots = @()
 	
-	ForEach ($screenshotFile in $screenshotFiles)
+    foreach($hit in $hits)
 	{
-		if ($useDirectoryName)
-		{
-			$screenshotName = [System.IO.Path]::GetFileName($screenshotFile.Directory)
-		}
-		else
-		{
-			$screenshotName = [System.IO.Path]::GetFileNameWithoutExtension($screenshotFile.FullName)
-		}
-
-		if ($screenshotName -match '_\d+$')
-		{
-			$screenshotName = $screenshotName -replace "_\d+$", ""
-		}
-		
-		$comparableName = MakeComparableName $screenshotName
-		
-		$screenshots += @{ "Name" = $comparableName; "Priority" = $priority; "File" = $screenshotFile.FullName; "Keywords" = (MakeKeywords $screenshotName) }
+		$document = $searcher.Doc($hit.doc)
+		$screenshots += , @{ "Score" = $hit.score; "Name" = $document.Get("Name"); "Priority" = $document.Get("Priority"); "File" = $document.Get("File") }
 	}
-	
+
 	return $screenshots
 }
 
-
+# NOT TO BE USED, First attempt of making a better screenshot finding method before Lucene was introduced
 function FindBestMatchingScreenshotInIndex($name, $screenshotIndex)
 {
 	$comparableName = MakeComparableName $name
@@ -219,25 +195,11 @@ function FindBestMatchingScreenshotInIndex($name, $screenshotIndex)
 	{
 		ForEach($screenshot in $screenshotIndex)
 		{
-			# if ($screenshot.Name -match 'train')
-			# {
-				# Write-Host "name keywords", $nameKeywords
-				# Write-Host "screenshot keywords", $screenshot.Keywords
-			# }
-		
-			# skip, if no keywords match
-			#If ((Compare-Object $nameKeywords $screenshot.Keywords -IncludeEqual -ExcludeDifferent -PassThru).Count -eq 0)
-			#{
-			#	continue
-			#}
-		
 			$exactMatchingKeywords = 0
 			
 			# find first name keyword index in screenshot keywords
 			$nameKeywordsIndex = 0
 			$screenshotKeywordsIndex = $screenshot.Keywords.IndexOf($nameKeywords[0])
-			
-			#Write-Host $nameKeywords[0], "found screenshot at index", $screenshotKeywordsIndex, "for", $name
 			
 			For (; $nameKeywordsIndex -lt $nameKeywords.Count -and $screenshotKeywordsIndex -lt $screenshot.Keywords.Count; $nameKeywordsIndex++, $screenshotKeywordsIndex++)
 			{
@@ -294,44 +256,104 @@ function FindBestMatchingScreenshotInIndex($name, $screenshotIndex)
 }
 
 
-# 1. Create log path, if it doesn't exist
-if(!(test-path -path $logPath))
+
+function MakeComparableName([string]$text)
 {
-	md $logPath | Out-Null
+	$text = " " + $text + " "
+
+	# change odd chars to space
+	$text = $text -creplace "[&\-_\(\):\.,!+]", " "
+
+	# remove the and demo
+	#$text = $text -replace "the", " " -replace "demo", " "
+	
+	# replace roman numbers
+	$text = $text -replace " vii ", " 7 " -replace " vi ", " 6 " -replace " v ", " 5 " -replace " iv ", " 4 " -replace " iii ", " 3 " -replace " ii ", " 2 " -replace " i ", " 1 "
+	
+	# remove odd chars
+	$text = $text -creplace "[']", ""
+
+	# add space between number and letters, if not the character 'D'
+	$text = $text -replace "(\d+)([^d\d])", "`$1 `$2"
+	
+	# add space before and after 3D or 4D
+	$text = $text -replace "([34]D)", " `$1 "
+	
+	# add space between lower and upper case letters or numbers
+	$text = $text -creplace "([a-z])([A-Z0-9])", "`$1 `$2"
+
+	# add space between upper case letters or numbers
+	$text = $text -creplace "([A-Z])([0-9])", "`$1 `$2"
+	
+	# add space between upper letters (twice to catch all)
+	$text = $text -creplace '([A-Z])([A-Z])', '$1 $2' -creplace '([A-Z])([A-Z])', '$1 $2'
+	
+	# replace multiple space with a single space
+	$text = $text -replace "\s+", " "
+	
+	return $text.ToLower().Trim()
 }
 
 
-# 2. check if 7-zip is installed, exit if not
-if (!(Test-Path -path $sevenZipPath))
+# read screenshot list
+function ReadScreenshotList($path, $useDirectoryName, $priority, $filter)
 {
-	Write-Error "7-zip is not installed at '$sevenZipPath'"
-	Exit 1
+	Write-Host "Building screenshot list from '$path'..."
+
+	$screenshotFiles = Get-ChildItem -include *.iff,*.png -File -recurse -Path $path | Sort-Object $_.FullName
+
+	if ($filter)
+	{
+		$screenshotFiles = $screenshotFiles | Where { $_.FullName -match $filter }
+	}
+	
+	$screenshots = @()
+	
+	ForEach ($screenshotFile in $screenshotFiles)
+	{
+		if ($useDirectoryName)
+		{
+			$screenshotName = [System.IO.Path]::GetFileName($screenshotFile.Directory)
+		}
+		else
+		{
+			$screenshotName = [System.IO.Path]::GetFileNameWithoutExtension($screenshotFile.FullName)
+		}
+
+		if ($screenshotName -match '_\d+$')
+		{
+			$screenshotName = $screenshotName -replace "_\d+$", ""
+		}
+		
+		$comparableName = MakeComparableName $screenshotName
+		
+		$screenshots += @{ "Name" = $comparableName; "Priority" = $priority; "File" = $screenshotFile.FullName }
+	}
+
+	Write-Host "Done"
+	
+	return $screenshots
 }
 
 
-# 3. check if nconvert is installed, exit if not
-if (!(Test-Path -path $nconvertPath))
-{
-	Write-Error "nconvert is not installed at '$nconvertPath'"
-	Exit 1
-}
+# Reading screenshot lists
+Write-Host "Reading screenshot lists..."
+$screenshots = @()
+$screenshots += ReadScreenshotList $troelsDkScreenshotPath $true 1
+$screenshots += ReadScreenshotList $gameBaseAmigaScreenshotPath $false 2 "_\d+\.[^\.]+`$"
+$screenshots += ReadScreenshotList $openAmigaGameDatabaseScreenshotPath $true 3
+$screenshots += ReadScreenshotList $lemonAmigaScreenshotPath $true 4
+$screenshots += ReadScreenshotList $customScreenshotPath $true 5
+Write-Host "Done"
 
 
-# 4. check if nconvert is installed, exit if not
-if (!(Test-Path -path $imageMagickConvertPath))
-{
-	Write-Error "image magick is not installed at '$imageMagickConvertPath'"
-	Exit 1
-}
+# Index screenshots
+Write-Host "Indexing $($screenshots.Count) screenshots..."
+IndexScreenshots $screenshots
+Write-Host "Done"
 
 
-
-MakeKeywords "laigle-dor-le-retour"
-MakeKeywords "AigleDOr"
-
-
-
-# 12. Read whdload screenshot index
+# Read whdload screenshot index
 $whdloadScreenshotIndexPath = [System.IO.Path]::Combine($outputPath, "whdload_screenshots.csv")
 Write-Output "Reading whdload screenshot index from '$whdloadScreenshotIndexPath'..."
 $whdloadScreenshotIndex = ReadWhdloadScreenshotIndex $whdloadScreenshotIndexPath $false 
@@ -339,94 +361,26 @@ Write-Output "$($whdloadScreenshotIndex.Count) entries"
 Write-Output ""
 
 
-# 5. Build troels dk iff screenshot index
-Write-Output "Building screenshot index from '$troelsDkIffScreenshotPath'..."
-$troelsDkIffScreenshotIndex = BuildScreenshotIndex $troelsDkIffScreenshotPath $true 1
-Write-Output "$($troelsDkIffScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-# 6. Build igame gameplay iff screenshot index
-Write-Output "Building screenshot index from '$igameGameplayIffScreenshotPath'..."
-$igameGameplayIffScreenshotIndex = BuildScreenshotIndex $igameGameplayIffScreenshotPath $true 4
-Write-Output "$($igameGameplayIffScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-# 7. Build amiga gamebase png screenshot index
-Write-Output "Building screenshot index from '$amigaGameBasePngScreenshotPath'..."
-$amigaGameBasePngScreenshotIndex = BuildScreenshotIndex $amigaGameBasePngScreenshotPath $false 2 "_\d+\.[^\.]+`$"
-Write-Output "$($amigaGameBasePngScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-Write-Output "Building screenshot index from '$openAmigaGameDatabasePngScreenshotPath'..."
-$openAmigaGameDatabasePngScreenshotIndex = BuildScreenshotIndex $openAmigaGameDatabasePngScreenshotPath $true 3 "_\d+[2-9]\.[^\.]+`$"
-Write-Output "$($openAmigaGameDatabasePngScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-$lemonAmigaScreenshotPath = "c:\Work\First Realize\amiga-game-database\lemonamiga"
-Write-Output "Building screenshot index from '$lemonAmigaScreenshotPath'..."
-$lemonAmigaScreenshotIndex = BuildScreenshotIndex $lemonAmigaScreenshotPath $true 4 "_\d+[2-9]\.[^\.]+`$"
-Write-Output "$($lemonAmigaScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-
-# 8. Build ams boot menu iff screenshot index
-Write-Output "Building screenshot index from '$amsBootMenuIffScreenshotPath'..."
-$amsBootMenuIffScreenshotIndex = BuildScreenshotIndex $amsBootMenuIffScreenshotPath $false 5
-Write-Output "$($amsBootMenuIffScreenshotIndex.Count) entries"
-Write-Output ""
-
-
-# 9. Read whdload games index
+# Read whdload games index
 $whdloadGameSlaveIndexFile = [System.IO.Path]::Combine($whdloadGameSlaveIndexPath, "whdload_slave_index.csv")
 Write-Output "Reading whdload game slave index file '$whdloadGameSlaveIndexFile'..."
 $whdloadGameSlaves = ReadWhdloadGamesSlaveIndex $whdloadGameSlaveIndexFile
-$whdloadGameSlaves.Count
+Write-Output "$($whdloadGameSlaves.Count) entries"
+Write-Output ""
 
 
-# 10. Create output path, if it doesn't exist
+# Create output path, if it doesn't exist
 if(!(test-path -path $outputPath))
 {
 	md $outputPath | Out-Null
 }
 
 
-function Test($name)
-{
-	Write-Host "Name: $name"
-	Write-Host "----------"
-	$screenshots = @()
-	$screenshots += (FindBestMatchingScreenshotInIndex $name $troelsDkIffScreenshotIndex)
-	$screenshots += (FindBestMatchingScreenshotInIndex $name $amigaGameBasePngScreenshotIndex)
-	$screenshots += (FindBestMatchingScreenshotInIndex $name $openAmigaGameDatabasePngScreenshotIndex)
-	$screenshots = $screenshots | sort @{expression={$_.Rank};Ascending=$false},@{expression={$_.Priority};Ascending=$true},@{expression={$_.File};Ascending=$true}
-	$screenshots = $screenshots | Select-Object -First 5
-	return $screenshots
-}
-#  | Where { $_.Rank -ge -5 }
-
-#Test "AllTerrainRacing"
-#Test "Academy"
-#Test "ATrain&ConstructionSet"
-#Test "ACSYSDemo aga"
-#Test "ACSYSDemoAGA"
-#Test "4DSportsDriving&MasterTracks"
-#Test "AlienBreedTowerAssault11.Aga"
-#Test "AigleDOr"
-
-
-#exit 0
-
-
+# Cache for screenshots
 $screenshotsCache = @{}
 
 
-
-# 13. Process whdload game files
+# Process whdload game files
 ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 {
 	# get whdload game slave file name and slave file columns
@@ -493,114 +447,18 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	}
 	else
 	{
-		$screenshots = @()
-		$screenshots += (FindBestMatchingScreenshotInIndex $screenshotGameName $troelsDkIffScreenshotIndex)
-		$screenshots += (FindBestMatchingScreenshotInIndex $screenshotGameName $amigaGameBasePngScreenshotIndex)
-		$screenshots += (FindBestMatchingScreenshotInIndex $screenshotGameName $openAmigaGameDatabasePngScreenshotIndex)
-		$screenshots += (FindBestMatchingScreenshotInIndex $screenshotGameName $lemonAmigaScreenshotIndex)
-		
+		$screenshots = SearchScreenshots $screenshotGameComparableName | Select-Object -First 10
+
 		$screenshotsCache.Set_Item($screenshotGameName, $screenshots)
 	}
 	
+	$screenshot = $screenshots | sort @{expression={$_.Score};Ascending=$false},@{expression={$_.Priority};Ascending=$true},@{expression={$_.File};Ascending=$true} | Select-Object -First 1
 	
-
-	#$rank = (MakeKeywords $screenshotGameName).Count
-	#$minimumRank = 1
-	
-	# if ($rank -lt 2)
-	# {
-		# $minimumRank = $rank - ($rank / 2) + 1
-	# }
-	
-	# find screenshot with highest rank
-	#do
-	#{
-	#	$screenshot = $screenshots | Where { $_.Rank -ge $rank } | Select-Object -First 1
-	#	$rank -= 1
-	#} while (!$screenshot -and $rank -ge $minimumRank)
-
-	
-	
-	$screenshot = $screenshots | sort @{expression={$_.Rank};Ascending=$false},@{expression={$_.Priority};Ascending=$true},@{expression={$_.File};Ascending=$false} | Select-Object -First 1
-	
-	
-	# if no screenshot, take best matching and priority regardless of rank
-	#if (!$screenshot)
-	#{
-		#$screenshot = $screenshots | sort @{expression={$_.Matching};Ascending=$false},@{expression={$_.Priority};Ascending=$false},@{expression={$_.File};Ascending=$true} | Select-Object -First 1
-	#	$screenshot = $screenshots | Where { $_.Name -match "^$screenshotGameComparableName" } | sort @{expression={$_.Priority};Ascending=$false},@{expression={$_.File};Ascending=$true} | Select-Object -First 1
-	#}
-	
-	# find troels dk screenshot
-	# $screenshots = $troelsDkIffScreenshotIndex | Where { $whdloadGameSlaveDirectoryComparableName -eq $_.Name }
-
-	# if ($screenshots.Count -eq 0)
-	# {
-		# $screenshots = $troelsDkIffScreenshotIndex | Where { $whdloadGameBaseNameComparableName -eq $_.Name }
-	# }
-
-	
-	# find amiga gamebase screenshot, if no screenshots are found
-	# if ($screenshots.Count -eq 0)
-	# {
-		# # get screenshots with exact name
-		# $screenshots = $amigaGameBasePngScreenshotIndex | Where { $whdloadGameBaseNameComparableName -eq $_.Name }
-
-		# # if screenshots with exact name is less than or equal to 1, then get screenshots where name starts with identical name
-		# if ($screenshots.Count -le 1)
-		# {
-			# $screenshots = $amigaGameBasePngScreenshotIndex | Where { $_.Name -match "^$($whdloadGameBaseNameComparableName)" }
-		# }
-	# }
-
-
-	# find open amiga game database screenshot, if none or one screenshot is found
-	# if ($screenshots.Count -le 1)
-	# {
-		# $screenshots = $openAmigaGameDatabasePngScreenshotIndex | Where { $whdloadGameSlaveDirectoryComparableName -eq $_.Name }
-
-		# if ($screenshots.Count -eq 0)
-		# {
-			# $screenshots = $openAmigaGameDatabasePngScreenshotIndex | Where { $_.Name -match "^$($whdloadGameBaseNameComparableName)" }
-		# }
-	# }
-	
-
-	# find igame gameplay screenshot, if no screenshots are found
-	# if ($screenshots.Count -eq 0)
-	# {
-		# $screenshots = $igameGameplayIffScreenshotIndex | Where { $whdloadGameSlaveDirectoryComparableName -eq $_.Name }
-
-		# if ($screenshots.Count -eq 0)
-		# {
-			# $screenshots = $igameGameplayIffScreenshotIndex | Where { $whdloadGameBaseNameComparableName -eq $_.Name }
-		# }
-	# }
-		
-	
-	# find ams boot menu screenshot, if no screenshots are found
-	# if ($screenshots.Count -eq 0)
-	# {
-		# $screenshots = $amsBootMenuIffScreenshotIndex | Where { $whdloadGameSlaveDirectoryComparableName -eq $_.Name }
-
-		# if ($screenshots.Count -eq 0)
-		# {
-			# $screenshots = $amsBootMenuIffScreenshotIndex | Where { $whdloadGameBaseNameComparableName -eq $_.Name }
-		# }
-	# }
-
-	
-	
-	
-	# get last screenshot file
-	#$screenshot = $screenshots | Select-Object -First 1
 	
 	# skip, if no screenshot
 	if (!$screenshot)
 	{
-		#Write-Host $screenshots.Count + " screenshots found for '$whdloadGameBaseName'"
-		Write-Host "skipping $whdloadGameFileName, $whdloadGameSlaveFile, no screenshots found"
-		#Add-Content $logFile "skipping $whdloadGameFileName, $whdloadGameSlaveFile, no screenshots found"
+		Add-Content $logFile "skipping $whdloadGameFileName, $whdloadGameSlaveFile, no screenshots found"
 		continue
 	}
 
@@ -613,14 +471,14 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	# skip screenshot, if it exists and is identical
 	if ($whdloadScreenshot -and $whdloadScreenshot.ScreenshotFileName -eq $screenshotFileName)
 	{
-		#Write-Host "skipping $whdloadGameFileName, new screenshots not found (" + $whdloadScreenshot.ScreenshotFileName + " <-> " + $screenshotFileName + ")"
+		Add-Content $logFile "skipping $whdloadGameFileName, new screenshots not found (" + $whdloadScreenshot.ScreenshotFileName + " <-> " + $screenshotFileName + ")"
 		continue
 	}
 
-
+	
 	# write game name
-	Write-Host "$whdloadGameName (", $whdloadScreenshot.ScreenshotFileName, "<->", $screenshotFileName, ")"
-
+	#Write-Host "$whdloadGameName (", $whdloadScreenshot.ScreenshotFileName, "<->", $screenshotFileName, ")"
+	
 
 	# create temp path
 	if(!(test-path -path $tempPath))
@@ -773,8 +631,16 @@ ForEach ($whdloadGameSlave in $whdloadGameSlaves)
 	}
 }
 
-	# remove temp path
-	remove-item $tempPath -recurse
+
+# write whdload screenshot list
+$whdloadScreenshotList = @( """WhdloadGameFileName"";""WhdloadSlaveFile"";""WhdloadGameName"";""ScreenshotFileName""" )
+
+ForEach($key in ($whdloadScreenshotIndex.Keys | Sort-Object))
+{
+	$whdloadScreenshot = $whdloadScreenshotIndex.Get_Item($key)
+
+	# add screenshot to list
+	$whdloadScreenshotList += """" + $whdloadScreenshot.WhdloadGameFileName + """;""" + $whdloadScreenshot.WhdloadGameSlaveFile + """;""" + $whdloadScreenshot.WhdloadGameName + """;""" + $whdloadScreenshot.ScreenshotFileName + """"
 }
 
 # write whdload screenshot list
