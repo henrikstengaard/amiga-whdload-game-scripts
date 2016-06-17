@@ -22,6 +22,13 @@ A PowerShell script to download all games from www.whdownload.com.
 1. Double-click 'download_whdownload_games.cmd' in Windows Explorer or start 'download_whdownload_games.ps1' from Powershell to run script.
 2. Wait for all games being downloaded to folder 'whdownload_games'.
 
+## Download Amiga English Board WHDLoad Packs
+
+A PowerShell script to download whdload packs from Amiga English Board ftp server. The script downloads games and demoes whdload packs, uncompress archives and copies whdload packs with update packs in combined folders.
+
+1. Double-click 'download_aeb_whdload_packs.cmd' in Windows Explorer or start 'download_aeb_whdload_packs.ps1' from Powershell to run script.
+2. Wait for whdload pcaks being downloaded, uncompressed and copied to combined folders in output folder 'aeb_whdload_packs'.
+
 ## Filter Whdownload Games
 
 A PowerShell script to filter games downloaded from www.whdownload.com by excluding unwanted versions and picking spreferred versions.
