@@ -26,6 +26,14 @@ If "$restoredir" eq ""
 	SKIP end
 EndIf
 
+; Confirm restore
+setenv confirmrestore ""
+setenv confirmrestore `REQUESTCHOICE "Confirm restore" "Restore backup file '$backupfile' to '$restoredir'?" "Yes|No"`
+
+IF NOT "$confirmrestore" eq "1" 
+	SKIP end
+EndIf
+
 ; Patch restore directory to end with slash, if it's not ending with either colon or slash
 setenv restoredir `sed s/\([^:\/]\)$/\1\// ENV:restoredir`
 

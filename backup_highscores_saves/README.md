@@ -2,6 +2,8 @@
 
 This is a script to backup highscores and saves for Amiga WHDLoad Games to a Lha archive. It's easy to update which highscores and saves to backup by updating a .csv with patterns and run a Powershell script to generate a backup patterns part of the scripts.
 
+Use of scripts at your own risk!
+
 **Requirements**
 
 The minimum requirements are:
@@ -99,3 +101,14 @@ Start restore script from Shell in WinUAE with the following steps:
 8. Wait for script to write "Done" and optionally close Shell by typing "endcli" and hit enter.
 
 Note: Repeat step 5 to restore other backup files. 
+
+**Screenshots**
+
+![Image of select drawer to backup dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen1.png)
+![Image of enter backup file dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen2.png)
+![Image of use ram dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen3.png)
+![Image of backup output window](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen4.png)
+![Image of select backup file dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen5.png)
+![Image of select drawer to restore backup to dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen6.png)
+![Image of confirm restore dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen7.png)
+![Image of restore output window](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/backup_highscores_saves/screen8.png)
