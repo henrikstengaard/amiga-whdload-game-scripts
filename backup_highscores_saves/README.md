@@ -2,7 +2,7 @@
 
 This is a script to backup highscores and saves for Amiga WHDLoad Games directory to a Lha backup file and a script to restore Lha backup file back to Amiga WHDLoad Games directory. It's easy to update which highscores and saves to backup by updating a .csv with patterns and run a Powershell script to generate a backup patterns part of the scripts.
 
-Use of scripts at your own risk!
+**Use of scripts at your own risk!**
 
 **Requirements**
 
@@ -102,7 +102,18 @@ Start restore script from Shell in WinUAE with the following steps:
 
 Note: Repeat step 5 to restore other backup files. 
 
-**Screenshots**
+## Transfer backup script to Amiga
+
+Transfer backup script to Amiga by copying the following files:
+
+1. "backup".
+2. "backup_files".
+3. "backup_patterns".
+4. "FSearch".
+5. "restore".
+6. "sed".
+
+## Screenshots
 
 ![Image of select drawer to backup dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/master/backup_highscores_saves/screen1.png)
 ![Image of enter backup file dialog](https://raw.githubusercontent.com/henrikstengaard/amiga-whdload-game-scripts/master/backup_highscores_saves/screen2.png)
