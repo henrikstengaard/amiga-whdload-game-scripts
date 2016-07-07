@@ -110,8 +110,9 @@ Transfer backup script to Amiga by copying the following files:
 2. "backup_files".
 3. "backup_patterns".
 4. "FSearch".
-5. "restore".
-6. "sed".
+5. "LhA".
+6. "restore".
+7. "sed".
 
 ## Screenshots
 
