@@ -91,6 +91,7 @@ Note: Repeat step 3 to restore other backup files.
 ## Start restore script from Shell in WinUAE
 
 Start restore script from Shell in WinUAE with the following steps:
+
 1. Double-click "System" drive.
 2. Double-click "System" drawer.
 3. Double-click "Shell" icon.
