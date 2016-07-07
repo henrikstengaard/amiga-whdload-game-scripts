@@ -1,0 +1,39 @@
+; Restore script
+; --------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2016-07-07
+;
+; This script will restore backup of highscores and saves. User is prompted to select backup file, drawer to restore backup to.
+
+; Clear screen
+echo "*ec"
+
+; Select backup file
+setenv backupfile ""
+setenv backupfile `REQUESTFILE TITLE "Select backup file" NOICONS`
+
+If "$backupfile" eq ""
+	echo "Error: Backup file not selected!"
+	SKIP end
+EndIf
+
+; Select restore directory
+setenv restoredir ""
+setenv restoredir `REQUESTFILE TITLE "Select drawer to restore backup to" NOICONS DRAWERSONLY`
+
+If "$restoredir" eq ""
+	echo "Error: Restore drawer not selected!"
+	SKIP end
+EndIf
+
+; Patch restore directory to end with slash, if it's not ending with either colon or slash
+setenv restoredir `sed s/\([^:\/]\)$/\1\// ENV:restoredir`
+
+echo "Starting restore of '$backupfile' to '$restoredir'..."
+
+lha -m1 x "$backupfile" "$restoredir" >NIL:
+
+echo "Done"
+
+; End of script
+LAB end

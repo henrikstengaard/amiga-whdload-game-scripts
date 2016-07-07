@@ -1,0 +1,63 @@
+; Backup script
+; -------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2016-07-07
+;
+; This script will backup highscores and saves. User is prompted to enter backup name, drawer to backup and if ram drive should be used to speed up the backup process (useful for stock machines).
+
+; Clear screen
+echo "*ec"
+
+; Select backup directory
+setenv backupdir ""
+setenv backupdir `REQUESTFILE TITLE "Select drawer to backup" NOICONS DRAWERSONLY`
+
+If "$backupdir" eq ""
+	echo "Error: Backup drawer not selected!"
+	SKIP end
+EndIf
+
+; Select backup file
+setenv backupfile ""
+setenv backupfile `REQUESTFILE TITLE "Enter backup file" NOICONS`
+
+If "$backupfile" eq ""
+	echo "Error: No backup file entered!"
+	SKIP end
+EndIf
+
+; Add .lha extension to backup file
+setenv backupfile `echo "$backupfile.lha"`
+
+; Use ram
+setenv useram `REQUESTCHOICE "Use RAM:" "Use RAM: to speed up backup process?" "Yes|No"`
+
+If $useram eq "1" 
+	setenv cachedir "RAM:backup_cache"
+Else
+	setenv cachedir "backup_cache"
+EndIf
+
+; create cache dir
+IF NOT EXISTS $cachedir
+	makedir $cachedir
+EndIF 
+
+echo "Creating list of files in '$backupdir'..."
+
+; List files in selected backup directory
+fsearch >"$cachedir/files" "$backupdir" ALL
+
+echo "Starting backup of '$backupdir' to '$backupfile'..."
+
+execute backup_patterns "$cachedir" "$backupfile"
+
+echo "Done"
+
+; End of script
+LAB end
+
+; delete cache dir
+IF EXISTS "$cachedir"
+	delete "$cachedir" ALL QUIET >NIL:
+EndIF 

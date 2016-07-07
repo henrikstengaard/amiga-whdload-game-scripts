@@ -1,0 +1,31 @@
+; Backup files script
+; -------------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2016-07-07
+;
+; This script searches for files with pattern in cachedir files file and add found files to backupfile.
+
+.KEY name/a,pattern/a,cachedir/a,backupfile/a
+.BRA { 
+.KET } 
+
+; Goto end, if "files" file doesn't exist
+IF NOT EXISTS "{cachedir}/files"
+	SKIP end
+ENDIF 
+
+; Search for pattern in "files" file
+search "{cachedir}/files" "{pattern}" NONUM >"{cachedir}/backup_set1"
+
+; Goto end, if pattern was not found in files
+If WARN
+	SKIP end
+EndIf 
+
+echo "- '{name}'"
+
+sed "s/^\(.\)/lha -er a *"{backupfile}*" *"\1/" "{cachedir}/backup_set1" >"{cachedir}/backup_set2"
+sed "s/\(.\)$/\1*" >NIL:/" "{cachedir}/backup_set2" >"{cachedir}/backup_set3"
+execute "{cachedir}/backup_set3"
+
+lab end
