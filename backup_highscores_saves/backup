@@ -61,3 +61,5 @@ LAB end
 IF EXISTS "$cachedir"
 	delete "$cachedir" ALL QUIET >NIL:
 EndIF 
+
+wait 5

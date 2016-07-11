@@ -46,16 +46,14 @@ Add backup script directory in WinUAE with the following steps:
 Start backup script from Workbench in WinUAE with the following steps:
 
 1. Double-click "Backup" drive.
-2. Click and holddown right mouse button, move cursor to menu bar in the top in the screen and select Window, Show, All files and release mouse button.
-3. Double-click "backup" file.
-4. In the execute a file dialog change command to "execute backup".
-5. Select drawer to backup, where backup script should search for highscores or saves to backup.
-6. Enter backup file, select drawer and enter name for backup file.
-7. Use RAM:, if Yes is selected then cache files are written to ram disk instead of hard disk.
-8. Wait for script to write "Done" and close output window.
-9. Copy backup file .lha to be stored somewhere safe.
+2. Double-click "backup" icon.
+3. Select drawer to backup, where backup script should search for highscores or saves to backup.
+4. Enter backup file, select drawer and enter name for backup file.
+5. Use RAM:, if Yes is selected then cache files are written to ram disk instead of hard disk.
+6. Wait for script to write "Done".
+7. Copy backup file .lha to be stored somewhere safe.
 
-Note: Repeat step 3 to backup other directories.
+Note: Repeat to backup other directories.
 
 ## Start backup script from Shell in WinUAE
 
@@ -72,21 +70,19 @@ Start backup script from Shell in WinUAE with the following steps:
 8. Wait for script to write "Done" and optionally close Shell by typing "endcli" and hit enter.
 9. Copy backup file .lha to be stored somewhere safe.
 
-Note: Repeat step 5 to backup other directories. 
+Note: Repeat to backup other directories. 
 
 ## Start restore script from Workbench in WinUAE
 
 Start restore script from Workbench in WinUAE with the following steps:
 
 1. Double-click "Backup" drive.
-2. Click and holddown right mouse button, move cursor to menu bar in the top in the screen and select Window, Show, All files and release mouse button.
-3. Double-click "restore" file.
-4. In the execute a file dialog change command to "execute restore".
-5. Select backup file containing backup of highscores or saves to restore.
-6. Select drawer to restore backup to, where restore script should put highscores or saves from backup file.
-7. Wait for script to write "Done" and close output window.
+2. Double-click "restore" icon.
+3. Select backup file containing backup of highscores or saves to restore.
+4. Select drawer to restore backup to, where restore script should put highscores or saves from backup file.
+5. Wait for script to write "Done".
 
-Note: Repeat step 3 to restore other backup files. 
+Note: Repeat to restore other backup files. 
 
 ## Start restore script from Shell in WinUAE
 
@@ -101,19 +97,22 @@ Start restore script from Shell in WinUAE with the following steps:
 7. Select drawer to restore backup to, where restore script should put highscores or saves from backup file.
 8. Wait for script to write "Done" and optionally close Shell by typing "endcli" and hit enter.
 
-Note: Repeat step 5 to restore other backup files. 
+Note: Repeat to restore other backup files. 
 
 ## Transfer backup script to Amiga
 
 Transfer backup script to Amiga by copying the following files:
 
 1. "backup".
-2. "backup_files".
-3. "backup_patterns".
-4. "FSearch".
-5. "LhA".
-6. "restore".
-7. "sed".
+2. "backup.info".
+3. "backup_files".
+4. "backup_patterns".
+5. "Disk.info".
+6. "FSearch".
+7. "LhA".
+8. "restore".
+9. "restore.info".
+10. "sed".
 
 ## Screenshots
 

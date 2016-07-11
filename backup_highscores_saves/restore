@@ -45,3 +45,5 @@ echo "Done"
 
 ; End of script
 LAB end
+
+wait 5
