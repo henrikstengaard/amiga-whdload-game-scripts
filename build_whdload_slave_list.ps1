@@ -63,16 +63,36 @@ Function IsWhdloadSlaveFile($filePath)
 }
 
 
-$whdloadSlaveList = @( """WhdloadName"";""WhdloadSlaveFilePath""" )
+$whdloadSlaveList = @( """WhdloadName"";""WhdloadSlaveFilePath"";""WhdloadSlaveName"";""WhdloadSlaveCopy"";""ReadmeAppliesTo""" )
 
 foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsContainer -and (IsWhdloadSlaveFile $_.FullName) }))
 {
-	
 	$whdloadName = [System.IO.Path]::GetFileName($file.Directory)
+	
+	if ($whdloadName -match '^data$')
+	{
+		$whdloadName = $file.Name -replace '\.slave', ''
+	}
+	
 	$whdloadPathIndex = $file.FullName.IndexOf($whdloadPath) + $whdloadPath.Length + 1
 	$whdloadSlaveFilePath = $file.FullName.Substring($whdloadPathIndex, $file.FullName.Length - $whdloadPathIndex)
+
+	$readmeFile = Get-ChildItem -Path $file.Directory -filter readme*.* | Select-Object -First 1
 	
-	$whdloadSlaveList += ("""" + $whdloadName + """;""" + $whdloadSlaveFilePath + """")
+	$readmeAppliesTo = $null
+	
+	if ($readmeFile)
+	{
+		$readmeAppliesTo = Get-Content $readmeFile.FullName -encoding ascii | Where { $_ -match '(install|patch) applies to' } | Select-String -Pattern "(install|patch) applies to\s*(.*)?" -AllMatches | % { $_.Matches } | % { $_.Groups[2].Value.Replace("""", "").Trim() } | Select-Object -First 1 
+	}
+
+	# read whdload slave information and write to text
+	$whdloadSlaveOutput = & $readWhdloadSlavePath -path $file.FullName
+	
+	$whdloadSlaveName = $whdloadSlaveOutput | Select-String -Pattern  "Name\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+	$whdloadSlaveCopy = $whdloadSlaveOutput | Select-String -Pattern  "Copy\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+
+	$whdloadSlaveList += ("""" + $whdloadName + """;""" + $whdloadSlaveFilePath + """;""" + $whdloadSlaveName +""";""" + $whdloadSlaveCopy +""";""" + $readmeAppliesTo +"""")
 }
 
 
