@@ -15,12 +15,8 @@ Installation of the scripts is quite easy and can be done one the following ways
 * Clone git repository.
 * Click 'Download ZIP' and afterwards extract files.
 
-## Download Whdownload Games
 
-A PowerShell script to download all games from www.whdownload.com.
-
-1. Double-click 'download_whdownload_games.cmd' in Windows Explorer or start 'download_whdownload_games.ps1' from Powershell to run script.
-2. Wait for all games being downloaded to folder 'whdownload_games'.
+# Amiga English Board WHDLoad Packs
 
 ## Download Amiga English Board WHDLoad Packs
 
@@ -28,6 +24,22 @@ A PowerShell script to download whdload packs from Amiga English Board ftp serve
 
 1. Double-click 'download_aeb_whdload_packs.cmd' in Windows Explorer or start 'download_aeb_whdload_packs.ps1' from Powershell to run script.
 2. Wait for whdload pcaks being downloaded, uncompressed and copied to combined folders in output folder 'aeb_whdload_packs'.
+
+## Filter Amiga English Board WHDLoad Packs
+
+A PowerShell script to filter whdload packs from Amiga English Board by excluding hardware and language versions and picking best version.
+
+1. Double-click 'filter_aeb_whdload_packs.cmd' in Windows Explorer or start 'filter_aeb_whdload_packs.ps1' from Powershell to run script.
+2. Wait for whdload packs being filtered and copied to output folders 'aeb_whdload_games' and 'aeb_whdload_games_aga'.
+
+# Whdownload Games
+
+## Download Whdownload Games
+
+A PowerShell script to download all games from www.whdownload.com.
+
+1. Double-click 'download_whdownload_games.cmd' in Windows Explorer or start 'download_whdownload_games.ps1' from Powershell to run script.
+2. Wait for all games being downloaded to folder 'whdownload_games'.
 
 ## Filter Whdownload Games
 
@@ -59,3 +71,8 @@ Note: The script uses drive Z:\ as temp to extract and scan whdload archives, if
 
 1. Double-click 'build_whdload_index.cmd' in Windows Explorer or start 'build_whdload_index.ps1' from Powershell to run script.
 2. Wait for whdload indexes being built to folders 'whdload_installs_index' and 'whdownload_games_index'.
+
+
+
+PS C:\Work\First Realize\amiga-whdload-game-scripts\aeb_whdload_packs\demos_whdload\combined> import-csv -delimiter ';' -path .\whdload_slaves.csv | % { $name = $_.WhdloadName; if ($_.WhdloadSlaveName) { $name = $_.WhdloadSlaveName + " " + $_.WhdloadSlaveCopy + " " +$_.W
+hdloadName }; $name + ";" + $_.WhdloadSlaveFilePath } > names.txt
