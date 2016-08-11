@@ -5,7 +5,8 @@
 # Date:   2016-08-04
 #
 # A PowerShell script to filter whdload packs from Amiga English Board.
-# The script filters whdload packs by excluding hardware and language versions and picking best version.
+# The script filters whdload packs by excluding hardware, language versions, calculate rank based on hardware, language, demo, memory and other texts. 
+# Best ranked versions are picked for each whdload directory.
 
 
 Param(
@@ -18,7 +19,11 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$excludeLanguagePattern,
 	[Parameter(Mandatory=$false)]
-	[switch]$bestVersion
+	[switch]$bestVersion,
+	[Parameter(Mandatory=$false)]
+	[switch]$eachHardware,
+	[Parameter(Mandatory=$false)]
+	[switch]$skipCopying
 )
 
 
@@ -69,10 +74,11 @@ foreach($whdloadSource in $whdloadSources)
 
 
 # Patterns for filtering versions of whdload slaves
-$hardwarePattern = '(CD32|AGA)$'
-$languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz)$'
+$hardwarePattern = '(CD32|AGA|CDTV|CD)$'
+$languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi)$'
+$memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512kb|512Kb|512KB)$'
 $demoPattern = '(Demo|Preview)$'
-$otherPattern = '(NoVoice|Fix|Fixed|Slow|Fast|Aminet|ComicRelief|Util|1MB|2MB|060|CD|Chip|NoIntro|NTSC|Censored)$'
+$otherPattern = '(AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|&Profidisk)$'
 
 
 # Process whdload slaves
@@ -84,10 +90,11 @@ foreach ($whdloadSlave in $whdloadSlaves)
 
 	$hardware = @()
 	$language = @()
-	$demo = ""
-	$other = ""
+	$memory = @()
+	$demo = @()
+	$other = @()
 	
-	while ($name -cmatch $hardwarePattern -or $name -cmatch $languagePattern -or $name -cmatch $demoPattern -or $name -cmatch $otherPattern)
+	while ($name -cmatch $hardwarePattern -or $name -cmatch $languagePattern -or $name -cmatch $memoryPattern -or $name -cmatch $demoPattern -or $name -cmatch $otherPattern)
 	{
 		if ($name -cmatch $hardwarePattern)
 		{
@@ -100,20 +107,28 @@ foreach ($whdloadSlave in $whdloadSlaves)
 			$language +=, ($name | Select-String -Pattern $languagePattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
 			$name = $name -creplace $languagePattern, ''
 		}
-	
+
+		if ($name -cmatch $memoryPattern)
+		{
+			$memory +=, ($name | Select-String -Pattern $memoryPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
+			$name = $name -creplace $memoryPattern, ''
+		}
+		
 		if ($name -cmatch $demoPattern)
 		{
-			$demo = $name | Select-String -Pattern $demoPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1 
+			$demo +=, $name | Select-String -Pattern $demoPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1 
 			$name = $name -creplace $demoPattern, ''
 		}
 
 		if ($name -cmatch $otherPattern)
 		{
-			$other = $name | Select-String -Pattern $otherPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1 
+			$other +=, ($name | Select-String -Pattern $otherPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1) 
 			$name = $name -creplace $otherPattern, ''
 		}
 	}
 
+	$memory = $memory | % { $_ -replace 'mb$', '000000' -replace '(k|kb)$', '000' } | sort @{expression={$_};Ascending=$true}
+	
 	# skip, if any exclude pattern matches hardware
 	if ($excludeHardwarePattern -and ($hardware | Where { $_ -match $excludeHardwarePattern }).Count -gt 0)
 	{
@@ -126,28 +141,51 @@ foreach ($whdloadSlave in $whdloadSlaves)
 		continue
 	}
 
+	if ($hardware.Count -eq 0)
+	{
+		$hardware +=, @('OCS/ECS')
+	}
+	
 	# Rank whdload slave
 	$rank = 1
 
 	if (($hardware | Where { $_ -match 'CD32' }).Count -gt 0)
 	{
-		$rank = 3
+		$rank = 4
 	}
 	elseif (($hardware | Where { $_ -match 'AGA' }).Count -gt 0)
+	{
+		$rank = 3
+	}
+	elseif (($hardware | Where { $_ -match 'CDTV' }).Count -gt 0)
 	{
 		$rank = 2
 	}
 
-	# boost rank if rank is empty (english)
-	if ($language -eq '')
+	$rank -= $language.Count
+	$rank -= $demo.Count
+	$rank -= $other.Count
+	$rank -= $memory.Count
+	
+	$lowestMemory = $memory | Where { $_ -match '^\d+$' } | Select-Object -First 1
+	
+	if ($lowestMemory)
 	{
-		$rank++
+		$rank -= $lowestMemory / 512000
 	}
 	
-	# whdload index name. combined to include multiple slaves (intro, no intro etc.) and different memory versions
-	$whdloadIndexName = $name + $other
+	$kick = $other | Where { $_ -match '^kick\d+'} | % { $_ -replace '^kick', '' } | Select-Object -First 1
 	
-	$game = @{ "WhdloadSlave" = $whdloadSlave; "Name" = $name; "Hardware" = [string]::Join(",", $hardware); "Language" = [string]::Join(",", $language); "Demo" = $demo; "Other" = $other; "Rank" = $rank }
+	if ($kick)
+	{
+		$rank += $kick
+	}
+	
+	$rank -= ($other | Where { $_ -match '^Files$'} ).Count
+		
+	$whdloadIndexName = $name
+	
+	$game = @{ "WhdloadSlave" = $whdloadSlave; "Name" = $name; "Hardware" = $hardware; "Language" = $language; "Memory" = $memory; "Demo" = $demo; "Other" = $other; "Rank" = $rank }
 	
 	if ($identicalWhdloadSlaveIndex.ContainsKey($whdloadIndexName))
 	{
@@ -172,40 +210,102 @@ foreach ($name in ($identicalWhdloadSlaveIndex.Keys | sort))
 	$identicalWhdloadSlaves = @()
 	$identicalWhdloadSlaves += ($identicalWhdloadSlaveIndex.Get_Item($name) | sort @{expression={$_.Rank};Ascending=$false})
 	
-	if ($bestVersion)
-	{
-		$identicalWhdloadSlaves = $identicalWhdloadSlaves | Where { $_.Rank -eq $identicalWhdloadSlaves[0].Rank }
-	}
 	
-	foreach($whdloadSlave in $identicalWhdloadSlaves)
+	if ($eachHardware)
 	{
-		$filteredWhdloadSlaves +=, $whdloadSlave.WhdloadSlave
+		$hardwareList = @()
+	
+		foreach($whdloadSlave in $identicalWhdloadSlaves)
+		{
+			if ($hardwareList -contains $whdloadSlave.Hardware)
+			{
+				continue
+			}
+			
+			$hardwareList += $whdloadSlave.Hardware
+		}
+		
+		foreach ($hardware in $hardwareList)
+		{
+			$whdloadSlavesHardware = @()
+			$whdloadSlavesHardware +=, ($identicalWhdloadSlaves | Where { $_.Hardware -contains $hardware })
+			
+			if ($bestVersion)
+			{
+				$whdloadSlavesHardware = $whdloadSlavesHardware | Where { $_.Rank -eq $whdloadSlavesHardware[0].Rank }
+			}
+
+			foreach($whdloadSlave in $whdloadSlavesHardware)
+			{
+				$filteredWhdloadSlaves +=, $whdloadSlave.WhdloadSlave
+			}
+		}
+	}
+	else
+	{
+		if ($bestVersion)
+		{
+			$identicalWhdloadSlaves = $identicalWhdloadSlaves | Where { $_.Rank -eq $identicalWhdloadSlaves[0].Rank }
+		}
+
+		foreach($whdloadSlave in $identicalWhdloadSlaves)
+		{
+			$filteredWhdloadSlaves +=, $whdloadSlave.WhdloadSlave
+		}
 	}
 }
 
 
 # Copy filtered whdload slave directories
-foreach($whdloadSlave in $filteredWhdloadSlaves)
+# TODO: copy info files for directories!
+if (!$skipCopying)
 {
-	$whdloadDirectoryPath = [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)
-
-	$sourcePath = [System.IO.Path]::Combine($whdloadSlave.WhdloadPath, $whdloadDirectoryPath)
-	$destinationPath = [System.IO.Path]::Combine($outputPath, $whdloadDirectoryPath)
-
-	# skip, since it's already copied
-	if(test-path -path $destinationPath)
+	foreach($whdloadSlave in $filteredWhdloadSlaves)
 	{
-		continue
+		$whdloadDirectoryPath = [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)
+
+		$whdloadSourcePath = [System.IO.Path]::Combine($whdloadSlave.WhdloadPath, $whdloadDirectoryPath)
+		$whdloadDestinationPath = [System.IO.Path]::Combine($outputPath, $whdloadDirectoryPath)
+
+		
+		#$whdloadDestinationPath = [System.IO.Path]::GetDirectoryName($destinationPath)
+		$whdloadDestinationIndexPath = [System.IO.Path]::GetDirectoryName($whdloadDestinationPath)
+		
+		# create whdload destination index path, if it doesn't exist
+		if(!(test-path -path $whdloadDestinationIndexPath))
+		{
+			md $whdloadDestinationIndexPath | Out-Null
+		}
+
+		# copy info file
+		$whdloadSourceIndexPath = [System.IO.Path]::GetDirectoryName($whdloadSourcePath)
+		$whdloadSourceDirectoryInfoFile = [System.IO.Path]::Combine($whdloadSourceIndexPath, $whdloadSlave.WhdloadName + ".info")
+		$whdloadDestinationDirectoryInfoFile = [System.IO.Path]::Combine($whdloadDestinationIndexPath, $whdloadSlave.WhdloadName + ".info")
+
+		# copy whdload directory info file, if it exists
+		if ((test-path -path $whdloadSourceDirectoryInfoFile) -and !(test-path -path $whdloadDestinationDirectoryInfoFile))
+		{
+			Copy-Item $whdloadSourceDirectoryInfoFile $whdloadDestinationIndexPath -force
+		}
+
+		$whdloadIndexName = [System.IO.Path]::GetFilename($whdloadSourceIndexPath)
+		$whdloadSourceRootPath = [System.IO.Path]::GetDirectoryName($whdloadSourceIndexPath)
+		$whdloadSourceRootInfoFile = [System.IO.Path]::Combine($whdloadSourceRootPath, $whdloadIndexName + ".info")
+		$whdloadDestinationRootPath = [System.IO.Path]::GetDirectoryName($whdloadDestinationIndexPath)
+		$whdloadDestinationRootInfoFile = [System.IO.Path]::Combine($whdloadDestinationRootPath, $whdloadIndexName + ".info")
+
+		# copy whdload index info file, if it doesn't exists
+		if ((test-path -path $whdloadSourceRootInfoFile) -and !(test-path -path $whdloadDestinationRootInfoFile))
+		{
+			Copy-Item $whdloadSourceRootInfoFile $whdloadDestinationRootPath -force
+		}
+
+		# copy whdload directory, if it doesn't exist
+		if(!(test-path -path $whdloadDestinationPath))
+		{
+			Copy-Item $whdloadSourcePath -Destination $whdloadDestinationIndexPath -Recurse
+		}
 	}
-	
-	$parentPath = [System.IO.Path]::GetDirectoryName($destinationPath)
-	
-	if(!(test-path -path $parentPath))
-	{
-		md $parentPath | Out-Null
-	}
-	
-	Copy-Item $sourcePath -Destination $parentPath -Recurse
 }
 
 
