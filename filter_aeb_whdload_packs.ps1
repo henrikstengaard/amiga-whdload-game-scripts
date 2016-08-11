@@ -257,7 +257,6 @@ foreach ($name in ($identicalWhdloadSlaveIndex.Keys | sort))
 
 
 # Copy filtered whdload slave directories
-# TODO: copy info files for directories!
 if (!$skipCopying)
 {
 	foreach($whdloadSlave in $filteredWhdloadSlaves)
