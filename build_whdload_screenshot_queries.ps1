@@ -11,7 +11,15 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[string]$whdloadSlavesFile,
 	[Parameter(Mandatory=$true)]
-	[string]$screenshotQueriesFile
+	[string]$screenshotQueriesFile,
+	[Parameter(Mandatory=$false)]
+	[string]$removeQueryTextPattern,
+	[Parameter(Mandatory=$false)]
+	[switch]$addFilteredName,
+	[Parameter(Mandatory=$false)]
+	[switch]$addWhdloadSlaveName,
+	[Parameter(Mandatory=$false)]
+	[switch]$addWhdloadSlaveCopy
 )
 
 
@@ -25,7 +33,7 @@ function MakeComparableName([string]$text)
 	$text = $text -replace "[^\w]", " "
 	$text = $text -replace '\?', ' '
 	$text = $text -replace '[\.]', ''
-	$text = $text -replace "[&\-_\(\):\.,!\\/+\*\?]", " "
+	$text = $text -replace "[&\-_\(\):\.,!\\/+\*\?\(\)]", " "
 	# return $text
 	
 	# $newText = ""
@@ -160,51 +168,55 @@ function Normalize([string]$text)
 	return RemoveDiacritics (ConvertSuperscript $text)
 }
 
-#Import-module ([System.IO.Path]::Combine($scriptPath, "TextModule.psm1"))
 
-#$whdloadSlavesFile = "aeb_whdload_packs\demos_whdload\combined\whdload_slaves.csv"
-#$whdloadSlavesFile = "aeb_whdload_packs\games_whdload\combined\whdload_slaves.csv"
-#$whdloadSlavesFile = "aeb_whdload_packs\games_whdload_aga\combined\whdload_slaves.csv"
+# Resolve paths
 $whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
-
-#$outputFile = "ags2_menu_demos_screenshot_queries.csv"
-#$outputFile = "ags2_menu_games_screenshot_queries.csv"
-#$outputFile = "ags2_menu_games_aga_screenshot_queries.csv"
 $screenshotQueriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotQueriesFile)
 
+
+# Read whdload slave list
 $items = import-csv -delimiter ';' -path $whdloadSlavesFile -encoding utf8
 
+
+# Process items
 foreach($item in $items)
 {
 	$name = $item.WhdloadName
 	
-	# needed for games
-	#if (($name -cmatch '(De|Fr|It|Se|Pl|Es|Cz)$' -or $name -cmatch '(De|Fr|It|Se|Pl|Es|Cz)Fast$' -or $name -match 'NTSC' -or $name -match 'EnemyDe\(EasyPlay\)') -and $name -notmatch 'xit')
-	#{
-#		Write-Host "skipping '$name'"
-#		continue
-#	}
+	if ($addFilteredName -and $item.FilteredName -and ($item.WhdloadName -ne $item.FilteredName))
+	{
+		$name += " " + $item.FilteredName
+	}
 
-	# needed for demos/games
-	if ($item.WhdloadSlaveName)
+	if ($addWhdloadSlaveName -and $item.WhdloadSlaveName -and ($item.WhdloadName -ne $item.WhdloadSlaveName))
 	{
 		$name += " " + $item.WhdloadSlaveName
 	}
 
-	# if ($item.WhdloadSlaveCopy)
-	# {
-		# $name += " " + ([string]$item.WhdloadSlaveCopy)
-	# }
+	if ($addWhdloadSlaveCopy -and $item.WhdloadSlaveCopy)
+	{
+		$name += " " + ($item.WhdloadSlaveCopy -replace '\d{4}', ' ')
+	}
 
-	# if ($item.ReadmeAppliesTo)
-	# {
-		# $name += " " + ([string]$item.ReadmeAppliesTo)
-	# }
-	
 	$screenshotQuery = UniqueWords (MakeComparableName (Normalize $name))
 	
+	if ($removeQueryTextPattern -and ($removeQueryTextPattern -ne ''))
+	{
+		$screenshotQuery = $screenshotQuery -replace $removeQueryTextPattern, ''
+	}
+
+	# Special replace for 'Russelsheim'
+	if ($screenshotQuery -match 'r.sselsheim')
+	{
+		$screenshotQuery = 'russelsheim'
+	}
+
+	$screenshotQuery = $screenshotQuery.Trim()
+
 	$item | Add-Member -MemberType NoteProperty -Name ScreenshotQuery -Value $screenshotQuery
 }
 
+
+# Write screenshot queries file
 $items | Where { $_.ScreenshotQuery } | export-csv -delimiter ';' -path $screenshotQueriesFile -NoTypeInformation
 
