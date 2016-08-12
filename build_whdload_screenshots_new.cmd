@@ -1,5 +1,3 @@
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "ags2_menu_demos_screenshot_queries.csv" -screenshotSourcesFile "ags2_menu_demos_screenshot_sources.csv" -outputPath "screenshots\whdload_demos"
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "ags2_menu_games_screenshot_queries.csv" -screenshotSourcesFile "ags2_menu_games_screenshot_sources.csv" -outputPath "screenshots\whdload_games"
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "ags2_menu_games_aga_screenshot_queries.csv" -screenshotSourcesFile "ags2_menu_games_aga_screenshot_sources.csv" -outputPath "screenshots\whdload_games_aga"
-
+powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "aeb_whdload_pack_games_screenshot_queries.csv" -screenshotSourcesFile "games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games"
 powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "aeb_whdload_pack_games_aga_screenshot_queries.csv" -screenshotSourcesFile "games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games_aga"
+::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "aeb_whdload_pack_demos_screenshot_queries.csv" -screenshotSourcesFile "demos_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_demos" -skipScreenshots
