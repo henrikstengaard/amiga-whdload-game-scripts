@@ -77,7 +77,7 @@ foreach($whdloadSource in $whdloadSources)
 $hardwarePattern = '(CD32|AGA|CDTV|CD)$'
 $languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi)$'
 $memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512kb|512Kb|512KB)$'
-$demoPattern = '(Demo|Preview)$'
+$demoPattern = '(Demo\d?|Demos|Preview)$'
 $otherPattern = '(AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|&Profidisk)$'
 
 
@@ -87,6 +87,12 @@ $identicalWhdloadSlaveIndex = @{}
 foreach ($whdloadSlave in $whdloadSlaves)
 {
 	$name = $whdloadSlave.WhdloadName
+
+	# Special replace for 'Invest' and 'Spirit of Adventure' german games for language pattern
+	if ($name -cmatch 'De\d+Disk')
+	{
+		$name = $name -creplace '(De)(\d+Disk)', '$2$1'
+	}
 
 	$hardware = @()
 	$language = @()
