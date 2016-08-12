@@ -116,7 +116,7 @@ foreach ($whdloadSlave in $whdloadSlaves)
 		
 		if ($name -cmatch $demoPattern)
 		{
-			$demo +=, $name | Select-String -Pattern $demoPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1 
+			$demo +=, ($name | Select-String -Pattern $demoPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
 			$name = $name -creplace $demoPattern, ''
 		}
 
@@ -127,8 +127,6 @@ foreach ($whdloadSlave in $whdloadSlaves)
 		}
 	}
 
-	$memory = $memory | % { $_ -replace 'mb$', '000000' -replace '(k|kb)$', '000' } | sort @{expression={$_};Ascending=$true}
-	
 	# skip, if any exclude pattern matches hardware
 	if ($excludeHardwarePattern -and ($hardware | Where { $_ -match $excludeHardwarePattern }).Count -gt 0)
 	{
@@ -143,7 +141,7 @@ foreach ($whdloadSlave in $whdloadSlaves)
 
 	if ($hardware.Count -eq 0)
 	{
-		$hardware +=, @('OCS/ECS')
+		$hardware +=, 'OCS/ECS'
 	}
 	
 	# Rank whdload slave
@@ -166,8 +164,15 @@ foreach ($whdloadSlave in $whdloadSlaves)
 	$rank -= $demo.Count
 	$rank -= $other.Count
 	$rank -= $memory.Count
+
+	# make memory sortable
+	$sortableMemory = @()
+	foreach($m in $memory)
+	{
+		$sortableMemory +=, ($m -replace 'mb$', '000000' -replace '(k|kb)$', '000')
+	}
 	
-	$lowestMemory = $memory | Where { $_ -match '^\d+$' } | Select-Object -First 1
+	$lowestMemory = $sortableMemory | Where { $_ -match '^\d+$' } | sort @{expression={$_};Ascending=$true} | Select-Object -First 1
 	
 	if ($lowestMemory)
 	{
@@ -182,9 +187,15 @@ foreach ($whdloadSlave in $whdloadSlaves)
 	}
 	
 	$rank -= ($other | Where { $_ -match '^Files$'} ).Count
-		
+
 	$whdloadIndexName = $name
-	
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredName' -Value $name
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredHardware' -Value ([string]::Join(',', $hardware))
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredLanguage' -Value ([string]::Join(',', $language))
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredMemory' -Value ([string]::Join(',', $memory))
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredDemo' -Value ([string]::Join(',', $demo))
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredOther' -Value ([string]::Join(',', $other))
+
 	$game = @{ "WhdloadSlave" = $whdloadSlave; "Name" = $name; "Hardware" = $hardware; "Language" = $language; "Memory" = $memory; "Demo" = $demo; "Other" = $other; "Rank" = $rank }
 	
 	if ($identicalWhdloadSlaveIndex.ContainsKey($whdloadIndexName))
