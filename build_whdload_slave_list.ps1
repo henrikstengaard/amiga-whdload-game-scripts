@@ -1,31 +1,17 @@
 # Build WHDLoad Slave List
 # ------------------------
 #
-# Author: Henrik Nørfjand Stengaard
+# Author: Henrik NÃ¸rfjand Stengaard
 # Date:   2016-06-17
 #
 # A PowerShell script to build whdload slave list csv file with a list of whdload name and path to whdload slave file.
-# Note: The script uses drive Z:\ as temp to extract and scan whdload archives, if drive is present. Otherwise it will use [SystemDrive]:\Temp, which is usually C:\Temp.
 
 Param(
 	[Parameter(Mandatory=$true)]
 	[string]$whdloadPath
 )
 
-$sevenZipPath = "$env:ProgramFiles\7-Zip\7z.exe"
-$readWhdloadSlavePath = [System.IO.Path]::GetFullPath("read_whdload_slave.ps1")
-
-# use Z:\ as temp, if present
-if (Test-Path -path "Z:\")
-{
-	$tempPath = [System.IO.Path]::Combine("Z:\", [System.IO.Path]::GetRandomFileName())
-}
-else
-{
-	$tempPath = [System.IO.Path]::Combine("$env:SystemDrive\Temp", [System.IO.Path]::GetRandomFileName())
-}
-
-
+$readWhdloadSlavePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("read_whdload_slave.ps1")
 
 Function IsWhdloadSlaveFile($filePath)
 {
@@ -63,7 +49,7 @@ Function IsWhdloadSlaveFile($filePath)
 }
 
 
-$whdloadSlaveList = @( """WhdloadName"";""WhdloadSlaveFilePath"";""WhdloadSlaveName"";""WhdloadSlaveCopy"";""ReadmeAppliesTo""" )
+$whdloadSlaves = @()
 
 foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsContainer -and (IsWhdloadSlaveFile $_.FullName) }))
 {
@@ -91,12 +77,15 @@ foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsCo
 	
 	$whdloadSlaveName = $whdloadSlaveOutput | Select-String -Pattern  "Name\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
 	$whdloadSlaveCopy = $whdloadSlaveOutput | Select-String -Pattern  "Copy\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+	$whdloadSlaveFlags = $whdloadSlaveOutput | Select-String -Pattern  "Flags\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+	$whdloadSlaveBaseMemSize = $whdloadSlaveOutput | Select-String -Pattern  "BaseMemSize\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
+	$whdloadSlaveExecInstall = $whdloadSlaveOutput | Select-String -Pattern  "ExecInstall\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
 
-	$whdloadSlaveList += ("""" + $whdloadName + """;""" + $whdloadSlaveFilePath + """;""" + $whdloadSlaveName +""";""" + $whdloadSlaveCopy +""";""" + $readmeAppliesTo +"""")
+	$whdloadSlave = @{ "WhdloadName" = $whdloadName; "WhdloadSlaveFilePath" = $whdloadSlaveFilePath; "WhdloadSlaveName" = $whdloadSlaveName; "WhdloadSlaveCopy" = $whdloadSlaveCopy; "WhdloadSlaveFlags" = $whdloadSlaveFlags; "WhdloadSlaveBaseMemSize" = $whdloadSlaveBaseMemSize; "WhdloadSlaveExecInstall" = $whdloadSlaveExecInstall; "ReadmeAppliesTo" = $readmeAppliesTo }
+
+	$whdloadSlaves +=, $whdloadSlave
 }
 
-
-
-# write whdload slave list
+# write game list
 $whdloadSlaveListPath = [System.IO.Path]::Combine($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadPath), "whdload_slaves.csv")
-[System.IO.File]::WriteAllLines($whdloadSlaveListPath, $whdloadSlaveList, [System.Text.Encoding]::UTF8)
+$whdloadSlaves | %{ New-Object PSObject -Property $_ } | export-csv -delimiter ';' -path $whdloadSlaveListPath -NoTypeInformation
