@@ -1,8 +1,8 @@
 # Image To Iff
 # ------------
 #
-# Author: Henrik Nørfjand Stengaard
-# Date:   2016-04-04
+# Author: Henrik NÃ¸rfjand Stengaard
+# Date:   2016-08-17
 #
 # A PowerShell script to convert an image to iff in ILBM format. The image must be a 4-bpp or 8-bpp indexed image.
 # Ported from imgtoiff.py python script by Per Olofsson, https://github.com/MagerValp/ArcadeGameSelector 
@@ -390,3 +390,6 @@ if ($image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format4bppIndex
 
 # write iff
 [System.IO.File]::WriteAllBytes($iffPath, (CreateIlbmImage $image $pack))
+
+# dispose image
+$image.Dispose()
