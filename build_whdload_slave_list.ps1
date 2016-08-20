@@ -60,6 +60,9 @@ foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsCo
 		$whdloadName = $file.Name -replace '\.slave', ''
 	}
 	
+	$whdloadSize = 0 
+	Get-ChildItem -Path $file.Directory -Recurse  | Where { !$_.PSIsContainer } | % { $whdloadSize += $_.length } 
+
 	$whdloadPathIndex = $file.FullName.IndexOf($whdloadPath) + $whdloadPath.Length + 1
 	$whdloadSlaveFilePath = $file.FullName.Substring($whdloadPathIndex, $file.FullName.Length - $whdloadPathIndex)
 
@@ -81,7 +84,7 @@ foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsCo
 	$whdloadSlaveBaseMemSize = $whdloadSlaveOutput | Select-String -Pattern  "BaseMemSize\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
 	$whdloadSlaveExecInstall = $whdloadSlaveOutput | Select-String -Pattern  "ExecInstall\s+=\s+'([^']+)" -AllMatches | % { $_.Matches } | % { $_.Groups[1].Value } | Select-Object -first 1
 
-	$whdloadSlave = @{ "WhdloadName" = $whdloadName; "WhdloadSlaveFilePath" = $whdloadSlaveFilePath; "WhdloadSlaveName" = $whdloadSlaveName; "WhdloadSlaveCopy" = $whdloadSlaveCopy; "WhdloadSlaveFlags" = $whdloadSlaveFlags; "WhdloadSlaveBaseMemSize" = $whdloadSlaveBaseMemSize; "WhdloadSlaveExecInstall" = $whdloadSlaveExecInstall; "ReadmeAppliesTo" = $readmeAppliesTo }
+	$whdloadSlave = @{ "WhdloadName" = $whdloadName; "WhdloadSize" = $whdloadSize; "WhdloadSlaveFilePath" = $whdloadSlaveFilePath; "WhdloadSlaveName" = $whdloadSlaveName; "WhdloadSlaveCopy" = $whdloadSlaveCopy; "WhdloadSlaveFlags" = $whdloadSlaveFlags; "WhdloadSlaveBaseMemSize" = $whdloadSlaveBaseMemSize; "WhdloadSlaveExecInstall" = $whdloadSlaveExecInstall; "ReadmeAppliesTo" = $readmeAppliesTo }
 
 	$whdloadSlaves +=, $whdloadSlave
 }
