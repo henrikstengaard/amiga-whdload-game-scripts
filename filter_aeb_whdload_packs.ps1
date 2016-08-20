@@ -19,6 +19,8 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$excludeLanguagePattern,
 	[Parameter(Mandatory=$false)]
+	[string]$excludeFlagPattern,
+	[Parameter(Mandatory=$false)]
 	[switch]$bestVersion,
 	[Parameter(Mandatory=$false)]
 	[switch]$eachHardware,
@@ -88,6 +90,15 @@ foreach ($whdloadSlave in $whdloadSlaves)
 {
 	$name = $whdloadSlave.WhdloadName
 
+	$flags = @()
+	$flags += $whdloadSlave.WhdloadSlaveFlags -split ','
+
+	# skip, if any exclude pattern matches flag
+	if ($excludeFlagPattern -and ($flags | Where { $_ -match $excludeFlagPattern }).Count -gt 0)
+	{
+		continue
+	}
+
 	# Special replace for 'Invest' and 'Spirit of Adventure' german games for language pattern
 	if ($name -cmatch 'De\d+Disk')
 	{
@@ -143,6 +154,12 @@ foreach ($whdloadSlave in $whdloadSlaves)
 	if ($excludeLanguagePattern -and ($language | Where { $_ -match $excludeLanguagePattern }).Count -gt 0)
 	{
 		continue
+	}
+
+	# if hardware doesn't contain CD32 or AGA and flags has ReqAGA, then add AGA to hardware
+	if ((($hardware | Where { $_ -match '(CD32|AGA)' }).Count -eq 0) -and (($flags | Where { $_ -match 'ReqAGA' }).Count -gt 0))
+	{
+		$hardware +=, 'AGA'
 	}
 
 	if ($hardware.Count -eq 0)
