@@ -52,9 +52,12 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[string]$outputPath,
 	[Parameter(Mandatory=$false)]
-	[switch]$noConvertScreenshots
+	[int32]$minScore,
+	[Parameter(Mandatory=$false)]
+	[switch]$noConvertScreenshots,
+	[Parameter(Mandatory=$false)]
+	[switch]$ignorePriority
 )
-
 
 
 # root
@@ -77,6 +80,9 @@ $analyzer  = [StandardAnalyzer]::new("LUCENE_CURRENT")
 $directory = [RAMDirectory]::new()
 
 
+# cache for screenshots
+$screenshotCache = @{}
+
 # index screenshots
 function IndexScreenshots($screenshots)
 {
@@ -97,13 +103,14 @@ function IndexScreenshots($screenshots)
 
 function SearchScreenshots($q)
 {
-	if ($q -match ' 1\s*')
+	if ($q -notmatch ' 1\s*')
 	{
 		$q += ' 1'
 	}
 
 	$searcher = [IndexSearcher]::new($directory, $true)
-	$parser = [QueryParser]::new("LUCENE_CURRENT", "Keywords", $analyzer)    
+	$parser = [QueryParser]::new("LUCENE_CURRENT", "Keywords", $analyzer)
+	$parser.AllowLeadingWildcard = $true    
 	$query = $parser.Parse($q)
 	$result = $searcher.Search($query, $null, 100)
 	$hits = $result.ScoreDocs
@@ -194,58 +201,86 @@ function MakeKeywords([string]$text)
 	return $text.ToLower().Trim()
 }
 
-
-
-
-# read screenshot list
-function ReadScreenshotList([string]$path, [int]$useDirectoryName, [int]$priority, [string]$filter)
+function UniqueWords($text)
 {
-	Write-Host "Building screenshot list from '$path' with filter '$filter'..."
+	$keywords = ($text) -split ' '
 
-	$screenshotFiles = Get-ChildItem -include *.iff,*.png,*.jpg -File -recurse -Path $path | Sort-Object $_.FullName
-
-	if ($filter)
-	{
-		$screenshotFiles = $screenshotFiles | Where { $_.FullName -match $filter }
-	}
+	$keywordIndex = @{}
+	$uniqueKeywords = @()
 	
-	$screenshots = @()
-	
-	ForEach ($screenshotFile in $screenshotFiles)
+	foreach($keyword in $keywords)
 	{
-		if ($useDirectoryName)
+		if ($keywordIndex.ContainsKey($keyword))
 		{
-			$screenshotName = [System.IO.Path]::GetFileName($screenshotFile.Directory)
+			$keywordCount = $keywordIndex.Get_Item($keyword)
 		}
 		else
 		{
-			$screenshotName = [System.IO.Path]::GetFileNameWithoutExtension($screenshotFile.FullName)
+			$keywordCount = 0
 		}
-
-		if ($screenshotName -match '_\d+$')
+		
+		$keywordCount++
+		
+		if ($keywordCount -eq 1)
 		{
-			$screenshotName = $screenshotName -replace "_\d+$", ""
+			$uniqueKeywords +=, $keyword
 		}
 		
-		$keywords = MakeKeywords $screenshotName
-
-		$name = $keywords -replace '\s+', ''
-		
-		if ($screenshotName -match '-')
-		{
-			$keywords += " " + (MakeKeywords ($screenshotName -replace '-', ''))
-		}
-
-		
-		# if ($screenshotFile.FullName -match 'pp' -or $screenshotFile.FullName -match 'ran')
-		# {
-			# Write-Host "indexed '", $screenshotFile.FullName, "' as '$keywords'"
-		# }
-		
-		$screenshots += @{ "Keywords" = $keywords; "Name" = $name; "Priority" = $priority; "File" = $screenshotFile.FullName }
+		$keywordIndex.Set_Item($keyword, $keywordCount)
 	}
+	
+	return [string]::Join(" ", $uniqueKeywords)
+}
 
-	Write-Host "Done"
+# read screenshot list
+function ReadScreenshotList($screenshotSourcesIndexDir, $screenshotSource, $priority)
+{
+	$screenshotIndexFile = [System.IO.Path]::Combine($screenshotSourcesIndexDir, $screenshotSource.SourceName.ToLower() + ".csv")
+
+	$screenshots = @()
+	
+	if (Test-Path $screenshotIndexFile)
+	{
+		$screenshots += (Import-Csv -Delimiter ';' $screenshotIndexFile)
+	}
+	else 
+	{
+		$screenshotPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotSource.ScreenshotPath)
+
+		Write-Host ("Building screenshot list from '$screenshotPath' with filter '" + $screenshotSource.Filter + "'...")
+
+		$screenshotFiles = Get-ChildItem -include *.iff,*.png,*.jpg,*.gif,*.jpeg,*.tif,*.bmp -File -recurse -Path $screenshotPath | Sort-Object $_.FullName
+
+		if ($screenshotSource.Filter)
+		{
+			$screenshotFiles = $screenshotFiles | Where { $_.FullName -match $screenshotSource.Filter }
+		}
+		
+		ForEach ($screenshotFile in $screenshotFiles)
+		{
+			if ($screenshotSource.UseDirectoryName -eq "1")
+			{
+				$screenshotName = [System.IO.Path]::GetFileName($screenshotFile.Directory)
+			}
+			else
+			{
+				$screenshotName = [System.IO.Path]::GetFileNameWithoutExtension($screenshotFile.FullName)
+
+				if ($screenshotName -match '_\d+$')
+				{
+					$screenshotName = $screenshotName -replace "_\d+$", ""
+				}
+			}
+
+			$keywords = UniqueWords (MakeKeywords $screenshotName)
+
+			$screenshots += New-Object psobject -property @{ "Keywords" = $keywords; "Name" = $screenshotName; "Priority" = $priority; "File" = $screenshotFile.FullName }
+		}
+
+		$screenshots | Export-Csv -Delimiter ';' -Path $screenshotIndexFile -NoTypeInformation
+
+		Write-Host "Done"
+	}
 	
 	return $screenshots
 }
@@ -305,8 +340,44 @@ function Normalize([string]$text)
 	return RemoveDiacritics (ConvertSuperscript $text)
 }
 
+function FindBestMatchingScreenshot($screenshotQuery)
+{
+	$query = $screenshotQuery.ScreenshotQuery
+	$screenshot = $null
 
+	# if ($screenshotCache.ContainsKey($query))
+	# {
+	# 	$screenshot = $screenshotCache.Get_Item($query)
+	# }
+	# else
+	# {
+		$strictQuery = [string]::join(' ', ($query -split ' ' | % { "+{0}*" -f $_ }))
+		$simpleQuery = [string]::join(' ', ($query -split ' ' | % { "{0}*" -f $_ }))
 
+		$bestMatchingScreenshots = @()
+		$bestMatchingScreenshots += SearchScreenshots $strictQuery
+		$bestMatchingScreenshots += SearchScreenshots $simpleQuery
+		$bestMatchingScreenshots += SearchScreenshots $query
+
+		# foreach($bestMatchingScreenshot in $bestMatchingScreenshots)
+		# {
+		# 	$bestMatchingScreenshot.Keywords -split ' ' | Where { ($_ -notmatch '(demo|the)') -and ($query -notmatch $_) } | % { $bestMatchingScreenshot.Score -= 1 }
+		# }
+
+		if ($minScore)
+		{
+			$screenshot = $bestMatchingScreenshots | Where { $_.Score -ge $minScore } | sort @{expression={$_.Score};Ascending=$false} | Select-Object -First 1
+		}
+		else
+		{
+			$screenshot = $bestMatchingScreenshots | sort @{expression={$_.Score};Ascending=$false} | Select-Object -First 1
+		}
+
+	# 	$screenshotCache.Set_Item($query, $screenshot)
+	# }
+
+	return $screenshot
+}
 
 
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
@@ -319,16 +390,36 @@ if(!(test-path -path $outputPath))
 
 
 
-# Read screenshot queries
-$screenshotQueriesFilePathResolved = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotQueriesFile)
-$screenshotQueries = Import-Csv -Delimiter ';' $screenshotQueriesFilePathResolved
 
+# $screenshots = @()
+# $screenshots += @{ "Keywords" = "thuglife essence"; "Name" = "thuglifeessence"; "_Priority" = 1; "File" = "thuglife-essence\screen.png" }
+# $screenshots += @{ "Keywords" = "top karaoke vol 1 inspector gadget saturne"; "Name" = "topkaraokevol1inspectorgadgetsaturne"; "_Priority" = 1; "File" = "top-karaoke-vol1-inspector-gadget--saturne\screen.png" }
+
+# # Index screenshots
+# # -----------------
+# Write-Host "Indexing $($screenshots.Count) screenshots with priority $p..."
+# IndexScreenshots $screenshots
+# Write-Host "Done"
+
+# SearchScreenshots 'thug* life* essence*'
+# SearchScreenshots 'top karaoke 1 inspecteur gadget saturne'
+
+#exit 0
+
+
+
+
+# Read screenshot queries
+$screenshotQueries = @()
+$screenshotQueries += (Import-Csv -Delimiter ';' ($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotQueriesFile)))
 
 
 # Read screenshot sources
-# -----------------------
-$screenshotSourcesFilePathResolved = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotSourcesFile)
-$screenshotSources = Import-Csv -Delimiter ';' $screenshotSourcesFilePathResolved
+$screenshotSourcesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotSourcesFile)
+$screenshotSourcesIndexDir = [System.IO.Path]::GetDirectoryName($screenshotSourcesFile)
+
+$screenshotSources = @()
+$screenshotSources += (Import-Csv -Delimiter ';' $screenshotSourcesFile)
 
 $screenshots = @()
 
@@ -336,40 +427,35 @@ for ($i = 0; $i -lt $screenshotSources.Count; $i++)
 {
 	$priority = $i + 1
  	$screenshotSource = $screenshotSources[$i]
- 	$screenshotPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotSource.ScreenshotPath)
- 	$screenshots += ReadScreenshotList $screenshotPath $screenshotSource.UseDirectoryName $priority $screenshotSource.Filter
+ 	$screenshots += ReadScreenshotList $screenshotSourcesIndexDir $screenshotSource $priority
 }
 
+# $screenshots | Where { $_.Name -match 'thuglife' }
+# $screenshots | Where { $_.Name -match 'topkaraoke' }
 
+# exit 0
 
-
-$idx = @{}
+# Index screenshots
+$screenshotsIndex = @{}
 
 foreach($screenshot in $screenshots)
 {
-	if ($idx.ContainsKey($screenshot.Name))
+	$name = $screenshot.Name.ToLower() -replace '-',''
+
+	if ($screenshotsIndex.ContainsKey($name))
 	{
-		$matchingScreenshots = $idx.Get_Item($screenshot.Name)
+		$matchingScreenshots = $screenshotsIndex.Get_Item($name)
 	}
 	else
 	{
 		$matchingScreenshots = @()
-
 	}
 	
 	$matchingScreenshots +=, $screenshot
-	
-	# if ($screenshot.Name -match 'cardiaxx')
-	# {
-	# 	$matchingScreenshots
-	# }
-	
-	$idx.Set_Item($screenshot.Name, $matchingScreenshots)
+		
+	$screenshotsIndex.Set_Item($name, $matchingScreenshots)
 }
 
-
-#$idx.Get_Item("cardiaxx")
-#exit 0
 
 # Find exact matching screenshots
 ForEach ($screenshotQuery in $screenshotQueries)
@@ -377,27 +463,34 @@ ForEach ($screenshotQuery in $screenshotQueries)
 	$name = $screenshotQuery.WhdloadName.ToLower()
 
 	# find screenshots using whdload name
-	$matchingScreenshots = $idx.Get_Item($name)
+	$matchingScreenshots = $screenshotsIndex.Get_Item($name)
 
-	# try finding screenshots using filtered name
+	# use query to find exact matches
 	if (!$matchingScreenshots)
 	{
+		$query = $screenshotQuery.ScreenshotQuery.ToLower() -replace '[- ]+', ''
+		$matchingScreenshots = $screenshotsIndex.Get_Item($query)
+	}
+
+	# try finding screenshots using filtered name
+	if (!$matchingScreenshots -and $screenshotQuery.FilteredName)
+	{
 		$filteredName = $screenshotQuery.FilteredName.ToLower()
-		$matchingScreenshots = $idx.Get_Item($filteredName)
+		$matchingScreenshots = $screenshotsIndex.Get_Item($filteredName)
 	}
 
 	# try finding screenshots using whdload slave name
-	if (!$matchingScreenshots)
+	if (!$matchingScreenshots -and $screenshotQuery.WhdloadSlaveName)
 	{
 		$whdloadSlaveName = $screenshotQuery.WhdloadSlaveName.ToLower() -replace '\s+', ''
-		$matchingScreenshots = $idx.Get_Item($whdloadSlaveName)
+		$matchingScreenshots = $screenshotsIndex.Get_Item($whdloadSlaveName)
 	}
 
 	# if question mark, try find
 	if (!$matchingScreenshots -and ($name -match '&'))
 	{
 		$nameFirstPart = $name -replace '^([^&]+).+', '$1'
-		$matchingScreenshots = $idx.Get_Item($nameFirstPart)
+		$matchingScreenshots = $screenshotsIndex.Get_Item($nameFirstPart)
 	}
 
 	if (!$matchingScreenshots)
@@ -405,76 +498,128 @@ ForEach ($screenshotQuery in $screenshotQueries)
 		continue
 	}
 
-	$screenshot = $matchingScreenshots | Select-Object -First 1
-
-	if ($screenshot)
+	if ($ignorePriority)
 	{
-		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotMatch' -Value 'Exact'
-		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotName' -Value $screenshot.Name
-		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotFile' -Value $screenshot.File
+		$screenshot = $matchingScreenshots | Select-Object -First 1
 	}
-}
-
-
-# Index screenshots
-# -----------------
-Write-Host "Indexing $($screenshots.Count) screenshots..."
-IndexScreenshots $screenshots
-Write-Host "Done"
-
-
-# Cache for screenshots
-$screenshotCache = @{}
-
-
-# Find best matching screenshots for queries whoch doesn't have exact match
-ForEach ($screenshotQuery in ($screenshotQueries | Where { $_.ScreenshotFile -eq $null }))
-{
-	$query = $screenshotQuery.ScreenshotQuery
-	$screenshot = $null
-
-	if ($screenshotCache.ContainsKey($query))
+	else 
 	{
-		$screenshot = $screenshotCache.Get_Item($query)
-	}
-	else
-	{
-		$bestMatchingScreenshots = SearchScreenshots $query | Where { $_.Score -ge 1 } | sort @{expression={$_.Score};Ascending=$false}
-
-		$screenshot = $bestMatchingScreenshots | Select-Object -First 1
-
-		$screenshotCache.Set_Item($query, $screenshot)
+		$screenshot = $matchingScreenshots | sort @{expression={$_.Priority};Ascending=$true} | Select-Object -First 1
 	}
 
 	# skip, if no screenshot
 	if (!$screenshot)
 	{
-		continue
+		return
 	}
 
-	
-	# Add screenshot file and directory name to query
-	$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotMatch' -Value 'Best'
+	# Add screenshot match, name and file to query
+	$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotMatch' -Value 'Exact'
+	$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotScore' -Value '100'
 	$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotName' -Value $screenshot.Name
 	$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotFile' -Value $screenshot.File
 }
 
+# $screenshots | Where { $_.Name -match 'mummy' }
 
-# sanity check screenshots
-ForEach ($screenshotQuery in $screenshotQueries)
+if ($ignorePriority)
 {
-	$name = (MakeKeywords (Normalize $screenshotQuery.WhdloadName)) -replace '\s+', ''
-	$nameFirstChar = $name.Substring(0, 1)
+	# Index screenshots
+	# -----------------
+	Write-Host "Indexing $($screenshots.Count) screenshots..."
+	IndexScreenshots $screenshots
+	Write-Host "Done"
 
-	if ($screenshotQuery.ScreenshotFile -eq $null)
+# 	$q1 = $screenshotQueries | Where { $_.WhdloadName -match 'MysteryOfTheMummy' } | Select-Object -First 1
+# $q1
+# 	FindBestMatchingScreenshot $q1
+# 	exit 0
+		# "- thug life essence"
+		# $q1 = $screenshotQueries | Where { $_.ScreenshotQuery -match 'thug life essence' } | Select-Object -First 1
+		# #$q1.ScreenshotQuery = '+thug* +life* +essence*'
+		# FindBestMatchingScreenshot $q1
+		# "- top karaoke 1"
+		# $q2 = $screenshotQueries | Where { $_.ScreenshotQuery -match 'top karaoke 1' } | Select-Object -First 1
+		# #$q2.ScreenshotQuery = '+top* +karaoke* +1*'
+		# FindBestMatchingScreenshot $q2
+
+		# exit 0
+
+	# Find best matching screenshots for queries, which doesn't have a screenshot
+	ForEach ($screenshotQuery in ($screenshotQueries | Where { $_.ScreenshotFile -eq $null }))
 	{
-		("Warning: No screenshot for '$name', '" + $screenshotQuery.WhdloadName + "'")
-	}
-	elseif ($screenshotQuery.ScreenshotName.Substring(0, 1).ToLower() -ne $nameFirstChar)
-	{
-		("Warning: First character in whdload name '$name' doesn't match screenshot name '" + $screenshotQuery.ScreenshotName + "'")
+		$screenshot = FindBestMatchingScreenshot $screenshotQuery
+
+		# skip, if no screenshot
+		if (!$screenshot)
+		{
+			continue
+		}
+
+		# Add screenshot match, name and file to query
+		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotMatch' -Value 'Best' -Force
+		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotScore' -Value $screenshot.Score -Force
+		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotName' -Value $screenshot.Name -Force
+		$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotFile' -Value $screenshot.File -Force	
 	}
 }
+else 
+{
+	for ($p = 1; $p -le $screenshotSources.Count; $p++)
+	{
+		# get priorpty screenshots
+		$priorityScreenshots = $screenshots | Where { $_.Priority -eq $p }
+
+		# Index screenshots
+		# -----------------
+		Write-Host "Indexing $($priorityScreenshots.Count) screenshots with priority $p..."
+		IndexScreenshots $priorityScreenshots
+		Write-Host "Done"
+
+
+		# Find best matching screenshots for queries, which doesn't have a screenshot
+		ForEach ($screenshotQuery in ($screenshotQueries | Where { $_.ScreenshotFile -eq $null }))
+		{
+			$screenshot = FindBestMatchingScreenshot $screenshotQuery
+
+			# skip, if no screenshot
+			if (!$screenshot)
+			{
+				continue
+			}
+
+			# if ($screenshot.Score -lt $screenshotQuery.ScreenshotScore)
+			# {
+			# 	continue
+			# }
+			# else
+			# {
+			# 	"found better screenshot for '" + $screenshot.Name + "': " + $screenshot.File + "'"
+			# }
+
+			# Add screenshot match, name and file to query
+			$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotMatch' -Value 'Best' -Force
+			$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotScore' -Value $screenshot.Score -Force
+			$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotName' -Value $screenshot.Name -Force
+			$screenshotQuery | Add-Member -MemberType NoteProperty -Name 'ScreenshotFile' -Value $screenshot.File -Force
+		}
+	}
+}
+
+
+# write warning for whdload slaves without screenshot
+ForEach ($screenshotQuery in $screenshotQueries)
+{
+	if ($screenshotQuery.ScreenshotFile -eq $null)
+	{
+		Write-Host ("Warning: No screenshot for '" + $screenshotQuery.WhdloadName + "'")
+	}
+}
+
+
+# write screenshots list
+$screenshotListFile = [System.IO.Path]::Combine($outputPath, "screenshots.csv")
+$screenshotQueries | Export-Csv -Delimiter ';' -Path $screenshotListFile -NoTypeInformation
 
 
 # convert screenshots
@@ -484,12 +629,15 @@ if (!$noConvertScreenshots)
 	{
 		$screenshotDirectoryName = MakeFileName $screenshotQuery.ScreenshotName
 		$screenshotOutputPath = [System.IO.Path]::Combine($outputPath, $screenshotDirectoryName)
+
+		("Converting '" + $screenshotQuery.ScreenshotFile + "'...")
 		
 		# skip convert screenshot, if it already exist
 		if(test-path -path $screenshotOutputPath)
 		{
 			continue
 		}
+
 
 		# create screenshot output path
 		md $screenshotOutputPath | Out-Null
@@ -503,6 +651,3 @@ if (!$noConvertScreenshots)
 }
 
 
-# write screenshots list
-$screenshotListFile = [System.IO.Path]::Combine($outputPath, "screenshots.csv")
-$screenshotQueries | Export-Csv -Delimiter ';' -Path $screenshotListFile -NoTypeInformation
