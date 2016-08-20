@@ -1,2 +1,2 @@
-powershell -ExecutionPolicy Bypass -File build_ags2_menu.ps1 -whdloadGamesPath "whdload_games_aga" -outputPath "ags2_menu_aga" -mode "aga"
-powershell -ExecutionPolicy Bypass -File build_ags2_menu.ps1 -whdloadGamesPath "whdload_games_ocs" -outputPath "ags2_menu_ocs" -mode "ocs"
+powershell -ExecutionPolicy Bypass -File build_ags2_menu.ps1 -whdloadSlavesFile "aeb_whdload_games_aga\whdload_slaves.csv" -outputPath "4gb_ags2_menu_games_aga" -assignName "A-Games" -whdloadScreenshotsFile "screenshots\aeb_whdload_games_aga\screenshots.csv" -usePartitions -partitionSplitSize 1900000000 -aga
+powershell -ExecutionPolicy Bypass -File build_ags2_menu.ps1 -whdloadSlavesFile "aeb_whdload_games\whdload_slaves.csv" -outputPath "4gb_ags2_menu_games_ocs" -assignName "A-Games" -whdloadScreenshotsFile "screenshots\aeb_whdload_games\screenshots.csv" -usePartitions -partitionSplitSize 1900000000

@@ -2,321 +2,200 @@
 # ---------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-03-11
+# Date:   2016-06-24
 #
-# A PowerShell script to build AGS2 menu with screenshots.
-#
-
-
-# 7-zip:
-# http://7-zip.org/download.html
-# http://7-zip.org/a/7z1514-x64.exe
+# A PowerShell script to build AGS2 menu.
 
 
 Param(
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadGamesPath,
+	[string]$whdloadSlavesFile,
 	[Parameter(Mandatory=$true)]
 	[string]$outputPath,
 	[Parameter(Mandatory=$true)]
-	[string]$mode
+	[string]$assignName,
+	[Parameter(Mandatory=$false)]
+	[string]$whdloadScreenshotsFile,
+	[Parameter(Mandatory=$false)]
+	[switch]$usePartitions,
+	[Parameter(Mandatory=$false)]
+	[int32]$partitionSplitSize,
+	[Parameter(Mandatory=$false)]
+	[switch]$aga
 )
 
 
-# check id mode is aga or ocs
-if ($mode -notmatch '^(aga|ocs)')
+# get index name from first character in name
+function GetIndexName($name)
 {
-	Write-Error "Unsupported mode '$mode'"
-	exit 1
-}
+	$name = $name -replace '^[^a-z0-9]+', ''
 
-# root
-$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
-
-
-# programs 
-$sevenZipPath = "$env:ProgramFiles\7-Zip\7z.exe"
-
-
-# input and output paths
-#$whdloadGamesPath = [System.IO.Path]::Combine($scriptPath, "whdload_games")
-$whdownloadGamesSlaveIndexPath = [System.IO.Path]::Combine($scriptPath, "whdownload_games_slave_index")
-#$outputPath = [System.IO.Path]::Combine($scriptPath, "ags2_menu")
-$ags2MenuIndexPath = [System.IO.Path]::Combine($outputPath, "ags2_menu.csv")
-
-
-# screenshot paths
-$screenshotPath = [System.IO.Path]::Combine($scriptPath, "screenshots")
-$whdloadScreenshotPath = [System.IO.Path]::Combine($screenshotPath, "whdload")
-
-
-# get game index name from first character in game name
-function GetGameIndexName($gameName)
-{
-	$gameName = $gameName -replace '^[^a-z0-9]+', ''
-
-	if ($gameName -match '^[0-9]') 
+	if ($name -match '^[0-9]') 
 	{
-		$gameIndexName = "0"
+		$indexName = "0"
 	}
 	else
 	{
-		$gameIndexName = $gameName.Substring(0,1)
+		$indexName = $name.Substring(0,1)
 	}
 
-	return $gameIndexName
+	return $indexName
 }
 
 
-# read index
-function ReadIndex($indexFile)
-{
-	$index = @{}
+# resolve paths
+$outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
+$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
+$whdloadScreenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadScreenshotsFile)
 
-	ForEach($line in (Get-Content $indexFile | Select-Object -Skip 1))
+
+# read whdload slaves
+$whdloadSlaves = Import-Csv -Delimiter ';' $whdloadSlavesFile | sort @{expression={$_.WhdloadName};Ascending=$true} 
+
+# read whdload screenshots file
+$whdloadScreenshots = Import-Csv -Delimiter ';' $whdloadScreenshotsFile
+
+
+# index whdload screenshots
+$whdloadScreenshotsIndex = @{}
+
+foreach($whdloadScreenshot in $whdloadScreenshots)
+{
+	if ($whdloadScreenshotsIndex.ContainsKey($whdloadScreenshot.WhdloadSlaveFilePath))
 	{
-		$columns = $line -split ";"
-		$index.Set_Item($columns[0], $columns)
+		Write-Error ("Duplicate whdload screenshot for '" + $whdloadScreenshot.WhdloadSlaveFilePath + "'")
 	}
-	
-	return $index
+
+	$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.WhdloadSlaveFilePath, $whdloadScreenshot.ScreenshotFile)
 }
 
+$partitionNumber = 1
+$partitionSize = 0
 
-# read whdload game slave index
-function ReadWhdloadGameSlaveIndex($indexFile)
+$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
+
+$whdloadSizeIndex = @{}
+$ags2MenuItemFileNameIndex = @{}
+
+
+foreach($whdloadSlave in $whdloadSlaves)
 {
-	$index = @{}
+	# make ags 2 file name, removes invalid file name characters
+	$ags2MenuItemFileName = $whdloadSlave.WhdloadName -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
 
-	ForEach($line in (Get-Content $indexFile | Select-Object -Skip 1))
+	# if ags 2 file name is longer than 26 characters, then trim it to 26 characters (default filesystem compatibility with limit of ~30 characters)
+	if ($ags2MenuItemFileName.length -gt 26)
 	{
-		$columns = $line -split ";"
+		$ags2MenuItemFileName = $ags2MenuItemFileName.Substring(0,26).Trim()
+	}
+
+	# build new ags2 file name, if it already exists in index
+	if ($ags2MenuItemFileNameIndex.ContainsKey($ags2MenuItemFileName))
+	{
+		$count = 2
 		
-		$whdloadGameFileName = $columns[0]
-		
-		$whdloadSlaves = $index.Get_Item($whdloadGameFileName)
-		
-		if (!$whdloadSlaves)
+		do
 		{
-			$whdloadSlaves = @()
-		}
-
-		$whdloadSlaves += , $columns
-		$index.Set_Item($whdloadGameFileName, $whdloadSlaves)
-	}
-	
-	return $index
-}
-
-
-# 1. check if 7-zip is installed, exit if not
-if (!(Test-Path -path $sevenZipPath))
-{
-	Write-Error "7-zip is not installed at '$sevenZipPath'"
-	Exit 1
-}
-
-
-# 4. Get whdload game files
-Write-Output "Reading whdload games from '$whdloadGamesPath'..."
-$whdloadGameFiles = Get-ChildItem -recurse -Path $whdloadGamesPath -exclude *.html,*.csv -File
-Write-Output "$($whdloadGameFiles.Count) entries"
-Write-Output ""
-
-
-# 9. Read whdload games index
-$whdloadGameIndexFile = [System.IO.Path]::Combine($whdloadGamesPath, "whdload_games_index.csv")
-Write-Output "Reading whdload games index file '$whdloadGameIndexFile'..."
-$whdloadGameIndex = ReadIndex $whdloadGameIndexFile
-$whdloadGameIndex.Count
-
-
-# 9. Read whdload extract index
-$whdloadExtractIndexFile = [System.IO.Path]::Combine($whdloadGamesPath, "whdload_extract_index.csv")
-Write-Output "Reading whdload extract index file '$whdloadExtractIndexFile'..."
-$whdloadExtractIndexIndex = ReadIndex $whdloadExtractIndexFile
-$whdloadExtractIndexIndex.Count
-
-
-# 10. Read whdload games index
-$whdloadGameSlaveIndexFile = [System.IO.Path]::Combine($whdownloadGamesSlaveIndexPath, "whdload_slave_index.csv")
-Write-Output "Reading whdload game slave index file '$whdloadGameSlaveIndexFile'..."
-$whdloadGameSlaveIndex = ReadWhdloadGameSlaveIndex $whdloadGameSlaveIndexFile
-$whdloadGameSlaveIndex.Count
-
-
-# 10. Read whdload screenshot index
-$whdloadScreenshotIndexFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "whdload_screenshots.csv")
-Write-Output "Reading whdload screenshot index file '$whdloadScreenshotIndexFile'..."
-$whdloadScreenshotIndex = ReadIndex $whdloadScreenshotIndexFile
-$whdloadScreenshotIndex.Count
-
-
-# 11. Create output path, if it doesn't exist
-if(!(test-path -path $outputPath))
-{
-	md $outputPath | Out-Null
-}
-
-
-
-$ags2GameIndex = @{}
-
-
-# 13. Process whdload game files
-ForEach ($whdloadGameFile in $whdloadGameFiles)
-{
-	# get whdload game from index
-	$whdloadGame = $whdloadGameIndex.Get_Item($whdloadGameFile.Name)
-	
-	if (!$whdloadGame)
-	{
-		continue
-	}
-
-	$hardware = ""
-	
-	if ($whdloadGameFile.Name -match '_cd32')
-	{
-		$hardware = "cd32"
-	}
-	if ($whdloadGameFile.Name -match '_aga')
-	{
-		$hardware = "aga"
-	}
-	if ($whdloadGameFile.Name -match '_cdtv')
-	{
-		$hardware = "cdtv"
-	}
-
-	
-	$whdloadGameName = $whdloadGame[1]
-
-
-	$whdloadGameBaseName = [System.IO.Path]::GetFileNameWithoutExtension($whdloadGameFile.FullName) -split "_" | Select-Object -first 1
-
-
-	$whdownloadGameIndexName = GetGameIndexName $whdloadGameName
-
-	$ags2GameIndexMenuPath = [System.IO.Path]::Combine($outputPath, $whdownloadGameIndexName + ".ags")
-	
-	if(!(Test-Path -Path $ags2GameIndexMenuPath))
-	{
-		md $ags2GameIndexMenuPath | Out-Null
-	}
-	
-	$whdloadGameSlaves = $whdloadGameSlaveIndex.Get_Item($whdloadGameFile.Name)
-
-	
-	if (!$whdloadGameSlaves)
-	{
-		Write-Error "No slave '$whdloadGameBaseName'"
-		exit 1
-	}
-	
-	ForEach($whdloadGameSlave in $whdloadGameSlaves)
-	{
-		# get whdload game slave file name and copy columns
-		$whdloadGameSlaveFile = $whdloadGameSlave[1]
-		$whdloadGameSlaveName = $whdloadGameSlave[3].Replace("CD??", "CD32")
-		$whdloadGameSlaveCopy = $whdloadGameSlave[4]
-		
-		# get whdload game slave directory from whdload game slave file
-		$whdloadGameSlaveDirectory = [System.IO.Path]::GetDirectoryName($whdloadGameSlaveFile)
-		$whdloadGameSlaveFileName = [System.IO.Path]::GetFileName($whdloadGameSlaveFile)
-		
-		# make ags 2 game file name, removes invalid file name characters
-		$ags2GameFileName = $whdloadGameName -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
-
-		# if ags 2 game file name is longer than 26 characters, then trim it to 26 characters (default filesystem compatibility with limit of ~30 characters)
-		if ($ags2GameFileName.length -gt 26)
-		{
-			$ags2GameFileName = $ags2GameFileName.Substring(0,26).Trim()
-		}
-
-		# build new ags2 game file name, if it already exists in index
-		if ($ags2GameIndex.ContainsKey($ags2GameFileName))
-		{
-			$count = 2
-			
-			do
+			if ($ags2MenuItemFileName.length + $count.ToString().length -lt 26)
 			{
-				if ($ags2GameFileName.length + $count.ToString().length -lt 26)
-				{
-					$newAgs2GameFileName = $ags2GameFileName + $count
-				}
-				else
-				{
-					$newAgs2GameFileName = $ags2GameFileName.Substring(0,$ags2GameFileName.length - $count.ToString().length) + $count
-				}
-				$count++
-			} while ($ags2GameIndex.ContainsKey($newAgs2GameFileName))
-			$ags2GameFileName = $newAgs2GameFileName
-		}
-		
-		# add ags2 game file name to index
-		$ags2GameIndex.Set_Item($ags2GameFileName, $true)
-		
-		
-		# ags2 game files
-		$ags2GameRunFile = [System.IO.Path]::Combine($ags2GameIndexMenuPath, "$($ags2GameFileName).run")
-		$ags2GameTxtFile = [System.IO.Path]::Combine($ags2GameIndexMenuPath, "$($ags2GameFileName).txt")
-		$ags2GameIffFile = [System.IO.Path]::Combine($ags2GameIndexMenuPath, "$($ags2GameFileName).iff")
-		
-
-
-		# get whdload screenshot
-		$whdloadScreenshotGamePath = [System.IO.Path]::Combine($whdloadScreenshotPath, $whdloadGameBaseName + ".$hardware" )
-		
-		if (test-path -path $whdloadScreenshotGamePath)
-		{
-			if ($mode -eq 'aga')
-			{
-				$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotGamePath, "ags2aga.iff")
+				$newAgs2MenuItemFileName = $ags2MenuItemFileName + $count
 			}
-			if ($mode -eq 'ocs')
+			else
 			{
-				$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotGamePath, "ags2ocs.iff")
+				$newAgs2MenuItemFileName = $ags2MenuItemFileName.Substring(0,$ags2MenuItemFileName.length - $count.ToString().length) + $count
 			}
-		
-			# copy if screenshot exists
-			if (test-path -path $whdloadScreenshotFile)
-			{
-				Copy-Item $whdloadScreenshotFile $ags2GameIffFile -force
-			}
-		}
-		
-		
-		# get whdload extract
-		$whdloadExtract = $whdloadExtractIndexIndex.Get_Item($whdloadGameFile.Name)
-		
-		if (!$whdloadExtract)
+			$count++
+		} while ($ags2MenuItemFileNameIndex.ContainsKey($newAgs2MenuItemFileName))
+		$ags2MenuItemFileName = $newAgs2MenuItemFileName
+	}
+	
+	# add ags2 file name to index
+	$ags2MenuItemFileNameIndex.Set_Item($ags2MenuItemFileName, $true)
+	
+	
+	$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
+	$ags2MenuItemPath = [System.IO.Path]::Combine($outputPath, $ags2MenuItemIndexName + ".ags")
+
+	if(!(Test-Path -Path $ags2MenuItemPath))
+	{
+		md $ags2MenuItemPath | Out-Null
+	}
+	
+	# set ags2 menu files
+	$ags2MenuItemRunFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).run")
+	$ags2MenuItemTxtFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).txt")
+	$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).iff")
+
+	# add partition number to whdload slave run path, if multiple partitions are used	
+	if ($usePartitions -and !$whdloadSizeIndex.ContainsKey($whdloadSlave.WhdloadName))
+	{
+		# add whdload size to index
+		$whdloadSizeIndex.Set_Item($whdloadSlave.WhdloadName, $whdloadSlave.WhdloadSize)
+
+		# increase partition number, if whdload size and partition size is greater than partition split size
+		if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
 		{
-			Write-Error "Missing extract path"
-			exit 1
-		}	
-		
-		$whdloadExtractPath = $whdloadExtract[1]
-		$whdloadGamePath = "$($whdloadExtractPath)/$($whdloadGameSlaveDirectory)"
+			$partitionNumber++
+			$partitionSize = 0
+		}
 
-		$ags2GameRunLines = @( 
-			"cd $($whdloadGamePath)", 
-			"IF `$whdloadargs EQ """"", 
-			"  whdload $($whdloadGameSlaveFileName)", 
-			"ELSE", 
-			"  whdload $($whdloadGameSlaveFileName) `$whdloadargs", 
-			"ENDIF" )
-		
-		# write ags 2 game run file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2GameRunFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2GameRunLines -join "`n")), [System.Text.Encoding]::ASCII)
+		# add whdload slave size to partition size
+		$partitionSize += $whdloadSlave.WhdloadSize
 
-		$ags2GameTxtLines = @(
-			"$($whdloadGameName)",
-			"",
-			"$($whdloadGameSlaveName)"
-			"$($whdloadGameSlaveCopy)")
+		# set whdload slave run path with partition number
+		$whdloadSlaveRunPath = ($assignName + $partitionNumber + ":" + $ags2MenuItemIndexName + "/" + $whdloadSlave.WhdloadName)
+	}
+	else 
+	{
+		# set whdload slave run path
+		$whdloadSlaveRunPath = ($assignName + ":" + $ags2MenuItemIndexName + "/" + $whdloadSlave.WhdloadName)
+	}
+
+	# set whdload slave file name
+	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
+
+	
+	# build ags 2 menu item run lines
+	$ags2MenuItemRunLines = @( 
+		"cd $($whdloadSlaveRunPath)", 
+		"IF `$whdloadargs EQ """"", 
+		"  whdload $($whdloadSlaveFileName)", 
+		"ELSE", 
+		"  whdload $($whdloadSlaveFileName) `$whdloadargs", 
+		"ENDIF" )
+
+	# write ags 2 menu item run file in ascii encoding
+	[System.IO.File]::WriteAllText($ags2MenuItemRunFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2MenuItemRunLines -join "`n")), [System.Text.Encoding]::ASCII)
+
+	
+	# build ags 2 menu item txt lines
+	$ags2MenuItemTxtLines = @(
+		$whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32")
+		$whdloadSlave.WhdloadSlaveCopy)
+	
+	# write ags 2 menu item txt file in ascii encoding
+	[System.IO.File]::WriteAllText($ags2MenuItemTxtFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2MenuItemTxtLines -join "`n")), [System.Text.Encoding]::ASCII)
+
+
+	# copy whdload screenshot, if it exists in index	
+	if ($whdloadScreenshotsIndex.ContainsKey($whdloadSlave.WhdloadSlaveFilePath))
+	{
+		$screenshotFile = $whdloadScreenshotsIndex.Get_Item($whdloadSlave.WhdloadSlaveFilePath)
+		$whdloadScreenshotPath = [System.IO.Path]::Combine($whdloadScreenshotsPath, $screenshotFile)
 		
-		# write ags 2 game txt file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2GameTxtFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2GameTxtLines -join "`n")), [System.Text.Encoding]::ASCII)
+		if ($aga)
+		{
+			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ags2aga.iff")
+		}
+		else
+		{
+			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ags2ocs.iff")
+		}
+	
+		# copy whdload screenshot file, if it exists
+		if (test-path -path $whdloadScreenshotFile)
+		{
+			Copy-Item $whdloadScreenshotFile $ags2MenuItemIffFile -force
+		}
 	}
 }
