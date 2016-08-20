@@ -2,7 +2,7 @@
 # ------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-08-17
+# Date:   2016-08-20
 #
 # A PowerShell script to convert a screenshot for iGame and AGS2 in AGA and OCS mode.
 #
@@ -11,6 +11,19 @@
 # Image Magick:
 # http://www.imagemagick.org/script/binary-releases.php
 # http://www.imagemagick.org/download/binaries/ImageMagick-6.9.3-7-Q8-x64-dll.exe
+#
+# XnView with NConvert
+# http://www.xnview.com/en/xnview/#downloads
+# http://download3.xnview.com/XnView-win-full.exe
+#
+# Python for imgtoiff:
+# https://www.python.org/downloads/
+# https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi
+# 
+# Pillow for imgtoiff:
+# https://pypi.python.org/pypi/Pillow/2.7.0
+# https://pypi.python.org/packages/2.7/P/Pillow/Pillow-2.7.0.win32-py2.7.exe#md5=a776412924049796bf34e8fa7af680db
+
 
 Param(
 	[Parameter(Mandatory=$true)]
@@ -27,8 +40,11 @@ Param(
 
 
 # programs 
+$nconvertPath = "${Env:ProgramFiles(x86)}\XnView\nconvert.exe"
 $imageMagickConvertPath = "$env:ProgramFiles\ImageMagick-6.9.3-Q8\convert.exe"
 $imageToIffPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\ImageToIff.ps1")
+$imgToIffAgaPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-aga.py")
+$imgToIffOcsPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-ocs.py")
 
 
 # start process
@@ -86,19 +102,32 @@ if(!(test-path -path $tempPath))
 }
 
 
+# make temp png screenshot file
+$tempScreenshotFile = [System.IO.Path]::Combine($tempPath, "screenshot.png")
+$tempScreenshotArgs = "-out png -o ""$tempScreenshotFile"" ""$screenshotFile"""
+
+# exit, if nconvert fails
+if ((StartProcess $nconvertPath $tempScreenshotArgs) -ne 0)
+{
+	Write-Error "Failed to run nconvert for '$screenshotFile' with arguments '$tempScreenshotArgs'"
+	remove-item $tempPath -recurse
+	exit 1
+}
+
+
 # make igame screenshot
-$imageToIffiGameScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame.iff")
+$iGameScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame.iff")
 
 if (!$noiGameScreenshot)
 {
 	# use ImageMagick to make iGame screenshot: Resize to 320 x 128 pixels, set bit depth to 8 (255 colors) and limit colors to 255
 	$imageMagickConvertiGameScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame.png")
-	$imageMagickConvertiGameArgs = """$screenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGameScreenshotFile"""
+	$imageMagickConvertiGameArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGameScreenshotFile"""
 
 	# exit, if ImageMagick fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertiGameArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick for '$screenshotFile' with arguments '$imageMagickConvertiGameArgs'"
+		Write-Error "Failed to run ImageMagick for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -111,32 +140,42 @@ if (!$noiGameScreenshot)
 	}
 
 
-	# use ImageToIff to convert iGame screenshot to iff
-	$imageToIffiGameScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertiGameScreenshotFile"" -iffPath ""$imageToIffiGameScreenshotFile"""
+	# use imgtoiff-aga to make iGame screenshot file
+	$imgToIffiGameScreenshotArgs = """$imgToIffAgaPath"" --aga --pack 1 ""$imageMagickConvertiGameScreenshotFile"" ""$iGameScreenshotFile"""
 
-	# exit, if ImageToIff fails
-	if ((StartProcess "powershell.exe" $imageToIffiGameScreenshotArgs) -ne 0)
+	if ((StartProcess "python" $imgToIffiGameScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageToIff for '$imageMagickConvertiGameScreenshotFile' with arguments '$imageToIffiGameScreenshotArgs'"
+		Write-Error "Failed to run imgtoiff-aga for '$imageMagickConvertiGameScreenshotFile' with arguments '$imgToIffiGameScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
+
+	# # use ImageToIff to convert iGame screenshot to iff
+	# $imageToIffiGameScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertiGameScreenshotFile"" -iffPath ""$imageToIffiGameScreenshotFile"""
+
+	# # exit, if ImageToIff fails
+	# if ((StartProcess "powershell.exe" $imageToIffiGameScreenshotArgs) -ne 0)
+	# {
+	# 	Write-Error "Failed to run ImageToIff for '$imageMagickConvertiGameScreenshotFile' with arguments '$imageToIffiGameScreenshotArgs'"
+	# 	#remove-item $tempPath -recurse
+	# 	exit 1
+	# }
 }
 
 
 # make aga acreenshot
-$imageToIffAgs2AgaScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2aga.iff")
+$ags2AgaScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2aga.iff")
 
 if (!$noAgaScreenshot)
 {
 	# use ImageMagick to make AGS2 AGA screenshot: Resize to 320 x 128 pixels, set bit depth to 8 (255 colors) and limit colors to 200
 	$imageMagickConvertAgs2AgaScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2aga.png")
-	$imageMagickConvertAgs2AgaArgs = """$screenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 ""$imageMagickConvertAgs2AgaScreenshotFile"""
+	$imageMagickConvertAgs2AgaArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 ""$imageMagickConvertAgs2AgaScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2AgaArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick convert for '$screenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
+		Write-Error "Failed to run ImageMagick convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -149,32 +188,42 @@ if (!$noAgaScreenshot)
 	}
 
 
-	# use ImageToIff to make AGS2 AGA Game screenshot file
-	$imageToIffAgs2AgaScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertAgs2AgaScreenshotFile"" -iffPath ""$imageToIffAgs2AgaScreenshotFile"""
+	# use imgtoiff-aga to make iGame screenshot file
+	$imgToIffAgs2AgaScreenshotArgs = """$imgToIffAgaPath"" --aga --pack 1 ""$imageMagickConvertAgs2AgaScreenshotFile"" ""$ags2AgaScreenshotFile"""
 
-	# exit, if ImageToIff fails
-	if ((StartProcess "powershell.exe" $imageToIffAgs2AgaScreenshotArgs) -ne 0)
+	if ((StartProcess "python" $imgToIffAgs2AgaScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageToIff for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imageToIffAgs2AgaScreenshotArgs'"
+		Write-Error "Failed to run imgtoiff-aga for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imgToIffAgs2AgaScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
+
+	# # use ImageToIff to make AGS2 AGA Game screenshot file
+	# $imageToIffAgs2AgaScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertAgs2AgaScreenshotFile"" -iffPath ""$imageToIffAgs2AgaScreenshotFile"""
+
+	# # exit, if ImageToIff fails
+	# if ((StartProcess "powershell.exe" $imageToIffAgs2AgaScreenshotArgs) -ne 0)
+	# {
+	# 	Write-Error "Failed to run ImageToIff for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imageToIffAgs2AgaScreenshotArgs'"
+	# 	remove-item $tempPath -recurse
+	# 	exit 1
+	# }
 }
 
 
 # make ocs screenshot
-$imageToIffAgs2OcsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2ocs.iff")
+$ags2OcsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2ocs.iff")
 
 if (!$noOcsScreenshot)
 {
 	# use ImageMagick to make AGS2 OCS screenshot: Resize to 320 x 128 pixels, set bit depth to 4 (16 colors) and limit colors to 11
 	$imageMagickConvertAgs2OcsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2ocs.png")
-	$imageMagickConvertAgs2OcsArgs = """$screenshotFile"" -resize 320x128! -filter Point -depth 4 -colors 11 ""$imageMagickConvertAgs2OcsScreenshotFile"""
+	$imageMagickConvertAgs2OcsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 4 -colors 11 ""$imageMagickConvertAgs2OcsScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2OcsArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick convert for '$screenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
+		Write-Error "Failed to run ImageMagick convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -187,16 +236,26 @@ if (!$noOcsScreenshot)
 	}
 
 
-	# use ImageToIff to make AGS2 OCS Game screenshot file
-	$imageToIffAgs2OcsScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertAgs2OcsScreenshotFile"" -iffPath ""$imageToIffAgs2OcsScreenshotFile"""
+	# use imgtoiff-ocs to make iGame screenshot file
+	$imgToIffAgs2OcsScreenshotArgs = """$imgToIffOcsPath"" --ocs --pack 1 ""$imageMagickConvertAgs2OcsScreenshotFile"" ""$ags2OcsScreenshotFile"""
 
-	# exit, if ImageToIff fails
-	if ((StartProcess "powershell.exe" $imageToIffAgs2OcsScreenshotArgs) -ne 0)
+	if ((StartProcess "python" $imgToIffAgs2OcsScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageToIff for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imageToIffAgs2OcsScreenshotArgs'"
+		Write-Error "Failed to run imgtoiff-ocs for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imgToIffAgs2OcsScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
+
+	# # use ImageToIff to make AGS2 OCS Game screenshot file
+	# $imageToIffAgs2OcsScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertAgs2OcsScreenshotFile"" -iffPath ""$imageToIffAgs2OcsScreenshotFile"""
+
+	# # exit, if ImageToIff fails
+	# if ((StartProcess "powershell.exe" $imageToIffAgs2OcsScreenshotArgs) -ne 0)
+	# {
+	# 	Write-Error "Failed to run ImageToIff for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imageToIffAgs2OcsScreenshotArgs'"
+	# 	remove-item $tempPath -recurse
+	# 	exit 1
+	# }
 }
 
 
@@ -214,23 +273,22 @@ $outputAgs2AgaScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2aga.i
 $outputAgs2OcsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2ocs.iff")
 
 
-
 # copy screenshots files to output 
 Copy-Item $screenshotFile $outputScreenshotFile -force
 
-if (test-path -path $imageToIffiGameScreenshotFile)
+if (test-path -path $iGameScreenshotFile)
 {
-	Copy-Item $imageToIffiGameScreenshotFile $outputiGameScreenshotFile -force
+	Copy-Item $iGameScreenshotFile $outputiGameScreenshotFile -force
 }
 
-if (test-path -path $imageToIffAgs2AgaScreenshotFile)
+if (test-path -path $ags2AgaScreenshotFile)
 {
-	Copy-Item $imageToIffAgs2AgaScreenshotFile $outputAgs2AgaScreenshotFile -force
+	Copy-Item $ags2AgaScreenshotFile $outputAgs2AgaScreenshotFile -force
 }
 
-if (test-path -path $imageToIffAgs2OcsScreenshotFile)
+if (test-path -path $ags2OcsScreenshotFile)
 {
-	Copy-Item $imageToIffAgs2OcsScreenshotFile $outputAgs2OcsScreenshotFile -force
+	Copy-Item $ags2OcsScreenshotFile $outputAgs2OcsScreenshotFile -force
 }
 
 
