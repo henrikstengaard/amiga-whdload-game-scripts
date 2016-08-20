@@ -13,6 +13,8 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[string]$screenshotQueriesFile,
 	[Parameter(Mandatory=$false)]
+	[string]$screenshotPatchesFile,
+	[Parameter(Mandatory=$false)]
 	[string]$removeQueryTextPattern,
 	[Parameter(Mandatory=$false)]
 	[switch]$addFilteredName,
@@ -57,7 +59,8 @@ function MakeComparableName([string]$text)
 	# remove the and demo
 	#$text = $text -replace "the", " " -replace "demo", " "
 
-	$text = $text -replace "disk", " " -replace "\(c\)", " "
+	#$text = $text -replace "disk", " " 
+	$text = $text -replace "\(c\)", " "
 	
 	# replace roman numbers
 	$text = $text -replace " vii ", " 7 " -replace " vi ", " 6 " -replace " v ", " 5 " -replace " iv ", " 4 " -replace " iii ", " 3 " -replace " ii ", " 2 " -replace " i ", " 1 "
@@ -174,36 +177,69 @@ $whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPa
 $screenshotQueriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotQueriesFile)
 
 
+
 # Read whdload slave list
 $items = import-csv -delimiter ';' -path $whdloadSlavesFile -encoding utf8
 
+$screenshotPatches = @()
+
+if ($screenshotPatchesFile)
+{
+	$screenshotPatchesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotPatchesFile)
+	$screenshotPatches += (import-csv -delimiter ';' -path $screenshotPatchesFile -encoding utf8)
+}
+
+
+
+$screenshotPatchesIndex = @{}
+$screenshotPatches | % { $screenshotPatchesIndex.Set_Item($_.WhdloadName.ToLower(), $_.ScreenshotQueryPatch.ToLower()) }
+
+# $patchIndex.Set_Item('audiomega', 'audiomega rebels')
+# $patchIndex.Set_Item('codekillersintro', 'demo the code killers')
+# $patchIndex.Set_Item('MegaDemoAvenger','megademo avenger')
+# $patchIndex.Set_Item('Motion','motion origin 2 bomb')
+# $patchIndex.Set_Item('OdySounds2', 'odysounds 2')
+# $patchIndex.Set_Item('Origin', 'origin complex')
+# $patchIndex.Set_Item('Software', 'software world federation of mad hackers')
+# $patchIndex.Set_Item('virtualworld', 'virtual world tomsoft')
 
 # Process items
 foreach($item in $items)
 {
 	$name = $item.WhdloadName
-	
-	if ($addFilteredName -and $item.FilteredName -and ($item.WhdloadName -ne $item.FilteredName))
+
+	if ($screenshotPatchesIndex.ContainsKey($name.ToLower()))
 	{
-		$name += " " + $item.FilteredName
+		$screenshotQuery = $screenshotPatchesIndex.Get_Item($name.ToLower())
+	}
+	else
+	{
+		if ($addFilteredName -and $item.FilteredName -and ($item.WhdloadName -ne $item.FilteredName))
+		{
+			$name += " " + $item.FilteredName
+		}
+
+		if ($addWhdloadSlaveName -and $item.WhdloadSlaveName -and ($item.WhdloadName -ne $item.WhdloadSlaveName))
+		{
+			$name += " " + $item.WhdloadSlaveName
+		}
+
+		if ($addWhdloadSlaveCopy -and $item.WhdloadSlaveCopy)
+		{
+			$name += " " + ($item.WhdloadSlaveCopy -replace '\d{4}', ' ')
+		}
+
+		$screenshotQuery = UniqueWords (MakeComparableName (Normalize $name))
+		
+		# remove single letters
+		$screenshotQuery = [string]::Join(" ", ($screenshotQuery -split ' ' | Where { $_ -notmatch '^[a-z]$' }))
+
+		if ($removeQueryTextPattern -and ($removeQueryTextPattern -ne ''))
+		{
+			$screenshotQuery = $screenshotQuery -replace $removeQueryTextPattern, ''
+		}
 	}
 
-	if ($addWhdloadSlaveName -and $item.WhdloadSlaveName -and ($item.WhdloadName -ne $item.WhdloadSlaveName))
-	{
-		$name += " " + $item.WhdloadSlaveName
-	}
-
-	if ($addWhdloadSlaveCopy -and $item.WhdloadSlaveCopy)
-	{
-		$name += " " + ($item.WhdloadSlaveCopy -replace '\d{4}', ' ')
-	}
-
-	$screenshotQuery = UniqueWords (MakeComparableName (Normalize $name))
-	
-	if ($removeQueryTextPattern -and ($removeQueryTextPattern -ne ''))
-	{
-		$screenshotQuery = $screenshotQuery -replace $removeQueryTextPattern, ''
-	}
 
 	# Special replace for 'Russelsheim'
 	if ($screenshotQuery -match 'r.sselsheim')
