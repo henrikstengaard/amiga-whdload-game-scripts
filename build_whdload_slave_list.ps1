@@ -91,4 +91,4 @@ foreach($file in (Get-ChildItem -Path $whdloadPath -recurse | Where { !$_.PSIsCo
 
 # write game list
 $whdloadSlaveListPath = [System.IO.Path]::Combine($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadPath), "whdload_slaves.csv")
-$whdloadSlaves | %{ New-Object PSObject -Property $_ } | export-csv -delimiter ';' -path $whdloadSlaveListPath -NoTypeInformation
+$whdloadSlaves | %{ New-Object PSObject -Property $_ } | export-csv -delimiter ';' -path $whdloadSlaveListPath -NoTypeInformation -Encoding UTF8
