@@ -378,13 +378,17 @@ if (!(test-path -path $imagePath))
 	exit 1
 }
 
+
 # read image
 $image = new-object System.Drawing.Bitmap($imagePath)
 
 # check if image is a 4-bpp or 8-bpp indexed image
 if ($image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format4bppIndexed -and $image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format8bppIndexed)
 {
-	Write-Error "Image '$imagePath' is not a 4-bpp or 8-bpp indexed image"
+	# dispose image
+	$image.Dispose()
+
+	Write-Error ("Image '$imagePath' with pixel format '" + $image.PixelFormat + "'. Only 4-bpp or 8-bpp indexed image is supported!")
 	exit 1
 }
 
