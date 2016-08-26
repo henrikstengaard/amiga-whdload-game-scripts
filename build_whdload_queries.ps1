@@ -15,9 +15,11 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$queryPatchesFile,
 	[Parameter(Mandatory=$false)]
-	[string]$removeQueryTextPattern,
+	[string]$removeQueryWordsPattern,
 	[Parameter(Mandatory=$false)]
 	[switch]$addFilteredName,
+	[Parameter(Mandatory=$false)]
+	[switch]$noWhdloadName,
 	[Parameter(Mandatory=$false)]
 	[switch]$addWhdloadSlaveName,
 	[Parameter(Mandatory=$false)]
@@ -36,25 +38,6 @@ function MakeComparableName([string]$text)
 	$text = $text -replace '\?', ' '
 	$text = $text -replace '[\.]', ''
 	$text = $text -replace "[&\-_\(\):\.,!\\/+\*\?\(\)]", " "
-	# return $text
-	
-	# $newText = ""
-	
-	# for($i = 0; $i -lt $text.length; $i++)
-	# {
-		# if ([char]::IsLetterOrDigit($text[$i]) -or [char]::IsWhiteSpace($text[$i]))
-		# {
-			# $newText += $text[$i]
-		# }
-	# }
-
-	# char[] arr = str.Where(c => (char.IsLetterOrDigit(c) || 
-                             # char.IsWhiteSpace(c) || 
-                             # c == '-')).ToArray(); 
-
-
-	# $text = $newText
-					
 					
 	# remove the and demo
 	#$text = $text -replace "the", " " -replace "demo", " "
@@ -64,7 +47,6 @@ function MakeComparableName([string]$text)
 	
 	# replace roman numbers
 	$text = $text -replace " vii ", " 7 " -replace " vi ", " 6 " -replace " v ", " 5 " -replace " iv ", " 4 " -replace " iii ", " 3 " -replace " ii ", " 2 " -replace " i ", " 1 "
-
 	
 	# remove odd chars
 	$text = $text -creplace "[']", ""
@@ -87,6 +69,9 @@ function MakeComparableName([string]$text)
 	# pull 3d and 4d together
 	$text = $text -replace "\s+([34])\s+([D])\s+", " `$1`$2 "
 
+	# pull cd and 32 together
+	$text = $text -replace "\s+CD\s+32\s+", " CD32 "
+
 	# remove single letters (twice to catch all)
 	$text = $text -creplace '\s+([a-z])\s+', ' ' -creplace '\s+([a-z])\s+', ' '
 	
@@ -99,6 +84,24 @@ function MakeComparableName([string]$text)
 	$text = $text -replace "\s+", " "
 	
 	return $text.ToLower().Trim()
+}
+
+function RemoveWords($text, $removeWords)
+{
+	$keywords = ($text) -split ' '
+	$newKeywords = @()
+
+	foreach($keyword in $keywords)
+	{
+		if (($keyword -match '^s*$') -or ($keyword -match $removeWords))
+		{
+			continue
+		}
+
+		$newKeywords +=, $keyword
+	}
+
+	return [string]::Join(" ", $newKeywords)
 }
 
 function UniqueWords($text)
@@ -194,19 +197,27 @@ if ($queryPatchesFile)
 $queryPatchesIndex = @{}
 $queryPatches | % { $queryPatchesIndex.Set_Item($_.WhdloadName.ToLower(), $_.QueryPatch.ToLower()) }
 
+$queryPatchCount = 0
 
 # process whdload slave items
 foreach($whdloadSlaveItem in $whdloadSlaveItems)
 {
-	$name = $whdloadSlaveItem.WhdloadName
-
-	if ($queryPatchesIndex.ContainsKey($name.ToLower()))
+	if ($queryPatchesIndex.ContainsKey($whdloadSlaveItem.WhdloadName.ToLower()))
 	{
-		$query = $queryPatchesIndex.Get_Item($name.ToLower())
+		$queryPatchCount++
+		Write-Host ("Patch query '" + $whdloadSlaveItem.WhdloadName + "'")
+		$query = $queryPatchesIndex.Get_Item($whdloadSlaveItem.WhdloadName.ToLower())
 	}
 	else
 	{
-		if ($addFilteredName -and $whdloadSlaveItem.FilteredName -and ($whdloadSlaveItem.WhdloadName -ne $whdloadSlaveItem.FilteredName))
+		$name = ""
+		
+		if (!$noWhdloadName)
+		{
+			$name = $whdloadSlaveItem.WhdloadName
+		}
+
+		if ($addFilteredName -and $whdloadSlaveItem.FilteredName -and ($name -ne $whdloadSlaveItem.FilteredName))
 		{
 			$name += " " + $whdloadSlaveItem.FilteredName
 		}
@@ -226,27 +237,20 @@ foreach($whdloadSlaveItem in $whdloadSlaveItems)
 		# remove single letters
 		$query = [string]::Join(" ", ($query -split ' ' | Where { $_ -notmatch '^[a-z]$' }))
 
-		if ($removeQueryTextPattern -and ($removeQueryTextPattern -ne ''))
+		if ($removeQueryWordsPattern -and ($removeQueryWordsPattern -ne ''))
 		{
-			$query = $query -replace $removeQueryTextPattern, ''
+			$query = RemoveWords $query $removeQueryWordsPattern
 		}
 	}
 
-
-	# Special replace for 'Russelsheim'
-	if ($query -match 'r.sselsheim')
-	{
-		$query = 'russelsheim'
-	}
-
-	$query = $query.Trim()
-
+	$query = ($query -replace '\s+',' ').Trim()
 
 	# Add query to whdload slave item
 	$whdloadSlaveItem | Add-Member -MemberType NoteProperty -Name Query -Value $query
 }
 
+Write-Host "$queryPatchCount queries patched"
 
 # Write queries file
-$whdloadSlaveItems | export-csv -delimiter ';' -path $queriesFile -NoTypeInformation
+$whdloadSlaveItems | export-csv -delimiter ';' -path $queriesFile -NoTypeInformation -Encoding UTF8
 
