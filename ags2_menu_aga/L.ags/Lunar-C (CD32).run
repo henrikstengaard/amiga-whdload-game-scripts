@@ -1,6 +1,0 @@
-cd A-Games2:L/LunarCCD32
-IF $whdloadargs EQ ""
-  whdload LunarCCD32.slave
-ELSE
-  whdload LunarCCD32.slave $whdloadargs
-ENDIF

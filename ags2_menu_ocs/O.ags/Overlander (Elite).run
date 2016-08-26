@@ -1,6 +1,0 @@
-cd A-Games1:O/Overlander
-IF $whdloadargs EQ ""
-  whdload Overlander.Slave
-ELSE
-  whdload Overlander.Slave $whdloadargs
-ENDIF

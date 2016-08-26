@@ -1,6 +1,0 @@
-cd A-Games1:B/BeneathAStlSkyCD32
-IF $whdloadargs EQ ""
-  whdload BeneathAStlSkyCD32.Slave
-ELSE
-  whdload BeneathAStlSkyCD32.Slave $whdloadargs
-ENDIF

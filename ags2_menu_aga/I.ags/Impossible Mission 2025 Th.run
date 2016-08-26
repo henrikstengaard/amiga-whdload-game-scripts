@@ -1,6 +1,0 @@
-cd A-Games1:I/ImpossibleMission2025AGA
-IF $whdloadargs EQ ""
-  whdload ImpossibleMission2025AGA.slave
-ELSE
-  whdload ImpossibleMission2025AGA.slave $whdloadargs
-ENDIF

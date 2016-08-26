@@ -1,6 +1,0 @@
-cd A-Games2:V/Vyrus
-IF $whdloadargs EQ ""
-  whdload Vyrus.Slave
-ELSE
-  whdload Vyrus.Slave $whdloadargs
-ENDIF

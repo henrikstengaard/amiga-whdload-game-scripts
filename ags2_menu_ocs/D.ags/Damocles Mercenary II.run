@@ -1,6 +1,0 @@
-cd A-Games1:D/Damocles
-IF $whdloadargs EQ ""
-  whdload Damocles.slave
-ELSE
-  whdload Damocles.slave $whdloadargs
-ENDIF

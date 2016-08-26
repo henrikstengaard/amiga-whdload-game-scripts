@@ -1,6 +1,0 @@
-cd A-Games1:D/DarkCentury
-IF $whdloadargs EQ ""
-  whdload DarkCentury.Slave
-ELSE
-  whdload DarkCentury.Slave $whdloadargs
-ENDIF

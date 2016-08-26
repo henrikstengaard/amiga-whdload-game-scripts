@@ -1,6 +1,0 @@
-cd A-Games2:S/StarushFiles
-IF $whdloadargs EQ ""
-  whdload StarushFiles.slave
-ELSE
-  whdload StarushFiles.slave $whdloadargs
-ENDIF

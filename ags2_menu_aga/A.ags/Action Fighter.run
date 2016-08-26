@@ -1,6 +1,0 @@
-cd A-Games1:A/ActionFighter
-IF $whdloadargs EQ ""
-  whdload ActionFighter.slave
-ELSE
-  whdload ActionFighter.slave $whdloadargs
-ENDIF

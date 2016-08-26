@@ -1,6 +1,0 @@
-cd A-Games2:T/Time
-IF $whdloadargs EQ ""
-  whdload Time.Slave
-ELSE
-  whdload Time.Slave $whdloadargs
-ENDIF

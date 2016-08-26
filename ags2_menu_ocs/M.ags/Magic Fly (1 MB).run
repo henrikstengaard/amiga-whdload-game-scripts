@@ -1,6 +1,0 @@
-cd A-Games1:M/MagicFly1MB
-IF $whdloadargs EQ ""
-  whdload MagicFly1MB.Slave
-ELSE
-  whdload MagicFly1MB.Slave $whdloadargs
-ENDIF

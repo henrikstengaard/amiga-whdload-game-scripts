@@ -1,6 +1,0 @@
-cd A-Games2:U/Ultima6
-IF $whdloadargs EQ ""
-  whdload Ultima6.Slave
-ELSE
-  whdload Ultima6.Slave $whdloadargs
-ENDIF

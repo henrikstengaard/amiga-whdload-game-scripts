@@ -1,6 +1,0 @@
-cd A-Games1:0/5thGear
-IF $whdloadargs EQ ""
-  whdload 5thGear.Slave
-ELSE
-  whdload 5thGear.Slave $whdloadargs
-ENDIF

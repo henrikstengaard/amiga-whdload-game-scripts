@@ -1,6 +1,0 @@
-cd A-Games2:P/Psyborg
-IF $whdloadargs EQ ""
-  whdload Psyborg.Slave
-ELSE
-  whdload Psyborg.Slave $whdloadargs
-ENDIF

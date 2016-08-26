@@ -1,6 +1,0 @@
-cd A-Games1:A/APBFiles
-IF $whdloadargs EQ ""
-  whdload APBFiles.slave
-ELSE
-  whdload APBFiles.slave $whdloadargs
-ENDIF

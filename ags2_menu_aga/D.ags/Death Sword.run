@@ -1,6 +1,0 @@
-cd A-Games1:D/DeathSword
-IF $whdloadargs EQ ""
-  whdload DeathSword.Slave
-ELSE
-  whdload DeathSword.Slave $whdloadargs
-ENDIF

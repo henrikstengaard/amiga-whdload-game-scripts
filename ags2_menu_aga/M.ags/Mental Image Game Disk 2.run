@@ -1,6 +1,0 @@
-cd A-Games2:M/MentalImage2
-IF $whdloadargs EQ ""
-  whdload MentalImage2.slave
-ELSE
-  whdload MentalImage2.slave $whdloadargs
-ENDIF

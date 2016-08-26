@@ -1,6 +1,0 @@
-cd A-Games1:0/3DGalax
-IF $whdloadargs EQ ""
-  whdload 3DGalax.Slave
-ELSE
-  whdload 3DGalax.Slave $whdloadargs
-ENDIF

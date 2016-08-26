@@ -1,6 +1,0 @@
-cd A-Games2:P/PrimeMover
-IF $whdloadargs EQ ""
-  whdload PrimeMover.Slave
-ELSE
-  whdload PrimeMover.Slave $whdloadargs
-ENDIF

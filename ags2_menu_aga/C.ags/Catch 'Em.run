@@ -1,6 +1,0 @@
-cd A-Games1:C/CatchEm
-IF $whdloadargs EQ ""
-  whdload CatchEm.slave
-ELSE
-  whdload CatchEm.slave $whdloadargs
-ENDIF

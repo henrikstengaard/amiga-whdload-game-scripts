@@ -1,6 +1,0 @@
-cd A-Games2:S/SpaceStation
-IF $whdloadargs EQ ""
-  whdload SpaceStation.Slave
-ELSE
-  whdload SpaceStation.Slave $whdloadargs
-ENDIF

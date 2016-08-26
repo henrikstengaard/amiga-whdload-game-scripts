@@ -1,6 +1,0 @@
-cd A-Games2:M/MadTV
-IF $whdloadargs EQ ""
-  whdload MadTV.Slave
-ELSE
-  whdload MadTV.Slave $whdloadargs
-ENDIF

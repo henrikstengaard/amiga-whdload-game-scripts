@@ -1,6 +1,0 @@
-cd A-Games1:B/BlackViperCD32
-IF $whdloadargs EQ ""
-  whdload IntroCD32.Slave
-ELSE
-  whdload IntroCD32.Slave $whdloadargs
-ENDIF

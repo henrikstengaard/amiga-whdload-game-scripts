@@ -1,6 +1,0 @@
-cd A-Games2:N/Nova9
-IF $whdloadargs EQ ""
-  whdload Nova9.Slave
-ELSE
-  whdload Nova9.Slave $whdloadargs
-ENDIF

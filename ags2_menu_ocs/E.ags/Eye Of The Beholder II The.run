@@ -1,6 +1,0 @@
-cd A-Games1:E/EyeOfTheBeholder2
-IF $whdloadargs EQ ""
-  whdload EyeOfTheBeholder2.Slave
-ELSE
-  whdload EyeOfTheBeholder2.Slave $whdloadargs
-ENDIF

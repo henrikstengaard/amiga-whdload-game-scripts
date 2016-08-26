@@ -1,6 +1,0 @@
-cd A-Games2:S/SharkeysMoll
-IF $whdloadargs EQ ""
-  whdload SharkeysMoll.Slave
-ELSE
-  whdload SharkeysMoll.Slave $whdloadargs
-ENDIF

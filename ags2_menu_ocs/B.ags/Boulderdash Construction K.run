@@ -1,6 +1,0 @@
-cd A-Games1:B/BoulderDashConstrKit
-IF $whdloadargs EQ ""
-  whdload BoulderDashConstrKit.Slave
-ELSE
-  whdload BoulderDashConstrKit.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:B/BehindTheIronGate
-IF $whdloadargs EQ ""
-  whdload BehindTheIronGate.slave
-ELSE
-  whdload BehindTheIronGate.slave $whdloadargs
-ENDIF

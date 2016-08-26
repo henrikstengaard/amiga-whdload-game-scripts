@@ -1,6 +1,0 @@
-cd A-Games2:S/SuperMonacoGP
-IF $whdloadargs EQ ""
-  whdload SuperMonacoGP.slave
-ELSE
-  whdload SuperMonacoGP.slave $whdloadargs
-ENDIF

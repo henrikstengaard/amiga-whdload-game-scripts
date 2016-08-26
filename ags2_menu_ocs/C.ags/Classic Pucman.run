@@ -1,6 +1,0 @@
-cd A-Games1:C/ClassicPucman
-IF $whdloadargs EQ ""
-  whdload ClassicPucman.slave
-ELSE
-  whdload ClassicPucman.slave $whdloadargs
-ENDIF

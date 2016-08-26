@@ -1,6 +1,0 @@
-cd A-Games1:B/BattlestormCDTV
-IF $whdloadargs EQ ""
-  whdload BattlestormCDTV.Slave
-ELSE
-  whdload BattlestormCDTV.Slave $whdloadargs
-ENDIF

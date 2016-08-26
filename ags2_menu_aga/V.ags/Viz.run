@@ -1,6 +1,0 @@
-cd A-Games2:V/Viz
-IF $whdloadargs EQ ""
-  whdload Viz.Slave
-ELSE
-  whdload Viz.Slave $whdloadargs
-ENDIF

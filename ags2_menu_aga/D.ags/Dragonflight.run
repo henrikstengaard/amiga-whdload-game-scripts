@@ -1,6 +1,0 @@
-cd A-Games1:D/Dragonflight
-IF $whdloadargs EQ ""
-  whdload Dragonflight.Slave
-ELSE
-  whdload Dragonflight.Slave $whdloadargs
-ENDIF

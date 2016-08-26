@@ -1,6 +1,0 @@
-cd A-Games2:N/Neuronics
-IF $whdloadargs EQ ""
-  whdload Neuronics.Slave
-ELSE
-  whdload Neuronics.Slave $whdloadargs
-ENDIF

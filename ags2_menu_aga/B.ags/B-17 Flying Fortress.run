@@ -1,6 +1,0 @@
-cd A-Games1:B/B17FlyingFortress
-IF $whdloadargs EQ ""
-  whdload B17FlyingFortress.Slave
-ELSE
-  whdload B17FlyingFortress.Slave $whdloadargs
-ENDIF

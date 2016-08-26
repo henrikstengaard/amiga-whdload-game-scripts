@@ -1,6 +1,0 @@
-cd A-Games2:T/Terminator2ArcadeGame
-IF $whdloadargs EQ ""
-  whdload Terminator2ArcadeGame.slave
-ELSE
-  whdload Terminator2ArcadeGame.slave $whdloadargs
-ENDIF

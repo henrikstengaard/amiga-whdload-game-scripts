@@ -1,6 +1,0 @@
-cd A-Games2:Y/YolandaFiles
-IF $whdloadargs EQ ""
-  whdload YolandaFiles.Slave
-ELSE
-  whdload YolandaFiles.Slave $whdloadargs
-ENDIF

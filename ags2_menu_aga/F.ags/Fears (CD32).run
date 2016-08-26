@@ -1,6 +1,0 @@
-cd A-Games1:F/FearsCD32
-IF $whdloadargs EQ ""
-  whdload FearsCD32.Slave
-ELSE
-  whdload FearsCD32.Slave $whdloadargs
-ENDIF

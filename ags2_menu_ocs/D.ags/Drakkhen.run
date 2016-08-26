@@ -1,6 +1,0 @@
-cd A-Games1:D/Drakkhen
-IF $whdloadargs EQ ""
-  whdload Drakkhen.Slave
-ELSE
-  whdload Drakkhen.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:A/AlfredChicken
-IF $whdloadargs EQ ""
-  whdload AlfredChicken.Slave
-ELSE
-  whdload AlfredChicken.Slave $whdloadargs
-ENDIF

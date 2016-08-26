@@ -1,6 +1,0 @@
-cd A-Games1:L/LaserSquad
-IF $whdloadargs EQ ""
-  whdload LaserSquad.slave
-ELSE
-  whdload LaserSquad.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:W/WibbleWorldGiddy
-IF $whdloadargs EQ ""
-  whdload WibbleWorldGiddy.Slave
-ELSE
-  whdload WibbleWorldGiddy.Slave $whdloadargs
-ENDIF

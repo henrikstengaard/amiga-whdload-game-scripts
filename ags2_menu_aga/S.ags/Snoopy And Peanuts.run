@@ -1,6 +1,0 @@
-cd A-Games2:S/Snoopy&Peanuts
-IF $whdloadargs EQ ""
-  whdload Snoopy&Peanuts.Slave
-ELSE
-  whdload Snoopy&Peanuts.Slave $whdloadargs
-ENDIF

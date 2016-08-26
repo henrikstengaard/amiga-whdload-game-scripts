@@ -1,6 +1,0 @@
-cd A-Games1:O/OperationCleanstreets
-IF $whdloadargs EQ ""
-  whdload OperationCleanstreets.Slave
-ELSE
-  whdload OperationCleanstreets.Slave $whdloadargs
-ENDIF

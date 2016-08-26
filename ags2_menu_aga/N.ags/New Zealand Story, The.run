@@ -1,6 +1,0 @@
-cd A-Games2:N/NewZealandStory
-IF $whdloadargs EQ ""
-  whdload NewZealandStory.Slave
-ELSE
-  whdload NewZealandStory.Slave $whdloadargs
-ENDIF

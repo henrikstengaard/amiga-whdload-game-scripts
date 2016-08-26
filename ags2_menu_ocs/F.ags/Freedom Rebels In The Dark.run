@@ -1,6 +1,0 @@
-cd A-Games1:F/Freedom
-IF $whdloadargs EQ ""
-  whdload Freedom.Slave
-ELSE
-  whdload Freedom.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:B/BurningRubber\data
-IF $whdloadargs EQ ""
-  whdload RipDisk2.slave
-ELSE
-  whdload RipDisk2.slave $whdloadargs
-ENDIF

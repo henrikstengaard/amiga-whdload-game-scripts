@@ -1,6 +1,0 @@
-cd A-Games2:M/MagicJohnsonsBasketball
-IF $whdloadargs EQ ""
-  whdload MagicJohnsonsBasketball.Slave
-ELSE
-  whdload MagicJohnsonsBasketball.Slave $whdloadargs
-ENDIF

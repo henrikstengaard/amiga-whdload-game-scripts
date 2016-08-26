@@ -1,6 +1,0 @@
-cd A-Games1:C/Citadel
-IF $whdloadargs EQ ""
-  whdload Citadel.slave
-ELSE
-  whdload Citadel.slave $whdloadargs
-ENDIF

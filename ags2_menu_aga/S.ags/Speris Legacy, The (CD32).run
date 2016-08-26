@@ -1,6 +1,0 @@
-cd A-Games2:S/SperisLegacyCD32
-IF $whdloadargs EQ ""
-  whdload SperisLegacyCD32.Slave
-ELSE
-  whdload SperisLegacyCD32.Slave $whdloadargs
-ENDIF

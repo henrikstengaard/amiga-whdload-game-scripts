@@ -1,6 +1,0 @@
-cd A-Games2:S/SlightlyMagic
-IF $whdloadargs EQ ""
-  whdload SlightlyMagic.slave
-ELSE
-  whdload SlightlyMagic.slave $whdloadargs
-ENDIF

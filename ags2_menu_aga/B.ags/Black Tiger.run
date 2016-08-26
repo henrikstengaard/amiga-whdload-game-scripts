@@ -1,6 +1,0 @@
-cd A-Games1:B/BlackTiger
-IF $whdloadargs EQ ""
-  whdload BlackTiger.slave
-ELSE
-  whdload BlackTiger.slave $whdloadargs
-ENDIF

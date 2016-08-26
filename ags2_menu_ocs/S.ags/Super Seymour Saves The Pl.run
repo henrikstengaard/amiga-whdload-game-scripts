@@ -1,6 +1,0 @@
-cd A-Games2:S/SuperSeymourSavesPlanet
-IF $whdloadargs EQ ""
-  whdload SuperSeymourSavesPlanet.slave
-ELSE
-  whdload SuperSeymourSavesPlanet.slave $whdloadargs
-ENDIF

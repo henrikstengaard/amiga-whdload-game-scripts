@@ -1,6 +1,0 @@
-cd A-Games2:S/StuntCarRacer
-IF $whdloadargs EQ ""
-  whdload StuntCarRacer.Slave
-ELSE
-  whdload StuntCarRacer.Slave $whdloadargs
-ENDIF

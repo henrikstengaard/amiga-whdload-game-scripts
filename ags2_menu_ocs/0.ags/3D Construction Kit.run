@@ -1,6 +1,0 @@
-cd A-Games1:0/3DConstructionKit
-IF $whdloadargs EQ ""
-  whdload 3DConstructionKit.Slave
-ELSE
-  whdload 3DConstructionKit.Slave $whdloadargs
-ENDIF

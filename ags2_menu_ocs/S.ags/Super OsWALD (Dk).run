@@ -1,6 +1,0 @@
-cd A-Games2:S/SuperOsWALDDk
-IF $whdloadargs EQ ""
-  whdload SuperOsWALDDk.Slave
-ELSE
-  whdload SuperOsWALDDk.Slave $whdloadargs
-ENDIF

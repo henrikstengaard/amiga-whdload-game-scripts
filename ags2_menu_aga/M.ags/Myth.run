@@ -1,6 +1,0 @@
-cd A-Games2:M/Myth
-IF $whdloadargs EQ ""
-  whdload Myth.Slave
-ELSE
-  whdload Myth.Slave $whdloadargs
-ENDIF

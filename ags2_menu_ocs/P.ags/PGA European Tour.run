@@ -1,6 +1,0 @@
-cd A-Games2:P/PGAEuropeanTour
-IF $whdloadargs EQ ""
-  whdload PGAEuropeanTour.Slave
-ELSE
-  whdload PGAEuropeanTour.Slave $whdloadargs
-ENDIF

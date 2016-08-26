@@ -1,6 +1,0 @@
-cd A-Games1:B/BrutalFootball
-IF $whdloadargs EQ ""
-  whdload BrutalFootball.slave
-ELSE
-  whdload BrutalFootball.slave $whdloadargs
-ENDIF

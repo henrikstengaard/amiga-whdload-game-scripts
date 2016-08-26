@@ -1,6 +1,0 @@
-cd A-Games2:S/SlipStream
-IF $whdloadargs EQ ""
-  whdload SlipStream.Slave
-ELSE
-  whdload SlipStream.Slave $whdloadargs
-ENDIF

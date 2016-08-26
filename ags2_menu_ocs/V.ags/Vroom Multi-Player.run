@@ -1,6 +1,0 @@
-cd A-Games2:V/VroomMultiPlayer
-IF $whdloadargs EQ ""
-  whdload VroomMultiplayer.Slave
-ELSE
-  whdload VroomMultiplayer.Slave $whdloadargs
-ENDIF

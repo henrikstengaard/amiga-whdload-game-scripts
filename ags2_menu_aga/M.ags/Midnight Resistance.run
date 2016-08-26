@@ -1,6 +1,0 @@
-cd A-Games2:M/MidnightResistance
-IF $whdloadargs EQ ""
-  whdload MidnightResistance.Slave
-ELSE
-  whdload MidnightResistance.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:M/Mach3
-IF $whdloadargs EQ ""
-  whdload Mach3.Slave
-ELSE
-  whdload Mach3.Slave $whdloadargs
-ENDIF

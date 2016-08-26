@@ -1,6 +1,0 @@
-cd A-Games1:M/MasterAxe
-IF $whdloadargs EQ ""
-  whdload MasterAxe.slave
-ELSE
-  whdload MasterAxe.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:G/Gunship2000CD32
-IF $whdloadargs EQ ""
-  whdload Gunship2000CD32.slave
-ELSE
-  whdload Gunship2000CD32.slave $whdloadargs
-ENDIF

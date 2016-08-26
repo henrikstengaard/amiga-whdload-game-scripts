@@ -1,6 +1,0 @@
-cd A-Games2:S/SleepwalkerAGAComicRelief
-IF $whdloadargs EQ ""
-  whdload SleepwalkerAGAComicRelief.Slave
-ELSE
-  whdload SleepwalkerAGAComicRelief.Slave $whdloadargs
-ENDIF

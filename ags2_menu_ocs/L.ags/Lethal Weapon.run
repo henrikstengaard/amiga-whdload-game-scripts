@@ -1,6 +1,0 @@
-cd A-Games1:L/LethalWeapon
-IF $whdloadargs EQ ""
-  whdload LethalWeapon.Slave
-ELSE
-  whdload LethalWeapon.Slave $whdloadargs
-ENDIF

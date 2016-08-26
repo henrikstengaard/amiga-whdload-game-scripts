@@ -1,6 +1,0 @@
-cd A-Games2:R/RickDangerous2
-IF $whdloadargs EQ ""
-  whdload RickDangerous2.slave
-ELSE
-  whdload RickDangerous2.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:O/Oktagon
-IF $whdloadargs EQ ""
-  whdload Oktagon.Slave
-ELSE
-  whdload Oktagon.Slave $whdloadargs
-ENDIF

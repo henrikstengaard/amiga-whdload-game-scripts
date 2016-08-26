@@ -1,6 +1,0 @@
-cd A-Games2:P/PierreIsOutToLunchCD32
-IF $whdloadargs EQ ""
-  whdload PierreIsOutToLunchCD32.Slave
-ELSE
-  whdload PierreIsOutToLunchCD32.Slave $whdloadargs
-ENDIF

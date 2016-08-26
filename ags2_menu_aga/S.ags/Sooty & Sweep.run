@@ -1,6 +1,0 @@
-cd A-Games2:S/Sooty&Sweep
-IF $whdloadargs EQ ""
-  whdload Sooty&Sweep.Slave
-ELSE
-  whdload Sooty&Sweep.Slave $whdloadargs
-ENDIF

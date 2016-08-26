@@ -1,6 +1,0 @@
-cd A-Games1:B/BarbarianPsygnosis
-IF $whdloadargs EQ ""
-  whdload BarbarianPsygnosis.Slave
-ELSE
-  whdload BarbarianPsygnosis.Slave $whdloadargs
-ENDIF

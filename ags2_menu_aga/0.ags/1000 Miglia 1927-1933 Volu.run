@@ -1,6 +1,0 @@
-cd A-Games1:0/1000Miglia
-IF $whdloadargs EQ ""
-  whdload 1000Miglia.Slave
-ELSE
-  whdload 1000Miglia.Slave $whdloadargs
-ENDIF

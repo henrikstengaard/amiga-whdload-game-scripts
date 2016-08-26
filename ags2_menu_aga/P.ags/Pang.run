@@ -1,6 +1,0 @@
-cd A-Games2:P/Pang
-IF $whdloadargs EQ ""
-  whdload Pang.Slave
-ELSE
-  whdload Pang.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:A/AllTerrainRacing
-IF $whdloadargs EQ ""
-  whdload AllTerrainRacing.Slave
-ELSE
-  whdload AllTerrainRacing.Slave $whdloadargs
-ENDIF

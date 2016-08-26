@@ -1,6 +1,0 @@
-cd A-Games2:S/SensibleSoccerEuro
-IF $whdloadargs EQ ""
-  whdload SensibleSoccerEuro512K.Slave
-ELSE
-  whdload SensibleSoccerEuro512K.Slave $whdloadargs
-ENDIF

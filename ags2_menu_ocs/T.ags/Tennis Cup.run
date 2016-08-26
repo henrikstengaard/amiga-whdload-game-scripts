@@ -1,6 +1,0 @@
-cd A-Games2:T/TennisCup
-IF $whdloadargs EQ ""
-  whdload TennisCup.Slave
-ELSE
-  whdload TennisCup.Slave $whdloadargs
-ENDIF

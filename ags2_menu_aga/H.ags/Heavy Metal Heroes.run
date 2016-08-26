@@ -1,6 +1,0 @@
-cd A-Games1:H/HeavyMetalHeroes
-IF $whdloadargs EQ ""
-  whdload HeavyMetalHeroes.Slave
-ELSE
-  whdload HeavyMetalHeroes.Slave $whdloadargs
-ENDIF

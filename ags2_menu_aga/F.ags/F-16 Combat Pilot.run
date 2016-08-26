@@ -1,6 +1,0 @@
-cd A-Games1:F/F16CombatPilot
-IF $whdloadargs EQ ""
-  whdload F16CombatPilot.Slave
-ELSE
-  whdload F16CombatPilot.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:N/NeverEndingStory2
-IF $whdloadargs EQ ""
-  whdload NeverEndingStory2.slave
-ELSE
-  whdload NeverEndingStory2.slave $whdloadargs
-ENDIF

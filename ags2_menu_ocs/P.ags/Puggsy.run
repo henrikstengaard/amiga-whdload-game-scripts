@@ -1,6 +1,0 @@
-cd A-Games2:P/Puggsy
-IF $whdloadargs EQ ""
-  whdload Puggsy.slave
-ELSE
-  whdload Puggsy.slave $whdloadargs
-ENDIF

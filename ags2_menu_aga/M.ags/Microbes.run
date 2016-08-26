@@ -1,6 +1,0 @@
-cd A-Games2:M/Microbes
-IF $whdloadargs EQ ""
-  whdload Microbes.Slave
-ELSE
-  whdload Microbes.Slave $whdloadargs
-ENDIF

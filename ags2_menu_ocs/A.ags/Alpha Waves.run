@@ -1,6 +1,0 @@
-cd A-Games1:A/AlphaWaves
-IF $whdloadargs EQ ""
-  whdload AlphaWaves.Slave
-ELSE
-  whdload AlphaWaves.Slave $whdloadargs
-ENDIF

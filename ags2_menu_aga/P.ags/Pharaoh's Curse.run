@@ -1,6 +1,0 @@
-cd A-Games2:P/PharaohsCurse
-IF $whdloadargs EQ ""
-  whdload PharaohsCurse.Slave
-ELSE
-  whdload PharaohsCurse.Slave $whdloadargs
-ENDIF

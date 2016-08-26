@@ -1,6 +1,0 @@
-cd A-Games1:H/HuntForRedOctoberTheMovie
-IF $whdloadargs EQ ""
-  whdload HuntForRedOctoberTheMovie.Slave
-ELSE
-  whdload HuntForRedOctoberTheMovie.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:B/BenefactorCD32
-IF $whdloadargs EQ ""
-  whdload BenefactorCD32.Slave
-ELSE
-  whdload BenefactorCD32.Slave $whdloadargs
-ENDIF

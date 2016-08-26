@@ -1,6 +1,0 @@
-cd A-Games2:P/PipeDream
-IF $whdloadargs EQ ""
-  whdload PipeDream.Slave
-ELSE
-  whdload PipeDream.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:D/DistantArmies
-IF $whdloadargs EQ ""
-  whdload DistantArmies.Slave
-ELSE
-  whdload DistantArmies.Slave $whdloadargs
-ENDIF

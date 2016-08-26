@@ -1,6 +1,0 @@
-cd A-Games2:M/Mercs
-IF $whdloadargs EQ ""
-  whdload Mercs.Slave
-ELSE
-  whdload Mercs.Slave $whdloadargs
-ENDIF

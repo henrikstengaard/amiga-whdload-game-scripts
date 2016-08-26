@@ -1,6 +1,0 @@
-cd A-Games2:S/SevenGatesOfJambalaFiles
-IF $whdloadargs EQ ""
-  whdload SevenGatesOfJambalaFiles.slave
-ELSE
-  whdload SevenGatesOfJambalaFiles.slave $whdloadargs
-ENDIF

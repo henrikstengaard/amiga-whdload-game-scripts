@@ -1,6 +1,0 @@
-cd A-Games1:F/FiendishFreddysBigTopOFun
-IF $whdloadargs EQ ""
-  whdload FiendishFreddysBigTopOFun.Slav
-ELSE
-  whdload FiendishFreddysBigTopOFun.Slav $whdloadargs
-ENDIF

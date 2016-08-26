@@ -1,6 +1,0 @@
-cd A-Games1:F/Firehawk
-IF $whdloadargs EQ ""
-  whdload FireHawk.Slave
-ELSE
-  whdload FireHawk.Slave $whdloadargs
-ENDIF

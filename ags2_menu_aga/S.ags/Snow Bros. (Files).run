@@ -1,6 +1,0 @@
-cd A-Games2:S/SnowBrosFiles
-IF $whdloadargs EQ ""
-  whdload SnowBrosFiles.Slave
-ELSE
-  whdload SnowBrosFiles.Slave $whdloadargs
-ENDIF

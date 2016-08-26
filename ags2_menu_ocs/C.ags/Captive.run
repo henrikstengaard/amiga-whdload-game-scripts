@@ -1,6 +1,0 @@
-cd A-Games1:C/Captive
-IF $whdloadargs EQ ""
-  whdload Captive.slave
-ELSE
-  whdload Captive.slave $whdloadargs
-ENDIF

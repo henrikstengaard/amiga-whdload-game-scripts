@@ -1,6 +1,0 @@
-cd A-Games2:M/Maniax
-IF $whdloadargs EQ ""
-  whdload Maniax.slave
-ELSE
-  whdload Maniax.slave $whdloadargs
-ENDIF

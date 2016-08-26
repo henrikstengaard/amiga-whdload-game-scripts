@@ -1,6 +1,0 @@
-cd A-Games2:R/RedLightning
-IF $whdloadargs EQ ""
-  whdload RedLightning.slave
-ELSE
-  whdload RedLightning.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:P/Prison
-IF $whdloadargs EQ ""
-  whdload Prison.Slave
-ELSE
-  whdload Prison.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:P/Plotting
-IF $whdloadargs EQ ""
-  whdload Plotting.slave
-ELSE
-  whdload Plotting.slave $whdloadargs
-ENDIF

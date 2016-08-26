@@ -1,6 +1,0 @@
-cd A-Games2:M/MetalMutant
-IF $whdloadargs EQ ""
-  whdload MetalMutant.Slave
-ELSE
-  whdload MetalMutant.Slave $whdloadargs
-ENDIF

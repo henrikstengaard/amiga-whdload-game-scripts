@@ -1,6 +1,0 @@
-cd A-Games1:B/BuffaloBillsWildWestShow
-IF $whdloadargs EQ ""
-  whdload BuffaloBillsWildWestShow.Slave
-ELSE
-  whdload BuffaloBillsWildWestShow.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:R/RiseOfTheRobotsCD32
-IF $whdloadargs EQ ""
-  whdload RiseOfTheRobotsCD32.Slave
-ELSE
-  whdload RiseOfTheRobotsCD32.Slave $whdloadargs
-ENDIF

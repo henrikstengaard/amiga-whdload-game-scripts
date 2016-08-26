@@ -1,6 +1,0 @@
-cd A-Games1:A/AlteredDestiny
-IF $whdloadargs EQ ""
-  whdload AlteredDestiny.Slave
-ELSE
-  whdload AlteredDestiny.Slave $whdloadargs
-ENDIF

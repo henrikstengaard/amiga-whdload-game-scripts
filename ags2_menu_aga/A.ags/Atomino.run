@@ -1,6 +1,0 @@
-cd A-Games1:A/Atomino
-IF $whdloadargs EQ ""
-  whdload Atomino.slave
-ELSE
-  whdload Atomino.slave $whdloadargs
-ENDIF

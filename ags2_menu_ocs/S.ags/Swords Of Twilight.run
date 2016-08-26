@@ -1,6 +1,0 @@
-cd A-Games2:S/SwordsOfTwilight
-IF $whdloadargs EQ ""
-  whdload SwordsOfTwilight.Slave
-ELSE
-  whdload SwordsOfTwilight.Slave $whdloadargs
-ENDIF

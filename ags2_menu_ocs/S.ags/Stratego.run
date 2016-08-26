@@ -1,6 +1,0 @@
-cd A-Games2:S/Stratego
-IF $whdloadargs EQ ""
-  whdload Stratego.Slave
-ELSE
-  whdload Stratego.Slave $whdloadargs
-ENDIF

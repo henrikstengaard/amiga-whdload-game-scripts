@@ -1,6 +1,0 @@
-cd A-Games1:G/GalaxyForce2
-IF $whdloadargs EQ ""
-  whdload GalaxyForce2.slave
-ELSE
-  whdload GalaxyForce2.slave $whdloadargs
-ENDIF

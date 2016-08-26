@@ -1,6 +1,0 @@
-cd A-Games2:S/SpaceCrusade&VoyageBeyond
-IF $whdloadargs EQ ""
-  whdload SpaceCrusade.Slave
-ELSE
-  whdload SpaceCrusade.Slave $whdloadargs
-ENDIF

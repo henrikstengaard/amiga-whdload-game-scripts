@@ -1,6 +1,0 @@
-cd A-Games2:P/Powerdrome
-IF $whdloadargs EQ ""
-  whdload Powerdrome.Slave
-ELSE
-  whdload Powerdrome.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:L/Loopz
-IF $whdloadargs EQ ""
-  whdload Loopz.Slave
-ELSE
-  whdload Loopz.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:T/TimeLock
-IF $whdloadargs EQ ""
-  whdload TimeLock.slave
-ELSE
-  whdload TimeLock.slave $whdloadargs
-ENDIF

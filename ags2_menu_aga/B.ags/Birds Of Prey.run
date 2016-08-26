@@ -1,6 +1,0 @@
-cd A-Games1:B/BirdsOfPrey
-IF $whdloadargs EQ ""
-  whdload BirdsOfPrey.slave
-ELSE
-  whdload BirdsOfPrey.slave $whdloadargs
-ENDIF

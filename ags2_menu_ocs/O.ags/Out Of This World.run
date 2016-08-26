@@ -1,6 +1,0 @@
-cd A-Games1:O/OutOfThisWorld
-IF $whdloadargs EQ ""
-  whdload OutOfThisWorld.slave
-ELSE
-  whdload OutOfThisWorld.slave $whdloadargs
-ENDIF

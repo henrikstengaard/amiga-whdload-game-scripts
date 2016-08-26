@@ -1,6 +1,0 @@
-cd A-Games1:O/Outzone
-IF $whdloadargs EQ ""
-  whdload Outzone.Slave
-ELSE
-  whdload Outzone.Slave $whdloadargs
-ENDIF

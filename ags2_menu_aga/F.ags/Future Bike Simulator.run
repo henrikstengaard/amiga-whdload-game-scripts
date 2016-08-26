@@ -1,6 +1,0 @@
-cd A-Games1:F/FutureBikeSimulator
-IF $whdloadargs EQ ""
-  whdload FutureBikeSimulator.Slave
-ELSE
-  whdload FutureBikeSimulator.Slave $whdloadargs
-ENDIF

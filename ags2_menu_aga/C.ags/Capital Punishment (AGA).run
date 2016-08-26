@@ -1,6 +1,0 @@
-cd A-Games1:C/CapitalPunishmentAGA
-IF $whdloadargs EQ ""
-  whdload CapitalPunishmentAGA.Slave
-ELSE
-  whdload CapitalPunishmentAGA.Slave $whdloadargs
-ENDIF

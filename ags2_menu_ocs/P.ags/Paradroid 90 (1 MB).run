@@ -1,6 +1,0 @@
-cd A-Games1:P/Paradroid901MB
-IF $whdloadargs EQ ""
-  whdload Paradroid901MB.Slave
-ELSE
-  whdload Paradroid901MB.Slave $whdloadargs
-ENDIF

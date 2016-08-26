@@ -1,6 +1,0 @@
-cd A-Games1:C/CarrierCommand
-IF $whdloadargs EQ ""
-  whdload CarrierCommand.Slave
-ELSE
-  whdload CarrierCommand.Slave $whdloadargs
-ENDIF

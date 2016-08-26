@@ -1,6 +1,0 @@
-cd A-Games1:F/FlyFighter
-IF $whdloadargs EQ ""
-  whdload highs
-ELSE
-  whdload highs $whdloadargs
-ENDIF

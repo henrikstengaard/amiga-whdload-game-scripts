@@ -1,6 +1,0 @@
-cd A-Games1:C/CosmicRelief
-IF $whdloadargs EQ ""
-  whdload CosmicRelief.Slave
-ELSE
-  whdload CosmicRelief.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:S/Shinobi
-IF $whdloadargs EQ ""
-  whdload Shinobi.Slave
-ELSE
-  whdload Shinobi.Slave $whdloadargs
-ENDIF

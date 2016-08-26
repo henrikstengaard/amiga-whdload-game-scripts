@@ -1,6 +1,0 @@
-cd A-Games1:F/FlimbosQuest
-IF $whdloadargs EQ ""
-  whdload FlimbosQuest.slave
-ELSE
-  whdload FlimbosQuest.slave $whdloadargs
-ENDIF

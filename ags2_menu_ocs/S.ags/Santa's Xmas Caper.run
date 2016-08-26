@@ -1,6 +1,0 @@
-cd A-Games2:S/SantasXmasCaper
-IF $whdloadargs EQ ""
-  whdload SantasXmasCaper.Slave
-ELSE
-  whdload SantasXmasCaper.Slave $whdloadargs
-ENDIF

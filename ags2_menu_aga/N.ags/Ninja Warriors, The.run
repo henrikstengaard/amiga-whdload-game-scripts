@@ -1,6 +1,0 @@
-cd A-Games2:N/NinjaWarriors
-IF $whdloadargs EQ ""
-  whdload NinjaWarriors.Slave
-ELSE
-  whdload NinjaWarriors.Slave $whdloadargs
-ENDIF

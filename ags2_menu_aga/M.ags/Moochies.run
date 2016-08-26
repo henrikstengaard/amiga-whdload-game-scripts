@@ -1,6 +1,0 @@
-cd A-Games2:M/Moochies
-IF $whdloadargs EQ ""
-  whdload Moochies.Slave
-ELSE
-  whdload Moochies.Slave $whdloadargs
-ENDIF

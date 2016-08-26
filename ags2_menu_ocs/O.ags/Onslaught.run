@@ -1,6 +1,0 @@
-cd A-Games1:O/Onslaught
-IF $whdloadargs EQ ""
-  whdload Onslaught.slave
-ELSE
-  whdload Onslaught.slave $whdloadargs
-ENDIF

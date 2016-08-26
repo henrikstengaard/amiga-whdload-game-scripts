@@ -1,6 +1,0 @@
-cd A-Games2:O/Ork
-IF $whdloadargs EQ ""
-  whdload Ork.Slave
-ELSE
-  whdload Ork.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:O/OscarCD32
-IF $whdloadargs EQ ""
-  whdload OscarCD32.Slave
-ELSE
-  whdload OscarCD32.Slave $whdloadargs
-ENDIF

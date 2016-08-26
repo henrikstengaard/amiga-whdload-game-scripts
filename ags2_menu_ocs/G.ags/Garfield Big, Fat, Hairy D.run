@@ -1,6 +1,0 @@
-cd A-Games1:G/GarfieldBigFatHairyDeal
-IF $whdloadargs EQ ""
-  whdload GarfieldBigFatHairyDeal.Slave
-ELSE
-  whdload GarfieldBigFatHairyDeal.Slave $whdloadargs
-ENDIF

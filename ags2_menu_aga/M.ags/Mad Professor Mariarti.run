@@ -1,6 +1,0 @@
-cd A-Games2:M/MadProfessorMariarti
-IF $whdloadargs EQ ""
-  whdload MadProfessorMariarti.Slave
-ELSE
-  whdload MadProfessorMariarti.Slave $whdloadargs
-ENDIF

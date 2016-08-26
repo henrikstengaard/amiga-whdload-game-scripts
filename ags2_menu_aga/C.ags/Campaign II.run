@@ -1,6 +1,0 @@
-cd A-Games1:C/Campaign2
-IF $whdloadargs EQ ""
-  whdload Campaign2.slave
-ELSE
-  whdload Campaign2.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:P/Pandora
-IF $whdloadargs EQ ""
-  whdload Pandora.Slave
-ELSE
-  whdload Pandora.Slave $whdloadargs
-ENDIF

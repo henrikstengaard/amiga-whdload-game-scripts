@@ -1,6 +1,0 @@
-cd A-Games2:S/SimCity12
-IF $whdloadargs EQ ""
-  whdload SimCity12.Slave
-ELSE
-  whdload SimCity12.Slave $whdloadargs
-ENDIF

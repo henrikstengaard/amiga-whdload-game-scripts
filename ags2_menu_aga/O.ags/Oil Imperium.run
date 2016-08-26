@@ -1,6 +1,0 @@
-cd A-Games2:O/OilImperium
-IF $whdloadargs EQ ""
-  whdload OilImperium.Slave
-ELSE
-  whdload OilImperium.Slave $whdloadargs
-ENDIF

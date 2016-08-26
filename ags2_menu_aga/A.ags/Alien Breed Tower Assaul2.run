@@ -1,6 +1,0 @@
-cd A-Games1:A/AlienBreedTACD32
-IF $whdloadargs EQ ""
-  whdload AlienBreedTACD32.slave
-ELSE
-  whdload AlienBreedTACD32.slave $whdloadargs
-ENDIF

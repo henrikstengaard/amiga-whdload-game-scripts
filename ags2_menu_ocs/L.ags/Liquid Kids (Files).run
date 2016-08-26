@@ -1,6 +1,0 @@
-cd A-Games1:L/LiquidKidsFiles
-IF $whdloadargs EQ ""
-  whdload LiquidKidsFiles.Slave
-ELSE
-  whdload LiquidKidsFiles.Slave $whdloadargs
-ENDIF

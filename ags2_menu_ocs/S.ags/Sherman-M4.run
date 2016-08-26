@@ -1,6 +1,0 @@
-cd A-Games2:S/ShermanM4
-IF $whdloadargs EQ ""
-  whdload ShermanM4.Slave
-ELSE
-  whdload ShermanM4.Slave $whdloadargs
-ENDIF

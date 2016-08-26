@@ -1,6 +1,0 @@
-cd A-Games2:M/Mindroll
-IF $whdloadargs EQ ""
-  whdload Mindroll.Slave
-ELSE
-  whdload Mindroll.Slave $whdloadargs
-ENDIF

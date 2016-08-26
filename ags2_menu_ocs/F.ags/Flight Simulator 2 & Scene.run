@@ -1,6 +1,0 @@
-cd A-Games1:F/FlightSim2&SceneryDisk07
-IF $whdloadargs EQ ""
-  whdload FlightSim2&SceneryDisk07.Slave
-ELSE
-  whdload FlightSim2&SceneryDisk07.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:O/OutRunEuropa
-IF $whdloadargs EQ ""
-  whdload OutRunEuropa.Slave
-ELSE
-  whdload OutRunEuropa.Slave $whdloadargs
-ENDIF

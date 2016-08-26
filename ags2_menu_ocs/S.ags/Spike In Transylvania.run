@@ -1,6 +1,0 @@
-cd A-Games2:S/SpikeInTransylvania
-IF $whdloadargs EQ ""
-  whdload SpikeInTransylvania.Slave
-ELSE
-  whdload SpikeInTransylvania.Slave $whdloadargs
-ENDIF

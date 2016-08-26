@@ -1,6 +1,0 @@
-cd A-Games1:L/LureOfTheTemptress
-IF $whdloadargs EQ ""
-  whdload LureOfTheTemptress.slave
-ELSE
-  whdload LureOfTheTemptress.slave $whdloadargs
-ENDIF

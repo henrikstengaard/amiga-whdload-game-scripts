@@ -1,6 +1,0 @@
-cd A-Games2:M/MrDoRunRunImage
-IF $whdloadargs EQ ""
-  whdload MrDoRunRunImage.Slave
-ELSE
-  whdload MrDoRunRunImage.Slave $whdloadargs
-ENDIF

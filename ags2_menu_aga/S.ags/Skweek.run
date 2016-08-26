@@ -1,6 +1,0 @@
-cd A-Games2:S/Skweek
-IF $whdloadargs EQ ""
-  whdload Skweek.Slave
-ELSE
-  whdload Skweek.Slave $whdloadargs
-ENDIF

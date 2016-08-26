@@ -1,6 +1,0 @@
-cd A-Games2:R/RBI2Baseball
-IF $whdloadargs EQ ""
-  whdload RBI2Baseball.Slave
-ELSE
-  whdload RBI2Baseball.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:P/ParasolStars
-IF $whdloadargs EQ ""
-  whdload ParasolStars.Slave
-ELSE
-  whdload ParasolStars.Slave $whdloadargs
-ENDIF

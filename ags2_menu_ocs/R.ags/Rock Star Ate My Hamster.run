@@ -1,6 +1,0 @@
-cd A-Games2:R/RockStarAteMyHamster
-IF $whdloadargs EQ ""
-  whdload RockStarAteMyHamster.slave
-ELSE
-  whdload RockStarAteMyHamster.slave $whdloadargs
-ENDIF

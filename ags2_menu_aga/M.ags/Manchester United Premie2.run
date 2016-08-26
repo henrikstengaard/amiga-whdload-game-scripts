@@ -1,6 +1,0 @@
-cd A-Games2:M/ManchesterUnitedPLC
-IF $whdloadargs EQ ""
-  whdload ManchesterUnitedPLC.Slave
-ELSE
-  whdload ManchesterUnitedPLC.Slave $whdloadargs
-ENDIF

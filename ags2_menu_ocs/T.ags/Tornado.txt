@@ -1,4 +1,0 @@
-Tornado
-
-Tornado ECS
-1994 Digital Integration

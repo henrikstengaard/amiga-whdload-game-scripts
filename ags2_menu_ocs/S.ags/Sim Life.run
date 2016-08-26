@@ -1,6 +1,0 @@
-cd A-Games2:S/SimLife
-IF $whdloadargs EQ ""
-  whdload SimLife.Slave
-ELSE
-  whdload SimLife.Slave $whdloadargs
-ENDIF

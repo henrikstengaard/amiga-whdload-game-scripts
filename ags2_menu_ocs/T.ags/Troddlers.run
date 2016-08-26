@@ -1,6 +1,0 @@
-cd A-Games2:T/Troddlers
-IF $whdloadargs EQ ""
-  whdload Troddlers.Slave
-ELSE
-  whdload Troddlers.Slave $whdloadargs
-ENDIF

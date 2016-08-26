@@ -1,6 +1,0 @@
-cd A-Games2:P/PrehistoricTale
-IF $whdloadargs EQ ""
-  whdload PrehistoricTale.slave
-ELSE
-  whdload PrehistoricTale.slave $whdloadargs
-ENDIF

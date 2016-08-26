@@ -1,6 +1,0 @@
-cd A-Games2:M/ManicMiner
-IF $whdloadargs EQ ""
-  whdload ManicMiner.slave
-ELSE
-  whdload ManicMiner.slave $whdloadargs
-ENDIF

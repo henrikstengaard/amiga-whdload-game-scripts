@@ -1,6 +1,0 @@
-cd A-Games2:R/RoadBlasters
-IF $whdloadargs EQ ""
-  whdload RoadBlasters.Slave
-ELSE
-  whdload RoadBlasters.Slave $whdloadargs
-ENDIF

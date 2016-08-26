@@ -1,6 +1,0 @@
-cd A-Games1:A/ArtOfChess
-IF $whdloadargs EQ ""
-  whdload ArtOfChess.Slave
-ELSE
-  whdload ArtOfChess.Slave $whdloadargs
-ENDIF

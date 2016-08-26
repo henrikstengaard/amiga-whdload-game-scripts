@@ -1,6 +1,0 @@
-cd A-Games2:W/WarInMiddleEarth
-IF $whdloadargs EQ ""
-  whdload WarInMiddleEarth.Slave
-ELSE
-  whdload WarInMiddleEarth.Slave $whdloadargs
-ENDIF

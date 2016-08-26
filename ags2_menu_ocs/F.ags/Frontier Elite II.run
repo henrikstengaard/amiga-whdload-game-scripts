@@ -1,6 +1,0 @@
-cd A-Games1:F/Frontier
-IF $whdloadargs EQ ""
-  whdload Frontier.slave
-ELSE
-  whdload Frontier.slave $whdloadargs
-ENDIF

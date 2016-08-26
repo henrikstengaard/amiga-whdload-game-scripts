@@ -1,6 +1,0 @@
-cd A-Games2:M/MadShow
-IF $whdloadargs EQ ""
-  whdload MadShow.Slave
-ELSE
-  whdload MadShow.Slave $whdloadargs
-ENDIF

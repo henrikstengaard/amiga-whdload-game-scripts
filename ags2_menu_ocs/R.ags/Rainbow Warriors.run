@@ -1,6 +1,0 @@
-cd A-Games2:R/RainbowWarrior
-IF $whdloadargs EQ ""
-  whdload RainbowWarrior.Slave
-ELSE
-  whdload RainbowWarrior.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:R/RanX
-IF $whdloadargs EQ ""
-  whdload RanX.Slave
-ELSE
-  whdload RanX.Slave $whdloadargs
-ENDIF

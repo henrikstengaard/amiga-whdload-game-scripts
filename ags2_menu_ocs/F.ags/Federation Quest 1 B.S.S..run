@@ -1,6 +1,0 @@
-cd A-Games1:B/BSSJaneSeymour
-IF $whdloadargs EQ ""
-  whdload BSSJaneSeymour.slave
-ELSE
-  whdload BSSJaneSeymour.slave $whdloadargs
-ENDIF

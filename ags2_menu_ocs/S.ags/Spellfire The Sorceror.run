@@ -1,6 +1,0 @@
-cd A-Games2:S/SpellfireTheSorceror
-IF $whdloadargs EQ ""
-  whdload SpellfireTheSorceror.slave
-ELSE
-  whdload SpellfireTheSorceror.slave $whdloadargs
-ENDIF

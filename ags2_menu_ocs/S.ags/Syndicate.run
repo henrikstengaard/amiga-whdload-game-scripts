@@ -1,6 +1,0 @@
-cd A-Games2:S/Syndicate
-IF $whdloadargs EQ ""
-  whdload Syndicate.slave
-ELSE
-  whdload Syndicate.slave $whdloadargs
-ENDIF

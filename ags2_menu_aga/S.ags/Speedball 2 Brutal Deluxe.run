@@ -1,6 +1,0 @@
-cd A-Games2:S/Speedball2CD32
-IF $whdloadargs EQ ""
-  whdload Speedball2CD32.Slave
-ELSE
-  whdload Speedball2CD32.Slave $whdloadargs
-ENDIF

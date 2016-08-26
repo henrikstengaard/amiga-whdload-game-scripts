@@ -1,6 +1,0 @@
-cd A-Games2:L/Luxor
-IF $whdloadargs EQ ""
-  whdload Luxor.Slave
-ELSE
-  whdload Luxor.Slave $whdloadargs
-ENDIF

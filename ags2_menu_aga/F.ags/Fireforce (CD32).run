@@ -1,6 +1,0 @@
-cd A-Games1:F/FireForceCD32
-IF $whdloadargs EQ ""
-  whdload FireForceCD32.slave
-ELSE
-  whdload FireForceCD32.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:T/TimeAndMagik
-IF $whdloadargs EQ ""
-  whdload TimeAndMagik.Slave
-ELSE
-  whdload TimeAndMagik.Slave $whdloadargs
-ENDIF

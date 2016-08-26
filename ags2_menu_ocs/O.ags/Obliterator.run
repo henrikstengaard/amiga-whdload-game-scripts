@@ -1,6 +1,0 @@
-cd A-Games1:O/Obliterator
-IF $whdloadargs EQ ""
-  whdload Obliterator.Slave
-ELSE
-  whdload Obliterator.Slave $whdloadargs
-ENDIF

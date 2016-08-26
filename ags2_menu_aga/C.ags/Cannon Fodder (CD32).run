@@ -1,6 +1,0 @@
-cd A-Games1:C/CannonFodderCD32
-IF $whdloadargs EQ ""
-  whdload CannonFodderCD32.Slave
-ELSE
-  whdload CannonFodderCD32.Slave $whdloadargs
-ENDIF

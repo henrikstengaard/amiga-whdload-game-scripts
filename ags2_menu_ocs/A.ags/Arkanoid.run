@@ -1,6 +1,0 @@
-cd A-Games1:A/Arkanoid
-IF $whdloadargs EQ ""
-  whdload Arkanoid.slave
-ELSE
-  whdload Arkanoid.slave $whdloadargs
-ENDIF

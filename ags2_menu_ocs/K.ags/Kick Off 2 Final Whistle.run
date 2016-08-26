@@ -1,6 +1,0 @@
-cd A-Games1:K/KickOff2FinalWhistle
-IF $whdloadargs EQ ""
-  whdload KickOff2FinalWhistle.slave
-ELSE
-  whdload KickOff2FinalWhistle.slave $whdloadargs
-ENDIF

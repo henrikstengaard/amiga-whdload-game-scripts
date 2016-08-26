@@ -1,6 +1,0 @@
-cd A-Games2:R/RoundTheBend
-IF $whdloadargs EQ ""
-  whdload RoundTheBend.Slave
-ELSE
-  whdload RoundTheBend.Slave $whdloadargs
-ENDIF

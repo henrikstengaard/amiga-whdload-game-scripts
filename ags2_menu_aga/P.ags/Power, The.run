@@ -1,6 +1,0 @@
-cd A-Games2:P/Power
-IF $whdloadargs EQ ""
-  whdload Power.Slave
-ELSE
-  whdload Power.Slave $whdloadargs
-ENDIF

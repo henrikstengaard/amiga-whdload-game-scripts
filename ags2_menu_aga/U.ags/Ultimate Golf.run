@@ -1,6 +1,0 @@
-cd A-Games2:U/UltimateGolf
-IF $whdloadargs EQ ""
-  whdload UltimateGolf.slave
-ELSE
-  whdload UltimateGolf.slave $whdloadargs
-ENDIF

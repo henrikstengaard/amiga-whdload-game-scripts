@@ -1,4 +1,0 @@
-Universe
-
-Universe (ECS)
-1994 Core Design

@@ -1,6 +1,0 @@
-cd A-Games2:M/MultiPlayerSoccerManager
-IF $whdloadargs EQ ""
-  whdload MultiPlayerSoccerManager.Slave
-ELSE
-  whdload MultiPlayerSoccerManager.Slave $whdloadargs
-ENDIF

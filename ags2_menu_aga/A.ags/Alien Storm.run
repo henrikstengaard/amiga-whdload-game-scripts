@@ -1,6 +1,0 @@
-cd A-Games1:A/AlienStorm
-IF $whdloadargs EQ ""
-  whdload AlienStorm.slave
-ELSE
-  whdload AlienStorm.slave $whdloadargs
-ENDIF

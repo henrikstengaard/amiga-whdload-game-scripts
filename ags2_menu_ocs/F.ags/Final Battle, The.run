@@ -1,6 +1,0 @@
-cd A-Games1:F/FinalBattle
-IF $whdloadargs EQ ""
-  whdload FinalBattle.slave
-ELSE
-  whdload FinalBattle.slave $whdloadargs
-ENDIF

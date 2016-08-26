@@ -1,6 +1,0 @@
-cd A-Games2:S/Slayer
-IF $whdloadargs EQ ""
-  whdload Slayer.slave
-ELSE
-  whdload Slayer.slave $whdloadargs
-ENDIF

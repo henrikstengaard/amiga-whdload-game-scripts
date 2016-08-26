@@ -1,6 +1,0 @@
-cd A-Games1:E/Extase
-IF $whdloadargs EQ ""
-  whdload Extase.Slave
-ELSE
-  whdload Extase.Slave $whdloadargs
-ENDIF

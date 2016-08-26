@@ -1,6 +1,0 @@
-cd A-Games2:X/Xenon21Disk
-IF $whdloadargs EQ ""
-  whdload Xenon21Disk.Slave
-ELSE
-  whdload Xenon21Disk.Slave $whdloadargs
-ENDIF

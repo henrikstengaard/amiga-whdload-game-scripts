@@ -1,6 +1,0 @@
-cd A-Games1:D/DragonTiles2
-IF $whdloadargs EQ ""
-  whdload DragonTiles2.Slave
-ELSE
-  whdload DragonTiles2.Slave $whdloadargs
-ENDIF

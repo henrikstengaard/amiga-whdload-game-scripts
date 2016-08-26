@@ -1,6 +1,0 @@
-cd A-Games1:L/Lotus
-IF $whdloadargs EQ ""
-  whdload Lotus.Slave
-ELSE
-  whdload Lotus.Slave $whdloadargs
-ENDIF

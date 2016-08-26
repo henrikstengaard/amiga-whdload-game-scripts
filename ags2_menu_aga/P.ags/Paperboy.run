@@ -1,6 +1,0 @@
-cd A-Games2:P/Paperboy
-IF $whdloadargs EQ ""
-  whdload Paperboy.slave
-ELSE
-  whdload Paperboy.slave $whdloadargs
-ENDIF

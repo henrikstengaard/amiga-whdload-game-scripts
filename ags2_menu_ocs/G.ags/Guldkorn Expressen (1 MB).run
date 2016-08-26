@@ -1,6 +1,0 @@
-cd A-Games1:G/GuldkornExpressenDk1MB
-IF $whdloadargs EQ ""
-  whdload GuldkornExpressenDk1MB.slave
-ELSE
-  whdload GuldkornExpressenDk1MB.slave $whdloadargs
-ENDIF

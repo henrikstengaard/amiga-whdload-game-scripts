@@ -1,6 +1,0 @@
-cd A-Games1:A/ApidyaAudios\data
-IF $whdloadargs EQ ""
-  whdload Apidya.slave
-ELSE
-  whdload Apidya.slave $whdloadargs
-ENDIF

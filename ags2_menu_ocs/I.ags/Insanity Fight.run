@@ -1,6 +1,0 @@
-cd A-Games1:I/InsanityFight
-IF $whdloadargs EQ ""
-  whdload InsanityFight.Slave
-ELSE
-  whdload InsanityFight.Slave $whdloadargs
-ENDIF
