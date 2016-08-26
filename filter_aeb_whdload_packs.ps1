@@ -77,10 +77,10 @@ foreach($whdloadSource in $whdloadSources)
 
 # Patterns for filtering versions of whdload slaves
 $hardwarePattern = '(CD32|AGA|CDTV|CD)$'
-$languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi)$'
+$languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi|Gr)$'
 $memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512kb|512Kb|512KB)$'
 $demoPattern = '(Demo\d?|Demos|Preview)$'
-$otherPattern = '(AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|&Profidisk)$'
+$otherPattern = '(AmigaFormat|AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image\d?|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|&Profidisk|\dDisk|\(EasyPlay\))$'
 
 
 # Process whdload slaves
@@ -344,4 +344,4 @@ if (!$skipCopying)
 
 # Write filtered whdload slaves list
 $filteredWhdloadSlaveListFile = [System.IO.Path]::Combine($outputPath, "whdload_slaves.csv")
-$filteredWhdloadSlaves | export-csv -delimiter ';' -path $filteredWhdloadSlaveListFile -NoTypeInformation
+$filteredWhdloadSlaves | export-csv -delimiter ';' -path $filteredWhdloadSlaveListFile -NoTypeInformation -Encoding UTF8
