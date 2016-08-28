@@ -205,7 +205,6 @@ foreach($whdloadSlaveItem in $whdloadSlaveItems)
 	if ($queryPatchesIndex.ContainsKey($whdloadSlaveItem.WhdloadName.ToLower()))
 	{
 		$queryPatchCount++
-		Write-Host ("Patch query '" + $whdloadSlaveItem.WhdloadName + "'")
 		$query = $queryPatchesIndex.Get_Item($whdloadSlaveItem.WhdloadName.ToLower())
 	}
 	else
