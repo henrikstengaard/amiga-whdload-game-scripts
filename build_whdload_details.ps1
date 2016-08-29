@@ -215,7 +215,7 @@ function PatchDiacritics([string]$text)
 
 function Normalize([string]$text)
 {
-	return RemoveDiacritics (PatchDiacritics (ConvertSuperscript $text))
+	return RemoveDiacritics (ConvertSuperscript (PatchDiacritics $text))
 }
 
 function AddDetailItemColumns($whdloadSlave, $detailItem)
