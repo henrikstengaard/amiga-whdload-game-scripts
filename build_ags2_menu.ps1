@@ -186,7 +186,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 	$detailColumnsIndex = @{}
 
-	if ($whdloadSlave.DetailMatch)
+	if ($whdloadSlave.DetailMatch -and $whdloadSlave.DetailMatch -ne '')
 	{
 		foreach ($property in ($whdloadSlave.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
 		{
