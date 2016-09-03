@@ -1,0 +1,5 @@
+Get-Content .\pouet_amiga_demos.csv | where { $_ -match 'prime' -and $_ -match 'mirage' -and $_ -match '90' }
+
+
+demos aga at
+Prime90, done. the one after
