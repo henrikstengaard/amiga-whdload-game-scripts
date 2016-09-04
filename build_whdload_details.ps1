@@ -29,7 +29,13 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[int32]$minScore,
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadSlavesDetailsFile
+	[string]$whdloadSlavesDetailsFile,
+	[Parameter(Mandatory=$false)]
+	[switch]$noExactWhdloadNameMatching,
+	[Parameter(Mandatory=$false)]
+	[switch]$noExactWhdloadSlaveNameMatching,
+	[Parameter(Mandatory=$false)]
+	[switch]$noExactFilteredNameMatching
 )
 
 
@@ -218,6 +224,18 @@ function Normalize([string]$text)
 	return RemoveDiacritics (ConvertSuperscript (PatchDiacritics $text))
 }
 
+function MakeFileName([string]$text)
+{
+	$text = $text.ToLower()
+	$text = $text -replace "[^0-9a-z_\-\.']", " "
+	$text = $text -replace "['\.]", ""
+	$text = $text.Trim()
+	$text = $text -replace "\s+", "-"
+	$text = $text -replace "\-+", "-"
+	
+	return $text
+}
+
 function AddDetailItemColumns($whdloadSlave, $detailItem)
 {
 	foreach($property in $detailItem.psobject.Properties)
@@ -260,11 +278,53 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 	foreach($detailItem in $detailItems)
 	{
 		$nameKeywords = MakeKeywords (Normalize $detailItem.Name)
-		$publisherKeywords = MakeKeywords (Normalize $detailItem.Publisher)
 		$comparableName = $nameKeywords -replace '\s+', ''
-		$languages =  $detailItem.Languages.ToLower()
-		$detailItem | Add-Member -MemberType NoteProperty -Name '_Keywords' -Value ($nameKeywords + " " + $detailItem.Id + " " + $publisherKeywords + " " + $comparableName  + " " + $languages)
+		$comparableFileName = (MakeFileName (Normalize $detailItem.Name)) -replace '[-]+', ''
 
+		$keywords = @($nameKeywords, $comparableName)
+
+		if ($detailItem.Id)
+		{
+			$keywords +=, $detailItem.Id
+		}
+
+		if ($detailItem.Publisher)
+		{
+			$keywords +=, (MakeKeywords (Normalize $detailItem.Publisher))
+		}
+
+		if ($detailItem.Groups)
+		{
+			$comparableFileName += (MakeFileName (Normalize $detailItem.Groups)) -replace '[-]+', ''
+			$keywords +=, (MakeKeywords (Normalize $detailItem.Groups))
+		}
+
+		$keywords += $comparableFileName
+
+		if ($detailItem.Languages)
+		{
+			$keywords +=, ($detailItem.Languages.ToLower())
+		}
+
+		$detailItem | Add-Member -MemberType NoteProperty -Name '_Keywords' -Value ([string]::Join(" ", $keywords))
+
+		# add comparableFileName
+		if ($detailItemsIndex.ContainsKey($comparableFileName))
+		{
+			$identicalDetailItems = $detailItemsIndex.Get_Item($comparableFileName)
+		}
+		else
+		{
+			$identicalDetailItems = @()
+		}
+
+		$identicalDetailItems +=, $detailItem
+
+		$detailItemsIndex.Set_Item($comparableFileName, $identicalDetailItems)
+
+
+
+		# add comparableName
 		if ($detailItemsIndex.ContainsKey($comparableName))
 		{
 			$identicalDetailItems = $detailItemsIndex.Get_Item($comparableName)
@@ -289,7 +349,7 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		$matchingDetailItems = $null
 
 		# use whdload name to get exact matching detail items
-		if ($detailItemsIndex.ContainsKey($name))
+		if (!$noExactWhdloadNameMatching -and $detailItemsIndex.ContainsKey($name))
 		{
 			$matchingDetailItems = $detailItemsIndex.Get_Item($name)
 		}
@@ -302,14 +362,14 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		}
 
 		# use filtered name to get exact matching detail items
-		if (!$matchingDetailItems -and $whdloadSlave.FilteredName)
+		if (!$noExactFilteredNameMatching -and !$matchingDetailItems -and $whdloadSlave.FilteredName)
 		{
 			$filteredName = $whdloadSlave.FilteredName.ToLower()
 			$matchingDetailItems = $detailItemsIndex.Get_Item($filteredName)
 		}
 
 		# use whdload slave name to get exact matching detail items
-		if (!$matchingDetailItems -and $whdloadSlave.WhdloadSlaveName)
+		if (!$noExactWhdloadSlaveNameMatching -and !$matchingDetailItems -and $whdloadSlave.WhdloadSlaveName)
 		{
 			$whdloadSlaveNameKeywords = (MakeKeywords (Normalize $whdloadSlave.WhdloadSlaveName)) -replace '\s+', ''
 			$matchingDetailItems = $detailItemsIndex.Get_Item($whdloadSlaveNameKeywords)
@@ -339,6 +399,7 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		# add detail item columns to whdload slave 
 		AddDetailItemColumns $whdloadSlave $detailItem
 	}
+	Write-Host ("Done")
 
 	$detailSourceIndex.Set_Item($detailSource.SourceName, $detailItems)
 }
@@ -350,14 +411,14 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 	$detailSource = $detailSources[$priority]
 	$detailItems = $detailSourceIndex.Get_Item($detailSource.SourceName)
 
-	Write-Host ("Indexing " + $detailItemsIndex.Count + " detail items from '" + $detailSource.SourceName + "' for best matching...")
+	Write-Host ("Indexing " + $detailItems.Count + " detail items from '" + $detailSource.SourceName + "' for best matching...")
 	IndexItems $detailItems
 	Write-Host ("Done")
 
 	Write-Host ("Finding best matching detail items from '" + $detailSource.SourceName + "'...")
 	foreach($whdloadSlave in ($whdloadSlaves | Where { $_.DetailMatch -eq $null }))
 	{
-		$matchingDetailItems = FindBestMatchingItems ($whdloadSlave.Query + " english")
+		$matchingDetailItems = FindBestMatchingItems $whdloadSlave.Query
 
 		# skip whdload slave, if no matching detail items exist
 		if (!$matchingDetailItems)
@@ -379,6 +440,10 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 	}
 	Write-Host ("Done")
 }
+
+
+# Write number of whdload slaves that doesn't have a match
+Write-Host ("" + ($whdloadSlaves | Where { $_.DetailMatch -eq $null }).Count + " whdload slaves doesn't have a match")
 
 
 # Write whdload slaves details file
