@@ -23,7 +23,9 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[switch]$addWhdloadSlaveName,
 	[Parameter(Mandatory=$false)]
-	[switch]$addWhdloadSlaveCopy
+	[switch]$addWhdloadSlaveCopy,
+	[Parameter(Mandatory=$false)]
+	[string]$appendQueryText
 )
 
 
@@ -239,6 +241,11 @@ foreach($whdloadSlaveItem in $whdloadSlaveItems)
 		if ($removeQueryWordsPattern -and ($removeQueryWordsPattern -ne ''))
 		{
 			$query = RemoveWords $query $removeQueryWordsPattern
+		}
+
+		if ($appendQueryText -and $appendQueryText -ne '')
+		{
+			$query += $appendQueryText
 		}
 	}
 
