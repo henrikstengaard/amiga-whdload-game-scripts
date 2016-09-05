@@ -431,14 +431,8 @@ ForEach ($screenshotQuery in $screenshotQueries)
 		continue
 	}
 
-	if ($ignorePriority)
-	{
-		$screenshot = $matchingScreenshots | Select-Object -First 1
-	}
-	else 
-	{
-		$screenshot = $matchingScreenshots | sort @{expression={$_.Priority};Ascending=$true} | Select-Object -First 1
-	}
+
+	$screenshot = $matchingScreenshots | Select-Object -First 1
 
 	# skip, if no screenshot
 	if (!$screenshot)
@@ -488,14 +482,8 @@ ForEach ($screenshotQuery in ($screenshotQueries | Where { $_.ScreenshotFile -eq
 Write-Host "Done"
 
 
-# write warning for whdload slaves without screenshot
-ForEach ($screenshotQuery in $screenshotQueries)
-{
-	if ($screenshotQuery.ScreenshotFile -eq $null)
-	{
-		Write-Host ("Warning: No screenshot for '" + $screenshotQuery.WhdloadName + "'")
-	}
-}
+# Write number of whdload slaves that doesn't have a screenshot match
+Write-Host ("" + ($screenshotQueries | Where { $_.ScreenshotMatch -eq $null }).Count + " whdload slaves doesn't have a screenshot match")
 
 
 # write screenshots list
