@@ -442,8 +442,8 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 }
 
 
-# Write number of whdload slaves that doesn't have a match
-Write-Host ("" + ($whdloadSlaves | Where { $_.DetailMatch -eq $null }).Count + " whdload slaves doesn't have a match")
+# Write number of whdload slaves that doesn't have a detail match
+Write-Host ("" + ($whdloadSlaves | Where { $_.DetailMatch -eq $null }).Count + " whdload slaves doesn't have a detail match")
 
 
 # Write whdload slaves details file
