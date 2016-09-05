@@ -16,6 +16,8 @@ Param(
 	[string]$assignName,
 	[Parameter(Mandatory=$true)]
 	[string]$detailColumns,
+	[Parameter(Mandatory=$true)]
+	[string]$nameFormat,
 	[Parameter(Mandatory=$false)]
 	[string]$whdloadScreenshotsFile,
 	[Parameter(Mandatory=$false)]
@@ -44,15 +46,25 @@ function GetIndexName($name)
 	return $indexName
 }
 
+function Capitalize([string]$text)
+{
+	if ($text.length -eq 1)
+	{
+		return $text.ToUpper()
+	}
+
+	return $text.Substring(0,1).ToUpper() + $text.Substring(1)
+}
+
 
 # resolve paths
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
 $whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
 $whdloadScreenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadScreenshotsFile)
-
+$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
 
 # detail columns
-$detailColumnsList = @()
+$detailColumnsList = @( "Whdload" )
 $detailColumnsList +=, $detailColumns -split ','
 $detailColumnsPadding = ($detailColumnsList | sort @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
 
@@ -73,8 +85,9 @@ foreach($whdloadScreenshot in $whdloadScreenshots)
 		Write-Error ("Duplicate whdload screenshot for '" + $whdloadScreenshot.WhdloadSlaveFilePath + "'")
 	}
 
-	$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.WhdloadSlaveFilePath, $whdloadScreenshot.ScreenshotFile)
+	$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.WhdloadSlaveFilePath, $whdloadScreenshot.ScreenshotDirectoryName)
 }
+
 
 $partitionNumber = 1
 $partitionSize = 0
@@ -87,8 +100,39 @@ $ags2MenuItemFileNameIndex = @{}
 
 foreach($whdloadSlave in $whdloadSlaves)
 {
-	# make ags 2 file name, removes invalid file name characters
-	$ags2MenuItemFileName = $whdloadSlave.WhdloadName -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
+	$name = $nameFormat
+
+	$nameFormatProperties = $whdloadSlave.psobject.Properties | where { $nameFormat -match $_.Name }
+
+	if ($nameFormatProperties.Count -gt 0)
+	{
+		foreach ($property in $nameFormatProperties)
+		{
+			$name = $name.Replace('[$' + $property.Name + ']', (Capitalize $property.Value))
+		}
+	}
+	else
+	{
+		$name = $whdloadSlave.WhdloadName	
+	}
+
+	#$detailNameProperty = $whdloadSlave.psobject.Properties | Where { $_.Name -match ('^Detail' + $detailNameColumn + '$') -and $_.Value } | Select-Object -First 1
+
+	# set whdload slave file name
+	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
+
+	$extra = $whdloadSlaveFileName -replace '\.slave', '' -replace $whdloadSlave.WhdloadName, ''
+
+	if ($extra.length -gt 0)
+	{
+		$name += ' ' + $extra
+	}
+
+	# use name property as AGS 2 menu item file name, if present. Otherwise fallback to whdload name
+	$ags2MenuItemFileName = $name	
+
+	# remove invalid characters from AGS 2 menu item file name
+	$ags2MenuItemFileName = Capitalize ($ags2MenuItemFileName -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", "")
 
 	# if ags 2 file name is longer than 26 characters, then trim it to 26 characters (default filesystem compatibility with limit of ~30 characters)
 	if ($ags2MenuItemFileName.length -gt 26)
@@ -103,16 +147,17 @@ foreach($whdloadSlave in $whdloadSlaves)
 		
 		do
 		{
-			if ($ags2MenuItemFileName.length + $count.ToString().length -lt 26)
+			if (($ags2MenuItemFileName.length + $count.ToString().length + 1) -lt 26)
 			{
-				$newAgs2MenuItemFileName = $ags2MenuItemFileName + $count
+				$newAgs2MenuItemFileName = $ags2MenuItemFileName + '#' + $count
 			}
 			else
 			{
-				$newAgs2MenuItemFileName = $ags2MenuItemFileName.Substring(0,$ags2MenuItemFileName.length - $count.ToString().length) + $count
+				$newAgs2MenuItemFileName = $ags2MenuItemFileName.Substring(0,$ags2MenuItemFileName.length - $count.ToString().length - 1) + '#' + $count
 			}
 			$count++
 		} while ($ags2MenuItemFileNameIndex.ContainsKey($newAgs2MenuItemFileName))
+
 		$ags2MenuItemFileName = $newAgs2MenuItemFileName
 	}
 	
@@ -134,20 +179,23 @@ foreach($whdloadSlave in $whdloadSlaves)
 	$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).iff")
 
 	# add partition number to whdload slave run path, if multiple partitions are used	
-	if ($usePartitions -and !$whdloadSizeIndex.ContainsKey($whdloadSlave.WhdloadName))
+	if ($usePartitions)
 	{
-		# add whdload size to index
-		$whdloadSizeIndex.Set_Item($whdloadSlave.WhdloadName, $whdloadSlave.WhdloadSize)
-
-		# increase partition number, if whdload size and partition size is greater than partition split size
-		if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
+		if (!$whdloadSizeIndex.ContainsKey($whdloadSlave.WhdloadName))
 		{
-			$partitionNumber++
-			$partitionSize = 0
-		}
+			# add whdload size to index
+			$whdloadSizeIndex.Set_Item($whdloadSlave.WhdloadName, $whdloadSlave.WhdloadSize)
 
-		# add whdload slave size to partition size
-		$partitionSize += $whdloadSlave.WhdloadSize
+			# increase partition number, if whdload size and partition size is greater than partition split size
+			if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
+			{
+				$partitionNumber++
+				$partitionSize = 0
+			}
+
+			# add whdload slave size to partition size
+			$partitionSize += $whdloadSlave.WhdloadSize
+		}
 
 		# set whdload slave run path with partition number
 		$whdloadSlaveRunPath = ($assignName + $partitionNumber + ":" + $ags2MenuItemIndexName + "/" + $whdloadSlave.WhdloadName)
@@ -163,9 +211,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# add assign name property to whdload slave
 		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName
 	}
-
-	# set whdload slave file name
-	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
 
 	
 	# build ags 2 menu item run lines
@@ -190,14 +235,14 @@ foreach($whdloadSlave in $whdloadSlaves)
 	{
 		foreach ($property in ($whdloadSlave.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
 		{
-			$detailColumnsIndex.Set_Item(($property.Name -replace '^Detail', ''), $property.Value)
+			$detailColumnsIndex.Set_Item(($property.Name -replace '^Detail', ''), (Capitalize $property.Value))
 		}
 	}
 	else
 	{
 		Write-Host ("Warning: No details for whdload name '" + $whdloadSlave.WhdloadName + "', query '" + $whdloadSlave.Query + "'")
 
-		$detailColumnsIndex.Set_Item("Name", $whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32"))
+		$detailColumnsIndex.Set_Item("Name", (Capitalize $whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32")))
 	}
 
 	foreach($column in $detailColumnsList)
@@ -220,8 +265,8 @@ foreach($whdloadSlave in $whdloadSlaves)
 	# use whdload screenshot, if it exists in index	
 	if ($whdloadScreenshotsIndex.ContainsKey($whdloadSlave.WhdloadSlaveFilePath))
 	{
-		$screenshotFile = $whdloadScreenshotsIndex.Get_Item($whdloadSlave.WhdloadSlaveFilePath)
-		$whdloadScreenshotPath = [System.IO.Path]::Combine($whdloadScreenshotsPath, $screenshotFile)
+		$screenshotDirectoryName = $whdloadScreenshotsIndex.Get_Item($whdloadSlave.WhdloadSlaveFilePath)
+		$whdloadScreenshotPath = [System.IO.Path]::Combine($whdloadScreenshotsPath, $screenshotDirectoryName)
 		
 		if ($aga)
 		{
@@ -244,4 +289,3 @@ foreach($whdloadSlave in $whdloadSlaves)
 # Write queries file
 $whdloadSlavesFile = [System.IO.Path]::Combine($outputPath, "whdload_slaves.csv")
 $whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesFile -NoTypeInformation -Encoding UTF8
-
