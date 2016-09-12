@@ -140,26 +140,14 @@ if (!$noiGameScreenshot)
 	}
 
 
-	# use imgtoiff-aga to make iGame screenshot file
-	$imgToIffiGameScreenshotArgs = """$imgToIffAgaPath"" --aga --pack 1 ""$imageMagickConvertiGameScreenshotFile"" ""$iGameScreenshotFile"""
-
-	if ((StartProcess "python" $imgToIffiGameScreenshotArgs) -ne 0)
+	# use nconvert to make iGame screenshot file
+	$nconvertiGameScreenshotArgs = "-out iff -c 1 -o ""$iGameScreenshotFile"" ""$imageMagickConvertiGameScreenshotFile"""
+	if ((StartProcess $nconvertPath $nconvertiGameScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run imgtoiff-aga for '$imageMagickConvertiGameScreenshotFile' with arguments '$imgToIffiGameScreenshotArgs'"
+		Write-Error "Failed to run nconvert for '$imageMagickConvertiGameScreenshotFile' with arguments '$nconvertiGameScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
-
-	# # use ImageToIff to convert iGame screenshot to iff
-	# $imageToIffiGameScreenshotArgs = "-ExecutionPolicy Bypass -file ""$imageToIffPath"" -imagePath ""$imageMagickConvertiGameScreenshotFile"" -iffPath ""$imageToIffiGameScreenshotFile"""
-
-	# # exit, if ImageToIff fails
-	# if ((StartProcess "powershell.exe" $imageToIffiGameScreenshotArgs) -ne 0)
-	# {
-	# 	Write-Error "Failed to run ImageToIff for '$imageMagickConvertiGameScreenshotFile' with arguments '$imageToIffiGameScreenshotArgs'"
-	# 	#remove-item $tempPath -recurse
-	# 	exit 1
-	# }
 }
 
 
@@ -188,7 +176,7 @@ if (!$noAgaScreenshot)
 	}
 
 
-	# use imgtoiff-aga to make iGame screenshot file
+	# use imgtoiff-aga to make AGS2 AGA Game screenshot file
 	$imgToIffAgs2AgaScreenshotArgs = """$imgToIffAgaPath"" --aga --pack 1 ""$imageMagickConvertAgs2AgaScreenshotFile"" ""$ags2AgaScreenshotFile"""
 
 	if ((StartProcess "python" $imgToIffAgs2AgaScreenshotArgs) -ne 0)
@@ -236,7 +224,7 @@ if (!$noOcsScreenshot)
 	}
 
 
-	# use imgtoiff-ocs to make iGame screenshot file
+	# use imgtoiff-ocs to make AGS2 OCS Game screenshot file
 	$imgToIffAgs2OcsScreenshotArgs = """$imgToIffOcsPath"" --ocs --pack 1 ""$imageMagickConvertAgs2OcsScreenshotFile"" ""$ags2OcsScreenshotFile"""
 
 	if ((StartProcess "python" $imgToIffAgs2OcsScreenshotArgs) -ne 0)
