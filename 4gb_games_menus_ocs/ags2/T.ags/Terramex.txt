@@ -1,0 +1,6 @@
+Name      : Terramex
+Publisher : Grandslam
+Year      : 1987
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : Terramex.Slave

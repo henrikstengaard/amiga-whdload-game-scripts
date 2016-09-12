@@ -1,0 +1,6 @@
+cd A-Demos:A/AFewTunes
+IF $whdloadargs EQ ""
+  whdload AFewTunes.Slave
+ELSE
+  whdload AFewTunes.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:C/ChipsChallenge
+IF $whdloadargs EQ ""
+  whdload ChipsChallenge.Slave
+ELSE
+  whdload ChipsChallenge.Slave $whdloadargs
+ENDIF

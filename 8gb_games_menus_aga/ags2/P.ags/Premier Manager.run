@@ -1,0 +1,6 @@
+cd A-Games:P/PremierManager
+IF $whdloadargs EQ ""
+  whdload PremierManager.Slave
+ELSE
+  whdload PremierManager.Slave $whdloadargs
+ENDIF

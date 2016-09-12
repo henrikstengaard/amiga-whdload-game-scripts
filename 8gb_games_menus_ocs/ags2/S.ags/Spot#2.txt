@@ -1,0 +1,6 @@
+Name      : Spot
+Publisher : Virgin Mastertronic
+Year      : 1990
+Genre     : Brain - Miscellaneous
+Players   : 1 to 10
+Whdload   : SpotArcadia.Slave

@@ -1,0 +1,3 @@
+Name      : Wormsigns
+Players   : 1 - 12 (12 simultaneous)
+Whdload   : Wormsigns.Slave

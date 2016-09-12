@@ -1,0 +1,5 @@
+Name      : Star Wars
+Publisher : Domark
+Year      : 1988
+Players   : 1 Only
+Whdload   : StarWars.slave

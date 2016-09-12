@@ -1,0 +1,6 @@
+Name      : Brides of Dracula
+Publisher : Gonzo Games
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : BridesOfDracula.slave

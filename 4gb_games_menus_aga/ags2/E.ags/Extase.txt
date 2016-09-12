@@ -1,0 +1,6 @@
+Name      : Extase
+Publisher : Virgin Games
+Year      : 1990
+Genre     : Brain - Puzzle
+Players   : 1 or 2, Simultaneous
+Whdload   : Extase.Slave

@@ -1,0 +1,5 @@
+Name      : Pink Panther
+Publisher : Magic Bytes
+Year      : 1988
+Players   : 1 Only
+Whdload   : PinkPanther.slave

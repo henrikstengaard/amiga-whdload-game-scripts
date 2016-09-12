@@ -1,0 +1,4 @@
+Name    : Magnum Icetro
+Groups  : Depth
+Type    : Musicdisk
+Whdload : MagnumIcetro.Slave

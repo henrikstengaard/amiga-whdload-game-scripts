@@ -1,0 +1,6 @@
+cd A-Games:E/EksperymentDelfin
+IF $whdloadargs EQ ""
+  whdload EksperymentDelfin.Slave
+ELSE
+  whdload EksperymentDelfin.Slave $whdloadargs
+ENDIF

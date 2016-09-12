@@ -1,0 +1,6 @@
+cd A-Demos:T/TaylorDayneTITMH
+IF $whdloadargs EQ ""
+  whdload TaylorDayneTITMH.Slave
+ELSE
+  whdload TaylorDayneTITMH.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:P/ProjectBeat
+IF $whdloadargs EQ ""
+  whdload ProjectBeat.Slave
+ELSE
+  whdload ProjectBeat.Slave $whdloadargs
+ENDIF

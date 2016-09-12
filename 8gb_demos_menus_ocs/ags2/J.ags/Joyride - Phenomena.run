@@ -1,0 +1,6 @@
+cd A-Demos:J/Joyride
+IF $whdloadargs EQ ""
+  whdload Joyride.Slave
+ELSE
+  whdload Joyride.Slave $whdloadargs
+ENDIF

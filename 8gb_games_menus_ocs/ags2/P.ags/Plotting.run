@@ -1,0 +1,6 @@
+cd A-Games:P/Plotting
+IF $whdloadargs EQ ""
+  whdload Plotting.slave
+ELSE
+  whdload Plotting.slave $whdloadargs
+ENDIF

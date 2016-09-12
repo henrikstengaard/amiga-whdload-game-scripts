@@ -1,0 +1,6 @@
+cd A-Games:P/PGATourGolf&TourDisk
+IF $whdloadargs EQ ""
+  whdload PGATourGolf&TourDisk.Slave
+ELSE
+  whdload PGATourGolf&TourDisk.Slave $whdloadargs
+ENDIF

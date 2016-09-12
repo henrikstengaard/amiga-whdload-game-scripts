@@ -1,0 +1,5 @@
+Name      : Crazy Shot
+Publisher : Loriciel
+Year      : 1989
+Players   : 1 Only
+Whdload   : CrazyShot.Slave

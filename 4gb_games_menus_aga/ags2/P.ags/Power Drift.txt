@@ -1,0 +1,6 @@
+Name      : Power Drift
+Publisher : Activision
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : PowerDrift.Slave

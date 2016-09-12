@@ -1,0 +1,6 @@
+Name      : Game of Harmony, The
+Publisher : Accolade
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : GameOfHarmony.Slave

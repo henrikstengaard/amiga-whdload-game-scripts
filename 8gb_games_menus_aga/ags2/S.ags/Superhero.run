@@ -1,0 +1,6 @@
+cd A-Games:S/SuperheroDemo
+IF $whdloadargs EQ ""
+  whdload SuperheroDemo.Slave
+ELSE
+  whdload SuperheroDemo.Slave $whdloadargs
+ENDIF

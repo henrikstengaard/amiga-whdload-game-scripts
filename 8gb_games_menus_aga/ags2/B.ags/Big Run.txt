@@ -1,0 +1,6 @@
+Name      : Big Run
+Publisher : Storm/The Sales Curve
+Year      : 1992
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : BigRun.slave

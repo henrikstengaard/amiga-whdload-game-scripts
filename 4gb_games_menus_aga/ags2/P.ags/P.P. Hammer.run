@@ -1,0 +1,6 @@
+cd A-Games2:P/PPHammer
+IF $whdloadargs EQ ""
+  whdload PPHammer.Slave
+ELSE
+  whdload PPHammer.Slave $whdloadargs
+ENDIF

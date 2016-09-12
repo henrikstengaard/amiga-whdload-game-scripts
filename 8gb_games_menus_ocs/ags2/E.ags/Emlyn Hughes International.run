@@ -1,0 +1,6 @@
+cd A-Games:E/EmlynHughesIntlSoccer
+IF $whdloadargs EQ ""
+  whdload EmlynHughesIntlSoccer.slave
+ELSE
+  whdload EmlynHughesIntlSoccer.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/SalmonPinkMax
+IF $whdloadargs EQ ""
+  whdload SalmonPinkMax.Slave
+ELSE
+  whdload SalmonPinkMax.Slave $whdloadargs
+ENDIF

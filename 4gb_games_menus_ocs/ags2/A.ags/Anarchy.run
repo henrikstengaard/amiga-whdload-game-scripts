@@ -1,0 +1,6 @@
+cd A-Games1:A/Anarchy
+IF $whdloadargs EQ ""
+  whdload Anarchy.Slave
+ELSE
+  whdload Anarchy.Slave $whdloadargs
+ENDIF

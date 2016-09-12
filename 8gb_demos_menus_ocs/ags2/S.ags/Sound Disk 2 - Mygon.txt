@@ -1,0 +1,4 @@
+Name    : Sound Disk 2
+Groups  : Mygon
+Type    : Musicdisk
+Whdload : SoundDisk2.Slave

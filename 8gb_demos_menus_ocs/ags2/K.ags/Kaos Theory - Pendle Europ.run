@@ -1,0 +1,6 @@
+cd A-Demos:K/KaosTheory
+IF $whdloadargs EQ ""
+  whdload KaosTheory.Slave
+ELSE
+  whdload KaosTheory.Slave $whdloadargs
+ENDIF

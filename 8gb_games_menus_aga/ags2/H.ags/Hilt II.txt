@@ -1,0 +1,5 @@
+Name      : Hilt II
+Publisher : 5th Dimension
+Year      : 1996
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Hilt2.Slave

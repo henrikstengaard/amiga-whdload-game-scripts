@@ -1,0 +1,6 @@
+cd A-Games:S/Seek&DestroyAGA
+IF $whdloadargs EQ ""
+  whdload Seek&DestroyAGA.Slave
+ELSE
+  whdload Seek&DestroyAGA.Slave $whdloadargs
+ENDIF

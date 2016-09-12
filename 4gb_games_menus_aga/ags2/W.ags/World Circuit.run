@@ -1,0 +1,6 @@
+cd A-Games2:W/WorldCircuit
+IF $whdloadargs EQ ""
+  whdload WorldCircuit.Slave
+ELSE
+  whdload WorldCircuit.Slave $whdloadargs
+ENDIF

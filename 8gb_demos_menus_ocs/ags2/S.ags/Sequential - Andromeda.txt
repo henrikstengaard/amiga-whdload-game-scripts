@@ -1,0 +1,6 @@
+Name    : Sequential
+Groups  : Andromeda
+Type    : Demo
+Party   : The Gathering 1994
+Rank    : 1st
+Whdload : Sequential.slave

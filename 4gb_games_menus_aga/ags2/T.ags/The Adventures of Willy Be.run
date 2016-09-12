@@ -1,0 +1,6 @@
+cd A-Games1:A/AdventuresOfWillyBeamish
+IF $whdloadargs EQ ""
+  whdload AdventuresOfWillyBeamish.Slave
+ELSE
+  whdload AdventuresOfWillyBeamish.Slave $whdloadargs
+ENDIF

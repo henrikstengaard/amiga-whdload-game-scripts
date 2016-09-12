@@ -1,0 +1,6 @@
+cd A-Games:D/DeluxePacman
+IF $whdloadargs EQ ""
+  whdload DeluxePacman.Slave
+ELSE
+  whdload DeluxePacman.Slave $whdloadargs
+ENDIF

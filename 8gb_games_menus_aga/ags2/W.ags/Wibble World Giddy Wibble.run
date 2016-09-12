@@ -1,0 +1,6 @@
+cd A-Games:W/WibbleWorldGiddy
+IF $whdloadargs EQ ""
+  whdload WibbleWorldGiddy.Slave
+ELSE
+  whdload WibbleWorldGiddy.Slave $whdloadargs
+ENDIF

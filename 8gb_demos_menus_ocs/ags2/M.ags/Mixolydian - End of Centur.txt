@@ -1,0 +1,4 @@
+Name    : Mixolydian
+Groups  : End of Century 1999
+Type    : Musicdisk
+Whdload : Mixolydian.Slave

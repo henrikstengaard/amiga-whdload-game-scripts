@@ -1,0 +1,6 @@
+cd A-Games:D/DaysOfThunder
+IF $whdloadargs EQ ""
+  whdload DaysOfThunder.slave
+ELSE
+  whdload DaysOfThunder.slave $whdloadargs
+ENDIF

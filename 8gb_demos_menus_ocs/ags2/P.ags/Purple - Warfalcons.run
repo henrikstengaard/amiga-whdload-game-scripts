@@ -1,0 +1,6 @@
+cd A-Demos:P/Purple
+IF $whdloadargs EQ ""
+  whdload Purple.Slave
+ELSE
+  whdload Purple.Slave $whdloadargs
+ENDIF

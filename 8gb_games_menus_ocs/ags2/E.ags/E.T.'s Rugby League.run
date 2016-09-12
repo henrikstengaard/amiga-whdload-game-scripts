@@ -1,0 +1,6 @@
+cd A-Games:E/ETsRugbyLeague
+IF $whdloadargs EQ ""
+  whdload ETsRugbyLeague.Slave
+ELSE
+  whdload ETsRugbyLeague.Slave $whdloadargs
+ENDIF

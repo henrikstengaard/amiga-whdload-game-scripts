@@ -1,0 +1,6 @@
+cd A-Games1:L/LeonardoHighDensity
+IF $whdloadargs EQ ""
+  whdload LeonardoHighDensity.Slave
+ELSE
+  whdload LeonardoHighDensity.Slave $whdloadargs
+ENDIF

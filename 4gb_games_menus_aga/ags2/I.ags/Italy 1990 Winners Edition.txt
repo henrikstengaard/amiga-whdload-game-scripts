@@ -1,0 +1,6 @@
+Name      : Italy 1990: Winners Edition
+Publisher : US Gold
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : Italy1990WinnersEdition.slave

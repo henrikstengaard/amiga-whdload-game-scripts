@@ -1,0 +1,6 @@
+cd A-Games:G/GhostsNGoblins
+IF $whdloadargs EQ ""
+  whdload GhostsNGoblins.slave
+ELSE
+  whdload GhostsNGoblins.slave $whdloadargs
+ENDIF

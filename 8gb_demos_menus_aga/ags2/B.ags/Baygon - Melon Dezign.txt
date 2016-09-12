@@ -1,0 +1,6 @@
+Name    : Baygon
+Groups  : Melon Dezign
+Type    : Demo
+Party   : Somewhere in Holland 1995
+Rank    : 2nd
+Whdload : Baygon.Slave

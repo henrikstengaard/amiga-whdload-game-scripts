@@ -1,0 +1,5 @@
+Name      : Dojo Dan
+Publisher : Europress Software
+Year      : 1992
+Players   : 1 Only
+Whdload   : DojoDan.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:B/BigTimeSensuality
+IF $whdloadargs EQ ""
+  whdload BigTimeSensuality.slave
+ELSE
+  whdload BigTimeSensuality.slave $whdloadargs
+ENDIF

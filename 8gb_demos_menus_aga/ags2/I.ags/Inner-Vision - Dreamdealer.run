@@ -1,0 +1,6 @@
+cd A-Demos:I/Innervision
+IF $whdloadargs EQ ""
+  whdload Innervision.Slave
+ELSE
+  whdload Innervision.Slave $whdloadargs
+ENDIF

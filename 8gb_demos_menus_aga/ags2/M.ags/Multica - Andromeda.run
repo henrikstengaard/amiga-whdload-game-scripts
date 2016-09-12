@@ -1,0 +1,6 @@
+cd A-Demos:M/Multica
+IF $whdloadargs EQ ""
+  whdload Multica.slave
+ELSE
+  whdload Multica.slave $whdloadargs
+ENDIF

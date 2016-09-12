@@ -1,0 +1,5 @@
+Name      : The Champ
+Publisher : Linel
+Year      : 1989
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Champ.Slave

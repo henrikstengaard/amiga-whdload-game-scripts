@@ -1,0 +1,4 @@
+Name    : Oblique Infinity
+Groups  : Goldfire
+Type    : Demo
+Whdload : ObliqueInfinity.Slave

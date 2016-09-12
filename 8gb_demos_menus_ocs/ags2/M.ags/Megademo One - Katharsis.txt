@@ -1,0 +1,4 @@
+Name    : Megademo One
+Groups  : Katharsis
+Type    : Megademo
+Whdload : MegaDemoKatharsis.Slave

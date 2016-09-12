@@ -1,0 +1,6 @@
+Name    : Xpose
+Groups  : The Silents
+Type    : Demo
+Party   : Hurricane &amp
+Rank    : 3rd
+Whdload : XPose.Slave

@@ -1,0 +1,6 @@
+Name      : International Sports Challenge
+Publisher : Empire Software
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 to 4
+Whdload   : IntSportsChallenge.slave

@@ -1,0 +1,6 @@
+Name      : Street Rod 2
+Publisher : California Dreams
+Year      : 1991
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : StreetRod2.Slave

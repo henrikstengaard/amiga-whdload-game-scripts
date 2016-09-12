@@ -1,0 +1,6 @@
+cd A-Games:F/Flashback
+IF $whdloadargs EQ ""
+  whdload Flashback.Slave
+ELSE
+  whdload Flashback.Slave $whdloadargs
+ENDIF

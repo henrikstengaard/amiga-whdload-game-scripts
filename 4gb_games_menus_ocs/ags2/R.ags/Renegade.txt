@@ -1,0 +1,4 @@
+Name      : Renegade
+Publisher : Imagine
+Year      : 1989
+Whdload   : Renegade.slave

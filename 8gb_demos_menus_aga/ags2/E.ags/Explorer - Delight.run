@@ -1,0 +1,6 @@
+cd A-Demos:E/Explorer
+IF $whdloadargs EQ ""
+  whdload Explorer.slave
+ELSE
+  whdload Explorer.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:W/Wayfarer
+IF $whdloadargs EQ ""
+  whdload Wayfarer.slave
+ELSE
+  whdload Wayfarer.slave $whdloadargs
+ENDIF

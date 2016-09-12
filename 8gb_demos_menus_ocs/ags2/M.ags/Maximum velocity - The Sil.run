@@ -1,0 +1,6 @@
+cd A-Demos:M/MaximumVelocity
+IF $whdloadargs EQ ""
+  whdload MaximumVelocity.Slave
+ELSE
+  whdload MaximumVelocity.Slave $whdloadargs
+ENDIF

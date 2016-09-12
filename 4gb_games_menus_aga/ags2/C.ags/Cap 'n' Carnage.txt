@@ -1,0 +1,5 @@
+Name      : Cap 'n' Carnage
+Publisher : Energize
+Year      : 1991
+Players   : 1 Only
+Whdload   : CapNCarnage.slave

@@ -1,0 +1,6 @@
+cd A-Games:R/RingsOfMedusa
+IF $whdloadargs EQ ""
+  whdload RingsOfMedusa.Slave
+ELSE
+  whdload RingsOfMedusa.Slave $whdloadargs
+ENDIF

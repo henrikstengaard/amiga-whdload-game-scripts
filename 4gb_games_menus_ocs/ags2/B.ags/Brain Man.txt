@@ -1,0 +1,6 @@
+Name      : Brain Man
+Publisher : MegArts
+Year      : 1995
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 or 2, Simultaneous
+Whdload   : BrainMan.Slave

@@ -1,0 +1,6 @@
+Name      : Cosmic Spacehead
+Publisher : Codemasters
+Year      : 1993
+Genre     : Adventure - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : CosmicSpacehead.slave

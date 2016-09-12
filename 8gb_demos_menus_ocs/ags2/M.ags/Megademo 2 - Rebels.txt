@@ -1,0 +1,6 @@
+Name    : Megademo 2
+Groups  : Rebels
+Type    : Demo
+Party   : Kefrens and Dexion Party 1990
+Rank    : N/a
+Whdload : MegaDemo2Rebels.Slave

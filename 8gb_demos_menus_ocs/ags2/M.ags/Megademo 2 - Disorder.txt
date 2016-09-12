@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Disorder
+Type    : Demo
+Whdload : Megademo2.Slave

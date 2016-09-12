@@ -1,0 +1,6 @@
+cd A-Games1:A/Aliex
+IF $whdloadargs EQ ""
+  whdload Aliex.Slave
+ELSE
+  whdload Aliex.Slave $whdloadargs
+ENDIF

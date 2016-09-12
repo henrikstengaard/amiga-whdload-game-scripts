@@ -1,0 +1,6 @@
+cd A-Games1:M/Minskies
+IF $whdloadargs EQ ""
+  whdload Minskies.slave
+ELSE
+  whdload Minskies.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:B/BlastaBallArcadia
+IF $whdloadargs EQ ""
+  whdload BlastaBallArcadia.Slave
+ELSE
+  whdload BlastaBallArcadia.Slave $whdloadargs
+ENDIF

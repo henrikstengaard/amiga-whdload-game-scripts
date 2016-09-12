@@ -1,0 +1,6 @@
+cd A-Games:L/LethalWeapon
+IF $whdloadargs EQ ""
+  whdload LethalWeapon.Slave
+ELSE
+  whdload LethalWeapon.Slave $whdloadargs
+ENDIF

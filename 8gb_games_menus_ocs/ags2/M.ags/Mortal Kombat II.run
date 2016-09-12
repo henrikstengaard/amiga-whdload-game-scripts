@@ -1,0 +1,6 @@
+cd A-Games:M/MortalKombat21MB
+IF $whdloadargs EQ ""
+  whdload MortalKombat21MB.slave
+ELSE
+  whdload MortalKombat21MB.slave $whdloadargs
+ENDIF

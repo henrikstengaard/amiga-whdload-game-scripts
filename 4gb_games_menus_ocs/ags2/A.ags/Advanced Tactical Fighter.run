@@ -1,0 +1,6 @@
+cd A-Games1:A/ATF2
+IF $whdloadargs EQ ""
+  whdload ATF2.Slave
+ELSE
+  whdload ATF2.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/Subwar2050AGA
+IF $whdloadargs EQ ""
+  whdload Subwar2050AGA.slave
+ELSE
+  whdload Subwar2050AGA.slave $whdloadargs
+ENDIF

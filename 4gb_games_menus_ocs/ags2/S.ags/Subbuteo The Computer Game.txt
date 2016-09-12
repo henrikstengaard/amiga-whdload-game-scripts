@@ -1,0 +1,6 @@
+Name      : Subbuteo: The Computer Game
+Publisher : Electronic Zoo
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 to 8
+Whdload   : Subbuteo.Slave

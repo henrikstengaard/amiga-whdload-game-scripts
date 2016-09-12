@@ -1,0 +1,6 @@
+cd A-Games1:F/Fire&Forget2
+IF $whdloadargs EQ ""
+  whdload Fire&Forget2.Slave
+ELSE
+  whdload Fire&Forget2.Slave $whdloadargs
+ENDIF

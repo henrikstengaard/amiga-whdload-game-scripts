@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicForFools
+IF $whdloadargs EQ ""
+  whdload MusicForFools.Slave
+ELSE
+  whdload MusicForFools.Slave $whdloadargs
+ENDIF

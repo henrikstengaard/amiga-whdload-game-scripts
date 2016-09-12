@@ -1,0 +1,5 @@
+Name      : Captain Fizz Meets the Blaster-Trons
+Publisher : Psyclapse
+Year      : 1988
+Players   : 1 or 2, Simultaneous
+Whdload   : CaptainFizz.slave

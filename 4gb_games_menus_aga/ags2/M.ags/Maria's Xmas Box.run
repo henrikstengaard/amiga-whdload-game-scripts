@@ -1,0 +1,6 @@
+cd A-Games1:M/MariasXmasBox
+IF $whdloadargs EQ ""
+  whdload MariasXmasBox.Slave
+ELSE
+  whdload MariasXmasBox.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:C/CiscoHeat
+IF $whdloadargs EQ ""
+  whdload CiscoHeat.Slave
+ELSE
+  whdload CiscoHeat.Slave $whdloadargs
+ENDIF

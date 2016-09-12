@@ -1,0 +1,6 @@
+cd A-Games:S/StackUp
+IF $whdloadargs EQ ""
+  whdload StackUp.Slave
+ELSE
+  whdload StackUp.Slave $whdloadargs
+ENDIF

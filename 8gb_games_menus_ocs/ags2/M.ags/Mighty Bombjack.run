@@ -1,0 +1,6 @@
+cd A-Games:M/MightyBombJack
+IF $whdloadargs EQ ""
+  whdload MightyBombjack.Slave
+ELSE
+  whdload MightyBombjack.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Stateline
+Groups  : Complex
+Type    : Demo
+Whdload : Stateline.Slave

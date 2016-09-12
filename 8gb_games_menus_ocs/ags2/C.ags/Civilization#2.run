@@ -1,0 +1,6 @@
+cd A-Games:C/CivilizationCD
+IF $whdloadargs EQ ""
+  whdload CivilizationCD.Slave
+ELSE
+  whdload CivilizationCD.Slave $whdloadargs
+ENDIF

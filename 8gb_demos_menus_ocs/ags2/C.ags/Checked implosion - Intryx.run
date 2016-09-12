@@ -1,0 +1,6 @@
+cd A-Demos:C/CheckedImplosion
+IF $whdloadargs EQ ""
+  whdload CheckedImplosion.Slave
+ELSE
+  whdload CheckedImplosion.Slave $whdloadargs
+ENDIF

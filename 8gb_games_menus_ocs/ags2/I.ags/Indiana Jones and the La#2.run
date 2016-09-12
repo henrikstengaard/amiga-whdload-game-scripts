@@ -1,0 +1,6 @@
+cd A-Games:I/IndianaJonesLastCrusAdv
+IF $whdloadargs EQ ""
+  whdload IndianaJonesLastCrusAdv.slave
+ELSE
+  whdload IndianaJonesLastCrusAdv.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Switchblade
+Publisher : Gremlin Graphics
+Year      : 1989
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : Switchblade.Slave

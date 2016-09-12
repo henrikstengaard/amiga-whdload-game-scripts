@@ -1,0 +1,6 @@
+cd A-Demos:S/Stag6
+IF $whdloadargs EQ ""
+  whdload Stag6.slave
+ELSE
+  whdload Stag6.slave $whdloadargs
+ENDIF

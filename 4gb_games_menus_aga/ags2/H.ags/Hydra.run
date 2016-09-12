@@ -1,0 +1,6 @@
+cd A-Games1:H/Hydra
+IF $whdloadargs EQ ""
+  whdload Hydra.Slave
+ELSE
+  whdload Hydra.Slave $whdloadargs
+ENDIF

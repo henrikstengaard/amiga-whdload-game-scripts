@@ -1,0 +1,6 @@
+Name    : Synthesis
+Groups  : Network
+Type    : Demo
+Party   : Assembly 1998
+Rank    : 3rd
+Whdload : SynthesisNetwork.slave

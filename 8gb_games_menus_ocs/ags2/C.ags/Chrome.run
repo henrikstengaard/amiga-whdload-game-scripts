@@ -1,0 +1,6 @@
+cd A-Games:C/Chrome
+IF $whdloadargs EQ ""
+  whdload Chrome.Slave
+ELSE
+  whdload Chrome.Slave $whdloadargs
+ENDIF

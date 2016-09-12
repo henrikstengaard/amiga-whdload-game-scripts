@@ -1,0 +1,6 @@
+Name      : Portal
+Publisher : Activision
+Year      : 1986
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Portal.slave

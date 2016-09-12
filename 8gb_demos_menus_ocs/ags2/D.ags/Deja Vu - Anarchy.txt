@@ -1,0 +1,6 @@
+Name    : Deja Vu
+Groups  : Anarchy
+Type    : Demo
+Party   : Quartz Summer Conference 1992
+Rank    : 1st
+Whdload : DejaVu.slave

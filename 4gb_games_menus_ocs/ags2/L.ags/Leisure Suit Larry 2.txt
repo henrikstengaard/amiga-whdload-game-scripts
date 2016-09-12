@@ -1,0 +1,5 @@
+Name      : Leisure Suit Larry 2
+Publisher : Sierra
+Year      : 1989
+Players   : 1
+Whdload   : LeisureSuitLarry2.slave

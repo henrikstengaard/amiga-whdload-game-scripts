@@ -1,0 +1,6 @@
+cd A-Games:F/FallenAngel
+IF $whdloadargs EQ ""
+  whdload FallenAngel.slave
+ELSE
+  whdload FallenAngel.slave $whdloadargs
+ENDIF

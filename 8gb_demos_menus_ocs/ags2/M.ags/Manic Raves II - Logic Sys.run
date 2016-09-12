@@ -1,0 +1,6 @@
+cd A-Demos:M/ManicRaves2
+IF $whdloadargs EQ ""
+  whdload ManicRaves2.slave
+ELSE
+  whdload ManicRaves2.slave $whdloadargs
+ENDIF

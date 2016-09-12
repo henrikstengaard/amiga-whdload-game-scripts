@@ -1,0 +1,4 @@
+Name    : SCR Musax 2
+Groups  : Scrapers
+Type    : Musicdisk
+Whdload : SCRMusax2.Slave

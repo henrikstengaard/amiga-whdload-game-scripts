@@ -1,0 +1,5 @@
+Name      : Batman Returns
+Publisher : Konami
+Year      : 1993
+Players   : 1 Only
+Whdload   : BatmanReturns.Slave

@@ -1,0 +1,6 @@
+cd A-Games:F/FernandezMustDie
+IF $whdloadargs EQ ""
+  whdload FernandezMustDie.Slave
+ELSE
+  whdload FernandezMustDie.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Power Styx
+Publisher : Magic Bytes
+Year      : 1988
+Genre     : Arcade - Tron
+Players   : 1 Only
+Whdload   : Powerstyx.slave

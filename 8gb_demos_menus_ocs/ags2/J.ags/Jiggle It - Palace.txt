@@ -1,0 +1,5 @@
+Name    : Jiggle It
+Groups  : Palace
+Type    : Musicdisk
+Party   : Hurricane and Brutal Summer Party
+Whdload : JiggleIt.Slave

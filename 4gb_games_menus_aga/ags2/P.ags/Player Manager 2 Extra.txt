@@ -1,0 +1,5 @@
+Name      : Player Manager 2 Extra
+Publisher : Anco
+Year      : 1995
+Players   : 1 - 4 (2 simultaneous)
+Whdload   : PlayerManager2ExtraAGA.Slave

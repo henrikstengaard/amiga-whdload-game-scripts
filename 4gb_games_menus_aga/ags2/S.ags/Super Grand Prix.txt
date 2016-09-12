@@ -1,0 +1,6 @@
+Name      : Super Grand Prix
+Publisher : Codemasters
+Year      : 1991
+Genre     : Racing - Overhead
+Players   : 1 to 4
+Whdload   : SuperGrandPrix.Slave

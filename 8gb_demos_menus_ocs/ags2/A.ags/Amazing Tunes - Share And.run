@@ -1,0 +1,6 @@
+cd A-Demos:A/AmazingTunes
+IF $whdloadargs EQ ""
+  whdload AmazingTunes.Slave
+ELSE
+  whdload AmazingTunes.Slave $whdloadargs
+ENDIF

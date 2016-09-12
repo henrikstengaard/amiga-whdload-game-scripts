@@ -1,0 +1,6 @@
+cd A-Games:R/Reunion
+IF $whdloadargs EQ ""
+  whdload Reunion.Slave
+ELSE
+  whdload Reunion.Slave $whdloadargs
+ENDIF

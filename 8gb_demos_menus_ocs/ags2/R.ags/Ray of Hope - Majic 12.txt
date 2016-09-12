@@ -1,0 +1,4 @@
+Name    : Ray of Hope
+Groups  : Majic 12
+Type    : Dentro
+Whdload : RayOfHope.Slave

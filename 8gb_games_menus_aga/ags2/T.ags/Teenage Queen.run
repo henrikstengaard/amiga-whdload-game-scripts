@@ -1,0 +1,6 @@
+cd A-Games:T/TeenageQueen
+IF $whdloadargs EQ ""
+  whdload TeenageQueen.Slave
+ELSE
+  whdload TeenageQueen.Slave $whdloadargs
+ENDIF

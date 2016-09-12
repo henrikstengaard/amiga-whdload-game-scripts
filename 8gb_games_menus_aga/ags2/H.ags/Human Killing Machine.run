@@ -1,0 +1,6 @@
+cd A-Games:H/HumanKillingMachine
+IF $whdloadargs EQ ""
+  whdload HumanKillingMachine.slave
+ELSE
+  whdload HumanKillingMachine.slave $whdloadargs
+ENDIF

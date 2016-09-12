@@ -1,0 +1,5 @@
+Name      : Cyberblast
+Publisher : Innerprise
+Year      : 1990
+Players   : 1 or 2
+Whdload   : Cyberblast.slave

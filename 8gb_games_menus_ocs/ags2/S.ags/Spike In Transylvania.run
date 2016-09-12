@@ -1,0 +1,6 @@
+cd A-Games:S/SpikeInTransylvania
+IF $whdloadargs EQ ""
+  whdload SpikeInTransylvania.Slave
+ELSE
+  whdload SpikeInTransylvania.Slave $whdloadargs
+ENDIF

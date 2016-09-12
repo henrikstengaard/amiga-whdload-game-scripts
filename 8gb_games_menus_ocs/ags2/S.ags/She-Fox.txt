@@ -1,0 +1,5 @@
+Name      : She-Fox
+Publisher : Martech
+Year      : 1988
+Players   : 1
+Whdload   : SheFox.slave

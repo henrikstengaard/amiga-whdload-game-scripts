@@ -1,0 +1,6 @@
+Name    : Hexadecimal perfection
+Groups  : Action Direct
+Type    : Demo
+Party   : Warszawa 1992
+Rank    : 5th
+Whdload : HexadecimalPerfection.Slave

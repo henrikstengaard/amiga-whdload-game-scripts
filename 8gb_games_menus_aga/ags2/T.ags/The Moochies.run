@@ -1,0 +1,6 @@
+cd A-Games:M/Moochies
+IF $whdloadargs EQ ""
+  whdload Moochies.Slave
+ELSE
+  whdload Moochies.Slave $whdloadargs
+ENDIF

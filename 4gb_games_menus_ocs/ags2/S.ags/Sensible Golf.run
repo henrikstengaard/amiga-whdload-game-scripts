@@ -1,0 +1,6 @@
+cd A-Games2:S/SensibleGolf
+IF $whdloadargs EQ ""
+  whdload SensibleGolf.Slave
+ELSE
+  whdload SensibleGolf.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,3 @@
+Name      : Superhero
+Publisher : Psygnosis
+Whdload   : SuperheroDemo.Slave

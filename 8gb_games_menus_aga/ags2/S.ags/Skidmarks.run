@@ -1,0 +1,6 @@
+cd A-Games:S/SkidmarksAGA
+IF $whdloadargs EQ ""
+  whdload SkidmarksAGA.slave
+ELSE
+  whdload SkidmarksAGA.slave $whdloadargs
+ENDIF

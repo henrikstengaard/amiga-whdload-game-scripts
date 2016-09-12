@@ -1,0 +1,6 @@
+cd A-Games:G/GreatCourts
+IF $whdloadargs EQ ""
+  whdload GreatCourts.slave
+ELSE
+  whdload GreatCourts.slave $whdloadargs
+ENDIF

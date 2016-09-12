@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundAtaxVol3
+IF $whdloadargs EQ ""
+  whdload SoundAtaxVol3.Slave
+ELSE
+  whdload SoundAtaxVol3.Slave $whdloadargs
+ENDIF

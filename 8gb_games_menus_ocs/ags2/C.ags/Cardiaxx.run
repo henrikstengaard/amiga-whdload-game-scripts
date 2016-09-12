@@ -1,0 +1,6 @@
+cd A-Games:C/CardiaxxElectronicZoo
+IF $whdloadargs EQ ""
+  whdload CardiaxxElectronicZoo.Slave
+ELSE
+  whdload CardiaxxElectronicZoo.Slave $whdloadargs
+ENDIF

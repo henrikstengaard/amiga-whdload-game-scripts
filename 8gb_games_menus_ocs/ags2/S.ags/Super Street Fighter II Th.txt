@@ -1,0 +1,5 @@
+Name      : Super Street Fighter II: The New Challengers
+Publisher : US Gold
+Year      : 1995
+Players   : 1 or 2, Simultaneous
+Whdload   : SuperStreetFighter2.Slave

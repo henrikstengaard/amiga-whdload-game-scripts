@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Bass
+Type    : Demo
+Whdload : MegademoBass.slave

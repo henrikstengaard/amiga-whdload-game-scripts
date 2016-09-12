@@ -1,0 +1,6 @@
+cd A-Games:L/LotharMatthausFussball
+IF $whdloadargs EQ ""
+  whdload LotharMatthausFussball.Slave
+ELSE
+  whdload LotharMatthausFussball.Slave $whdloadargs
+ENDIF

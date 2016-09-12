@@ -1,0 +1,6 @@
+cd A-Games:R/RoketzAGA
+IF $whdloadargs EQ ""
+  whdload RoketzAGA.Slave
+ELSE
+  whdload RoketzAGA.Slave $whdloadargs
+ENDIF

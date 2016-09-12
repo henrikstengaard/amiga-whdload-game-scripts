@@ -1,0 +1,6 @@
+cd A-Games:S/StuntTrackRacer
+IF $whdloadargs EQ ""
+  whdload StuntTrackRacer.Slave
+ELSE
+  whdload StuntTrackRacer.Slave $whdloadargs
+ENDIF

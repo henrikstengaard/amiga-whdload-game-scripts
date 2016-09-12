@@ -1,0 +1,6 @@
+cd A-Games:T/TetrisPro
+IF $whdloadargs EQ ""
+  whdload TetrisPro.Slave
+ELSE
+  whdload TetrisPro.Slave $whdloadargs
+ENDIF

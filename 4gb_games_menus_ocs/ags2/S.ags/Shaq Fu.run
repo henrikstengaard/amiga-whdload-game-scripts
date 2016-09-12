@@ -1,0 +1,6 @@
+cd A-Games2:S/ShaqFu
+IF $whdloadargs EQ ""
+  whdload ShaqFu.slave
+ELSE
+  whdload ShaqFu.slave $whdloadargs
+ENDIF

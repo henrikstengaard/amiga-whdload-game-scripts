@@ -1,0 +1,6 @@
+cd A-Games1:E/Encounter
+IF $whdloadargs EQ ""
+  whdload Encounter.slave
+ELSE
+  whdload Encounter.slave $whdloadargs
+ENDIF

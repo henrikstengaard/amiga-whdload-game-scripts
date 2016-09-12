@@ -1,0 +1,6 @@
+cd A-Demos:M/MerryMelodies
+IF $whdloadargs EQ ""
+  whdload MerryMelodies.Slave
+ELSE
+  whdload MerryMelodies.Slave $whdloadargs
+ENDIF

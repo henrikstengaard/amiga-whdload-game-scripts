@@ -1,0 +1,6 @@
+cd A-Demos:S/SweetRevenge
+IF $whdloadargs EQ ""
+  whdload SweetRevenge.Slave
+ELSE
+  whdload SweetRevenge.Slave $whdloadargs
+ENDIF

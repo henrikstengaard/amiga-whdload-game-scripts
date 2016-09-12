@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundDisk2
+IF $whdloadargs EQ ""
+  whdload SoundDisk2.Slave
+ELSE
+  whdload SoundDisk2.Slave $whdloadargs
+ENDIF

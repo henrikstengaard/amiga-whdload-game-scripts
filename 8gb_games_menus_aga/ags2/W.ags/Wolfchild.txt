@@ -1,0 +1,5 @@
+Name      : Wolfchild
+Publisher : Core Design
+Year      : 1992
+Players   : 1 Only
+Whdload   : Wolfchild.Slave

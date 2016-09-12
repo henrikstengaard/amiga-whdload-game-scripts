@@ -1,0 +1,6 @@
+Name      : Minskies ... The Abduction
+Publisher : Guildhall
+Year      : 1996
+Genre     : Brain - Puzzle
+Players   : 1 or 2, Simultaneous
+Whdload   : Minskies.slave

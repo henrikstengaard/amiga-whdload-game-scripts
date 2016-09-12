@@ -1,0 +1,6 @@
+cd A-Games:K/Kikugi
+IF $whdloadargs EQ ""
+  whdload Kikugi.Slave
+ELSE
+  whdload Kikugi.Slave $whdloadargs
+ENDIF

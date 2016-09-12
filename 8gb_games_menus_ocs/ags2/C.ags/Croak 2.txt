@@ -1,0 +1,5 @@
+Name      : Croak 2
+Publisher : Amiga Format
+Year      : 1995
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Croak2.Slave

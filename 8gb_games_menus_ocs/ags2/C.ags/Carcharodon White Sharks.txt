@@ -1,0 +1,5 @@
+Name      : Carcharodon: White Sharks
+Publisher : Global Software
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : Carcharodon.Slave

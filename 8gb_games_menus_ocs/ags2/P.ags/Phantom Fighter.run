@@ -1,0 +1,6 @@
+cd A-Games:P/PhantomFighter
+IF $whdloadargs EQ ""
+  whdload PhantomFighter.Slave
+ELSE
+  whdload PhantomFighter.Slave $whdloadargs
+ENDIF

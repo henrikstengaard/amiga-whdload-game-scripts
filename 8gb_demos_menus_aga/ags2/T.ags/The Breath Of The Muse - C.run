@@ -1,0 +1,6 @@
+cd A-Demos:B/BreathOfTheMuse
+IF $whdloadargs EQ ""
+  whdload BreathOfTheMuse.Slave
+ELSE
+  whdload BreathOfTheMuse.Slave $whdloadargs
+ENDIF

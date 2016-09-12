@@ -1,0 +1,5 @@
+Name      : New York Warriors
+Publisher : Virgin Mastertronic
+Year      : 1990
+Players   : 1 Only
+Whdload   : NewYorkWarriors.Slave

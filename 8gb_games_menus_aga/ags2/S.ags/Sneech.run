@@ -1,0 +1,6 @@
+cd A-Games:S/Sneech
+IF $whdloadargs EQ ""
+  whdload Sneech.Slave
+ELSE
+  whdload Sneech.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/SolidGold
+IF $whdloadargs EQ ""
+  whdload SolidGold.slave
+ELSE
+  whdload SolidGold.slave $whdloadargs
+ENDIF

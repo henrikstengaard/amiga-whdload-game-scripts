@@ -1,0 +1,5 @@
+Name      : Body Blows Galactic
+Publisher : Team 17
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+Whdload   : BodyBlowsGalactic.slave

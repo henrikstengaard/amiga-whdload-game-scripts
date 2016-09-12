@@ -1,0 +1,4 @@
+Name    : Difficult To Cure
+Groups  : Analog
+Type    : Musicdisk
+Whdload : DifficultToCure.Slave

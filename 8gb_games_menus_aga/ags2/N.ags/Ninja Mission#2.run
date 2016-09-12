@@ -1,0 +1,6 @@
+cd A-Games:N/NinjaMissionArcadia
+IF $whdloadargs EQ ""
+  whdload NinjaMissionArcadia.Slave
+ELSE
+  whdload NinjaMissionArcadia.Slave $whdloadargs
+ENDIF

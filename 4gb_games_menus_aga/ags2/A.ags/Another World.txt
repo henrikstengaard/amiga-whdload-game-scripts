@@ -1,0 +1,6 @@
+Name      : Another World
+Publisher : US Gold
+Year      : 1991
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : AnotherWorld.slave

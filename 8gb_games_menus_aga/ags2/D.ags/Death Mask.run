@@ -1,0 +1,6 @@
+cd A-Games:D/DeathMaskAGA
+IF $whdloadargs EQ ""
+  whdload DeathMaskAGA.Slave
+ELSE
+  whdload DeathMaskAGA.Slave $whdloadargs
+ENDIF

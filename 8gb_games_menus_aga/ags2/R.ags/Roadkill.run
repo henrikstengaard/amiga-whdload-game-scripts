@@ -1,0 +1,6 @@
+cd A-Games:R/RoadkillAGA
+IF $whdloadargs EQ ""
+  whdload RoadkillAGA.Slave
+ELSE
+  whdload RoadkillAGA.Slave $whdloadargs
+ENDIF

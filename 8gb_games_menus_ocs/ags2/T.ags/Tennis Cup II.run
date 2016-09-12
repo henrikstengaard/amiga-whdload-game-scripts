@@ -1,0 +1,6 @@
+cd A-Games:T/TennisCup2
+IF $whdloadargs EQ ""
+  whdload TennisCup2.Slave
+ELSE
+  whdload TennisCup2.Slave $whdloadargs
+ENDIF

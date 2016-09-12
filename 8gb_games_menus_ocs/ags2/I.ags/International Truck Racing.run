@@ -1,0 +1,6 @@
+cd A-Games:I/InternationalTruckRacing
+IF $whdloadargs EQ ""
+  whdload InternationalTruckRacing.slave
+ELSE
+  whdload InternationalTruckRacing.slave $whdloadargs
+ENDIF

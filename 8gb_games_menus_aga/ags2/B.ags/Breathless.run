@@ -1,0 +1,6 @@
+cd A-Games:B/BreathlessAGA
+IF $whdloadargs EQ ""
+  whdload BreathlessAGA.Slave
+ELSE
+  whdload BreathlessAGA.Slave $whdloadargs
+ENDIF

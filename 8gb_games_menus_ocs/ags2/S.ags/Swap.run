@@ -1,0 +1,6 @@
+cd A-Games:S/Swap
+IF $whdloadargs EQ ""
+  whdload Swap.Slave
+ELSE
+  whdload Swap.Slave $whdloadargs
+ENDIF

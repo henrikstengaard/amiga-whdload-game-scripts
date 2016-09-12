@@ -1,0 +1,6 @@
+Name      : Blob
+Publisher : Core Design
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Blob.slave

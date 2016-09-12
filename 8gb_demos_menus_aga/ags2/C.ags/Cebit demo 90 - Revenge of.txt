@@ -1,0 +1,6 @@
+Name    : Cebit demo 90 - Revenge of babbnaasen
+Groups  : Red Sector Inc.
+Type    : Demo
+Party   : CeBIT Demo Competition 1990
+Rank    : 1st
+Whdload : Cebit90.Slave

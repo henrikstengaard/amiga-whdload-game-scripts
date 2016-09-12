@@ -1,0 +1,6 @@
+cd A-Games2:W/WhirligigCracked
+IF $whdloadargs EQ ""
+  whdload WhirligigCracked.Slave
+ELSE
+  whdload WhirligigCracked.Slave $whdloadargs
+ENDIF

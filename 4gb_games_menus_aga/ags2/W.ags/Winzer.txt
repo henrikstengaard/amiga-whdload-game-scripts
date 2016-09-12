@@ -1,0 +1,4 @@
+Name      : Winzer
+Publisher : Starbyte
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : Winzer.Slave

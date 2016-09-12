@@ -1,0 +1,6 @@
+Name      : Eco Phantoms
+Publisher : Electronic Zoo
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : EcoPhantoms.Slave

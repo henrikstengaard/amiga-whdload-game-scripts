@@ -1,0 +1,6 @@
+Name    : Playbyte Commercial
+Groups  : Shining
+Type    : Demo
+Party   : The Party 1992
+Rank    : 5th
+Whdload : PlaybyteCommercial.Slave

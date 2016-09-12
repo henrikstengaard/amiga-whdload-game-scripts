@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicDiskThrust
+IF $whdloadargs EQ ""
+  whdload MusicDiskThrust.Slave
+ELSE
+  whdload MusicDiskThrust.Slave $whdloadargs
+ENDIF

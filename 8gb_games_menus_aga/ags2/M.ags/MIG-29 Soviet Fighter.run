@@ -1,0 +1,6 @@
+cd A-Games:M/Mig29SovietFighter
+IF $whdloadargs EQ ""
+  whdload Mig29SovietFighter.Slave
+ELSE
+  whdload Mig29SovietFighter.Slave $whdloadargs
+ENDIF

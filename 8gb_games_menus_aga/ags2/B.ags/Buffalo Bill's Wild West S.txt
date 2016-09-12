@@ -1,0 +1,6 @@
+Name      : Buffalo Bill's Wild West Show
+Publisher : Tynesoft
+Year      : 1989
+Genre     : Sports - Multi-Event
+Players   : 1 to 4
+Whdload   : BuffaloBillsWildWestShow.Slave

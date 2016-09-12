@@ -1,0 +1,6 @@
+cd A-Games:R/Resolution101
+IF $whdloadargs EQ ""
+  whdload Resolution101.Slave
+ELSE
+  whdload Resolution101.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:W/Warp
+IF $whdloadargs EQ ""
+  whdload WARP.slave
+ELSE
+  whdload WARP.slave $whdloadargs
+ENDIF

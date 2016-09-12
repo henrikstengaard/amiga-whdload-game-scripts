@@ -1,0 +1,6 @@
+cd A-Games2:P/ParaglidingSimulation
+IF $whdloadargs EQ ""
+  whdload ParaglidingSimulation.Slave
+ELSE
+  whdload ParaglidingSimulation.Slave $whdloadargs
+ENDIF

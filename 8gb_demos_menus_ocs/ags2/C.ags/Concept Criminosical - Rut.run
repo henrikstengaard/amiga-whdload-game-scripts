@@ -1,0 +1,6 @@
+cd A-Demos:C/ConceptCriminosical
+IF $whdloadargs EQ ""
+  whdload ConceptCriminosical.Slave
+ELSE
+  whdload ConceptCriminosical.Slave $whdloadargs
+ENDIF

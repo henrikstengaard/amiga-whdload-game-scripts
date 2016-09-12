@@ -1,0 +1,6 @@
+cd A-Demos:C/Contravention
+IF $whdloadargs EQ ""
+  whdload Contravention.Slave
+ELSE
+  whdload Contravention.Slave $whdloadargs
+ENDIF

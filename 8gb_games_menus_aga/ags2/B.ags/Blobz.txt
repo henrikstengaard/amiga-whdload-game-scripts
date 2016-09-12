@@ -1,0 +1,6 @@
+Name      : Blobz
+Publisher : Apex Systems
+Year      : 1996
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Blobz.Slave

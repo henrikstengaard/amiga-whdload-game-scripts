@@ -1,0 +1,6 @@
+Name      : Manhunter: New York
+Publisher : Sierra On-Line
+Year      : 1988
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : Manhunter.slave

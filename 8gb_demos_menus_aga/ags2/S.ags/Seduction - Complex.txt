@@ -1,0 +1,4 @@
+Name    : Seduction
+Groups  : Complex
+Type    : Musicdisk
+Whdload : Seduction.Slave

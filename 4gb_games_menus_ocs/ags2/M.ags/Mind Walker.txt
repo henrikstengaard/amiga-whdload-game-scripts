@@ -1,0 +1,6 @@
+Name      : Mind Walker
+Publisher : Commodore
+Year      : 1986
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : MindWalker.slave

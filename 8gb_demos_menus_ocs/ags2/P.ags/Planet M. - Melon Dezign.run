@@ -1,0 +1,6 @@
+cd A-Demos:P/PlanetM
+IF $whdloadargs EQ ""
+  whdload PlanetM.Slave
+ELSE
+  whdload PlanetM.Slave $whdloadargs
+ENDIF

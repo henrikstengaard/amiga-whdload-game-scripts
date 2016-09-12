@@ -1,0 +1,6 @@
+Name      : Dark Castle
+Publisher : Mindscape
+Year      : 1987
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : DarkCastle.Slave

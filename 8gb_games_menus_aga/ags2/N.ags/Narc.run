@@ -1,0 +1,6 @@
+cd A-Games:N/Narc
+IF $whdloadargs EQ ""
+  whdload Narc.slave
+ELSE
+  whdload Narc.slave $whdloadargs
+ENDIF

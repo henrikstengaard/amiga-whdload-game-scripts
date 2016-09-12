@@ -1,0 +1,5 @@
+Name      : The Chaos Engine [AGA]
+Publisher : Renegade, Mindscape
+Year      : 1994
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : ChaosEngineAGA.Slave

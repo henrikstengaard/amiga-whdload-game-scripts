@@ -1,0 +1,5 @@
+Name      : Hellfire Attack
+Publisher : Martech
+Year      : 1988
+Players   : 1
+Whdload   : HellfireAttack.Slave

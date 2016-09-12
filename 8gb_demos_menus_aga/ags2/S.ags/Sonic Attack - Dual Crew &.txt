@@ -1,0 +1,4 @@
+Name    : Sonic Attack
+Groups  : Dual Crew & Shining
+Type    : Musicdisk
+Whdload : SonicAttack.Slave

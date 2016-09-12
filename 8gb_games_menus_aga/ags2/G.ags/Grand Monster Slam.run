@@ -1,0 +1,6 @@
+cd A-Games:G/GrandMonsterSlam
+IF $whdloadargs EQ ""
+  whdload GrandMonsterSlam.Slave
+ELSE
+  whdload GrandMonsterSlam.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/Cattivik
+IF $whdloadargs EQ ""
+  whdload Cattivik.Slave
+ELSE
+  whdload Cattivik.Slave $whdloadargs
+ENDIF

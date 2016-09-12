@@ -1,0 +1,6 @@
+cd A-Games:I/IntSportsChallenge
+IF $whdloadargs EQ ""
+  whdload IntSportsChallenge.slave
+ELSE
+  whdload IntSportsChallenge.slave $whdloadargs
+ENDIF

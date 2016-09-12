@@ -1,0 +1,6 @@
+cd A-Games2:W/WeirdDreams
+IF $whdloadargs EQ ""
+  whdload WeirdDreams.Slave
+ELSE
+  whdload WeirdDreams.Slave $whdloadargs
+ENDIF

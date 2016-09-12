@@ -1,0 +1,6 @@
+cd A-Games1:H/HardBall
+IF $whdloadargs EQ ""
+  whdload HardBall.Slave
+ELSE
+  whdload HardBall.Slave $whdloadargs
+ENDIF

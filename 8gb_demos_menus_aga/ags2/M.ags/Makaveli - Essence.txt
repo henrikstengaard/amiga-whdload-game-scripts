@@ -1,0 +1,6 @@
+Name    : Makaveli
+Groups  : Essence
+Type    : Demo
+Party   : The Party 1996
+Rank    : 2nd
+Whdload : Makaveli.Slave

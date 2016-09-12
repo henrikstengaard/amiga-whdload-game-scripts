@@ -1,0 +1,6 @@
+cd A-Games1:J/JetsonsTheComputerGame
+IF $whdloadargs EQ ""
+  whdload JetsonsTheComputerGame.Slave
+ELSE
+  whdload JetsonsTheComputerGame.Slave $whdloadargs
+ENDIF

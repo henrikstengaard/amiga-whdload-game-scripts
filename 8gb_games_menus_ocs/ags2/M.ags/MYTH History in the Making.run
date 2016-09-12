@@ -1,0 +1,6 @@
+cd A-Games:M/MythHistoryInTheMaking
+IF $whdloadargs EQ ""
+  whdload MythHistoryInTheMaking.Slave
+ELSE
+  whdload MythHistoryInTheMaking.Slave $whdloadargs
+ENDIF

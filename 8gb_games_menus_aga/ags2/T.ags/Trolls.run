@@ -1,0 +1,6 @@
+cd A-Games:T/TrollsAGA
+IF $whdloadargs EQ ""
+  whdload TrollsAGA.Slave
+ELSE
+  whdload TrollsAGA.Slave $whdloadargs
+ENDIF

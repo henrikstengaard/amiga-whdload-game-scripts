@@ -1,0 +1,6 @@
+cd A-Games:F/FlightSim2&SceneryDisk11
+IF $whdloadargs EQ ""
+  whdload FlightSim2&SceneryDisk11.Slave
+ELSE
+  whdload FlightSim2&SceneryDisk11.Slave $whdloadargs
+ENDIF

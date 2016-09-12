@@ -1,0 +1,6 @@
+cd A-Games:B/BabyJoInGoingHome
+IF $whdloadargs EQ ""
+  whdload BabyJoInGoingHome.Slave
+ELSE
+  whdload BabyJoInGoingHome.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:S/SubtleShades
+IF $whdloadargs EQ ""
+  whdload SubtleShades.Slave
+ELSE
+  whdload SubtleShades.Slave $whdloadargs
+ENDIF

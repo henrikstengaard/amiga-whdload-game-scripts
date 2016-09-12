@@ -1,0 +1,6 @@
+cd A-Games:S/StarCommand
+IF $whdloadargs EQ ""
+  whdload StarCommand.Slave
+ELSE
+  whdload StarCommand.Slave $whdloadargs
+ENDIF

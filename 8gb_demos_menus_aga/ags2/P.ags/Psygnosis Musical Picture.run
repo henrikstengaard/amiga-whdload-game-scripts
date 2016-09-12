@@ -1,0 +1,6 @@
+cd A-Demos:P/PsygnosisMusicPictureDisc
+IF $whdloadargs EQ ""
+  whdload PsygnosisMusicPictureDis.Slave
+ELSE
+  whdload PsygnosisMusicPictureDis.Slave $whdloadargs
+ENDIF

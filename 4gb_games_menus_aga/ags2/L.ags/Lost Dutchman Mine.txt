@@ -1,0 +1,6 @@
+Name      : Lost Dutchman Mine
+Publisher : Innerprise
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : LostDutchmanMine.Slave

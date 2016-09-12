@@ -1,0 +1,6 @@
+cd A-Games1:D/DaleyThompsonsOC1Disk
+IF $whdloadargs EQ ""
+  whdload DaleyThompsonsOC1Disk.Slave
+ELSE
+  whdload DaleyThompsonsOC1Disk.Slave $whdloadargs
+ENDIF

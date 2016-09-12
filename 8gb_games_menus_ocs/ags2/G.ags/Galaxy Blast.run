@@ -1,0 +1,6 @@
+cd A-Games:G/GalaxyBlast
+IF $whdloadargs EQ ""
+  whdload GalaxyBlast.Slave
+ELSE
+  whdload GalaxyBlast.Slave $whdloadargs
+ENDIF

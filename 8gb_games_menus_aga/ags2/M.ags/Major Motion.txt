@@ -1,0 +1,6 @@
+Name      : Major Motion
+Publisher : Microdeal
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 or 2
+Whdload   : MajorMotion.Slave

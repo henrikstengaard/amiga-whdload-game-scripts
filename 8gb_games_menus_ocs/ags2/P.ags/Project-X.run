@@ -1,0 +1,6 @@
+cd A-Games:P/ProjectX
+IF $whdloadargs EQ ""
+  whdload ProjectX.Slave
+ELSE
+  whdload ProjectX.Slave $whdloadargs
+ENDIF

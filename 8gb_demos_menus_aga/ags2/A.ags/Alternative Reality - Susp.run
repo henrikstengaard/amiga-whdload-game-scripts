@@ -1,0 +1,6 @@
+cd A-Demos:A/AlternativeReality
+IF $whdloadargs EQ ""
+  whdload AlternativeReality.Slave
+ELSE
+  whdload AlternativeReality.Slave $whdloadargs
+ENDIF

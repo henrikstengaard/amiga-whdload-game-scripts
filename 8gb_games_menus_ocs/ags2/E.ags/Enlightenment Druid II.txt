@@ -1,0 +1,5 @@
+Name      : Enlightenment: Druid II
+Publisher : Firebird / Rainbird
+Year      : 1988
+Players   : 1 -2 (2 simultaneous)
+Whdload   : Enlightenment.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:W/WithVectorsToHeaven
+IF $whdloadargs EQ ""
+  whdload WithVectorsToHeaven.Slave
+ELSE
+  whdload WithVectorsToHeaven.Slave $whdloadargs
+ENDIF

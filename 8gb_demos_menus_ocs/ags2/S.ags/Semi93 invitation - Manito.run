@@ -1,0 +1,6 @@
+cd A-Demos:S/Semi93Invitation
+IF $whdloadargs EQ ""
+  whdload Semi93Invitation.Slave
+ELSE
+  whdload Semi93Invitation.Slave $whdloadargs
+ENDIF

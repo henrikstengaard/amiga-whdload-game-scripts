@@ -1,0 +1,6 @@
+cd A-Games1:C/CovertAction
+IF $whdloadargs EQ ""
+  whdload CovertAction.Slave
+ELSE
+  whdload CovertAction.Slave $whdloadargs
+ENDIF

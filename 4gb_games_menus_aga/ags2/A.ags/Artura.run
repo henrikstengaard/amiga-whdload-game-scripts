@@ -1,0 +1,6 @@
+cd A-Games1:A/Artura
+IF $whdloadargs EQ ""
+  whdload Artura.Slave
+ELSE
+  whdload Artura.Slave $whdloadargs
+ENDIF

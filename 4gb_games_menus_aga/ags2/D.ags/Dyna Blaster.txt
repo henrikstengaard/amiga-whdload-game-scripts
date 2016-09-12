@@ -1,0 +1,6 @@
+Name      : Dyna Blaster
+Publisher : Hudson Soft
+Year      : 1991
+Genre     : Arcade - Bomberman
+Players   : 1 to 5, Simultaneous
+Whdload   : DynaBlaster.Slave

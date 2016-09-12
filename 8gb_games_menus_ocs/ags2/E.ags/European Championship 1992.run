@@ -1,0 +1,6 @@
+cd A-Games:E/EuropeanChampionship1992
+IF $whdloadargs EQ ""
+  whdload EuropeanChampionship1992.slave
+ELSE
+  whdload EuropeanChampionship1992.slave $whdloadargs
+ENDIF

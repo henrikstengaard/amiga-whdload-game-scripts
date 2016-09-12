@@ -1,0 +1,5 @@
+Name      : Cannon Fodder 2 - Alien Levels
+Publisher : Virgin
+Year      : 1994
+Players   : 1
+Whdload   : CannonFodder2AlienLevels.Slave

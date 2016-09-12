@@ -1,0 +1,6 @@
+cd A-Games:W/WebOfTerror
+IF $whdloadargs EQ ""
+  whdload WebOfTerror.slave
+ELSE
+  whdload WebOfTerror.slave $whdloadargs
+ENDIF

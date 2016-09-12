@@ -1,0 +1,6 @@
+cd A-Games:P/PuffysSaga
+IF $whdloadargs EQ ""
+  whdload PuffysSaga.Slave
+ELSE
+  whdload PuffysSaga.Slave $whdloadargs
+ENDIF

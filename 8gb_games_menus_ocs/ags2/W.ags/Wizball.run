@@ -1,0 +1,6 @@
+cd A-Games:W/Wizball
+IF $whdloadargs EQ ""
+  whdload Wizball.Slave
+ELSE
+  whdload Wizball.Slave $whdloadargs
+ENDIF

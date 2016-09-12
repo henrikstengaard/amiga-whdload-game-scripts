@@ -1,0 +1,6 @@
+cd A-Games1:C/CabaretAsteroidsRepacked
+IF $whdloadargs EQ ""
+  whdload CabaretAsteroidsRepacked.slave
+ELSE
+  whdload CabaretAsteroidsRepacked.slave $whdloadargs
+ENDIF

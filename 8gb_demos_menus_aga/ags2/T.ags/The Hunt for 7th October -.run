@@ -1,0 +1,6 @@
+cd A-Demos:H/HuntFor7thOctober
+IF $whdloadargs EQ ""
+  whdload HuntFor7thOctober.Slave
+ELSE
+  whdload HuntFor7thOctober.Slave $whdloadargs
+ENDIF

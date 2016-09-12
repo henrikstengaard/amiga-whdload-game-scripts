@@ -1,0 +1,6 @@
+cd A-Games2:Q/QuiksilverPinball
+IF $whdloadargs EQ ""
+  whdload QuiksilverPinball.Slave
+ELSE
+  whdload QuiksilverPinball.Slave $whdloadargs
+ENDIF

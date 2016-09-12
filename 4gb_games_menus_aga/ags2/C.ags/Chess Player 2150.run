@@ -1,0 +1,6 @@
+cd A-Games1:C/ChessPlayer2150
+IF $whdloadargs EQ ""
+  whdload ChessPlayer2150.Slave
+ELSE
+  whdload ChessPlayer2150.Slave $whdloadargs
+ENDIF

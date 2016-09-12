@@ -1,0 +1,6 @@
+cd A-Games:Z/Zaxxon512KB
+IF $whdloadargs EQ ""
+  whdload Zaxxon512KB.Slave
+ELSE
+  whdload Zaxxon512KB.Slave $whdloadargs
+ENDIF

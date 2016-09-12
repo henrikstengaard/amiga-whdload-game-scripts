@@ -1,0 +1,6 @@
+Name      : Wayne Gretzky Hockey II
+Publisher : US Gold
+Year      : 1991
+Genre     : Sports - Ice Hockey
+Players   : 1 or 2, Simultaneous
+Whdload   : WayneGretzkyHockey2.Slave

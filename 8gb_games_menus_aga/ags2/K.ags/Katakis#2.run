@@ -1,0 +1,6 @@
+cd A-Games:K/Katakis2Disk
+IF $whdloadargs EQ ""
+  whdload Katakis2Disk.Slave
+ELSE
+  whdload Katakis2Disk.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Century
+Publisher : Software 2000
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 to 4
+Whdload   : Century.Slave

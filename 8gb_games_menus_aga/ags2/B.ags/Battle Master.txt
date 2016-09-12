@@ -1,0 +1,6 @@
+Name      : Battle Master
+Publisher : Personal Software Services (PSS)
+Year      : 1990
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : Battlemaster.Slave

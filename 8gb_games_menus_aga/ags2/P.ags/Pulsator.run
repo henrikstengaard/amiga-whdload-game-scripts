@@ -1,0 +1,6 @@
+cd A-Games:P/PulsatorDemoAGA
+IF $whdloadargs EQ ""
+  whdload PulsatorDemoAGA.Slave
+ELSE
+  whdload PulsatorDemoAGA.Slave $whdloadargs
+ENDIF

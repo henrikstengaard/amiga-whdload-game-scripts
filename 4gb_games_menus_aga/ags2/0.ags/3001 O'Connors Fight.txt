@@ -1,0 +1,6 @@
+Name      : 3001: O'Connors Fight
+Publisher : Rainbow Arts
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : 3001OConnorsFight.Slave

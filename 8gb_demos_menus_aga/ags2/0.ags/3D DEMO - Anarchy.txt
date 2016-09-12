@@ -1,0 +1,6 @@
+Name    : 3D DEMO
+Groups  : Anarchy
+Type    : Demo
+Party   : The Party 1991
+Rank    : 5th
+Whdload : 3DDemo.Slave

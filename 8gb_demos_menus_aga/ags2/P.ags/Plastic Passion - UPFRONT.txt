@@ -1,0 +1,6 @@
+Name    : Plastic Passion
+Groups  : UPFRONT
+Type    : Demo
+Party   : The Party 1991
+Rank    : 7th
+Whdload : PlasticPassion.Slave

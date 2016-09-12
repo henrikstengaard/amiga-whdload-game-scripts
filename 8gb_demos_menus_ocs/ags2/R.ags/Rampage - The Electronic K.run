@@ -1,0 +1,6 @@
+cd A-Demos:R/Rampage
+IF $whdloadargs EQ ""
+  whdload Rampage.Slave
+ELSE
+  whdload Rampage.Slave $whdloadargs
+ENDIF

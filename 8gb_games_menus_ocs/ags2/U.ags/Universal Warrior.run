@@ -1,0 +1,6 @@
+cd A-Games:U/UniversalWarrior
+IF $whdloadargs EQ ""
+  whdload UniversalWarrior.slave
+ELSE
+  whdload UniversalWarrior.slave $whdloadargs
+ENDIF

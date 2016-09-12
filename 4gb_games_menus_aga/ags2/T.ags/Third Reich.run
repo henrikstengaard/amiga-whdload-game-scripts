@@ -1,0 +1,6 @@
+cd A-Games1:C/ComputerThirdReich
+IF $whdloadargs EQ ""
+  whdload ComputerThirdReich.Slave
+ELSE
+  whdload ComputerThirdReich.Slave $whdloadargs
+ENDIF

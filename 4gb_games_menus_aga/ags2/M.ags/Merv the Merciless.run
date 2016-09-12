@@ -1,0 +1,6 @@
+cd A-Games1:M/MervTheMerciless
+IF $whdloadargs EQ ""
+  whdload MervTheMerciless.slave
+ELSE
+  whdload MervTheMerciless.slave $whdloadargs
+ENDIF

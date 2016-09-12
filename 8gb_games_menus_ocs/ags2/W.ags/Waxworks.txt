@@ -1,0 +1,6 @@
+Name      : Waxworks
+Publisher : Accolade
+Year      : 1993
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : Waxworks.Slave

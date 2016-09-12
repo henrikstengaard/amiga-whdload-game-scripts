@@ -1,0 +1,6 @@
+cd A-Demos:S/SubliminalVision
+IF $whdloadargs EQ ""
+  whdload SubliminalVision.Slave
+ELSE
+  whdload SubliminalVision.Slave $whdloadargs
+ENDIF

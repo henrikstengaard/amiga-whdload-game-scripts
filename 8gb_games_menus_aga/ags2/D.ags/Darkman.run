@@ -1,0 +1,6 @@
+cd A-Games:D/Darkman
+IF $whdloadargs EQ ""
+  whdload Darkman.Slave
+ELSE
+  whdload Darkman.Slave $whdloadargs
+ENDIF

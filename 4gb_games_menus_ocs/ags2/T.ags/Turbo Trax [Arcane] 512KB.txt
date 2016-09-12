@@ -1,0 +1,5 @@
+Name      : Turbo Trax [Arcane]
+Publisher : Arcane
+Year      : 1995
+Players   : 1
+Whdload   : TurboTraxArcane512KB.Slave

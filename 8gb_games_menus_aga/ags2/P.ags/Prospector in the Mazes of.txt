@@ -1,0 +1,5 @@
+Name      : Prospector in the Mazes of Xor
+Publisher : Logotron
+Year      : 1989
+Players   : 1 Only
+Whdload   : ProspectorInTheMazesOfXor.Slave

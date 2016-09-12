@@ -1,0 +1,6 @@
+cd A-Games:H/HelterSkelter
+IF $whdloadargs EQ ""
+  whdload HelterSkelter.Slave
+ELSE
+  whdload HelterSkelter.Slave $whdloadargs
+ENDIF

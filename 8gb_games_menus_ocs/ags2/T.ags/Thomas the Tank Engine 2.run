@@ -1,0 +1,6 @@
+cd A-Games:T/ThomasTheTankEngine2
+IF $whdloadargs EQ ""
+  whdload ThomasTheTankEngine2.slave
+ELSE
+  whdload ThomasTheTankEngine2.slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Kick Off 3
+Publisher : Anco
+Year      : 1994
+Players   : 1 - 4 (2 simultaneous)
+Whdload   : KickOff3.Slave

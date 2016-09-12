@@ -1,0 +1,6 @@
+cd A-Games:S/Shadowgate
+IF $whdloadargs EQ ""
+  whdload Shadowgate.Slave
+ELSE
+  whdload Shadowgate.Slave $whdloadargs
+ENDIF

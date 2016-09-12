@@ -1,0 +1,6 @@
+cd A-Games:R/Rockford
+IF $whdloadargs EQ ""
+  whdload Rockford.slave
+ELSE
+  whdload Rockford.slave $whdloadargs
+ENDIF

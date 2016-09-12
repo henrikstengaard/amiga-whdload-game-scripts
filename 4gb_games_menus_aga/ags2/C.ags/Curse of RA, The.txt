@@ -1,0 +1,6 @@
+Name      : Curse of RA, The
+Publisher : Rainbow Arts
+Year      : 1990
+Genre     : Arcade - Logical Game
+Players   : 1 Only
+Whdload   : CurseOfRA.slave

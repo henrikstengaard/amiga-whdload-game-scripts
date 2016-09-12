@@ -1,0 +1,6 @@
+Name      : Micro Machines
+Publisher : Codemasters
+Year      : 1993
+Genre     : Racing - Overhead
+Players   : 1 or 2, Simultaneous
+Whdload   : MicroMachines.slave

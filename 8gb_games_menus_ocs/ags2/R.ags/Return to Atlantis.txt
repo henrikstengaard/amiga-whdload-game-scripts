@@ -1,0 +1,6 @@
+Name      : Return to Atlantis
+Publisher : Electronic Arts
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : ReturnToAtlantis.Slave

@@ -1,0 +1,6 @@
+cd A-Games1:M/MagicPockets
+IF $whdloadargs EQ ""
+  whdload MagicPockets.Slave
+ELSE
+  whdload MagicPockets.Slave $whdloadargs
+ENDIF

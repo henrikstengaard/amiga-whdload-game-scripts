@@ -1,0 +1,6 @@
+Name      : SportTime Table Hockey
+Publisher : Arcadia (Mastertronic)
+Year      : 1988
+Genre     : Sport - Table Hockey
+Players   : 1 or 2, Simultaneous
+Whdload   : TableHockeyArcadia.Slave

@@ -1,0 +1,5 @@
+Name      : Typhoon
+Publisher : Kingsoft
+Year      : 1987
+Players   : 1 Only
+Whdload   : Typhoon.Slave

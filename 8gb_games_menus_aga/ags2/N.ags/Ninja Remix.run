@@ -1,0 +1,6 @@
+cd A-Games:N/NinjaRemix
+IF $whdloadargs EQ ""
+  whdload NinjaRemix.slave
+ELSE
+  whdload NinjaRemix.slave $whdloadargs
+ENDIF

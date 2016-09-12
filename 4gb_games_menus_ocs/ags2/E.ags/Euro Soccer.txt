@@ -1,0 +1,5 @@
+Name      : Euro Soccer
+Publisher : Flair
+Year      : 1992
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : EuroSoccer.Slave

@@ -1,0 +1,5 @@
+Name      : Eye of Horus, The
+Publisher : Logotron
+Year      : 1989
+Players   : 1 Only
+Whdload   : EyeOfHorus.slave

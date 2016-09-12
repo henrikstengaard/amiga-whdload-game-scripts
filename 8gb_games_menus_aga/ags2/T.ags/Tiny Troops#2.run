@@ -1,0 +1,6 @@
+cd A-Games:T/TinyTroopsCD
+IF $whdloadargs EQ ""
+  whdload TinyTroopsCD.Slave
+ELSE
+  whdload TinyTroopsCD.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:B/BladesOfSteel
+IF $whdloadargs EQ ""
+  whdload BladesOfSteel.Slave
+ELSE
+  whdload BladesOfSteel.Slave $whdloadargs
+ENDIF

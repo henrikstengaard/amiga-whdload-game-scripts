@@ -1,0 +1,6 @@
+cd A-Games:B/ButcherHill
+IF $whdloadargs EQ ""
+  whdload ButcherHill.Slave
+ELSE
+  whdload ButcherHill.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Tiger Road
+Publisher : Go!
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Whdload   : TigerRoad.Slave

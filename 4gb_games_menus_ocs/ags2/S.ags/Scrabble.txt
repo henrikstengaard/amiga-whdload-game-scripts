@@ -1,0 +1,6 @@
+Name      : Scrabble
+Publisher : US Gold
+Year      : 1992
+Genre     : Board - Miscellaneous
+Players   : 1 to 4
+Whdload   : Scrabble.Slave

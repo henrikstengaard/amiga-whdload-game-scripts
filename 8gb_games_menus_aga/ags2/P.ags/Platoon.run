@@ -1,0 +1,6 @@
+cd A-Games:P/Platoon
+IF $whdloadargs EQ ""
+  whdload Platoon.Slave
+ELSE
+  whdload Platoon.Slave $whdloadargs
+ENDIF

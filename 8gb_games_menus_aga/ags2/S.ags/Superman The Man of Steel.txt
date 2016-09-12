@@ -1,0 +1,6 @@
+Name      : Superman: The Man of Steel
+Publisher : Tynesoft
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Superman.Slave

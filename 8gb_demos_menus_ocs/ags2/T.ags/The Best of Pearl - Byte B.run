@@ -1,0 +1,6 @@
+cd A-Demos:B/BestOfPearl
+IF $whdloadargs EQ ""
+  whdload BestOfPearl.Slave
+ELSE
+  whdload BestOfPearl.Slave $whdloadargs
+ENDIF

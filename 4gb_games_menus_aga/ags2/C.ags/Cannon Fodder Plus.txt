@@ -1,0 +1,5 @@
+Name      : Cannon Fodder Plus
+Publisher : Amiga Power
+Year      : 1993
+Players   : 1
+Whdload   : CannonFodderPlus.Slave

@@ -1,0 +1,6 @@
+cd A-Games:A/AdventuresOfQuik&Silva
+IF $whdloadargs EQ ""
+  whdload AdventuresOfQuik&Silva.Slave
+ELSE
+  whdload AdventuresOfQuik&Silva.Slave $whdloadargs
+ENDIF

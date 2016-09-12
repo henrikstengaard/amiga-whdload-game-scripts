@@ -1,0 +1,6 @@
+cd A-Demos:R/Raverance
+IF $whdloadargs EQ ""
+  whdload Raverance.slave
+ELSE
+  whdload Raverance.slave $whdloadargs
+ENDIF

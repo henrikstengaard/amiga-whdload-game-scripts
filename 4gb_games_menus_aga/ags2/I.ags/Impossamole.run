@@ -1,0 +1,6 @@
+cd A-Games1:I/Impossamole
+IF $whdloadargs EQ ""
+  whdload Impossamole.Slave
+ELSE
+  whdload Impossamole.Slave $whdloadargs
+ENDIF

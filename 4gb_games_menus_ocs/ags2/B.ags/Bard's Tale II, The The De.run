@@ -1,0 +1,6 @@
+cd A-Games1:B/BardsTale2
+IF $whdloadargs EQ ""
+  whdload BardsTale2.Slave
+ELSE
+  whdload BardsTale2.Slave $whdloadargs
+ENDIF

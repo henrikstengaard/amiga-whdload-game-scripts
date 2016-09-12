@@ -1,0 +1,6 @@
+cd A-Games:M/MegaTwins
+IF $whdloadargs EQ ""
+  whdload MegaTwins.slave
+ELSE
+  whdload MegaTwins.slave $whdloadargs
+ENDIF

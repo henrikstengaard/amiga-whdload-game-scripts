@@ -1,0 +1,6 @@
+cd A-Games2:S/SoldierOfLight
+IF $whdloadargs EQ ""
+  whdload SoldierOfLight.slave
+ELSE
+  whdload SoldierOfLight.slave $whdloadargs
+ENDIF

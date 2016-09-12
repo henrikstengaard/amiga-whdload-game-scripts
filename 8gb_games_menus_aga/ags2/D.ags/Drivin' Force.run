@@ -1,0 +1,6 @@
+cd A-Games:D/DrivinForce
+IF $whdloadargs EQ ""
+  whdload DrivinForce.Slave
+ELSE
+  whdload DrivinForce.Slave $whdloadargs
+ENDIF

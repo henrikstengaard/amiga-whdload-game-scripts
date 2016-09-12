@@ -1,0 +1,6 @@
+cd A-Games:W/WonderboyInMonsterland
+IF $whdloadargs EQ ""
+  whdload WonderboyInMonsterland.Slave
+ELSE
+  whdload WonderboyInMonsterland.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:B/BeatBox
+IF $whdloadargs EQ ""
+  whdload BeatBox.Slave
+ELSE
+  whdload BeatBox.Slave $whdloadargs
+ENDIF

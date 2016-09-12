@@ -1,0 +1,6 @@
+cd A-Games:C/Croak
+IF $whdloadargs EQ ""
+  whdload Croak.Slave
+ELSE
+  whdload Croak.Slave $whdloadargs
+ENDIF

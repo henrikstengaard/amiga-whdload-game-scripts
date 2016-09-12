@@ -1,0 +1,6 @@
+cd A-Games:F/FranticFreddie
+IF $whdloadargs EQ ""
+  whdload FranticFreddie.Slave
+ELSE
+  whdload FranticFreddie.Slave $whdloadargs
+ENDIF

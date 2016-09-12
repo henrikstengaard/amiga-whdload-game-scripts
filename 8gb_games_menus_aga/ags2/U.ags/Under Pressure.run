@@ -1,0 +1,6 @@
+cd A-Games:U/UnderPressure
+IF $whdloadargs EQ ""
+  whdload UnderPressure.Slave
+ELSE
+  whdload UnderPressure.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Last Ninja 3
+Publisher : System 3
+Year      : 1991
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : LastNinja3.Slave

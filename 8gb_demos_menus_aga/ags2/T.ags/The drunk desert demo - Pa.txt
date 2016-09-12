@@ -1,0 +1,6 @@
+Name    : The drunk desert demo
+Groups  : Paradox
+Type    : Demo
+Party   : Summer Party 1990
+Rank    : N/a
+Whdload : DrunkDesertDemo.Slave

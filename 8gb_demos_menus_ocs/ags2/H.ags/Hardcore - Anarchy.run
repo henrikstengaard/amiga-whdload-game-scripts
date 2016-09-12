@@ -1,0 +1,6 @@
+cd A-Demos:H/Hardcore
+IF $whdloadargs EQ ""
+  whdload Hardcore.slave
+ELSE
+  whdload Hardcore.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:N/Nebulus
+IF $whdloadargs EQ ""
+  whdload Nebulus.Slave
+ELSE
+  whdload Nebulus.Slave $whdloadargs
+ENDIF

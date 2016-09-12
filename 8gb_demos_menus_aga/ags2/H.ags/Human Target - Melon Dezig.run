@@ -1,0 +1,6 @@
+cd A-Demos:H/HumanTarget
+IF $whdloadargs EQ ""
+  whdload HumanTarget.slave
+ELSE
+  whdload HumanTarget.slave $whdloadargs
+ENDIF

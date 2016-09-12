@@ -1,0 +1,6 @@
+cd A-Games:S/SuperGridRunnerCracked
+IF $whdloadargs EQ ""
+  whdload SuperGridRunnerCracked.Slave
+ELSE
+  whdload SuperGridRunnerCracked.Slave $whdloadargs
+ENDIF

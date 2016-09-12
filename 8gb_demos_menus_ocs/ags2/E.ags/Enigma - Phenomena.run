@@ -1,0 +1,6 @@
+cd A-Demos:E/Enigma
+IF $whdloadargs EQ ""
+  whdload Enigma.slave
+ELSE
+  whdload Enigma.slave $whdloadargs
+ENDIF

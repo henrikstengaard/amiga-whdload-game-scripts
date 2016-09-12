@@ -1,0 +1,6 @@
+cd A-Games:S/SolomonsKey2
+IF $whdloadargs EQ ""
+  whdload SolomonsKey2.Slave
+ELSE
+  whdload SolomonsKey2.Slave $whdloadargs
+ENDIF

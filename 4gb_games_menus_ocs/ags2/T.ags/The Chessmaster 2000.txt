@@ -1,0 +1,5 @@
+Name      : The Chessmaster 2000
+Publisher : Electronic Arts / The Software Toolworks
+Year      : 1986
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Chessmaster2000.Slave

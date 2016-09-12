@@ -1,0 +1,6 @@
+cd A-Games:C/CruiseForACorpse
+IF $whdloadargs EQ ""
+  whdload CruiseForACorpse.Slave
+ELSE
+  whdload CruiseForACorpse.Slave $whdloadargs
+ENDIF

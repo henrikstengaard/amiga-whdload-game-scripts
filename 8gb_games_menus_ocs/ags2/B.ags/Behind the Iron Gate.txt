@@ -1,0 +1,5 @@
+Name      : Behind the Iron Gate
+Publisher : Black Legend
+Year      : 1995
+Players   : 1 Only
+Whdload   : BehindTheIronGate.slave

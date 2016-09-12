@@ -1,0 +1,6 @@
+cd A-Demos:M/MiamiViceTheme
+IF $whdloadargs EQ ""
+  whdload MiamiViceTheme.slave
+ELSE
+  whdload MiamiViceTheme.slave $whdloadargs
+ENDIF

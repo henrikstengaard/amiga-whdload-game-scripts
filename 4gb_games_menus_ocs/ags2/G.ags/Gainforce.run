@@ -1,0 +1,6 @@
+cd A-Games1:G/Gainforce
+IF $whdloadargs EQ ""
+  whdload Gainforce.Slave
+ELSE
+  whdload Gainforce.Slave $whdloadargs
+ENDIF

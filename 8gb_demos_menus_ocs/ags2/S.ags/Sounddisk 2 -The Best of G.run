@@ -1,0 +1,6 @@
+cd A-Demos:B/BestOfGrubi
+IF $whdloadargs EQ ""
+  whdload BestOfGrubi.Slave
+ELSE
+  whdload BestOfGrubi.Slave $whdloadargs
+ENDIF

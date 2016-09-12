@@ -1,0 +1,6 @@
+cd A-Demos:M/Multidemo
+IF $whdloadargs EQ ""
+  whdload Multidemo.Slave
+ELSE
+  whdload Multidemo.Slave $whdloadargs
+ENDIF

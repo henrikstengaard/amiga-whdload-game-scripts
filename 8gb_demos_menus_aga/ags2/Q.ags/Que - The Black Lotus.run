@@ -1,0 +1,6 @@
+cd A-Demos:Q/Que
+IF $whdloadargs EQ ""
+  whdload Que.Slave
+ELSE
+  whdload Que.Slave $whdloadargs
+ENDIF

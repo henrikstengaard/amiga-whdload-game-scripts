@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundQuest2
+IF $whdloadargs EQ ""
+  whdload SoundQuest2.Slave
+ELSE
+  whdload SoundQuest2.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:I/IveGotThePower
+IF $whdloadargs EQ ""
+  whdload IveGotThePower.Slave
+ELSE
+  whdload IveGotThePower.Slave $whdloadargs
+ENDIF

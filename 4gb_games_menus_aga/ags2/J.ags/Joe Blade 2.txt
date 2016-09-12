@@ -1,0 +1,6 @@
+Name      : Joe Blade 2
+Publisher : Players Software
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : JoeBlade2.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:D/DoubleIntro
+IF $whdloadargs EQ ""
+  whdload DoubleIntro.Slave
+ELSE
+  whdload DoubleIntro.Slave $whdloadargs
+ENDIF

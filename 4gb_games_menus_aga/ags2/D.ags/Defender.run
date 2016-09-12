@@ -1,0 +1,6 @@
+cd A-Games1:D/DefenderRatsoft
+IF $whdloadargs EQ ""
+  whdload DefenderRatsoft.slave
+ELSE
+  whdload DefenderRatsoft.slave $whdloadargs
+ENDIF

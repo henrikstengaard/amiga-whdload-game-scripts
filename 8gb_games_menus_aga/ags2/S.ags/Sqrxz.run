@@ -1,0 +1,6 @@
+cd A-Games:S/Sqrxz
+IF $whdloadargs EQ ""
+  whdload Sqrxz.Slave
+ELSE
+  whdload Sqrxz.Slave $whdloadargs
+ENDIF

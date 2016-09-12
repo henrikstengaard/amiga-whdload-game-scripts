@@ -1,0 +1,6 @@
+cd A-Games1:E/ElfMicroValue
+IF $whdloadargs EQ ""
+  whdload ElfMicroValue.Slave
+ELSE
+  whdload ElfMicroValue.Slave $whdloadargs
+ENDIF

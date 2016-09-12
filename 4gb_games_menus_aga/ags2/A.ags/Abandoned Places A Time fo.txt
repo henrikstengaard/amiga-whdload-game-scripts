@@ -1,0 +1,6 @@
+Name      : Abandoned Places: A Time for Heroes
+Publisher : Electronic Zoo
+Year      : 1992
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : AbandonedPlaces.slave

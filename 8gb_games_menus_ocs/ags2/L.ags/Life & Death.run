@@ -1,0 +1,6 @@
+cd A-Games:L/Life&Death
+IF $whdloadargs EQ ""
+  whdload Life&Death.slave
+ELSE
+  whdload Life&Death.slave $whdloadargs
+ENDIF

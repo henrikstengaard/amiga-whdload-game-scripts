@@ -1,0 +1,6 @@
+cd A-Games:C/Corporation2Disk
+IF $whdloadargs EQ ""
+  whdload Corporation2Disk.slave
+ELSE
+  whdload Corporation2Disk.slave $whdloadargs
+ENDIF

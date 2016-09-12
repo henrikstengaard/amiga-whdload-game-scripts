@@ -1,0 +1,6 @@
+Name      : Cygnus 8
+Publisher : Islona Entertainment
+Year      : 1997
+Genre     : Strategy - Trading
+Players   : 1 Only
+Whdload   : Cygnus8.Slave

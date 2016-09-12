@@ -1,0 +1,6 @@
+Name      : Shadow of the Beast III
+Publisher : Psygnosis
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ShadowOfTheBeast3.slave

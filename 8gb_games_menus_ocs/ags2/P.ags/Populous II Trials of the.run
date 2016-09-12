@@ -1,0 +1,6 @@
+cd A-Games:P/Populous2
+IF $whdloadargs EQ ""
+  whdload Populous2.slave
+ELSE
+  whdload Populous2.slave $whdloadargs
+ENDIF

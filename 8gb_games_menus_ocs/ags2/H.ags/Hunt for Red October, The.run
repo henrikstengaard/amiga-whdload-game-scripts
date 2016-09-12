@@ -1,0 +1,6 @@
+cd A-Games:H/HuntForRedOctoberTheMovie
+IF $whdloadargs EQ ""
+  whdload HuntForRedOctoberTheMovie.Slave
+ELSE
+  whdload HuntForRedOctoberTheMovie.Slave $whdloadargs
+ENDIF

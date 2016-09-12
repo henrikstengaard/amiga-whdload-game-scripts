@@ -1,0 +1,6 @@
+cd A-Demos:O/ObliqueInfinity
+IF $whdloadargs EQ ""
+  whdload ObliqueInfinity.Slave
+ELSE
+  whdload ObliqueInfinity.Slave $whdloadargs
+ENDIF

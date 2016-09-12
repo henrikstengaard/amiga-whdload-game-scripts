@@ -1,0 +1,4 @@
+Name    : Turrican Musicdisk
+Groups  : Andromeda
+Type    : Musicdisk
+Whdload : TurricanMusicDisk.slave

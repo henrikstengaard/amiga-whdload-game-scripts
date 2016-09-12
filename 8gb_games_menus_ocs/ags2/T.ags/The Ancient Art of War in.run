@@ -1,0 +1,6 @@
+cd A-Games:A/AncientArtOfWarInTheSkies
+IF $whdloadargs EQ ""
+  whdload AncientArtOfWarInTheSkies.Slave
+ELSE
+  whdload AncientArtOfWarInTheSkies.Slave $whdloadargs
+ENDIF

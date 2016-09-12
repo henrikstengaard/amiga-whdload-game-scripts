@@ -1,0 +1,6 @@
+Name      : Graham Gooch World Class Cricket
+Publisher : Audiogenic
+Year      : 1993
+Genre     : Sports - Cricket
+Players   : 1 or 2, Simultaneous
+Whdload   : GrahamGoochWCCricket.Slave

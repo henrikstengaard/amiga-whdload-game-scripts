@@ -1,0 +1,6 @@
+Name      : Captain Blood
+Publisher : Exxos (ERE/Infogrames)
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : CaptainBlood.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:V/VectorBobDemo
+IF $whdloadargs EQ ""
+  whdload VectorBobDemo.slave
+ELSE
+  whdload VectorBobDemo.slave $whdloadargs
+ENDIF

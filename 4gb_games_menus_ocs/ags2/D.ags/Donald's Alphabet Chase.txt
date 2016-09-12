@@ -1,0 +1,5 @@
+Name      : Donald's Alphabet Chase
+Publisher : Disney Software
+Genre     : Educational - Typing
+Players   : 1 Only
+Whdload   : DonaldsAlphabetChase.Slave

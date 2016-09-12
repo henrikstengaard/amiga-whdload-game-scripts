@@ -1,0 +1,6 @@
+Name      : Subtrade: Return to Irata
+Publisher : Boeder Software
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 4, Simultaneous
+Whdload   : Subtrade.slave

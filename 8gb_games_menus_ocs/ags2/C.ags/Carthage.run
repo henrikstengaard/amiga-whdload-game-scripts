@@ -1,0 +1,6 @@
+cd A-Games:C/Carthage
+IF $whdloadargs EQ ""
+  whdload Carthage.Slave
+ELSE
+  whdload Carthage.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Burning Rubber
+Publisher : Ocean
+Year      : 1993
+Genre     : Racing - Cars
+Whdload   : BurningRubber.slave

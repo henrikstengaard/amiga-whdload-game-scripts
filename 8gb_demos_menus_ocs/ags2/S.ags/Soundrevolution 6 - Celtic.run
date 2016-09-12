@@ -1,0 +1,6 @@
+cd A-Demos:S/Soundrevolution6
+IF $whdloadargs EQ ""
+  whdload Soundrevolution6.Slave
+ELSE
+  whdload Soundrevolution6.Slave $whdloadargs
+ENDIF

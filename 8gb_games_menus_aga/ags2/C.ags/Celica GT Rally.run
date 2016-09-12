@@ -1,0 +1,6 @@
+cd A-Games:T/ToyotaCelicaGTRally
+IF $whdloadargs EQ ""
+  whdload ToyotaCelicaGTRally.slave
+ELSE
+  whdload ToyotaCelicaGTRally.slave $whdloadargs
+ENDIF

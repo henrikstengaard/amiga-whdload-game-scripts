@@ -1,0 +1,6 @@
+cd A-Demos:L/Love
+IF $whdloadargs EQ ""
+  whdload Love.Slave
+ELSE
+  whdload Love.Slave $whdloadargs
+ENDIF

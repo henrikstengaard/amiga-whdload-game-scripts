@@ -1,0 +1,6 @@
+cd A-Games:H/HighwayPatrol2
+IF $whdloadargs EQ ""
+  whdload HighwayPatrol2.Slave
+ELSE
+  whdload HighwayPatrol2.Slave $whdloadargs
+ENDIF

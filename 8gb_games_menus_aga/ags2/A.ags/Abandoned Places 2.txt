@@ -1,0 +1,6 @@
+Name      : Abandoned Places 2
+Publisher : ICE
+Year      : 1993
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : AbandonedPlaces2.Slave

@@ -1,0 +1,6 @@
+cd A-Games:C/CrossCheck
+IF $whdloadargs EQ ""
+  whdload CrossCheck.slave
+ELSE
+  whdload CrossCheck.slave $whdloadargs
+ENDIF

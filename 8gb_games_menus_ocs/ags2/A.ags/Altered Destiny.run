@@ -1,0 +1,6 @@
+cd A-Games:A/AlteredDestiny
+IF $whdloadargs EQ ""
+  whdload AlteredDestiny.slave
+ELSE
+  whdload AlteredDestiny.slave $whdloadargs
+ENDIF

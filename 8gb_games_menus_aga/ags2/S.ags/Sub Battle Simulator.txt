@@ -1,0 +1,6 @@
+Name      : Sub Battle Simulator
+Publisher : Epyx
+Year      : 1988
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : SubBattleSimulator.Slave

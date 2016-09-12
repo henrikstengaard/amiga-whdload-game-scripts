@@ -1,0 +1,6 @@
+cd A-Demos:A/ArtificialParadise
+IF $whdloadargs EQ ""
+  whdload ArtificialParadise.slave
+ELSE
+  whdload ArtificialParadise.slave $whdloadargs
+ENDIF

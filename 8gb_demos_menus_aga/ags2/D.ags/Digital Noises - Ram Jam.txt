@@ -1,0 +1,4 @@
+Name    : Digital Noises
+Groups  : Ram Jam
+Type    : Musicdisk
+Whdload : DigitalNoises.Slave

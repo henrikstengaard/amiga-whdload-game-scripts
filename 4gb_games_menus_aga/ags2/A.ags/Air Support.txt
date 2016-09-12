@@ -1,0 +1,6 @@
+Name      : Air Support
+Publisher : Psygnosis
+Year      : 1992
+Genre     : Simulation - Space
+Players   : 1 Only
+Whdload   : AirSupport.Slave

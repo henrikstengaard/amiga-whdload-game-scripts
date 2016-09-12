@@ -1,0 +1,4 @@
+Name    : Oasis
+Groups  : Stellar
+Type    : Intro
+Whdload : Oasis.Slave

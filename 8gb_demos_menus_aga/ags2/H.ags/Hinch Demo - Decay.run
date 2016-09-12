@@ -1,0 +1,6 @@
+cd A-Demos:D/DerrynHinchDemo
+IF $whdloadargs EQ ""
+  whdload DerrynHinchDemo.Slave
+ELSE
+  whdload DerrynHinchDemo.Slave $whdloadargs
+ENDIF

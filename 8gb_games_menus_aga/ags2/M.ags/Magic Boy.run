@@ -1,0 +1,6 @@
+cd A-Games:M/MagicBoy
+IF $whdloadargs EQ ""
+  whdload MagicBoy.slave
+ELSE
+  whdload MagicBoy.slave $whdloadargs
+ENDIF

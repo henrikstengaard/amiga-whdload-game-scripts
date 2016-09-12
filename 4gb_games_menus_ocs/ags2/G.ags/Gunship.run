@@ -1,0 +1,6 @@
+cd A-Games1:G/Gunship
+IF $whdloadargs EQ ""
+  whdload Gunship.slave
+ELSE
+  whdload Gunship.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/Stardust
+IF $whdloadargs EQ ""
+  whdload Stardust.Slave
+ELSE
+  whdload Stardust.Slave $whdloadargs
+ENDIF

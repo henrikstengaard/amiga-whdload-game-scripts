@@ -1,0 +1,6 @@
+Name    : Great Bytes In Fire
+Groups  : Cyberiad
+Type    : Demo
+Party   : The Gathering 1992
+Rank    : 5th
+Whdload : GreatBytesInFire.Slave

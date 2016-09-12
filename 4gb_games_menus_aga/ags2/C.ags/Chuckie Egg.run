@@ -1,0 +1,6 @@
+cd A-Games1:C/ChuckieEgg
+IF $whdloadargs EQ ""
+  whdload ChuckieEgg.Slave
+ELSE
+  whdload ChuckieEgg.Slave $whdloadargs
+ENDIF

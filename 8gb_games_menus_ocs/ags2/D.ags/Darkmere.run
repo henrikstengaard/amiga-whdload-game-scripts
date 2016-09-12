@@ -1,0 +1,6 @@
+cd A-Games:D/Darkmere
+IF $whdloadargs EQ ""
+  whdload Darkmere.Slave
+ELSE
+  whdload Darkmere.Slave $whdloadargs
+ENDIF

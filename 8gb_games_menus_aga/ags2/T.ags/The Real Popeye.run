@@ -1,0 +1,6 @@
+cd A-Games:R/RealPopeye
+IF $whdloadargs EQ ""
+  whdload RealPopeye.Slave
+ELSE
+  whdload RealPopeye.Slave $whdloadargs
+ENDIF

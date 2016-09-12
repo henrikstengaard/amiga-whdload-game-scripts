@@ -1,0 +1,6 @@
+cd A-Demos:I/Ilex
+IF $whdloadargs EQ ""
+  whdload Ilex.Slave
+ELSE
+  whdload Ilex.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Hybris
+Publisher : Discovery Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : Hybris.Slave

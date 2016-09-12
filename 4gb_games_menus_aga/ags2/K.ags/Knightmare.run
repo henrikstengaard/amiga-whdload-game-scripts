@@ -1,0 +1,6 @@
+cd A-Games1:K/Knightmare
+IF $whdloadargs EQ ""
+  whdload Knightmare.slave
+ELSE
+  whdload Knightmare.slave $whdloadargs
+ENDIF

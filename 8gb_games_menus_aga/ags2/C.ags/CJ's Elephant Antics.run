@@ -1,0 +1,6 @@
+cd A-Games:C/CJsElephantAntics
+IF $whdloadargs EQ ""
+  whdload CJsElephantAntics.Slave
+ELSE
+  whdload CJsElephantAntics.Slave $whdloadargs
+ENDIF

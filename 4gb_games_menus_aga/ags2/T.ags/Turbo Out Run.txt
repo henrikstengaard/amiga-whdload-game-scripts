@@ -1,0 +1,6 @@
+Name      : Turbo Out Run
+Publisher : US Gold
+Year      : 1990
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : TurboOutrun.slave

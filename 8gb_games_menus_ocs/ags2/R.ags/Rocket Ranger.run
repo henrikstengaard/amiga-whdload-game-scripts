@@ -1,0 +1,6 @@
+cd A-Games:R/RocketRanger
+IF $whdloadargs EQ ""
+  whdload RocketRanger.Slave
+ELSE
+  whdload RocketRanger.Slave $whdloadargs
+ENDIF

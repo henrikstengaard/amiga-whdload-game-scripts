@@ -1,0 +1,6 @@
+cd A-Games1:A/ACSYSDemoAGA
+IF $whdloadargs EQ ""
+  whdload ACSYSDemoAGA.Slave
+ELSE
+  whdload ACSYSDemoAGA.Slave $whdloadargs
+ENDIF

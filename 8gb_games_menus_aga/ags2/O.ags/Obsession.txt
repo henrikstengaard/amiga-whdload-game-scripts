@@ -1,0 +1,6 @@
+Name      : Obsession
+Publisher : Unique Development Sweden
+Year      : 1995
+Genre     : Arcade - Pinball
+Players   : 1 Only
+Whdload   : Obsession.Slave

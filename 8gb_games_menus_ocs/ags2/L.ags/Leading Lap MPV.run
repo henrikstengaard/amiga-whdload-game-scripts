@@ -1,0 +1,6 @@
+cd A-Games:L/LeadingLapMPV
+IF $whdloadargs EQ ""
+  whdload LeadingLapMPV.Slave
+ELSE
+  whdload LeadingLapMPV.Slave $whdloadargs
+ENDIF

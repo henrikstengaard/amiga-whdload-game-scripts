@@ -1,0 +1,6 @@
+cd A-Games:M/Magnatron
+IF $whdloadargs EQ ""
+  whdload Magnatron.Slave
+ELSE
+  whdload Magnatron.Slave $whdloadargs
+ENDIF

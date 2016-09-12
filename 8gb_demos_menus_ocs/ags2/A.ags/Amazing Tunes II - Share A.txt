@@ -1,0 +1,6 @@
+Name    : Amazing Tunes II
+Groups  : Share And Enjoy
+Type    : Musicdisk
+Party   : Dexion X-Mas Conference 1990
+Rank    : N/a
+Whdload : AmazingTunes2.Slave

@@ -1,0 +1,6 @@
+cd A-Games1:M/MaydaySquadHeroes
+IF $whdloadargs EQ ""
+  whdload MaydaySquadHeroes.Slave
+ELSE
+  whdload MaydaySquadHeroes.Slave $whdloadargs
+ENDIF

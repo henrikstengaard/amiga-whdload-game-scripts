@@ -1,0 +1,6 @@
+cd A-Demos:E/Epilepsia
+IF $whdloadargs EQ ""
+  whdload Epilepsia.Slave
+ELSE
+  whdload Epilepsia.Slave $whdloadargs
+ENDIF

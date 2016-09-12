@@ -1,0 +1,6 @@
+cd A-Demos:D/DemonsAreForever
+IF $whdloadargs EQ ""
+  whdload DemonsAreForever.Slave
+ELSE
+  whdload DemonsAreForever.Slave $whdloadargs
+ENDIF

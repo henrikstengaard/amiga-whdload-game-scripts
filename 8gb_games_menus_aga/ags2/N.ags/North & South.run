@@ -1,0 +1,6 @@
+cd A-Games:N/North&South
+IF $whdloadargs EQ ""
+  whdload North&South.Slave
+ELSE
+  whdload North&South.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:W/WingCommander
+IF $whdloadargs EQ ""
+  whdload WingCommander.Slave
+ELSE
+  whdload WingCommander.Slave $whdloadargs
+ENDIF

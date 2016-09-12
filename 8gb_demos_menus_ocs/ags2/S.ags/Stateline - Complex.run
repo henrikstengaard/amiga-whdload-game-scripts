@@ -1,0 +1,6 @@
+cd A-Demos:S/Stateline
+IF $whdloadargs EQ ""
+  whdload Stateline.Slave
+ELSE
+  whdload Stateline.Slave $whdloadargs
+ENDIF

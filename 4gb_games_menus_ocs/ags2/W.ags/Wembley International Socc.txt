@@ -1,0 +1,6 @@
+Name      : Wembley International Soccer
+Publisher : Audiogenic
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : WembleyIntSoccer.Slave

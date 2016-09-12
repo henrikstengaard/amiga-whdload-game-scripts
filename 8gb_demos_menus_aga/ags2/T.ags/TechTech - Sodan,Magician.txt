@@ -1,0 +1,6 @@
+Name    : TechTech
+Groups  : Sodan,Magician 42
+Type    : Demo
+Party   : Venlo Meeting 1987
+Rank    : N/a
+Whdload : Techtech.Slave

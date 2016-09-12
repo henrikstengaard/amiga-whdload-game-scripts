@@ -1,0 +1,6 @@
+cd A-Games:G/GreatGianaSisters
+IF $whdloadargs EQ ""
+  whdload GreatGianaSisters.slave
+ELSE
+  whdload GreatGianaSisters.slave $whdloadargs
+ENDIF

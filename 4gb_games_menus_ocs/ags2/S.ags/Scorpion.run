@@ -1,0 +1,6 @@
+cd A-Games2:S/Scorpion
+IF $whdloadargs EQ ""
+  whdload Scorpion.Slave
+ELSE
+  whdload Scorpion.Slave $whdloadargs
+ENDIF

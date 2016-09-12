@@ -1,0 +1,6 @@
+cd A-Games:W/WorldClassSoccer
+IF $whdloadargs EQ ""
+  whdload WorldClassSoccer.slave
+ELSE
+  whdload WorldClassSoccer.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Block Out
+Publisher : California Dreams
+Year      : 1989
+Genre     : Arcade - Tetris
+Players   : 1 Only
+Whdload   : BlockOut.slave

@@ -1,0 +1,6 @@
+cd A-Games:K/KillingGameShow
+IF $whdloadargs EQ ""
+  whdload KillingGameShow.Slave
+ELSE
+  whdload KillingGameShow.Slave $whdloadargs
+ENDIF

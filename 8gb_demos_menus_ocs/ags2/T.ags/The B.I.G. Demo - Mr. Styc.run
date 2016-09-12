@@ -1,0 +1,6 @@
+cd A-Demos:B/BIGDemo
+IF $whdloadargs EQ ""
+  whdload BIGDemo.Slave
+ELSE
+  whdload BIGDemo.Slave $whdloadargs
+ENDIF

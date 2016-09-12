@@ -1,0 +1,6 @@
+Name    : Terminal fuckup
+Groups  : Sanity
+Type    : Demo
+Party   : CeBIT Demo Competition 1993
+Rank    : 3rd
+Whdload : TerminalFuckup.Slave

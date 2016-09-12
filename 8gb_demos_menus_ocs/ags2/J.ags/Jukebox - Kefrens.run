@@ -1,0 +1,6 @@
+cd A-Demos:J/Jukebox
+IF $whdloadargs EQ ""
+  whdload Jukebox.Slave
+ELSE
+  whdload Jukebox.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Prism
+Groups  : Melon Dezign
+Type    : Slideshow
+Whdload : Prism.Slave

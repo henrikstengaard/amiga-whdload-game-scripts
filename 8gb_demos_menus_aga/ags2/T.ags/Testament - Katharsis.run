@@ -1,0 +1,6 @@
+cd A-Demos:T/Testament
+IF $whdloadargs EQ ""
+  whdload Testament.Slave
+ELSE
+  whdload Testament.Slave $whdloadargs
+ENDIF

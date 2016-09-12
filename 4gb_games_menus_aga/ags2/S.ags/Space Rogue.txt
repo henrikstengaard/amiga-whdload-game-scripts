@@ -1,0 +1,6 @@
+Name      : Space Rogue
+Publisher : Origin Systems
+Year      : 1989
+Genre     : Simulation - Space
+Players   : 1 Only
+Whdload   : SpaceRogue.Slave

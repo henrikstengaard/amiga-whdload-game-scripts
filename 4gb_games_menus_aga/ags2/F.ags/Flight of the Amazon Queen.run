@@ -1,0 +1,6 @@
+cd A-Games1:F/FlightOfTheAmazonQueen
+IF $whdloadargs EQ ""
+  whdload FlightOfTheAmazonQueen.Slave
+ELSE
+  whdload FlightOfTheAmazonQueen.Slave $whdloadargs
+ENDIF

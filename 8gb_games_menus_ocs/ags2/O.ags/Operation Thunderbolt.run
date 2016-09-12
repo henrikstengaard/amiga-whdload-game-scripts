@@ -1,0 +1,6 @@
+cd A-Games:O/OperationThunderbolt
+IF $whdloadargs EQ ""
+  whdload OperationThunderbolt.Slave
+ELSE
+  whdload OperationThunderbolt.Slave $whdloadargs
+ENDIF

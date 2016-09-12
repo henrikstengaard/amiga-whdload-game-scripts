@@ -1,0 +1,6 @@
+cd A-Games1:E/Enforcer
+IF $whdloadargs EQ ""
+  whdload Enforcer.Slave
+ELSE
+  whdload Enforcer.Slave $whdloadargs
+ENDIF

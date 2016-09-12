@@ -1,0 +1,6 @@
+cd A-Games:S/SuperSki
+IF $whdloadargs EQ ""
+  whdload SuperSki.Slave
+ELSE
+  whdload SuperSki.Slave $whdloadargs
+ENDIF

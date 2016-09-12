@@ -1,0 +1,6 @@
+cd A-Demos:A/Arte
+IF $whdloadargs EQ ""
+  whdload Arte.Slave
+ELSE
+  whdload Arte.Slave $whdloadargs
+ENDIF

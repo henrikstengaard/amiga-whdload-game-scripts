@@ -1,0 +1,6 @@
+cd A-Games:H/Hotshot
+IF $whdloadargs EQ ""
+  whdload Hotshot.Slave
+ELSE
+  whdload Hotshot.Slave $whdloadargs
+ENDIF

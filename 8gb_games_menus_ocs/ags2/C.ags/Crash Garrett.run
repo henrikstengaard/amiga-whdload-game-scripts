@@ -1,0 +1,6 @@
+cd A-Games:C/CrashGarrett
+IF $whdloadargs EQ ""
+  whdload CrashGarrett.Slave
+ELSE
+  whdload CrashGarrett.Slave $whdloadargs
+ENDIF

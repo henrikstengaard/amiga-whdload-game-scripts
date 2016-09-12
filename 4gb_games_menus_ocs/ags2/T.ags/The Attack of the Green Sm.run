@@ -1,0 +1,6 @@
+cd A-Games1:A/AotGSAFP27b6
+IF $whdloadargs EQ ""
+  whdload AotGSAFP27b6.Slave
+ELSE
+  whdload AotGSAFP27b6.Slave $whdloadargs
+ENDIF

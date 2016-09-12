@@ -1,0 +1,6 @@
+cd A-Games:A/Aquaventura
+IF $whdloadargs EQ ""
+  whdload Aquaventura.slave
+ELSE
+  whdload Aquaventura.slave $whdloadargs
+ENDIF

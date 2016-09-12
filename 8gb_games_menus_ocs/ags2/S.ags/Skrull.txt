@@ -1,0 +1,6 @@
+Name      : Skrull
+Publisher : Infogrames
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Skrull.Slave

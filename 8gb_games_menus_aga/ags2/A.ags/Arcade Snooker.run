@@ -1,0 +1,6 @@
+cd A-Games:A/ArcadeSnookerAGA
+IF $whdloadargs EQ ""
+  whdload ArcadeSnookerAGA.Slave
+ELSE
+  whdload ArcadeSnookerAGA.Slave $whdloadargs
+ENDIF

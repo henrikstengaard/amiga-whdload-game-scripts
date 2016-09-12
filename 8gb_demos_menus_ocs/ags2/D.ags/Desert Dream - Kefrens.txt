@@ -1,0 +1,6 @@
+Name    : Desert Dream
+Groups  : Kefrens
+Type    : Demo
+Party   : The Gathering 1993
+Rank    : 1st
+Whdload : DesertDream.slave

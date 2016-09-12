@@ -1,0 +1,6 @@
+cd A-Games:W/WorldDartsArcadia
+IF $whdloadargs EQ ""
+  whdload WorldDartsArcadia.Slave
+ELSE
+  whdload WorldDartsArcadia.Slave $whdloadargs
+ENDIF

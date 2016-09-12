@@ -1,0 +1,5 @@
+Name      : Battle Bound
+Publisher : On-line Entertainments
+Year      : 1991
+Players   : 1 Only
+Whdload   : BattleBound.Slave

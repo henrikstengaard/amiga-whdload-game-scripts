@@ -1,0 +1,6 @@
+Name    : Friday at Eight
+Groups  : Polka brothers
+Type    : Demo
+Party   : The Gathering 1994
+Rank    : 3rd
+Whdload : FridayAtEight.Slave

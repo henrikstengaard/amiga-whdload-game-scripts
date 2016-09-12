@@ -1,0 +1,6 @@
+cd A-Games:P/Phalanx
+IF $whdloadargs EQ ""
+  whdload Phalanx.Slave
+ELSE
+  whdload Phalanx.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicDisk1Bass
+IF $whdloadargs EQ ""
+  whdload MusicDisk1Bass.Slave
+ELSE
+  whdload MusicDisk1Bass.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/Sentinel
+IF $whdloadargs EQ ""
+  whdload Sentinel.slave
+ELSE
+  whdload Sentinel.slave $whdloadargs
+ENDIF

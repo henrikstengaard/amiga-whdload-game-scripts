@@ -1,0 +1,6 @@
+Name      : Apprentice
+Publisher : Rainbow Arts
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Apprentice.slave

@@ -1,0 +1,5 @@
+Name      : Grid Runner
+Publisher : Llamasoft
+Year      : 1989
+Players   : 1 Only
+Whdload   : SuperGridRunner.Slave

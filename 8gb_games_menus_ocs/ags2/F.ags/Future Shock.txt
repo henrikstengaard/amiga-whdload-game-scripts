@@ -1,0 +1,5 @@
+Name      : Future Shock
+Publisher : Amiga Fun
+Year      : 1991
+Players   : 1 Only
+Whdload   : FutureShock.slave

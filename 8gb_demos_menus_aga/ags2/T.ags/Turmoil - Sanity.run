@@ -1,0 +1,6 @@
+cd A-Demos:T/Turmoil
+IF $whdloadargs EQ ""
+  whdload Turmoil.slave
+ELSE
+  whdload Turmoil.slave $whdloadargs
+ENDIF

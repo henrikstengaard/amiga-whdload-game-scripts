@@ -1,0 +1,6 @@
+cd A-Games:S/ShufflepuckCafe
+IF $whdloadargs EQ ""
+  whdload ShufflepuckCafe.Slave
+ELSE
+  whdload ShufflepuckCafe.Slave $whdloadargs
+ENDIF

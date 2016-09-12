@@ -1,0 +1,6 @@
+cd A-Games1:B/BabaYaga
+IF $whdloadargs EQ ""
+  whdload BabaYaga.slave
+ELSE
+  whdload BabaYaga.slave $whdloadargs
+ENDIF

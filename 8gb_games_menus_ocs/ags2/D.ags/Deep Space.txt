@@ -1,0 +1,5 @@
+Name      : Deep Space
+Publisher : Psygnosis
+Year      : 1986
+Players   : 1 Only
+Whdload   : DeepSpace.slave

@@ -1,0 +1,6 @@
+cd A-Games2:S/SpaceQuest4
+IF $whdloadargs EQ ""
+  whdload SpaceQuest4.slave
+ELSE
+  whdload SpaceQuest4.slave $whdloadargs
+ENDIF

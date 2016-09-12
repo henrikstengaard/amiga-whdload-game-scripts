@@ -1,0 +1,6 @@
+Name      : American Gladiators
+Publisher : Gametek
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 to 16
+Whdload   : AmericanGladiators.slave

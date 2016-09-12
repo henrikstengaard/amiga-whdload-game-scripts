@@ -1,0 +1,6 @@
+cd A-Games:R/RomeAD92
+IF $whdloadargs EQ ""
+  whdload RomeAD92.Slave
+ELSE
+  whdload RomeAD92.Slave $whdloadargs
+ENDIF

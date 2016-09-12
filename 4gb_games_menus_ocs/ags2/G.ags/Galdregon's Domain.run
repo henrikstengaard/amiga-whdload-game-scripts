@@ -1,0 +1,6 @@
+cd A-Games1:G/GaldregonsDomain
+IF $whdloadargs EQ ""
+  whdload GaldregonsDomain.Slave
+ELSE
+  whdload GaldregonsDomain.Slave $whdloadargs
+ENDIF

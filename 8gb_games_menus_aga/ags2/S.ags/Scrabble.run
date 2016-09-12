@@ -1,0 +1,6 @@
+cd A-Games:S/Scrabble
+IF $whdloadargs EQ ""
+  whdload Scrabble.Slave
+ELSE
+  whdload Scrabble.Slave $whdloadargs
+ENDIF

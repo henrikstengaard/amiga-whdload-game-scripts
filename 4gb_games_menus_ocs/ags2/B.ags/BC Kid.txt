@@ -1,0 +1,6 @@
+Name      : BC Kid
+Publisher : Ubi Soft
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : BCKid.Slave

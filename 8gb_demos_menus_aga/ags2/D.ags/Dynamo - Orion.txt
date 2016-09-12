@@ -1,0 +1,4 @@
+Name    : Dynamo
+Groups  : Orion
+Type    : Musicdisk
+Whdload : Dynamo.Slave

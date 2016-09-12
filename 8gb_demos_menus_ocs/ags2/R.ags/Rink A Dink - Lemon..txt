@@ -1,0 +1,4 @@
+Name    : Rink A Dink
+Groups  : Lemon.
+Type    : Demo
+Whdload : RinkADink.Slave

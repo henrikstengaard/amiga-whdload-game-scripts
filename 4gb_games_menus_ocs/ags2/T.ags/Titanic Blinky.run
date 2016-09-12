@@ -1,0 +1,6 @@
+cd A-Games2:T/TitanicBlinky
+IF $whdloadargs EQ ""
+  whdload TitanicBlinky.Slave
+ELSE
+  whdload TitanicBlinky.Slave $whdloadargs
+ENDIF

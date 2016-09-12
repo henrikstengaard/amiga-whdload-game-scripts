@@ -1,0 +1,6 @@
+cd A-Games2:Z/Zombi
+IF $whdloadargs EQ ""
+  whdload Zombi.slave
+ELSE
+  whdload Zombi.slave $whdloadargs
+ENDIF

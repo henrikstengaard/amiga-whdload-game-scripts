@@ -1,0 +1,5 @@
+Name      : Future Classics Collection
+Publisher : Electronic Zoo / Life Studios
+Year      : 1990
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : FutureClassicsCollection.Slave

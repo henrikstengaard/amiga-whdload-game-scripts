@@ -1,0 +1,6 @@
+cd A-Games:F/FourCrystalsOfTrazere
+IF $whdloadargs EQ ""
+  whdload getlegendsavedisk.slave
+ELSE
+  whdload getlegendsavedisk.slave $whdloadargs
+ENDIF

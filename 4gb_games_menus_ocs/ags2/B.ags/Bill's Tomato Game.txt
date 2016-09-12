@@ -1,0 +1,6 @@
+Name      : Bill's Tomato Game
+Publisher : Psygnosis
+Year      : 1992
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : BillsTomatoGame.slave

@@ -1,0 +1,5 @@
+Name      : Might and Magic II: Gates to Another World
+Publisher : New World Computing
+Year      : 1990
+Players   : 1
+Whdload   : Might&Magic2.Slave

@@ -1,0 +1,6 @@
+cd A-Games:G/Gobliiins
+IF $whdloadargs EQ ""
+  whdload Gobliiins.Slave
+ELSE
+  whdload Gobliiins.Slave $whdloadargs
+ENDIF

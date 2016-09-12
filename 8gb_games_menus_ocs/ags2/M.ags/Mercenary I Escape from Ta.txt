@@ -1,0 +1,6 @@
+Name      : Mercenary I: Escape from Targ and the Second City
+Publisher : Novagen
+Year      : 1988
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : Mercenary.slave

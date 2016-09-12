@@ -1,0 +1,6 @@
+cd A-Games:A/AdventureConstructionSet
+IF $whdloadargs EQ ""
+  whdload AdventureConstructionSet.slave
+ELSE
+  whdload AdventureConstructionSet.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:C/ChaosEngineAGA
+IF $whdloadargs EQ ""
+  whdload ChaosEngineAGA.Slave
+ELSE
+  whdload ChaosEngineAGA.Slave $whdloadargs
+ENDIF

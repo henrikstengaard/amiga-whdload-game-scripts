@@ -1,0 +1,6 @@
+cd A-Demos:P/Punisher
+IF $whdloadargs EQ ""
+  whdload Punisher.Slave
+ELSE
+  whdload Punisher.Slave $whdloadargs
+ENDIF

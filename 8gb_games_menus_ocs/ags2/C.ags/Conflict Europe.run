@@ -1,0 +1,6 @@
+cd A-Games:C/ConflictEurope
+IF $whdloadargs EQ ""
+  whdload ConflictEurope.Slave
+ELSE
+  whdload ConflictEurope.Slave $whdloadargs
+ENDIF

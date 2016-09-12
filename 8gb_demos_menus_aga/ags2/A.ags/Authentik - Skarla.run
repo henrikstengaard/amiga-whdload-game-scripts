@@ -1,0 +1,6 @@
+cd A-Demos:A/Authentik
+IF $whdloadargs EQ ""
+  whdload Authentik.Slave
+ELSE
+  whdload Authentik.Slave $whdloadargs
+ENDIF

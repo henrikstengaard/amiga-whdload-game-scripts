@@ -1,0 +1,6 @@
+cd A-Demos:A/Animotion
+IF $whdloadargs EQ ""
+  whdload Animotion.Slave
+ELSE
+  whdload Animotion.Slave $whdloadargs
+ENDIF

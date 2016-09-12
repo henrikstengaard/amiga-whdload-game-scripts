@@ -1,0 +1,6 @@
+cd A-Games:P/Patrician
+IF $whdloadargs EQ ""
+  whdload Patrician.slave
+ELSE
+  whdload Patrician.slave $whdloadargs
+ENDIF

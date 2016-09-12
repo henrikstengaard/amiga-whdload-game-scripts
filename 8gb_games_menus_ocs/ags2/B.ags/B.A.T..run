@@ -1,0 +1,6 @@
+cd A-Games:B/BAT
+IF $whdloadargs EQ ""
+  whdload BAT.Slave
+ELSE
+  whdload BAT.Slave $whdloadargs
+ENDIF

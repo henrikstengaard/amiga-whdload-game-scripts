@@ -1,0 +1,6 @@
+Name      : World Class Rugby: Five Nations Edition
+Publisher : Audiogenic
+Year      : 1992
+Genre     : Sports - Rugby
+Players   : 1 or 2, Simultaneous
+Whdload   : WorldClassRugby5Nations.Slave

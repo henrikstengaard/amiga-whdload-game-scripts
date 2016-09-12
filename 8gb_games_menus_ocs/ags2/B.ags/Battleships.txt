@@ -1,0 +1,6 @@
+Name      : Battleships
+Publisher : Elite
+Year      : 1987
+Genre     : Gambling - Battleships
+Players   : 1 or 2
+Whdload   : Battleships.slave

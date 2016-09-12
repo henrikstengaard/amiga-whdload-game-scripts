@@ -1,0 +1,4 @@
+Name    : Hit Collection 1
+Groups  : Commando
+Type    : Musicdisk
+Whdload : HitCollection1.Slave

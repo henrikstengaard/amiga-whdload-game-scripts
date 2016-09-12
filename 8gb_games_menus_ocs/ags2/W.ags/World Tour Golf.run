@@ -1,0 +1,6 @@
+cd A-Games:W/WorldTourGolf
+IF $whdloadargs EQ ""
+  whdload WorldTourGolf.Slave
+ELSE
+  whdload WorldTourGolf.Slave $whdloadargs
+ENDIF

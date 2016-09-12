@@ -1,0 +1,6 @@
+cd A-Games:K/KryptonEgg
+IF $whdloadargs EQ ""
+  whdload KryptonEgg.Slave
+ELSE
+  whdload KryptonEgg.Slave $whdloadargs
+ENDIF

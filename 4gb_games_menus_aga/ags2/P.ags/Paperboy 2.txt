@@ -1,0 +1,6 @@
+Name      : Paperboy 2
+Publisher : Mindscape
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2
+Whdload   : Paperboy2.slave

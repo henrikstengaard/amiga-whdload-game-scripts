@@ -1,0 +1,6 @@
+cd A-Games:P/PipelineNomad
+IF $whdloadargs EQ ""
+  whdload PipelineNomad.Slave
+ELSE
+  whdload PipelineNomad.Slave $whdloadargs
+ENDIF

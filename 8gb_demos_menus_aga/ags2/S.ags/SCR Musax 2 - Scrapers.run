@@ -1,0 +1,6 @@
+cd A-Demos:S/SCRMusax2
+IF $whdloadargs EQ ""
+  whdload SCRMusax2.Slave
+ELSE
+  whdload SCRMusax2.Slave $whdloadargs
+ENDIF

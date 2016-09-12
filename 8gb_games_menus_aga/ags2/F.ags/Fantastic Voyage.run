@@ -1,0 +1,6 @@
+cd A-Games:F/FantasticVoyageCDTV
+IF $whdloadargs EQ ""
+  whdload FantasticVoyageCDTV.slave
+ELSE
+  whdload FantasticVoyageCDTV.slave $whdloadargs
+ENDIF

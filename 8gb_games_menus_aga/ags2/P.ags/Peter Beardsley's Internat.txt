@@ -1,0 +1,6 @@
+Name      : Peter Beardsley's International Football
+Publisher : Grandslam
+Year      : 1988
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : PeterBeardsleysIF.Slave

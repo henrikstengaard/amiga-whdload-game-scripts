@@ -1,0 +1,6 @@
+cd A-Demos:W/Wild
+IF $whdloadargs EQ ""
+  whdload Wild.Slave
+ELSE
+  whdload Wild.Slave $whdloadargs
+ENDIF

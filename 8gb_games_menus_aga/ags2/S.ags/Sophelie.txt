@@ -1,0 +1,5 @@
+Name      : Sophelie
+Publisher : New Deal Productions
+Year      : 1990
+Players   : 1 Only
+Whdload   : Sophelie.Slave

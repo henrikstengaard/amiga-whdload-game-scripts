@@ -1,0 +1,6 @@
+cd A-Games:F/FastFoodDizzyCollection
+IF $whdloadargs EQ ""
+  whdload FastFoodDizzyCollection.Slave
+ELSE
+  whdload FastFoodDizzyCollection.Slave $whdloadargs
+ENDIF

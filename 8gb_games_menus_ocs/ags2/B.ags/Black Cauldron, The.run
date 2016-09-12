@@ -1,0 +1,6 @@
+cd A-Games:B/BlackCauldron
+IF $whdloadargs EQ ""
+  whdload BlackCauldron.Slave
+ELSE
+  whdload BlackCauldron.Slave $whdloadargs
+ENDIF

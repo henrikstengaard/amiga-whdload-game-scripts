@@ -1,0 +1,6 @@
+cd A-Demos:H/HitTheRoad
+IF $whdloadargs EQ ""
+  whdload HitTheRoad.Slave
+ELSE
+  whdload HitTheRoad.Slave $whdloadargs
+ENDIF

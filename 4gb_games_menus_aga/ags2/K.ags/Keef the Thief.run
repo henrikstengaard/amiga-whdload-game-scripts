@@ -1,0 +1,6 @@
+cd A-Games1:K/KeefTheThief
+IF $whdloadargs EQ ""
+  whdload KeefTheThief.Slave
+ELSE
+  whdload KeefTheThief.Slave $whdloadargs
+ENDIF

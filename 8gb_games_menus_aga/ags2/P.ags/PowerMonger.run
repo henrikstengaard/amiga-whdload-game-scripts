@@ -1,0 +1,6 @@
+cd A-Games:P/Powermonger
+IF $whdloadargs EQ ""
+  whdload Powermonger.Slave
+ELSE
+  whdload Powermonger.Slave $whdloadargs
+ENDIF

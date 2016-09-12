@@ -1,0 +1,5 @@
+Name      : Tetra Quest
+Publisher : Microdeal (MichTron)
+Year      : 1988
+Players   : 1
+Whdload   : TetraQuest.slave

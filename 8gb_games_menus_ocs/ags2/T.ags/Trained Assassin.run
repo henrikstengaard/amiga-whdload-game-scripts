@@ -1,0 +1,6 @@
+cd A-Games:T/TrainedAssassin
+IF $whdloadargs EQ ""
+  whdload TrainedAssassin.Slave
+ELSE
+  whdload TrainedAssassin.Slave $whdloadargs
+ENDIF

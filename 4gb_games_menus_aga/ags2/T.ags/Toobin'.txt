@@ -1,0 +1,6 @@
+Name      : Toobin'
+Publisher : Domark
+Year      : 1990
+Genre     : Sports - Water
+Players   : 1 or 2, Simultaneous
+Whdload   : Toobin.Slave

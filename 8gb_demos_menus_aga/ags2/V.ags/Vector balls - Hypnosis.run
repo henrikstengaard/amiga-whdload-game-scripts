@@ -1,0 +1,6 @@
+cd A-Demos:V/VectorBalls
+IF $whdloadargs EQ ""
+  whdload VectorBalls.slave
+ELSE
+  whdload VectorBalls.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Crack
+Publisher : Linel
+Year      : 1988
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2, Simultaneous
+Whdload   : Crack.Slave

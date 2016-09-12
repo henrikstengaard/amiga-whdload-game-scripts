@@ -1,0 +1,6 @@
+cd A-Demos:M/MyRoom
+IF $whdloadargs EQ ""
+  whdload MyRoom.Slave
+ELSE
+  whdload MyRoom.Slave $whdloadargs
+ENDIF

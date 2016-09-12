@@ -1,0 +1,4 @@
+Name    : Digital sounds vol 1
+Groups  : The Warfalcons
+Type    : Musicdisk
+Whdload : DigitalSounds1.Slave

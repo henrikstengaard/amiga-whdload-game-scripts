@@ -1,0 +1,6 @@
+cd A-Games:C/Century
+IF $whdloadargs EQ ""
+  whdload Century.Slave
+ELSE
+  whdload Century.Slave $whdloadargs
+ENDIF

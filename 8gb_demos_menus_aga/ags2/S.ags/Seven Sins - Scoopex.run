@@ -1,0 +1,6 @@
+cd A-Demos:S/SevenSins
+IF $whdloadargs EQ ""
+  whdload SevenSins.Slave
+ELSE
+  whdload SevenSins.Slave $whdloadargs
+ENDIF

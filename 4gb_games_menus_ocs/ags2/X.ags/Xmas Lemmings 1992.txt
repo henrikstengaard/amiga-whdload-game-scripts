@@ -1,0 +1,6 @@
+Name      : Xmas Lemmings 1992
+Publisher : Psygnosis 
+Year      : 1992
+Genre     : Puzzler - Rescue Across Terrain
+Players   : 1
+Whdload   : XmasLemmingsDemo1992.Slave

@@ -1,0 +1,6 @@
+cd A-Games:C/CircusGames
+IF $whdloadargs EQ ""
+  whdload CircusGames.Slave
+ELSE
+  whdload CircusGames.Slave $whdloadargs
+ENDIF

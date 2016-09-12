@@ -1,0 +1,6 @@
+cd A-Games:B/Bloodnet
+IF $whdloadargs EQ ""
+  whdload Bloodnet.slave
+ELSE
+  whdload Bloodnet.slave $whdloadargs
+ENDIF

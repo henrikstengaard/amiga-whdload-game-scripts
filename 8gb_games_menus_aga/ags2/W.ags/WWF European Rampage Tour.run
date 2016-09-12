@@ -1,0 +1,6 @@
+cd A-Games:W/WWFEuropeanRampageTour
+IF $whdloadargs EQ ""
+  whdload WWFEuropeanRampageTour.Slave
+ELSE
+  whdload WWFEuropeanRampageTour.Slave $whdloadargs
+ENDIF

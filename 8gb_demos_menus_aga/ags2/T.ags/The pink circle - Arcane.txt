@@ -1,0 +1,6 @@
+Name    : The pink circle
+Groups  : Arcane
+Type    : Demo
+Party   : Amiga Summit Convention 1991
+Rank    : 6th
+Whdload : PinkCircle.Slave

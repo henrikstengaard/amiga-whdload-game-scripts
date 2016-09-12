@@ -1,0 +1,5 @@
+Name      : Galaxy '89
+Publisher : Kingsoft
+Year      : 1989
+Players   : 1 Only
+Whdload   : Galaxy89.slave

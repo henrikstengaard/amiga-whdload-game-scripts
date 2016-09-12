@@ -1,0 +1,6 @@
+cd A-Games:T/ThunderBoy
+IF $whdloadargs EQ ""
+  whdload ThunderBoy.Slave
+ELSE
+  whdload ThunderBoy.Slave $whdloadargs
+ENDIF

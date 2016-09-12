@@ -1,0 +1,6 @@
+cd A-Games:C/CrimeCity
+IF $whdloadargs EQ ""
+  whdload CrimeCity.slave
+ELSE
+  whdload CrimeCity.slave $whdloadargs
+ENDIF

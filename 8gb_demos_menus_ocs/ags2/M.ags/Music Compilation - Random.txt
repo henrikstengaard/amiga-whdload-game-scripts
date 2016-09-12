@@ -1,0 +1,4 @@
+Name    : Music Compilation
+Groups  : Random Access
+Type    : Musicdisk
+Whdload : MusicCompilation.Slave

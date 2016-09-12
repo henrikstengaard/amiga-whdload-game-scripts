@@ -1,0 +1,6 @@
+Name      : AV-8B Harrier Assault
+Publisher : Domark
+Year      : 1992
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : AV8BHarrierAssault.Slave

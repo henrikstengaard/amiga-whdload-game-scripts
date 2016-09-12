@@ -1,0 +1,6 @@
+cd A-Games:C/Classic&BabyArcadia
+IF $whdloadargs EQ ""
+  whdload Classic&BabyArcadia.Slave
+ELSE
+  whdload Classic&BabyArcadia.Slave $whdloadargs
+ENDIF

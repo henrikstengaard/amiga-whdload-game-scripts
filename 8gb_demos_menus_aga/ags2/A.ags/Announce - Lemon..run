@@ -1,0 +1,6 @@
+cd A-Demos:A/Announce
+IF $whdloadargs EQ ""
+  whdload Announce.Slave
+ELSE
+  whdload Announce.Slave $whdloadargs
+ENDIF

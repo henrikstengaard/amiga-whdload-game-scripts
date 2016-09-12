@@ -1,0 +1,6 @@
+cd A-Demos:T/ThirdDimension
+IF $whdloadargs EQ ""
+  whdload ThirdDimension.Slave
+ELSE
+  whdload ThirdDimension.Slave $whdloadargs
+ENDIF

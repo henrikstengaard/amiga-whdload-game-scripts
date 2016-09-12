@@ -1,0 +1,6 @@
+cd A-Games1:K/KGB
+IF $whdloadargs EQ ""
+  whdload KGB.Slave
+ELSE
+  whdload KGB.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:I/Interference
+IF $whdloadargs EQ ""
+  whdload Interference.Slave
+ELSE
+  whdload Interference.Slave $whdloadargs
+ENDIF

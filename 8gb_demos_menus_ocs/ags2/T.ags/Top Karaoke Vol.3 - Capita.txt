@@ -1,0 +1,4 @@
+Name    : Top Karaoke Vol.3 - Capitaine Flam-
+Groups  : Saturne
+Type    : Musicdisk
+Whdload : TopKaraoke3.Slave

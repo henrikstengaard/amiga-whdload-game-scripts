@@ -1,0 +1,6 @@
+cd A-Games:D/Driller
+IF $whdloadargs EQ ""
+  whdload Driller.Slave
+ELSE
+  whdload Driller.Slave $whdloadargs
+ENDIF

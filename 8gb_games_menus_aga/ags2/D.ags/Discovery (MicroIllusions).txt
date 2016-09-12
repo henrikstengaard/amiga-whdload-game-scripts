@@ -1,0 +1,5 @@
+Name      : Discovery (MicroIllusions)
+Publisher : MicoIllusions
+Year      : 1986
+Players   : 1
+Whdload   : DiscoveryMicroIllusions.Slave

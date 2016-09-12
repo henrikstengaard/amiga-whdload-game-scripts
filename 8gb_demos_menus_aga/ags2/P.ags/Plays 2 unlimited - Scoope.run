@@ -1,0 +1,6 @@
+cd A-Demos:0-9/2Unlimited
+IF $whdloadargs EQ ""
+  whdload 2Unlimited.Slave
+ELSE
+  whdload 2Unlimited.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Whizz
+Publisher : Flair Software
+Year      : 1994
+Genre     : Platformer - 3D
+Players   : 1 Only
+Whdload   : Whizz.slave

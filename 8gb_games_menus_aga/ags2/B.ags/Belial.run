@@ -1,0 +1,6 @@
+cd A-Games:B/Belial
+IF $whdloadargs EQ ""
+  whdload Belial.Slave
+ELSE
+  whdload Belial.Slave $whdloadargs
+ENDIF

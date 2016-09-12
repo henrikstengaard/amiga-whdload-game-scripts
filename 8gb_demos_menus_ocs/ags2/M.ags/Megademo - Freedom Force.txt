@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : Freedom Force
+Type    : Demo
+Party   : Triangle - Amiga Lords party 1989
+Rank    : N/a
+Whdload : MegademoFreedomForce.Slave

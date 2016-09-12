@@ -1,0 +1,6 @@
+cd A-Games:0-9/3DWorldTennis
+IF $whdloadargs EQ ""
+  whdload 3DWorldTennis.Slave
+ELSE
+  whdload 3DWorldTennis.Slave $whdloadargs
+ENDIF

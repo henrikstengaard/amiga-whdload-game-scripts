@@ -1,0 +1,6 @@
+Name      : Rampart
+Publisher : Domark
+Year      : 1992
+Genre     : Strategy - War
+Players   : 1 or 2, Simultaneous
+Whdload   : Rampart.Slave

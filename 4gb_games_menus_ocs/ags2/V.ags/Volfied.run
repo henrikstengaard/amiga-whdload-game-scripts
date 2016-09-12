@@ -1,0 +1,6 @@
+cd A-Games2:V/Volfied
+IF $whdloadargs EQ ""
+  whdload Volfied.slave
+ELSE
+  whdload Volfied.slave $whdloadargs
+ENDIF

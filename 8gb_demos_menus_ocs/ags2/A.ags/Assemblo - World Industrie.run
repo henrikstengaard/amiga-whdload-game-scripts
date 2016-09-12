@@ -1,0 +1,6 @@
+cd A-Demos:A/Assemblo
+IF $whdloadargs EQ ""
+  whdload Assemblo.Slave
+ELSE
+  whdload Assemblo.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:D/DemoDiskOne
+IF $whdloadargs EQ ""
+  whdload DemodiskOne.Slave
+ELSE
+  whdload DemodiskOne.Slave $whdloadargs
+ENDIF

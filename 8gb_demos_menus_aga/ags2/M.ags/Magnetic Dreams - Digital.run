@@ -1,0 +1,6 @@
+cd A-Demos:M/MagneticDreams
+IF $whdloadargs EQ ""
+  whdload MagneticDreams.Slave
+ELSE
+  whdload MagneticDreams.Slave $whdloadargs
+ENDIF

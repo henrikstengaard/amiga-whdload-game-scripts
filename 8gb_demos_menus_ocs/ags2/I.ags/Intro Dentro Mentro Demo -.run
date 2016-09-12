@@ -1,0 +1,6 @@
+cd A-Demos:I/IntroDentroMentroDemo
+IF $whdloadargs EQ ""
+  whdload IntroDentroMentroDemo.Slave
+ELSE
+  whdload IntroDentroMentroDemo.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Inner-Vision
+Groups  : Dreamdealers
+Type    : Demo
+Party   : Iris New Year Conference 1991
+Rank    : 1st
+Whdload : Innervision.Slave

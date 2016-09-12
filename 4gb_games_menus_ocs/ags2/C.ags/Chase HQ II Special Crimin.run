@@ -1,0 +1,6 @@
+cd A-Games1:C/ChaseHQ2
+IF $whdloadargs EQ ""
+  whdload ChaseHQ2.Slave
+ELSE
+  whdload ChaseHQ2.Slave $whdloadargs
+ENDIF

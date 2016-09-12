@@ -1,0 +1,4 @@
+Name      : Blasteroids
+Publisher : Image Works
+Year      : 1989
+Whdload   : Blasteroids.Slave

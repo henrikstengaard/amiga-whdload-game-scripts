@@ -1,0 +1,5 @@
+Name      : Operation Neptune
+Publisher : Infogrames
+Year      : 1989
+Players   : 1 Only
+Whdload   : OperationNeptune.Slave

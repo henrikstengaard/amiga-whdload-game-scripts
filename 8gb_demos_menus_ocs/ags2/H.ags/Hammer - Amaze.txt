@@ -1,0 +1,4 @@
+Name    : Hammer
+Groups  : Amaze
+Type    : Demo
+Whdload : Hammer.Slave

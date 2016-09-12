@@ -1,0 +1,6 @@
+cd A-Games:P/Prison
+IF $whdloadargs EQ ""
+  whdload Prison.Slave
+ELSE
+  whdload Prison.Slave $whdloadargs
+ENDIF

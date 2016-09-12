@@ -1,0 +1,5 @@
+Name      : The Munsters
+Publisher : Again Again (Tiger/Alternative)
+Year      : 1989
+Players   : 1
+Whdload   : Munsters.Slave

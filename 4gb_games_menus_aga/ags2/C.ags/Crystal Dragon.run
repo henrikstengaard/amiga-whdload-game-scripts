@@ -1,0 +1,6 @@
+cd A-Games1:C/CrystalDragon
+IF $whdloadargs EQ ""
+  whdload CrystalDragon.Slave
+ELSE
+  whdload CrystalDragon.Slave $whdloadargs
+ENDIF

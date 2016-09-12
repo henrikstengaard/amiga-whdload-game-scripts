@@ -1,0 +1,6 @@
+cd A-Games:J/JetstrikeAGA
+IF $whdloadargs EQ ""
+  whdload JetstrikeAGA.Slave
+ELSE
+  whdload JetstrikeAGA.Slave $whdloadargs
+ENDIF

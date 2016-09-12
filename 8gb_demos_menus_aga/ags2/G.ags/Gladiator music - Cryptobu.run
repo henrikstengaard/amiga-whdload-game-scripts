@@ -1,0 +1,6 @@
+cd A-Demos:G/GladiatorMusic
+IF $whdloadargs EQ ""
+  whdload GladiatorMusic.Slave
+ELSE
+  whdload GladiatorMusic.Slave $whdloadargs
+ENDIF

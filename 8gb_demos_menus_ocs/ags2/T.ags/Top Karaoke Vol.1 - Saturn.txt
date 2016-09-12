@@ -1,0 +1,4 @@
+Name    : Top Karaoke Vol.1
+Groups  : Saturne
+Type    : Musicdisk
+Whdload : TopKaraoke1.Slave

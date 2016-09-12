@@ -1,0 +1,6 @@
+Name    : Voyage
+Groups  : Razor 1911
+Type    : Demo
+Party   : The Party 1991
+Rank    : 3rd
+Whdload : VoyageRazor1911.Slave

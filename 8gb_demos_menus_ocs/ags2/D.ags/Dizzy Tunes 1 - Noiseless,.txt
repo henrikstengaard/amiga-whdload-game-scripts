@@ -1,0 +1,6 @@
+Name    : Dizzy Tunes 1
+Groups  : Noiseless,The Silents
+Type    : Musicdisk
+Party   : The Gathering 1992
+Rank    : N/a
+Whdload : DizzyTunes.Slave

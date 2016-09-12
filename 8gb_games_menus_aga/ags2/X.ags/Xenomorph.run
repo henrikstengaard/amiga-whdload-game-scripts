@@ -1,0 +1,6 @@
+cd A-Games:X/Xenomorph
+IF $whdloadargs EQ ""
+  whdload Xenomorph.slave
+ELSE
+  whdload Xenomorph.slave $whdloadargs
+ENDIF

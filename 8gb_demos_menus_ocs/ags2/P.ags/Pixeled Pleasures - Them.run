@@ -1,0 +1,6 @@
+cd A-Demos:P/PixeledPleasures
+IF $whdloadargs EQ ""
+  whdload PixeledPleasures.Slave
+ELSE
+  whdload PixeledPleasures.Slave $whdloadargs
+ENDIF

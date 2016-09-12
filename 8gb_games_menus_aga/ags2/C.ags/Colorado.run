@@ -1,0 +1,6 @@
+cd A-Games:C/Colorado
+IF $whdloadargs EQ ""
+  whdload Colorado.Slave
+ELSE
+  whdload Colorado.Slave $whdloadargs
+ENDIF

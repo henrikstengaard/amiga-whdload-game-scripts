@@ -1,0 +1,6 @@
+cd A-Games:S/SuprStrtFtr2TrboAGA
+IF $whdloadargs EQ ""
+  whdload SuprStrtFtr2TrboAGA.slave
+ELSE
+  whdload SuprStrtFtr2TrboAGA.slave $whdloadargs
+ENDIF

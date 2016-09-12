@@ -1,0 +1,6 @@
+cd A-Games:E/EddTheDuck2
+IF $whdloadargs EQ ""
+  whdload EddTheDuck2.Slave
+ELSE
+  whdload EddTheDuck2.Slave $whdloadargs
+ENDIF

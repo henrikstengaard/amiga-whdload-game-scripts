@@ -1,0 +1,6 @@
+cd A-Games1:F/FirstContact
+IF $whdloadargs EQ ""
+  whdload FirstContact.slave
+ELSE
+  whdload FirstContact.slave $whdloadargs
+ENDIF

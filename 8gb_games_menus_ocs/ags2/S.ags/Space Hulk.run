@@ -1,0 +1,6 @@
+cd A-Games:S/SpaceHulk
+IF $whdloadargs EQ ""
+  whdload SpaceHulk.Slave
+ELSE
+  whdload SpaceHulk.Slave $whdloadargs
+ENDIF

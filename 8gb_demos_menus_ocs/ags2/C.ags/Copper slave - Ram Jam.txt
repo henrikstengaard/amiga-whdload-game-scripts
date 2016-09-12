@@ -1,0 +1,4 @@
+Name    : Copper slave
+Groups  : Ram Jam
+Type    : Demo
+Whdload : CopperSlave.Slave

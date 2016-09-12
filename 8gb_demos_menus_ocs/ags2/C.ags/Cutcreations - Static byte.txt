@@ -1,0 +1,4 @@
+Name    : Cutcreations
+Groups  : Static bytes
+Type    : Musicdisk
+Whdload : Cutcreations.Slave

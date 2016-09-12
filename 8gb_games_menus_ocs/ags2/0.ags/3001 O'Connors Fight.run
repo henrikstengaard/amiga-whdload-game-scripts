@@ -1,0 +1,6 @@
+cd A-Games:0-9/3001OConnorsFight
+IF $whdloadargs EQ ""
+  whdload 3001OConnorsFight.Slave
+ELSE
+  whdload 3001OConnorsFight.Slave $whdloadargs
+ENDIF

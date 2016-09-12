@@ -1,0 +1,4 @@
+Name    : Jungle Mania
+Groups  : The Jungle Command
+Type    : Musicdisk
+Whdload : JungleMania.slave

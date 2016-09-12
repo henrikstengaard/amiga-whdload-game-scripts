@@ -1,0 +1,6 @@
+cd A-Demos:M/MegademoPrecise
+IF $whdloadargs EQ ""
+  whdload MegademoPrecise.Slave
+ELSE
+  whdload MegademoPrecise.Slave $whdloadargs
+ENDIF

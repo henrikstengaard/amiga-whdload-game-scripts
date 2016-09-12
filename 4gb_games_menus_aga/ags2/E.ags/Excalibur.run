@@ -1,0 +1,6 @@
+cd A-Games1:E/Excalibur
+IF $whdloadargs EQ ""
+  whdload Excalibur.Slave
+ELSE
+  whdload Excalibur.Slave $whdloadargs
+ENDIF

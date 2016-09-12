@@ -1,0 +1,6 @@
+cd A-Games1:B/Budokan
+IF $whdloadargs EQ ""
+  whdload Budokan.Slave
+ELSE
+  whdload Budokan.Slave $whdloadargs
+ENDIF

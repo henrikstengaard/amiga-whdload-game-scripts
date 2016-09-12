@@ -1,0 +1,4 @@
+Name    : World Of Noise #1
+Groups  : Digitech,Italian bad boys,knight hawks
+Type    : Musicdisk
+Whdload : WorldOfNoise1.Slave

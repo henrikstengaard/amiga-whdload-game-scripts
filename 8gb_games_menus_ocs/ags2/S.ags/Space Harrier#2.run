@@ -1,0 +1,6 @@
+cd A-Games:S/SpaceHarrier&RFantasyZone
+IF $whdloadargs EQ ""
+  whdload SpaceHarrier&RFantasyZone.Slave
+ELSE
+  whdload SpaceHarrier&RFantasyZone.Slave $whdloadargs
+ENDIF

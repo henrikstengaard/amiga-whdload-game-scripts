@@ -1,0 +1,5 @@
+Name      : Last Action Hero
+Publisher : Psygnosis
+Year      : 1994
+Players   : 1 Only
+Whdload   : LastActionHero.Slave

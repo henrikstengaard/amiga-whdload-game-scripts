@@ -1,0 +1,4 @@
+Name    : Bubonic Plague
+Groups  : Bloodsuckers
+Type    : Intro
+Whdload : BubonicPlague.Slave

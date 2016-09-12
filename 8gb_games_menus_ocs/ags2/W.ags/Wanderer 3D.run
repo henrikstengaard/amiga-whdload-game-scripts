@@ -1,0 +1,6 @@
+cd A-Games:W/Wanderer3D
+IF $whdloadargs EQ ""
+  whdload Wanderer3D.Slave
+ELSE
+  whdload Wanderer3D.Slave $whdloadargs
+ENDIF

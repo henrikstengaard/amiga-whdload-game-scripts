@@ -1,0 +1,6 @@
+Name      : Graeme Souness Vector Soccer
+Publisher : Impulze
+Year      : 1991
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : GraemeSounessVectorSoccer.Slave

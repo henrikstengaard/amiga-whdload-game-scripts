@@ -1,0 +1,6 @@
+cd A-Games:O/Onslaught
+IF $whdloadargs EQ ""
+  whdload Onslaught.slave
+ELSE
+  whdload Onslaught.slave $whdloadargs
+ENDIF

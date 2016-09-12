@@ -1,0 +1,6 @@
+cd A-Games:D/DarkCastle
+IF $whdloadargs EQ ""
+  whdload DarkCastle.Slave
+ELSE
+  whdload DarkCastle.Slave $whdloadargs
+ENDIF

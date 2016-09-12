@@ -1,0 +1,6 @@
+cd A-Games:D/DeluxeStripPoker
+IF $whdloadargs EQ ""
+  whdload DeluxeStripPoker.Slave
+ELSE
+  whdload DeluxeStripPoker.Slave $whdloadargs
+ENDIF

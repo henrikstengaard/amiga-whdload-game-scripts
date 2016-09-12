@@ -1,0 +1,4 @@
+Name      : Trog
+Year      : 1992
+Players   : 1
+Whdload   : Trog.Slave

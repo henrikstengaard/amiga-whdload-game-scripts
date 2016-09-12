@@ -1,0 +1,6 @@
+Name      : Wolfpack
+Publisher : Mirrorsoft
+Year      : 1990
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : Wolfpack.Slave

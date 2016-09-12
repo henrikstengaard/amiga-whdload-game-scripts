@@ -1,0 +1,6 @@
+cd A-Games:W/WarmUp
+IF $whdloadargs EQ ""
+  whdload WarmUp.Slave
+ELSE
+  whdload WarmUp.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Ashes of Empire
+Publisher : Mirage
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : AshesOfEmpire.Slave

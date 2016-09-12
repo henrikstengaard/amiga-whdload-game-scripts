@@ -1,0 +1,6 @@
+cd A-Demos:C/Cutcreations
+IF $whdloadargs EQ ""
+  whdload Cutcreations.Slave
+ELSE
+  whdload Cutcreations.Slave $whdloadargs
+ENDIF

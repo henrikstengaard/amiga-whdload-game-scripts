@@ -1,0 +1,6 @@
+Name      : Unsensible Soccer
+Publisher : Europress Software
+Year      : 1992
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : UnsensibleSoccer.Slave

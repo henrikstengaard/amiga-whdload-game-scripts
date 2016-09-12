@@ -1,0 +1,6 @@
+Name      : Time Runners 22: The Eternal Damned
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners22.Slave

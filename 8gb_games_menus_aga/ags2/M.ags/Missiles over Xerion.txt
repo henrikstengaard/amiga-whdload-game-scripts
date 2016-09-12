@@ -1,0 +1,5 @@
+Name      : Missiles over Xerion
+Publisher : Kingsoft
+Year      : 1994
+Players   : 1 Only
+Whdload   : MissilesOverXerion.slave

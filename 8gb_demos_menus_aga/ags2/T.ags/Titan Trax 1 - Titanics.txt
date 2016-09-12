@@ -1,0 +1,4 @@
+Name    : Titan Trax 1
+Groups  : Titanics
+Type    : Musicdisk
+Whdload : TitanTrax.slave

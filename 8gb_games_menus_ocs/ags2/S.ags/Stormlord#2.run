@@ -1,0 +1,6 @@
+cd A-Games:S/StormlordPrerelease
+IF $whdloadargs EQ ""
+  whdload StormlordPrerelease.Slave
+ELSE
+  whdload StormlordPrerelease.Slave $whdloadargs
+ENDIF

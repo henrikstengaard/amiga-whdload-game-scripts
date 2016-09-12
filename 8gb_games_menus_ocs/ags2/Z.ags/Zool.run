@@ -1,0 +1,6 @@
+cd A-Games:Z/Zool
+IF $whdloadargs EQ ""
+  whdload Zool.slave
+ELSE
+  whdload Zool.slave $whdloadargs
+ENDIF

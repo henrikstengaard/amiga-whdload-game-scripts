@@ -1,0 +1,6 @@
+cd A-Demos:H/HexadecimalPerfection
+IF $whdloadargs EQ ""
+  whdload HexadecimalPerfection.Slave
+ELSE
+  whdload HexadecimalPerfection.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Defender
+Publisher : (unknown)
+Year      : 1994
+Players   : 1 or 2
+Whdload   : DefenderRatsoft.slave

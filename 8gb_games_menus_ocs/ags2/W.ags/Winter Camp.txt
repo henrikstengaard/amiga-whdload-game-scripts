@@ -1,0 +1,6 @@
+Name      : Winter Camp
+Publisher : Thalamus
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : WinterCamp.Slave

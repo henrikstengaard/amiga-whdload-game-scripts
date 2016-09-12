@@ -1,0 +1,5 @@
+Name      : Eye of the Storm
+Publisher : Rebellion
+Year      : 1993
+Players   : 1 Only
+Whdload   : EyeOfTheStorm.Slave

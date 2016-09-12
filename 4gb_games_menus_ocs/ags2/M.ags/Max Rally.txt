@@ -1,0 +1,6 @@
+Name      : Max Rally
+Publisher : Fortress
+Year      : 1998
+Genre     : Racing - Overhead
+Players   : 1 to 4, Simultaneous
+Whdload   : MaxRally.Slave

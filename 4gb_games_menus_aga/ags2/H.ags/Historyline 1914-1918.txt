@@ -1,0 +1,6 @@
+Name      : Historyline 1914-1918
+Publisher : Blue Byte
+Year      : 1992
+Genre     : Strategy - War
+Players   : 1 or 2, Simultaneous
+Whdload   : HistoryLine.Slave

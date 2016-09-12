@@ -1,0 +1,6 @@
+Name      : Mercenary III: The Dion Crisis
+Publisher : Novagen
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Mercenary3.Slave

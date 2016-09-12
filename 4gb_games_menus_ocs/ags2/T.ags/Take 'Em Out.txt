@@ -1,0 +1,5 @@
+Name      : Take 'Em Out
+Publisher : Artronic Products
+Year      : 1989
+Players   : 1 Only
+Whdload   : TakeEmOut.slave

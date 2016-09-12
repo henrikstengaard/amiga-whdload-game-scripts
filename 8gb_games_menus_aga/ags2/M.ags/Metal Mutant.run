@@ -1,0 +1,6 @@
+cd A-Games:M/MetalMutant
+IF $whdloadargs EQ ""
+  whdload MetalMutant.slave
+ELSE
+  whdload MetalMutant.slave $whdloadargs
+ENDIF

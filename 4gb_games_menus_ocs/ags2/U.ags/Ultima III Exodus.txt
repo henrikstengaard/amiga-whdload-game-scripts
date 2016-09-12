@@ -1,0 +1,6 @@
+Name      : Ultima III: Exodus
+Publisher : Origin Systems
+Year      : 1986
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : Ultima3.Slave

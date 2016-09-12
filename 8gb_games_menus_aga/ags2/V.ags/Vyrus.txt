@@ -1,0 +1,5 @@
+Name      : Vyrus
+Publisher : Amiga Fun
+Year      : 1991
+Players   : 1 Only
+Whdload   : Vyrus.Slave

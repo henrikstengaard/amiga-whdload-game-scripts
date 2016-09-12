@@ -1,0 +1,6 @@
+cd A-Demos:M/MegademoFreedomForce
+IF $whdloadargs EQ ""
+  whdload MegademoFreedomForce.Slave
+ELSE
+  whdload MegademoFreedomForce.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:S/SpaceRogue
+IF $whdloadargs EQ ""
+  whdload SpaceRogue.Slave
+ELSE
+  whdload SpaceRogue.Slave $whdloadargs
+ENDIF

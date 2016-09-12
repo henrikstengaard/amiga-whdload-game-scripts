@@ -1,0 +1,6 @@
+Name      : California Games
+Publisher : Epyx
+Year      : 1988
+Genre     : Sports - Multi-Event
+Players   : 1 to 8
+Whdload   : CaliforniaGames.Slave

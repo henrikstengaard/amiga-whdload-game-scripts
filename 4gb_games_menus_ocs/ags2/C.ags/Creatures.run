@@ -1,0 +1,6 @@
+cd A-Games1:C/Creatures
+IF $whdloadargs EQ ""
+  whdload Creatures.Slave
+ELSE
+  whdload Creatures.Slave $whdloadargs
+ENDIF

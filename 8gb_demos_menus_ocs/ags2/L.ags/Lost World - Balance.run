@@ -1,0 +1,6 @@
+cd A-Demos:L/LostWorld
+IF $whdloadargs EQ ""
+  whdload LostWorld.Slave
+ELSE
+  whdload LostWorld.Slave $whdloadargs
+ENDIF

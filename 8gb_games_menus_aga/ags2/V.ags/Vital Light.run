@@ -1,0 +1,6 @@
+cd A-Games:V/VitalLight
+IF $whdloadargs EQ ""
+  whdload VitalLight.slave
+ELSE
+  whdload VitalLight.slave $whdloadargs
+ENDIF

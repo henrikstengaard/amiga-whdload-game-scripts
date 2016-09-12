@@ -1,0 +1,6 @@
+cd A-Games1:M/MagiclandDizzy/data
+IF $whdloadargs EQ ""
+  whdload MagiclandDizzy.slave
+ELSE
+  whdload MagiclandDizzy.slave $whdloadargs
+ENDIF

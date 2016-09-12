@@ -1,0 +1,6 @@
+cd A-Demos:I/InfiniteDreamsLunatics
+IF $whdloadargs EQ ""
+  whdload InfiniteDreamsLunatics.Slave
+ELSE
+  whdload InfiniteDreamsLunatics.Slave $whdloadargs
+ENDIF

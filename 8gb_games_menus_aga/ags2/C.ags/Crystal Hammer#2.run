@@ -1,0 +1,6 @@
+cd A-Games:C/CrystalHammerV2
+IF $whdloadargs EQ ""
+  whdload CrystalHammerV2.Slave
+ELSE
+  whdload CrystalHammerV2.Slave $whdloadargs
+ENDIF

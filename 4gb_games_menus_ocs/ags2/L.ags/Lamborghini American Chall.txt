@@ -1,0 +1,6 @@
+Name      : Lamborghini American Challenge
+Publisher : Titus Software
+Year      : 1994
+Genre     : Racing - Cars
+Players   : 1 or 2, Simultaneous
+Whdload   : LamborghiniAmericanChllng.slave

@@ -1,0 +1,6 @@
+cd A-Games:S/SensibleWorldOfSoccer9697
+IF $whdloadargs EQ ""
+  whdload SensibleWorldOfSoccer9697.Slave
+ELSE
+  whdload SensibleWorldOfSoccer9697.Slave $whdloadargs
+ENDIF

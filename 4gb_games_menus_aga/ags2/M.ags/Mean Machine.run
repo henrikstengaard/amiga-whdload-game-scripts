@@ -1,0 +1,6 @@
+cd A-Games1:M/MeanMachine
+IF $whdloadargs EQ ""
+  whdload MeanMachine.slave
+ELSE
+  whdload MeanMachine.slave $whdloadargs
+ENDIF

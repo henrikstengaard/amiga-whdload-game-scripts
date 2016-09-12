@@ -1,0 +1,6 @@
+Name      : Sword
+Publisher : Titan Computer
+Year      : 1997
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Sword.Slave

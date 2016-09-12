@@ -1,0 +1,6 @@
+cd A-Games:I/Ishar
+IF $whdloadargs EQ ""
+  whdload Ishar.Slave
+ELSE
+  whdload Ishar.Slave $whdloadargs
+ENDIF

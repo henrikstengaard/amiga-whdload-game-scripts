@@ -1,0 +1,6 @@
+cd A-Games:B/BrianLarasCricket
+IF $whdloadargs EQ ""
+  whdload BrianLarasCricket.Slave
+ELSE
+  whdload BrianLarasCricket.Slave $whdloadargs
+ENDIF

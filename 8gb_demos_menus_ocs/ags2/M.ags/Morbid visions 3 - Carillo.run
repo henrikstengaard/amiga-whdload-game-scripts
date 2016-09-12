@@ -1,0 +1,6 @@
+cd A-Demos:M/MorbidVisions3
+IF $whdloadargs EQ ""
+  whdload MorbidVisions3.Slave
+ELSE
+  whdload MorbidVisions3.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:B/BlockOut
+IF $whdloadargs EQ ""
+  whdload BlockOut.slave
+ELSE
+  whdload BlockOut.slave $whdloadargs
+ENDIF

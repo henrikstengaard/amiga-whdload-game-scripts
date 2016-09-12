@@ -1,0 +1,6 @@
+cd A-Games:S/SkyHighStuntman
+IF $whdloadargs EQ ""
+  whdload SkyHighStuntman.Slave
+ELSE
+  whdload SkyHighStuntman.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:R/Revelation
+IF $whdloadargs EQ ""
+  whdload Revelation.Slave
+ELSE
+  whdload Revelation.Slave $whdloadargs
+ENDIF

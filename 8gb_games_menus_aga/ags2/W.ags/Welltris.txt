@@ -1,0 +1,6 @@
+Name      : Welltris
+Publisher : Infogrames
+Year      : 1990
+Genre     : Arcade - Tetris
+Players   : 1 Only
+Whdload   : Welltris.slave

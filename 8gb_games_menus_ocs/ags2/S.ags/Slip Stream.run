@@ -1,0 +1,6 @@
+cd A-Games:S/SlipStream
+IF $whdloadargs EQ ""
+  whdload SlipStream.Slave
+ELSE
+  whdload SlipStream.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundVision
+IF $whdloadargs EQ ""
+  whdload SoundVision.Slave
+ELSE
+  whdload SoundVision.Slave $whdloadargs
+ENDIF

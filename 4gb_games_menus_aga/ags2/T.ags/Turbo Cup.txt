@@ -1,0 +1,6 @@
+Name      : Turbo Cup
+Publisher : Loriciel
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : TurboCup.Slave

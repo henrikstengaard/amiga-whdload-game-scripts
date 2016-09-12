@@ -1,0 +1,6 @@
+cd A-Games:C/Colony
+IF $whdloadargs EQ ""
+  whdload Colony.Slave
+ELSE
+  whdload Colony.Slave $whdloadargs
+ENDIF

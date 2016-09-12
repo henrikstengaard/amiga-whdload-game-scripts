@@ -1,0 +1,6 @@
+cd A-Games:Q/QuestForTheTimeBird
+IF $whdloadargs EQ ""
+  whdload QuestForTheTimeBird.Slave
+ELSE
+  whdload QuestForTheTimeBird.Slave $whdloadargs
+ENDIF

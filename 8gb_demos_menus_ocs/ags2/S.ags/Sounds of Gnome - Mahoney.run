@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundsOfGnome
+IF $whdloadargs EQ ""
+  whdload SoundsOfGnome.slave
+ELSE
+  whdload SoundsOfGnome.slave $whdloadargs
+ENDIF

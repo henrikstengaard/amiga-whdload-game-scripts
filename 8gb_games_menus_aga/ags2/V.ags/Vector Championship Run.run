@@ -1,0 +1,6 @@
+cd A-Games:C/ChampionshipRun
+IF $whdloadargs EQ ""
+  whdload ChampionshipRun.Slave
+ELSE
+  whdload ChampionshipRun.Slave $whdloadargs
+ENDIF

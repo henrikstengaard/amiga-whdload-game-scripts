@@ -1,0 +1,6 @@
+cd A-Games:V/Vaxine
+IF $whdloadargs EQ ""
+  whdload Vaxine.Slave
+ELSE
+  whdload Vaxine.Slave $whdloadargs
+ENDIF

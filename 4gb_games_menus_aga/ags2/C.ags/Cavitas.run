@@ -1,0 +1,6 @@
+cd A-Games1:C/Cavitas
+IF $whdloadargs EQ ""
+  whdload Cavitas.Slave
+ELSE
+  whdload Cavitas.Slave $whdloadargs
+ENDIF

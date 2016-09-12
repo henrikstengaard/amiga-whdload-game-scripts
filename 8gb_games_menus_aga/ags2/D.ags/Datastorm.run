@@ -1,0 +1,6 @@
+cd A-Games:D/Datastorm
+IF $whdloadargs EQ ""
+  whdload Datastorm.Slave
+ELSE
+  whdload Datastorm.Slave $whdloadargs
+ENDIF

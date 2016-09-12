@@ -1,0 +1,5 @@
+Name      : H.A.T.E.: Hostile All Terrain Encounter
+Publisher : Gremlin Graphics
+Year      : 1989
+Players   : 1 Only
+Whdload   : HATE.slave

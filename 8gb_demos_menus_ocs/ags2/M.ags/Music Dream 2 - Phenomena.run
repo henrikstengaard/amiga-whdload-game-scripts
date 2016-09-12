@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicDream2
+IF $whdloadargs EQ ""
+  whdload MusicDream2.Slave
+ELSE
+  whdload MusicDream2.Slave $whdloadargs
+ENDIF

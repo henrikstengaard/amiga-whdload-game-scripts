@@ -1,0 +1,6 @@
+cd A-Games:B/BCKid
+IF $whdloadargs EQ ""
+  whdload BCKid.Slave
+ELSE
+  whdload BCKid.Slave $whdloadargs
+ENDIF

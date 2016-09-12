@@ -1,0 +1,6 @@
+Name      : Ingrid's Back!
+Publisher : Level 9 Computing
+Year      : 1988
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : IngridsBack.Slave

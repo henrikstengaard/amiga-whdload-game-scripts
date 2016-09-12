@@ -1,0 +1,6 @@
+Name    : Ilex
+Groups  : Mystic
+Type    : Demo
+Party   : Intel Outside 1994
+Rank    : 1st
+Whdload : Ilex.Slave

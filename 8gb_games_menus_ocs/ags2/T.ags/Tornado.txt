@@ -1,0 +1,6 @@
+Name      : Tornado
+Publisher : Digital Integration
+Year      : 1993
+Genre     : Simulation - Flight
+Players   : 1 or 2
+Whdload   : Tornado.slave

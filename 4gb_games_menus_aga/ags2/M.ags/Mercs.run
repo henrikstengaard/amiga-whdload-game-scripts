@@ -1,0 +1,6 @@
+cd A-Games1:M/Mercs
+IF $whdloadargs EQ ""
+  whdload Mercs.Slave
+ELSE
+  whdload Mercs.Slave $whdloadargs
+ENDIF

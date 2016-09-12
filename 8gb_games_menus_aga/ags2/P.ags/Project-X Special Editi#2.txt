@@ -1,0 +1,5 @@
+Name      : Project-X Special Edition 93
+Publisher : Team 17
+Year      : 1993
+Players   : 1 or 2
+Whdload   : ProjectXSEBTTR.Slave

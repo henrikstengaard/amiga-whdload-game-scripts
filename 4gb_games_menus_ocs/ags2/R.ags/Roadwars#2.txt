@@ -1,0 +1,6 @@
+Name      : Roadwars
+Publisher : Arcadia (Mastertronic)
+Year      : 1988
+Genre     : Reaction & Navigation
+Players   : 1 or 2, Simultaneous
+Whdload   : RoadWarsArcadia.Slave

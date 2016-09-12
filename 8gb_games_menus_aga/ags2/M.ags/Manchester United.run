@@ -1,0 +1,6 @@
+cd A-Games:M/ManchesterUnited
+IF $whdloadargs EQ ""
+  whdload ManchesterUnited.Slave
+ELSE
+  whdload ManchesterUnited.Slave $whdloadargs
+ENDIF

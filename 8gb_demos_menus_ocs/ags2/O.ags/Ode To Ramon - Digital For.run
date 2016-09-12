@@ -1,0 +1,6 @@
+cd A-Demos:O/OdeToRamon
+IF $whdloadargs EQ ""
+  whdload OdeToRamon.Slave
+ELSE
+  whdload OdeToRamon.Slave $whdloadargs
+ENDIF

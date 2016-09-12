@@ -1,0 +1,5 @@
+Name      : Skeet Shoot
+Publisher : Trojan
+Year      : 1991
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : SkeetShoot.Slave

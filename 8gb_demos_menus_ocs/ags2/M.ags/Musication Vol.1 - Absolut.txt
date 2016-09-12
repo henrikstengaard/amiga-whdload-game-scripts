@@ -1,0 +1,4 @@
+Name    : Musication Vol.1
+Groups  : Absolute!
+Type    : Musicdisk
+Whdload : Musication.slave

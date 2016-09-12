@@ -1,0 +1,6 @@
+cd A-Games:S/Strider
+IF $whdloadargs EQ ""
+  whdload Strider.Slave
+ELSE
+  whdload Strider.Slave $whdloadargs
+ENDIF

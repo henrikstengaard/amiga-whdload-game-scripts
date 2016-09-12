@@ -1,0 +1,4 @@
+Name    : Masterpieces
+Groups  : Kefrens
+Type    : Slideshow
+Whdload : Masterpieces.Slave

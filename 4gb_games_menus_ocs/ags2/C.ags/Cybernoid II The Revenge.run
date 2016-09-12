@@ -1,0 +1,6 @@
+cd A-Games1:C/Cybernoid2
+IF $whdloadargs EQ ""
+  whdload Cybernoid2.Slave
+ELSE
+  whdload Cybernoid2.Slave $whdloadargs
+ENDIF

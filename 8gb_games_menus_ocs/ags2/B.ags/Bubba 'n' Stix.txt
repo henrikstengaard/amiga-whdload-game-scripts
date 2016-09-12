@@ -1,0 +1,6 @@
+Name      : Bubba 'n' Stix
+Publisher : Core Design
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : BubbaNStix.slave

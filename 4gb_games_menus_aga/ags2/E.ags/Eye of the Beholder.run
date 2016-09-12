@@ -1,0 +1,6 @@
+cd A-Games1:E/EyeOfTheBeholder
+IF $whdloadargs EQ ""
+  whdload EyeOfTheBeholder.Slave
+ELSE
+  whdload EyeOfTheBeholder.Slave $whdloadargs
+ENDIF

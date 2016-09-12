@@ -1,0 +1,6 @@
+cd A-Games:W/WheelsOnFire
+IF $whdloadargs EQ ""
+  whdload WheelsOnFire.Slave
+ELSE
+  whdload WheelsOnFire.Slave $whdloadargs
+ENDIF

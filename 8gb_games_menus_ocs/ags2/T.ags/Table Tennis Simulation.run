@@ -1,0 +1,6 @@
+cd A-Games:T/TableTennisSimulation
+IF $whdloadargs EQ ""
+  whdload TableTennisSimulation.Slave
+ELSE
+  whdload TableTennisSimulation.Slave $whdloadargs
+ENDIF

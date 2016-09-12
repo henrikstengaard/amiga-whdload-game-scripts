@@ -1,0 +1,6 @@
+cd A-Games:K/Kikstart2
+IF $whdloadargs EQ ""
+  whdload Kikstart2.Slave
+ELSE
+  whdload Kikstart2.Slave $whdloadargs
+ENDIF

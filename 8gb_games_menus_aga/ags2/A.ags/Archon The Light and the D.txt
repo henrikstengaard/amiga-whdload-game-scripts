@@ -1,0 +1,6 @@
+Name      : Archon: The Light and the Dark
+Publisher : Electronic Arts
+Year      : 1985
+Genre     : Board - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : Archon.slave

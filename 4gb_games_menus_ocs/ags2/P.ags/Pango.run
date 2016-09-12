@@ -1,0 +1,6 @@
+cd A-Games2:P/Pango
+IF $whdloadargs EQ ""
+  whdload Pango.Slave
+ELSE
+  whdload Pango.Slave $whdloadargs
+ENDIF

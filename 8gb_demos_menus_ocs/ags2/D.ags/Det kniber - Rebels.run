@@ -1,0 +1,6 @@
+cd A-Demos:D/DetKniber
+IF $whdloadargs EQ ""
+  whdload DetKniber.slave
+ELSE
+  whdload DetKniber.slave $whdloadargs
+ENDIF

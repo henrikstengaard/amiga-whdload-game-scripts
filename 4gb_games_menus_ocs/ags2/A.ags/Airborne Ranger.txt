@@ -1,0 +1,5 @@
+Name      : Airborne Ranger
+Publisher : MicroProse Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : AirborneRanger.slave

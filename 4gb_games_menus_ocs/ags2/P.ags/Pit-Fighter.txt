@@ -1,0 +1,6 @@
+Name      : Pit-Fighter
+Publisher : Domark
+Year      : 1991
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : PitFighter.slave

@@ -1,0 +1,6 @@
+Name      : Beyond Dark Castle
+Publisher : Activision
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : BeyondDarkCastle.slave

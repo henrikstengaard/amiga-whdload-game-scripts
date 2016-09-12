@@ -1,0 +1,6 @@
+cd A-Demos:A/AbsenceOfLight
+IF $whdloadargs EQ ""
+  whdload AbsenceOfLight.Slave
+ELSE
+  whdload AbsenceOfLight.Slave $whdloadargs
+ENDIF

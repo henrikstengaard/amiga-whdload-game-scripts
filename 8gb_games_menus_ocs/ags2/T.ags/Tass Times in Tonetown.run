@@ -1,0 +1,6 @@
+cd A-Games:T/TassTimesInTonetown
+IF $whdloadargs EQ ""
+  whdload TassTimesInTonetown.Slave
+ELSE
+  whdload TassTimesInTonetown.Slave $whdloadargs
+ENDIF

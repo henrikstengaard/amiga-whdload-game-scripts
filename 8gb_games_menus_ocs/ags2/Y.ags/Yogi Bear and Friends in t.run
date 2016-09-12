@@ -1,0 +1,6 @@
+cd A-Games:Y/YogiBear&Friends
+IF $whdloadargs EQ ""
+  whdload YogiBear&Friends.Slave
+ELSE
+  whdload YogiBear&Friends.Slave $whdloadargs
+ENDIF

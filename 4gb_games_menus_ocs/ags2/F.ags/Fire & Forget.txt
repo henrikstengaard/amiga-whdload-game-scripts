@@ -1,0 +1,5 @@
+Name      : Fire & Forget
+Publisher : Titus Software
+Year      : 1988
+Players   : 1 or 2, Simultaneous
+Whdload   : Fire&Forget.Slave

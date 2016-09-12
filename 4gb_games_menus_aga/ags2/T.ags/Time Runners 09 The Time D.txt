@@ -1,0 +1,6 @@
+Name      : Time Runners 09: The Time Demon
+Publisher : Simulmondo
+Year      : 1993
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners09.Slave

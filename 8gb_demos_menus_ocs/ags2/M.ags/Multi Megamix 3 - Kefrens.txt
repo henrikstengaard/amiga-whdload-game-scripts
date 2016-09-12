@@ -1,0 +1,4 @@
+Name    : Multi Megamix 3
+Groups  : Kefrens
+Type    : Musicdisk
+Whdload : MultiMegamix3.Slave

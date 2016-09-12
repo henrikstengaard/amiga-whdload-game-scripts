@@ -1,0 +1,6 @@
+cd A-Games1:L/LionKingAGA
+IF $whdloadargs EQ ""
+  whdload LionKingAGA.Slave
+ELSE
+  whdload LionKingAGA.Slave $whdloadargs
+ENDIF

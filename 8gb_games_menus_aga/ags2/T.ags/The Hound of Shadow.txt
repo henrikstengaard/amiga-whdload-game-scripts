@@ -1,0 +1,5 @@
+Name      : The Hound of Shadow
+Publisher : Electronic Arts
+Year      : 1989
+Players   : 1
+Whdload   : HoundOfShadow.Slave

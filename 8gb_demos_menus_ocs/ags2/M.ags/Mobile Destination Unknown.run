@@ -1,0 +1,6 @@
+cd A-Demos:M/MobileDestinationUnknown
+IF $whdloadargs EQ ""
+  whdload MobileDestinationUnknown.slave
+ELSE
+  whdload MobileDestinationUnknown.slave $whdloadargs
+ENDIF

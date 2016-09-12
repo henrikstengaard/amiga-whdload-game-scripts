@@ -1,0 +1,6 @@
+cd A-Games1:A/ApidyaKaiko
+IF $whdloadargs EQ ""
+  whdload ApidyaKaiko.Slave
+ELSE
+  whdload ApidyaKaiko.Slave $whdloadargs
+ENDIF

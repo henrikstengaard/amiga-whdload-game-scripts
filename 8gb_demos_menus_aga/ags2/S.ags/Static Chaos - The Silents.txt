@@ -1,0 +1,4 @@
+Name    : Static Chaos
+Groups  : The Silents
+Type    : Demo
+Whdload : StaticChaos.Slave

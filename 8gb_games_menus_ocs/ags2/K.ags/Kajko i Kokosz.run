@@ -1,0 +1,6 @@
+cd A-Games:K/KajkoIKokosz
+IF $whdloadargs EQ ""
+  whdload KajkoIKokosz.slave
+ELSE
+  whdload KajkoIKokosz.slave $whdloadargs
+ENDIF

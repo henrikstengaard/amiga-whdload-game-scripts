@@ -1,0 +1,6 @@
+cd A-Games1:A/AdvantageTennis
+IF $whdloadargs EQ ""
+  whdload AdvantageTennis.slave
+ELSE
+  whdload AdvantageTennis.slave $whdloadargs
+ENDIF

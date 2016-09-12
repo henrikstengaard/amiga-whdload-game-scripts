@@ -1,0 +1,6 @@
+cd A-Games:S/SpaceGun
+IF $whdloadargs EQ ""
+  whdload SpaceGun.Slave
+ELSE
+  whdload SpaceGun.Slave $whdloadargs
+ENDIF

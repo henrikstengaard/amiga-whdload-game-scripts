@@ -1,0 +1,6 @@
+cd A-Games1:H/Harpoon&Battleset3
+IF $whdloadargs EQ ""
+  whdload Harpoon&Battleset3.slave
+ELSE
+  whdload Harpoon&Battleset3.slave $whdloadargs
+ENDIF

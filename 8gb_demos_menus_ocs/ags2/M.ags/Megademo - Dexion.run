@@ -1,0 +1,6 @@
+cd A-Demos:M/MegademoDexion
+IF $whdloadargs EQ ""
+  whdload MegademoDexion.Slave
+ELSE
+  whdload MegademoDexion.Slave $whdloadargs
+ENDIF

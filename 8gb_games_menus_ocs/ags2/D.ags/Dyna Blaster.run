@@ -1,0 +1,6 @@
+cd A-Games:D/DynaBlaster
+IF $whdloadargs EQ ""
+  whdload DynaBlaster.Slave
+ELSE
+  whdload DynaBlaster.Slave $whdloadargs
+ENDIF

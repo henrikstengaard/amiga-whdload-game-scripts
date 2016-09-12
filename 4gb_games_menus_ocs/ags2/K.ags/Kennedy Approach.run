@@ -1,0 +1,6 @@
+cd A-Games1:K/KennedyApproach
+IF $whdloadargs EQ ""
+  whdload KennedyApproach.Slave
+ELSE
+  whdload KennedyApproach.Slave $whdloadargs
+ENDIF

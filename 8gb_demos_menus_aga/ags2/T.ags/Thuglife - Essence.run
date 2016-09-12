@@ -1,0 +1,6 @@
+cd A-Demos:T/ThugLife
+IF $whdloadargs EQ ""
+  whdload ThugLife.Slave
+ELSE
+  whdload ThugLife.Slave $whdloadargs
+ENDIF

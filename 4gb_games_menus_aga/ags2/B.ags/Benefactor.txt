@@ -1,0 +1,6 @@
+Name      : Benefactor
+Publisher : Psygnosis
+Year      : 1994
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+Whdload   : Benefactor.Slave

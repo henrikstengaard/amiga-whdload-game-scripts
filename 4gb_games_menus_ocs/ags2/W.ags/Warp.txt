@@ -1,0 +1,5 @@
+Name      : Warp
+Publisher : Grandslam
+Year      : 1989
+Players   : 1 Only
+Whdload   : WARP.slave

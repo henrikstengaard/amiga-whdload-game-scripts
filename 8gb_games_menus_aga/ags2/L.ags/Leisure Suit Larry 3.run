@@ -1,0 +1,6 @@
+cd A-Games:L/LeisureSuitLarry3
+IF $whdloadargs EQ ""
+  whdload LeisureSuitLarry3.slave
+ELSE
+  whdload LeisureSuitLarry3.slave $whdloadargs
+ENDIF

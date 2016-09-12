@@ -1,0 +1,5 @@
+Name    : Basso Continuo
+Groups  : Fury
+Type    : Musicdisk
+Party   : Anarchy Easter Party 92
+Whdload : BassoContinuo.Slave

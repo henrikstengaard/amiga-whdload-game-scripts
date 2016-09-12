@@ -1,0 +1,6 @@
+cd A-Games:S/SoccerSuperstars
+IF $whdloadargs EQ ""
+  whdload SoccerSuperstars.Slave
+ELSE
+  whdload SoccerSuperstars.Slave $whdloadargs
+ENDIF

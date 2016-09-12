@@ -1,0 +1,6 @@
+cd A-Games:A/AllNewWorldOfLemmingsAGA
+IF $whdloadargs EQ ""
+  whdload AllNewWorldOfLemmingsAGA.slave
+ELSE
+  whdload AllNewWorldOfLemmingsAGA.slave $whdloadargs
+ENDIF

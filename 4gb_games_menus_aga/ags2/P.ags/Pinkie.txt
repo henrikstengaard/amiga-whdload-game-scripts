@@ -1,0 +1,6 @@
+Name      : Pinkie
+Publisher : Millennium
+Year      : 1995
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Pinkie.Slave

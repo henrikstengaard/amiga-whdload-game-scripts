@@ -1,0 +1,5 @@
+Name      : Elite Advanced
+Publisher : Firebird / Rainbird
+Year      : 2003
+Players   : 1
+Whdload   : EliteAdvanced.Slave

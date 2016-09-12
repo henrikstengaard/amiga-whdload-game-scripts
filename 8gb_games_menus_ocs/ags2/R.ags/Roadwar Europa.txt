@@ -1,0 +1,6 @@
+Name      : Roadwar Europa
+Publisher : Strategic Simulations, Inc.
+Year      : 1987
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : RoadwarEuropa.Slave

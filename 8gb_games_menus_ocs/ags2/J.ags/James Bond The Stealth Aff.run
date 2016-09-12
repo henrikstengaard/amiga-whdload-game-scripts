@@ -1,0 +1,6 @@
+cd A-Games:J/JamesBondTheStealthAffair
+IF $whdloadargs EQ ""
+  whdload JamesBondTheStealthAffair.Slave
+ELSE
+  whdload JamesBondTheStealthAffair.Slave $whdloadargs
+ENDIF

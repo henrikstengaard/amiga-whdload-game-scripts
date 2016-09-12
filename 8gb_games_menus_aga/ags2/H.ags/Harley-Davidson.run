@@ -1,0 +1,6 @@
+cd A-Games:H/HarleyDavidson
+IF $whdloadargs EQ ""
+  whdload HarleyDavidson.Slave
+ELSE
+  whdload HarleyDavidson.Slave $whdloadargs
+ENDIF

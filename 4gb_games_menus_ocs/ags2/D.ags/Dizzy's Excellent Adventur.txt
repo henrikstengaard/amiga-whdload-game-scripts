@@ -1,0 +1,6 @@
+Name      : Dizzy's Excellent Adventures
+Publisher : Codemasters/Code Masters
+Year      : 1992
+Genre     : Compilation (Bubble Dizzy, Dizzy Panic, Prince Of The Yolkfolk, Spellbound Dizzy, Kwik Snax)
+Players   : 1 or 2, Simultaneous
+Whdload   : Disk2.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:I/InFullAffect
+IF $whdloadargs EQ ""
+  whdload InFullAffect.Slave
+ELSE
+  whdload InFullAffect.Slave $whdloadargs
+ENDIF

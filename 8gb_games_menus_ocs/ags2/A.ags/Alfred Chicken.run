@@ -1,0 +1,6 @@
+cd A-Games:A/AlfredChicken
+IF $whdloadargs EQ ""
+  whdload AlfredChicken.Slave
+ELSE
+  whdload AlfredChicken.Slave $whdloadargs
+ENDIF

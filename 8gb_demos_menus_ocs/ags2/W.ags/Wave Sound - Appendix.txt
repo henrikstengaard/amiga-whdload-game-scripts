@@ -1,0 +1,4 @@
+Name    : Wave Sound
+Groups  : Appendix
+Type    : Musicdisk
+Whdload : WaveSound.Slave

@@ -1,0 +1,4 @@
+Name    : Cerebral Delights
+Groups  : Goldfire
+Type    : Musicdisk
+Whdload : CerebralDelights.Slave

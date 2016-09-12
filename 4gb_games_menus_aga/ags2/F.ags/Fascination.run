@@ -1,0 +1,6 @@
+cd A-Games1:F/Fascination
+IF $whdloadargs EQ ""
+  whdload Fascination.Slave
+ELSE
+  whdload Fascination.Slave $whdloadargs
+ENDIF

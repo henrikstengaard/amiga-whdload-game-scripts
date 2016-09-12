@@ -1,0 +1,6 @@
+cd A-Games:W/WorldsOfLegend
+IF $whdloadargs EQ ""
+  whdload WorldsOfLegend.slave
+ELSE
+  whdload WorldsOfLegend.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : High Steel
+Publisher : Screen 7
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : HighSteel.Slave

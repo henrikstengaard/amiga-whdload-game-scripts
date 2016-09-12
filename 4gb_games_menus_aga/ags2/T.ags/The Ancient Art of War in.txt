@@ -1,0 +1,5 @@
+Name      : The Ancient Art of War in the Skies
+Publisher : MicroProse
+Year      : 1993
+Players   : 1
+Whdload   : AncientArtOfWarInTheSkies.Slave

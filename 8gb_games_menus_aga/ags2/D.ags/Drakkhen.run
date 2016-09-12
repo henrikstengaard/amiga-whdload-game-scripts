@@ -1,0 +1,6 @@
+cd A-Games:D/DrakkhenImage
+IF $whdloadargs EQ ""
+  whdload DrakkhenImage.Slave
+ELSE
+  whdload DrakkhenImage.Slave $whdloadargs
+ENDIF

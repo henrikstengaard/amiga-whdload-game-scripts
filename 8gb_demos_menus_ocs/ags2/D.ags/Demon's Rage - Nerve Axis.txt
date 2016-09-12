@@ -1,0 +1,4 @@
+Name    : Demon's Rage
+Groups  : Nerve Axis
+Type    : Demo
+Whdload : DemonsRage.Slave

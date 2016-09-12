@@ -1,0 +1,6 @@
+cd A-Demos:B/BeyondJustice
+IF $whdloadargs EQ ""
+  whdload BeyondJustice.Slave
+ELSE
+  whdload BeyondJustice.Slave $whdloadargs
+ENDIF

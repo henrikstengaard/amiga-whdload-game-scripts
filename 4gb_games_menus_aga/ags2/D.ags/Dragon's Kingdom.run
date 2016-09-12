@@ -1,0 +1,6 @@
+cd A-Games1:D/DragonsKingdomDemo
+IF $whdloadargs EQ ""
+  whdload DragonsKingdomDemo.Slave
+ELSE
+  whdload DragonsKingdomDemo.Slave $whdloadargs
+ENDIF

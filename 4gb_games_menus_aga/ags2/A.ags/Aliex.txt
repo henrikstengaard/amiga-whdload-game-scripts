@@ -1,0 +1,5 @@
+Name      : Aliex
+Publisher : Trojan Software
+Year      : 1990
+Players   : 1 Only
+Whdload   : Aliex.Slave

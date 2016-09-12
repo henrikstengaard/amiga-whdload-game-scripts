@@ -1,0 +1,6 @@
+cd A-Games:J/JohnBarnesEuroFootball
+IF $whdloadargs EQ ""
+  whdload JohnBarnesEuroFootball.Slave
+ELSE
+  whdload JohnBarnesEuroFootball.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Tuneshow IV (Spherical Dreams)
+Groups  : The Acoustic Revolution
+Type    : Musicdisk
+Whdload : SphericalDreams.Slave

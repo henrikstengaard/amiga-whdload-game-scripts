@@ -1,0 +1,6 @@
+Name    : Vector balls
+Groups  : Hypnosis
+Type    : Demo
+Party   : Swedish Elite Easter Conference 1990
+Rank    : 4th
+Whdload : VectorBalls.slave

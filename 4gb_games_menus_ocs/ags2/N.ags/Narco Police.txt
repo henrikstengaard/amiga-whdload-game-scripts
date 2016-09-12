@@ -1,0 +1,5 @@
+Name      : Narco Police
+Publisher : Dinamic Software
+Year      : 1991
+Players   : 1 Only
+Whdload   : NarcoPolice.Slave

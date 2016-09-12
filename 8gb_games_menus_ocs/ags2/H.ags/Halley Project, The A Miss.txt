@@ -1,0 +1,6 @@
+Name      : Halley Project, The: A Mission In Our Solar System
+Publisher : Mindscape
+Year      : 1986
+Genre     : Educational - Miscellaneous
+Players   : 1 Only
+Whdload   : HalleyProject.Slave

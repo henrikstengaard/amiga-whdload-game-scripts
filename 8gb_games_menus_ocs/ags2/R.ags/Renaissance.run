@@ -1,0 +1,6 @@
+cd A-Games:R/Renaissance
+IF $whdloadargs EQ ""
+  whdload Renaissance.Slave
+ELSE
+  whdload Renaissance.Slave $whdloadargs
+ENDIF

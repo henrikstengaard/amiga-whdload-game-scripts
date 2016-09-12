@@ -1,0 +1,6 @@
+cd A-Games2:T/ThunderStrike
+IF $whdloadargs EQ ""
+  whdload Thunderstrike.Slave
+ELSE
+  whdload Thunderstrike.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:F/FA18Interceptor
+IF $whdloadargs EQ ""
+  whdload FA18Interceptor.slave
+ELSE
+  whdload FA18Interceptor.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Pee Wee
+Groups  : Complex
+Type    : Demo
+Party   : Assembly 1994
+Rank    : N/a
+Whdload : PeeWee.Slave

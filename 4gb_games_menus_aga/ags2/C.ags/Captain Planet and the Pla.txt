@@ -1,0 +1,5 @@
+Name      : Captain Planet and the Planeteers
+Publisher : Mindscape
+Year      : 1991
+Players   : 1 Only
+Whdload   : CaptainPlanet&Planeteers.Slave

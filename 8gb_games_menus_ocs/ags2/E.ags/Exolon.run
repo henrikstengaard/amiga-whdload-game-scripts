@@ -1,0 +1,6 @@
+cd A-Games:E/Exolon
+IF $whdloadargs EQ ""
+  whdload Exolon.Slave
+ELSE
+  whdload Exolon.Slave $whdloadargs
+ENDIF

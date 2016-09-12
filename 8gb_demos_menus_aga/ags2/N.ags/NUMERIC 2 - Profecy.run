@@ -1,0 +1,6 @@
+cd A-Demos:N/Numeric2
+IF $whdloadargs EQ ""
+  whdload Numeric2.Slave
+ELSE
+  whdload Numeric2.Slave $whdloadargs
+ENDIF

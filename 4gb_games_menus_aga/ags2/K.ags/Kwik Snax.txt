@@ -1,0 +1,6 @@
+Name      : Kwik Snax
+Publisher : Codemasters
+Year      : 1991
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : KwikSnax.slave

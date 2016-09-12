@@ -1,0 +1,6 @@
+cd A-Games2:P/PipelineOracle
+IF $whdloadargs EQ ""
+  whdload PipelineOracle.Slave
+ELSE
+  whdload PipelineOracle.Slave $whdloadargs
+ENDIF

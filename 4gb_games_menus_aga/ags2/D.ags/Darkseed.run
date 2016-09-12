@@ -1,0 +1,6 @@
+cd A-Games1:D/DarkSeed
+IF $whdloadargs EQ ""
+  whdload DarkSeed.Slave
+ELSE
+  whdload DarkSeed.Slave $whdloadargs
+ENDIF

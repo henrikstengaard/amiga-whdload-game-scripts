@@ -1,0 +1,6 @@
+cd A-Games:T/Tornado
+IF $whdloadargs EQ ""
+  whdload Tornado.slave
+ELSE
+  whdload Tornado.slave $whdloadargs
+ENDIF

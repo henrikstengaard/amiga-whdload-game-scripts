@@ -1,0 +1,6 @@
+cd A-Demos:F/FutureSynthetix
+IF $whdloadargs EQ ""
+  whdload FutureSynthetix.Slave
+ELSE
+  whdload FutureSynthetix.Slave $whdloadargs
+ENDIF

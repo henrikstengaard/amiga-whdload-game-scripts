@@ -1,0 +1,5 @@
+Name      : Legend [Mindscape]
+Publisher : Mindscape
+Year      : 1992
+Players   : 1
+Whdload   : getlegendsavedisk.slave

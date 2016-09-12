@@ -1,0 +1,6 @@
+cd A-Demos:F/Finlandia
+IF $whdloadargs EQ ""
+  whdload Finlandia.Slave
+ELSE
+  whdload Finlandia.Slave $whdloadargs
+ENDIF

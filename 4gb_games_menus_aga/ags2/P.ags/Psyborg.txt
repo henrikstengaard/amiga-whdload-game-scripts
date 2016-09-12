@@ -1,0 +1,6 @@
+Name      : Psyborg
+Publisher : Loriciel
+Year      : 1992
+Genre     : Racing - Miscellaneous
+Players   : 1 or 2
+Whdload   : Psyborg.Slave

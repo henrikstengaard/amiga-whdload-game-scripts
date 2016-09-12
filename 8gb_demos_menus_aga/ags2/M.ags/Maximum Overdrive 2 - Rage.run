@@ -1,0 +1,6 @@
+cd A-Demos:M/MaximumOverdrive2
+IF $whdloadargs EQ ""
+  whdload MaximumOverdrive2.Slave
+ELSE
+  whdload MaximumOverdrive2.Slave $whdloadargs
+ENDIF

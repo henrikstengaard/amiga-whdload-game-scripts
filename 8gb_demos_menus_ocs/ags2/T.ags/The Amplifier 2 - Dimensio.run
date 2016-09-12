@@ -1,0 +1,6 @@
+cd A-Demos:A/Amplifier2
+IF $whdloadargs EQ ""
+  whdload Amplifier2.Slave
+ELSE
+  whdload Amplifier2.Slave $whdloadargs
+ENDIF

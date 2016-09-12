@@ -1,0 +1,6 @@
+Name      : Kiro's Quest
+Publisher : Linel
+Year      : 1992
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : KirosQuest.Slave

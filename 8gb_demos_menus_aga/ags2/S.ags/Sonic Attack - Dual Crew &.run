@@ -1,0 +1,6 @@
+cd A-Demos:S/SonicAttack
+IF $whdloadargs EQ ""
+  whdload SonicAttack.Slave
+ELSE
+  whdload SonicAttack.Slave $whdloadargs
+ENDIF

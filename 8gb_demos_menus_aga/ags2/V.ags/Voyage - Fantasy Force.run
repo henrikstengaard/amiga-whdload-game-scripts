@@ -1,0 +1,6 @@
+cd A-Demos:V/VoyageFantasyForce
+IF $whdloadargs EQ ""
+  whdload VoyageFantasyForce.slave
+ELSE
+  whdload VoyageFantasyForce.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:S/StateOfTheArt
+IF $whdloadargs EQ ""
+  whdload StateOfTheArt.Slave
+ELSE
+  whdload StateOfTheArt.Slave $whdloadargs
+ENDIF

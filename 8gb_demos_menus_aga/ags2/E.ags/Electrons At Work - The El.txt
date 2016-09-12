@@ -1,0 +1,6 @@
+Name    : Electrons At Work
+Groups  : The Electronic Knights
+Type    : Demo
+Party   : Mekka &amp
+Rank    : 10th
+Whdload : ElectronsAtWork.Slave

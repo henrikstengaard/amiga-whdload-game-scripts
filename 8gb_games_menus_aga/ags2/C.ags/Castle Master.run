@@ -1,0 +1,6 @@
+cd A-Games:C/CastleMaster
+IF $whdloadargs EQ ""
+  whdload CastleMaster.Slave
+ELSE
+  whdload CastleMaster.Slave $whdloadargs
+ENDIF

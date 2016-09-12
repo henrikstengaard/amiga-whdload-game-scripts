@@ -1,0 +1,6 @@
+cd A-Demos:D/DoTheBartman
+IF $whdloadargs EQ ""
+  whdload DoTheBartman.Slave
+ELSE
+  whdload DoTheBartman.Slave $whdloadargs
+ENDIF

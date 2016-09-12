@@ -1,0 +1,5 @@
+Name      : No Excuses
+Publisher : Arcana
+Year      : 1988
+Players   : 1 Only
+Whdload   : NoExcuses.slave

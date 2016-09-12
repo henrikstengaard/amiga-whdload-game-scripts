@@ -1,0 +1,6 @@
+cd A-Games:U/UpScope
+IF $whdloadargs EQ ""
+  whdload UpScope.Slave
+ELSE
+  whdload UpScope.Slave $whdloadargs
+ENDIF

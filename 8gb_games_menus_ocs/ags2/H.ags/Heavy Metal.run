@@ -1,0 +1,6 @@
+cd A-Games:H/HeavyMetal
+IF $whdloadargs EQ ""
+  whdload HeavyMetal.slave
+ELSE
+  whdload HeavyMetal.slave $whdloadargs
+ENDIF

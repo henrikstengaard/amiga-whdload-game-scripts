@@ -1,0 +1,5 @@
+Name      : Mini Golf
+Publisher : Magic Bytes / DigiTek
+Year      : 1988
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : MiniGolf.Slave

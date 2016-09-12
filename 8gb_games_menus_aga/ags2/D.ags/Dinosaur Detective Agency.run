@@ -1,0 +1,6 @@
+cd A-Games:D/DinosaurDetectiveAgency
+IF $whdloadargs EQ ""
+  whdload DinosaurDetectiveAgency.Slave
+ELSE
+  whdload DinosaurDetectiveAgency.Slave $whdloadargs
+ENDIF

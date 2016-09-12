@@ -1,0 +1,6 @@
+Name      : Strip Poker II
+Publisher : CDS Software
+Year      : 1988
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : StripPoker2+.Slave

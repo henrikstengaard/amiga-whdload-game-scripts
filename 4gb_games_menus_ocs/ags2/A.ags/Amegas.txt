@@ -1,0 +1,6 @@
+Name      : Amegas
+Publisher : Pandora Software
+Year      : 1987
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2
+Whdload   : Amegas.Slave

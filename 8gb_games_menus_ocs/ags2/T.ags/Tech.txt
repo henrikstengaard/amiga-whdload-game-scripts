@@ -1,0 +1,5 @@
+Name      : Tech
+Publisher : Gainstar
+Year      : 1989
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Tech.Slave

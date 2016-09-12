@@ -1,0 +1,4 @@
+Name    : Nightshade's Harmony
+Groups  : Ecstasy
+Type    : Musicdisk
+Whdload : NightshadesHarmony.Slave

@@ -1,0 +1,6 @@
+cd A-Games:B/Benefactor
+IF $whdloadargs EQ ""
+  whdload Benefactor.Slave
+ELSE
+  whdload Benefactor.Slave $whdloadargs
+ENDIF

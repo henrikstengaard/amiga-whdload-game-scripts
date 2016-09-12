@@ -1,0 +1,6 @@
+cd A-Games:B/BeachVolley
+IF $whdloadargs EQ ""
+  whdload BeachVolley.Slave
+ELSE
+  whdload BeachVolley.Slave $whdloadargs
+ENDIF

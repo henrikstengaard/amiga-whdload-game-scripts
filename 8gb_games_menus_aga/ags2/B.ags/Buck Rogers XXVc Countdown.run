@@ -1,0 +1,6 @@
+cd A-Games:B/BuckRogersCountdownDday
+IF $whdloadargs EQ ""
+  whdload BuckRogersCountdownDday.slave
+ELSE
+  whdload BuckRogersCountdownDday.slave $whdloadargs
+ENDIF

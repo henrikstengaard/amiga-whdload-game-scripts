@@ -1,0 +1,4 @@
+Name    : Multi Megamix 2
+Groups  : Kefrens
+Type    : Musicdisk
+Whdload : MultiMegamix2.slave

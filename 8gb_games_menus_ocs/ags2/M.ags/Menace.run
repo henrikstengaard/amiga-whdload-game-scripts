@@ -1,0 +1,6 @@
+cd A-Games:M/Menace
+IF $whdloadargs EQ ""
+  whdload Menace.Slave
+ELSE
+  whdload Menace.Slave $whdloadargs
+ENDIF

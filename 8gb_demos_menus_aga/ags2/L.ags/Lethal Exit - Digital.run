@@ -1,0 +1,6 @@
+cd A-Demos:L/LethalExit
+IF $whdloadargs EQ ""
+  whdload LethalExit.Slave
+ELSE
+  whdload LethalExit.Slave $whdloadargs
+ENDIF

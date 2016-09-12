@@ -1,0 +1,6 @@
+cd A-Games:R/RatTrap
+IF $whdloadargs EQ ""
+  whdload RatTrap.Slave
+ELSE
+  whdload RatTrap.Slave $whdloadargs
+ENDIF

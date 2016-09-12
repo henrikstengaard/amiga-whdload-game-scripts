@@ -1,0 +1,6 @@
+cd A-Games1:C/Conqueror
+IF $whdloadargs EQ ""
+  whdload Conqueror.Slave
+ELSE
+  whdload Conqueror.Slave $whdloadargs
+ENDIF

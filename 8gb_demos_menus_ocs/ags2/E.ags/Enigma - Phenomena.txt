@@ -1,0 +1,6 @@
+Name    : Enigma
+Groups  : Phenomena
+Type    : Demo
+Party   : Anarchy Easter Party 1991
+Rank    : 1st
+Whdload : Enigma.slave

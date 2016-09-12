@@ -1,0 +1,6 @@
+cd A-Games:S/Switchblade2
+IF $whdloadargs EQ ""
+  whdload Switchblade2.Slave
+ELSE
+  whdload Switchblade2.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Cybernetix
+Publisher : Amiga Format
+Year      : 1992
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Cybernetix.Slave

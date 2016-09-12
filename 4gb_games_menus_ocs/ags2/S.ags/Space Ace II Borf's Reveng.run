@@ -1,0 +1,6 @@
+cd A-Games2:S/SpaceAce2
+IF $whdloadargs EQ ""
+  whdload SpaceAce2.Slave
+ELSE
+  whdload SpaceAce2.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:R/RevengeOfMutantCamels2
+IF $whdloadargs EQ ""
+  whdload RevengeOfMutantCamels2.Slave
+ELSE
+  whdload RevengeOfMutantCamels2.Slave $whdloadargs
+ENDIF

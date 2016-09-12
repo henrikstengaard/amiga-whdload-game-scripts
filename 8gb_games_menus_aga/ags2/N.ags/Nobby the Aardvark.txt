@@ -1,0 +1,5 @@
+Name      : Nobby the Aardvark
+Publisher : Thalamus
+Year      : 1992
+Players   : 1
+Whdload   : NobbyTheAardvark.Slave

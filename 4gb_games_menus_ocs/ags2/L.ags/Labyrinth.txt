@@ -1,0 +1,6 @@
+Name      : Labyrinth
+Publisher : Det Nye COMputer - Denmark
+Year      : 1990
+Genre     : Quiz
+Players   : 1 or 2
+Whdload   : LabyrinthDk.slave

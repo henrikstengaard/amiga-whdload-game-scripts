@@ -1,0 +1,5 @@
+Name      : Warhead
+Publisher : MPH
+Year      : 1989
+Players   : 1 Only
+Whdload   : Warhead.Slave

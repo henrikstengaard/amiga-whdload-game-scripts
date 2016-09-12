@@ -1,0 +1,6 @@
+cd A-Games:A/Amnios
+IF $whdloadargs EQ ""
+  whdload Amnios.Slave
+ELSE
+  whdload Amnios.Slave $whdloadargs
+ENDIF

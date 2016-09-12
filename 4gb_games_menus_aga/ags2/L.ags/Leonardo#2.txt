@@ -1,0 +1,6 @@
+Name      : Leonardo
+Publisher : Starbyte Software
+Year      : 1989
+Genre     : Brain - Logical
+Players   : 1 Only
+Whdload   : LeonardoHighDensity.Slave

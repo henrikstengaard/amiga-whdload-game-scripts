@@ -1,0 +1,6 @@
+cd A-Games1:G/GoldenEagle
+IF $whdloadargs EQ ""
+  whdload GoldenEagle.slave
+ELSE
+  whdload GoldenEagle.slave $whdloadargs
+ENDIF

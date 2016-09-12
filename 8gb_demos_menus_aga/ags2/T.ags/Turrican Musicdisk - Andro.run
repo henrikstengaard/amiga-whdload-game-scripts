@@ -1,0 +1,6 @@
+cd A-Demos:T/TurricanMusicDisk
+IF $whdloadargs EQ ""
+  whdload TurricanMusicDisk.slave
+ELSE
+  whdload TurricanMusicDisk.slave $whdloadargs
+ENDIF

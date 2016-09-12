@@ -1,0 +1,6 @@
+cd A-Demos:A/AutumnNights
+IF $whdloadargs EQ ""
+  whdload AutumnNights.Slave
+ELSE
+  whdload AutumnNights.Slave $whdloadargs
+ENDIF

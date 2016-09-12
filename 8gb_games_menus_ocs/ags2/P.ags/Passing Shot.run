@@ -1,0 +1,6 @@
+cd A-Games:P/PassingShot
+IF $whdloadargs EQ ""
+  whdload PassingShot.Slave
+ELSE
+  whdload PassingShot.Slave $whdloadargs
+ENDIF

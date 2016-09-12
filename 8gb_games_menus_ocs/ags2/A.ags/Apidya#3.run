@@ -1,0 +1,6 @@
+cd A-Games:A/Apidya
+IF $whdloadargs EQ ""
+  whdload Apidya.slave
+ELSE
+  whdload Apidya.slave $whdloadargs
+ENDIF

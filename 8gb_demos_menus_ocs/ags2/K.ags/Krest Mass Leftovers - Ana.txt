@@ -1,0 +1,6 @@
+Name    : Krest Mass Leftovers
+Groups  : Anarchy
+Type    : Demo
+Party   : Anarchy Easter Party 1992
+Rank    : 1st
+Whdload : KrestMassLeftovers.slave

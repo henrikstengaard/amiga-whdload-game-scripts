@@ -1,0 +1,6 @@
+cd A-Games:H/Hook
+IF $whdloadargs EQ ""
+  whdload Hook.slave
+ELSE
+  whdload Hook.slave $whdloadargs
+ENDIF

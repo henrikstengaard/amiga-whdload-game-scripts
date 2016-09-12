@@ -1,0 +1,6 @@
+Name      : Delta Command
+Publisher : Arcadia (Mastertronic)
+Year      : 1990
+Genre     : Shooter - Commando
+Players   : 1 or 2
+Whdload   : DeltaCommandArcadia.Slave

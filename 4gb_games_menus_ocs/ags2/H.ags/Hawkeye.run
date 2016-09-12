@@ -1,0 +1,6 @@
+cd A-Games1:H/Hawkeye
+IF $whdloadargs EQ ""
+  whdload Hawkeye.slave
+ELSE
+  whdload Hawkeye.slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Hardball II
+Publisher : Accolade
+Year      : 1990
+Genre     : Sports - Baseball
+Whdload   : HardBall2.Slave

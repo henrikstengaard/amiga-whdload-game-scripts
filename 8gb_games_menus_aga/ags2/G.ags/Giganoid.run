@@ -1,0 +1,6 @@
+cd A-Games:G/Giganoid
+IF $whdloadargs EQ ""
+  whdload Giganoid.Slave
+ELSE
+  whdload Giganoid.Slave $whdloadargs
+ENDIF

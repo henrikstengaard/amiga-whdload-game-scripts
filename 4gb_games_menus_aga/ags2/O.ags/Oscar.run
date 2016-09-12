@@ -1,0 +1,6 @@
+cd A-Games2:O/OscarAGA
+IF $whdloadargs EQ ""
+  whdload OscarAGA.Slave
+ELSE
+  whdload OscarAGA.Slave $whdloadargs
+ENDIF

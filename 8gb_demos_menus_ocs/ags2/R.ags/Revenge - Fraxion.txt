@@ -1,0 +1,5 @@
+Name    : Revenge
+Groups  : Fraxion
+Type    : Megademo
+Party   : Cryptoburners, It and Visual Arts Party 90
+Whdload : Revenge.Slave

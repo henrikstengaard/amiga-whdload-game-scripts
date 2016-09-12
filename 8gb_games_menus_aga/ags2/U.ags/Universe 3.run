@@ -1,0 +1,6 @@
+cd A-Games:U/Universe3
+IF $whdloadargs EQ ""
+  whdload Universe3.Slave
+ELSE
+  whdload Universe3.Slave $whdloadargs
+ENDIF

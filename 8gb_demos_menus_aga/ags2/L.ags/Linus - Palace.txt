@@ -1,0 +1,4 @@
+Name    : Linus
+Groups  : Palace
+Type    : Demo
+Whdload : Linus.Slave

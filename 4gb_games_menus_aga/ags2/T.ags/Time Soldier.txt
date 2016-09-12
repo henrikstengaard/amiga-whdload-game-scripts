@@ -1,0 +1,5 @@
+Name      : Time Soldier
+Publisher : Electrocoin Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : TimeSoldier.Slave

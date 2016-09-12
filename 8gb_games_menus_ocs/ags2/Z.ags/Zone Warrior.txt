@@ -1,0 +1,5 @@
+Name      : Zone Warrior
+Publisher : Electronic Arts
+Year      : 1991
+Players   : 1 Only
+Whdload   : ZoneWarrior.slave

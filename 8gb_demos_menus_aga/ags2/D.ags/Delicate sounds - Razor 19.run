@@ -1,0 +1,6 @@
+cd A-Demos:D/DelicateSounds
+IF $whdloadargs EQ ""
+  whdload DelicateSounds.Slave
+ELSE
+  whdload DelicateSounds.Slave $whdloadargs
+ENDIF

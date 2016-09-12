@@ -1,0 +1,6 @@
+Name      : Freak Out
+Publisher : Parsec Software
+Year      : 1993
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : FreakOut.slave

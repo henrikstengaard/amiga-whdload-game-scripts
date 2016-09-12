@@ -1,0 +1,6 @@
+cd A-Games:W/WIEuropeIsCarmenSandiego
+IF $whdloadargs EQ ""
+  whdload WIEuropeIsCarmenSandiego.Slave
+ELSE
+  whdload WIEuropeIsCarmenSandiego.Slave $whdloadargs
+ENDIF

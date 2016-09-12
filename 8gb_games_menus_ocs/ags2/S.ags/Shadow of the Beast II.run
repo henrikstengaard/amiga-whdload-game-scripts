@@ -1,0 +1,6 @@
+cd A-Games:S/ShadowOfTheBeast2
+IF $whdloadargs EQ ""
+  whdload ShadowOfTheBeast2.Slave
+ELSE
+  whdload ShadowOfTheBeast2.Slave $whdloadargs
+ENDIF

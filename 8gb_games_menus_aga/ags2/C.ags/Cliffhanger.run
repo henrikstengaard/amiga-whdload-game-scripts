@@ -1,0 +1,6 @@
+cd A-Games:C/Cliffhanger
+IF $whdloadargs EQ ""
+  whdload Cliffhanger.slave
+ELSE
+  whdload Cliffhanger.slave $whdloadargs
+ENDIF

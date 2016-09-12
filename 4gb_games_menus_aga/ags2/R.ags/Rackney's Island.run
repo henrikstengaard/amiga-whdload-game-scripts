@@ -1,0 +1,6 @@
+cd A-Games2:R/RackneysIsland
+IF $whdloadargs EQ ""
+  whdload RackneysIsland.Slave
+ELSE
+  whdload RackneysIsland.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Shadowlands
+Publisher : Domark
+Year      : 1992
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : Shadowlands.Slave

@@ -1,0 +1,6 @@
+Name      : Bobo
+Publisher : Infogrames
+Year      : 1988
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : StirCrazyFeaturingBobo.Slave

@@ -1,0 +1,6 @@
+cd A-Demos:J/JiggleIt
+IF $whdloadargs EQ ""
+  whdload JiggleIt.Slave
+ELSE
+  whdload JiggleIt.Slave $whdloadargs
+ENDIF

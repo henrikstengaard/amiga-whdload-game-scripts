@@ -1,0 +1,5 @@
+Name      : Gunboat
+Publisher : Accolade
+Year      : 1991
+Players   : 1
+Whdload   : Gunboat.Slave

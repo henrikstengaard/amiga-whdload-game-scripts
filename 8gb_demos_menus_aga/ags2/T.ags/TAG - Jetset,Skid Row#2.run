@@ -1,0 +1,6 @@
+cd A-Demos:T/TagAGA
+IF $whdloadargs EQ ""
+  whdload TagAGA.Slave
+ELSE
+  whdload TagAGA.Slave $whdloadargs
+ENDIF

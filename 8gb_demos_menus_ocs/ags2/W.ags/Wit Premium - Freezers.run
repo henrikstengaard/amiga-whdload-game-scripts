@@ -1,0 +1,6 @@
+cd A-Demos:W/WitPremium
+IF $whdloadargs EQ ""
+  whdload WitPremium.Slave
+ELSE
+  whdload WitPremium.Slave $whdloadargs
+ENDIF

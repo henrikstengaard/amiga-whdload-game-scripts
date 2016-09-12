@@ -1,0 +1,6 @@
+cd A-Demos:M/Megademo2Alcatraz
+IF $whdloadargs EQ ""
+  whdload Megademo2Alcatraz.slave
+ELSE
+  whdload Megademo2Alcatraz.slave $whdloadargs
+ENDIF

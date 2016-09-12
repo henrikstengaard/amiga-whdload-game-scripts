@@ -1,0 +1,6 @@
+Name      : Flight of the Amazon Queen
+Publisher : Renegade
+Year      : 1995
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : FlightOfTheAmazonQueen.Slave

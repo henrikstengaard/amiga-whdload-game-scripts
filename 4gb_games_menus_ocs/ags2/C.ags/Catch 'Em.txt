@@ -1,0 +1,6 @@
+Name      : Catch 'Em
+Publisher : Global Software
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : CatchEm.slave

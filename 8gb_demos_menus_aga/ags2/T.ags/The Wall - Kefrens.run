@@ -1,0 +1,6 @@
+cd A-Demos:W/WallKefrens
+IF $whdloadargs EQ ""
+  whdload WallKefrens.Slave
+ELSE
+  whdload WallKefrens.Slave $whdloadargs
+ENDIF

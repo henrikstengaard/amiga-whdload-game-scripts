@@ -1,0 +1,6 @@
+cd A-Games:H/HellRaisers
+IF $whdloadargs EQ ""
+  whdload HellRaisers.Slave
+ELSE
+  whdload HellRaisers.Slave $whdloadargs
+ENDIF

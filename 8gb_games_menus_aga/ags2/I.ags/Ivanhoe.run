@@ -1,0 +1,6 @@
+cd A-Games:I/Ivanhoe
+IF $whdloadargs EQ ""
+  whdload Ivanhoe.slave
+ELSE
+  whdload Ivanhoe.slave $whdloadargs
+ENDIF

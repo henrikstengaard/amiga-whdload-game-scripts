@@ -1,0 +1,6 @@
+cd A-Demos:M/MultiMegamix3
+IF $whdloadargs EQ ""
+  whdload MultiMegamix3.Slave
+ELSE
+  whdload MultiMegamix3.Slave $whdloadargs
+ENDIF

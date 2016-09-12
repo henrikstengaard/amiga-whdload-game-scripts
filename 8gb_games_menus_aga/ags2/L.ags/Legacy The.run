@@ -1,0 +1,6 @@
+cd A-Games:L/Legacy
+IF $whdloadargs EQ ""
+  whdload TheLegacy.Slave
+ELSE
+  whdload TheLegacy.Slave $whdloadargs
+ENDIF

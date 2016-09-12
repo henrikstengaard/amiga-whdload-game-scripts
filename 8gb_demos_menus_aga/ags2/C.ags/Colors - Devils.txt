@@ -1,0 +1,6 @@
+Name    : Colors
+Groups  : Devils
+Type    : Demo
+Party   : Iris New Year Conference 1991
+Rank    : 2nd
+Whdload : Colors.Slave

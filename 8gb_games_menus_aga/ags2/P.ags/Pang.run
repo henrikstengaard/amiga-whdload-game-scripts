@@ -1,0 +1,6 @@
+cd A-Games:P/Pang
+IF $whdloadargs EQ ""
+  whdload Pang.slave
+ELSE
+  whdload Pang.slave $whdloadargs
+ENDIF

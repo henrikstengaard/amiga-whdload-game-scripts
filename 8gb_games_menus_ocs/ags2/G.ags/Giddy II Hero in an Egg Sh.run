@@ -1,0 +1,6 @@
+cd A-Games:G/Giddy2HeroInAnEggShell
+IF $whdloadargs EQ ""
+  whdload Giddy2HeroInAnEggShell.Slave
+ELSE
+  whdload Giddy2HeroInAnEggShell.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Carver
+Publisher : Art Edition
+Year      : 1991
+Players   : 1 Only
+Whdload   : Carver.Slave

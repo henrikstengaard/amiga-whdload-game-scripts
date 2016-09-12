@@ -1,0 +1,6 @@
+cd A-Games2:W/WarInTheGulf
+IF $whdloadargs EQ ""
+  whdload WarInTheGulf.Slave
+ELSE
+  whdload WarInTheGulf.Slave $whdloadargs
+ENDIF

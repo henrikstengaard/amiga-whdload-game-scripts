@@ -1,0 +1,6 @@
+cd A-Games1:A/AlienBreed2AGA
+IF $whdloadargs EQ ""
+  whdload AlienBreed2AGA.Slave
+ELSE
+  whdload AlienBreed2AGA.Slave $whdloadargs
+ENDIF

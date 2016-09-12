@@ -1,0 +1,6 @@
+cd A-Games1:L/LabyrinthDk
+IF $whdloadargs EQ ""
+  whdload LabyrinthDk.slave
+ELSE
+  whdload LabyrinthDk.slave $whdloadargs
+ENDIF

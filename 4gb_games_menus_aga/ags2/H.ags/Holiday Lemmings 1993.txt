@@ -1,0 +1,6 @@
+Name      : Holiday Lemmings 1993
+Publisher : Psygnosis
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : LemmingsHoliday1993.Slave

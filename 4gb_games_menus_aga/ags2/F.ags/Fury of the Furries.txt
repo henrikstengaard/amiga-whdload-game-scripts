@@ -1,0 +1,6 @@
+Name      : Fury of the Furries
+Publisher : Mindscape
+Year      : 1994
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : FuryOfTheFurries.Slave

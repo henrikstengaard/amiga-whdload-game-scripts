@@ -1,0 +1,6 @@
+cd A-Games:M/Mercenary
+IF $whdloadargs EQ ""
+  whdload Mercenary.slave
+ELSE
+  whdload Mercenary.slave $whdloadargs
+ENDIF

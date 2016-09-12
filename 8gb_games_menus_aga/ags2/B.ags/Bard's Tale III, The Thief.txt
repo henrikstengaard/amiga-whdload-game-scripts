@@ -1,0 +1,6 @@
+Name      : Bard's Tale III, The: Thief of Fate
+Publisher : Electronic Arts
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : BardsTale3.slave

@@ -1,0 +1,6 @@
+cd A-Games1:D/DeluxeGalagaAGA
+IF $whdloadargs EQ ""
+  whdload DeluxeGalagaAGA.Slave
+ELSE
+  whdload DeluxeGalagaAGA.Slave $whdloadargs
+ENDIF

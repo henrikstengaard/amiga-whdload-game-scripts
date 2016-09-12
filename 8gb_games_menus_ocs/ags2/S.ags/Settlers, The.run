@@ -1,0 +1,6 @@
+cd A-Games:S/Settlers
+IF $whdloadargs EQ ""
+  whdload Settlers.slave
+ELSE
+  whdload Settlers.slave $whdloadargs
+ENDIF

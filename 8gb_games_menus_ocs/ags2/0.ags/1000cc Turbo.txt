@@ -1,0 +1,6 @@
+Name      : 1000cc Turbo
+Publisher : Impressions
+Year      : 1990
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : 1000ccTurbo.Slave

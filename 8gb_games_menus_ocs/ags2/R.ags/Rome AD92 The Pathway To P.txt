@@ -1,0 +1,5 @@
+Name      : Rome AD92: The Pathway To Power
+Publisher : Millennium
+Year      : 1992
+Players   : 1
+Whdload   : RomeAD92.Slave

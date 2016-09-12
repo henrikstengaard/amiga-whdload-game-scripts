@@ -1,0 +1,6 @@
+Name    : Dream Trippin'
+Groups  : Digital
+Type    : Demo
+Party   : Digital Symposium 1993
+Rank    : 1st
+Whdload : DreamTrippin.Slave

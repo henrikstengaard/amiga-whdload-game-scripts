@@ -1,0 +1,6 @@
+cd A-Games1:A/AladdinAGA
+IF $whdloadargs EQ ""
+  whdload AladdinAGA.Slave
+ELSE
+  whdload AladdinAGA.Slave $whdloadargs
+ENDIF

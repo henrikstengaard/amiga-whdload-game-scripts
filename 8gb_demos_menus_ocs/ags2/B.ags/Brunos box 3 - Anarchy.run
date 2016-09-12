@@ -1,0 +1,6 @@
+cd A-Demos:B/BrunosMusicBox3
+IF $whdloadargs EQ ""
+  whdload BrunosMusicBox3.Slave
+ELSE
+  whdload BrunosMusicBox3.Slave $whdloadargs
+ENDIF

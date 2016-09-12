@@ -1,0 +1,6 @@
+cd A-Games1:M/MicroProseSoccer
+IF $whdloadargs EQ ""
+  whdload MicroProseSoccer.slave
+ELSE
+  whdload MicroProseSoccer.slave $whdloadargs
+ENDIF

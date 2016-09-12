@@ -1,0 +1,6 @@
+Name      : Red Storm Rising
+Publisher : MicroProse Software
+Year      : 1988
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : RedStormRising.Slave

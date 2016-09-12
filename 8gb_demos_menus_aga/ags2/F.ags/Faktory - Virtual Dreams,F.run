@@ -1,0 +1,6 @@
+cd A-Demos:F/Faktory
+IF $whdloadargs EQ ""
+  whdload Faktory.Slave
+ELSE
+  whdload Faktory.Slave $whdloadargs
+ENDIF

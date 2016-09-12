@@ -1,0 +1,6 @@
+cd A-Games:A/Atomix
+IF $whdloadargs EQ ""
+  whdload atomix.slave
+ELSE
+  whdload atomix.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:H/Humans
+IF $whdloadargs EQ ""
+  whdload Humans.slave
+ELSE
+  whdload Humans.slave $whdloadargs
+ENDIF

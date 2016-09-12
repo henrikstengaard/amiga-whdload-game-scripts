@@ -1,0 +1,6 @@
+cd A-Demos:D/DigitalConcert4
+IF $whdloadargs EQ ""
+  whdload DigitalConcert4.Slave
+ELSE
+  whdload DigitalConcert4.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Pango
+Publisher : Proxxima Entertainment
+Year      : 1990
+Genre     : Brain - Logical
+Players   : 1 Only
+Whdload   : Pango.Slave

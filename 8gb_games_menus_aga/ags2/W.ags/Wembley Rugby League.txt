@@ -1,0 +1,6 @@
+Name      : Wembley Rugby League
+Publisher : Audiogenic
+Year      : 1994
+Genre     : Sports - Rugby
+Players   : 1 or 2, Simultaneous
+Whdload   : WembleyRugbyLeague.Slave

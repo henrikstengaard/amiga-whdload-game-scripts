@@ -1,0 +1,6 @@
+Name      : Full Contact
+Publisher : Team 17
+Year      : 1991
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : FullContact.slave

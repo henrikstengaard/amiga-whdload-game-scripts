@@ -1,0 +1,6 @@
+cd A-Games:P/PowermongerWW1Edition
+IF $whdloadargs EQ ""
+  whdload PowermongerWW1Edition.slave
+ELSE
+  whdload PowermongerWW1Edition.slave $whdloadargs
+ENDIF

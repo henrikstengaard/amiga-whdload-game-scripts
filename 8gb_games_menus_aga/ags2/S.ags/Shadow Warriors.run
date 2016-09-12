@@ -1,0 +1,6 @@
+cd A-Games:S/ShadowWarriors
+IF $whdloadargs EQ ""
+  whdload ShadowWarriors.Slave
+ELSE
+  whdload ShadowWarriors.Slave $whdloadargs
+ENDIF

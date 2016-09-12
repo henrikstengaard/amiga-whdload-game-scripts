@@ -1,0 +1,6 @@
+cd A-Games:N/NightHunter
+IF $whdloadargs EQ ""
+  whdload NightHunter.slave
+ELSE
+  whdload NightHunter.slave $whdloadargs
+ENDIF

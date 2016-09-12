@@ -1,0 +1,5 @@
+Name      : Fighter Duel Pro
+Publisher : Jaeger
+Year      : 1992
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : FighterDuelPro.Slave

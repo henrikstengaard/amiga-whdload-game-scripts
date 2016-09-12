@@ -1,0 +1,6 @@
+cd A-Games:S/Savage
+IF $whdloadargs EQ ""
+  whdload Savage.Slave
+ELSE
+  whdload Savage.Slave $whdloadargs
+ENDIF

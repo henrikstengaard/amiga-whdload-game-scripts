@@ -1,0 +1,6 @@
+Name      : Atom Smasher
+Publisher : CLR Licenseware
+Year      : 1992
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 or 2, Simultaneous
+Whdload   : AtomSmasher.Slave

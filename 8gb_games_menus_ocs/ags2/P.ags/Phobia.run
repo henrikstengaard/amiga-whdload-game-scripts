@@ -1,0 +1,6 @@
+cd A-Games:P/Phobia
+IF $whdloadargs EQ ""
+  whdload Phobia.Slave
+ELSE
+  whdload Phobia.Slave $whdloadargs
+ENDIF

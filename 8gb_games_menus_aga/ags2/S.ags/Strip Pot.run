@@ -1,0 +1,6 @@
+cd A-Games:S/StripPotAGA
+IF $whdloadargs EQ ""
+  whdload StripPotAGA.Slave
+ELSE
+  whdload StripPotAGA.Slave $whdloadargs
+ENDIF

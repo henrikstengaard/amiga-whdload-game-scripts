@@ -1,0 +1,6 @@
+cd A-Games:G/GemStoneLegend
+IF $whdloadargs EQ ""
+  whdload GemStoneLegend.Slave
+ELSE
+  whdload GemStoneLegend.Slave $whdloadargs
+ENDIF

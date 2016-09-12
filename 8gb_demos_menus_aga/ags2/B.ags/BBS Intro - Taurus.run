@@ -1,0 +1,6 @@
+cd A-Demos:B/BBSIntro
+IF $whdloadargs EQ ""
+  whdload BBSIntro.Slave
+ELSE
+  whdload BBSIntro.Slave $whdloadargs
+ENDIF

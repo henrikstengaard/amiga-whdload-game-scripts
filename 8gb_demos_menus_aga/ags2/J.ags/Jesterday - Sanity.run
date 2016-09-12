@@ -1,0 +1,6 @@
+cd A-Demos:J/Jesterday
+IF $whdloadargs EQ ""
+  whdload Jesterday.slave
+ELSE
+  whdload Jesterday.slave $whdloadargs
+ENDIF

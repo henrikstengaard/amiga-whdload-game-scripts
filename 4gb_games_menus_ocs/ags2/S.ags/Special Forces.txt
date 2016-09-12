@@ -1,0 +1,6 @@
+Name      : Special Forces
+Publisher : MicroProse Software
+Year      : 1992
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : SpecialForces.slave

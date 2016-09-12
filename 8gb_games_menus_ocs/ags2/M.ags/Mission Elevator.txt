@@ -1,0 +1,6 @@
+Name      : Mission Elevator
+Publisher : Axxiom
+Year      : 1987
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+Whdload   : MissionElevator.Slave

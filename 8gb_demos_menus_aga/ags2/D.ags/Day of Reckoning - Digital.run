@@ -1,0 +1,6 @@
+cd A-Demos:D/DayOfReckoning
+IF $whdloadargs EQ ""
+  whdload DayOfReckoning.Slave
+ELSE
+  whdload DayOfReckoning.Slave $whdloadargs
+ENDIF

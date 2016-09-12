@@ -1,0 +1,6 @@
+cd A-Games:D/DoubleDribble
+IF $whdloadargs EQ ""
+  whdload DoubleDribble.slave
+ELSE
+  whdload DoubleDribble.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/SensibleSoccerBulldogBlty
+IF $whdloadargs EQ ""
+  whdload SensibleSoccerBulldogBlty.Slave
+ELSE
+  whdload SensibleSoccerBulldogBlty.Slave $whdloadargs
+ENDIF

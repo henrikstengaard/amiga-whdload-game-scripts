@@ -1,0 +1,6 @@
+cd A-Games:S/SpellBound
+IF $whdloadargs EQ ""
+  whdload SpellBound.Slave
+ELSE
+  whdload SpellBound.Slave $whdloadargs
+ENDIF

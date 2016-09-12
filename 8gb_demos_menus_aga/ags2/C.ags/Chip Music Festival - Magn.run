@@ -1,0 +1,6 @@
+cd A-Demos:C/ChipMusicFestival
+IF $whdloadargs EQ ""
+  whdload ChipMusicFestival.Slave
+ELSE
+  whdload ChipMusicFestival.Slave $whdloadargs
+ENDIF

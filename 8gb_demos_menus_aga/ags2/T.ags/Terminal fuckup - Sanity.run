@@ -1,0 +1,6 @@
+cd A-Demos:T/TerminalFuckup
+IF $whdloadargs EQ ""
+  whdload TerminalFuckup.Slave
+ELSE
+  whdload TerminalFuckup.Slave $whdloadargs
+ENDIF

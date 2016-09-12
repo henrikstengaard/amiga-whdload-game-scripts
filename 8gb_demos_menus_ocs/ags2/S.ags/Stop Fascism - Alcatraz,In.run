@@ -1,0 +1,6 @@
+cd A-Demos:S/StopFascism
+IF $whdloadargs EQ ""
+  whdload StopFascism.Slave
+ELSE
+  whdload StopFascism.Slave $whdloadargs
+ENDIF

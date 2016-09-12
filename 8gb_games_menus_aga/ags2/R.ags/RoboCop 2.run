@@ -1,0 +1,6 @@
+cd A-Games:R/RoboCop2
+IF $whdloadargs EQ ""
+  whdload RoboCop2.Slave
+ELSE
+  whdload RoboCop2.Slave $whdloadargs
+ENDIF

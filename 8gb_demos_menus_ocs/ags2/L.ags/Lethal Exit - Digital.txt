@@ -1,0 +1,6 @@
+Name    : Lethal Exit
+Groups  : Digital
+Type    : Demo
+Party   : The Party 1992
+Rank    : 9th
+Whdload : LethalExit.Slave

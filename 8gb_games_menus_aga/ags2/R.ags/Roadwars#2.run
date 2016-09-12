@@ -1,0 +1,6 @@
+cd A-Games:R/RoadWarsArcadia
+IF $whdloadargs EQ ""
+  whdload RoadWarsArcadia.Slave
+ELSE
+  whdload RoadWarsArcadia.Slave $whdloadargs
+ENDIF

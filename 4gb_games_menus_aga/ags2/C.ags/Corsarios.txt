@@ -1,0 +1,5 @@
+Name      : Corsarios
+Publisher : Opera Soft
+Year      : 1989
+Players   : 1 Only
+Whdload   : Corsarios.Slave

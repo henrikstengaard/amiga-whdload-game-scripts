@@ -1,0 +1,6 @@
+cd A-Games:F/FastLane
+IF $whdloadargs EQ ""
+  whdload FastLane.Slave
+ELSE
+  whdload FastLane.Slave $whdloadargs
+ENDIF

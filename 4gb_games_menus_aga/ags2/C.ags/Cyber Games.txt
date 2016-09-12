@@ -1,0 +1,5 @@
+Name      : Cyber Games
+Year      : 1995
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : CyberGames.Slave

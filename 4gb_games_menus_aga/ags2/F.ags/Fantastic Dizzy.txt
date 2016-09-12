@@ -1,0 +1,6 @@
+Name      : Fantastic Dizzy
+Publisher : Codemasters
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : FantasticDizzy.slave

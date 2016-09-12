@@ -1,0 +1,6 @@
+cd A-Games:S/STUNRunner
+IF $whdloadargs EQ ""
+  whdload STUNRunner.Slave
+ELSE
+  whdload STUNRunner.Slave $whdloadargs
+ENDIF

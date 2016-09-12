@@ -1,0 +1,6 @@
+cd A-Games1:M/M1TankPlatoon
+IF $whdloadargs EQ ""
+  whdload M1TankPlatoon.Slave
+ELSE
+  whdload M1TankPlatoon.Slave $whdloadargs
+ENDIF

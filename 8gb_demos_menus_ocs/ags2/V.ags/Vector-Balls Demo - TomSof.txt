@@ -1,0 +1,4 @@
+Name    : Vector-Balls Demo
+Groups  : TomSoft
+Type    : Demo
+Whdload : VectorBallsDemo.Slave

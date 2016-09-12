@@ -1,0 +1,6 @@
+cd A-Demos:I/InspirationIsGone
+IF $whdloadargs EQ ""
+  whdload InspirationIsGone.Slave
+ELSE
+  whdload InspirationIsGone.Slave $whdloadargs
+ENDIF

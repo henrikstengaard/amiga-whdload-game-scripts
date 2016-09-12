@@ -1,0 +1,6 @@
+cd A-Demos:G/GigaDemo3
+IF $whdloadargs EQ ""
+  whdload GigaDemo3.Slave
+ELSE
+  whdload GigaDemo3.Slave $whdloadargs
+ENDIF

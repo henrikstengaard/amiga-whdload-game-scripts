@@ -1,0 +1,6 @@
+Name      : Lost in Mine
+Publisher : MarkSoft
+Year      : 1995
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : LostInMine.slave

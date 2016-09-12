@@ -1,0 +1,6 @@
+Name      : Cavitas
+Publisher : Nite Time Games
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Cavitas.Slave

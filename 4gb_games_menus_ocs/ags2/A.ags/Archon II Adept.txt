@@ -1,0 +1,6 @@
+Name      : Archon II: Adept
+Publisher : Electronic Arts
+Year      : 1988
+Genre     : Board - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : Archon2.slave

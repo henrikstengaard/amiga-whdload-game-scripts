@@ -1,0 +1,4 @@
+Name    : Music party 1990
+Groups  : Cryptoburners
+Type    : Musicdisk
+Whdload : MusicParty1990.Slave

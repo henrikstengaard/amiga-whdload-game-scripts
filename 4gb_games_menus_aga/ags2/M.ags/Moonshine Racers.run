@@ -1,0 +1,6 @@
+cd A-Games2:M/MoonShineRacers
+IF $whdloadargs EQ ""
+  whdload MoonShineRacers.Slave
+ELSE
+  whdload MoonShineRacers.Slave $whdloadargs
+ENDIF

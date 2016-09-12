@@ -1,0 +1,6 @@
+cd A-Demos:D/DesertDream
+IF $whdloadargs EQ ""
+  whdload DesertDream.slave
+ELSE
+  whdload DesertDream.slave $whdloadargs
+ENDIF

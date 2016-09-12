@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicDisk1Mahoney&Kaktus
+IF $whdloadargs EQ ""
+  whdload MusicDisk1Mahoney&Kaktus.Slave
+ELSE
+  whdload MusicDisk1Mahoney&Kaktus.Slave $whdloadargs
+ENDIF

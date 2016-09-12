@@ -1,0 +1,6 @@
+cd A-Games:D/DeconstructionAGA
+IF $whdloadargs EQ ""
+  whdload DeconstructionAGA.Slave
+ELSE
+  whdload DeconstructionAGA.Slave $whdloadargs
+ENDIF

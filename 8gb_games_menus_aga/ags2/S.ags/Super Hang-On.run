@@ -1,0 +1,6 @@
+cd A-Games:S/SuperHangOn
+IF $whdloadargs EQ ""
+  whdload SuperHangOn.Slave
+ELSE
+  whdload SuperHangOn.Slave $whdloadargs
+ENDIF

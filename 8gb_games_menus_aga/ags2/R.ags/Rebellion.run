@@ -1,0 +1,6 @@
+cd A-Games:R/Rebellion
+IF $whdloadargs EQ ""
+  whdload Rebellion.slave
+ELSE
+  whdload Rebellion.slave $whdloadargs
+ENDIF

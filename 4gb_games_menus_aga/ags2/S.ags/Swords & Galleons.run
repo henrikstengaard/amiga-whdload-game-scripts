@@ -1,0 +1,6 @@
+cd A-Games2:S/Swords&Galleons
+IF $whdloadargs EQ ""
+  whdload Swords&Galleons.slave
+ELSE
+  whdload Swords&Galleons.slave $whdloadargs
+ENDIF

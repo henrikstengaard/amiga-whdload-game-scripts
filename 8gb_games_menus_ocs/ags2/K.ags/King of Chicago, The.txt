@@ -1,0 +1,6 @@
+Name      : King of Chicago, The
+Publisher : Cinemaware
+Year      : 1987
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : KingOfChicago.Slave

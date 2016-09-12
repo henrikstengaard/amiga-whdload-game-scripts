@@ -1,0 +1,6 @@
+cd A-Games:K/Kult
+IF $whdloadargs EQ ""
+  whdload Kult.slave
+ELSE
+  whdload Kult.slave $whdloadargs
+ENDIF

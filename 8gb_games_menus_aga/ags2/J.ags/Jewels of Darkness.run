@@ -1,0 +1,6 @@
+cd A-Games:J/JewelsOfDarkness
+IF $whdloadargs EQ ""
+  whdload JewelsOfDarkness.Slave
+ELSE
+  whdload JewelsOfDarkness.Slave $whdloadargs
+ENDIF

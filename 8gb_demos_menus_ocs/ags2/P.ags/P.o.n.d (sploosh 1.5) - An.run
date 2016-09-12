@@ -1,0 +1,6 @@
+cd A-Demos:S/Sploosh15Pond
+IF $whdloadargs EQ ""
+  whdload Sploosh15Pond.Slave
+ELSE
+  whdload Sploosh15Pond.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Ray of hope 2
+Groups  : Majic 12
+Type    : Demo
+Party   : Chromance Party 1991
+Rank    : 1st
+Whdload : RayOfHope2.slave

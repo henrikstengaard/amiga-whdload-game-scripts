@@ -1,0 +1,6 @@
+cd A-Games:E/EuropeanChampionsOcean
+IF $whdloadargs EQ ""
+  whdload EuropeanChampionsOcean.Slave
+ELSE
+  whdload EuropeanChampionsOcean.Slave $whdloadargs
+ENDIF

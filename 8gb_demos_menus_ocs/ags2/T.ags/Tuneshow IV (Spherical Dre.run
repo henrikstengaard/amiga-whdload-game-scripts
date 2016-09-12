@@ -1,0 +1,6 @@
+cd A-Demos:S/SphericalDreams
+IF $whdloadargs EQ ""
+  whdload SphericalDreams.Slave
+ELSE
+  whdload SphericalDreams.Slave $whdloadargs
+ENDIF

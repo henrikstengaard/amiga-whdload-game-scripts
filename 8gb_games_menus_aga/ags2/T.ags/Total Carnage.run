@@ -1,0 +1,6 @@
+cd A-Games:T/TotalCarnageAGA
+IF $whdloadargs EQ ""
+  whdload TotalCarnageAGA.Slave
+ELSE
+  whdload TotalCarnageAGA.Slave $whdloadargs
+ENDIF

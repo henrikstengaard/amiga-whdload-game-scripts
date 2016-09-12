@@ -1,0 +1,6 @@
+cd A-Demos:T/ToxicZiemniak
+IF $whdloadargs EQ ""
+  whdload ToxicZiemniak.Slave
+ELSE
+  whdload ToxicZiemniak.Slave $whdloadargs
+ENDIF

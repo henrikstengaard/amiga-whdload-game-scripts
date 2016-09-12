@@ -1,0 +1,6 @@
+cd A-Demos:N/Nexus7
+IF $whdloadargs EQ ""
+  whdload Nexus7.Slave
+ELSE
+  whdload Nexus7.Slave $whdloadargs
+ENDIF

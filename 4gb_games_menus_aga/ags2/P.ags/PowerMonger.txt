@@ -1,0 +1,6 @@
+Name      : PowerMonger
+Publisher : Electronic Arts
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Powermonger.Slave

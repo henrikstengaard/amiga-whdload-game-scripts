@@ -1,0 +1,6 @@
+Name      : M1 Tank Platoon
+Publisher : MicroProse Software
+Year      : 1990
+Genre     : Simulation - Tank
+Players   : 1 Only
+Whdload   : M1TankPlatoon.Slave

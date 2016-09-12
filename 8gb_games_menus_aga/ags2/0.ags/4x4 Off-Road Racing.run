@@ -1,0 +1,6 @@
+cd A-Games:0-9/4x4OffRoadRacing
+IF $whdloadargs EQ ""
+  whdload 4x4OffRoadRacing.Slave
+ELSE
+  whdload 4x4OffRoadRacing.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:T/ThomasTankEngPinballAGA
+IF $whdloadargs EQ ""
+  whdload ThomasTankEngPinballAGA.Slave
+ELSE
+  whdload ThomasTankEngPinballAGA.Slave $whdloadargs
+ENDIF

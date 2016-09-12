@@ -1,0 +1,6 @@
+cd A-Games:W/WarlocksQuest
+IF $whdloadargs EQ ""
+  whdload WarlocksQuest.Slave
+ELSE
+  whdload WarlocksQuest.Slave $whdloadargs
+ENDIF

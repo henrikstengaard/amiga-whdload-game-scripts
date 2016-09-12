@@ -1,0 +1,6 @@
+cd A-Games:C/Cadaver&CadaverThePayoff
+IF $whdloadargs EQ ""
+  whdload Cadaver&CadaverThePayoff.Slave
+ELSE
+  whdload Cadaver&CadaverThePayoff.Slave $whdloadargs
+ENDIF

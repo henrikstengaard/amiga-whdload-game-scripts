@@ -1,0 +1,5 @@
+Name    : Voyage
+Groups  : Fantasy Force
+Type    : Trackmo
+Party   : Byterapers and Bloodsuckers Gathering 91
+Whdload : VoyageFantasyForce.slave

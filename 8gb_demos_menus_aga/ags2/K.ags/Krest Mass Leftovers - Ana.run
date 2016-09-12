@@ -1,0 +1,6 @@
+cd A-Demos:K/KrestMassLeftovers
+IF $whdloadargs EQ ""
+  whdload KrestMassLeftovers.slave
+ELSE
+  whdload KrestMassLeftovers.slave $whdloadargs
+ENDIF

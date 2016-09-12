@@ -1,0 +1,6 @@
+cd A-Games:A/Archon
+IF $whdloadargs EQ ""
+  whdload Archon.slave
+ELSE
+  whdload Archon.slave $whdloadargs
+ENDIF

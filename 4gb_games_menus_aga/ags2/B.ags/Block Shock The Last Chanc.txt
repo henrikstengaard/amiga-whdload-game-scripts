@@ -1,0 +1,5 @@
+Name      : Block Shock: The Last Chance
+Publisher : Kingsoft
+Year      : 1991
+Players   : 1 or 2
+Whdload   : BlockShock.Slave

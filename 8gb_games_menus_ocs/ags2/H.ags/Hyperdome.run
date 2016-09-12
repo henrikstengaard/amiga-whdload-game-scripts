@@ -1,0 +1,6 @@
+cd A-Games:H/Hyperdome
+IF $whdloadargs EQ ""
+  whdload Hyperdome.Slave
+ELSE
+  whdload Hyperdome.Slave $whdloadargs
+ENDIF

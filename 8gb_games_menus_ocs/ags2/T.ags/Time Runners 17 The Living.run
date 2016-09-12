@@ -1,0 +1,6 @@
+cd A-Games:T/TimeRunners17
+IF $whdloadargs EQ ""
+  whdload TimeRunners17.Slave
+ELSE
+  whdload TimeRunners17.Slave $whdloadargs
+ENDIF

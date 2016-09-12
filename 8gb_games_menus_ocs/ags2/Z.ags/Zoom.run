@@ -1,0 +1,6 @@
+cd A-Games:Z/Zoom
+IF $whdloadargs EQ ""
+  whdload Zoom.Slave
+ELSE
+  whdload Zoom.Slave $whdloadargs
+ENDIF

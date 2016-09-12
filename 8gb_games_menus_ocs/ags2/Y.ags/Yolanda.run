@@ -1,0 +1,6 @@
+cd A-Games:Y/YolandaImage
+IF $whdloadargs EQ ""
+  whdload YolandaImage.Slave
+ELSE
+  whdload YolandaImage.Slave $whdloadargs
+ENDIF

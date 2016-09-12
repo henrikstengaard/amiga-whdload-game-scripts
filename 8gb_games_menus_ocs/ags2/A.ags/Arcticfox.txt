@@ -1,0 +1,6 @@
+Name      : Arcticfox
+Publisher : Electronic Arts
+Year      : 1986
+Genre     : Simulation - Tank
+Players   : 1 Only
+Whdload   : ArcticFox.Slave

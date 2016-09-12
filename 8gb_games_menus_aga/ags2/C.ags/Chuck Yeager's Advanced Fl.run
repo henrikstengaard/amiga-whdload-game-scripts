@@ -1,0 +1,6 @@
+cd A-Games:C/ChuckYeagersAFT2
+IF $whdloadargs EQ ""
+  whdload ChuckYeagersAFT2.Slave
+ELSE
+  whdload ChuckYeagersAFT2.Slave $whdloadargs
+ENDIF

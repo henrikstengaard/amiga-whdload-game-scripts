@@ -1,0 +1,6 @@
+cd A-Games:H/HillStreetBlues
+IF $whdloadargs EQ ""
+  whdload HillStreetBlues.Slave
+ELSE
+  whdload HillStreetBlues.Slave $whdloadargs
+ENDIF

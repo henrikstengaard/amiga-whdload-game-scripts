@@ -1,0 +1,6 @@
+cd A-Games:G/Goal
+IF $whdloadargs EQ ""
+  whdload Goal.slave
+ELSE
+  whdload Goal.slave $whdloadargs
+ENDIF

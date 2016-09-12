@@ -1,0 +1,6 @@
+cd A-Games1:0-9/7Colors
+IF $whdloadargs EQ ""
+  whdload 7Colors.Slave
+ELSE
+  whdload 7Colors.Slave $whdloadargs
+ENDIF

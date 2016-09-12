@@ -1,0 +1,6 @@
+Name      : Elvira: The Arcade Game
+Publisher : Flair Software
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : ElviraArcade.Slave

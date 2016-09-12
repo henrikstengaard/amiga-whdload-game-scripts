@@ -1,0 +1,6 @@
+cd A-Games:U/Utopia
+IF $whdloadargs EQ ""
+  whdload Utopia.Slave
+ELSE
+  whdload Utopia.Slave $whdloadargs
+ENDIF

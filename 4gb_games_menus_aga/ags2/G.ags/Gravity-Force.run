@@ -1,0 +1,6 @@
+cd A-Games1:G/GravityForce
+IF $whdloadargs EQ ""
+  whdload GravityForce.Slave
+ELSE
+  whdload GravityForce.Slave $whdloadargs
+ENDIF

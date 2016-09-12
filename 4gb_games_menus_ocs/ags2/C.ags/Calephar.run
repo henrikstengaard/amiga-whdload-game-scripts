@@ -1,0 +1,6 @@
+cd A-Games1:C/CalepharImage
+IF $whdloadargs EQ ""
+  whdload CalepharImage.Slave
+ELSE
+  whdload CalepharImage.Slave $whdloadargs
+ENDIF

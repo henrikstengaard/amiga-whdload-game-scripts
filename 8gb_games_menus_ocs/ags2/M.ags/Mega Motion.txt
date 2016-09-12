@@ -1,0 +1,6 @@
+Name      : Mega Motion
+Publisher : Black Legend
+Year      : 1994
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : MegaMotion.slave

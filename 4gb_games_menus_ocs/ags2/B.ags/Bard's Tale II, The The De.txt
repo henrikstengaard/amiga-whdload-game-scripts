@@ -1,0 +1,6 @@
+Name      : Bard's Tale II, The: The Destiny Knight
+Publisher : Electronic Arts
+Year      : 1988
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : BardsTale2.Slave

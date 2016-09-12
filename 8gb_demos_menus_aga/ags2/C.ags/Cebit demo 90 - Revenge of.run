@@ -1,0 +1,6 @@
+cd A-Demos:C/Cebit90
+IF $whdloadargs EQ ""
+  whdload Cebit90.Slave
+ELSE
+  whdload Cebit90.Slave $whdloadargs
+ENDIF

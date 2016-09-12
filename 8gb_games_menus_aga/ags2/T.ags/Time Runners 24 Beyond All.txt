@@ -1,0 +1,6 @@
+Name      : Time Runners 24: Beyond All Dimensions
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners24.Slave

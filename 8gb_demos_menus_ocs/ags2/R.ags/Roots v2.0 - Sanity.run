@@ -1,0 +1,6 @@
+cd A-Demos:R/Roots2
+IF $whdloadargs EQ ""
+  whdload Roots2.Slave
+ELSE
+  whdload Roots2.Slave $whdloadargs
+ENDIF

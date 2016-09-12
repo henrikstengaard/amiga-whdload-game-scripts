@@ -1,0 +1,6 @@
+cd A-Demos:E/Erazorhead
+IF $whdloadargs EQ ""
+  whdload Erazorhead.Slave
+ELSE
+  whdload Erazorhead.Slave $whdloadargs
+ENDIF

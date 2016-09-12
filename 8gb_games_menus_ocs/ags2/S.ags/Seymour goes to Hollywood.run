@@ -1,0 +1,6 @@
+cd A-Games:S/SeymourGoesToHollywood
+IF $whdloadargs EQ ""
+  whdload SeymourGoesToHollywood.slave
+ELSE
+  whdload SeymourGoesToHollywood.slave $whdloadargs
+ENDIF

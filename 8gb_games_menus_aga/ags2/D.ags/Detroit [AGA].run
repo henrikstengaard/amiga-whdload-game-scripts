@@ -1,0 +1,6 @@
+cd A-Games:R/R??sselsheimAGA
+IF $whdloadargs EQ ""
+  whdload R??sselsheimAGA.Slave
+ELSE
+  whdload R??sselsheimAGA.Slave $whdloadargs
+ENDIF

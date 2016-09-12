@@ -1,0 +1,4 @@
+Name    : Party demo
+Groups  : Mute 101
+Type    : Demo
+Whdload : DemoMute101.Slave

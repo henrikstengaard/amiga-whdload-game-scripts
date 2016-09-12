@@ -1,0 +1,5 @@
+Name      : Fireblaster
+Publisher : Prism Leisure / Paradox
+Year      : 1986
+Players   : 1
+Whdload   : Fireblaster.Slave

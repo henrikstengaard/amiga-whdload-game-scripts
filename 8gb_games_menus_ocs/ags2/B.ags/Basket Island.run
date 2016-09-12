@@ -1,0 +1,6 @@
+cd A-Games:B/BasketIslandDemo1
+IF $whdloadargs EQ ""
+  whdload BasketIslandDemo1.Slave
+ELSE
+  whdload BasketIslandDemo1.Slave $whdloadargs
+ENDIF

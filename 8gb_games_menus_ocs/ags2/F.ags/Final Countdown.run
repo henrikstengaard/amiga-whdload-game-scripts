@@ -1,0 +1,6 @@
+cd A-Games:F/FinalCountdown
+IF $whdloadargs EQ ""
+  whdload FinalCountdown.Slave
+ELSE
+  whdload FinalCountdown.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/SphericalWorlds
+IF $whdloadargs EQ ""
+  whdload SphericalWorlds.Slave
+ELSE
+  whdload SphericalWorlds.Slave $whdloadargs
+ENDIF

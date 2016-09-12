@@ -1,0 +1,5 @@
+Name      : Dalek Attack
+Publisher : Admiral Software
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+Whdload   : DalekAttack.Slave

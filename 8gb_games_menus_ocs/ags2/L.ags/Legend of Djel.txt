@@ -1,0 +1,6 @@
+Name      : Legend of Djel
+Publisher : Tomahawk
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : LegendOfDjel.Slave

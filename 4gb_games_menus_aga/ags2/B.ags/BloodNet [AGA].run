@@ -1,0 +1,6 @@
+cd A-Games1:B/BloodnetAGA
+IF $whdloadargs EQ ""
+  whdload BloodnetAGA.slave
+ELSE
+  whdload BloodnetAGA.slave $whdloadargs
+ENDIF

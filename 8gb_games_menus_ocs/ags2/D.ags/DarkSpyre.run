@@ -1,0 +1,6 @@
+cd A-Games:D/DarkSpyre
+IF $whdloadargs EQ ""
+  whdload DarkSpyre.Slave
+ELSE
+  whdload DarkSpyre.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Aztec Challenge
+Publisher : (unknown)
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : AztecChallenge.Slave

@@ -1,0 +1,6 @@
+cd A-Games:I/IsharAGA
+IF $whdloadargs EQ ""
+  whdload IsharAGA.Slave
+ELSE
+  whdload IsharAGA.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:P/Powerstyx
+IF $whdloadargs EQ ""
+  whdload Powerstyx.slave
+ELSE
+  whdload Powerstyx.slave $whdloadargs
+ENDIF

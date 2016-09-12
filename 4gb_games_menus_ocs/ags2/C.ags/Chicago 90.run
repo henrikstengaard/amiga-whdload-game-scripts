@@ -1,0 +1,6 @@
+cd A-Games1:C/Chicago90
+IF $whdloadargs EQ ""
+  whdload Chicago90.Slave
+ELSE
+  whdload Chicago90.Slave $whdloadargs
+ENDIF

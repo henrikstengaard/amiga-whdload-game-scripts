@@ -1,0 +1,6 @@
+cd A-Games:H/HarrierCombatSimulator
+IF $whdloadargs EQ ""
+  whdload HarrierCombatSimulator.Slave
+ELSE
+  whdload HarrierCombatSimulator.Slave $whdloadargs
+ENDIF

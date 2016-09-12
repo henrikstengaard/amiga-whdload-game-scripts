@@ -1,0 +1,6 @@
+cd A-Games:M/MickeysMemoryChallenge
+IF $whdloadargs EQ ""
+  whdload MickeysMemoryChallenge.Slave
+ELSE
+  whdload MickeysMemoryChallenge.Slave $whdloadargs
+ENDIF

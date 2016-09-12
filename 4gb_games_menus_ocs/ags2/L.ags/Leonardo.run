@@ -1,0 +1,6 @@
+cd A-Games1:L/LeonardoDOS
+IF $whdloadargs EQ ""
+  whdload LeonardoDOS.Slave
+ELSE
+  whdload LeonardoDOS.Slave $whdloadargs
+ENDIF

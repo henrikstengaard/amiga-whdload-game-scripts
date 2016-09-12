@@ -1,0 +1,6 @@
+cd A-Games1:L/LegendsAGA
+IF $whdloadargs EQ ""
+  whdload LegendsAGA.Slave
+ELSE
+  whdload LegendsAGA.Slave $whdloadargs
+ENDIF

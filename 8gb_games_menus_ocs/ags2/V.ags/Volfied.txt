@@ -1,0 +1,6 @@
+Name      : Volfied
+Publisher : Empire Software
+Year      : 1991
+Genre     : Arcade - Tron
+Players   : 1 or 2
+Whdload   : Volfied.slave

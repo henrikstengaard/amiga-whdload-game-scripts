@@ -1,0 +1,6 @@
+cd A-Games2:W/Wall
+IF $whdloadargs EQ ""
+  whdload Wall.Slave
+ELSE
+  whdload Wall.Slave $whdloadargs
+ENDIF

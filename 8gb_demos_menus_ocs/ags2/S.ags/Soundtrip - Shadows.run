@@ -1,0 +1,6 @@
+cd A-Demos:S/Soundtrip
+IF $whdloadargs EQ ""
+  whdload Soundtrip.Slave
+ELSE
+  whdload Soundtrip.Slave $whdloadargs
+ENDIF

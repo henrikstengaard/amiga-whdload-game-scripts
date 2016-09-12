@@ -1,0 +1,6 @@
+cd A-Games1:B/BladeWarrior
+IF $whdloadargs EQ ""
+  whdload BladeWarrior.Slave
+ELSE
+  whdload BladeWarrior.Slave $whdloadargs
+ENDIF

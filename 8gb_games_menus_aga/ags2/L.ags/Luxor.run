@@ -1,0 +1,6 @@
+cd A-Games:L/Luxor
+IF $whdloadargs EQ ""
+  whdload Luxor.Slave
+ELSE
+  whdload Luxor.Slave $whdloadargs
+ENDIF

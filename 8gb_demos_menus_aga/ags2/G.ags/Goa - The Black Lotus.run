@@ -1,0 +1,6 @@
+cd A-Demos:G/Goa
+IF $whdloadargs EQ ""
+  whdload Goa.Slave
+ELSE
+  whdload Goa.Slave $whdloadargs
+ENDIF

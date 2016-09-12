@@ -1,0 +1,6 @@
+cd A-Games1:D/DrMario
+IF $whdloadargs EQ ""
+  whdload DrMario.slave
+ELSE
+  whdload DrMario.slave $whdloadargs
+ENDIF

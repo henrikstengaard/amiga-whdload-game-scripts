@@ -1,0 +1,4 @@
+Name    : Multi Demo
+Groups  : Amaze
+Type    : Demo
+Whdload : Multidemo.Slave

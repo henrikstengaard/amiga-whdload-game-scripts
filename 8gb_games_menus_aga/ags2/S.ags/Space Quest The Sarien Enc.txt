@@ -1,0 +1,6 @@
+Name      : Space Quest: The Sarien Encounter
+Publisher : Sierra On-Line
+Year      : 1987
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : SpaceQuestEnhanced.slave

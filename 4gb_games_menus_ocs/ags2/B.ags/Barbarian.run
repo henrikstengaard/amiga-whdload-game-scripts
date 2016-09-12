@@ -1,0 +1,6 @@
+cd A-Games1:B/BarbarianPalace
+IF $whdloadargs EQ ""
+  whdload BarbarianPalace.Slave
+ELSE
+  whdload BarbarianPalace.Slave $whdloadargs
+ENDIF

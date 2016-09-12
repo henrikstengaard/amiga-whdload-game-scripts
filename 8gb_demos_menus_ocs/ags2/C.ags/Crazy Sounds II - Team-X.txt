@@ -1,0 +1,4 @@
+Name    : Crazy Sounds II
+Groups  : Team-X
+Type    : Musicdisk
+Whdload : CrazySounds2.Slave

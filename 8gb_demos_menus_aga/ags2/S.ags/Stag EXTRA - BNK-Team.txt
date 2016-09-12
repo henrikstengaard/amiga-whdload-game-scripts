@@ -1,0 +1,4 @@
+Name    : Stag EXTRA
+Groups  : BNK-Team
+Type    : Slideshow
+Whdload : StagExtra.slave

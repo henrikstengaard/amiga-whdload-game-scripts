@@ -1,0 +1,5 @@
+Name      : Shinobi
+Publisher : Virgin Games
+Year      : 1989
+Players   : 1 or 2
+Whdload   : Shinobi.Slave

@@ -1,0 +1,6 @@
+cd A-Games:C/CannonFodderPlus
+IF $whdloadargs EQ ""
+  whdload CannonFodderPlus.Slave
+ELSE
+  whdload CannonFodderPlus.Slave $whdloadargs
+ENDIF

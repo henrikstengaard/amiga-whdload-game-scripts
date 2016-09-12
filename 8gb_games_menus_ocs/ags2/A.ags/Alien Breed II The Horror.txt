@@ -1,0 +1,5 @@
+Name      : Alien Breed II: The Horror Continues
+Publisher : Team 17
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+Whdload   : AlienBreed2.Slave

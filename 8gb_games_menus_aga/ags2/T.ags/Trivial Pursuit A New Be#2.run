@@ -1,0 +1,6 @@
+cd A-Games:T/TrivialPursuitNewBegin
+IF $whdloadargs EQ ""
+  whdload TrivialPursuitNewBegin.slave
+ELSE
+  whdload TrivialPursuitNewBegin.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:M/MadShow
+IF $whdloadargs EQ ""
+  whdload MadShow.Slave
+ELSE
+  whdload MadShow.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:F/FinalFight
+IF $whdloadargs EQ ""
+  whdload FinalFight.Slave
+ELSE
+  whdload FinalFight.Slave $whdloadargs
+ENDIF

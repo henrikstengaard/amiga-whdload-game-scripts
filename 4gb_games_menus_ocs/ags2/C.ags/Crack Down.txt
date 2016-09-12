@@ -1,0 +1,5 @@
+Name      : Crack Down
+Publisher : US Gold
+Year      : 1990
+Players   : 1 or 2, Simultaneous
+Whdload   : CrackDown.Slave

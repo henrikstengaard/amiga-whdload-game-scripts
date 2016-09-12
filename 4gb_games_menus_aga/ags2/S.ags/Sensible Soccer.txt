@@ -1,0 +1,5 @@
+Name      : Sensible Soccer
+Publisher : Renegade
+Year      : 1992
+Players   : 1 - 20 (2 simultaneous)
+Whdload   : SensibleSoccer.Slave

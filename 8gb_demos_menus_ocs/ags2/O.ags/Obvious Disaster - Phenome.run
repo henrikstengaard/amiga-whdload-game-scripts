@@ -1,0 +1,6 @@
+cd A-Demos:O/ObviousDisaster
+IF $whdloadargs EQ ""
+  whdload ObviousDisaster.Slave
+ELSE
+  whdload ObviousDisaster.Slave $whdloadargs
+ENDIF

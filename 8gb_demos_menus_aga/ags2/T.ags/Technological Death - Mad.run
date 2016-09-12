@@ -1,0 +1,6 @@
+cd A-Demos:T/TechnologicalDeath
+IF $whdloadargs EQ ""
+  whdload TechnologicalDeath.slave
+ELSE
+  whdload TechnologicalDeath.slave $whdloadargs
+ENDIF

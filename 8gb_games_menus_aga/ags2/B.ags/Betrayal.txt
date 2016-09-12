@@ -1,0 +1,6 @@
+Name      : Betrayal
+Publisher : Rainbird
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 to 4
+Whdload   : Betrayal.Slave

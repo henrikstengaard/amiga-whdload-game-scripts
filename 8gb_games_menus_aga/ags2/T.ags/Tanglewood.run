@@ -1,0 +1,6 @@
+cd A-Games:T/Tanglewood
+IF $whdloadargs EQ ""
+  whdload Tanglewood.Slave
+ELSE
+  whdload Tanglewood.Slave $whdloadargs
+ENDIF

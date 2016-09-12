@@ -1,0 +1,6 @@
+cd A-Demos:N/NewAge
+IF $whdloadargs EQ ""
+  whdload NewAge.Slave
+ELSE
+  whdload NewAge.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:M/Muzzax7
+IF $whdloadargs EQ ""
+  whdload Muzzax7.Slave
+ELSE
+  whdload Muzzax7.Slave $whdloadargs
+ENDIF

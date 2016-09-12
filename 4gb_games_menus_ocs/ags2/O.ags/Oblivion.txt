@@ -1,0 +1,5 @@
+Name      : Oblivion
+Year      : 1993
+Genre     : Shooter - Flyabout and Collect
+Players   : 1 or 2
+Whdload   : Oblivion.Slave

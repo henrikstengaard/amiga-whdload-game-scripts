@@ -1,0 +1,6 @@
+cd A-Games1:J/JamesPond3AGA
+IF $whdloadargs EQ ""
+  whdload JamesPond3AGA.slave
+ELSE
+  whdload JamesPond3AGA.slave $whdloadargs
+ENDIF

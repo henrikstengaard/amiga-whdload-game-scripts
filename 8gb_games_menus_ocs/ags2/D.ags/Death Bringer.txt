@@ -1,0 +1,6 @@
+Name      : Death Bringer
+Publisher : Spotlight Software
+Year      : 1989
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : DeathBringerEmpire.Slave

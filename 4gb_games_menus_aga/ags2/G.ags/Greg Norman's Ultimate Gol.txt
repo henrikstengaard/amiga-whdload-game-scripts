@@ -1,0 +1,6 @@
+Name      : Greg Norman's Ultimate Golf
+Publisher : Gremlin Graphics
+Year      : 1990
+Genre     : Sports - Golf
+Players   : 1 to 4
+Whdload   : UltimateGolf.slave

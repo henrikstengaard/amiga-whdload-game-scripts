@@ -1,0 +1,5 @@
+Name      : Cybernoid: The Fighting Machine
+Publisher : Hewson
+Year      : 1988
+Players   : 1 Only
+Whdload   : Cybernoid.Slave

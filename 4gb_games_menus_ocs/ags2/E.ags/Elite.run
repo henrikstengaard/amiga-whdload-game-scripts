@@ -1,0 +1,6 @@
+cd A-Games1:E/Elite
+IF $whdloadargs EQ ""
+  whdload Elite.Slave
+ELSE
+  whdload Elite.Slave $whdloadargs
+ENDIF

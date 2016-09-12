@@ -1,0 +1,6 @@
+cd A-Games2:S/SpaceAssault
+IF $whdloadargs EQ ""
+  whdload SpaceAssault.slave
+ELSE
+  whdload SpaceAssault.slave $whdloadargs
+ENDIF

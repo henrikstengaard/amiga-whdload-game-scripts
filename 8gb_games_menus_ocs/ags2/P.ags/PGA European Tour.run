@@ -1,0 +1,6 @@
+cd A-Games:P/PGAEuropeanTour
+IF $whdloadargs EQ ""
+  whdload PGAEuropeanTour.Slave
+ELSE
+  whdload PGAEuropeanTour.Slave $whdloadargs
+ENDIF

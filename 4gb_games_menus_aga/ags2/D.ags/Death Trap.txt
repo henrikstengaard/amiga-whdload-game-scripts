@@ -1,0 +1,5 @@
+Name      : Death Trap
+Publisher : Anco
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Whdload   : DeathTrap.Slave

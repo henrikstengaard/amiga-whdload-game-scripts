@@ -1,0 +1,6 @@
+cd A-Demos:I/Iso
+IF $whdloadargs EQ ""
+  whdload Iso.slave
+ELSE
+  whdload Iso.slave $whdloadargs
+ENDIF

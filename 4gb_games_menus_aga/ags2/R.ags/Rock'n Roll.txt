@@ -1,0 +1,5 @@
+Name      : Rock'n Roll
+Publisher : Rainbow Arts
+Year      : 1989
+Players   : 1 Only
+Whdload   : RockNRoll.Slave

@@ -1,0 +1,6 @@
+cd A-Games:G/GeeBeeAirRally
+IF $whdloadargs EQ ""
+  whdload GeeBeeAirRally.Slave
+ELSE
+  whdload GeeBeeAirRally.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:P/PixelNation
+IF $whdloadargs EQ ""
+  whdload PixelNation.Slave
+ELSE
+  whdload PixelNation.Slave $whdloadargs
+ENDIF

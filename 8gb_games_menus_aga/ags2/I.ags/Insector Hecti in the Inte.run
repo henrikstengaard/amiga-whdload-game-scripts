@@ -1,0 +1,6 @@
+cd A-Games:I/InsectorHectiInterChange
+IF $whdloadargs EQ ""
+  whdload InsectorHectiInterChange.Slave
+ELSE
+  whdload InsectorHectiInterChange.Slave $whdloadargs
+ENDIF

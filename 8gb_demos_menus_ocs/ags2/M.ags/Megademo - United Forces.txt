@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : United Forces
+Type    : Demo
+Party   : Alpha flight &amp
+Rank    : N/a
+Whdload : MegademoUnitedForces.Slave

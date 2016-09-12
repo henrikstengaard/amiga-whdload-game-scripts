@@ -1,0 +1,6 @@
+cd A-Games:O/Oblivion
+IF $whdloadargs EQ ""
+  whdload Oblivion.Slave
+ELSE
+  whdload Oblivion.Slave $whdloadargs
+ENDIF

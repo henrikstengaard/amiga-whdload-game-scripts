@@ -1,0 +1,6 @@
+cd A-Games:V/VideoKid
+IF $whdloadargs EQ ""
+  whdload VideoKid.slave
+ELSE
+  whdload VideoKid.slave $whdloadargs
+ENDIF

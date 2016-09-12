@@ -1,0 +1,4 @@
+Name    : No Tech
+Groups  : Bass
+Type    : Trackmo
+Whdload : NoTech.Slave

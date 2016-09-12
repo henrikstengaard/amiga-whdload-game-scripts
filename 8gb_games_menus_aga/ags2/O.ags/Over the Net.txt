@@ -1,0 +1,6 @@
+Name      : Over the Net
+Publisher : Genias
+Year      : 1990
+Genre     : Sports - Volleyball
+Players   : 1 to 4, Simultaneous
+Whdload   : OverTheNet.Slave

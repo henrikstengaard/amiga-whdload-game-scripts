@@ -1,0 +1,6 @@
+cd A-Games:F/FistFighter
+IF $whdloadargs EQ ""
+  whdload FistFighter.slave
+ELSE
+  whdload FistFighter.slave $whdloadargs
+ENDIF

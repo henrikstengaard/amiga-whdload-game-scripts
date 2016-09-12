@@ -1,0 +1,6 @@
+cd A-Games:P/PuttySquadAGA
+IF $whdloadargs EQ ""
+  whdload PuttySquadAGA.Slave
+ELSE
+  whdload PuttySquadAGA.Slave $whdloadargs
+ENDIF

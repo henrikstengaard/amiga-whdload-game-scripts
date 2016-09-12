@@ -1,0 +1,6 @@
+Name      : Jimmy White's Whirlwind Snooker
+Publisher : Virgin Games
+Year      : 1991
+Genre     : Sports - Snooker/Pool
+Players   : 1 or 2
+Whdload   : JimmyWhitesSnooker.slave

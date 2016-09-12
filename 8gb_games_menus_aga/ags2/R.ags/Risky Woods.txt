@@ -1,0 +1,6 @@
+Name      : Risky Woods
+Publisher : Electronic Arts
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : RiskyWoods.Slave

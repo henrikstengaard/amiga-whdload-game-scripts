@@ -1,0 +1,6 @@
+cd A-Games2:S/ShadowDancer
+IF $whdloadargs EQ ""
+  whdload ShadowDancer.Slave
+ELSE
+  whdload ShadowDancer.Slave $whdloadargs
+ENDIF

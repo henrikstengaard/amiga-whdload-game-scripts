@@ -1,0 +1,6 @@
+cd A-Games1:A/Airball
+IF $whdloadargs EQ ""
+  whdload Airball.Slave
+ELSE
+  whdload Airball.Slave $whdloadargs
+ENDIF

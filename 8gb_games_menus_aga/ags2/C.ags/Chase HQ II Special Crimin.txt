@@ -1,0 +1,6 @@
+Name      : Chase HQ II: Special Criminal Investigation
+Publisher : Ocean
+Year      : 1990
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : ChaseHQ2.Slave

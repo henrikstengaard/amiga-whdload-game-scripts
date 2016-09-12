@@ -1,0 +1,5 @@
+Name      : Videokid
+Publisher : Gremlin Graphics
+Year      : 1992
+Players   : 1 Only
+Whdload   : VideoKid.slave

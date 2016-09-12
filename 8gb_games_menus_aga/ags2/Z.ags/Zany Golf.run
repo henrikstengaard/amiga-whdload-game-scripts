@@ -1,0 +1,6 @@
+cd A-Games:Z/ZanyGolf
+IF $whdloadargs EQ ""
+  whdload ZanyGolf.slave
+ELSE
+  whdload ZanyGolf.slave $whdloadargs
+ENDIF

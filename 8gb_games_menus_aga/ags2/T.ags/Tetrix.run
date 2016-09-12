@@ -1,0 +1,6 @@
+cd A-Games:T/Tetrix
+IF $whdloadargs EQ ""
+  whdload Tetrix.Slave
+ELSE
+  whdload Tetrix.Slave $whdloadargs
+ENDIF

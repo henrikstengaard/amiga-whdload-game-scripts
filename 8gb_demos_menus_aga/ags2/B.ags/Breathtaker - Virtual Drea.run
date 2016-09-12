@@ -1,0 +1,6 @@
+cd A-Demos:B/Breathtaker
+IF $whdloadargs EQ ""
+  whdload Breathtaker.Slave
+ELSE
+  whdload Breathtaker.Slave $whdloadargs
+ENDIF

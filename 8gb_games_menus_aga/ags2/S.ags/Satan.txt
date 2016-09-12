@@ -1,0 +1,5 @@
+Name      : Satan
+Publisher : Dinamic Software
+Year      : 1990
+Players   : 1 Only
+Whdload   : Satan.slave

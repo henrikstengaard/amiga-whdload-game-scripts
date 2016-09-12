@@ -1,0 +1,6 @@
+cd A-Games1:I/ItCameFromTheDesert2
+IF $whdloadargs EQ ""
+  whdload ItCameFromTheDesert2.Slave
+ELSE
+  whdload ItCameFromTheDesert2.Slave $whdloadargs
+ENDIF

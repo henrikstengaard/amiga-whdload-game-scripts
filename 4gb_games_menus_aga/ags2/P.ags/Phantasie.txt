@@ -1,0 +1,6 @@
+Name      : Phantasie
+Publisher : Strategic Simulations, Inc.
+Year      : 1987
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : Phantasie.Slave

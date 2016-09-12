@@ -1,0 +1,5 @@
+Name      : Cyberball
+Publisher : Domark / Tengen / ERBE
+Year      : 1990
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Cyberball.slave

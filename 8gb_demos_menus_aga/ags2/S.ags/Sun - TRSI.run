@@ -1,0 +1,6 @@
+cd A-Demos:S/Sun
+IF $whdloadargs EQ ""
+  whdload Sun.Slave
+ELSE
+  whdload Sun.Slave $whdloadargs
+ENDIF

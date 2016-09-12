@@ -1,0 +1,6 @@
+cd A-Games:A/AdvancedSkiSimulator
+IF $whdloadargs EQ ""
+  whdload AdvancedSkiSimulator.slave
+ELSE
+  whdload AdvancedSkiSimulator.slave $whdloadargs
+ENDIF

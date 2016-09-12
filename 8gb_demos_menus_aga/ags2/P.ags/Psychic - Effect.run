@@ -1,0 +1,6 @@
+cd A-Demos:P/Psychic
+IF $whdloadargs EQ ""
+  whdload Psychic.Slave
+ELSE
+  whdload Psychic.Slave $whdloadargs
+ENDIF

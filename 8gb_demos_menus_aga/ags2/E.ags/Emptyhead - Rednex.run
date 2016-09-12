@@ -1,0 +1,6 @@
+cd A-Demos:E/Emptyhead
+IF $whdloadargs EQ ""
+  whdload Emptyhead.Slave
+ELSE
+  whdload Emptyhead.Slave $whdloadargs
+ENDIF

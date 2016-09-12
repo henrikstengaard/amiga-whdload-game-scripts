@@ -1,0 +1,6 @@
+cd A-Games:T/TVSportsFootball
+IF $whdloadargs EQ ""
+  whdload TVSportsFootball.slave
+ELSE
+  whdload TVSportsFootball.slave $whdloadargs
+ENDIF

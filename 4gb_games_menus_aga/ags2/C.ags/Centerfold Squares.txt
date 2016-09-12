@@ -1,0 +1,6 @@
+Name      : Centerfold Squares
+Publisher : Artworx
+Year      : 1988
+Genre     : Puzzler
+Players   : 1
+Whdload   : CentrefoldSquares.Slave

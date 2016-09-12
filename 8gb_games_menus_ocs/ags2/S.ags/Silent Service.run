@@ -1,0 +1,6 @@
+cd A-Games:S/SilentService
+IF $whdloadargs EQ ""
+  whdload SilentService.Slave
+ELSE
+  whdload SilentService.Slave $whdloadargs
+ENDIF

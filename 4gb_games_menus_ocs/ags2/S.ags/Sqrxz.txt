@@ -1,0 +1,6 @@
+Name      : Sqrxz
+Publisher : (unknown)
+Year      : 2012
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Sqrxz.Slave

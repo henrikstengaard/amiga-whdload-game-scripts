@@ -1,0 +1,6 @@
+cd A-Demos:V/VaginalMassacre
+IF $whdloadargs EQ ""
+  whdload VaginalMassacre.slave
+ELSE
+  whdload VaginalMassacre.slave $whdloadargs
+ENDIF

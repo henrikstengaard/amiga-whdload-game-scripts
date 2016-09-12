@@ -1,0 +1,6 @@
+Name      : Ogre
+Publisher : Origin Systems
+Year      : 1986
+Genre     : Strategy - War
+Players   : 1 or 2
+Whdload   : Ogre.Slave

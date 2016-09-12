@@ -1,0 +1,6 @@
+cd A-Games:S/SuperSkweek
+IF $whdloadargs EQ ""
+  whdload SuperSkweek.Slave
+ELSE
+  whdload SuperSkweek.Slave $whdloadargs
+ENDIF

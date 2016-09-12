@@ -1,0 +1,6 @@
+Name      : Premiere
+Publisher : Corkers (Core Design)
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Premiere.Slave

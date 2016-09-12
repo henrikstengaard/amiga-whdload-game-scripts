@@ -1,0 +1,6 @@
+Name      : Cosmic Bouncer
+Publisher : ReadySoft
+Year      : 1988
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : CosmicBouncer.Slave

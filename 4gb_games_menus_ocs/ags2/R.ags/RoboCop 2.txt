@@ -1,0 +1,4 @@
+Name      : RoboCop 2
+Publisher : Ocean
+Year      : 1990
+Whdload   : RoboCop2.Slave

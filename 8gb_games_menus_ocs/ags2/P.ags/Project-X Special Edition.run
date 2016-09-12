@@ -1,0 +1,6 @@
+cd A-Games:P/ProjectXSE
+IF $whdloadargs EQ ""
+  whdload ProjectXSE.Slave
+ELSE
+  whdload ProjectXSE.Slave $whdloadargs
+ENDIF

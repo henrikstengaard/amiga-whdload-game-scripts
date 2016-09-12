@@ -1,0 +1,6 @@
+cd A-Games:R/RanX
+IF $whdloadargs EQ ""
+  whdload RanX.Slave
+ELSE
+  whdload RanX.Slave $whdloadargs
+ENDIF

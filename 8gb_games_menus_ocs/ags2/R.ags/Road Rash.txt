@@ -1,0 +1,6 @@
+Name      : Road Rash
+Publisher : Electronic Arts
+Year      : 1992
+Genre     : Racing - Motorcycle
+Players   : 1 or 2, Simultaneous
+Whdload   : RoadRash.Slave

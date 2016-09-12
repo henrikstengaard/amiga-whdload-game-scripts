@@ -1,0 +1,4 @@
+Name    : Music Disk
+Groups  : Bass
+Type    : Musicdisk
+Whdload : MusicDisk1Bass.Slave

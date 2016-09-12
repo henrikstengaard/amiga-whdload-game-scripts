@@ -1,0 +1,6 @@
+cd A-Demos:C/CerebralDelights
+IF $whdloadargs EQ ""
+  whdload CerebralDelights.Slave
+ELSE
+  whdload CerebralDelights.Slave $whdloadargs
+ENDIF

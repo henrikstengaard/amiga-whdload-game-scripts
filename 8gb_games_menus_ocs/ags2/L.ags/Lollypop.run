@@ -1,0 +1,6 @@
+cd A-Games:L/Lollypop
+IF $whdloadargs EQ ""
+  whdload Lollypop.Slave
+ELSE
+  whdload Lollypop.Slave $whdloadargs
+ENDIF

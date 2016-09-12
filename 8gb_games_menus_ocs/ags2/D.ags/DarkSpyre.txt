@@ -1,0 +1,6 @@
+Name      : DarkSpyre
+Publisher : Electronic Zoo
+Year      : 1991
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : DarkSpyre.Slave

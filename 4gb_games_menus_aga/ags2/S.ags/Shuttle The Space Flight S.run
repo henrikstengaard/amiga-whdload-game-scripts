@@ -1,0 +1,6 @@
+cd A-Games2:S/Shuttle
+IF $whdloadargs EQ ""
+  whdload Shuttle.Slave
+ELSE
+  whdload Shuttle.Slave $whdloadargs
+ENDIF

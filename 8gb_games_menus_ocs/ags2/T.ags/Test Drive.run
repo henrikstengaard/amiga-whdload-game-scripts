@@ -1,0 +1,6 @@
+cd A-Games:T/TestDrive
+IF $whdloadargs EQ ""
+  whdload TestDrive.slave
+ELSE
+  whdload TestDrive.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:B/BestOfRAFVol1
+IF $whdloadargs EQ ""
+  whdload BestOfRAFVol1.Slave
+ELSE
+  whdload BestOfRAFVol1.Slave $whdloadargs
+ENDIF

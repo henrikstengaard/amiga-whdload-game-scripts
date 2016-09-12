@@ -1,0 +1,6 @@
+cd A-Demos:P/Psychotic
+IF $whdloadargs EQ ""
+  whdload Psychotic.Slave
+ELSE
+  whdload Psychotic.Slave $whdloadargs
+ENDIF

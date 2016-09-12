@@ -1,0 +1,6 @@
+cd A-Games1:C/Cartoons
+IF $whdloadargs EQ ""
+  whdload Cartoons.Slave
+ELSE
+  whdload Cartoons.Slave $whdloadargs
+ENDIF

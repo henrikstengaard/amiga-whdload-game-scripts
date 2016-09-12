@@ -1,0 +1,5 @@
+Name      : Die Hard 2: Die Harder
+Publisher : Grandslam
+Year      : 1992
+Players   : 1 Only
+Whdload   : DieHard2.Slave

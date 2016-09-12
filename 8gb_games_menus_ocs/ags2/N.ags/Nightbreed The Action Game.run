@@ -1,0 +1,6 @@
+cd A-Games:N/NightbreedAction
+IF $whdloadargs EQ ""
+  whdload NightbreedAction.Slave
+ELSE
+  whdload NightbreedAction.Slave $whdloadargs
+ENDIF

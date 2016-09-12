@@ -1,0 +1,6 @@
+Name    : Hallucinations and Dreams
+Groups  : Union
+Type    : Demo
+Party   : Mountain Congress 1993
+Rank    : 2nd
+Whdload : Hallucinations&Dreams.Slave

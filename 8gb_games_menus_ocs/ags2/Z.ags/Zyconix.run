@@ -1,0 +1,6 @@
+cd A-Games:Z/Zyconix
+IF $whdloadargs EQ ""
+  whdload Zyconix.Slave
+ELSE
+  whdload Zyconix.Slave $whdloadargs
+ENDIF

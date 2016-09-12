@@ -1,0 +1,6 @@
+Name      : Kingmaker: The Quest for the Crown
+Publisher : US Gold
+Year      : 1993
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : KingmakerQuestForTheCrown.Slave

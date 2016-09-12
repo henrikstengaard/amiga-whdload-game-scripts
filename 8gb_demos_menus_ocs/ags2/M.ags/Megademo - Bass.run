@@ -1,0 +1,6 @@
+cd A-Demos:M/MegademoBass
+IF $whdloadargs EQ ""
+  whdload MegademoBass.slave
+ELSE
+  whdload MegademoBass.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:J/JochenHippelSoundDemo
+IF $whdloadargs EQ ""
+  whdload JochenHippelSoundDemo.Slave
+ELSE
+  whdload JochenHippelSoundDemo.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/ShadowFighterAGA
+IF $whdloadargs EQ ""
+  whdload ShadowFighterAGA.Slave
+ELSE
+  whdload ShadowFighterAGA.Slave $whdloadargs
+ENDIF

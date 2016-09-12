@@ -1,0 +1,5 @@
+Name      : Under Pressure
+Publisher : Electronic Zoo
+Year      : 1991
+Players   : 1 Only
+Whdload   : UnderPressure.Slave

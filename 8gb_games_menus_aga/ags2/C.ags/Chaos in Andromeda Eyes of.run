@@ -1,0 +1,6 @@
+cd A-Games:C/ChaosInAndromedaCDTV
+IF $whdloadargs EQ ""
+  whdload ChaosInAndromedaCDTV.Slave
+ELSE
+  whdload ChaosInAndromedaCDTV.Slave $whdloadargs
+ENDIF

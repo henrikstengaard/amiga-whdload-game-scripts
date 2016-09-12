@@ -1,0 +1,6 @@
+cd A-Demos:B/Beatvise
+IF $whdloadargs EQ ""
+  whdload Beatvise.Slave
+ELSE
+  whdload Beatvise.Slave $whdloadargs
+ENDIF

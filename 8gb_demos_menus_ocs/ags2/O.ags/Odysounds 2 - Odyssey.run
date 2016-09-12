@@ -1,0 +1,6 @@
+cd A-Demos:O/OdySounds2
+IF $whdloadargs EQ ""
+  whdload OdySounds2.Slave
+ELSE
+  whdload OdySounds2.Slave $whdloadargs
+ENDIF

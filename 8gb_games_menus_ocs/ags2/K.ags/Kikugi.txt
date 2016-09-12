@@ -1,0 +1,5 @@
+Name      : Kikugi
+Publisher : Image Tech
+Year      : 1988
+Players   : 1
+Whdload   : Kikugi.Slave

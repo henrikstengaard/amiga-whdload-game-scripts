@@ -1,0 +1,6 @@
+cd A-Games:T/TwinTurbos
+IF $whdloadargs EQ ""
+  whdload TwinTurbos.slave
+ELSE
+  whdload TwinTurbos.slave $whdloadargs
+ENDIF

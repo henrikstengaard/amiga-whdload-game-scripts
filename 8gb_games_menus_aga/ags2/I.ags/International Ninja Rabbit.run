@@ -1,0 +1,6 @@
+cd A-Games:I/InternationalNinjaRabbits
+IF $whdloadargs EQ ""
+  whdload InternationalNinjaRabbits.Slave
+ELSE
+  whdload InternationalNinjaRabbits.Slave $whdloadargs
+ENDIF

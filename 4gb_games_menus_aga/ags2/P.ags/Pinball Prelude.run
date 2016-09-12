@@ -1,0 +1,6 @@
+cd A-Games2:P/PinballPreludeAGA
+IF $whdloadargs EQ ""
+  whdload PinballPreludeAGA.slave
+ELSE
+  whdload PinballPreludeAGA.slave $whdloadargs
+ENDIF

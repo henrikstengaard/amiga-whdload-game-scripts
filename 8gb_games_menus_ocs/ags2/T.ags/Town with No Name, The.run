@@ -1,0 +1,6 @@
+cd A-Games:T/TownWithNoNameCDTV
+IF $whdloadargs EQ ""
+  whdload TownWithNoNameCDTV.Slave
+ELSE
+  whdload TownWithNoNameCDTV.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Backlash
+Publisher : Novagen
+Year      : 1987
+Players   : 1 Only
+Whdload   : Backlash.Slave

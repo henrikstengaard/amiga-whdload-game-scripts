@@ -1,0 +1,6 @@
+Name      : Hacker II: The Doomsday Papers
+Publisher : Activision
+Year      : 1986
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Hacker2.Slave

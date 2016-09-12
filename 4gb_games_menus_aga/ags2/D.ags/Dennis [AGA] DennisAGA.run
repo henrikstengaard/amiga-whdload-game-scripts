@@ -1,0 +1,6 @@
+cd A-Games1:D/DennisAGADesktopDynamite
+IF $whdloadargs EQ ""
+  whdload DennisAGA.slave
+ELSE
+  whdload DennisAGA.slave $whdloadargs
+ENDIF

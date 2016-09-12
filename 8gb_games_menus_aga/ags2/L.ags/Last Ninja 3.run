@@ -1,0 +1,6 @@
+cd A-Games:L/LastNinja3
+IF $whdloadargs EQ ""
+  whdload LastNinja3.Slave
+ELSE
+  whdload LastNinja3.Slave $whdloadargs
+ENDIF

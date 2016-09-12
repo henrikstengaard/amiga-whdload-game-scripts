@@ -1,0 +1,6 @@
+cd A-Demos:S/Sensation
+IF $whdloadargs EQ ""
+  whdload Sensation.Slave
+ELSE
+  whdload Sensation.Slave $whdloadargs
+ENDIF

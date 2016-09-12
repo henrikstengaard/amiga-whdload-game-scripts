@@ -1,0 +1,6 @@
+cd A-Demos:W/WaveSound
+IF $whdloadargs EQ ""
+  whdload WaveSound.Slave
+ELSE
+  whdload WaveSound.Slave $whdloadargs
+ENDIF

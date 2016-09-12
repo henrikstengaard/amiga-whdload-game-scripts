@@ -1,0 +1,5 @@
+Name      : Fightin' Spirit
+Publisher : Neo Software Produktions
+Year      : 1996
+Players   : 1 or 2, Simultaneous
+Whdload   : FightinSpirit.slave

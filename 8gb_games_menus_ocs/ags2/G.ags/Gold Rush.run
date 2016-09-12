@@ -1,0 +1,6 @@
+cd A-Games:G/GoldRush
+IF $whdloadargs EQ ""
+  whdload GoldRush.slave
+ELSE
+  whdload GoldRush.slave $whdloadargs
+ENDIF

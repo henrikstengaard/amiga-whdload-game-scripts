@@ -1,0 +1,6 @@
+cd A-Demos:L/Linus
+IF $whdloadargs EQ ""
+  whdload Linus.Slave
+ELSE
+  whdload Linus.Slave $whdloadargs
+ENDIF

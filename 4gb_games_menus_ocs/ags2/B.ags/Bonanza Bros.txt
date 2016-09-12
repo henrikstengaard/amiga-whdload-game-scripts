@@ -1,0 +1,6 @@
+Name      : Bonanza Bros
+Publisher : US Gold
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : BonanzaBros.slave

@@ -1,0 +1,5 @@
+Name      : Titus the Fox
+Publisher : Titus
+Year      : 1992
+Players   : 1
+Whdload   : TitusTheFox.slave

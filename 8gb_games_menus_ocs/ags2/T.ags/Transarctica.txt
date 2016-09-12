@@ -1,0 +1,6 @@
+Name      : Transarctica
+Publisher : Silmarils
+Year      : 1993
+Genre     : Simulation - Train
+Players   : 1 Only
+Whdload   : Transarctica.Slave

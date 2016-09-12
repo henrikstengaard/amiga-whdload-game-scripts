@@ -1,0 +1,4 @@
+Name    : Sounddisk 2 -The Best of Grubi-
+Groups  : Brainstorm
+Type    : Musicdisk
+Whdload : BestOfGrubi.Slave

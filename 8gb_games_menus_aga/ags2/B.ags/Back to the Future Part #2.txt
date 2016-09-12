@@ -1,0 +1,6 @@
+Name      : Back to the Future Part II
+Publisher : Image Works
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : BackToTheFuturePart2.slave

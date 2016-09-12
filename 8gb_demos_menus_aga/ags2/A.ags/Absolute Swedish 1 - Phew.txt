@@ -1,0 +1,4 @@
+Name    : Absolute Swedish 1
+Groups  : Phew! Productions
+Type    : Musicdisk
+Whdload : AbsoluteSwedish.Slave

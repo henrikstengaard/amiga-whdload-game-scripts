@@ -1,0 +1,6 @@
+cd A-Games:P/PinballHazard
+IF $whdloadargs EQ ""
+  whdload PinballHazard.Slave
+ELSE
+  whdload PinballHazard.Slave $whdloadargs
+ENDIF

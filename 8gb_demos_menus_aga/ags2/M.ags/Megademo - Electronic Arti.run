@@ -1,0 +1,6 @@
+cd A-Demos:M/MegademoEOA
+IF $whdloadargs EQ ""
+  whdload MegademoEOA.Slave
+ELSE
+  whdload MegademoEOA.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games2:M/MikeReadsComputerPopQuiz
+IF $whdloadargs EQ ""
+  whdload MikeReadsComputerPopQuiz.Slave
+ELSE
+  whdload MikeReadsComputerPopQuiz.Slave $whdloadargs
+ENDIF

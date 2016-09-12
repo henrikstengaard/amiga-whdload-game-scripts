@@ -1,0 +1,4 @@
+Name    : Aloha
+Groups  : Rebels
+Type    : Demo
+Whdload : Aloha.Slave

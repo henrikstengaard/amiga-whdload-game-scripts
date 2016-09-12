@@ -1,0 +1,6 @@
+cd A-Games1:E/Enemy(EasyPlay)
+IF $whdloadargs EQ ""
+  whdload Enemy(EasyPlay).Slave
+ELSE
+  whdload Enemy(EasyPlay).Slave $whdloadargs
+ENDIF

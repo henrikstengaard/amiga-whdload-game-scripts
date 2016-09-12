@@ -1,0 +1,6 @@
+cd A-Games:S/StripPoker2+
+IF $whdloadargs EQ ""
+  whdload StripPoker2+.Slave
+ELSE
+  whdload StripPoker2+.Slave $whdloadargs
+ENDIF

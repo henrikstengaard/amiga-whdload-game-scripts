@@ -1,0 +1,6 @@
+cd A-Demos:S/Seduction
+IF $whdloadargs EQ ""
+  whdload Seduction.Slave
+ELSE
+  whdload Seduction.Slave $whdloadargs
+ENDIF

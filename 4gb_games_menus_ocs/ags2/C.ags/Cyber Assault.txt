@@ -1,0 +1,5 @@
+Name      : Cyber Assault
+Publisher : Trojan Software
+Year      : 1991
+Players   : 1 Only
+Whdload   : CyberAssault.Slave

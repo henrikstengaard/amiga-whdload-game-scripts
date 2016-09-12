@@ -1,0 +1,6 @@
+cd A-Demos:P/PanicVoicesOfEnergy
+IF $whdloadargs EQ ""
+  whdload PanicVoicesOfEnergy.Slave
+ELSE
+  whdload PanicVoicesOfEnergy.Slave $whdloadargs
+ENDIF

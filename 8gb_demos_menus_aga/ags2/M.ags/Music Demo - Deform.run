@@ -1,0 +1,6 @@
+cd A-Demos:M/MusicDemoDeform
+IF $whdloadargs EQ ""
+  whdload MusicDemoDeform.Slave
+ELSE
+  whdload MusicDemoDeform.Slave $whdloadargs
+ENDIF

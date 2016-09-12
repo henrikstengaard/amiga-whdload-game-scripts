@@ -1,0 +1,6 @@
+cd A-Games1:H/HiredGuns512KB
+IF $whdloadargs EQ ""
+  whdload HiredGuns512KB.Slave
+ELSE
+  whdload HiredGuns512KB.Slave $whdloadargs
+ENDIF

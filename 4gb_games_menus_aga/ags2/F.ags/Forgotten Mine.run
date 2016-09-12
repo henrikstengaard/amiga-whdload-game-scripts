@@ -1,0 +1,6 @@
+cd A-Games1:F/ForgottenMine
+IF $whdloadargs EQ ""
+  whdload ForgottenMine.slave
+ELSE
+  whdload ForgottenMine.slave $whdloadargs
+ENDIF

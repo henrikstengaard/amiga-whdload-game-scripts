@@ -1,0 +1,6 @@
+cd A-Games:P/Paradroid90512KB
+IF $whdloadargs EQ ""
+  whdload Paradroid90512KB.Slave
+ELSE
+  whdload Paradroid90512KB.Slave $whdloadargs
+ENDIF

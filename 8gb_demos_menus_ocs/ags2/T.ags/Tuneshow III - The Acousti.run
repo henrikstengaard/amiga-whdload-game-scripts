@@ -1,0 +1,6 @@
+cd A-Demos:T/TuneShow3
+IF $whdloadargs EQ ""
+  whdload TuneShow3.Slave
+ELSE
+  whdload TuneShow3.Slave $whdloadargs
+ENDIF

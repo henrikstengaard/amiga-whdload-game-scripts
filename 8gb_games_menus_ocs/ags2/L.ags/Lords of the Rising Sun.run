@@ -1,0 +1,6 @@
+cd A-Games:L/LordsOfTheRisingSun
+IF $whdloadargs EQ ""
+  whdload LordsOfTheRisingSun.slave
+ELSE
+  whdload LordsOfTheRisingSun.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:B/BobsBadDay
+IF $whdloadargs EQ ""
+  whdload BobsBadDay.slave
+ELSE
+  whdload BobsBadDay.slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:B/Boombastic
+IF $whdloadargs EQ ""
+  whdload Boombastic.slave
+ELSE
+  whdload Boombastic.slave $whdloadargs
+ENDIF

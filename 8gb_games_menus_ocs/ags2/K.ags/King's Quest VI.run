@@ -1,0 +1,6 @@
+cd A-Games:K/KingsQuest6
+IF $whdloadargs EQ ""
+  whdload KingsQuest6.slave
+ELSE
+  whdload KingsQuest6.slave $whdloadargs
+ENDIF

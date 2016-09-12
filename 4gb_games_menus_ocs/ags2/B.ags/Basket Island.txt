@@ -1,0 +1,4 @@
+Name      : Basket Island
+Genre     : Sport - Basketball
+Players   : 1
+Whdload   : BasketIslandDemo1.Slave

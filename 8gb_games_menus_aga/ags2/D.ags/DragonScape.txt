@@ -1,0 +1,5 @@
+Name      : DragonScape
+Publisher : Free Spirit Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : DragonScape.slave

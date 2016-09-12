@@ -1,0 +1,5 @@
+Name      : The Real Popeye
+Publisher : Freeware
+Year      : 1993
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : RealPopeye.Slave

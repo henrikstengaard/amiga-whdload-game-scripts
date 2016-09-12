@@ -1,0 +1,5 @@
+Name      : Sir Fred: The Legend
+Publisher : Ubi Soft
+Year      : 1989
+Players   : 1 Only
+Whdload   : SirFredTheLegend.slave

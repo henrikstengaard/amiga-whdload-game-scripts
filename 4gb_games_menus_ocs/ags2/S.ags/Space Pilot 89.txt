@@ -1,0 +1,5 @@
+Name      : Space Pilot 89
+Publisher : Kingsoft
+Year      : 1989
+Players   : 1
+Whdload   : SpacePilot89.Slave

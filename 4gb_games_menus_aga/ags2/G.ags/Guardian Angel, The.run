@@ -1,0 +1,6 @@
+cd A-Games1:G/GuardianAngel
+IF $whdloadargs EQ ""
+  whdload GuardianAngel.Slave
+ELSE
+  whdload GuardianAngel.Slave $whdloadargs
+ENDIF

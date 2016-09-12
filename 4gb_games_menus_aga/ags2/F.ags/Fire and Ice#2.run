@@ -1,0 +1,6 @@
+cd A-Games1:F/Fire&IceXmasDemo
+IF $whdloadargs EQ ""
+  whdload Fire&IceXmasDemo.Slave
+ELSE
+  whdload Fire&IceXmasDemo.Slave $whdloadargs
+ENDIF

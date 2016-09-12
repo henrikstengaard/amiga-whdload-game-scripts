@@ -1,0 +1,6 @@
+Name      : Giddy II: Hero in an Egg Shell
+Publisher : F1 Licenceware
+Year      : 1994
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : Giddy2HeroInAnEggShell.Slave

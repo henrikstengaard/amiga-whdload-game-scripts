@@ -1,0 +1,5 @@
+Name      : Better Maths
+Publisher : School Software
+Genre     : Educational - Math
+Players   : 1 Only
+Whdload   : BetterMaths.Slave

@@ -1,0 +1,6 @@
+cd A-Games1:J/JumpNRoll
+IF $whdloadargs EQ ""
+  whdload JumpNRoll.Slave
+ELSE
+  whdload JumpNRoll.Slave $whdloadargs
+ENDIF

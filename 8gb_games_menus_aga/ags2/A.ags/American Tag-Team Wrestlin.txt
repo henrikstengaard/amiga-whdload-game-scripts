@@ -1,0 +1,5 @@
+Name      : American Tag-Team Wrestling
+Publisher : Zeppelin
+Year      : 1992
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : AmericanTagTeamWrestling.Slave

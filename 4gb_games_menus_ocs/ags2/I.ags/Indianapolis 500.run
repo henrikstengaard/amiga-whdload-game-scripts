@@ -1,0 +1,6 @@
+cd A-Games1:I/Indianapolis500
+IF $whdloadargs EQ ""
+  whdload Indianapolis500.slave
+ELSE
+  whdload Indianapolis500.slave $whdloadargs
+ENDIF

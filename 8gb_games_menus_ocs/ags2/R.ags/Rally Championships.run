@@ -1,0 +1,6 @@
+cd A-Games:R/RallyChampionships
+IF $whdloadargs EQ ""
+  whdload RallyChampionships.Slave
+ELSE
+  whdload RallyChampionships.Slave $whdloadargs
+ENDIF

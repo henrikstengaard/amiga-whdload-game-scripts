@@ -1,0 +1,6 @@
+cd A-Games:T/TRacer
+IF $whdloadargs EQ ""
+  whdload TRacer.Slave
+ELSE
+  whdload TRacer.Slave $whdloadargs
+ENDIF

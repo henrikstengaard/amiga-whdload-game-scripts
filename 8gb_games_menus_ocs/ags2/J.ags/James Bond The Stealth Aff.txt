@@ -1,0 +1,6 @@
+Name      : James Bond: The Stealth Affair
+Publisher : Interplay Productions
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : JamesBondTheStealthAffair.Slave

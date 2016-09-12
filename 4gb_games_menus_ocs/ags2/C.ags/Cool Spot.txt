@@ -1,0 +1,6 @@
+Name      : Cool Spot
+Publisher : Virgin Interactive
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : CoolSpot.Slave

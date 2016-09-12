@@ -1,0 +1,6 @@
+Name    : Mesmerized
+Groups  : Pure Metal Coders
+Type    : Demo
+Party   : Theatre and Network 1990
+Rank    : 4th
+Whdload : Mesmerized.Slave

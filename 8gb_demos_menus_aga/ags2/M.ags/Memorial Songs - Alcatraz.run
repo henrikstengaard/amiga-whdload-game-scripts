@@ -1,0 +1,6 @@
+cd A-Demos:M/MemorialSongs
+IF $whdloadargs EQ ""
+  whdload MemorialSongs.Slave
+ELSE
+  whdload MemorialSongs.Slave $whdloadargs
+ENDIF

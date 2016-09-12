@@ -1,0 +1,6 @@
+cd A-Games:E/EuroSoccer
+IF $whdloadargs EQ ""
+  whdload EuroSoccer.Slave
+ELSE
+  whdload EuroSoccer.Slave $whdloadargs
+ENDIF

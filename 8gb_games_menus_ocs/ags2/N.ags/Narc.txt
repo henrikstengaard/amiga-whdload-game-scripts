@@ -1,0 +1,5 @@
+Name      : Narc
+Publisher : Ocean
+Year      : 1990
+Players   : 1 or 2, Simultaneous
+Whdload   : Narc.slave

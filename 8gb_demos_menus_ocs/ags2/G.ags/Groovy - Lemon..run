@@ -1,0 +1,6 @@
+cd A-Demos:G/Groovy
+IF $whdloadargs EQ ""
+  whdload Groovy.Slave
+ELSE
+  whdload Groovy.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:S/ShakkaLakka
+IF $whdloadargs EQ ""
+  whdload ShakkaLakka.Slave
+ELSE
+  whdload ShakkaLakka.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Code Name: Iceman
+Publisher : Sierra On-Line
+Year      : 1990
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : CodeNameIceman.slave

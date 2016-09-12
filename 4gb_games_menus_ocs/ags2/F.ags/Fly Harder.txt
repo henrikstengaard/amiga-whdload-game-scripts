@@ -1,0 +1,5 @@
+Name      : Fly Harder
+Publisher : Starbyte Software
+Year      : 1993
+Players   : 1 Only
+Whdload   : FlyHarder.slave

@@ -1,0 +1,6 @@
+cd A-Games:S/ScoobyDoo&ScrappyDoo
+IF $whdloadargs EQ ""
+  whdload ScoobyDoo&ScrappyDoo.slave
+ELSE
+  whdload ScoobyDoo&ScrappyDoo.slave $whdloadargs
+ENDIF

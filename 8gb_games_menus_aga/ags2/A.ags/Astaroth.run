@@ -1,0 +1,6 @@
+cd A-Games:A/Astaroth
+IF $whdloadargs EQ ""
+  whdload Astaroth.Slave
+ELSE
+  whdload Astaroth.Slave $whdloadargs
+ENDIF

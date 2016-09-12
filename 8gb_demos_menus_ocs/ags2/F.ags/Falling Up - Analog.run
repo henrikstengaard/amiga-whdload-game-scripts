@@ -1,0 +1,6 @@
+cd A-Demos:F/FallingUp
+IF $whdloadargs EQ ""
+  whdload FallingUp.Slave
+ELSE
+  whdload FallingUp.Slave $whdloadargs
+ENDIF

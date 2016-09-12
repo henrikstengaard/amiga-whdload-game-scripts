@@ -1,0 +1,6 @@
+Name    : No Brain - No Pain! (megademo)
+Groups  : Flash Production
+Type    : Demo
+Party   : Amiga Conference 1990
+Rank    : 4th
+Whdload : NoBrainNoPain.Slave

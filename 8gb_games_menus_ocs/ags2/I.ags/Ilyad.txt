@@ -1,0 +1,5 @@
+Name      : Ilyad
+Publisher : Ubi Soft
+Year      : 1989
+Players   : 1 Only
+Whdload   : Ilyad.Slave

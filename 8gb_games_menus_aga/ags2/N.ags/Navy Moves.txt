@@ -1,0 +1,6 @@
+Name      : Navy Moves
+Publisher : Dinamic Software
+Year      : 1989
+Genre     : Arcade - Multigenre
+Players   : 1 Only
+Whdload   : NavyMoves.Slave

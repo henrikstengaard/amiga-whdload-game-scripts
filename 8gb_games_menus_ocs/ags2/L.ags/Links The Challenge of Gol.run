@@ -1,0 +1,6 @@
+cd A-Games:L/Links
+IF $whdloadargs EQ ""
+  whdload Links.slave
+ELSE
+  whdload Links.slave $whdloadargs
+ENDIF

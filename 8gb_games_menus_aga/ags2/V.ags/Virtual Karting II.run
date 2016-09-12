@@ -1,0 +1,6 @@
+cd A-Games:V/VirtualKarting2AGA
+IF $whdloadargs EQ ""
+  whdload VirtualKarting2AGA.slave
+ELSE
+  whdload VirtualKarting2AGA.slave $whdloadargs
+ENDIF

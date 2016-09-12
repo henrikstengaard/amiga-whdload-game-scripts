@@ -1,0 +1,6 @@
+cd A-Games:B/BobsGarden
+IF $whdloadargs EQ ""
+  whdload BobsGarden.Slave
+ELSE
+  whdload BobsGarden.Slave $whdloadargs
+ENDIF

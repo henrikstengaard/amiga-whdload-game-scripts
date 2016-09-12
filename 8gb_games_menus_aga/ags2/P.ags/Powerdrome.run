@@ -1,0 +1,6 @@
+cd A-Games:P/Powerdrome
+IF $whdloadargs EQ ""
+  whdload Powerdrome.Slave
+ELSE
+  whdload Powerdrome.Slave $whdloadargs
+ENDIF

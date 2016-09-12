@@ -1,0 +1,6 @@
+Name      : Joe Blade
+Publisher : Players Software
+Year      : 1987
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : JoeBlade.Slave

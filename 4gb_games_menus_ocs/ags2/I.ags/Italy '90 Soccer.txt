@@ -1,0 +1,6 @@
+Name      : Italy '90 Soccer
+Publisher : Simulmondo
+Year      : 1988
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : WorldClassSoccer.slave

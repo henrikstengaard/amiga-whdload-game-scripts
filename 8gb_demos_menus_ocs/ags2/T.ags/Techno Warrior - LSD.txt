@@ -1,0 +1,4 @@
+Name    : Techno Warrior
+Groups  : LSD
+Type    : Musicdisk
+Whdload : TechnoWarrior.Slave

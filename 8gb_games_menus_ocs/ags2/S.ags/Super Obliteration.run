@@ -1,0 +1,6 @@
+cd A-Games:S/SuperObliteration
+IF $whdloadargs EQ ""
+  whdload SuperObliteration.Slave
+ELSE
+  whdload SuperObliteration.Slave $whdloadargs
+ENDIF

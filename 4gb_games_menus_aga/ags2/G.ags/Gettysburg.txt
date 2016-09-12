@@ -1,0 +1,5 @@
+Name      : Gettysburg
+Publisher : ARC
+Year      : 1990
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Gettysburg.Slave

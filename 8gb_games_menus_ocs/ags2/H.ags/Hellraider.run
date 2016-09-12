@@ -1,0 +1,6 @@
+cd A-Games:H/Hellraider
+IF $whdloadargs EQ ""
+  whdload Hellraider.slave
+ELSE
+  whdload Hellraider.slave $whdloadargs
+ENDIF

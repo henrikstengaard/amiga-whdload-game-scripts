@@ -1,0 +1,6 @@
+cd A-Games1:F/FinalBlow
+IF $whdloadargs EQ ""
+  whdload FinalBlow.slave
+ELSE
+  whdload FinalBlow.slave $whdloadargs
+ENDIF

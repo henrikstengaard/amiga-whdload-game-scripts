@@ -1,0 +1,6 @@
+cd A-Games:C/CaptainDynamo
+IF $whdloadargs EQ ""
+  whdload CaptainDynamo.slave
+ELSE
+  whdload CaptainDynamo.slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : XR-35 Fighter Mission
+Publisher : Anco
+Year      : 1988
+Players   : 1 Only
+Whdload   : XR35.Slave

@@ -1,0 +1,4 @@
+Name    : Trashcan
+Groups  : Wizzcat
+Type    : Demo
+Whdload : Trashcan.Slave

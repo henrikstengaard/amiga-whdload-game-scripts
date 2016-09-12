@@ -1,0 +1,6 @@
+cd A-Games2:P/PitFighter
+IF $whdloadargs EQ ""
+  whdload PitFighter.slave
+ELSE
+  whdload PitFighter.slave $whdloadargs
+ENDIF

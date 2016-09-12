@@ -1,0 +1,6 @@
+cd A-Games:W/Wreckers
+IF $whdloadargs EQ ""
+  whdload Wreckers.Slave
+ELSE
+  whdload Wreckers.Slave $whdloadargs
+ENDIF

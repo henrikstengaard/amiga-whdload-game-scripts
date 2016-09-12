@@ -1,0 +1,6 @@
+Name      : Globulus
+Publisher : Innerprise
+Year      : 1990
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : Globulus.slave

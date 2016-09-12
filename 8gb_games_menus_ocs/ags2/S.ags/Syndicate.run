@@ -1,0 +1,6 @@
+cd A-Games:S/Syndicate
+IF $whdloadargs EQ ""
+  whdload Syndicate.slave
+ELSE
+  whdload Syndicate.slave $whdloadargs
+ENDIF

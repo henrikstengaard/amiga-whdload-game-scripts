@@ -1,0 +1,6 @@
+cd A-Demos:H/HisMastersNoise
+IF $whdloadargs EQ ""
+  whdload HisMastersNoise.slave
+ELSE
+  whdload HisMastersNoise.slave $whdloadargs
+ENDIF

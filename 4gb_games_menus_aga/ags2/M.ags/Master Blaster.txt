@@ -1,0 +1,5 @@
+Name      : Master Blaster
+Publisher : NeXus Software
+Year      : 1994
+Players   : 2 - 5 (5 simultaneous)
+Whdload   : MasterBlaster.Slave

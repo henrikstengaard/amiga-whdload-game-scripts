@@ -1,0 +1,6 @@
+cd A-Games:V/VenomWing
+IF $whdloadargs EQ ""
+  whdload VenomWing.Slave
+ELSE
+  whdload VenomWing.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:S/SuperGrandPrix
+IF $whdloadargs EQ ""
+  whdload SuperGrandPrix.Slave
+ELSE
+  whdload SuperGrandPrix.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Summer Challenge
+Publisher : Thunder Mountain (Mindscape)
+Year      : 1988
+Players   : 1 - 6 (1 simultaneous)
+Whdload   : SummerChallenge.Slave

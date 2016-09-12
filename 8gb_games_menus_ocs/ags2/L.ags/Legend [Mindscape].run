@@ -1,0 +1,6 @@
+cd A-Games:L/LegendMindscape
+IF $whdloadargs EQ ""
+  whdload LegendMindscape.Slave
+ELSE
+  whdload LegendMindscape.Slave $whdloadargs
+ENDIF

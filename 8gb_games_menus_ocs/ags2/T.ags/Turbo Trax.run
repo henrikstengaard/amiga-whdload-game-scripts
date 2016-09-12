@@ -1,0 +1,6 @@
+cd A-Games:T/TurboTraxArcane
+IF $whdloadargs EQ ""
+  whdload TurboTraxArcane.Slave
+ELSE
+  whdload TurboTraxArcane.Slave $whdloadargs
+ENDIF

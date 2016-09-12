@@ -1,0 +1,6 @@
+cd A-Games1:I/IngridsBack
+IF $whdloadargs EQ ""
+  whdload IngridsBack.Slave
+ELSE
+  whdload IngridsBack.Slave $whdloadargs
+ENDIF

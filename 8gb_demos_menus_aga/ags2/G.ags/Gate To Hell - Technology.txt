@@ -1,0 +1,4 @@
+Name    : Gate To Hell
+Groups  : Technology
+Type    : Musicdisk
+Whdload : GateToHell.Slave

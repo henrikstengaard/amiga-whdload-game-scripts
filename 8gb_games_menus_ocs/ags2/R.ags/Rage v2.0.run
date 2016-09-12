@@ -1,0 +1,6 @@
+cd A-Games:R/RageCAD
+IF $whdloadargs EQ ""
+  whdload RageCAD.Slave
+ELSE
+  whdload RageCAD.Slave $whdloadargs
+ENDIF

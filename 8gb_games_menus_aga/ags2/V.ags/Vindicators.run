@@ -1,0 +1,6 @@
+cd A-Games:W/Vindicators
+IF $whdloadargs EQ ""
+  whdload Vindicators.Slave
+ELSE
+  whdload Vindicators.Slave $whdloadargs
+ENDIF

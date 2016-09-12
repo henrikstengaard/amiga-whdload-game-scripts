@@ -1,0 +1,6 @@
+cd A-Games1:H/HoleInOne&DataDisks
+IF $whdloadargs EQ ""
+  whdload HoleInOne&DataDisks.Slave
+ELSE
+  whdload HoleInOne&DataDisks.Slave $whdloadargs
+ENDIF

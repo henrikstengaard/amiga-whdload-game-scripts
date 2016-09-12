@@ -1,0 +1,6 @@
+cd A-Games:F/Feud
+IF $whdloadargs EQ ""
+  whdload Feud.Slave
+ELSE
+  whdload Feud.Slave $whdloadargs
+ENDIF

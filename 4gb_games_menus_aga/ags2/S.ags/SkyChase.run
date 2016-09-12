@@ -1,0 +1,6 @@
+cd A-Games2:S/SkyChase
+IF $whdloadargs EQ ""
+  whdload SkyChase.Slave
+ELSE
+  whdload SkyChase.Slave $whdloadargs
+ENDIF

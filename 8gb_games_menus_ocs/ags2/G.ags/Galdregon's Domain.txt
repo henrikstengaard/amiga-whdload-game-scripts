@@ -1,0 +1,6 @@
+Name      : Galdregon's Domain
+Publisher : Pandora Software
+Year      : 1988
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : GaldregonsDomain.Slave

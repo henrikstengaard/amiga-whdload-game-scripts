@@ -1,0 +1,6 @@
+cd A-Demos:P/PastelVanilla
+IF $whdloadargs EQ ""
+  whdload PastelVanilla.Slave
+ELSE
+  whdload PastelVanilla.Slave $whdloadargs
+ENDIF

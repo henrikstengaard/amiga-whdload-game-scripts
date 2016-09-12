@@ -1,0 +1,5 @@
+Name      : Necronom
+Publisher : Linel
+Year      : 1991
+Players   : 1 Only
+Whdload   : Necronom.Slave

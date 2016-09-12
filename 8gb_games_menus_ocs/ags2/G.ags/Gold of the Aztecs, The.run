@@ -1,0 +1,6 @@
+cd A-Games:G/GoldOfTheAztecs
+IF $whdloadargs EQ ""
+  whdload GoldOfTheAztecs.Slave
+ELSE
+  whdload GoldOfTheAztecs.Slave $whdloadargs
+ENDIF

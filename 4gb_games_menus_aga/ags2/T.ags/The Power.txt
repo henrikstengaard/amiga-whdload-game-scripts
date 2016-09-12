@@ -1,0 +1,5 @@
+Name      : The Power
+Publisher : Demonware
+Year      : 1991
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Power.Slave

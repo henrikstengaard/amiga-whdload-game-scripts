@@ -1,0 +1,6 @@
+Name      : Sentinel, The
+Publisher : Firebird
+Year      : 1987
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Sentinel.slave

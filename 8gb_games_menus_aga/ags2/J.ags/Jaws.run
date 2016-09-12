@@ -1,0 +1,6 @@
+cd A-Games:J/Jaws
+IF $whdloadargs EQ ""
+  whdload Jaws.Slave
+ELSE
+  whdload Jaws.Slave $whdloadargs
+ENDIF

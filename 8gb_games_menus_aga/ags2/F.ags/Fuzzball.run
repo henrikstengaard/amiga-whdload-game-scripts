@@ -1,0 +1,6 @@
+cd A-Games:F/Fuzzball
+IF $whdloadargs EQ ""
+  whdload Fuzzball.Slave
+ELSE
+  whdload Fuzzball.Slave $whdloadargs
+ENDIF

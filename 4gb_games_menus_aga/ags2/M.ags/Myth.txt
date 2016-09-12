@@ -1,0 +1,6 @@
+Name      : Myth
+Publisher : Rainbird
+Year      : 1989
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : Myth.Slave

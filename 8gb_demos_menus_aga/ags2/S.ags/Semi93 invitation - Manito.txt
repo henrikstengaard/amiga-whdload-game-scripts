@@ -1,0 +1,4 @@
+Name    : Semi93 invitation
+Groups  : Manitou
+Type    : Invitation
+Whdload : Semi93Invitation.Slave

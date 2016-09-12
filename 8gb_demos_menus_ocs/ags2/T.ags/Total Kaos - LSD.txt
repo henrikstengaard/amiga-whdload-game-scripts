@@ -1,0 +1,4 @@
+Name    : Total Kaos
+Groups  : LSD
+Type    : Musicdisk
+Whdload : TotalKaos.Slave

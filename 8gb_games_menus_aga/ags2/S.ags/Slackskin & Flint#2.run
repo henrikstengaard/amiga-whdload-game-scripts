@@ -1,0 +1,6 @@
+cd A-Games:S/Slackskin&FlintCracked
+IF $whdloadargs EQ ""
+  whdload Slackskin&FlintCracked.Slave
+ELSE
+  whdload Slackskin&FlintCracked.Slave $whdloadargs
+ENDIF

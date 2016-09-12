@@ -1,0 +1,6 @@
+cd A-Games:S/ScrollingWalls
+IF $whdloadargs EQ ""
+  whdload ScrollingWalls.Slave
+ELSE
+  whdload ScrollingWalls.Slave $whdloadargs
+ENDIF

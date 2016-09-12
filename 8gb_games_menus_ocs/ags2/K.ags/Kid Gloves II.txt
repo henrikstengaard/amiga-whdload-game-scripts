@@ -1,0 +1,6 @@
+Name      : Kid Gloves II
+Publisher : Millennium
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : KidGlovesII.Slave

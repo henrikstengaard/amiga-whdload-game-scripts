@@ -1,0 +1,5 @@
+Name      : Mega Typhoon
+Publisher : Nordlicht EDV-Service
+Year      : 1996
+Players   : 1 Only
+Whdload   : MegaTyphoon.slave

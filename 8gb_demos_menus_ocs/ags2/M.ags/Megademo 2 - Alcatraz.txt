@@ -1,0 +1,6 @@
+Name    : Megademo 2
+Groups  : Alcatraz
+Type    : Demo
+Party   : Alcatraz Copy-Party 1988
+Rank    : 1st
+Whdload : Megademo2Alcatraz.slave

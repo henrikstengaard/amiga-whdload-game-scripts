@@ -1,0 +1,6 @@
+Name      : Seymour goes to Hollywood
+Publisher : Codemasters
+Year      : 1992
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : SeymourGoesToHollywood.slave

@@ -1,0 +1,5 @@
+Name      : SideArms
+Publisher : Go!
+Year      : 1989
+Players   : 1 Only
+Whdload   : SideArms.Slave

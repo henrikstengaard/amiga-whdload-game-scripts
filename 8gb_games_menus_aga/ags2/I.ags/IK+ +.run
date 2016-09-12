@@ -1,0 +1,6 @@
+cd A-Games:I/InternationalKarate+
+IF $whdloadargs EQ ""
+  whdload InternationalKarate+.Slave
+ELSE
+  whdload InternationalKarate+.Slave $whdloadargs
+ENDIF

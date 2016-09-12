@@ -1,0 +1,5 @@
+Name      : Day Of The Pharaoh
+Publisher : Rainbow Arts (Softgold)
+Year      : 1989
+Players   : 1
+Whdload   : DayOfThePharaoh.Slave

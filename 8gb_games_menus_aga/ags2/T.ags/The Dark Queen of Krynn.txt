@@ -1,0 +1,5 @@
+Name      : The Dark Queen of Krynn
+Publisher : SSI
+Year      : 1992
+Players   : 1
+Whdload   : DarkQueenOfKrynn.Slave

@@ -1,0 +1,6 @@
+cd A-Games:T/TommyGun
+IF $whdloadargs EQ ""
+  whdload TommyGun.Slave
+ELSE
+  whdload TommyGun.Slave $whdloadargs
+ENDIF

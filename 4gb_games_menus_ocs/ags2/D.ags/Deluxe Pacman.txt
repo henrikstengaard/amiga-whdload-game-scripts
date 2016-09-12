@@ -1,0 +1,6 @@
+Name      : Deluxe Pacman
+Publisher : (unknown)
+Year      : 1995
+Genre     : Arcade - Pac-Man
+Players   : 1 or 2
+Whdload   : DeluxePacman.Slave

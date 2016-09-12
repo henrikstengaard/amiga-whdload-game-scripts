@@ -1,0 +1,6 @@
+cd A-Demos:S/SoundEngine
+IF $whdloadargs EQ ""
+  whdload SoundEngine.Slave
+ELSE
+  whdload SoundEngine.Slave $whdloadargs
+ENDIF

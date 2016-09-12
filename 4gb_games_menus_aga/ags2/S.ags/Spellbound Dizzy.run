@@ -1,0 +1,6 @@
+cd A-Games2:S/SpellboundDizzy
+IF $whdloadargs EQ ""
+  whdload SpellboundDizzy.Slave
+ELSE
+  whdload SpellboundDizzy.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games1:B/Bubble&SqueakAGA
+IF $whdloadargs EQ ""
+  whdload Bubble&SqueakAGA.slave
+ELSE
+  whdload Bubble&SqueakAGA.slave $whdloadargs
+ENDIF

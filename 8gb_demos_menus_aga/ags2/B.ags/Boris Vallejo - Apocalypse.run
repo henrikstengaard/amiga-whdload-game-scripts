@@ -1,0 +1,6 @@
+cd A-Demos:B/BorisVallejoSlide
+IF $whdloadargs EQ ""
+  whdload BorisVallejoSlide.Slave
+ELSE
+  whdload BorisVallejoSlide.Slave $whdloadargs
+ENDIF

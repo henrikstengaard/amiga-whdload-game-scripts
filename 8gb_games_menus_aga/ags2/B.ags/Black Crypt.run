@@ -1,0 +1,6 @@
+cd A-Games:B/BlackCrypt
+IF $whdloadargs EQ ""
+  whdload BlackCrypt.Slave
+ELSE
+  whdload BlackCrypt.Slave $whdloadargs
+ENDIF

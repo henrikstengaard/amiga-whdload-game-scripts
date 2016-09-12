@@ -1,0 +1,6 @@
+Name      : It Came from the Desert
+Publisher : Cinemaware
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : ItCameFromTheDesert.slave

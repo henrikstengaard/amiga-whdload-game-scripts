@@ -1,0 +1,6 @@
+cd A-Demos:L/LastSun
+IF $whdloadargs EQ ""
+  whdload LastSun.Slave
+ELSE
+  whdload LastSun.Slave $whdloadargs
+ENDIF

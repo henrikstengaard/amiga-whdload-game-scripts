@@ -1,0 +1,6 @@
+Name      : Winnie the Pooh in the Hundred Acre Wood
+Publisher : Sierra On-Line
+Year      : 1986
+Genre     : Adventure - Selectable Answers
+Players   : 1 Only
+Whdload   : WinnieThePooh.Slave

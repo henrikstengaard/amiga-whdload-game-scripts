@@ -1,0 +1,5 @@
+Name      : Advantage Tennis
+Publisher : Infogrames
+Year      : 1991
+Genre     : Sports - Tennis
+Whdload   : AdvantageTennis.slave

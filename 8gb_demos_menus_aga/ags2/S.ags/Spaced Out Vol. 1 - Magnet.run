@@ -1,0 +1,6 @@
+cd A-Demos:S/SpacedOutVol1
+IF $whdloadargs EQ ""
+  whdload SpacedOutVol1.Slave
+ELSE
+  whdload SpacedOutVol1.Slave $whdloadargs
+ENDIF

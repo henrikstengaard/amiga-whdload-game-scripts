@@ -1,0 +1,6 @@
+cd A-Games1:D/DojoDan
+IF $whdloadargs EQ ""
+  whdload DojoDan.Slave
+ELSE
+  whdload DojoDan.Slave $whdloadargs
+ENDIF

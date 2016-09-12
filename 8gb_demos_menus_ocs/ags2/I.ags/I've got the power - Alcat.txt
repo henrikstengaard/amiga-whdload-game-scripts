@@ -1,0 +1,4 @@
+Name    : I've got the power
+Groups  : Alcatraz
+Type    : Demo
+Whdload : IveGotThePower.Slave

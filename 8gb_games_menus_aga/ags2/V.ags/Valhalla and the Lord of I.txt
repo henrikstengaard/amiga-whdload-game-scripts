@@ -1,0 +1,6 @@
+Name      : Valhalla and the Lord of Infinity
+Publisher : Vulcan Software
+Year      : 1994
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : ValhallaLordOfInfinity.Slave

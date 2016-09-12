@@ -1,0 +1,6 @@
+cd A-Demos:P/ProjectTechno
+IF $whdloadargs EQ ""
+  whdload ProjectTechno.Slave
+ELSE
+  whdload ProjectTechno.Slave $whdloadargs
+ENDIF

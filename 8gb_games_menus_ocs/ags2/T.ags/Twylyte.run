@@ -1,0 +1,6 @@
+cd A-Games:T/Twylyte
+IF $whdloadargs EQ ""
+  whdload Twylyte.Slave
+ELSE
+  whdload Twylyte.Slave $whdloadargs
+ENDIF

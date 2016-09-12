@@ -1,0 +1,4 @@
+Name    : Miracle Sounds
+Groups  : Miracle
+Type    : Musicdisk
+Whdload : MiracleSounds1.Slave

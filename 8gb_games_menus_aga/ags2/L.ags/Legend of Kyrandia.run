@@ -1,0 +1,6 @@
+cd A-Games:L/LegendOfKyrandia
+IF $whdloadargs EQ ""
+  whdload LegendOfKyrandia.Slave
+ELSE
+  whdload LegendOfKyrandia.Slave $whdloadargs
+ENDIF

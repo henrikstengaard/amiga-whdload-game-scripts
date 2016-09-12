@@ -1,0 +1,6 @@
+cd A-Games:M/MetalWarrior
+IF $whdloadargs EQ ""
+  whdload MetalWarrior.Slave
+ELSE
+  whdload MetalWarrior.Slave $whdloadargs
+ENDIF

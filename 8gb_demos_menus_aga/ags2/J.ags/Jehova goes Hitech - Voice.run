@@ -1,0 +1,6 @@
+cd A-Demos:J/JehovaGoesHitech
+IF $whdloadargs EQ ""
+  whdload JehovaGoesHitech.Slave
+ELSE
+  whdload JehovaGoesHitech.Slave $whdloadargs
+ENDIF

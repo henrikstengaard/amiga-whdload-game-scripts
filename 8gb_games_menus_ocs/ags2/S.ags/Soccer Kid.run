@@ -1,0 +1,6 @@
+cd A-Games:S/SoccerKid
+IF $whdloadargs EQ ""
+  whdload SoccerKid.Slave
+ELSE
+  whdload SoccerKid.Slave $whdloadargs
+ENDIF

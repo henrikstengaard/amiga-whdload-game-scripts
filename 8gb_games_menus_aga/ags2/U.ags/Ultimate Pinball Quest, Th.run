@@ -1,0 +1,6 @@
+cd A-Games:U/UltimatePinballQuest
+IF $whdloadargs EQ ""
+  whdload UltimatePinballQuest.Slave
+ELSE
+  whdload UltimatePinballQuest.Slave $whdloadargs
+ENDIF

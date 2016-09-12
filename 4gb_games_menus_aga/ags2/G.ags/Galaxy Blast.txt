@@ -1,0 +1,5 @@
+Name      : Galaxy Blast
+Publisher : Amiga Mania (MC Publications) / Amigo! (CompuTec Verlag)
+Year      : 1992
+Players   : 1
+Whdload   : GalaxyBlast.Slave

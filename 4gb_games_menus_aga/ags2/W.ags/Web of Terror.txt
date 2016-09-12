@@ -1,0 +1,5 @@
+Name      : Web of Terror
+Publisher : Impressions
+Year      : 1990
+Players   : 1 or 2
+Whdload   : WebOfTerror.slave

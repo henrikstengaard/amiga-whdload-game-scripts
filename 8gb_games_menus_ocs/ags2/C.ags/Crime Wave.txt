@@ -1,0 +1,5 @@
+Name      : Crime Wave
+Publisher : US Gold
+Year      : 1990
+Players   : 1 Only
+Whdload   : CrimeWave.slave

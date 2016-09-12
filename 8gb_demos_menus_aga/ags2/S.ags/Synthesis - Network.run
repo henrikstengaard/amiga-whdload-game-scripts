@@ -1,0 +1,6 @@
+cd A-Demos:S/SynthesisNetwork
+IF $whdloadargs EQ ""
+  whdload SynthesisNetwork.slave
+ELSE
+  whdload SynthesisNetwork.slave $whdloadargs
+ENDIF

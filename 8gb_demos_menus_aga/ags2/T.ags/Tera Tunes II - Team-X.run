@@ -1,0 +1,6 @@
+cd A-Demos:T/TeraTunes2
+IF $whdloadargs EQ ""
+  whdload TeraTunes2.Slave
+ELSE
+  whdload TeraTunes2.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Demos:E/ElectronsAtWork
+IF $whdloadargs EQ ""
+  whdload ElectronsAtWork.Slave
+ELSE
+  whdload ElectronsAtWork.Slave $whdloadargs
+ENDIF

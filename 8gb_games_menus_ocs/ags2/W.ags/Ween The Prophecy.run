@@ -1,0 +1,6 @@
+cd A-Games:W/WeenTheProphecy
+IF $whdloadargs EQ ""
+  whdload WeenTheProphecy.slave
+ELSE
+  whdload WeenTheProphecy.slave $whdloadargs
+ENDIF

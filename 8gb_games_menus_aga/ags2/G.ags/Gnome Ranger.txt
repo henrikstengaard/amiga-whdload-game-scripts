@@ -1,0 +1,6 @@
+Name      : Gnome Ranger
+Publisher : Level 9 Computing
+Year      : 1987
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : GnomeRanger.Slave

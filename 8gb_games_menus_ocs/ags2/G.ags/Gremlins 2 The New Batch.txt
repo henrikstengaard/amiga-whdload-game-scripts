@@ -1,0 +1,6 @@
+Name      : Gremlins 2: The New Batch
+Publisher : Elite
+Year      : 1990
+Genre     : Platformer - Multi Screen
+Players   : 1 or 2
+Whdload   : Gremlins2.Slave

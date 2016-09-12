@@ -1,0 +1,6 @@
+Name      : Bargon Attack
+Publisher : Coktel Vision
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : BargonAttack.Slave

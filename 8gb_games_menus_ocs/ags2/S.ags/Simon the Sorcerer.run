@@ -1,0 +1,6 @@
+cd A-Games:S/SimonTheSorcerer
+IF $whdloadargs EQ ""
+  whdload SimonTheSorcerer.Slave
+ELSE
+  whdload SimonTheSorcerer.Slave $whdloadargs
+ENDIF

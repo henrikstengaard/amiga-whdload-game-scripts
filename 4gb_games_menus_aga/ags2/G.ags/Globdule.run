@@ -1,0 +1,6 @@
+cd A-Games1:G/Globdule
+IF $whdloadargs EQ ""
+  whdload Globdule.Slave
+ELSE
+  whdload Globdule.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Chuckie Egg
+Publisher : Pick & Choose
+Year      : 1988
+Genre     : Platformer - Single Screen
+Players   : 1 to 4
+Whdload   : ChuckieEgg.Slave

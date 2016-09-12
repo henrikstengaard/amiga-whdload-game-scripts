@@ -1,0 +1,4 @@
+Name      : Denjoy
+Year      : [unreleased]
+Players   : 1
+Whdload   : Denjoy.Slave

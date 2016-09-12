@@ -1,0 +1,5 @@
+Name      : Sideshow
+Publisher : Actionware
+Year      : 1989
+Players   : 1 Only
+Whdload   : SideShow.Slave

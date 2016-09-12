@@ -1,0 +1,6 @@
+cd A-Games:T/ToyottesImage
+IF $whdloadargs EQ ""
+  whdload ToyottesImage.Slave
+ELSE
+  whdload ToyottesImage.Slave $whdloadargs
+ENDIF

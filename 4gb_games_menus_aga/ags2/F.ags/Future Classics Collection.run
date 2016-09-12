@@ -1,0 +1,6 @@
+cd A-Games1:F/FutureClassicsCollection
+IF $whdloadargs EQ ""
+  whdload FutureClassicsCollection.Slave
+ELSE
+  whdload FutureClassicsCollection.Slave $whdloadargs
+ENDIF

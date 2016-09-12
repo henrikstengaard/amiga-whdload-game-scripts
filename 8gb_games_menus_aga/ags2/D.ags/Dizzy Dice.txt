@@ -1,0 +1,6 @@
+Name      : Dizzy Dice
+Publisher : Smash 16
+Year      : 1990
+Genre     : Gambling - Slot Machine
+Players   : 1 Only
+Whdload   : DizzyDice.Slave

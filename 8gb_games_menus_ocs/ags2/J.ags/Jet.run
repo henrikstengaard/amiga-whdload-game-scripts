@@ -1,0 +1,6 @@
+cd A-Games:J/Jet
+IF $whdloadargs EQ ""
+  whdload Jet.Slave
+ELSE
+  whdload Jet.Slave $whdloadargs
+ENDIF

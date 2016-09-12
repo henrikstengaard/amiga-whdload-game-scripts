@@ -1,0 +1,6 @@
+Name      : Thunderboy
+Publisher : Rainbow Arts
+Year      : 1987
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ThunderBoy.Slave

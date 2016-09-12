@@ -1,0 +1,6 @@
+Name      : White Death: Battle for Velikiye Luki, November 1942
+Publisher : Internecine
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : WhiteDeath.Slave

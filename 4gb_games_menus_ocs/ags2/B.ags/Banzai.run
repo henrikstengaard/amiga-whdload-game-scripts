@@ -1,0 +1,6 @@
+cd A-Games1:B/Banzai
+IF $whdloadargs EQ ""
+  whdload Banzai.Slave
+ELSE
+  whdload Banzai.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Fernandez Must Die
+Publisher : Image Works
+Year      : 1988
+Players   : 1 Only
+Whdload   : FernandezMustDie.Slave

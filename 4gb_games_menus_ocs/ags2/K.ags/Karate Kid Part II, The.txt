@@ -1,0 +1,6 @@
+Name      : Karate Kid Part II, The
+Publisher : Microdeal
+Year      : 1987
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : KarateKid2.slave

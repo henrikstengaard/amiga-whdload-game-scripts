@@ -1,0 +1,6 @@
+Name    : D.O.S
+Groups  : Andromeda
+Type    : Demo
+Party   : The Gathering 1992
+Rank    : 2nd
+Whdload : DOS.Slave

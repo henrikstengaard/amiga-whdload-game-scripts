@@ -1,0 +1,6 @@
+cd A-Games:S/SuprTennisChmps&DataDisks
+IF $whdloadargs EQ ""
+  whdload SuprTennisChmps&DataDisks.Slave
+ELSE
+  whdload SuprTennisChmps&DataDisks.Slave $whdloadargs
+ENDIF

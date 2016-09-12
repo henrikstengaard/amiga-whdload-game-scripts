@@ -1,0 +1,6 @@
+cd A-Games:G/GraemeSounessSoccerManagr
+IF $whdloadargs EQ ""
+  whdload GraemeSounessSoccerManagr.Slave
+ELSE
+  whdload GraemeSounessSoccerManagr.Slave $whdloadargs
+ENDIF

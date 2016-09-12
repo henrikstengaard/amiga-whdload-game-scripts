@@ -1,0 +1,6 @@
+cd A-Games:D/DarkCentury
+IF $whdloadargs EQ ""
+  whdload DarkCentury.Slave
+ELSE
+  whdload DarkCentury.Slave $whdloadargs
+ENDIF

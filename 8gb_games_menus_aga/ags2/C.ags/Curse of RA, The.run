@@ -1,0 +1,6 @@
+cd A-Games:C/CurseOfRA
+IF $whdloadargs EQ ""
+  whdload CurseOfRA.slave
+ELSE
+  whdload CurseOfRA.slave $whdloadargs
+ENDIF

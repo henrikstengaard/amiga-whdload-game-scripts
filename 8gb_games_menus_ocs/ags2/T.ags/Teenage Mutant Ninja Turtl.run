@@ -1,0 +1,6 @@
+cd A-Games:T/TeenageMtntNinjaTurtles
+IF $whdloadargs EQ ""
+  whdload TeenageMtntNinjaTurtles.Slave
+ELSE
+  whdload TeenageMtntNinjaTurtles.Slave $whdloadargs
+ENDIF

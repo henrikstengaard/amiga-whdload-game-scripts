@@ -1,0 +1,6 @@
+cd A-Games:B/BombFusion
+IF $whdloadargs EQ ""
+  whdload BombFusion.Slave
+ELSE
+  whdload BombFusion.Slave $whdloadargs
+ENDIF

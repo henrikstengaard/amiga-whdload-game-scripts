@@ -1,0 +1,6 @@
+cd A-Demos:A/Alchemy
+IF $whdloadargs EQ ""
+  whdload Alchemy.Slave
+ELSE
+  whdload Alchemy.Slave $whdloadargs
+ENDIF

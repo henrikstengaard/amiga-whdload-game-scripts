@@ -1,0 +1,6 @@
+cd A-Games:S/SuperOsWALDDk
+IF $whdloadargs EQ ""
+  whdload SuperOsWALDDk.Slave
+ELSE
+  whdload SuperOsWALDDk.Slave $whdloadargs
+ENDIF

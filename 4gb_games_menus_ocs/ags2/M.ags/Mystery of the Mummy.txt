@@ -1,0 +1,5 @@
+Name      : Mystery of the Mummy
+Publisher : Rainbow Arts (Softgold)
+Year      : 1988
+Players   : 1
+Whdload   : MysteryOfTheMummy.Slave

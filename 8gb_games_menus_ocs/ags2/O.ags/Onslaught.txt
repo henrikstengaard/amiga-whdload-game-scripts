@@ -1,0 +1,6 @@
+Name      : Onslaught
+Publisher : Hewson
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Onslaught.slave

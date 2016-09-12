@@ -1,0 +1,5 @@
+Name      : John Madden Football
+Publisher : Electronic Arts
+Year      : 1992
+Genre     : Sports - American Football
+Whdload   : JohnMaddenFootball.slave

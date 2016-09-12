@@ -1,0 +1,6 @@
+cd A-Games:E/EyeOfHorus
+IF $whdloadargs EQ ""
+  whdload EyeOfHorus.slave
+ELSE
+  whdload EyeOfHorus.slave $whdloadargs
+ENDIF

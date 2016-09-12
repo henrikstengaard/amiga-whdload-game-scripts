@@ -1,0 +1,6 @@
+cd A-Demos:F/FullMoon
+IF $whdloadargs EQ ""
+  whdload FullMoon.Slave
+ELSE
+  whdload FullMoon.Slave $whdloadargs
+ENDIF

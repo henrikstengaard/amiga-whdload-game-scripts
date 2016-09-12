@@ -1,0 +1,6 @@
+Name      : Golden Path
+Publisher : Firebird
+Year      : 1986
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : GoldenPath.Slave

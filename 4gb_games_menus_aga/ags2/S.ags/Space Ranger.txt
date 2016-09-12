@@ -1,0 +1,5 @@
+Name      : Space Ranger
+Publisher : Mastertronic
+Year      : 1987
+Players   : 1 or 2
+Whdload   : SpaceRangerArcadia.Slave

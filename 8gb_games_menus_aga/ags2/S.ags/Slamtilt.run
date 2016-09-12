@@ -1,0 +1,6 @@
+cd A-Games:S/SlamTiltAGA
+IF $whdloadargs EQ ""
+  whdload SlamTiltAGA.Slave
+ELSE
+  whdload SlamTiltAGA.Slave $whdloadargs
+ENDIF

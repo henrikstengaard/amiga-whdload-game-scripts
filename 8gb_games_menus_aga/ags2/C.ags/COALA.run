@@ -1,0 +1,6 @@
+cd A-Games:C/CoalaAGA
+IF $whdloadargs EQ ""
+  whdload CoalaAGA.Slave
+ELSE
+  whdload CoalaAGA.Slave $whdloadargs
+ENDIF

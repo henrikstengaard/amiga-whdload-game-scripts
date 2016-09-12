@@ -1,0 +1,6 @@
+cd A-Games:S/SuspiciousCargo
+IF $whdloadargs EQ ""
+  whdload SuspiciousCargo.Slave
+ELSE
+  whdload SuspiciousCargo.Slave $whdloadargs
+ENDIF

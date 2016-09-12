@@ -1,0 +1,6 @@
+cd A-Games:B/BeyondDarkCastle
+IF $whdloadargs EQ ""
+  whdload BeyondDarkCastle.slave
+ELSE
+  whdload BeyondDarkCastle.slave $whdloadargs
+ENDIF

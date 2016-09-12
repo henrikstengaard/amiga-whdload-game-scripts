@@ -1,0 +1,6 @@
+cd A-Games:D/Disc
+IF $whdloadargs EQ ""
+  whdload Disc.Slave
+ELSE
+  whdload Disc.Slave $whdloadargs
+ENDIF

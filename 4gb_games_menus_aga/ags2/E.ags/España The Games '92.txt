@@ -1,0 +1,5 @@
+Name      : Espa??a: The Games '92
+Publisher : Ocean
+Year      : 1992
+Genre     : Sports - Multi-Event
+Whdload   : EspanaTheGames92.Slave

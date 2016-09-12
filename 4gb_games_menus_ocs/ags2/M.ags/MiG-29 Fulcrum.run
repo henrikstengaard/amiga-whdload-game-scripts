@@ -1,0 +1,6 @@
+cd A-Games1:M/MiG29Fulcrum
+IF $whdloadargs EQ ""
+  whdload MiG29Fulcrum.Slave
+ELSE
+  whdload MiG29Fulcrum.Slave $whdloadargs
+ENDIF

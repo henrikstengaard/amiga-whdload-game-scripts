@@ -1,0 +1,5 @@
+Name      : Psycho Santa
+Publisher : The One Amiga
+Year      : 1993
+Players   : 1 Only
+Whdload   : PsychoSanta.Slave

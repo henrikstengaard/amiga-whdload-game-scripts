@@ -1,0 +1,6 @@
+cd A-Games:D/DeepCore
+IF $whdloadargs EQ ""
+  whdload DeepCore.slave
+ELSE
+  whdload DeepCore.slave $whdloadargs
+ENDIF

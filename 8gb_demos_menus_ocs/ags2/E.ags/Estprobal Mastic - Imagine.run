@@ -1,0 +1,6 @@
+cd A-Demos:E/EstprobalMastic
+IF $whdloadargs EQ ""
+  whdload EstprobalMastic.Slave
+ELSE
+  whdload EstprobalMastic.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:M/MarbleMadness
+IF $whdloadargs EQ ""
+  whdload MarbleMadness.Slave
+ELSE
+  whdload MarbleMadness.Slave $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd A-Games:A/AustraloPiticusMechanicus
+IF $whdloadargs EQ ""
+  whdload AustraloPiticusMechanicus.Slave
+ELSE
+  whdload AustraloPiticusMechanicus.Slave $whdloadargs
+ENDIF
