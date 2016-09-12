@@ -281,9 +281,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		$whdloadSlaveStartPath = ($assignPath + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath))
 
+		# set whdload slave file name
+		$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
+
 		# build ags 2 menu item run lines
 		$ags2MenuItemRunLines = @( 
-			("cd " + $whdloadSlaveStartPath), 
+			("cd " + $whdloadSlaveStartPath).Replace("\", "/"), 
 			"IF `$whdloadargs EQ """"", 
 			("  whdload " + $whdloadSlaveFileName), 
 			"ELSE", 
@@ -362,7 +365,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 			"index=0",
 			("title=" + $iGameMenuItemName),
 			"genre=Unknown",
-			("path=" + $assignPath + $whdloadSlave.WhdloadSlaveFilePath),
+			("path=" + $assignPath + $whdloadSlave.WhdloadSlaveFilePath).Replace("\", "/"),
 			"favorite=0",
 			"timesplayed=0",
 			"lastplayed=0",
