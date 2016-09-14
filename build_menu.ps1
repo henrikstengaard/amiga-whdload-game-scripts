@@ -268,17 +268,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).iff")
 
 
-		if ($usePartitions)
-		{
-			# set whdload slave run path with partition number
-			$whdloadSlaveRunPath = $assignName + $partitionNumber
-		}
-		else
-		{
-			# set whdload slave run path
-			$whdloadSlaveRunPath = $assignName
-		}
-
 		# set whdload slave start path and replace backslash with slash
 		$whdloadSlaveStartPath = ($assignPath + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)).Replace("\", "/")
 
