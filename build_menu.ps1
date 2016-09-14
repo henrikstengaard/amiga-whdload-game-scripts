@@ -85,6 +85,7 @@ function BuildName($nameFormat, $whdloadSlave)
 	# set whdload slave file name
 	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
 
+	# TODO: make better extra
 	$extra = $whdloadSlaveFileName -replace '\.slave', '' -replace $whdloadSlave.WhdloadName, ''
 
 	if ($extra.length -gt 0)
@@ -172,6 +173,12 @@ else
 	$iGameReposLines += $assignName
 }
 
+# other output variables
+$validatePathsScriptLines = @()
+$whdloadListAGS2Lines = @()
+$whdloadListiGameLines = @()
+$whdloadListColumnsPadding = ($whdloadSlaves | sort @{expression={$_.WhdloadName.Length};Ascending=$false} | Select-Object -First 1).WhdloadName.Length
+
 
 # build menu from whdload slaves
 foreach($whdloadSlave in $whdloadSlaves)
@@ -187,6 +194,28 @@ foreach($whdloadSlave in $whdloadSlaves)
 			# increase partition number, if whdload size and partition size is greater than partition split size
 			if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
 			{
+				if ($ags2)
+				{
+					# write whdload list ags2 file 
+					$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
+					$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
+					[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
+					
+					# reset whdload list ags2
+					$whdloadListAGS2Lines = @()
+				}
+
+				if ($iGame)
+				{
+					# write whdload list igame file 
+					$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
+					$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
+					[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
+
+					# reset whdload list igame
+					$whdloadListiGameLines = @()
+				}
+
 				$partitionNumber++
 				$partitionSize = 0
 
@@ -198,7 +227,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 		}
 
 		# set assign path with partition number
-		$assignPath = $assignName + $partitionNumber + ':'
+		$assignPath = $assignName + $partitionNumber
 
 		# add assign name property to whdload slave
 		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value ($assignName + $partitionNumber)
@@ -206,44 +235,70 @@ foreach($whdloadSlave in $whdloadSlaves)
 	else 
 	{
 		# set assign path
-		$assignPath = $assignName + ':'
+		$assignPath = $assignName
 
 		# add assign name property to whdload slave
 		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName
 	}
 
 
+	# set whdload slave start path and replace backslash with slash
+	$whdloadSlaveStartPath = ($assignPath + ":" + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)).Replace("\", "/")
+
+	# add tailing slash, if not present
+	if ($whdloadSlaveStartPath -notmatch '/$')
+	{
+		$whdloadSlaveStartPath += "/"
+	}
+
+	# set whdload slave file name
+	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
+
+	# add whdload slave path checks to validate paths script 
+	$validatePathsScriptLines += @( 
+			("IF NOT EXIST """ + $whdloadSlaveStartPath + """"), 
+			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + "' doesn't exist!"""), 
+			"ENDIF", 
+			("IF NOT EXIST """ + $whdloadSlaveStartPath + $whdloadSlaveFileName + """"), 
+			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + $whdloadSlaveFileName + "' doesn't exist!"""), 
+			"ENDIF") 
+
 	# build ags2 menu for whdload slave
 	if ($ags2)
 	{
 		# build ags2 name
-		$ags2Name = BuildName $ags2NameFormat $whdloadSlave
+		$ags2Name = Capitalize (BuildName $ags2NameFormat $whdloadSlave)
+
+		# add whdload and ags2 names to list
+		$whdloadListAGS2Lines += (("{0,-" + $whdloadListColumnsPadding + "}   {1}") -f $whdloadSlave.WhdloadName, $ags2Name)
 
 		# remove invalid characters from AGS 2 menu item file name
-		$ags2MenuItemFileName = Capitalize ($ags2Name -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", "")
+		$ags2MenuItemFileName = $ags2Name -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
 
 		# if ags 2 file name is longer than 26 characters, then trim it to 26 characters (default filesystem compatibility with limit of ~30 characters)
 		if ($ags2MenuItemFileName.length -gt 26)
 		{
 			$ags2MenuItemFileName = $ags2MenuItemFileName.Substring(0,26).Trim()
 		}
+		
 
 		# build new ags2 file name, if it already exists in index
 		if ($ags2MenuItemFileNameIndex.ContainsKey($ags2MenuItemFileName))
 		{
+			$newAgs2MenuItemFileName = $ags2MenuItemFileName
 			$count = 2
 			
 			do
 			{
-				if (($ags2MenuItemFileName.length + $count.ToString().length + 1) -lt 26)
+				if ($newAgs2MenuItemFileName.length -lt 26)
 				{
-					$newAgs2MenuItemFileName = $ags2MenuItemFileName + '#' + $count
+					$newAgs2MenuItemFileName += ' '
 				}
 				else
 				{
-					$newAgs2MenuItemFileName = $ags2MenuItemFileName.Substring(0,$ags2MenuItemFileName.length - $count.ToString().length - 1) + '#' + $count
+					$newAgs2MenuItemFileName = $newAgs2MenuItemFileName.Substring(0,$newAgs2MenuItemFileName.length - $count.ToString().length - 2) + ' #' + $count
+					$count++
 				}
-				$count++
 			} while ($ags2MenuItemFileNameIndex.ContainsKey($newAgs2MenuItemFileName))
 
 			$ags2MenuItemFileName = $newAgs2MenuItemFileName
@@ -253,8 +308,9 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$ags2MenuItemFileNameIndex.Set_Item($ags2MenuItemFileName, $true)
 		
 
+		$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
 		$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
-		$ags2MenuItemPath = [System.IO.Path]::Combine($ags2OutputPath, $ags2MenuItemIndexName + ".ags")
+		$ags2MenuItemPath = [System.IO.Path]::Combine($ags2MenuAssignDir, $ags2MenuItemIndexName + ".ags")
 
 		if(!(Test-Path -Path $ags2MenuItemPath))
 		{
@@ -268,25 +324,13 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).iff")
 
 
-		# set whdload slave start path and replace backslash with slash
-		$whdloadSlaveStartPath = ($assignPath + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)).Replace("\", "/")
-
-		# add tailing slash, if not present
-		if ($whdloadSlaveStartPath -notmatch '/$')
-		{
-			$whdloadSlaveStartPath += "/"
-		}
-
-		# set whdload slave file name
-		$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
-
 		# build ags 2 menu item run lines
 		$ags2MenuItemRunLines = @( 
-			("cd " + $whdloadSlaveStartPath), 
+			("cd """ + $whdloadSlaveStartPath + """"), 
 			"IF `$whdloadargs EQ """"", 
-			("  whdload " + $whdloadSlaveFileName), 
+			("  whdload """ + $whdloadSlaveFileName + """"), 
 			"ELSE", 
-			("  whdload " + $whdloadSlaveFileName + " `$whdloadargs"), 
+			("  whdload """ + $whdloadSlaveFileName + """ `$whdloadargs"), 
 			"ENDIF" )
 
 		# write ags 2 menu item run file in ascii encoding
@@ -338,22 +382,25 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		$iGameMenuItemName = Capitalize $iGameName
 
-		# build new igama menu item name, if it already exists in index
-		if ($iGameMenuItemNameIndex.ContainsKey($iGameMenuItemName))
-		{
-			$count = 2
-			
-			do
-			{
-				$newiGameMenuItemName = ($iGameMenuItemName + ' #' + $count)
-				$count++
-			} while ($iGameMenuItemNameIndex.ContainsKey($newiGameMenuItemName))
+		# add whdload and ags2 names to list
+		$whdloadListiGameLines += (("{0,-" + $whdloadListColumnsPadding + "}   {1}") -f $whdloadSlave.WhdloadName, $iGameMenuItemName)
 
-			$iGameMenuItemName = $newiGameMenuItemName
-		}
+		# build new igama menu item name, if it already exists in index
+		# if ($iGameMenuItemNameIndex.ContainsKey($iGameMenuItemName))
+		# {
+		# 	$count = 2
+			
+		# 	do
+		# 	{
+		# 		$newiGameMenuItemName = ($iGameMenuItemName + ' #' + $count)
+		# 		$count++
+		# 	} while ($iGameMenuItemNameIndex.ContainsKey($newiGameMenuItemName))
+
+		# 	$iGameMenuItemName = $newiGameMenuItemName
+		# }
 		
-		# add igame menu item name to index
-		$iGameMenuItemNameIndex.Set_Item($iGameMenuItemName, $true)
+		# # add igame menu item name to index
+		# $iGameMenuItemNameIndex.Set_Item($iGameMenuItemName, $true)
 
 
 		# build igame game gameslist lines
@@ -361,7 +408,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 			"index=0",
 			("title=" + $iGameMenuItemName),
 			"genre=Unknown",
-			("path=" + $assignPath + $whdloadSlave.WhdloadSlaveFilePath).Replace("\", "/"),
+			("path=" + $whdloadSlaveStartPath + $whdloadSlaveFileName),
 			"favorite=0",
 			"timesplayed=0",
 			"lastplayed=0",
@@ -402,7 +449,8 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# copy igame screenshot for whdload slave
 		if ($iGame)
 		{
-			$iGameWhdloadSlaveDir = [System.IO.Path]::Combine($iGameOutputPath, [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath).Replace("/", "\"))
+			$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
+			$iGameWhdloadSlaveDir = [System.IO.Path]::Combine($iGameAssignDir, [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath).Replace("/", "\"))
 
 			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "igame.iff")
 			
@@ -416,17 +464,41 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 				Copy-Item $whdloadScreenshotFile $iGameWhdloadSlaveDir -force
 			}
+
+			$whdloadiGameScreenshotFile = $whdloadSlaveStartPath + "igame.iff"
+
+			# add igame path checks to validate paths script
+			$validatePathsScriptLines += @( 
+					("IF NOT EXIST """ + $whdloadiGameScreenshotFile + """"), 
+					("  ECHO ""ERROR: Path '" + $whdloadiGameScreenshotFile +  "' doesn't exist!"""), 
+					"ENDIF") 
 		}
 	}
 }
 
+# write validate paths script file
+$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, "validate_paths")
+[System.IO.File]::WriteAllText($validatePathsScriptFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($validatePathsScriptLines -join "`n")), [System.Text.Encoding]::ASCII)
 
-# Write queries file
+# write whdload slaves file
 $whdloadSlavesFile = [System.IO.Path]::Combine($outputPath, "whdload_slaves.csv")
 $whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesFile -NoTypeInformation -Encoding UTF8
 
+if ($ags2)
+{
+	# write whdload list ags2 file 
+	$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
+	$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
+	[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
+}
+
 if ($iGame)
 {
+	# write whdload list igame file 
+	$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
+	$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
+	[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
+	
 	# write igame gameslist file in ascii encoding
 	$iGameGamesListFile = [System.IO.Path]::Combine($iGameOutputPath, "gameslist.")
 	[System.IO.File]::WriteAllText($iGameGamesListFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($iGameGamesListLines -join "`n")), [System.Text.Encoding]::ASCII)
