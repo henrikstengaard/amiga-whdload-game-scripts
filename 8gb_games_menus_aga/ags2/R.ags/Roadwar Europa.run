@@ -1,6 +1,0 @@
-cd A-Games:R/RoadwarEuropa
-IF $whdloadargs EQ ""
-  whdload RoadwarEuropa.Slave
-ELSE
-  whdload RoadwarEuropa.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:S/StormMaster
-IF $whdloadargs EQ ""
-  whdload StormMaster.Slave
-ELSE
-  whdload StormMaster.Slave $whdloadargs
-ENDIF

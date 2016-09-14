@@ -1,6 +1,0 @@
-cd A-Games:J/Journey
-IF $whdloadargs EQ ""
-  whdload Journey.Slave
-ELSE
-  whdload Journey.Slave $whdloadargs
-ENDIF

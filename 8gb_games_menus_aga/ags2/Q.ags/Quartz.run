@@ -1,6 +1,0 @@
-cd A-Games:Q/Quartz
-IF $whdloadargs EQ ""
-  whdload Quartz.slave
-ELSE
-  whdload Quartz.slave $whdloadargs
-ENDIF

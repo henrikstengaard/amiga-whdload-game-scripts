@@ -1,6 +1,0 @@
-cd A-Demos:E/ElectricSound3
-IF $whdloadargs EQ ""
-  whdload ElectricSound3.Slave
-ELSE
-  whdload ElectricSound3.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:H/HymnsFromTheBible3
-IF $whdloadargs EQ ""
-  whdload HymnsFromTheBible3.Slave
-ELSE
-  whdload HymnsFromTheBible3.Slave $whdloadargs
-ENDIF

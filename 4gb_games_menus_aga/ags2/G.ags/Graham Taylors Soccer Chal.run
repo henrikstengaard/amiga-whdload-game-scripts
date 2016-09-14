@@ -1,6 +1,0 @@
-cd A-Games1:G/GTSoccerChallenge
-IF $whdloadargs EQ ""
-  whdload GTSoccerChallenge.Slave
-ELSE
-  whdload GTSoccerChallenge.Slave $whdloadargs
-ENDIF

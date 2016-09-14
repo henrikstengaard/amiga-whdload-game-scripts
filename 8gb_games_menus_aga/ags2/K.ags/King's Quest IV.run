@@ -1,6 +1,0 @@
-cd A-Games:K/KingsQuest4
-IF $whdloadargs EQ ""
-  whdload KingsQuest4.slave
-ELSE
-  whdload KingsQuest4.slave $whdloadargs
-ENDIF

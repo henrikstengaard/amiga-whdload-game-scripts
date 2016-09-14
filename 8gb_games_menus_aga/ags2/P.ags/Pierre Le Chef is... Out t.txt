@@ -1,6 +1,0 @@
-Name      : Pierre Le Chef is... Out to Lunch
-Publisher : Mindscape
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 or 2
-Whdload   : PierreIsOutToLunchAGA.Slave

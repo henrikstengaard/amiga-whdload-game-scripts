@@ -1,6 +1,0 @@
-cd A-Games1:D/DungeonQuest
-IF $whdloadargs EQ ""
-  whdload DungeonQuest.Slave
-ELSE
-  whdload DungeonQuest.Slave $whdloadargs
-ENDIF

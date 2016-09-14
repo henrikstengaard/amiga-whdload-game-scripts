@@ -1,6 +1,0 @@
-cd A-Games:N/NewYearLemmings199192
-IF $whdloadargs EQ ""
-  whdload NewYearLemmings199192.Slave
-ELSE
-  whdload NewYearLemmings199192.Slave $whdloadargs
-ENDIF

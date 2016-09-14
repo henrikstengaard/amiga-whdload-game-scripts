@@ -1,6 +1,0 @@
-cd A-Games:P/PostmanPat
-IF $whdloadargs EQ ""
-  whdload PostmanPat.Slave
-ELSE
-  whdload PostmanPat.Slave $whdloadargs
-ENDIF

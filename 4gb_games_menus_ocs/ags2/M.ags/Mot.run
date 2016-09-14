@@ -1,6 +1,0 @@
-cd A-Games1:M/MOT
-IF $whdloadargs EQ ""
-  whdload MOT.Slave
-ELSE
-  whdload MOT.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:B/BombX
-IF $whdloadargs EQ ""
-  whdload BombX.slave
-ELSE
-  whdload BombX.slave $whdloadargs
-ENDIF

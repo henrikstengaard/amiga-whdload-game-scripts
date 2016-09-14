@@ -1,6 +1,0 @@
-cd A-Games:R/ReturnToGenesis
-IF $whdloadargs EQ ""
-  whdload ReturnToGenesis.Slave
-ELSE
-  whdload ReturnToGenesis.Slave $whdloadargs
-ENDIF

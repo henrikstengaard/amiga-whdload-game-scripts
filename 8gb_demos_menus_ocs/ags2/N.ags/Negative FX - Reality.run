@@ -1,6 +1,0 @@
-cd A-Demos:N/NegativeFX
-IF $whdloadargs EQ ""
-  whdload NegativeFX.Slave
-ELSE
-  whdload NegativeFX.Slave $whdloadargs
-ENDIF

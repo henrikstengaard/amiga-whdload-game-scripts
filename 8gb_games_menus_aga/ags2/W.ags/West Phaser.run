@@ -1,6 +1,0 @@
-cd A-Games:W/WestPhaser
-IF $whdloadargs EQ ""
-  whdload WestPhaser.Slave
-ELSE
-  whdload WestPhaser.Slave $whdloadargs
-ENDIF

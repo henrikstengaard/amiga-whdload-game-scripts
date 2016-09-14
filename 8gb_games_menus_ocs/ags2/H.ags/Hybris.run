@@ -1,6 +1,0 @@
-cd A-Games:H/Hybris
-IF $whdloadargs EQ ""
-  whdload Hybris.Slave
-ELSE
-  whdload Hybris.Slave $whdloadargs
-ENDIF

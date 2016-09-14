@@ -1,5 +1,0 @@
-Name      : Rockford
-Publisher : Melbourne House
-Year      : 1988
-Players   : 1
-Whdload   : Rockford.slave

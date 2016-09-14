@@ -1,6 +1,0 @@
-cd A-Games:N/NorthAndSouthImage
-IF $whdloadargs EQ ""
-  whdload NorthAndSouthImage.Slave
-ELSE
-  whdload NorthAndSouthImage.Slave $whdloadargs
-ENDIF

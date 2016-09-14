@@ -1,6 +1,0 @@
-cd A-Games:A/ArabianNights
-IF $whdloadargs EQ ""
-  whdload ArabianNights.Slave
-ELSE
-  whdload ArabianNights.Slave $whdloadargs
-ENDIF

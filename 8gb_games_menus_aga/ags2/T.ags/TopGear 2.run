@@ -1,6 +1,0 @@
-cd A-Games:T/TopGear2AGA
-IF $whdloadargs EQ ""
-  whdload TopGear2AGA.Slave
-ELSE
-  whdload TopGear2AGA.Slave $whdloadargs
-ENDIF

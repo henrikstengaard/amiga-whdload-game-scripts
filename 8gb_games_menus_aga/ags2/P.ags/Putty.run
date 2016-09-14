@@ -1,6 +1,0 @@
-cd A-Games:P/Putty
-IF $whdloadargs EQ ""
-  whdload Putty.slave
-ELSE
-  whdload Putty.slave $whdloadargs
-ENDIF

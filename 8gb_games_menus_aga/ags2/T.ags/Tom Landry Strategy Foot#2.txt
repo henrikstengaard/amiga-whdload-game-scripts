@@ -1,5 +1,0 @@
-Name      : Tom Landry Strategy Football
-Publisher : Merit
-Year      : 1992
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : TomLandryFootballDeluxe.Slave

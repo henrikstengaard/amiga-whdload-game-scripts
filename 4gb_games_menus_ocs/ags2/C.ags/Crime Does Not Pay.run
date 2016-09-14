@@ -1,6 +1,0 @@
-cd A-Games1:C/CrimeDoesNotPay
-IF $whdloadargs EQ ""
-  whdload CrimeDoesNotPay.Slave
-ELSE
-  whdload CrimeDoesNotPay.Slave $whdloadargs
-ENDIF

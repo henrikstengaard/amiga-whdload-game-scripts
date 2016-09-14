@@ -1,6 +1,0 @@
-cd A-Games1:L/LupoAlberto
-IF $whdloadargs EQ ""
-  whdload LupoAlberto.Slave
-ELSE
-  whdload LupoAlberto.Slave $whdloadargs
-ENDIF

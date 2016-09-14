@@ -1,6 +1,0 @@
-cd A-Games:E/ElfOcean
-IF $whdloadargs EQ ""
-  whdload ElfOcean.slave
-ELSE
-  whdload ElfOcean.slave $whdloadargs
-ENDIF

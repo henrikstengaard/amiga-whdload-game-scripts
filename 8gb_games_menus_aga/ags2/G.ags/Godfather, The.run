@@ -1,6 +1,0 @@
-cd A-Games:G/Godfather
-IF $whdloadargs EQ ""
-  whdload Godfather.Slave
-ELSE
-  whdload Godfather.Slave $whdloadargs
-ENDIF

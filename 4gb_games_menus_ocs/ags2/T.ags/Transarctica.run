@@ -1,6 +1,0 @@
-cd A-Games2:T/Transarctica
-IF $whdloadargs EQ ""
-  whdload Transarctica.Slave
-ELSE
-  whdload Transarctica.Slave $whdloadargs
-ENDIF

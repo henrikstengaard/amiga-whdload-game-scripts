@@ -1,6 +1,0 @@
-cd A-Games:W/WindSurfWilly
-IF $whdloadargs EQ ""
-  whdload WindSurfWilly.Slave
-ELSE
-  whdload WindSurfWilly.Slave $whdloadargs
-ENDIF

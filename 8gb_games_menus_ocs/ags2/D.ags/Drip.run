@@ -1,6 +1,0 @@
-cd A-Games:D/Drip
-IF $whdloadargs EQ ""
-  whdload Drip.Slave
-ELSE
-  whdload Drip.Slave $whdloadargs
-ENDIF

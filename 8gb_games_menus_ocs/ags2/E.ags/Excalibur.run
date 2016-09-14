@@ -1,6 +1,0 @@
-cd A-Games:E/Excalibur
-IF $whdloadargs EQ ""
-  whdload Excalibur.Slave
-ELSE
-  whdload Excalibur.Slave $whdloadargs
-ENDIF

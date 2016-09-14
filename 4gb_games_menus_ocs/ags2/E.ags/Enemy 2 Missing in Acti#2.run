@@ -1,6 +1,0 @@
-cd A-Games1:E/Enemy2MissingInAction
-IF $whdloadargs EQ ""
-  whdload Enemy2MissingInAction.Slave
-ELSE
-  whdload Enemy2MissingInAction.Slave $whdloadargs
-ENDIF

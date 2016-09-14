@@ -1,6 +1,0 @@
-cd A-Games2:R/Rambo3
-IF $whdloadargs EQ ""
-  whdload Rambo3.slave
-ELSE
-  whdload Rambo3.slave $whdloadargs
-ENDIF

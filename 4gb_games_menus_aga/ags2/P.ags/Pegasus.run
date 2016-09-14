@@ -1,6 +1,0 @@
-cd A-Games2:P/Pegasus
-IF $whdloadargs EQ ""
-  whdload Pegasus.Slave
-ELSE
-  whdload Pegasus.Slave $whdloadargs
-ENDIF

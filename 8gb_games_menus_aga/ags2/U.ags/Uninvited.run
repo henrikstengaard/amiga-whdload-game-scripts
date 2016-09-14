@@ -1,6 +1,0 @@
-cd A-Games:U/Uninvited
-IF $whdloadargs EQ ""
-  whdload Uninvited.Slave
-ELSE
-  whdload Uninvited.Slave $whdloadargs
-ENDIF

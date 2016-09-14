@@ -1,6 +1,0 @@
-cd A-Games:A/AceBall
-IF $whdloadargs EQ ""
-  whdload AceBall.Slave
-ELSE
-  whdload AceBall.Slave $whdloadargs
-ENDIF

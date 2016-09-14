@@ -1,6 +1,0 @@
-Name    : BBS Intro
-Groups  : Taurus
-Type    : Bbstro
-Party   : The Party 1992
-Rank    : N/a
-Whdload : BBSIntro.Slave

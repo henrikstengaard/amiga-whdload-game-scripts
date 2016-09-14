@@ -1,6 +1,0 @@
-cd A-Games:O/OverTheNet
-IF $whdloadargs EQ ""
-  whdload OverTheNet.Slave
-ELSE
-  whdload OverTheNet.Slave $whdloadargs
-ENDIF

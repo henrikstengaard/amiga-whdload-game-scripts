@@ -1,6 +1,0 @@
-cd A-Games:C/CaptainBlood
-IF $whdloadargs EQ ""
-  whdload CaptainBlood.Slave
-ELSE
-  whdload CaptainBlood.Slave $whdloadargs
-ENDIF

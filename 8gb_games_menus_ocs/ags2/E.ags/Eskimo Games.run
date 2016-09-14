@@ -1,6 +1,0 @@
-cd A-Games:E/EskimoGames
-IF $whdloadargs EQ ""
-  whdload EskimoGames.Slave
-ELSE
-  whdload EskimoGames.Slave $whdloadargs
-ENDIF

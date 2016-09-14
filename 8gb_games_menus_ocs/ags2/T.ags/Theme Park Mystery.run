@@ -1,6 +1,0 @@
-cd A-Games:T/ThemeParkMystery
-IF $whdloadargs EQ ""
-  whdload ThemeParkMystery.slave
-ELSE
-  whdload ThemeParkMystery.slave $whdloadargs
-ENDIF

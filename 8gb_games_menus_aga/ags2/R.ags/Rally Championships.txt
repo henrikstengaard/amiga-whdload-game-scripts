@@ -1,6 +1,0 @@
-Name      : Rally Championships
-Publisher : Flair Software
-Year      : 1994
-Genre     : Racing - Cars
-Players   : 1 Only
-Whdload   : RallyChampionshipsAGA.Slave

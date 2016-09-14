@@ -1,6 +1,0 @@
-cd A-Demos:M/MusicBoxCopyride
-IF $whdloadargs EQ ""
-  whdload MusicBoxCopyride.Slave
-ELSE
-  whdload MusicBoxCopyride.Slave $whdloadargs
-ENDIF

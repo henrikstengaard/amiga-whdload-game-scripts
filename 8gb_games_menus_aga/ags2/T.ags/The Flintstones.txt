@@ -1,5 +1,0 @@
-Name      : The Flintstones
-Publisher : Grandslam
-Year      : 1988
-Players   : 1
-Whdload   : Flintstones.Slave

@@ -1,6 +1,0 @@
-cd A-Games1:C/Carthage
-IF $whdloadargs EQ ""
-  whdload Carthage.Slave
-ELSE
-  whdload Carthage.Slave $whdloadargs
-ENDIF

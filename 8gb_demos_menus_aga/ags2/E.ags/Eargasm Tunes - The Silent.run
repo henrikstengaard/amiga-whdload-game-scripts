@@ -1,6 +1,0 @@
-cd A-Demos:E/EargasmTunes
-IF $whdloadargs EQ ""
-  whdload EargasmTunes.Slave
-ELSE
-  whdload EargasmTunes.Slave $whdloadargs
-ENDIF

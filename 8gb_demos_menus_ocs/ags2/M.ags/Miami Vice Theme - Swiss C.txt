@@ -1,4 +1,0 @@
-Name    : Miami Vice Theme
-Groups  : Swiss Cracking Association
-Type    : Musicdisk
-Whdload : MiamiViceTheme.slave

@@ -1,4 +1,0 @@
-Name    : 3D-Net-Analyzer
-Groups  : Doctor Mabuse Orgasm Crackings
-Type    : Musicdisk
-Whdload : 3DNetAnalyzer.Slave

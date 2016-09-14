@@ -1,6 +1,0 @@
-cd A-Demos:B/BeyondTheFuture
-IF $whdloadargs EQ ""
-  whdload BeyondTheFuture.Slave
-ELSE
-  whdload BeyondTheFuture.Slave $whdloadargs
-ENDIF

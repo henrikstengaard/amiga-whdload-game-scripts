@@ -1,6 +1,0 @@
-cd A-Demos:T/Trash
-IF $whdloadargs EQ ""
-  whdload Trash.Slave
-ELSE
-  whdload Trash.Slave $whdloadargs
-ENDIF

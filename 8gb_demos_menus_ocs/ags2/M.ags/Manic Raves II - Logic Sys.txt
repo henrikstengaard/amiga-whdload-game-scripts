@@ -1,4 +1,0 @@
-Name    : Manic Raves II
-Groups  : Logic Systems
-Type    : Musicdisk
-Whdload : ManicRaves2.slave

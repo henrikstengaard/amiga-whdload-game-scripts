@@ -1,6 +1,0 @@
-cd A-Games:F/Fire&Brimstone
-IF $whdloadargs EQ ""
-  whdload Fire&Brimstone.slave
-ELSE
-  whdload Fire&Brimstone.slave $whdloadargs
-ENDIF

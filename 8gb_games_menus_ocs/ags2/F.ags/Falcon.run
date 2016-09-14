@@ -1,6 +1,0 @@
-cd A-Games:F/Falcon
-IF $whdloadargs EQ ""
-  whdload Falcon.Slave
-ELSE
-  whdload Falcon.Slave $whdloadargs
-ENDIF

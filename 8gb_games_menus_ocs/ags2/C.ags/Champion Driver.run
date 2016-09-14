@@ -1,6 +1,0 @@
-cd A-Games:C/ChampionDriver
-IF $whdloadargs EQ ""
-  whdload ChampionDriver.Slave
-ELSE
-  whdload ChampionDriver.Slave $whdloadargs
-ENDIF

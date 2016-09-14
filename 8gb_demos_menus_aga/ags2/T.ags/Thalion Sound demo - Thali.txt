@@ -1,4 +1,0 @@
-Name    : Thalion Sound demo
-Groups  : Thalion
-Type    : Musicdisk
-Whdload : SoundDemo.slave

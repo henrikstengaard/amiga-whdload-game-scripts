@@ -1,6 +1,0 @@
-cd A-Demos:D/DanishKnowHow
-IF $whdloadargs EQ ""
-  whdload DanishKnowHow.Slave
-ELSE
-  whdload DanishKnowHow.Slave $whdloadargs
-ENDIF

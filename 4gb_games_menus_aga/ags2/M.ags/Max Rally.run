@@ -1,6 +1,0 @@
-cd A-Games1:M/MaxRally
-IF $whdloadargs EQ ""
-  whdload MaxRally.Slave
-ELSE
-  whdload MaxRally.Slave $whdloadargs
-ENDIF

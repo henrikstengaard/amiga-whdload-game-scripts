@@ -1,6 +1,0 @@
-Name    : In the kitchen
-Groups  : Anarchy
-Type    : Demo
-Party   : Hurricane &amp
-Rank    : 4th
-Whdload : InTheKitchen.Slave

@@ -1,6 +1,0 @@
-cd A-Demos:T/Tag
-IF $whdloadargs EQ ""
-  whdload Tag.Slave
-ELSE
-  whdload Tag.Slave $whdloadargs
-ENDIF

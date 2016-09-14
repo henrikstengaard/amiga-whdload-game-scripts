@@ -1,6 +1,0 @@
-cd A-Games1:C/CityDefence
-IF $whdloadargs EQ ""
-  whdload CityDefence.Slave
-ELSE
-  whdload CityDefence.Slave $whdloadargs
-ENDIF

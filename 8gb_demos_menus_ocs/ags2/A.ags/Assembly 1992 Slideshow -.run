@@ -1,6 +1,0 @@
-cd A-Demos:A/Assembly92Slideshow
-IF $whdloadargs EQ ""
-  whdload Assembly92Slideshow.Slave
-ELSE
-  whdload Assembly92Slideshow.Slave $whdloadargs
-ENDIF

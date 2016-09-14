@@ -1,6 +1,0 @@
-cd A-Games:U/UniversalMonsters
-IF $whdloadargs EQ ""
-  whdload UniversalMonsters.Slave
-ELSE
-  whdload UniversalMonsters.Slave $whdloadargs
-ENDIF

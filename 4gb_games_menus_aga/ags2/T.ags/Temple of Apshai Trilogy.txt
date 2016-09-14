@@ -1,6 +1,0 @@
-Name      : Temple of Apshai Trilogy
-Publisher : Epyx
-Year      : 1986
-Genre     : Adventure - RPG 2D
-Players   : 1 Only
-Whdload   : TempleOfApshaiTrilogy.Slave

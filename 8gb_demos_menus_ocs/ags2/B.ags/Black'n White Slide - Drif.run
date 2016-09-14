@@ -1,6 +1,0 @@
-cd A-Demos:B/BlackNWhite
-IF $whdloadargs EQ ""
-  whdload BlackNWhite.Slave
-ELSE
-  whdload BlackNWhite.Slave $whdloadargs
-ENDIF

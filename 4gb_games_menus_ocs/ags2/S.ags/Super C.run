@@ -1,6 +1,0 @@
-cd A-Games2:S/SuperC
-IF $whdloadargs EQ ""
-  whdload SuperC.Slave
-ELSE
-  whdload SuperC.Slave $whdloadargs
-ENDIF

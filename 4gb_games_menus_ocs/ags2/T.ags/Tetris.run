@@ -1,6 +1,0 @@
-cd A-Games2:T/TetrisMirrorsoft
-IF $whdloadargs EQ ""
-  whdload TetrisMirrorsoft.Slave
-ELSE
-  whdload TetrisMirrorsoft.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/SafariGuns
-IF $whdloadargs EQ ""
-  whdload SafariGuns.Slave
-ELSE
-  whdload SafariGuns.Slave $whdloadargs
-ENDIF

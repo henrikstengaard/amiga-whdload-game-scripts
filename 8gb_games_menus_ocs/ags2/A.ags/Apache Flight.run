@@ -1,6 +1,0 @@
-cd A-Games:A/ApacheFlight
-IF $whdloadargs EQ ""
-  whdload ApacheFlight.slave
-ELSE
-  whdload ApacheFlight.slave $whdloadargs
-ENDIF

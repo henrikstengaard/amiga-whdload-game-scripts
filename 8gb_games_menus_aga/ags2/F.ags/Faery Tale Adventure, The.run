@@ -1,6 +1,0 @@
-cd A-Games:F/FaeryTaleAdventure
-IF $whdloadargs EQ ""
-  whdload FaeryTaleAdventure.slave
-ELSE
-  whdload FaeryTaleAdventure.slave $whdloadargs
-ENDIF

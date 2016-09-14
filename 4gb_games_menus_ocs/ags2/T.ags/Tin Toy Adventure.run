@@ -1,6 +1,0 @@
-cd A-Games2:T/TinToyAdventure
-IF $whdloadargs EQ ""
-  whdload TinToyAdventure.Slave
-ELSE
-  whdload TinToyAdventure.Slave $whdloadargs
-ENDIF

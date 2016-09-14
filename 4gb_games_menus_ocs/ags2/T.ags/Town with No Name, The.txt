@@ -1,6 +1,0 @@
-Name      : Town with No Name, The
-Publisher : On-line Entertainments
-Year      : 1992
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : TownWithNoNameCDTV.Slave

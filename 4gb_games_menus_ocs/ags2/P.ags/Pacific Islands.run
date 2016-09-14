@@ -1,6 +1,0 @@
-cd A-Games2:P/PacificIslands
-IF $whdloadargs EQ ""
-  whdload PacificIslands.Slave
-ELSE
-  whdload PacificIslands.Slave $whdloadargs
-ENDIF

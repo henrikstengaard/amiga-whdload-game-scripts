@@ -1,6 +1,0 @@
-cd A-Games1:B/BartVsSpaceMutants2Disk
-IF $whdloadargs EQ ""
-  whdload Intro2Disk.slave
-ELSE
-  whdload Intro2Disk.slave $whdloadargs
-ENDIF

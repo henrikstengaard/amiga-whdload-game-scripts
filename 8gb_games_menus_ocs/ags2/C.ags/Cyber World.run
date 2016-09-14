@@ -1,6 +1,0 @@
-cd A-Games:C/CyberWorld
-IF $whdloadargs EQ ""
-  whdload CyberWorld.Slave
-ELSE
-  whdload CyberWorld.Slave $whdloadargs
-ENDIF

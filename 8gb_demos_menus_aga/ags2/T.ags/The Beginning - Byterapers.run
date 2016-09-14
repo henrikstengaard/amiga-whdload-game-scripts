@@ -1,6 +1,0 @@
-cd A-Demos:B/Beginning
-IF $whdloadargs EQ ""
-  whdload Beginning.Slave
-ELSE
-  whdload Beginning.Slave $whdloadargs
-ENDIF

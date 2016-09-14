@@ -1,6 +1,0 @@
-cd A-Games2:M/MorphAGA
-IF $whdloadargs EQ ""
-  whdload MorphAGA.Slave
-ELSE
-  whdload MorphAGA.Slave $whdloadargs
-ENDIF

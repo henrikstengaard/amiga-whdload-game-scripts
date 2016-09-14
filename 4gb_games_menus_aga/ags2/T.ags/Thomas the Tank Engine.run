@@ -1,6 +1,0 @@
-cd A-Games2:T/ThomasTankEngPinballAGA
-IF $whdloadargs EQ ""
-  whdload ThomasTankEngPinballAGA.Slave
-ELSE
-  whdload ThomasTankEngPinballAGA.Slave $whdloadargs
-ENDIF

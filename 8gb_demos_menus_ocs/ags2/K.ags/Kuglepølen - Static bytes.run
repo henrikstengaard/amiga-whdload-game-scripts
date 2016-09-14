@@ -1,6 +1,0 @@
-cd A-Demos:K/Kuglepoelen
-IF $whdloadargs EQ ""
-  whdload Kuglepoelen.Slave
-ELSE
-  whdload Kuglepoelen.Slave $whdloadargs
-ENDIF

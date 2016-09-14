@@ -1,6 +1,0 @@
-cd A-Games:D/Darius+
-IF $whdloadargs EQ ""
-  whdload Darius+.slave
-ELSE
-  whdload Darius+.slave $whdloadargs
-ENDIF

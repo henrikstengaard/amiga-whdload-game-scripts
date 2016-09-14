@@ -1,5 +1,0 @@
-Name      : Mayday Squad
-Publisher : Tynesoft
-Year      : 1989
-Players   : 1 Only
-Whdload   : MaydaySquadHeroes.Slave

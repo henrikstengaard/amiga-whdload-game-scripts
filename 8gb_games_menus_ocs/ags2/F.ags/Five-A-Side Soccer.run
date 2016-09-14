@@ -1,6 +1,0 @@
-cd A-Games:F/FiveASideSoccer
-IF $whdloadargs EQ ""
-  whdload FiveASideSoccer.Slave
-ELSE
-  whdload FiveASideSoccer.Slave $whdloadargs
-ENDIF

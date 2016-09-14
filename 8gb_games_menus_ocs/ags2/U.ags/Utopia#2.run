@@ -1,6 +1,0 @@
-cd A-Games:U/Utopia&NewWorlds
-IF $whdloadargs EQ ""
-  whdload Utopia&NewWorlds.Slave
-ELSE
-  whdload Utopia&NewWorlds.Slave $whdloadargs
-ENDIF

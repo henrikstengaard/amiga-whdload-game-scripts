@@ -1,5 +1,0 @@
-Name      : Manchester United
-Publisher : Krisalis
-Year      : 1990
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : ManchesterUnited.Slave

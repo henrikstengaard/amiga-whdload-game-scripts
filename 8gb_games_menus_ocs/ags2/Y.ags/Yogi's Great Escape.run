@@ -1,6 +1,0 @@
-cd A-Games:Y/YogisGreatEscape
-IF $whdloadargs EQ ""
-  whdload YogisGreatEscape.Slave
-ELSE
-  whdload YogisGreatEscape.Slave $whdloadargs
-ENDIF

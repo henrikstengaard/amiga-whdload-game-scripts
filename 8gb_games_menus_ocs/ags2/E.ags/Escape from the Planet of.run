@@ -1,6 +1,0 @@
-cd A-Games:E/EscapeFTPOTRobotMonsters
-IF $whdloadargs EQ ""
-  whdload EscapeFTPOTRobotMonsters.slave
-ELSE
-  whdload EscapeFTPOTRobotMonsters.slave $whdloadargs
-ENDIF

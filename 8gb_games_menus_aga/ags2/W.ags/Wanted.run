@@ -1,6 +1,0 @@
-cd A-Games:W/Wanted
-IF $whdloadargs EQ ""
-  whdload Wanted.Slave
-ELSE
-  whdload Wanted.Slave $whdloadargs
-ENDIF

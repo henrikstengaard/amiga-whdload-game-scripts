@@ -1,5 +1,0 @@
-Name      : Colossus Chess X
-Publisher : CDS / Artworx
-Year      : 1989
-Players   : 1 - 2 (1 simultaneous)
-Whdload   : ColossusChessX.Slave

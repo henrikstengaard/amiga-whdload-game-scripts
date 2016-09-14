@@ -1,6 +1,0 @@
-cd A-Games1:L/LegendMindscape
-IF $whdloadargs EQ ""
-  whdload getlegendsavedisk.slave
-ELSE
-  whdload getlegendsavedisk.slave $whdloadargs
-ENDIF

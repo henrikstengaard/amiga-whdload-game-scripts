@@ -1,6 +1,0 @@
-cd A-Games:B/BorrowedTime
-IF $whdloadargs EQ ""
-  whdload BorrowedTime.Slave
-ELSE
-  whdload BorrowedTime.Slave $whdloadargs
-ENDIF

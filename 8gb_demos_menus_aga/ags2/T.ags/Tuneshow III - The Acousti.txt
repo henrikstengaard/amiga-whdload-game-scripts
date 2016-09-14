@@ -1,4 +1,0 @@
-Name    : Tuneshow III
-Groups  : The Acoustic Revolution
-Type    : Musicdisk
-Whdload : TuneShow3.Slave

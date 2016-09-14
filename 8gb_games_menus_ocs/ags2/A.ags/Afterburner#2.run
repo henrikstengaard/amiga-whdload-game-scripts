@@ -1,6 +1,0 @@
-cd A-Games:A/AfterBurnerSega
-IF $whdloadargs EQ ""
-  whdload AfterBurnerSega.Slave
-ELSE
-  whdload AfterBurnerSega.Slave $whdloadargs
-ENDIF

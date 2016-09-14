@@ -1,6 +1,0 @@
-cd A-Games:K/KillingMachine
-IF $whdloadargs EQ ""
-  whdload KillingMachine.Slave
-ELSE
-  whdload KillingMachine.Slave $whdloadargs
-ENDIF

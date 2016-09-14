@@ -1,6 +1,0 @@
-cd A-Games2:S/Switchblade
-IF $whdloadargs EQ ""
-  whdload Switchblade.Slave
-ELSE
-  whdload Switchblade.Slave $whdloadargs
-ENDIF

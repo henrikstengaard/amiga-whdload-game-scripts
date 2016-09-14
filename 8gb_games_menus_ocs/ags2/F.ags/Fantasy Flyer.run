@@ -1,6 +1,0 @@
-cd A-Games:F/FantasyFlyer
-IF $whdloadargs EQ ""
-  whdload FantasyFlyer.Slave
-ELSE
-  whdload FantasyFlyer.Slave $whdloadargs
-ENDIF

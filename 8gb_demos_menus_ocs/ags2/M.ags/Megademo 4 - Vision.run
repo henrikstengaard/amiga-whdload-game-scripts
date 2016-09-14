@@ -1,6 +1,0 @@
-cd A-Demos:M/MegaDemo4Vision
-IF $whdloadargs EQ ""
-  whdload MegaDemo4Vision.slave
-ELSE
-  whdload MegaDemo4Vision.slave $whdloadargs
-ENDIF

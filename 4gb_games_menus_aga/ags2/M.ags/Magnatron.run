@@ -1,6 +1,0 @@
-cd A-Games1:M/Magnatron
-IF $whdloadargs EQ ""
-  whdload Magnatron.Slave
-ELSE
-  whdload Magnatron.Slave $whdloadargs
-ENDIF

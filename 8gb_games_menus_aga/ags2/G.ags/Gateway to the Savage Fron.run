@@ -1,6 +1,0 @@
-cd A-Games:G/GatewayToSavageFrontier
-IF $whdloadargs EQ ""
-  whdload GatewayToSavageFrontier.Slave
-ELSE
-  whdload GatewayToSavageFrontier.Slave $whdloadargs
-ENDIF

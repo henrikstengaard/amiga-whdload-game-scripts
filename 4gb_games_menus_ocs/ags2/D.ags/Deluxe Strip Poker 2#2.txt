@@ -1,5 +1,0 @@
-Name      : Deluxe Strip Poker 2
-Publisher : Artworx / CDS / Guildhall
-Year      : 1991
-Players   : 1
-Whdload   : DeluxeStripPoker2&DDisks.Slave

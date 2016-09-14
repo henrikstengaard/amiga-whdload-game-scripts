@@ -1,6 +1,0 @@
-cd A-Games:A/AdventuresOfRobinHood
-IF $whdloadargs EQ ""
-  whdload AdventuresOfRobinHood.slave
-ELSE
-  whdload AdventuresOfRobinHood.slave $whdloadargs
-ENDIF

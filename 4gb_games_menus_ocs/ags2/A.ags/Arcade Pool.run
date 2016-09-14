@@ -1,6 +1,0 @@
-cd A-Games1:A/ArcadePool
-IF $whdloadargs EQ ""
-  whdload ArcadePool.slave
-ELSE
-  whdload ArcadePool.slave $whdloadargs
-ENDIF

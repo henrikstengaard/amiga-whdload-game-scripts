@@ -1,6 +1,0 @@
-cd A-Games:O/OperationG2Demo
-IF $whdloadargs EQ ""
-  whdload OperationG2Demo.Slave
-ELSE
-  whdload OperationG2Demo.Slave $whdloadargs
-ENDIF

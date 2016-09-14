@@ -1,5 +1,0 @@
-Name      : The Hellrun Machine
-Publisher : Amiga Fun (CompuTec Verlag) / Amiga Mania (MC Publications)
-Year      : 1992
-Players   : 1
-Whdload   : HellrunMachine.Slave

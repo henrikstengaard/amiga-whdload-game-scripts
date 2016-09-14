@@ -1,6 +1,0 @@
-cd A-Games:S/SummerCamp
-IF $whdloadargs EQ ""
-  whdload SummerCamp.Slave
-ELSE
-  whdload SummerCamp.Slave $whdloadargs
-ENDIF

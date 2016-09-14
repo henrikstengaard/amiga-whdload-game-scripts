@@ -1,6 +1,0 @@
-cd A-Demos:C/CapricornOne
-IF $whdloadargs EQ ""
-  whdload CapricornOne.Slave
-ELSE
-  whdload CapricornOne.Slave $whdloadargs
-ENDIF

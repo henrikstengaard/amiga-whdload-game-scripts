@@ -1,6 +1,0 @@
-cd A-Games:C/Coloris
-IF $whdloadargs EQ ""
-  whdload Coloris.Slave
-ELSE
-  whdload Coloris.Slave $whdloadargs
-ENDIF

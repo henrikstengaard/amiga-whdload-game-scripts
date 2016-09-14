@@ -1,6 +1,0 @@
-cd A-Games:A/ApanoSin
-IF $whdloadargs EQ ""
-  whdload ApanoSin.Slave
-ELSE
-  whdload ApanoSin.Slave $whdloadargs
-ENDIF

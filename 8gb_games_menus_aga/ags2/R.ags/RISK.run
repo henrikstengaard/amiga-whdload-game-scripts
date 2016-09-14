@@ -1,6 +1,0 @@
-cd A-Games:R/Risk
-IF $whdloadargs EQ ""
-  whdload Risk.Slave
-ELSE
-  whdload Risk.Slave $whdloadargs
-ENDIF

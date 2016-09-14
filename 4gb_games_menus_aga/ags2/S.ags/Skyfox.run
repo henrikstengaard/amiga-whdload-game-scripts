@@ -1,6 +1,0 @@
-cd A-Games2:S/Skyfox
-IF $whdloadargs EQ ""
-  whdload Skyfox.slave
-ELSE
-  whdload Skyfox.slave $whdloadargs
-ENDIF

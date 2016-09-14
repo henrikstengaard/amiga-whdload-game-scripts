@@ -1,6 +1,0 @@
-cd A-Games:S/Stormball
-IF $whdloadargs EQ ""
-  whdload Stormball.Slave
-ELSE
-  whdload Stormball.Slave $whdloadargs
-ENDIF

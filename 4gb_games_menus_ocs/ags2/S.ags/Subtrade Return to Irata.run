@@ -1,6 +1,0 @@
-cd A-Games2:S/Subtrade
-IF $whdloadargs EQ ""
-  whdload Subtrade.slave
-ELSE
-  whdload Subtrade.slave $whdloadargs
-ENDIF

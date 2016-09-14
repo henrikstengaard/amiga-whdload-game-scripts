@@ -1,6 +1,0 @@
-cd A-Games:S/SuburbanCommando
-IF $whdloadargs EQ ""
-  whdload SuburbanCommando.Slave
-ELSE
-  whdload SuburbanCommando.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:T/TrapsNTreasures
-IF $whdloadargs EQ ""
-  whdload TrapsNTreasures.Slave
-ELSE
-  whdload TrapsNTreasures.Slave $whdloadargs
-ENDIF

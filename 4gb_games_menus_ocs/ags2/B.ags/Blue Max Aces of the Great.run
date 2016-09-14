@@ -1,6 +1,0 @@
-cd A-Games1:B/BlueMax
-IF $whdloadargs EQ ""
-  whdload BlueMax.Slave
-ELSE
-  whdload BlueMax.Slave $whdloadargs
-ENDIF

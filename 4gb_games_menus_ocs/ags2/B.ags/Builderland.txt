@@ -1,5 +1,0 @@
-Name      : Builderland
-Publisher : Loriciel
-Year      : 1991
-Players   : 1
-Whdload   : BuilderLand.Slave

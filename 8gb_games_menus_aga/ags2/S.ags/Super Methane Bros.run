@@ -1,6 +1,0 @@
-cd A-Games:S/SuperMethaneBros
-IF $whdloadargs EQ ""
-  whdload SuperMethaneBros.Slave
-ELSE
-  whdload SuperMethaneBros.Slave $whdloadargs
-ENDIF

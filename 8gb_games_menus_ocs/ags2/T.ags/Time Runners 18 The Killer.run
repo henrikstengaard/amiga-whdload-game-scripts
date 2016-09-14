@@ -1,6 +1,0 @@
-cd A-Games:T/TimeRunners18
-IF $whdloadargs EQ ""
-  whdload TimeRunners18.Slave
-ELSE
-  whdload TimeRunners18.Slave $whdloadargs
-ENDIF

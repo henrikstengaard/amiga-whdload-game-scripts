@@ -1,4 +1,0 @@
-Name    : Maestro Jams vol.1
-Groups  : Kefrens
-Type    : Musicdisk
-Whdload : MaestroJamsVol1.Slave

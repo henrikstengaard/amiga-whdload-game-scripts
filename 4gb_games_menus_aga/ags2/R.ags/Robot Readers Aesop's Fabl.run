@@ -1,6 +1,0 @@
-cd A-Games2:R/RobotReaderAesopsFables
-IF $whdloadargs EQ ""
-  whdload RobotReaderAesopsFables.Slave
-ELSE
-  whdload RobotReaderAesopsFables.Slave $whdloadargs
-ENDIF

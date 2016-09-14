@@ -1,6 +1,0 @@
-cd A-Games1:C/Cybernoid
-IF $whdloadargs EQ ""
-  whdload Cybernoid.Slave
-ELSE
-  whdload Cybernoid.Slave $whdloadargs
-ENDIF

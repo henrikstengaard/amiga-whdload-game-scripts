@@ -1,6 +1,0 @@
-cd A-Games2:T/Toki
-IF $whdloadargs EQ ""
-  whdload Toki.Slave
-ELSE
-  whdload Toki.Slave $whdloadargs
-ENDIF

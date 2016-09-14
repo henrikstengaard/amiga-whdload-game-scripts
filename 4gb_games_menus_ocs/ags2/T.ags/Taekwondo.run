@@ -1,6 +1,0 @@
-cd A-Games2:T/Taekwondo
-IF $whdloadargs EQ ""
-  whdload Taekwondo.Slave
-ELSE
-  whdload Taekwondo.Slave $whdloadargs
-ENDIF

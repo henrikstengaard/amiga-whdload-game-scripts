@@ -1,6 +1,0 @@
-cd A-Games:B/Breach
-IF $whdloadargs EQ ""
-  whdload Breach.Slave
-ELSE
-  whdload Breach.Slave $whdloadargs
-ENDIF

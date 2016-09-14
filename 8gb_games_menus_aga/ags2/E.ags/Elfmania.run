@@ -1,6 +1,0 @@
-cd A-Games:E/Elfmania
-IF $whdloadargs EQ ""
-  whdload Elfmania.Slave
-ELSE
-  whdload Elfmania.Slave $whdloadargs
-ENDIF

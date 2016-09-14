@@ -1,6 +1,0 @@
-cd A-Games2:R/RiseOfTheRobotsAGA
-IF $whdloadargs EQ ""
-  whdload RiseOfTheRobotsAGA.slave
-ELSE
-  whdload RiseOfTheRobotsAGA.slave $whdloadargs
-ENDIF

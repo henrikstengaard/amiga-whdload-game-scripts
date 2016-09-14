@@ -1,6 +1,0 @@
-Name    : Iso
-Groups  : Scoopex
-Type    : Demo
-Party   : Remedy 1995
-Rank    : 3rd
-Whdload : Iso.slave

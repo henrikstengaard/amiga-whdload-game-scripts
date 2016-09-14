@@ -1,6 +1,0 @@
-Name      : Mot
-Publisher : Opera Soft
-Year      : 1989
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : MOT.Slave

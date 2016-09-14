@@ -1,6 +1,0 @@
-cd A-Games1:G/Gobliiins
-IF $whdloadargs EQ ""
-  whdload Gobliiins.Slave
-ELSE
-  whdload Gobliiins.Slave $whdloadargs
-ENDIF

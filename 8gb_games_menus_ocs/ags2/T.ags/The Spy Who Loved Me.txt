@@ -1,5 +1,0 @@
-Name      : The Spy Who Loved Me
-Publisher : Domark
-Year      : 1990
-Players   : 1
-Whdload   : SpyWhoLovedMe.Slave

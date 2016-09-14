@@ -1,6 +1,0 @@
-cd A-Games2:R/RuffNTumble
-IF $whdloadargs EQ ""
-  whdload RuffNTumble.Slave
-ELSE
-  whdload RuffNTumble.Slave $whdloadargs
-ENDIF

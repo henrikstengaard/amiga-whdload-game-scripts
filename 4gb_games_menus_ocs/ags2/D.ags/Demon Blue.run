@@ -1,6 +1,0 @@
-cd A-Games1:D/DemonBlue
-IF $whdloadargs EQ ""
-  whdload DemonBlue.slave
-ELSE
-  whdload DemonBlue.slave $whdloadargs
-ENDIF

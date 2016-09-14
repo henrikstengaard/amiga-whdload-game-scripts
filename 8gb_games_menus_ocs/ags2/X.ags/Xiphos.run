@@ -1,6 +1,0 @@
-cd A-Games:X/Xiphos
-IF $whdloadargs EQ ""
-  whdload Xiphos.Slave
-ELSE
-  whdload Xiphos.Slave $whdloadargs
-ENDIF

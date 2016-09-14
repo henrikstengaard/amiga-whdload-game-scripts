@@ -1,6 +1,0 @@
-cd A-Games:B/BadDudesVsDragonNinja
-IF $whdloadargs EQ ""
-  whdload BadDudesVsDragonNinja.slave
-ELSE
-  whdload BadDudesVsDragonNinja.slave $whdloadargs
-ENDIF

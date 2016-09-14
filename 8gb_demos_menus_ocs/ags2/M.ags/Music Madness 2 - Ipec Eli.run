@@ -1,6 +1,0 @@
-cd A-Demos:M/MusicMadness2
-IF $whdloadargs EQ ""
-  whdload MusicMadness2.Slave
-ELSE
-  whdload MusicMadness2.Slave $whdloadargs
-ENDIF

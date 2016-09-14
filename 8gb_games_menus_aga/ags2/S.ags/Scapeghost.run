@@ -1,6 +1,0 @@
-cd A-Games:S/Scapeghost
-IF $whdloadargs EQ ""
-  whdload Scapeghost.Slave
-ELSE
-  whdload Scapeghost.Slave $whdloadargs
-ENDIF

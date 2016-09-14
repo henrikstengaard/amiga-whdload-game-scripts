@@ -1,6 +1,0 @@
-cd A-Games:D/DeathBringerEmpire
-IF $whdloadargs EQ ""
-  whdload DeathBringerEmpire.Slave
-ELSE
-  whdload DeathBringerEmpire.Slave $whdloadargs
-ENDIF

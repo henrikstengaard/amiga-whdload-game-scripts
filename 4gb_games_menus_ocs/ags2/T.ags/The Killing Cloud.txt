@@ -1,5 +1,0 @@
-Name      : The Killing Cloud
-Publisher : Image Works / Mirrorsoft
-Year      : 1991
-Players   : 1
-Whdload   : KillingCloud.Slave

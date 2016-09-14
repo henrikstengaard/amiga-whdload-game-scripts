@@ -1,4 +1,0 @@
-Name    : Delirium
-Groups  : Fraxion
-Type    : Demo
-Whdload : Delirium.Slave

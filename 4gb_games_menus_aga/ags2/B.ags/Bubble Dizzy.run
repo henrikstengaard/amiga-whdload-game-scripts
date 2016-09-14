@@ -1,6 +1,0 @@
-cd A-Games1:B/BubbleDizzy
-IF $whdloadargs EQ ""
-  whdload BubbleDizzy.slave
-ELSE
-  whdload BubbleDizzy.slave $whdloadargs
-ENDIF

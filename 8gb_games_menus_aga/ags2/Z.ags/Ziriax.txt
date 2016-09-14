@@ -1,5 +1,0 @@
-Name      : Ziriax
-Publisher : The Software Business
-Year      : 1990
-Players   : 1 Only
-Whdload   : Ziriax.Slave

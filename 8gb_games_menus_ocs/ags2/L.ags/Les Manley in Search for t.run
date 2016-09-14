@@ -1,6 +1,0 @@
-cd A-Games:L/LesManleySearchForTheKing
-IF $whdloadargs EQ ""
-  whdload LesManleySearchForTheKing.slave
-ELSE
-  whdload LesManleySearchForTheKing.slave $whdloadargs
-ENDIF

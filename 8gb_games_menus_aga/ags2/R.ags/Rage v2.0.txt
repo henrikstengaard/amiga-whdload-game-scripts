@@ -1,4 +1,0 @@
-Name      : Rage v2.0
-Genre     : Shooter
-Players   : 1
-Whdload   : RageCAD.Slave

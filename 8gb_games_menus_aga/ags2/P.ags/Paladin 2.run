@@ -1,6 +1,0 @@
-cd A-Games:P/Paladin2
-IF $whdloadargs EQ ""
-  whdload Paladin2.Slave
-ELSE
-  whdload Paladin2.Slave $whdloadargs
-ENDIF

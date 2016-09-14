@@ -1,6 +1,0 @@
-cd A-Demos:S/SwelteringForest
-IF $whdloadargs EQ ""
-  whdload SwelteringForest.Slave
-ELSE
-  whdload SwelteringForest.Slave $whdloadargs
-ENDIF

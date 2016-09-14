@@ -1,6 +1,0 @@
-cd A-Demos:E/Elysium
-IF $whdloadargs EQ ""
-  whdload Elysium.Slave
-ELSE
-  whdload Elysium.Slave $whdloadargs
-ENDIF

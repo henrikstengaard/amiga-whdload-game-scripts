@@ -1,6 +1,0 @@
-cd A-Games2:O/OoopsUp
-IF $whdloadargs EQ ""
-  whdload OoopsUp.Slave
-ELSE
-  whdload OoopsUp.Slave $whdloadargs
-ENDIF

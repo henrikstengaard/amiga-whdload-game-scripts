@@ -1,6 +1,0 @@
-cd A-Demos:N/NeuralAssault
-IF $whdloadargs EQ ""
-  whdload NeuralAssault.Slave
-ELSE
-  whdload NeuralAssault.Slave $whdloadargs
-ENDIF

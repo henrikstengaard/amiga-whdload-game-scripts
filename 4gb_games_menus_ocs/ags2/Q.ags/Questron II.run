@@ -1,6 +1,0 @@
-cd A-Games2:Q/Questron2
-IF $whdloadargs EQ ""
-  whdload Questron2.Slave
-ELSE
-  whdload Questron2.Slave $whdloadargs
-ENDIF

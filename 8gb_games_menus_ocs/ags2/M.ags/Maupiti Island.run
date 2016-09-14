@@ -1,6 +1,0 @@
-cd A-Games:M/MaupitiIsland
-IF $whdloadargs EQ ""
-  whdload MaupitiIsland.Slave
-ELSE
-  whdload MaupitiIsland.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:T/TitanTrax
-IF $whdloadargs EQ ""
-  whdload TitanTrax.slave
-ELSE
-  whdload TitanTrax.slave $whdloadargs
-ENDIF

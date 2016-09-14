@@ -1,5 +1,0 @@
-Name      : Rainbow Warrior
-Publisher : MicroStyle (MicroProse)
-Year      : 1989
-Players   : 1
-Whdload   : RainbowWarrior.Slave

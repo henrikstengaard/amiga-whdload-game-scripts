@@ -1,6 +1,0 @@
-cd A-Games:M/M1TankPlatoon
-IF $whdloadargs EQ ""
-  whdload M1TankPlatoon.Slave
-ELSE
-  whdload M1TankPlatoon.Slave $whdloadargs
-ENDIF

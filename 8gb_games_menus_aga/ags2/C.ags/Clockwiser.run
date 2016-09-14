@@ -1,6 +1,0 @@
-cd A-Games:C/ClockwiserAGA
-IF $whdloadargs EQ ""
-  whdload ClockwiserAGA.Slave
-ELSE
-  whdload ClockwiserAGA.Slave $whdloadargs
-ENDIF

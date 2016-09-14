@@ -1,4 +1,0 @@
-Name    : Demon download
-Groups  : The Silents
-Type    : Demo
-Whdload : DemonDownload.Slave

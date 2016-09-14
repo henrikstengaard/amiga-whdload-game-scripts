@@ -1,6 +1,0 @@
-cd A-Games:R/RevengeOfMutantCamels
-IF $whdloadargs EQ ""
-  whdload RevengeOfMutantCamels.Slave
-ELSE
-  whdload RevengeOfMutantCamels.Slave $whdloadargs
-ENDIF

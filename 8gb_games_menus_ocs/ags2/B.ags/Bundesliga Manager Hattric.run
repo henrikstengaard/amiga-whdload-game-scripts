@@ -1,6 +1,0 @@
-cd A-Games:B/BundesligaManagerHatt
-IF $whdloadargs EQ ""
-  whdload BundesligaManagerHat.Slave
-ELSE
-  whdload BundesligaManagerHat.Slave $whdloadargs
-ENDIF

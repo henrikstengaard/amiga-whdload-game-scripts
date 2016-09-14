@@ -1,6 +1,0 @@
-cd A-Demos:0-9/3DDemo
-IF $whdloadargs EQ ""
-  whdload 3DDemo.Slave
-ELSE
-  whdload 3DDemo.Slave $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Fantastic Pix 1
-Groups  : Venom
-Type    : Slideshow
-Whdload : FantasticPixVol1.Slave

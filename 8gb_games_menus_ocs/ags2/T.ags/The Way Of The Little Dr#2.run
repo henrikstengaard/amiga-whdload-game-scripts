@@ -1,6 +1,0 @@
-cd A-Games:W/WayOfTheLittleDragonAStar
-IF $whdloadargs EQ ""
-  whdload WayOfTheLittleDragonAStar.Slave
-ELSE
-  whdload WayOfTheLittleDragonAStar.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/Skidz
-IF $whdloadargs EQ ""
-  whdload Skidz.Slave
-ELSE
-  whdload Skidz.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:B/Blasteroids
-IF $whdloadargs EQ ""
-  whdload Blasteroids.Slave
-ELSE
-  whdload Blasteroids.Slave $whdloadargs
-ENDIF

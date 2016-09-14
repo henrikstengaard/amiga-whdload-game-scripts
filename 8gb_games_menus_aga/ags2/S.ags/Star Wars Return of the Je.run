@@ -1,6 +1,0 @@
-cd A-Games:R/ReturnOfTheJedi
-IF $whdloadargs EQ ""
-  whdload ReturnOfTheJedi.slave
-ELSE
-  whdload ReturnOfTheJedi.slave $whdloadargs
-ENDIF

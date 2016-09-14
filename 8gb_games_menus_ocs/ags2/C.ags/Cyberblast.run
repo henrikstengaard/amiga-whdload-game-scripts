@@ -1,6 +1,0 @@
-cd A-Games:C/Cyberblast
-IF $whdloadargs EQ ""
-  whdload Cyberblast.slave
-ELSE
-  whdload Cyberblast.slave $whdloadargs
-ENDIF

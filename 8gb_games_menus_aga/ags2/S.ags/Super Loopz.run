@@ -1,6 +1,0 @@
-cd A-Games:S/SuperLoopzAGA
-IF $whdloadargs EQ ""
-  whdload SuperLoopzAGA.Slave
-ELSE
-  whdload SuperLoopzAGA.Slave $whdloadargs
-ENDIF

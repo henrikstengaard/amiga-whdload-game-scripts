@@ -1,6 +1,0 @@
-cd A-Games:C/Cygnus8
-IF $whdloadargs EQ ""
-  whdload Cygnus8.Slave
-ELSE
-  whdload Cygnus8.Slave $whdloadargs
-ENDIF

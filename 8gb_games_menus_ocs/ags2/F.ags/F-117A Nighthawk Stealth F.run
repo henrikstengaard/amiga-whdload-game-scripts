@@ -1,6 +1,0 @@
-cd A-Games:N/NightHawkF117A
-IF $whdloadargs EQ ""
-  whdload NightHawkF117A.Slave
-ELSE
-  whdload NightHawkF117A.Slave $whdloadargs
-ENDIF

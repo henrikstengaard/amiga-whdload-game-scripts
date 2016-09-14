@@ -1,5 +1,0 @@
-Name      : The Blues Brothers
-Publisher : Titus
-Year      : 1991
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : BluesBrothers.Slave

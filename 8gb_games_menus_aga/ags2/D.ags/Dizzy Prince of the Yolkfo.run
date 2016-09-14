@@ -1,6 +1,0 @@
-cd A-Games:D/DizzyPrinceOfTheYolkfolk
-IF $whdloadargs EQ ""
-  whdload DizzyPrinceOfTheYolkfolk.slave
-ELSE
-  whdload DizzyPrinceOfTheYolkfolk.slave $whdloadargs
-ENDIF

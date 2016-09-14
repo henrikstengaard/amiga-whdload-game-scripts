@@ -1,6 +1,0 @@
-cd A-Games:P/PlayerManager
-IF $whdloadargs EQ ""
-  whdload PlayerManager.Slave
-ELSE
-  whdload PlayerManager.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/SpaceQuestEnhanced
-IF $whdloadargs EQ ""
-  whdload SpaceQuestEnhanced.slave
-ELSE
-  whdload SpaceQuestEnhanced.slave $whdloadargs
-ENDIF

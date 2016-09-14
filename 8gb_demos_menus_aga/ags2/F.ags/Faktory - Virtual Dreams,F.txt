@@ -1,6 +1,0 @@
-Name    : Faktory
-Groups  : Virtual Dreams,Fairlight
-Type    : Demo
-Party   : The Party 1995
-Rank    : 3rd
-Whdload : Faktory.Slave

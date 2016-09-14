@@ -1,6 +1,0 @@
-cd A-Games:X/Xenon
-IF $whdloadargs EQ ""
-  whdload Xenon.slave
-ELSE
-  whdload Xenon.slave $whdloadargs
-ENDIF

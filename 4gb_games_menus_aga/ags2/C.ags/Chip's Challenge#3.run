@@ -1,6 +1,0 @@
-cd A-Games1:C/ChipsChallengeUSGold
-IF $whdloadargs EQ ""
-  whdload ChipsChallengeUSGold.Slave
-ELSE
-  whdload ChipsChallengeUSGold.Slave $whdloadargs
-ENDIF

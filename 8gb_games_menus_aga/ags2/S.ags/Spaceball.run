@@ -1,6 +1,0 @@
-cd A-Games:S/Spaceball
-IF $whdloadargs EQ ""
-  whdload Spaceball.Slave
-ELSE
-  whdload Spaceball.Slave $whdloadargs
-ENDIF

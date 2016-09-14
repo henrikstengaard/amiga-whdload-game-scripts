@@ -1,6 +1,0 @@
-cd A-Games1:I/Italy1990
-IF $whdloadargs EQ ""
-  whdload Italy1990.slave
-ELSE
-  whdload Italy1990.slave $whdloadargs
-ENDIF

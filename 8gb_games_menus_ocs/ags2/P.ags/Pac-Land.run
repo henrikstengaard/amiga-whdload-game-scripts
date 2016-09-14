@@ -1,6 +1,0 @@
-cd A-Games:P/PacLand
-IF $whdloadargs EQ ""
-  whdload PacLand.Slave
-ELSE
-  whdload PacLand.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:T/TableHockeyArcadia
-IF $whdloadargs EQ ""
-  whdload TableHockeyArcadia.Slave
-ELSE
-  whdload TableHockeyArcadia.Slave $whdloadargs
-ENDIF

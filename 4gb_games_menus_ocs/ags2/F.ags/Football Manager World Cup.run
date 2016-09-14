@@ -1,6 +1,0 @@
-cd A-Games1:F/FootballManagerWCEd
-IF $whdloadargs EQ ""
-  whdload FootballManagerWCEd.Slave
-ELSE
-  whdload FootballManagerWCEd.Slave $whdloadargs
-ENDIF

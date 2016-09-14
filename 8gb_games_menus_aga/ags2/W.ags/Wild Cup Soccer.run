@@ -1,6 +1,0 @@
-cd A-Games:W/WildCupSoccer
-IF $whdloadargs EQ ""
-  whdload WildCupSoccer.Slave
-ELSE
-  whdload WildCupSoccer.Slave $whdloadargs
-ENDIF

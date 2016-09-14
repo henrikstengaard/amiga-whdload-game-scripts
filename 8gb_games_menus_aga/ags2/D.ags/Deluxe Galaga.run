@@ -1,6 +1,0 @@
-cd A-Games:D/DeluxeGalagaAGA
-IF $whdloadargs EQ ""
-  whdload DeluxeGalagaAGA.Slave
-ELSE
-  whdload DeluxeGalagaAGA.Slave $whdloadargs
-ENDIF

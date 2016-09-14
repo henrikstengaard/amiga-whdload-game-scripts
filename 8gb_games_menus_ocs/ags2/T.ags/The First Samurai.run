@@ -1,6 +1,0 @@
-cd A-Games:F/FirstSamurai
-IF $whdloadargs EQ ""
-  whdload FirstSamurai.Slave
-ELSE
-  whdload FirstSamurai.Slave $whdloadargs
-ENDIF

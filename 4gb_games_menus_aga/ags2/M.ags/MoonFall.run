@@ -1,6 +1,0 @@
-cd A-Games2:M/Moonfall
-IF $whdloadargs EQ ""
-  whdload Moonfall.Slave
-ELSE
-  whdload Moonfall.Slave $whdloadargs
-ENDIF

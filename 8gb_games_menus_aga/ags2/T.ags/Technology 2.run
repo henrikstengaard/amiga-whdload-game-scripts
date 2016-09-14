@@ -1,6 +1,0 @@
-cd A-Games:T/Technology2
-IF $whdloadargs EQ ""
-  whdload Technology2.Slave
-ELSE
-  whdload Technology2.Slave $whdloadargs
-ENDIF

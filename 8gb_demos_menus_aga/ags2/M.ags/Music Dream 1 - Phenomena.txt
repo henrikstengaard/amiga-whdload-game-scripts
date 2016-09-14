@@ -1,4 +1,0 @@
-Name    : Music Dream 1
-Groups  : Phenomena
-Type    : Musicdisk
-Whdload : MusicDream1.Slave

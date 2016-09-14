@@ -1,6 +1,0 @@
-cd A-Games:F/FlightSimulator2
-IF $whdloadargs EQ ""
-  whdload FlightSimulator2.Slave
-ELSE
-  whdload FlightSimulator2.Slave $whdloadargs
-ENDIF

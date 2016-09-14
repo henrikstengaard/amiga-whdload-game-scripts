@@ -1,6 +1,0 @@
-cd A-Games:G/Globulus
-IF $whdloadargs EQ ""
-  whdload Globulus.slave
-ELSE
-  whdload Globulus.slave $whdloadargs
-ENDIF

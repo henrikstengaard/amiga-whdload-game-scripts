@@ -1,6 +1,0 @@
-cd A-Games:R/RobotReaderChickenLittle
-IF $whdloadargs EQ ""
-  whdload RobotReaderChickenLittle.Slave
-ELSE
-  whdload RobotReaderChickenLittle.Slave $whdloadargs
-ENDIF

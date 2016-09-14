@@ -1,6 +1,0 @@
-cd A-Games:D/DeathBringerSpotlight
-IF $whdloadargs EQ ""
-  whdload DeathBringerSpotlight.Slave
-ELSE
-  whdload DeathBringerSpotlight.Slave $whdloadargs
-ENDIF

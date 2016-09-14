@@ -1,6 +1,0 @@
-cd A-Games:T/TearawayThomas
-IF $whdloadargs EQ ""
-  whdload TearawayThomas.slave
-ELSE
-  whdload TearawayThomas.slave $whdloadargs
-ENDIF

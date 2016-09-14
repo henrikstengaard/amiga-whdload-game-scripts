@@ -1,6 +1,0 @@
-cd A-Games:M/MFTanks
-IF $whdloadargs EQ ""
-  whdload MFTanks.Slave
-ELSE
-  whdload MFTanks.Slave $whdloadargs
-ENDIF

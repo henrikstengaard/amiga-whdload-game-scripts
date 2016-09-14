@@ -1,5 +1,0 @@
-Name      : T-Racer
-Publisher : Virtual Dreams
-Year      : 1994
-Players   : 1 Only
-Whdload   : TRacer.Slave

@@ -1,6 +1,0 @@
-cd A-Games:M/Mindfighter
-IF $whdloadargs EQ ""
-  whdload Mindfighter.Slave
-ELSE
-  whdload Mindfighter.Slave $whdloadargs
-ENDIF

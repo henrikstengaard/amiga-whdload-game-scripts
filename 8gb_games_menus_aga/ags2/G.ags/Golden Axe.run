@@ -1,6 +1,0 @@
-cd A-Games:G/GoldenAxe
-IF $whdloadargs EQ ""
-  whdload GoldenAxe.slave
-ELSE
-  whdload GoldenAxe.slave $whdloadargs
-ENDIF

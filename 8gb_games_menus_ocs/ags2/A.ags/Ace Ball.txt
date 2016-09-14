@@ -1,5 +1,0 @@
-Name      : Ace Ball
-Publisher : Tim Soft
-Year      : 1995
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : AceBall.Slave

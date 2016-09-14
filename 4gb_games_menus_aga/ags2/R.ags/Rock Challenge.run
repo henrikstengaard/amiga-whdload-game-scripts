@@ -1,6 +1,0 @@
-cd A-Games2:R/RockChallenge
-IF $whdloadargs EQ ""
-  whdload RockChallenge.Slave
-ELSE
-  whdload RockChallenge.Slave $whdloadargs
-ENDIF

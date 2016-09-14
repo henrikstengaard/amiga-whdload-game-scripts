@@ -1,6 +1,0 @@
-cd A-Games:C/CentrefoldSquares
-IF $whdloadargs EQ ""
-  whdload CentrefoldSquares.Slave
-ELSE
-  whdload CentrefoldSquares.Slave $whdloadargs
-ENDIF

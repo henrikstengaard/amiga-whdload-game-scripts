@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Pseudoplast
-Type    : Demo
-Whdload : Megademo.Slave

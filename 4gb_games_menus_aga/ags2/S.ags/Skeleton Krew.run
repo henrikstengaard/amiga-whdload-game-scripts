@@ -1,6 +1,0 @@
-cd A-Games2:S/SkeletonKrewAGA
-IF $whdloadargs EQ ""
-  whdload SkeletonKrewAGA.slave
-ELSE
-  whdload SkeletonKrewAGA.slave $whdloadargs
-ENDIF

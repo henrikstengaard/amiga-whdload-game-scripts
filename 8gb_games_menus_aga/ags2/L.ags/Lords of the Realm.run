@@ -1,6 +1,0 @@
-cd A-Games:L/LordsOfTheRealmAGA
-IF $whdloadargs EQ ""
-  whdload LordsOfTheRealmAGA.Slave
-ELSE
-  whdload LordsOfTheRealmAGA.Slave $whdloadargs
-ENDIF

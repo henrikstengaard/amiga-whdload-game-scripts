@@ -1,6 +1,0 @@
-cd A-Games:W/WinterGames
-IF $whdloadargs EQ ""
-  whdload WinterGames.Slave
-ELSE
-  whdload WinterGames.Slave $whdloadargs
-ENDIF

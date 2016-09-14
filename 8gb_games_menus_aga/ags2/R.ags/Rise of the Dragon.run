@@ -1,6 +1,0 @@
-cd A-Games:R/RiseOfTheDragon
-IF $whdloadargs EQ ""
-  whdload RiseOfTheDragon.Slave
-ELSE
-  whdload RiseOfTheDragon.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:K/KidChaos
-IF $whdloadargs EQ ""
-  whdload KidChaos.slave
-ELSE
-  whdload KidChaos.slave $whdloadargs
-ENDIF

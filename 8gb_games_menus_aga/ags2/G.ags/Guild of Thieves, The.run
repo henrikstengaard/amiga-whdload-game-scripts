@@ -1,6 +1,0 @@
-cd A-Games:G/GuildOfThieves
-IF $whdloadargs EQ ""
-  whdload GuildOfThieves.Slave
-ELSE
-  whdload GuildOfThieves.Slave $whdloadargs
-ENDIF

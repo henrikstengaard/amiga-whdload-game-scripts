@@ -1,6 +1,0 @@
-cd A-Games:B/BlinkysScarySchool
-IF $whdloadargs EQ ""
-  whdload BlinkysScarySchool.Slave
-ELSE
-  whdload BlinkysScarySchool.Slave $whdloadargs
-ENDIF

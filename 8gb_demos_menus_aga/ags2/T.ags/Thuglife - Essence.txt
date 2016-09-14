@@ -1,6 +1,0 @@
-Name    : Thuglife
-Groups  : Essence
-Type    : Demo
-Party   : Mekka &amp
-Rank    : 3rd
-Whdload : ThugLife.Slave

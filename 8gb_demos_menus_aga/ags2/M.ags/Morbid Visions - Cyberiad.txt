@@ -1,4 +1,0 @@
-Name    : Morbid Visions
-Groups  : Cyberiad
-Type    : Slideshow
-Whdload : MorbidVisions.Slave

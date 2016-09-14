@@ -1,6 +1,0 @@
-cd A-Games:U/UpScopeArcadia
-IF $whdloadargs EQ ""
-  whdload UpScopeArcadia.Slave
-ELSE
-  whdload UpScopeArcadia.Slave $whdloadargs
-ENDIF

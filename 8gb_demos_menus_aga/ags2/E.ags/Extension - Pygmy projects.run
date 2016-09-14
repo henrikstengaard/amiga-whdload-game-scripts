@@ -1,6 +1,0 @@
-cd A-Demos:E/Extension
-IF $whdloadargs EQ ""
-  whdload Extension.Slave
-ELSE
-  whdload Extension.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:V/VirtualHarmony
-IF $whdloadargs EQ ""
-  whdload VirtualHarmony.slave
-ELSE
-  whdload VirtualHarmony.slave $whdloadargs
-ENDIF

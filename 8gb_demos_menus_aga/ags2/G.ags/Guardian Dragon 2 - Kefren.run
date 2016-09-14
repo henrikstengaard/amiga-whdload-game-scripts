@@ -1,6 +1,0 @@
-cd A-Demos:G/GuardianDragon2
-IF $whdloadargs EQ ""
-  whdload GuardianDragon2.slave
-ELSE
-  whdload GuardianDragon2.slave $whdloadargs
-ENDIF

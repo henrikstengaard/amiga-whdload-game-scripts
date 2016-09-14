@@ -1,6 +1,0 @@
-cd A-Games:S/Skidmarks
-IF $whdloadargs EQ ""
-  whdload Skidmarks.slave
-ELSE
-  whdload Skidmarks.slave $whdloadargs
-ENDIF

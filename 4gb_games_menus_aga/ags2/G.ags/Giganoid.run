@@ -1,6 +1,0 @@
-cd A-Games1:G/Giganoid
-IF $whdloadargs EQ ""
-  whdload Giganoid.Slave
-ELSE
-  whdload Giganoid.Slave $whdloadargs
-ENDIF

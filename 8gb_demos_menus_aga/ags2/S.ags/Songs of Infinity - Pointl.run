@@ -1,6 +1,0 @@
-cd A-Demos:S/SongsOfInfinity
-IF $whdloadargs EQ ""
-  whdload SongsOfInfinity.Slave
-ELSE
-  whdload SongsOfInfinity.Slave $whdloadargs
-ENDIF

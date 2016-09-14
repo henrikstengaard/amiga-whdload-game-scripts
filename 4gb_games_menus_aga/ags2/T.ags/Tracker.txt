@@ -1,4 +1,0 @@
-Name      : Tracker
-Publisher : Rainbird / firebird
-Year      : 1988
-Whdload   : Tracker.Slave

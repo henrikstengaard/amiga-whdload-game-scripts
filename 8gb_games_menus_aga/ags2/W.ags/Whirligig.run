@@ -1,6 +1,0 @@
-cd A-Games:W/Whirligig
-IF $whdloadargs EQ ""
-  whdload Whirligig.Slave
-ELSE
-  whdload Whirligig.Slave $whdloadargs
-ENDIF

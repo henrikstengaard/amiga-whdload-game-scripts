@@ -1,6 +1,0 @@
-cd A-Games2:W/WembleyIntSoccer
-IF $whdloadargs EQ ""
-  whdload WembleyIntSoccer.Slave
-ELSE
-  whdload WembleyIntSoccer.Slave $whdloadargs
-ENDIF

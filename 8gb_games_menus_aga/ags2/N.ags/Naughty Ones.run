@@ -1,6 +1,0 @@
-cd A-Games:N/NaughtyOnesAGA
-IF $whdloadargs EQ ""
-  whdload NaughtyOnesAGA.Slave
-ELSE
-  whdload NaughtyOnesAGA.Slave $whdloadargs
-ENDIF

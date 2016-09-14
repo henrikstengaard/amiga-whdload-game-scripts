@@ -1,6 +1,0 @@
-cd A-Games:T/TheatreOfDeath
-IF $whdloadargs EQ ""
-  whdload TheatreOfDeath.Slave
-ELSE
-  whdload TheatreOfDeath.Slave $whdloadargs
-ENDIF

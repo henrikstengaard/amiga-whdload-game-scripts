@@ -1,6 +1,0 @@
-cd A-Demos:T/TropicalSunset
-IF $whdloadargs EQ ""
-  whdload TropicalSunset.Slave
-ELSE
-  whdload TropicalSunset.Slave $whdloadargs
-ENDIF

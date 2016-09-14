@@ -1,5 +1,0 @@
-Name    : Psychedelic
-Groups  : Virtual Dreams
-Type    : Demo
-Party   : The Party 1994
-Whdload : Psychedelic.Slave

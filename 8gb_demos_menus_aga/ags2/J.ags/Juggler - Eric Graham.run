@@ -1,6 +1,0 @@
-cd A-Demos:J/Juggler
-IF $whdloadargs EQ ""
-  whdload Juggler.Slave
-ELSE
-  whdload Juggler.Slave $whdloadargs
-ENDIF

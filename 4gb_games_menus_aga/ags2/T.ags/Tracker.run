@@ -1,6 +1,0 @@
-cd A-Games2:T/Tracker
-IF $whdloadargs EQ ""
-  whdload Tracker.Slave
-ELSE
-  whdload Tracker.Slave $whdloadargs
-ENDIF

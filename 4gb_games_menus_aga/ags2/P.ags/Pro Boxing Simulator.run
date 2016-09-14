@@ -1,6 +1,0 @@
-cd A-Games2:P/ProBoxingSimulator
-IF $whdloadargs EQ ""
-  whdload ProBoxingSimulator.Slave
-ELSE
-  whdload ProBoxingSimulator.Slave $whdloadargs
-ENDIF

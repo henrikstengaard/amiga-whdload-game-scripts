@@ -1,6 +1,0 @@
-cd A-Games:C/CountDuckula
-IF $whdloadargs EQ ""
-  whdload CountDuckula.slave
-ELSE
-  whdload CountDuckula.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:W/Waxworks
-IF $whdloadargs EQ ""
-  whdload Waxworks.Slave
-ELSE
-  whdload Waxworks.Slave $whdloadargs
-ENDIF

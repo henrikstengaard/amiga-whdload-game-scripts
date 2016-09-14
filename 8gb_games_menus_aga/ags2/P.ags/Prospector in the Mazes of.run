@@ -1,6 +1,0 @@
-cd A-Games:P/ProspectorInTheMazesOfXor
-IF $whdloadargs EQ ""
-  whdload ProspectorInTheMazesOfXor.Slave
-ELSE
-  whdload ProspectorInTheMazesOfXor.Slave $whdloadargs
-ENDIF

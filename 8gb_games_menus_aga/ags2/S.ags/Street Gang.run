@@ -1,6 +1,0 @@
-cd A-Games:S/StreetGang
-IF $whdloadargs EQ ""
-  whdload StreetGang.slave
-ELSE
-  whdload StreetGang.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:F/FatalMission
-IF $whdloadargs EQ ""
-  whdload FatalMission.slave
-ELSE
-  whdload FatalMission.slave $whdloadargs
-ENDIF

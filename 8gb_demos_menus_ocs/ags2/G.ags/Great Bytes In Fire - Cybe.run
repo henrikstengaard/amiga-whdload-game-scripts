@@ -1,6 +1,0 @@
-cd A-Demos:G/GreatBytesInFire
-IF $whdloadargs EQ ""
-  whdload GreatBytesInFire.Slave
-ELSE
-  whdload GreatBytesInFire.Slave $whdloadargs
-ENDIF

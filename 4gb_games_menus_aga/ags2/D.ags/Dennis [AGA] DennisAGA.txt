@@ -1,5 +1,0 @@
-Name      : Dennis [AGA]
-Publisher : Ocean
-Year      : 1994
-Players   : 1
-Whdload   : DennisAGA.slave

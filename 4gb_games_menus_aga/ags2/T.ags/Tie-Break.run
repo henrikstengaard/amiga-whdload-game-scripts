@@ -1,6 +1,0 @@
-cd A-Games2:T/TieBreak
-IF $whdloadargs EQ ""
-  whdload TieBreak.Slave
-ELSE
-  whdload TieBreak.Slave $whdloadargs
-ENDIF

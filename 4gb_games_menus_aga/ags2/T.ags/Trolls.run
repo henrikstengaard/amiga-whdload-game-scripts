@@ -1,6 +1,0 @@
-cd A-Games2:T/TrollsAGA
-IF $whdloadargs EQ ""
-  whdload TrollsAGA.Slave
-ELSE
-  whdload TrollsAGA.Slave $whdloadargs
-ENDIF

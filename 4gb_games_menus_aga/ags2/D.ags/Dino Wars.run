@@ -1,6 +1,0 @@
-cd A-Games1:D/DinoWars
-IF $whdloadargs EQ ""
-  whdload DinoWars.Slave
-ELSE
-  whdload DinoWars.Slave $whdloadargs
-ENDIF

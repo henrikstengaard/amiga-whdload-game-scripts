@@ -1,6 +1,0 @@
-cd A-Games1:B/Baal
-IF $whdloadargs EQ ""
-  whdload Baal.Slave
-ELSE
-  whdload Baal.Slave $whdloadargs
-ENDIF

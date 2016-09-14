@@ -1,5 +1,0 @@
-Name      : Warm Up
-Publisher : Genias
-Year      : 1991
-Genre     : Sports - Formula One
-Whdload   : WarmUp.Slave

@@ -1,6 +1,0 @@
-cd A-Games:C/CogansRun
-IF $whdloadargs EQ ""
-  whdload CogansRun.Slave
-ELSE
-  whdload CogansRun.Slave $whdloadargs
-ENDIF

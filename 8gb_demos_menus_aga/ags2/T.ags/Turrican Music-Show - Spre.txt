@@ -1,4 +1,0 @@
-Name    : Turrican Music-Show
-Groups  : Spreadpoint
-Type    : Musicdisk
-Whdload : TurricanMusicShow.Slave

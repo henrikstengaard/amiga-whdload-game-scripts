@@ -1,6 +1,0 @@
-cd A-Games1:M/MrHeli
-IF $whdloadargs EQ ""
-  whdload MrHeli.slave
-ELSE
-  whdload MrHeli.slave $whdloadargs
-ENDIF

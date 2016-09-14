@@ -1,6 +1,0 @@
-cd A-Games:S/SinkOrSwim512KB
-IF $whdloadargs EQ ""
-  whdload SinkOrSwim512KB.Slave
-ELSE
-  whdload SinkOrSwim512KB.Slave $whdloadargs
-ENDIF

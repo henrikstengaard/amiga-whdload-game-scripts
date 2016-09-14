@@ -1,6 +1,0 @@
-cd A-Games:A/AlienFishFinger
-IF $whdloadargs EQ ""
-  whdload AlienFishFinger.Slave
-ELSE
-  whdload AlienFishFinger.Slave $whdloadargs
-ENDIF

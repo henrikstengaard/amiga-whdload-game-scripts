@@ -1,6 +1,0 @@
-cd A-Games:M/MortonStrikesBack
-IF $whdloadargs EQ ""
-  whdload MortonStrikesBack.Slave
-ELSE
-  whdload MortonStrikesBack.Slave $whdloadargs
-ENDIF

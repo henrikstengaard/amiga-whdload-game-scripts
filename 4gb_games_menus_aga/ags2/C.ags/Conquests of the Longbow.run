@@ -1,6 +1,0 @@
-cd A-Games1:C/ConquestsOfTheLongbow
-IF $whdloadargs EQ ""
-  whdload ConquestsOfTheLongbow.slave
-ELSE
-  whdload ConquestsOfTheLongbow.slave $whdloadargs
-ENDIF

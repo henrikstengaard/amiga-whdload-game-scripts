@@ -1,6 +1,0 @@
-cd A-Games1:H/HeroesOfTheLance
-IF $whdloadargs EQ ""
-  whdload HeroesOfTheLance.slave
-ELSE
-  whdload HeroesOfTheLance.slave $whdloadargs
-ENDIF

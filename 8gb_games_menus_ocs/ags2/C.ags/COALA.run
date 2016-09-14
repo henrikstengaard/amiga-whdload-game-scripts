@@ -1,6 +1,0 @@
-cd A-Games:C/Coala
-IF $whdloadargs EQ ""
-  whdload Coala.Slave
-ELSE
-  whdload Coala.Slave $whdloadargs
-ENDIF

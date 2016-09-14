@@ -1,6 +1,0 @@
-cd A-Games:L/Locomotion
-IF $whdloadargs EQ ""
-  whdload Locomotion.Slave
-ELSE
-  whdload Locomotion.Slave $whdloadargs
-ENDIF

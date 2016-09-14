@@ -1,6 +1,0 @@
-cd A-Demos:K/Kerygma
-IF $whdloadargs EQ ""
-  whdload Kerygma.Slave
-ELSE
-  whdload Kerygma.Slave $whdloadargs
-ENDIF

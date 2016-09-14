@@ -1,6 +1,0 @@
-cd A-Games:E/EcoPhantoms
-IF $whdloadargs EQ ""
-  whdload EcoPhantoms.Slave
-ELSE
-  whdload EcoPhantoms.Slave $whdloadargs
-ENDIF

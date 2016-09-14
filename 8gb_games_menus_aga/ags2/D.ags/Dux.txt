@@ -1,5 +1,0 @@
-Name      : Dux
-Publisher : Gremlin / CU Amiga (EMAP)
-Year      : 1991
-Players   : 1
-Whdload   : Dux.Slave

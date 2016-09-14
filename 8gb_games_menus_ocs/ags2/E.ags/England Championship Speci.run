@@ -1,6 +1,0 @@
-cd A-Games:E/EnglandChampSpecial
-IF $whdloadargs EQ ""
-  whdload EnglandChampSpecial.Slave
-ELSE
-  whdload EnglandChampSpecial.Slave $whdloadargs
-ENDIF

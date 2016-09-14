@@ -1,6 +1,0 @@
-cd A-Demos:M/MusicDisk1FantasyForce
-IF $whdloadargs EQ ""
-  whdload MusicDisk1FantasyForce.Slave
-ELSE
-  whdload MusicDisk1FantasyForce.Slave $whdloadargs
-ENDIF

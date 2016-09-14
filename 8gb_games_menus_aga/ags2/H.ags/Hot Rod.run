@@ -1,6 +1,0 @@
-cd A-Games:H/HotRod
-IF $whdloadargs EQ ""
-  whdload HotRod.Slave
-ELSE
-  whdload HotRod.Slave $whdloadargs
-ENDIF

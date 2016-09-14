@@ -1,6 +1,0 @@
-cd A-Demos:F/FaceAnotherDay
-IF $whdloadargs EQ ""
-  whdload FaceAnotherDay.Slave
-ELSE
-  whdload FaceAnotherDay.Slave $whdloadargs
-ENDIF

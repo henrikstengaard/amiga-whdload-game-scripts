@@ -1,6 +1,0 @@
-cd A-Games1:B/Battletech
-IF $whdloadargs EQ ""
-  whdload Battletech.Slave
-ELSE
-  whdload Battletech.Slave $whdloadargs
-ENDIF

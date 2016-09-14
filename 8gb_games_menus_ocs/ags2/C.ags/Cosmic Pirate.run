@@ -1,6 +1,0 @@
-cd A-Games:C/CosmicPirate
-IF $whdloadargs EQ ""
-  whdload CosmicPirate.Slave
-ELSE
-  whdload CosmicPirate.Slave $whdloadargs
-ENDIF

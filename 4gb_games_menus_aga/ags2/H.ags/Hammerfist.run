@@ -1,6 +1,0 @@
-cd A-Games1:H/Hammerfist
-IF $whdloadargs EQ ""
-  whdload Hammerfist.slave
-ELSE
-  whdload Hammerfist.slave $whdloadargs
-ENDIF

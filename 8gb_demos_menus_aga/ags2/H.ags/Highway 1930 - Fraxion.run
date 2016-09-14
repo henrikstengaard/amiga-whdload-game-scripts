@@ -1,6 +1,0 @@
-cd A-Demos:H/Highway1930
-IF $whdloadargs EQ ""
-  whdload Highway1930.Slave
-ELSE
-  whdload Highway1930.Slave $whdloadargs
-ENDIF

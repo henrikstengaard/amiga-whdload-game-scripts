@@ -1,6 +1,0 @@
-cd A-Games:G/GhostChaser
-IF $whdloadargs EQ ""
-  whdload GhostChaser.Slave
-ELSE
-  whdload GhostChaser.Slave $whdloadargs
-ENDIF

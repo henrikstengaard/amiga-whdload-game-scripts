@@ -1,6 +1,0 @@
-cd A-Games1:C/CannonFodder2AlienLevels
-IF $whdloadargs EQ ""
-  whdload CannonFodder2AlienLevels.Slave
-ELSE
-  whdload CannonFodder2AlienLevels.Slave $whdloadargs
-ENDIF

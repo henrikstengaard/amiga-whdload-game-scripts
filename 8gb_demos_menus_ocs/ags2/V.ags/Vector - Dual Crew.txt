@@ -1,4 +1,0 @@
-Name    : Vector
-Groups  : Dual Crew
-Type    : Intro
-Whdload : VectorBobDemo.slave

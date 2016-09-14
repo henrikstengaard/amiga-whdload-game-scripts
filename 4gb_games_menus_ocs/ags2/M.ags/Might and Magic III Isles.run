@@ -1,6 +1,0 @@
-cd A-Games1:M/MightAndMagic3
-IF $whdloadargs EQ ""
-  whdload MightAndMagic3.Slave
-ELSE
-  whdload MightAndMagic3.Slave $whdloadargs
-ENDIF

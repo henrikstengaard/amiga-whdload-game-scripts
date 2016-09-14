@@ -1,6 +1,0 @@
-cd A-Games:M/MikeReadsComputerPopQuiz
-IF $whdloadargs EQ ""
-  whdload MikeReadsComputerPopQuiz.Slave
-ELSE
-  whdload MikeReadsComputerPopQuiz.Slave $whdloadargs
-ENDIF

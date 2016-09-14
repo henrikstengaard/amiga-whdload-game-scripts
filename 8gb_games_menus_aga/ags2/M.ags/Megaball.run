@@ -1,6 +1,0 @@
-cd A-Games:M/MegaBallAGA
-IF $whdloadargs EQ ""
-  whdload MegaBallAGA.Slave
-ELSE
-  whdload MegaBallAGA.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:T/T-Zer0Demo
-IF $whdloadargs EQ ""
-  whdload T-Zer0Demo.Slave
-ELSE
-  whdload T-Zer0Demo.Slave $whdloadargs
-ENDIF

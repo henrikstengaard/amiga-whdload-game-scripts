@@ -1,6 +1,0 @@
-cd A-Games:B/BardsTale
-IF $whdloadargs EQ ""
-  whdload BardsTale.Slave
-ELSE
-  whdload BardsTale.Slave $whdloadargs
-ENDIF

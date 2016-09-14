@@ -1,6 +1,0 @@
-cd A-Demos:M/MusicDisk2IKS
-IF $whdloadargs EQ ""
-  whdload MusicDisk2IKS.Slave
-ELSE
-  whdload MusicDisk2IKS.Slave $whdloadargs
-ENDIF

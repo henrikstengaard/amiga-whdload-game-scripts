@@ -1,6 +1,0 @@
-cd A-Demos:Q/QED2
-IF $whdloadargs EQ ""
-  whdload QED2.Slave
-ELSE
-  whdload QED2.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:G/Gettysburg
-IF $whdloadargs EQ ""
-  whdload Gettysburg.Slave
-ELSE
-  whdload Gettysburg.Slave $whdloadargs
-ENDIF

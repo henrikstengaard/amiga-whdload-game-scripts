@@ -1,6 +1,0 @@
-cd A-Games:J/Jinxter
-IF $whdloadargs EQ ""
-  whdload Jinxter.Slave
-ELSE
-  whdload Jinxter.Slave $whdloadargs
-ENDIF

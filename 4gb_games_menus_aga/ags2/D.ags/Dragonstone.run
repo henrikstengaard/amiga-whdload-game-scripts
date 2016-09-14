@@ -1,6 +1,0 @@
-cd A-Games1:D/Dragonstone
-IF $whdloadargs EQ ""
-  whdload Dragonstone.slave
-ELSE
-  whdload Dragonstone.slave $whdloadargs
-ENDIF

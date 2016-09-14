@@ -1,6 +1,0 @@
-cd A-Games2:T/TinySkweeks
-IF $whdloadargs EQ ""
-  whdload TinySkweeks.Slave
-ELSE
-  whdload TinySkweeks.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:N/NavySeals
-IF $whdloadargs EQ ""
-  whdload NavySeals.Slave
-ELSE
-  whdload NavySeals.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:T/TornadoGroundAttack
-IF $whdloadargs EQ ""
-  whdload TornadoGroundAttack.Slave
-ELSE
-  whdload TornadoGroundAttack.Slave $whdloadargs
-ENDIF

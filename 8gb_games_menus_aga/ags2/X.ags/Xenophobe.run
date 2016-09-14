@@ -1,6 +1,0 @@
-cd A-Games:X/Xenophobe
-IF $whdloadargs EQ ""
-  whdload Xenophobe.slave
-ELSE
-  whdload Xenophobe.slave $whdloadargs
-ENDIF

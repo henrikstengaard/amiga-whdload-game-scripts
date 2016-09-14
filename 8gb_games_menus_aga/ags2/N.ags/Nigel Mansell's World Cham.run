@@ -1,6 +1,0 @@
-cd A-Games:N/NigelMansellsWrldChmpAGA
-IF $whdloadargs EQ ""
-  whdload NigelMansellsWrldChmpAGA.slave
-ELSE
-  whdload NigelMansellsWrldChmpAGA.slave $whdloadargs
-ENDIF

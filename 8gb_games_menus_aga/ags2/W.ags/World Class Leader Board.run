@@ -1,6 +1,0 @@
-cd A-Games:L/LeaderBoardArcadia
-IF $whdloadargs EQ ""
-  whdload LeaderBoardArcadia.Slave
-ELSE
-  whdload LeaderBoardArcadia.Slave $whdloadargs
-ENDIF

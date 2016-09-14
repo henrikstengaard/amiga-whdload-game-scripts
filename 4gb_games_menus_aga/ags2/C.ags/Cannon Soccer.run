@@ -1,6 +1,0 @@
-cd A-Games1:C/CannonSoccer
-IF $whdloadargs EQ ""
-  whdload CannonSoccer.Slave
-ELSE
-  whdload CannonSoccer.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:M/Museum
-IF $whdloadargs EQ ""
-  whdload Museum.Slave
-ELSE
-  whdload Museum.Slave $whdloadargs
-ENDIF

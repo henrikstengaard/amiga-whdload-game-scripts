@@ -1,6 +1,0 @@
-cd A-Games:D/DetroitAGA
-IF $whdloadargs EQ ""
-  whdload DetroitAGA.Slave
-ELSE
-  whdload DetroitAGA.Slave $whdloadargs
-ENDIF

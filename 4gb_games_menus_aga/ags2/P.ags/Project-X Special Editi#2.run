@@ -1,6 +1,0 @@
-cd A-Games2:P/ProjectXSEBTTR
-IF $whdloadargs EQ ""
-  whdload ProjectXSEBTTR.Slave
-ELSE
-  whdload ProjectXSEBTTR.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:Z/Zool2AGA
-IF $whdloadargs EQ ""
-  whdload Zool2AGA.Slave
-ELSE
-  whdload Zool2AGA.Slave $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Wicked
-Publisher : Electric Dreams
-Year      : 1989
-Players   : 1 Only
-Whdload   : Wicked.Slave

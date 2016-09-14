@@ -1,6 +1,0 @@
-cd A-Demos:O/Ottifanten
-IF $whdloadargs EQ ""
-  whdload Ottifanten.Slave
-ELSE
-  whdload Ottifanten.Slave $whdloadargs
-ENDIF

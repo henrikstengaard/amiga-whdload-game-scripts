@@ -1,6 +1,0 @@
-cd A-Games:C/CivilizationAGACD
-IF $whdloadargs EQ ""
-  whdload CivilizationAGACD.Slave
-ELSE
-  whdload CivilizationAGACD.Slave $whdloadargs
-ENDIF

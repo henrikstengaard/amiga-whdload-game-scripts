@@ -1,6 +1,0 @@
-cd A-Demos:M/Mixolydian
-IF $whdloadargs EQ ""
-  whdload Mixolydian.Slave
-ELSE
-  whdload Mixolydian.Slave $whdloadargs
-ENDIF

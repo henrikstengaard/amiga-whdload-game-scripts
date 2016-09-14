@@ -1,6 +1,0 @@
-cd A-Games:H/HerosQuest
-IF $whdloadargs EQ ""
-  whdload HerosQuest.Slave
-ELSE
-  whdload HerosQuest.Slave $whdloadargs
-ENDIF

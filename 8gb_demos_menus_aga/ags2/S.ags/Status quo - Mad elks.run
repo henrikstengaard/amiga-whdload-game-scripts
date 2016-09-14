@@ -1,6 +1,0 @@
-cd A-Demos:S/StatusQuo
-IF $whdloadargs EQ ""
-  whdload StatusQuo.Slave
-ELSE
-  whdload StatusQuo.Slave $whdloadargs
-ENDIF

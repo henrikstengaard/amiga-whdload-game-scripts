@@ -1,6 +1,0 @@
-cd A-Games1:D/DragonFighter
-IF $whdloadargs EQ ""
-  whdload DragonFighter.Slave
-ELSE
-  whdload DragonFighter.Slave $whdloadargs
-ENDIF

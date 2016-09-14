@@ -1,6 +1,0 @@
-cd A-Games:I/IndianaJonesAtlantisAdv
-IF $whdloadargs EQ ""
-  whdload IndianaJonesAtlantisAdv.Slave
-ELSE
-  whdload IndianaJonesAtlantisAdv.Slave $whdloadargs
-ENDIF

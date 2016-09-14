@@ -1,6 +1,0 @@
-cd A-Demos:P/Powertrax
-IF $whdloadargs EQ ""
-  whdload Powertrax.Slave
-ELSE
-  whdload Powertrax.Slave $whdloadargs
-ENDIF

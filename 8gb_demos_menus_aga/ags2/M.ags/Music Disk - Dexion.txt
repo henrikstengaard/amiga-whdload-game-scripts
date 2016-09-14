@@ -1,5 +1,0 @@
-Name    : Music Disk
-Groups  : Dexion
-Type    : Musicdisk
-Party   : Bamiga  Copy Party 89
-Whdload : MusicDiskDexion.Slave

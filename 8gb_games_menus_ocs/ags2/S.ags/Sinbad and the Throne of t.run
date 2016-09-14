@@ -1,6 +1,0 @@
-cd A-Games:S/Sinbad
-IF $whdloadargs EQ ""
-  whdload Sinbad.slave
-ELSE
-  whdload Sinbad.slave $whdloadargs
-ENDIF

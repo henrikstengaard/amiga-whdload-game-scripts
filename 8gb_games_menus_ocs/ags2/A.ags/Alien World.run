@@ -1,6 +1,0 @@
-cd A-Games:A/AlienWorld
-IF $whdloadargs EQ ""
-  whdload AlienWorld.Slave
-ELSE
-  whdload AlienWorld.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/Snoopy&PeanutsNoSounds
-IF $whdloadargs EQ ""
-  whdload Snoopy&PeanutsNoSounds.Slave
-ELSE
-  whdload Snoopy&PeanutsNoSounds.Slave $whdloadargs
-ENDIF

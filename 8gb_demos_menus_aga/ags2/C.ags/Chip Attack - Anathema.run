@@ -1,6 +1,0 @@
-cd A-Demos:C/ChipAttack
-IF $whdloadargs EQ ""
-  whdload ChipAttack.Slave
-ELSE
-  whdload ChipAttack.Slave $whdloadargs
-ENDIF

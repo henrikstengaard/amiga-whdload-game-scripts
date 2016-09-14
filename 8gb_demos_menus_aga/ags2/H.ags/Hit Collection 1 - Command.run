@@ -1,6 +1,0 @@
-cd A-Demos:H/HitCollection1
-IF $whdloadargs EQ ""
-  whdload HitCollection1.Slave
-ELSE
-  whdload HitCollection1.Slave $whdloadargs
-ENDIF

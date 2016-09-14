@@ -1,6 +1,0 @@
-cd A-Games:D/Detonator
-IF $whdloadargs EQ ""
-  whdload Detonator.Slave
-ELSE
-  whdload Detonator.Slave $whdloadargs
-ENDIF

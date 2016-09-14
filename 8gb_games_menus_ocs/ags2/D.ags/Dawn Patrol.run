@@ -1,6 +1,0 @@
-cd A-Games:D/DawnPatrol
-IF $whdloadargs EQ ""
-  whdload DawnPatrol.Slave
-ELSE
-  whdload DawnPatrol.Slave $whdloadargs
-ENDIF

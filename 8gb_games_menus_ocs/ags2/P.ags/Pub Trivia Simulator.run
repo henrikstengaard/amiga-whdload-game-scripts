@@ -1,6 +1,0 @@
-cd A-Games:P/PubTriviaSimulator
-IF $whdloadargs EQ ""
-  whdload PubTriviaSimulator.Slave
-ELSE
-  whdload PubTriviaSimulator.Slave $whdloadargs
-ENDIF

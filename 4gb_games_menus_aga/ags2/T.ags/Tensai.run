@@ -1,6 +1,0 @@
-cd A-Games2:T/TensaiDemo
-IF $whdloadargs EQ ""
-  whdload TensaiDemo.Slave
-ELSE
-  whdload TensaiDemo.Slave $whdloadargs
-ENDIF

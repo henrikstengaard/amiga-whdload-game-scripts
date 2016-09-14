@@ -1,6 +1,0 @@
-cd A-Games1:B/Breach2
-IF $whdloadargs EQ ""
-  whdload Breach2.Slave
-ELSE
-  whdload Breach2.Slave $whdloadargs
-ENDIF

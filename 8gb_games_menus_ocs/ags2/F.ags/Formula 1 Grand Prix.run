@@ -1,6 +1,0 @@
-cd A-Games:F/Formula1GrandPrix
-IF $whdloadargs EQ ""
-  whdload Formula1GrandPrix.Slave
-ELSE
-  whdload Formula1GrandPrix.Slave $whdloadargs
-ENDIF

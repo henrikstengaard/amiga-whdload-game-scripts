@@ -1,6 +1,0 @@
-cd A-Games:B/Booly
-IF $whdloadargs EQ ""
-  whdload Booly.Slave
-ELSE
-  whdload Booly.Slave $whdloadargs
-ENDIF

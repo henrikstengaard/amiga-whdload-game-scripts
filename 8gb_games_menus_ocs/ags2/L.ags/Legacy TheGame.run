@@ -1,6 +1,0 @@
-cd A-Games:L/Legacy
-IF $whdloadargs EQ ""
-  whdload TheLegacyGame.slave
-ELSE
-  whdload TheLegacyGame.slave $whdloadargs
-ENDIF

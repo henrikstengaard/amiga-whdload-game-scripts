@@ -1,6 +1,0 @@
-cd A-Games:P/PinballDreams
-IF $whdloadargs EQ ""
-  whdload PinballDreams.Slave
-ELSE
-  whdload PinballDreams.Slave $whdloadargs
-ENDIF

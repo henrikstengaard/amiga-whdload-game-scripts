@@ -1,6 +1,0 @@
-cd A-Demos:W/WibblyWobbly
-IF $whdloadargs EQ ""
-  whdload WibblyWobbly.Slave
-ELSE
-  whdload WibblyWobbly.Slave $whdloadargs
-ENDIF

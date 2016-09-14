@@ -1,6 +1,0 @@
-cd A-Games:H/Hillsfar
-IF $whdloadargs EQ ""
-  whdload Hillsfar.Slave
-ELSE
-  whdload Hillsfar.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:T/Tech
-IF $whdloadargs EQ ""
-  whdload Tech.Slave
-ELSE
-  whdload Tech.Slave $whdloadargs
-ENDIF

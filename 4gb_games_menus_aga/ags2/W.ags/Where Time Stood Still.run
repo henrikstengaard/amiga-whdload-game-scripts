@@ -1,6 +1,0 @@
-cd A-Games2:W/WhereTimeStoodStill
-IF $whdloadargs EQ ""
-  whdload WhereTimeStoodStill.Slave
-ELSE
-  whdload WhereTimeStoodStill.Slave $whdloadargs
-ENDIF

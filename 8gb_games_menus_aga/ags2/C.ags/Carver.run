@@ -1,6 +1,0 @@
-cd A-Games:C/Carver
-IF $whdloadargs EQ ""
-  whdload Carver.Slave
-ELSE
-  whdload Carver.Slave $whdloadargs
-ENDIF

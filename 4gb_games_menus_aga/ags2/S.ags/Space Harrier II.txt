@@ -1,5 +1,0 @@
-Name      : Space Harrier II
-Publisher : Grandslam
-Year      : 1989
-Players   : 1 Only
-Whdload   : SpaceHarrier2.Slave

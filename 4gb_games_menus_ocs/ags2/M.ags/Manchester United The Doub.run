@@ -1,6 +1,0 @@
-cd A-Games1:M/ManchesterUnitedTheDouble
-IF $whdloadargs EQ ""
-  whdload ManchesterUnitedTheDouble.slave
-ELSE
-  whdload ManchesterUnitedTheDouble.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:U/Universe3
-IF $whdloadargs EQ ""
-  whdload Universe3.Slave
-ELSE
-  whdload Universe3.Slave $whdloadargs
-ENDIF

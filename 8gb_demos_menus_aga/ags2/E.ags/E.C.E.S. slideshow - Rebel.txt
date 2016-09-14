@@ -1,6 +1,0 @@
-Name    : E.C.E.S. slideshow
-Groups  : Rebels
-Type    : Slideshow
-Party   : ECES 1991
-Rank    : N/a
-Whdload : ECESSlideshow.slave

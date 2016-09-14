@@ -1,6 +1,0 @@
-cd A-Demos:E/Exage
-IF $whdloadargs EQ ""
-  whdload Exage.Slave
-ELSE
-  whdload Exage.Slave $whdloadargs
-ENDIF

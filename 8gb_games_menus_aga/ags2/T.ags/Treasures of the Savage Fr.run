@@ -1,6 +1,0 @@
-cd A-Games:T/TreasuresOfSavageFrontier
-IF $whdloadargs EQ ""
-  whdload TreasuresOfSavageFrontier.Slave
-ELSE
-  whdload TreasuresOfSavageFrontier.Slave $whdloadargs
-ENDIF

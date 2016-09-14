@@ -1,6 +1,0 @@
-cd A-Games1:F/Frenetic
-IF $whdloadargs EQ ""
-  whdload Frenetic.Slave
-ELSE
-  whdload Frenetic.Slave $whdloadargs
-ENDIF

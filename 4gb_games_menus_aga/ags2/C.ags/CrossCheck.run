@@ -1,6 +1,0 @@
-cd A-Games1:C/CrossCheck
-IF $whdloadargs EQ ""
-  whdload CrossCheck.slave
-ELSE
-  whdload CrossCheck.slave $whdloadargs
-ENDIF

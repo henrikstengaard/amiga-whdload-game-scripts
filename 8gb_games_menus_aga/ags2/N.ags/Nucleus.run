@@ -1,6 +1,0 @@
-cd A-Games:N/Nucleus
-IF $whdloadargs EQ ""
-  whdload Nucleus.Slave
-ELSE
-  whdload Nucleus.Slave $whdloadargs
-ENDIF

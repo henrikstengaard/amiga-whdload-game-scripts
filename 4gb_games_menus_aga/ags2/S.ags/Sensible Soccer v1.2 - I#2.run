@@ -1,6 +1,0 @@
-cd A-Games2:S/SensibleSoccerIntEd
-IF $whdloadargs EQ ""
-  whdload SensibleSoccerIntEd.Slave
-ELSE
-  whdload SensibleSoccerIntEd.Slave $whdloadargs
-ENDIF

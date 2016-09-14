@@ -1,6 +1,0 @@
-cd A-Demos:R/RayOfHope2
-IF $whdloadargs EQ ""
-  whdload RayOfHope2.slave
-ELSE
-  whdload RayOfHope2.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:W/WormsDirectorsCutAGA
-IF $whdloadargs EQ ""
-  whdload WormsDirectorsCutAGA.Slave
-ELSE
-  whdload WormsDirectorsCutAGA.Slave $whdloadargs
-ENDIF

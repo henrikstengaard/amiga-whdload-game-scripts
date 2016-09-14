@@ -1,6 +1,0 @@
-Name      : Alchemy
-Publisher : Psygnosis 
-Year      : 1994
-Genre     : Platform, Scrolling - Multi Directional
-Players   : 1
-Whdload   : AlchemyDemo.Slave

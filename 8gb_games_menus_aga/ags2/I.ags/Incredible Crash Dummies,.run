@@ -1,6 +1,0 @@
-cd A-Games:I/IncredibleCrashDummies
-IF $whdloadargs EQ ""
-  whdload IncredibleCrashDummies.slave
-ELSE
-  whdload IncredibleCrashDummies.slave $whdloadargs
-ENDIF

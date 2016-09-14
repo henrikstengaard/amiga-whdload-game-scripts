@@ -1,6 +1,0 @@
-cd A-Games:N/Nicky2
-IF $whdloadargs EQ ""
-  whdload Nicky2.Slave
-ELSE
-  whdload Nicky2.Slave $whdloadargs
-ENDIF

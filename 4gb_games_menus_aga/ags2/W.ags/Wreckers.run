@@ -1,6 +1,0 @@
-cd A-Games2:W/Wreckers
-IF $whdloadargs EQ ""
-  whdload Wreckers.Slave
-ELSE
-  whdload Wreckers.Slave $whdloadargs
-ENDIF

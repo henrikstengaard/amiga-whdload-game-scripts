@@ -1,6 +1,0 @@
-cd A-Games:B/BubbleBobble
-IF $whdloadargs EQ ""
-  whdload BubbleBobble.Slave
-ELSE
-  whdload BubbleBobble.Slave $whdloadargs
-ENDIF

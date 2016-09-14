@@ -1,6 +1,0 @@
-cd A-Demos:E/Ecliptica
-IF $whdloadargs EQ ""
-  whdload Ecliptica.Slave
-ELSE
-  whdload Ecliptica.Slave $whdloadargs
-ENDIF

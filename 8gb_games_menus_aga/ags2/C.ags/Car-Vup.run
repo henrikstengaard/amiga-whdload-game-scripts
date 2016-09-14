@@ -1,6 +1,0 @@
-cd A-Games:C/CarVup
-IF $whdloadargs EQ ""
-  whdload CarVup.Slave
-ELSE
-  whdload CarVup.Slave $whdloadargs
-ENDIF

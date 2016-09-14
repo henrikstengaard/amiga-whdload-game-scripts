@@ -1,6 +1,0 @@
-cd A-Games:C/CharlieJCool
-IF $whdloadargs EQ ""
-  whdload CharlieJCool.slave
-ELSE
-  whdload CharlieJCool.slave $whdloadargs
-ENDIF

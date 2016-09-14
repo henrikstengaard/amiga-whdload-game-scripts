@@ -1,3 +1,0 @@
-Name    : Music Collection
-Groups  : Katharsis
-Whdload : MusicCollection.Slave

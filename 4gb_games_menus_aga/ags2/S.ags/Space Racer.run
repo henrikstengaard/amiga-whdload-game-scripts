@@ -1,6 +1,0 @@
-cd A-Games2:S/SpaceRacer
-IF $whdloadargs EQ ""
-  whdload SpaceRacer.Slave
-ELSE
-  whdload SpaceRacer.Slave $whdloadargs
-ENDIF

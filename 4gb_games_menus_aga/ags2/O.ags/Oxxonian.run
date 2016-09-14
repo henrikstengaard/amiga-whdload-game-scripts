@@ -1,6 +1,0 @@
-cd A-Games2:O/Oxxonian
-IF $whdloadargs EQ ""
-  whdload Oxxonian.Slave
-ELSE
-  whdload Oxxonian.Slave $whdloadargs
-ENDIF

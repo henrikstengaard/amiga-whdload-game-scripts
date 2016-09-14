@@ -1,5 +1,0 @@
-Name      : Populous World Editor
-Publisher : Electronic Arts
-Year      : 1991
-Players   : 1
-Whdload   : PopulousWorldEditor.Slave

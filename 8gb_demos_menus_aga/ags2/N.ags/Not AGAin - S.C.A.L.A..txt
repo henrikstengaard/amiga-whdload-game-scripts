@@ -1,4 +1,0 @@
-Name    : Not AGAin!
-Groups  : S.C.A.L.A.
-Type    : Demo
-Whdload : NotAgain.slave

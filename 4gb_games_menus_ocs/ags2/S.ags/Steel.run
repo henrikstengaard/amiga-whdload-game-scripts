@@ -1,6 +1,0 @@
-cd A-Games2:S/Steel
-IF $whdloadargs EQ ""
-  whdload Steel.Slave
-ELSE
-  whdload Steel.Slave $whdloadargs
-ENDIF

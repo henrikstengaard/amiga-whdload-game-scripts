@@ -1,6 +1,0 @@
-cd A-Games:S/SimonTheSorcererAGA
-IF $whdloadargs EQ ""
-  whdload SimonTheSorcererAGA.Slave
-ELSE
-  whdload SimonTheSorcererAGA.Slave $whdloadargs
-ENDIF

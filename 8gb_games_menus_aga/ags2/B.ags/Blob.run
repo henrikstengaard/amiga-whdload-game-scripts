@@ -1,6 +1,0 @@
-cd A-Games:B/Blob
-IF $whdloadargs EQ ""
-  whdload Blob.slave
-ELSE
-  whdload Blob.slave $whdloadargs
-ENDIF

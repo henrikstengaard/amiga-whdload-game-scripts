@@ -1,6 +1,0 @@
-cd A-Games1:0-9/1869
-IF $whdloadargs EQ ""
-  whdload 1869.Slave
-ELSE
-  whdload 1869.Slave $whdloadargs
-ENDIF

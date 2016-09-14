@@ -1,6 +1,0 @@
-cd A-Games1:F/FederationOfFreeTraders
-IF $whdloadargs EQ ""
-  whdload FederationOfFreeTraders.slave
-ELSE
-  whdload FederationOfFreeTraders.slave $whdloadargs
-ENDIF

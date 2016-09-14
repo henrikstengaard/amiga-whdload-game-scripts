@@ -1,6 +1,0 @@
-cd A-Games1:N/NickFaldosChampGolf
-IF $whdloadargs EQ ""
-  whdload NickFaldosChampGolf.Slave
-ELSE
-  whdload NickFaldosChampGolf.Slave $whdloadargs
-ENDIF

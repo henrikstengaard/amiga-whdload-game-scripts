@@ -1,6 +1,0 @@
-cd A-Games:G/GhoulsNGhosts
-IF $whdloadargs EQ ""
-  whdload GhoulsNGhosts.Slave
-ELSE
-  whdload GhoulsNGhosts.Slave $whdloadargs
-ENDIF

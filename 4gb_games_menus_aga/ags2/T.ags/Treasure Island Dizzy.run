@@ -1,6 +1,0 @@
-cd A-Games2:T/TreasureIslandDizzy
-IF $whdloadargs EQ ""
-  whdload TreasureIslandDizzy.slave
-ELSE
-  whdload TreasureIslandDizzy.slave $whdloadargs
-ENDIF

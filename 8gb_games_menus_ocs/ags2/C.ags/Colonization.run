@@ -1,6 +1,0 @@
-cd A-Games:C/Colonization
-IF $whdloadargs EQ ""
-  whdload Colonization.Slave
-ELSE
-  whdload Colonization.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:M/MiG29MSuperFulcrum
-IF $whdloadargs EQ ""
-  whdload MiG29MSuperFulcrum.Slave
-ELSE
-  whdload MiG29MSuperFulcrum.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:P/Pawn
-IF $whdloadargs EQ ""
-  whdload Pawn.Slave
-ELSE
-  whdload Pawn.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:B/Brat
-IF $whdloadargs EQ ""
-  whdload Brat.slave
-ELSE
-  whdload Brat.slave $whdloadargs
-ENDIF

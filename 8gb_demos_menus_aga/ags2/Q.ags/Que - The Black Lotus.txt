@@ -1,6 +1,0 @@
-Name    : Que
-Groups  : The Black Lotus
-Type    : Demo
-Party   : Remedy 1995
-Rank    : 2nd
-Whdload : Que.Slave

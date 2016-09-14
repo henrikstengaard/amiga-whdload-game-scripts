@@ -1,6 +1,0 @@
-cd A-Games:M/MegaPhoenix
-IF $whdloadargs EQ ""
-  whdload MegaPhoenix.Slave
-ELSE
-  whdload MegaPhoenix.Slave $whdloadargs
-ENDIF

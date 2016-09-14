@@ -1,6 +1,0 @@
-cd A-Games1:M/Maya
-IF $whdloadargs EQ ""
-  whdload Maya.Slave
-ELSE
-  whdload Maya.Slave $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : The New Zealand Story
-Publisher : Ocean
-Year      : 1989
-Players   : 1
-Whdload   : NewZealandStory.Slave

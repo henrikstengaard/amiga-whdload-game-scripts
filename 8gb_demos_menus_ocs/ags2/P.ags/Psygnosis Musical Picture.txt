@@ -1,3 +1,0 @@
-Name    : Psygnosis Musical Picture Disc #1
-Groups  : Psygnosis & S.R.S
-Whdload : PsygnosisMusicPictureDis.Slave

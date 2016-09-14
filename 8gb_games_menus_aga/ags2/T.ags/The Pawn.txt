@@ -1,5 +1,0 @@
-Name      : The Pawn
-Publisher : Firebird / Rainbird
-Year      : 1986
-Players   : 1
-Whdload   : Pawn.Slave

@@ -1,6 +1,0 @@
-cd A-Games:S/SuperSki2
-IF $whdloadargs EQ ""
-  whdload SuperSki2.slave
-ELSE
-  whdload SuperSki2.slave $whdloadargs
-ENDIF

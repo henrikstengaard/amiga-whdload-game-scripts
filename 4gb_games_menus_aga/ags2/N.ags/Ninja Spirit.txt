@@ -1,5 +1,0 @@
-Name      : Ninja Spirit
-Publisher : Mediagenic
-Year      : 1988
-Players   : 1 Only
-Whdload   : NinjaSpirit.Slave

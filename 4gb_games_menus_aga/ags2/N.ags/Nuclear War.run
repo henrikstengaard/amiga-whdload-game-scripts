@@ -1,6 +1,0 @@
-cd A-Games2:N/NuclearWar
-IF $whdloadargs EQ ""
-  whdload NuclearWar.Slave
-ELSE
-  whdload NuclearWar.Slave $whdloadargs
-ENDIF

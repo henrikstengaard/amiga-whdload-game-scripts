@@ -1,6 +1,0 @@
-cd A-Games1:A/AutoDuel
-IF $whdloadargs EQ ""
-  whdload AutoDuel.Slave
-ELSE
-  whdload AutoDuel.Slave $whdloadargs
-ENDIF

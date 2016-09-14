@@ -1,6 +1,0 @@
-cd A-Games1:B/Backlash
-IF $whdloadargs EQ ""
-  whdload Backlash.Slave
-ELSE
-  whdload Backlash.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:E/EscapeFromColditz
-IF $whdloadargs EQ ""
-  whdload EscapeFromColditz.slave
-ELSE
-  whdload EscapeFromColditz.slave $whdloadargs
-ENDIF

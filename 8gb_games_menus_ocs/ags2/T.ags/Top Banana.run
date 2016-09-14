@@ -1,6 +1,0 @@
-cd A-Games:T/TopBanana
-IF $whdloadargs EQ ""
-  whdload TopBanana.Slave
-ELSE
-  whdload TopBanana.Slave $whdloadargs
-ENDIF

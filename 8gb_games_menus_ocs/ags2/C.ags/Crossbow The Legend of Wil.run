@@ -1,6 +1,0 @@
-cd A-Games:C/CrossbowLegendWilliamTell
-IF $whdloadargs EQ ""
-  whdload CrossbowLegendWilliamTell.slave
-ELSE
-  whdload CrossbowLegendWilliamTell.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:D/DragonsLair&EscapeSlow
-IF $whdloadargs EQ ""
-  whdload DragonsLair&EscapeSlow.Slave
-ELSE
-  whdload DragonsLair&EscapeSlow.Slave $whdloadargs
-ENDIF

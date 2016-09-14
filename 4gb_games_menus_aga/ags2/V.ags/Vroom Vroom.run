@@ -1,6 +1,0 @@
-cd A-Games2:V/Vroom&DataDisk
-IF $whdloadargs EQ ""
-  whdload Vroom.Slave
-ELSE
-  whdload Vroom.Slave $whdloadargs
-ENDIF

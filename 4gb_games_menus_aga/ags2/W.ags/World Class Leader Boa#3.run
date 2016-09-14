@@ -1,6 +1,0 @@
-cd A-Games2:W/WCLeaderBoard&DataDisks
-IF $whdloadargs EQ ""
-  whdload WCLeaderBoard&DataDisks.slave
-ELSE
-  whdload WCLeaderBoard&DataDisks.slave $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Rap is Crap
-Groups  : Taipan
-Type    : Musicdisk
-Whdload : RapIsCrap.Slave

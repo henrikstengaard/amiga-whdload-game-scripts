@@ -1,6 +1,0 @@
-cd A-Demos:A/A.S.S
-IF $whdloadargs EQ ""
-  whdload A.S.S.slave
-ELSE
-  whdload A.S.S.slave $whdloadargs
-ENDIF

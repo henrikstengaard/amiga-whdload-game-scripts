@@ -1,5 +1,0 @@
-Name      : Wild Wheels
-Publisher : Ocean
-Year      : 1991
-Genre     : Sports - Miscellaneous
-Whdload   : WildWheels.Slave

@@ -1,6 +1,0 @@
-Name      : Advanced Ski Simulator
-Publisher : Codemasters
-Year      : 1990
-Genre     : Sports - Skiing
-Players   : 1 or 2, Simultaneous
-Whdload   : AdvancedSkiSimulator.slave

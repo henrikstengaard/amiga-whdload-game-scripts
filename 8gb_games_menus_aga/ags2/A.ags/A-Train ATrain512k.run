@@ -1,6 +1,0 @@
-cd A-Games:A/ATrain&ConstrSet512k
-IF $whdloadargs EQ ""
-  whdload ATrain512k.slave
-ELSE
-  whdload ATrain512k.slave $whdloadargs
-ENDIF

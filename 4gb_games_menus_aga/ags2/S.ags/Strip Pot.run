@@ -1,6 +1,0 @@
-cd A-Games2:S/StripPotAGA
-IF $whdloadargs EQ ""
-  whdload StripPotAGA.Slave
-ELSE
-  whdload StripPotAGA.Slave $whdloadargs
-ENDIF

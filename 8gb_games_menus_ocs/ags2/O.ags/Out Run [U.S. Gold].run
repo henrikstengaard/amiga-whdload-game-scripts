@@ -1,6 +1,0 @@
-cd A-Games:O/OutRunUSGold
-IF $whdloadargs EQ ""
-  whdload OutRunUSGold.slave
-ELSE
-  whdload OutRunUSGold.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:D/Denjoy
-IF $whdloadargs EQ ""
-  whdload Denjoy.Slave
-ELSE
-  whdload Denjoy.Slave $whdloadargs
-ENDIF

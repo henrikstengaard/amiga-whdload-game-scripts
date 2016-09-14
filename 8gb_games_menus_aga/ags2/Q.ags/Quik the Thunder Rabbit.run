@@ -1,6 +1,0 @@
-cd A-Games:Q/QuikThunderRabbitAGA
-IF $whdloadargs EQ ""
-  whdload QuikThunderRabbitAGA.slave
-ELSE
-  whdload QuikThunderRabbitAGA.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:L/Legoland
-IF $whdloadargs EQ ""
-  whdload Legoland.Slave
-ELSE
-  whdload Legoland.Slave $whdloadargs
-ENDIF

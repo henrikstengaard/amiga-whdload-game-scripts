@@ -1,6 +1,0 @@
-cd A-Games:B/BattleForAshesAmigaPower
-IF $whdloadargs EQ ""
-  whdload BattleForAshesAmigaPower.Slave
-ELSE
-  whdload BattleForAshesAmigaPower.Slave $whdloadargs
-ENDIF

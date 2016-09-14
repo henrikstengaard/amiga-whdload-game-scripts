@@ -1,6 +1,0 @@
-cd A-Games:H/Harpoon&Battleset2
-IF $whdloadargs EQ ""
-  whdload Harpoon&Battleset2.slave
-ELSE
-  whdload Harpoon&Battleset2.slave $whdloadargs
-ENDIF

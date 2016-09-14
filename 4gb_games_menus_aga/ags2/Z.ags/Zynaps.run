@@ -1,6 +1,0 @@
-cd A-Games2:Z/Zynaps
-IF $whdloadargs EQ ""
-  whdload Zynaps.slave
-ELSE
-  whdload Zynaps.slave $whdloadargs
-ENDIF

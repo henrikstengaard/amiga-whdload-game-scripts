@@ -1,6 +1,0 @@
-cd A-Games:P/PenthouseHotNumbers
-IF $whdloadargs EQ ""
-  whdload PenthouseHotNumbers.Slave
-ELSE
-  whdload PenthouseHotNumbers.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:C/Cubix
-IF $whdloadargs EQ ""
-  whdload Cubix.Slave
-ELSE
-  whdload Cubix.Slave $whdloadargs
-ENDIF

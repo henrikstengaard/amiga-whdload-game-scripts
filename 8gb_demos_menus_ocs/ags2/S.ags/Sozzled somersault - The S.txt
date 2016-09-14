@@ -1,4 +1,0 @@
-Name    : Sozzled somersault
-Groups  : The Silents
-Type    : Demo
-Whdload : SozzledSomersault.Slave

@@ -1,6 +1,0 @@
-cd A-Games1:L/LastBattle
-IF $whdloadargs EQ ""
-  whdload LastBattle.Slave
-ELSE
-  whdload LastBattle.Slave $whdloadargs
-ENDIF

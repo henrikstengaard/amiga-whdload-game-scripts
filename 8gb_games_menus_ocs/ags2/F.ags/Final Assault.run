@@ -1,6 +1,0 @@
-cd A-Games:F/FinalAssault
-IF $whdloadargs EQ ""
-  whdload FinalAssault.Slave
-ELSE
-  whdload FinalAssault.Slave $whdloadargs
-ENDIF

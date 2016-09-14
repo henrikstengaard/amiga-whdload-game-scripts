@@ -1,6 +1,0 @@
-cd A-Games:I/IceRunner
-IF $whdloadargs EQ ""
-  whdload IceRunner.Slave
-ELSE
-  whdload IceRunner.Slave $whdloadargs
-ENDIF

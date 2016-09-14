@@ -1,6 +1,0 @@
-cd A-Games1:M/MafdetAndTheBookOfTheDead
-IF $whdloadargs EQ ""
-  whdload MafdetAndTheBookOfTheDead.slave
-ELSE
-  whdload MafdetAndTheBookOfTheDead.slave $whdloadargs
-ENDIF

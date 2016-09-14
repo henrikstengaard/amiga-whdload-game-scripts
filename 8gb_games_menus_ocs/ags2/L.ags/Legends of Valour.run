@@ -1,6 +1,0 @@
-cd A-Games:L/LegendsOfValour
-IF $whdloadargs EQ ""
-  whdload LegendsOfValour.Slave
-ELSE
-  whdload LegendsOfValour.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:T/TVSportsBoxing
-IF $whdloadargs EQ ""
-  whdload TVSportsBoxing.Slave
-ELSE
-  whdload TVSportsBoxing.Slave $whdloadargs
-ENDIF

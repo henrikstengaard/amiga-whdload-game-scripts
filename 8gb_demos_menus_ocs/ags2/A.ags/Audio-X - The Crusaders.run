@@ -1,6 +1,0 @@
-cd A-Demos:A/AudioX
-IF $whdloadargs EQ ""
-  whdload AudioX.slave
-ELSE
-  whdload AudioX.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:H/Hardwired
-IF $whdloadargs EQ ""
-  whdload Hardwired.Slave
-ELSE
-  whdload Hardwired.Slave $whdloadargs
-ENDIF

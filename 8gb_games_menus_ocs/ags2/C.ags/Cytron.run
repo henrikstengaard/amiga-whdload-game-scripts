@@ -1,6 +1,0 @@
-cd A-Games:C/Cytron
-IF $whdloadargs EQ ""
-  whdload Cytron.slave
-ELSE
-  whdload Cytron.slave $whdloadargs
-ENDIF

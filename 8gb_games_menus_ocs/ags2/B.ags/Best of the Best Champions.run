@@ -1,6 +1,0 @@
-cd A-Games:B/BestOfTheBest
-IF $whdloadargs EQ ""
-  whdload BestOfTheBest.Slave
-ELSE
-  whdload BestOfTheBest.Slave $whdloadargs
-ENDIF

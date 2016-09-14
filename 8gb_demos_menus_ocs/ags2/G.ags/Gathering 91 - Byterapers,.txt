@@ -1,4 +1,0 @@
-Name    : Gathering 91
-Groups  : Byterapers,Scoopex
-Type    : Invitation
-Whdload : Gathering91Slideshow.Slave

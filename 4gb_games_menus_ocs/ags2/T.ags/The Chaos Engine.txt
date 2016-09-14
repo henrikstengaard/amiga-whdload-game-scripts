@@ -1,5 +1,0 @@
-Name      : The Chaos Engine
-Publisher : Renegade
-Year      : 1993
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : ChaosEngine.Slave

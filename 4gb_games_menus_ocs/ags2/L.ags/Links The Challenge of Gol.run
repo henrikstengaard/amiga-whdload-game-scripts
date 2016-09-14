@@ -1,6 +1,0 @@
-cd A-Games1:L/Links
-IF $whdloadargs EQ ""
-  whdload Links.slave
-ELSE
-  whdload Links.slave $whdloadargs
-ENDIF

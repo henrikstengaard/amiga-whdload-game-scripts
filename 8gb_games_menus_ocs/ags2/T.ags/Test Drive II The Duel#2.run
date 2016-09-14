@@ -1,6 +1,0 @@
-cd A-Games:T/TestDrive2&DataDisks
-IF $whdloadargs EQ ""
-  whdload TestDrive2&DataDisks.slave
-ELSE
-  whdload TestDrive2&DataDisks.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:T/TubeWarriorsAGA
-IF $whdloadargs EQ ""
-  whdload TubeWarriorsAGA.Slave
-ELSE
-  whdload TubeWarriorsAGA.Slave $whdloadargs
-ENDIF

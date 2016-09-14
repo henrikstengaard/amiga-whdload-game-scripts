@@ -1,6 +1,0 @@
-cd A-Games:P/PierreIsOutToLunchAGA
-IF $whdloadargs EQ ""
-  whdload PierreIsOutToLunchAGA.Slave
-ELSE
-  whdload PierreIsOutToLunchAGA.Slave $whdloadargs
-ENDIF

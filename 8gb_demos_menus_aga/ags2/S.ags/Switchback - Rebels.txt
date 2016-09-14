@@ -1,6 +1,0 @@
-Name    : Switchback
-Groups  : Rebels
-Type    : Demo
-Party   : Doom&apos
-Rank    : 1st
-Whdload : Switchback.Slave

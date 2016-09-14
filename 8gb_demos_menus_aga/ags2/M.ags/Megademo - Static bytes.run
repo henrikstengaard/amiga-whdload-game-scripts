@@ -1,6 +1,0 @@
-cd A-Demos:M/MegaDemoStaticBytes
-IF $whdloadargs EQ ""
-  whdload MegaDemoStaticBytes.Slave
-ELSE
-  whdload MegaDemoStaticBytes.Slave $whdloadargs
-ENDIF

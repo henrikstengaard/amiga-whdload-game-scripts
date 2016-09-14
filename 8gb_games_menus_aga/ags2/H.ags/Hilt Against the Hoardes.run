@@ -1,6 +1,0 @@
-cd A-Games:H/Hilt
-IF $whdloadargs EQ ""
-  whdload Hilt.Slave
-ELSE
-  whdload Hilt.Slave $whdloadargs
-ENDIF

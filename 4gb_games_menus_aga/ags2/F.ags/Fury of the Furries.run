@@ -1,6 +1,0 @@
-cd A-Games1:F/FuryOfTheFurries
-IF $whdloadargs EQ ""
-  whdload FuryOfTheFurries.Slave
-ELSE
-  whdload FuryOfTheFurries.Slave $whdloadargs
-ENDIF

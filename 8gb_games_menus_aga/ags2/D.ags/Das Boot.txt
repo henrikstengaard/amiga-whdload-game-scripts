@@ -1,5 +1,0 @@
-Name      : Das Boot
-Publisher : Mindscape / Three-Sixty
-Year      : 1991
-Players   : 1
-Whdload   : DasBoot.Slave

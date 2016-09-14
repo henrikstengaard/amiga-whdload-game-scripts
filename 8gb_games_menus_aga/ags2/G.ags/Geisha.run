@@ -1,6 +1,0 @@
-cd A-Games:G/Geisha
-IF $whdloadargs EQ ""
-  whdload Geisha.Slave
-ELSE
-  whdload Geisha.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:K/KnightForce
-IF $whdloadargs EQ ""
-  whdload KnightForce.Slave
-ELSE
-  whdload KnightForce.Slave $whdloadargs
-ENDIF

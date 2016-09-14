@@ -1,6 +1,0 @@
-cd A-Games1:D/DonaldDucksPlayground
-IF $whdloadargs EQ ""
-  whdload DonaldDucksPlayground.Slave
-ELSE
-  whdload DonaldDucksPlayground.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:D/DigitalConcert6
-IF $whdloadargs EQ ""
-  whdload DigitalConcert6.Slave
-ELSE
-  whdload DigitalConcert6.Slave $whdloadargs
-ENDIF

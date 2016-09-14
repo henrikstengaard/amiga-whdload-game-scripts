@@ -1,6 +1,0 @@
-cd A-Games:S/SpeedboatAssassins
-IF $whdloadargs EQ ""
-  whdload SpeedboatAssassins.Slave
-ELSE
-  whdload SpeedboatAssassins.Slave $whdloadargs
-ENDIF

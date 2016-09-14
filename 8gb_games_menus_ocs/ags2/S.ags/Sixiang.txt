@@ -1,4 +1,0 @@
-Name      : Sixiang
-Publisher : Kingsoft
-Year      : 1989
-Whdload   : Sixiang.Slave

@@ -1,6 +1,0 @@
-cd A-Games:X/Xybots
-IF $whdloadargs EQ ""
-  whdload Xybots.Slave
-ELSE
-  whdload Xybots.Slave $whdloadargs
-ENDIF

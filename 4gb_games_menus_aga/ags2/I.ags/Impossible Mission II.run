@@ -1,6 +1,0 @@
-cd A-Games1:I/ImpossibleMission2
-IF $whdloadargs EQ ""
-  whdload ImpossibleMission2.Slave
-ELSE
-  whdload ImpossibleMission2.Slave $whdloadargs
-ENDIF

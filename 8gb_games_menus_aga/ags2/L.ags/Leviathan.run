@@ -1,6 +1,0 @@
-cd A-Games:L/Leviathan
-IF $whdloadargs EQ ""
-  whdload Leviathan.Slave
-ELSE
-  whdload Leviathan.Slave $whdloadargs
-ENDIF

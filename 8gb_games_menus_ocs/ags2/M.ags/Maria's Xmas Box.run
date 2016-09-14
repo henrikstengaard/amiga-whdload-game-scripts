@@ -1,6 +1,0 @@
-cd A-Games:M/MariasXmasBox
-IF $whdloadargs EQ ""
-  whdload MariasXmasBox.Slave
-ELSE
-  whdload MariasXmasBox.Slave $whdloadargs
-ENDIF

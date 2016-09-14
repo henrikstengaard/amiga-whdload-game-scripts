@@ -1,6 +1,0 @@
-cd A-Demos:M/MegaDemoDigitech&IBB
-IF $whdloadargs EQ ""
-  whdload MegaDemoDigitech&IBB.Slave
-ELSE
-  whdload MegaDemoDigitech&IBB.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:G/GridStart
-IF $whdloadargs EQ ""
-  whdload GridStart.Slave
-ELSE
-  whdload GridStart.Slave $whdloadargs
-ENDIF

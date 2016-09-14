@@ -1,6 +1,0 @@
-cd A-Demos:C/CompilationDisk
-IF $whdloadargs EQ ""
-  whdload CompilationDisk.Slave
-ELSE
-  whdload CompilationDisk.Slave $whdloadargs
-ENDIF

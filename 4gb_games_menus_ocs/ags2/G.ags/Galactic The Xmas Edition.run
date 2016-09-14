@@ -1,6 +1,0 @@
-cd A-Games1:G/GalacticTheXmasEdition1MB
-IF $whdloadargs EQ ""
-  whdload GalacticTheXmasEdition1MB.Slave
-ELSE
-  whdload GalacticTheXmasEdition1MB.Slave $whdloadargs
-ENDIF

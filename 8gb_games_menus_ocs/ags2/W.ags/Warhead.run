@@ -1,6 +1,0 @@
-cd A-Games:W/Warhead
-IF $whdloadargs EQ ""
-  whdload Warhead.Slave
-ELSE
-  whdload Warhead.Slave $whdloadargs
-ENDIF

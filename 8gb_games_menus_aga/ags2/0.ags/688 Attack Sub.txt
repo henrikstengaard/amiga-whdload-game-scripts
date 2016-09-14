@@ -1,6 +1,0 @@
-Name      : 688 Attack Sub
-Publisher : Electronic Arts
-Year      : 1990
-Genre     : Simulation - Marine
-Players   : 1 Only
-Whdload   : 688AttackSub.slave

@@ -1,6 +1,0 @@
-cd A-Games:S/Sixiang
-IF $whdloadargs EQ ""
-  whdload Sixiang.Slave
-ELSE
-  whdload Sixiang.Slave $whdloadargs
-ENDIF

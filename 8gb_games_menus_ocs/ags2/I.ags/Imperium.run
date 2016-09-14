@@ -1,6 +1,0 @@
-cd A-Games:I/Imperium
-IF $whdloadargs EQ ""
-  whdload Imperium.Slave
-ELSE
-  whdload Imperium.Slave $whdloadargs
-ENDIF

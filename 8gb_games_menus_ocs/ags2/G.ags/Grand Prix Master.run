@@ -1,6 +1,0 @@
-cd A-Games:G/GrandPrixMaster
-IF $whdloadargs EQ ""
-  whdload GrandPrixMaster.Slave
-ELSE
-  whdload GrandPrixMaster.Slave $whdloadargs
-ENDIF

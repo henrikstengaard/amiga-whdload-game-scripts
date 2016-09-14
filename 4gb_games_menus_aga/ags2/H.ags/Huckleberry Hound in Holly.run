@@ -1,6 +1,0 @@
-cd A-Games1:H/HuckleberryHound
-IF $whdloadargs EQ ""
-  whdload HuckleberryHound.Slave
-ELSE
-  whdload HuckleberryHound.Slave $whdloadargs
-ENDIF

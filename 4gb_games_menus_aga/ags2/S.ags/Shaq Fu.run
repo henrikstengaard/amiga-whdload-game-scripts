@@ -1,6 +1,0 @@
-cd A-Games2:S/ShaqFuAGA
-IF $whdloadargs EQ ""
-  whdload ShaqFuAGA.slave
-ELSE
-  whdload ShaqFuAGA.slave $whdloadargs
-ENDIF

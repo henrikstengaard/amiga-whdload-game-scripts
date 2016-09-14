@@ -1,6 +1,0 @@
-cd A-Games1:D/DeepSpace
-IF $whdloadargs EQ ""
-  whdload DeepSpace.slave
-ELSE
-  whdload DeepSpace.slave $whdloadargs
-ENDIF

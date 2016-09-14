@@ -1,6 +1,0 @@
-cd A-Demos:C/CanIPlayWithMadness
-IF $whdloadargs EQ ""
-  whdload CanIPlayWithMadness.Slave
-ELSE
-  whdload CanIPlayWithMadness.Slave $whdloadargs
-ENDIF

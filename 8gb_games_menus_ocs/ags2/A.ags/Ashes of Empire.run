@@ -1,6 +1,0 @@
-cd A-Games:A/AshesOfEmpire
-IF $whdloadargs EQ ""
-  whdload AshesOfEmpire.Slave
-ELSE
-  whdload AshesOfEmpire.Slave $whdloadargs
-ENDIF

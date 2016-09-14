@@ -1,6 +1,0 @@
-cd A-Games:Z/ZoolAGA
-IF $whdloadargs EQ ""
-  whdload ZoolAGA.slave
-ELSE
-  whdload ZoolAGA.slave $whdloadargs
-ENDIF

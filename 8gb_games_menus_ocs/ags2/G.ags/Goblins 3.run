@@ -1,6 +1,0 @@
-cd A-Games:G/Goblins3
-IF $whdloadargs EQ ""
-  whdload Goblins3.slave
-ELSE
-  whdload Goblins3.slave $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : The Third Courier
-Publisher : Accolade
-Year      : 1990
-Players   : 1
-Whdload   : ThirdCourier.Slave

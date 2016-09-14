@@ -1,6 +1,0 @@
-cd A-Games:C/ConflictMiddleEastPolSim
-IF $whdloadargs EQ ""
-  whdload ConflictMiddleEastPolSim.Slave
-ELSE
-  whdload ConflictMiddleEastPolSim.Slave $whdloadargs
-ENDIF

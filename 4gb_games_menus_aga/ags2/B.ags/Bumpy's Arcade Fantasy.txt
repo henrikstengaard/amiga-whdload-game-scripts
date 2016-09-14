@@ -1,6 +1,0 @@
-Name      : Bumpy's Arcade Fantasy
-Publisher : Loriciel
-Year      : 1992
-Genre     : Platformer - Single Screen
-Players   : 1 Only
-Whdload   : BumpysArcadeFantasy.Slave

@@ -1,4 +1,0 @@
-Name    : Odysounds 2
-Groups  : Odyssey
-Type    : Musicdisk
-Whdload : OdySounds2.Slave

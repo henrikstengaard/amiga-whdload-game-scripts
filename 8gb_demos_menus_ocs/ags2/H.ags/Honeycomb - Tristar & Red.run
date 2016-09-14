@@ -1,6 +1,0 @@
-cd A-Demos:H/HoneyComb
-IF $whdloadargs EQ ""
-  whdload HoneyComb.Slave
-ELSE
-  whdload HoneyComb.Slave $whdloadargs
-ENDIF

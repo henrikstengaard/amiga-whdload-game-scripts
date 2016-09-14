@@ -1,6 +1,0 @@
-cd A-Games:T/Transplant
-IF $whdloadargs EQ ""
-  whdload Transplant.Slave
-ELSE
-  whdload Transplant.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:A/AlienBreed3DDemoLatestAGA
-IF $whdloadargs EQ ""
-  whdload AlienBreed3DDemoLatest.Slave
-ELSE
-  whdload AlienBreed3DDemoLatest.Slave $whdloadargs
-ENDIF

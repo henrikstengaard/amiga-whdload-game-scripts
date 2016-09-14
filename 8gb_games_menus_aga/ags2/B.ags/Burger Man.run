@@ -1,6 +1,0 @@
-cd A-Games:B/BurgerMan
-IF $whdloadargs EQ ""
-  whdload BurgerMan.Slave
-ELSE
-  whdload BurgerMan.Slave $whdloadargs
-ENDIF

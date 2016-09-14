@@ -1,5 +1,0 @@
-Name      : European Champions
-Publisher : Ocean
-Year      : 1993
-Genre     : Sports - Football/Soccer
-Whdload   : EuropeanChampionsOcean.Slave

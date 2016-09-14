@@ -1,6 +1,0 @@
-cd A-Demos:D/DigitalComplexityCrass
-IF $whdloadargs EQ ""
-  whdload DigitalComplexityCrass.Slave
-ELSE
-  whdload DigitalComplexityCrass.Slave $whdloadargs
-ENDIF

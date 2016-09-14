@@ -1,6 +1,0 @@
-cd A-Games:S/StirCrazyFeaturingBobo
-IF $whdloadargs EQ ""
-  whdload StirCrazyFeaturingBobo.Slave
-ELSE
-  whdload StirCrazyFeaturingBobo.Slave $whdloadargs
-ENDIF

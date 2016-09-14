@@ -1,6 +1,0 @@
-cd A-Games1:F/FIFAInternationalSoccer
-IF $whdloadargs EQ ""
-  whdload FIFAInternationalSoccer.slave
-ELSE
-  whdload FIFAInternationalSoccer.slave $whdloadargs
-ENDIF

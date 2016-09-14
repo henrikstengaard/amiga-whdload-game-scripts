@@ -1,6 +1,0 @@
-cd A-Games:N/NorthSeaInferno
-IF $whdloadargs EQ ""
-  whdload NorthSeaInferno.Slave
-ELSE
-  whdload NorthSeaInferno.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Castle Master II: The Crypt
-Publisher : Domark
-Year      : 1990
-Genre     : Adventure - Arcade 3D
-Players   : 1 Only
-Whdload   : CastleMaster2.Slave

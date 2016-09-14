@@ -1,6 +1,0 @@
-cd A-Games:E/EnchantedLand
-IF $whdloadargs EQ ""
-  whdload EnchantedLand.Slave
-ELSE
-  whdload EnchantedLand.Slave $whdloadargs
-ENDIF

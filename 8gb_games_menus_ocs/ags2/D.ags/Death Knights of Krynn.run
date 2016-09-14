@@ -1,6 +1,0 @@
-cd A-Games:D/DeathKnightsOfKrynn
-IF $whdloadargs EQ ""
-  whdload DeathKnightsOfKrynn.Slave
-ELSE
-  whdload DeathKnightsOfKrynn.Slave $whdloadargs
-ENDIF

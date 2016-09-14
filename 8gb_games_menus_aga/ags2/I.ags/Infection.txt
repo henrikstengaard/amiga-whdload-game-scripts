@@ -1,5 +1,0 @@
-Name      : Infection
-Publisher : Virgin Mastertronic
-Year      : 1989
-Players   : 1 - 4 (1 simultaneous)
-Whdload   : Infection.Slave

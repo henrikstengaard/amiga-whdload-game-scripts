@@ -1,6 +1,0 @@
-cd A-Games1:D/DynaBlaster
-IF $whdloadargs EQ ""
-  whdload DynaBlaster.Slave
-ELSE
-  whdload DynaBlaster.Slave $whdloadargs
-ENDIF

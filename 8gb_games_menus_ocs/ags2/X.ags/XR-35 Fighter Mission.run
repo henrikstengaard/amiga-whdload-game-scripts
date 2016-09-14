@@ -1,6 +1,0 @@
-cd A-Games:X/XR35
-IF $whdloadargs EQ ""
-  whdload XR35.Slave
-ELSE
-  whdload XR35.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:D/DylanDogTheMurderers
-IF $whdloadargs EQ ""
-  whdload DylanDogTheMurderers.slave
-ELSE
-  whdload DylanDogTheMurderers.slave $whdloadargs
-ENDIF

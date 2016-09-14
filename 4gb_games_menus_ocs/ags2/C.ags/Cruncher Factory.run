@@ -1,6 +1,0 @@
-cd A-Games1:C/CruncherFactory
-IF $whdloadargs EQ ""
-  whdload CruncherFactory.Slave
-ELSE
-  whdload CruncherFactory.Slave $whdloadargs
-ENDIF

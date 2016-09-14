@@ -1,6 +1,0 @@
-cd A-Games:E/EnemyTOVEasyPlay
-IF $whdloadargs EQ ""
-  whdload EnemyTOVEasyPlay.Slave
-ELSE
-  whdload EnemyTOVEasyPlay.Slave $whdloadargs
-ENDIF

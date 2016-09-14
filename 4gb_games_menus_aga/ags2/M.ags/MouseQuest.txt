@@ -1,5 +1,0 @@
-Name      : MouseQuest
-Publisher : MicroValue / StarSoft / TDC
-Year      : 1987
-Players   : 1
-Whdload   : MouseQuest.Slave

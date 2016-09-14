@@ -1,6 +1,0 @@
-cd A-Games:C/ChampionsOfKrynn
-IF $whdloadargs EQ ""
-  whdload ChampionsOfKrynn.Slave
-ELSE
-  whdload ChampionsOfKrynn.Slave $whdloadargs
-ENDIF

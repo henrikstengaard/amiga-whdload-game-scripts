@@ -1,6 +1,0 @@
-cd A-Games:M/Mousetrap
-IF $whdloadargs EQ ""
-  whdload Mousetrap.Slave
-ELSE
-  whdload Mousetrap.Slave $whdloadargs
-ENDIF

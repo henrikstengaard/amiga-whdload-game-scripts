@@ -1,6 +1,0 @@
-cd A-Games:S/StarCrusaderAGA
-IF $whdloadargs EQ ""
-  whdload StarCrusaderAGA.Slave
-ELSE
-  whdload StarCrusaderAGA.Slave $whdloadargs
-ENDIF

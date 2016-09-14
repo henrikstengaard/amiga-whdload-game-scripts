@@ -1,6 +1,0 @@
-cd A-Games2:S/SoccerPinball
-IF $whdloadargs EQ ""
-  whdload SoccerPinball.slave
-ELSE
-  whdload SoccerPinball.slave $whdloadargs
-ENDIF

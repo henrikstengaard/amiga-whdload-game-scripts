@@ -1,6 +1,0 @@
-cd A-Games2:P/ProjectX
-IF $whdloadargs EQ ""
-  whdload ProjectX.Slave
-ELSE
-  whdload ProjectX.Slave $whdloadargs
-ENDIF

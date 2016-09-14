@@ -1,6 +1,0 @@
-cd A-Games:D/DisposableHero
-IF $whdloadargs EQ ""
-  whdload DisposableHero.Slave
-ELSE
-  whdload DisposableHero.Slave $whdloadargs
-ENDIF

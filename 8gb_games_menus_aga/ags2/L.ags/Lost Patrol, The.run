@@ -1,6 +1,0 @@
-cd A-Games:L/LostPatrol
-IF $whdloadargs EQ ""
-  whdload LostPatrol.Slave
-ELSE
-  whdload LostPatrol.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:H/Hunter
-IF $whdloadargs EQ ""
-  whdload Hunter.slave
-ELSE
-  whdload Hunter.slave $whdloadargs
-ENDIF

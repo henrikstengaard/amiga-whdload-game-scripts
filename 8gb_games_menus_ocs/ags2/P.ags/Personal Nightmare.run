@@ -1,6 +1,0 @@
-cd A-Games:P/PersonalNightmare
-IF $whdloadargs EQ ""
-  whdload PersonalNightmare.Slave
-ELSE
-  whdload PersonalNightmare.Slave $whdloadargs
-ENDIF

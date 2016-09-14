@@ -1,6 +1,0 @@
-cd A-Games:F/FootballerOfTheYear2
-IF $whdloadargs EQ ""
-  whdload FootballerOfTheYear2.slave
-ELSE
-  whdload FootballerOfTheYear2.slave $whdloadargs
-ENDIF

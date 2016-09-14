@@ -1,6 +1,0 @@
-cd A-Games:W/WeirdDreams
-IF $whdloadargs EQ ""
-  whdload WeirdDreams.Slave
-ELSE
-  whdload WeirdDreams.Slave $whdloadargs
-ENDIF

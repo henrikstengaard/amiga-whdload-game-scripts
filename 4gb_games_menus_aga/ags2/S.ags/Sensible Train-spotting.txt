@@ -1,4 +1,0 @@
-Name      : Sensible Train-spotting
-Publisher : Amiga Power (Future Publishing)
-Year      : 1995
-Whdload   : SensibleTrainSpotting.Slave

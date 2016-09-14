@@ -1,6 +1,0 @@
-cd A-Demos:V/VectorDemo
-IF $whdloadargs EQ ""
-  whdload VectorDemo.Slave
-ELSE
-  whdload VectorDemo.Slave $whdloadargs
-ENDIF

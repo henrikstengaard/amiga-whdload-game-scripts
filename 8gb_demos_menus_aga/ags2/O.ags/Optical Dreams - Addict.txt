@@ -1,4 +1,0 @@
-Name    : Optical Dreams
-Groups  : Addict
-Type    : Musicdisk
-Whdload : OpticalDreams.Slave

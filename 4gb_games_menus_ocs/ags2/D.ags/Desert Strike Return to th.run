@@ -1,6 +1,0 @@
-cd A-Games1:D/DesertStrike
-IF $whdloadargs EQ ""
-  whdload DesertStrike.slave
-ELSE
-  whdload DesertStrike.slave $whdloadargs
-ENDIF

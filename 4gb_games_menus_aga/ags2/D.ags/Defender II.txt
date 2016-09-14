@@ -1,5 +1,0 @@
-Name      : Defender II
-Publisher : Arc Developments
-Year      : 1990
-Players   : 1 or 2
-Whdload   : Defender2.Slave

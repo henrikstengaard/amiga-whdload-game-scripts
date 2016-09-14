@@ -1,6 +1,0 @@
-Name      : Exile
-Publisher : Audiogenic
-Year      : 1995
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : Exile.Slave

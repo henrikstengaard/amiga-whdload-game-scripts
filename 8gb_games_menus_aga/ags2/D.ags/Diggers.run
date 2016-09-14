@@ -1,6 +1,0 @@
-cd A-Games:D/DiggersAGA
-IF $whdloadargs EQ ""
-  whdload DiggersAGA.slave
-ELSE
-  whdload DiggersAGA.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/Starbirds
-IF $whdloadargs EQ ""
-  whdload Starbirds.Slave
-ELSE
-  whdload Starbirds.Slave $whdloadargs
-ENDIF

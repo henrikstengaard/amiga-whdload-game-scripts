@@ -1,6 +1,0 @@
-cd A-Demos:B/BanditsRadio
-IF $whdloadargs EQ ""
-  whdload BanditsRadio.Slave
-ELSE
-  whdload BanditsRadio.Slave $whdloadargs
-ENDIF

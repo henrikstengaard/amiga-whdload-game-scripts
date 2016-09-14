@@ -1,6 +1,0 @@
-cd A-Games:S/StarRay1Disk
-IF $whdloadargs EQ ""
-  whdload StarRay1Disk.slave
-ELSE
-  whdload StarRay1Disk.slave $whdloadargs
-ENDIF

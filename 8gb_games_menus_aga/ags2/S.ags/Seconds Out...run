@@ -1,6 +1,0 @@
-cd A-Games:S/SecondsOut
-IF $whdloadargs EQ ""
-  whdload SecondsOut.Slave
-ELSE
-  whdload SecondsOut.Slave $whdloadargs
-ENDIF

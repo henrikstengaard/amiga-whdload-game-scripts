@@ -1,6 +1,0 @@
-cd A-Games:B/BugBash
-IF $whdloadargs EQ ""
-  whdload BugBash.Slave
-ELSE
-  whdload BugBash.Slave $whdloadargs
-ENDIF

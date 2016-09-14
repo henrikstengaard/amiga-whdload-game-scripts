@@ -1,6 +1,0 @@
-cd A-Games1:A/Antago
-IF $whdloadargs EQ ""
-  whdload Antago.Slave
-ELSE
-  whdload Antago.Slave $whdloadargs
-ENDIF

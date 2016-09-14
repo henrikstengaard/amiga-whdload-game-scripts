@@ -1,6 +1,0 @@
-Name      : 1st Division Manager
-Publisher : Codemasters
-Year      : 1991
-Genre     : Sports - Football/Soccer
-Players   : 1 Only
-Whdload   : 1stDivisionManager.Slave

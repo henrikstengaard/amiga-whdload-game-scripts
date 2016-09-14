@@ -1,6 +1,0 @@
-cd A-Games:T/TimeMachine
-IF $whdloadargs EQ ""
-  whdload TimeMachine.slave
-ELSE
-  whdload TimeMachine.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:L/LegendOfTheLost
-IF $whdloadargs EQ ""
-  whdload LegendOfTheLost.Slave
-ELSE
-  whdload LegendOfTheLost.Slave $whdloadargs
-ENDIF

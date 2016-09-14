@@ -1,6 +1,0 @@
-cd A-Demos:S/Switchback
-IF $whdloadargs EQ ""
-  whdload Switchback.Slave
-ELSE
-  whdload Switchback.Slave $whdloadargs
-ENDIF

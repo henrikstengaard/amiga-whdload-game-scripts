@@ -1,6 +1,0 @@
-cd A-Games:D/DragonTilesAGA
-IF $whdloadargs EQ ""
-  whdload DragonTilesAGA.Slave
-ELSE
-  whdload DragonTilesAGA.Slave $whdloadargs
-ENDIF

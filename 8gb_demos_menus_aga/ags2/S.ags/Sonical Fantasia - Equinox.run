@@ -1,6 +1,0 @@
-cd A-Demos:S/SonicalFantasia
-IF $whdloadargs EQ ""
-  whdload SonicalFantasia.Slave
-ELSE
-  whdload SonicalFantasia.Slave $whdloadargs
-ENDIF

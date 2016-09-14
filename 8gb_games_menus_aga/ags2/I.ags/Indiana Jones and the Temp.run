@@ -1,6 +1,0 @@
-cd A-Games:I/IndianaJonesTempleOfDoom
-IF $whdloadargs EQ ""
-  whdload IndianaJonesTempleOfDoom.slave
-ELSE
-  whdload IndianaJonesTempleOfDoom.slave $whdloadargs
-ENDIF

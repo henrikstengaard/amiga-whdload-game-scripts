@@ -1,6 +1,0 @@
-cd A-Demos:S/SozzledSomersault
-IF $whdloadargs EQ ""
-  whdload SozzledSomersault.Slave
-ELSE
-  whdload SozzledSomersault.Slave $whdloadargs
-ENDIF

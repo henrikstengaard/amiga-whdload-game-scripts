@@ -1,6 +1,0 @@
-cd A-Games2:O/OneStepBeyond
-IF $whdloadargs EQ ""
-  whdload OneStepBeyond.slave
-ELSE
-  whdload OneStepBeyond.slave $whdloadargs
-ENDIF

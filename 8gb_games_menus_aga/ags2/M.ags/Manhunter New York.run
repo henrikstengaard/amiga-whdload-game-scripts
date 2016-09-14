@@ -1,6 +1,0 @@
-cd A-Games:M/Manhunter
-IF $whdloadargs EQ ""
-  whdload Manhunter.slave
-ELSE
-  whdload Manhunter.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:N/Nonterraqueous
-IF $whdloadargs EQ ""
-  whdload Nonterraqueous.Slave
-ELSE
-  whdload Nonterraqueous.Slave $whdloadargs
-ENDIF

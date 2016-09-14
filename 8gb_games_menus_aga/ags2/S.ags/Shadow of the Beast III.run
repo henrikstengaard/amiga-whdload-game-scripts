@@ -1,6 +1,0 @@
-cd A-Games:S/ShadowOfTheBeast3
-IF $whdloadargs EQ ""
-  whdload ShadowOfTheBeast3.slave
-ELSE
-  whdload ShadowOfTheBeast3.slave $whdloadargs
-ENDIF

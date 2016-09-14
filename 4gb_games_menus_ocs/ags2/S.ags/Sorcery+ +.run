@@ -1,6 +1,0 @@
-cd A-Games2:S/Sorcery+
-IF $whdloadargs EQ ""
-  whdload Sorcery+.Slave
-ELSE
-  whdload Sorcery+.Slave $whdloadargs
-ENDIF

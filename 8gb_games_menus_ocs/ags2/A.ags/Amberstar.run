@@ -1,6 +1,0 @@
-cd A-Games:A/Amberstar
-IF $whdloadargs EQ ""
-  whdload Amberstar.slave
-ELSE
-  whdload Amberstar.slave $whdloadargs
-ENDIF

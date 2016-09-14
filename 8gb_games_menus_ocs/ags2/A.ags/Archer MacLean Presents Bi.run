@@ -1,6 +1,0 @@
-cd A-Games:A/ArcherMacleansBillardAmcn
-IF $whdloadargs EQ ""
-  whdload ArcherMacleansBillardAmcn.Slave
-ELSE
-  whdload ArcherMacleansBillardAmcn.Slave $whdloadargs
-ENDIF

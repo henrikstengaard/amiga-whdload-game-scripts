@@ -1,6 +1,0 @@
-cd A-Games:N/Nitro
-IF $whdloadargs EQ ""
-  whdload Nitro.slave
-ELSE
-  whdload Nitro.slave $whdloadargs
-ENDIF

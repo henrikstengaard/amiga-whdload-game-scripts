@@ -1,6 +1,0 @@
-cd A-Demos:S/Sexvens
-IF $whdloadargs EQ ""
-  whdload Sexvens.slave
-ELSE
-  whdload Sexvens.slave $whdloadargs
-ENDIF

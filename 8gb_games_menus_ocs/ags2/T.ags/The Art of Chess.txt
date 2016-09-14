@@ -1,5 +1,0 @@
-Name      : The Art of Chess
-Publisher : SPA
-Year      : 1987
-Players   : 1 -2 (1 simultaneous)
-Whdload   : ArtOfChess.Slave

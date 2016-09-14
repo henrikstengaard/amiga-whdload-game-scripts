@@ -1,6 +1,0 @@
-cd A-Games:E/Entity
-IF $whdloadargs EQ ""
-  whdload Entity.slave
-ELSE
-  whdload Entity.slave $whdloadargs
-ENDIF

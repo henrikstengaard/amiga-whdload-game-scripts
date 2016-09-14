@@ -1,6 +1,0 @@
-Name      : 7 Colors
-Publisher : Infogrames
-Year      : 1991
-Genre     : Brain - Puzzle
-Players   : 1 or 2
-Whdload   : 7Colors.Slave

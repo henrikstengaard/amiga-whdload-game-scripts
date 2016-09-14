@@ -1,6 +1,0 @@
-cd A-Games:B/BrainBlasters
-IF $whdloadargs EQ ""
-  whdload BrainBlasters.slave
-ELSE
-  whdload BrainBlasters.slave $whdloadargs
-ENDIF

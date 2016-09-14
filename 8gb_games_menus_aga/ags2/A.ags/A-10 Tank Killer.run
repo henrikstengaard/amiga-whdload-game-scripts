@@ -1,6 +1,0 @@
-cd A-Games:A/A10TankKiller2Disk
-IF $whdloadargs EQ ""
-  whdload A10TankKiller2Disk.Slave
-ELSE
-  whdload A10TankKiller2Disk.Slave $whdloadargs
-ENDIF

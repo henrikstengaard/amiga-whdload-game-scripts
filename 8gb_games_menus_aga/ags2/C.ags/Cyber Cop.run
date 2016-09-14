@@ -1,6 +1,0 @@
-cd A-Games:C/CyberCop
-IF $whdloadargs EQ ""
-  whdload CyberCop.slave
-ELSE
-  whdload CyberCop.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:B/BattleForAshes
-IF $whdloadargs EQ ""
-  whdload BattleForAshes.Slave
-ELSE
-  whdload BattleForAshes.Slave $whdloadargs
-ENDIF

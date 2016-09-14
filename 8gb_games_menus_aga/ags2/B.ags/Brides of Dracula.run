@@ -1,6 +1,0 @@
-cd A-Games:B/BridesOfDracula
-IF $whdloadargs EQ ""
-  whdload BridesOfDracula.slave
-ELSE
-  whdload BridesOfDracula.slave $whdloadargs
-ENDIF

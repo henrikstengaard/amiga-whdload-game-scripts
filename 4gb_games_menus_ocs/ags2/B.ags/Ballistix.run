@@ -1,6 +1,0 @@
-cd A-Games1:B/Ballistix
-IF $whdloadargs EQ ""
-  whdload Ballistix.slave
-ELSE
-  whdload Ballistix.slave $whdloadargs
-ENDIF

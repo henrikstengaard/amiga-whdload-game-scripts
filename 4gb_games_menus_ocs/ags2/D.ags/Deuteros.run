@@ -1,6 +1,0 @@
-cd A-Games1:D/Deuteros
-IF $whdloadargs EQ ""
-  whdload Deuteros.Slave
-ELSE
-  whdload Deuteros.Slave $whdloadargs
-ENDIF

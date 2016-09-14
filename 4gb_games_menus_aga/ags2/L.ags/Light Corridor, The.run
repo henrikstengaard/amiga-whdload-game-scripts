@@ -1,6 +1,0 @@
-cd A-Games1:L/LightCorridor
-IF $whdloadargs EQ ""
-  whdload LightCorridor.Slave
-ELSE
-  whdload LightCorridor.Slave $whdloadargs
-ENDIF

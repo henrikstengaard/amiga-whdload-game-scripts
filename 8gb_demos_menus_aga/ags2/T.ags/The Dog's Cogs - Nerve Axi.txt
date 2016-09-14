@@ -1,4 +1,0 @@
-Name    : The Dog's Cogs
-Groups  : Nerve Axis
-Type    : Musicdisk
-Whdload : DogsCogs.Slave

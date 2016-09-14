@@ -1,6 +1,0 @@
-cd A-Games2:S/ShockWave
-IF $whdloadargs EQ ""
-  whdload ShockWave.Slave
-ELSE
-  whdload ShockWave.Slave $whdloadargs
-ENDIF

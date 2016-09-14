@@ -1,6 +1,0 @@
-cd A-Games:C/ConanTheCimmerian
-IF $whdloadargs EQ ""
-  whdload ConanTheCimmerian.Slave
-ELSE
-  whdload ConanTheCimmerian.Slave $whdloadargs
-ENDIF

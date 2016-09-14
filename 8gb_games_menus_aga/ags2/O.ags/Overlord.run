@@ -1,6 +1,0 @@
-cd A-Games:O/OverlordDemoRowan
-IF $whdloadargs EQ ""
-  whdload OverlordDemoRowan.Slave
-ELSE
-  whdload OverlordDemoRowan.Slave $whdloadargs
-ENDIF

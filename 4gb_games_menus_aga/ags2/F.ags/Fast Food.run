@@ -1,6 +1,0 @@
-cd A-Games1:F/FastFood
-IF $whdloadargs EQ ""
-  whdload FastFood.Slave
-ELSE
-  whdload FastFood.Slave $whdloadargs
-ENDIF

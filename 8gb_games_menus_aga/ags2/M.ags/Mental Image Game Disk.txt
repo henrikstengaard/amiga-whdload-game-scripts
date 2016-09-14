@@ -1,5 +1,0 @@
-Name      : Mental Image Game Disk
-Publisher : Mental Image
-Year      : 1991
-Genre     : Compilation (Rebound, Invaders, The Gridrunner)
-Whdload   : MentalImage1.Slave

@@ -1,6 +1,0 @@
-cd A-Games:A/AlchemyDemo
-IF $whdloadargs EQ ""
-  whdload AlchemyDemo.Slave
-ELSE
-  whdload AlchemyDemo.Slave $whdloadargs
-ENDIF

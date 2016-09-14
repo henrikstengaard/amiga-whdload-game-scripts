@@ -1,4 +1,0 @@
-Name    : Musical Rabbit
-Groups  : Carillon & Cyberiad
-Type    : Musicdisk
-Whdload : MusicalRabbit.Slave

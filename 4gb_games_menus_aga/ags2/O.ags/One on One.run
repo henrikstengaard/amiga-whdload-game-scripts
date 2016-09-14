@@ -1,6 +1,0 @@
-cd A-Games2:O/OneOnOne
-IF $whdloadargs EQ ""
-  whdload OneOnOne.slave
-ELSE
-  whdload OneOnOne.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:M/MrMenOlympics
-IF $whdloadargs EQ ""
-  whdload MrMenOlympics.slave
-ELSE
-  whdload MrMenOlympics.slave $whdloadargs
-ENDIF

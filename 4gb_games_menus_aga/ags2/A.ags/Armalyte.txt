@@ -1,5 +1,0 @@
-Name      : Armalyte
-Publisher : Thalamus
-Year      : 1991
-Players   : 1 Only
-Whdload   : Armalyte.Slave

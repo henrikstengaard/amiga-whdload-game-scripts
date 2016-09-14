@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Powerslaves
-Type    : Demo
-Whdload : MegademoPowerslaves.Slave

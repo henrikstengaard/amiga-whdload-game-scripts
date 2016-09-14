@@ -1,6 +1,0 @@
-cd A-Games:X/XTremeRacingAGA
-IF $whdloadargs EQ ""
-  whdload XTremeRacingAGA.slave
-ELSE
-  whdload XTremeRacingAGA.slave $whdloadargs
-ENDIF

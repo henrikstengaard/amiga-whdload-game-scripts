@@ -1,6 +1,0 @@
-cd A-Games:C/CrystalKingdomDizzy
-IF $whdloadargs EQ ""
-  whdload CrystalKingdomDizzy.slave
-ELSE
-  whdload CrystalKingdomDizzy.slave $whdloadargs
-ENDIF

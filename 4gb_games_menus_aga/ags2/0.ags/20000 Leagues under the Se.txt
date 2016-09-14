@@ -1,6 +1,0 @@
-Name      : 20000 Leagues under the Sea
-Publisher : Coktel Vision
-Year      : 1989
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : 20000LeaguesUnderTheSea.Slave

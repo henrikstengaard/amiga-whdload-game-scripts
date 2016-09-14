@@ -1,6 +1,0 @@
-cd A-Games:S/Swooper
-IF $whdloadargs EQ ""
-  whdload Swooper.Slave
-ELSE
-  whdload Swooper.Slave $whdloadargs
-ENDIF

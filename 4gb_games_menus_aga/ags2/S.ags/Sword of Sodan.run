@@ -1,6 +1,0 @@
-cd A-Games2:S/SwordOfSodan
-IF $whdloadargs EQ ""
-  whdload SwordOfSodan.slave
-ELSE
-  whdload SwordOfSodan.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:V/Vyper
-IF $whdloadargs EQ ""
-  whdload Vyper.Slave
-ELSE
-  whdload Vyper.Slave $whdloadargs
-ENDIF

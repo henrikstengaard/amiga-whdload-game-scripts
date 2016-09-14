@@ -1,6 +1,0 @@
-cd A-Games2:Z/ZakMcKracken
-IF $whdloadargs EQ ""
-  whdload ZakMcKracken.slave
-ELSE
-  whdload ZakMcKracken.slave $whdloadargs
-ENDIF

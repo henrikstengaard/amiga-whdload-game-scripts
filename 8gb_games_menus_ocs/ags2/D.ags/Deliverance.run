@@ -1,6 +1,0 @@
-cd A-Games:D/Deliverance
-IF $whdloadargs EQ ""
-  whdload Deliverance.Slave
-ELSE
-  whdload Deliverance.Slave $whdloadargs
-ENDIF

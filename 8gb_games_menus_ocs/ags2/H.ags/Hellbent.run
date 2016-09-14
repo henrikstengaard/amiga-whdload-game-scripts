@@ -1,6 +1,0 @@
-cd A-Games:H/Hellbent
-IF $whdloadargs EQ ""
-  whdload Hellbent.Slave
-ELSE
-  whdload Hellbent.Slave $whdloadargs
-ENDIF

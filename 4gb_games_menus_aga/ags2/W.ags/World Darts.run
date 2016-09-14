@@ -1,6 +1,0 @@
-cd A-Games2:W/WorldDarts
-IF $whdloadargs EQ ""
-  whdload WorldDarts.Slave
-ELSE
-  whdload WorldDarts.Slave $whdloadargs
-ENDIF

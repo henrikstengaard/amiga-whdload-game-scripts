@@ -1,6 +1,0 @@
-cd A-Demos:D/Darkside
-IF $whdloadargs EQ ""
-  whdload Darkside.Slave
-ELSE
-  whdload Darkside.Slave $whdloadargs
-ENDIF

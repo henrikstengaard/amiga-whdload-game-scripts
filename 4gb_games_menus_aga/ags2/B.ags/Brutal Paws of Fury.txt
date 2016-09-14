@@ -1,5 +1,0 @@
-Name      : Brutal: Paws of Fury
-Publisher : Gametek
-Year      : 1995
-Players   : 1 or 2, Simultaneous
-Whdload   : BrutalPawsOfFury.slave

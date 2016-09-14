@@ -1,6 +1,0 @@
-cd A-Games2:R/RollOrDie
-IF $whdloadargs EQ ""
-  whdload RollOrDie.slave
-ELSE
-  whdload RollOrDie.slave $whdloadargs
-ENDIF

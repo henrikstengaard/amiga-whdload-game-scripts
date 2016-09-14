@@ -1,6 +1,0 @@
-cd A-Games:B/BallRaider
-IF $whdloadargs EQ ""
-  whdload BallRaider.Slave
-ELSE
-  whdload BallRaider.Slave $whdloadargs
-ENDIF

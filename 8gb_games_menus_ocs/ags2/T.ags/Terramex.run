@@ -1,6 +1,0 @@
-cd A-Games:T/Terramex
-IF $whdloadargs EQ ""
-  whdload Terramex.Slave
-ELSE
-  whdload Terramex.Slave $whdloadargs
-ENDIF

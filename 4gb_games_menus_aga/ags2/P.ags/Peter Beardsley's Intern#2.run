@@ -1,6 +1,0 @@
-cd A-Games2:P/PeterBeardsleysIFCracked
-IF $whdloadargs EQ ""
-  whdload PeterBeardsleysIFCracked.Slave
-ELSE
-  whdload PeterBeardsleysIFCracked.Slave $whdloadargs
-ENDIF

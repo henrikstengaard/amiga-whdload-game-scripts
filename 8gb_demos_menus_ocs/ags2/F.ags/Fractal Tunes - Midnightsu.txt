@@ -1,4 +1,0 @@
-Name    : Fractal Tunes
-Groups  : Midnightsun
-Type    : Musicdisk
-Whdload : FractalTunes.Slave

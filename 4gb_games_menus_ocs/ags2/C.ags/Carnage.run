@@ -1,6 +1,0 @@
-cd A-Games1:C/Carnage
-IF $whdloadargs EQ ""
-  whdload Carnage.slave
-ELSE
-  whdload Carnage.slave $whdloadargs
-ENDIF

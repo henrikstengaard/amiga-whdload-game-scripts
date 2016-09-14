@@ -1,6 +1,0 @@
-Name      : Light Corridor, The
-Publisher : Infogrames
-Year      : 1990
-Genre     : Arcade - Breakout/Pong
-Players   : 1 or 2
-Whdload   : LightCorridor.Slave

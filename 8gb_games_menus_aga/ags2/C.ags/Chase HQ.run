@@ -1,6 +1,0 @@
-cd A-Games:C/ChaseHQ
-IF $whdloadargs EQ ""
-  whdload ChaseHQ.Slave
-ELSE
-  whdload ChaseHQ.Slave $whdloadargs
-ENDIF

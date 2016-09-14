@@ -1,6 +1,0 @@
-cd A-Games:O/OmnicronConspiracy
-IF $whdloadargs EQ ""
-  whdload OmnicronConspiracy.Slave
-ELSE
-  whdload OmnicronConspiracy.Slave $whdloadargs
-ENDIF

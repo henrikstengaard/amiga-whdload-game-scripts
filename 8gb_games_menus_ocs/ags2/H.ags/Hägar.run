@@ -1,6 +1,0 @@
-cd A-Games:H/HagarTheHorrible
-IF $whdloadargs EQ ""
-  whdload HagarTheHorrible.Slave
-ELSE
-  whdload HagarTheHorrible.Slave $whdloadargs
-ENDIF

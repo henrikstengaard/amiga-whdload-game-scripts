@@ -1,6 +1,0 @@
-cd A-Games2:R/Renegades
-IF $whdloadargs EQ ""
-  whdload RenegadesEditor.Slave
-ELSE
-  whdload RenegadesEditor.Slave $whdloadargs
-ENDIF

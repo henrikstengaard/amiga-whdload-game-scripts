@@ -1,6 +1,0 @@
-cd A-Games:S/StreetRod
-IF $whdloadargs EQ ""
-  whdload StreetRod.slave
-ELSE
-  whdload StreetRod.slave $whdloadargs
-ENDIF

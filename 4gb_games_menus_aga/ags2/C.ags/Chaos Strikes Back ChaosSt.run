@@ -1,6 +1,0 @@
-cd A-Games1:C/ChaosStrikesBack&EnUtil
-IF $whdloadargs EQ ""
-  whdload ChaosStrikesBack.Slave
-ELSE
-  whdload ChaosStrikesBack.Slave $whdloadargs
-ENDIF

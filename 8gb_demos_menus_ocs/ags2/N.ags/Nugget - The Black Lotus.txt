@@ -1,4 +1,0 @@
-Name    : Nugget
-Groups  : The Black Lotus
-Type    : Demo
-Whdload : Nugget.Slave

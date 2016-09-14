@@ -1,6 +1,0 @@
-cd A-Games:A/Archipelagos
-IF $whdloadargs EQ ""
-  whdload Archipelagos.slave
-ELSE
-  whdload Archipelagos.slave $whdloadargs
-ENDIF

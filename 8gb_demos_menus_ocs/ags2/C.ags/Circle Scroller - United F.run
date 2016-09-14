@@ -1,6 +1,0 @@
-cd A-Demos:C/CircleScroller
-IF $whdloadargs EQ ""
-  whdload CircleScroller.Slave
-ELSE
-  whdload CircleScroller.Slave $whdloadargs
-ENDIF

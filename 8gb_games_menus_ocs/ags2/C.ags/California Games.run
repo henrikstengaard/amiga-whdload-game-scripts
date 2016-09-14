@@ -1,6 +1,0 @@
-cd A-Games:C/CaliforniaGames
-IF $whdloadargs EQ ""
-  whdload CaliforniaGames.Slave
-ELSE
-  whdload CaliforniaGames.Slave $whdloadargs
-ENDIF

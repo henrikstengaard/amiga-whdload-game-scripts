@@ -1,4 +1,0 @@
-Name    : InnerShip
-Groups  : Pussy
-Type    : Demo
-Whdload : InnershipPussy.slave

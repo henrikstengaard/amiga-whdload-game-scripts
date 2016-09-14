@@ -1,6 +1,0 @@
-cd A-Games2:S/SimAntLoRes
-IF $whdloadargs EQ ""
-  whdload SimAntLoRes.Slave
-ELSE
-  whdload SimAntLoRes.Slave $whdloadargs
-ENDIF

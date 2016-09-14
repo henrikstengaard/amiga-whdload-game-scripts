@@ -1,6 +1,0 @@
-cd A-Games:R/RailroadTycoon
-IF $whdloadargs EQ ""
-  whdload RailroadTycoon.slave
-ELSE
-  whdload RailroadTycoon.slave $whdloadargs
-ENDIF

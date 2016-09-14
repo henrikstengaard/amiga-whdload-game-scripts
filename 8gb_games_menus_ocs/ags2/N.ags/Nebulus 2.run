@@ -1,6 +1,0 @@
-cd A-Games:N/Nebulus2
-IF $whdloadargs EQ ""
-  whdload Nebulus2.slave
-ELSE
-  whdload Nebulus2.slave $whdloadargs
-ENDIF

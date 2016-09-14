@@ -1,6 +1,0 @@
-cd A-Games2:T/TomLandryFootball
-IF $whdloadargs EQ ""
-  whdload TomLandryFootball.Slave
-ELSE
-  whdload TomLandryFootball.Slave $whdloadargs
-ENDIF

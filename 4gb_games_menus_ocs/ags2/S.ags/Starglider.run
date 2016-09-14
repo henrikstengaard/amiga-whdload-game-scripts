@@ -1,6 +1,0 @@
-cd A-Games2:S/Starglider
-IF $whdloadargs EQ ""
-  whdload Starglider.Slave
-ELSE
-  whdload Starglider.Slave $whdloadargs
-ENDIF

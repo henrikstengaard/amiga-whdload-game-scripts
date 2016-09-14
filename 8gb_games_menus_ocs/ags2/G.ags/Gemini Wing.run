@@ -1,6 +1,0 @@
-cd A-Games:G/GeminiWing
-IF $whdloadargs EQ ""
-  whdload GeminiWing.slave
-ELSE
-  whdload GeminiWing.slave $whdloadargs
-ENDIF

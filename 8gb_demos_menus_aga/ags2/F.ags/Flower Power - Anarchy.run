@@ -1,6 +1,0 @@
-cd A-Demos:F/FlowerPower
-IF $whdloadargs EQ ""
-  whdload FlowerPower.Slave
-ELSE
-  whdload FlowerPower.Slave $whdloadargs
-ENDIF

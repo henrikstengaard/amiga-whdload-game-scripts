@@ -1,6 +1,0 @@
-cd A-Games:D/DanDare3
-IF $whdloadargs EQ ""
-  whdload DanDare3.slave
-ELSE
-  whdload DanDare3.slave $whdloadargs
-ENDIF

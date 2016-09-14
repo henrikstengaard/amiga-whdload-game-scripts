@@ -1,6 +1,0 @@
-cd A-Games:F/FearsAGA
-IF $whdloadargs EQ ""
-  whdload FearsAGA.slave
-ELSE
-  whdload FearsAGA.slave $whdloadargs
-ENDIF

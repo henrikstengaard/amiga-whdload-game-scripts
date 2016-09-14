@@ -1,6 +1,0 @@
-cd A-Games1:M/Masterblazer
-IF $whdloadargs EQ ""
-  whdload Masterblazer.slave
-ELSE
-  whdload Masterblazer.slave $whdloadargs
-ENDIF

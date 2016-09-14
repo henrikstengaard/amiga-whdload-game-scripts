@@ -1,6 +1,0 @@
-cd A-Games1:D/DarkFusion
-IF $whdloadargs EQ ""
-  whdload DarkFusion.Slave
-ELSE
-  whdload DarkFusion.Slave $whdloadargs
-ENDIF

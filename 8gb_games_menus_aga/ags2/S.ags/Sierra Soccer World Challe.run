@@ -1,6 +1,0 @@
-cd A-Games:S/SierraSoccer
-IF $whdloadargs EQ ""
-  whdload SierraSoccer.Slave
-ELSE
-  whdload SierraSoccer.Slave $whdloadargs
-ENDIF

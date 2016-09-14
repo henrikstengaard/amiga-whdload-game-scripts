@@ -1,6 +1,0 @@
-cd A-Games2:S/Shanghai
-IF $whdloadargs EQ ""
-  whdload Shanghai.Slave
-ELSE
-  whdload Shanghai.Slave $whdloadargs
-ENDIF

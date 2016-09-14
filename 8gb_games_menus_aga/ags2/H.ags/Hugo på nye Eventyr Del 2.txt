@@ -1,6 +1,0 @@
-Name      : Hugo p?? nye Eventyr Del 2
-Publisher : Silverrock Productions
-Year      : 1992
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : Hugo2Dk.Slave

@@ -1,6 +1,0 @@
-cd A-Games:L/LeonardoDOS
-IF $whdloadargs EQ ""
-  whdload LeonardoDOS.Slave
-ELSE
-  whdload LeonardoDOS.Slave $whdloadargs
-ENDIF

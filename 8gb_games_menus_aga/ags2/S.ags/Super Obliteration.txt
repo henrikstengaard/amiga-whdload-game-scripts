@@ -1,5 +1,0 @@
-Name      : Super Obliteration
-Publisher : (unknown)
-Year      : 1993
-Players   : 1 Only
-Whdload   : SuperObliteration.Slave

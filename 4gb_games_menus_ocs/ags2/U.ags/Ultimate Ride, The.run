@@ -1,6 +1,0 @@
-cd A-Games2:U/UltimateRide
-IF $whdloadargs EQ ""
-  whdload UltimateRide.slave
-ELSE
-  whdload UltimateRide.slave $whdloadargs
-ENDIF

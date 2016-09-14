@@ -1,5 +1,0 @@
-Name      : Shaq Fu
-Publisher : Ocean
-Year      : 1994
-Players   : 1 or 2, Simultaneous
-Whdload   : ShaqFuAGA.slave

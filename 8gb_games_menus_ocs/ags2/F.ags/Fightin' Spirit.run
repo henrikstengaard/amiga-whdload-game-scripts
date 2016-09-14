@@ -1,6 +1,0 @@
-cd A-Games:F/FightinSpirit
-IF $whdloadargs EQ ""
-  whdload FightinSpirit.slave
-ELSE
-  whdload FightinSpirit.slave $whdloadargs
-ENDIF

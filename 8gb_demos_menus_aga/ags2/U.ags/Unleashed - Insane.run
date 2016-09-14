@@ -1,6 +1,0 @@
-cd A-Demos:U/Unleashed
-IF $whdloadargs EQ ""
-  whdload Unleashed.Slave
-ELSE
-  whdload Unleashed.Slave $whdloadargs
-ENDIF

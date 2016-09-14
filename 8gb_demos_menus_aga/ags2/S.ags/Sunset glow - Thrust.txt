@@ -1,4 +1,0 @@
-Name    : Sunset glow
-Groups  : Thrust
-Type    : Demo
-Whdload : SunsetGlow.Slave

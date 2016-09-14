@@ -1,6 +1,0 @@
-cd A-Games2:S/SperisLegacyAGA
-IF $whdloadargs EQ ""
-  whdload SperisLegacyAGA.Slave
-ELSE
-  whdload SperisLegacyAGA.Slave $whdloadargs
-ENDIF

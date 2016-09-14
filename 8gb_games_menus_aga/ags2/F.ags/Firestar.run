@@ -1,6 +1,0 @@
-cd A-Games:F/Firestar
-IF $whdloadargs EQ ""
-  whdload Firestar.Slave
-ELSE
-  whdload Firestar.Slave $whdloadargs
-ENDIF

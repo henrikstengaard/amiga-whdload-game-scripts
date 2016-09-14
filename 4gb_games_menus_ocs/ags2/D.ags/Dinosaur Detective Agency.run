@@ -1,6 +1,0 @@
-cd A-Games1:D/DinosaurDetectiveAgency
-IF $whdloadargs EQ ""
-  whdload DinosaurDetectiveAgency.Slave
-ELSE
-  whdload DinosaurDetectiveAgency.Slave $whdloadargs
-ENDIF

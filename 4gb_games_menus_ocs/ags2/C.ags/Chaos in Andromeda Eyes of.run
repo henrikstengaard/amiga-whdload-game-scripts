@@ -1,6 +1,0 @@
-cd A-Games1:C/ChaosInAndromedaCDTV
-IF $whdloadargs EQ ""
-  whdload ChaosInAndromedaCDTV.Slave
-ELSE
-  whdload ChaosInAndromedaCDTV.Slave $whdloadargs
-ENDIF

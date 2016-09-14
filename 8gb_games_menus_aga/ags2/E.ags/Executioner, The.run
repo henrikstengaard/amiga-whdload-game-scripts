@@ -1,6 +1,0 @@
-cd A-Games:E/Executioner
-IF $whdloadargs EQ ""
-  whdload Executioner.Slave
-ELSE
-  whdload Executioner.Slave $whdloadargs
-ENDIF

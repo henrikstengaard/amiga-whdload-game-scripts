@@ -1,6 +1,0 @@
-cd A-Games1:H/Hacker2
-IF $whdloadargs EQ ""
-  whdload Hacker2.Slave
-ELSE
-  whdload Hacker2.Slave $whdloadargs
-ENDIF

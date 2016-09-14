@@ -1,6 +1,0 @@
-cd A-Demos:M/MoinJungs
-IF $whdloadargs EQ ""
-  whdload MoinJungs.Slave
-ELSE
-  whdload MoinJungs.Slave $whdloadargs
-ENDIF

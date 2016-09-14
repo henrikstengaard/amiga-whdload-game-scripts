@@ -1,6 +1,0 @@
-cd A-Games1:A/AbandonedPlaces
-IF $whdloadargs EQ ""
-  whdload AbandonedPlaces.slave
-ELSE
-  whdload AbandonedPlaces.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Demos:C/CrystalSymphonies
-IF $whdloadargs EQ ""
-  whdload CrystalSymphonies.Slave
-ELSE
-  whdload CrystalSymphonies.Slave $whdloadargs
-ENDIF

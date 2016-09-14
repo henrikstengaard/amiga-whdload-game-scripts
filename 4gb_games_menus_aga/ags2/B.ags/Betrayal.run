@@ -1,6 +1,0 @@
-cd A-Games1:B/Betrayal
-IF $whdloadargs EQ ""
-  whdload Betrayal.Slave
-ELSE
-  whdload Betrayal.Slave $whdloadargs
-ENDIF

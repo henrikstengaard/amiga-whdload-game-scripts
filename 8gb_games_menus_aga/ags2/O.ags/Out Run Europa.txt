@@ -1,6 +1,0 @@
-Name      : Out Run Europa
-Publisher : US Gold
-Year      : 1991
-Genre     : Racing - Miscellaneous
-Players   : 1 Only
-Whdload   : OutRunEuropa.Slave

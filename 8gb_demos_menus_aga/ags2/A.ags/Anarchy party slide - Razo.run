@@ -1,6 +1,0 @@
-cd A-Demos:A/AnarchyParty1991Slideshow
-IF $whdloadargs EQ ""
-  whdload AnarchyPartySlide.Slave
-ELSE
-  whdload AnarchyPartySlide.Slave $whdloadargs
-ENDIF

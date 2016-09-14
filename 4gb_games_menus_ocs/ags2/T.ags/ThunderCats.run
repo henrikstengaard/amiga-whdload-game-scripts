@@ -1,6 +1,0 @@
-cd A-Games2:T/ThunderCats
-IF $whdloadargs EQ ""
-  whdload ThunderCats.Slave
-ELSE
-  whdload ThunderCats.Slave $whdloadargs
-ENDIF

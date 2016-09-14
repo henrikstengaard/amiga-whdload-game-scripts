@@ -1,5 +1,0 @@
-Name      : Dynamite D??x
-Publisher : Activision
-Year      : 1989
-Players   : 1 or 2, Simultaneous
-Whdload   : DynamiteDux.Slave

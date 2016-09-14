@@ -1,6 +1,0 @@
-cd A-Games2:S/Sarcophaser
-IF $whdloadargs EQ ""
-  whdload Sarcophaser.Slave
-ELSE
-  whdload Sarcophaser.Slave $whdloadargs
-ENDIF

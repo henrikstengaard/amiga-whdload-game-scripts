@@ -1,6 +1,0 @@
-cd A-Demos:J/JungleMania
-IF $whdloadargs EQ ""
-  whdload JungleMania.slave
-ELSE
-  whdload JungleMania.slave $whdloadargs
-ENDIF

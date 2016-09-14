@@ -1,6 +1,0 @@
-cd A-Games1:D/DiscoveryMicroIllusions
-IF $whdloadargs EQ ""
-  whdload DiscoveryMicroIllusions.Slave
-ELSE
-  whdload DiscoveryMicroIllusions.Slave $whdloadargs
-ENDIF

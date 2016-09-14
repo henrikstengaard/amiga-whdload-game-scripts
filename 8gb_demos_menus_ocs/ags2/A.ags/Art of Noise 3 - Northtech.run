@@ -1,6 +1,0 @@
-cd A-Demos:A/ArtOfNoise3
-IF $whdloadargs EQ ""
-  whdload ArtOfNoise3.Slave
-ELSE
-  whdload ArtOfNoise3.Slave $whdloadargs
-ENDIF

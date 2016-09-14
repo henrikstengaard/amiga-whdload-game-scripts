@@ -1,6 +1,0 @@
-cd A-Games:W/WarZoneParadox
-IF $whdloadargs EQ ""
-  whdload WarzoneParadox.Slave
-ELSE
-  whdload WarzoneParadox.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:W/WatchtowerAGA
-IF $whdloadargs EQ ""
-  whdload WatchtowerAGA.Slave
-ELSE
-  whdload WatchtowerAGA.Slave $whdloadargs
-ENDIF

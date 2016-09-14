@@ -1,6 +1,0 @@
-cd A-Games2:O/Ogre
-IF $whdloadargs EQ ""
-  whdload Ogre.Slave
-ELSE
-  whdload Ogre.Slave $whdloadargs
-ENDIF

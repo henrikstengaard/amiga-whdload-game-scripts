@@ -1,6 +1,0 @@
-cd A-Games:K/Kingpin
-IF $whdloadargs EQ ""
-  whdload Kingpin.Slave
-ELSE
-  whdload Kingpin.Slave $whdloadargs
-ENDIF

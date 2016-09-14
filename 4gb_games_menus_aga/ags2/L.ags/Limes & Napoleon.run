@@ -1,6 +1,0 @@
-cd A-Games1:L/Limes&Napoleon
-IF $whdloadargs EQ ""
-  whdload Limes&Napoleon.Slave
-ELSE
-  whdload Limes&Napoleon.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/SmashTV
-IF $whdloadargs EQ ""
-  whdload SmashTV.Slave
-ELSE
-  whdload SmashTV.Slave $whdloadargs
-ENDIF

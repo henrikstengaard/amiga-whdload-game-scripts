@@ -1,6 +1,0 @@
-cd A-Games:B/BaseJumpers
-IF $whdloadargs EQ ""
-  whdload BaseJumpers.slave
-ELSE
-  whdload BaseJumpers.slave $whdloadargs
-ENDIF

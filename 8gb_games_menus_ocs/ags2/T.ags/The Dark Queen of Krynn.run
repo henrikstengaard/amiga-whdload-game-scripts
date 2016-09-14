@@ -1,6 +1,0 @@
-cd A-Games:D/DarkQueenOfKrynn
-IF $whdloadargs EQ ""
-  whdload DarkQueenOfKrynn.Slave
-ELSE
-  whdload DarkQueenOfKrynn.Slave $whdloadargs
-ENDIF

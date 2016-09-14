@@ -1,6 +1,0 @@
-cd A-Games:S/Silkworm
-IF $whdloadargs EQ ""
-  whdload Silkworm.slave
-ELSE
-  whdload Silkworm.slave $whdloadargs
-ENDIF

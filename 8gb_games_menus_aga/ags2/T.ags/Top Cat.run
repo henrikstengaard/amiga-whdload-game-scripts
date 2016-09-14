@@ -1,6 +1,0 @@
-cd A-Games:T/TopCat
-IF $whdloadargs EQ ""
-  whdload TopCat.Slave
-ELSE
-  whdload TopCat.Slave $whdloadargs
-ENDIF

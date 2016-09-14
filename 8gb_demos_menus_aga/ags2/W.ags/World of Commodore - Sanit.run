@@ -1,6 +1,0 @@
-cd A-Demos:W/WorldOfCommodore
-IF $whdloadargs EQ ""
-  whdload WorldOfCommodore.slave
-ELSE
-  whdload WorldOfCommodore.slave $whdloadargs
-ENDIF

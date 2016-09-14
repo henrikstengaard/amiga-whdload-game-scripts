@@ -1,4 +1,0 @@
-Name    : Big time sensuality
-Groups  : Axis
-Type    : Demo
-Whdload : BigTimeSensuality.slave

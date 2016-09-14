@@ -1,6 +1,0 @@
-cd A-Games1:K/KickOff3EC
-IF $whdloadargs EQ ""
-  whdload KickOff3EC.Slave
-ELSE
-  whdload KickOff3EC.Slave $whdloadargs
-ENDIF

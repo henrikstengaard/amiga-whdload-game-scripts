@@ -1,6 +1,0 @@
-cd A-Games:A/AsterixOpGetafix
-IF $whdloadargs EQ ""
-  whdload AsterixOpGetafix.slave
-ELSE
-  whdload AsterixOpGetafix.slave $whdloadargs
-ENDIF

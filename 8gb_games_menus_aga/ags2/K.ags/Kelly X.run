@@ -1,6 +1,0 @@
-cd A-Games:K/KellyX
-IF $whdloadargs EQ ""
-  whdload KellyX.slave
-ELSE
-  whdload KellyX.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:R/Ruffian
-IF $whdloadargs EQ ""
-  whdload Ruffian.Slave
-ELSE
-  whdload Ruffian.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:L/LoomKick31
-IF $whdloadargs EQ ""
-  whdload LoomKick31.slave
-ELSE
-  whdload LoomKick31.slave $whdloadargs
-ENDIF

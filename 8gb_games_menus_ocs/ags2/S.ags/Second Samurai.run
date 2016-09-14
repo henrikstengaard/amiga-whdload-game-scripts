@@ -1,6 +1,0 @@
-cd A-Games:S/SecondSamurai
-IF $whdloadargs EQ ""
-  whdload SecondSamurai.slave
-ELSE
-  whdload SecondSamurai.slave $whdloadargs
-ENDIF

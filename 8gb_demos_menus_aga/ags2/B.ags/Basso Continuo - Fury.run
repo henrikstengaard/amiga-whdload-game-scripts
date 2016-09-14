@@ -1,6 +1,0 @@
-cd A-Demos:B/BassoContinuo
-IF $whdloadargs EQ ""
-  whdload BassoContinuo.Slave
-ELSE
-  whdload BassoContinuo.Slave $whdloadargs
-ENDIF

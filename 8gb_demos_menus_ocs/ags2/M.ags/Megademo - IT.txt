@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : IT
-Type    : Demo
-Whdload : MegademoIt.Slave

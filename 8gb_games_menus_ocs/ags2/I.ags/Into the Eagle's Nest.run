@@ -1,6 +1,0 @@
-cd A-Games:I/IntoTheEaglesNest
-IF $whdloadargs EQ ""
-  whdload IntoTheEaglesNest.slave
-ELSE
-  whdload IntoTheEaglesNest.slave $whdloadargs
-ENDIF

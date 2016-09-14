@@ -1,4 +1,0 @@
-Name    : 1001 Stolen Ideas
-Groups  : Airwalk
-Type    : Demo
-Whdload : 1001StolenIdeas.Slave

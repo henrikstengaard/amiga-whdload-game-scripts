@@ -1,6 +1,0 @@
-cd A-Games:B/BonanzaBros
-IF $whdloadargs EQ ""
-  whdload BonanzaBros.slave
-ELSE
-  whdload BonanzaBros.slave $whdloadargs
-ENDIF

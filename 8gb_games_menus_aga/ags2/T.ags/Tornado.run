@@ -1,6 +1,0 @@
-cd A-Games:T/TornadoAGA
-IF $whdloadargs EQ ""
-  whdload TornadoAGA.slave
-ELSE
-  whdload TornadoAGA.slave $whdloadargs
-ENDIF

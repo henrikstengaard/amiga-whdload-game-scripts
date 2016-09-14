@@ -1,6 +1,0 @@
-cd A-Games1:I/InnocentUntilCaught
-IF $whdloadargs EQ ""
-  whdload InnocentUntilCaught.slave
-ELSE
-  whdload InnocentUntilCaught.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games1:H/HardDrivin
-IF $whdloadargs EQ ""
-  whdload HardDrivin.Slave
-ELSE
-  whdload HardDrivin.Slave $whdloadargs
-ENDIF

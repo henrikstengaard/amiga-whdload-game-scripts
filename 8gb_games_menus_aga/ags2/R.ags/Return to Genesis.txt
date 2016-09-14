@@ -1,5 +1,0 @@
-Name      : Return to Genesis
-Publisher : Firebird
-Year      : 1988
-Players   : 1 Only
-Whdload   : ReturnToGenesis.Slave

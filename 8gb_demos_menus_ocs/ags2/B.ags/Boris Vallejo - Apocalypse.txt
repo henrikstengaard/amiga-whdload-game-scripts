@@ -1,3 +1,0 @@
-Name    : Boris Vallejo
-Groups  : Apocalypse Bay
-Whdload : BorisVallejoSlide.Slave

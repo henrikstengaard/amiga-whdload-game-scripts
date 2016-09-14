@@ -1,6 +1,0 @@
-cd A-Games:W/WorldRugby
-IF $whdloadargs EQ ""
-  whdload WorldRugby.Slave
-ELSE
-  whdload WorldRugby.Slave $whdloadargs
-ENDIF

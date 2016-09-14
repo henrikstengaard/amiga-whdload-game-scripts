@@ -1,6 +1,0 @@
-cd A-Games:J/JohnMaddenFootball
-IF $whdloadargs EQ ""
-  whdload JohnMaddenFootball.slave
-ELSE
-  whdload JohnMaddenFootball.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Brian the Lion
-Publisher : Psygnosis
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : BrianTheLionAGA.slave

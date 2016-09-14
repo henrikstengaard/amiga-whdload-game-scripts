@@ -1,6 +1,0 @@
-cd A-Demos:O/OneStone
-IF $whdloadargs EQ ""
-  whdload OneStone.slave
-ELSE
-  whdload OneStone.slave $whdloadargs
-ENDIF

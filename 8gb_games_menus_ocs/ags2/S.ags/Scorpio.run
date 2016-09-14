@@ -1,6 +1,0 @@
-cd A-Games:S/Scorpio
-IF $whdloadargs EQ ""
-  whdload Scorpio.Slave
-ELSE
-  whdload Scorpio.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:S/SevenGatesOfJambalaImage
-IF $whdloadargs EQ ""
-  whdload SevenGatesOfJambalaImage.slave
-ELSE
-  whdload SevenGatesOfJambalaImage.slave $whdloadargs
-ENDIF

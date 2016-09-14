@@ -1,6 +1,0 @@
-cd A-Games2:Z/ZOut
-IF $whdloadargs EQ ""
-  whdload ZOut.Slave
-ELSE
-  whdload ZOut.Slave $whdloadargs
-ENDIF

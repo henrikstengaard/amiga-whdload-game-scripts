@@ -1,6 +1,0 @@
-cd A-Games2:S/Seek&Destroy
-IF $whdloadargs EQ ""
-  whdload Seek&Destroy.Slave
-ELSE
-  whdload Seek&Destroy.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:W/WingsOfFury
-IF $whdloadargs EQ ""
-  whdload WingsOfFury.Slave
-ELSE
-  whdload WingsOfFury.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:Z/Zarathrusta
-IF $whdloadargs EQ ""
-  whdload Zarathrusta.slave
-ELSE
-  whdload Zarathrusta.slave $whdloadargs
-ENDIF

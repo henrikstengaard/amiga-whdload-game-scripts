@@ -1,6 +1,0 @@
-cd A-Games2:Z/ZoneWarrior
-IF $whdloadargs EQ ""
-  whdload ZoneWarrior.slave
-ELSE
-  whdload ZoneWarrior.slave $whdloadargs
-ENDIF

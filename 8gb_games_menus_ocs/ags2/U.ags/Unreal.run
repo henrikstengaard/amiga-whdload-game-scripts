@@ -1,6 +1,0 @@
-cd A-Games:U/Unreal
-IF $whdloadargs EQ ""
-  whdload Unreal.Slave
-ELSE
-  whdload Unreal.Slave $whdloadargs
-ENDIF

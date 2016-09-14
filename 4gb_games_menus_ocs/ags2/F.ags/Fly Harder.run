@@ -1,6 +1,0 @@
-cd A-Games1:F/FlyHarder
-IF $whdloadargs EQ ""
-  whdload FlyHarder.slave
-ELSE
-  whdload FlyHarder.slave $whdloadargs
-ENDIF

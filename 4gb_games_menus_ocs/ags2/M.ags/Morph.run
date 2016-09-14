@@ -1,6 +1,0 @@
-cd A-Games1:M/Morph
-IF $whdloadargs EQ ""
-  whdload Morph.Slave
-ELSE
-  whdload Morph.Slave $whdloadargs
-ENDIF

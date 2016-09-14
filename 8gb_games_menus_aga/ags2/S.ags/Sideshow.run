@@ -1,6 +1,0 @@
-cd A-Games:S/SideShow
-IF $whdloadargs EQ ""
-  whdload SideShow.Slave
-ELSE
-  whdload SideShow.Slave $whdloadargs
-ENDIF

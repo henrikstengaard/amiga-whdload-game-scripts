@@ -1,6 +1,0 @@
-cd A-Games:B/BlackViperAGA
-IF $whdloadargs EQ ""
-  whdload BlackViperAGA.Slave
-ELSE
-  whdload BlackViperAGA.Slave $whdloadargs
-ENDIF

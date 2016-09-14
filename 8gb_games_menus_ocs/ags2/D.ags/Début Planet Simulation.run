@@ -1,6 +1,0 @@
-cd A-Games:D/DebutPlanetSimulation
-IF $whdloadargs EQ ""
-  whdload DebutPlanetSimulation.Slave
-ELSE
-  whdload DebutPlanetSimulation.Slave $whdloadargs
-ENDIF

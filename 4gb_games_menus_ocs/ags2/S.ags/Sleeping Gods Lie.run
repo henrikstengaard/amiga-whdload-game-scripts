@@ -1,6 +1,0 @@
-cd A-Games2:S/SleepingGodsLie
-IF $whdloadargs EQ ""
-  whdload SleepingGodsLie.Slave
-ELSE
-  whdload SleepingGodsLie.Slave $whdloadargs
-ENDIF

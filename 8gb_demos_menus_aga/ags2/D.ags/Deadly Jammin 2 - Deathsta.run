@@ -1,6 +1,0 @@
-cd A-Demos:D/DeadlyJammin2
-IF $whdloadargs EQ ""
-  whdload DeadlyJammin2.Slave
-ELSE
-  whdload DeadlyJammin2.Slave $whdloadargs
-ENDIF

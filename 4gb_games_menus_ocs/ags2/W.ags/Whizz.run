@@ -1,6 +1,0 @@
-cd A-Games2:W/Whizz
-IF $whdloadargs EQ ""
-  whdload Whizz.slave
-ELSE
-  whdload Whizz.slave $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Memorial Songs
-Groups  : Alcatraz
-Type    : Musicdisk
-Whdload : MemorialSongs.Slave

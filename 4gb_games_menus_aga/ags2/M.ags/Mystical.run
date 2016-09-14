@@ -1,6 +1,0 @@
-cd A-Games2:M/Mystical
-IF $whdloadargs EQ ""
-  whdload Mystical.Slave
-ELSE
-  whdload Mystical.Slave $whdloadargs
-ENDIF

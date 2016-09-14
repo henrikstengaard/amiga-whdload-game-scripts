@@ -1,6 +1,0 @@
-cd A-Games:S/Spherical
-IF $whdloadargs EQ ""
-  whdload Spherical.Slave
-ELSE
-  whdload Spherical.Slave $whdloadargs
-ENDIF

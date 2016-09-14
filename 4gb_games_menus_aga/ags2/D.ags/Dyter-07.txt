@@ -1,5 +1,0 @@
-Name      : Dyter-07
-Publisher : ReLINE Software
-Year      : 1990
-Players   : 1 Only
-Whdload   : Dyter07.slave

@@ -1,6 +1,0 @@
-cd A-Games:T/TimesOfLore
-IF $whdloadargs EQ ""
-  whdload TimesOfLore.Slave
-ELSE
-  whdload TimesOfLore.Slave $whdloadargs
-ENDIF

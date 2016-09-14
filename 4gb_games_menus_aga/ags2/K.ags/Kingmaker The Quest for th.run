@@ -1,6 +1,0 @@
-cd A-Games1:K/KingmakerQuestForTheCrown
-IF $whdloadargs EQ ""
-  whdload KingmakerQuestForTheCrown.Slave
-ELSE
-  whdload KingmakerQuestForTheCrown.Slave $whdloadargs
-ENDIF

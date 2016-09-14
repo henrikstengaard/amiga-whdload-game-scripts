@@ -1,6 +1,0 @@
-cd A-Demos:W/WorldsWave
-IF $whdloadargs EQ ""
-  whdload WorldsWave.Slave
-ELSE
-  whdload WorldsWave.Slave $whdloadargs
-ENDIF

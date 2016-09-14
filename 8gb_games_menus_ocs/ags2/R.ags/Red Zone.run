@@ -1,6 +1,0 @@
-cd A-Games:R/RedZone
-IF $whdloadargs EQ ""
-  whdload RedZone.Slave
-ELSE
-  whdload RedZone.Slave $whdloadargs
-ENDIF

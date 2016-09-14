@@ -1,6 +1,0 @@
-cd A-Games:P/PGATourGolf
-IF $whdloadargs EQ ""
-  whdload PGATourGolf.Slave
-ELSE
-  whdload PGATourGolf.Slave $whdloadargs
-ENDIF

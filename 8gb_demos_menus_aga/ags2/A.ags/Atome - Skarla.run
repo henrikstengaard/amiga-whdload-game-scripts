@@ -1,6 +1,0 @@
-cd A-Demos:A/Atome
-IF $whdloadargs EQ ""
-  whdload Atome.Slave
-ELSE
-  whdload Atome.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:S/SensibleWorldOfMoonSoccer
-IF $whdloadargs EQ ""
-  whdload SensibleWorldOfMoonSoccer.Slave
-ELSE
-  whdload SensibleWorldOfMoonSoccer.Slave $whdloadargs
-ENDIF

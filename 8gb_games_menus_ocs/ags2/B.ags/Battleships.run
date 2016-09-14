@@ -1,6 +1,0 @@
-cd A-Games:B/Battleships
-IF $whdloadargs EQ ""
-  whdload Battleships.slave
-ELSE
-  whdload Battleships.slave $whdloadargs
-ENDIF

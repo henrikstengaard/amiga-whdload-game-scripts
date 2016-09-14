@@ -1,6 +1,0 @@
-cd A-Games:Q/QuestForTimeBirdImage
-IF $whdloadargs EQ ""
-  whdload QuestForTimeBirdImage.Slave
-ELSE
-  whdload QuestForTimeBirdImage.Slave $whdloadargs
-ENDIF

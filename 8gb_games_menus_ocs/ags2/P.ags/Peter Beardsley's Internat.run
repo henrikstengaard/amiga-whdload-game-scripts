@@ -1,6 +1,0 @@
-cd A-Games:P/PeterBeardsleysIF
-IF $whdloadargs EQ ""
-  whdload PeterBeardsleysIF.Slave
-ELSE
-  whdload PeterBeardsleysIF.Slave $whdloadargs
-ENDIF

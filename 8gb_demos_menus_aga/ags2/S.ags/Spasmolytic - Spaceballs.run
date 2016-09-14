@@ -1,6 +1,0 @@
-cd A-Demos:S/Spasmolytic
-IF $whdloadargs EQ ""
-  whdload Spasmolytic.slave
-ELSE
-  whdload Spasmolytic.slave $whdloadargs
-ENDIF

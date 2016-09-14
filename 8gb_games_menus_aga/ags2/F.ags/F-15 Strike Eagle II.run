@@ -1,6 +1,0 @@
-cd A-Games:F/F15StrikeEagle2
-IF $whdloadargs EQ ""
-  whdload F15StrikeEagle2.Slave
-ELSE
-  whdload F15StrikeEagle2.Slave $whdloadargs
-ENDIF

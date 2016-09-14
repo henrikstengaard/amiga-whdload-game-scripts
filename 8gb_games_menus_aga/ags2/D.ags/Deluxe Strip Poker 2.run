@@ -1,6 +1,0 @@
-cd A-Games:D/DeluxeStripPoker2
-IF $whdloadargs EQ ""
-  whdload DeluxeStripPoker2.Slave
-ELSE
-  whdload DeluxeStripPoker2.Slave $whdloadargs
-ENDIF

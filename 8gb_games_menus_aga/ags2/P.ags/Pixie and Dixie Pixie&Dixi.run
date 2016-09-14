@@ -1,6 +1,0 @@
-cd A-Games:P/PixieAndDixie
-IF $whdloadargs EQ ""
-  whdload Pixie&Dixie.slave
-ELSE
-  whdload Pixie&Dixie.slave $whdloadargs
-ENDIF

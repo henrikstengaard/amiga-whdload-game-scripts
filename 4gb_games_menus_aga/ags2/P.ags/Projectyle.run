@@ -1,6 +1,0 @@
-cd A-Games2:P/Projectyle
-IF $whdloadargs EQ ""
-  whdload Projectyle.slave
-ELSE
-  whdload Projectyle.slave $whdloadargs
-ENDIF

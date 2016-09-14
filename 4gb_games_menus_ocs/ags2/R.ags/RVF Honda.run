@@ -1,6 +1,0 @@
-cd A-Games2:R/RVFHonda
-IF $whdloadargs EQ ""
-  whdload RVFHonda.Slave
-ELSE
-  whdload RVFHonda.Slave $whdloadargs
-ENDIF

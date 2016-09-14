@@ -1,6 +1,0 @@
-cd A-Demos:S/Stag2
-IF $whdloadargs EQ ""
-  whdload Stag2.slave
-ELSE
-  whdload Stag2.slave $whdloadargs
-ENDIF

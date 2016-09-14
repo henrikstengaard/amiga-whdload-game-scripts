@@ -1,6 +1,0 @@
-cd A-Demos:M/MegademoSOS
-IF $whdloadargs EQ ""
-  whdload MegademoSOS.Slave
-ELSE
-  whdload MegademoSOS.Slave $whdloadargs
-ENDIF

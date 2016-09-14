@@ -1,6 +1,0 @@
-cd A-Games:O/OrbitalDestroyer
-IF $whdloadargs EQ ""
-  whdload OrbitalDestroyer.Slave
-ELSE
-  whdload OrbitalDestroyer.Slave $whdloadargs
-ENDIF

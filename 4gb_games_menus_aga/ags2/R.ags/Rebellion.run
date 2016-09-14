@@ -1,6 +1,0 @@
-cd A-Games2:R/Rebellion
-IF $whdloadargs EQ ""
-  whdload Rebellion.slave
-ELSE
-  whdload Rebellion.slave $whdloadargs
-ENDIF

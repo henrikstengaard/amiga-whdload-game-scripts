@@ -1,6 +1,0 @@
-cd A-Demos:O/Oasis
-IF $whdloadargs EQ ""
-  whdload Oasis.Slave
-ELSE
-  whdload Oasis.Slave $whdloadargs
-ENDIF

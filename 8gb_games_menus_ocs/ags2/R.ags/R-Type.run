@@ -1,6 +1,0 @@
-cd A-Games:R/RType
-IF $whdloadargs EQ ""
-  whdload RType.Slave
-ELSE
-  whdload RType.Slave $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Surf Ninjas
-Publisher : MicroValue
-Year      : 1994
-Players   : 1 Only
-Whdload   : SurfNinjasAGA.slave

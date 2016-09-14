@@ -1,6 +1,0 @@
-Name    : Assemblo
-Groups  : World Industries
-Type    : Intro
-Party   : Assembly 1992
-Rank    : N/a
-Whdload : Assemblo.Slave

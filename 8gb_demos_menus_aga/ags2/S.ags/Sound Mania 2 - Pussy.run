@@ -1,6 +1,0 @@
-cd A-Demos:S/SoundMania2Pussy
-IF $whdloadargs EQ ""
-  whdload SoundMania2Pussy.Slave
-ELSE
-  whdload SoundMania2Pussy.Slave $whdloadargs
-ENDIF

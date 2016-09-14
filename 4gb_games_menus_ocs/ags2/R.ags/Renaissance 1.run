@@ -1,6 +1,0 @@
-cd A-Games2:R/R??sselsheim
-IF $whdloadargs EQ ""
-  whdload R??sselsheim.Slave
-ELSE
-  whdload R??sselsheim.Slave $whdloadargs
-ENDIF

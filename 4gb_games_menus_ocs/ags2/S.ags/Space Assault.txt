@@ -1,5 +1,0 @@
-Name      : Space Assault
-Publisher : Magic Soft (Software 2000)
-Year      : 1991
-Players   : 1
-Whdload   : SpaceAssault.slave

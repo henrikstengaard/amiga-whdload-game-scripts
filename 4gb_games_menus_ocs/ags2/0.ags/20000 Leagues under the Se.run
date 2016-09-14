@@ -1,6 +1,0 @@
-cd A-Games1:0-9/20000LeaguesUnderTheSea
-IF $whdloadargs EQ ""
-  whdload 20000LeaguesUnderTheSea.Slave
-ELSE
-  whdload 20000LeaguesUnderTheSea.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games:K/KwikSnax
-IF $whdloadargs EQ ""
-  whdload KwikSnax.slave
-ELSE
-  whdload KwikSnax.slave $whdloadargs
-ENDIF

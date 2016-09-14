@@ -1,6 +1,0 @@
-cd A-Games:D/DeathTrap
-IF $whdloadargs EQ ""
-  whdload DeathTrap.Slave
-ELSE
-  whdload DeathTrap.Slave $whdloadargs
-ENDIF

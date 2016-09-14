@@ -1,6 +1,0 @@
-cd A-Games1:H/Hyperion
-IF $whdloadargs EQ ""
-  whdload Hyperion.Slave
-ELSE
-  whdload Hyperion.Slave $whdloadargs
-ENDIF

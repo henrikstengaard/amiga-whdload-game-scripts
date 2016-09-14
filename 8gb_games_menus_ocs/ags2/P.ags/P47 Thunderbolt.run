@@ -1,6 +1,0 @@
-cd A-Games:P/P47Thunderbolt
-IF $whdloadargs EQ ""
-  whdload P47Thunderbolt.Slave
-ELSE
-  whdload P47Thunderbolt.Slave $whdloadargs
-ENDIF

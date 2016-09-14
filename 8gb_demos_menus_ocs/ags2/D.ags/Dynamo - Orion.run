@@ -1,6 +1,0 @@
-cd A-Demos:D/Dynamo
-IF $whdloadargs EQ ""
-  whdload Dynamo.Slave
-ELSE
-  whdload Dynamo.Slave $whdloadargs
-ENDIF

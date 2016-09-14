@@ -1,6 +1,0 @@
-Name      : Sk??rmtrolden Hugo
-Publisher : Silverrock Productions
-Year      : 1991
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : SkaermtroldenHugoDk.Slave

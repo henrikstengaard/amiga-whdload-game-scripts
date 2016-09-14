@@ -1,6 +1,0 @@
-cd A-Games:T/TotalRecall
-IF $whdloadargs EQ ""
-  whdload TotalRecall.slave
-ELSE
-  whdload TotalRecall.slave $whdloadargs
-ENDIF

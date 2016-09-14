@@ -1,6 +1,0 @@
-cd A-Games:S/SabreTeam
-IF $whdloadargs EQ ""
-  whdload SabreTeam.Slave
-ELSE
-  whdload SabreTeam.Slave $whdloadargs
-ENDIF

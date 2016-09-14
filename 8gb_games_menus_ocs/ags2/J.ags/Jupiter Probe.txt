@@ -1,5 +1,0 @@
-Name      : Jupiter Probe
-Publisher : Microdeal (MichTron)
-Year      : 1987
-Players   : 1 - 2 (1 simultaneous)
-Whdload   : JupiterProbe.Slave

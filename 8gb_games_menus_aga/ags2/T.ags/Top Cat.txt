@@ -1,5 +1,0 @@
-Name      : Top Cat
-Publisher : Hi-Tec (PAL Developments)
-Year      : 1991
-Players   : 1
-Whdload   : TopCat.Slave

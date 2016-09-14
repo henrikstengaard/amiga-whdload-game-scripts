@@ -1,6 +1,0 @@
-cd A-Games:B/BodyBlows
-IF $whdloadargs EQ ""
-  whdload BodyBlows.Slave
-ELSE
-  whdload BodyBlows.Slave $whdloadargs
-ENDIF

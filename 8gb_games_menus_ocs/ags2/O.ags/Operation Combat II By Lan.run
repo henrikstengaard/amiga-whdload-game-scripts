@@ -1,6 +1,0 @@
-cd A-Games:O/OperationCombat2
-IF $whdloadargs EQ ""
-  whdload OperationCombat2.Slave
-ELSE
-  whdload OperationCombat2.Slave $whdloadargs
-ENDIF

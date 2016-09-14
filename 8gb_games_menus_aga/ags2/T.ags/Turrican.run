@@ -1,6 +1,0 @@
-cd A-Games:T/Turrican
-IF $whdloadargs EQ ""
-  whdload Turrican.slave
-ELSE
-  whdload Turrican.slave $whdloadargs
-ENDIF

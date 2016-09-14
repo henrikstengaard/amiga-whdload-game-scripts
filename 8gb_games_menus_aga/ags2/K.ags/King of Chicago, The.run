@@ -1,6 +1,0 @@
-cd A-Games:K/KingOfChicago
-IF $whdloadargs EQ ""
-  whdload KingOfChicago.Slave
-ELSE
-  whdload KingOfChicago.Slave $whdloadargs
-ENDIF

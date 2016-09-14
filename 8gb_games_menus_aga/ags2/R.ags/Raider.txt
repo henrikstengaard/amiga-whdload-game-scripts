@@ -1,5 +1,0 @@
-Name      : Raider
-Publisher : Impressions
-Year      : 1989
-Players   : 1 Only
-Whdload   : Raider.Slave

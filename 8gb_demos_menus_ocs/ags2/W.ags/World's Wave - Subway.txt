@@ -1,4 +1,0 @@
-Name    : World's Wave
-Groups  : Subway
-Type    : Musicdisk
-Whdload : WorldsWave.Slave

@@ -1,6 +1,0 @@
-cd A-Games2:W/WesternGames/data
-IF $whdloadargs EQ ""
-  whdload WesternGames.slave
-ELSE
-  whdload WesternGames.slave $whdloadargs
-ENDIF

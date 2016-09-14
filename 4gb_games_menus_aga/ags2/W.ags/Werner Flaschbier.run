@@ -1,6 +1,0 @@
-cd A-Games1:F/Flaschbier
-IF $whdloadargs EQ ""
-  whdload Flaschbier.Slave
-ELSE
-  whdload Flaschbier.Slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:S/SASCombatSimulatorQArcade
-IF $whdloadargs EQ ""
-  whdload SASCombatSimulatorQArcade.Slave
-ELSE
-  whdload SASCombatSimulatorQArcade.Slave $whdloadargs
-ENDIF

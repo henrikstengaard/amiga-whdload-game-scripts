@@ -1,6 +1,0 @@
-cd A-Demos:T/TopKaraoke3
-IF $whdloadargs EQ ""
-  whdload TopKaraoke3.Slave
-ELSE
-  whdload TopKaraoke3.Slave $whdloadargs
-ENDIF

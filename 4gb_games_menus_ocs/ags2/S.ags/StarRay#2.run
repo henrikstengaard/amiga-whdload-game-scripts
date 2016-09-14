@@ -1,6 +1,0 @@
-cd A-Games2:S/StarRay2Disk
-IF $whdloadargs EQ ""
-  whdload StarRay2Disk.slave
-ELSE
-  whdload StarRay2Disk.slave $whdloadargs
-ENDIF

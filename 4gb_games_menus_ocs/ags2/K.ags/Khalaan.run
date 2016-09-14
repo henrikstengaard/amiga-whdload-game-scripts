@@ -1,6 +1,0 @@
-cd A-Games1:K/Khalaan
-IF $whdloadargs EQ ""
-  whdload Khalaan.Slave
-ELSE
-  whdload Khalaan.Slave $whdloadargs
-ENDIF

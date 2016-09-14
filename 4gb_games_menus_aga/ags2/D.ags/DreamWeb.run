@@ -1,6 +1,0 @@
-cd A-Games1:D/DreamWebAGA
-IF $whdloadargs EQ ""
-  whdload DreamWebAGA.Slave
-ELSE
-  whdload DreamWebAGA.Slave $whdloadargs
-ENDIF

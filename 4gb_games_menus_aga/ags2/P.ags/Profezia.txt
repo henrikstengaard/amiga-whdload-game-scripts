@@ -1,5 +1,0 @@
-Name      : Profezia
-Publisher : Genias
-Year      : 1991
-Players   : 1
-Whdload   : Profezia.Slave

@@ -1,6 +1,0 @@
-cd A-Games2:X/XmasLemmingsDemo1991
-IF $whdloadargs EQ ""
-  whdload XmasLemmingsDemo1991.slave
-ELSE
-  whdload XmasLemmingsDemo1991.slave $whdloadargs
-ENDIF

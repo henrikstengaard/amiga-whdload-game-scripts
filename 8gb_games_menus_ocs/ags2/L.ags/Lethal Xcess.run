@@ -1,6 +1,0 @@
-cd A-Games:L/LethalXcess
-IF $whdloadargs EQ ""
-  whdload LethalXcess.slave
-ELSE
-  whdload LethalXcess.slave $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd A-Games2:O/OgAGA
-IF $whdloadargs EQ ""
-  whdload OgAGA.Slave
-ELSE
-  whdload OgAGA.Slave $whdloadargs
-ENDIF

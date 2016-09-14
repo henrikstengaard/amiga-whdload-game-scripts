@@ -1,6 +1,0 @@
-cd A-Games:B/BlockOut
-IF $whdloadargs EQ ""
-  whdload BlockOut.slave
-ELSE
-  whdload BlockOut.slave $whdloadargs
-ENDIF

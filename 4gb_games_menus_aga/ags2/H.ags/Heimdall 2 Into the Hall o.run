@@ -1,6 +1,0 @@
-cd A-Games1:H/Heimdall2AGA
-IF $whdloadargs EQ ""
-  whdload Heimdall2AGA.Slave
-ELSE
-  whdload Heimdall2AGA.Slave $whdloadargs
-ENDIF

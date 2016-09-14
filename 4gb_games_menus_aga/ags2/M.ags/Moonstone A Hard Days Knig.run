@@ -1,6 +1,0 @@
-cd A-Games2:M/Moonstone
-IF $whdloadargs EQ ""
-  whdload Moonstone.Slave
-ELSE
-  whdload Moonstone.Slave $whdloadargs
-ENDIF

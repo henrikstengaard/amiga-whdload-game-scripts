@@ -1,6 +1,0 @@
-cd A-Games1:B/BigRun
-IF $whdloadargs EQ ""
-  whdload BigRun.slave
-ELSE
-  whdload BigRun.slave $whdloadargs
-ENDIF

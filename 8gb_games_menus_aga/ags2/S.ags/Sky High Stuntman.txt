@@ -1,5 +1,0 @@
-Name      : Sky High Stuntman
-Publisher : Codemasters
-Year      : 1991
-Players   : 1 Only
-Whdload   : SkyHighStuntman.Slave

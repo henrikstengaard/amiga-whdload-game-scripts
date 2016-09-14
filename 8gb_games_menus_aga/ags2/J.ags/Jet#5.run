@@ -1,6 +1,0 @@
-cd A-Games:J/Jet&SceneryDisk11
-IF $whdloadargs EQ ""
-  whdload Jet&SceneryDisk11.Slave
-ELSE
-  whdload Jet&SceneryDisk11.Slave $whdloadargs
-ENDIF

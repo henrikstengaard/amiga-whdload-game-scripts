@@ -1,6 +1,0 @@
-cd A-Games2:P/Prince
-IF $whdloadargs EQ ""
-  whdload Prince.Slave
-ELSE
-  whdload Prince.Slave $whdloadargs
-ENDIF

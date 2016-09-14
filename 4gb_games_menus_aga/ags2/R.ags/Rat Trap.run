@@ -1,6 +1,0 @@
-cd A-Games2:R/RatTrap
-IF $whdloadargs EQ ""
-  whdload RatTrap.Slave
-ELSE
-  whdload RatTrap.Slave $whdloadargs
-ENDIF

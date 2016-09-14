@@ -1,6 +1,0 @@
-cd A-Demos:I/InspirationIsNone
-IF $whdloadargs EQ ""
-  whdload InspirationIsNone.Slave
-ELSE
-  whdload InspirationIsNone.Slave $whdloadargs
-ENDIF

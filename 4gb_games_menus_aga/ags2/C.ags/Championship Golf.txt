@@ -1,6 +1,0 @@
-Name      : Championship Golf
-Publisher : Activision
-Year      : 1986
-Genre     : Sports - Golf
-Players   : 1 Only
-Whdload   : ChampionshipGolf.Slave

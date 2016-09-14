@@ -1,4 +1,0 @@
-Name    : World's wave IV
-Groups  : Subway
-Type    : Musicdisk
-Whdload : WorldsWave4.Slave

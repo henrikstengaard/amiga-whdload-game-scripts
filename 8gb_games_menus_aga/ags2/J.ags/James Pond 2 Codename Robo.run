@@ -1,6 +1,0 @@
-cd A-Games:J/JamesPond2AGA
-IF $whdloadargs EQ ""
-  whdload JamesPond2AGA.Slave
-ELSE
-  whdload JamesPond2AGA.Slave $whdloadargs
-ENDIF

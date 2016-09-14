@@ -1,6 +1,0 @@
-cd A-Games:M/MetalMasters
-IF $whdloadargs EQ ""
-  whdload MetalMasters.Slave
-ELSE
-  whdload MetalMasters.Slave $whdloadargs
-ENDIF

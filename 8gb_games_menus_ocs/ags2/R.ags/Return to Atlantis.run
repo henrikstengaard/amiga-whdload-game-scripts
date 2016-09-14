@@ -1,6 +1,0 @@
-cd A-Games:R/ReturnToAtlantis
-IF $whdloadargs EQ ""
-  whdload ReturnToAtlantis.Slave
-ELSE
-  whdload ReturnToAtlantis.Slave $whdloadargs
-ENDIF

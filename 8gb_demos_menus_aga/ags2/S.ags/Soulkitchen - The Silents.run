@@ -1,6 +1,0 @@
-cd A-Demos:S/SoulKitchen
-IF $whdloadargs EQ ""
-  whdload SoulKitchen.slave
-ELSE
-  whdload SoulKitchen.slave $whdloadargs
-ENDIF

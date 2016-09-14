@@ -1,6 +1,0 @@
-cd A-Games:D/DonkTheSamuraiDuck
-IF $whdloadargs EQ ""
-  whdload DonkTheSamuraiDuck.slave
-ELSE
-  whdload DonkTheSamuraiDuck.slave $whdloadargs
-ENDIF

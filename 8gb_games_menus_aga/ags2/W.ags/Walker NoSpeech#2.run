@@ -1,6 +1,0 @@
-cd A-Games:W/WalkerDecrunched
-IF $whdloadargs EQ ""
-  whdload WalkerDecrunchedNoSpeech.Slave
-ELSE
-  whdload WalkerDecrunchedNoSpeech.Slave $whdloadargs
-ENDIF
