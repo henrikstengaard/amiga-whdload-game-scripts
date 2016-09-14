@@ -279,14 +279,21 @@ foreach($whdloadSlave in $whdloadSlaves)
 			$whdloadSlaveRunPath = $assignName
 		}
 
-		$whdloadSlaveStartPath = ($assignPath + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath))
+		# set whdload slave start path and replace backslash with slash
+		$whdloadSlaveStartPath = ($assignPath + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)).Replace("\", "/")
+
+		# add tailing slash, if not present
+		if ($whdloadSlaveStartPath -notmatch '/$')
+		{
+			$whdloadSlaveStartPath += "/"
+		}
 
 		# set whdload slave file name
 		$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
 
 		# build ags 2 menu item run lines
 		$ags2MenuItemRunLines = @( 
-			("cd " + $whdloadSlaveStartPath).Replace("\", "/"), 
+			("cd " + $whdloadSlaveStartPath), 
 			"IF `$whdloadargs EQ """"", 
 			("  whdload " + $whdloadSlaveFileName), 
 			"ELSE", 
