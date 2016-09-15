@@ -160,7 +160,6 @@ $whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshots
 $ags2MenuItemFileNameIndex = @{}
 
 # igame variables
-$iGameMenuItemNameIndex = @{}
 $iGameGamesListLines = @()
 $iGameReposLines = @()
 
@@ -174,6 +173,7 @@ else
 }
 
 # other output variables
+$validatePathsScriptPart = 1
 $validatePathsScriptLines = @()
 $whdloadListAGS2Lines = @()
 $whdloadListiGameLines = @()
@@ -198,6 +198,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 				{
 					# write whdload list ags2 file 
 					$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
+
+					if(!(Test-Path -Path $ags2MenuAssignDir))
+					{
+						md $ags2MenuAssignDir | Out-Null
+					}
+					
 					$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
 					[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
 					
@@ -209,6 +215,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 				{
 					# write whdload list igame file 
 					$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
+
+					if(!(Test-Path -Path $iGameAssignDir))
+					{
+						md $iGameAssignDir | Out-Null
+					}
+
 					$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
 					[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
 
@@ -308,9 +320,9 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$ags2MenuItemFileNameIndex.Set_Item($ags2MenuItemFileName, $true)
 		
 
-		$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
+		$ags2MenuDir = [System.IO.Path]::Combine($ags2OutputPath, "menu")
 		$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
-		$ags2MenuItemPath = [System.IO.Path]::Combine($ags2MenuAssignDir, $ags2MenuItemIndexName + ".ags")
+		$ags2MenuItemPath = [System.IO.Path]::Combine($ags2MenuDir, $ags2MenuItemIndexName + ".ags")
 
 		if(!(Test-Path -Path $ags2MenuItemPath))
 		{
@@ -385,24 +397,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# add whdload and ags2 names to list
 		$whdloadListiGameLines += (("{0,-" + $whdloadListColumnsPadding + "}   {1}") -f $whdloadSlave.WhdloadName, $iGameMenuItemName)
 
-		# build new igama menu item name, if it already exists in index
-		# if ($iGameMenuItemNameIndex.ContainsKey($iGameMenuItemName))
-		# {
-		# 	$count = 2
-			
-		# 	do
-		# 	{
-		# 		$newiGameMenuItemName = ($iGameMenuItemName + ' #' + $count)
-		# 		$count++
-		# 	} while ($iGameMenuItemNameIndex.ContainsKey($newiGameMenuItemName))
-
-		# 	$iGameMenuItemName = $newiGameMenuItemName
-		# }
-		
-		# # add igame menu item name to index
-		# $iGameMenuItemNameIndex.Set_Item($iGameMenuItemName, $true)
-
-
 		# build igame game gameslist lines
 		$iGameGameLines = @(
 			"index=0",
@@ -474,10 +468,21 @@ foreach($whdloadSlave in $whdloadSlaves)
 					"ENDIF") 
 		}
 	}
+
+	# write validate paths script part, if it has more than 2000 lines
+	if ($validatePathsScriptLines.Count -gt 2000)
+	{
+		# write validate paths script file
+		$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsScriptPart))
+		[System.IO.File]::WriteAllText($validatePathsScriptFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($validatePathsScriptLines -join "`n")), [System.Text.Encoding]::ASCII)
+
+		$validatePathsScriptPart++
+		$validatePathsScriptLines = @()
+	}
 }
 
 # write validate paths script file
-$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, "validate_paths")
+$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsScriptPart))
 [System.IO.File]::WriteAllText($validatePathsScriptFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($validatePathsScriptLines -join "`n")), [System.Text.Encoding]::ASCII)
 
 # write whdload slaves file
@@ -488,6 +493,12 @@ if ($ags2)
 {
 	# write whdload list ags2 file 
 	$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
+
+	if(!(Test-Path -Path $ags2MenuAssignDir))
+	{
+		md $ags2MenuAssignDir | Out-Null
+	}
+	
 	$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
 	[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
 }
@@ -496,6 +507,12 @@ if ($iGame)
 {
 	# write whdload list igame file 
 	$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
+
+	if(!(Test-Path -Path $iGameAssignDir))
+	{
+		md $iGameAssignDir | Out-Null
+	}
+
 	$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
 	[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
 	
