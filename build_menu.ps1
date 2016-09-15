@@ -85,17 +85,30 @@ function BuildName($nameFormat, $whdloadSlave)
 	# set whdload slave file name
 	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
 
-	# TODO: make better extra
-	$extra = $whdloadSlaveFileName -replace '\.slave', '' -replace $whdloadSlave.WhdloadName, ''
+	# detect if extra is needed
+	$extra = $whdloadSlaveFileName -replace '\.slave', ''
 
-	if ($extra.length -gt 0)
+	if ($name -ne $extra)
 	{
-		$name += ' ' + $extra
+		$extra = $extra.Replace($whdloadSlave.WhdloadName, '')
+
+		if ($extra.length -gt 0)
+		{
+			$name += ' ' + $extra
+		}
 	}
-	
+
 	return $name
 }
 
+function WriteAmigaTextLines($path, $lines)
+{
+	$iso88591 = [System.Text.Encoding]::GetEncoding("ISO-8859-1");
+	$utf8 = [System.Text.Encoding]::UTF8;
+
+	$amigaTextBytes = [System.Text.Encoding]::Convert($utf8, $iso88591, $utf8.GetBytes($lines -join "`n"))
+	[System.IO.File]::WriteAllText($path, $iso88591.GetString($amigaTextBytes), $iso88591)
+}
 
 # resolve paths
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
@@ -173,8 +186,8 @@ else
 }
 
 # other output variables
-$validatePathsScriptPart = 1
-$validatePathsScriptLines = @()
+$validatePathsPartScript = 1
+$validatePathsPartScriptLines = @()
 $whdloadListAGS2Lines = @()
 $whdloadListiGameLines = @()
 $whdloadListColumnsPadding = ($whdloadSlaves | sort @{expression={$_.WhdloadName.Length};Ascending=$false} | Select-Object -First 1).WhdloadName.Length
@@ -196,7 +209,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 			{
 				if ($ags2)
 				{
-					# write whdload list ags2 file 
 					$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
 
 					if(!(Test-Path -Path $ags2MenuAssignDir))
@@ -204,8 +216,9 @@ foreach($whdloadSlave in $whdloadSlaves)
 						md $ags2MenuAssignDir | Out-Null
 					}
 					
+					# write whdload list ags2 file 
 					$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
-					[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
+					WriteAmigaTextLines $whdloadListAGS2File $whdloadListAGS2Lines
 					
 					# reset whdload list ags2
 					$whdloadListAGS2Lines = @()
@@ -213,7 +226,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 				if ($iGame)
 				{
-					# write whdload list igame file 
 					$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
 
 					if(!(Test-Path -Path $iGameAssignDir))
@@ -221,8 +233,9 @@ foreach($whdloadSlave in $whdloadSlaves)
 						md $iGameAssignDir | Out-Null
 					}
 
+					# write whdload list igame file 
 					$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
-					[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
+					WriteAmigaTextLines $whdloadListiGameFile $whdloadListiGameLines
 
 					# reset whdload list igame
 					$whdloadListiGameLines = @()
@@ -267,11 +280,11 @@ foreach($whdloadSlave in $whdloadSlaves)
 	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
 
 	# add whdload slave path checks to validate paths script 
-	$validatePathsScriptLines += @( 
-			("IF NOT EXIST """ + $whdloadSlaveStartPath + """"), 
+	$validatePathsPartScriptLines += @( 
+			("IF NOT EXISTS """ + $whdloadSlaveStartPath + """"), 
 			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + "' doesn't exist!"""), 
 			"ENDIF", 
-			("IF NOT EXIST """ + $whdloadSlaveStartPath + $whdloadSlaveFileName + """"), 
+			("IF NOT EXISTS """ + $whdloadSlaveStartPath + $whdloadSlaveFileName + """"), 
 			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + $whdloadSlaveFileName + "' doesn't exist!"""), 
 			"ENDIF") 
 
@@ -345,10 +358,10 @@ foreach($whdloadSlave in $whdloadSlaves)
 			("  whdload """ + $whdloadSlaveFileName + """ `$whdloadargs"), 
 			"ENDIF" )
 
-		# write ags 2 menu item run file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2MenuItemRunFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2MenuItemRunLines -join "`n")), [System.Text.Encoding]::ASCII)
+		# write ags 2 menu item run file
+		WriteAmigaTextLines $ags2MenuItemRunFile $ags2MenuItemRunLines
 
-		
+
 		# build ags 2 menu item txt lines
 		$ags2MenuItemTxtLines = @()
 
@@ -381,8 +394,8 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$ags2MenuItemTxtLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "Whdload", [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath))
 
 
-		# write ags 2 menu item txt file in ascii encoding
-		[System.IO.File]::WriteAllText($ags2MenuItemTxtFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($ags2MenuItemTxtLines -join "`n")), [System.Text.Encoding]::ASCII)
+		# write ags 2 menu item txt file
+		WriteAmigaTextLines $ags2MenuItemTxtFile $ags2MenuItemTxtLines
 	}
 
 
@@ -462,28 +475,39 @@ foreach($whdloadSlave in $whdloadSlaves)
 			$whdloadiGameScreenshotFile = $whdloadSlaveStartPath + "igame.iff"
 
 			# add igame path checks to validate paths script
-			$validatePathsScriptLines += @( 
-					("IF NOT EXIST """ + $whdloadiGameScreenshotFile + """"), 
+			$validatePathsPartScriptLines += @( 
+					("IF NOT EXISTS """ + $whdloadiGameScreenshotFile + """"), 
 					("  ECHO ""ERROR: Path '" + $whdloadiGameScreenshotFile +  "' doesn't exist!"""), 
 					"ENDIF") 
 		}
 	}
 
-	# write validate paths script part, if it has more than 2000 lines
-	if ($validatePathsScriptLines.Count -gt 2000)
+	# write validate paths part script, if it has more than 2000 lines
+	if ($validatePathsPartScriptLines.Count -gt 2000)
 	{
-		# write validate paths script file
-		$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsScriptPart))
-		[System.IO.File]::WriteAllText($validatePathsScriptFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($validatePathsScriptLines -join "`n")), [System.Text.Encoding]::ASCII)
+		# write validate paths part script file
+		$validatePathsPartScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsPartScript))
+		WriteAmigaTextLines $validatePathsPartScriptFile $validatePathsPartScriptLines
 
-		$validatePathsScriptPart++
-		$validatePathsScriptLines = @()
+		$validatePathsPartScript++
+		$validatePathsPartScriptLines = @()
 	}
 }
 
+# write validate paths part script file
+$validatePathsPartScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsPartScript))
+WriteAmigaTextLines $validatePathsPartScriptFile $validatePathsPartScriptLines
+
+$validatePathsScriptLines = @()
+
+for ($i = 1; $i -le $validatePathsPartScript; $i++)
+{
+	$validatePathsScriptLines += ("execute " + "validate_paths_part" + $i)
+}
+
 # write validate paths script file
-$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, ("validate_paths_part" + $validatePathsScriptPart))
-[System.IO.File]::WriteAllText($validatePathsScriptFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($validatePathsScriptLines -join "`n")), [System.Text.Encoding]::ASCII)
+$validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, "validate_paths")
+WriteAmigaTextLines $validatePathsScriptFile $validatePathsScriptLines
 
 # write whdload slaves file
 $whdloadSlavesFile = [System.IO.Path]::Combine($outputPath, "whdload_slaves.csv")
@@ -491,21 +515,20 @@ $whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesFile -NoTypeInfor
 
 if ($ags2)
 {
-	# write whdload list ags2 file 
 	$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
 
 	if(!(Test-Path -Path $ags2MenuAssignDir))
 	{
 		md $ags2MenuAssignDir | Out-Null
 	}
-	
+
+	# write whdload list ags2 file 
 	$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
-	[System.IO.File]::WriteAllText($whdloadListAGS2File, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListAGS2Lines -join "`n")), [System.Text.Encoding]::ASCII)
+	WriteAmigaTextLines $whdloadListAGS2File $whdloadListAGS2Lines
 }
 
 if ($iGame)
 {
-	# write whdload list igame file 
 	$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
 
 	if(!(Test-Path -Path $iGameAssignDir))
@@ -513,14 +536,15 @@ if ($iGame)
 		md $iGameAssignDir | Out-Null
 	}
 
+	# write whdload list igame file 
 	$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
-	[System.IO.File]::WriteAllText($whdloadListiGameFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($whdloadListiGameLines -join "`n")), [System.Text.Encoding]::ASCII)
+	WriteAmigaTextLines $whdloadListiGameFile $whdloadListiGameLines
 	
-	# write igame gameslist file in ascii encoding
+	# write igame gameslist file
 	$iGameGamesListFile = [System.IO.Path]::Combine($iGameOutputPath, "gameslist.")
-	[System.IO.File]::WriteAllText($iGameGamesListFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($iGameGamesListLines -join "`n")), [System.Text.Encoding]::ASCII)
+	WriteAmigaTextLines $iGameGamesListFile $iGameGamesListLines
 
-	# write igame repos file in ascii encoding
+	# write igame repos file
 	$iGameReposFile = [System.IO.Path]::Combine($iGameOutputPath, "repos.")
-	[System.IO.File]::WriteAllText($iGameReposFile, [System.Text.Encoding]::ASCII.GetString([System.Text.Encoding]::UTF8.GetBytes($iGameReposLines -join "`n")), [System.Text.Encoding]::ASCII)
+	WriteAmigaTextLines $iGameReposFile $iGameReposLines
 }
