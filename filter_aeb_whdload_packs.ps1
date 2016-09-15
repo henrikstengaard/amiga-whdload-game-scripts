@@ -334,10 +334,10 @@ if (!$skipCopying)
 		}
 
 		# copy whdload directory, if it doesn't exist
-		if(!(test-path -path $whdloadDestinationPath))
-		{
-			Copy-Item $whdloadSourcePath -Destination $whdloadDestinationIndexPath -Recurse
-		}
+		#if(!(test-path -path $whdloadDestinationPath))
+		#{
+			Copy-Item $whdloadSourcePath -Destination $whdloadDestinationIndexPath -Recurse -Force
+		#}
 	}
 }
 
