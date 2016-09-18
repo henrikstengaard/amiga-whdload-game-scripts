@@ -188,8 +188,8 @@ else
 # other output variables
 $validatePathsPartScript = 1
 $validatePathsPartScriptLines = @()
-$whdloadListAGS2Lines = @()
-$whdloadListiGameLines = @()
+$ags2WhdloadListLines = @()
+$iGameWhdloadListLines = @()
 $whdloadListColumnsPadding = ($whdloadSlaves | sort @{expression={$_.WhdloadName.Length};Ascending=$false} | Select-Object -First 1).WhdloadName.Length
 
 
@@ -207,40 +207,6 @@ foreach($whdloadSlave in $whdloadSlaves)
 			# increase partition number, if whdload size and partition size is greater than partition split size
 			if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
 			{
-				if ($ags2)
-				{
-					$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
-
-					if(!(Test-Path -Path $ags2MenuAssignDir))
-					{
-						md $ags2MenuAssignDir | Out-Null
-					}
-					
-					# write whdload list ags2 file 
-					$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
-					WriteAmigaTextLines $whdloadListAGS2File $whdloadListAGS2Lines
-					
-					# reset whdload list ags2
-					$whdloadListAGS2Lines = @()
-				}
-
-				if ($iGame)
-				{
-					$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
-
-					if(!(Test-Path -Path $iGameAssignDir))
-					{
-						md $iGameAssignDir | Out-Null
-					}
-
-					# write whdload list igame file 
-					$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
-					WriteAmigaTextLines $whdloadListiGameFile $whdloadListiGameLines
-
-					# reset whdload list igame
-					$whdloadListiGameLines = @()
-				}
-
 				$partitionNumber++
 				$partitionSize = 0
 
@@ -294,8 +260,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# build ags2 name
 		$ags2Name = Capitalize (BuildName $ags2NameFormat $whdloadSlave)
 
-		# add whdload and ags2 names to list
-		$whdloadListAGS2Lines += (("{0,-" + $whdloadListColumnsPadding + "}   {1}") -f $whdloadSlave.WhdloadName, $ags2Name)
+		# add whdload slave to ags2 whdload list
+		if ($ags2WhdloadListLines.Count -eq 0)
+		{
+			$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "AGS2")
+		}
+		$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $ags2Name)
 
 		# remove invalid characters from AGS 2 menu item file name
 		$ags2MenuItemFileName = $ags2Name -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
@@ -407,8 +377,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		$iGameMenuItemName = Capitalize $iGameName
 
-		# add whdload and ags2 names to list
-		$whdloadListiGameLines += (("{0,-" + $whdloadListColumnsPadding + "}   {1}") -f $whdloadSlave.WhdloadName, $iGameMenuItemName)
+		# add whdload slave to igame whdload list
+		if ($iGameWhdloadListLines.Count -eq 0)
+		{
+			$iGameWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "iGame")
+		}
+		$iGameWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $iGameMenuItemName)
 
 		# build igame game gameslist lines
 		$iGameGameLines = @(
@@ -515,30 +489,16 @@ $whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesFile -NoTypeInfor
 
 if ($ags2)
 {
-	$ags2MenuAssignDir = [System.IO.Path]::Combine($ags2OutputPath, $assignPath)
-
-	if(!(Test-Path -Path $ags2MenuAssignDir))
-	{
-		md $ags2MenuAssignDir | Out-Null
-	}
-
-	# write whdload list ags2 file 
-	$whdloadListAGS2File = [System.IO.Path]::Combine($ags2MenuAssignDir, "WhdloadListAGS2")
-	WriteAmigaTextLines $whdloadListAGS2File $whdloadListAGS2Lines
+	# write ags2 whdload list file 
+	$ags2WhdloadListFile = [System.IO.Path]::Combine($ags2OutputPath, "AGS2 WHDLoad List")
+	WriteAmigaTextLines $ags2WhdloadListFile $ags2WhdloadListLines
 }
 
 if ($iGame)
 {
-	$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
-
-	if(!(Test-Path -Path $iGameAssignDir))
-	{
-		md $iGameAssignDir | Out-Null
-	}
-
-	# write whdload list igame file 
-	$whdloadListiGameFile = [System.IO.Path]::Combine($iGameAssignDir, "WhdloadListiGame")
-	WriteAmigaTextLines $whdloadListiGameFile $whdloadListiGameLines
+	# write igame whdload list file 
+	$iGameWhdloadListFile = [System.IO.Path]::Combine($iGameOutputPath, "iGame WHDLoad List")
+	WriteAmigaTextLines $iGameWhdloadListFile $iGameWhdloadListLines
 	
 	# write igame gameslist file
 	$iGameGamesListFile = [System.IO.Path]::Combine($iGameOutputPath, "gameslist.")
