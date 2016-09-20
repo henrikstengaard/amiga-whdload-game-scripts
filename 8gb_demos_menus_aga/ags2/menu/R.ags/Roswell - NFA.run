@@ -1,0 +1,6 @@
+cd "A-Demos:R/Roswell/"
+IF $whdloadargs EQ ""
+  whdload "Roswell.Slave"
+ELSE
+  whdload "Roswell.Slave" $whdloadargs
+ENDIF

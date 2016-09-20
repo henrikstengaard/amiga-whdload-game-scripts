@@ -1,0 +1,6 @@
+Name      : Jinks
+Publisher : Go!
+Year      : 1988
+Genre     : Arcade - Breakout/Pong
+Players   : 1 Only
+Whdload   : Jinks.Slave

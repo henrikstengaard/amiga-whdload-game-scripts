@@ -1,0 +1,4 @@
+Name    : Exage 1
+Groups  : Burning Independence
+Type    : Musicdisk
+Whdload : Exage.Slave

@@ -1,0 +1,6 @@
+Name      : F-19 Stealth Fighter
+Publisher : MicroProse Software
+Year      : 1990
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : F19StealthFighter.Slave

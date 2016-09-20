@@ -1,0 +1,5 @@
+Name      : Dynasty Wars
+Publisher : US Gold
+Year      : 1990
+Players   : 1 or 2
+Whdload   : DynastyWars.slave

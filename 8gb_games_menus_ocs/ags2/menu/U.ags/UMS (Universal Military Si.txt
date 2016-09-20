@@ -1,0 +1,5 @@
+Name      : UMS (Universal Military Simulator)
+Publisher : Rainbird
+Year      : 1988
+Players   : 1 -2 (1 simultaneous)
+Whdload   : UniversalMilitarySim.Slave

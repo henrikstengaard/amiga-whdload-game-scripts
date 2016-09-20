@@ -1,0 +1,4 @@
+Name    : Audio-X
+Groups  : The Crusaders
+Type    : Musicdisk
+Whdload : AudioX.slave

@@ -1,0 +1,6 @@
+Name    : Elysium
+Groups  : Sanity
+Type    : Demo
+Party   : Amiga Summit Convention 1991
+Rank    : 3rd
+Whdload : Elysium.Slave

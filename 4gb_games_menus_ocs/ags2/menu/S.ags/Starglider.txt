@@ -1,0 +1,5 @@
+Name      : Starglider
+Publisher : Rainbird
+Year      : 1987
+Players   : 1 Only
+Whdload   : Starglider.Slave

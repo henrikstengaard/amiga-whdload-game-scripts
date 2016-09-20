@@ -1,0 +1,6 @@
+cd "A-Games:T/TurnNBurn/"
+IF $whdloadargs EQ ""
+  whdload "TurnNBurn.slave"
+ELSE
+  whdload "TurnNBurn.slave" $whdloadargs
+ENDIF

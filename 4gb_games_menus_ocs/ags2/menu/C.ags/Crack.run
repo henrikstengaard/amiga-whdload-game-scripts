@@ -1,0 +1,6 @@
+cd "A-Games1:C/Crack/"
+IF $whdloadargs EQ ""
+  whdload "Crack.Slave"
+ELSE
+  whdload "Crack.Slave" $whdloadargs
+ENDIF

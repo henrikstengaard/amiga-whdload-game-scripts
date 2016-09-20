@@ -1,0 +1,5 @@
+Name      : Winter Olympics
+Publisher : U.S. Gold
+Year      : 1994
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : WinterOlympics.Slave

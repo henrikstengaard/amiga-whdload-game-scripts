@@ -1,0 +1,4 @@
+Name    : Soundtracker Injury 2
+Groups  : Electronic Artists
+Type    : Musicdisk
+Whdload : SoundtrackerInjury2.Slave

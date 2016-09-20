@@ -1,0 +1,6 @@
+cd "A-Games2:S/Sliders/"
+IF $whdloadargs EQ ""
+  whdload "Sliders.Slave"
+ELSE
+  whdload "Sliders.Slave" $whdloadargs
+ENDIF

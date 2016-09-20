@@ -1,0 +1,5 @@
+Name      : Inertia Drive
+Publisher : Ozi Soft
+Year      : 1987
+Players   : 1
+Whdload   : InertiaDrive.Slave

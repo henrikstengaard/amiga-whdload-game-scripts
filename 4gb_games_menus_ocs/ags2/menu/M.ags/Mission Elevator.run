@@ -1,0 +1,6 @@
+cd "A-Games1:M/MissionElevator/"
+IF $whdloadargs EQ ""
+  whdload "MissionElevator.Slave"
+ELSE
+  whdload "MissionElevator.Slave" $whdloadargs
+ENDIF

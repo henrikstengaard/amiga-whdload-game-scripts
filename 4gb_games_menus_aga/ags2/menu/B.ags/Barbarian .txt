@@ -1,0 +1,6 @@
+Name      : Barbarian
+Publisher : Psygnosis
+Year      : 1987
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : BarbarianPsygnosis.Slave

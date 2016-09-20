@@ -1,0 +1,6 @@
+cd "A-Games:P/PsychoKillerCDTV/"
+IF $whdloadargs EQ ""
+  whdload "PsychoKillerCDTV.Slave"
+ELSE
+  whdload "PsychoKillerCDTV.Slave" $whdloadargs
+ENDIF

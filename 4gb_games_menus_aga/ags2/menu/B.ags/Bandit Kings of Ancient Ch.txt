@@ -1,0 +1,6 @@
+Name      : Bandit Kings of Ancient China
+Publisher : Infogrames
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 to 7
+Whdload   : BanditKings.Slave

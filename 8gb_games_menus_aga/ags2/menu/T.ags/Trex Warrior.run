@@ -1,0 +1,6 @@
+cd "A-Games:T/TrexWarrior/"
+IF $whdloadargs EQ ""
+  whdload "TrexWarrior.slave"
+ELSE
+  whdload "TrexWarrior.slave" $whdloadargs
+ENDIF

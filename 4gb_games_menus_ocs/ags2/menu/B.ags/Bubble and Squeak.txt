@@ -1,0 +1,6 @@
+Name      : Bubble and Squeak
+Publisher : Audiogenic
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Bubble&Squeak.slave

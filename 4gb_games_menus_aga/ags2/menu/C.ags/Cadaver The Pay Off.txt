@@ -1,0 +1,6 @@
+Name      : Cadaver: The Pay Off
+Publisher : Renegade
+Year      : 1991
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : Cadaver&CadaverThePayoff.Slave

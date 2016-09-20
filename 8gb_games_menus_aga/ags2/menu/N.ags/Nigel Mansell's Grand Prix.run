@@ -1,0 +1,6 @@
+cd "A-Games:N/NigelMansellsGrandPrix/"
+IF $whdloadargs EQ ""
+  whdload "NigelMansellsGrandPrix.Slave"
+ELSE
+  whdload "NigelMansellsGrandPrix.Slave" $whdloadargs
+ENDIF

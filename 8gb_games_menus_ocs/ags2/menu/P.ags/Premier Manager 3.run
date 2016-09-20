@@ -1,0 +1,6 @@
+cd "A-Games:P/PremierManager3/"
+IF $whdloadargs EQ ""
+  whdload "PremierManager3.Slave"
+ELSE
+  whdload "PremierManager3.Slave" $whdloadargs
+ENDIF

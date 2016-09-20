@@ -1,0 +1,6 @@
+Name      : Cycles, The: International Grand Prix Racing
+Publisher : Accolade
+Year      : 1989
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : Cycles.Slave

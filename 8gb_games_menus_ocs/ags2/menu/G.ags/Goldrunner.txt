@@ -1,0 +1,5 @@
+Name      : Goldrunner
+Publisher : Microdeal
+Year      : 1987
+Players   : 1 or 2
+Whdload   : Goldrunner.slave

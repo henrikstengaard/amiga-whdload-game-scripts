@@ -1,0 +1,6 @@
+cd "A-Games:S/SleepingGodsLie/"
+IF $whdloadargs EQ ""
+  whdload "SleepingGodsLie.Slave"
+ELSE
+  whdload "SleepingGodsLie.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:M/MegademoIt/"
+IF $whdloadargs EQ ""
+  whdload "MegademoIt.Slave"
+ELSE
+  whdload "MegademoIt.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:Q/Quadrel/"
+IF $whdloadargs EQ ""
+  whdload "Quadrel.Slave"
+ELSE
+  whdload "Quadrel.Slave" $whdloadargs
+ENDIF

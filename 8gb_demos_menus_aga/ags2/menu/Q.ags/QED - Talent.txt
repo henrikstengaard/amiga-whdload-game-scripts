@@ -1,0 +1,6 @@
+Name    : QED
+Groups  : Talent
+Type    : Demo
+Party   : The Gathering 1993
+Rank    : 4th
+Whdload : QED.Slave

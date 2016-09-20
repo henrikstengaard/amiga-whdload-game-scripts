@@ -1,0 +1,6 @@
+cd "A-Games1:H/Harlequin512KB/"
+IF $whdloadargs EQ ""
+  whdload "Harlequin512KB.Slave"
+ELSE
+  whdload "Harlequin512KB.Slave" $whdloadargs
+ENDIF

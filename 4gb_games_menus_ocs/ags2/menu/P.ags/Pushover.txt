@@ -1,0 +1,6 @@
+Name      : Pushover
+Publisher : Ocean
+Year      : 1992
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : PushOver.slave

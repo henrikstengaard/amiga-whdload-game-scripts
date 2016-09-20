@@ -1,0 +1,6 @@
+cd "A-Demos:N/Nexus7AGA/"
+IF $whdloadargs EQ ""
+  whdload "Nexus7AGA.Slave"
+ELSE
+  whdload "Nexus7AGA.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Lost Patrol, The
+Publisher : Ocean
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : LostPatrol.Slave

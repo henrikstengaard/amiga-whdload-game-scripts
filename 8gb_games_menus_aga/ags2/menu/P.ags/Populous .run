@@ -1,0 +1,6 @@
+cd "A-Games:P/Populous&DataDisks/"
+IF $whdloadargs EQ ""
+  whdload "Populous.Slave"
+ELSE
+  whdload "Populous.Slave" $whdloadargs
+ENDIF

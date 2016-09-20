@@ -1,0 +1,6 @@
+cd "A-Games1:B/BlackShadow/"
+IF $whdloadargs EQ ""
+  whdload "BlackShadow.Slave"
+ELSE
+  whdload "BlackShadow.Slave" $whdloadargs
+ENDIF

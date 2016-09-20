@@ -1,0 +1,6 @@
+cd "A-Games1:E/Epic/"
+IF $whdloadargs EQ ""
+  whdload "Epic.slave"
+ELSE
+  whdload "Epic.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:C/CarrierCommand/"
+IF $whdloadargs EQ ""
+  whdload "CarrierCommand.Slave"
+ELSE
+  whdload "CarrierCommand.Slave" $whdloadargs
+ENDIF

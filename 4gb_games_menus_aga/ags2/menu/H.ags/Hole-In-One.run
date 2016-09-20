@@ -1,0 +1,6 @@
+cd "A-Games1:H/HoleInOne/"
+IF $whdloadargs EQ ""
+  whdload "HoleInOne.Slave"
+ELSE
+  whdload "HoleInOne.Slave" $whdloadargs
+ENDIF

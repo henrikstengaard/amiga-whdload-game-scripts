@@ -1,0 +1,6 @@
+cd "A-Games:L/LastNinja2/"
+IF $whdloadargs EQ ""
+  whdload "LastNinja2.slave"
+ELSE
+  whdload "LastNinja2.slave" $whdloadargs
+ENDIF

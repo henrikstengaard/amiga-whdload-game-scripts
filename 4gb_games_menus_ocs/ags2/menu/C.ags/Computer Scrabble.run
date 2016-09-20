@@ -1,0 +1,6 @@
+cd "A-Games1:C/ComputerScrabble/"
+IF $whdloadargs EQ ""
+  whdload "ComputerScrabble.Slave"
+ELSE
+  whdload "ComputerScrabble.Slave" $whdloadargs
+ENDIF

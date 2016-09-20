@@ -1,0 +1,4 @@
+Name    : Mini Soundbox III
+Groups  : Shadow Light,Level 4
+Type    : Musicdisk
+Whdload : MiniSoundbox3.Slave

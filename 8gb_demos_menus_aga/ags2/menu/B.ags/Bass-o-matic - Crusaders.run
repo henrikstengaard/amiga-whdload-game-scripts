@@ -1,0 +1,6 @@
+cd "A-Demos:B/BassOMatic/"
+IF $whdloadargs EQ ""
+  whdload "BassOMatic.Slave"
+ELSE
+  whdload "BassOMatic.Slave" $whdloadargs
+ENDIF

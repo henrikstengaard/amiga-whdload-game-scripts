@@ -1,0 +1,6 @@
+Name    : Inspiration is none
+Groups  : Anarchy
+Type    : Demo
+Party   : Amega 1991
+Rank    : 6th
+Whdload : InspirationIsNone.Slave

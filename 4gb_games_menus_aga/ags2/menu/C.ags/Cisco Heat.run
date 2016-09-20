@@ -1,0 +1,6 @@
+cd "A-Games1:C/CiscoHeat/"
+IF $whdloadargs EQ ""
+  whdload "CiscoHeat.Slave"
+ELSE
+  whdload "CiscoHeat.Slave" $whdloadargs
+ENDIF

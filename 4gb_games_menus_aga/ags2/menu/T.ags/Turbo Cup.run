@@ -1,0 +1,6 @@
+cd "A-Games2:T/TurboCup/"
+IF $whdloadargs EQ ""
+  whdload "TurboCup.Slave"
+ELSE
+  whdload "TurboCup.Slave" $whdloadargs
+ENDIF

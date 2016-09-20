@@ -1,0 +1,6 @@
+Name      : World Rugby
+Publisher : Zeppelin Games
+Year      : 1992
+Genre     : Sports - Rugby
+Players   : 1 Only
+Whdload   : WorldRugby.Slave

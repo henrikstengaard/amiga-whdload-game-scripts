@@ -1,0 +1,6 @@
+cd "A-Games:T/TreasureIslandDizzyCD32/"
+IF $whdloadargs EQ ""
+  whdload "TreasureIslandDizzyCD32.slave"
+ELSE
+  whdload "TreasureIslandDizzyCD32.slave" $whdloadargs
+ENDIF

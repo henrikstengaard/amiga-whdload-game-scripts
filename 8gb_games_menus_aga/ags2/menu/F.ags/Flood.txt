@@ -1,0 +1,6 @@
+Name      : Flood
+Publisher : Electronic Arts
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Flood.Slave

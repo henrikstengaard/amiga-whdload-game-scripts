@@ -1,0 +1,6 @@
+Name      : Ultima V: Warriors of Destiny
+Publisher : Origin Systems
+Year      : 1989
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : Ultima5.Slave

@@ -1,0 +1,6 @@
+Name    : Epilepsia 2
+Groups  : Amnesia
+Type    : Musicdisk
+Party   : The Party 1992
+Rank    : N/a
+Whdload : Epilepsia2.Slave

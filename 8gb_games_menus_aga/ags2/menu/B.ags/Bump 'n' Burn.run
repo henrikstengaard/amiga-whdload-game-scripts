@@ -1,0 +1,6 @@
+cd "A-Games:B/BumpNBurnCD32/"
+IF $whdloadargs EQ ""
+  whdload "BumpNBurnCD32.Slave"
+ELSE
+  whdload "BumpNBurnCD32.Slave" $whdloadargs
+ENDIF

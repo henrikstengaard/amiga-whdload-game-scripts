@@ -1,0 +1,6 @@
+cd "A-Games:R/Roboter/"
+IF $whdloadargs EQ ""
+  whdload "Roboter.Slave"
+ELSE
+  whdload "Roboter.Slave" $whdloadargs
+ENDIF

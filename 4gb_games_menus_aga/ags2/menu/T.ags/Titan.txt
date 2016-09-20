@@ -1,0 +1,6 @@
+Name      : Titan
+Publisher : Titus Software
+Year      : 1989
+Genre     : Arcade - Breakout/Pong
+Players   : 1 Only
+Whdload   : Titan.slave

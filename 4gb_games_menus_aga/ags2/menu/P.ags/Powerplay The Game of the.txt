@@ -1,0 +1,6 @@
+Name      : Powerplay: The Game of the Gods
+Publisher : Arcana
+Year      : 1988
+Genre     : Educational - Quiz
+Players   : 1 to 4
+Whdload   : Powerplay.Slave

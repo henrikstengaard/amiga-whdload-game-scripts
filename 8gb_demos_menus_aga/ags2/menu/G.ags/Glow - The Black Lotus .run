@@ -1,0 +1,6 @@
+cd "A-Demos:G/GlowAGA/"
+IF $whdloadargs EQ ""
+  whdload "GlowAGA.slave"
+ELSE
+  whdload "GlowAGA.slave" $whdloadargs
+ENDIF

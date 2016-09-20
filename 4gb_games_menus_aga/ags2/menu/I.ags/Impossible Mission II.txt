@@ -1,0 +1,6 @@
+Name      : Impossible Mission II
+Publisher : Epyx
+Year      : 1988
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : ImpossibleMission2.Slave

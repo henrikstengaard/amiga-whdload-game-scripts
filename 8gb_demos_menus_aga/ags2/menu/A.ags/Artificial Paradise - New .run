@@ -1,0 +1,6 @@
+cd "A-Demos:A/ArtificialParadiseAGA/"
+IF $whdloadargs EQ ""
+  whdload "ArtificialParadiseAGA.slave"
+ELSE
+  whdload "ArtificialParadiseAGA.slave" $whdloadargs
+ENDIF

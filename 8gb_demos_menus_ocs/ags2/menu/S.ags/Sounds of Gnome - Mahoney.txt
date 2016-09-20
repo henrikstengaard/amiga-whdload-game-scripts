@@ -1,0 +1,4 @@
+Name    : Sounds of Gnome
+Groups  : Mahoney & Kaktus,Northstar
+Type    : Musicdisk
+Whdload : SoundsOfGnome.slave

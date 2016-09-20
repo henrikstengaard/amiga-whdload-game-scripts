@@ -1,0 +1,6 @@
+cd "A-Games1:D/DragonsLair3/"
+IF $whdloadargs EQ ""
+  whdload "DragonsLair3.Slave"
+ELSE
+  whdload "DragonsLair3.Slave" $whdloadargs
+ENDIF

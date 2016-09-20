@@ -1,0 +1,5 @@
+Name      : Alien Syndrome
+Publisher : ACE
+Year      : 1988
+Players   : 1 or 2, Simultaneous
+Whdload   : AlienSyndrome.Slave

@@ -1,0 +1,6 @@
+Name    : Spasmolytic
+Groups  : Spaceballs
+Type    : Demo
+Party   : Amega 1991
+Rank    : 5th
+Whdload : Spasmolytic.slave

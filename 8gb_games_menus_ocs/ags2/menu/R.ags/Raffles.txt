@@ -1,0 +1,6 @@
+Name      : Raffles
+Publisher : The Edge
+Year      : 1989
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : RafflesCDTV.slave

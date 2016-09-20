@@ -1,0 +1,5 @@
+Name      : Thunder Burner
+Publisher : Loriciel
+Year      : 1992
+Players   : 1 Only
+Whdload   : ThunderBurner.Slave

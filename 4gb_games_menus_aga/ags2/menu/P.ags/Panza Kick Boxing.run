@@ -1,0 +1,6 @@
+cd "A-Games2:P/PanzaKickBoxing/"
+IF $whdloadargs EQ ""
+  whdload "PanzaKickBoxing.Slave"
+ELSE
+  whdload "PanzaKickBoxing.Slave" $whdloadargs
+ENDIF

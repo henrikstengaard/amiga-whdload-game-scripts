@@ -1,0 +1,6 @@
+cd "A-Games:M/MeanStreets/"
+IF $whdloadargs EQ ""
+  whdload "MeanStreets.slave"
+ELSE
+  whdload "MeanStreets.slave" $whdloadargs
+ENDIF

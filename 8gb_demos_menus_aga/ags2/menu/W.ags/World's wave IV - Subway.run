@@ -1,0 +1,6 @@
+cd "A-Demos:W/WorldsWave4/"
+IF $whdloadargs EQ ""
+  whdload "WorldsWave4.Slave"
+ELSE
+  whdload "WorldsWave4.Slave" $whdloadargs
+ENDIF

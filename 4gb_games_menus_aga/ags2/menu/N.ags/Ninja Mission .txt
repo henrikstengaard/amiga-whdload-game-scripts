@@ -1,0 +1,5 @@
+Name      : Ninja Mission
+Publisher : Mastertronic
+Year      : 1987
+Players   : 1 Only
+Whdload   : NinjaMissionArcadia.Slave

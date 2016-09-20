@@ -1,0 +1,5 @@
+Name      : Pinball Prelude
+Publisher : Effigy Software
+Year      : 1996
+Genre     : Arcade - Pinball
+Whdload   : PinballPrelude.slave

@@ -1,0 +1,6 @@
+Name      : Impossible Mission 2025: The Special Edition
+Publisher : MicroProse Software
+Year      : 1993
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : ImpossibleMission2025.slave

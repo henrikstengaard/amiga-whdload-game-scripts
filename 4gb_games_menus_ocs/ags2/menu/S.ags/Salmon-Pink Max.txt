@@ -1,0 +1,5 @@
+Name      : Salmon-Pink Max
+Publisher : (unknown)
+Year      : 1990
+Players   : 1 or 2, Simultaneous
+Whdload   : SalmonPinkMax.Slave

@@ -1,0 +1,6 @@
+cd "A-Games1:C/CosmicSpacehead/"
+IF $whdloadargs EQ ""
+  whdload "CosmicSpacehead.slave"
+ELSE
+  whdload "CosmicSpacehead.slave" $whdloadargs
+ENDIF

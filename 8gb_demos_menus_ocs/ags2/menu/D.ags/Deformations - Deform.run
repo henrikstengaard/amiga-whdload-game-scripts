@@ -1,0 +1,6 @@
+cd "A-Demos:D/Deformations/"
+IF $whdloadargs EQ ""
+  whdload "Deformations.slave"
+ELSE
+  whdload "Deformations.slave" $whdloadargs
+ENDIF

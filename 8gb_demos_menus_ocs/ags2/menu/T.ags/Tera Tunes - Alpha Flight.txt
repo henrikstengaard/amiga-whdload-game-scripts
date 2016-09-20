@@ -1,0 +1,4 @@
+Name    : Tera Tunes
+Groups  : Alpha Flight
+Type    : Musicdisk
+Whdload : TeraTunes.Slave

@@ -1,0 +1,6 @@
+cd "A-Demos:P/PlasticPassion/"
+IF $whdloadargs EQ ""
+  whdload "PlasticPassion.Slave"
+ELSE
+  whdload "PlasticPassion.Slave" $whdloadargs
+ENDIF

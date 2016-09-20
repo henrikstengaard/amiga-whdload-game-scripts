@@ -1,0 +1,6 @@
+cd "A-Demos:M/MinorDefects/"
+IF $whdloadargs EQ ""
+  whdload "MinorDefects.Slave"
+ELSE
+  whdload "MinorDefects.Slave" $whdloadargs
+ENDIF

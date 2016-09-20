@@ -1,0 +1,5 @@
+Name      : Phalanx
+Publisher : Anco
+Year      : 1987
+Players   : 1 Only
+Whdload   : Phalanx.Slave

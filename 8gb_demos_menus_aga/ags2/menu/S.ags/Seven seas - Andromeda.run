@@ -1,0 +1,6 @@
+cd "A-Demos:S/SevenSeas/"
+IF $whdloadargs EQ ""
+  whdload "SevenSeas.Slave"
+ELSE
+  whdload "SevenSeas.Slave" $whdloadargs
+ENDIF

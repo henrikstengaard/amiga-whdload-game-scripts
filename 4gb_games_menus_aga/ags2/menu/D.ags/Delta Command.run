@@ -1,0 +1,6 @@
+cd "A-Games1:D/DeltaCommandArcadia/"
+IF $whdloadargs EQ ""
+  whdload "DeltaCommandArcadia.Slave"
+ELSE
+  whdload "DeltaCommandArcadia.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:P/PrimeMover/"
+IF $whdloadargs EQ ""
+  whdload "PrimeMover.Slave"
+ELSE
+  whdload "PrimeMover.Slave" $whdloadargs
+ENDIF

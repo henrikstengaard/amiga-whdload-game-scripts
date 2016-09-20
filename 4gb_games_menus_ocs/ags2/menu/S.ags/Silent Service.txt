@@ -1,0 +1,6 @@
+Name      : Silent Service
+Publisher : MicroProse Software
+Year      : 1986
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : SilentService.Slave

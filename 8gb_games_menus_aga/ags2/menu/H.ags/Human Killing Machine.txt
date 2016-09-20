@@ -1,0 +1,6 @@
+Name      : Human Killing Machine
+Publisher : US Gold
+Year      : 1989
+Genre     : Sports - Fighting
+Players   : 1 Only
+Whdload   : HumanKillingMachine.slave

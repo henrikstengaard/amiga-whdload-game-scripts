@@ -1,0 +1,6 @@
+Name      : Nightdawn
+Publisher : Magic Bytes
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Nightdawn.slave

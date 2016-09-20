@@ -1,0 +1,6 @@
+cd "A-Games1:L/LordsOfChaos&DataDisk/"
+IF $whdloadargs EQ ""
+  whdload "LordsOfChaos&DataDisk.Slave"
+ELSE
+  whdload "LordsOfChaos&DataDisk.Slave" $whdloadargs
+ENDIF

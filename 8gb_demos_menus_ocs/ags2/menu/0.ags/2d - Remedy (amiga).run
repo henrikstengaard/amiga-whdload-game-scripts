@@ -1,0 +1,6 @@
+cd "A-Demos:0-9/2D/"
+IF $whdloadargs EQ ""
+  whdload "2D.Slave"
+ELSE
+  whdload "2D.Slave" $whdloadargs
+ENDIF

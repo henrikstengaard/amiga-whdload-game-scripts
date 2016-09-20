@@ -1,0 +1,6 @@
+Name      : Beverly Hills Cop
+Publisher : Tynesoft
+Year      : 1990
+Genre     : Arcade - Multigenre
+Players   : 1 Only
+Whdload   : BeverlyHillsCop.slave

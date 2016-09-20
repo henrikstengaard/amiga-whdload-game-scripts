@@ -1,0 +1,6 @@
+cd "A-Games:M/MafdetAndTheBookOfTheDead/"
+IF $whdloadargs EQ ""
+  whdload "MafdetAndTheBookOfTheDead.slave"
+ELSE
+  whdload "MafdetAndTheBookOfTheDead.slave" $whdloadargs
+ENDIF

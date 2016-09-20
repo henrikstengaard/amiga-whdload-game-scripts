@@ -1,0 +1,6 @@
+cd "A-Games:F/Fuzzball/"
+IF $whdloadargs EQ ""
+  whdload "Intro.Slave"
+ELSE
+  whdload "Intro.Slave" $whdloadargs
+ENDIF

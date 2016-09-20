@@ -1,0 +1,6 @@
+Name      : Warlock's Quest
+Publisher : ERE Informatique
+Year      : 1988
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : WarlocksQuest.Slave

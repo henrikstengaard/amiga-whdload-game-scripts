@@ -1,0 +1,6 @@
+cd "A-Games1:B/Bubble&Squeak/"
+IF $whdloadargs EQ ""
+  whdload "Bubble&Squeak.slave"
+ELSE
+  whdload "Bubble&Squeak.slave" $whdloadargs
+ENDIF

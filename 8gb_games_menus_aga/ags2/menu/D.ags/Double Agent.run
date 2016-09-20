@@ -1,0 +1,6 @@
+cd "A-Games:D/DoubleAgent/"
+IF $whdloadargs EQ ""
+  whdload "DoubleAgent.slave"
+ELSE
+  whdload "DoubleAgent.slave" $whdloadargs
+ENDIF

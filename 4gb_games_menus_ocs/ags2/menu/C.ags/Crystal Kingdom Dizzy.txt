@@ -1,0 +1,5 @@
+Name      : Crystal Kingdom Dizzy
+Publisher : Codemasters
+Year      : 1993
+Players   : 1
+Whdload   : CrystalKingdomDizzy.slave

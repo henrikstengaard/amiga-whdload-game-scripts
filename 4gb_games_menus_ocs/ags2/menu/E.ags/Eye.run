@@ -1,0 +1,6 @@
+cd "A-Games1:E/Eye/"
+IF $whdloadargs EQ ""
+  whdload "Eye.Slave"
+ELSE
+  whdload "Eye.Slave" $whdloadargs
+ENDIF

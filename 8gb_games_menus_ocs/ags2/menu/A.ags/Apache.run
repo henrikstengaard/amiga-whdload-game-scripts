@@ -1,0 +1,6 @@
+cd "A-Games:A/Apache/"
+IF $whdloadargs EQ ""
+  whdload "Apache.Slave"
+ELSE
+  whdload "Apache.Slave" $whdloadargs
+ENDIF

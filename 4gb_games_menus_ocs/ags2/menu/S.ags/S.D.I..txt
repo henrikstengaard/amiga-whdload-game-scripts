@@ -1,0 +1,5 @@
+Name      : S.D.I.
+Publisher : Cinemaware
+Year      : 1987
+Players   : 1 Only
+Whdload   : SDICinemaware.Slave

@@ -1,0 +1,6 @@
+cd "A-Games1:L/Links&DataDisks/"
+IF $whdloadargs EQ ""
+  whdload "Links&DataDisks.Slave"
+ELSE
+  whdload "Links&DataDisks.Slave" $whdloadargs
+ENDIF

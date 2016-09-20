@@ -1,0 +1,5 @@
+Name      : Extrial
+Publisher : CompuTec Verlag
+Year      : 1995
+Players   : 1 Only
+Whdload   : Extrial.slave

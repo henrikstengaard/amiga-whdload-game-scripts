@@ -1,0 +1,6 @@
+Name      : Paragliding Simulation
+Publisher : Loriciel
+Year      : 1991
+Genre     : Sports - Miscellaneous
+Players   : 1 to 4
+Whdload   : ParaglidingSimulation.Slave

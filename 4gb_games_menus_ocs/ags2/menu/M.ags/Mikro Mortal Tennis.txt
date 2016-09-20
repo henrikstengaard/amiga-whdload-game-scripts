@@ -1,0 +1,5 @@
+Name      : Mikro Mortal Tennis
+Publisher : Epic Marketing
+Year      : 1999
+Genre     : Sports - Tennis
+Whdload   : MikroMortalTennis.Slave

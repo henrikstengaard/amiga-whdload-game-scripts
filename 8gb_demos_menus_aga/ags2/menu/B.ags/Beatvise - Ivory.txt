@@ -1,0 +1,4 @@
+Name    : Beatvise
+Groups  : Ivory
+Type    : Musicdisk
+Whdload : Beatvise.Slave

@@ -1,0 +1,5 @@
+Name      : Wanderer 3D
+Publisher : Elite
+Year      : 1988
+Players   : 1 Only
+Whdload   : Wanderer3D.Slave

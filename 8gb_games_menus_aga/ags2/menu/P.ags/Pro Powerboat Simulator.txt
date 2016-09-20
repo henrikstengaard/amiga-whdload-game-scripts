@@ -1,0 +1,6 @@
+Name      : Pro Powerboat Simulator
+Publisher : Codemasters
+Year      : 1990
+Genre     : Sports - Water
+Players   : 1 or 2, Simultaneous
+Whdload   : ProPowerBoatSimulator.Slave

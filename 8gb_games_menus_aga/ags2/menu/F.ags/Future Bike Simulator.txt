@@ -1,0 +1,5 @@
+Name      : Future Bike Simulator
+Publisher : Hi-Tec Software
+Year      : 1990
+Players   : 1 Only
+Whdload   : FutureBikeSimulator.Slave

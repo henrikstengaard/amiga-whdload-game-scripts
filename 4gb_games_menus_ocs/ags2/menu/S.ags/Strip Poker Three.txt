@@ -1,0 +1,6 @@
+Name      : Strip Poker Three
+Publisher : CDS Software
+Year      : 1991
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : StripPoker.Slave

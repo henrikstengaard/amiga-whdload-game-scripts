@@ -1,0 +1,6 @@
+Name      : Cogans Run
+Publisher : Softgang
+Year      : 1987
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : CogansRun.Slave

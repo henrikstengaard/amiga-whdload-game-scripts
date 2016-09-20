@@ -1,0 +1,6 @@
+Name      : Realms
+Publisher : Virgin Games
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Realms.Slave

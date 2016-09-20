@@ -1,0 +1,6 @@
+cd "A-Games2:S/SideWinder/"
+IF $whdloadargs EQ ""
+  whdload "Sidewinder.Slave"
+ELSE
+  whdload "Sidewinder.Slave" $whdloadargs
+ENDIF

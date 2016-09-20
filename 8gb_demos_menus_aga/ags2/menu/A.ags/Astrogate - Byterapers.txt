@@ -1,0 +1,4 @@
+Name    : Astrogate
+Groups  : Byterapers
+Type    : Demo
+Whdload : Astrogate.Slave

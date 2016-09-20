@@ -1,0 +1,6 @@
+Name      : World Soccer
+Publisher : Zeppelin Games
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : WorldSoccer.Slave

@@ -1,0 +1,6 @@
+cd "A-Demos:C/ClappingWorld/"
+IF $whdloadargs EQ ""
+  whdload "ClappingWorld.Slave"
+ELSE
+  whdload "ClappingWorld.Slave" $whdloadargs
+ENDIF

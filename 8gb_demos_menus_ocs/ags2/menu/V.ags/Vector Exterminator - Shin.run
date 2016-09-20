@@ -1,0 +1,6 @@
+cd "A-Demos:V/VectorExterminator/"
+IF $whdloadargs EQ ""
+  whdload "VectorExterminator.Slave"
+ELSE
+  whdload "VectorExterminator.Slave" $whdloadargs
+ENDIF

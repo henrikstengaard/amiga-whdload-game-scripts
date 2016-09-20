@@ -1,0 +1,6 @@
+cd "A-Demos:A/Analogia/"
+IF $whdloadargs EQ ""
+  whdload "Analogia.Slave"
+ELSE
+  whdload "Analogia.Slave" $whdloadargs
+ENDIF

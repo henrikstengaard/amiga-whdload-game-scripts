@@ -1,0 +1,6 @@
+Name      : Dragon's Lair
+Publisher : ReadySoft
+Year      : 1989
+Genre     : Adventure - Joystick only
+Players   : 1 Only
+Whdload   : DragonsLair&EscapeSlow.Slave

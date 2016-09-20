@@ -1,0 +1,6 @@
+cd "A-Games:X/XOut1Disk/"
+IF $whdloadargs EQ ""
+  whdload "XOut1Disk.Slave"
+ELSE
+  whdload "XOut1Disk.Slave" $whdloadargs
+ENDIF

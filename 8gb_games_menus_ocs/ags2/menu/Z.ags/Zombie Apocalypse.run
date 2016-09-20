@@ -1,0 +1,6 @@
+cd "A-Games:Z/ZombieApocalypse/"
+IF $whdloadargs EQ ""
+  whdload "ZombieApocalypse.Slave"
+ELSE
+  whdload "ZombieApocalypse.Slave" $whdloadargs
+ENDIF

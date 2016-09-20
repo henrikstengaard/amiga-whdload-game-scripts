@@ -1,0 +1,6 @@
+cd "A-Demos:F/FantasticPixVol1/"
+IF $whdloadargs EQ ""
+  whdload "FantasticPixVol1.Slave"
+ELSE
+  whdload "FantasticPixVol1.Slave" $whdloadargs
+ENDIF

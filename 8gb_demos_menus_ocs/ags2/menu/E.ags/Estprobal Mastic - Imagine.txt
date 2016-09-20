@@ -1,0 +1,4 @@
+Name    : Estprobal Mastic
+Groups  : Imagine
+Type    : Musicdisk
+Whdload : EstprobalMastic.Slave

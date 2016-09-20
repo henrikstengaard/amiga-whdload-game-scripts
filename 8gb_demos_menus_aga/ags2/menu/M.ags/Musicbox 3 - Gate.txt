@@ -1,0 +1,4 @@
+Name    : Musicbox 3
+Groups  : Gate
+Type    : Musicdisk
+Whdload : Musicbox3.Slave

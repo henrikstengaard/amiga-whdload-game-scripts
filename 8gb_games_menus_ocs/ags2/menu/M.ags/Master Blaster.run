@@ -1,0 +1,6 @@
+cd "A-Games:M/MasterBlaster/"
+IF $whdloadargs EQ ""
+  whdload "MasterBlaster.Slave"
+ELSE
+  whdload "MasterBlaster.Slave" $whdloadargs
+ENDIF

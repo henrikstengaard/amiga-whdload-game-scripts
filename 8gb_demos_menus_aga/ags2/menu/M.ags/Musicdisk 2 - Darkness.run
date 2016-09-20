@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicDisk2Darkness/"
+IF $whdloadargs EQ ""
+  whdload "MusicDisk2Darkness.Slave"
+ELSE
+  whdload "MusicDisk2Darkness.Slave" $whdloadargs
+ENDIF

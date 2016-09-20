@@ -1,0 +1,5 @@
+Name      : MIG-29 Soviet Fighter
+Publisher : Codemasters
+Year      : 1990
+Players   : 1 Only
+Whdload   : Mig29SovietFighter.Slave

@@ -1,0 +1,5 @@
+Name      : Super Street Fighter II Turbo
+Publisher : Gametek
+Year      : 1995
+Players   : 1 or 2, Simultaneous
+Whdload   : SuprStrtFtr2TrboCD32.slave

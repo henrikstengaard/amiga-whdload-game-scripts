@@ -1,0 +1,6 @@
+cd "A-Games:P/PortsOfCall/"
+IF $whdloadargs EQ ""
+  whdload "PortsOfCall.Slave"
+ELSE
+  whdload "PortsOfCall.Slave" $whdloadargs
+ENDIF

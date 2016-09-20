@@ -1,0 +1,6 @@
+Name      : 5th Gear
+Publisher : Hewson
+Year      : 1990
+Genre     : Racing - Miscellaneous
+Players   : 1 Only
+Whdload   : 5thGear.Slave

@@ -1,0 +1,5 @@
+Name      : Zynaps
+Publisher : Hewson
+Year      : 1988
+Players   : 1 or 2
+Whdload   : Zynaps.slave

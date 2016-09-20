@@ -1,0 +1,6 @@
+cd "A-Games:S/Seek&Destroy/"
+IF $whdloadargs EQ ""
+  whdload "Seek&Destroy.Slave"
+ELSE
+  whdload "Seek&Destroy.Slave" $whdloadargs
+ENDIF

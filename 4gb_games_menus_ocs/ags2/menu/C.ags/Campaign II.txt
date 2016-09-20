@@ -1,0 +1,6 @@
+Name      : Campaign II
+Publisher : Empire Software
+Year      : 1994
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Campaign2.slave

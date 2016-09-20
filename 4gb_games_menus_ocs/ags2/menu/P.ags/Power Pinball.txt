@@ -1,0 +1,6 @@
+Name      : Power Pinball
+Publisher : KarmaSoft
+Year      : 1989
+Genre     : Arcade - Pinball
+Players   : 1 to 4
+Whdload   : PowerPinballCDTV.slave

@@ -1,0 +1,6 @@
+cd "A-Demos:N/Numb/"
+IF $whdloadargs EQ ""
+  whdload "Numb.Slave"
+ELSE
+  whdload "Numb.Slave" $whdloadargs
+ENDIF

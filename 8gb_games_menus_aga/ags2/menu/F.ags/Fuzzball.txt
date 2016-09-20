@@ -1,0 +1,6 @@
+Name      : Fuzzball
+Publisher : System 3
+Year      : 1991
+Genre     : Platformer - Single Screen
+Players   : 1 or 2
+Whdload   : Fuzzball.Slave

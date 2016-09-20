@@ -1,0 +1,6 @@
+Name      : Incredible Crash Dummies, The
+Publisher : Virgin Interactive
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : IncredibleCrashDummies.slave

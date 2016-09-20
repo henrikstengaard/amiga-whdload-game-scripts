@@ -1,0 +1,6 @@
+Name      : Balance of Power: Geopolitics in the Nuclear Age
+Publisher : Mindscape
+Year      : 1987
+Genre     : Strategy - War
+Players   : 1 or 2
+Whdload   : BalanceOfPower.Slave

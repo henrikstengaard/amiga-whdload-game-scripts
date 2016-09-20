@@ -1,0 +1,6 @@
+Name      : Horror Zombies from the Crypt
+Publisher : Millennium
+Year      : 1991
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : HorrorZombiesFromTheCrypt.Slave

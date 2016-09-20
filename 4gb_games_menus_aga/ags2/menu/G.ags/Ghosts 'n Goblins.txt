@@ -1,0 +1,6 @@
+Name      : Ghosts 'n Goblins
+Publisher : Elite
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2
+Whdload   : GhostsNGoblins.slave

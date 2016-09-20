@@ -1,0 +1,6 @@
+cd "A-Demos:S/Sploosh/"
+IF $whdloadargs EQ ""
+  whdload "Sploosh.Slave"
+ELSE
+  whdload "Sploosh.Slave" $whdloadargs
+ENDIF

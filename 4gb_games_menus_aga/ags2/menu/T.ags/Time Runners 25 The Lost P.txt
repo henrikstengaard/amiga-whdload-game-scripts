@@ -1,0 +1,6 @@
+Name      : Time Runners 25: The Lost Planet Earth
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners25.Slave

@@ -1,0 +1,6 @@
+cd "A-Games2:P/ProspectorInTheMazesOfXor/"
+IF $whdloadargs EQ ""
+  whdload "ProspectorInTheMazesOfXor.Slave"
+ELSE
+  whdload "ProspectorInTheMazesOfXor.Slave" $whdloadargs
+ENDIF

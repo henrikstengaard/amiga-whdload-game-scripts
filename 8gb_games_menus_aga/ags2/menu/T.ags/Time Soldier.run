@@ -1,0 +1,6 @@
+cd "A-Games:T/TimeSoldier/"
+IF $whdloadargs EQ ""
+  whdload "TimeSoldier.Slave"
+ELSE
+  whdload "TimeSoldier.Slave" $whdloadargs
+ENDIF

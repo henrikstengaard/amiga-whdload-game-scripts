@@ -1,0 +1,4 @@
+Name    : Copper master
+Groups  : Angels
+Type    : Demo
+Whdload : CopperMaster.Slave

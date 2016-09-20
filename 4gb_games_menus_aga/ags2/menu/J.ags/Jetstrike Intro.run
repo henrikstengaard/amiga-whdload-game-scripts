@@ -1,0 +1,6 @@
+cd "A-Games1:J/JetstrikeAGA/"
+IF $whdloadargs EQ ""
+  whdload "JetstrikeAGAIntro.Slave"
+ELSE
+  whdload "JetstrikeAGAIntro.Slave" $whdloadargs
+ENDIF

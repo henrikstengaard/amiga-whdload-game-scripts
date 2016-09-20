@@ -1,0 +1,5 @@
+Name      : Skyfox
+Publisher : Electronic Arts
+Year      : 1986
+Players   : 1 Only
+Whdload   : Skyfox.slave

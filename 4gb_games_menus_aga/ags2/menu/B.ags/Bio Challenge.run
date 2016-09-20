@@ -1,0 +1,6 @@
+cd "A-Games1:B/BioChallenge/"
+IF $whdloadargs EQ ""
+  whdload "BioChallenge.Slave"
+ELSE
+  whdload "BioChallenge.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : TV Sports Basketball
+Publisher : Cinemaware
+Year      : 1990
+Genre     : Sports - Basketball
+Players   : 1 or 2, Simultaneous
+Whdload   : TVSportsBasketball.Slave

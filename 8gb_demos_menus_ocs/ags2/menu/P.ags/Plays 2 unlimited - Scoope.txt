@@ -1,0 +1,6 @@
+Name    : Plays 2 unlimited
+Groups  : Scoopex
+Type    : Musicdisk
+Party   : The Gathering 1993
+Rank    : N/a
+Whdload : 2Unlimited.Slave

@@ -1,0 +1,6 @@
+Name      : Pacific Islands
+Publisher : Empire Software
+Year      : 1992
+Genre     : Simulation - Tank
+Players   : 1 Only
+Whdload   : PacificIslands.Slave

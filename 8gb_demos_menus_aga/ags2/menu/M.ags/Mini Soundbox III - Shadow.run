@@ -1,0 +1,6 @@
+cd "A-Demos:M/MiniSoundbox3/"
+IF $whdloadargs EQ ""
+  whdload "MiniSoundbox3.Slave"
+ELSE
+  whdload "MiniSoundbox3.Slave" $whdloadargs
+ENDIF

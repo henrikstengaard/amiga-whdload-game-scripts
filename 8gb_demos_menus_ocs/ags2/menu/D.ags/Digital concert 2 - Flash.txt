@@ -1,0 +1,4 @@
+Name    : Digital concert 2
+Groups  : Flash Production
+Type    : Musicdisk
+Whdload : DigitalConcert2.Slave

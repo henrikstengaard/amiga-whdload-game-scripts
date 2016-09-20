@@ -1,0 +1,6 @@
+cd "A-Demos:B/BlueHouse2/"
+IF $whdloadargs EQ ""
+  whdload "BlueHouse2.Slave"
+ELSE
+  whdload "BlueHouse2.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Subwar 2050
+Publisher : MicroProse Software
+Year      : 1995
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : Subwar2050CD32.slave

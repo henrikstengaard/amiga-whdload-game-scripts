@@ -1,0 +1,6 @@
+Name      : Chuck Yeager's Advanced Flight Trainer 2.0
+Publisher : Electronic Arts
+Year      : 1990
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : ChuckYeagersAFT2.Slave

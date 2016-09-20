@@ -1,0 +1,6 @@
+cd "A-Demos:Q/QuickMusique/"
+IF $whdloadargs EQ ""
+  whdload "QuickMusique.Slave"
+ELSE
+  whdload "QuickMusique.Slave" $whdloadargs
+ENDIF

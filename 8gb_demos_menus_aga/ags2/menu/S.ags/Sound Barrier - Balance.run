@@ -1,0 +1,6 @@
+cd "A-Demos:S/SoundBarrier/"
+IF $whdloadargs EQ ""
+  whdload "SoundBarrier.Slave"
+ELSE
+  whdload "SoundBarrier.Slave" $whdloadargs
+ENDIF

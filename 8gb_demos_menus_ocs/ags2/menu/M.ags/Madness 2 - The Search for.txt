@@ -1,0 +1,6 @@
+Name    : Madness 2 - The Search for Sanity
+Groups  : Anarchy
+Type    : Demo
+Party   : Anarchy Winter Conference 1991
+Rank    : N/a
+Whdload : Madness2.Slave

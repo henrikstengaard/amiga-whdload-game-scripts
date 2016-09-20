@@ -1,0 +1,6 @@
+cd "A-Games2:S/Skyfox2/"
+IF $whdloadargs EQ ""
+  whdload "Skyfox2.Slave"
+ELSE
+  whdload "Skyfox2.Slave" $whdloadargs
+ENDIF

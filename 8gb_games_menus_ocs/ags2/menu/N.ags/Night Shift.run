@@ -1,0 +1,6 @@
+cd "A-Games:N/NightShift/"
+IF $whdloadargs EQ ""
+  whdload "NightShift.slave"
+ELSE
+  whdload "NightShift.slave" $whdloadargs
+ENDIF

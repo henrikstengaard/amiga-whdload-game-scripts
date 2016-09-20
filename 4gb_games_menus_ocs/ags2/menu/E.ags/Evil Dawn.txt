@@ -1,0 +1,5 @@
+Name      : Evil Dawn
+Publisher : ECP
+Year      : 1989
+Players   : 1
+Whdload   : EvilDawn.Slave

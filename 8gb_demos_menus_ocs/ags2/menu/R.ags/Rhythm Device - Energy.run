@@ -1,0 +1,6 @@
+cd "A-Demos:R/RhythmDevice/"
+IF $whdloadargs EQ ""
+  whdload "RhythmDevice.Slave"
+ELSE
+  whdload "RhythmDevice.Slave" $whdloadargs
+ENDIF

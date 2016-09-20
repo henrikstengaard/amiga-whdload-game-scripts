@@ -1,0 +1,6 @@
+cd "A-Games1:L/LombardRACRally2Disk/"
+IF $whdloadargs EQ ""
+  whdload "LombardRACRally2Disk.Slave"
+ELSE
+  whdload "LombardRACRally2Disk.Slave" $whdloadargs
+ENDIF

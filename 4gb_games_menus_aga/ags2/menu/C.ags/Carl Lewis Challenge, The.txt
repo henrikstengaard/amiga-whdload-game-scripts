@@ -1,0 +1,6 @@
+Name      : Carl Lewis Challenge, The
+Publisher : Psygnosis
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 Only
+Whdload   : CarlLewisChallenge.slave

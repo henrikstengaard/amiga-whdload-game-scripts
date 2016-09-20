@@ -1,0 +1,5 @@
+Name      : Z-Out
+Publisher : Rainbow Arts
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : ZOut.Slave

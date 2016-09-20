@@ -1,0 +1,4 @@
+Name    : Muzaks Disk 1
+Groups  : Securitate
+Type    : Musicdisk
+Whdload : MuzaksDisk1.Slave

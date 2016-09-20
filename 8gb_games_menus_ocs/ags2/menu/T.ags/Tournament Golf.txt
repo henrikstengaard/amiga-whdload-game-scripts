@@ -1,0 +1,6 @@
+Name      : Tournament Golf
+Publisher : Elite
+Year      : 1990
+Genre     : Sports - Golf
+Players   : 1 or 2
+Whdload   : TournamentGolf.Slave

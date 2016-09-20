@@ -1,0 +1,6 @@
+cd "A-Games:I/ISS/"
+IF $whdloadargs EQ ""
+  whdload "ISS.Slave"
+ELSE
+  whdload "ISS.Slave" $whdloadargs
+ENDIF

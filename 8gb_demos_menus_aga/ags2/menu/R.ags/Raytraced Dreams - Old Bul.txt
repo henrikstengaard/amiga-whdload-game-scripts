@@ -1,0 +1,4 @@
+Name    : Raytraced Dreams
+Groups  : Old Bulls
+Type    : Slideshow
+Whdload : RaytracedDreams.Slave

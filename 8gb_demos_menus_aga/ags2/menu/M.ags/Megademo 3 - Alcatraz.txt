@@ -1,0 +1,4 @@
+Name    : Megademo 3
+Groups  : Alcatraz
+Type    : Demo
+Whdload : Megademo3Alcatraz.Slave

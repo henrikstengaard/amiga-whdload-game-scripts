@@ -1,0 +1,6 @@
+cd "A-Demos:V/Vectordance/"
+IF $whdloadargs EQ ""
+  whdload "Vectordance.Slave"
+ELSE
+  whdload "Vectordance.Slave" $whdloadargs
+ENDIF

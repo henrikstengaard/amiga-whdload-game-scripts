@@ -1,0 +1,6 @@
+cd "A-Games:T/TomLandryFootballDeluxe/"
+IF $whdloadargs EQ ""
+  whdload "TomLandryFootballDeluxe.Slave"
+ELSE
+  whdload "TomLandryFootballDeluxe.Slave" $whdloadargs
+ENDIF

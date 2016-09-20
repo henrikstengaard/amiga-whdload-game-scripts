@@ -1,0 +1,6 @@
+cd "A-Games1:G/GLOCR360/"
+IF $whdloadargs EQ ""
+  whdload "GLOCR360.slave"
+ELSE
+  whdload "GLOCR360.slave" $whdloadargs
+ENDIF

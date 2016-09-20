@@ -1,0 +1,6 @@
+cd "A-Games:V/Vectorball/"
+IF $whdloadargs EQ ""
+  whdload "Vectorball.Slave"
+ELSE
+  whdload "Vectorball.Slave" $whdloadargs
+ENDIF

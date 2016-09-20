@@ -1,0 +1,6 @@
+cd "A-Games:A/ArkanoidRevengeOfDoh/"
+IF $whdloadargs EQ ""
+  whdload "ArkanoidRevengeOfDoh.slave"
+ELSE
+  whdload "ArkanoidRevengeOfDoh.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Fire!
+Publisher : New Deal Productions
+Year      : 1989
+Players   : 1 Only
+Whdload   : Fire&IceCD32.slave

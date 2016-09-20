@@ -1,0 +1,6 @@
+cd "A-Games:D/DefenderOfTheCrownCDTV/"
+IF $whdloadargs EQ ""
+  whdload "DefenderOfTheCrownCDTV.Slave"
+ELSE
+  whdload "DefenderOfTheCrownCDTV.Slave" $whdloadargs
+ENDIF

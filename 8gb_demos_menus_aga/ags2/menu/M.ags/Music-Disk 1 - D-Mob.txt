@@ -1,0 +1,4 @@
+Name    : Music-Disk 1
+Groups  : D-Mob
+Type    : Musicdisk
+Whdload : MusicDisk1DMob.Slave

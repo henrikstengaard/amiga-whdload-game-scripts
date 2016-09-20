@@ -1,0 +1,6 @@
+Name      : Tass Times in Tonetown
+Publisher : Activision
+Year      : 1986
+Genre     : Adventure - Click and Type
+Players   : 1 Only
+Whdload   : TassTimesInTonetown.Slave

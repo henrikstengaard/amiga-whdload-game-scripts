@@ -1,0 +1,6 @@
+cd "A-Games:S/Steel/"
+IF $whdloadargs EQ ""
+  whdload "Steel.Slave"
+ELSE
+  whdload "Steel.Slave" $whdloadargs
+ENDIF

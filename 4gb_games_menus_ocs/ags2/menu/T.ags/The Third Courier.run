@@ -1,0 +1,6 @@
+cd "A-Games2:T/ThirdCourier/"
+IF $whdloadargs EQ ""
+  whdload "ThirdCourier.Slave"
+ELSE
+  whdload "ThirdCourier.Slave" $whdloadargs
+ENDIF

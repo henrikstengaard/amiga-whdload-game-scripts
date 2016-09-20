@@ -1,0 +1,6 @@
+Name      : Football Manager 2
+Publisher : Prism Leisure
+Year      : 1988
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : FootballManager2.Slave

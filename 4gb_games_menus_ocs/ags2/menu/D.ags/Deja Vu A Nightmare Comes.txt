@@ -1,0 +1,6 @@
+Name      : Deja Vu: A Nightmare Comes True
+Publisher : Mindscape
+Year      : 1987
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : DejaVuANightmareComesTrue.Slave

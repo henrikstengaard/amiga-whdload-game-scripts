@@ -1,0 +1,6 @@
+Name    : Ice
+Groups  : The Silents
+Type    : Demo
+Party   : Amega 1991
+Rank    : 3rd
+Whdload : Ice.slave

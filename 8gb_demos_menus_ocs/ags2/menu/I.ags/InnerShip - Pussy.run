@@ -1,0 +1,6 @@
+cd "A-Demos:I/InnershipPussy/"
+IF $whdloadargs EQ ""
+  whdload "InnershipPussy.slave"
+ELSE
+  whdload "InnershipPussy.slave" $whdloadargs
+ENDIF

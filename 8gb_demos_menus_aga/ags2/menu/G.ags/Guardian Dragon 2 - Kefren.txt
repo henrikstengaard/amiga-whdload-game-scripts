@@ -1,0 +1,6 @@
+Name    : Guardian Dragon 2
+Groups  : Kefrens
+Type    : Demo
+Party   : Hurricane &amp
+Rank    : 1st
+Whdload : GuardianDragon2.slave

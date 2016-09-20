@@ -1,0 +1,6 @@
+cd "A-Games1:M/MindWalker/"
+IF $whdloadargs EQ ""
+  whdload "MindWalker.slave"
+ELSE
+  whdload "MindWalker.slave" $whdloadargs
+ENDIF

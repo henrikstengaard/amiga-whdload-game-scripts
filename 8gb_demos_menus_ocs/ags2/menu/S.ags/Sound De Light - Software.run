@@ -1,0 +1,6 @@
+cd "A-Demos:S/SoundDeLight/"
+IF $whdloadargs EQ ""
+  whdload "SoundDeLight.Slave"
+ELSE
+  whdload "SoundDeLight.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:D/DungeonMaster/"
+IF $whdloadargs EQ ""
+  whdload "DungeonMaster.slave"
+ELSE
+  whdload "DungeonMaster.slave" $whdloadargs
+ENDIF

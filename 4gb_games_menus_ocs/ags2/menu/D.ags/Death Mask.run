@@ -1,0 +1,6 @@
+cd "A-Games1:D/DeathMask/"
+IF $whdloadargs EQ ""
+  whdload "DeathMask.Slave"
+ELSE
+  whdload "DeathMask.Slave" $whdloadargs
+ENDIF

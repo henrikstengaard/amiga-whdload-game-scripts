@@ -1,0 +1,5 @@
+Name      : Doodlebug
+Publisher : Core
+Year      : 1992
+Players   : 1
+Whdload   : Doodlebug.slave

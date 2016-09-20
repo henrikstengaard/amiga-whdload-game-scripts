@@ -1,0 +1,4 @@
+Name    : Xenon 2 Music Rip
+Groups  : Red Sector Inc.
+Type    : Demo
+Whdload : Xenon2MusicRip.Slave

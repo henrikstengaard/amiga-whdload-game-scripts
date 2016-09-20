@@ -1,0 +1,6 @@
+Name      : Cubulus
+Publisher : Software 2000
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : Cubulus.Slave

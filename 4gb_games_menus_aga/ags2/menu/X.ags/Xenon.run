@@ -1,0 +1,6 @@
+cd "A-Games2:X/Xenon/"
+IF $whdloadargs EQ ""
+  whdload "Xenon.slave"
+ELSE
+  whdload "Xenon.slave" $whdloadargs
+ENDIF

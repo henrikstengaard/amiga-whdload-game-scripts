@@ -1,0 +1,6 @@
+Name      : TV Sports Baseball
+Publisher : Mindscape
+Year      : 1992
+Genre     : Sports - Baseball
+Players   : 1 or 2, Simultaneous
+Whdload   : TVSportsBaseball.Slave

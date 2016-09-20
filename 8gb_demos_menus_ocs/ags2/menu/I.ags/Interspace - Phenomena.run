@@ -1,0 +1,6 @@
+cd "A-Demos:I/Interspace/"
+IF $whdloadargs EQ ""
+  whdload "Interspace.Slave"
+ELSE
+  whdload "Interspace.Slave" $whdloadargs
+ENDIF

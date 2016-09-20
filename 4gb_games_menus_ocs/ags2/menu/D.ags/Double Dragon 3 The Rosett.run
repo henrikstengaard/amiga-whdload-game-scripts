@@ -1,0 +1,6 @@
+cd "A-Games1:D/DoubleDragon3/"
+IF $whdloadargs EQ ""
+  whdload "DoubleDragon3.slave"
+ELSE
+  whdload "DoubleDragon3.slave" $whdloadargs
+ENDIF

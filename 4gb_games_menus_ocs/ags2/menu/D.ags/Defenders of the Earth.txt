@@ -1,0 +1,5 @@
+Name      : Defenders of the Earth
+Publisher : Hi-Tec Software
+Year      : 1990
+Players   : 1 Only
+Whdload   : DefendersOfTheEarth.Slave

@@ -1,0 +1,4 @@
+Name    : The Amplifier 2
+Groups  : Dimension4
+Type    : Musicdisk
+Whdload : Amplifier2.Slave

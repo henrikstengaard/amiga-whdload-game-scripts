@@ -1,0 +1,6 @@
+Name      : Goal!
+Publisher : Virgin Games
+Year      : 1993
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : Goal.slave

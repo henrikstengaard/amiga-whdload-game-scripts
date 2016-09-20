@@ -1,0 +1,6 @@
+cd "A-Games:U/UltimateBodyBlowsCD32/"
+IF $whdloadargs EQ ""
+  whdload "UltimateBodyBlowsCD32.slave"
+ELSE
+  whdload "UltimateBodyBlowsCD32.slave" $whdloadargs
+ENDIF

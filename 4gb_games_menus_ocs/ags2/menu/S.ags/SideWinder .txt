@@ -1,0 +1,5 @@
+Name      : SideWinder
+Publisher : Mastertronic
+Year      : 1988
+Players   : 1 or 2
+Whdload   : SideWinderArcadia.Slave

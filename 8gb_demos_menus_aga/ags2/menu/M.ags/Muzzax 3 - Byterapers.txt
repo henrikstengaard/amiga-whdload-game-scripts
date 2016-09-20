@@ -1,0 +1,4 @@
+Name    : Muzzax 3
+Groups  : Byterapers
+Type    : Musicdisk
+Whdload : Muzzax3.Slave

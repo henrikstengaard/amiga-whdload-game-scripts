@@ -1,0 +1,6 @@
+cd "A-Games2:T/ThunderHawkAH73M/"
+IF $whdloadargs EQ ""
+  whdload "ThunderHawkAH73M.Slave"
+ELSE
+  whdload "ThunderHawkAH73M.Slave" $whdloadargs
+ENDIF

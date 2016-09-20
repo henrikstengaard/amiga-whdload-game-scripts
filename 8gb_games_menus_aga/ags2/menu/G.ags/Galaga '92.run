@@ -1,0 +1,6 @@
+cd "A-Games:G/Galaga92/"
+IF $whdloadargs EQ ""
+  whdload "Galaga92.Slave"
+ELSE
+  whdload "Galaga92.Slave" $whdloadargs
+ENDIF

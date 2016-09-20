@@ -1,0 +1,6 @@
+cd "A-Games:F/FastFood/"
+IF $whdloadargs EQ ""
+  whdload "FastFood.Slave"
+ELSE
+  whdload "FastFood.Slave" $whdloadargs
+ENDIF

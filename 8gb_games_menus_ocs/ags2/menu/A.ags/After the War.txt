@@ -1,0 +1,5 @@
+Name      : After the War
+Publisher : Dinamic Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : AfterTheWar.Slave

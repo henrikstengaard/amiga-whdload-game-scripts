@@ -1,0 +1,5 @@
+Name    : Gathering 1993 Partyslides
+Groups  : Majic 12
+Type    : Slideshow
+Party   : The Gathering 1993
+Whdload : Gathering93Slideshow.Slave

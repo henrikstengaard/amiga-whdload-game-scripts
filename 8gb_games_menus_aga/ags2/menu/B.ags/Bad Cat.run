@@ -1,0 +1,6 @@
+cd "A-Games:B/BadCat/"
+IF $whdloadargs EQ ""
+  whdload "BadCat.Slave"
+ELSE
+  whdload "BadCat.Slave" $whdloadargs
+ENDIF

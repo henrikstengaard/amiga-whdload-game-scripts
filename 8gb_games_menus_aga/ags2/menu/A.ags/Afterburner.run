@@ -1,0 +1,6 @@
+cd "A-Games:A/AfterBurnerActivision/"
+IF $whdloadargs EQ ""
+  whdload "AfterBurnerActivision.Slave"
+ELSE
+  whdload "AfterBurnerActivision.Slave" $whdloadargs
+ENDIF

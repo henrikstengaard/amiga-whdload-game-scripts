@@ -1,0 +1,6 @@
+cd "A-Games2:M/MetalLaw/"
+IF $whdloadargs EQ ""
+  whdload "MetalLaw.slave"
+ELSE
+  whdload "MetalLaw.slave" $whdloadargs
+ENDIF

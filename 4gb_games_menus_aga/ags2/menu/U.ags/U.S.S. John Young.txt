@@ -1,0 +1,6 @@
+Name      : U.S.S. John Young
+Publisher : Magic Bytes
+Year      : 1990
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : USSJohnYoung.Slave

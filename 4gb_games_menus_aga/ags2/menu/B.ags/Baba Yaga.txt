@@ -1,0 +1,6 @@
+Name      : Baba Yaga
+Publisher : Coktel Vision
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : BabaYaga.slave

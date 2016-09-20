@@ -1,0 +1,6 @@
+Name      : King's Table: The Legend of Ragnarok
+Publisher : Gametek
+Year      : 1993
+Genre     : Board - Miscellaneous
+Players   : 1 or 2
+Whdload   : LegendOfRagnarok.slave

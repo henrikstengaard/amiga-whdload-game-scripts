@@ -1,0 +1,6 @@
+cd "A-Games:S/SASCombatSimulatorQFight/"
+IF $whdloadargs EQ ""
+  whdload "SASCombatSimulatorQFight.Slave"
+ELSE
+  whdload "SASCombatSimulatorQFight.Slave" $whdloadargs
+ENDIF

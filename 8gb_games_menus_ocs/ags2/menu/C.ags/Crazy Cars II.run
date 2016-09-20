@@ -1,0 +1,6 @@
+cd "A-Games:C/CrazyCars2/"
+IF $whdloadargs EQ ""
+  whdload "CrazyCars2.Slave"
+ELSE
+  whdload "CrazyCars2.Slave" $whdloadargs
+ENDIF

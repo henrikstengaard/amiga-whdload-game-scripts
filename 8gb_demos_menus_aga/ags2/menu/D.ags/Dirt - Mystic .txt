@@ -1,0 +1,6 @@
+Name    : Dirt
+Groups  : Mystic
+Type    : Demo
+Party   : Intel Outside 1994
+Rank    : N/a
+Whdload : DirtAGA.Slave

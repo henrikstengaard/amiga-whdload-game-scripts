@@ -1,0 +1,4 @@
+Name    : Megamix 1
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+Whdload : MegaMix1.Slave

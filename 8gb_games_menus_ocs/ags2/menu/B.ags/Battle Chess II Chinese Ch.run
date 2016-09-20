@@ -1,0 +1,6 @@
+cd "A-Games:B/BattleChess2/"
+IF $whdloadargs EQ ""
+  whdload "BattleChess2.Slave"
+ELSE
+  whdload "BattleChess2.Slave" $whdloadargs
+ENDIF

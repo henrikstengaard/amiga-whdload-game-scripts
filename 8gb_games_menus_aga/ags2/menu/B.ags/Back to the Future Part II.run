@@ -1,0 +1,6 @@
+cd "A-Games:B/BackToTheFutureIII/"
+IF $whdloadargs EQ ""
+  whdload "BackToTheFutureIII.Slave"
+ELSE
+  whdload "BackToTheFutureIII.Slave" $whdloadargs
+ENDIF

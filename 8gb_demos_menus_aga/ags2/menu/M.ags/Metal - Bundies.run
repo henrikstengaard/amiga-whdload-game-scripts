@@ -1,0 +1,6 @@
+cd "A-Demos:M/Metal&Lace/"
+IF $whdloadargs EQ ""
+  whdload "Metal&Lace.Slave"
+ELSE
+  whdload "Metal&Lace.Slave" $whdloadargs
+ENDIF

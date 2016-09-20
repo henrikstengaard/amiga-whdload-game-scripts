@@ -1,0 +1,6 @@
+Name      : Emerald Mine II
+Publisher : KingSoft
+Year      : 1988
+Genre     : Arcade - Boulder Dash
+Players   : 1 or 2, Simultaneous
+Whdload   : EmeraldMine2.slave

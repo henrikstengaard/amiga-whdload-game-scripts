@@ -1,0 +1,6 @@
+Name      : Space Hulk
+Publisher : Electronic Arts
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : SpaceHulk.Slave

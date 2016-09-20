@@ -1,0 +1,6 @@
+Name    : Alternative Reality
+Groups  : Suspect
+Type    : Demo
+Party   : Warszawa 2 1992
+Rank    : 3rd
+Whdload : AlternativeReality.Slave

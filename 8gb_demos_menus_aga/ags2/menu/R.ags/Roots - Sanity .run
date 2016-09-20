@@ -1,0 +1,6 @@
+cd "A-Demos:R/RootsAGA/"
+IF $whdloadargs EQ ""
+  whdload "RootsAGA.slave"
+ELSE
+  whdload "RootsAGA.slave" $whdloadargs
+ENDIF

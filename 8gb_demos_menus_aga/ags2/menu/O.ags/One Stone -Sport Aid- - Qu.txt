@@ -1,0 +1,5 @@
+Name    : One Stone -Sport Aid-
+Groups  : Quest
+Type    : Demo
+Party   : TEW and Nato Party
+Whdload : OneStone.slave

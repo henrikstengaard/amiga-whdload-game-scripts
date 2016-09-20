@@ -1,0 +1,5 @@
+Name      : Discovery: In The Steps of Columbus
+Publisher : Impressions
+Year      : 1992
+Players   : 1
+Whdload   : Discovery.Slave

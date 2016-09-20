@@ -1,0 +1,6 @@
+cd "A-Games:R/RoadBlastersCracked/"
+IF $whdloadargs EQ ""
+  whdload "RoadBlastersCracked.Slave"
+ELSE
+  whdload "RoadBlastersCracked.Slave" $whdloadargs
+ENDIF

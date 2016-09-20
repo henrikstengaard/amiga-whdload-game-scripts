@@ -1,0 +1,5 @@
+Name      : Life & Death
+Publisher : Mindscape
+Year      : 1991
+Players   : 1
+Whdload   : Life&Death.slave

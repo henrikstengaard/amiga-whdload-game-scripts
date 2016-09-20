@@ -1,0 +1,6 @@
+cd "A-Games:W/WorldTrophySoccerArcadia/"
+IF $whdloadargs EQ ""
+  whdload "WorldTrophySoccerArcadia.Slave"
+ELSE
+  whdload "WorldTrophySoccerArcadia.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:L/LordsOfTime/"
+IF $whdloadargs EQ ""
+  whdload "LordsOfTime.Slave"
+ELSE
+  whdload "LordsOfTime.Slave" $whdloadargs
+ENDIF

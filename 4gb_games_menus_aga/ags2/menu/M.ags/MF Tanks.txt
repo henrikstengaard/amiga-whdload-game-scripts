@@ -1,0 +1,5 @@
+Name      : MF Tanks
+Publisher : The One (EMAP)
+Year      : 1995
+Players   : 1
+Whdload   : MFTanks.Slave

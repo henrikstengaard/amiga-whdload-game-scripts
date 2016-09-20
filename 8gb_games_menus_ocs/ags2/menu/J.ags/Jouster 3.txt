@@ -1,0 +1,5 @@
+Name      : Jouster 3
+Publisher : Freeware
+Year      : 1995
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Jouster3.slave

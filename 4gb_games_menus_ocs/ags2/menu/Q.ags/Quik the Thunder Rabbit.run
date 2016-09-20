@@ -1,0 +1,6 @@
+cd "A-Games2:Q/QuikThunderRabbit/"
+IF $whdloadargs EQ ""
+  whdload "QuikThunderRabbit.slave"
+ELSE
+  whdload "QuikThunderRabbit.slave" $whdloadargs
+ENDIF

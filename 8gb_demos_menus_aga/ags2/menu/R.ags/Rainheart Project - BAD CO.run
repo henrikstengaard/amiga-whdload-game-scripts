@@ -1,0 +1,6 @@
+cd "A-Demos:R/RainheartProject/"
+IF $whdloadargs EQ ""
+  whdload "RainheartProject.Slave"
+ELSE
+  whdload "RainheartProject.Slave" $whdloadargs
+ENDIF

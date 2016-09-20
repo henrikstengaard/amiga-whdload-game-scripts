@@ -1,0 +1,6 @@
+cd "A-Games1:D/Detonator/"
+IF $whdloadargs EQ ""
+  whdload "Detonator.Slave"
+ELSE
+  whdload "Detonator.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:T/Terminator2JudgmentDay/"
+IF $whdloadargs EQ ""
+  whdload "Terminator2JudgmentDay.Slave"
+ELSE
+  whdload "Terminator2JudgmentDay.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:G/GlobalTrash/"
+IF $whdloadargs EQ ""
+  whdload "GlobalTrash.Slave"
+ELSE
+  whdload "GlobalTrash.Slave" $whdloadargs
+ENDIF

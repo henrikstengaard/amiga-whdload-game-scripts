@@ -1,0 +1,6 @@
+Name      : World Class Leader Board
+Publisher : Access Software
+Year      : 1988
+Genre     : Sports - Golf
+Players   : 1 to 4
+Whdload   : LeaderBoardArcadia.Slave

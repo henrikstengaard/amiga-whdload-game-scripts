@@ -1,0 +1,6 @@
+cd "A-Games1:M/Moebius/"
+IF $whdloadargs EQ ""
+  whdload "Moebius.Slave"
+ELSE
+  whdload "Moebius.Slave" $whdloadargs
+ENDIF

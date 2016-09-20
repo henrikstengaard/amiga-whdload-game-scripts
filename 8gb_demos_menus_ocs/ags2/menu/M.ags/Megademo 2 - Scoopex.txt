@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Scoopex
+Type    : Demo
+Whdload : MegaDemo2Scoopex.Slave

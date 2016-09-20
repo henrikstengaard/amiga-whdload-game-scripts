@@ -1,0 +1,4 @@
+Name    : Rhythm Nation
+Groups  : The Lost Boys
+Type    : Musicdisk
+Whdload : RhythmNation.Slave

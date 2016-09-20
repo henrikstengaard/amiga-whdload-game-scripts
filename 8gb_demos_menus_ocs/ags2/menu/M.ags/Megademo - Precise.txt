@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Precise
+Type    : Demo
+Whdload : MegademoPrecise.Slave

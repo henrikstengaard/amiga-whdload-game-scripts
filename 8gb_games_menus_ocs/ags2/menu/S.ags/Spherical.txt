@@ -1,0 +1,6 @@
+Name      : Spherical
+Publisher : Rainbow Arts
+Year      : 1989
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : Spherical.Slave

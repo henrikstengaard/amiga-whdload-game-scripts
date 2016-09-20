@@ -1,0 +1,6 @@
+cd "A-Games:C/Capone/"
+IF $whdloadargs EQ ""
+  whdload "Capone.Slave"
+ELSE
+  whdload "Capone.Slave" $whdloadargs
+ENDIF

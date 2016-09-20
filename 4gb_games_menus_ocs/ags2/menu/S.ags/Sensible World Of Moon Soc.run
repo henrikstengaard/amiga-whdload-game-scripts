@@ -1,0 +1,6 @@
+cd "A-Games2:S/SensibleWorldOfMoonSoccer/"
+IF $whdloadargs EQ ""
+  whdload "SensibleWorldOfMoonSoccer.Slave"
+ELSE
+  whdload "SensibleWorldOfMoonSoccer.Slave" $whdloadargs
+ENDIF

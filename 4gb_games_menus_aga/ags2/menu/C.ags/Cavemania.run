@@ -1,0 +1,6 @@
+cd "A-Games1:C/CaveMania/"
+IF $whdloadargs EQ ""
+  whdload "Cavemania.slave"
+ELSE
+  whdload "Cavemania.slave" $whdloadargs
+ENDIF

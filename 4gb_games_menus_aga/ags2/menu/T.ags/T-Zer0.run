@@ -1,0 +1,6 @@
+cd "A-Games2:T/TZer0DemoAGA/"
+IF $whdloadargs EQ ""
+  whdload "TZer0DemoAGA.Slave"
+ELSE
+  whdload "TZer0DemoAGA.Slave" $whdloadargs
+ENDIF

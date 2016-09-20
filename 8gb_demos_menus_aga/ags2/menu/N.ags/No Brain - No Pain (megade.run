@@ -1,0 +1,6 @@
+cd "A-Demos:N/NoBrainNoPain/"
+IF $whdloadargs EQ ""
+  whdload "NoBrainNoPain.Slave"
+ELSE
+  whdload "NoBrainNoPain.Slave" $whdloadargs
+ENDIF

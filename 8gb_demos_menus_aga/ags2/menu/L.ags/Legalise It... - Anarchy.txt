@@ -1,0 +1,6 @@
+Name    : Legalise It...
+Groups  : Anarchy
+Type    : Musicdisk
+Party   : Anarchy Easter Party 1992
+Rank    : 3rd
+Whdload : LegaliseIt.slave

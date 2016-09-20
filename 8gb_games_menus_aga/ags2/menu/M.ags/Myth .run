@@ -1,0 +1,6 @@
+cd "A-Games:M/MythHistoryInMakingCD32/"
+IF $whdloadargs EQ ""
+  whdload "MythHistoryInMakingCD32.slave"
+ELSE
+  whdload "MythHistoryInMakingCD32.slave" $whdloadargs
+ENDIF

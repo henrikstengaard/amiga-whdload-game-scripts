@@ -1,0 +1,6 @@
+cd "A-Games:D/DarkFusion/"
+IF $whdloadargs EQ ""
+  whdload "DarkFusion.Slave"
+ELSE
+  whdload "DarkFusion.Slave" $whdloadargs
+ENDIF

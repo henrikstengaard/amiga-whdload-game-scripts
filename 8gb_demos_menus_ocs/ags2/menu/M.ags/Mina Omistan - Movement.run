@@ -1,0 +1,6 @@
+cd "A-Demos:M/MinaOmistan/"
+IF $whdloadargs EQ ""
+  whdload "MinaOmistan.Slave"
+ELSE
+  whdload "MinaOmistan.Slave" $whdloadargs
+ENDIF

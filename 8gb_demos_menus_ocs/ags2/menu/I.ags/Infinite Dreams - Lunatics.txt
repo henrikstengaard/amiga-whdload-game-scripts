@@ -1,0 +1,4 @@
+Name    : Infinite Dreams
+Groups  : Lunatics
+Type    : Musicdisk
+Whdload : InfiniteDreamsLunatics.Slave

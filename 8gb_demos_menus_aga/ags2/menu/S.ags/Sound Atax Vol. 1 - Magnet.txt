@@ -1,0 +1,4 @@
+Name    : Sound Atax Vol. 1
+Groups  : Magnetic Fields
+Type    : Musicdisk
+Whdload : SoundAtaxVol1.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:B/BatmanTheMovie/"
+IF $whdloadargs EQ ""
+  whdload "BatmanTheMovie.slave"
+ELSE
+  whdload "BatmanTheMovie.slave" $whdloadargs
+ENDIF

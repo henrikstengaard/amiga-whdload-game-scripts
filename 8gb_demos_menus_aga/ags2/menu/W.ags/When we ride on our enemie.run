@@ -1,0 +1,6 @@
+cd "A-Demos:W/WhenWeRide/"
+IF $whdloadargs EQ ""
+  whdload "WhenWeRide.slave"
+ELSE
+  whdload "WhenWeRide.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Empire Soccer 94
+Publisher : Empire Software
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 to 3
+Whdload   : EmpireSoccer94.Slave

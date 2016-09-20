@@ -1,0 +1,6 @@
+Name      : LED Storm
+Publisher : Go!
+Year      : 1988
+Genre     : Racing - Overhead
+Players   : 1 Only
+Whdload   : LEDStorm.Slave

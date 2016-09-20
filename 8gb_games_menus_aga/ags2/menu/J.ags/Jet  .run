@@ -1,0 +1,6 @@
+cd "A-Games:J/Jet&SceneryDisk07/"
+IF $whdloadargs EQ ""
+  whdload "Jet&SceneryDisk07.Slave"
+ELSE
+  whdload "Jet&SceneryDisk07.Slave" $whdloadargs
+ENDIF

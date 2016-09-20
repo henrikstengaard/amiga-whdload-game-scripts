@@ -1,0 +1,6 @@
+cd "A-Demos:S/Spellcheck/"
+IF $whdloadargs EQ ""
+  whdload "Spellcheck.Slave"
+ELSE
+  whdload "Spellcheck.Slave" $whdloadargs
+ENDIF

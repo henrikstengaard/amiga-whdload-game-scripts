@@ -1,0 +1,5 @@
+Name    : Digital Music Art
+Groups  : Wildfire
+Type    : Demo
+Party   : Hurricane and Brutal Summer Party
+Whdload : DigitalMusicArt.Slave

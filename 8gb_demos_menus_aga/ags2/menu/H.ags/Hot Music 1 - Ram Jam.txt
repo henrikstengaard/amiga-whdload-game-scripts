@@ -1,0 +1,4 @@
+Name    : Hot Music 1
+Groups  : Ram Jam
+Type    : Musicdisk
+Whdload : HotMusic1.Slave

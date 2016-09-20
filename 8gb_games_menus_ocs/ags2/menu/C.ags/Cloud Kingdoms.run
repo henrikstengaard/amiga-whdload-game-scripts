@@ -1,0 +1,6 @@
+cd "A-Games:C/CloudKingdoms/"
+IF $whdloadargs EQ ""
+  whdload "CloudKingdoms.slave"
+ELSE
+  whdload "CloudKingdoms.slave" $whdloadargs
+ENDIF

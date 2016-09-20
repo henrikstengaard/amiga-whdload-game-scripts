@@ -1,0 +1,4 @@
+Name    : Music Demo
+Groups  : Deform
+Type    : Musicdisk
+Whdload : MusicDemoDeform.Slave

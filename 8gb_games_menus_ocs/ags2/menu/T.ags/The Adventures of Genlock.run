@@ -1,0 +1,6 @@
+cd "A-Games:A/AdventuresOfGenlockHolmes/"
+IF $whdloadargs EQ ""
+  whdload "AdventuresOfGenlockHolmes.Slave"
+ELSE
+  whdload "AdventuresOfGenlockHolmes.Slave" $whdloadargs
+ENDIF

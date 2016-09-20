@@ -1,0 +1,4 @@
+Name    : Music Compacting 2
+Groups  : Alpha Flight 1970,Zylon
+Type    : Musicdisk
+Whdload : MusicCompacting2.Slave

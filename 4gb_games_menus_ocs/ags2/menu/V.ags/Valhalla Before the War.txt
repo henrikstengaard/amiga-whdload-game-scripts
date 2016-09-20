@@ -1,0 +1,6 @@
+Name      : Valhalla: Before the War
+Publisher : Vulcan Software
+Year      : 1995
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : ValhallaBeforeTheWar.Slave

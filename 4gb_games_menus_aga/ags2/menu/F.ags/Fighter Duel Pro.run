@@ -1,0 +1,6 @@
+cd "A-Games1:F/FighterDuelPro/"
+IF $whdloadargs EQ ""
+  whdload "FighterDuelPro.Slave"
+ELSE
+  whdload "FighterDuelPro.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Jinxter
+Publisher : Rainbird
+Year      : 1988
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : Jinxter.Slave

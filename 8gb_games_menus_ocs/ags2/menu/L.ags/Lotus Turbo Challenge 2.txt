@@ -1,0 +1,6 @@
+Name      : Lotus Turbo Challenge 2
+Publisher : Gremlin Graphics
+Year      : 1991
+Genre     : Racing - Cars
+Players   : 1 to 4, Simultaneous
+Whdload   : Lotus2.Slave

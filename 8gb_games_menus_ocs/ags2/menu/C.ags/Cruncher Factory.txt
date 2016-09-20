@@ -1,0 +1,6 @@
+Name      : Cruncher Factory
+Publisher : Kingsoft
+Year      : 1987
+Genre     : Arcade - Pac-Man
+Players   : 1 or 2, Simultaneous
+Whdload   : CruncherFactory.Slave

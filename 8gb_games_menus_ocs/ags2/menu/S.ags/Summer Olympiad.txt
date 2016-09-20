@@ -1,0 +1,6 @@
+Name      : Summer Olympiad
+Publisher : Tynesoft
+Year      : 1988
+Genre     : Sports - Multi-Event
+Players   : 1 to 6
+Whdload   : SummerOlympiad.Slave

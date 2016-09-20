@@ -1,0 +1,6 @@
+Name      : Time Runners 16: The Galaxy Emperor
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners16.Slave

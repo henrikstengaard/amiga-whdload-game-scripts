@@ -1,0 +1,6 @@
+cd "A-Games1:A/Aquablast/"
+IF $whdloadargs EQ ""
+  whdload "Aquablast.slave"
+ELSE
+  whdload "Aquablast.slave" $whdloadargs
+ENDIF

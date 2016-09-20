@@ -1,0 +1,6 @@
+cd "A-Games:G/GoldenPath/"
+IF $whdloadargs EQ ""
+  whdload "GoldenPath.Slave"
+ELSE
+  whdload "GoldenPath.Slave" $whdloadargs
+ENDIF

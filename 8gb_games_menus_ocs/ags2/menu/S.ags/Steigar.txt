@@ -1,0 +1,5 @@
+Name      : Steigar
+Publisher : Screen 7
+Year      : 1989
+Players   : 1 Only
+Whdload   : Steigar.Slave

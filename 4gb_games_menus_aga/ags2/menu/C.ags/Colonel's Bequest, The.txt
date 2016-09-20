@@ -1,0 +1,6 @@
+Name      : Colonel's Bequest, The
+Publisher : Sierra On-Line
+Year      : 1989
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : ColonelsBequest.slave

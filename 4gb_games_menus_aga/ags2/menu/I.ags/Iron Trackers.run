@@ -1,0 +1,6 @@
+cd "A-Games1:I/IronTrackers/"
+IF $whdloadargs EQ ""
+  whdload "IronTrackers.Slave"
+ELSE
+  whdload "IronTrackers.Slave" $whdloadargs
+ENDIF

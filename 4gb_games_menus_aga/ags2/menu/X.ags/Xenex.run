@@ -1,0 +1,6 @@
+cd "A-Games2:X/Xenex/"
+IF $whdloadargs EQ ""
+  whdload "Xenex.Slave"
+ELSE
+  whdload "Xenex.Slave" $whdloadargs
+ENDIF

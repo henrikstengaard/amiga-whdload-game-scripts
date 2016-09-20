@@ -1,0 +1,6 @@
+Name      : Donk!: The Samurai Duck!
+Publisher : Supervision
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : DonkTheSamuraiDuck.slave

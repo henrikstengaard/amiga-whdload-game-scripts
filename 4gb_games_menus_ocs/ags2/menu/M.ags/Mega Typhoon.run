@@ -1,0 +1,6 @@
+cd "A-Games1:M/MegaTyphoon/"
+IF $whdloadargs EQ ""
+  whdload "MegaTyphoon.slave"
+ELSE
+  whdload "MegaTyphoon.slave" $whdloadargs
+ENDIF

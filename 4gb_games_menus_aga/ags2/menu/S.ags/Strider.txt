@@ -1,0 +1,6 @@
+Name      : Strider
+Publisher : US Gold
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Strider.Slave

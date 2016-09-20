@@ -1,0 +1,6 @@
+cd "A-Games:P/PersianGulfInferno/"
+IF $whdloadargs EQ ""
+  whdload "PersianGulfInferno.Slave"
+ELSE
+  whdload "PersianGulfInferno.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games2:W/WeenTheProphecy/"
+IF $whdloadargs EQ ""
+  whdload "WeenTheProphecy.slave"
+ELSE
+  whdload "WeenTheProphecy.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Digital innovation
+Groups  : Anarchy
+Type    : Demo
+Whdload : DigitalInnovation.slave

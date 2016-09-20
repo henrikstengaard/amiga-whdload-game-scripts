@@ -1,0 +1,5 @@
+Name      : Darius+
+Publisher : The Edge
+Year      : 1989
+Players   : 1 Only
+Whdload   : Darius+.slave

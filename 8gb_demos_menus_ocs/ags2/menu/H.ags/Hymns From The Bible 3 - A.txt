@@ -1,0 +1,4 @@
+Name    : Hymns From The Bible 3
+Groups  : Arcane
+Type    : Musicdisk
+Whdload : HymnsFromTheBible3.Slave

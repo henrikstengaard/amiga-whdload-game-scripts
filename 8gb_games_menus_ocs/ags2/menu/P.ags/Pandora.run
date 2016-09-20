@@ -1,0 +1,6 @@
+cd "A-Games:P/Pandora/"
+IF $whdloadargs EQ ""
+  whdload "Pandora.Slave"
+ELSE
+  whdload "Pandora.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:O/OpticalDreams/"
+IF $whdloadargs EQ ""
+  whdload "OpticalDreams.Slave"
+ELSE
+  whdload "OpticalDreams.Slave" $whdloadargs
+ENDIF

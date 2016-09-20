@@ -1,0 +1,6 @@
+cd "A-Games:B/BatmanReturns/"
+IF $whdloadargs EQ ""
+  whdload "BatmanReturns.Slave"
+ELSE
+  whdload "BatmanReturns.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:D/Drums&Reverbs/"
+IF $whdloadargs EQ ""
+  whdload "Drums&Reverbs.Slave"
+ELSE
+  whdload "Drums&Reverbs.Slave" $whdloadargs
+ENDIF

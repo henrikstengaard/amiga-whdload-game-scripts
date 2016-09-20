@@ -1,0 +1,6 @@
+cd "A-Games:P/PurpleSaturnDay/"
+IF $whdloadargs EQ ""
+  whdload "PurpleSaturnDay.slave"
+ELSE
+  whdload "PurpleSaturnDay.slave" $whdloadargs
+ENDIF

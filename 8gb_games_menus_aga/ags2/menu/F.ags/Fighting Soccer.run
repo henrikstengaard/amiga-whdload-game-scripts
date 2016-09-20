@@ -1,0 +1,6 @@
+cd "A-Games:F/FightingSoccerNTSC/"
+IF $whdloadargs EQ ""
+  whdload "FightingSoccerNTSC.slave"
+ELSE
+  whdload "FightingSoccerNTSC.slave" $whdloadargs
+ENDIF

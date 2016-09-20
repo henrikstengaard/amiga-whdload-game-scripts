@@ -1,0 +1,6 @@
+cd "A-Games:L/LegendOfFaerghail/"
+IF $whdloadargs EQ ""
+  whdload "LegendOfFaerghail.Slave"
+ELSE
+  whdload "LegendOfFaerghail.Slave" $whdloadargs
+ENDIF

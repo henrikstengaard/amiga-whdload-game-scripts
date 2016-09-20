@@ -1,0 +1,6 @@
+cd "A-Demos:O/Overdose/"
+IF $whdloadargs EQ ""
+  whdload "Overdose.Slave"
+ELSE
+  whdload "Overdose.Slave" $whdloadargs
+ENDIF

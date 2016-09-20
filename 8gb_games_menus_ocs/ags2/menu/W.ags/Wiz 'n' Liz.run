@@ -1,0 +1,6 @@
+cd "A-Games:W/WizNLiz/"
+IF $whdloadargs EQ ""
+  whdload "WizNLiz.Slave"
+ELSE
+  whdload "WizNLiz.Slave" $whdloadargs
+ENDIF

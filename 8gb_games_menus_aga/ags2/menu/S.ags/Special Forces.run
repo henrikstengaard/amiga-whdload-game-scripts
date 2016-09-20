@@ -1,0 +1,6 @@
+cd "A-Games:S/SpecialForces/"
+IF $whdloadargs EQ ""
+  whdload "SpecialForces.slave"
+ELSE
+  whdload "SpecialForces.slave" $whdloadargs
+ENDIF

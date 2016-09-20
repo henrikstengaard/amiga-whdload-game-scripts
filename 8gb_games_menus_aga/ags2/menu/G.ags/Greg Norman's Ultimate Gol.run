@@ -1,0 +1,6 @@
+cd "A-Games:U/UltimateGolf/"
+IF $whdloadargs EQ ""
+  whdload "UltimateGolf.slave"
+ELSE
+  whdload "UltimateGolf.slave" $whdloadargs
+ENDIF

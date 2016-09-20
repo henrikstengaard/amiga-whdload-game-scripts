@@ -1,0 +1,5 @@
+Name    : Music Disk
+Groups  : Ipec Elite
+Type    : Musicdisk
+Party   : Equinoxe and Horizon Party
+Whdload : MusicDisk1IpecElite.Slave

@@ -1,0 +1,6 @@
+Name    : Multica
+Groups  : Andromeda
+Type    : Demo
+Party   : The Gathering 1992
+Rank    : 10th
+Whdload : Multica.slave

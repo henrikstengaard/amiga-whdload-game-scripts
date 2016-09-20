@@ -1,0 +1,6 @@
+cd "A-Demos:S/Sequential/"
+IF $whdloadargs EQ ""
+  whdload "Sequential.slave"
+ELSE
+  whdload "Sequential.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:L/Lorna/"
+IF $whdloadargs EQ ""
+  whdload "Lorna.Slave"
+ELSE
+  whdload "Lorna.Slave" $whdloadargs
+ENDIF

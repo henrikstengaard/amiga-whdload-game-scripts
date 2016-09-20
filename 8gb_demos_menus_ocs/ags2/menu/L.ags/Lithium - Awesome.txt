@@ -1,0 +1,4 @@
+Name    : Lithium
+Groups  : Awesome
+Type    : Demo
+Whdload : Lithium.Slave

@@ -1,0 +1,6 @@
+Name      : Sensible Soccer: England vs Germany
+Publisher : Amiga Power
+Year      : 1992
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : SensibleSoccerBulldogBlty.Slave

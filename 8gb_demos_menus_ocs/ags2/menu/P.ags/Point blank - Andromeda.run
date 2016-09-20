@@ -1,0 +1,6 @@
+cd "A-Demos:P/PointBlank/"
+IF $whdloadargs EQ ""
+  whdload "PointBlank.Slave"
+ELSE
+  whdload "PointBlank.Slave" $whdloadargs
+ENDIF

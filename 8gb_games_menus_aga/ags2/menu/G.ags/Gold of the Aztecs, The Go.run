@@ -1,0 +1,6 @@
+cd "A-Games:G/GoldOfTheAztecs_Kernal1.1/"
+IF $whdloadargs EQ ""
+  whdload "GoldOfTheAztecs(v1.1).Slave"
+ELSE
+  whdload "GoldOfTheAztecs(v1.1).Slave" $whdloadargs
+ENDIF

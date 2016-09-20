@@ -1,0 +1,6 @@
+cd "A-Demos:T/TopKaraoke2AGA/"
+IF $whdloadargs EQ ""
+  whdload "TopKaraoke2AGA.Slave"
+ELSE
+  whdload "TopKaraoke2AGA.Slave" $whdloadargs
+ENDIF

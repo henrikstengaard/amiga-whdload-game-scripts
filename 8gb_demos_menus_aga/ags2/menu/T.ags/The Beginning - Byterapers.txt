@@ -1,0 +1,4 @@
+Name    : The Beginning
+Groups  : Byterapers
+Type    : Demo
+Whdload : Beginning.Slave

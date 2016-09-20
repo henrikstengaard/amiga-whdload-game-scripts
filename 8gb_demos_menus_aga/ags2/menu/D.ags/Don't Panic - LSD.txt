@@ -1,0 +1,4 @@
+Name    : Don't Panic
+Groups  : LSD
+Type    : Musicdisk
+Whdload : DontPanic.Slave

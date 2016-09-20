@@ -1,0 +1,6 @@
+Name    : Megademo 8
+Groups  : Kefrens
+Type    : Demo
+Party   : Kefrens and Dexion Party 1990
+Rank    : 1st
+Whdload : MegaDemo8Kefrens.Slave

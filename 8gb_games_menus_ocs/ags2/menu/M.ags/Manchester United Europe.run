@@ -1,0 +1,6 @@
+cd "A-Games:M/ManchesterUnitedEurope20/"
+IF $whdloadargs EQ ""
+  whdload "ManchesterUnitedEurope20.Slave"
+ELSE
+  whdload "ManchesterUnitedEurope20.Slave" $whdloadargs
+ENDIF

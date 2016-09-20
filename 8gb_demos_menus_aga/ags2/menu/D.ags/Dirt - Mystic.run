@@ -1,0 +1,6 @@
+cd "A-Demos:D/Dirt/"
+IF $whdloadargs EQ ""
+  whdload "Dirt.Slave"
+ELSE
+  whdload "Dirt.Slave" $whdloadargs
+ENDIF

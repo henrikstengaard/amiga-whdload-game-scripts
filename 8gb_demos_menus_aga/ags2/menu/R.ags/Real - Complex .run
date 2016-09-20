@@ -1,0 +1,6 @@
+cd "A-Demos:R/RealAGA/"
+IF $whdloadargs EQ ""
+  whdload "RealAGA.Slave"
+ELSE
+  whdload "RealAGA.Slave" $whdloadargs
+ENDIF

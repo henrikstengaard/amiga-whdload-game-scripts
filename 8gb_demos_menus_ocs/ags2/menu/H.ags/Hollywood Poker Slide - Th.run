@@ -1,0 +1,6 @@
+cd "A-Demos:H/HollywoodPokerSlide/"
+IF $whdloadargs EQ ""
+  whdload "HollywoodPokerSlide.Slave"
+ELSE
+  whdload "HollywoodPokerSlide.Slave" $whdloadargs
+ENDIF

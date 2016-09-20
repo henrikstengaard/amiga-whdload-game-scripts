@@ -1,0 +1,6 @@
+cd "A-Demos:A/AbsoluteSwedish/"
+IF $whdloadargs EQ ""
+  whdload "AbsoluteSwedish.Slave"
+ELSE
+  whdload "AbsoluteSwedish.Slave" $whdloadargs
+ENDIF

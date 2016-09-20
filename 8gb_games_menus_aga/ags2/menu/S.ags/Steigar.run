@@ -1,0 +1,6 @@
+cd "A-Games:S/Steigar/"
+IF $whdloadargs EQ ""
+  whdload "Steigar.Slave"
+ELSE
+  whdload "Steigar.Slave" $whdloadargs
+ENDIF

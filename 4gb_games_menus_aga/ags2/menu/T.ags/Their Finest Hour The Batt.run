@@ -1,0 +1,6 @@
+cd "A-Games2:T/TheirFinestHour/"
+IF $whdloadargs EQ ""
+  whdload "TheirFinestHour.Slave"
+ELSE
+  whdload "TheirFinestHour.Slave" $whdloadargs
+ENDIF

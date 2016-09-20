@@ -1,0 +1,6 @@
+Name      : Tetris Pro
+Publisher : (unknown)
+Year      : 1993
+Genre     : Arcade - Tetris
+Players   : 1 Only
+Whdload   : TetrisPro.Slave

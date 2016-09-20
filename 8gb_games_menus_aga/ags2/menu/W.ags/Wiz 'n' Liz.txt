@@ -1,0 +1,6 @@
+Name      : Wiz 'n' Liz
+Publisher : Psygnosis
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : WizNLiz.Slave

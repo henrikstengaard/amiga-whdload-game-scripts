@@ -1,0 +1,6 @@
+cd "A-Demos:B/BombTheBaseTuneshow2/"
+IF $whdloadargs EQ ""
+  whdload "BombTheBaseTuneshow2.Slave"
+ELSE
+  whdload "BombTheBaseTuneshow2.Slave" $whdloadargs
+ENDIF

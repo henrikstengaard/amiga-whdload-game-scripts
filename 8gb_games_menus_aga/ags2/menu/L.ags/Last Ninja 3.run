@@ -1,0 +1,6 @@
+cd "A-Games:L/LastNinja3CD32/"
+IF $whdloadargs EQ ""
+  whdload "LastNinja3CD32.Slave"
+ELSE
+  whdload "LastNinja3CD32.Slave" $whdloadargs
+ENDIF

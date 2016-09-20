@@ -1,0 +1,6 @@
+cd "A-Demos:C/CopperMaster/"
+IF $whdloadargs EQ ""
+  whdload "CopperMaster.Slave"
+ELSE
+  whdload "CopperMaster.Slave" $whdloadargs
+ENDIF

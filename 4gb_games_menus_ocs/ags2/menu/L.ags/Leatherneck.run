@@ -1,0 +1,6 @@
+cd "A-Games1:L/Leatherneck/"
+IF $whdloadargs EQ ""
+  whdload "Leatherneck.Slave"
+ELSE
+  whdload "Leatherneck.Slave" $whdloadargs
+ENDIF

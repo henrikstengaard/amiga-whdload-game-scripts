@@ -1,0 +1,6 @@
+Name    : Deep Core
+Groups  : Balance
+Type    : Demo
+Party   : Hurricane &amp
+Rank    : N/a
+Whdload : Deepcore.Slave

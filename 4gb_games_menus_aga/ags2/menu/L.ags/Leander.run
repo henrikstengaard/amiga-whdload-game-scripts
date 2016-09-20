@@ -1,0 +1,6 @@
+cd "A-Games1:L/Leander/"
+IF $whdloadargs EQ ""
+  whdload "Leander.Slave"
+ELSE
+  whdload "Leander.Slave" $whdloadargs
+ENDIF

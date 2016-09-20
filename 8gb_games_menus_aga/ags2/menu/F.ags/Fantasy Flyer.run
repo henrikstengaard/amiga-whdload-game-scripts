@@ -1,0 +1,6 @@
+cd "A-Games:F/FantasyFlyerAGA/"
+IF $whdloadargs EQ ""
+  whdload "FantasyFlyerAGA.Slave"
+ELSE
+  whdload "FantasyFlyerAGA.Slave" $whdloadargs
+ENDIF

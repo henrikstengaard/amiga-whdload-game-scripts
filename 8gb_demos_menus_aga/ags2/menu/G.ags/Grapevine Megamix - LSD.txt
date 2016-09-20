@@ -1,0 +1,4 @@
+Name    : Grapevine Megamix
+Groups  : LSD
+Type    : Musicdisk
+Whdload : GrapevineMegamix.Slave

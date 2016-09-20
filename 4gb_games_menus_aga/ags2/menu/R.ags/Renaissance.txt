@@ -1,0 +1,5 @@
+Name      : Renaissance
+Publisher : Impressions
+Year      : 1990
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : Renaissance.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:R/Reflexity/"
+IF $whdloadargs EQ ""
+  whdload "Reflexity.Slave"
+ELSE
+  whdload "Reflexity.Slave" $whdloadargs
+ENDIF

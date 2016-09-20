@@ -1,0 +1,6 @@
+Name      : Bad Cat
+Publisher : Rainbow Arts
+Year      : 1987
+Genre     : Platformer - Scrolling Screen
+Players   : 1 to 4
+Whdload   : BadCat.Slave

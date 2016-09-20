@@ -1,0 +1,6 @@
+cd "A-Games1:H/HeartOfChina/"
+IF $whdloadargs EQ ""
+  whdload "HeartOfChina.Slave"
+ELSE
+  whdload "HeartOfChina.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:M/MegaDemoScoopex/"
+IF $whdloadargs EQ ""
+  whdload "MegaDemoScoopex.Slave"
+ELSE
+  whdload "MegaDemoScoopex.Slave" $whdloadargs
+ENDIF

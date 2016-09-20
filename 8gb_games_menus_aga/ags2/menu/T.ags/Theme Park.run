@@ -1,0 +1,6 @@
+cd "A-Games:T/ThemeParkAGA/"
+IF $whdloadargs EQ ""
+  whdload "ThemeParkAGA.Slave"
+ELSE
+  whdload "ThemeParkAGA.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:G/Glow/"
+IF $whdloadargs EQ ""
+  whdload "Glow.slave"
+ELSE
+  whdload "Glow.slave" $whdloadargs
+ENDIF

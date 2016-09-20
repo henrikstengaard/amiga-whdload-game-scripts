@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Avenger
+Type    : Demo
+Whdload : MegaDemoAvenger.slave

@@ -1,0 +1,6 @@
+cd "A-Games:C/Cybernoid/"
+IF $whdloadargs EQ ""
+  whdload "Cybernoid.Slave"
+ELSE
+  whdload "Cybernoid.Slave" $whdloadargs
+ENDIF

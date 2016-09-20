@@ -1,0 +1,6 @@
+Name    : Project Techno
+Groups  : Quartz
+Type    : Musicdisk
+Party   : Amiga Shopper 1992
+Rank    : N/a
+Whdload : ProjectTechno.Slave

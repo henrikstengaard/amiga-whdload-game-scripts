@@ -1,0 +1,6 @@
+cd "A-Games:B/Bloodwych&ExtendedLevels/"
+IF $whdloadargs EQ ""
+  whdload "Bloodwych.Slave"
+ELSE
+  whdload "Bloodwych.Slave" $whdloadargs
+ENDIF

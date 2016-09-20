@@ -1,0 +1,5 @@
+Name      : Wings of Death
+Publisher : Thalion
+Year      : 1989
+Players   : 1 Only
+Whdload   : WingsOfDeath.slave

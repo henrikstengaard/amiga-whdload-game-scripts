@@ -1,0 +1,5 @@
+Name      : Violator
+Publisher : Codemasters
+Year      : 1991
+Players   : 1 Only
+Whdload   : Violator.Slave

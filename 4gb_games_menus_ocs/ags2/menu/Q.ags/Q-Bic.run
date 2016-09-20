@@ -1,0 +1,6 @@
+cd "A-Games2:Q/QBic/"
+IF $whdloadargs EQ ""
+  whdload "QBic.slave"
+ELSE
+  whdload "QBic.slave" $whdloadargs
+ENDIF

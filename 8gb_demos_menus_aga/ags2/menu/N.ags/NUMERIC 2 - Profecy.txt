@@ -1,0 +1,4 @@
+Name    : NUMERIC 2
+Groups  : Profecy
+Type    : Musicdisk
+Whdload : Numeric2.Slave

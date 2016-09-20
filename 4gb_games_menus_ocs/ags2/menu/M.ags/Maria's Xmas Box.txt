@@ -1,0 +1,6 @@
+Name      : Maria's Xmas Box
+Publisher : Anco
+Year      : 1988
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : MariasXmasBox.Slave

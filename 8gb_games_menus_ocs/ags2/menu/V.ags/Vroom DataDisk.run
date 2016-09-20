@@ -1,0 +1,6 @@
+cd "A-Games:V/Vroom&DataDisk/"
+IF $whdloadargs EQ ""
+  whdload "DataDisk.Slave"
+ELSE
+  whdload "DataDisk.Slave" $whdloadargs
+ENDIF

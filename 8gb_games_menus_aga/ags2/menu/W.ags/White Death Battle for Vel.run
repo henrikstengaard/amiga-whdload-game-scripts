@@ -1,0 +1,6 @@
+cd "A-Games:W/WhiteDeath/"
+IF $whdloadargs EQ ""
+  whdload "WhiteDeath.Slave"
+ELSE
+  whdload "WhiteDeath.Slave" $whdloadargs
+ENDIF

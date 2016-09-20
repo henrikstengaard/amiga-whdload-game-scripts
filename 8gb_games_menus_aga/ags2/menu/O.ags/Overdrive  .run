@@ -1,0 +1,6 @@
+cd "A-Games:O/OverdriveTeam17/"
+IF $whdloadargs EQ ""
+  whdload "OverdriveTeam17.Slave"
+ELSE
+  whdload "OverdriveTeam17.Slave" $whdloadargs
+ENDIF

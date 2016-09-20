@@ -1,0 +1,6 @@
+cd "A-Games:S/SkeletonKrewCD32/"
+IF $whdloadargs EQ ""
+  whdload "SkeletonKrewCD32.slave"
+ELSE
+  whdload "SkeletonKrewCD32.slave" $whdloadargs
+ENDIF

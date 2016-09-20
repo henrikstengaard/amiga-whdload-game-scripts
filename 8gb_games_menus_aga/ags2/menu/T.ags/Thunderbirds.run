@@ -1,0 +1,6 @@
+cd "A-Games:T/Thunderbirds/"
+IF $whdloadargs EQ ""
+  whdload "Thunderbirds.slave"
+ELSE
+  whdload "Thunderbirds.slave" $whdloadargs
+ENDIF

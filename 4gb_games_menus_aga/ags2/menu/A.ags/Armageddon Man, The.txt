@@ -1,0 +1,6 @@
+Name      : Armageddon Man, The
+Publisher : Martech
+Year      : 1988
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : ArmageddonMan.Slave

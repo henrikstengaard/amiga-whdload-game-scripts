@@ -1,0 +1,6 @@
+cd "A-Demos:L/Lithium/"
+IF $whdloadargs EQ ""
+  whdload "Lithium.Slave"
+ELSE
+  whdload "Lithium.Slave" $whdloadargs
+ENDIF

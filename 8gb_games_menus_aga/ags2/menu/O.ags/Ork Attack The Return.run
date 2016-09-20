@@ -1,0 +1,6 @@
+cd "A-Games:O/OrkAttackTheReturn/"
+IF $whdloadargs EQ ""
+  whdload "OrkAttackTheReturn.Slave"
+ELSE
+  whdload "OrkAttackTheReturn.Slave" $whdloadargs
+ENDIF

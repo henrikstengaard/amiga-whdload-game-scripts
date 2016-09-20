@@ -1,0 +1,6 @@
+cd "A-Demos:H/Hammer/"
+IF $whdloadargs EQ ""
+  whdload "Hammer.Slave"
+ELSE
+  whdload "Hammer.Slave" $whdloadargs
+ENDIF

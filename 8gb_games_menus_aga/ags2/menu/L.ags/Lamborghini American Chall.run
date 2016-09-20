@@ -1,0 +1,6 @@
+cd "A-Games:L/LamborghiniAmericanChllng/"
+IF $whdloadargs EQ ""
+  whdload "LamborghiniAmericanChllng.slave"
+ELSE
+  whdload "LamborghiniAmericanChllng.slave" $whdloadargs
+ENDIF

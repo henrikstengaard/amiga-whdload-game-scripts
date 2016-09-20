@@ -1,0 +1,6 @@
+cd "A-Demos:S/SoundDemo/"
+IF $whdloadargs EQ ""
+  whdload "SoundDemo.slave"
+ELSE
+  whdload "SoundDemo.slave" $whdloadargs
+ENDIF

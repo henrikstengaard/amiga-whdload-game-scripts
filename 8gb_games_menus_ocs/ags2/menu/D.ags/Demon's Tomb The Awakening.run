@@ -1,0 +1,6 @@
+cd "A-Games:D/DemonsTombTheAwakening/"
+IF $whdloadargs EQ ""
+  whdload "DemonsTombTheAwakening.Slave"
+ELSE
+  whdload "DemonsTombTheAwakening.Slave" $whdloadargs
+ENDIF

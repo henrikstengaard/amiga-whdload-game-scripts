@@ -1,0 +1,6 @@
+Name      : Seconds Out..!
+Publisher : Tynesoft
+Year      : 1988
+Genre     : Sports - Boxing
+Players   : 1 Only
+Whdload   : SecondsOut.Slave

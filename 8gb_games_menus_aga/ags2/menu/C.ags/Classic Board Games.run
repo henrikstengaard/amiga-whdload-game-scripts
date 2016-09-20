@@ -1,0 +1,6 @@
+cd "A-Games:C/ClassicBoardGames/"
+IF $whdloadargs EQ ""
+  whdload "ClassicBoardGames.slave"
+ELSE
+  whdload "ClassicBoardGames.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:P/PublicAttack/"
+IF $whdloadargs EQ ""
+  whdload "PublicAttack.Slave"
+ELSE
+  whdload "PublicAttack.Slave" $whdloadargs
+ENDIF

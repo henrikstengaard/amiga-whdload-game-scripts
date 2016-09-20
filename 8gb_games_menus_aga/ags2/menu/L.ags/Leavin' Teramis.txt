@@ -1,0 +1,5 @@
+Name      : Leavin' Teramis
+Publisher : Thalion
+Year      : 1990
+Players   : 1 Only
+Whdload   : LeavinTeramis.Slave

@@ -1,0 +1,6 @@
+cd "A-Games2:S/SphericalWorldsCD/"
+IF $whdloadargs EQ ""
+  whdload "SphericalWorldsCD.Slave"
+ELSE
+  whdload "SphericalWorldsCD.Slave" $whdloadargs
+ENDIF

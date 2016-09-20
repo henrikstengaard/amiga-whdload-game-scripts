@@ -1,0 +1,6 @@
+cd "A-Games1:A/AirSupport/"
+IF $whdloadargs EQ ""
+  whdload "AirSupport.Slave"
+ELSE
+  whdload "AirSupport.Slave" $whdloadargs
+ENDIF

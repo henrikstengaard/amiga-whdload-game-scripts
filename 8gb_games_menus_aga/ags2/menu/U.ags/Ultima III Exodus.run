@@ -1,0 +1,6 @@
+cd "A-Games:U/Ultima3/"
+IF $whdloadargs EQ ""
+  whdload "Ultima3.Slave"
+ELSE
+  whdload "Ultima3.Slave" $whdloadargs
+ENDIF

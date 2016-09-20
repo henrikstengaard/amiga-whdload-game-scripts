@@ -1,0 +1,6 @@
+cd "A-Games:R/RedBaron/"
+IF $whdloadargs EQ ""
+  whdload "RedBaron.slave"
+ELSE
+  whdload "RedBaron.slave" $whdloadargs
+ENDIF

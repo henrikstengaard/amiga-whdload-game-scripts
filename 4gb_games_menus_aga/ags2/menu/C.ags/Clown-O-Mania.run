@@ -1,0 +1,6 @@
+cd "A-Games1:C/ClownOMania/"
+IF $whdloadargs EQ ""
+  whdload "ClownOMania.slave"
+ELSE
+  whdload "ClownOMania.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Crystal Symphonies 2
+Groups  : Phenomena
+Type    : Musicdisk
+Whdload : CrystalSymphonies2.Slave

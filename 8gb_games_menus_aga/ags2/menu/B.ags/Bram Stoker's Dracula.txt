@@ -1,0 +1,5 @@
+Name      : Bram Stoker's Dracula
+Publisher : Psygnosis
+Year      : 1994
+Players   : 1 Only
+Whdload   : BramStokersDracula.Slave

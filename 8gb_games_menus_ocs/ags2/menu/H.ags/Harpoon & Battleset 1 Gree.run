@@ -1,0 +1,6 @@
+cd "A-Games:H/Harpoon&Battleset1/"
+IF $whdloadargs EQ ""
+  whdload "Harpoon&Battleset1.Slave"
+ELSE
+  whdload "Harpoon&Battleset1.Slave" $whdloadargs
+ENDIF

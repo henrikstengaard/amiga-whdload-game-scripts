@@ -1,0 +1,6 @@
+Name    : Wicked Sensation
+Groups  : Tristar & Red Sector Inc.
+Type    : Demo
+Party   : World of Commodore 1992
+Rank    : 1st
+Whdload : WickedSensation.Slave

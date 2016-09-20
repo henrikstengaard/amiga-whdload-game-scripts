@@ -1,0 +1,5 @@
+Name      : Paradise Lost
+Publisher : Silicon Twins
+Year      : 1991
+Players   : 1
+Whdload   : ParadiseLost.slave

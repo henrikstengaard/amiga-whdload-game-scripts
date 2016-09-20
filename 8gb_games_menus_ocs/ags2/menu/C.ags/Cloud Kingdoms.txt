@@ -1,0 +1,6 @@
+Name      : Cloud Kingdoms
+Publisher : Millennium
+Year      : 1991
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : CloudKingdoms.slave

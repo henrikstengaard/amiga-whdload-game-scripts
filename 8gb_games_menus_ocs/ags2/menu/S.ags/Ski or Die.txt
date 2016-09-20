@@ -1,0 +1,6 @@
+Name      : Ski or Die
+Publisher : Electronic Arts
+Year      : 1990
+Genre     : Sports - Multi-Event
+Players   : 1 to 6
+Whdload   : SkiOrDie.Slave

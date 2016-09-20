@@ -1,0 +1,6 @@
+cd "A-Games:F/FootballManagerWCEd/"
+IF $whdloadargs EQ ""
+  whdload "FootballManagerWCEd.Slave"
+ELSE
+  whdload "FootballManagerWCEd.Slave" $whdloadargs
+ENDIF

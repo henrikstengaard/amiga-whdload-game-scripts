@@ -1,0 +1,6 @@
+Name      : Legends of Valour
+Publisher : US Gold
+Year      : 1993
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : LegendsOfValour.Slave

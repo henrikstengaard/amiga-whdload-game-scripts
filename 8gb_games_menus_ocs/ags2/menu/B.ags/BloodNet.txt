@@ -1,0 +1,5 @@
+Name      : BloodNet
+Publisher : Gametek / Microprose
+Year      : 1995
+Players   : 1
+Whdload   : Bloodnet.slave

@@ -1,0 +1,6 @@
+Name      : Locomotion
+Publisher : Kingsoft
+Year      : 1992
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : Locomotion.Slave

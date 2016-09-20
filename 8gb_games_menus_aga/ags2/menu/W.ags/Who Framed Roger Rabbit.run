@@ -1,0 +1,6 @@
+cd "A-Games:W/WhoFramedRogerRabbit/"
+IF $whdloadargs EQ ""
+  whdload "WhoFramedRogerRabbit.slave"
+ELSE
+  whdload "WhoFramedRogerRabbit.slave" $whdloadargs
+ENDIF

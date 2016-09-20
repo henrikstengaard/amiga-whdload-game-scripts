@@ -1,0 +1,6 @@
+Name      : Jocky Wilson's Darts Challenge
+Publisher : Zeppelin Games
+Year      : 1990
+Genre     : Sports - Darts
+Players   : 1 to 4
+Whdload   : JockyWilsonsDartChallenge.Slave

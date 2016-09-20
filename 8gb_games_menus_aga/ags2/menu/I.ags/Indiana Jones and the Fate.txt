@@ -1,0 +1,6 @@
+Name      : Indiana Jones and the Fate of Atlantis
+Publisher : US Gold
+Year      : 1992
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : IndianaJonesAtlantisAct.slave

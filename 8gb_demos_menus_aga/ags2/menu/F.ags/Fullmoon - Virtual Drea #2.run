@@ -1,0 +1,6 @@
+cd "A-Demos:F/FullMoonAGA/"
+IF $whdloadargs EQ ""
+  whdload "FullMoonAGA.Slave"
+ELSE
+  whdload "FullMoonAGA.Slave" $whdloadargs
+ENDIF

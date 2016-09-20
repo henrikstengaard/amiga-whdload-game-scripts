@@ -1,0 +1,5 @@
+Name      : Rise of the Robots
+Publisher : Time Warner Interactive
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+Whdload   : RiseOfTheRobotsCD32.Slave

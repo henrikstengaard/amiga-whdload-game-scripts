@@ -1,0 +1,5 @@
+Name      : Dragon's Kingdom
+Publisher : Genias
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : DragonsKingdomDemo.Slave

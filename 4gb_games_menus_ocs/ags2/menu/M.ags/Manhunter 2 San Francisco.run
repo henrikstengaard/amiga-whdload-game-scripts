@@ -1,0 +1,6 @@
+cd "A-Games1:M/Manhunter2/"
+IF $whdloadargs EQ ""
+  whdload "Manhunter2.slave"
+ELSE
+  whdload "Manhunter2.slave" $whdloadargs
+ENDIF

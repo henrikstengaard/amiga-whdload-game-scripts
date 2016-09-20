@@ -1,0 +1,6 @@
+cd "A-Games:S/SpellboundDizzy/"
+IF $whdloadargs EQ ""
+  whdload "SpellboundDizzy.Slave"
+ELSE
+  whdload "SpellboundDizzy.Slave" $whdloadargs
+ENDIF

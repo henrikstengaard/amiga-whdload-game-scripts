@@ -1,0 +1,6 @@
+cd "A-Demos:N/Nugget/"
+IF $whdloadargs EQ ""
+  whdload "Nugget.Slave"
+ELSE
+  whdload "Nugget.Slave" $whdloadargs
+ENDIF

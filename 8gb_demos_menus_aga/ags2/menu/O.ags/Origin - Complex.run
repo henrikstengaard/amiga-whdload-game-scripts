@@ -1,0 +1,6 @@
+cd "A-Demos:O/Origin/"
+IF $whdloadargs EQ ""
+  whdload "Origin.slave"
+ELSE
+  whdload "Origin.slave" $whdloadargs
+ENDIF

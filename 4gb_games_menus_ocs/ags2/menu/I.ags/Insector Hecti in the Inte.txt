@@ -1,0 +1,6 @@
+Name      : Insector Hecti in the Interchange
+Publisher : Hi-Tec Software
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : InsectorHectiInterChange.Slave

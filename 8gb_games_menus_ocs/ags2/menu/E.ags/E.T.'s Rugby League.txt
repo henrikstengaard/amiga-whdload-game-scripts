@@ -1,0 +1,6 @@
+Name      : E.T.'s Rugby League
+Publisher : Audiogenic
+Year      : 1992
+Genre     : Sports - Rugby
+Players   : 1 or 2, Simultaneous
+Whdload   : ETsRugbyLeague.Slave

@@ -1,0 +1,6 @@
+Name      : International Tennis
+Publisher : Zeppelin Games
+Year      : 1992
+Genre     : Sports - Tennis
+Players   : 1 or 2, Simultaneous
+Whdload   : InternationalTennis.slave

@@ -1,0 +1,6 @@
+Name      : Aquatic Games, The: Starring James Pond and the Aquabats
+Publisher : Millennium
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 to 4
+Whdload   : AquaticGames.Slave

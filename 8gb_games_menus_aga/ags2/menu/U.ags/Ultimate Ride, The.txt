@@ -1,0 +1,6 @@
+Name      : Ultimate Ride, The
+Publisher : Mindscape
+Year      : 1990
+Genre     : Racing - Motorcycle
+Players   : 1 or 2, Simultaneous
+Whdload   : UltimateRide.slave

@@ -1,0 +1,6 @@
+cd "A-Games:I/IndigoImage/"
+IF $whdloadargs EQ ""
+  whdload "IndigoImage.Slave"
+ELSE
+  whdload "IndigoImage.Slave" $whdloadargs
+ENDIF

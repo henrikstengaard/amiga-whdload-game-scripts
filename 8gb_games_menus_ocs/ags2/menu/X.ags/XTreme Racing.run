@@ -1,0 +1,6 @@
+cd "A-Games:U/UltimateXTremeRacingCD/"
+IF $whdloadargs EQ ""
+  whdload "UltimateXTremeRacingCD.slave"
+ELSE
+  whdload "UltimateXTremeRacingCD.slave" $whdloadargs
+ENDIF

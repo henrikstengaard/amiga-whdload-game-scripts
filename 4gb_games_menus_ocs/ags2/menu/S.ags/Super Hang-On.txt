@@ -1,0 +1,6 @@
+Name      : Super Hang-On
+Publisher : Electric Dreams
+Year      : 1988
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : SuperHangOn.Slave

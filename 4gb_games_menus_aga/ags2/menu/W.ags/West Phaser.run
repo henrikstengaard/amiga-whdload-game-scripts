@@ -1,0 +1,6 @@
+cd "A-Games2:W/WestPhaser/"
+IF $whdloadargs EQ ""
+  whdload "WestPhaser.Slave"
+ELSE
+  whdload "WestPhaser.Slave" $whdloadargs
+ENDIF

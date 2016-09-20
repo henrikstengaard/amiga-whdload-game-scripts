@@ -1,0 +1,6 @@
+Name      : Dick Tracy: The Crime Solving Adventure
+Publisher : Disney Software
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : DickTracyAdventure.Slave

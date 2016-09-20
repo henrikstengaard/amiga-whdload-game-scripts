@@ -1,0 +1,6 @@
+cd "A-Games:C/Carcharodon/"
+IF $whdloadargs EQ ""
+  whdload "Carcharodon.Slave"
+ELSE
+  whdload "Carcharodon.Slave" $whdloadargs
+ENDIF

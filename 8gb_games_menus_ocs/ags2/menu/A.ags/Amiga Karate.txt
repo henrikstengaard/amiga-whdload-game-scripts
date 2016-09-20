@@ -1,0 +1,6 @@
+Name      : Amiga Karate
+Publisher : Eidersoft
+Year      : 1987
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : AmigaKarate.Slave

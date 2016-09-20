@@ -1,0 +1,4 @@
+Name    : Rhythm Device
+Groups  : Energy
+Type    : Musicdisk
+Whdload : RhythmDevice.Slave

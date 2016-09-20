@@ -1,0 +1,6 @@
+cd "A-Games:G/Gremlins2/"
+IF $whdloadargs EQ ""
+  whdload "Gremlins2.Slave"
+ELSE
+  whdload "Gremlins2.Slave" $whdloadargs
+ENDIF

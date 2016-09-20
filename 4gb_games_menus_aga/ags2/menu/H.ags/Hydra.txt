@@ -1,0 +1,6 @@
+Name      : Hydra
+Publisher : Domark
+Year      : 1991
+Genre     : Sports - Water
+Players   : 1 Only
+Whdload   : Hydra.Slave

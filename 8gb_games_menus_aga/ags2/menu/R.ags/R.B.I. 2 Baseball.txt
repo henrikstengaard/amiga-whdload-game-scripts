@@ -1,0 +1,6 @@
+Name      : R.B.I. 2 Baseball
+Publisher : Domark
+Year      : 1991
+Genre     : Sports - Baseball
+Players   : 1 or 2, Simultaneous
+Whdload   : RBI2Baseball.Slave

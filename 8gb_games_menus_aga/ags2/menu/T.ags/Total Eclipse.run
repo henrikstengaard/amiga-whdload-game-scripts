@@ -1,0 +1,6 @@
+cd "A-Games:T/TotalEclipse/"
+IF $whdloadargs EQ ""
+  whdload "TotalEclipse.Slave"
+ELSE
+  whdload "TotalEclipse.Slave" $whdloadargs
+ENDIF

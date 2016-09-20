@@ -1,0 +1,6 @@
+Name      : TV Sports Football
+Publisher : Cinemaware
+Year      : 1988
+Genre     : Sports - American Football
+Players   : 1 or 2, Simultaneous
+Whdload   : TVSportsFootball.slave

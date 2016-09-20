@@ -1,0 +1,4 @@
+Name    : Sonical Fantasia
+Groups  : Equinox
+Type    : Musicdisk
+Whdload : SonicalFantasia.Slave

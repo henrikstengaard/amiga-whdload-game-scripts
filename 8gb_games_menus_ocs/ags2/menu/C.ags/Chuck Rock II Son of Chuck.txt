@@ -1,0 +1,6 @@
+Name      : Chuck Rock II: Son of Chuck
+Publisher : Core Design
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ChuckRock2.slave

@@ -1,0 +1,6 @@
+cd "A-Demos:S/SOFTMovie/"
+IF $whdloadargs EQ ""
+  whdload "SOFTMovie.Slave"
+ELSE
+  whdload "SOFTMovie.Slave" $whdloadargs
+ENDIF

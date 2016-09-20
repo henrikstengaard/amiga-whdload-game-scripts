@@ -1,0 +1,6 @@
+Name      : Wheels on Fire
+Publisher : Verkosoft
+Year      : 1997
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : WheelsOnFire.Slave

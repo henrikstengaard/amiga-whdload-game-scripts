@@ -1,0 +1,6 @@
+cd "A-Games:D/DragonTiles/"
+IF $whdloadargs EQ ""
+  whdload "DragonTiles.Slave"
+ELSE
+  whdload "DragonTiles.Slave" $whdloadargs
+ENDIF

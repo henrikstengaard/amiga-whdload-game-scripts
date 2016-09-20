@@ -1,0 +1,6 @@
+cd "A-Games:J/JamesPond3CD32/"
+IF $whdloadargs EQ ""
+  whdload "JamesPond3CD32.slave"
+ELSE
+  whdload "JamesPond3CD32.slave" $whdloadargs
+ENDIF

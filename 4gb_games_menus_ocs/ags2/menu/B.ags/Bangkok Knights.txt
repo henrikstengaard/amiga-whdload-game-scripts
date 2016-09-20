@@ -1,0 +1,6 @@
+Name      : Bangkok Knights
+Publisher : Activision
+Year      : 1989
+Genre     : Sports - Boxing
+Players   : 1 Only
+Whdload   : BangkokKnights.slave

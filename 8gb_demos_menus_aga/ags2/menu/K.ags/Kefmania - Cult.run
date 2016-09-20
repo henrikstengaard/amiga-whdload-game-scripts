@@ -1,0 +1,6 @@
+cd "A-Demos:K/Kefmania/"
+IF $whdloadargs EQ ""
+  whdload "Kefmania.Slave"
+ELSE
+  whdload "Kefmania.Slave" $whdloadargs
+ENDIF

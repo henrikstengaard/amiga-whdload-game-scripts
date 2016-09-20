@@ -1,0 +1,6 @@
+Name      : Guild of Thieves, The
+Publisher : Rainbird
+Year      : 1987
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : GuildOfThieves.Slave

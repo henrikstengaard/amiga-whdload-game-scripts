@@ -1,0 +1,6 @@
+cd "A-Demos:W/WorldOfManga/"
+IF $whdloadargs EQ ""
+  whdload "WorldOfManga.Slave"
+ELSE
+  whdload "WorldOfManga.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Shaft7
+Groups  : Bomb
+Type    : Demo
+Party   : The Party 1996
+Rank    : 1st
+Whdload : Shaft7.Slave

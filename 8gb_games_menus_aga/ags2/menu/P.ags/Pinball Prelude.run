@@ -1,0 +1,6 @@
+cd "A-Games:P/PinballPreludeAGA/"
+IF $whdloadargs EQ ""
+  whdload "PinballPreludeAGA.slave"
+ELSE
+  whdload "PinballPreludeAGA.slave" $whdloadargs
+ENDIF

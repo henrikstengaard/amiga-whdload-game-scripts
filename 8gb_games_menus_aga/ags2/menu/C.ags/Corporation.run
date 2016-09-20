@@ -1,0 +1,6 @@
+cd "A-Games:C/Corporation&Missions2Disk/"
+IF $whdloadargs EQ ""
+  whdload "Corporation&Missions2Disk.slave"
+ELSE
+  whdload "Corporation&Missions2Disk.slave" $whdloadargs
+ENDIF

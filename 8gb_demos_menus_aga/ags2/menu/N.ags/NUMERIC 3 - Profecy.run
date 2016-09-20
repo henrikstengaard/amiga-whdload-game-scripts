@@ -1,0 +1,6 @@
+cd "A-Demos:N/Numeric3/"
+IF $whdloadargs EQ ""
+  whdload "Numeric3.Slave"
+ELSE
+  whdload "Numeric3.Slave" $whdloadargs
+ENDIF

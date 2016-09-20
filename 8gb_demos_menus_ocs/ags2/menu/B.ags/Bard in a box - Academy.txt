@@ -1,0 +1,4 @@
+Name    : Bard in a box
+Groups  : Academy
+Type    : Musicdisk
+Whdload : BardInABox.Slave

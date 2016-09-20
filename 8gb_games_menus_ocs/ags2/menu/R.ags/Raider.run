@@ -1,0 +1,6 @@
+cd "A-Games:R/Raider/"
+IF $whdloadargs EQ ""
+  whdload "Raider.Slave"
+ELSE
+  whdload "Raider.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games1:M/MajorMotion/"
+IF $whdloadargs EQ ""
+  whdload "MajorMotion.Slave"
+ELSE
+  whdload "MajorMotion.Slave" $whdloadargs
+ENDIF

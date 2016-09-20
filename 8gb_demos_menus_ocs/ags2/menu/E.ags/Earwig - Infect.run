@@ -1,0 +1,6 @@
+cd "A-Demos:E/Earwig/"
+IF $whdloadargs EQ ""
+  whdload "Earwig.Slave"
+ELSE
+  whdload "Earwig.Slave" $whdloadargs
+ENDIF

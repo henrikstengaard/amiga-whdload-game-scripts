@@ -1,0 +1,6 @@
+Name      : Kick Off 96
+Publisher : Anco
+Year      : 1996
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : KickOff96.slave

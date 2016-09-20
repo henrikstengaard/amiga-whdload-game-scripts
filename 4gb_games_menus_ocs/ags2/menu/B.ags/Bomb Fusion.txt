@@ -1,0 +1,6 @@
+Name      : Bomb Fusion
+Publisher : Virgin Mastertronic
+Year      : 1989
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+Whdload   : BombFusion.Slave

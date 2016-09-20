@@ -1,0 +1,4 @@
+Name    : Stag 6
+Groups  : BNK-Team
+Type    : Slideshow
+Whdload : Stag6.slave

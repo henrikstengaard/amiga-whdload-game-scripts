@@ -1,0 +1,6 @@
+cd "A-Games:N/NeverMind/"
+IF $whdloadargs EQ ""
+  whdload "Nevermind.Slave"
+ELSE
+  whdload "Nevermind.Slave" $whdloadargs
+ENDIF

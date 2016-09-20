@@ -1,0 +1,6 @@
+cd "A-Games1:B/BeneathAStlSky/"
+IF $whdloadargs EQ ""
+  whdload "BeneathAStlSky.Slave"
+ELSE
+  whdload "BeneathAStlSky.Slave" $whdloadargs
+ENDIF

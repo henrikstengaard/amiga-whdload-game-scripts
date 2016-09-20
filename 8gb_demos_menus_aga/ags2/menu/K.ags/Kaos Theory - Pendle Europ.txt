@@ -1,0 +1,4 @@
+Name    : Kaos Theory
+Groups  : Pendle Europa
+Type    : Musicdisk
+Whdload : KaosTheory.Slave

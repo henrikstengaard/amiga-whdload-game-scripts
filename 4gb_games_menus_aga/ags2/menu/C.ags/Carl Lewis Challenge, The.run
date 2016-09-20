@@ -1,0 +1,6 @@
+cd "A-Games1:C/CarlLewisChallenge/"
+IF $whdloadargs EQ ""
+  whdload "CarlLewisChallenge.slave"
+ELSE
+  whdload "CarlLewisChallenge.slave" $whdloadargs
+ENDIF

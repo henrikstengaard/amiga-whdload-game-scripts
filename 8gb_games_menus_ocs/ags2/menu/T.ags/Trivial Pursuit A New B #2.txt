@@ -1,0 +1,6 @@
+Name      : Trivial Pursuit: A New Beginning
+Publisher : Domark
+Year      : 1988
+Genre     : Educational - Quiz
+Players   : 1 to 6
+Whdload   : TrivialPursuitNewBegin.slave

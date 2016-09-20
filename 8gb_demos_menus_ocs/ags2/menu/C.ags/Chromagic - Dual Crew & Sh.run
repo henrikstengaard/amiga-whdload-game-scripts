@@ -1,0 +1,6 @@
+cd "A-Demos:C/Chromagic/"
+IF $whdloadargs EQ ""
+  whdload "Chromagic.Slave"
+ELSE
+  whdload "Chromagic.Slave" $whdloadargs
+ENDIF

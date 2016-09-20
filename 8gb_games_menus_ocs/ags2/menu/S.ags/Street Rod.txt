@@ -1,0 +1,6 @@
+Name      : Street Rod
+Publisher : California Dreams
+Year      : 1990
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : StreetRod.slave

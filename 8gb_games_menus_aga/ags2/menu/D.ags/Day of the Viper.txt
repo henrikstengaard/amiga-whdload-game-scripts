@@ -1,0 +1,6 @@
+Name      : Day of the Viper
+Publisher : Accolade
+Year      : 1989
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : DayOfTheViper.Slave

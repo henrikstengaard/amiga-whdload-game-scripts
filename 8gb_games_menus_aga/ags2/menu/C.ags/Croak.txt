@@ -1,0 +1,6 @@
+Name      : Croak!
+Publisher : Amiga Format
+Year      : 1992
+Genre     : Arcade - Frogger
+Players   : 1 or 2, Simultaneous
+Whdload   : Croak.Slave

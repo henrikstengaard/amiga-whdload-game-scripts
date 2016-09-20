@@ -1,0 +1,6 @@
+Name    : Groovy!
+Groups  : Lemon.
+Type    : Demo
+Party   : Digital Symposium 1993
+Rank    : 2nd
+Whdload : Groovy.Slave

@@ -1,0 +1,4 @@
+Name      : Magnatron
+Publisher : BSP Design
+Players   : 1
+Whdload   : Magnatron.Slave

@@ -1,0 +1,5 @@
+Name      : Fatal Mission
+Year      : 1993
+Genre     : Shooter - Shoot 'Em Up
+Players   : 1
+Whdload   : FatalMission.slave

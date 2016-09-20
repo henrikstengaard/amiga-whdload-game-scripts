@@ -1,0 +1,6 @@
+Name      : Castle of Dr. Brain
+Publisher : Sierra On-Line
+Year      : 1992
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : CastleOfDrBrain.Slave

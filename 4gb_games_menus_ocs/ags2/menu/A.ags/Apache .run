@@ -1,0 +1,6 @@
+cd "A-Games1:A/Apache&OverdriveDemo/"
+IF $whdloadargs EQ ""
+  whdload "Apache&OverdriveDemo.Slave"
+ELSE
+  whdload "Apache&OverdriveDemo.Slave" $whdloadargs
+ENDIF

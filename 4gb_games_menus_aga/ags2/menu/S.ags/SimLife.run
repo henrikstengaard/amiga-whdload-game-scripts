@@ -1,0 +1,6 @@
+cd "A-Games2:S/SimLifeAGA/"
+IF $whdloadargs EQ ""
+  whdload "SimLifeAGA.Slave"
+ELSE
+  whdload "SimLifeAGA.Slave" $whdloadargs
+ENDIF

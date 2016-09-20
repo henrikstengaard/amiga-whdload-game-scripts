@@ -1,0 +1,6 @@
+Name      : Breach
+Publisher : Artronic Products
+Year      : 1987
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Breach.Slave

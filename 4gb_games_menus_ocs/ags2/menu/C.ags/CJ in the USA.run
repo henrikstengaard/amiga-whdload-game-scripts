@@ -1,0 +1,6 @@
+cd "A-Games1:C/CJInTheUSA/"
+IF $whdloadargs EQ ""
+  whdload "CJInTheUSA.slave"
+ELSE
+  whdload "CJInTheUSA.slave" $whdloadargs
+ENDIF

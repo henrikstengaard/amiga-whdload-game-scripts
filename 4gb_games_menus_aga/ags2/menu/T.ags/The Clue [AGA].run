@@ -1,0 +1,6 @@
+cd "A-Games1:C/ClueAGA/"
+IF $whdloadargs EQ ""
+  whdload "ClueAGA.slave"
+ELSE
+  whdload "ClueAGA.slave" $whdloadargs
+ENDIF

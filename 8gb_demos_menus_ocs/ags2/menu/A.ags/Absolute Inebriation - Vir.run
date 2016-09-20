@@ -1,0 +1,6 @@
+cd "A-Demos:A/AbsoluteInebriation/"
+IF $whdloadargs EQ ""
+  whdload "AbsoluteInebriation.Slave"
+ELSE
+  whdload "AbsoluteInebriation.Slave" $whdloadargs
+ENDIF

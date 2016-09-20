@@ -1,0 +1,6 @@
+Name      : Continental Circus
+Publisher : Virgin Mastertronic
+Year      : 1989
+Genre     : Sports - Formula One
+Players   : 1 Only
+Whdload   : ContinentalCircus.Slave

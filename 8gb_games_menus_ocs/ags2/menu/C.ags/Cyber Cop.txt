@@ -1,0 +1,5 @@
+Name      : Cyber Cop
+Publisher : Impressions
+Year      : 1991
+Players   : 1 Only
+Whdload   : CyberCop.slave

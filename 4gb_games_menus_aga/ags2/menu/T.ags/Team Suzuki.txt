@@ -1,0 +1,6 @@
+Name      : Team Suzuki
+Publisher : Gremlin Graphics
+Year      : 1991
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : TeamSuzuki.slave

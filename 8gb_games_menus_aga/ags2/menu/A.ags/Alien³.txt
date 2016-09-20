@@ -1,0 +1,5 @@
+Name      : Alien³
+Publisher : Virgin Interactive
+Year      : 1992
+Players   : 1 Only
+Whdload   : Alien3.Slave

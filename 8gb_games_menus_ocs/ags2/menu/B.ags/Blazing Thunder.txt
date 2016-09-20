@@ -1,0 +1,5 @@
+Name      : Blazing Thunder
+Publisher : Hi-Tec Software
+Year      : 1991
+Players   : 1 Only
+Whdload   : BlazingThunder.Slave

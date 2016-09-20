@@ -1,0 +1,6 @@
+cd "A-Games:T/Traders/"
+IF $whdloadargs EQ ""
+  whdload "Traders.slave"
+ELSE
+  whdload "Traders.slave" $whdloadargs
+ENDIF

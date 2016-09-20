@@ -1,0 +1,6 @@
+Name      : Grand Prix Circuit
+Publisher : Accolade
+Year      : 1989
+Genre     : Sports - Formula One
+Players   : 1 Only
+Whdload   : GrandPrixCircuit.Slave

@@ -1,0 +1,4 @@
+Name    : Dance Diverse Vol 1
+Groups  : Majic 12
+Type    : Musicdisk
+Whdload : DanceDiverseVol1.Slave

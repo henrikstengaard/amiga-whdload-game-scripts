@@ -1,0 +1,6 @@
+Name      : Tennis Cup II
+Publisher : Loriciel
+Year      : 1992
+Genre     : Sports - Tennis
+Players   : 1 or 2, Simultaneous
+Whdload   : TennisCup2.Slave

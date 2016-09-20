@@ -1,0 +1,6 @@
+cd "A-Games:K/KnightsOfTheCrystallion/"
+IF $whdloadargs EQ ""
+  whdload "KnightsOfTheCrystallion.slave"
+ELSE
+  whdload "KnightsOfTheCrystallion.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Mindshadow
+Publisher : Activision
+Year      : 1985
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : Mindshadow.Slave

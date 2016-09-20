@@ -1,0 +1,6 @@
+cd "A-Games2:P/PushOver/"
+IF $whdloadargs EQ ""
+  whdload "PushOver.slave"
+ELSE
+  whdload "PushOver.slave" $whdloadargs
+ENDIF

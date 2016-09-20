@@ -1,0 +1,5 @@
+Name      : Operation GII
+Publisher : Psygnosis
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : OperationG2Demo.Slave

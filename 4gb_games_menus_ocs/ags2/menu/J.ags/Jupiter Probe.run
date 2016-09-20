@@ -1,0 +1,6 @@
+cd "A-Games1:J/JupiterProbe/"
+IF $whdloadargs EQ ""
+  whdload "JupiterProbe.Slave"
+ELSE
+  whdload "JupiterProbe.Slave" $whdloadargs
+ENDIF

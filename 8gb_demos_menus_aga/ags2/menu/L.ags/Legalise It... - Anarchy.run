@@ -1,0 +1,6 @@
+cd "A-Demos:L/LegaliseIt/"
+IF $whdloadargs EQ ""
+  whdload "LegaliseIt.slave"
+ELSE
+  whdload "LegaliseIt.slave" $whdloadargs
+ENDIF

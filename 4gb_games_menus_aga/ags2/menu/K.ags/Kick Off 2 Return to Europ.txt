@@ -1,0 +1,6 @@
+Name      : Kick Off 2: Return to Europe
+Publisher : Anco
+Year      : 1991
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : KickOff2ReturnToEurope.slave

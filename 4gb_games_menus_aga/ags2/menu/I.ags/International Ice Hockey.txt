@@ -1,0 +1,6 @@
+Name      : International Ice Hockey
+Publisher : Impulze
+Year      : 1991
+Genre     : Sports - Ice Hockey
+Players   : 1 or 2, Simultaneous
+Whdload   : InternationalIceHockey.Slave

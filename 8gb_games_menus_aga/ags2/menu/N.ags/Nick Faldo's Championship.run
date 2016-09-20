@@ -1,0 +1,6 @@
+cd "A-Games:N/NickFaldosChampGolfCD32/"
+IF $whdloadargs EQ ""
+  whdload "NickFaldosChampGolfCD32.Slave"
+ELSE
+  whdload "NickFaldosChampGolfCD32.Slave" $whdloadargs
+ENDIF

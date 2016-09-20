@@ -1,0 +1,6 @@
+cd "A-Demos:D/DigitalInnovation/"
+IF $whdloadargs EQ ""
+  whdload "DigitalInnovation.slave"
+ELSE
+  whdload "DigitalInnovation.slave" $whdloadargs
+ENDIF

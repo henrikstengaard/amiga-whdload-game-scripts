@@ -1,0 +1,6 @@
+Name      : Slightly Magic
+Publisher : Codemasters
+Year      : 1991
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : SlightlyMagic.slave

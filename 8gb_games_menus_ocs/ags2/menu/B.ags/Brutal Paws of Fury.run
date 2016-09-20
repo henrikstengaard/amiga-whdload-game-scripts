@@ -1,0 +1,6 @@
+cd "A-Games:B/BrutalPawsOfFury/"
+IF $whdloadargs EQ ""
+  whdload "BrutalPawsOfFury.slave"
+ELSE
+  whdload "BrutalPawsOfFury.slave" $whdloadargs
+ENDIF

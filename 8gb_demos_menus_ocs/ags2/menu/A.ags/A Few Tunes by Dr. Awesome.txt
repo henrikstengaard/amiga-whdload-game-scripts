@@ -1,0 +1,4 @@
+Name    : A Few Tunes by Dr. Awesome and Fleshbrain
+Groups  : The Crusaders
+Type    : Musicdisk
+Whdload : AFewTunes.Slave

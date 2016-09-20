@@ -1,0 +1,6 @@
+Name      : Time Runners 13: Cyberkiller
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners13.Slave

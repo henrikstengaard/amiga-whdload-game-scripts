@@ -1,0 +1,4 @@
+Name    : Megademo 4
+Groups  : Vision
+Type    : Demo
+Whdload : MegaDemo4Vision.slave

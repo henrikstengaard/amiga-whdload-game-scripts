@@ -1,0 +1,6 @@
+Name      : Crazy Seasons
+Publisher : Idea Software
+Year      : 1992
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : CrazySeasons.Slave

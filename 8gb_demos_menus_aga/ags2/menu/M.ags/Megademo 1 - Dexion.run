@@ -1,0 +1,6 @@
+cd "A-Demos:M/MegaDemo2Dexion/"
+IF $whdloadargs EQ ""
+  whdload "MegaDemo2Dexion.Slave"
+ELSE
+  whdload "MegaDemo2Dexion.Slave" $whdloadargs
+ENDIF

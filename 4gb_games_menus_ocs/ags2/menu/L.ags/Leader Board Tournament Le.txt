@@ -1,0 +1,5 @@
+Name      : Leader Board Tournament
+Publisher : Access / U.S. Gold
+Year      : 1986
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : LeaderboardTD1.slave

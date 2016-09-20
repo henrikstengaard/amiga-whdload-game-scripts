@@ -1,0 +1,5 @@
+Name      : Stratego
+Publisher : Accolade
+Year      : 1990
+Genre     : Board - Miscellaneous
+Whdload   : Stratego.Slave

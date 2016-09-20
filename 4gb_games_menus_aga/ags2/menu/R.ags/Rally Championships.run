@@ -1,0 +1,6 @@
+cd "A-Games2:R/RallyChampionshipsAGA/"
+IF $whdloadargs EQ ""
+  whdload "RallyChampionshipsAGA.Slave"
+ELSE
+  whdload "RallyChampionshipsAGA.Slave" $whdloadargs
+ENDIF

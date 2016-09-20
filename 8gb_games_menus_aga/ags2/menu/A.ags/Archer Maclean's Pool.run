@@ -1,0 +1,6 @@
+cd "A-Games:A/ArcherMacleansPool/"
+IF $whdloadargs EQ ""
+  whdload "ArcherMacleansPool.Slave"
+ELSE
+  whdload "ArcherMacleansPool.Slave" $whdloadargs
+ENDIF

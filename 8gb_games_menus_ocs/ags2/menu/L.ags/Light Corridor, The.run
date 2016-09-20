@@ -1,0 +1,6 @@
+cd "A-Games:L/LightCorridor/"
+IF $whdloadargs EQ ""
+  whdload "LightCorridor.Slave"
+ELSE
+  whdload "LightCorridor.Slave" $whdloadargs
+ENDIF

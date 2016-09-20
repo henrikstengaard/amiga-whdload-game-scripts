@@ -1,0 +1,5 @@
+Name      : The Games: Summer Edition
+Publisher : U.S. Gold / Epyx
+Year      : 1989
+Players   : 1 - 8 (1 simultaneous)
+Whdload   : GamesSummerEdition.Slave

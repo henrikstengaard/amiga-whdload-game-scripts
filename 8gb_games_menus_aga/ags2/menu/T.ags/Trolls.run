@@ -1,0 +1,6 @@
+cd "A-Games:T/TrollsCD32/"
+IF $whdloadargs EQ ""
+  whdload "TrollsCD32.Slave"
+ELSE
+  whdload "TrollsCD32.Slave" $whdloadargs
+ENDIF

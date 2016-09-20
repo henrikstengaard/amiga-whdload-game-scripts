@@ -1,0 +1,6 @@
+cd "A-Demos:X/XPose/"
+IF $whdloadargs EQ ""
+  whdload "XPose.Slave"
+ELSE
+  whdload "XPose.Slave" $whdloadargs
+ENDIF

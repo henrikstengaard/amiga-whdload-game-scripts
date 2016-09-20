@@ -1,0 +1,5 @@
+Name      : A Question of Sport
+Publisher : Elite
+Year      : 1989
+Players   : 1 -2 (1 simultaneous)
+Whdload   : QuestionOfSport.Slave

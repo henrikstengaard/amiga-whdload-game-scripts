@@ -1,0 +1,6 @@
+cd "A-Games:T/Teller/"
+IF $whdloadargs EQ ""
+  whdload "Teller.Slave"
+ELSE
+  whdload "Teller.Slave" $whdloadargs
+ENDIF

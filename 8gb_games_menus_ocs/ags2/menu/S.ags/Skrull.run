@@ -1,0 +1,6 @@
+cd "A-Games:S/Skrull/"
+IF $whdloadargs EQ ""
+  whdload "Skrull.Slave"
+ELSE
+  whdload "Skrull.Slave" $whdloadargs
+ENDIF

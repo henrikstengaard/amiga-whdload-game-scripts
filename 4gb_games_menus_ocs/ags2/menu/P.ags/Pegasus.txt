@@ -1,0 +1,5 @@
+Name      : Pegasus
+Publisher : Gremlin Graphics
+Year      : 1991
+Players   : 1 Only
+Whdload   : Pegasus.Slave

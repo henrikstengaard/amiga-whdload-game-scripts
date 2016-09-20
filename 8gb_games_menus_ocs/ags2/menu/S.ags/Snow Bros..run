@@ -1,0 +1,6 @@
+cd "A-Games:S/SnowBrosImage/"
+IF $whdloadargs EQ ""
+  whdload "SnowBrosImage.Slave"
+ELSE
+  whdload "SnowBrosImage.Slave" $whdloadargs
+ENDIF

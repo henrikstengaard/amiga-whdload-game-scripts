@@ -1,0 +1,6 @@
+Name      : Magic Lines
+Publisher : Thalion
+Year      : 1990
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : MagicLinesCracked.Slave

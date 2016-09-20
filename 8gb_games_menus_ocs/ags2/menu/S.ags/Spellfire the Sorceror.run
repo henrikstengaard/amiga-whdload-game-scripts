@@ -1,0 +1,6 @@
+cd "A-Games:S/SpellfireTheSorceror/"
+IF $whdloadargs EQ ""
+  whdload "SpellfireTheSorceror.slave"
+ELSE
+  whdload "SpellfireTheSorceror.slave" $whdloadargs
+ENDIF

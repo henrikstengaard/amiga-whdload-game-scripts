@@ -1,0 +1,4 @@
+Name    : Finlandia
+Groups  : Dual Crew,Complex
+Type    : Musicdisk
+Whdload : Finlandia.Slave

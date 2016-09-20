@@ -1,0 +1,5 @@
+Name      : Operation Wolf
+Publisher : Ocean
+Year      : 1988
+Players   : 1 Only
+Whdload   : OperationWolf.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:C/ColossusChessX/"
+IF $whdloadargs EQ ""
+  whdload "ColossusChessX.Slave"
+ELSE
+  whdload "ColossusChessX.Slave" $whdloadargs
+ENDIF

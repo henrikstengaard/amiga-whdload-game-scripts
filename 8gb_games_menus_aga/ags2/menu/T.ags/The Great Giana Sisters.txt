@@ -1,0 +1,5 @@
+Name      : The Great Giana Sisters
+Publisher : Rainbow Arts
+Year      : 1988
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : GreatGianaSisters.slave

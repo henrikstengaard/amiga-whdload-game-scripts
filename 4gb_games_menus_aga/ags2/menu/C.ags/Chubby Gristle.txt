@@ -1,0 +1,6 @@
+Name      : Chubby Gristle
+Publisher : Grandslam
+Year      : 1988
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : ChubbyGristle.Slave

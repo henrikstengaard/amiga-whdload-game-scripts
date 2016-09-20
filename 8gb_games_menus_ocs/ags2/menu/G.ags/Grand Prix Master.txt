@@ -1,0 +1,6 @@
+Name      : Grand Prix Master
+Publisher : Dinamic Software
+Year      : 1989
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : GrandPrixMaster.Slave

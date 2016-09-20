@@ -1,0 +1,6 @@
+cd "A-Games:R/RealmsOfArkania/"
+IF $whdloadargs EQ ""
+  whdload "RealmsOfArkania.Slave"
+ELSE
+  whdload "RealmsOfArkania.Slave" $whdloadargs
+ENDIF

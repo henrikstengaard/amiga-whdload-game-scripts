@@ -1,0 +1,6 @@
+cd "A-Demos:R/Revolutions/"
+IF $whdloadargs EQ ""
+  whdload "Revolutions.Slave"
+ELSE
+  whdload "Revolutions.Slave" $whdloadargs
+ENDIF

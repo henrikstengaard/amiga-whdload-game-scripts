@@ -1,0 +1,6 @@
+cd "A-Games:C/CurseOfEnchantia/"
+IF $whdloadargs EQ ""
+  whdload "CurseOfEnchantia.Slave"
+ELSE
+  whdload "CurseOfEnchantia.Slave" $whdloadargs
+ENDIF

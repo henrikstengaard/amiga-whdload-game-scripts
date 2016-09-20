@@ -1,0 +1,6 @@
+Name      : Karate King
+Publisher : Anco
+Year      : 1987
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : KarateKing&CityDefence.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:W/WCLeaderBoard/"
+IF $whdloadargs EQ ""
+  whdload "WCLeaderBoard.slave"
+ELSE
+  whdload "WCLeaderBoard.slave" $whdloadargs
+ENDIF

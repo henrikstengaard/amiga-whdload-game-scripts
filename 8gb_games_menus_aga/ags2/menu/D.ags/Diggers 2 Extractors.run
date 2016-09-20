@@ -1,0 +1,6 @@
+cd "A-Games:E/ExtractorsPreviewCD32/"
+IF $whdloadargs EQ ""
+  whdload "ExtractorsPreviewCD32.slave"
+ELSE
+  whdload "ExtractorsPreviewCD32.slave" $whdloadargs
+ENDIF

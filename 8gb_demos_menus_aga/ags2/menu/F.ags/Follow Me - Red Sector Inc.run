@@ -1,0 +1,6 @@
+cd "A-Demos:F/FollowMe/"
+IF $whdloadargs EQ ""
+  whdload "FollowMe.Slave"
+ELSE
+  whdload "FollowMe.Slave" $whdloadargs
+ENDIF

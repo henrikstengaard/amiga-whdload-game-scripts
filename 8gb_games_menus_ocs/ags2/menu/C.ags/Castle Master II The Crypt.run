@@ -1,0 +1,6 @@
+cd "A-Games:C/CastleMaster2/"
+IF $whdloadargs EQ ""
+  whdload "CastleMaster2.Slave"
+ELSE
+  whdload "CastleMaster2.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Alien Legion
+Publisher : Gainstar
+Year      : 1989
+Players   : 1 Only
+Whdload   : AlienLegion.Slave

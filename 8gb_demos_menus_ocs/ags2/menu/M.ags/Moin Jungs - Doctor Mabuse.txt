@@ -1,0 +1,4 @@
+Name    : Moin Jungs
+Groups  : Doctor Mabuse Orgasm Crackings
+Type    : Demo
+Whdload : MoinJungs.Slave

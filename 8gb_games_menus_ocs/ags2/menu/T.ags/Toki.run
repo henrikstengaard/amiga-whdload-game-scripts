@@ -1,0 +1,6 @@
+cd "A-Games:T/Toki/"
+IF $whdloadargs EQ ""
+  whdload "Toki.Slave"
+ELSE
+  whdload "Toki.Slave" $whdloadargs
+ENDIF

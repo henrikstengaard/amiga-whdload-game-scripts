@@ -1,0 +1,5 @@
+Name      : Monty Python's Flying Circus
+Publisher : Virgin Games
+Year      : 1990
+Players   : 1 Only
+Whdload   : MPythonsFlyingCircus.Slave

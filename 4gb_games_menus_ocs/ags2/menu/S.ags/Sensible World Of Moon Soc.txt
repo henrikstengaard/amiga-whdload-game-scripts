@@ -1,0 +1,5 @@
+Name      : Sensible World Of Moon Soccer
+Publisher : Amiga Action (Europress)
+Year      : 1994
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : SensibleWorldOfMoonSoccer.Slave

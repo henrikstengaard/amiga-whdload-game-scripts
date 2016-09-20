@@ -1,0 +1,5 @@
+Name      : Formula One Grand Prix
+Publisher : MicroProse Software
+Year      : 1991
+Genre     : Sports - Formula One
+Whdload   : FormulaOneGrandPrix4Disk.Slave

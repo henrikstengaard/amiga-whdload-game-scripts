@@ -1,0 +1,6 @@
+cd "A-Games2:M/MiamiChase/"
+IF $whdloadargs EQ ""
+  whdload "MiamiChase.Slave"
+ELSE
+  whdload "MiamiChase.Slave" $whdloadargs
+ENDIF

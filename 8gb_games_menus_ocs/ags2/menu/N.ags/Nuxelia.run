@@ -1,0 +1,6 @@
+cd "A-Games:N/NuxeliaDemo/"
+IF $whdloadargs EQ ""
+  whdload "NuxeliaDemo.Slave"
+ELSE
+  whdload "NuxeliaDemo.Slave" $whdloadargs
+ENDIF

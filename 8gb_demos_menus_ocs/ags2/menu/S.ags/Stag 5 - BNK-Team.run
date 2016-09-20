@@ -1,0 +1,6 @@
+cd "A-Demos:S/Stag5/"
+IF $whdloadargs EQ ""
+  whdload "Stag5.slave"
+ELSE
+  whdload "Stag5.slave" $whdloadargs
+ENDIF

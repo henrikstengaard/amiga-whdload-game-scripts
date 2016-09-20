@@ -1,0 +1,5 @@
+Name      : Slayer
+Publisher : Hewson
+Year      : 1989
+Players   : 1 or 2
+Whdload   : Slayer.slave

@@ -1,0 +1,6 @@
+Name      : Helter Skelter
+Publisher : Audiogenic
+Year      : 1990
+Genre     : Arcade - Catch it
+Players   : 1 or 2, Simultaneous
+Whdload   : HelterSkelter.Slave

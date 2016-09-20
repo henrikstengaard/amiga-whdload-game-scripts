@@ -1,0 +1,5 @@
+Name      : King's Quest IV
+Publisher : Sierra
+Year      : 1990
+Players   : 1
+Whdload   : KingsQuest4.slave

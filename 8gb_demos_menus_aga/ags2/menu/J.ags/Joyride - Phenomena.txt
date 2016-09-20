@@ -1,0 +1,4 @@
+Name    : Joyride
+Groups  : Phenomena
+Type    : Demo
+Whdload : Joyride.Slave

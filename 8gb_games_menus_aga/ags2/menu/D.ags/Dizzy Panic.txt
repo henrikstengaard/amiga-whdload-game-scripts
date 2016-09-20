@@ -1,0 +1,6 @@
+Name      : Dizzy Panic
+Publisher : Codemasters
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2
+Whdload   : DizzyPanic.slave

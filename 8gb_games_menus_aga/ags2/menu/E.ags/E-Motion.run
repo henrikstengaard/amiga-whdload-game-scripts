@@ -1,0 +1,6 @@
+cd "A-Games:E/EMotion/"
+IF $whdloadargs EQ ""
+  whdload "EMotion.Slave"
+ELSE
+  whdload "EMotion.Slave" $whdloadargs
+ENDIF

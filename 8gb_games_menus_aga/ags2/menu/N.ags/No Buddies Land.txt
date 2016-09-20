@@ -1,0 +1,6 @@
+Name      : No Buddies Land
+Publisher : Expose Software
+Year      : 1991
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : NoBuddiesLand.slave

@@ -1,0 +1,6 @@
+cd "A-Games:P/ProjectXSEBTTR/"
+IF $whdloadargs EQ ""
+  whdload "ProjectXSEBTTR.Slave"
+ELSE
+  whdload "ProjectXSEBTTR.Slave" $whdloadargs
+ENDIF

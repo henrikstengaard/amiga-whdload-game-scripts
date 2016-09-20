@@ -1,0 +1,6 @@
+cd "A-Games:T/TurricanCDTV/"
+IF $whdloadargs EQ ""
+  whdload "TurricanCDTV.Slave"
+ELSE
+  whdload "TurricanCDTV.Slave" $whdloadargs
+ENDIF

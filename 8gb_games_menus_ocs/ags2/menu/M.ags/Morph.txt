@@ -1,0 +1,6 @@
+Name      : Morph
+Publisher : Millennium
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Morph.Slave

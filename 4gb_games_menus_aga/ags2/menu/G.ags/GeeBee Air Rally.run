@@ -1,0 +1,6 @@
+cd "A-Games1:G/GeeBeeAirRally/"
+IF $whdloadargs EQ ""
+  whdload "GeeBeeAirRally.Slave"
+ELSE
+  whdload "GeeBeeAirRally.Slave" $whdloadargs
+ENDIF

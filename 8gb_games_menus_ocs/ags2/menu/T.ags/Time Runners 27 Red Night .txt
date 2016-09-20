@@ -1,0 +1,6 @@
+Name      : Time Runners 27: Red Night
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners27.Slave

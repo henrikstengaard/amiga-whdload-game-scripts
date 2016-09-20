@@ -1,0 +1,6 @@
+cd "A-Demos:P/PuggsInSpace/"
+IF $whdloadargs EQ ""
+  whdload "PuggsInSpace.Slave"
+ELSE
+  whdload "PuggsInSpace.Slave" $whdloadargs
+ENDIF

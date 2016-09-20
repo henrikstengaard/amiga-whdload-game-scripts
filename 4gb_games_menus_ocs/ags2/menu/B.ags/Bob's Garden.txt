@@ -1,0 +1,5 @@
+Name      : Bob's Garden
+Publisher : (unknown)
+Year      : 1993
+Players   : 1 or 2
+Whdload   : BobsGarden.Slave

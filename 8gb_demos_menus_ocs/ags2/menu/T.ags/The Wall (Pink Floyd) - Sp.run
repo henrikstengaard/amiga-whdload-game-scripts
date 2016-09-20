@@ -1,0 +1,6 @@
+cd "A-Demos:W/WallSplit/"
+IF $whdloadargs EQ ""
+  whdload "WallSplit.slave"
+ELSE
+  whdload "WallSplit.slave" $whdloadargs
+ENDIF

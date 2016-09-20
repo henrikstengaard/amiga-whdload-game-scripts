@@ -1,0 +1,6 @@
+cd "A-Games:P/PinballWizardPrerelease/"
+IF $whdloadargs EQ ""
+  whdload "PinballWizardPrerelease.Slave"
+ELSE
+  whdload "PinballWizardPrerelease.Slave" $whdloadargs
+ENDIF

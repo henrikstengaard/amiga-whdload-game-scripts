@@ -1,0 +1,6 @@
+cd "A-Games:N/NuclearWar/"
+IF $whdloadargs EQ ""
+  whdload "NuclearWar.Slave"
+ELSE
+  whdload "NuclearWar.Slave" $whdloadargs
+ENDIF

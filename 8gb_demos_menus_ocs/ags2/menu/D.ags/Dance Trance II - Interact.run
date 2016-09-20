@@ -1,0 +1,6 @@
+cd "A-Demos:D/DanceTrance2/"
+IF $whdloadargs EQ ""
+  whdload "DanceTrance2.Slave"
+ELSE
+  whdload "DanceTrance2.Slave" $whdloadargs
+ENDIF

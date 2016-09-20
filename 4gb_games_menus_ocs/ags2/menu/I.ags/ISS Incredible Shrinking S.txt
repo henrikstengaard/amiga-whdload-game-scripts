@@ -1,0 +1,6 @@
+Name      : ISS: Incredible Shrinking Sphere
+Publisher : Electric Dreams
+Year      : 1989
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : ISS.Slave

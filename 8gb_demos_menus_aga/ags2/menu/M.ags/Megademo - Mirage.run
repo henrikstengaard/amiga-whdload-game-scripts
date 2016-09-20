@@ -1,0 +1,6 @@
+cd "A-Demos:P/Prime90/"
+IF $whdloadargs EQ ""
+  whdload "Prime90.Slave"
+ELSE
+  whdload "Prime90.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Links: The Challenge of Golf
+Publisher : US Gold
+Year      : 1992
+Genre     : Sports - Golf
+Whdload   : Links.slave

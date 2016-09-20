@@ -1,0 +1,6 @@
+Name      : Little Computer People
+Publisher : Activision
+Year      : 1987
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : LittleComputerPeople.Slave

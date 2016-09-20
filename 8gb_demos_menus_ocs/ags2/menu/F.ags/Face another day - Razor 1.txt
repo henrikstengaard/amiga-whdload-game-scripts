@@ -1,0 +1,4 @@
+Name    : Face another day
+Groups  : Razor 1911
+Type    : Musicdisk
+Whdload : FaceAnotherDay.Slave

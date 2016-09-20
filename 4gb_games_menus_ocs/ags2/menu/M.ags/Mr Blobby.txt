@@ -1,0 +1,6 @@
+Name      : Mr Blobby
+Publisher : Millennium
+Year      : 1994
+Genre     : Brain - Miscellaneous
+Players   : 1 Only
+Whdload   : MrBlobby.slave

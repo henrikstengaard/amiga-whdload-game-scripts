@@ -1,0 +1,6 @@
+cd "A-Games:V/VirtualKarting2CD/"
+IF $whdloadargs EQ ""
+  whdload "VirtualKarting2CD.slave"
+ELSE
+  whdload "VirtualKarting2CD.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Motörhead
+Publisher : Virgin Games
+Year      : 1992
+Players   : 1 Only
+Whdload   : Motorhead.Slave

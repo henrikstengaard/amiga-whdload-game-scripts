@@ -1,0 +1,6 @@
+cd "A-Games:B/BiplaneDuel/"
+IF $whdloadargs EQ ""
+  whdload "BiplaneDuel.Slave"
+ELSE
+  whdload "BiplaneDuel.Slave" $whdloadargs
+ENDIF

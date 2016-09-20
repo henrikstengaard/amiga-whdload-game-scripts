@@ -1,0 +1,6 @@
+Name      : Centurion: Defender of Rome
+Publisher : Electronic Arts
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Centurion.Slave

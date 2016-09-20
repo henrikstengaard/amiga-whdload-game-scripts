@@ -1,0 +1,6 @@
+Name      : Oriental Games
+Publisher : MicroStyle
+Year      : 1990
+Genre     : Sports - Fighting
+Players   : 1 or 2, Simultaneous
+Whdload   : OrientalGames.Slave

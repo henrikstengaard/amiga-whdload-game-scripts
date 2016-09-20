@@ -1,0 +1,6 @@
+Name      : Worlds of Legend: Son of the Empire
+Publisher : Mindscape
+Year      : 1993
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : WorldsOfLegend.slave

@@ -1,0 +1,6 @@
+Name      : Leader Board
+Publisher : Access Software
+Year      : 1986
+Genre     : Sports - Golf
+Players   : 1 to 4
+Whdload   : Leaderboard.slave

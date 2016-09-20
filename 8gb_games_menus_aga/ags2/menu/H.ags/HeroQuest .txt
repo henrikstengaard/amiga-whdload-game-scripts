@@ -1,0 +1,5 @@
+Name      : HeroQuest
+Publisher : Gremlin Graphics
+Year      : 1991
+Genre     : Adventure - Isometric 3D
+Whdload   : HeroQuest&ReturnWitchLord.Slave

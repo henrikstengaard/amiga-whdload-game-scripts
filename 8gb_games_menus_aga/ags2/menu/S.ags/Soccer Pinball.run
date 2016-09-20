@@ -1,0 +1,6 @@
+cd "A-Games:S/SoccerPinball/"
+IF $whdloadargs EQ ""
+  whdload "SoccerPinball.slave"
+ELSE
+  whdload "SoccerPinball.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : BMX Simulator
+Publisher : Codemasters
+Year      : 1988
+Genre     : Sports - Cycle
+Players   : 1 or 2, Simultaneous
+Whdload   : BMXSimulator.Slave

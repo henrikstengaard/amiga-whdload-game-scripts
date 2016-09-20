@@ -1,0 +1,6 @@
+Name      : Cluedo: Master Detective
+Publisher : Leisure Genius
+Year      : 1990
+Genre     : Board - Miscellaneous
+Players   : 3 to 10
+Whdload   : CluedoMasterDetective.Slave

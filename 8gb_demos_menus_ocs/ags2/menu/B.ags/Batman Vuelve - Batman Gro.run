@@ -1,0 +1,6 @@
+cd "A-Demos:B/BatmanVuelve/"
+IF $whdloadargs EQ ""
+  whdload "BatmanVuelve.Slave"
+ELSE
+  whdload "BatmanVuelve.Slave" $whdloadargs
+ENDIF

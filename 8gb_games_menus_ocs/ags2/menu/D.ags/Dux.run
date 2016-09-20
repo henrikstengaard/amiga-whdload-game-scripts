@@ -1,0 +1,6 @@
+cd "A-Games:D/Dux/"
+IF $whdloadargs EQ ""
+  whdload "Dux.Slave"
+ELSE
+  whdload "Dux.Slave" $whdloadargs
+ENDIF

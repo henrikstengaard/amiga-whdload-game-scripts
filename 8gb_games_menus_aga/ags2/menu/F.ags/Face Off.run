@@ -1,0 +1,6 @@
+cd "A-Games:F/FaceOff/"
+IF $whdloadargs EQ ""
+  whdload "FaceOff.Slave"
+ELSE
+  whdload "FaceOff.Slave" $whdloadargs
+ENDIF

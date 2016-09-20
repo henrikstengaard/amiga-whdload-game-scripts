@@ -1,0 +1,6 @@
+Name      : Black Cauldron, The
+Publisher : Sierra On-Line
+Year      : 1987
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : BlackCauldron.Slave

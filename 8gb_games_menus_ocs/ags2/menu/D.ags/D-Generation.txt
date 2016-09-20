@@ -1,0 +1,6 @@
+Name      : D/Generation
+Publisher : Mindscape
+Year      : 1992
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : DGeneration.slave

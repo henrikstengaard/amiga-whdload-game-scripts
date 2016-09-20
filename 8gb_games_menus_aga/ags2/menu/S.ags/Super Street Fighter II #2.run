@@ -1,0 +1,6 @@
+cd "A-Games:S/SuperStreetFighter2DXAGA/"
+IF $whdloadargs EQ ""
+  whdload "SuperStreetFighter2DXAGA.Slave"
+ELSE
+  whdload "SuperStreetFighter2DXAGA.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:G/GloomPartyInvitation/"
+IF $whdloadargs EQ ""
+  whdload "GloomPartyInvitation.slave"
+ELSE
+  whdload "GloomPartyInvitation.slave" $whdloadargs
+ENDIF

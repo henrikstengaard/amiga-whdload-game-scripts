@@ -1,0 +1,6 @@
+cd "A-Games:M/MadTV/"
+IF $whdloadargs EQ ""
+  whdload "MadTV.Slave"
+ELSE
+  whdload "MadTV.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Arcade Fruit Machine
+Publisher : Zeppelin Games
+Year      : 1992
+Genre     : Gambling - Slot Machine
+Players   : 1 Only
+Whdload   : ArcadeFruitMachine.Slave

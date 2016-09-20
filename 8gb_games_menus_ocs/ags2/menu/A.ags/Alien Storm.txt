@@ -1,0 +1,5 @@
+Name      : Alien Storm
+Publisher : US Gold
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : AlienStorm.Slave

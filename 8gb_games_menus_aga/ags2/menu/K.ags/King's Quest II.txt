@@ -1,0 +1,5 @@
+Name      : King's Quest II
+Publisher : Sierra
+Year      : 1988
+Players   : 1
+Whdload   : KingsQuest2.slave

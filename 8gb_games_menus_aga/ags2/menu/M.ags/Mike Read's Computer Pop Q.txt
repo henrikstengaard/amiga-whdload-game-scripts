@@ -1,0 +1,6 @@
+Name      : Mike Read's Computer Pop Quiz
+Publisher : Elite
+Year      : 1988
+Genre     : Educational - Quiz
+Players   : 1 or 2
+Whdload   : MikeReadsComputerPopQuiz.Slave

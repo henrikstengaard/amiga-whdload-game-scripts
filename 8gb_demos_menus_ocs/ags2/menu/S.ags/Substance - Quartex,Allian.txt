@@ -1,0 +1,6 @@
+Name    : Substance
+Groups  : Quartex,Alliance design
+Type    : Demo
+Party   : Amiga Summit Convention 1991
+Rank    : 2nd
+Whdload : Substance.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:M/MysteryOfTheMummy/"
+IF $whdloadargs EQ ""
+  whdload "MysteryOfTheMummy.Slave"
+ELSE
+  whdload "MysteryOfTheMummy.Slave" $whdloadargs
+ENDIF

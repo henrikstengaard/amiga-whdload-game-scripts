@@ -1,0 +1,6 @@
+cd "A-Games:U/UMS2NationsAtWar/"
+IF $whdloadargs EQ ""
+  whdload "UMS2NationsAtWar.Slave"
+ELSE
+  whdload "UMS2NationsAtWar.Slave" $whdloadargs
+ENDIF

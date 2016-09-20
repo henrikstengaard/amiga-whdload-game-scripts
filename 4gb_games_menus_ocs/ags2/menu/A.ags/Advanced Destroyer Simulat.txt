@@ -1,0 +1,6 @@
+Name      : Advanced Destroyer Simulator
+Publisher : US Gold
+Year      : 1991
+Genre     : Simulation - Marine
+Players   : 1 Only
+Whdload   : AdvancedDestroyerSim.Slave

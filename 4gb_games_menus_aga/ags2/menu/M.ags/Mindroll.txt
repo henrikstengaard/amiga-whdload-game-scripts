@@ -1,0 +1,6 @@
+Name      : Mindroll
+Publisher : Epyx
+Year      : 1988
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : Mindroll.Slave

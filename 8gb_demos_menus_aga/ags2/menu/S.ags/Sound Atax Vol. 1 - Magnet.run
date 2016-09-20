@@ -1,0 +1,6 @@
+cd "A-Demos:S/SoundAtaxVol1/"
+IF $whdloadargs EQ ""
+  whdload "SoundAtaxVol1.Slave"
+ELSE
+  whdload "SoundAtaxVol1.Slave" $whdloadargs
+ENDIF

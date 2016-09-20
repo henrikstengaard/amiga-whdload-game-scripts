@@ -1,0 +1,5 @@
+Name      : Metal Law
+Publisher : New Bits on the RAM
+Year      : 1992
+Players   : 1 or 2
+Whdload   : MetalLaw.slave

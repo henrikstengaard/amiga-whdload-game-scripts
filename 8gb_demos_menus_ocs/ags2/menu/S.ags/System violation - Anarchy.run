@@ -1,0 +1,6 @@
+cd "A-Demos:S/SystemViolation/"
+IF $whdloadargs EQ ""
+  whdload "SystemViolation.Slave"
+ELSE
+  whdload "SystemViolation.Slave" $whdloadargs
+ENDIF

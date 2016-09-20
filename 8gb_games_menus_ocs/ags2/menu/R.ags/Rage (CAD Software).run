@@ -1,0 +1,6 @@
+cd "A-Games:R/RageV2/"
+IF $whdloadargs EQ ""
+  whdload "RageV2.Slave"
+ELSE
+  whdload "RageV2.Slave" $whdloadargs
+ENDIF

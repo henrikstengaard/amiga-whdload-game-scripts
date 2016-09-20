@@ -1,0 +1,6 @@
+Name      : Millennium 2.2
+Publisher : Electric Dreams
+Year      : 1989
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Millennium22.Slave

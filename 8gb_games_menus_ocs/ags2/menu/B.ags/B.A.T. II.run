@@ -1,0 +1,6 @@
+cd "A-Games:B/BAT2/"
+IF $whdloadargs EQ ""
+  whdload "BAT2.slave"
+ELSE
+  whdload "BAT2.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Music Rip3
+Groups  : Spreadpoint
+Type    : Musicdisk
+Whdload : MusicRip3.Slave

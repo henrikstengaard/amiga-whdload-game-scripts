@@ -1,0 +1,6 @@
+cd "A-Games:C/CannonFodderNewCampaign/"
+IF $whdloadargs EQ ""
+  whdload "CannonFodderNewCampaign.slave"
+ELSE
+  whdload "CannonFodderNewCampaign.slave" $whdloadargs
+ENDIF

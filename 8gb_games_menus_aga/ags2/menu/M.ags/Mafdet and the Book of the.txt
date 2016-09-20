@@ -1,0 +1,5 @@
+Name      : Mafdet and the Book of the Dead
+Publisher : Software Horizons
+Year      : 1989
+Players   : 1 Only
+Whdload   : MafdetAndTheBookOfTheDead.slave

@@ -1,0 +1,6 @@
+cd "A-Demos:F/FasterThanHell/"
+IF $whdloadargs EQ ""
+  whdload "FasterThanHell.Slave"
+ELSE
+  whdload "FasterThanHell.Slave" $whdloadargs
+ENDIF

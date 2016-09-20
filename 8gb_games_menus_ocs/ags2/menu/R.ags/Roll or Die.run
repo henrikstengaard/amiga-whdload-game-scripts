@@ -1,0 +1,6 @@
+cd "A-Games:R/RollOrDie/"
+IF $whdloadargs EQ ""
+  whdload "RollOrDie.slave"
+ELSE
+  whdload "RollOrDie.slave" $whdloadargs
+ENDIF

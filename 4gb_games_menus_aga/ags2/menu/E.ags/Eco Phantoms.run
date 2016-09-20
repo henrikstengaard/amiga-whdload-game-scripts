@@ -1,0 +1,6 @@
+cd "A-Games1:E/EcoPhantoms/"
+IF $whdloadargs EQ ""
+  whdload "EcoPhantoms.Slave"
+ELSE
+  whdload "EcoPhantoms.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Sorceror's Apprentice
+Publisher : Actual Screenshots
+Year      : 1990
+Players   : 1 or 2
+Whdload   : SorcerorsApprentice.Slave

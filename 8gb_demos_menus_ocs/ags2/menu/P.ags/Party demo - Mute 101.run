@@ -1,0 +1,6 @@
+cd "A-Demos:D/DemoMute101/"
+IF $whdloadargs EQ ""
+  whdload "DemoMute101.Slave"
+ELSE
+  whdload "DemoMute101.Slave" $whdloadargs
+ENDIF

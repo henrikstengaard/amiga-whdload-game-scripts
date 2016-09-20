@@ -1,0 +1,6 @@
+Name      : Super Methane Bros
+Publisher : Apache Software
+Year      : 1994
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : SuperMethaneBros.Slave

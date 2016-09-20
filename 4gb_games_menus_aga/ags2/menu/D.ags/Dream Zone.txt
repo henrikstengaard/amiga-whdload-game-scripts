@@ -1,0 +1,6 @@
+Name      : Dream Zone
+Publisher : Baudville
+Year      : 1988
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : DreamZone.Slave

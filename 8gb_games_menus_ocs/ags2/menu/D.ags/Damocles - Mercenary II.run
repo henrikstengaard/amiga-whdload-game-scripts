@@ -1,0 +1,6 @@
+cd "A-Games:D/Damocles/"
+IF $whdloadargs EQ ""
+  whdload "Damocles.slave"
+ELSE
+  whdload "Damocles.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Final Assault
+Publisher : Epyx
+Year      : 1988
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+Whdload   : FinalAssault.Slave

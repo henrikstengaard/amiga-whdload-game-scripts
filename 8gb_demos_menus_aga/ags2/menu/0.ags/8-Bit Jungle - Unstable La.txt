@@ -1,0 +1,6 @@
+Name    : 8-Bit Jungle
+Groups  : Unstable Label
+Type    : Musicdisk
+Party   : Sunrise 2011
+Rank    : 2nd
+Whdload : 8BitJungle.Slave

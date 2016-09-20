@@ -1,0 +1,6 @@
+Name      : Heart of the Dragon
+Publisher : Avatar Consulting
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : HeartOfTheDragon3Disk.Slave

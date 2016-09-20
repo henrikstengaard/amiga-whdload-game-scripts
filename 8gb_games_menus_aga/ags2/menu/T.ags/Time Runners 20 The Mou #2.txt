@@ -1,0 +1,6 @@
+Name      : Time Runners 20: The Mountains of Death
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners20.Slave

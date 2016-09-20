@@ -1,0 +1,5 @@
+Name      : Llamatron: 2112
+Publisher : Llamasoft
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : Llamatron512KB.Slave

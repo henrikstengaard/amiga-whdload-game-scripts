@@ -1,0 +1,5 @@
+Name      : Last Battle
+Publisher : Elite
+Year      : 1991
+Players   : 1 Only
+Whdload   : LastBattle.Slave

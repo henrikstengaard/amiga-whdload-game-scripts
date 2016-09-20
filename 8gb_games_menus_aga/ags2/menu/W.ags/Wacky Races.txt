@@ -1,0 +1,6 @@
+Name      : Wacky Races
+Publisher : Hi-Tec Software
+Year      : 1991
+Genre     : Racing - Miscellaneous
+Players   : 1 Only
+Whdload   : WackyRaces.Slave

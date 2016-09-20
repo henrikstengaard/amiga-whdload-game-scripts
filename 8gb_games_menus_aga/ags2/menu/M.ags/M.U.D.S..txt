@@ -1,0 +1,5 @@
+Name      : M.U.D.S.
+Publisher : Golden Goblins (Rainbow Arts)
+Year      : 1990
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : MUDS.slave

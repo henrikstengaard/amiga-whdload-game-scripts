@@ -1,0 +1,6 @@
+cd "A-Demos:E/ECESSlideshow/"
+IF $whdloadargs EQ ""
+  whdload "ECESSlideshow.slave"
+ELSE
+  whdload "ECESSlideshow.slave" $whdloadargs
+ENDIF

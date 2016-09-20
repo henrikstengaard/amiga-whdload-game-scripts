@@ -1,0 +1,6 @@
+cd "A-Games:F/FemmeFatale/"
+IF $whdloadargs EQ ""
+  whdload "FemmeFatale.Slave"
+ELSE
+  whdload "FemmeFatale.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Monster Business
+Publisher : Eclipse Software Design
+Year      : 1991
+Genre     : Platformer - Single Screen
+Players   : 1 or 2
+Whdload   : MonsterBusiness.Slave

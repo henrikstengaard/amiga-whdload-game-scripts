@@ -1,0 +1,6 @@
+Name      : Tusker
+Publisher : System 3
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Tusker.Slave

@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicRip2/"
+IF $whdloadargs EQ ""
+  whdload "MusicRip2.Slave"
+ELSE
+  whdload "MusicRip2.Slave" $whdloadargs
+ENDIF

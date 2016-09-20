@@ -1,0 +1,6 @@
+Name    : End of maloy
+Groups  : The Silents
+Type    : Demo
+Party   : Swedish Elite Easter Conference 1990
+Rank    : 5th
+Whdload : EndOfMaloy.Slave

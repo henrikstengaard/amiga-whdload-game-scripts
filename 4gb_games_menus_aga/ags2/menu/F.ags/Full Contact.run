@@ -1,0 +1,6 @@
+cd "A-Games1:F/FullContact/"
+IF $whdloadargs EQ ""
+  whdload "FullContact.slave"
+ELSE
+  whdload "FullContact.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:M/MindRiot/"
+IF $whdloadargs EQ ""
+  whdload "MindRiot.Slave"
+ELSE
+  whdload "MindRiot.Slave" $whdloadargs
+ENDIF

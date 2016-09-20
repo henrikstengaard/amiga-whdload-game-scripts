@@ -1,0 +1,6 @@
+cd "A-Games2:W/WorldTourGolf/"
+IF $whdloadargs EQ ""
+  whdload "WorldTourGolf.Slave"
+ELSE
+  whdload "WorldTourGolf.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:B/BombPacCD32AGA/"
+IF $whdloadargs EQ ""
+  whdload "BombPacCD32AGA.Slave"
+ELSE
+  whdload "BombPacCD32AGA.Slave" $whdloadargs
+ENDIF

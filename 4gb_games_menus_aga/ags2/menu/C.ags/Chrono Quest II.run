@@ -1,0 +1,6 @@
+cd "A-Games1:C/ChronoQuest2/"
+IF $whdloadargs EQ ""
+  whdload "ChronoQuest2.Slave"
+ELSE
+  whdload "ChronoQuest2.Slave" $whdloadargs
+ENDIF

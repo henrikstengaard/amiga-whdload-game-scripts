@@ -1,0 +1,5 @@
+Name      : Escape from the Planet of the Robot Monsters
+Publisher : Domark
+Year      : 1990
+Players   : 1 or 2, Simultaneous
+Whdload   : EscapeFTPOTRobotMonsters.slave

@@ -1,0 +1,6 @@
+Name      : Feud
+Publisher : Mastertronic
+Year      : 1987
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : Feud.Slave

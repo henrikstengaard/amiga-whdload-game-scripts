@@ -1,0 +1,6 @@
+cd "A-Games:S/SpittingImage/"
+IF $whdloadargs EQ ""
+  whdload "SpittingImage.slave"
+ELSE
+  whdload "SpittingImage.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:W/WorldCricket/"
+IF $whdloadargs EQ ""
+  whdload "WorldCricket.Slave"
+ELSE
+  whdload "WorldCricket.Slave" $whdloadargs
+ENDIF

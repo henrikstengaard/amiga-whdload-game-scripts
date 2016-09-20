@@ -1,0 +1,6 @@
+Name      : Adventure Construction Set
+Publisher : Electronic Arts
+Year      : 1986
+Genre     : Adventure - Construction Kit
+Players   : 1 Only
+Whdload   : AdventureConstructionSet.slave

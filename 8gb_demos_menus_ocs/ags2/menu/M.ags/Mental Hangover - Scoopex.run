@@ -1,0 +1,6 @@
+cd "A-Demos:M/MentalHangover/"
+IF $whdloadargs EQ ""
+  whdload "MentalHangover.Slave"
+ELSE
+  whdload "MentalHangover.Slave" $whdloadargs
+ENDIF

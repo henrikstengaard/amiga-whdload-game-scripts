@@ -1,0 +1,6 @@
+cd "A-Games1:L/LegendOfDjel/"
+IF $whdloadargs EQ ""
+  whdload "LegendOfDjel.Slave"
+ELSE
+  whdload "LegendOfDjel.Slave" $whdloadargs
+ENDIF

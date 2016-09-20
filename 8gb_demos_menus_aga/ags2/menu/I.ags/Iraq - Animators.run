@@ -1,0 +1,6 @@
+cd "A-Demos:I/Iraq/"
+IF $whdloadargs EQ ""
+  whdload "Iraq.slave"
+ELSE
+  whdload "Iraq.slave" $whdloadargs
+ENDIF

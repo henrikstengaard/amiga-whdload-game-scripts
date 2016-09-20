@@ -1,0 +1,6 @@
+Name    : Vector All Times
+Groups  : Tristan Lorach
+Type    : Demo
+Party   : Cyclone party 1991
+Rank    : 1st
+Whdload : VectorDemoTristanLorach.Slave

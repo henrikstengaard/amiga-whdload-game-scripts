@@ -1,0 +1,6 @@
+cd "A-Games2:S/Saint&Greavsie/"
+IF $whdloadargs EQ ""
+  whdload "Saint&Greavsie.Slave"
+ELSE
+  whdload "Saint&Greavsie.Slave" $whdloadargs
+ENDIF

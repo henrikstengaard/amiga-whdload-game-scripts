@@ -1,0 +1,6 @@
+cd "A-Games:W/WarlockTheAvenger/"
+IF $whdloadargs EQ ""
+  whdload "WarlockTheAvenger.Slave"
+ELSE
+  whdload "WarlockTheAvenger.Slave" $whdloadargs
+ENDIF

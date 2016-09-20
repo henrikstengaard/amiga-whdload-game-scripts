@@ -1,0 +1,6 @@
+cd "A-Games:R/Realms/"
+IF $whdloadargs EQ ""
+  whdload "Realms.Slave"
+ELSE
+  whdload "Realms.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name    : Acme Slideshow 1991 (Reflection of Perfection)
+Groups  : Acme (Amiga)
+Type    : Slideshow
+Party   : Anarchy Easter Party 1991
+Rank    : N/a
+Whdload : Acme1991Slideshow.Slave

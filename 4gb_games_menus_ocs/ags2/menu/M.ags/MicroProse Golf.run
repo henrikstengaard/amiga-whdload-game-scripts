@@ -1,0 +1,6 @@
+cd "A-Games1:M/MicroProseGolf/"
+IF $whdloadargs EQ ""
+  whdload "MicroProseGolf.slave"
+ELSE
+  whdload "MicroProseGolf.slave" $whdloadargs
+ENDIF

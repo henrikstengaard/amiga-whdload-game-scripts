@@ -1,0 +1,6 @@
+Name      : Mega lo Mania
+Publisher : Image Works
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : MegaLoMania.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:F/FastBreakArcadia/"
+IF $whdloadargs EQ ""
+  whdload "FastBreakArcadia.Slave"
+ELSE
+  whdload "FastBreakArcadia.Slave" $whdloadargs
+ENDIF

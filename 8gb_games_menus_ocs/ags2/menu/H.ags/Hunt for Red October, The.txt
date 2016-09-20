@@ -1,0 +1,5 @@
+Name      : Hunt for Red October, The
+Publisher : Grandslam
+Year      : 1990
+Players   : 1 Only
+Whdload   : HuntForRedOctoberTheMovie.Slave

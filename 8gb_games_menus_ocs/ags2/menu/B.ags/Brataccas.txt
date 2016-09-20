@@ -1,0 +1,6 @@
+Name      : Brataccas
+Publisher : Psygnosis
+Year      : 1987
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Brataccas.Slave

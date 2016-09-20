@@ -1,0 +1,6 @@
+Name      : B.A.T. II
+Publisher : Ubi Soft
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : BAT2.slave

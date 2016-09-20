@@ -1,0 +1,4 @@
+Name    : Stag 4
+Groups  : BNK-Team
+Type    : Slideshow
+Whdload : Stag4.slave

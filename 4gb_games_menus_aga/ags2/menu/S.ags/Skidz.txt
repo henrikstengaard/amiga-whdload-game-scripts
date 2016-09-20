@@ -1,0 +1,6 @@
+Name      : Skidz
+Publisher : Gremlin Graphics
+Year      : 1990
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+Whdload   : Skidz.Slave

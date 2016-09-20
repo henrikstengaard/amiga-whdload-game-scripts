@@ -1,0 +1,4 @@
+Name    : Book Of Songs
+Groups  : Complex
+Type    : Musicdisk
+Whdload : BookOfSongs.Slave

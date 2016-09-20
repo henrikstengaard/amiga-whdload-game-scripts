@@ -1,0 +1,6 @@
+cd "A-Games:B/BuilderLand/"
+IF $whdloadargs EQ ""
+  whdload "BuilderLand.Slave"
+ELSE
+  whdload "BuilderLand.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:H/Hallu&DreamsPrvKatharsis/"
+IF $whdloadargs EQ ""
+  whdload "Hallu&DreamsPrvKatharsis.Slave"
+ELSE
+  whdload "Hallu&DreamsPrvKatharsis.Slave" $whdloadargs
+ENDIF

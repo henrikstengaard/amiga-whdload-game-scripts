@@ -1,0 +1,5 @@
+Name      : Perihelion
+Publisher : Psygnosis
+Year      : 1993
+Players   : 1
+Whdload   : Perihelion.Slave

@@ -1,0 +1,4 @@
+Name    : Musicdisk 1
+Groups  : Mahoney & Kaktus
+Type    : Musicdisk
+Whdload : MusicDisk1Mahoney&Kaktus.Slave

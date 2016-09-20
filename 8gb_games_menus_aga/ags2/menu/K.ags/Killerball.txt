@@ -1,0 +1,6 @@
+Name      : Killerball
+Publisher : Microids
+Year      : 1991
+Genre     : Sports - Miscellaneous
+Players   : 1 to 8
+Whdload   : Killerball.Slave

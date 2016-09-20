@@ -1,0 +1,6 @@
+Name      : Overdrive
+Publisher : Team 17
+Year      : 1993
+Genre     : Racing - Overhead
+Players   : 1 Only
+Whdload   : OverdriveTeam17.Slave

@@ -1,0 +1,6 @@
+Name      : GeeBee Air Rally
+Publisher : Activision
+Year      : 1987
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : GeeBeeAirRally.Slave

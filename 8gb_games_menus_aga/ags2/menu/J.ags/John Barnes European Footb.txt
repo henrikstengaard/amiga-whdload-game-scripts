@@ -1,0 +1,6 @@
+Name      : John Barnes European Football
+Publisher : Buzz
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : JohnBarnesEuroFootball.Slave

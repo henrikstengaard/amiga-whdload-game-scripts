@@ -1,0 +1,6 @@
+cd "A-Games2:S/Satan/"
+IF $whdloadargs EQ ""
+  whdload "Satan.slave"
+ELSE
+  whdload "Satan.slave" $whdloadargs
+ENDIF

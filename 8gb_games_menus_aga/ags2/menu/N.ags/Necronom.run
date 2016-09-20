@@ -1,0 +1,6 @@
+cd "A-Games:N/Necronom/"
+IF $whdloadargs EQ ""
+  whdload "Necronom.Slave"
+ELSE
+  whdload "Necronom.Slave" $whdloadargs
+ENDIF

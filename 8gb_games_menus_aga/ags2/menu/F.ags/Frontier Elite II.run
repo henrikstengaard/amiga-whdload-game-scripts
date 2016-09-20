@@ -1,0 +1,6 @@
+cd "A-Games:F/FrontierCD32/"
+IF $whdloadargs EQ ""
+  whdload "FrontierCD32.slave"
+ELSE
+  whdload "FrontierCD32.slave" $whdloadargs
+ENDIF

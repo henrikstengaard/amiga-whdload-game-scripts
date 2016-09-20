@@ -1,0 +1,6 @@
+cd "A-Games:S/SuperPuttyCD32/"
+IF $whdloadargs EQ ""
+  whdload "SuperPuttyCD32.Slave"
+ELSE
+  whdload "SuperPuttyCD32.Slave" $whdloadargs
+ENDIF

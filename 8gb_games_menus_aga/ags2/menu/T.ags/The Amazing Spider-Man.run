@@ -1,0 +1,6 @@
+cd "A-Games:A/AmazingSpiderMan/"
+IF $whdloadargs EQ ""
+  whdload "AmazingSpiderMan.slave"
+ELSE
+  whdload "AmazingSpiderMan.slave" $whdloadargs
+ENDIF

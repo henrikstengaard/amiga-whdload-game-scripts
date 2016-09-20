@@ -1,0 +1,6 @@
+Name      : Arcade Pool
+Publisher : Team 17
+Year      : 1994
+Genre     : Sports - Snooker/Pool
+Players   : 1 to 8
+Whdload   : ArcadePool.slave

@@ -1,0 +1,6 @@
+cd "A-Demos:0-9/5Yards/"
+IF $whdloadargs EQ ""
+  whdload "5Yards.Slave"
+ELSE
+  whdload "5Yards.Slave" $whdloadargs
+ENDIF

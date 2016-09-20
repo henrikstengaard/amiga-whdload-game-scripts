@@ -1,0 +1,6 @@
+cd "A-Games2:U/UFOEnemyUnknownAGA/"
+IF $whdloadargs EQ ""
+  whdload "UFOEnemyUnknownAGA.slave"
+ELSE
+  whdload "UFOEnemyUnknownAGA.slave" $whdloadargs
+ENDIF

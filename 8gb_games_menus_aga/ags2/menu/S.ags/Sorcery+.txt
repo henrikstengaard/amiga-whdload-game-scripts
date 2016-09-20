@@ -1,0 +1,5 @@
+Name      : Sorcery+
+Publisher : Virgin
+Year      : 1988
+Players   : 1
+Whdload   : Sorcery+.Slave

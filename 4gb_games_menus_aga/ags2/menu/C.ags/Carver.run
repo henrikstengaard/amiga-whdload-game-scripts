@@ -1,0 +1,6 @@
+cd "A-Games1:C/Carver/"
+IF $whdloadargs EQ ""
+  whdload "Carver.Slave"
+ELSE
+  whdload "Carver.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Battlehawks 1942
+Publisher : Lucasfilm Games
+Year      : 1989
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : Battlehawks1942.Slave

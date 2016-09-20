@@ -1,0 +1,5 @@
+Name      : G-LOC R360
+Publisher : US Gold
+Year      : 1992
+Players   : 1 Only
+Whdload   : GLOCR360.slave

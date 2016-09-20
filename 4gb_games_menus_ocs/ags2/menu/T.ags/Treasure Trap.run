@@ -1,0 +1,6 @@
+cd "A-Games2:T/TreasureTrap/"
+IF $whdloadargs EQ ""
+  whdload "TreasureTrap.Slave"
+ELSE
+  whdload "TreasureTrap.Slave" $whdloadargs
+ENDIF

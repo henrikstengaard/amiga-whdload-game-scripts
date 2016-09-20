@@ -1,0 +1,4 @@
+Name    : The 100 most remembered c64 game tunes
+Groups  : Sundell & Birk
+Type    : Musicdisk
+Whdload : 100MostRememberedC64Tunes.Slave

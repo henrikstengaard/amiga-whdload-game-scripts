@@ -1,0 +1,6 @@
+cd "A-Games1:L/LicenceToKill/"
+IF $whdloadargs EQ ""
+  whdload "LicenceToKill.Slave"
+ELSE
+  whdload "LicenceToKill.Slave" $whdloadargs
+ENDIF

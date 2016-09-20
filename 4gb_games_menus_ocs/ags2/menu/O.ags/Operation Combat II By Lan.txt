@@ -1,0 +1,5 @@
+Name      : Operation Combat II: By Land, Sea & Air
+Publisher : Merit [MAC]
+Year      : 1993
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : OperationCombat2.Slave

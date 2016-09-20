@@ -1,0 +1,6 @@
+Name    : Human Target
+Groups  : Melon Dezign
+Type    : Demo
+Party   : Eastern Conference 1992
+Rank    : 1st
+Whdload : HumanTarget.slave

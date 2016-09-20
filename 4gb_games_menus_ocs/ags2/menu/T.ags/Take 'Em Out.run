@@ -1,0 +1,6 @@
+cd "A-Games2:T/TakeEmOut/"
+IF $whdloadargs EQ ""
+  whdload "TakeEmOut.slave"
+ELSE
+  whdload "TakeEmOut.slave" $whdloadargs
+ENDIF

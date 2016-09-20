@@ -1,0 +1,6 @@
+Name      : Lombard RAC Rally
+Publisher : Mandarin
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : LombardRACRally2Disk.Slave

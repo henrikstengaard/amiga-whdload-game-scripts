@@ -1,0 +1,6 @@
+cd "A-Games:P/Portal/"
+IF $whdloadargs EQ ""
+  whdload "Portal.slave"
+ELSE
+  whdload "Portal.slave" $whdloadargs
+ENDIF

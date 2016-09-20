@@ -1,0 +1,6 @@
+Name    : Mobile Destination Unknown
+Groups  : Spaceballs
+Type    : Demo
+Party   : The Gathering 1993
+Rank    : 3rd
+Whdload : MobileDestinationUnknown.slave

@@ -1,0 +1,4 @@
+Name    : Groovy Jives #3
+Groups  : Relay
+Type    : Musicdisk
+Whdload : GroovyJives3.Slave

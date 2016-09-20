@@ -1,0 +1,6 @@
+cd "A-Games1:H/HeartOfTheDragon4Disk/"
+IF $whdloadargs EQ ""
+  whdload "HeartOfTheDragon4Disk.slave"
+ELSE
+  whdload "HeartOfTheDragon4Disk.slave" $whdloadargs
+ENDIF

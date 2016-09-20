@@ -1,0 +1,6 @@
+cd "A-Games:T/TimeScanner/"
+IF $whdloadargs EQ ""
+  whdload "TimeScanner.Slave"
+ELSE
+  whdload "TimeScanner.Slave" $whdloadargs
+ENDIF

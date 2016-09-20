@@ -1,0 +1,6 @@
+cd "A-Games:I/Interphase/"
+IF $whdloadargs EQ ""
+  whdload "Interphase.slave"
+ELSE
+  whdload "Interphase.slave" $whdloadargs
+ENDIF

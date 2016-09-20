@@ -1,0 +1,4 @@
+Name    : Music With a Message
+Groups  : Magnetic Fields
+Type    : Intro
+Whdload : MusicWithAMessage.Slave

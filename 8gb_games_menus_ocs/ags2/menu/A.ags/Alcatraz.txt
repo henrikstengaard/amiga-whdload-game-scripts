@@ -1,0 +1,5 @@
+Name      : Alcatraz
+Publisher : Infogrames
+Year      : 1992
+Players   : 1 or 2, Simultaneous
+Whdload   : Alcatraz.Slave

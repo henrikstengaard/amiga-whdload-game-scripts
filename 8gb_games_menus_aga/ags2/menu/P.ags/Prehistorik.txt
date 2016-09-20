@@ -1,0 +1,6 @@
+Name      : Prehistorik
+Publisher : Titus Software
+Year      : 1991
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : Prehistorik.slave

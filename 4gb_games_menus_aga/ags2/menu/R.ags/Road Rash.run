@@ -1,0 +1,6 @@
+cd "A-Games2:R/RoadRash/"
+IF $whdloadargs EQ ""
+  whdload "RoadRash.Slave"
+ELSE
+  whdload "RoadRash.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:W/WinningPost/"
+IF $whdloadargs EQ ""
+  whdload "WinningPost.Slave"
+ELSE
+  whdload "WinningPost.Slave" $whdloadargs
+ENDIF

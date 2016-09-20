@@ -1,0 +1,4 @@
+Name    : Megademo 2
+Groups  : Vortex 42
+Type    : Demo
+Whdload : Megademo2Vortex42.Slave

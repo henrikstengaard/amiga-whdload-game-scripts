@@ -1,0 +1,6 @@
+cd "A-Games:N/NoSecondPrize/"
+IF $whdloadargs EQ ""
+  whdload "NoSecondPrize.slave"
+ELSE
+  whdload "NoSecondPrize.slave" $whdloadargs
+ENDIF

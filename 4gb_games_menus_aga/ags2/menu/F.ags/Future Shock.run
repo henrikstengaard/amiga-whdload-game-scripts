@@ -1,0 +1,6 @@
+cd "A-Games1:F/FutureShock/"
+IF $whdloadargs EQ ""
+  whdload "FutureShock.slave"
+ELSE
+  whdload "FutureShock.slave" $whdloadargs
+ENDIF

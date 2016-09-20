@@ -1,0 +1,6 @@
+cd "A-Games1:G/Galaxy89/"
+IF $whdloadargs EQ ""
+  whdload "Galaxy89.slave"
+ELSE
+  whdload "Galaxy89.slave" $whdloadargs
+ENDIF

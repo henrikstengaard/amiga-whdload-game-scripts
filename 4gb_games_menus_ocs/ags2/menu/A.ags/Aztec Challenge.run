@@ -1,0 +1,6 @@
+cd "A-Games1:A/AztecChallenge/"
+IF $whdloadargs EQ ""
+  whdload "AztecChallenge.Slave"
+ELSE
+  whdload "AztecChallenge.Slave" $whdloadargs
+ENDIF

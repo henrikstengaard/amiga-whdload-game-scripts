@@ -1,0 +1,6 @@
+Name      : Pyramax
+Publisher : Arc Developments
+Year      : 1990
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : Pyramax.Slave

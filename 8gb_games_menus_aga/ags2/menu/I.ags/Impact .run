@@ -1,0 +1,6 @@
+cd "A-Games:I/Impact95/"
+IF $whdloadargs EQ ""
+  whdload "Impact95.Slave"
+ELSE
+  whdload "Impact95.Slave" $whdloadargs
+ENDIF

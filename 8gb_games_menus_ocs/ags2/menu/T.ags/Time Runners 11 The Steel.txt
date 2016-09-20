@@ -1,0 +1,6 @@
+Name      : Time Runners 11: The Steel City
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners11.Slave

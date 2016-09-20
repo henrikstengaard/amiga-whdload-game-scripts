@@ -1,0 +1,6 @@
+cd "A-Games:S/StarTrek25thAnnivAGA/"
+IF $whdloadargs EQ ""
+  whdload "StarTrek25thAnnivAGA.Slave"
+ELSE
+  whdload "StarTrek25thAnnivAGA.Slave" $whdloadargs
+ENDIF

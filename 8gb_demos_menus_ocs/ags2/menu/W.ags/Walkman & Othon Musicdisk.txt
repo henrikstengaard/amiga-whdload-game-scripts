@@ -1,0 +1,4 @@
+Name    : Walkman & Othon Musicdisk
+Groups  : Armada,IT
+Type    : Musicdisk
+Whdload : MusicDiskArmada&It.Slave

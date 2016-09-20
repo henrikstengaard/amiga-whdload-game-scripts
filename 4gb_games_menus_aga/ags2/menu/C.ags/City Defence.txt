@@ -1,0 +1,5 @@
+Name      : City Defence
+Publisher : Kingsoft
+Year      : 1987
+Players   : 1 or 2
+Whdload   : CityDefence.Slave

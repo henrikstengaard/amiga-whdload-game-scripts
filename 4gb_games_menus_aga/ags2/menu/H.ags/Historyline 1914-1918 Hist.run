@@ -1,0 +1,6 @@
+cd "A-Games1:H/Historyline/"
+IF $whdloadargs EQ ""
+  whdload "HistoryLine.Slave"
+ELSE
+  whdload "HistoryLine.Slave" $whdloadargs
+ENDIF

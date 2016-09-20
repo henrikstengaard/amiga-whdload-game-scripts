@@ -1,0 +1,6 @@
+cd "A-Demos:T/Tekknobert/"
+IF $whdloadargs EQ ""
+  whdload "Tekknobert.Slave"
+ELSE
+  whdload "Tekknobert.Slave" $whdloadargs
+ENDIF

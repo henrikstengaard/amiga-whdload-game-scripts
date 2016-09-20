@@ -1,0 +1,5 @@
+Name      : Insects in Space
+Publisher : Hewson
+Year      : 1991
+Players   : 1 Only
+Whdload   : InsectsInSpace.slave

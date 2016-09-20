@@ -1,0 +1,5 @@
+Name      : Teenage Mutant Ninja Turtles
+Publisher : Ultra Games
+Year      : 1990
+Players   : 1 Only
+Whdload   : TeenageMtntNinjaTurtles.Slave

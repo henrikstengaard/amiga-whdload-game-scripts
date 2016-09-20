@@ -1,0 +1,6 @@
+Name      : Silicon Dreams
+Publisher : Rainbird
+Year      : 1988
+Genre     : Adventure - Text With Still Pics
+Players   : 1
+Whdload   : SiliconDreams.Slave

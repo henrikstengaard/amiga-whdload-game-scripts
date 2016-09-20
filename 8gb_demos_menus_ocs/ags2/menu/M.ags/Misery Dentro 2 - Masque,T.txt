@@ -1,0 +1,6 @@
+Name    : Misery Dentro 2
+Groups  : Masque,Tristar & Red Sector Inc.
+Type    : Dentro
+Party   : CeBIT Demo Competition 1993
+Rank    : 2nd
+Whdload : MiseryDentro2.Slave

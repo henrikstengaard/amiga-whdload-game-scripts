@@ -1,0 +1,4 @@
+Name    : Art & Go!
+Groups  : Impulse (.hu)
+Type    : Slideshow
+Whdload : Art&Go.Slave

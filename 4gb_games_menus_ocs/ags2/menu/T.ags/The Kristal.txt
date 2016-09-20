@@ -1,0 +1,5 @@
+Name      : The Kristal
+Publisher : Addictive (Prism Leisure) / Cinemaware
+Year      : 1989
+Players   : 1
+Whdload   : Kristal.Slave

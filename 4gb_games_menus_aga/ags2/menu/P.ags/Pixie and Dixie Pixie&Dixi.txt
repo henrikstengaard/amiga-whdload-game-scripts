@@ -1,0 +1,6 @@
+Name      : Pixie and Dixie
+Publisher : Alternative Software
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : Pixie&Dixie.slave

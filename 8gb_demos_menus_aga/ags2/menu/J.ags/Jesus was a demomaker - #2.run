@@ -1,0 +1,6 @@
+cd "A-Demos:J/JesusWasADemomakerAGA/"
+IF $whdloadargs EQ ""
+  whdload "JesusWasADemomakerAGA.Slave"
+ELSE
+  whdload "JesusWasADemomakerAGA.Slave" $whdloadargs
+ENDIF

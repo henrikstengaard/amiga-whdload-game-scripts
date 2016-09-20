@@ -1,0 +1,4 @@
+Name      : Mr. Men Olympics, The
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+Whdload   : MrMenOlympics.slave

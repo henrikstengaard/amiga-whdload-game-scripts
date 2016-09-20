@@ -1,0 +1,6 @@
+cd "A-Demos:P/PictureBook/"
+IF $whdloadargs EQ ""
+  whdload "PictureBook.Slave"
+ELSE
+  whdload "PictureBook.Slave" $whdloadargs
+ENDIF

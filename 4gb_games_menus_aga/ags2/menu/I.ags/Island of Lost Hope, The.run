@@ -1,0 +1,6 @@
+cd "A-Games1:I/IslandOfLostHope/"
+IF $whdloadargs EQ ""
+  whdload "IslandOfLostHope.Slave"
+ELSE
+  whdload "IslandOfLostHope.Slave" $whdloadargs
+ENDIF

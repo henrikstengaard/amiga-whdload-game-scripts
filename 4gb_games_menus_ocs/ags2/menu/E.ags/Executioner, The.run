@@ -1,0 +1,6 @@
+cd "A-Games1:E/Executioner/"
+IF $whdloadargs EQ ""
+  whdload "Executioner.Slave"
+ELSE
+  whdload "Executioner.Slave" $whdloadargs
+ENDIF

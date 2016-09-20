@@ -1,0 +1,6 @@
+cd "A-Demos:G/GreatestHits/"
+IF $whdloadargs EQ ""
+  whdload "GreatestHits.Slave"
+ELSE
+  whdload "GreatestHits.Slave" $whdloadargs
+ENDIF

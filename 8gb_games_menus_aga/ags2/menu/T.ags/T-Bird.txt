@@ -1,0 +1,5 @@
+Name      : T-Bird
+Publisher : Virgin Mastertronic
+Year      : 1989
+Players   : 1 Only
+Whdload   : TBird.Slave

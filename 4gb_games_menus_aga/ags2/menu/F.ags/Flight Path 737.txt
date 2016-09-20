@@ -1,0 +1,6 @@
+Name      : Flight Path 737
+Publisher : Anco
+Year      : 1987
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : FlightPath737.Slave

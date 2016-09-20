@@ -1,0 +1,6 @@
+cd "A-Games:S/SimEarthLoRes/"
+IF $whdloadargs EQ ""
+  whdload "SimEarthLoRes.Slave"
+ELSE
+  whdload "SimEarthLoRes.Slave" $whdloadargs
+ENDIF

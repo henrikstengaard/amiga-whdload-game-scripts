@@ -1,0 +1,5 @@
+Name      : Garrison II: The Legend Continues
+Publisher : Rainbow Arts
+Year      : 1987
+Players   : 1 or 2, Simultaneous
+Whdload   : Garrison2.Slave

@@ -1,0 +1,6 @@
+cd "A-Games1:F/FreakOut/"
+IF $whdloadargs EQ ""
+  whdload "FreakOut.slave"
+ELSE
+  whdload "FreakOut.slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Roll or Die
+Publisher : (unknown)
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : RollOrDie.slave

@@ -1,0 +1,6 @@
+Name    : Nexus-7
+Groups  : Andromeda
+Type    : Demo
+Party   : The Party 1994
+Rank    : 1st
+Whdload : Nexus7AGA.Slave

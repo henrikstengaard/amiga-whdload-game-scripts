@@ -1,0 +1,5 @@
+Name      : Cardiaxx
+Publisher : Team 17
+Year      : 1993
+Players   : 1 Only
+Whdload   : CardiaxxElectronicZoo.Slave

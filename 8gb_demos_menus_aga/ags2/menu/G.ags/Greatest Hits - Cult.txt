@@ -1,0 +1,4 @@
+Name    : Greatest Hits
+Groups  : Cult
+Type    : Musicdisk
+Whdload : GreatestHits.Slave

@@ -1,0 +1,6 @@
+cd "A-Demos:I/Ice/"
+IF $whdloadargs EQ ""
+  whdload "Ice.slave"
+ELSE
+  whdload "Ice.slave" $whdloadargs
+ENDIF

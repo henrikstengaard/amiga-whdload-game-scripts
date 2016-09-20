@@ -1,0 +1,6 @@
+Name      : Bump 'n' Burn
+Publisher : Grandslam
+Year      : 1994
+Genre     : Racing - Cars
+Players   : 1 or 2, Simultaneous
+Whdload   : BumpNBurn.slave

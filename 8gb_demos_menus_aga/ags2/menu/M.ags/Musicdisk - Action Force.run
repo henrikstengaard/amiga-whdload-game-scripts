@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicDiskActionForce/"
+IF $whdloadargs EQ ""
+  whdload "MusicDiskActionForce.Slave"
+ELSE
+  whdload "MusicDiskActionForce.Slave" $whdloadargs
+ENDIF

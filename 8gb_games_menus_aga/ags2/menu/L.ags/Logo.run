@@ -1,0 +1,6 @@
+cd "A-Games:L/Logo/"
+IF $whdloadargs EQ ""
+  whdload "Logo.Slave"
+ELSE
+  whdload "Logo.Slave" $whdloadargs
+ENDIF

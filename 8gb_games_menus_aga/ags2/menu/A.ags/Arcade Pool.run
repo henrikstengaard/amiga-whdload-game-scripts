@@ -1,0 +1,6 @@
+cd "A-Games:A/ArcadePoolCD32/"
+IF $whdloadargs EQ ""
+  whdload "ArcadePoolCD32.slave"
+ELSE
+  whdload "ArcadePoolCD32.slave" $whdloadargs
+ENDIF

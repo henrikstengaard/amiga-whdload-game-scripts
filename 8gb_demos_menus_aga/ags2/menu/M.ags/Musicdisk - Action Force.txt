@@ -1,0 +1,4 @@
+Name    : Musicdisk
+Groups  : Action Force
+Type    : Musicdisk
+Whdload : MusicDiskActionForce.Slave

@@ -1,0 +1,6 @@
+cd "A-Games1:E/EmeraldMine2/"
+IF $whdloadargs EQ ""
+  whdload "EmeraldMine2.slave"
+ELSE
+  whdload "EmeraldMine2.slave" $whdloadargs
+ENDIF

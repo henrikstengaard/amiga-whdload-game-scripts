@@ -1,0 +1,6 @@
+Name      : Dragon Tiles
+Publisher : Central Licenceware Register
+Year      : 1992
+Genre     : Brain - Tile Removal
+Players   : 1 Only
+Whdload   : DragonTiles.Slave

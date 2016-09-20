@@ -1,0 +1,6 @@
+Name      : Steg the Slug
+Publisher : Codemasters
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : StegTheSlug.slave

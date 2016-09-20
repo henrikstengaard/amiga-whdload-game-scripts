@@ -1,0 +1,6 @@
+cd "A-Games:D/DisposableHeroCD32/"
+IF $whdloadargs EQ ""
+  whdload "DisposableHeroCD32.Slave"
+ELSE
+  whdload "DisposableHeroCD32.Slave" $whdloadargs
+ENDIF

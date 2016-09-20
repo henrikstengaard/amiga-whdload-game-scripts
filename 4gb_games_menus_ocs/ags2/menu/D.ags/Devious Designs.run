@@ -1,0 +1,6 @@
+cd "A-Games1:D/DeviousDesigns/"
+IF $whdloadargs EQ ""
+  whdload "DeviousDesigns.Slave"
+ELSE
+  whdload "DeviousDesigns.Slave" $whdloadargs
+ENDIF

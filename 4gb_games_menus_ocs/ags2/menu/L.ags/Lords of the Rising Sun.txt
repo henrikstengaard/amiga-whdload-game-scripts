@@ -1,0 +1,6 @@
+Name      : Lords of the Rising Sun
+Publisher : Cinemaware
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : LordsOfTheRisingSun.slave

@@ -1,0 +1,6 @@
+cd "A-Games1:A/ApacheFlight/"
+IF $whdloadargs EQ ""
+  whdload "ApacheFlight.slave"
+ELSE
+  whdload "ApacheFlight.slave" $whdloadargs
+ENDIF

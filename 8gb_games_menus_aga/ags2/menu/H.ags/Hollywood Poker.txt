@@ -1,0 +1,6 @@
+Name      : Hollywood Poker
+Publisher : Diamond Software
+Year      : 1987
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : HollywoodPoker.Slave

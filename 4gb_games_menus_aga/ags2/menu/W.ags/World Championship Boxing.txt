@@ -1,0 +1,6 @@
+Name      : World Championship Boxing Manager
+Publisher : Goliath Games
+Year      : 1990
+Genre     : Sports - Boxing
+Players   : 1 Only
+Whdload   : WorldChampBoxingManager.Slave

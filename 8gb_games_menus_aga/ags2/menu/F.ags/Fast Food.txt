@@ -1,0 +1,6 @@
+Name      : Fast Food!
+Publisher : Codemasters
+Year      : 1992
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : FastFood.Slave

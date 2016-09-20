@@ -1,0 +1,6 @@
+cd "A-Demos:B/BeastSonix/"
+IF $whdloadargs EQ ""
+  whdload "BeastSonix.Slave"
+ELSE
+  whdload "BeastSonix.Slave" $whdloadargs
+ENDIF

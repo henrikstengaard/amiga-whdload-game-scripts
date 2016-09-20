@@ -1,0 +1,6 @@
+cd "A-Demos:R/Real/"
+IF $whdloadargs EQ ""
+  whdload "Real.Slave"
+ELSE
+  whdload "Real.Slave" $whdloadargs
+ENDIF

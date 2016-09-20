@@ -1,0 +1,6 @@
+cd "A-Demos:W/Waterproof/"
+IF $whdloadargs EQ ""
+  whdload "Waterproof.Slave"
+ELSE
+  whdload "Waterproof.Slave" $whdloadargs
+ENDIF

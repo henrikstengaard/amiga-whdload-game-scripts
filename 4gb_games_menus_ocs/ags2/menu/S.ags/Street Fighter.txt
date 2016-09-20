@@ -1,0 +1,5 @@
+Name      : Street Fighter
+Publisher : Go!
+Year      : 1988
+Players   : 1 Only
+Whdload   : StreetFighter.slave

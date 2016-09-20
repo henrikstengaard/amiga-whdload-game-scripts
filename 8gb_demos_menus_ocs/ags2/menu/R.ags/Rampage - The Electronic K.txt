@@ -1,0 +1,6 @@
+Name    : Rampage
+Groups  : The Electronic Knights
+Type    : Demo
+Party   : CeBIT Demo Competition 1994
+Rank    : N/a
+Whdload : Rampage.Slave

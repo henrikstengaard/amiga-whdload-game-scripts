@@ -1,0 +1,4 @@
+Name    : Materialized
+Groups  : Cryptoburners
+Type    : Demo
+Whdload : Materialized.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:H/Hilt2/"
+IF $whdloadargs EQ ""
+  whdload "Hilt2.Slave"
+ELSE
+  whdload "Hilt2.Slave" $whdloadargs
+ENDIF

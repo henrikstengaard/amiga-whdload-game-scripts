@@ -1,0 +1,6 @@
+cd "A-Games:C/ChipsChallengeUSGold/"
+IF $whdloadargs EQ ""
+  whdload "ChipsChallengeUSGold.Slave"
+ELSE
+  whdload "ChipsChallengeUSGold.Slave" $whdloadargs
+ENDIF

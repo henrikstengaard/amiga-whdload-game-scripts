@@ -1,0 +1,4 @@
+Name    : Muzak compacting 1
+Groups  : Alpha Flight 1970,Mindwarp
+Type    : Musicdisk
+Whdload : MuzakCompacting1.Slave

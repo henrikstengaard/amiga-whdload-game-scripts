@@ -1,0 +1,6 @@
+Name    : The Hunt for 7th October
+Groups  : Cryptoburners
+Type    : Demo
+Party   : No Limits &amp
+Rank    : 1st
+Whdload : HuntFor7thOctober.Slave

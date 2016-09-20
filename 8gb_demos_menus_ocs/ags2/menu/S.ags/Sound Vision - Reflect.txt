@@ -1,0 +1,6 @@
+Name    : Sound Vision
+Groups  : Reflect
+Type    : Demo
+Party   : Assembly 1992
+Rank    : 1st
+Whdload : SoundVision.Slave

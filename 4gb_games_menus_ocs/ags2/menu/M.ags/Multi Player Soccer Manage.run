@@ -1,0 +1,6 @@
+cd "A-Games1:M/MultiPlayerSoccerManager/"
+IF $whdloadargs EQ ""
+  whdload "MultiPlayerSoccerManager.Slave"
+ELSE
+  whdload "MultiPlayerSoccerManager.Slave" $whdloadargs
+ENDIF

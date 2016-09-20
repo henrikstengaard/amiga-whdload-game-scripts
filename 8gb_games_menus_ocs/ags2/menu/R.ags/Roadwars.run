@@ -1,0 +1,6 @@
+cd "A-Games:R/RoadWars/"
+IF $whdloadargs EQ ""
+  whdload "RoadWars.Slave"
+ELSE
+  whdload "RoadWars.Slave" $whdloadargs
+ENDIF

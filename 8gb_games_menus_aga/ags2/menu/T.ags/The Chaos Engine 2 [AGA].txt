@@ -1,0 +1,5 @@
+Name      : The Chaos Engine 2 [AGA]
+Publisher : Renegade, Time Warner Interactive
+Year      : 1996
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : ChaosEngine2AGA.Slave

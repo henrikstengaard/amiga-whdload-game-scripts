@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : Zeus
+Type    : Demo
+Party   : Maximum Pleasure 1991
+Rank    : N/a
+Whdload : MegademoZeus.Slave

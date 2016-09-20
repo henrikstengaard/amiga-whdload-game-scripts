@@ -1,0 +1,6 @@
+cd "A-Games1:K/KartingGrandPrix/"
+IF $whdloadargs EQ ""
+  whdload "KartingGrandPrix.Slave"
+ELSE
+  whdload "KartingGrandPrix.Slave" $whdloadargs
+ENDIF

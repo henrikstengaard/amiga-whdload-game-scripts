@@ -1,0 +1,5 @@
+Name      : Lethal Zone
+Publisher : Amiga Fun
+Year      : 1991
+Players   : 1 Only
+Whdload   : LethalZone.Slave

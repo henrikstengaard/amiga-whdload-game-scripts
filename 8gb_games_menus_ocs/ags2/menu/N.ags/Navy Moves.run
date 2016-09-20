@@ -1,0 +1,6 @@
+cd "A-Games:N/NavyMoves/"
+IF $whdloadargs EQ ""
+  whdload "NavyMoves.Slave"
+ELSE
+  whdload "NavyMoves.Slave" $whdloadargs
+ENDIF

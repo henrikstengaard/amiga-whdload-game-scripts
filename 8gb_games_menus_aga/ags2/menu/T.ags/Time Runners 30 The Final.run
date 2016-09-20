@@ -1,0 +1,6 @@
+cd "A-Games:T/TimeRunners30/"
+IF $whdloadargs EQ ""
+  whdload "TimeRunners30.Slave"
+ELSE
+  whdload "TimeRunners30.Slave" $whdloadargs
+ENDIF

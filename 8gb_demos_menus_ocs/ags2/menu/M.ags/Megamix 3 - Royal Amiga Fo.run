@@ -1,0 +1,6 @@
+cd "A-Demos:M/MegaMix3/"
+IF $whdloadargs EQ ""
+  whdload "MegaMix3.Slave"
+ELSE
+  whdload "MegaMix3.Slave" $whdloadargs
+ENDIF

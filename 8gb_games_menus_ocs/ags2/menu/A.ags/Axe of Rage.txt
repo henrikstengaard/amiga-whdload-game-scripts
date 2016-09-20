@@ -1,0 +1,5 @@
+Name      : Axe of Rage
+Publisher : Epyx
+Year      : 1989
+Players   : 1 Only
+Whdload   : AxeOfRage.slave

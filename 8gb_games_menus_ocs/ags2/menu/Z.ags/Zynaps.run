@@ -1,0 +1,6 @@
+cd "A-Games:Z/Zynaps/"
+IF $whdloadargs EQ ""
+  whdload "Zynaps.slave"
+ELSE
+  whdload "Zynaps.slave" $whdloadargs
+ENDIF

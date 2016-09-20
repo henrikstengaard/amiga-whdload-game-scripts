@@ -1,0 +1,6 @@
+Name    : Megademo 6
+Groups  : Kefrens
+Type    : Demo
+Party   : Ikari + Zargon Party 1989
+Rank    : N/a
+Whdload : Megademo6Kefrens.Slave

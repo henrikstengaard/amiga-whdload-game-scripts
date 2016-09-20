@@ -1,0 +1,6 @@
+Name      : Astatin
+Publisher : Tale Software
+Year      : 1992
+Genre     : Brain - Logical
+Players   : 1 Only
+Whdload   : Astatin.Slave

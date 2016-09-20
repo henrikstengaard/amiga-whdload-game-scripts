@@ -1,0 +1,6 @@
+cd "A-Games:D/Dominium/"
+IF $whdloadargs EQ ""
+  whdload "Dominium.Slave"
+ELSE
+  whdload "Dominium.Slave" $whdloadargs
+ENDIF

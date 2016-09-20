@@ -1,0 +1,4 @@
+Name      : Universal Warrior
+Publisher : Zeppelin Games
+Year      : 1993
+Whdload   : UniversalWarrior.slave

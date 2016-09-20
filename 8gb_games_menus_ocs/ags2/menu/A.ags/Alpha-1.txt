@@ -1,0 +1,5 @@
+Name      : Alpha-1
+Publisher : ECP
+Year      : 1988
+Players   : 1 Only
+Whdload   : Alpha1.Slave

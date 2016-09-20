@@ -1,0 +1,5 @@
+Name      : Digger
+Publisher : Freeware
+Year      : 1993
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Digger.Slave

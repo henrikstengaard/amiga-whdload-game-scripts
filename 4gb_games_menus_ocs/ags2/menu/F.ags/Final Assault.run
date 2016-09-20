@@ -1,0 +1,6 @@
+cd "A-Games1:F/FinalAssault/"
+IF $whdloadargs EQ ""
+  whdload "FinalAssault.Slave"
+ELSE
+  whdload "FinalAssault.Slave" $whdloadargs
+ENDIF

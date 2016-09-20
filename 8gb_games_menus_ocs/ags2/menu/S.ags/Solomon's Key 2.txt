@@ -1,0 +1,4 @@
+Name      : Solomon's Key 2
+Year      : 2015
+Players   : 1
+Whdload   : SolomonsKey2.Slave

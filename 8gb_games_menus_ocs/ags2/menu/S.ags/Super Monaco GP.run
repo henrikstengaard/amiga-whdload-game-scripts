@@ -1,0 +1,6 @@
+cd "A-Games:S/SuperMonacoGP/"
+IF $whdloadargs EQ ""
+  whdload "SuperMonacoGP.slave"
+ELSE
+  whdload "SuperMonacoGP.slave" $whdloadargs
+ENDIF

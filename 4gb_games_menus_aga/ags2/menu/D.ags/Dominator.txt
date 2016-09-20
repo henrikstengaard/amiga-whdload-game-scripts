@@ -1,0 +1,5 @@
+Name      : Dominator
+Publisher : System 3
+Year      : 1989
+Players   : 1 Only
+Whdload   : Dominator.slave

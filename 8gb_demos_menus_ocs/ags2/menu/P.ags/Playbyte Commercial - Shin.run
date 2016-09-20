@@ -1,0 +1,6 @@
+cd "A-Demos:P/PlaybyteCommercial/"
+IF $whdloadargs EQ ""
+  whdload "PlaybyteCommercial.Slave"
+ELSE
+  whdload "PlaybyteCommercial.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:B/BirdsOfPrey/"
+IF $whdloadargs EQ ""
+  whdload "BirdsOfPrey.slave"
+ELSE
+  whdload "BirdsOfPrey.slave" $whdloadargs
+ENDIF

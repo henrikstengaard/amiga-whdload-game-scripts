@@ -1,0 +1,6 @@
+cd "A-Games:F/FuryOfTheFurries/"
+IF $whdloadargs EQ ""
+  whdload "FuryOfTheFurries.Slave"
+ELSE
+  whdload "FuryOfTheFurries.Slave" $whdloadargs
+ENDIF

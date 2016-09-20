@@ -1,0 +1,6 @@
+cd "A-Games1:A/AdvancedDestroyerSim/"
+IF $whdloadargs EQ ""
+  whdload "AdvancedDestroyerSim.Slave"
+ELSE
+  whdload "AdvancedDestroyerSim.Slave" $whdloadargs
+ENDIF

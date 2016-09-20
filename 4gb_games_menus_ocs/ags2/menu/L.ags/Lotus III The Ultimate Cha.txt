@@ -1,0 +1,6 @@
+Name      : Lotus III: The Ultimate Challenge
+Publisher : Gremlin Graphics
+Year      : 1992
+Genre     : Racing - Cars
+Players   : 1 or 2, Simultaneous
+Whdload   : Lotus3.slave

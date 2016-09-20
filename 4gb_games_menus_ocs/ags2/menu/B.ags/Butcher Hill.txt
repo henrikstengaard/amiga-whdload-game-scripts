@@ -1,0 +1,6 @@
+Name      : Butcher Hill
+Publisher : Gremlin Graphics
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : ButcherHill.Slave

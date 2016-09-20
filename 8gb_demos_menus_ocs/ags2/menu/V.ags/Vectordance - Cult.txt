@@ -1,0 +1,4 @@
+Name    : Vectordance
+Groups  : Cult
+Type    : Demo
+Whdload : Vectordance.Slave

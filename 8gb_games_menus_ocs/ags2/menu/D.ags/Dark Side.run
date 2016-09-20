@@ -1,0 +1,6 @@
+cd "A-Games:D/DarkSide/"
+IF $whdloadargs EQ ""
+  whdload "DarkSide.Slave"
+ELSE
+  whdload "DarkSide.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games2:P/PsychoSanta/"
+IF $whdloadargs EQ ""
+  whdload "PsychoSanta.Slave"
+ELSE
+  whdload "PsychoSanta.Slave" $whdloadargs
+ENDIF

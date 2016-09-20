@@ -1,0 +1,6 @@
+cd "A-Games2:W/Whirligig/"
+IF $whdloadargs EQ ""
+  whdload "Whirligig.Slave"
+ELSE
+  whdload "Whirligig.Slave" $whdloadargs
+ENDIF

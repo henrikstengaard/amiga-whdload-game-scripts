@@ -1,0 +1,6 @@
+Name      : Star Control
+Publisher : Accolade
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 or 2, Simultaneous
+Whdload   : StarControl.Slave

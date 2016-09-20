@@ -1,0 +1,6 @@
+cd "A-Games:C/CurseOfTheAzureBonds/"
+IF $whdloadargs EQ ""
+  whdload "CurseOfTheAzureBonds.Slave"
+ELSE
+  whdload "CurseOfTheAzureBonds.Slave" $whdloadargs
+ENDIF

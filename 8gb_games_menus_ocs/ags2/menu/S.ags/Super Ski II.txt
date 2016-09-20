@@ -1,0 +1,5 @@
+Name      : Super Ski II
+Publisher : Microids
+Year      : 1992
+Genre     : Sports - Skiing
+Whdload   : SuperSki2.slave

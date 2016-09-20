@@ -1,0 +1,6 @@
+cd "A-Games:T/TVSportsBaseball/"
+IF $whdloadargs EQ ""
+  whdload "TVSportsBaseball.Slave"
+ELSE
+  whdload "TVSportsBaseball.Slave" $whdloadargs
+ENDIF

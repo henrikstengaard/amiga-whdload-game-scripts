@@ -1,0 +1,5 @@
+Name      : Spherical Worlds
+Publisher : Neo Software Produktions
+Year      : 1996
+Players   : 1 Only
+Whdload   : SphericalWorldsCD.Slave

@@ -1,0 +1,4 @@
+Name    : Spaced Out Vol. 2
+Groups  : Magnetic Fields
+Type    : Musicdisk
+Whdload : SpacedOutVol2.Slave

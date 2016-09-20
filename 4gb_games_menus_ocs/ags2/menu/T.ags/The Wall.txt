@@ -1,0 +1,5 @@
+Name      : The Wall
+Publisher : Rainbow Arts (Softgold)
+Year      : 1988
+Players   : 1
+Whdload   : Wall.Slave

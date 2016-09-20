@@ -1,0 +1,6 @@
+cd "A-Games1:A/ApidyaAudios/"
+IF $whdloadargs EQ ""
+  whdload "ApidyaAudios.Slave"
+ELSE
+  whdload "ApidyaAudios.Slave" $whdloadargs
+ENDIF

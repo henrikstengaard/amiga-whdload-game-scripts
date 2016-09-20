@@ -1,0 +1,6 @@
+Name    : Vaginal Massacre
+Groups  : U.d.o.
+Type    : Demo
+Party   : CeBIT Demo Competition 1993
+Rank    : 1st
+Whdload : VaginalMassacre.slave

@@ -1,0 +1,4 @@
+Name    : The enemies musics III
+Groups  : The Enemies
+Type    : Musicdisk
+Whdload : Musics3.Slave

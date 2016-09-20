@@ -1,0 +1,5 @@
+Name      : Man from the Council, The
+Publisher : Tynesoft
+Year      : 1989
+Players   : 1 Only
+Whdload   : ManFromTheCouncil.Slave

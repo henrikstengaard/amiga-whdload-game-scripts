@@ -1,0 +1,6 @@
+cd "A-Games1:A/APBImage/"
+IF $whdloadargs EQ ""
+  whdload "APBImage.slave"
+ELSE
+  whdload "APBImage.slave" $whdloadargs
+ENDIF

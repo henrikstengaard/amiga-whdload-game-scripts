@@ -1,0 +1,5 @@
+Name      : Licence to Kill
+Publisher : Domark
+Year      : 1989
+Players   : 1 Only
+Whdload   : LicenceToKill.Slave

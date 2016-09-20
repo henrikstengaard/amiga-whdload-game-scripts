@@ -1,0 +1,6 @@
+Name      : Dragon's Lair II: Time Warp
+Publisher : ReadySoft
+Year      : 1991
+Genre     : Adventure - Joystick only
+Players   : 1 Only
+Whdload   : DragonsLair2.Slave

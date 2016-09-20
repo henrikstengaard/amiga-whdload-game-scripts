@@ -1,0 +1,6 @@
+cd "A-Demos:0-9/24HourEFix/"
+IF $whdloadargs EQ ""
+  whdload "24HourEFix.Slave"
+ELSE
+  whdload "24HourEFix.Slave" $whdloadargs
+ENDIF

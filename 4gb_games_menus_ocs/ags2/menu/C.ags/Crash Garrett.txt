@@ -1,0 +1,6 @@
+Name      : Crash Garrett
+Publisher : ERE Informatique
+Year      : 1988
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : CrashGarrett.Slave

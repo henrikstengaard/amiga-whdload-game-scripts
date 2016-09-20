@@ -1,0 +1,6 @@
+cd "A-Games1:D/DejaVuANightmareComesTrue/"
+IF $whdloadargs EQ ""
+  whdload "DejaVuANightmareComesTrue.Slave"
+ELSE
+  whdload "DejaVuANightmareComesTrue.Slave" $whdloadargs
+ENDIF

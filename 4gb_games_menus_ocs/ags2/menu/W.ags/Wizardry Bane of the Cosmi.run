@@ -1,0 +1,6 @@
+cd "A-Games2:W/Wizardry6BaneCosmicForg/"
+IF $whdloadargs EQ ""
+  whdload "Wizardry6BaneCosmicForg.slave"
+ELSE
+  whdload "Wizardry6BaneCosmicForg.slave" $whdloadargs
+ENDIF

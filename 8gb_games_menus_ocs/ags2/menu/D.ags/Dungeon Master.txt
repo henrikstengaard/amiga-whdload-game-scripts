@@ -1,0 +1,6 @@
+Name      : Dungeon Master
+Publisher : FTL
+Year      : 1988
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : DungeonMaster.slave

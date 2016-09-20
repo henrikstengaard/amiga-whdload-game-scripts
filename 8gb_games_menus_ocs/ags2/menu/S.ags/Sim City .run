@@ -1,0 +1,6 @@
+cd "A-Games:S/SimCity512K/"
+IF $whdloadargs EQ ""
+  whdload "SimCity512K.Slave"
+ELSE
+  whdload "SimCity512K.Slave" $whdloadargs
+ENDIF

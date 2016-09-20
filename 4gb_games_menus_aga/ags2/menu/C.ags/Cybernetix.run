@@ -1,0 +1,6 @@
+cd "A-Games1:C/Cybernetix/"
+IF $whdloadargs EQ ""
+  whdload "Cybernetix.Slave"
+ELSE
+  whdload "Cybernetix.Slave" $whdloadargs
+ENDIF

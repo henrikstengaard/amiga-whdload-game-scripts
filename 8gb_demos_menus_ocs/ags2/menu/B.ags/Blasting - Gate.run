@@ -1,0 +1,6 @@
+cd "A-Demos:B/Blasting/"
+IF $whdloadargs EQ ""
+  whdload "Blasting.Slave"
+ELSE
+  whdload "Blasting.Slave" $whdloadargs
+ENDIF

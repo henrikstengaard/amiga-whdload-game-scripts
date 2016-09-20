@@ -1,0 +1,5 @@
+Name      : New Year Lemmings 1991/92
+Publisher : N/A
+Year      : 1991
+Players   : 1
+Whdload   : NewYearLemmings199192.Slave

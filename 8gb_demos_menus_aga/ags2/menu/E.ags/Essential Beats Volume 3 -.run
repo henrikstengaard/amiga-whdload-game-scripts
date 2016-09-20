@@ -1,0 +1,6 @@
+cd "A-Demos:E/EssentialBeats3/"
+IF $whdloadargs EQ ""
+  whdload "EssentialBeats3.Slave"
+ELSE
+  whdload "EssentialBeats3.Slave" $whdloadargs
+ENDIF

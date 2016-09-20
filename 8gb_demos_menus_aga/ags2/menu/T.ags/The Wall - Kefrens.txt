@@ -1,0 +1,6 @@
+Name    : The Wall
+Groups  : Kefrens
+Type    : Demo
+Party   : Dexion X-Mas Conference 1990
+Rank    : N/a
+Whdload : WallKefrens.Slave

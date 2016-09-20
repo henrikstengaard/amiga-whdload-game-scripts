@@ -1,0 +1,5 @@
+Name      : Zombie Apocalypse II
+Publisher : Acid Software
+Year      : 1994
+Players   : 1 Only
+Whdload   : ZombieApocalypse2AGA.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:S/SyndicateCD32/"
+IF $whdloadargs EQ ""
+  whdload "SyndicateCD32.slave"
+ELSE
+  whdload "SyndicateCD32.slave" $whdloadargs
+ENDIF

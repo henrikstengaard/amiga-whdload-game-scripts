@@ -1,0 +1,6 @@
+cd "A-Games:F/Frankenstein/"
+IF $whdloadargs EQ ""
+  whdload "Frankenstein.slave"
+ELSE
+  whdload "Frankenstein.slave" $whdloadargs
+ENDIF

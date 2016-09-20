@@ -1,0 +1,6 @@
+cd "A-Games:P/Plutos/"
+IF $whdloadargs EQ ""
+  whdload "Plutos.Slave"
+ELSE
+  whdload "Plutos.Slave" $whdloadargs
+ENDIF

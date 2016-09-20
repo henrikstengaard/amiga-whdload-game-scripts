@@ -1,0 +1,4 @@
+Name    : Musicdisk 1
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+Whdload : MusicDisk1.Slave

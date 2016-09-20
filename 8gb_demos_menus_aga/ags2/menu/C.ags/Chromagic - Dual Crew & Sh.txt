@@ -1,0 +1,4 @@
+Name    : Chromagic
+Groups  : Dual Crew & Shining
+Type    : Musicdisk
+Whdload : Chromagic.Slave

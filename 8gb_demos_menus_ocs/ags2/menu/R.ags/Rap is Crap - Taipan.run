@@ -1,0 +1,6 @@
+cd "A-Demos:R/RapIsCrap/"
+IF $whdloadargs EQ ""
+  whdload "RapIsCrap.Slave"
+ELSE
+  whdload "RapIsCrap.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:W/Wonderland/"
+IF $whdloadargs EQ ""
+  whdload "Wonderland.Slave"
+ELSE
+  whdload "Wonderland.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Pharaoh's Curse
+Publisher : Freeware
+Year      : 1990
+Players   : 1
+Whdload   : PharaohsCurse.Slave

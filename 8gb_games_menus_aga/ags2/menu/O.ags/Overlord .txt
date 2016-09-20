@@ -1,0 +1,6 @@
+Name      : Overlord
+Publisher : Virgin Interactive
+Year      : 1994
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : OverlordRowan.Slave

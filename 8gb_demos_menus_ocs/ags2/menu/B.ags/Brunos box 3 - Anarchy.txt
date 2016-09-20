@@ -1,0 +1,4 @@
+Name    : Brunos box 3
+Groups  : Anarchy
+Type    : Musicdisk
+Whdload : BrunosMusicBox3.Slave

@@ -1,0 +1,6 @@
+Name      : Caesar
+Publisher : Impressions
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Caesar.Slave

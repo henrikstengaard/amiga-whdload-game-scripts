@@ -1,0 +1,6 @@
+cd "A-Demos:P/Party2Slideshow/"
+IF $whdloadargs EQ ""
+  whdload "Party2Slideshow.Slave"
+ELSE
+  whdload "Party2Slideshow.Slave" $whdloadargs
+ENDIF

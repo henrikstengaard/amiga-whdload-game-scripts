@@ -1,0 +1,6 @@
+cd "A-Demos:S/StaticChaos/"
+IF $whdloadargs EQ ""
+  whdload "StaticChaos.Slave"
+ELSE
+  whdload "StaticChaos.Slave" $whdloadargs
+ENDIF

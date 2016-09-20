@@ -1,0 +1,6 @@
+cd "A-Games:S/SuperfrogCD32/"
+IF $whdloadargs EQ ""
+  whdload "SuperfrogIntroCD32.Slave"
+ELSE
+  whdload "SuperfrogIntroCD32.Slave" $whdloadargs
+ENDIF

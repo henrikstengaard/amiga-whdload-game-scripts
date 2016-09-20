@@ -1,0 +1,6 @@
+Name      : Flimbo's Quest
+Publisher : System 3
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : FlimbosQuest.slave

@@ -1,0 +1,5 @@
+Name      : Not Very Festive Fodder
+Publisher : Amiga Format (Future Publishing)
+Year      : 1995
+Players   : 1
+Whdload   : NotVeryFestiveFodder.Slave

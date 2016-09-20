@@ -1,0 +1,6 @@
+cd "A-Games:S/Sleepwalker/"
+IF $whdloadargs EQ ""
+  whdload "Sleepwalker.Slave"
+ELSE
+  whdload "Sleepwalker.Slave" $whdloadargs
+ENDIF

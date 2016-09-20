@@ -1,0 +1,6 @@
+Name    : Megademo 2
+Groups  : Megaforce
+Type    : Demo
+Party   : Salzburg Party 1988
+Rank    : N/a
+Whdload : Megademo2Megaforce.Slave

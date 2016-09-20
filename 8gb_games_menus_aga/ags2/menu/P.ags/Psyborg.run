@@ -1,0 +1,6 @@
+cd "A-Games:P/Psyborg/"
+IF $whdloadargs EQ ""
+  whdload "Psyborg.Slave"
+ELSE
+  whdload "Psyborg.Slave" $whdloadargs
+ENDIF

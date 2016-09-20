@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicWithAMessage/"
+IF $whdloadargs EQ ""
+  whdload "MusicWithAMessage.Slave"
+ELSE
+  whdload "MusicWithAMessage.Slave" $whdloadargs
+ENDIF

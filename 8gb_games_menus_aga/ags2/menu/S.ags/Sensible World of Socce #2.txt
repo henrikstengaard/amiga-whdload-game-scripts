@@ -1,0 +1,6 @@
+Name      : Sensible World of Soccer '96/'97
+Publisher : Renegade
+Year      : 1996
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : SensibleWorldOfSoccer9697.Slave

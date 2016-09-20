@@ -1,0 +1,6 @@
+Name    : Our definition of a boombastic demo style
+Groups  : Rebels
+Type    : Demo
+Party   : Anarchy Easter Party 1991
+Rank    : 5th
+Whdload : Boombastic.slave

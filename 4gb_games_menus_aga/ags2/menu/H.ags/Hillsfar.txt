@@ -1,0 +1,6 @@
+Name      : Hillsfar
+Publisher : Strategic Simulations, Inc.
+Year      : 1989
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : Hillsfar.Slave

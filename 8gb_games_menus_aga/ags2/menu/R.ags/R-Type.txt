@@ -1,0 +1,5 @@
+Name      : R-Type
+Publisher : Electric Dreams
+Year      : 1989
+Players   : 1 Only
+Whdload   : RType.Slave

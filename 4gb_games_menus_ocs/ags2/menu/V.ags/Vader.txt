@@ -1,0 +1,5 @@
+Name      : Vader
+Publisher : Softgang
+Year      : 1987
+Players   : 1 Only
+Whdload   : Vader.Slave

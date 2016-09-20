@@ -1,0 +1,6 @@
+Name      : Twintris
+Publisher : Digital Marketing
+Year      : 1990
+Genre     : Arcade - Tetris
+Players   : 1 or 2, Simultaneous
+Whdload   : Twintris.Slave

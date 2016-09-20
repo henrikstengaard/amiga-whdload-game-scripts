@@ -1,0 +1,6 @@
+cd "A-Games:K/KickOff&ExtraTime2Disk/"
+IF $whdloadargs EQ ""
+  whdload "KickOff&ExtraTime2Disk.Slave"
+ELSE
+  whdload "KickOff&ExtraTime2Disk.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,4 @@
+Name    : Spaceship
+Groups  : Doctor Mabuse Orgasm Crackings
+Type    : Demo
+Whdload : Spaceship.Slave

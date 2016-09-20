@@ -1,0 +1,5 @@
+Name      : Phantom Fighter
+Publisher : Martech
+Year      : 1988
+Players   : 1 Only
+Whdload   : PhantomFighter.Slave

@@ -1,0 +1,5 @@
+Name      : Dragon Breed
+Publisher : Activision
+Year      : 1990
+Players   : 1 or 2
+Whdload   : DragonBreed.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:D/DragonWars/"
+IF $whdloadargs EQ ""
+  whdload "DragonWars.Slave"
+ELSE
+  whdload "DragonWars.Slave" $whdloadargs
+ENDIF

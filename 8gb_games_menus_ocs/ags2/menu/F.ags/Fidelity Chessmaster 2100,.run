@@ -1,0 +1,6 @@
+cd "A-Games:F/FidelityChessmaster2100/"
+IF $whdloadargs EQ ""
+  whdload "FidelityChessmaster2100.Slave"
+ELSE
+  whdload "FidelityChessmaster2100.Slave" $whdloadargs
+ENDIF

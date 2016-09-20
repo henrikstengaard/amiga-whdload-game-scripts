@@ -1,0 +1,6 @@
+Name      : Space Ace II: Borf's Revenge
+Publisher : ReadySoft
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : SpaceAce2.Slave

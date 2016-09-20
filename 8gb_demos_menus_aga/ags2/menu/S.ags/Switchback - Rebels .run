@@ -1,0 +1,6 @@
+cd "A-Demos:S/SwitchbackAGA/"
+IF $whdloadargs EQ ""
+  whdload "SwitchbackAGA.Slave"
+ELSE
+  whdload "SwitchbackAGA.Slave" $whdloadargs
+ENDIF

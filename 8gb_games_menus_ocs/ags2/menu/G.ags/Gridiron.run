@@ -1,0 +1,6 @@
+cd "A-Games:G/Gridiron/"
+IF $whdloadargs EQ ""
+  whdload "Gridiron.Slave"
+ELSE
+  whdload "Gridiron.Slave" $whdloadargs
+ENDIF

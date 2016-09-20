@@ -1,0 +1,5 @@
+Name      : Leisure Suit Larry 3
+Publisher : Sierra
+Year      : 1990
+Players   : 1
+Whdload   : LeisureSuitLarry3.slave

@@ -1,0 +1,4 @@
+Name    : Kuglepølen
+Groups  : Static bytes
+Type    : Musicdisk
+Whdload : Kuglepoelen.Slave

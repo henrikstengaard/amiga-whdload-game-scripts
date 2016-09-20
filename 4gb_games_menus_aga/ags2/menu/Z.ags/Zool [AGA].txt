@@ -1,0 +1,5 @@
+Name      : Zool [AGA]
+Publisher : Gremlin
+Year      : 1993
+Players   : 1
+Whdload   : ZoolAGA.slave

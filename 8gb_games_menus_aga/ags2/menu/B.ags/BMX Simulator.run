@@ -1,0 +1,6 @@
+cd "A-Games:B/BMXSimulator/"
+IF $whdloadargs EQ ""
+  whdload "BMXSimulator.Slave"
+ELSE
+  whdload "BMXSimulator.Slave" $whdloadargs
+ENDIF

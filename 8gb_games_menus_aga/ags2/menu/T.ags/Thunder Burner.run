@@ -1,0 +1,6 @@
+cd "A-Games:T/ThunderBurner/"
+IF $whdloadargs EQ ""
+  whdload "ThunderBurner.Slave"
+ELSE
+  whdload "ThunderBurner.Slave" $whdloadargs
+ENDIF

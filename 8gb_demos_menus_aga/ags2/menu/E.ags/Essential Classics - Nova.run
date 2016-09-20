@@ -1,0 +1,6 @@
+cd "A-Demos:E/EssentialClassics/"
+IF $whdloadargs EQ ""
+  whdload "EssentialClassics.Slave"
+ELSE
+  whdload "EssentialClassics.Slave" $whdloadargs
+ENDIF

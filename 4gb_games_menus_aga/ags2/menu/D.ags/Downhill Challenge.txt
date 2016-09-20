@@ -1,0 +1,6 @@
+Name      : Downhill Challenge
+Publisher : Brøderbund
+Year      : 1989
+Genre     : Sports - Skiing
+Players   : 1 to 6
+Whdload   : DownhillChallenge.Slave

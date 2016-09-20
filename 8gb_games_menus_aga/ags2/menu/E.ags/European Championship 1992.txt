@@ -1,0 +1,6 @@
+Name      : European Championship 1992
+Publisher : Elite
+Year      : 1992
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : EuropeanChampionship1992.slave

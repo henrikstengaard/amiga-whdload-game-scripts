@@ -1,0 +1,5 @@
+Name      : Cannon Fodder 2
+Publisher : Virgin Interactive
+Year      : 1994
+Players   : 1 Only
+Whdload   : CannonFodder2.Slave

@@ -1,0 +1,6 @@
+Name      : Match of the Day
+Publisher : Zeppelin Premier
+Year      : 1992
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : MatchOfTheDay.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:A/ApidyaKaiko/data/"
+IF $whdloadargs EQ ""
+  whdload "Apidya.slave"
+ELSE
+  whdload "Apidya.slave" $whdloadargs
+ENDIF

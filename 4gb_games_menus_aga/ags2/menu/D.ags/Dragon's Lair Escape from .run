@@ -1,0 +1,6 @@
+cd "A-Games1:D/DragonsLairEscapeSlow/"
+IF $whdloadargs EQ ""
+  whdload "DragonsLairEscapeSlow.Slave"
+ELSE
+  whdload "DragonsLairEscapeSlow.Slave" $whdloadargs
+ENDIF

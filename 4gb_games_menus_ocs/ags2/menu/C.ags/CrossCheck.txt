@@ -1,0 +1,6 @@
+Name      : CrossCheck
+Publisher : Sunflowers
+Year      : 1994
+Genre     : Sports - Ice Hockey
+Players   : 1 or 2, Simultaneous
+Whdload   : CrossCheck.slave

@@ -1,0 +1,6 @@
+cd "A-Games:F/Fusion/"
+IF $whdloadargs EQ ""
+  whdload "Fusion.Slave"
+ELSE
+  whdload "Fusion.Slave" $whdloadargs
+ENDIF

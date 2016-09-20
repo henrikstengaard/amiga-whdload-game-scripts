@@ -1,0 +1,5 @@
+Name      : Double Dragon 3: The Rosetta Stone
+Publisher : Storm
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : DoubleDragon3.slave

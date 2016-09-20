@@ -1,0 +1,4 @@
+Name      : Warlock: The Avenger
+Publisher : Millennium
+Year      : 1990
+Whdload   : WarlockTheAvenger.Slave

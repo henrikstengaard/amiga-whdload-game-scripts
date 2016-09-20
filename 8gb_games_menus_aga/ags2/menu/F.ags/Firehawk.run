@@ -1,0 +1,6 @@
+cd "A-Games:F/Firehawk/"
+IF $whdloadargs EQ ""
+  whdload "FireHawk.Slave"
+ELSE
+  whdload "FireHawk.Slave" $whdloadargs
+ENDIF

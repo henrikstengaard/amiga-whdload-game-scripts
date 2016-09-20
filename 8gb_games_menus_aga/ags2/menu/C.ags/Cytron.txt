@@ -1,0 +1,5 @@
+Name      : Cytron
+Publisher : Psygnosis
+Year      : 1992
+Players   : 1 Only
+Whdload   : Cytron.slave

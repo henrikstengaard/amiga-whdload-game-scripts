@@ -1,0 +1,6 @@
+cd "A-Games:B/Battletech/"
+IF $whdloadargs EQ ""
+  whdload "Battletech.Slave"
+ELSE
+  whdload "Battletech.Slave" $whdloadargs
+ENDIF

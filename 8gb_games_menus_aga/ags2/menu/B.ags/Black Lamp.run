@@ -1,0 +1,6 @@
+cd "A-Games:B/BlackLamp/"
+IF $whdloadargs EQ ""
+  whdload "BlackLamp.Slave"
+ELSE
+  whdload "BlackLamp.Slave" $whdloadargs
+ENDIF

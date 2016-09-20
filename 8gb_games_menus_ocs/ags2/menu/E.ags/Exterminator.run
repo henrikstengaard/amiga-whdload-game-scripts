@@ -1,0 +1,6 @@
+cd "A-Games:E/Exterminator/"
+IF $whdloadargs EQ ""
+  whdload "Exterminator.slave"
+ELSE
+  whdload "Exterminator.slave" $whdloadargs
+ENDIF

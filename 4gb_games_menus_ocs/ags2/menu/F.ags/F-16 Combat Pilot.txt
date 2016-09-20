@@ -1,0 +1,6 @@
+Name      : F-16 Combat Pilot
+Publisher : Digital Integration
+Year      : 1989
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : F16CombatPilot.Slave

@@ -1,0 +1,6 @@
+cd "A-Games:P/PacificIslands/"
+IF $whdloadargs EQ ""
+  whdload "PacificIslands.Slave"
+ELSE
+  whdload "PacificIslands.Slave" $whdloadargs
+ENDIF

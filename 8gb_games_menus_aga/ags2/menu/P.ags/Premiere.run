@@ -1,0 +1,6 @@
+cd "A-Games:P/PremiereCD32/"
+IF $whdloadargs EQ ""
+  whdload "PremiereCD32.Slave"
+ELSE
+  whdload "PremiereCD32.Slave" $whdloadargs
+ENDIF

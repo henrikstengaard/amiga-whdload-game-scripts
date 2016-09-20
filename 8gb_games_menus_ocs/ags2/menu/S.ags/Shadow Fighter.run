@@ -1,0 +1,6 @@
+cd "A-Games:S/ShadowFighter/"
+IF $whdloadargs EQ ""
+  whdload "ShadowFighter.Slave"
+ELSE
+  whdload "ShadowFighter.Slave" $whdloadargs
+ENDIF

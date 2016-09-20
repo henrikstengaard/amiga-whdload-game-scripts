@@ -1,0 +1,6 @@
+Name      : Soccer Pinball
+Publisher : Codemasters
+Year      : 1992
+Genre     : Arcade - Pinball
+Players   : 1 Only
+Whdload   : SoccerPinball.slave

@@ -1,0 +1,5 @@
+Name      : Teenage Mutant Hero Turtles
+Publisher : Mirrorsoft
+Year      : 1990
+Players   : 1 Only
+Whdload   : TeenageMtntHeroTurtlesCOp.Slave

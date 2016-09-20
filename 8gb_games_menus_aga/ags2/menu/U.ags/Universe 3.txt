@@ -1,0 +1,5 @@
+Name      : Universe 3
+Publisher : Impressions (Software Inspirations)
+Year      : 1990
+Players   : 1
+Whdload   : Universe3.Slave

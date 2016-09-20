@@ -1,0 +1,6 @@
+cd "A-Demos:S/SunAGA/"
+IF $whdloadargs EQ ""
+  whdload "SunAGA.Slave"
+ELSE
+  whdload "SunAGA.Slave" $whdloadargs
+ENDIF

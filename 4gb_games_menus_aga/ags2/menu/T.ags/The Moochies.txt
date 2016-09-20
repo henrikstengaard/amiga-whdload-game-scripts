@@ -1,0 +1,5 @@
+Name      : The Moochies
+Publisher : Breadline
+Year      : 1991
+Players   : 1 - 4 (4 simultaneous)
+Whdload   : Moochies.Slave

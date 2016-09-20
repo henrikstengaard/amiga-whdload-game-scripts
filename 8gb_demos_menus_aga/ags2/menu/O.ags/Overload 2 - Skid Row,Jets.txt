@@ -1,0 +1,6 @@
+Name    : Overload 2
+Groups  : Skid Row,Jetset
+Type    : Musicdisk
+Party   : Holland is OK (aka Legend party) 1993
+Rank    : 1st
+Whdload : Overload2.Slave

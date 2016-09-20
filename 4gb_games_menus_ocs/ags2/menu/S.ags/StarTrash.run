@@ -1,0 +1,6 @@
+cd "A-Games2:S/StarTrash/"
+IF $whdloadargs EQ ""
+  whdload "StarTrash.slave"
+ELSE
+  whdload "StarTrash.slave" $whdloadargs
+ENDIF

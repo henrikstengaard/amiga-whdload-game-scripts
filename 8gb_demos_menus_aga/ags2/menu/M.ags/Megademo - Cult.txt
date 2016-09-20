@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Cult
+Type    : Demo
+Whdload : MegademoCult.Slave

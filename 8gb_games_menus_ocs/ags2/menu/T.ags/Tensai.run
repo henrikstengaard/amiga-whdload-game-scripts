@@ -1,0 +1,6 @@
+cd "A-Games:T/TensaiDemo/"
+IF $whdloadargs EQ ""
+  whdload "TensaiDemo.Slave"
+ELSE
+  whdload "TensaiDemo.Slave" $whdloadargs
+ENDIF

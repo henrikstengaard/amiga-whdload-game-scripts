@@ -1,0 +1,6 @@
+cd "A-Games:M/Magician/"
+IF $whdloadargs EQ ""
+  whdload "Magician.Slave"
+ELSE
+  whdload "Magician.Slave" $whdloadargs
+ENDIF

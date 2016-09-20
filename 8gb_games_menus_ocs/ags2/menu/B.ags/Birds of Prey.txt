@@ -1,0 +1,6 @@
+Name      : Birds of Prey
+Publisher : Electronic Arts
+Year      : 1991
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : BirdsOfPrey.slave

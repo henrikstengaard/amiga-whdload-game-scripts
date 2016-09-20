@@ -1,0 +1,5 @@
+Name      : Stunt Track Racer
+Publisher : MicroPlay
+Year      : 1989
+Players   : 1 - 8 (2 simultaneous)
+Whdload   : StuntTrackRacer.Slave

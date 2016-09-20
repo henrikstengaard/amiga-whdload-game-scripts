@@ -1,0 +1,6 @@
+cd "A-Games:R/Rampage/"
+IF $whdloadargs EQ ""
+  whdload "Rampage.slave"
+ELSE
+  whdload "Rampage.slave" $whdloadargs
+ENDIF

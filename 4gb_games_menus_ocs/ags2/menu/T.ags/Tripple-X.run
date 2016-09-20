@@ -1,0 +1,6 @@
+cd "A-Games2:T/TripleX/"
+IF $whdloadargs EQ ""
+  whdload "TripleX.Slave"
+ELSE
+  whdload "TripleX.Slave" $whdloadargs
+ENDIF

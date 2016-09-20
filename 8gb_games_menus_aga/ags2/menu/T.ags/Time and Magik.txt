@@ -1,0 +1,6 @@
+Name      : Time and Magik
+Publisher : Mandarin
+Year      : 1988
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : TimeAndMagik.Slave

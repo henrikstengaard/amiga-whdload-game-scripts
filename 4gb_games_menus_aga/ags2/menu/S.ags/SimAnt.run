@@ -1,0 +1,6 @@
+cd "A-Games2:S/SimAntHiRes/"
+IF $whdloadargs EQ ""
+  whdload "SimAntHiRes.Slave"
+ELSE
+  whdload "SimAntHiRes.Slave" $whdloadargs
+ENDIF

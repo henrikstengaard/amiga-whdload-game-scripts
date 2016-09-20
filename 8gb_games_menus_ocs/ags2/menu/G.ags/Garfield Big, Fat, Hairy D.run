@@ -1,0 +1,6 @@
+cd "A-Games:G/GarfieldBigFatHairyDeal/"
+IF $whdloadargs EQ ""
+  whdload "GarfieldBigFatHairyDeal.Slave"
+ELSE
+  whdload "GarfieldBigFatHairyDeal.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:P/Pawn/"
+IF $whdloadargs EQ ""
+  whdload "Pawn.Slave"
+ELSE
+  whdload "Pawn.Slave" $whdloadargs
+ENDIF

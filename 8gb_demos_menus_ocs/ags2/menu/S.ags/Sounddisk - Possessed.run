@@ -1,0 +1,6 @@
+cd "A-Demos:S/SounddiskPossessed/"
+IF $whdloadargs EQ ""
+  whdload "SounddiskPossessed.Slave"
+ELSE
+  whdload "SounddiskPossessed.Slave" $whdloadargs
+ENDIF

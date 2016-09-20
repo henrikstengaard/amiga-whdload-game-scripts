@@ -1,0 +1,6 @@
+cd "A-Games1:K/KickOff2FinalWhistleCV/"
+IF $whdloadargs EQ ""
+  whdload "KickOff2FinalWhistleCV.slave"
+ELSE
+  whdload "KickOff2FinalWhistleCV.slave" $whdloadargs
+ENDIF

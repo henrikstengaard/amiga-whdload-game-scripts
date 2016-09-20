@@ -1,0 +1,6 @@
+cd "A-Games:S/SuprTennisChmps/"
+IF $whdloadargs EQ ""
+  whdload "SuprTennisChmps.Slave"
+ELSE
+  whdload "SuprTennisChmps.Slave" $whdloadargs
+ENDIF

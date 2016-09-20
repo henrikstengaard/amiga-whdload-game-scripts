@@ -1,0 +1,6 @@
+cd "A-Demos:R/Reflex/"
+IF $whdloadargs EQ ""
+  whdload "Reflex.slave"
+ELSE
+  whdload "Reflex.slave" $whdloadargs
+ENDIF

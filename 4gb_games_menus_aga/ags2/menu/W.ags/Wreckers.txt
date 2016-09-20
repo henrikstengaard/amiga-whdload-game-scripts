@@ -1,0 +1,6 @@
+Name      : Wreckers
+Publisher : Audiogenic
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Wreckers.Slave

@@ -1,0 +1,6 @@
+Name      : Donald Duck's Playground
+Publisher : Sierra On-Line
+Year      : 1986
+Genre     : Educational - Children
+Players   : 1 Only
+Whdload   : DonaldDucksPlayground.Slave

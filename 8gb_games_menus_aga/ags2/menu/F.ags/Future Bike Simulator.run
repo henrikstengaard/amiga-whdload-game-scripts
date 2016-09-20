@@ -1,0 +1,6 @@
+cd "A-Games:F/FutureBikeSimulator/"
+IF $whdloadargs EQ ""
+  whdload "FutureBikeSimulator.Slave"
+ELSE
+  whdload "FutureBikeSimulator.Slave" $whdloadargs
+ENDIF

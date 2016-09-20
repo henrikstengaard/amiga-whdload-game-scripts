@@ -1,0 +1,6 @@
+Name      : Cosmic Relief: Prof. Renegade to the Rescue
+Publisher : Datasoft
+Year      : 1988
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : CosmicRelief.Slave

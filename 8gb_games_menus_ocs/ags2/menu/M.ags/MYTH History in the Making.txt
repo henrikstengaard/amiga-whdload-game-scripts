@@ -1,0 +1,5 @@
+Name      : MYTH: History in the Making
+Publisher : System 3
+Year      : 1992
+Players   : 1 Only
+Whdload   : MythHistoryInTheMaking.Slave

@@ -1,0 +1,5 @@
+Name      : Galaga '92
+Publisher : Freeware
+Year      : 1992
+Players   : 1
+Whdload   : Galaga92.Slave

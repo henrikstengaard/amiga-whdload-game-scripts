@@ -1,0 +1,6 @@
+cd "A-Games1:C/ConanTheCimmerian/"
+IF $whdloadargs EQ ""
+  whdload "ConanTheCimmerian.Slave"
+ELSE
+  whdload "ConanTheCimmerian.Slave" $whdloadargs
+ENDIF

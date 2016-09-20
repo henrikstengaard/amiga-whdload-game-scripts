@@ -1,0 +1,6 @@
+cd "A-Games:V/Vyper/"
+IF $whdloadargs EQ ""
+  whdload "Vyper.Slave"
+ELSE
+  whdload "Vyper.Slave" $whdloadargs
+ENDIF

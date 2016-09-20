@@ -1,0 +1,6 @@
+Name      : Operation Stealth
+Publisher : US Gold
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : OperationStealth.slave

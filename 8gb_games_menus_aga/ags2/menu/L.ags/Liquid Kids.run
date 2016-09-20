@@ -1,0 +1,6 @@
+cd "A-Games:L/LiquidKidsImage/"
+IF $whdloadargs EQ ""
+  whdload "LiquidKidsImage.Slave"
+ELSE
+  whdload "LiquidKidsImage.Slave" $whdloadargs
+ENDIF

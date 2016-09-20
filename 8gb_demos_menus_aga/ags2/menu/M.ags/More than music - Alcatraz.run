@@ -1,0 +1,6 @@
+cd "A-Demos:M/MoreThanMusic/"
+IF $whdloadargs EQ ""
+  whdload "MoreThanMusic.Slave"
+ELSE
+  whdload "MoreThanMusic.Slave" $whdloadargs
+ENDIF

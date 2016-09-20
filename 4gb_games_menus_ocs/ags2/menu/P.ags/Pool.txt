@@ -1,0 +1,6 @@
+Name      : Pool
+Publisher : Mastertronic
+Year      : 1987
+Genre     : Sports - Snooker/Pool
+Players   : 1 or 2
+Whdload   : Pool.Slave

@@ -1,0 +1,6 @@
+Name      : Aquanaut
+Publisher : Addictive Games
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : AquanautF1Licenceware.slave

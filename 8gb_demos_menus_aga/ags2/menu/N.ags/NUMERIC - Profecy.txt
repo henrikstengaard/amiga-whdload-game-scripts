@@ -1,0 +1,4 @@
+Name    : NUMERIC
+Groups  : Profecy
+Type    : Musicdisk
+Whdload : Numeric.Slave

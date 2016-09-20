@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicDiskDreamscape/"
+IF $whdloadargs EQ ""
+  whdload "MusicDiskDreamscape.Slave"
+ELSE
+  whdload "MusicDiskDreamscape.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,5 @@
+Name      : Assassin: Special Edition
+Publisher : Team 17
+Year      : 1994
+Players   : 1 Only
+Whdload   : AssassinSpecialEdition.slave

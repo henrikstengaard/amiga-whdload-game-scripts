@@ -1,0 +1,6 @@
+Name      : Sensible World of Soccer
+Publisher : Renegade
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : SensibleWorldOfSoccerEuro.Slave

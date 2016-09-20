@@ -1,0 +1,6 @@
+cd "A-Demos:G/GateToHell/"
+IF $whdloadargs EQ ""
+  whdload "GateToHell.Slave"
+ELSE
+  whdload "GateToHell.Slave" $whdloadargs
+ENDIF

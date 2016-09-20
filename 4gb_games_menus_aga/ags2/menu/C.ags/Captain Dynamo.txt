@@ -1,0 +1,6 @@
+Name      : Captain Dynamo
+Publisher : Codemasters
+Year      : 1992
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+Whdload   : CaptainDynamo.slave

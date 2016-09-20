@@ -1,0 +1,5 @@
+Name      : The Clue! [AGA]
+Publisher : Neo / Kompart
+Year      : 1994
+Players   : 1
+Whdload   : ClueAGA.slave

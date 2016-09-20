@@ -1,0 +1,6 @@
+cd "A-Demos:D/DevilsKey/"
+IF $whdloadargs EQ ""
+  whdload "DevilsKey.slave"
+ELSE
+  whdload "DevilsKey.slave" $whdloadargs
+ENDIF

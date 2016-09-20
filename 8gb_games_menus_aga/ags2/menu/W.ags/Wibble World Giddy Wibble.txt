@@ -1,0 +1,6 @@
+Name      : Wibble World Giddy: Wibble Mania!
+Publisher : (unknown)
+Year      : 1993
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : WibbleWorldGiddy.Slave

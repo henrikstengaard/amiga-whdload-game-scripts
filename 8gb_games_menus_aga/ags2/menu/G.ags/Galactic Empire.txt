@@ -1,0 +1,6 @@
+Name      : Galactic Empire
+Publisher : Coktel Vision
+Year      : 1990
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : GalacticEmpire.Slave

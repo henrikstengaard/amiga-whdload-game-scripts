@@ -1,0 +1,6 @@
+cd "A-Demos:M/MusicDisk281stTrack/"
+IF $whdloadargs EQ ""
+  whdload "MusicDisk281stTrack.Slave"
+ELSE
+  whdload "MusicDisk281stTrack.Slave" $whdloadargs
+ENDIF

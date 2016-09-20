@@ -1,0 +1,5 @@
+Name      : Great Courts
+Publisher : Ubi Soft
+Year      : 1989
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : GreatCourts.slave

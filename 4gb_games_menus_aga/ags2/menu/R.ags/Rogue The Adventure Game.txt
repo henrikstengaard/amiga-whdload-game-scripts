@@ -1,0 +1,6 @@
+Name      : Rogue: The Adventure Game
+Publisher : Epyx
+Year      : 1986
+Genre     : RPG
+Players   : 1
+Whdload   : Rogue.Slave

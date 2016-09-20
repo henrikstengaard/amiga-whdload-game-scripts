@@ -1,0 +1,6 @@
+cd "A-Demos:M/Muzzax5/"
+IF $whdloadargs EQ ""
+  whdload "Muzzax5.Slave"
+ELSE
+  whdload "Muzzax5.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:Y/YogisBigCleanUp/"
+IF $whdloadargs EQ ""
+  whdload "YogisBigCleanUp.Slave"
+ELSE
+  whdload "YogisBigCleanUp.Slave" $whdloadargs
+ENDIF

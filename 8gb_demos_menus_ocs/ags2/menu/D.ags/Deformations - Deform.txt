@@ -1,0 +1,6 @@
+Name    : Deformations
+Groups  : Deform
+Type    : Demo
+Party   : Warszawa 1992
+Rank    : 1st
+Whdload : Deformations.slave

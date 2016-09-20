@@ -1,0 +1,6 @@
+Name      : Carrier Command
+Publisher : Rainbird
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : CarrierCommand.Slave

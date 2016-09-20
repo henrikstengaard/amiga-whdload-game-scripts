@@ -1,0 +1,5 @@
+Name      : Conquests of the Longbow
+Publisher : Sierra
+Year      : 1992
+Players   : 1
+Whdload   : ConquestsOfTheLongbow.slave

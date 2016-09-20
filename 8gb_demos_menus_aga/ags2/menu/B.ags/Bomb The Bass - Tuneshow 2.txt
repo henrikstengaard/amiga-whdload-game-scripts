@@ -1,0 +1,4 @@
+Name    : Bomb The Bass - Tuneshow 2
+Groups  : The Top Boys
+Type    : Musicdisk
+Whdload : BombTheBaseTuneshow2.Slave

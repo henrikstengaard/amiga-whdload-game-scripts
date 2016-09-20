@@ -1,0 +1,5 @@
+Name      : Chambers of Shaolin
+Publisher : Unique
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+Whdload   : ChambersOfShaolin.slave

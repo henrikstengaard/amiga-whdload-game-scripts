@@ -1,0 +1,6 @@
+cd "A-Games:X/XTremeRacing&DataDisksAGA/"
+IF $whdloadargs EQ ""
+  whdload "XTremeRacing&DataDisksAGA.slave"
+ELSE
+  whdload "XTremeRacing&DataDisksAGA.slave" $whdloadargs
+ENDIF

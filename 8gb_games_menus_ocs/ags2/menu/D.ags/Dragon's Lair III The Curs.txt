@@ -1,0 +1,6 @@
+Name      : Dragon's Lair III: The Curse of Mordread
+Publisher : ReadySoft
+Year      : 1992
+Genre     : Adventure - Joystick only
+Players   : 1 Only
+Whdload   : DragonsLair3.Slave

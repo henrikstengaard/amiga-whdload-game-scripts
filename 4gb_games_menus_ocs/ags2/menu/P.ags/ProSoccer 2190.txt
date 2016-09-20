@@ -1,0 +1,6 @@
+Name      : ProSoccer 2190
+Publisher : Vulture Publishing
+Year      : 1990
+Genre     : Sports - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : ProSoccer2190.Slave

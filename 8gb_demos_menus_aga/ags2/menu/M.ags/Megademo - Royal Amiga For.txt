@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : Royal Amiga Force
+Type    : Demo
+Party   : Tristar Party 1989
+Rank    : 2nd
+Whdload : MegaDemoRoyalAmigaForce.slave

@@ -1,0 +1,6 @@
+cd "A-Games:P/PinballFntsiesCD32/"
+IF $whdloadargs EQ ""
+  whdload "PinballFntsiesCD32.slave"
+ELSE
+  whdload "PinballFntsiesCD32.slave" $whdloadargs
+ENDIF

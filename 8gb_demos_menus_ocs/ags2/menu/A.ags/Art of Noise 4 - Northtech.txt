@@ -1,0 +1,4 @@
+Name    : Art of Noise 4
+Groups  : Northtech
+Type    : Musicdisk
+Whdload : ArtOfNoise4.Slave

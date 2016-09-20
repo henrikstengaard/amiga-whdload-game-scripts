@@ -1,0 +1,6 @@
+cd "A-Games1:D/DGenerationAGA/"
+IF $whdloadargs EQ ""
+  whdload "DGenerationAGA.slave"
+ELSE
+  whdload "DGenerationAGA.slave" $whdloadargs
+ENDIF

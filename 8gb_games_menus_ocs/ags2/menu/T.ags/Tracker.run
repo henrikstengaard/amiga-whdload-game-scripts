@@ -1,0 +1,6 @@
+cd "A-Games:T/Tracker/"
+IF $whdloadargs EQ ""
+  whdload "Tracker.Slave"
+ELSE
+  whdload "Tracker.Slave" $whdloadargs
+ENDIF

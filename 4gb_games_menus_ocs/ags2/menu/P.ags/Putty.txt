@@ -1,0 +1,6 @@
+Name      : Putty
+Publisher : System 3
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Putty.slave

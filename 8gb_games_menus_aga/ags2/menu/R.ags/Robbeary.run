@@ -1,0 +1,6 @@
+cd "A-Games:R/Robbeary/"
+IF $whdloadargs EQ ""
+  whdload "Robbeary.Slave"
+ELSE
+  whdload "Robbeary.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games1:M/Millennium22/"
+IF $whdloadargs EQ ""
+  whdload "Millennium22.Slave"
+ELSE
+  whdload "Millennium22.Slave" $whdloadargs
+ENDIF

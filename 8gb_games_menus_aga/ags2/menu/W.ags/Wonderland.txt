@@ -1,0 +1,6 @@
+Name      : Wonderland
+Publisher : Virgin Mastertronic
+Year      : 1991
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : Wonderland.Slave

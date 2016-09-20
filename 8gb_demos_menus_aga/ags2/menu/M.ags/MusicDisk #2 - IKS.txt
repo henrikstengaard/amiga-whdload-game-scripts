@@ -1,0 +1,4 @@
+Name    : MusicDisk #2
+Groups  : IKS
+Type    : Musicdisk
+Whdload : MusicDisk2IKS.Slave

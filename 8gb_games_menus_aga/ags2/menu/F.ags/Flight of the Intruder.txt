@@ -1,0 +1,6 @@
+Name      : Flight of the Intruder
+Publisher : Mirrorsoft
+Year      : 1991
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : FlightOfTheIntruder.Slave

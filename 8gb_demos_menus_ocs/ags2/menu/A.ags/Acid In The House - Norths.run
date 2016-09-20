@@ -1,0 +1,6 @@
+cd "A-Demos:A/AcidInTheHouse/"
+IF $whdloadargs EQ ""
+  whdload "AcidInTheHouse.Slave"
+ELSE
+  whdload "AcidInTheHouse.Slave" $whdloadargs
+ENDIF

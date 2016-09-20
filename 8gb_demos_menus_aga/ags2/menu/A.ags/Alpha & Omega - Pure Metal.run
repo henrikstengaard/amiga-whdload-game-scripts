@@ -1,0 +1,6 @@
+cd "A-Demos:A/Alpha&Omega/"
+IF $whdloadargs EQ ""
+  whdload "Alpha&Omega.Slave"
+ELSE
+  whdload "Alpha&Omega.Slave" $whdloadargs
+ENDIF

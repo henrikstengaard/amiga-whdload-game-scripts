@@ -1,0 +1,6 @@
+cd "A-Games2:T/TetraQuest/"
+IF $whdloadargs EQ ""
+  whdload "TetraQuest.slave"
+ELSE
+  whdload "TetraQuest.slave" $whdloadargs
+ENDIF

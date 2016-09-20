@@ -1,0 +1,5 @@
+Name      : Bombuzal
+Publisher : Image Works
+Year      : 1988
+Genre     : Arcade - Logical Game
+Whdload   : Bombuzal.slave

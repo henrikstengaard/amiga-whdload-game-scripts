@@ -1,0 +1,6 @@
+cd "A-Games:D/DimosQuest/"
+IF $whdloadargs EQ ""
+  whdload "DimosQuest.Slave"
+ELSE
+  whdload "DimosQuest.Slave" $whdloadargs
+ENDIF

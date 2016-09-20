@@ -1,0 +1,6 @@
+cd "A-Games1:D/DeluxePacmanAGA/"
+IF $whdloadargs EQ ""
+  whdload "DeluxePacmanAGA.Slave"
+ELSE
+  whdload "DeluxePacmanAGA.Slave" $whdloadargs
+ENDIF

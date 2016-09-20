@@ -1,0 +1,6 @@
+cd "A-Games:S/SpotArcadia/"
+IF $whdloadargs EQ ""
+  whdload "SpotArcadia.Slave"
+ELSE
+  whdload "SpotArcadia.Slave" $whdloadargs
+ENDIF

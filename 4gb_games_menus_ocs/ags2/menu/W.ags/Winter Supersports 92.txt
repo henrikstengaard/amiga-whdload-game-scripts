@@ -1,0 +1,6 @@
+Name      : Winter Supersports 92
+Publisher : Flair Software
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 to 6
+Whdload   : WinterSupersports92.Slave

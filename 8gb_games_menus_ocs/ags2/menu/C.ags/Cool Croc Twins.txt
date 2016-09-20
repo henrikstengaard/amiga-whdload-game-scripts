@@ -1,0 +1,6 @@
+Name      : Cool Croc Twins
+Publisher : Empire Software
+Year      : 1991
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : CoolCrocTwins.Slave

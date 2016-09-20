@@ -1,0 +1,5 @@
+Name      : Insanity Fight
+Publisher : Microdeal
+Year      : 1987
+Players   : 1 Only
+Whdload   : InsanityFight.Slave

@@ -1,0 +1,5 @@
+Name      : Golden Eagle
+Publisher : Loriciel
+Year      : 1991
+Players   : 1
+Whdload   : GoldenEagle.slave

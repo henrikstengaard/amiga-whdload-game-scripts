@@ -1,0 +1,6 @@
+cd "A-Demos:M/MagnumIcetro/"
+IF $whdloadargs EQ ""
+  whdload "MagnumIcetro.Slave"
+ELSE
+  whdload "MagnumIcetro.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Demos:S/Snap/"
+IF $whdloadargs EQ ""
+  whdload "Snap.slave"
+ELSE
+  whdload "Snap.slave" $whdloadargs
+ENDIF

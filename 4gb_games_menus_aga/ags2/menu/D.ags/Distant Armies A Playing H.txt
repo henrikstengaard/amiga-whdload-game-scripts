@@ -1,0 +1,6 @@
+Name      : Distant Armies: A Playing History of Chess
+Publisher : Exocet Software
+Year      : 1988
+Genre     : Board - Chess
+Players   : 1 or 2
+Whdload   : DistantArmies.Slave

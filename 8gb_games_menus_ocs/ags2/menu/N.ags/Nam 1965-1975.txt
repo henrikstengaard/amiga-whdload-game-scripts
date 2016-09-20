@@ -1,0 +1,6 @@
+Name      : Nam 1965-1975
+Publisher : Domark
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Nam19651975.slave

@@ -1,0 +1,6 @@
+cd "A-Games1:K/KingsQuest5/"
+IF $whdloadargs EQ ""
+  whdload "KingsQuest5.slave"
+ELSE
+  whdload "KingsQuest5.slave" $whdloadargs
+ENDIF

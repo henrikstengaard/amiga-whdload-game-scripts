@@ -1,0 +1,6 @@
+Name      : Floor 13
+Publisher : Virgin Games
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Floor13.Slave

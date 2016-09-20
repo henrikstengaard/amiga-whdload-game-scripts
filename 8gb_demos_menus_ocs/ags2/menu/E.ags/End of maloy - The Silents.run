@@ -1,0 +1,6 @@
+cd "A-Demos:E/EndOfMaloy/"
+IF $whdloadargs EQ ""
+  whdload "EndOfMaloy.Slave"
+ELSE
+  whdload "EndOfMaloy.Slave" $whdloadargs
+ENDIF

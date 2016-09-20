@@ -1,0 +1,6 @@
+cd "A-Demos:V/Viktoria/"
+IF $whdloadargs EQ ""
+  whdload "Viktoria.Slave"
+ELSE
+  whdload "Viktoria.Slave" $whdloadargs
+ENDIF

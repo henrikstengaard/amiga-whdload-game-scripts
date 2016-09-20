@@ -1,0 +1,6 @@
+Name      : Mortville Manor
+Publisher : Lankhor
+Year      : 1988
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : MortvilleManor.Slave

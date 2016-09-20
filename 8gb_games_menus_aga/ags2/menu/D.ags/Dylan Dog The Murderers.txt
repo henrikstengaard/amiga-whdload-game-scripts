@@ -1,0 +1,6 @@
+Name      : Dylan Dog: The Murderers
+Publisher : Simulmondo
+Year      : 1992
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : DylanDogTheMurderers.slave

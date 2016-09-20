@@ -1,0 +1,6 @@
+cd "A-Games1:J/JuniorTypist/"
+IF $whdloadargs EQ ""
+  whdload "JuniorTypist.Slave"
+ELSE
+  whdload "JuniorTypist.Slave" $whdloadargs
+ENDIF

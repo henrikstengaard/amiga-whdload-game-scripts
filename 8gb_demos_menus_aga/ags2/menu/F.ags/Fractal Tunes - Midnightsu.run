@@ -1,0 +1,6 @@
+cd "A-Demos:F/FractalTunes/"
+IF $whdloadargs EQ ""
+  whdload "FractalTunes.Slave"
+ELSE
+  whdload "FractalTunes.Slave" $whdloadargs
+ENDIF

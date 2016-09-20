@@ -1,0 +1,6 @@
+Name      : F29 Retaliator
+Publisher : Ocean
+Year      : 1989
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : F29Retaliator.Slave

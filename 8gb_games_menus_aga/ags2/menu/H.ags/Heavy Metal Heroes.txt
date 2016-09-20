@@ -1,0 +1,5 @@
+Name      : Heavy Metal Heroes
+Publisher : Players (Interceptor Group)
+Year      : 1991
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : HeavyMetalHeroes.Slave

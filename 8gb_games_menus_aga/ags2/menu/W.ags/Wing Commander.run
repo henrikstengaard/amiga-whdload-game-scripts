@@ -1,0 +1,6 @@
+cd "A-Games:W/WingCommanderCD32/"
+IF $whdloadargs EQ ""
+  whdload "WingCommanderCD32.Slave"
+ELSE
+  whdload "WingCommanderCD32.Slave" $whdloadargs
+ENDIF

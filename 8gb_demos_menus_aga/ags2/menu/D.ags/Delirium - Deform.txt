@@ -1,0 +1,6 @@
+Name    : Delirium
+Groups  : Deform
+Type    : Demo
+Party   : Warszawa 2 1992
+Rank    : 5th
+Whdload : DeliriumDeform.Slave

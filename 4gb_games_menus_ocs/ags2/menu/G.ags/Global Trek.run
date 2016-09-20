@@ -1,0 +1,6 @@
+cd "A-Games1:G/GlobalTrek/"
+IF $whdloadargs EQ ""
+  whdload "GlobalTrek.Slave"
+ELSE
+  whdload "GlobalTrek.Slave" $whdloadargs
+ENDIF

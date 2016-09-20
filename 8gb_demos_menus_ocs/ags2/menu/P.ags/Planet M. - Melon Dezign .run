@@ -1,0 +1,6 @@
+cd "A-Demos:P/PlanetMAGA/"
+IF $whdloadargs EQ ""
+  whdload "PlanetMAGA.Slave"
+ELSE
+  whdload "PlanetMAGA.Slave" $whdloadargs
+ENDIF

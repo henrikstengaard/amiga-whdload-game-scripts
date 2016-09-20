@@ -1,0 +1,6 @@
+cd "A-Games:E/Eco/"
+IF $whdloadargs EQ ""
+  whdload "Eco.Slave"
+ELSE
+  whdload "Eco.Slave" $whdloadargs
+ENDIF

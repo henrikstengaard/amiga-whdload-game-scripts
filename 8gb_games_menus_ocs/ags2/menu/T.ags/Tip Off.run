@@ -1,0 +1,6 @@
+cd "A-Games:T/TipOff/"
+IF $whdloadargs EQ ""
+  whdload "TipOff.Slave"
+ELSE
+  whdload "TipOff.Slave" $whdloadargs
+ENDIF

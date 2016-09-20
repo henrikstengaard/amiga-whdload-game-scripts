@@ -1,0 +1,6 @@
+cd "A-Games:M/MrDoRunRunImage/"
+IF $whdloadargs EQ ""
+  whdload "MrDoRunRunImage.Slave"
+ELSE
+  whdload "MrDoRunRunImage.Slave" $whdloadargs
+ENDIF

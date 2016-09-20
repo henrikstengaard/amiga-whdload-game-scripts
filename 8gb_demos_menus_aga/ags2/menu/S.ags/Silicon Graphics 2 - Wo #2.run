@@ -1,0 +1,6 @@
+cd "A-Demos:S/SiliconGraphics2AGA/"
+IF $whdloadargs EQ ""
+  whdload "SiliconGraphics2AGA.Slave"
+ELSE
+  whdload "SiliconGraphics2AGA.Slave" $whdloadargs
+ENDIF

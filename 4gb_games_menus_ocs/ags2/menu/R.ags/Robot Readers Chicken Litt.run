@@ -1,0 +1,6 @@
+cd "A-Games2:R/RobotReaderChickenLittle/"
+IF $whdloadargs EQ ""
+  whdload "RobotReaderChickenLittle.Slave"
+ELSE
+  whdload "RobotReaderChickenLittle.Slave" $whdloadargs
+ENDIF

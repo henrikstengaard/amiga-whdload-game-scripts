@@ -1,0 +1,6 @@
+cd "A-Demos:T/Terminator/"
+IF $whdloadargs EQ ""
+  whdload "Terminator.Slave"
+ELSE
+  whdload "Terminator.Slave" $whdloadargs
+ENDIF

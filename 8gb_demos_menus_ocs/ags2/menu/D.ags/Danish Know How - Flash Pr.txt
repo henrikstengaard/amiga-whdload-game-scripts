@@ -1,0 +1,5 @@
+Name    : Danish Know How
+Groups  : Flash Production
+Type    : Demo
+Party   : Kefrens and Dexion Party
+Whdload : DanishKnowHow.Slave

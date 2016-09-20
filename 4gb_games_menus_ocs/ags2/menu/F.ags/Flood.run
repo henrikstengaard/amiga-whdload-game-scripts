@@ -1,0 +1,6 @@
+cd "A-Games1:F/Flood/"
+IF $whdloadargs EQ ""
+  whdload "Flood.Slave"
+ELSE
+  whdload "Flood.Slave" $whdloadargs
+ENDIF

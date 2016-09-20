@@ -1,0 +1,6 @@
+Name      : Hacker
+Publisher : Activision
+Year      : 1985
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Hacker.Slave

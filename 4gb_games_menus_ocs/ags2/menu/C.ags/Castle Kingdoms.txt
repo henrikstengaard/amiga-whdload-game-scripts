@@ -1,0 +1,6 @@
+Name      : Castle Kingdoms
+Publisher : Mutation Software
+Year      : 1997
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+Whdload   : CastleKingdoms.Slave

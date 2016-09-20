@@ -1,0 +1,6 @@
+cd "A-Demos:T/TympanicMembrane/"
+IF $whdloadargs EQ ""
+  whdload "TympanicMembrane.Slave"
+ELSE
+  whdload "TympanicMembrane.Slave" $whdloadargs
+ENDIF

@@ -1,0 +1,6 @@
+cd "A-Games:R/RealGhostbusters/"
+IF $whdloadargs EQ ""
+  whdload "RealGhostbusters.Slave"
+ELSE
+  whdload "RealGhostbusters.Slave" $whdloadargs
+ENDIF

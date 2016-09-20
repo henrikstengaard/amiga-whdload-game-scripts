@@ -1,0 +1,6 @@
+Name      : Gary Lineker's Hot Shot
+Publisher : Gremlin Graphics
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : GaryLinekersHotShot.Slave

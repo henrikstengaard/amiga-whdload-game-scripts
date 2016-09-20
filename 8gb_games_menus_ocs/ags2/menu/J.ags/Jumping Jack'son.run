@@ -1,0 +1,6 @@
+cd "A-Games:J/JumpingJackSon/"
+IF $whdloadargs EQ ""
+  whdload "JumpingJackSon.slave"
+ELSE
+  whdload "JumpingJackSon.slave" $whdloadargs
+ENDIF

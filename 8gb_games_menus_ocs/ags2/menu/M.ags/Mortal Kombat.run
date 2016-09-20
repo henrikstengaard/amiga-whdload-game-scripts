@@ -1,0 +1,6 @@
+cd "A-Games:M/MortalKombat/"
+IF $whdloadargs EQ ""
+  whdload "MortalKombat.Slave"
+ELSE
+  whdload "MortalKombat.Slave" $whdloadargs
+ENDIF
