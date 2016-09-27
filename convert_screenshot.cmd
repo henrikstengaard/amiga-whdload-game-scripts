@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "screenshots\GameBase Amiga v2.0 Screenshots\B\Banshee_(AGA)_2.png" -outputPath "ags2_iff\test"
