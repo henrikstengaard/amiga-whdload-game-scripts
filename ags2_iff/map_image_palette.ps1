@@ -2,15 +2,10 @@
 # -------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-09-24
+# Date:   2016-09-27
 #
 # A powershell script to build a palette image with a pixel to represent each color in the images palette.
 
-# PS C:\Work\First Realize\amiga-whdload-game-scripts\ags2_iff> .\build_palette_image.ps1 -imagePath .\AMS.png -paletteImagePath .\AMS_palette.png
-# test: c:\Work\First Realize\amiga-whdload-game-scripts>"c:\Program Files\ImageMagick-6.9.3-Q8\convert.exe" AGA-Background.png +dither -remap palette.png test.png
-#PS C:\Work\First Realize\amiga-whdload-game-scripts> .\convert_screenshot.ps1 -screenshotFile 'c:\Work\First Realize\ami
-#ga-whdload-game-scripts\screenshots\GameBase Amiga v2.0 Screenshots\B\Banshee_(AGA)_2.png' -outputPath 'c:\Work\First Re
-#alize\amiga-whdload-game-scripts\ags2_iff\test'
 Param(
 	[Parameter(Mandatory=$true)]
 	[string]$imagePath,
