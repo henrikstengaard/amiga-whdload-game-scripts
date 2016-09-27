@@ -274,8 +274,6 @@ if (!$noAmsScreenshot)
 		$imageMagickConvertAmsScreenshotFile = $imageMagickConvertAmsFirstScreenshotFile
 	}
 
-Copy $imageMagickConvertAmsScreenshotFile $outputPath -force
-
 	# use map image palette to map palette screenshot palette to AMS palette
 	$amsMappedScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams-mapped.png")
 	$mapImagePaletteAmsScreenshotArgs = "-ExecutionPolicy Bypass -file ""$mapImagePalettePath"" -imagePath ""$imageMagickConvertAmsScreenshotFile"" ""$amsPaletteImagePath"" -outputImagePath ""$amsMappedScreenshotFile"""
@@ -286,8 +284,6 @@ Copy $imageMagickConvertAmsScreenshotFile $outputPath -force
 		exit 1
 	}
 
-
-Copy $amsMappedScreenshotFile $outputPath -force
 
 	# use nconvert to make AMS screenshot file
 	$nconvertAmsScreenshotArgs = "-out iff -c 1 -o ""$amsScreenshotFile"" ""$amsMappedScreenshotFile"""
