@@ -257,7 +257,7 @@ if (!$noAmsScreenshot)
 {
 	# use ImageMagick to make AMS screenshot: Resize to 320 x 128 pixels, set bit depth to 8 (255 colors) and limit colors to 200, dither and remap AMS palette
 	$imageMagickConvertAmsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams.png")
-	$imageMagickConvertAmsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 +dither -map ""$amsPaletteImagePath"" ""$imageMagickConvertAmsScreenshotFile"""
+	$imageMagickConvertAmsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 +dither -map ""$amsPaletteImagePath"" PNG8:""$imageMagickConvertAmsScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAmsArgs) -ne 0)
@@ -274,6 +274,7 @@ if (!$noAmsScreenshot)
 		$imageMagickConvertAmsScreenshotFile = $imageMagickConvertAmsFirstScreenshotFile
 	}
 
+Copy $imageMagickConvertAmsScreenshotFile $outputPath -force
 
 	# use map image palette to map palette screenshot palette to AMS palette
 	$amsMappedScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams-mapped.png")
@@ -285,6 +286,8 @@ if (!$noAmsScreenshot)
 		exit 1
 	}
 
+
+Copy $amsMappedScreenshotFile $outputPath -force
 
 	# use nconvert to make AMS screenshot file
 	$nconvertAmsScreenshotArgs = "-out iff -c 1 -o ""$amsScreenshotFile"" ""$amsMappedScreenshotFile"""

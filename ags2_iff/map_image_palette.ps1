@@ -70,7 +70,12 @@ for ($i = 0; $i -lt $image.Palette.Entries.Count; $i++)
 # exit, if image palette has unmapped colors
 if ($unmappedPaletteColorsCount -gt 0)
 {
-    Write-Warning ("Image '$imagePath' has $unmappedPaletteColorsCount unmapped palette colors!")
+    # dispose images
+    $image.Dispose()
+    $paletteImage.Dispose()
+
+    Write-Error ("Image '$imagePath' with pixel format '" + $image.PixelFormat + "' has $unmappedPaletteColorsCount unmapped palette colors!")
+    exit 1
 }
 
 
@@ -108,7 +113,12 @@ for ($i = 0; $i -lt $imageBytes.Count; $i++)
 # exit, if image unmapped pixels
 if ($unmappedImagePixels -gt 0)
 {
-    Write-Warning ("Image '$imagePath' has $unmappedImagePixels unmapped pixels!")
+    # dispose images
+    $image.Dispose()
+    $paletteImage.Dispose()
+
+    Write-Warning ("Image '$imagePath' with pixel format '" + $image.PixelFormat + "' has $unmappedImagePixels unmapped pixels!")
+    exit 1
 }
 
 
