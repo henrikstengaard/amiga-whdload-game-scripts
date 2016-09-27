@@ -2,7 +2,7 @@
 # ------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-08-20
+# Date:   2016-09-27
 #
 # A PowerShell script to convert a screenshot for iGame and AGS2 in AGA and OCS mode.
 #
@@ -35,7 +35,9 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[switch]$noAgaScreenshot,
 	[Parameter(Mandatory=$false)]
-	[switch]$noOcsScreenshot
+	[switch]$noOcsScreenshot,
+	[Parameter(Mandatory=$false)]
+	[switch]$noAmsScreenshot
 )
 
 
@@ -45,7 +47,8 @@ $imageMagickConvertPath = "$env:ProgramFiles\ImageMagick-6.9.3-Q8\convert.exe"
 $imageToIffPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\ImageToIff.ps1")
 $imgToIffAgaPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-aga.py")
 $imgToIffOcsPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-ocs.py")
-
+$amsPaletteImagePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\AMS_palette.png")
+$mapImagePalettePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\map_image_palette.ps1")
 
 # start process
 function StartProcess($fileName, $arguments)
@@ -109,7 +112,7 @@ $tempScreenshotArgs = "-out png -o ""$tempScreenshotFile"" ""$screenshotFile"""
 # exit, if nconvert fails
 if ((StartProcess $nconvertPath $tempScreenshotArgs) -ne 0)
 {
-	Write-Error "Failed to run nconvert for '$screenshotFile' with arguments '$tempScreenshotArgs'"
+	Write-Error "Failed to run '$nconvertPath' for '$screenshotFile' with arguments '$tempScreenshotArgs'"
 	remove-item $tempPath -recurse
 	exit 1
 }
@@ -127,7 +130,7 @@ if (!$noiGameScreenshot)
 	# exit, if ImageMagick fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertiGameArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
+		Write-Error "Failed to run '$imageMagickConvertPath' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -144,7 +147,7 @@ if (!$noiGameScreenshot)
 	$nconvertiGameScreenshotArgs = "-out iff -c 1 -o ""$iGameScreenshotFile"" ""$imageMagickConvertiGameScreenshotFile"""
 	if ((StartProcess $nconvertPath $nconvertiGameScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run nconvert for '$imageMagickConvertiGameScreenshotFile' with arguments '$nconvertiGameScreenshotArgs'"
+		Write-Error "Failed to run '$nconvertPath' for '$imageMagickConvertiGameScreenshotFile' with arguments '$nconvertiGameScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -163,7 +166,7 @@ if (!$noAgaScreenshot)
 	# exit, if ImageMagick convert fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2AgaArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
+		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -181,7 +184,7 @@ if (!$noAgaScreenshot)
 
 	if ((StartProcess "python" $imgToIffAgs2AgaScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run imgtoiff-aga for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imgToIffAgs2AgaScreenshotArgs'"
+		Write-Error "Failed to run 'python' for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imgToIffAgs2AgaScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -211,7 +214,7 @@ if (!$noOcsScreenshot)
 	# exit, if ImageMagick convert fails
 	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2OcsArgs) -ne 0)
 	{
-		Write-Error "Failed to run ImageMagick convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
+		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -229,7 +232,7 @@ if (!$noOcsScreenshot)
 
 	if ((StartProcess "python" $imgToIffAgs2OcsScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run imgtoiff-ocs for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imgToIffAgs2OcsScreenshotArgs'"
+		Write-Error "Failed to run 'python' for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imgToIffAgs2OcsScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -247,6 +250,53 @@ if (!$noOcsScreenshot)
 }
 
 
+# make ams screenshot
+$amsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams.iff")
+
+if (!$noAmsScreenshot)
+{
+	# use ImageMagick to make AMS screenshot: Resize to 320 x 128 pixels, set bit depth to 8 (255 colors) and limit colors to 200, dither and remap AMS palette
+	$imageMagickConvertAmsScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams.png")
+	$imageMagickConvertAmsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 +dither -map ""$amsPaletteImagePath"" ""$imageMagickConvertAmsScreenshotFile"""
+
+	# exit, if ImageMagick convert fails
+	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAmsArgs) -ne 0)
+	{
+		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAmsArgs'"
+		remove-item $tempPath -recurse
+		exit 1
+	}
+
+	# use first screenshot, image magick converted an animated gif
+	$imageMagickConvertAmsFirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams-0.png")
+	if (test-path -path $imageMagickConvertiGameFirstScreenshotFile)
+	{
+		$imageMagickConvertAmsScreenshotFile = $imageMagickConvertAmsFirstScreenshotFile
+	}
+
+
+	# use map image palette to map palette screenshot palette to AMS palette
+	$amsMappedScreenshotFile = [System.IO.Path]::Combine($tempPath, "ams-mapped.png")
+	$mapImagePaletteAmsScreenshotArgs = "-ExecutionPolicy Bypass -file ""$mapImagePalettePath"" -imagePath ""$imageMagickConvertAmsScreenshotFile"" ""$amsPaletteImagePath"" -outputImagePath ""$amsMappedScreenshotFile"""
+	if ((StartProcess "powershell.exe" $mapImagePaletteAmsScreenshotArgs) -ne 0)
+	{
+		Write-Error "Failed to run 'powershell.exe' for '$imageMagickConvertAmsScreenshotFile' with arguments '$mapImagePaletteAmsScreenshotArgs'"
+		remove-item $tempPath -recurse
+		exit 1
+	}
+
+
+	# use nconvert to make AMS screenshot file
+	$nconvertAmsScreenshotArgs = "-out iff -c 1 -o ""$amsScreenshotFile"" ""$amsMappedScreenshotFile"""
+	if ((StartProcess $nconvertPath $nconvertAmsScreenshotArgs) -ne 0)
+	{
+		Write-Error "Failed to run '$nconvertPath' for '$imageMagickConvertAmsScreenshotFile' with arguments '$nconvertAmsScreenshotArgs'"
+		remove-item $tempPath -recurse
+		exit 1
+	}
+}
+
+
 # create output path
 if(!(test-path -path $outputPath))
 {
@@ -259,6 +309,7 @@ $outputScreenshotFile = [System.IO.Path]::Combine($outputPath, "screenshot.png")
 $outputiGameScreenshotFile = [System.IO.Path]::Combine($outputPath, "igame.iff")
 $outputAgs2AgaScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2aga.iff")
 $outputAgs2OcsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2ocs.iff")
+$outputAmsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ams.iff")
 
 
 # copy screenshots files to output 
@@ -277,6 +328,11 @@ if (test-path -path $ags2AgaScreenshotFile)
 if (test-path -path $ags2OcsScreenshotFile)
 {
 	Copy-Item $ags2OcsScreenshotFile $outputAgs2OcsScreenshotFile -force
+}
+
+if (test-path -path $amsScreenshotFile)
+{
+	Copy-Item $amsScreenshotFile $outputAmsScreenshotFile -force
 }
 
 
