@@ -1,0 +1,5 @@
+Name      : Total Pattern
+Developer : Digital Team
+Year      : 2016
+Genre     : Brain - Puzzle
+Players   : 1

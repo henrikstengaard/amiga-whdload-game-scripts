@@ -1,0 +1,6 @@
+Name      : Tanks Furry
+Publisher : Amiga.net.pl
+Developer : Project R3D
+Year      : 2016
+Genre     : Shoot'em Up - Miscellaneous
+Players   : 1 to 4, Simultaneous
