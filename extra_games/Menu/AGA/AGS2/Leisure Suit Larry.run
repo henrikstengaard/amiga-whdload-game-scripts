@@ -5,7 +5,7 @@ ENDIF
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "A" "Alter Ego"
+	execute S:Favourites "ags2" "L" "Leisure Suit Larry"
 	IF $favouritesmode EQ "add"
 		SKIP end
 	ENDIF
@@ -14,9 +14,13 @@ IF EXISTS ENV:favouritesmode
 	ENDIF
 ENDIF
 
-; Start
-cd "HD-Games:AlterEgo/"
-alterego
+; Whdload
+cd "A-Games1:L/LeisureSuitLarry/"
+IF EXISTS ENV:whdloadargs
+	whdload "LeisureSuitLarry.slave" $whdloadargs
+ELSE
+	whdload "LeisureSuitLarry.slave"
+ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
 IF EXISTS S:AGS2RunPost
@@ -25,3 +29,4 @@ ENDIF
 
 ; End
 LAB end
+
