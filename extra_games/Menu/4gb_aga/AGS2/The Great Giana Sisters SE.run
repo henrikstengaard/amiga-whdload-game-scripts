@@ -15,7 +15,7 @@ IF EXISTS ENV:favouritesmode
 ENDIF
 
 ; Whdload
-cd "HD-Games:GianaSistersSE/"
+cd "A-Games1:G/GianaSistersSE/"
 IF $whdloadargs EQ ""
   whdload "GreatGianaSisters.slave"
 ELSE
