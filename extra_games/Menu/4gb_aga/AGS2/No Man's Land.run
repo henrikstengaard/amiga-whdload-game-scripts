@@ -15,7 +15,7 @@ IF EXISTS ENV:favouritesmode
 ENDIF
 
 ; Whdload
-cd "A-Games1:N/NoMansLand/"
+cd "HD-Games:NoMansLand/"
 IF EXISTS ENV:whdloadargs
 	whdload "NoMansLand.slave" $whdloadargs
 ELSE
