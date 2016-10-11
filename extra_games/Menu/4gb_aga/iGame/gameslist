@@ -26,6 +26,24 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Leisure Suit Larry
+genre=Unknown
+path=A-Games1:L/LeisureSuitLarry/LeisureSuitLarry.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=No Man's Land
+genre=Unknown
+path=A-Games2:N/NoMansLand/NoMansLand.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Sim City 2000
 genre=Unknown
 path=HD-Games:SimCity2000/SimCity2000
@@ -55,7 +73,7 @@ hidden=0
 index=0
 title=The Great Giana Sisters Special Edition
 genre=Unknown
-path=HD-Games:GianaSistersSE/GreatGianaSisters.slave
+path=A-Games1:G/GianaSistersSE/GreatGianaSisters.slave
 favorite=0
 timesplayed=0
 lastplayed=0
