@@ -1,0 +1,6 @@
+Name      : No Man's Land
+Developer : Oxygen
+Year      : 1991
+Genre     : Shooter
+Players   : 2, Simultaneous
+Whdload   : NoMansLand.slave

@@ -1,0 +1,6 @@
+Name      : The Great Giana Sisters Special Edition
+Publisher : Reimagine Games
+Year      : 2016
+Genre     : Platformer - Scrolling Screen
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : GreatGianaSisters.slave

@@ -1,0 +1,164 @@
+; Alter Ego
+IF NOT EXISTS "HD-Games:AlterEgo/"
+  ECHO "ERROR: Path 'HD-Games:AlterEgo/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:AlterEgo/alterego"
+  ECHO "ERROR: Path 'HD-Games:AlterEgo/alterego' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:AlterEgo/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:AlterEgo/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/A.ags/Alter Ego.run"
+  ECHO "ERROR: Path '$ags2gamespath/A.ags/Alter Ego.run' doesn't exist!"
+ENDIF
+
+; Blocky Skies
+IF NOT EXISTS "HD-Games:BlockySkies/"
+  ECHO "ERROR: Path 'HD-Games:BlockySkies/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:BlockySkies/BlockySkies"
+  ECHO "ERROR: Path 'HD-Games:BlockySkies/BlockySkies' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:BlockySkies/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:BlockySkies/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/B.ags/Blocky Skies.run"
+  ECHO "ERROR: Path '$ags2gamespath/B.ags/Blocky Skies.run' doesn't exist!"
+ENDIF
+
+; Center Court 2
+IF NOT EXISTS "HD-Games:CC2/"
+  ECHO "ERROR: Path 'HD-Games:CC2/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:CC2/CenterCourt2"
+  ECHO "ERROR: Path 'HD-Games:CC2/CenterCourt2' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:CC2/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:CC2/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/C.ags/Center Court 2.run"
+  ECHO "ERROR: Path '$ags2gamespath/C.ags/Center Court 2.run' doesn't exist!"
+ENDIF
+
+; Leisure Suit Larry
+IF NOT EXISTS "A-Games:L/LeisureSuitLarry/"
+  ECHO "ERROR: Path 'A-Games:L/LeisureSuitLarry/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:L/LeisureSuitLarry/LeisureSuitLarry.slave"
+  ECHO "ERROR: Path 'A-Games:L/LeisureSuitLarry/LeisureSuitLarry.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:L/LeisureSuitLarry/igame.iff"
+  ECHO "ERROR: Path 'A-Games:L/LeisureSuitLarry/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/L.ags/Leisure Suit Larry.run"
+  ECHO "ERROR: Path '$ags2gamespath/L.ags/Leisure Suit Larry.run' doesn't exist!"
+ENDIF
+
+; No Man's Land
+IF NOT EXISTS "A-Games:N/NoMansLand/"
+  ECHO "ERROR: Path 'A-Games:N/NoMansLand/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:N/NoMansLand/NoMansLand.slave"
+  ECHO "ERROR: Path 'A-Games:N/NoMansLand/NoMansLand.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:N/NoMansLand/igame.iff"
+  ECHO "ERROR: Path 'A-Games:N/NoMansLand/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/N.ags/No Man's Land.run"
+  ECHO "ERROR: Path '$ags2gamespath/N.ags/No Man's Land.run' doesn't exist!"
+ENDIF
+
+; Scorched Tanks
+IF NOT EXISTS "HD-Games:ScorchedTanks/"
+  ECHO "ERROR: Path 'HD-Games:ScorchedTanks/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:ScorchedTanks/Scorched_TanksV1.90"
+  ECHO "ERROR: Path 'HD-Games:ScorchedTanks/Scorched_TanksV1.90' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/S.ags/Scorched Tanks.run"
+  ECHO "ERROR: Path '$ags2gamespath/S.ags/Scorched Tanks.run' doesn't exist!"
+ENDIF
+
+; Sim City 2000
+IF NOT EXISTS "HD-Games:SimCity2000/"
+  ECHO "ERROR: Path 'HD-Games:SimCity2000/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:SimCity2000/SimCity2000"
+  ECHO "ERROR: Path 'HD-Games:SimCity2000/SimCity2000' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:SimCity2000/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:SimCity2000/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/S.ags/Sim City 2000.run"
+  ECHO "ERROR: Path '$ags2gamespath/S.ags/Sim City 2000.run' doesn't exist!"
+ENDIF
+
+; Sqrxz 2
+IF NOT EXISTS "HD-Games:Sqrxz2/"
+  ECHO "ERROR: Path 'HD-Games:Sqrxz2/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:Sqrxz2/sqrxz2"
+  ECHO "ERROR: Path 'HD-Games:Sqrxz2/sqrxz2' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:Sqrxz2/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:Sqrxz2/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/S.ags/Sqrxz 2.run"
+  ECHO "ERROR: Path '$ags2gamespath/S.ags/Sqrxz 2.run' doesn't exist!"
+ENDIF
+
+; Tanks Furry
+IF NOT EXISTS "HD-Games:TanksFurry/"
+  ECHO "ERROR: Path 'HD-Games:TanksFurry/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:TanksFurry/tf"
+  ECHO "ERROR: Path 'HD-Games:TanksFurry/tf' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:TanksFurry/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:TanksFurry/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/T.ags/Tanks Furry.run"
+  ECHO "ERROR: Path '$ags2gamespath/T.ags/Tanks Furry.run' doesn't exist!"
+ENDIF
+
+; The Great Giana Sisters SE
+IF NOT EXISTS "A-Games:G/GianaSistersSE/"
+  ECHO "ERROR: Path 'A-Games:G/GianaSistersSE/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:G/GianaSistersSE/GreatGianaSisters.slave"
+  ECHO "ERROR: Path 'A-Games:G/GianaSistersSE/GreatGianaSisters.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:G/GianaSistersSE/igame.iff"
+  ECHO "ERROR: Path 'A-Games:G/GianaSistersSE/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/T.ags/The Great Giana Sisters SE.run"
+  ECHO "ERROR: Path '$ags2gamespath/T.ags/The Great Giana Sisters SE.run' doesn't exist!"
+ENDIF
+
+; Total Pattern
+IF NOT EXISTS "HD-Games:TotalPattern/"
+  ECHO "ERROR: Path 'HD-Games:TotalPattern/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:TotalPattern/TotalPattern"
+  ECHO "ERROR: Path 'HD-Games:TotalPattern/TotalPattern' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:TotalPattern/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:TotalPattern/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/T.ags/Total Pattern.run"
+  ECHO "ERROR: Path '$ags2gamespath/T.ags/Total Pattern.run' doesn't exist!"
+ENDIF
+
+; Monsters Of Terror
+IF NOT EXISTS "HD-Games:Monsters/"
+  ECHO "ERROR: Path 'HD-Games:Monsters/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:Monsters/MonstersOfTerror"
+  ECHO "ERROR: Path 'HD-Games:Monsters/MonstersOfTerror' doesn't exist!"
+ENDIF
+IF NOT EXISTS "HD-Games:Monsters/igame.iff"
+  ECHO "ERROR: Path 'HD-Games:Monsters/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "$ags2gamespath/M.ags/Monsters Of Terror.run"
+  ECHO "ERROR: Path '$ags2gamespath/M.ags/Monsters Of Terror.run' doesn't exist!"
+ENDIF

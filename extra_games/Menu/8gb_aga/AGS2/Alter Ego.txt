@@ -1,0 +1,5 @@
+Name      : Alter Ego
+Developer : Wanted Team
+Year      : 2015
+Genre     : Brain - Miscellaneous
+Players   : 1

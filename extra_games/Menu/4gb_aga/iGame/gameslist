@@ -17,15 +17,6 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Center Court 2
-genre=Unknown
-path=HD-Games:CC2/CenterCourt2
-favorite=0
-timesplayed=0
-lastplayed=0
-hidden=0
-
-index=0
 title=Leisure Suit Larry
 genre=Unknown
 path=A-Games1:L/LeisureSuitLarry/LeisureSuitLarry.slave
@@ -82,7 +73,16 @@ hidden=0
 index=0
 title=Total Pattern
 genre=Unknown
-path=HD-Games:TotalPattern/Total pattern.exe
+path=HD-Games:TotalPattern/TotalPattern
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Monsters Of Terror
+genre=Unknown
+path=HD-Games:Monsters/MonstersOfTerror
 favorite=0
 timesplayed=0
 lastplayed=0
