@@ -2,10 +2,10 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-09-11
+# Date:   2016-10-11
 #
-# A PowerShell script to build AGS2 and iGame menus. 
-# Whdload slave details file is used for building AGS2 menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
+# A PowerShell script to build AGS2, AMS and iGame menus. 
+# Whdload slave details file is used for building AGS2 and AMS menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
 
 
 Param(
@@ -17,10 +17,16 @@ Param(
 	[string]$assignName,
 	[Parameter(Mandatory=$true)]
 	[string]$detailColumns,
-	[Parameter(Mandatory=$true)]
+	[Parameter(Mandatory=$false)]
 	[string]$ags2NameFormat,
-	[Parameter(Mandatory=$true)]
+	[Parameter(Mandatory=$false)]
 	[string]$iGameNameFormat,
+	[Parameter(Mandatory=$false)]
+	[string]$amsNameFormat,
+	[Parameter(Mandatory=$false)]
+	[string]$ags2MenuItemRunTemplateFile,
+	[Parameter(Mandatory=$false)]
+	[string]$amsMenuItemRunTemplateFile,
 	[Parameter(Mandatory=$false)]
 	[string]$whdloadScreenshotsFile,
 	[Parameter(Mandatory=$false)]
@@ -32,16 +38,78 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[switch]$ags2,
 	[Parameter(Mandatory=$false)]
-	[switch]$iGame
+	[switch]$iGame,
+	[Parameter(Mandatory=$false)]
+	[switch]$ams
 )
+
+
+# exit, if ags2 is enabled and ags2 name format is not defined
+if ($ags2 -and !$ags2NameFormat)
+{
+	Write-Error "AGS2 name format is not defined for AGS2 menu"
+	exit 1
+}
+
+
+# exit, if ags2 is enabled and ags2 menu item file template file not defined
+if ($ags2 -and !$ags2MenuItemRunTemplateFile)
+{
+	Write-Error "AGS2 menu item file template file is not defined for AGS2 menu"
+	exit 1
+}
+
+
+# exit, if ams is enabled and ams name format is not defined
+if ($ams -and !$amsNameFormat)
+{
+	Write-Error "AMS name format is not defined for AMS menu"
+	exit 1
+}
+
+
+# exit, if ams is enabled and ams menu item file template file not defined
+if ($ams -and !$amsMenuItemRunTemplateFile)
+{
+	Write-Error "AMS menu item file template file is not defined for AMS menu"
+	exit 1
+}
+
+
+# exit, if iGame is enabled and iGame name format is not defined
+if ($iGame -and !$iGameNameFormat)
+{
+	Write-Error "iGame name format is not defined for iGame menu"
+	exit 1
+}
+
+
+# resolve paths
+$outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
+$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
+$whdloadScreenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadScreenshotsFile)
+$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
+if ($ags2MenuItemRunTemplateFile)
+{
+	$ags2MenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ags2MenuItemRunTemplateFile)
+}
+if ($amsMenuItemRunTemplateFile)
+{
+	$amsMenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($amsMenuItemRunTemplateFile)
+}
+
+$maxMenuItemFileNameLength = 26
+
+# detail columns
+$detailColumnsList = @( "Whdload" )
+$detailColumnsList +=, $detailColumns -split ','
+$detailColumnsPadding = ($detailColumnsList | sort @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
 
 
 # get index name from first character in name
 function GetIndexName($name)
 {
-	$name = $name -replace '^[^a-z0-9]+', ''
-
-	if ($name -match '^[0-9]') 
+	if (($name -replace '^[^a-z0-9]+', '') -match '^[0-9]') 
 	{
 		$indexName = "0"
 	}
@@ -55,6 +123,11 @@ function GetIndexName($name)
 
 function Capitalize([string]$text)
 {
+	if (!$text -or $text -eq '')
+	{
+		return ''
+	}
+
 	if ($text.length -eq 1)
 	{
 		return $text.ToUpper()
@@ -81,6 +154,17 @@ function BuildName($nameFormat, $whdloadSlave)
 		$name = $whdloadSlave.WhdloadName	
 	}
 
+	$name = $name -replace '\s*\[[^\[\]]*\]', ''
+
+	if ($whdloadSlave.FilteredHardware -and $whdloadSlave.FilteredHardware -match '(cd32|aga)')
+	{
+		$name += ' ' + $whdloadSlave.FilteredHardware.ToUpper()
+	}
+
+	if ($whdloadSlave.FilteredLanguage)
+	{
+		$name += ' ' + $whdloadSlave.FilteredLanguage.ToUpper()
+	}
 
 	# set whdload slave file name
 	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
@@ -88,13 +172,13 @@ function BuildName($nameFormat, $whdloadSlave)
 	# detect if extra is needed
 	$extra = $whdloadSlaveFileName -replace '\.slave', ''
 
-	if ($name -ne $extra)
+	if ($name.ToLower() -ne $extra.ToLower())
 	{
 		$extra = $extra.Replace($whdloadSlave.WhdloadName, '')
 
 		if ($extra.length -gt 0)
 		{
-			$name += ' ' + $extra
+			$name += ' ' + (Capitalize $extra)
 		}
 	}
 
@@ -110,18 +194,133 @@ function WriteAmigaTextLines($path, $lines)
 	[System.IO.File]::WriteAllText($path, $iso88591.GetString($amigaTextBytes), $iso88591)
 }
 
-# resolve paths
-$outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
-$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
-$whdloadScreenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadScreenshotsFile)
-$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
+function WriteAmigaTextString($path, $text)
+{
+	$iso88591 = [System.Text.Encoding]::GetEncoding("ISO-8859-1");
+	$utf8 = [System.Text.Encoding]::UTF8;
 
-# detail columns
-$detailColumnsList = @( "Whdload" )
-$detailColumnsList +=, $detailColumns -split ','
-$detailColumnsPadding = ($detailColumnsList | sort @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
+	$amigaTextBytes = [System.Text.Encoding]::Convert($utf8, $iso88591, $utf8.GetBytes($text))
+	[System.IO.File]::WriteAllText($path, $iso88591.GetString($amigaTextBytes), $iso88591)
+}
+
+function BuildMenuItemFileName($name, $menuItemFileNameIndex)
+{
+	# remove invalid characters from menu item file name
+	$menuItemFileName = $name -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
+
+	# if menu item file name is longer than max menu item file name length, then trim it to max menu item file name length characters
+	if ($menuItemFileName.length -gt $maxMenuItemFileNameLength)
+	{
+		$menuItemFileName = $menuItemFileName.Substring(0, $maxMenuItemFileNameLength).Trim()
+	}
+	
+
+	# build new menu item file name, if it already exists in index
+	if ($menuItemFileNameIndex.ContainsKey($menuItemFileName))
+	{
+		$newMenuItemFileName = $menuItemFileName
+		$count = 2
+		
+		do
+		{
+			if ($newMenuItemFileName.length -lt $maxMenuItemFileNameLength)
+			{
+				$newMenuItemFileName += ' '
+			}
+			else
+			{
+				$newMenuItemFileName = $newMenuItemFileName.Substring(0,$newMenuItemFileName.length - $count.ToString().length - 2) + ' #' + $count
+				$count++
+			}
+		} while ($menuItemFileNameIndex.ContainsKey($newMenuItemFileName))
+
+		$menuItemFileName = $newMenuItemFileName
+	}
+	
+	# add menu item file name to index
+	$menuItemFileNameIndex.Set_Item($menuItemFileName, $true)
+	
+	return $menuItemFileName
+}
+
+function BuildMenuItemRunText($menuItemRunTemplateFile, $parameters)
+{
+	$menuItemRunTemplate = [System.IO.File]::ReadAllText($menuItemRunTemplateFile)
+
+	foreach($name in $parameters.Keys)
+	{
+		$placeholderText = ('[$' + $name + ']')
+		$placeholderValue = $parameters.Get_Item($name)
+		$menuItemRunTemplate = $menuItemRunTemplate.Replace($placeholderText, $placeholderValue) 
+	}
+
+	return $menuItemRunTemplate
+}
+
+function BuildMenuItemChangeDirectoryText($dataPath)
+{
+	return ("Assign Data: " + $dataPath + "`nExecute RAM:AMSLoader")
+}
+
+function BuildMenuItemDetailText($whdloadSlave)
+{
+	# build menu item text lines
+	$menuItemDetailTextLines = @()
+
+	$detailColumnsIndex = @{}
+
+	if ($whdloadSlave.DetailMatch -and $whdloadSlave.DetailMatch -ne '')
+	{
+		foreach ($property in ($whdloadSlave.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
+		{
+			$detailColumnsIndex.Set_Item(($property.Name -replace '^Detail', ''), (Capitalize $property.Value))
+		}
+	}
+	else
+	{
+		Write-Host ("Warning: No details for whdload name '" + $whdloadSlave.WhdloadName + "', query '" + $whdloadSlave.Query + "'")
+
+		$detailColumnsIndex.Set_Item("Name", (Capitalize $whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32")))
+	}
+
+	if ($whdloadSlave.FilteredLanguage)
+	{
+		switch ($whdloadSlave.FilteredLanguage.ToLower())
+		{
+			"de" { $language = "German" }
+			"fr" { $language = "French" }
+			"it" { $language = "Italian" }
+			"se" { $language = "Swedish" }
+			"pl" { $language = "Polish" }
+			"es" { $language = "Spanish" }
+			"cz" { $language = "Czech" }
+			"fi" { $language = "Finnish" }
+			"gr" { $language = "Greek" }
+		}
+
+		if ($language)
+		{
+			$detailColumnsIndex.Set_Item("Language", $language)
+		}
+	}
+
+	foreach($column in $detailColumnsList)
+	{
+		if (!$detailColumnsIndex.ContainsKey($column))
+		{
+			continue
+		}
+
+		$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f $column, $detailColumnsIndex.Get_Item($column))
+	}
+
+	$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "Whdload", [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath))
+	
+	return $menuItemDetailTextLines -join "`n"
+}
 
 
+# make AGS2 output directory
 if ($ags2)
 {
 	$ags2OutputPath = [System.IO.Path]::Combine($outputPath, "ags2")
@@ -131,12 +330,23 @@ if ($ags2)
 	}
 }
 
+# make iGame output directory
 if ($iGame)
 {
 	$iGameOutputPath = [System.IO.Path]::Combine($outputPath, "igame")
 	if(!(Test-Path -Path $iGameOutputPath))
 	{
 		md $iGameOutputPath | Out-Null
+	}
+}
+
+# make ams output directory
+if ($ams)
+{
+	$amsOutputPath = [System.IO.Path]::Combine($outputPath, "ams")
+	if(!(Test-Path -Path $amsOutputPath))
+	{
+		md $amsOutputPath | Out-Null
 	}
 }
 
@@ -154,7 +364,7 @@ foreach($whdloadScreenshot in $whdloadScreenshots)
 {
 	if ($whdloadScreenshotsIndex.ContainsKey($whdloadScreenshot.WhdloadSlaveFilePath))
 	{
-		Write-Error ("Duplicate whdload screenshot for '" + $whdloadScreenshot.WhdloadSlaveFilePath + "'")
+		continue;
 	}
 
 	$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.WhdloadSlaveFilePath, $whdloadScreenshot.ScreenshotDirectoryName)
@@ -176,6 +386,10 @@ $ags2MenuItemFileNameIndex = @{}
 $iGameGamesListLines = @()
 $iGameReposLines = @()
 
+# ams variables 
+$amsMenuItemFileNameIndex = @{}
+
+
 if ($usePartitions)
 {
 	$iGameReposLines += ($assignName + $partitionNumber)
@@ -190,6 +404,7 @@ $validatePathsPartScript = 1
 $validatePathsPartScriptLines = @()
 $ags2WhdloadListLines = @()
 $iGameWhdloadListLines = @()
+$amsWhdloadListLines = @()
 $whdloadListColumnsPadding = ($whdloadSlaves | sort @{expression={$_.WhdloadName.Length};Ascending=$false} | Select-Object -First 1).WhdloadName.Length
 
 
@@ -267,40 +482,8 @@ foreach($whdloadSlave in $whdloadSlaves)
 		}
 		$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $ags2Name)
 
-		# remove invalid characters from AGS 2 menu item file name
-		$ags2MenuItemFileName = $ags2Name -replace "!", "" -replace ":", "" -replace """", "" -replace "/", "-" -replace "\?", ""
-
-		# if ags 2 file name is longer than 26 characters, then trim it to 26 characters (default filesystem compatibility with limit of ~30 characters)
-		if ($ags2MenuItemFileName.length -gt 26)
-		{
-			$ags2MenuItemFileName = $ags2MenuItemFileName.Substring(0,26).Trim()
-		}
-		
-
-		# build new ags2 file name, if it already exists in index
-		if ($ags2MenuItemFileNameIndex.ContainsKey($ags2MenuItemFileName))
-		{
-			$newAgs2MenuItemFileName = $ags2MenuItemFileName
-			$count = 2
-			
-			do
-			{
-				if ($newAgs2MenuItemFileName.length -lt 26)
-				{
-					$newAgs2MenuItemFileName += ' '
-				}
-				else
-				{
-					$newAgs2MenuItemFileName = $newAgs2MenuItemFileName.Substring(0,$newAgs2MenuItemFileName.length - $count.ToString().length - 2) + ' #' + $count
-					$count++
-				}
-			} while ($ags2MenuItemFileNameIndex.ContainsKey($newAgs2MenuItemFileName))
-
-			$ags2MenuItemFileName = $newAgs2MenuItemFileName
-		}
-		
-		# add ags2 file name to index
-		$ags2MenuItemFileNameIndex.Set_Item($ags2MenuItemFileName, $true)
+		# build ags2 menu item file name
+		$ags2MenuItemFileName = BuildMenuItemFileName $ags2Name $ags2MenuItemFileNameIndex
 		
 
 		$ags2MenuDir = [System.IO.Path]::Combine($ags2OutputPath, "menu")
@@ -314,58 +497,95 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# set ags2 menu files
-		$ags2MenuItemRunFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).run")
-		$ags2MenuItemTxtFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).txt")
-		$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, "$($ags2MenuItemFileName).iff")
+		$ags2MenuItemRunFile = [System.IO.Path]::Combine($ags2MenuItemPath, ($ags2MenuItemFileName + ".run"))
+		$ags2MenuItemTxtFile = [System.IO.Path]::Combine($ags2MenuItemPath, ($ags2MenuItemFileName + ".txt"))
+		$ags2MenuItemIffFile = [System.IO.Path]::Combine($ags2MenuItemPath, ($ags2MenuItemFileName + ".iff"))
 
 
-		# build ags 2 menu item run lines
-		$ags2MenuItemRunLines = @( 
-			("cd """ + $whdloadSlaveStartPath + """"), 
-			"IF `$whdloadargs EQ """"", 
-			("  whdload """ + $whdloadSlaveFileName + """"), 
-			"ELSE", 
-			("  whdload """ + $whdloadSlaveFileName + """ `$whdloadargs"), 
-			"ENDIF" )
-
-		# write ags 2 menu item run file
-		WriteAmigaTextLines $ags2MenuItemRunFile $ags2MenuItemRunLines
+		# build ags2 menu item start text	
+		$ags2MenuItemStartTextParameters = @{ "Menu" = "ags2"; "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = ($ags2MenuItemIndexName); "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
+		$ags2MenuItemStartText = BuildMenuItemRunText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
+		
+		# write ags2 menu item start file	
+		WriteAmigaTextString $ags2MenuItemRunFile $ags2MenuItemStartText
 
 
-		# build ags 2 menu item txt lines
-		$ags2MenuItemTxtLines = @()
+		# build ags2 menu item detail text
+		$ags2MenuItemDetailText = BuildMenuItemDetailText $whdloadSlave
+		
+		# write ags2 menu item txt file
+		WriteAmigaTextString $ags2MenuItemTxtFile $ags2MenuItemDetailText
+	}
 
-		$detailColumnsIndex = @{}
 
-		if ($whdloadSlave.DetailMatch -and $whdloadSlave.DetailMatch -ne '')
+	if ($ams)
+	{
+		# build ams name
+		$amsName = Capitalize (BuildName $amsNameFormat $whdloadSlave)
+
+		# add whdload slave to ams whdload list
+		if ($amsWhdloadListLines.Count -eq 0)
 		{
-			foreach ($property in ($whdloadSlave.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
-			{
-				$detailColumnsIndex.Set_Item(($property.Name -replace '^Detail', ''), (Capitalize $property.Value))
-			}
+			$amsWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "AMS")
 		}
-		else
+		$amsWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $amsName)
+
+
+		# build ams menu item file name
+		$amsMenuItemFileName = BuildMenuItemFileName $amsName $amsMenuItemFileNameIndex
+
+
+		$amsMenuDir = [System.IO.Path]::Combine($amsOutputPath, "menu")
+		$amsMenuItemIndexName = GetIndexName $amsMenuItemFileName
+		$amsMenuItemPath = [System.IO.Path]::Combine($amsMenuDir, $amsMenuItemIndexName)
+
+
+		# write menu item index start file, if it doesn't exist
+		$amsMenuItemIndexStartFile = [System.IO.Path]::Combine($amsMenuDir, ($amsMenuItemIndexName + ".start"))
+
+		if(!(Test-Path -Path $amsMenuItemIndexStartFile))
 		{
-			Write-Host ("Warning: No details for whdload name '" + $whdloadSlave.WhdloadName + "', query '" + $whdloadSlave.Query + "'")
-
-			$detailColumnsIndex.Set_Item("Name", (Capitalize $whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32")))
+			$amsMenuItemIndexStartText = BuildMenuItemChangeDirectoryText ("AMS:" + $amsMenuItemIndexName)
+			WriteAmigaTextString $amsMenuItemIndexStartFile $amsMenuItemIndexStartText
 		}
 
-		foreach($column in $detailColumnsList)
+
+		# create menu item path, if it doesn't exist
+		if(!(Test-Path -Path $amsMenuItemPath))
 		{
-			if (!$detailColumnsIndex.ContainsKey($column))
-			{
-				continue
-			}
-
-			$ags2MenuItemTxtLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f $column, $detailColumnsIndex.Get_Item($column))
+			md $amsMenuItemPath | Out-Null
 		}
 
-		$ags2MenuItemTxtLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "Whdload", [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath))
+
+		# write menu item back start file, if it doesn't exist
+		$amsMenuItemBackStartFile = [System.IO.Path]::Combine($amsMenuItemPath, "...start")
+
+		if(!(Test-Path -Path $amsMenuItemBackStartFile))
+		{
+			$amsMenuItemBackStartText = BuildMenuItemChangeDirectoryText "AMS:"
+			WriteAmigaTextString $amsMenuItemBackStartFile $amsMenuItemBackStartText
+		}
 
 
-		# write ags 2 menu item txt file
-		WriteAmigaTextLines $ags2MenuItemTxtFile $ags2MenuItemTxtLines
+		# set ams menu files
+		$amsMenuItemStartFile = [System.IO.Path]::Combine($amsMenuItemPath, ($amsMenuItemFileName + ".start"))
+		$amsMenuItemTxtFile = [System.IO.Path]::Combine($amsMenuItemPath, ($amsMenuItemFileName + ".txt"))
+		$amsMenuItemIffFile = [System.IO.Path]::Combine($amsMenuItemPath, ($amsMenuItemFileName + ".iff"))
+
+		
+		# build ams menu item start	text	
+		$amsMenuItemStartTextParameters = @{ "Menu" = "ams"; "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
+		$amsMenuItemStartText = BuildMenuItemRunText $amsMenuItemRunTemplateFile $amsMenuItemStartTextParameters
+		
+		# write ams menu item start file
+		WriteAmigaTextString $amsMenuItemStartFile $amsMenuItemStartText
+
+		
+		# build ams menu item detail text
+		$amsMenuItemDetailText = BuildMenuItemDetailText $whdloadSlave
+		
+		# write ams menu item txt file
+		WriteAmigaTextString $amsMenuItemTxtFile $amsMenuItemDetailText
 	}
 
 
@@ -424,7 +644,18 @@ foreach($whdloadSlave in $whdloadSlaves)
 			{
 				Copy-Item $whdloadScreenshotFile $ags2MenuItemIffFile -force
 			}
+		}
 
+		# copy ams screenshot for whdload slave
+		if ($ams)
+		{
+			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ams.iff")
+			
+			# copy whdload screenshot file, if it exists
+			if (test-path -path $whdloadScreenshotFile)
+			{
+				Copy-Item $whdloadScreenshotFile $amsMenuItemIffFile -force
+			}
 		}
 
 		# copy igame screenshot for whdload slave
@@ -454,6 +685,9 @@ foreach($whdloadSlave in $whdloadSlaves)
 					("  ECHO ""ERROR: Path '" + $whdloadiGameScreenshotFile +  "' doesn't exist!"""), 
 					"ENDIF") 
 		}
+	}
+	else {
+		Write-Host ("No screenshot for " + $whdloadSlave.WhdloadSlaveFilePath)
 	}
 
 	# write validate paths part script, if it has more than 2000 lines
@@ -492,6 +726,13 @@ if ($ags2)
 	# write ags2 whdload list file 
 	$ags2WhdloadListFile = [System.IO.Path]::Combine($ags2OutputPath, "AGS2 WHDLoad List")
 	WriteAmigaTextLines $ags2WhdloadListFile $ags2WhdloadListLines
+}
+
+if ($ams)
+{
+	# write ams whdload list file 
+	$amsWhdloadListFile = [System.IO.Path]::Combine($amsOutputPath, "AMS WHDLoad List")
+	WriteAmigaTextLines $amsWhdloadListFile $amsWhdloadListLines
 }
 
 if ($iGame)
