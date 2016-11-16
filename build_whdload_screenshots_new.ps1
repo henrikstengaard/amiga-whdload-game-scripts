@@ -488,7 +488,79 @@ Write-Host ("" + ($screenshotQueries | Where { $_.ScreenshotMatch -eq $null }).C
 
 # write screenshots list
 $screenshotListFile = [System.IO.Path]::Combine($outputPath, "screenshots.csv")
-$screenshotQueries | Export-Csv -Delimiter ';' -Path $screenshotListFile -NoTypeInformation
+$screenshotQueries | Export-Csv -Delimiter ';' -Path $screenshotListFile -NoTypeInformation -Encoding UTF8
+
+
+# build overview html
+$overviewTitle = [System.IO.Path]::GetFileName($outputPath)
+$overviewHtmlLines = @()
+$overviewHtmlLines += "<!DOCTYPE html>"
+$overviewHtmlLines += "<html>"
+$overviewHtmlLines += "<head>"
+$overviewHtmlLines += "<title>$overviewTitle</title>"
+$overviewHtmlLines += "<style type=""text/css"">"
+$overviewHtmlLines += "body { font-family: sans-serif; font-size: 9px; }"
+$overviewHtmlLines += ".screenshot { float: left; min-width: 200px; max-width: 200px; min-height: 200px; }"
+$overviewHtmlLines += ".screenshot img { display: block; max-height: 120px; }"
+$overviewHtmlLines += ".screenshot span { display: block; }"
+$overviewHtmlLines += "</style>"
+$overviewHtmlLines += "</head>"
+$overviewHtmlLines += "<body>"
+$overviewHtmlLines += "<h1>$overviewTitle</h1>"
+
+$overviewNameListIndex = @{}
+ForEach ($screenshotQuery in $screenshotQueries)
+{
+	$name = $screenshotQuery.WhdloadName
+	
+	if ($overviewNameListIndex.ContainsKey($name))
+	{
+		$nameList = $overviewNameListIndex.Get_Item($name)
+	}
+	else
+	{
+		$nameList = @()
+	}
+
+	$nameList += ($name + " " + [System.IO.Path]::GetFileName($screenshotQuery.WhdloadSlaveFilePath))
+
+	$overviewNameListIndex.Set_Item($name, $nameList)
+}
+
+
+$overviewNameIndex = @{}
+ForEach ($screenshotQuery in $screenshotQueries)
+{
+	$name = $screenshotQuery.WhdloadName
+	
+	if ($overviewNameIndex.ContainsKey($name))
+	{
+		continue
+	}
+
+	$overviewNameIndex.Set_Item($name, $true)
+
+	$nameList = $overviewNameListIndex.Get_Item($name)
+
+	$names = $nameList | %{ "<span>" + $_ + "</span>" }
+
+	if ($screenshotQuery.ScreenshotFile -ne $null)
+	{
+		$screenshotUrl = ($screenshotQuery.ScreenshotDirectoryName + "/" + "screenshot.png")
+
+		$overviewHtmlLines += "<div class=""screenshot""><a href=""" + $screenshotUrl + """><img width=""160"" src=""" + $screenshotUrl + """ />$names</a></div>"
+	}
+	else
+	{
+		$overviewHtmlLines += "<div class=""screenshot""><strong>No screenshot</strong>$names</div>"
+	}
+}
+$overviewHtmlLines += "</body>"
+$overviewHtmlLines += "</html>"
+
+# write overview html
+$overviewHtmlFile = [System.IO.Path]::Combine($outputPath, "overview.html")
+[System.IO.File]::WriteAllText($overviewHtmlFile, $overviewHtmlLines -join "`r`n")
 
 
 # convert screenshots
@@ -500,7 +572,7 @@ if (!$noConvertScreenshots)
 	{
 		$screenshotOutputPath = [System.IO.Path]::Combine($outputPath, $screenshotQuery.ScreenshotDirectoryName)
 
-		# skip convert screenshot, if it already exist
+		# continue, if screenshot output path exists
 		if(test-path -path $screenshotOutputPath)
 		{
 			continue
