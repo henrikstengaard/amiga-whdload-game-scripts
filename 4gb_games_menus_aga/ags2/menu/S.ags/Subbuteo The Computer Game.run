@@ -1,6 +1,0 @@
-cd "A-Games2:S/Subbuteo/"
-IF $whdloadargs EQ ""
-  whdload "Subbuteo.Slave"
-ELSE
-  whdload "Subbuteo.Slave" $whdloadargs
-ENDIF

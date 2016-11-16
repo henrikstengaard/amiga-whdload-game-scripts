@@ -1,5 +1,0 @@
-Name      : Darkmere
-Publisher : Core
-Year      : 1994
-Players   : 1
-Whdload   : Darkmere.Slave

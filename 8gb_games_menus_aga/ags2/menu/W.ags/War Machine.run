@@ -1,6 +1,0 @@
-cd "A-Games:W/WarMachine/"
-IF $whdloadargs EQ ""
-  whdload "WarMachine.Slave"
-ELSE
-  whdload "WarMachine.Slave" $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Barbarian II
-Publisher : Psygnosis
-Year      : 1991
-Players   : 1 Only
-Whdload   : Barbarian2Palace.slave

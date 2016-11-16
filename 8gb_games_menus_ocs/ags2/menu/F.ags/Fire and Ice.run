@@ -1,6 +1,0 @@
-cd "A-Games:F/Fire&Ice/"
-IF $whdloadargs EQ ""
-  whdload "Fire&Ice.slave"
-ELSE
-  whdload "Fire&Ice.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:C/ChaosEngine/"
-IF $whdloadargs EQ ""
-  whdload "ChaosEngine.Slave"
-ELSE
-  whdload "ChaosEngine.Slave" $whdloadargs
-ENDIF

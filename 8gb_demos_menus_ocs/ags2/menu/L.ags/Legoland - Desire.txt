@@ -1,4 +1,0 @@
-Name    : Legoland
-Groups  : Desire
-Type    : Musicdisk
-Whdload : Legoland.Slave

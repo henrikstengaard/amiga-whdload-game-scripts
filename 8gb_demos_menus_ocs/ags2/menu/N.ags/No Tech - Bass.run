@@ -1,6 +1,0 @@
-cd "A-Demos:N/NoTech/"
-IF $whdloadargs EQ ""
-  whdload "NoTech.Slave"
-ELSE
-  whdload "NoTech.Slave" $whdloadargs
-ENDIF

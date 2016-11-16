@@ -1,6 +1,0 @@
-cd "A-Games2:S/StrikeAces/"
-IF $whdloadargs EQ ""
-  whdload "StrikeAces.Slave"
-ELSE
-  whdload "StrikeAces.Slave" $whdloadargs
-ENDIF

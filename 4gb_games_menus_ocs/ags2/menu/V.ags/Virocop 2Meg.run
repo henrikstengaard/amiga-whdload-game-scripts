@@ -1,6 +1,0 @@
-cd "A-Games2:V/Virocop/"
-IF $whdloadargs EQ ""
-  whdload "Virocop2Meg.slave"
-ELSE
-  whdload "Virocop2Meg.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:B/BansheeCD32/"
-IF $whdloadargs EQ ""
-  whdload "BansheeCD32.slave"
-ELSE
-  whdload "BansheeCD32.slave" $whdloadargs
-ENDIF

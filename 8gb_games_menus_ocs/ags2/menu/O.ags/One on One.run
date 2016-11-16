@@ -1,6 +1,0 @@
-cd "A-Games:O/OneOnOne/"
-IF $whdloadargs EQ ""
-  whdload "OneOnOne.slave"
-ELSE
-  whdload "OneOnOne.slave" $whdloadargs
-ENDIF

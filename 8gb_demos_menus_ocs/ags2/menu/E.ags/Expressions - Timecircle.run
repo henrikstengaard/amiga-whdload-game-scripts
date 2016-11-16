@@ -1,6 +1,0 @@
-cd "A-Demos:E/Expressions/"
-IF $whdloadargs EQ ""
-  whdload "Expressions.Slave"
-ELSE
-  whdload "Expressions.Slave" $whdloadargs
-ENDIF

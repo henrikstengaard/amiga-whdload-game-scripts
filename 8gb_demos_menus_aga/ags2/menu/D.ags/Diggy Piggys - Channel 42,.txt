@@ -1,4 +1,0 @@
-Name    : Diggy Piggys
-Groups  : Channel 42,The Silents
-Type    : Slideshow
-Whdload : DiggyPiggys.Slave

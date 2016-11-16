@@ -1,6 +1,0 @@
-cd "A-Demos:M/MultiMegamix/"
-IF $whdloadargs EQ ""
-  whdload "MultiMegamix.slave"
-ELSE
-  whdload "MultiMegamix.slave" $whdloadargs
-ENDIF

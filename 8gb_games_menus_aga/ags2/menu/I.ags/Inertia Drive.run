@@ -1,6 +1,0 @@
-cd "A-Games:I/InertiaDrive/"
-IF $whdloadargs EQ ""
-  whdload "InertiaDrive.Slave"
-ELSE
-  whdload "InertiaDrive.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:D/DefenderOfTheCrown2CD32/"
-IF $whdloadargs EQ ""
-  whdload "DefenderOfTheCrown2CD32.slave"
-ELSE
-  whdload "DefenderOfTheCrown2CD32.slave" $whdloadargs
-ENDIF

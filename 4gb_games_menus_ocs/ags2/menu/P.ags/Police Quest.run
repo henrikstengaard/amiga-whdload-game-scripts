@@ -1,6 +1,0 @@
-cd "A-Games2:P/PoliceQuest/"
-IF $whdloadargs EQ ""
-  whdload "PoliceQuest.slave"
-ELSE
-  whdload "PoliceQuest.slave" $whdloadargs
-ENDIF

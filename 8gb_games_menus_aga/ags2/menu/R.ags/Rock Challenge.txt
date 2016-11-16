@@ -1,5 +1,0 @@
-Name      : Rock Challenge
-Publisher : ReadySoft
-Year      : 1988
-Players   : 1
-Whdload   : RockChallenge.Slave

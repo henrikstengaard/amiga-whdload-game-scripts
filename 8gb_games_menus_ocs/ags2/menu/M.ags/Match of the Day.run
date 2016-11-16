@@ -1,6 +1,0 @@
-cd "A-Games:M/MatchOfTheDay/"
-IF $whdloadargs EQ ""
-  whdload "MatchOfTheDay.Slave"
-ELSE
-  whdload "MatchOfTheDay.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Wonderboy in Monsterland
-Publisher : Activision
-Year      : 1989
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : WonderboyInMonsterland.Slave

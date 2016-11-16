@@ -1,6 +1,0 @@
-cd "A-Games2:P/PGAEuropeanTourAGA/"
-IF $whdloadargs EQ ""
-  whdload "PGAEuropeanTourAGA.Slave"
-ELSE
-  whdload "PGAEuropeanTourAGA.Slave" $whdloadargs
-ENDIF

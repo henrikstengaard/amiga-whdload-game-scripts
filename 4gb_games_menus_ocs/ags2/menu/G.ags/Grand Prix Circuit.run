@@ -1,6 +1,0 @@
-cd "A-Games1:G/GrandPrixCircuit/"
-IF $whdloadargs EQ ""
-  whdload "GrandPrixCircuit.Slave"
-ELSE
-  whdload "GrandPrixCircuit.Slave" $whdloadargs
-ENDIF

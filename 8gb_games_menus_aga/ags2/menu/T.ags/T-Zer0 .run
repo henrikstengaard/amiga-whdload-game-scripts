@@ -1,6 +1,0 @@
-cd "A-Games:T/TZer0DemoNoMovieAGA/"
-IF $whdloadargs EQ ""
-  whdload "TZer0DemoNoMovieAGA.Slave"
-ELSE
-  whdload "TZer0DemoNoMovieAGA.Slave" $whdloadargs
-ENDIF

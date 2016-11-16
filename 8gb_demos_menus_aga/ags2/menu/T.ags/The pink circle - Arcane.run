@@ -1,6 +1,0 @@
-cd "A-Demos:P/PinkCircle/"
-IF $whdloadargs EQ ""
-  whdload "PinkCircle.Slave"
-ELSE
-  whdload "PinkCircle.Slave" $whdloadargs
-ENDIF

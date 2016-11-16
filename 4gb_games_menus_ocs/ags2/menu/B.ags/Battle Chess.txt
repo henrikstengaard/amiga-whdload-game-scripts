@@ -1,6 +1,0 @@
-Name      : Battle Chess
-Publisher : Electronic Arts
-Year      : 1988
-Genre     : Board - Chess
-Players   : 1 or 2
-Whdload   : BattleChessCDTV.Slave

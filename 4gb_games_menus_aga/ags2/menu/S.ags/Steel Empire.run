@@ -1,6 +1,0 @@
-cd "A-Games2:S/SteelEmpire/"
-IF $whdloadargs EQ ""
-  whdload "SteelEmpire.Slave"
-ELSE
-  whdload "SteelEmpire.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games1:F/FutureTank/"
-IF $whdloadargs EQ ""
-  whdload "FutureTank.slave"
-ELSE
-  whdload "FutureTank.slave" $whdloadargs
-ENDIF

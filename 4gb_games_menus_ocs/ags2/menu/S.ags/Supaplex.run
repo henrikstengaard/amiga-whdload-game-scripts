@@ -1,6 +1,0 @@
-cd "A-Games2:S/Supaplex/"
-IF $whdloadargs EQ ""
-  whdload "Supaplex.Slave"
-ELSE
-  whdload "Supaplex.Slave" $whdloadargs
-ENDIF

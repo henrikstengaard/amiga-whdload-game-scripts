@@ -1,6 +1,0 @@
-cd "A-Games2:U/Unreal/"
-IF $whdloadargs EQ ""
-  whdload "Unreal.Slave"
-ELSE
-  whdload "Unreal.Slave" $whdloadargs
-ENDIF

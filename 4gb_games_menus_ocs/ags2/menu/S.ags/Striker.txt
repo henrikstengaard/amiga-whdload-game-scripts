@@ -1,5 +1,0 @@
-Name      : Striker
-Publisher : Gremlin Graphics
-Year      : 1994
-Genre     : Sports - Football/Soccer
-Whdload   : Striker.slave

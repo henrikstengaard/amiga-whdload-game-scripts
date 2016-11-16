@@ -1,6 +1,0 @@
-cd "A-Demos:S/SiliconGraphics2/"
-IF $whdloadargs EQ ""
-  whdload "SiliconGraphics2.Slave"
-ELSE
-  whdload "SiliconGraphics2.Slave" $whdloadargs
-ENDIF

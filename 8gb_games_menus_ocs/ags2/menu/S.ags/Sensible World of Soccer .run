@@ -1,6 +1,0 @@
-cd "A-Games:S/SensibleWorldOfSoccer11/"
-IF $whdloadargs EQ ""
-  whdload "SensibleWorldOfSoccer11.Slave"
-ELSE
-  whdload "SensibleWorldOfSoccer11.Slave" $whdloadargs
-ENDIF

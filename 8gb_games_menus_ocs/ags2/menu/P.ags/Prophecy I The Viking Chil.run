@@ -1,6 +1,0 @@
-cd "A-Games:P/Prophecy1VikingChild/"
-IF $whdloadargs EQ ""
-  whdload "Prophecy1VikingChild.slave"
-ELSE
-  whdload "Prophecy1VikingChild.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:G/GaldregonsDomain/"
-IF $whdloadargs EQ ""
-  whdload "GaldregonsDomain.Slave"
-ELSE
-  whdload "GaldregonsDomain.Slave" $whdloadargs
-ENDIF

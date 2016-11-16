@@ -1,5 +1,0 @@
-Name      : Netherworld
-Publisher : Hewson
-Year      : 1988
-Players   : 1 Only
-Whdload   : Netherworld.Slave

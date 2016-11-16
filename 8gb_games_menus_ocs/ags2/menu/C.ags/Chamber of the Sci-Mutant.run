@@ -1,6 +1,0 @@
-cd "A-Games:C/ChamberSciMutantPriestess/"
-IF $whdloadargs EQ ""
-  whdload "ChamberSciMutantPriestess.slave"
-ELSE
-  whdload "ChamberSciMutantPriestess.slave" $whdloadargs
-ENDIF

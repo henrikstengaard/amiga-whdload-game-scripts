@@ -1,6 +1,0 @@
-cd "A-Demos:0-9/9Fingers/"
-IF $whdloadargs EQ ""
-  whdload "9Fingers.Slave"
-ELSE
-  whdload "9Fingers.Slave" $whdloadargs
-ENDIF

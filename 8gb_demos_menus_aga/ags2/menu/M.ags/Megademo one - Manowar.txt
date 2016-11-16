@@ -1,4 +1,0 @@
-Name    : Megademo one
-Groups  : Manowar
-Type    : Demo
-Whdload : MegademoManowar.Slave

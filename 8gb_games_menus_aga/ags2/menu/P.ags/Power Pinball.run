@@ -1,6 +1,0 @@
-cd "A-Games:P/PowerPinballCDTV/"
-IF $whdloadargs EQ ""
-  whdload "PowerPinballCDTV.slave"
-ELSE
-  whdload "PowerPinballCDTV.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:P/PremierManager3AGA/"
-IF $whdloadargs EQ ""
-  whdload "PremierManager3AGA.Slave"
-ELSE
-  whdload "PremierManager3AGA.Slave" $whdloadargs
-ENDIF

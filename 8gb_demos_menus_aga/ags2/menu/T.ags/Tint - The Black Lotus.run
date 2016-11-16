@@ -1,6 +1,0 @@
-cd "A-Demos:T/Tint/"
-IF $whdloadargs EQ ""
-  whdload "Tint.Slave"
-ELSE
-  whdload "Tint.Slave" $whdloadargs
-ENDIF

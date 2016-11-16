@@ -1,6 +1,0 @@
-cd "A-Games:F/FutureClassicsCollection/"
-IF $whdloadargs EQ ""
-  whdload "FutureClassicsCollection.Slave"
-ELSE
-  whdload "FutureClassicsCollection.Slave" $whdloadargs
-ENDIF

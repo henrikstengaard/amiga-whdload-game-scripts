@@ -1,6 +1,0 @@
-cd "A-Games1:E/EuropeanChampionsOcean/"
-IF $whdloadargs EQ ""
-  whdload "EuropeanChampionsOcean.Slave"
-ELSE
-  whdload "EuropeanChampionsOcean.Slave" $whdloadargs
-ENDIF

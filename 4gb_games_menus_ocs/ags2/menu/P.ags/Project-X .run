@@ -1,6 +1,0 @@
-cd "A-Games2:P/ProjectXv2/"
-IF $whdloadargs EQ ""
-  whdload "ProjectXv2.Slave"
-ELSE
-  whdload "ProjectXv2.Slave" $whdloadargs
-ENDIF

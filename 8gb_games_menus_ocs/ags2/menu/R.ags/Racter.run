@@ -1,6 +1,0 @@
-cd "A-Games:R/Racter/"
-IF $whdloadargs EQ ""
-  whdload "Racter.Slave"
-ELSE
-  whdload "Racter.Slave" $whdloadargs
-ENDIF

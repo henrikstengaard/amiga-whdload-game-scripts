@@ -1,6 +1,0 @@
-cd "A-Games:G/GloomCD32/"
-IF $whdloadargs EQ ""
-  whdload "GloomCD32.slave"
-ELSE
-  whdload "GloomCD32.slave" $whdloadargs
-ENDIF

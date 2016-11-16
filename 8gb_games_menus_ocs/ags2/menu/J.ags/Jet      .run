@@ -1,6 +1,0 @@
-cd "A-Games:J/Jet&SceneryDisk13/"
-IF $whdloadargs EQ ""
-  whdload "Jet&SceneryDisk13.Slave"
-ELSE
-  whdload "Jet&SceneryDisk13.Slave" $whdloadargs
-ENDIF

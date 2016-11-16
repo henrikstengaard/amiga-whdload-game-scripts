@@ -1,6 +1,0 @@
-Name      : Nigel Mansell's World Championship
-Publisher : Gremlin Graphics
-Year      : 1992
-Genre     : Sports - Formula One
-Players   : 1 Only
-Whdload   : NigelMansellsWrldChmpCD32.slave

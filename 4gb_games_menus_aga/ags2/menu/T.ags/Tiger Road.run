@@ -1,6 +1,0 @@
-cd "A-Games2:T/TigerRoad/"
-IF $whdloadargs EQ ""
-  whdload "TigerRoad.Slave"
-ELSE
-  whdload "TigerRoad.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:M/MissionElevator/"
-IF $whdloadargs EQ ""
-  whdload "MissionElevator.Slave"
-ELSE
-  whdload "MissionElevator.Slave" $whdloadargs
-ENDIF

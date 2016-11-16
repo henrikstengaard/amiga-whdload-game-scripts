@@ -1,6 +1,0 @@
-cd "A-Games2:W/WorldChampBoxingManager/"
-IF $whdloadargs EQ ""
-  whdload "WorldChampBoxingManager.Slave"
-ELSE
-  whdload "WorldChampBoxingManager.Slave" $whdloadargs
-ENDIF

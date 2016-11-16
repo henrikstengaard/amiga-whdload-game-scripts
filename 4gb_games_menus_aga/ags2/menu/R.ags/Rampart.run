@@ -1,6 +1,0 @@
-cd "A-Games2:R/Rampart/"
-IF $whdloadargs EQ ""
-  whdload "Rampart.Slave"
-ELSE
-  whdload "Rampart.Slave" $whdloadargs
-ENDIF

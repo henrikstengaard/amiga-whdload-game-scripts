@@ -1,6 +1,0 @@
-cd "A-Games1:K/K240/"
-IF $whdloadargs EQ ""
-  whdload "K240.Slave"
-ELSE
-  whdload "K240.Slave" $whdloadargs
-ENDIF

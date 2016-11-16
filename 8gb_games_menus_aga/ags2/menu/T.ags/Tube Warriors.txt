@@ -1,5 +1,0 @@
-Name      : Tube Warriors
-Publisher : Dynabyte
-Year      : 1994
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : TubeWarriorsAGA.Slave

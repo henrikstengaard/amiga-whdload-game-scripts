@@ -1,6 +1,0 @@
-cd "A-Demos:V/VirtualWorld/"
-IF $whdloadargs EQ ""
-  whdload "VirtualWorld.Slave"
-ELSE
-  whdload "VirtualWorld.Slave" $whdloadargs
-ENDIF

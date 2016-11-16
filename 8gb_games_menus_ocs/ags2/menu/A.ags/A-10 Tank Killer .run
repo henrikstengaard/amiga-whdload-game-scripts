@@ -1,6 +1,0 @@
-cd "A-Games:A/A10TankKiller3Disk/"
-IF $whdloadargs EQ ""
-  whdload "A10TankKiller3Disk.Slave"
-ELSE
-  whdload "A10TankKiller3Disk.Slave" $whdloadargs
-ENDIF

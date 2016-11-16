@@ -1,6 +1,0 @@
-Name    : Hit Fido
-Groups  : Kgb
-Type    : Demo
-Party   : Amiga Summit Convention 1991
-Rank    : N/a
-Whdload : HitFido.Slave

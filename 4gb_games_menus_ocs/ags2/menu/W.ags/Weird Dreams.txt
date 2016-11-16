@@ -1,6 +1,0 @@
-Name      : Weird Dreams
-Publisher : Rainbird
-Year      : 1989
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : WeirdDreams.Slave

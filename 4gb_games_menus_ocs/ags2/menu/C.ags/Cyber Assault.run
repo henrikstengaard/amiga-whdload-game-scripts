@@ -1,6 +1,0 @@
-cd "A-Games1:C/CyberAssault/"
-IF $whdloadargs EQ ""
-  whdload "CyberAssault.Slave"
-ELSE
-  whdload "CyberAssault.Slave" $whdloadargs
-ENDIF

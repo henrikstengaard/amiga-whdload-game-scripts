@@ -1,6 +1,0 @@
-cd "A-Games2:P/Profezia/"
-IF $whdloadargs EQ ""
-  whdload "Profezia.Slave"
-ELSE
-  whdload "Profezia.Slave" $whdloadargs
-ENDIF

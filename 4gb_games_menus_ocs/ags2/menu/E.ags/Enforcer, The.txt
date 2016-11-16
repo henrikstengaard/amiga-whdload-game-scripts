@@ -1,6 +1,0 @@
-Name      : Enforcer, The
-Publisher : Trojan
-Year      : 1991
-Genre     : Shooter - Operation Wolf
-Players   : 1
-Whdload   : Enforcer.Slave

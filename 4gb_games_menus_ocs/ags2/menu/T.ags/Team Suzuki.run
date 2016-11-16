@@ -1,6 +1,0 @@
-cd "A-Games2:T/TeamSuzuki/"
-IF $whdloadargs EQ ""
-  whdload "TeamSuzuki.slave"
-ELSE
-  whdload "TeamSuzuki.slave" $whdloadargs
-ENDIF

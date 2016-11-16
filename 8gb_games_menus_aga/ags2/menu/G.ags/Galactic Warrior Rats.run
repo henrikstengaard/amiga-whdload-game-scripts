@@ -1,6 +1,0 @@
-cd "A-Games:G/GalacticWarriorRats/"
-IF $whdloadargs EQ ""
-  whdload "GalacticWarriorRats.slave"
-ELSE
-  whdload "GalacticWarriorRats.slave" $whdloadargs
-ENDIF

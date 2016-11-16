@@ -1,6 +1,0 @@
-cd "A-Games2:W/WrathOfTheDemonCDTV/"
-IF $whdloadargs EQ ""
-  whdload "WrathOfTheDemonCDTV.Slave"
-ELSE
-  whdload "WrathOfTheDemonCDTV.Slave" $whdloadargs
-ENDIF

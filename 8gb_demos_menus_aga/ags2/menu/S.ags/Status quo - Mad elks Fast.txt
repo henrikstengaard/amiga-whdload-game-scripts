@@ -1,6 +1,0 @@
-Name    : Status quo
-Groups  : Mad elks
-Type    : Demo
-Party   : Warszawa 2 1992
-Rank    : 6th
-Whdload : StatusQuoFast.Slave

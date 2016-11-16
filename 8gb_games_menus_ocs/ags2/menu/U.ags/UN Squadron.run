@@ -1,6 +1,0 @@
-cd "A-Games:U/UNSquadron/"
-IF $whdloadargs EQ ""
-  whdload "UNSquadron.slave"
-ELSE
-  whdload "UNSquadron.slave" $whdloadargs
-ENDIF

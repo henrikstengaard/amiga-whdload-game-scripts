@@ -1,6 +1,0 @@
-cd "A-Games2:T/Toobin/"
-IF $whdloadargs EQ ""
-  whdload "Toobin.Slave"
-ELSE
-  whdload "Toobin.Slave" $whdloadargs
-ENDIF

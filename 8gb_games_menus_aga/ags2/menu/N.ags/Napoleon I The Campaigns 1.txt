@@ -1,6 +1,0 @@
-Name      : Napoleon I: The Campaigns 1805-1814
-Publisher : Internecine
-Year      : 1991
-Genre     : Strategy - War
-Players   : 1 or 2
-Whdload   : LunarCCD32.slave

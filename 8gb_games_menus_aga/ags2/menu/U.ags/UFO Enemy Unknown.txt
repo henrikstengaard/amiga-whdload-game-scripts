@@ -1,6 +1,0 @@
-Name      : UFO: Enemy Unknown
-Publisher : MicroProse Software
-Year      : 1994
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : UFOEnemyUnknownCD32.slave

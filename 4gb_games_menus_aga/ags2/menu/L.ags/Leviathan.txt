@@ -1,5 +1,0 @@
-Name      : Leviathan
-Publisher : English Software
-Year      : 1987
-Players   : 1 Only
-Whdload   : Leviathan.Slave

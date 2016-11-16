@@ -1,6 +1,0 @@
-cd "A-Games:D/Dominator/"
-IF $whdloadargs EQ ""
-  whdload "Dominator.slave"
-ELSE
-  whdload "Dominator.slave" $whdloadargs
-ENDIF

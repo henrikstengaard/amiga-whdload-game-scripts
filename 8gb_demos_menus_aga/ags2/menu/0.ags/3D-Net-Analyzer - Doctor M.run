@@ -1,6 +1,0 @@
-cd "A-Demos:0-9/3DNetAnalyzer/"
-IF $whdloadargs EQ ""
-  whdload "3DNetAnalyzer.Slave"
-ELSE
-  whdload "3DNetAnalyzer.Slave" $whdloadargs
-ENDIF

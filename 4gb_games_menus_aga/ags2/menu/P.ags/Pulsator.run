@@ -1,6 +1,0 @@
-cd "A-Games2:P/PulsatorDemoAGA/"
-IF $whdloadargs EQ ""
-  whdload "PulsatorDemoAGA.Slave"
-ELSE
-  whdload "PulsatorDemoAGA.Slave" $whdloadargs
-ENDIF

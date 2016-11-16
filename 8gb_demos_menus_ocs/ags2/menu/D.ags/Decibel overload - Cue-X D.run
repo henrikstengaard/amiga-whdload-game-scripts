@@ -1,6 +1,0 @@
-cd "A-Demos:D/DecibelOverload/"
-IF $whdloadargs EQ ""
-  whdload "DecibelOverload.Slave"
-ELSE
-  whdload "DecibelOverload.Slave" $whdloadargs
-ENDIF

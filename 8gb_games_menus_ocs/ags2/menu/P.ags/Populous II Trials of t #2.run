@@ -1,6 +1,0 @@
-cd "A-Games:P/Populous2&ChallengeGames/"
-IF $whdloadargs EQ ""
-  whdload "ChallengeGames.slave"
-ELSE
-  whdload "ChallengeGames.slave" $whdloadargs
-ENDIF

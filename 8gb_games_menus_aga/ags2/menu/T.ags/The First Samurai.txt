@@ -1,5 +1,0 @@
-Name      : The First Samurai
-Publisher : Image Works
-Year      : 1991
-Players   : 1
-Whdload   : FirstSamurai.Slave

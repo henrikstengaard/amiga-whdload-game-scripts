@@ -1,4 +1,0 @@
-Name    : The Complete
-Groups  : Talent
-Type    : Musicdisk
-Whdload : Complete.Slave

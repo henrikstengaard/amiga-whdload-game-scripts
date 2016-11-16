@@ -1,6 +1,0 @@
-cd "A-Games:K/KickOff2CV/"
-IF $whdloadargs EQ ""
-  whdload "KickOff2CV.slave"
-ELSE
-  whdload "KickOff2CV.slave" $whdloadargs
-ENDIF

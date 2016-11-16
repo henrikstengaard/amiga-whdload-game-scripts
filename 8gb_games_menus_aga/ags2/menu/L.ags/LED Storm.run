@@ -1,6 +1,0 @@
-cd "A-Games:L/LEDStorm/"
-IF $whdloadargs EQ ""
-  whdload "LEDStorm.Slave"
-ELSE
-  whdload "LEDStorm.Slave" $whdloadargs
-ENDIF

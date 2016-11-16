@@ -1,6 +1,0 @@
-cd "A-Games2:R/RobinHoodLegendQuest/"
-IF $whdloadargs EQ ""
-  whdload "RobinHoodLegendQuest.slave"
-ELSE
-  whdload "RobinHoodLegendQuest.slave" $whdloadargs
-ENDIF

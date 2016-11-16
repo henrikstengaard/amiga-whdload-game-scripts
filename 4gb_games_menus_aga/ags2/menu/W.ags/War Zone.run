@@ -1,6 +1,0 @@
-cd "A-Games2:W/WarZoneCore/"
-IF $whdloadargs EQ ""
-  whdload "WarZoneCore.Slave"
-ELSE
-  whdload "WarZoneCore.Slave" $whdloadargs
-ENDIF

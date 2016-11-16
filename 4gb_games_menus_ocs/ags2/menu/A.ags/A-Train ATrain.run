@@ -1,6 +1,0 @@
-cd "A-Games1:A/ATrain&ConstructionSet/"
-IF $whdloadargs EQ ""
-  whdload "ATrain.Slave"
-ELSE
-  whdload "ATrain.Slave" $whdloadargs
-ENDIF

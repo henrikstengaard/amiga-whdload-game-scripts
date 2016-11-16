@@ -1,6 +1,0 @@
-cd "A-Games2:S/SevenCitiesOfGold/"
-IF $whdloadargs EQ ""
-  whdload "SevenCitiesOfGold.slave"
-ELSE
-  whdload "SevenCitiesOfGold.slave" $whdloadargs
-ENDIF

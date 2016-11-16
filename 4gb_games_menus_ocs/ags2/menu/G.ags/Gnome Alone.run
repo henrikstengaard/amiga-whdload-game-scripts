@@ -1,6 +1,0 @@
-cd "A-Games1:G/GnomeAlone/"
-IF $whdloadargs EQ ""
-  whdload "GnomeAlone.Slave"
-ELSE
-  whdload "GnomeAlone.Slave" $whdloadargs
-ENDIF

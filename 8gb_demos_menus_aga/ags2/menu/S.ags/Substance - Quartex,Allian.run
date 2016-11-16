@@ -1,6 +1,0 @@
-cd "A-Demos:S/Substance/"
-IF $whdloadargs EQ ""
-  whdload "Substance.Slave"
-ELSE
-  whdload "Substance.Slave" $whdloadargs
-ENDIF

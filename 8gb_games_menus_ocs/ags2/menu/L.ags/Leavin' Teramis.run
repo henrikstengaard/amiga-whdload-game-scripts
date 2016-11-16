@@ -1,6 +1,0 @@
-cd "A-Games:L/LeavinTeramis/"
-IF $whdloadargs EQ ""
-  whdload "LeavinTeramis.Slave"
-ELSE
-  whdload "LeavinTeramis.Slave" $whdloadargs
-ENDIF

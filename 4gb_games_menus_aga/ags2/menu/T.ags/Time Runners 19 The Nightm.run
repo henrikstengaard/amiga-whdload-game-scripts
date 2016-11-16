@@ -1,6 +1,0 @@
-cd "A-Games2:T/TimeRunners19/"
-IF $whdloadargs EQ ""
-  whdload "TimeRunners19.Slave"
-ELSE
-  whdload "TimeRunners19.Slave" $whdloadargs
-ENDIF

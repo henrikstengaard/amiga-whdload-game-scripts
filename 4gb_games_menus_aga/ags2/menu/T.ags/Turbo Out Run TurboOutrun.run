@@ -1,6 +1,0 @@
-cd "A-Games2:T/TurboOutRun/"
-IF $whdloadargs EQ ""
-  whdload "TurboOutrun.slave"
-ELSE
-  whdload "TurboOutrun.slave" $whdloadargs
-ENDIF

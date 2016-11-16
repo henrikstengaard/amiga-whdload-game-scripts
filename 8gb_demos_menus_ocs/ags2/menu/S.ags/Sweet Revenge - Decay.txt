@@ -1,4 +1,0 @@
-Name    : Sweet Revenge
-Groups  : Decay
-Type    : Demo
-Whdload : SweetRevenge.Slave

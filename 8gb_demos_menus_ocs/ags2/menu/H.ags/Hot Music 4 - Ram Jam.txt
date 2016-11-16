@@ -1,4 +1,0 @@
-Name    : Hot Music 4
-Groups  : Ram Jam
-Type    : Musicdisk
-Whdload : HotMusic4.Slave

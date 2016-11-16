@@ -1,6 +1,0 @@
-cd "A-Games1:M/MeanArenas/"
-IF $whdloadargs EQ ""
-  whdload "MeanArenas.slave"
-ELSE
-  whdload "MeanArenas.slave" $whdloadargs
-ENDIF

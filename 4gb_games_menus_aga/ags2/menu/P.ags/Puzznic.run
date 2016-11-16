@@ -1,6 +1,0 @@
-cd "A-Games2:P/Puzznic/"
-IF $whdloadargs EQ ""
-  whdload "Puzznic.Slave"
-ELSE
-  whdload "Puzznic.Slave" $whdloadargs
-ENDIF

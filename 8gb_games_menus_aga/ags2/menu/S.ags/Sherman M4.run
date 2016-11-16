@@ -1,6 +1,0 @@
-cd "A-Games:S/ShermanM4/"
-IF $whdloadargs EQ ""
-  whdload "ShermanM4.slave"
-ELSE
-  whdload "ShermanM4.slave" $whdloadargs
-ENDIF

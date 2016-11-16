@@ -1,6 +1,0 @@
-cd "A-Games2:S/SpaceQuest3/"
-IF $whdloadargs EQ ""
-  whdload "SpaceQuest3.slave"
-ELSE
-  whdload "SpaceQuest3.slave" $whdloadargs
-ENDIF

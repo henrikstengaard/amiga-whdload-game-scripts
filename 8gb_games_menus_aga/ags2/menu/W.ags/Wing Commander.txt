@@ -1,5 +1,0 @@
-Name      : Wing Commander
-Publisher : Origin Systems
-Year      : 1992
-Players   : 1 Only
-Whdload   : WingCommanderCD32.Slave

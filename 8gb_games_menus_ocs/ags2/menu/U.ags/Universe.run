@@ -1,6 +1,0 @@
-cd "A-Games:U/Universe/"
-IF $whdloadargs EQ ""
-  whdload "Universe.Slave"
-ELSE
-  whdload "Universe.Slave" $whdloadargs
-ENDIF

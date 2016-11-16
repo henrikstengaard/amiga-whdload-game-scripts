@@ -1,6 +1,0 @@
-cd "A-Games:D/DragonScape/"
-IF $whdloadargs EQ ""
-  whdload "DragonScape.slave"
-ELSE
-  whdload "DragonScape.slave" $whdloadargs
-ENDIF

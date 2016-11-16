@@ -1,6 +1,0 @@
-cd "A-Games2:S/Spacecutter/"
-IF $whdloadargs EQ ""
-  whdload "Spacecutter.Slave"
-ELSE
-  whdload "Spacecutter.Slave" $whdloadargs
-ENDIF

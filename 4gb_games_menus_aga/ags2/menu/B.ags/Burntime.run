@@ -1,6 +1,0 @@
-cd "A-Games1:B/BurntimeAGA/"
-IF $whdloadargs EQ ""
-  whdload "BurntimeAGA.Slave"
-ELSE
-  whdload "BurntimeAGA.Slave" $whdloadargs
-ENDIF

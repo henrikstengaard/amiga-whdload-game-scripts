@@ -1,4 +1,0 @@
-Name    : Art of Noise 3
-Groups  : Northtech
-Type    : Musicdisk
-Whdload : ArtOfNoise3.Slave

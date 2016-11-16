@@ -1,6 +1,0 @@
-cd "A-Games2:M/MUDS/"
-IF $whdloadargs EQ ""
-  whdload "MUDS.slave"
-ELSE
-  whdload "MUDS.slave" $whdloadargs
-ENDIF

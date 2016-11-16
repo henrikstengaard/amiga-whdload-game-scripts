@@ -1,4 +1,0 @@
-Name    : 2d
-Groups  : Remedy (amiga)
-Type    : Demo
-Whdload : 2D.Slave

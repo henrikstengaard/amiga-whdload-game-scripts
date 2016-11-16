@@ -1,6 +1,0 @@
-cd "A-Games:L/LostVikingsCD32/"
-IF $whdloadargs EQ ""
-  whdload "LostVikingsCD32.slave"
-ELSE
-  whdload "LostVikingsCD32.slave" $whdloadargs
-ENDIF

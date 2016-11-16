@@ -1,6 +1,0 @@
-cd "A-Games2:Q/Quadralien/"
-IF $whdloadargs EQ ""
-  whdload "Quadralien.slave"
-ELSE
-  whdload "Quadralien.slave" $whdloadargs
-ENDIF

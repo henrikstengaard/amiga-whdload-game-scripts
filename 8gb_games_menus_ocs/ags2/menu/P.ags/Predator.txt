@@ -1,5 +1,0 @@
-Name      : Predator
-Publisher : Activision
-Year      : 1989
-Players   : 1 Only
-Whdload   : Predator.Slave

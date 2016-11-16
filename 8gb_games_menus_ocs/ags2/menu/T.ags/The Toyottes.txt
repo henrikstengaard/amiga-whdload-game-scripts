@@ -1,5 +1,0 @@
-Name      : The Toyottes
-Publisher : Infogrames
-Year      : 1990
-Players   : 1 - 2 (1 simultaneous)
-Whdload   : ToyottesImage.Slave

@@ -1,6 +1,0 @@
-cd "A-Games1:H/HardNHeavy/"
-IF $whdloadargs EQ ""
-  whdload "HardNHeavy.Slave"
-ELSE
-  whdload "HardNHeavy.Slave" $whdloadargs
-ENDIF

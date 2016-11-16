@@ -1,6 +1,0 @@
-cd "A-Games:G/GadgetLostInTime/"
-IF $whdloadargs EQ ""
-  whdload "GadgetLostInTime.slave"
-ELSE
-  whdload "GadgetLostInTime.slave" $whdloadargs
-ENDIF

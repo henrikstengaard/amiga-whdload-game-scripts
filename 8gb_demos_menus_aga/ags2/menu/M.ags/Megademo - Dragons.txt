@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Dragons
-Type    : Demo
-Whdload : MegaDemoDragons.Slave

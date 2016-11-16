@@ -1,6 +1,0 @@
-cd "A-Games:S/SuperTetris/"
-IF $whdloadargs EQ ""
-  whdload "SuperTetris.Slave"
-ELSE
-  whdload "SuperTetris.Slave" $whdloadargs
-ENDIF

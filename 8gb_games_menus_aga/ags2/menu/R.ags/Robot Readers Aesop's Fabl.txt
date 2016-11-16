@@ -1,5 +1,0 @@
-Name      : Robot Readers: Aesop's Fables
-Publisher : Hilton Android
-Year      : 1987
-Players   : 1
-Whdload   : RobotReaderAesopsFables.Slave

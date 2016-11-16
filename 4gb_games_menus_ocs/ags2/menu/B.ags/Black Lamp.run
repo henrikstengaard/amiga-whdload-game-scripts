@@ -1,6 +1,0 @@
-cd "A-Games1:B/BlackLamp/"
-IF $whdloadargs EQ ""
-  whdload "BlackLamp.Slave"
-ELSE
-  whdload "BlackLamp.Slave" $whdloadargs
-ENDIF

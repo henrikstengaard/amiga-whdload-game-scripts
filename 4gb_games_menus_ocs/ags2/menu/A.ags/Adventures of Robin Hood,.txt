@@ -1,6 +1,0 @@
-Name      : Adventures of Robin Hood, The
-Publisher : Millennium
-Year      : 1991
-Genre     : Adventure - Isometric 3D
-Players   : 1 Only
-Whdload   : AdventuresOfRobinHood.slave

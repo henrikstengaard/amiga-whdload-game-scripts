@@ -1,6 +1,0 @@
-cd "A-Games2:W/WindowWizardImage/"
-IF $whdloadargs EQ ""
-  whdload "WindowWizardImage.Slave"
-ELSE
-  whdload "WindowWizardImage.Slave" $whdloadargs
-ENDIF

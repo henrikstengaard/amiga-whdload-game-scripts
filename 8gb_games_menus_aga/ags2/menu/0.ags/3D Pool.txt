@@ -1,6 +1,0 @@
-Name      : 3D Pool
-Publisher : Firebird
-Year      : 1989
-Genre     : Sports - Snooker/Pool
-Players   : 1 or 2
-Whdload   : 3DPool.Slave

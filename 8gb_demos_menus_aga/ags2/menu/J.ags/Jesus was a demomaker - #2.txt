@@ -1,6 +1,0 @@
-Name    : Jesus was a demomaker
-Groups  : Ramses
-Type    : Demo
-Party   : Euskal 1998
-Rank    : 1st
-Whdload : JesusWasADemomakerAGA.Slave

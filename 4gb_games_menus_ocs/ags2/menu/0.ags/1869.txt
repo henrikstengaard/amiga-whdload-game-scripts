@@ -1,5 +1,0 @@
-Name      : 1869
-Publisher : Flair
-Year      : 1993
-Players   : 1 - 4 (1 simultaneous)
-Whdload   : 1869.Slave

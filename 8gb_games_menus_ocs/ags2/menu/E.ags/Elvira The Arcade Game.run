@@ -1,6 +1,0 @@
-cd "A-Games:E/ElviraArcade/"
-IF $whdloadargs EQ ""
-  whdload "ElviraArcade.Slave"
-ELSE
-  whdload "ElviraArcade.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:V/VirtualKartingAGA/"
-IF $whdloadargs EQ ""
-  whdload "VirtualKartingAGA.Slave"
-ELSE
-  whdload "VirtualKartingAGA.Slave" $whdloadargs
-ENDIF

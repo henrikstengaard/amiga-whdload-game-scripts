@@ -1,6 +1,0 @@
-cd "A-Games2:P/PinballIllusionsAGA/"
-IF $whdloadargs EQ ""
-  whdload "PinballIllusionsAGA.slave"
-ELSE
-  whdload "PinballIllusionsAGA.slave" $whdloadargs
-ENDIF

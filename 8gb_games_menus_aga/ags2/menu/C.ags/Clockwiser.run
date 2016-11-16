@@ -1,6 +1,0 @@
-cd "A-Games:C/ClockwiserCD32/"
-IF $whdloadargs EQ ""
-  whdload "ClockwiserCD32.Slave"
-ELSE
-  whdload "ClockwiserCD32.Slave" $whdloadargs
-ENDIF

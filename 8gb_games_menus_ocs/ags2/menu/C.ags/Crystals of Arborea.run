@@ -1,6 +1,0 @@
-cd "A-Games:C/CrystalsOfArborea/"
-IF $whdloadargs EQ ""
-  whdload "CrystalsOfArborea.Slave"
-ELSE
-  whdload "CrystalsOfArborea.Slave" $whdloadargs
-ENDIF

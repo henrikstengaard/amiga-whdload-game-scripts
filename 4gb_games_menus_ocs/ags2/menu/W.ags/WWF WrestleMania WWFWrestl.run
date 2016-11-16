@@ -1,6 +1,0 @@
-cd "A-Games2:W/WWFWrestleMania/"
-IF $whdloadargs EQ ""
-  whdload "WWFWrestlemania.slave"
-ELSE
-  whdload "WWFWrestlemania.slave" $whdloadargs
-ENDIF

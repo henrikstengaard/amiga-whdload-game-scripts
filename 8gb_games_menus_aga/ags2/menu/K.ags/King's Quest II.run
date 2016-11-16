@@ -1,6 +1,0 @@
-cd "A-Games:K/KingsQuest2/"
-IF $whdloadargs EQ ""
-  whdload "KingsQuest2.slave"
-ELSE
-  whdload "KingsQuest2.slave" $whdloadargs
-ENDIF

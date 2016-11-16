@@ -1,6 +1,0 @@
-cd "A-Demos:0-9/100MostRememberedC64Tunes/"
-IF $whdloadargs EQ ""
-  whdload "100MostRememberedC64Tunes.Slave"
-ELSE
-  whdload "100MostRememberedC64Tunes.Slave" $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : The Lost Vikings
-Publisher : Interplay
-Year      : 1993
-Players   : 1
-Whdload   : LostVikingsCD32.slave

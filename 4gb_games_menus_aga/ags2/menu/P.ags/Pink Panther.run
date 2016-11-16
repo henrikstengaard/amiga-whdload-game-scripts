@@ -1,6 +1,0 @@
-cd "A-Games2:P/PinkPanther/"
-IF $whdloadargs EQ ""
-  whdload "PinkPanther.slave"
-ELSE
-  whdload "PinkPanther.slave" $whdloadargs
-ENDIF

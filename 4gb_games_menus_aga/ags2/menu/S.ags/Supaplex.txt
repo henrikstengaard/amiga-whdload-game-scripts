@@ -1,6 +1,0 @@
-Name      : Supaplex
-Publisher : Dream Factory
-Year      : 1991
-Genre     : Arcade - Boulder Dash
-Players   : 1 Only
-Whdload   : Supaplex.Slave

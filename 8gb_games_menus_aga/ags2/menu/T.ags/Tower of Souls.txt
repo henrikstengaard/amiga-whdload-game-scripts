@@ -1,6 +1,0 @@
-Name      : Tower of Souls
-Publisher : Black Legend
-Year      : 1995
-Genre     : Adventure - RPG 3D
-Players   : 1 Only
-Whdload   : TowerOfSoulsAGA.Slave

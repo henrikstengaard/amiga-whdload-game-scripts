@@ -1,4 +1,0 @@
-Name    : Smau 92 Music Disk
-Groups  : Nightfall
-Type    : Musicdisk
-Whdload : Smau92MusicDisk.Slave

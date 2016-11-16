@@ -1,6 +1,0 @@
-cd "A-Games:0-9/1000ccTurbo/"
-IF $whdloadargs EQ ""
-  whdload "1000ccTurbo.Slave"
-ELSE
-  whdload "1000ccTurbo.Slave" $whdloadargs
-ENDIF

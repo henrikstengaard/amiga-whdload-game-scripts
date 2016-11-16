@@ -1,5 +1,0 @@
-Name      : Viz
-Publisher : Virgin Mastertronic
-Year      : 1991
-Players   : 1
-Whdload   : Viz.Slave

@@ -1,6 +1,0 @@
-cd "A-Games1:M/MythHistoryInTheMaking/"
-IF $whdloadargs EQ ""
-  whdload "MythHistoryInTheMaking.Slave"
-ELSE
-  whdload "MythHistoryInTheMaking.Slave" $whdloadargs
-ENDIF

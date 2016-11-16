@@ -1,5 +1,0 @@
-Name      : Suburban Commando
-Publisher : Alternative Software
-Year      : 1993
-Players   : 1 Only
-Whdload   : SuburbanCommando.Slave

@@ -1,6 +1,0 @@
-cd "A-Games2:T/TestDrive/"
-IF $whdloadargs EQ ""
-  whdload "TestDrive.slave"
-ELSE
-  whdload "TestDrive.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Demos:W/WorldOfCommodoreAltVer/"
-IF $whdloadargs EQ ""
-  whdload "WorldOfCommodoreAltVer.Slave"
-ELSE
-  whdload "WorldOfCommodoreAltVer.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:Q/QuestForGlory/"
-IF $whdloadargs EQ ""
-  whdload "QuestForGlory.slave"
-ELSE
-  whdload "QuestForGlory.slave" $whdloadargs
-ENDIF

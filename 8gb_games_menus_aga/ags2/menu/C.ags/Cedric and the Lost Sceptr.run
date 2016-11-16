@@ -1,6 +1,0 @@
-cd "A-Games:C/CedricCD32/"
-IF $whdloadargs EQ ""
-  whdload "CedricCD32.Slave"
-ELSE
-  whdload "CedricCD32.Slave" $whdloadargs
-ENDIF

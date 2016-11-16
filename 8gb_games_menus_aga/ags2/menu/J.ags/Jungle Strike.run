@@ -1,6 +1,0 @@
-cd "A-Games:J/JungleStrikeCD32/"
-IF $whdloadargs EQ ""
-  whdload "JungleStrikeCD32.Slave"
-ELSE
-  whdload "JungleStrikeCD32.Slave" $whdloadargs
-ENDIF

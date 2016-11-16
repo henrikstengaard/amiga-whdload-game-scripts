@@ -1,6 +1,0 @@
-Name    : Blue house 2
-Groups  : Rebels
-Type    : Demo
-Party   : The Party 1991
-Rank    : N/a
-Whdload : BlueHouse2.Slave

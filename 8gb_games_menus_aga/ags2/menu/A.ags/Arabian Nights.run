@@ -1,6 +1,0 @@
-cd "A-Games:A/ArabianNightsCD32/"
-IF $whdloadargs EQ ""
-  whdload "ArabianNightsCD32.Slave"
-ELSE
-  whdload "ArabianNightsCD32.Slave" $whdloadargs
-ENDIF

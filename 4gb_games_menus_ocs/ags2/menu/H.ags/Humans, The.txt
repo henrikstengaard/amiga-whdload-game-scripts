@@ -1,5 +1,0 @@
-Name      : Humans, The
-Publisher : Mirage
-Year      : 1992
-Genre     : Arcade - Miscellaneous
-Whdload   : Humans.slave

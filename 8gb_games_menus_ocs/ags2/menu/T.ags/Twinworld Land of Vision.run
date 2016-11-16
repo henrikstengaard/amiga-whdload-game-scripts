@@ -1,6 +1,0 @@
-cd "A-Games:T/TwinWorld/"
-IF $whdloadargs EQ ""
-  whdload "TwinWorld.slave"
-ELSE
-  whdload "TwinWorld.slave" $whdloadargs
-ENDIF

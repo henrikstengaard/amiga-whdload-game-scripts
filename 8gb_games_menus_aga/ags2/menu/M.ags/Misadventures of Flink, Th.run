@@ -1,6 +1,0 @@
-cd "A-Games:F/FlinkCD32/"
-IF $whdloadargs EQ ""
-  whdload "FlinkCD32.Slave"
-ELSE
-  whdload "FlinkCD32.Slave" $whdloadargs
-ENDIF

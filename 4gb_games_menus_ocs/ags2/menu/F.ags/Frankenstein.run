@@ -1,6 +1,0 @@
-cd "A-Games1:F/Frankenstein/"
-IF $whdloadargs EQ ""
-  whdload "Frankenstein.slave"
-ELSE
-  whdload "Frankenstein.slave" $whdloadargs
-ENDIF

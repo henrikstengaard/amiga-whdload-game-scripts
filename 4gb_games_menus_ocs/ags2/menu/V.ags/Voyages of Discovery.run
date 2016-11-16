@@ -1,6 +1,0 @@
-cd "A-Games2:V/VoyagesOfDiscovery/"
-IF $whdloadargs EQ ""
-  whdload "VoyagesOfDiscovery.slave"
-ELSE
-  whdload "VoyagesOfDiscovery.slave" $whdloadargs
-ENDIF

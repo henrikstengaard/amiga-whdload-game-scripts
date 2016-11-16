@@ -1,6 +1,0 @@
-cd "A-Games1:M/ManicMiner/"
-IF $whdloadargs EQ ""
-  whdload "ManicMiner.slave"
-ELSE
-  whdload "ManicMiner.slave" $whdloadargs
-ENDIF

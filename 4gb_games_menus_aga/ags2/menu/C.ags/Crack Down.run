@@ -1,6 +1,0 @@
-cd "A-Games1:C/CrackDown/"
-IF $whdloadargs EQ ""
-  whdload "CrackDown.Slave"
-ELSE
-  whdload "CrackDown.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:S/StarWars/"
-IF $whdloadargs EQ ""
-  whdload "StarWars.slave"
-ELSE
-  whdload "StarWars.slave" $whdloadargs
-ENDIF

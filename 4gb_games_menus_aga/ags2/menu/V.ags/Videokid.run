@@ -1,6 +1,0 @@
-cd "A-Games2:V/VideoKid/"
-IF $whdloadargs EQ ""
-  whdload "VideoKid.slave"
-ELSE
-  whdload "VideoKid.slave" $whdloadargs
-ENDIF

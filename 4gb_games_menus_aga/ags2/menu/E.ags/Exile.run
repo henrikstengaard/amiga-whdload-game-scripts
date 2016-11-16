@@ -1,6 +1,0 @@
-cd "A-Games1:E/Exile/"
-IF $whdloadargs EQ ""
-  whdload "Exile.Slave"
-ELSE
-  whdload "Exile.Slave" $whdloadargs
-ENDIF

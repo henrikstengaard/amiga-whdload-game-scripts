@@ -1,6 +1,0 @@
-cd "A-Games2:V/VenusTheFlytrap/"
-IF $whdloadargs EQ ""
-  whdload "VenusTheFlytrap.Slave"
-ELSE
-  whdload "VenusTheFlytrap.Slave" $whdloadargs
-ENDIF

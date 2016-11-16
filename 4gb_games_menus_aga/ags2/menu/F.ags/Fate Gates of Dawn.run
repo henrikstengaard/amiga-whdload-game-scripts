@@ -1,6 +1,0 @@
-cd "A-Games1:F/FateGatesOfDawn/"
-IF $whdloadargs EQ ""
-  whdload "FateGatesOfDawn.Slave"
-ELSE
-  whdload "FateGatesOfDawn.Slave" $whdloadargs
-ENDIF

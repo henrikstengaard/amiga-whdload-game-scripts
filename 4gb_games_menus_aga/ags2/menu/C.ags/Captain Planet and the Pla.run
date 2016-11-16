@@ -1,6 +1,0 @@
-cd "A-Games1:C/CaptainPlanet&Planeteers/"
-IF $whdloadargs EQ ""
-  whdload "CaptainPlanet&Planeteers.Slave"
-ELSE
-  whdload "CaptainPlanet&Planeteers.Slave" $whdloadargs
-ENDIF

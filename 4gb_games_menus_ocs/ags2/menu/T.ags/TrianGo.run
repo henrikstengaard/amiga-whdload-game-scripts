@@ -1,6 +1,0 @@
-cd "A-Games2:T/TrianGO/"
-IF $whdloadargs EQ ""
-  whdload "TrianGO.Slave"
-ELSE
-  whdload "TrianGO.Slave" $whdloadargs
-ENDIF

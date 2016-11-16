@@ -1,6 +1,0 @@
-cd "A-Games2:S/Sarakon/"
-IF $whdloadargs EQ ""
-  whdload "Sarakon.slave"
-ELSE
-  whdload "Sarakon.slave" $whdloadargs
-ENDIF

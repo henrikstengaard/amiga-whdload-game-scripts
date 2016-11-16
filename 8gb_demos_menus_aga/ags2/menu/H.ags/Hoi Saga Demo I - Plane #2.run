@@ -1,6 +1,0 @@
-cd "A-Demos:P/PlanetGrooveAGA/"
-IF $whdloadargs EQ ""
-  whdload "PlanetGrooveAGA.slave"
-ELSE
-  whdload "PlanetGrooveAGA.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:F/FantasticDizzy/"
-IF $whdloadargs EQ ""
-  whdload "FantasticDizzy.slave"
-ELSE
-  whdload "FantasticDizzy.slave" $whdloadargs
-ENDIF

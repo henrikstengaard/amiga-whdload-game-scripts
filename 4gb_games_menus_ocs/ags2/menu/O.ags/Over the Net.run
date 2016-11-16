@@ -1,6 +1,0 @@
-cd "A-Games2:O/OverTheNet/"
-IF $whdloadargs EQ ""
-  whdload "OverTheNet.Slave"
-ELSE
-  whdload "OverTheNet.Slave" $whdloadargs
-ENDIF

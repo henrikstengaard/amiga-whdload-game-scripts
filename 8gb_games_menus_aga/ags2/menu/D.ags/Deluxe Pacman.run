@@ -1,6 +1,0 @@
-cd "A-Games:D/DeluxePacmanAGA/"
-IF $whdloadargs EQ ""
-  whdload "DeluxePacmanAGA.Slave"
-ELSE
-  whdload "DeluxePacmanAGA.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:P/PuttyCD32/"
-IF $whdloadargs EQ ""
-  whdload "PuttyCD32.Slave"
-ELSE
-  whdload "PuttyCD32.Slave" $whdloadargs
-ENDIF

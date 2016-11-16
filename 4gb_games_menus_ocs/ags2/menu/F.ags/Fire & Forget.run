@@ -1,6 +1,0 @@
-cd "A-Games1:F/Fire&Forget/"
-IF $whdloadargs EQ ""
-  whdload "Fire&Forget.Slave"
-ELSE
-  whdload "Fire&Forget.Slave" $whdloadargs
-ENDIF

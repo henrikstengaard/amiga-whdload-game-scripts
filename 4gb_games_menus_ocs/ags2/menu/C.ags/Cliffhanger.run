@@ -1,6 +1,0 @@
-cd "A-Games1:C/Cliffhanger/"
-IF $whdloadargs EQ ""
-  whdload "Cliffhanger.slave"
-ELSE
-  whdload "Cliffhanger.slave" $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Epilepsia
-Groups  : Amnesia
-Type    : Musicdisk
-Whdload : Epilepsia.Slave

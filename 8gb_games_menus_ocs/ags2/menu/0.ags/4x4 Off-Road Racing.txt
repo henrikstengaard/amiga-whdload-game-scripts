@@ -1,6 +1,0 @@
-Name      : 4x4 Off-Road Racing
-Publisher : Epyx
-Year      : 1988
-Genre     : Racing - Cars
-Players   : 1 Only
-Whdload   : 4x4OffRoadRacing.Slave

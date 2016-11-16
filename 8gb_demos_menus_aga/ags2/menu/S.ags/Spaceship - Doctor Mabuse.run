@@ -1,6 +1,0 @@
-cd "A-Demos:S/Spaceship/"
-IF $whdloadargs EQ ""
-  whdload "Spaceship.Slave"
-ELSE
-  whdload "Spaceship.Slave" $whdloadargs
-ENDIF

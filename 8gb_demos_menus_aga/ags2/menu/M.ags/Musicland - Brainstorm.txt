@@ -1,4 +1,0 @@
-Name    : Musicland
-Groups  : Brainstorm
-Type    : Musicdisk
-Whdload : Musicland.Slave

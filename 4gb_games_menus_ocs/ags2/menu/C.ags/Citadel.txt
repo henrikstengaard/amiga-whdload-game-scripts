@@ -1,5 +1,0 @@
-Name      : Citadel
-Publisher : Black Legend
-Year      : 1995
-Players   : 1 Only
-Whdload   : Citadel.slave

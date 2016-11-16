@@ -1,6 +1,0 @@
-cd "A-Games1:M/MPythonsFlyingCircus/"
-IF $whdloadargs EQ ""
-  whdload "MPythonsFlyingCircus.Slave"
-ELSE
-  whdload "MPythonsFlyingCircus.Slave" $whdloadargs
-ENDIF

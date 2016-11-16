@@ -1,5 +1,0 @@
-Name      : The Speris Legacy
-Publisher : Ocean / Team 17
-Year      : 1995
-Players   : 1
-Whdload   : SperisLegacyCD32.Slave

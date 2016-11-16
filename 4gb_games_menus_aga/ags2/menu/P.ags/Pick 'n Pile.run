@@ -1,6 +1,0 @@
-cd "A-Games2:P/PickNPile/"
-IF $whdloadargs EQ ""
-  whdload "PickNPile.Slave"
-ELSE
-  whdload "PickNPile.Slave" $whdloadargs
-ENDIF

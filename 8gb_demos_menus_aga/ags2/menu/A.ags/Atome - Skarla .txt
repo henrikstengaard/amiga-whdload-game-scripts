@@ -1,6 +1,0 @@
-Name    : Atome
-Groups  : Skarla
-Type    : Demo
-Party   : Saturne 1996
-Rank    : 1st
-Whdload : AtomeAGA.Slave

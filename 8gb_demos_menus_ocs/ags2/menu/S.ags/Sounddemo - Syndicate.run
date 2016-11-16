@@ -1,6 +1,0 @@
-cd "A-Demos:S/SoundDemoSyndicate/"
-IF $whdloadargs EQ ""
-  whdload "SoundDemoSyndicate.Slave"
-ELSE
-  whdload "SoundDemoSyndicate.Slave" $whdloadargs
-ENDIF

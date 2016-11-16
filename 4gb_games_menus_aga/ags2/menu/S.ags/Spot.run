@@ -1,6 +1,0 @@
-cd "A-Games2:S/Spot/"
-IF $whdloadargs EQ ""
-  whdload "Spot.Slave"
-ELSE
-  whdload "Spot.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:K/KickOff2ReturnToEurope/"
-IF $whdloadargs EQ ""
-  whdload "KickOff2ReturnToEurope.slave"
-ELSE
-  whdload "KickOff2ReturnToEurope.slave" $whdloadargs
-ENDIF

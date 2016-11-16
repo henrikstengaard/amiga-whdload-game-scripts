@@ -1,6 +1,0 @@
-cd "A-Games:M/MagicFly512KB/"
-IF $whdloadargs EQ ""
-  whdload "MagicFly512KB.Slave"
-ELSE
-  whdload "MagicFly512KB.Slave" $whdloadargs
-ENDIF

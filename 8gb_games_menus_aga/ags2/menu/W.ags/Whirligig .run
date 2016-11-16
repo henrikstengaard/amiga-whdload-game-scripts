@@ -1,6 +1,0 @@
-cd "A-Games:W/WhirligigCracked/"
-IF $whdloadargs EQ ""
-  whdload "WhirligigCracked.Slave"
-ELSE
-  whdload "WhirligigCracked.Slave" $whdloadargs
-ENDIF

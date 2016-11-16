@@ -1,6 +1,0 @@
-cd "A-Games1:I/IndianaJonesTempleOfDoom/"
-IF $whdloadargs EQ ""
-  whdload "IndianaJonesTempleOfDoom.slave"
-ELSE
-  whdload "IndianaJonesTempleOfDoom.slave" $whdloadargs
-ENDIF

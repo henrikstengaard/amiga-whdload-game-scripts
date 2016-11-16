@@ -1,6 +1,0 @@
-cd "A-Demos:W/WindItUp/"
-IF $whdloadargs EQ ""
-  whdload "WindItUp.Slave"
-ELSE
-  whdload "WindItUp.Slave" $whdloadargs
-ENDIF

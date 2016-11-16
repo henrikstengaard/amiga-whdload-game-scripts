@@ -1,6 +1,0 @@
-cd "A-Games2:P/Powerplay/"
-IF $whdloadargs EQ ""
-  whdload "Powerplay.Slave"
-ELSE
-  whdload "Powerplay.Slave" $whdloadargs
-ENDIF

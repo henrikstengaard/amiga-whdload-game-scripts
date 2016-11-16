@@ -1,5 +1,0 @@
-Name      : ESWAT
-Publisher : U.S. Gold
-Year      : 1991
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : ESWAT.Slave

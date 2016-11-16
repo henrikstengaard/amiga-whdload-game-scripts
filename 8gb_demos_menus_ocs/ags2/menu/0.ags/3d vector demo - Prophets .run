@@ -1,6 +1,0 @@
-cd "A-Demos:V/VectorDemoProphetsAG/"
-IF $whdloadargs EQ ""
-  whdload "VectorDemoProphetsAG.Slave"
-ELSE
-  whdload "VectorDemoProphetsAG.Slave" $whdloadargs
-ENDIF

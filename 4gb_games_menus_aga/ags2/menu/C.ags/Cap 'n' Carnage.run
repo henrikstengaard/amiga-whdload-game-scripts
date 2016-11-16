@@ -1,6 +1,0 @@
-cd "A-Games1:C/CapNCarnage/"
-IF $whdloadargs EQ ""
-  whdload "CapNCarnage.slave"
-ELSE
-  whdload "CapNCarnage.slave" $whdloadargs
-ENDIF

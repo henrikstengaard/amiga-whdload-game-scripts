@@ -1,6 +1,0 @@
-Name    : Kefmania
-Groups  : Cult
-Type    : Demo
-Party   : The Party 1992
-Rank    : 7th
-Whdload : Kefmania.Slave

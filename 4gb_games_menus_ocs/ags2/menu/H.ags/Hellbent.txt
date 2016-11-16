@@ -1,5 +1,0 @@
-Name      : Hellbent
-Publisher : Novagen
-Year      : 1988
-Players   : 1 Only
-Whdload   : Hellbent.Slave

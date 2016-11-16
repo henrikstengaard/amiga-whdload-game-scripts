@@ -1,6 +1,0 @@
-cd "A-Games:D/DragonsLairEscapeFast/"
-IF $whdloadargs EQ ""
-  whdload "DragonsLairEscapeFast.slave"
-ELSE
-  whdload "DragonsLairEscapeFast.slave" $whdloadargs
-ENDIF

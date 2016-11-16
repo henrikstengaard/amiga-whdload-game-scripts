@@ -1,5 +1,0 @@
-Name      : Pinomania
-Publisher : Mirage Media
-Year      : 1994
-Players   : 1
-Whdload   : Pinomania.Slave

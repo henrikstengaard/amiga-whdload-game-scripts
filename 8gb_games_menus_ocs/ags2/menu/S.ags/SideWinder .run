@@ -1,6 +1,0 @@
-cd "A-Games:S/SideWinderArcadia/"
-IF $whdloadargs EQ ""
-  whdload "SideWinderArcadia.Slave"
-ELSE
-  whdload "SideWinderArcadia.Slave" $whdloadargs
-ENDIF

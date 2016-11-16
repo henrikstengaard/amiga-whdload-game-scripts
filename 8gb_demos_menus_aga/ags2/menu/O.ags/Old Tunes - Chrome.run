@@ -1,6 +1,0 @@
-cd "A-Demos:O/OldTunes/"
-IF $whdloadargs EQ ""
-  whdload "OldTunes.Slave"
-ELSE
-  whdload "OldTunes.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Demos:B/Baygon/"
-IF $whdloadargs EQ ""
-  whdload "Baygon.Slave"
-ELSE
-  whdload "Baygon.Slave" $whdloadargs
-ENDIF

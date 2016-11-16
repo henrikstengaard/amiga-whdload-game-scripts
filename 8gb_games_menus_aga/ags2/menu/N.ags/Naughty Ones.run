@@ -1,6 +1,0 @@
-cd "A-Games:N/NaughtyOnesCD32/"
-IF $whdloadargs EQ ""
-  whdload "NaughtyOnesCD32.Slave"
-ELSE
-  whdload "NaughtyOnesCD32.Slave" $whdloadargs
-ENDIF

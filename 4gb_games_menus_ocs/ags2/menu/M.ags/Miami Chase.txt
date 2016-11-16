@@ -1,6 +1,0 @@
-Name      : Miami Chase
-Publisher : Codemasters
-Year      : 1990
-Genre     : Racing - Overhead
-Players   : 1 or 2
-Whdload   : MiamiChase.Slave

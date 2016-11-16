@@ -1,5 +1,0 @@
-Name      : Street Gang
-Publisher : Rainbow Arts
-Year      : 1988
-Players   : 1 Only
-Whdload   : StreetGang.slave

@@ -1,6 +1,0 @@
-cd "A-Games1:F/FormulaOneGrandPrix3Disk/"
-IF $whdloadargs EQ ""
-  whdload "FormulaOneGrandPrix3Disk.Slave"
-ELSE
-  whdload "FormulaOneGrandPrix3Disk.Slave" $whdloadargs
-ENDIF

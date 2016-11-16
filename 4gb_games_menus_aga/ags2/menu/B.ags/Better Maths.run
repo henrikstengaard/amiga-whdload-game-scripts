@@ -1,6 +1,0 @@
-cd "A-Games1:B/BetterMaths/"
-IF $whdloadargs EQ ""
-  whdload "BetterMaths.Slave"
-ELSE
-  whdload "BetterMaths.Slave" $whdloadargs
-ENDIF

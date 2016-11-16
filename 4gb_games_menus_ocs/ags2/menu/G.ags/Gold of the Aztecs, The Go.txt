@@ -1,6 +1,0 @@
-Name      : Gold of the Aztecs, The
-Publisher : US Gold
-Year      : 1990
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : GoldOfTheAztecs(v1.1).Slave

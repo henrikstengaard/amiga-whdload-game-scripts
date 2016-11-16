@@ -1,6 +1,0 @@
-cd "A-Demos:C/Colors/"
-IF $whdloadargs EQ ""
-  whdload "Colors.Slave"
-ELSE
-  whdload "Colors.Slave" $whdloadargs
-ENDIF

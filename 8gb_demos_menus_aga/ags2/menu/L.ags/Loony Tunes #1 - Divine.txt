@@ -1,4 +1,0 @@
-Name    : Loony Tunes #1
-Groups  : Divine
-Type    : Musicdisk
-Whdload : LoonyTunes.Slave

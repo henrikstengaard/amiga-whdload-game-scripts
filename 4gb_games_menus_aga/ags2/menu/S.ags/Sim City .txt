@@ -1,6 +1,0 @@
-Name      : Sim City
-Publisher : Infogrames
-Year      : 1989
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : SimCity512K.Slave

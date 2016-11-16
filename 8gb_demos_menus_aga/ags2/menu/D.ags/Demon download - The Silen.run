@@ -1,6 +1,0 @@
-cd "A-Demos:D/DemonDownload/"
-IF $whdloadargs EQ ""
-  whdload "DemonDownload.Slave"
-ELSE
-  whdload "DemonDownload.Slave" $whdloadargs
-ENDIF

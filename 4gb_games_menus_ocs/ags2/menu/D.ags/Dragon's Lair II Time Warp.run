@@ -1,6 +1,0 @@
-cd "A-Games1:D/DragonsLair2/"
-IF $whdloadargs EQ ""
-  whdload "DragonsLair2.Slave"
-ELSE
-  whdload "DragonsLair2.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Dennis
-Publisher : Ocean
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : DennisCD32.slave

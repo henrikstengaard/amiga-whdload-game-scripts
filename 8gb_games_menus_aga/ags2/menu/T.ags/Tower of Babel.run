@@ -1,6 +1,0 @@
-cd "A-Games:T/TowerOfBabel/"
-IF $whdloadargs EQ ""
-  whdload "TowerOfBabel.slave"
-ELSE
-  whdload "TowerOfBabel.slave" $whdloadargs
-ENDIF

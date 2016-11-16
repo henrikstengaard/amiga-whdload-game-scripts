@@ -1,6 +1,0 @@
-Name      : Jump'n Roll
-Publisher : Amiga Fun
-Year      : 1990
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : JumpNRoll.Slave

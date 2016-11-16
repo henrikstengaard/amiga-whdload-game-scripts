@@ -1,6 +1,0 @@
-cd "A-Games2:T/TheirFinestHour&Missions/"
-IF $whdloadargs EQ ""
-  whdload "TheirFinestHour&Missions.Slave"
-ELSE
-  whdload "TheirFinestHour&Missions.Slave" $whdloadargs
-ENDIF

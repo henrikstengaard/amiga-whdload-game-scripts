@@ -1,4 +1,0 @@
-Name    : Circle Scroller
-Groups  : United Forces
-Type    : Demo
-Whdload : CircleScroller.Slave

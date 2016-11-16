@@ -1,6 +1,0 @@
-cd "A-Games:H/HeadOverHeels/"
-IF $whdloadargs EQ ""
-  whdload "HeadOverHeels.slave"
-ELSE
-  whdload "HeadOverHeels.slave" $whdloadargs
-ENDIF

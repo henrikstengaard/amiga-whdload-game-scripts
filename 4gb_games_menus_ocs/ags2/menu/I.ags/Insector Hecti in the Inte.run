@@ -1,6 +1,0 @@
-cd "A-Games1:I/InsectorHectiInterChange/"
-IF $whdloadargs EQ ""
-  whdload "InsectorHectiInterChange.Slave"
-ELSE
-  whdload "InsectorHectiInterChange.Slave" $whdloadargs
-ENDIF

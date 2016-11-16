@@ -1,6 +1,0 @@
-cd "A-Games2:W/Wolfpack/"
-IF $whdloadargs EQ ""
-  whdload "Wolfpack.Slave"
-ELSE
-  whdload "Wolfpack.Slave" $whdloadargs
-ENDIF

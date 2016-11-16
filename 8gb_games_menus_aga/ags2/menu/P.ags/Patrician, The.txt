@@ -1,6 +1,0 @@
-Name      : Patrician, The
-Publisher : Ascon Software
-Year      : 1993
-Genre     : Strategy - Miscellaneous
-Players   : 1 to 4
-Whdload   : Patrician.slave

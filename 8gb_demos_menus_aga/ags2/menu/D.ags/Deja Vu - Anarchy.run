@@ -1,6 +1,0 @@
-cd "A-Demos:D/DejaVu/"
-IF $whdloadargs EQ ""
-  whdload "DejaVu.slave"
-ELSE
-  whdload "DejaVu.slave" $whdloadargs
-ENDIF

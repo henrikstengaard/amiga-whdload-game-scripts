@@ -1,6 +1,0 @@
-cd "A-Games:S/Shuffle/"
-IF $whdloadargs EQ ""
-  whdload "Shuffle.Slave"
-ELSE
-  whdload "Shuffle.Slave" $whdloadargs
-ENDIF

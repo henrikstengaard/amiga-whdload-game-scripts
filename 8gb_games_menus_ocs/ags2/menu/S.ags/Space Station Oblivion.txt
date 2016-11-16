@@ -1,5 +1,0 @@
-Name      : Space Station Oblivion
-Publisher : Epyx
-Year      : 1988
-Players   : 1
-Whdload   : SpaceStation.Slave

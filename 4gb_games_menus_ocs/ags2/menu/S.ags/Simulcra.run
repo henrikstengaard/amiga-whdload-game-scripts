@@ -1,6 +1,0 @@
-cd "A-Games2:S/Simulcra/"
-IF $whdloadargs EQ ""
-  whdload "Simulcra.Slave"
-ELSE
-  whdload "Simulcra.Slave" $whdloadargs
-ENDIF

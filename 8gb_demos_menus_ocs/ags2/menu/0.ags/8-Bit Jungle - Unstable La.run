@@ -1,6 +1,0 @@
-cd "A-Demos:0-9/8BitJungle/"
-IF $whdloadargs EQ ""
-  whdload "8BitJungle.Slave"
-ELSE
-  whdload "8BitJungle.Slave" $whdloadargs
-ENDIF

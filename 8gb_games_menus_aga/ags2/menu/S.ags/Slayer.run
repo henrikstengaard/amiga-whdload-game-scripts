@@ -1,6 +1,0 @@
-cd "A-Games:S/Slayer/"
-IF $whdloadargs EQ ""
-  whdload "Slayer.slave"
-ELSE
-  whdload "Slayer.slave" $whdloadargs
-ENDIF

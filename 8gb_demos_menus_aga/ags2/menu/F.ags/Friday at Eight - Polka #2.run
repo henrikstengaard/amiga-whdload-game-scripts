@@ -1,6 +1,0 @@
-cd "A-Demos:F/FridayAtEightAGA/"
-IF $whdloadargs EQ ""
-  whdload "FridayAtEightAGA.Slave"
-ELSE
-  whdload "FridayAtEightAGA.Slave" $whdloadargs
-ENDIF

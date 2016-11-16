@@ -1,6 +1,0 @@
-cd "A-Games1:0-9/3DPool/"
-IF $whdloadargs EQ ""
-  whdload "3DPictures.Slave"
-ELSE
-  whdload "3DPictures.Slave" $whdloadargs
-ENDIF

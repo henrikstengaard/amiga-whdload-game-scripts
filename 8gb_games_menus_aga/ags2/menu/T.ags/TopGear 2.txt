@@ -1,6 +1,0 @@
-Name      : TopGear 2
-Publisher : Gremlin Interactive
-Year      : 1994
-Genre     : Racing - Cars
-Players   : 1 or 2, Simultaneous
-Whdload   : TopGear2CD32.Slave

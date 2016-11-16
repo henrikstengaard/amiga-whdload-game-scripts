@@ -1,6 +1,0 @@
-cd "A-Games2:W/Warp/"
-IF $whdloadargs EQ ""
-  whdload "WARP.slave"
-ELSE
-  whdload "WARP.slave" $whdloadargs
-ENDIF

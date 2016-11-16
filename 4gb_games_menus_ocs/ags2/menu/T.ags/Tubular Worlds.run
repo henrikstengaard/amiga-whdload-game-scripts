@@ -1,6 +1,0 @@
-cd "A-Games2:T/TubularWorldsECS/"
-IF $whdloadargs EQ ""
-  whdload "TubularWorldsECS.Slave"
-ELSE
-  whdload "TubularWorldsECS.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:B/BackToTheFuturePart2/"
-IF $whdloadargs EQ ""
-  whdload "BackToTheFuturePart2.slave"
-ELSE
-  whdload "BackToTheFuturePart2.slave" $whdloadargs
-ENDIF

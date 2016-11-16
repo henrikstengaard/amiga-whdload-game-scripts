@@ -1,6 +1,0 @@
-cd "A-Games2:S/SilentService/"
-IF $whdloadargs EQ ""
-  whdload "SilentService.Slave"
-ELSE
-  whdload "SilentService.Slave" $whdloadargs
-ENDIF

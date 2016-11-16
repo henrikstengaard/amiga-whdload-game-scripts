@@ -1,5 +1,0 @@
-Name      : King's Quest VI
-Publisher : Sierra
-Year      : 1994
-Players   : 1
-Whdload   : KingsQuest6.slave

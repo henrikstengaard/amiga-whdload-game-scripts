@@ -1,6 +1,0 @@
-cd "A-Games1:J/JockyWilsonsDartChallenge/"
-IF $whdloadargs EQ ""
-  whdload "JockyWilsonsDartChallenge.Slave"
-ELSE
-  whdload "JockyWilsonsDartChallenge.Slave" $whdloadargs
-ENDIF

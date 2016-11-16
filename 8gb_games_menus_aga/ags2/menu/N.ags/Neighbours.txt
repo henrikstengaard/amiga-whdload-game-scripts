@@ -1,6 +1,0 @@
-Name      : Neighbours
-Publisher : Impulze
-Year      : 1991
-Genre     : Sports - Skateboard
-Players   : 1 Only
-Whdload   : Neighbours.Slave

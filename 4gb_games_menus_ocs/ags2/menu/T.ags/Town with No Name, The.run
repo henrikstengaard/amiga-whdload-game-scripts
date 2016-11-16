@@ -1,6 +1,0 @@
-cd "A-Games2:T/TownWithNoNameCDTV/"
-IF $whdloadargs EQ ""
-  whdload "TownWithNoNameCDTV.Slave"
-ELSE
-  whdload "TownWithNoNameCDTV.Slave" $whdloadargs
-ENDIF

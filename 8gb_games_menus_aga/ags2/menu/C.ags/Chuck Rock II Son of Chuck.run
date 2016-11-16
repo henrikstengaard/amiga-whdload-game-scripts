@@ -1,6 +1,0 @@
-cd "A-Games:C/ChuckRock2CD32/"
-IF $whdloadargs EQ ""
-  whdload "ChuckRock2CD32.slave"
-ELSE
-  whdload "ChuckRock2CD32.slave" $whdloadargs
-ENDIF

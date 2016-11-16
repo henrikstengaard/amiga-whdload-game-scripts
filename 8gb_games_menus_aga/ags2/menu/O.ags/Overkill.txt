@@ -1,5 +1,0 @@
-Name      : Overkill
-Publisher : Mindscape
-Year      : 1992
-Players   : 2
-Whdload   : OverkillAGA.slave

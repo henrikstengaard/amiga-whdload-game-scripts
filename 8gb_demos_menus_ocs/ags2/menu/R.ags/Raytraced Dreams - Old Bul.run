@@ -1,6 +1,0 @@
-cd "A-Demos:R/RaytracedDreams/"
-IF $whdloadargs EQ ""
-  whdload "RaytracedDreams.Slave"
-ELSE
-  whdload "RaytracedDreams.Slave" $whdloadargs
-ENDIF

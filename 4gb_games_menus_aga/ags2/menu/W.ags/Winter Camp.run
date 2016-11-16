@@ -1,6 +1,0 @@
-cd "A-Games2:W/WinterCamp/"
-IF $whdloadargs EQ ""
-  whdload "WinterCamp.Slave"
-ELSE
-  whdload "WinterCamp.Slave" $whdloadargs
-ENDIF

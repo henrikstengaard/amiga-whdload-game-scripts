@@ -1,6 +1,0 @@
-cd "A-Games2:O/Odyssey/"
-IF $whdloadargs EQ ""
-  whdload "Odyssey.slave"
-ELSE
-  whdload "Odyssey.slave" $whdloadargs
-ENDIF

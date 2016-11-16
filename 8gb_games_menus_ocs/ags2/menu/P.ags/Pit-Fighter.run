@@ -1,6 +1,0 @@
-cd "A-Games:P/PitFighter/"
-IF $whdloadargs EQ ""
-  whdload "PitFighter.slave"
-ELSE
-  whdload "PitFighter.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:R/Rogue/"
-IF $whdloadargs EQ ""
-  whdload "Rogue.Slave"
-ELSE
-  whdload "Rogue.Slave" $whdloadargs
-ENDIF

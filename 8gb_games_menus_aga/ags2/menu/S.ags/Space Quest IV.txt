@@ -1,5 +1,0 @@
-Name      : Space Quest IV
-Publisher : Sierra
-Year      : 1992
-Players   : 1
-Whdload   : SpaceQuest4.slave

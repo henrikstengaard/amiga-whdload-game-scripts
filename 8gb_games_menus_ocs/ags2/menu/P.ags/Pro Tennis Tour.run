@@ -1,6 +1,0 @@
-cd "A-Games:P/ProTennisTour/"
-IF $whdloadargs EQ ""
-  whdload "ProTennisTour.slave"
-ELSE
-  whdload "ProTennisTour.slave" $whdloadargs
-ENDIF

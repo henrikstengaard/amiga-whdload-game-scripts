@@ -1,4 +1,0 @@
-Name    : Chip Attack
-Groups  : Anathema
-Type    : Musicdisk
-Whdload : ChipAttack.Slave

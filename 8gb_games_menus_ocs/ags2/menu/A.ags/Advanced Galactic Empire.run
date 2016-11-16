@@ -1,6 +1,0 @@
-cd "A-Games:A/AGE/"
-IF $whdloadargs EQ ""
-  whdload "AGE.Slave"
-ELSE
-  whdload "AGE.Slave" $whdloadargs
-ENDIF

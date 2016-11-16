@@ -1,6 +1,0 @@
-cd "A-Games:B/Bubble&SqueakCD32/"
-IF $whdloadargs EQ ""
-  whdload "Bubble&SqueakCD32.slave"
-ELSE
-  whdload "Bubble&SqueakCD32.slave" $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Wild
-Groups  : Anadune,Nah-Kolor
-Type    : Slideshow
-Whdload : WildAGA.Slave

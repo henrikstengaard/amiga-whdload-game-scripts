@@ -1,6 +1,0 @@
-Name      : Bubble +
-Publisher : Infogrames
-Year      : 1990
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : Bubble&SqueakCD32.slave

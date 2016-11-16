@@ -1,6 +1,0 @@
-cd "A-Games1:G/Goldrunner2&SceneryDisks/"
-IF $whdloadargs EQ ""
-  whdload "Goldrunner2&SceneryDisks.Slave"
-ELSE
-  whdload "Goldrunner2&SceneryDisks.Slave" $whdloadargs
-ENDIF

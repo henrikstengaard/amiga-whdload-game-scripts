@@ -1,6 +1,0 @@
-cd "A-Games:R/RedStormRising/"
-IF $whdloadargs EQ ""
-  whdload "RedStormRising.Slave"
-ELSE
-  whdload "RedStormRising.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:M/MicroProseSoccer/"
-IF $whdloadargs EQ ""
-  whdload "MicroProseSoccer.slave"
-ELSE
-  whdload "MicroProseSoccer.slave" $whdloadargs
-ENDIF

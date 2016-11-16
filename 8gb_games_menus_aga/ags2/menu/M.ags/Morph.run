@@ -1,6 +1,0 @@
-cd "A-Games:M/MorphCD32/"
-IF $whdloadargs EQ ""
-  whdload "MorphCD32.Slave"
-ELSE
-  whdload "MorphCD32.Slave" $whdloadargs
-ENDIF

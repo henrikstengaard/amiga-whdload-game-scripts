@@ -1,6 +1,0 @@
-cd "A-Games2:N/NoSecondPrize/"
-IF $whdloadargs EQ ""
-  whdload "NoSecondPrize.slave"
-ELSE
-  whdload "NoSecondPrize.slave" $whdloadargs
-ENDIF

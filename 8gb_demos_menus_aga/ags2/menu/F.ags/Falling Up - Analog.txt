@@ -1,5 +1,0 @@
-Name    : Falling Up
-Groups  : Analog
-Type    : Trackmo
-Party   : Hurricane and Brutal Summer Party
-Whdload : FallingUp.Slave

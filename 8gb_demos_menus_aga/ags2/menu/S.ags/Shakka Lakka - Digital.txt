@@ -1,4 +1,0 @@
-Name    : Shakka Lakka
-Groups  : Digital
-Type    : Demo
-Whdload : ShakkaLakka.Slave

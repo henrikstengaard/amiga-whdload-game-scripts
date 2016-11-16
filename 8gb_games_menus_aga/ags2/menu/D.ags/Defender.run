@@ -1,6 +1,0 @@
-cd "A-Games:D/DefenderRatsoft/"
-IF $whdloadargs EQ ""
-  whdload "DefenderRatsoft.slave"
-ELSE
-  whdload "DefenderRatsoft.slave" $whdloadargs
-ENDIF

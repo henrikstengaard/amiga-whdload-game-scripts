@@ -1,6 +1,0 @@
-cd "A-Games:T/TempleOfApshaiTrilogy/"
-IF $whdloadargs EQ ""
-  whdload "TempleOfApshaiTrilogy.Slave"
-ELSE
-  whdload "TempleOfApshaiTrilogy.Slave" $whdloadargs
-ENDIF

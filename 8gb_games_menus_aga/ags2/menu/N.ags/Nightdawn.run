@@ -1,6 +1,0 @@
-cd "A-Games:N/Nightdawn/"
-IF $whdloadargs EQ ""
-  whdload "Nightdawn.slave"
-ELSE
-  whdload "Nightdawn.slave" $whdloadargs
-ENDIF

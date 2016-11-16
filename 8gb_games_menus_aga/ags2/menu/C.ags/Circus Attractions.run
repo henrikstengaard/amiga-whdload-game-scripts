@@ -1,6 +1,0 @@
-cd "A-Games:C/CircusAttractions1Disk/"
-IF $whdloadargs EQ ""
-  whdload "CircusAttractions1Disk.Slave"
-ELSE
-  whdload "CircusAttractions1Disk.Slave" $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : The Chronicles Of Omega
-Publisher : ARC (Atari UK)
-Year      : 1990
-Players   : 1
-Whdload   : ChroniclesOfOmega.Slave

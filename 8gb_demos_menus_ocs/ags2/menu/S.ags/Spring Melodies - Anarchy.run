@@ -1,6 +1,0 @@
-cd "A-Demos:S/SpringMelodies/"
-IF $whdloadargs EQ ""
-  whdload "SpringMelodies.slave"
-ELSE
-  whdload "SpringMelodies.slave" $whdloadargs
-ENDIF

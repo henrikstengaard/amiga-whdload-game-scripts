@@ -1,5 +1,0 @@
-Name      : Fantasy World Dizzy
-Publisher : Codemasters
-Year      : 1991
-Players   : 1
-Whdload   : FantasyWorldDizzy.Slave

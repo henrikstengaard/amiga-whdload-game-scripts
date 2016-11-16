@@ -1,6 +1,0 @@
-cd "A-Games:J/Jouster3/"
-IF $whdloadargs EQ ""
-  whdload "Jouster3.slave"
-ELSE
-  whdload "Jouster3.slave" $whdloadargs
-ENDIF

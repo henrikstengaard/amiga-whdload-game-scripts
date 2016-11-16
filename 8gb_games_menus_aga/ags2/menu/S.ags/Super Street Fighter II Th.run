@@ -1,6 +1,0 @@
-cd "A-Games:S/SuperStreetFighter2AGA/"
-IF $whdloadargs EQ ""
-  whdload "SuperStreetFighter2AGA.Slave"
-ELSE
-  whdload "SuperStreetFighter2AGA.Slave" $whdloadargs
-ENDIF

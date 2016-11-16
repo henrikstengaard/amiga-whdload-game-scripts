@@ -1,5 +1,0 @@
-Name      : Astaroth
-Publisher : Hewson
-Year      : 1989
-Players   : 1
-Whdload   : Astaroth.Slave

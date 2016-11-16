@@ -1,6 +1,0 @@
-cd "A-Games2:S/ShadowOfTheBeast/"
-IF $whdloadargs EQ ""
-  whdload "ShadowOfTheBeast.Slave"
-ELSE
-  whdload "ShadowOfTheBeast.Slave" $whdloadargs
-ENDIF

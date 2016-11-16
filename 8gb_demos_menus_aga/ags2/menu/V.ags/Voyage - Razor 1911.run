@@ -1,6 +1,0 @@
-cd "A-Demos:V/VoyageRazor1911/"
-IF $whdloadargs EQ ""
-  whdload "VoyageRazor1911.Slave"
-ELSE
-  whdload "VoyageRazor1911.Slave" $whdloadargs
-ENDIF

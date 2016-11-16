@@ -1,6 +1,0 @@
-cd "A-Demos:M/MicroConcept/"
-IF $whdloadargs EQ ""
-  whdload "MicroConcept.slave"
-ELSE
-  whdload "MicroConcept.slave" $whdloadargs
-ENDIF

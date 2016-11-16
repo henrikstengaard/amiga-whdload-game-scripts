@@ -1,5 +1,0 @@
-Name      : Alien World
-Publisher : Hi-Tec Software
-Year      : 1992
-Players   : 1 Only
-Whdload   : AlienWorld.Slave

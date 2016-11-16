@@ -1,6 +1,0 @@
-cd "A-Games1:L/LastDuel/"
-IF $whdloadargs EQ ""
-  whdload "LastDuel.slave"
-ELSE
-  whdload "LastDuel.slave" $whdloadargs
-ENDIF

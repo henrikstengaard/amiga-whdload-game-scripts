@@ -1,6 +1,0 @@
-cd "A-Games:A/AssassinSpecialEdition/"
-IF $whdloadargs EQ ""
-  whdload "AssassinSpecialEdition.slave"
-ELSE
-  whdload "AssassinSpecialEdition.slave" $whdloadargs
-ENDIF

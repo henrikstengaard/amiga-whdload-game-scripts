@@ -1,6 +1,0 @@
-cd "A-Games:B/Berlin1948/"
-IF $whdloadargs EQ ""
-  whdload "Berlin1948.slave"
-ELSE
-  whdload "Berlin1948.slave" $whdloadargs
-ENDIF

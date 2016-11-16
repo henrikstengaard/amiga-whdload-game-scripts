@@ -1,6 +1,0 @@
-Name      : Dungeon Master II: The Legend of Skullkeep
-Publisher : Interplay Productions
-Year      : 1995
-Genre     : Adventure - RPG 3D
-Players   : 1 Only
-Whdload   : DungeonMaster2AGA.Slave

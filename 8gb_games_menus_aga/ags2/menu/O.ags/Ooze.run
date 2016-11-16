@@ -1,6 +1,0 @@
-cd "A-Games:O/Ooze/"
-IF $whdloadargs EQ ""
-  whdload "Ooze.Slave"
-ELSE
-  whdload "Ooze.Slave" $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Shadow Fighter
-Publisher : Gremlin Interactive
-Year      : 1995
-Players   : 1 or 2, Simultaneous
-Whdload   : ShadowFighterCD32.Slave

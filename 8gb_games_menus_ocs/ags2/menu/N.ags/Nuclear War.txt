@@ -1,6 +1,0 @@
-Name      : Nuclear War
-Publisher : New World Computing
-Year      : 1990
-Genre     : Strategy - War
-Players   : 1 Only
-Whdload   : NuclearWar.Slave

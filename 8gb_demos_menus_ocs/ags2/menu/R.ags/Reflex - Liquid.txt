@@ -1,4 +1,0 @@
-Name    : Reflex
-Groups  : Liquid
-Type    : Trackmo
-Whdload : Reflex.slave

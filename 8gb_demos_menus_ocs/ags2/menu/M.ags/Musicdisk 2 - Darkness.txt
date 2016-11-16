@@ -1,4 +1,0 @@
-Name    : Musicdisk 2
-Groups  : Darkness
-Type    : Musicdisk
-Whdload : MusicDisk2Darkness.Slave

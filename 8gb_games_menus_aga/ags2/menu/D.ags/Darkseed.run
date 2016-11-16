@@ -1,6 +1,0 @@
-cd "A-Games:D/DarkSeedCD32/"
-IF $whdloadargs EQ ""
-  whdload "DarkSeedCD32.Slave"
-ELSE
-  whdload "DarkSeedCD32.Slave" $whdloadargs
-ENDIF

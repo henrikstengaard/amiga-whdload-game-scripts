@@ -1,6 +1,0 @@
-cd "A-Games:B/BumpNBurn/"
-IF $whdloadargs EQ ""
-  whdload "BumpNBurn.slave"
-ELSE
-  whdload "BumpNBurn.slave" $whdloadargs
-ENDIF

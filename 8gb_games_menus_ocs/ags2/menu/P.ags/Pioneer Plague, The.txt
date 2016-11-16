@@ -1,5 +1,0 @@
-Name      : Pioneer Plague, The
-Publisher : Mandarin
-Year      : 1988
-Players   : 1 Only
-Whdload   : Plague.slave

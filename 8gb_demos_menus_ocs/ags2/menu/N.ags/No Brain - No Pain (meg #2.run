@@ -1,6 +1,0 @@
-cd "A-Demos:N/NoBrainNoPainFlashProd/"
-IF $whdloadargs EQ ""
-  whdload "NoBrainNoPainFlashProd.Slave"
-ELSE
-  whdload "NoBrainNoPainFlashProd.Slave" $whdloadargs
-ENDIF

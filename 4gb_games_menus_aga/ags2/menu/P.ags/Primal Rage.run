@@ -1,6 +1,0 @@
-cd "A-Games2:P/PrimalRageAGA/"
-IF $whdloadargs EQ ""
-  whdload "PrimalRageAGA.Slave"
-ELSE
-  whdload "PrimalRageAGA.Slave" $whdloadargs
-ENDIF

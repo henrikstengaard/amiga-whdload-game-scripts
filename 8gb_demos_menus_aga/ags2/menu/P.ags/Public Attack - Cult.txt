@@ -1,4 +1,0 @@
-Name    : Public Attack
-Groups  : Cult
-Type    : Demo
-Whdload : PublicAttack.Slave

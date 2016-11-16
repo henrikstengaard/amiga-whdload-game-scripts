@@ -1,6 +1,0 @@
-cd "A-Games:T/TenPinBowlingArcadia/"
-IF $whdloadargs EQ ""
-  whdload "TenPinBowlingArcadia.Slave"
-ELSE
-  whdload "TenPinBowlingArcadia.Slave" $whdloadargs
-ENDIF

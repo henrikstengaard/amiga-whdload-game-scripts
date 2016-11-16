@@ -1,6 +1,0 @@
-cd "A-Games2:W/WebOfTerror/"
-IF $whdloadargs EQ ""
-  whdload "WebOfTerror.slave"
-ELSE
-  whdload "WebOfTerror.slave" $whdloadargs
-ENDIF

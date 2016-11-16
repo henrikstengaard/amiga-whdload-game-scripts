@@ -1,6 +1,0 @@
-Name      : One on One
-Publisher : Electronic Arts
-Year      : 1985
-Genre     : Sports - Basketball
-Players   : 1 or 2, Simultaneous
-Whdload   : OneOnOne.slave

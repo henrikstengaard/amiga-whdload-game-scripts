@@ -1,6 +1,0 @@
-cd "A-Games2:R/RoadBlastersCracked/"
-IF $whdloadargs EQ ""
-  whdload "RoadBlastersCracked.Slave"
-ELSE
-  whdload "RoadBlastersCracked.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:Q/Qwak/"
-IF $whdloadargs EQ ""
-  whdload "Qwak.Slave"
-ELSE
-  whdload "Qwak.Slave" $whdloadargs
-ENDIF

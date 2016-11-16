@@ -1,4 +1,0 @@
-Name    : Pastel Vanilla
-Groups  : Nova
-Type    : Musicdisk
-Whdload : PastelVanilla.Slave

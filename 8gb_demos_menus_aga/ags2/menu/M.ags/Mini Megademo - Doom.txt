@@ -1,4 +1,0 @@
-Name    : Mini Megademo
-Groups  : Doom
-Type    : Demo
-Whdload : MiniMegademoDoom.Slave

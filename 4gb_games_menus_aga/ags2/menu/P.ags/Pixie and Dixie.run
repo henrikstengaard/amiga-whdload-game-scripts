@@ -1,6 +1,0 @@
-cd "A-Games2:P/PixieAndDixie/"
-IF $whdloadargs EQ ""
-  whdload "PixieAndDixie.Slave"
-ELSE
-  whdload "PixieAndDixie.Slave" $whdloadargs
-ENDIF

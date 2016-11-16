@@ -1,6 +1,0 @@
-Name      : Aladdin
-Publisher : Virgin Interactive
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : AladdinAGA.Slave

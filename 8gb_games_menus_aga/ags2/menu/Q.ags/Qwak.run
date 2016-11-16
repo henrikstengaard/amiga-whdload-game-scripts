@@ -1,6 +1,0 @@
-cd "A-Games:Q/QwakCD32/"
-IF $whdloadargs EQ ""
-  whdload "QwakCD32.Slave"
-ELSE
-  whdload "QwakCD32.Slave" $whdloadargs
-ENDIF

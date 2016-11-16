@@ -1,6 +1,0 @@
-cd "A-Games2:M/Moonwalker/"
-IF $whdloadargs EQ ""
-  whdload "Moonwalker.Slave"
-ELSE
-  whdload "Moonwalker.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:S/SonicBoom/"
-IF $whdloadargs EQ ""
-  whdload "SonicBoom.slave"
-ELSE
-  whdload "SonicBoom.slave" $whdloadargs
-ENDIF

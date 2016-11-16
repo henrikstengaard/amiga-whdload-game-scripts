@@ -1,6 +1,0 @@
-cd "A-Games:S/Scorpion/"
-IF $whdloadargs EQ ""
-  whdload "highs"
-ELSE
-  whdload "highs" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:S/SuperOffRoad/"
-IF $whdloadargs EQ ""
-  whdload "SuperOffRoad.Slave"
-ELSE
-  whdload "SuperOffRoad.Slave" $whdloadargs
-ENDIF

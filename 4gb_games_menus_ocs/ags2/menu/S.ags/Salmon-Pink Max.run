@@ -1,6 +1,0 @@
-cd "A-Games2:S/SalmonPinkMax/"
-IF $whdloadargs EQ ""
-  whdload "SalmonPinkMax.Slave"
-ELSE
-  whdload "SalmonPinkMax.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:G/Ganymed/"
-IF $whdloadargs EQ ""
-  whdload "Ganymed.slave"
-ELSE
-  whdload "Ganymed.slave" $whdloadargs
-ENDIF

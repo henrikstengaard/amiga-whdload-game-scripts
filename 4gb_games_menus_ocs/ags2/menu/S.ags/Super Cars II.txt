@@ -1,6 +1,0 @@
-Name      : Super Cars II
-Publisher : Gremlin Graphics
-Year      : 1991
-Genre     : Racing - Overhead
-Players   : 1 or 2, Simultaneous
-Whdload   : SuperCars2.Slave

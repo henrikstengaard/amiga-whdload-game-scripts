@@ -1,6 +1,0 @@
-cd "A-Games:J/JurassicPark/"
-IF $whdloadargs EQ ""
-  whdload "JurassicPark.slave"
-ELSE
-  whdload "JurassicPark.slave" $whdloadargs
-ENDIF

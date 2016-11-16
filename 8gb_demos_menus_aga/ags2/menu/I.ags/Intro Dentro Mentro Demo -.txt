@@ -1,4 +1,0 @@
-Name    : Intro? Dentro? Mentro? Demo?
-Groups  : The Silents
-Type    : Dentro
-Whdload : IntroDentroMentroDemo.Slave

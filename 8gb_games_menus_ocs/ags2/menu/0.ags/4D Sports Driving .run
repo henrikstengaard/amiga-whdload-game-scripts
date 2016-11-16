@@ -1,6 +1,0 @@
-cd "A-Games:0-9/4DSportsDriving&MstrTrcks/"
-IF $whdloadargs EQ ""
-  whdload "4DSportsDriving&MstrTrcks.Slave"
-ELSE
-  whdload "4DSportsDriving&MstrTrcks.Slave" $whdloadargs
-ENDIF

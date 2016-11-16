@@ -1,4 +1,0 @@
-Name      : ACSYS: Autonomous Cybernetic System
-Publisher : (unknown)
-Players   : 1 Only
-Whdload   : ACSYSDemoAGA.Slave

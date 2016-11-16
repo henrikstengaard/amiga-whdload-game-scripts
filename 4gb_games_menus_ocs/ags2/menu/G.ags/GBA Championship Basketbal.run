@@ -1,6 +1,0 @@
-cd "A-Games1:G/GBAChampionshipBB/"
-IF $whdloadargs EQ ""
-  whdload "GBAChampionshipBB.Slave"
-ELSE
-  whdload "GBAChampionshipBB.Slave" $whdloadargs
-ENDIF

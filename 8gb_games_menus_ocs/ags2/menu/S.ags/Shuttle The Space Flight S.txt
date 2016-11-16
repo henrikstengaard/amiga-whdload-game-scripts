@@ -1,6 +1,0 @@
-Name      : Shuttle: The Space Flight Simulator
-Publisher : Virgin Games
-Year      : 1991
-Genre     : Simulation - Space
-Players   : 1 Only
-Whdload   : Shuttle.Slave

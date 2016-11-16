@@ -1,6 +1,0 @@
-cd "A-Games2:S/SurfNinjasAGA/"
-IF $whdloadargs EQ ""
-  whdload "SurfNinjasAGA.slave"
-ELSE
-  whdload "SurfNinjasAGA.slave" $whdloadargs
-ENDIF

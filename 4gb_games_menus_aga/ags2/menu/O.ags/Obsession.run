@@ -1,6 +1,0 @@
-cd "A-Games2:O/Obsession/"
-IF $whdloadargs EQ ""
-  whdload "Obsession.Slave"
-ELSE
-  whdload "Obsession.Slave" $whdloadargs
-ENDIF

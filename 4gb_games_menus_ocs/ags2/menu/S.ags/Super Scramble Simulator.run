@@ -1,6 +1,0 @@
-cd "A-Games2:S/SuperScrambleSimulator/"
-IF $whdloadargs EQ ""
-  whdload "SuperScrambleSimulator.slave"
-ELSE
-  whdload "SuperScrambleSimulator.slave" $whdloadargs
-ENDIF

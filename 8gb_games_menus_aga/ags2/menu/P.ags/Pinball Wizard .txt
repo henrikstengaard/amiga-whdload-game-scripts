@@ -1,6 +1,0 @@
-Name      : Pinball Wizard
-Publisher : Kingsoft
-Year      : 1987
-Genre     : Arcade - Pinball
-Players   : 1 to 4
-Whdload   : PinballWizardPrerelease.Slave

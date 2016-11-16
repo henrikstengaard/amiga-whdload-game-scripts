@@ -1,6 +1,0 @@
-Name      : Street Racer
-Publisher : Guildhall
-Year      : 1997
-Genre     : Racing - Cars
-Players   : 1 to 4
-Whdload   : StreetRacerCD32.slave

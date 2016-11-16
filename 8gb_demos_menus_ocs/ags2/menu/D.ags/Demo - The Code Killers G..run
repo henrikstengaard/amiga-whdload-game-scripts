@@ -1,6 +1,0 @@
-cd "A-Demos:C/CodeKillersIntro/"
-IF $whdloadargs EQ ""
-  whdload "CodeKillersIntro.slave"
-ELSE
-  whdload "CodeKillersIntro.slave" $whdloadargs
-ENDIF

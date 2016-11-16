@@ -1,6 +1,0 @@
-Name    : Planet M.
-Groups  : Melon Dezign
-Type    : Demo
-Party   : Somewhere in Holland 1995
-Rank    : 1st
-Whdload : PlanetM.Slave

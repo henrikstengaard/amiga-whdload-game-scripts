@@ -1,6 +1,0 @@
-Name      : Kult
-Publisher : Exxos (ERE/Infogrames)
-Year      : 1989
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : Kult.slave

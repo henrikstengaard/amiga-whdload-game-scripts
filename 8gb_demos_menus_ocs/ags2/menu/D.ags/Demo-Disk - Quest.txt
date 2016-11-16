@@ -1,5 +1,0 @@
-Name    : Demo-Disk
-Groups  : Quest
-Type    : Megademo
-Party   : TSK Crew, Megaforce and Quest
-Whdload : DemoDiskQuest.Slave

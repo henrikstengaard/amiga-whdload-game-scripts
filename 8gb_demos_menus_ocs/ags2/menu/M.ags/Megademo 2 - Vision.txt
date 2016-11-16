@@ -1,6 +1,0 @@
-Name    : Megademo 2
-Groups  : Vision
-Type    : Demo
-Party   : Alpha flight &amp
-Rank    : N/a
-Whdload : Megademo2Vision.Slave

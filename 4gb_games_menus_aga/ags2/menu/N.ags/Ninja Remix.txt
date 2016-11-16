@@ -1,5 +1,0 @@
-Name      : Ninja Remix
-Publisher : System 3
-Year      : 1990
-Players   : 1
-Whdload   : NinjaRemix.slave

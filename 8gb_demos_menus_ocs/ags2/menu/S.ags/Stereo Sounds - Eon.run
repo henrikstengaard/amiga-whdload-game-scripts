@@ -1,6 +1,0 @@
-cd "A-Demos:S/StereoSounds/"
-IF $whdloadargs EQ ""
-  whdload "StereoSounds.Slave"
-ELSE
-  whdload "StereoSounds.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:N/NipponSafesInc/"
-IF $whdloadargs EQ ""
-  whdload "NipponSafesInc.Slave"
-ELSE
-  whdload "NipponSafesInc.Slave" $whdloadargs
-ENDIF

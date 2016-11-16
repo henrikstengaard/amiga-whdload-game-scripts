@@ -1,6 +1,0 @@
-cd "A-Games:O/OutRunSega/"
-IF $whdloadargs EQ ""
-  whdload "OutRunSega.slave"
-ELSE
-  whdload "OutRunSega.slave" $whdloadargs
-ENDIF

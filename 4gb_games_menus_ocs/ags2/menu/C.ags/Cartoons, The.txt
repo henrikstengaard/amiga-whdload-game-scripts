@@ -1,6 +1,0 @@
-Name      : Cartoons, The
-Publisher : Loriciel
-Year      : 1993
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : Cartoons.Slave

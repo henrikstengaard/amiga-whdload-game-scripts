@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : The link
-Type    : Demo
-Whdload : MegademoTheLink.Slave

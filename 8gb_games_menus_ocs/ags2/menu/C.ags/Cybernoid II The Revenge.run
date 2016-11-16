@@ -1,6 +1,0 @@
-cd "A-Games:C/Cybernoid2/"
-IF $whdloadargs EQ ""
-  whdload "Cybernoid2.Slave"
-ELSE
-  whdload "Cybernoid2.Slave" $whdloadargs
-ENDIF

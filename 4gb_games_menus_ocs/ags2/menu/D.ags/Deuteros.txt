@@ -1,5 +1,0 @@
-Name      : Deuteros
-Publisher : Activision
-Year      : 1991
-Players   : 1
-Whdload   : Deuteros.Slave

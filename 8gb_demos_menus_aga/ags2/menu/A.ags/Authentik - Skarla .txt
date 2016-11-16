@@ -1,6 +1,0 @@
-Name    : Authentik
-Groups  : Skarla
-Type    : Demo
-Party   : The Party 1995
-Rank    : Disqualified
-Whdload : AuthentikAGA.Slave

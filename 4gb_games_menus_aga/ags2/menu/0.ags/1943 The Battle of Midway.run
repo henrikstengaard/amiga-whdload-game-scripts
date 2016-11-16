@@ -1,6 +1,0 @@
-cd "A-Games1:0-9/1943/"
-IF $whdloadargs EQ ""
-  whdload "1943.slave"
-ELSE
-  whdload "1943.slave" $whdloadargs
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Stack Up
-Publisher : Zeppelin Platinum (Zeppelin)
-Year      : 1991
-Players   : 1
-Whdload   : StackUp.Slave

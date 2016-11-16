@@ -1,6 +1,0 @@
-cd "A-Games1:C/CentrefoldSquares/"
-IF $whdloadargs EQ ""
-  whdload "CentrefoldSquares.Slave"
-ELSE
-  whdload "CentrefoldSquares.Slave" $whdloadargs
-ENDIF

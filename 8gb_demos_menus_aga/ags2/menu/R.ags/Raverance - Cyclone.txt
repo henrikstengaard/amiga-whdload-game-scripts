@@ -1,4 +1,0 @@
-Name    : Raverance
-Groups  : Cyclone
-Type    : Musicdisk
-Whdload : Raverance.slave

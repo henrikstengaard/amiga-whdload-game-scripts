@@ -1,6 +1,0 @@
-cd "A-Games2:R/Robozone/"
-IF $whdloadargs EQ ""
-  whdload "Robozone.Slave"
-ELSE
-  whdload "Robozone.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:D/DreamWeb/"
-IF $whdloadargs EQ ""
-  whdload "DreamWeb.Slave"
-ELSE
-  whdload "DreamWeb.Slave" $whdloadargs
-ENDIF

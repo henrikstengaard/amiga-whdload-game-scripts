@@ -1,6 +1,0 @@
-cd "A-Games2:S/SorceryPlus/"
-IF $whdloadargs EQ ""
-  whdload "SorceryPlus.Slave"
-ELSE
-  whdload "SorceryPlus.Slave" $whdloadargs
-ENDIF

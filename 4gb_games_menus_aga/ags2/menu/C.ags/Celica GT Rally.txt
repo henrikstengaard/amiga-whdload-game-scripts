@@ -1,6 +1,0 @@
-Name      : Celica GT Rally
-Publisher : Gremlin Graphics
-Year      : 1990
-Genre     : Racing - Cars
-Players   : 1 Only
-Whdload   : ToyotaCelicaGTRally.slave

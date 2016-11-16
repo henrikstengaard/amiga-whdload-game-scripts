@@ -1,6 +1,0 @@
-cd "A-Games:U/UniverseCD32/"
-IF $whdloadargs EQ ""
-  whdload "UniverseCD32.Slave"
-ELSE
-  whdload "UniverseCD32.Slave" $whdloadargs
-ENDIF

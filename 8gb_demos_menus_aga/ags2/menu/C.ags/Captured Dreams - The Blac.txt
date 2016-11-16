@@ -1,6 +1,0 @@
-Name    : Captured Dreams
-Groups  : The Black Lotus
-Type    : Demo
-Party   : The Gathering 1997
-Rank    : 1st
-Whdload : CapturedDreams.Slave

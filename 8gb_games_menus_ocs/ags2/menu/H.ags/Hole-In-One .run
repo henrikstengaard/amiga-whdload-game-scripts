@@ -1,6 +1,0 @@
-cd "A-Games:H/HoleInOne&DataDisks/"
-IF $whdloadargs EQ ""
-  whdload "HoleInOne&DataDisks.Slave"
-ELSE
-  whdload "HoleInOne&DataDisks.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games1:D/Dyter07/"
-IF $whdloadargs EQ ""
-  whdload "Dyter07.slave"
-ELSE
-  whdload "Dyter07.slave" $whdloadargs
-ENDIF

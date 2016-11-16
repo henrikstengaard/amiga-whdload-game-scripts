@@ -1,6 +1,0 @@
-Name      : RoboSport
-Publisher : Ocean
-Year      : 1992
-Genre     : Strategy - Miscellaneous
-Players   : 1 to 4
-Whdload   : RoboSport.Slave

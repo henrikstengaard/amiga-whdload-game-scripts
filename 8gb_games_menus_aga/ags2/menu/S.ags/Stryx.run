@@ -1,6 +1,0 @@
-cd "A-Games:S/Stryx/"
-IF $whdloadargs EQ ""
-  whdload "Stryx.Slave"
-ELSE
-  whdload "Stryx.Slave" $whdloadargs
-ENDIF

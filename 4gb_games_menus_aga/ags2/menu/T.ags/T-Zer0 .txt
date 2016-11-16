@@ -1,5 +1,0 @@
-Name      : T-Zer0
-Publisher : PXL Computers
-Year      : 1999
-Players   : 1 or 2, Simultaneous
-Whdload   : TZer0DemoNoMovieAGA.Slave

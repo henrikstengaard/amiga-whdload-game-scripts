@@ -1,6 +1,0 @@
-cd "A-Games:W/WildWestWorld/"
-IF $whdloadargs EQ ""
-  whdload "WildWestWorld.Slave"
-ELSE
-  whdload "WildWestWorld.Slave" $whdloadargs
-ENDIF

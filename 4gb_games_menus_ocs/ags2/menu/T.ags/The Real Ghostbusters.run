@@ -1,6 +1,0 @@
-cd "A-Games2:R/RealGhostbusters/"
-IF $whdloadargs EQ ""
-  whdload "RealGhostbusters.Slave"
-ELSE
-  whdload "RealGhostbusters.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:J/JupitersMasterdrive/"
-IF $whdloadargs EQ ""
-  whdload "JupitersMasterdrive.Slave"
-ELSE
-  whdload "JupitersMasterdrive.Slave" $whdloadargs
-ENDIF

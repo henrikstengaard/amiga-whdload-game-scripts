@@ -1,6 +1,0 @@
-cd "A-Games2:P/Patrician/"
-IF $whdloadargs EQ ""
-  whdload "Patrician.slave"
-ELSE
-  whdload "Patrician.slave" $whdloadargs
-ENDIF

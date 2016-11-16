@@ -1,6 +1,0 @@
-cd "A-Games:F/FlyHarderCD32/"
-IF $whdloadargs EQ ""
-  whdload "FlyHarderCD32.slave"
-ELSE
-  whdload "FlyHarderCD32.slave" $whdloadargs
-ENDIF

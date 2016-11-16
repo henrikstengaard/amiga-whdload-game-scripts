@@ -1,6 +1,0 @@
-cd "A-Games2:S/SimCityCDTV/"
-IF $whdloadargs EQ ""
-  whdload "SimCityCDTV.Slave"
-ELSE
-  whdload "SimCityCDTV.Slave" $whdloadargs
-ENDIF

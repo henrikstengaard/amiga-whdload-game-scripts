@@ -1,6 +1,0 @@
-cd "A-Games1:C/Cubulus/"
-IF $whdloadargs EQ ""
-  whdload "Cubulus.Slave"
-ELSE
-  whdload "Cubulus.Slave" $whdloadargs
-ENDIF

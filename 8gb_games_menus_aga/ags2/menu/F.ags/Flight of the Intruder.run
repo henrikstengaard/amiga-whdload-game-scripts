@@ -1,6 +1,0 @@
-cd "A-Games:F/FlightOfTheIntruder/"
-IF $whdloadargs EQ ""
-  whdload "FlightOfTheIntruder.Slave"
-ELSE
-  whdload "FlightOfTheIntruder.Slave" $whdloadargs
-ENDIF

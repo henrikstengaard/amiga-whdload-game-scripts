@@ -1,6 +1,0 @@
-Name      : Mousetrap
-Publisher : MicroValue
-Year      : 1987
-Genre     : Platformer - Single Screen
-Players   : 1 Only
-Whdload   : Mousetrap.Slave

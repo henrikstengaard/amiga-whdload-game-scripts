@@ -1,6 +1,0 @@
-cd "A-Games:L/LabyrinthDk/"
-IF $whdloadargs EQ ""
-  whdload "LabyrinthDk.slave"
-ELSE
-  whdload "LabyrinthDk.slave" $whdloadargs
-ENDIF

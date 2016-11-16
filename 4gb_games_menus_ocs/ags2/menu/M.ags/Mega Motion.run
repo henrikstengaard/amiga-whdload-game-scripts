@@ -1,6 +1,0 @@
-cd "A-Games1:M/MegaMotion/"
-IF $whdloadargs EQ ""
-  whdload "MegaMotion.slave"
-ELSE
-  whdload "MegaMotion.slave" $whdloadargs
-ENDIF

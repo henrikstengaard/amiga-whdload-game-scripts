@@ -1,4 +1,0 @@
-Name    : Hoi Saga Demo I - Planet Groove
-Groups  : Team hoi
-Type    : Demo
-Whdload : PlanetGroove.slave

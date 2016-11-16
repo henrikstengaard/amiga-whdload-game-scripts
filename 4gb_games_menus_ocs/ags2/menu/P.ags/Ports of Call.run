@@ -1,6 +1,0 @@
-cd "A-Games2:P/PortsOfCall/"
-IF $whdloadargs EQ ""
-  whdload "PortsOfCall.Slave"
-ELSE
-  whdload "PortsOfCall.Slave" $whdloadargs
-ENDIF

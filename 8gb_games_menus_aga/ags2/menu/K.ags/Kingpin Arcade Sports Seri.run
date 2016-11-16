@@ -1,6 +1,0 @@
-cd "A-Games:K/KingpinCD32/"
-IF $whdloadargs EQ ""
-  whdload "KingpinCD32.Slave"
-ELSE
-  whdload "KingpinCD32.Slave" $whdloadargs
-ENDIF

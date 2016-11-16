@@ -1,4 +1,0 @@
-Name    : Interference
-Groups  : Sanity
-Type    : Dentro
-Whdload : Interference.Slave

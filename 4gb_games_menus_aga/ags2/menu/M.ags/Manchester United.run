@@ -1,6 +1,0 @@
-cd "A-Games1:M/ManchesterUnited/"
-IF $whdloadargs EQ ""
-  whdload "ManchesterUnited.Slave"
-ELSE
-  whdload "ManchesterUnited.Slave" $whdloadargs
-ENDIF

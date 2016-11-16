@@ -1,6 +1,0 @@
-cd "A-Games:T/Trog/"
-IF $whdloadargs EQ ""
-  whdload "Trog.Slave"
-ELSE
-  whdload "Trog.Slave" $whdloadargs
-ENDIF

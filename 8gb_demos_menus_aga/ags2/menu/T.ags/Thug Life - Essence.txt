@@ -1,5 +1,0 @@
-Name    : Thug Life
-Groups  : Essence
-Type    : Demo
-Party   : Mekka Symposium 1997
-Whdload : ThugLifeAGA.Slave

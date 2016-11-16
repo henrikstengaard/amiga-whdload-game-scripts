@@ -1,6 +1,0 @@
-cd "A-Games1:C/ChessSimulator/"
-IF $whdloadargs EQ ""
-  whdload "ChessSimulator.Slave"
-ELSE
-  whdload "ChessSimulator.Slave" $whdloadargs
-ENDIF

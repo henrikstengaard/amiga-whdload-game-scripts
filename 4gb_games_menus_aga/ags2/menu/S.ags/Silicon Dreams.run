@@ -1,6 +1,0 @@
-cd "A-Games2:S/SiliconDreams/"
-IF $whdloadargs EQ ""
-  whdload "SiliconDreams.Slave"
-ELSE
-  whdload "SiliconDreams.Slave" $whdloadargs
-ENDIF

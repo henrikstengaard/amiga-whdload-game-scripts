@@ -1,6 +1,0 @@
-cd "A-Games2:W/WWFEuropeanRampageTour/"
-IF $whdloadargs EQ ""
-  whdload "WWFEuropeanRampageTour.Slave"
-ELSE
-  whdload "WWFEuropeanRampageTour.Slave" $whdloadargs
-ENDIF

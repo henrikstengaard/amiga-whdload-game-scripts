@@ -1,4 +1,0 @@
-Name    : Dizzy Tunes 2
-Groups  : Spaceballs,noiseless
-Type    : Musicdisk
-Whdload : DizzyTunes2.Slave

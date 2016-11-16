@@ -1,4 +1,0 @@
-Name    : House Music
-Groups  : Vision
-Type    : Musicdisk
-Whdload : HouseMusic.Slave

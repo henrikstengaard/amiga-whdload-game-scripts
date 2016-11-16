@@ -1,6 +1,0 @@
-cd "A-Games:F/FastBreak/"
-IF $whdloadargs EQ ""
-  whdload "FastBreak.Slave"
-ELSE
-  whdload "FastBreak.Slave" $whdloadargs
-ENDIF

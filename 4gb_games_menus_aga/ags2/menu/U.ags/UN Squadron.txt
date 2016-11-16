@@ -1,5 +1,0 @@
-Name      : UN Squadron
-Publisher : US Gold
-Year      : 1990
-Players   : 1 or 2, Simultaneous
-Whdload   : UNSquadron.slave

@@ -1,6 +1,0 @@
-cd "A-Games:B/BattleChessCD32/"
-IF $whdloadargs EQ ""
-  whdload "BattleChessCD32.Slave"
-ELSE
-  whdload "BattleChessCD32.Slave" $whdloadargs
-ENDIF

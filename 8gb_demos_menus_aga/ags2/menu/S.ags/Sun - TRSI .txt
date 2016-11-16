@@ -1,4 +1,0 @@
-Name    : Sun
-Groups  : TRSI
-Type    : Slideshow
-Whdload : SunAGA.Slave

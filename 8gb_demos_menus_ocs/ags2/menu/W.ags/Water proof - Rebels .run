@@ -1,6 +1,0 @@
-cd "A-Demos:W/WaterproofFixed/"
-IF $whdloadargs EQ ""
-  whdload "WaterproofFixed.Slave"
-ELSE
-  whdload "WaterproofFixed.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:T/TowerToppler/"
-IF $whdloadargs EQ ""
-  whdload "TowerToppler.slave"
-ELSE
-  whdload "TowerToppler.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games1:B/BalanceOfPower/"
-IF $whdloadargs EQ ""
-  whdload "BalanceOfPower.Slave"
-ELSE
-  whdload "BalanceOfPower.Slave" $whdloadargs
-ENDIF

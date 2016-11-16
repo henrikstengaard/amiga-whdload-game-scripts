@@ -1,6 +1,0 @@
-cd "A-Games1:H/Hook/"
-IF $whdloadargs EQ ""
-  whdload "Hook.slave"
-ELSE
-  whdload "Hook.slave" $whdloadargs
-ENDIF

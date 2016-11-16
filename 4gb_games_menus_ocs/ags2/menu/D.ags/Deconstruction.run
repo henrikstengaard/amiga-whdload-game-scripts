@@ -1,6 +1,0 @@
-cd "A-Games1:D/Deconstruction/"
-IF $whdloadargs EQ ""
-  whdload "Deconstruction.Slave"
-ELSE
-  whdload "Deconstruction.Slave" $whdloadargs
-ENDIF

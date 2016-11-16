@@ -1,6 +1,0 @@
-cd "A-Games2:P/Powermonger/"
-IF $whdloadargs EQ ""
-  whdload "Powermonger.Slave"
-ELSE
-  whdload "Powermonger.Slave" $whdloadargs
-ENDIF

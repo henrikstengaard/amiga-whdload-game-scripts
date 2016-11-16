@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Excellence
-Type    : Demo
-Whdload : MegademoExcellence.Slave

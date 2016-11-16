@@ -1,6 +1,0 @@
-cd "A-Games:M/Motorhead/"
-IF $whdloadargs EQ ""
-  whdload "Motorhead.Slave"
-ELSE
-  whdload "Motorhead.Slave" $whdloadargs
-ENDIF

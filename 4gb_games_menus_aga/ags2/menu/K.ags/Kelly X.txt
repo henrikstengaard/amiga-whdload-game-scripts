@@ -1,5 +1,0 @@
-Name      : Kelly X
-Publisher : Virgin
-Year      : 1989
-Players   : 1
-Whdload   : KellyX.slave

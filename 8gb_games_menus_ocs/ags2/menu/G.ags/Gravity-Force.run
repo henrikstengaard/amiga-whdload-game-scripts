@@ -1,6 +1,0 @@
-cd "A-Games:G/GravityForce/"
-IF $whdloadargs EQ ""
-  whdload "GravityForce.Slave"
-ELSE
-  whdload "GravityForce.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:R/RevengeOfDefender/"
-IF $whdloadargs EQ ""
-  whdload "RevengeOfDefender.slave"
-ELSE
-  whdload "RevengeOfDefender.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:S/Skull&Crossbones/"
-IF $whdloadargs EQ ""
-  whdload "Skull&CrossBones.slave"
-ELSE
-  whdload "Skull&CrossBones.slave" $whdloadargs
-ENDIF

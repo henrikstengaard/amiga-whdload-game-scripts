@@ -1,6 +1,0 @@
-cd "A-Games1:M/MatrixMarauders/"
-IF $whdloadargs EQ ""
-  whdload "MatrixMarauders.slave"
-ELSE
-  whdload "MatrixMarauders.slave" $whdloadargs
-ENDIF

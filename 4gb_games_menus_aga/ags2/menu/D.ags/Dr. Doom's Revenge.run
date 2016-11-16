@@ -1,6 +1,0 @@
-cd "A-Games1:D/DrDoomsRevenge1Disk/"
-IF $whdloadargs EQ ""
-  whdload "DrDoomsRevenge1Disk.Slave"
-ELSE
-  whdload "DrDoomsRevenge1Disk.Slave" $whdloadargs
-ENDIF

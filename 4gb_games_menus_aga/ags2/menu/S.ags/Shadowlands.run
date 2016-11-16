@@ -1,6 +1,0 @@
-cd "A-Games2:S/Shadowlands/"
-IF $whdloadargs EQ ""
-  whdload "Shadowlands.Slave"
-ELSE
-  whdload "Shadowlands.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Demos:E/EngineAGA/"
-IF $whdloadargs EQ ""
-  whdload "EngineAGA.Slave"
-ELSE
-  whdload "EngineAGA.Slave" $whdloadargs
-ENDIF

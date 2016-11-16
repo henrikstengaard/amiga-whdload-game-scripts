@@ -1,6 +1,0 @@
-cd "A-Games2:P/ProTennisSimulatorImage/"
-IF $whdloadargs EQ ""
-  whdload "ProTennisSimulatorImage.Slave"
-ELSE
-  whdload "ProTennisSimulatorImage.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:M/MouseQuest/"
-IF $whdloadargs EQ ""
-  whdload "MouseQuest.Slave"
-ELSE
-  whdload "MouseQuest.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Tower Toppler
-Publisher : US Gold
-Year      : 1988
-Genre     : Arcade - Miscellaneous
-Players   : 1 or 2
-Whdload   : TowerToppler.slave

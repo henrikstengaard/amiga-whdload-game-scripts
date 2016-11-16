@@ -1,5 +1,0 @@
-Name      : The Ultimate Quiz
-Publisher : F1 Licenceware
-Year      : 1994
-Players   : 1
-Whdload   : HumansCD32.slave

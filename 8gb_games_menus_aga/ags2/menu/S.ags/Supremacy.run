@@ -1,6 +1,0 @@
-cd "A-Games:S/Supremacy/"
-IF $whdloadargs EQ ""
-  whdload "Supremacy.Slave"
-ELSE
-  whdload "Supremacy.Slave" $whdloadargs
-ENDIF

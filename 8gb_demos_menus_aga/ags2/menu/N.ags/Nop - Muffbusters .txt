@@ -1,4 +1,0 @@
-Name    : Nop
-Groups  : Muffbusters
-Type    : Demo
-Whdload : NopAGA.Slave

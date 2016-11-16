@@ -1,6 +1,0 @@
-cd "A-Games:R/Rotor/"
-IF $whdloadargs EQ ""
-  whdload "Rotor.slave"
-ELSE
-  whdload "Rotor.slave" $whdloadargs
-ENDIF

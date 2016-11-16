@@ -1,5 +1,0 @@
-Name      : Jet
-Publisher : SubLOGIC
-Year      : 1988
-Genre     : Simulation - Flight
-Whdload   : Jet&SceneryDisk14.Slave

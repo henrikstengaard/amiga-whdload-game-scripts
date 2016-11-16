@@ -1,6 +1,0 @@
-cd "A-Games2:O/OperationHarrier/"
-IF $whdloadargs EQ ""
-  whdload "OperationHarrier.slave"
-ELSE
-  whdload "OperationHarrier.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:D/DejaVu2LostInLasVegas/"
-IF $whdloadargs EQ ""
-  whdload "DejaVu2LostInLasVegas.Slave"
-ELSE
-  whdload "DejaVu2LostInLasVegas.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:S/StarushImage/"
-IF $whdloadargs EQ ""
-  whdload "StarushImage.Slave"
-ELSE
-  whdload "StarushImage.Slave" $whdloadargs
-ENDIF

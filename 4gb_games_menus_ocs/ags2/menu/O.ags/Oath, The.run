@@ -1,6 +1,0 @@
-cd "A-Games2:O/Oath/"
-IF $whdloadargs EQ ""
-  whdload "Oath.Slave"
-ELSE
-  whdload "Oath.Slave" $whdloadargs
-ENDIF

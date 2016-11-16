@@ -1,6 +1,0 @@
-cd "A-Games:C/ClueAGA/"
-IF $whdloadargs EQ ""
-  whdload "ClueAGA.slave"
-ELSE
-  whdload "ClueAGA.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:T/Tangram/"
-IF $whdloadargs EQ ""
-  whdload "Tangram.slave"
-ELSE
-  whdload "Tangram.slave" $whdloadargs
-ENDIF

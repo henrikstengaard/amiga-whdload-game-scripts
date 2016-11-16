@@ -1,6 +1,0 @@
-cd "A-Games2:X/Xenon2CDTV/"
-IF $whdloadargs EQ ""
-  whdload "Xenon2CDTV.Slave"
-ELSE
-  whdload "Xenon2CDTV.Slave" $whdloadargs
-ENDIF

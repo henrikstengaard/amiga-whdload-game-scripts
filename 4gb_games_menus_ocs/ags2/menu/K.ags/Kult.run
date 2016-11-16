@@ -1,6 +1,0 @@
-cd "A-Games1:K/Kult/"
-IF $whdloadargs EQ ""
-  whdload "Kult.slave"
-ELSE
-  whdload "Kult.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:S/SideWinder2/"
-IF $whdloadargs EQ ""
-  whdload "SideWinder2.Slave"
-ELSE
-  whdload "SideWinder2.Slave" $whdloadargs
-ENDIF

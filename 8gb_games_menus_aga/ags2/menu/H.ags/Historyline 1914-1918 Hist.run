@@ -1,6 +1,0 @@
-cd "A-Games:H/Historyline/"
-IF $whdloadargs EQ ""
-  whdload "HistoryLine.Slave"
-ELSE
-  whdload "HistoryLine.Slave" $whdloadargs
-ENDIF

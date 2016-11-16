@@ -1,5 +1,0 @@
-Name      : Embryo
-Publisher : Black Legend
-Year      : 1994
-Players   : 1 Only
-Whdload   : Embryo.Slave

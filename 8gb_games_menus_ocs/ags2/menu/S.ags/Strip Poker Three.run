@@ -1,6 +1,0 @@
-cd "A-Games:S/StripPoker/"
-IF $whdloadargs EQ ""
-  whdload "StripPoker.Slave"
-ELSE
-  whdload "StripPoker.Slave" $whdloadargs
-ENDIF

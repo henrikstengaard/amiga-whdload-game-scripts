@@ -1,6 +1,0 @@
-cd "A-Demos:R/RealEmpathy/"
-IF $whdloadargs EQ ""
-  whdload "RealEmpathy.Slave"
-ELSE
-  whdload "RealEmpathy.Slave" $whdloadargs
-ENDIF

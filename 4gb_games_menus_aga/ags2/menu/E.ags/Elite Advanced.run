@@ -1,6 +1,0 @@
-cd "A-Games1:E/EliteAdvanced/"
-IF $whdloadargs EQ ""
-  whdload "EliteAdvanced.Slave"
-ELSE
-  whdload "EliteAdvanced.Slave" $whdloadargs
-ENDIF

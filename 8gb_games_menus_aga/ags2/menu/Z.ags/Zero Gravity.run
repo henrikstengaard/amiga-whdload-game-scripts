@@ -1,6 +1,0 @@
-cd "A-Games:Z/ZeroGravity/"
-IF $whdloadargs EQ ""
-  whdload "ZeroGravity.Slave"
-ELSE
-  whdload "ZeroGravity.Slave" $whdloadargs
-ENDIF

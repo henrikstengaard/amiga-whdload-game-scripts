@@ -1,5 +1,0 @@
-Name      : Out Run [Sega]
-Publisher : Sega
-Year      : 1988
-Players   : 1
-Whdload   : OutRunSega.slave

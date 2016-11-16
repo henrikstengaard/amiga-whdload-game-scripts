@@ -1,6 +1,0 @@
-cd "A-Games2:T/TwinTurbos/"
-IF $whdloadargs EQ ""
-  whdload "TwinTurbos.slave"
-ELSE
-  whdload "TwinTurbos.slave" $whdloadargs
-ENDIF

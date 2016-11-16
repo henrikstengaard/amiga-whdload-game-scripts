@@ -1,6 +1,0 @@
-cd "A-Games2:W/WildStreets/"
-IF $whdloadargs EQ ""
-  whdload "WildStreets.slave"
-ELSE
-  whdload "WildStreets.slave" $whdloadargs
-ENDIF

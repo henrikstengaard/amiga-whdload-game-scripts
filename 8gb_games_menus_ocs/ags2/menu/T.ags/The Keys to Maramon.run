@@ -1,6 +1,0 @@
-cd "A-Games:K/KeysToMaramon/"
-IF $whdloadargs EQ ""
-  whdload "KeysToMaramon.Slave"
-ELSE
-  whdload "KeysToMaramon.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:R/Rushhour/"
-IF $whdloadargs EQ ""
-  whdload "Rushhour.Slave"
-ELSE
-  whdload "Rushhour.Slave" $whdloadargs
-ENDIF

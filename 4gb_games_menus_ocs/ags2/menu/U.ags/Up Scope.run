@@ -1,6 +1,0 @@
-cd "A-Games2:U/UpScope/"
-IF $whdloadargs EQ ""
-  whdload "UpScope.Slave"
-ELSE
-  whdload "UpScope.Slave" $whdloadargs
-ENDIF

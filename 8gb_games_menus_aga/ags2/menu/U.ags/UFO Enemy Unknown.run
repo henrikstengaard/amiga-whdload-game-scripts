@@ -1,6 +1,0 @@
-cd "A-Games:U/UFOEnemyUnknownCD32/"
-IF $whdloadargs EQ ""
-  whdload "UFOEnemyUnknownCD32.slave"
-ELSE
-  whdload "UFOEnemyUnknownCD32.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Demos:M/MusicDisk1IKS/"
-IF $whdloadargs EQ ""
-  whdload "MusicDisk1IKS.Slave"
-ELSE
-  whdload "MusicDisk1IKS.Slave" $whdloadargs
-ENDIF

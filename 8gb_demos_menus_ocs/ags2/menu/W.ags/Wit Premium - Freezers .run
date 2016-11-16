@@ -1,6 +1,0 @@
-cd "A-Demos:W/WitPremiumAGA/"
-IF $whdloadargs EQ ""
-  whdload "WitPremiumAGA.Slave"
-ELSE
-  whdload "WitPremiumAGA.Slave" $whdloadargs
-ENDIF

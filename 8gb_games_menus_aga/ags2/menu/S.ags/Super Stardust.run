@@ -1,6 +1,0 @@
-cd "A-Games:S/SuperStardustAGA/"
-IF $whdloadargs EQ ""
-  whdload "SuperStardustAGA.Slave"
-ELSE
-  whdload "SuperStardustAGA.Slave" $whdloadargs
-ENDIF

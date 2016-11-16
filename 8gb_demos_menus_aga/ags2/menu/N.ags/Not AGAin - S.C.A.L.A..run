@@ -1,6 +1,0 @@
-cd "A-Demos:N/NotAgain/"
-IF $whdloadargs EQ ""
-  whdload "NotAgain.slave"
-ELSE
-  whdload "NotAgain.slave" $whdloadargs
-ENDIF

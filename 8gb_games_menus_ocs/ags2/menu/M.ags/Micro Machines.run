@@ -1,6 +1,0 @@
-cd "A-Games:M/MicroMachines/"
-IF $whdloadargs EQ ""
-  whdload "MicroMachines.slave"
-ELSE
-  whdload "MicroMachines.slave" $whdloadargs
-ENDIF

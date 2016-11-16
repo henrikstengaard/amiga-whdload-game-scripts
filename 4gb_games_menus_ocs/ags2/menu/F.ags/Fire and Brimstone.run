@@ -1,6 +1,0 @@
-cd "A-Games1:F/Fire&Brimstone/"
-IF $whdloadargs EQ ""
-  whdload "Fire&Brimstone.slave"
-ELSE
-  whdload "Fire&Brimstone.slave" $whdloadargs
-ENDIF

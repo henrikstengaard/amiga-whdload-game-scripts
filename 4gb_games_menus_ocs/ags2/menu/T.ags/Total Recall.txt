@@ -1,6 +1,0 @@
-Name      : Total Recall
-Publisher : Ocean
-Year      : 1990
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : TotalRecall.slave

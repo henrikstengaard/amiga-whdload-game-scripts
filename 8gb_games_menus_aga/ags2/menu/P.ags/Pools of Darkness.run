@@ -1,6 +1,0 @@
-cd "A-Games:P/PoolsOfDarkness/"
-IF $whdloadargs EQ ""
-  whdload "PoolsOfDarkness.slave"
-ELSE
-  whdload "PoolsOfDarkness.slave" $whdloadargs
-ENDIF

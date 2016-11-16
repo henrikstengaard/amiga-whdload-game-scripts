@@ -1,6 +1,0 @@
-cd "A-Demos:P/Prey/"
-IF $whdloadargs EQ ""
-  whdload "Prey.Slave"
-ELSE
-  whdload "Prey.Slave" $whdloadargs
-ENDIF

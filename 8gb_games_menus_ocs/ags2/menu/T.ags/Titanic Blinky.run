@@ -1,6 +1,0 @@
-cd "A-Games:T/TitanicBlinky/"
-IF $whdloadargs EQ ""
-  whdload "TitanicBlinky.Slave"
-ELSE
-  whdload "TitanicBlinky.Slave" $whdloadargs
-ENDIF

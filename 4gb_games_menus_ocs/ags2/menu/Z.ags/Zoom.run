@@ -1,6 +1,0 @@
-cd "A-Games2:Z/Zoom/"
-IF $whdloadargs EQ ""
-  whdload "Zoom.Slave"
-ELSE
-  whdload "Zoom.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:E/Epic&MissionDisk/"
-IF $whdloadargs EQ ""
-  whdload "Epic&MissionDisk.slave"
-ELSE
-  whdload "Epic&MissionDisk.slave" $whdloadargs
-ENDIF

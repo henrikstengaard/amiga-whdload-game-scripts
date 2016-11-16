@@ -1,6 +1,0 @@
-cd "A-Games1:E/ElectronicPool/"
-IF $whdloadargs EQ ""
-  whdload "ElectronicPool.slave"
-ELSE
-  whdload "ElectronicPool.slave" $whdloadargs
-ENDIF

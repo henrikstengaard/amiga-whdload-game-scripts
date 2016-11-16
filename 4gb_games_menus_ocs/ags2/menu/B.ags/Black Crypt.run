@@ -1,6 +1,0 @@
-cd "A-Games1:B/BlackCrypt/"
-IF $whdloadargs EQ ""
-  whdload "BlackCrypt.Slave"
-ELSE
-  whdload "BlackCrypt.Slave" $whdloadargs
-ENDIF

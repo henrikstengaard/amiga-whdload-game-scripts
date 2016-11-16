@@ -1,6 +1,0 @@
-cd "A-Games:F/FrostByte/"
-IF $whdloadargs EQ ""
-  whdload "FrostByte.Slave"
-ELSE
-  whdload "FrostByte.Slave" $whdloadargs
-ENDIF

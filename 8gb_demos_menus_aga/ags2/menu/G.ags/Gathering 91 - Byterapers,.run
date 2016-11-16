@@ -1,6 +1,0 @@
-cd "A-Demos:G/Gathering91Slideshow/"
-IF $whdloadargs EQ ""
-  whdload "Gathering91Slideshow.Slave"
-ELSE
-  whdload "Gathering91Slideshow.Slave" $whdloadargs
-ENDIF

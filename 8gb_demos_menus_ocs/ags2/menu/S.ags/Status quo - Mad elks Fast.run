@@ -1,6 +1,0 @@
-cd "A-Demos:S/StatusQuo/"
-IF $whdloadargs EQ ""
-  whdload "StatusQuoFast.Slave"
-ELSE
-  whdload "StatusQuoFast.Slave" $whdloadargs
-ENDIF

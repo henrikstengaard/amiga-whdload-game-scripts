@@ -1,6 +1,0 @@
-cd "A-Games1:L/LogicalCDTV/"
-IF $whdloadargs EQ ""
-  whdload "LogicalCDTV.Slave"
-ELSE
-  whdload "LogicalCDTV.Slave" $whdloadargs
-ENDIF

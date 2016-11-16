@@ -1,6 +1,0 @@
-cd "A-Games:H/HumansCD32/"
-IF $whdloadargs EQ ""
-  whdload "HumansCD32.slave"
-ELSE
-  whdload "HumansCD32.slave" $whdloadargs
-ENDIF

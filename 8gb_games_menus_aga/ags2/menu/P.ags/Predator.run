@@ -1,6 +1,0 @@
-cd "A-Games:P/Predator/"
-IF $whdloadargs EQ ""
-  whdload "Predator.Slave"
-ELSE
-  whdload "Predator.Slave" $whdloadargs
-ENDIF

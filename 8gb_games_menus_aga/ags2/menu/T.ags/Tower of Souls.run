@@ -1,6 +1,0 @@
-cd "A-Games:T/TowerOfSoulsAGA/"
-IF $whdloadargs EQ ""
-  whdload "TowerOfSoulsAGA.Slave"
-ELSE
-  whdload "TowerOfSoulsAGA.Slave" $whdloadargs
-ENDIF

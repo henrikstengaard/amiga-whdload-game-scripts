@@ -1,6 +1,0 @@
-cd "A-Games2:O/OverdriveTeam17/"
-IF $whdloadargs EQ ""
-  whdload "OverdriveTeam17.Slave"
-ELSE
-  whdload "OverdriveTeam17.Slave" $whdloadargs
-ENDIF

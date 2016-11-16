@@ -1,6 +1,0 @@
-cd "A-Games:N/NitroBoostChallenge/"
-IF $whdloadargs EQ ""
-  whdload "NitroBoostChallenge.slave"
-ELSE
-  whdload "NitroBoostChallenge.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:S/SuperTwintris/"
-IF $whdloadargs EQ ""
-  whdload "SuperTwintris.Slave"
-ELSE
-  whdload "SuperTwintris.Slave" $whdloadargs
-ENDIF

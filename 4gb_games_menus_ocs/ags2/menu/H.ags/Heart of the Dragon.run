@@ -1,6 +1,0 @@
-cd "A-Games1:H/HeartOfTheDragon3Disk/"
-IF $whdloadargs EQ ""
-  whdload "HeartOfTheDragon3Disk.Slave"
-ELSE
-  whdload "HeartOfTheDragon3Disk.Slave" $whdloadargs
-ENDIF

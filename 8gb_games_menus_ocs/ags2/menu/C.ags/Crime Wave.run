@@ -1,6 +1,0 @@
-cd "A-Games:C/CrimeWave/"
-IF $whdloadargs EQ ""
-  whdload "CrimeWave.slave"
-ELSE
-  whdload "CrimeWave.slave" $whdloadargs
-ENDIF

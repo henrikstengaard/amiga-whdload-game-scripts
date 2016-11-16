@@ -1,6 +1,0 @@
-cd "A-Games1:G/GearWorks/"
-IF $whdloadargs EQ ""
-  whdload "GearWorks.Slave"
-ELSE
-  whdload "GearWorks.Slave" $whdloadargs
-ENDIF

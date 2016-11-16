@@ -1,6 +1,0 @@
-cd "A-Games2:N/Nucleus/"
-IF $whdloadargs EQ ""
-  whdload "Nucleus.Slave"
-ELSE
-  whdload "Nucleus.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:T/TimeAndMagik/"
-IF $whdloadargs EQ ""
-  whdload "TimeAndMagik.Slave"
-ELSE
-  whdload "TimeAndMagik.Slave" $whdloadargs
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Digital concert 4
-Groups  : Flash Production
-Type    : Musicdisk
-Whdload : DigitalConcert4.Slave

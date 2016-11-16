@@ -1,5 +1,0 @@
-Name      : Trex Warrior
-Publisher : Thalion
-Year      : 1991
-Players   : 1
-Whdload   : TrexWarrior.slave

@@ -1,6 +1,0 @@
-cd "A-Games:D/DDayImpressions/"
-IF $whdloadargs EQ ""
-  whdload "DDayImpressions.slave"
-ELSE
-  whdload "DDayImpressions.slave" $whdloadargs
-ENDIF

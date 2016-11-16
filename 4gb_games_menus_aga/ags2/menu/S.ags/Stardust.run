@@ -1,6 +1,0 @@
-cd "A-Games2:S/Stardust/"
-IF $whdloadargs EQ ""
-  whdload "Stardust.Slave"
-ELSE
-  whdload "Stardust.Slave" $whdloadargs
-ENDIF

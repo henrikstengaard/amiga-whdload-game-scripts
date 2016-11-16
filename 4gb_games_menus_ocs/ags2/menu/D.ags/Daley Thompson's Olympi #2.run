@@ -1,6 +1,0 @@
-cd "A-Games1:D/DaleyThompsonsOC2Disk/"
-IF $whdloadargs EQ ""
-  whdload "DaleyThompsonsOC2Disk.Slave"
-ELSE
-  whdload "DaleyThompsonsOC2Disk.Slave" $whdloadargs
-ENDIF

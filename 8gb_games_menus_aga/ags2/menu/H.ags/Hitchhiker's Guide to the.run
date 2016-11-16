@@ -1,6 +1,0 @@
-cd "A-Games:H/HitchhikersGuideTTG/"
-IF $whdloadargs EQ ""
-  whdload "HitchhikersGuideTTG.Slave"
-ELSE
-  whdload "HitchhikersGuideTTG.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games2:P/PersianGulfInferno/"
-IF $whdloadargs EQ ""
-  whdload "PersianGulfInferno.Slave"
-ELSE
-  whdload "PersianGulfInferno.Slave" $whdloadargs
-ENDIF

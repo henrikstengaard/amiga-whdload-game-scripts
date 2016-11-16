@@ -1,6 +1,0 @@
-cd "A-Games:C/CosmicBouncer/"
-IF $whdloadargs EQ ""
-  whdload "CosmicBouncer.Slave"
-ELSE
-  whdload "CosmicBouncer.Slave" $whdloadargs
-ENDIF

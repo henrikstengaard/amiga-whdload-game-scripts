@@ -1,6 +1,0 @@
-Name      : SimEarth
-Publisher : Ocean
-Year      : 1992
-Genre     : Simulation - Miscellaneous
-Players   : 1 Only
-Whdload   : SimEarthLoRes.Slave

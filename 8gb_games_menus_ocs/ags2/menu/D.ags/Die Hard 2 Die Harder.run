@@ -1,6 +1,0 @@
-cd "A-Games:D/DieHard2/"
-IF $whdloadargs EQ ""
-  whdload "DieHard2.Slave"
-ELSE
-  whdload "DieHard2.Slave" $whdloadargs
-ENDIF

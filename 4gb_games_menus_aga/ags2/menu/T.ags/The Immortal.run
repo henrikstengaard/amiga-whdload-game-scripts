@@ -1,6 +1,0 @@
-cd "A-Games1:I/Immortal/"
-IF $whdloadargs EQ ""
-  whdload "Immortal.Slave"
-ELSE
-  whdload "Immortal.Slave" $whdloadargs
-ENDIF

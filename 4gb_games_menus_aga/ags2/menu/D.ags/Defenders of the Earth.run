@@ -1,6 +1,0 @@
-cd "A-Games1:D/DefendersOfTheEarth/"
-IF $whdloadargs EQ ""
-  whdload "DefendersOfTheEarth.Slave"
-ELSE
-  whdload "DefendersOfTheEarth.Slave" $whdloadargs
-ENDIF

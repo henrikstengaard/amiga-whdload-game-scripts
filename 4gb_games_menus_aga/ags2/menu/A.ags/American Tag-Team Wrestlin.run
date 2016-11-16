@@ -1,6 +1,0 @@
-cd "A-Games1:A/AmericanTagTeamWrestling/"
-IF $whdloadargs EQ ""
-  whdload "AmericanTagTeamWrestling.Slave"
-ELSE
-  whdload "AmericanTagTeamWrestling.Slave" $whdloadargs
-ENDIF

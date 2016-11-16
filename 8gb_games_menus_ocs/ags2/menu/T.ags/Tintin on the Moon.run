@@ -1,6 +1,0 @@
-cd "A-Games:T/TintinOnTheMoon/"
-IF $whdloadargs EQ ""
-  whdload "TintinOnTheMoon.slave"
-ELSE
-  whdload "TintinOnTheMoon.slave" $whdloadargs
-ENDIF

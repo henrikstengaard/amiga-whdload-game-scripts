@@ -1,6 +1,0 @@
-cd "A-Games:M/MarvinsMarvellousAdvCD32/"
-IF $whdloadargs EQ ""
-  whdload "MarvinsMarvellousAdvCD32.Slave"
-ELSE
-  whdload "MarvinsMarvellousAdvCD32.Slave" $whdloadargs
-ENDIF

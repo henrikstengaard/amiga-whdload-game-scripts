@@ -1,6 +1,0 @@
-cd "A-Games:R/RallyCrossChallenge/"
-IF $whdloadargs EQ ""
-  whdload "RallyCrossChallenge.Slave"
-ELSE
-  whdload "RallyCrossChallenge.Slave" $whdloadargs
-ENDIF

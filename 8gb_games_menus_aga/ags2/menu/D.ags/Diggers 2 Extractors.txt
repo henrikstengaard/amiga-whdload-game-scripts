@@ -1,5 +1,0 @@
-Name      : Diggers 2: Extractors
-Year      : 1994
-Genre     : Arcade - Miscellaneous
-Players   : 1
-Whdload   : ExtractorsPreviewCD32.slave

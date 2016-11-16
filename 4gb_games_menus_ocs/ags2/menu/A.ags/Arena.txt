@@ -1,5 +1,0 @@
-Name      : Arena
-Publisher : Defcom
-Year      : 1992
-Players   : 1 or 2
-Whdload   : Arena.slave

@@ -1,5 +1,0 @@
-Name      : Apocalypse
-Publisher : Virgin Interactive
-Year      : 1994
-Players   : 1 Only
-Whdload   : Apocalypse.Slave

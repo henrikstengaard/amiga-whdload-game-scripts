@@ -1,6 +1,0 @@
-cd "A-Games1:B/BattleIsle&DataDisks/"
-IF $whdloadargs EQ ""
-  whdload "BattleIsle&DataDisks.Slave"
-ELSE
-  whdload "BattleIsle&DataDisks.Slave" $whdloadargs
-ENDIF

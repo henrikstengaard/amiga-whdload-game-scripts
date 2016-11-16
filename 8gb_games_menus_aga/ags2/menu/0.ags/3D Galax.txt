@@ -1,5 +1,0 @@
-Name      : 3D Galax
-Publisher : Gremlin Graphics
-Year      : 1988
-Players   : 1 Only
-Whdload   : 3DGalax.Slave

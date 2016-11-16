@@ -1,6 +1,0 @@
-Name      : Pandora
-Publisher : Firebird
-Year      : 1988
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : Pandora.Slave

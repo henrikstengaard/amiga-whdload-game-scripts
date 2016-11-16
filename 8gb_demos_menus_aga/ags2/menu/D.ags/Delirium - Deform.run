@@ -1,6 +1,0 @@
-cd "A-Demos:D/DeliriumDeform/"
-IF $whdloadargs EQ ""
-  whdload "DeliriumDeform.Slave"
-ELSE
-  whdload "DeliriumDeform.Slave" $whdloadargs
-ENDIF

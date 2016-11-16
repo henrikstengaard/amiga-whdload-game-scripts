@@ -1,6 +1,0 @@
-cd "A-Games2:P/PuttySquadAGA/"
-IF $whdloadargs EQ ""
-  whdload "PuttySquadAGA.Slave"
-ELSE
-  whdload "PuttySquadAGA.Slave" $whdloadargs
-ENDIF

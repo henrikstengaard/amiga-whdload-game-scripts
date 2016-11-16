@@ -1,6 +1,0 @@
-cd "A-Games2:P/Paramax/"
-IF $whdloadargs EQ ""
-  whdload "Paramax.Slave"
-ELSE
-  whdload "Paramax.Slave" $whdloadargs
-ENDIF

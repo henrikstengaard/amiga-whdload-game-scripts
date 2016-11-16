@@ -1,6 +1,0 @@
-cd "A-Games:R/Rotox/"
-IF $whdloadargs EQ ""
-  whdload "Rotox.slave"
-ELSE
-  whdload "Rotox.slave" $whdloadargs
-ENDIF

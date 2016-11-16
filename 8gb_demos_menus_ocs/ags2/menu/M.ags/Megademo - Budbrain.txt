@@ -1,6 +1,0 @@
-Name    : Megademo
-Groups  : Budbrain
-Type    : Demo
-Party   : Amiga Conference 1990
-Rank    : 1st
-Whdload : Psychotic.Slave

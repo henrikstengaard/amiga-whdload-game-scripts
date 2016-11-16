@@ -1,4 +1,0 @@
-Name    : Technomania
-Groups  : Shining 8
-Type    : Musicdisk
-Whdload : Technomania.Slave

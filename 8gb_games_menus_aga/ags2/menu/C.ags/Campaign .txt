@@ -1,6 +1,0 @@
-Name      : Campaign
-Publisher : Empire Software
-Year      : 1992
-Genre     : Strategy - War
-Players   : 1 Only
-Whdload   : Campaign&DataDisk.slave

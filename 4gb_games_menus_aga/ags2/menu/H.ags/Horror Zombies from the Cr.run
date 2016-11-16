@@ -1,6 +1,0 @@
-cd "A-Games1:H/HorrorZombiesFromTheCrypt/"
-IF $whdloadargs EQ ""
-  whdload "HorrorZombiesFromTheCrypt.Slave"
-ELSE
-  whdload "HorrorZombiesFromTheCrypt.Slave" $whdloadargs
-ENDIF

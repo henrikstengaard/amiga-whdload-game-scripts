@@ -1,4 +1,0 @@
-Name    : Dance Trance II
-Groups  : Interactive
-Type    : Musicdisk
-Whdload : DanceTrance2.Slave

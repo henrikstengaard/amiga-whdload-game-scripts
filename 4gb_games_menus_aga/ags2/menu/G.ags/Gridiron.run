@@ -1,6 +1,0 @@
-cd "A-Games1:G/Gridiron/"
-IF $whdloadargs EQ ""
-  whdload "Gridiron.Slave"
-ELSE
-  whdload "Gridiron.Slave" $whdloadargs
-ENDIF

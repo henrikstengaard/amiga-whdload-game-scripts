@@ -1,6 +1,0 @@
-cd "A-Games:S/StoneAge/"
-IF $whdloadargs EQ ""
-  whdload "StoneAge.slave"
-ELSE
-  whdload "StoneAge.slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:L/LineOfFire/"
-IF $whdloadargs EQ ""
-  whdload "LineOfFire.slave"
-ELSE
-  whdload "LineOfFire.slave" $whdloadargs
-ENDIF

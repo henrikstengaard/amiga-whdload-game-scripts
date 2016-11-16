@@ -1,6 +1,0 @@
-cd "A-Games1:K/KryptonEgg/"
-IF $whdloadargs EQ ""
-  whdload "KryptonEgg.Slave"
-ELSE
-  whdload "KryptonEgg.Slave" $whdloadargs
-ENDIF

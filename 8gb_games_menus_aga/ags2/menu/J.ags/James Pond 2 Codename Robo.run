@@ -1,6 +1,0 @@
-cd "A-Games:J/JamesPond2CD32/"
-IF $whdloadargs EQ ""
-  whdload "JamesPond2CD32.Slave"
-ELSE
-  whdload "JamesPond2CD32.Slave" $whdloadargs
-ENDIF

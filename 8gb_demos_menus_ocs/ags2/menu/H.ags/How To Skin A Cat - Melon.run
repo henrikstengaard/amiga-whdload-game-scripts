@@ -1,6 +1,0 @@
-cd "A-Demos:H/How2SkinACat/"
-IF $whdloadargs EQ ""
-  whdload "How2SkinACat.slave"
-ELSE
-  whdload "How2SkinACat.slave" $whdloadargs
-ENDIF

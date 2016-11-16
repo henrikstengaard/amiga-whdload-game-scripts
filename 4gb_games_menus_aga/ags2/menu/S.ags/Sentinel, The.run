@@ -1,6 +1,0 @@
-cd "A-Games2:S/Sentinel/"
-IF $whdloadargs EQ ""
-  whdload "Sentinel.slave"
-ELSE
-  whdload "Sentinel.slave" $whdloadargs
-ENDIF

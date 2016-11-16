@@ -1,6 +1,0 @@
-Name      : Alfred Chicken
-Publisher : Mindscape
-Year      : 1993
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : AlfredChickenCD32.slave

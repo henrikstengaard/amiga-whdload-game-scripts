@@ -1,6 +1,0 @@
-cd "A-Games2:T/TurricanCDTV/"
-IF $whdloadargs EQ ""
-  whdload "TurricanCDTV.Slave"
-ELSE
-  whdload "TurricanCDTV.Slave" $whdloadargs
-ENDIF

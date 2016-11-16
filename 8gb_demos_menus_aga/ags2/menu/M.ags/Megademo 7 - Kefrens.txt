@@ -1,4 +1,0 @@
-Name    : Megademo 7
-Groups  : Kefrens
-Type    : Demo
-Whdload : MegaDemo7Kefrens.Slave

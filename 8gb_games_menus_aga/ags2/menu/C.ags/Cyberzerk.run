@@ -1,6 +1,0 @@
-cd "A-Games:C/Cyberzerk/"
-IF $whdloadargs EQ ""
-  whdload "Cyberzerk.slave"
-ELSE
-  whdload "Cyberzerk.slave" $whdloadargs
-ENDIF

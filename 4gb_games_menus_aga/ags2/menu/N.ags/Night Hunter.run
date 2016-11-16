@@ -1,6 +1,0 @@
-cd "A-Games2:N/NightHunter/"
-IF $whdloadargs EQ ""
-  whdload "NightHunter.slave"
-ELSE
-  whdload "NightHunter.slave" $whdloadargs
-ENDIF

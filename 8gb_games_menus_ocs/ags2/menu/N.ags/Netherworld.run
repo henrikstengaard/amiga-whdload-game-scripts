@@ -1,6 +1,0 @@
-cd "A-Games:N/Netherworld/"
-IF $whdloadargs EQ ""
-  whdload "Netherworld.Slave"
-ELSE
-  whdload "Netherworld.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games1:E/EyeOfTheStorm/"
-IF $whdloadargs EQ ""
-  whdload "Intro.Slave"
-ELSE
-  whdload "Intro.Slave" $whdloadargs
-ENDIF

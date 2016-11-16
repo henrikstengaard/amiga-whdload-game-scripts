@@ -1,6 +1,0 @@
-cd "A-Games:K/KickOff3EC_AGA/"
-IF $whdloadargs EQ ""
-  whdload "KickOff3EC_AGA.Slave"
-ELSE
-  whdload "KickOff3EC_AGA.Slave" $whdloadargs
-ENDIF

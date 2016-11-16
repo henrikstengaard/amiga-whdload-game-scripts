@@ -1,4 +1,0 @@
-Name    : Ode to Ramon 2
-Groups  : The Digital Force
-Type    : Musicdisk
-Whdload : OdeToRamon2.Slave

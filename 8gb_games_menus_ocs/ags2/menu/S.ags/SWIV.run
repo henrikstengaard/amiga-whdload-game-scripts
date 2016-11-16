@@ -1,6 +1,0 @@
-cd "A-Games:S/SWIV/"
-IF $whdloadargs EQ ""
-  whdload "SWIV.Slave"
-ELSE
-  whdload "SWIV.Slave" $whdloadargs
-ENDIF

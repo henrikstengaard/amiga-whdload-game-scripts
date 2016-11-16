@@ -1,5 +1,0 @@
-Name      : The Deep
-Publisher : U.S. Gold
-Year      : 1988
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : Deep.Slave

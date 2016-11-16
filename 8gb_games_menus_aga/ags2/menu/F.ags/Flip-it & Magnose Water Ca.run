@@ -1,6 +1,0 @@
-cd "A-Games:F/Flipit&Magnose/"
-IF $whdloadargs EQ ""
-  whdload "Flipit&Magnose.slave"
-ELSE
-  whdload "Flipit&Magnose.slave" $whdloadargs
-ENDIF

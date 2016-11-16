@@ -1,6 +1,0 @@
-cd "A-Games:P/PopulousWorldEditor/"
-IF $whdloadargs EQ ""
-  whdload "PopulousWorldEditor.Slave"
-ELSE
-  whdload "PopulousWorldEditor.Slave" $whdloadargs
-ENDIF

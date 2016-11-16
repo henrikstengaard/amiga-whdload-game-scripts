@@ -1,6 +1,0 @@
-cd "A-Games:F/FerrariFormulaOne/"
-IF $whdloadargs EQ ""
-  whdload "FerrariFormulaOne.slave"
-ELSE
-  whdload "FerrariFormulaOne.slave" $whdloadargs
-ENDIF

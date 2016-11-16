@@ -1,6 +1,0 @@
-cd "A-Games1:K/KirosQuest/"
-IF $whdloadargs EQ ""
-  whdload "KirosQuest.Slave"
-ELSE
-  whdload "KirosQuest.Slave" $whdloadargs
-ENDIF

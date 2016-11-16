@@ -1,6 +1,0 @@
-cd "A-Games2:P/PGATourGolf&TourDisk/"
-IF $whdloadargs EQ ""
-  whdload "PGATourGolf&TourDisk.Slave"
-ELSE
-  whdload "PGATourGolf&TourDisk.Slave" $whdloadargs
-ENDIF

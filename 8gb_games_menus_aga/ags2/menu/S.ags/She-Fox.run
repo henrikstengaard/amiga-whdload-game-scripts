@@ -1,6 +1,0 @@
-cd "A-Games:S/SheFox/"
-IF $whdloadargs EQ ""
-  whdload "SheFox.slave"
-ELSE
-  whdload "SheFox.slave" $whdloadargs
-ENDIF

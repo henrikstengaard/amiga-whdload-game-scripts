@@ -1,6 +1,0 @@
-cd "A-Games:T/Technocop/"
-IF $whdloadargs EQ ""
-  whdload "Technocop.Slave"
-ELSE
-  whdload "Technocop.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:R/RockstarNTRT/"
-IF $whdloadargs EQ ""
-  whdload "RockstarNTRT.Slave"
-ELSE
-  whdload "RockstarNTRT.Slave" $whdloadargs
-ENDIF

@@ -1,6 +1,0 @@
-cd "A-Games:X/XOut2Disk/"
-IF $whdloadargs EQ ""
-  whdload "XOut2Disk.Slave"
-ELSE
-  whdload "XOut2Disk.Slave" $whdloadargs
-ENDIF

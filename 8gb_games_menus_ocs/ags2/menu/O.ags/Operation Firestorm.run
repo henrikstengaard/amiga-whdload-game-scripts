@@ -1,6 +1,0 @@
-cd "A-Games:O/OperationFirestorm/"
-IF $whdloadargs EQ ""
-  whdload "OperationFirestorm.slave"
-ELSE
-  whdload "OperationFirestorm.slave" $whdloadargs
-ENDIF

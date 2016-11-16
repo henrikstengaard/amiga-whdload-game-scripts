@@ -1,6 +1,0 @@
-Name    : Soulkitchen
-Groups  : The Silents
-Type    : Demo
-Party   : The Party 1994
-Rank    : 4th
-Whdload : SoulKitchenAGA.slave

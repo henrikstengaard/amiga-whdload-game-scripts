@@ -1,6 +1,0 @@
-cd "A-Games:T/Terminator2Arcade/"
-IF $whdloadargs EQ ""
-  whdload "Terminator2Arcade.Slave"
-ELSE
-  whdload "Terminator2Arcade.Slave" $whdloadargs
-ENDIF

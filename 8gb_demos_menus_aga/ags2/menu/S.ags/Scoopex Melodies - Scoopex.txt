@@ -1,4 +1,0 @@
-Name    : Scoopex Melodies
-Groups  : Scoopex
-Type    : Musicdisk
-Whdload : Melodies.Slave

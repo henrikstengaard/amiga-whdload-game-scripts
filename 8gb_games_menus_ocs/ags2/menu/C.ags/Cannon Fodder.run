@@ -1,6 +1,0 @@
-cd "A-Games:C/CannonFodder/"
-IF $whdloadargs EQ ""
-  whdload "CannonFodder.slave"
-ELSE
-  whdload "CannonFodder.slave" $whdloadargs
-ENDIF

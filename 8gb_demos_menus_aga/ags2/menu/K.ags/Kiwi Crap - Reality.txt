@@ -1,4 +1,0 @@
-Name    : Kiwi Crap
-Groups  : Reality
-Type    : Demo
-Whdload : KiwiCrap.Slave

@@ -1,6 +1,0 @@
-cd "A-Games2:P/PowerDrift/"
-IF $whdloadargs EQ ""
-  whdload "PowerDrift.Slave"
-ELSE
-  whdload "PowerDrift.Slave" $whdloadargs
-ENDIF

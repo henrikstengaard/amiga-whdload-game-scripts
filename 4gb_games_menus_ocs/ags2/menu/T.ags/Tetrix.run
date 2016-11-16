@@ -1,6 +1,0 @@
-cd "A-Games2:T/Tetrix/"
-IF $whdloadargs EQ ""
-  whdload "Tetrix.Slave"
-ELSE
-  whdload "Tetrix.Slave" $whdloadargs
-ENDIF

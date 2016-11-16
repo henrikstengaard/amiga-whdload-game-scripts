@@ -1,6 +1,0 @@
-Name      : Nebulus
-Publisher : Epyx
-Year      : 1988
-Genre     : Arcade - Miscellaneous
-Players   : 1 or 2
-Whdload   : Nebulus.Slave

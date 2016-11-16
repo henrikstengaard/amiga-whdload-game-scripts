@@ -1,6 +1,0 @@
-cd "A-Games2:V/Vixen/"
-IF $whdloadargs EQ ""
-  whdload "Vixen.slave"
-ELSE
-  whdload "Vixen.slave" $whdloadargs
-ENDIF

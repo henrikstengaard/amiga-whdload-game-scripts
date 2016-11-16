@@ -1,6 +1,0 @@
-cd "A-Games2:P/Pod/"
-IF $whdloadargs EQ ""
-  whdload "Pod.Slave"
-ELSE
-  whdload "Pod.Slave" $whdloadargs
-ENDIF

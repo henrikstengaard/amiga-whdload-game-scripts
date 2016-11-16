@@ -1,6 +1,0 @@
-cd "A-Demos:M/Monoxide/"
-IF $whdloadargs EQ ""
-  whdload "Monoxide.Slave"
-ELSE
-  whdload "Monoxide.Slave" $whdloadargs
-ENDIF

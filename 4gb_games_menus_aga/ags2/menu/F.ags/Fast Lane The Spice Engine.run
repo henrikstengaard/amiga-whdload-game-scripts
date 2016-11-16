@@ -1,6 +1,0 @@
-cd "A-Games1:F/FastLane/"
-IF $whdloadargs EQ ""
-  whdload "FastLane.Slave"
-ELSE
-  whdload "FastLane.Slave" $whdloadargs
-ENDIF

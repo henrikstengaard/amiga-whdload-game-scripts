@@ -1,6 +1,0 @@
-cd "A-Games1:I/Impact/"
-IF $whdloadargs EQ ""
-  whdload "Impact.Slave"
-ELSE
-  whdload "Impact.Slave" $whdloadargs
-ENDIF

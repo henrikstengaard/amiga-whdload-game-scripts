@@ -1,6 +1,0 @@
-cd "A-Games2:M/MiniGolfPlus/"
-IF $whdloadargs EQ ""
-  whdload "MiniGolfPlus.slave"
-ELSE
-  whdload "MiniGolfPlus.slave" $whdloadargs
-ENDIF

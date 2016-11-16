@@ -1,4 +1,0 @@
-Name    : Sounddemo
-Groups  : Syndicate
-Type    : Musicdisk
-Whdload : SoundDemoSyndicate.Slave

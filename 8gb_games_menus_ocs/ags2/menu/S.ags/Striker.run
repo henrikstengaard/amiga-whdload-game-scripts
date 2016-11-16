@@ -1,6 +1,0 @@
-cd "A-Games:S/Striker/"
-IF $whdloadargs EQ ""
-  whdload "Striker.slave"
-ELSE
-  whdload "Striker.slave" $whdloadargs
-ENDIF

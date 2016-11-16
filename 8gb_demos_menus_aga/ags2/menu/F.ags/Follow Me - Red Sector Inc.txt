@@ -1,4 +1,0 @@
-Name    : Follow Me
-Groups  : Red Sector Inc.
-Type    : Demo
-Whdload : FollowMe.Slave
