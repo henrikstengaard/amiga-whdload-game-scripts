@@ -1,0 +1,7 @@
+echo "*ec"
+IF EXISTS ENV:favouritesmode
+	DELETE >NIL: ENV:favouritesmode
+ENDIF
+echo "Set favourites mode to off"
+wait 3
+echo "*ec"

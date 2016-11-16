@@ -1,6 +1,33 @@
 echo "*ec"
 echo "Settings:"
+
+IF EXISTS ENV:ags2music
+	echo "Music is turned on"
+ELSE
+	echo "Music is turned off"
+ENDIF
+
 echo ""
-echo "WHDLoad arguments: '$whdloadargs'"
+IF EXISTS ENV:favouritesmode
+	IF $favouritesmode EQ "add"
+		echo "Favourites mode is add"
+	ENDIF
+	IF $favouritesmode EQ "addrun"
+		echo "Favourites mode is add & run"
+	ENDIF
+	IF $favouritesmode EQ "remove"
+		echo "Favourites mode is remove"
+	ENDIF
+ELSE
+	echo "Favourites mode is off"
+ENDIF
+
+echo ""
+IF EXISTS ENV:whdloadargs
+	echo "WHDLoad arguments: '$whdloadargs'"
+ELSE
+	echo "WHDLoad arguments: ''"
+ENDIF
+
 wait 5
 echo "*ec"

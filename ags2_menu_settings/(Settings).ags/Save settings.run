@@ -1,5 +1,13 @@
 echo "*ec"
-copy ENV:whdloadargs AGS:whdloadargs 
+IF EXISTS ENV:whdloadargs
+	copy >NIL: ENV:whdloadargs S:Settings/whdloadargs 
+ENDIF
+IF EXISTS ENV:favouritesmode
+	copy >NIL: ENV:favouritesmode S:Settings/favouritesmode 
+ENDIF
+IF EXISTS ENV:ags2music
+	copy >NIL: ENV:ags2music S:Settings/ags2music 
+ENDIF
 echo "Settings saved"
 wait 3
 echo "*ec"

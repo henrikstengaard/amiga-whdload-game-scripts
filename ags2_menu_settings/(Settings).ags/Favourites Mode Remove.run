@@ -1,0 +1,5 @@
+echo "*ec"
+echo "remove" > ENV:favouritesmode
+echo "Set favourites mode to remove"
+wait 3
+echo "*ec"

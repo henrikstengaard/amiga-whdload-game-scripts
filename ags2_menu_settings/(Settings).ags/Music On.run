@@ -1,0 +1,6 @@
+echo "*ec"
+echo "" > ENV:ags2music
+execute S:AGS2MusicStart
+echo "Music turned on"
+wait 3
+echo "*ec"

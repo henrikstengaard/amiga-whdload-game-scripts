@@ -1,0 +1,8 @@
+echo "*ec"
+IF EXISTS ENV:ags2music
+	DELETE >NIL: ENV:ags2music
+ENDIF
+execute S:AGS2MusicStop
+echo "Music turned off"
+wait 3
+echo "*ec"

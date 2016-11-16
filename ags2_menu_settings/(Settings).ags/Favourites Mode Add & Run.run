@@ -1,0 +1,5 @@
+echo "*ec"
+echo "addrun" > ENV:favouritesmode
+echo "Set favourites mode to add & run"
+wait 3
+echo "*ec"

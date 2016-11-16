@@ -1,0 +1,5 @@
+echo "*ec"
+echo "add" > ENV:favouritesmode
+echo "Set favourites mode to add"
+wait 3
+echo "*ec"

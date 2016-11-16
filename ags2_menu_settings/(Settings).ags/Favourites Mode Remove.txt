@@ -1,0 +1,6 @@
+Sets favourites mode to remove.
+Starting games or demos in this 
+mode will remove them from 
+favourites menu.
+Note: Removing is first done 
+when rebooting! 

@@ -1,0 +1,4 @@
+Sets favourites mode to add. 
+Starting games or demos in this mode 
+will add them to favourites menu and
+return to the menu.
