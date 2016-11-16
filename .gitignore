@@ -1,11 +1,13 @@
 .vscode/
 logs/
-aeb_whdload_demos/
-aeb_whdload_demos_aga/
-aeb_whdload_games/
+aeb_custom/
 aeb_whdload_games_aga/
-aeb_whdload_games_cd32/
+aeb_whdload_games_ocs/
+aeb_whdload_demos_aga/
+aeb_whdload_demos_ocs/
 aeb_whdload_packs/
+demos_music/
+games_music/
 whdownload_games/**/
 whdload_installs/**/
 whdload_games_aga/
