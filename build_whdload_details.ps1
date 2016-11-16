@@ -74,19 +74,26 @@ function SearchItems($q)
 		$q += ' 1'
 	}
 
-	$searcher = [IndexSearcher]::new($directory, $true)
-	$parser = [QueryParser]::new("LUCENE_CURRENT", "Keywords", $analyzer)    
-	$query = $parser.Parse($q)
-	$result = $searcher.Search($query, $null, 100)
-	$hits = $result.ScoreDocs
-
-	$results = @()
-	
-    foreach($hit in $hits)
+	try
 	{
-		$document = $searcher.Doc($hit.doc)
-		$data = $document.Get("Data") | ConvertFrom-Json
-		$results += , @{ "Score" = $hit.score; "Item" = $data }
+		$searcher = [IndexSearcher]::new($directory, $true)
+		$parser = [QueryParser]::new("LUCENE_CURRENT", "Keywords", $analyzer)    
+		$query = $parser.Parse($q)
+		$result = $searcher.Search($query, $null, 100)
+		$hits = $result.ScoreDocs
+
+		$results = @()
+		
+		foreach($hit in $hits)
+		{
+			$document = $searcher.Doc($hit.doc)
+			$data = $document.Get("Data") | ConvertFrom-Json
+			$results += , @{ "Score" = $hit.score; "Item" = $data }
+		}
+	}
+	catch
+	{
+		Write-Error "Failed to search items with query '$q': $($_.Exception.Message)"
 	}
 
 	return $results
@@ -443,7 +450,9 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 
 
 # Write number of whdload slaves that doesn't have a detail match
-Write-Host ("" + ($whdloadSlaves | Where { $_.DetailMatch -eq $null }).Count + " whdload slaves doesn't have a detail match")
+$whdloadSlavesNoMatch = @()
+$whdloadSlavesNoMatch += $whdloadSlaves | Where { $_.DetailMatch -eq $null }
+Write-Host ($whdloadSlavesNoMatch.Count.ToString() + " whdload slaves doesn't have a detail match")
 
 
 # Write whdload slaves details file
