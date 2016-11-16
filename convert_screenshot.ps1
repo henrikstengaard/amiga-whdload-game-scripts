@@ -312,7 +312,7 @@ $outputAmsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ams.iff")
 
 
 # copy screenshots files to output 
-Copy-Item $screenshotFile $outputScreenshotFile -force
+Copy-Item $tempScreenshotFile $outputScreenshotFile -force
 
 if (test-path -path $iGameScreenshotFile)
 {
