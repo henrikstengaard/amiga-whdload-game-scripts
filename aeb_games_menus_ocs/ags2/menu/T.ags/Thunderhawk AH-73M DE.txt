@@ -1,0 +1,7 @@
+Name      : Thunderhawk AH-73M
+Publisher : Core Design
+Language  : German
+Year      : 1991
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : ThunderHawkAH73MDe.Slave

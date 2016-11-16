@@ -1,0 +1,6 @@
+Name      : Profezia
+Publisher : Genias
+Language  : Italian
+Year      : 1991
+Players   : 1
+Whdload   : ProfeziaIt.Slave

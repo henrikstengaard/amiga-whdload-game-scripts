@@ -1,0 +1,6 @@
+Name      : Voyages of Discovery
+Publisher : Black Legend
+Year      : 1995
+Genre     : Strategy - Trading
+Players   : 1 to 4
+Whdload   : VoyagesOfDiscovery.slave

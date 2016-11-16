@@ -1,0 +1,4 @@
+Name    : Hinch Demo
+Groups  : Decay
+Type    : Demo
+Whdload : DerrynHinchDemo.Slave

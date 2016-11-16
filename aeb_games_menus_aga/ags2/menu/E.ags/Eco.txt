@@ -1,0 +1,5 @@
+Name      : Eco
+Publisher : Ocean
+Year      : 1988
+Players   : 1
+Whdload   : Eco.Slave

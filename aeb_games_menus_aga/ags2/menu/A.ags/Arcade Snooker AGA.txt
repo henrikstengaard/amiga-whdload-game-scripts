@@ -1,0 +1,6 @@
+Name      : Arcade Snooker
+Publisher : CU Amiga
+Year      : 1995
+Genre     : Sports - Snooker/Pool
+Players   : 1 or 2
+Whdload   : ArcadeSnookerAGA.Slave

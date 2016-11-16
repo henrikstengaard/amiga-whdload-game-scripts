@@ -1,0 +1,4 @@
+Name    : Fantastic Dream
+Groups  : Saints
+Type    : Musicdisk
+Whdload : FantasticDream.Slave

@@ -1,0 +1,6 @@
+Name      : Guy Spy and the Crystals of Armageddon
+Publisher : ReadySoft
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : GuySpy.Slave

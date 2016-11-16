@@ -1,0 +1,6 @@
+Name      : Big Nose the Caveman
+Publisher : Codemasters
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : BigNoseTheCaveman.Slave

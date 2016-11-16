@@ -1,0 +1,6 @@
+Name      : PGA European Tour
+Publisher : Ocean
+Year      : 1994
+Genre     : Sports - Golf
+Players   : 1 to 4
+Whdload   : PGAEuropeanTour.Slave

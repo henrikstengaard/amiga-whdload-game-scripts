@@ -1,0 +1,5 @@
+Name      : Eye
+Publisher : Endurance (Prism Leisure)
+Year      : 1988
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : Eye.Slave

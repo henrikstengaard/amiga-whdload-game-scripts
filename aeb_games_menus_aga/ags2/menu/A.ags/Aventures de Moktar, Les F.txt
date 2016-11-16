@@ -1,0 +1,7 @@
+Name      : Aventures de Moktar, Les
+Publisher : Titus Software
+Language  : French
+Year      : 1991
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : AventuresDeMoktarFr.slave

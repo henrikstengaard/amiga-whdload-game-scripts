@@ -1,0 +1,6 @@
+Name      : Manchester United: The Double
+Publisher : Krisalis
+Year      : 1995
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : ManchesterUnitedTheDouble.slave

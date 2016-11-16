@@ -1,0 +1,7 @@
+Name      : Starblade
+Publisher : Palace Software
+Language  : French
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : StarbladeFr.Slave

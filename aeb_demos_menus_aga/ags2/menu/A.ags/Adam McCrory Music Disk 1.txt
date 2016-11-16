@@ -1,0 +1,4 @@
+Name    : Adam McCrory Music Disk 1
+Groups  : Adam McCrory
+Type    : Musicdisk
+Whdload : MusicDisk1AdamMcCrory.Slave

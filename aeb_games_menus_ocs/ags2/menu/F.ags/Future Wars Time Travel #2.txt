@@ -1,0 +1,7 @@
+Name      : Future Wars: Time Travellers
+Publisher : Palace Software
+Language  : German
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : FutureWarsDe.Slave

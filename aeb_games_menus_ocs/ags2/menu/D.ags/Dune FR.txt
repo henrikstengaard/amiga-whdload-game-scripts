@@ -1,0 +1,7 @@
+Name      : Dune
+Publisher : Virgin Games
+Language  : French
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : DuneFr.Slave

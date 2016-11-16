@@ -1,0 +1,6 @@
+Name    : Mirror
+Groups  : Andromeda
+Type    : Musicdisk
+Party   : The Party 1992
+Rank    : N/a
+Whdload : Mirror.Slave

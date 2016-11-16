@@ -1,0 +1,4 @@
+Name      : Universal Monsters
+Publisher : Ocean
+Year      : 1993
+Whdload   : UniversalMonsters.Slave

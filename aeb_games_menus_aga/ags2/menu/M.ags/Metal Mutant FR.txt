@@ -1,0 +1,6 @@
+Name      : Metal Mutant
+Publisher : Silmarils
+Language  : French
+Year      : 1991
+Players   : 1 Only
+Whdload   : MetalMutantFr.slave

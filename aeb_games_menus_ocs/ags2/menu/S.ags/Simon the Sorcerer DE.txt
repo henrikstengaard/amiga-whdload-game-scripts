@@ -1,0 +1,7 @@
+Name      : Simon the Sorcerer
+Publisher : Blittersoft
+Language  : German
+Year      : 1993
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : SimonTheSorcererDe.Slave

@@ -1,0 +1,6 @@
+Name      : Sword & The Rose, The
+Publisher : Codemasters
+Year      : 1990
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : Sword&TheRose.slave

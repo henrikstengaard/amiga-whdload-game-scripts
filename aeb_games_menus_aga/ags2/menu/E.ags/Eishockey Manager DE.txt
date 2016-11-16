@@ -1,0 +1,7 @@
+Name      : Eishockey Manager
+Publisher : Software 2000
+Language  : German
+Year      : 1993
+Genre     : Sports - Ice Hockey
+Players   : 1 to 4
+Whdload   : EishockeyManagerDe.Slave

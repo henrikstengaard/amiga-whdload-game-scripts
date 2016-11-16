@@ -1,0 +1,4 @@
+Name    : Walkman Music
+Groups  : IT
+Type    : Musicdisk
+Whdload : WalkmanMusic.Slave

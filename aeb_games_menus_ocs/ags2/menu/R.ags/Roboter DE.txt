@@ -1,0 +1,7 @@
+Name      : Roboter
+Publisher : Werner
+Language  : German
+Year      : 1989
+Genre     : Shooter
+Players   : 1
+Whdload   : RoboterDe.Slave

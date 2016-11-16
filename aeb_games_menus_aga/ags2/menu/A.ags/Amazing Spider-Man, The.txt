@@ -1,0 +1,6 @@
+Name      : Amazing Spider-Man, The
+Publisher : ODE
+Year      : 1990
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : AmazingSpiderMan.slave

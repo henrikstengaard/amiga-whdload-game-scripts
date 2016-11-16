@@ -1,0 +1,6 @@
+Name      : Funturatum
+Publisher : Twin Spark Soft
+Language  : Polish
+Year      : 1996
+Players   : 1
+Whdload   : FunturatumPl.slave

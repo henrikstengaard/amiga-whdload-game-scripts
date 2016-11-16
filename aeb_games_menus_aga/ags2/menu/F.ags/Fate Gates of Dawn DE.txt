@@ -1,0 +1,6 @@
+Name      : Fate: Gates of Dawn
+Publisher : ReLINE Software
+Language  : German
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Whdload   : FateGatesOfDawnDe.Slave

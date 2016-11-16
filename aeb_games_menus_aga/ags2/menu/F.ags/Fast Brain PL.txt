@@ -1,0 +1,4 @@
+Name      : Fast Brain
+Language  : Polish
+Year      : 1993
+Whdload   : FastBrainPl.slave

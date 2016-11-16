@@ -1,0 +1,6 @@
+Name      : Hellowoon: Das Geheimnis des Zauberstabs
+Publisher : Ariolasoft?GmbH
+Language  : German
+Year      : 1987
+Genre     : Adventure
+Whdload   : HellowoonDe.Slave

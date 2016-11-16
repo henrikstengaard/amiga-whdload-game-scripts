@@ -1,0 +1,7 @@
+Name      : Operation Stealth
+Publisher : US Gold
+Language  : French
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : OperationStealthFr.slave

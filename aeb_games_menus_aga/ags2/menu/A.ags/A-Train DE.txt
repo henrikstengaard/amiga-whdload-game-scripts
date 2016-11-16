@@ -1,0 +1,7 @@
+Name      : A-Train
+Publisher : Ocean
+Language  : German
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : ATrain512kDe.slave

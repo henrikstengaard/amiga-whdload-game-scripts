@@ -1,0 +1,6 @@
+Name      : Demon's Tomb: The Awakening
+Publisher : Melbourne House
+Year      : 1989
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : DemonsTombTheAwakening.Slave

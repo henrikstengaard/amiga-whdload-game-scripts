@@ -1,0 +1,6 @@
+Name      : Teenage Queen
+Publisher : ERE Informatique
+Year      : 1988
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : TeenageQueen.Slave

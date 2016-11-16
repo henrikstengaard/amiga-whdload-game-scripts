@@ -1,0 +1,6 @@
+Name      : Crazy Cars
+Publisher : Titus Software
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : CrazyCars.Slave

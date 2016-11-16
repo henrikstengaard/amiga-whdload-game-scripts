@@ -1,0 +1,7 @@
+Name      : Eye of the Beholder
+Publisher : Strategic Simulations, Inc.
+Language  : German
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : EyeOfTheBeholderDe.Slave

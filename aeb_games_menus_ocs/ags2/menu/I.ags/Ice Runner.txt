@@ -1,0 +1,6 @@
+Name      : Ice Runner
+Publisher : Magic Soft
+Year      : 1991
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : IceRunner.Slave

@@ -1,0 +1,7 @@
+Name      : Templos Sagrados, Los
+Publisher : Aventuras AD
+Language  : Spanish
+Year      : 1991
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : LosTemplosSagradosEs.slave

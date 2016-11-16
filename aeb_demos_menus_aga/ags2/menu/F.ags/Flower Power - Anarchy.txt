@@ -1,0 +1,6 @@
+Name    : Flower Power
+Groups  : Anarchy
+Type    : Demo
+Party   : Digital Symposium 1992
+Rank    : 1st
+Whdload : FlowerPower.Slave

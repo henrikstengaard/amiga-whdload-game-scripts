@@ -1,0 +1,7 @@
+Name      : Bobo
+Publisher : Infogrames
+Language  : French
+Year      : 1988
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : BoboFr.Slave

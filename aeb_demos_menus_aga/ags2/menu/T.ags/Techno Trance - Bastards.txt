@@ -1,0 +1,4 @@
+Name    : Techno Trance
+Groups  : Bastards
+Type    : Musicdisk
+Whdload : TechnoTrance.Slave

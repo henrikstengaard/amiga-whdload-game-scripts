@@ -1,0 +1,6 @@
+Name    : Sumea
+Groups  : Virtual Dreams,Fairlight
+Type    : Demo
+Party   : Assembly 1996
+Rank    : 1st
+Whdload : SumeaAGA.Slave

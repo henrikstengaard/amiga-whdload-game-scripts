@@ -1,0 +1,6 @@
+Name      : Legends
+Publisher : Guildhall
+Year      : 1996
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : LegendsAGA.Slave

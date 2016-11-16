@@ -1,0 +1,6 @@
+Name    : Digital Concert 5
+Groups  : Flash Production
+Type    : Musicdisk
+Party   : Amiga Conference 1990
+Rank    : N/a
+Whdload : DigitalConcert5.Slave

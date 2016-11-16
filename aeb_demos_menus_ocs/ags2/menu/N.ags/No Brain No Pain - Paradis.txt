@@ -1,0 +1,4 @@
+Name    : No Brain No Pain
+Groups  : Paradise
+Type    : Musicdisk
+Whdload : NoBrainNoPainParadise.Slave

@@ -1,0 +1,6 @@
+Name    : Gigademo 3
+Groups  : Triangle,The Gang
+Type    : Demo
+Party   : Triangle - Amiga Lords party 1989
+Rank    : 3rd
+Whdload : GigaDemo3.Slave

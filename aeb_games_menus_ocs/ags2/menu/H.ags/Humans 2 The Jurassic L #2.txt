@@ -1,0 +1,6 @@
+Name      : Humans 2: The Jurassic Levels
+Publisher : Mirage / Gametek
+Language  : German
+Year      : 1993
+Players   : 1
+Whdload   : Humans2De.slave

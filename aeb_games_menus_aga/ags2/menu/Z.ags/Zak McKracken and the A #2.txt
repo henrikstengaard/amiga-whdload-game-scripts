@@ -1,0 +1,7 @@
+Name      : Zak McKracken and the Alien Mindbenders
+Publisher : Lucasfilm Games
+Language  : German
+Year      : 1988
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : ZakMcKrackenDe.slave

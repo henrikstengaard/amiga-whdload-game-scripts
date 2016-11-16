@@ -1,0 +1,7 @@
+Name      : TransWorld
+Publisher : Starbyte Software
+Language  : German
+Year      : 1990
+Genre     : Strategy - Company
+Players   : 1 to 4
+Whdload   : TransworldDe.Slave

@@ -1,0 +1,4 @@
+Name    : Erazorhead
+Groups  : Razor 1911
+Type    : Dentro
+Whdload : Erazorhead.Slave

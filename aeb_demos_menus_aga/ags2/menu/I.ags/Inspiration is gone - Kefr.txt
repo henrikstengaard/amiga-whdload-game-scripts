@@ -1,0 +1,4 @@
+Name    : Inspiration is gone
+Groups  : Kefrens
+Type    : Intro
+Whdload : InspirationIsGone.Slave

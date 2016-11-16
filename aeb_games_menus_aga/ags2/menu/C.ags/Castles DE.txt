@@ -1,0 +1,7 @@
+Name      : Castles
+Publisher : Electronic Arts
+Language  : German
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : CastlesDe.Slave

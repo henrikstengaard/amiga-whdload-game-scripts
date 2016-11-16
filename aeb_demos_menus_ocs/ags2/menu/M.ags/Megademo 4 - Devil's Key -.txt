@@ -1,0 +1,6 @@
+Name    : Megademo 4 - Devil's Key
+Groups  : Alcatraz
+Type    : Demo
+Party   : Alcatraz Pentcost 1990
+Rank    : 2nd
+Whdload : DevilsKey.slave

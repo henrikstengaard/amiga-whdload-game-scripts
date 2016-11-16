@@ -1,0 +1,7 @@
+Name      : Indiana Jones and the Last Crusade
+Publisher : US Gold
+Language  : Spanish
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : IndianaJonesLastCrusAdvEs.slave

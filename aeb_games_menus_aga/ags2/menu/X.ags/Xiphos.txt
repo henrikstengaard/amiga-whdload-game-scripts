@@ -1,0 +1,6 @@
+Name      : Xiphos
+Publisher : Electronic Zoo
+Year      : 1990
+Genre     : Simulation - Space
+Players   : 1 Only
+Whdload   : Xiphos.Slave

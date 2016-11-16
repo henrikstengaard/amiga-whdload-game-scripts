@@ -1,0 +1,6 @@
+Name      : Motorbike Madness
+Publisher : Mastertronic
+Year      : 1988
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : MotorbikeMadness.Slave

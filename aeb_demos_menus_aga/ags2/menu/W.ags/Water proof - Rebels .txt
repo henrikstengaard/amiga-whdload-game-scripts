@@ -1,0 +1,4 @@
+Name    : Water proof
+Groups  : Rebels
+Type    : Demo
+Whdload : WaterproofFixed.Slave

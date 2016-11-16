@@ -1,0 +1,6 @@
+Name    : Wit Premium
+Groups  : Freezers
+Type    : Demo
+Party   : Gelloween 1994
+Rank    : 2nd
+Whdload : WitPremiumAGA.Slave

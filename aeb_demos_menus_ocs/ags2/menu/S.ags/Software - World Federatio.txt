@@ -1,0 +1,6 @@
+Name    : Software
+Groups  : World Federation of Mad Hackers
+Type    : Demo
+Party   : Warszawa 2 1992
+Rank    : 1st
+Whdload : Software.Slave

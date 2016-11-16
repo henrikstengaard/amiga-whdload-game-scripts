@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Deathstar
+Type    : Demo
+Whdload : MegademoDeathstar.Slave

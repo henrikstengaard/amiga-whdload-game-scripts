@@ -1,0 +1,6 @@
+Name      : Pinball Fantasies
+Publisher : 21st Century Entertainment
+Year      : 1993
+Genre     : Arcade - Pinball
+Players   : 1 to 8
+Whdload   : PinballFntsies.slave

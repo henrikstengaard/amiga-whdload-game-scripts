@@ -1,0 +1,6 @@
+Name      : Vector Championship Run
+Publisher : Impulze
+Year      : 1991
+Genre     : Sports - Formula One
+Players   : 1 Only
+Whdload   : ChampionshipRun.Slave

@@ -1,0 +1,6 @@
+Name    : State of the Art
+Groups  : Spaceballs
+Type    : Demo
+Party   : The Party 1992
+Rank    : 1st
+Whdload : StateOfTheArt.Slave

@@ -1,0 +1,7 @@
+Name      : Mad Show
+Publisher : Silmarils
+Language  : French
+Year      : 1988
+Genre     : Arcade - Miscellaneous
+Players   : 1 to 4
+Whdload   : MadShowFr.Slave

@@ -1,0 +1,4 @@
+Name    : Chip Music Festival
+Groups  : Magnetic Fields
+Type    : Musicdisk
+Whdload : ChipMusicFestival.Slave

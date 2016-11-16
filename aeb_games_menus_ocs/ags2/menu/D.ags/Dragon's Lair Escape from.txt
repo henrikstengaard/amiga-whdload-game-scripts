@@ -1,0 +1,6 @@
+Name      : Dragon's Lair: Escape from Singe's Castle
+Publisher : ReadySoft
+Year      : 1990
+Genre     : Adventure - Joystick only
+Players   : 1 Only
+Whdload   : DragonsLairEscapeDemoNTSC.Slave

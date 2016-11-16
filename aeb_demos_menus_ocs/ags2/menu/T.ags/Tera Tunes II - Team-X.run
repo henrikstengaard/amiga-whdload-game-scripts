@@ -1,0 +1,32 @@
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+	execute S:Favourites "ags2" "T" "Tera Tunes II - Team-X"
+	IF $favouritesmode EQ "add"
+		SKIP end
+	ENDIF
+	IF $favouritesmode EQ "remove"
+		SKIP end
+	ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Demos:T/TeraTunes2/"
+IF EXISTS ENV:whdloadargs
+	whdload "TeraTunes2.Slave" $whdloadargs
+ELSE
+	whdload "TeraTunes2.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
+

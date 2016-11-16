@@ -1,0 +1,6 @@
+Name      : Blades of Steel
+Publisher : Konami
+Year      : 1990
+Genre     : Sports - Ice Hockey
+Players   : 1 or 2, Simultaneous
+Whdload   : BladesOfSteel.Slave

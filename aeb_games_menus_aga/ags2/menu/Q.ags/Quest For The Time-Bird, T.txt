@@ -1,0 +1,6 @@
+Name      : Quest For The Time-Bird, The
+Publisher : Infogrames
+Year      : 1989
+Genre     : Adventure - Clicker
+Players   : 1
+Whdload   : QuestForTheTimeBird.Slave

@@ -1,0 +1,7 @@
+Name      : Black Sect
+Publisher : Lankhor
+Language  : French
+Year      : 1994
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : BlackSectFr.Slave

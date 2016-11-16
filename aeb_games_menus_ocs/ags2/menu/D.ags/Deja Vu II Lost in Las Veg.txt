@@ -1,0 +1,6 @@
+Name      : Deja Vu II: Lost in Las Vegas
+Publisher : Mindscape
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : DejaVu2LostInLasVegas.Slave

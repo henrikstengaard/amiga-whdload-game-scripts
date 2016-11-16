@@ -1,0 +1,6 @@
+Name      : Tintin on the Moon
+Publisher : Infogrames
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : TintinOnTheMoonFiles.Slave

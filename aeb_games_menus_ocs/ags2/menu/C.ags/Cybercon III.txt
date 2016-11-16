@@ -1,0 +1,6 @@
+Name      : Cybercon III
+Publisher : US Gold
+Year      : 1991
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : Cybercon3.Slave

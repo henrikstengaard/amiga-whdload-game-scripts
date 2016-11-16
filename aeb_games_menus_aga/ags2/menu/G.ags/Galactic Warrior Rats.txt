@@ -1,0 +1,5 @@
+Name      : Galactic Warrior Rats
+Publisher : Summit Software
+Year      : 1992
+Players   : 1 Only
+Whdload   : GalacticWarriorRats.slave

@@ -1,0 +1,4 @@
+Name    : Checked implosion
+Groups  : Intryx
+Type    : Demo
+Whdload : CheckedImplosion.Slave

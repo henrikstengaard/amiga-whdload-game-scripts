@@ -1,0 +1,7 @@
+Name      : Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work
+Publisher : Sierra On-Line
+Language  : German
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : LeisureSuitLarry5De.slave

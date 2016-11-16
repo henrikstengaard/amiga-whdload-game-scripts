@@ -1,0 +1,6 @@
+Name      : Tripple-X
+Publisher : Axxiom
+Year      : 1989
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : TripleX.Slave

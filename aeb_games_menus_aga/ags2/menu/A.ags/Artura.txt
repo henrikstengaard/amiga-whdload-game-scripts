@@ -1,0 +1,6 @@
+Name      : Artura
+Publisher : Gremlin Graphics
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Artura.Slave

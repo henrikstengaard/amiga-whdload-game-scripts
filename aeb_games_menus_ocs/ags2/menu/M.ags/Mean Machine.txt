@@ -1,0 +1,6 @@
+Name      : Mean Machine
+Publisher : Codemasters
+Year      : 1991
+Genre     : Racing - Overhead
+Players   : 1 Only
+Whdload   : MeanMachine.slave

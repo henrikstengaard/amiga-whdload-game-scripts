@@ -1,0 +1,5 @@
+Name      : James Pond 2: Codename RoboCod
+Publisher : Millennium
+Year      : 1991
+Players   : 1
+Whdload   : JamesPond2CD32.Slave

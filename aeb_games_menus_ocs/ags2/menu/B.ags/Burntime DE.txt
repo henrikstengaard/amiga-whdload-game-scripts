@@ -1,0 +1,7 @@
+Name      : Burntime
+Publisher : Max Design
+Language  : German
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 or 2
+Whdload   : BurntimeDe.Slave

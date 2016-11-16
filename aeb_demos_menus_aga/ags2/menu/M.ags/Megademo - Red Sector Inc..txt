@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : Red Sector Inc.
+Type    : Demo
+Party   : Tristar Party 1989
+Rank    : 1st
+Whdload : MegaDemoRedSectorInc.slave

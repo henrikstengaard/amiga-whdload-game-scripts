@@ -1,0 +1,6 @@
+Name      : Kick Off 2: The Final Whistle
+Publisher : Anco
+Language  : German
+Year      : 1991
+Players   : 1 - 4 (4 simultaneous)
+Whdload   : KickOff2FWDe.Slave

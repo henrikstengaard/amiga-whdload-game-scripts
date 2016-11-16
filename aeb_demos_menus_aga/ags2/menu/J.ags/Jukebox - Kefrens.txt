@@ -1,0 +1,6 @@
+Name    : Jukebox
+Groups  : Kefrens
+Type    : Musicdisk
+Party   : Amiga Conference 1990
+Rank    : N/a
+Whdload : Jukebox.Slave

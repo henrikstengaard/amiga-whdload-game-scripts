@@ -1,0 +1,4 @@
+Name    : Digital concert 3
+Groups  : Flash Production
+Type    : Musicdisk
+Whdload : DigitalConcert3.Slave

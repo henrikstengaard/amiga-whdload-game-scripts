@@ -1,0 +1,6 @@
+Name      : Pub Trivia Simulator
+Publisher : Codemasters
+Year      : 1989
+Genre     : Educational - Quiz
+Players   : 1 to 4
+Whdload   : PubTriviaSimulator.Slave

@@ -1,0 +1,6 @@
+Name      : ThunderCats
+Publisher : Elite
+Year      : 1988
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ThunderCats.Slave

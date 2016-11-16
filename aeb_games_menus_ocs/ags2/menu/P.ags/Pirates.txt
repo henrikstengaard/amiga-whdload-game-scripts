@@ -1,0 +1,6 @@
+Name      : Pirates!
+Publisher : MicroProse Software
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Pirates.slave

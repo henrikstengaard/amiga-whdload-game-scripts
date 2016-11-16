@@ -1,0 +1,5 @@
+Name      : The North Sea Inferno
+Publisher : Magic Bytes (micro-partner/Ariolasoft)
+Year      : 1990
+Players   : 1
+Whdload   : NorthSeaInferno.Slave

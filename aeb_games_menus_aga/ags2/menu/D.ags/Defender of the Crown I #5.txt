@@ -1,0 +1,6 @@
+Name      : Defender of the Crown II
+Publisher : Commodore
+Language  : German
+Year      : 1993
+Players   : 1
+Whdload   : VerteidigerKrone2CD32De.slave

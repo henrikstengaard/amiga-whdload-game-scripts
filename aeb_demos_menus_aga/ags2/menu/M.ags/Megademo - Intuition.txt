@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Intuition
+Type    : Demo
+Whdload : MegademoIntuition.Slave

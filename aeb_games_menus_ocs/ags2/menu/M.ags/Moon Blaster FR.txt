@@ -1,0 +1,6 @@
+Name      : Moon Blaster
+Publisher : Loriciel
+Language  : French
+Year      : 1990
+Players   : 1
+Whdload   : MoonBlasterFr.Slave

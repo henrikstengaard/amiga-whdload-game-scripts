@@ -1,0 +1,6 @@
+Name      : Battle Command
+Publisher : Ocean
+Year      : 1990
+Genre     : Simulation - Tank
+Players   : 1 Only
+Whdload   : BattleCommand.slave

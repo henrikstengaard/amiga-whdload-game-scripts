@@ -1,0 +1,6 @@
+Name      : Sabre Team
+Publisher : Krisalis
+Year      : 1992
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : SabreTeam.Slave

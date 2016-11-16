@@ -1,0 +1,4 @@
+Name    : Steve Vizard Demo
+Groups  : Decay
+Type    : Demo
+Whdload : SteveVizard.Slave

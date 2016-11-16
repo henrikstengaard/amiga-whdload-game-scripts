@@ -1,0 +1,7 @@
+Name      : Dune
+Publisher : Virgin Games
+Language  : Spanish
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : DuneEs.Slave

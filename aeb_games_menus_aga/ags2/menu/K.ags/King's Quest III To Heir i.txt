@@ -1,0 +1,6 @@
+Name      : King's Quest III: To Heir is Human
+Publisher : Sierra On-Line
+Year      : 1987
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : KingsQuest3.Slave

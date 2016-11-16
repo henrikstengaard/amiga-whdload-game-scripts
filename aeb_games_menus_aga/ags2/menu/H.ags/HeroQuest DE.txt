@@ -1,0 +1,6 @@
+Name      : HeroQuest
+Publisher : Gremlin Graphics
+Language  : German
+Year      : 1991
+Genre     : Adventure - Isometric 3D
+Whdload   : HeroQuestDeFix.slave

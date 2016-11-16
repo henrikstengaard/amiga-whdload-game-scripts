@@ -1,0 +1,5 @@
+Name      : Nightbreed: The Action Game
+Publisher : Ocean
+Year      : 1990
+Players   : 1
+Whdload   : NightbreedAction.Slave

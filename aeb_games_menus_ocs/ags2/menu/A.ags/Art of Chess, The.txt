@@ -1,0 +1,6 @@
+Name      : Art of Chess, The
+Publisher : SPA
+Year      : 1987
+Genre     : Board - Chess
+Players   : 1 or 2
+Whdload   : ArtOfChess.Slave

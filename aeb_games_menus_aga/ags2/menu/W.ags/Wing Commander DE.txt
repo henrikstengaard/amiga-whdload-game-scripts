@@ -1,0 +1,6 @@
+Name      : Wing Commander
+Publisher : Origin Systems
+Language  : German
+Year      : 1992
+Players   : 1 Only
+Whdload   : WingCommanderDe.Slave

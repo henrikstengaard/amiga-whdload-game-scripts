@@ -1,0 +1,6 @@
+Name      : Wacky Darts
+Publisher : Codemasters
+Year      : 1991
+Genre     : Sports - Darts
+Players   : 1 to 8
+Whdload   : WackyDarts.slave

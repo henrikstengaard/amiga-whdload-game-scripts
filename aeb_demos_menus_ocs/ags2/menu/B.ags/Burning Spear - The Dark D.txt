@@ -1,0 +1,5 @@
+Name    : Burning Spear
+Groups  : The Dark Demon
+Type    : Demo
+Party   : Assembly 1992
+Whdload : BurningSpear.Slave

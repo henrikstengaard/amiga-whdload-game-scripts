@@ -1,0 +1,6 @@
+Name      : Defender of the Crown II
+Publisher : Commodore
+Language  : Italian
+Year      : 1993
+Players   : 1
+Whdload   : DifensoreCorona2CD32It.slave

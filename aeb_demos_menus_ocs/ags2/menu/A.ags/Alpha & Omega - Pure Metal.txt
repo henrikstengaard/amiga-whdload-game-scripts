@@ -1,0 +1,6 @@
+Name    : Alpha & Omega
+Groups  : Pure Metal Coders
+Type    : Demo
+Party   : Amega 1991
+Rank    : 2nd
+Whdload : Alpha&Omega.Slave

@@ -1,0 +1,6 @@
+Name    : Ilyad
+Groups  : Alcatraz
+Type    : Demo
+Party   : Assembly 1994
+Rank    : 4th
+Whdload : IlyadAGA.Slave

@@ -1,0 +1,7 @@
+Name      : Ooze
+Publisher : (unknown)
+Language  : German
+Year      : 1995
+Genre     : Brain - Logical
+Players   : 1 or 2
+Whdload   : OozeDe.Slave

@@ -1,0 +1,7 @@
+Name      : Mickey's 123's: The BIG Surprise Party
+Publisher : Infogrames
+Language  : French
+Year      : 1993
+Genre     : Educational - Math
+Players   : 1 Only
+Whdload   : Mickey123Fr.Slave

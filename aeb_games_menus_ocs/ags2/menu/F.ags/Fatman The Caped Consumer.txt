@@ -1,0 +1,6 @@
+Name      : Fatman: The Caped Consumer
+Publisher : Black Legend
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : FatmanCapedConsumer.Slave

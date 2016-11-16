@@ -1,0 +1,6 @@
+Name      : Alien Drug Lords: The Chyropian Connection
+Publisher : Panther Games
+Year      : 1991
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : AlienDrugLords.Slave

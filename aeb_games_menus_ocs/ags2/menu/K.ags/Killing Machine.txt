@@ -1,0 +1,5 @@
+Name      : Killing Machine
+Publisher : Atlantis Software
+Year      : 1992
+Players   : 1 or 2
+Whdload   : KillingMachine.Slave

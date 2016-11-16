@@ -1,0 +1,4 @@
+Name    : Wind It Up MegaMix 93
+Groups  : Xymox Project
+Type    : Demo
+Whdload : WindItUp.Slave

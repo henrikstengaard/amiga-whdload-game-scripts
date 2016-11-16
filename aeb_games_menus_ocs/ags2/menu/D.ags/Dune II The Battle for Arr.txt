@@ -1,0 +1,6 @@
+Name      : Dune II: The Battle for Arrakis
+Publisher : Virgin Games
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : Dune2.Slave

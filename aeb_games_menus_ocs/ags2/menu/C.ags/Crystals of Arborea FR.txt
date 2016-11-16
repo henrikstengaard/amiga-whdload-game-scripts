@@ -1,0 +1,7 @@
+Name      : Crystals of Arborea
+Publisher : Silmarils
+Language  : French
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : CrystalsOfArboreaFr.Slave

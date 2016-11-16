@@ -1,0 +1,7 @@
+Name      : Monkey Island 2: LeChuck's Revenge
+Publisher : US Gold
+Language  : Italian
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : MonkeyIsland2It.Slave

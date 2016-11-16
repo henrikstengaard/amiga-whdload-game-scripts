@@ -1,0 +1,6 @@
+Name      : Harpoon Battleset 2: North Atlantic Convoys
+Publisher : Electronic Arts
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Harpoon&Battleset2.slave

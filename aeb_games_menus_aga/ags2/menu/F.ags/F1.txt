@@ -1,0 +1,6 @@
+Name      : F1
+Publisher : Domark
+Year      : 1993
+Genre     : Sports - Formula One
+Players   : 1 or 2, Simultaneous
+Whdload   : F1.slave

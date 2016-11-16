@@ -1,0 +1,6 @@
+Name      : Exterminator
+Publisher : Audiogenic
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : Exterminator.slave

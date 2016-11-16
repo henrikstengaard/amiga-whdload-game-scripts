@@ -1,0 +1,4 @@
+Name      : Rody & Mastico
+Language  : German
+Players   : 1
+Whdload   : Rody&MasticoDe.Slave

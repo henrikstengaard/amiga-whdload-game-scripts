@@ -1,0 +1,4 @@
+Name    : Cyber Sounds
+Groups  : Bastards
+Type    : Musicdisk
+Whdload : CyberSounds.Slave

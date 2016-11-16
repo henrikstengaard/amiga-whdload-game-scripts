@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Vision
+Type    : Demo
+Whdload : MegademoVision.Slave

@@ -1,0 +1,6 @@
+Name      : Crossbow: The Legend of William Tell
+Publisher : Screen 7
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : CrossbowLegendWilliamTell.slave

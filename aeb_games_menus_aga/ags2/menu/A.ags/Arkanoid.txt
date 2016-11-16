@@ -1,0 +1,6 @@
+Name      : Arkanoid
+Publisher : Discovery Software
+Year      : 1987
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2
+Whdload   : Arkanoid.Slave

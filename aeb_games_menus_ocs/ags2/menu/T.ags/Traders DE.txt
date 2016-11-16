@@ -1,0 +1,7 @@
+Name      : Traders
+Publisher : Linel
+Language  : German
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 4
+Whdload   : TradersDe.slave

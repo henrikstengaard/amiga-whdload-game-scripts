@@ -1,0 +1,5 @@
+Name      : Hero's Quest
+Publisher : Sierra
+Year      : 1990
+Players   : 1
+Whdload   : HerosQuest.Slave

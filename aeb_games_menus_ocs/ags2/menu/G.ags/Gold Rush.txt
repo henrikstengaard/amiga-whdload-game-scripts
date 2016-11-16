@@ -1,0 +1,6 @@
+Name      : Gold Rush!
+Publisher : Sierra On-Line
+Year      : 1989
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : GoldRush.slave

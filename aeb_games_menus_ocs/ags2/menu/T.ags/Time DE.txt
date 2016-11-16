@@ -1,0 +1,7 @@
+Name      : Time
+Publisher : Empire Software
+Language  : German
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : TimeDe.Slave

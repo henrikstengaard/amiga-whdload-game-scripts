@@ -1,0 +1,7 @@
+Name      : Hugo på nye Eventyr Del 2
+Publisher : Silverrock Productions
+Language  : Finnish
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Hugo2Fi.Slave

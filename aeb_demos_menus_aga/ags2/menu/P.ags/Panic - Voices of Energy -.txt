@@ -1,0 +1,4 @@
+Name    : Panic - Voices of Energy
+Groups  : Alcatraz
+Type    : Musicdisk
+Whdload : PanicVoicesOfEnergy.Slave

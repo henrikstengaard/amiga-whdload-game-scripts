@@ -1,0 +1,7 @@
+Name      : Ishar: Legend of the Fortress
+Publisher : Silmarils
+Language  : Spanish
+Year      : 1993
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : IsharEs.Slave

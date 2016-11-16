@@ -1,0 +1,7 @@
+Name      : Knights of the Crystallion
+Publisher : US Gold
+Language  : German
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : KnightsOfTheCrystallionDe.Slav

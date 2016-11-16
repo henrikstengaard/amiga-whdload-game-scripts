@@ -1,0 +1,6 @@
+Name      : Misja Harolda: Zaginiony w systemie
+Publisher : MarkSoft
+Language  : Polish
+Year      : 1995
+Players   : 1
+Whdload   : MisjaHaroldaPl.slave

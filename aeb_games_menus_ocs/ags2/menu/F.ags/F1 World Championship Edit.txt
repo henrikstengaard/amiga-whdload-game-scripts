@@ -1,0 +1,6 @@
+Name      : F1 World Championship Edition
+Publisher : Domark
+Year      : 1995
+Genre     : Sports - Formula One
+Players   : 1 or 2, Simultaneous
+Whdload   : F1WorldChampionshipEd.slave

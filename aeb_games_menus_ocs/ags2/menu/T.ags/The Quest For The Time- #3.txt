@@ -1,0 +1,6 @@
+Name      : The Quest For The Time-Bird
+Publisher : Infogrames
+Language  : French
+Year      : 1989
+Players   : 1
+Whdload   : QueteLOiseauDuTempFrFiles.Slave

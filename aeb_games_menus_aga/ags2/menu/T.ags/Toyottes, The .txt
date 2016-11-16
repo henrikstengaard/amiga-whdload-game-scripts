@@ -1,0 +1,6 @@
+Name      : Toyottes, The
+Publisher : Infogrames
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2
+Whdload   : ToyottesImage.Slave

@@ -1,0 +1,4 @@
+Name      : Rody & Mastico
+Language  : French
+Players   : 1
+Whdload   : Rody&MasticoFr.Slave

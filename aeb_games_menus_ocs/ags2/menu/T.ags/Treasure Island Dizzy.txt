@@ -1,0 +1,5 @@
+Name      : Treasure Island Dizzy
+Publisher : Codemasters
+Year      : 1989
+Players   : 1
+Whdload   : TreasureIslandDizzy.slave

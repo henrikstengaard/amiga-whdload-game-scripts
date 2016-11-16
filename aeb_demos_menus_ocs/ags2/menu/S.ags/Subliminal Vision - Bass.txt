@@ -1,0 +1,4 @@
+Name    : Subliminal Vision
+Groups  : Bass
+Type    : Demo
+Whdload : SubliminalVision.Slave

@@ -1,0 +1,6 @@
+Name      : Third Reich
+Publisher : The Avalon Hill Game Company
+Year      : 1992
+Genre     : Strategy - War
+Players   : 1 or 2
+Whdload   : ComputerThirdReich.Slave

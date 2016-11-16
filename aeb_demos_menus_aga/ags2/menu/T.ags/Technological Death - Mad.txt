@@ -1,0 +1,6 @@
+Name    : Technological Death
+Groups  : Mad elks
+Type    : Demo
+Party   : Mountain Congress 1993
+Rank    : 1st
+Whdload : TechnologicalDeath.slave

@@ -1,0 +1,6 @@
+Name      : Blue Max: Aces of the Great War
+Publisher : Mindscape
+Year      : 1991
+Genre     : Simulation - Flight
+Players   : 1 or 2, Simultaneous
+Whdload   : BlueMax.Slave

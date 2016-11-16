@@ -1,0 +1,6 @@
+Name      : Fire and Brimstone
+Publisher : MicroProse Software
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Fire&Brimstone.slave

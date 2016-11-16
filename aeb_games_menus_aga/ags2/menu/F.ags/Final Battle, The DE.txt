@@ -1,0 +1,7 @@
+Name      : Final Battle, The
+Publisher : Personal Software Services (PSS)
+Language  : German
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : FinalBattleDe.slave

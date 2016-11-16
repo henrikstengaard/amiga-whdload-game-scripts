@@ -1,0 +1,6 @@
+Name      : Snow Bros.
+Publisher : Ocean
+Year      : 1991
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+Whdload   : SnowBrosFiles.Slave

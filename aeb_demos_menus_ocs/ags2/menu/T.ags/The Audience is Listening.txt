@@ -1,0 +1,4 @@
+Name    : The Audience is Listening
+Groups  : Taipan
+Type    : Musicdisk
+Whdload : AudienceIsListening.Slave

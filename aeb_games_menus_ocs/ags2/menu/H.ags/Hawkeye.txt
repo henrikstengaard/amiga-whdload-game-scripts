@@ -1,0 +1,6 @@
+Name      : Hawkeye
+Publisher : Thalamus
+Year      : 1988
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Hawkeye.slave

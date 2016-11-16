@@ -1,0 +1,5 @@
+Name      : After Burner [Sega]
+Publisher : Sega
+Year      : 1989
+Players   : 1
+Whdload   : AfterBurnerSega.Slave

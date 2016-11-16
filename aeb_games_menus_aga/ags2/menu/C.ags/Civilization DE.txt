@@ -1,0 +1,7 @@
+Name      : Civilization
+Publisher : Software Demon
+Language  : German
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : CivilizationDe.Slave

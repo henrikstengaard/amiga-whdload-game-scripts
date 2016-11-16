@@ -1,0 +1,4 @@
+Name    : Coca Cola
+Groups  : Fraxion
+Type    : Demo
+Whdload : CocaColaDemo.Slave

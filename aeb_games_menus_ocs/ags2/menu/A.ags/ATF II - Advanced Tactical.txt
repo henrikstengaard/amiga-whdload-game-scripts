@@ -1,0 +1,5 @@
+Name      : ATF II - Advanced Tactical Fighter II
+Publisher : Digital Intergration
+Year      : 1990
+Players   : 1
+Whdload   : ATF2.Slave

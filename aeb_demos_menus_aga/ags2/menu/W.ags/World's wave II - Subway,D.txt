@@ -1,0 +1,6 @@
+Name    : World's wave II
+Groups  : Subway,Dream Team
+Type    : Musicdisk
+Party   : TJC - MGF - JOY Party 1989
+Rank    : N/a
+Whdload : WorldsWave2.Slave

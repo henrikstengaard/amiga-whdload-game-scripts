@@ -1,0 +1,6 @@
+Name      : Pro Tennis Simulator
+Publisher : Codemasters
+Year      : 1990
+Genre     : Sports - Tennis
+Players   : 1 or 2, Simultaneous
+Whdload   : ProTennisSimulatorFiles.Slave

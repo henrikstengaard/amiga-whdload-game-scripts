@@ -1,0 +1,6 @@
+Name      : Devious Designs
+Publisher : Image Works
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : DeviousDesigns.Slave

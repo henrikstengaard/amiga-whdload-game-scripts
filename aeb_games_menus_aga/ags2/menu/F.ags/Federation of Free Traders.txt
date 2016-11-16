@@ -1,0 +1,6 @@
+Name      : Federation of Free Traders
+Publisher : Gremlin Graphics
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : FederationOfFreeTraders.slave

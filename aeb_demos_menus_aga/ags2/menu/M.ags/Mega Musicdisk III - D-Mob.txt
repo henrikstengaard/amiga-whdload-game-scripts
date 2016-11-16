@@ -1,0 +1,5 @@
+Name    : Mega Musicdisk III
+Groups  : D-Mob
+Type    : Musicdisk
+Party   : Spectre and Northstar Halloween Party 89
+Whdload : MusicDisk3.Slave

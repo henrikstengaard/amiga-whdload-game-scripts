@@ -1,0 +1,4 @@
+Name    : Ottifanten 2
+Groups  : Thrust
+Type    : Intro
+Whdload : Ottifanten2.Slave

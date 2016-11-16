@@ -1,0 +1,4 @@
+Name    : Muzzax 1
+Groups  : Byterapers
+Type    : Musicdisk
+Whdload : Muzzax1.slave

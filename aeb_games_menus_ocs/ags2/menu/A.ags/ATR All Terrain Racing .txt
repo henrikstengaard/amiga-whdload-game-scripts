@@ -1,0 +1,6 @@
+Name      : ATR: All Terrain Racing
+Publisher : Team 17
+Year      : 1995
+Genre     : Racing - Overhead
+Players   : 1 to 6
+Whdload   : AllTerrainRacingXmasDemo.Slave

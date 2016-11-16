@@ -1,0 +1,7 @@
+Name      : Viaje al Centro de la Tierra
+Publisher : Topo Soft
+Language  : Spanish
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : ViajeAlCentroDeLaTierraEs.old

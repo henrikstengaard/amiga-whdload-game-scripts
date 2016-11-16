@@ -1,0 +1,6 @@
+Name      : Oxxonian
+Publisher : Rainbow Arts
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Oxxonian.Slave

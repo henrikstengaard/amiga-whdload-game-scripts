@@ -1,0 +1,5 @@
+Name      : Q-Bic
+Publisher : CU Amiga
+Year      : 1992
+Players   : 1
+Whdload   : QBic.slave

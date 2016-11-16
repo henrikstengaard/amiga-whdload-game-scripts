@@ -1,0 +1,6 @@
+Name      : John Lowe's Ultimate Darts
+Publisher : Gremlin Graphics
+Year      : 1988
+Genre     : Sports - Darts
+Players   : 1 to 8
+Whdload   : JohnLowesUltimateDarts.Slave

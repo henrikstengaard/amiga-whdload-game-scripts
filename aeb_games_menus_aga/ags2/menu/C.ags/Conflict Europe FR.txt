@@ -1,0 +1,7 @@
+Name      : Conflict: Europe
+Publisher : Personal Software Services (PSS)
+Language  : French
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : ConflictEuropeFr.Slave

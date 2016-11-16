@@ -1,0 +1,4 @@
+Name    : Disco Fever
+Groups  : Ipec Elite
+Type    : Musicdisk
+Whdload : DiscoFever.Slave

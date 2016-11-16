@@ -1,0 +1,7 @@
+Name      : Ishar 3: The Seven Gates of Infinity
+Publisher : Silmarils
+Language  : French
+Year      : 1994
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : Ishar3Fr.Slave

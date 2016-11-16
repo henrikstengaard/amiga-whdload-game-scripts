@@ -1,0 +1,7 @@
+Name      : Midwinter
+Publisher : Rainbird
+Language  : German
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : MidwinterDe.Slave

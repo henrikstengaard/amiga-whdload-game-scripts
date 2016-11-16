@@ -1,0 +1,6 @@
+Name    : Kerygma
+Groups  : Wizzcat
+Type    : Intro
+Party   : CeBIT Demo Competition 1993
+Rank    : N/a
+Whdload : Kerygma.Slave

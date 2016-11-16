@@ -1,0 +1,6 @@
+Name      : Merv the Merciless
+Publisher : Zero
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : MervTheMerciless.slave

@@ -1,0 +1,4 @@
+Name    : Music for fools
+Groups  : Ghost
+Type    : Musicdisk
+Whdload : MusicForFools.Slave

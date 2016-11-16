@@ -1,0 +1,4 @@
+Name    : Demo Disk
+Groups  : Subway
+Type    : Demopack
+Whdload : DemoDiskSubway.Slave

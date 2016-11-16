@@ -1,0 +1,7 @@
+Name      : Sorcerer Lord
+Publisher : Personal Software Services (PSS)
+Language  : French
+Year      : 1988
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : SorcererLordFr.Slave

@@ -1,0 +1,4 @@
+Name    : Soundtrip
+Groups  : Shadows
+Type    : Musicdisk
+Whdload : Soundtrip.Slave

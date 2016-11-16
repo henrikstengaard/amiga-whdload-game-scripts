@@ -1,0 +1,7 @@
+Name      : Cruise for a Corpse
+Publisher : US Gold
+Language  : Spanish
+Year      : 1991
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : CruiseForACorpseEs.Slave

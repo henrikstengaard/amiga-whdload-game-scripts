@@ -1,0 +1,5 @@
+Name      : Pipeline
+Year      : 1988
+Genre     : Puzzler
+Players   : 1 or 2, Simultaneous
+Whdload   : PipelineNomad.Slave

@@ -1,0 +1,5 @@
+Name      : Formula 1 Grand Prix
+Publisher : MicroValue
+Year      : 1988
+Players   : 1
+Whdload   : Formula1GrandPrix.Slave

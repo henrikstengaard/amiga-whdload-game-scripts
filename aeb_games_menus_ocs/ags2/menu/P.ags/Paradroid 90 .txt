@@ -1,0 +1,5 @@
+Name      : Paradroid 90
+Publisher : Hewson
+Year      : 1990
+Players   : 1 Only
+Whdload   : Paradroid90512KB.Slave

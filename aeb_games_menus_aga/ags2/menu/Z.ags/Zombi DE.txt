@@ -1,0 +1,7 @@
+Name      : Zombi
+Publisher : Ubi Soft
+Language  : German
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : ZombiDe.Slave

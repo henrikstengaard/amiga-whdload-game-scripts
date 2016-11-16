@@ -1,0 +1,6 @@
+Name      : Red Zone
+Publisher : Psygnosis
+Year      : 1992
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : RedZone.Slave

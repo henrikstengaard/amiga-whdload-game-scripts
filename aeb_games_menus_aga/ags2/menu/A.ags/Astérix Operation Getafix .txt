@@ -1,0 +1,7 @@
+Name      : Astérix: Operation Getafix
+Publisher : Coktel Vision
+Language  : German
+Year      : 1989
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : AsterixOpHinkelsteinDe.slave

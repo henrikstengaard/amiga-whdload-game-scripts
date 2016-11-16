@@ -1,0 +1,5 @@
+Name      : Ivanhoe
+Publisher : Ocean
+Year      : 1990
+Players   : 1 Only
+Whdload   : Ivanhoe.slave

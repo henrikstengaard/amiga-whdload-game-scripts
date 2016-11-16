@@ -1,0 +1,5 @@
+Name      : TrianGo
+Publisher : California Dreams (Logical Design Works)
+Year      : 1988
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : TrianGO.Slave

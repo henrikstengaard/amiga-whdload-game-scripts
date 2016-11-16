@@ -1,0 +1,4 @@
+Name    : Music Disk 1
+Groups  : The 81st Track
+Type    : Musicdisk
+Whdload : MusicDisk181stTrack.Slave

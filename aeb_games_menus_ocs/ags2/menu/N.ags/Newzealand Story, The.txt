@@ -1,0 +1,6 @@
+Name      : Newzealand Story, The
+Publisher : Ocean
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : NewZealandStory.Slave

@@ -1,0 +1,5 @@
+Name      : The Hitchhiker's Guide to the Galaxy
+Publisher : Infocom
+Year      : 1986
+Players   : 1
+Whdload   : HitchhikersGuideTTG.Slave

@@ -1,0 +1,7 @@
+Name      : B.A.T.
+Publisher : Ubi Soft
+Language  : French
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : BATFr.Slave

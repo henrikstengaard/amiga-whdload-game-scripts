@@ -1,0 +1,6 @@
+Name      : Embryo
+Publisher : Black Legend
+Language  : German
+Year      : 1994
+Players   : 1 Only
+Whdload   : EmbryoDe.Slave

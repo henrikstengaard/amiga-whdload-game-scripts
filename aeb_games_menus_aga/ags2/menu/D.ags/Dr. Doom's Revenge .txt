@@ -1,0 +1,5 @@
+Name      : Dr. Doom's Revenge!
+Publisher : Empire / Medialist / Paragon
+Year      : 1989
+Players   : 1
+Whdload   : DrDoomsRevengeNTSC2Disk.Slave

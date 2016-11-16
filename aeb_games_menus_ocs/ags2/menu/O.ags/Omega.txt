@@ -1,0 +1,6 @@
+Name      : Omega
+Publisher : Origin Systems
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Omega.Slave

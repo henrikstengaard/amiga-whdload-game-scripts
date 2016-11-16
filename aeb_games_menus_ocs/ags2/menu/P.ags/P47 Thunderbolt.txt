@@ -1,0 +1,5 @@
+Name      : P47 Thunderbolt
+Publisher : Firebird
+Year      : 1990
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : P47Thunderbolt.Slave

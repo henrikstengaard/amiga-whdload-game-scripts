@@ -1,0 +1,7 @@
+Name      : Kick Off 2
+Publisher : Anco
+Language  : Italian
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : KickOff2PlusWC90It.slave

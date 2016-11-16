@@ -1,0 +1,5 @@
+Name      : Jungle Strike
+Publisher : Ocean
+Year      : 1994
+Players   : 1 Only
+Whdload   : JungleStrike2MB.Slave

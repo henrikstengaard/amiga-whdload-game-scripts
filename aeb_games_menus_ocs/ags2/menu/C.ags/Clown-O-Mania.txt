@@ -1,0 +1,5 @@
+Name      : Clown-O-Mania
+Publisher : Starbyte Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : ClownOMania.slave

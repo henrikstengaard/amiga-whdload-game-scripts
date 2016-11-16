@@ -1,0 +1,6 @@
+Name    : Testament
+Groups  : Katharsis
+Type    : Demo
+Party   : Warszawa 1992
+Rank    : 4th
+Whdload : Testament.Slave

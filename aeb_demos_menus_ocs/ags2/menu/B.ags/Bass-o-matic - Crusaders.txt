@@ -1,0 +1,4 @@
+Name    : Bass-o-matic
+Groups  : Crusaders
+Type    : Musicdisk
+Whdload : BassOMatic.Slave

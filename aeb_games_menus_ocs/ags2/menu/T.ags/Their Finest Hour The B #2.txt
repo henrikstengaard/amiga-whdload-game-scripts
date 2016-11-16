@@ -1,0 +1,6 @@
+Name      : Their Finest Hour: The Battle of Britain
+Publisher : Lucasfilm Games
+Year      : 1990
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : TheirFinestHour&Missions.Slave

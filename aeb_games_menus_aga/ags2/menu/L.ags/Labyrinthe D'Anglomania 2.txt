@@ -1,0 +1,6 @@
+Name      : Labyrinthe D'Anglomania 2
+Publisher : RETZ
+Language  : French
+Year      : 1990
+Players   : 1
+Whdload   : LabyrintheDAnglomania2Fr.Slave

@@ -1,0 +1,6 @@
+Name    : Alchemy
+Groups  : Rage
+Type    : Demo
+Party   : The Computer Crossroad 1993
+Rank    : 1st
+Whdload : Alchemy.Slave

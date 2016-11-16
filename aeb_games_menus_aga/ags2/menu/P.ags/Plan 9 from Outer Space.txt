@@ -1,0 +1,6 @@
+Name      : Plan 9 from Outer Space
+Publisher : Gremlin Graphics
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : Plan9FromOuterSpace.Slave

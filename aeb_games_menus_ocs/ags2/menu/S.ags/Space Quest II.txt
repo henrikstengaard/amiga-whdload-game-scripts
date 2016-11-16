@@ -1,0 +1,5 @@
+Name      : Space Quest II
+Publisher : Sierra
+Year      : 1988
+Players   : 1
+Whdload   : SpaceQuest2.slave

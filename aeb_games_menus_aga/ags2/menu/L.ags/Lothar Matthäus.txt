@@ -1,0 +1,4 @@
+Name      : Lothar Matthäus
+Publisher : Bomico / Ocean
+Players   : 1 - 32 (2 simultaneous)
+Whdload   : LotharMatthausFussball.Slave

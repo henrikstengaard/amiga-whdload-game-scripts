@@ -1,0 +1,5 @@
+Name      : Galactic: The Xmas Edition
+Publisher : The One (EMAP)
+Year      : 1993
+Players   : 1
+Whdload   : GalacticTheXmasEdition2MB.Slave

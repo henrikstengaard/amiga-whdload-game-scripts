@@ -1,0 +1,7 @@
+Name      : SimAnt
+Publisher : Ocean
+Language  : French
+Year      : 1992
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : SimAntHiResFr.Slave

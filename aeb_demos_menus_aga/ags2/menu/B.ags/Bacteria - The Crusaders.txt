@@ -1,0 +1,5 @@
+Name    : Bacteria
+Groups  : The Crusaders
+Type    : Musicdisk
+Party   : Cryptoburners, It and Visual Arts Party 90
+Whdload : Bacteria.slave

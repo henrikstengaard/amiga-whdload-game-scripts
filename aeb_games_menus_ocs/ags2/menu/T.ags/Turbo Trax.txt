@@ -1,0 +1,6 @@
+Name      : Turbo Trax
+Publisher : Arcane Entertainment
+Year      : 1995
+Genre     : Racing - Overhead
+Players   : 1 or 2
+Whdload   : TurboTraxArcane.Slave

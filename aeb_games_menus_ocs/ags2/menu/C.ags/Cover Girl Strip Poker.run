@@ -1,0 +1,32 @@
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+	execute S:Favourites "ags2" "C" "Cover Girl Strip Poker"
+	IF $favouritesmode EQ "add"
+		SKIP end
+	ENDIF
+	IF $favouritesmode EQ "remove"
+		SKIP end
+	ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Games:C/CoverGirlStripPoker/"
+IF EXISTS ENV:whdloadargs
+	whdload "CoverGirlStripPoker.slave" $whdloadargs
+ELSE
+	whdload "CoverGirlStripPoker.slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
+

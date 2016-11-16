@@ -1,0 +1,6 @@
+Name      : Spell Bound
+Publisher : Psyclapse
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : SpellBound.Slave

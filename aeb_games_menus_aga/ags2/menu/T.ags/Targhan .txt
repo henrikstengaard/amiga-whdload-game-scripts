@@ -1,0 +1,5 @@
+Name      : Targhan
+Publisher : Silmarils
+Year      : 1989
+Players   : 1 Only
+Whdload   : TarghanFast.slave

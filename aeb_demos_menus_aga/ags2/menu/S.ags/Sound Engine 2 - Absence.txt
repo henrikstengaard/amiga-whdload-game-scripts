@@ -1,0 +1,4 @@
+Name    : Sound Engine 2
+Groups  : Absence
+Type    : Musicdisk
+Whdload : SoundEngine2.Slave

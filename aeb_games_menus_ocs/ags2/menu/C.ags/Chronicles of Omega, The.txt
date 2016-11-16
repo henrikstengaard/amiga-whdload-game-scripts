@@ -1,0 +1,6 @@
+Name      : Chronicles of Omega, The
+Publisher : Arc Developments
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ChroniclesOfOmega.Slave

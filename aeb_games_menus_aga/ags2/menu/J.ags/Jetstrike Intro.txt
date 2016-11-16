@@ -1,0 +1,4 @@
+Name      : Jetstrike
+Publisher : Rasputin
+Year      : 1993
+Whdload   : JetstrikeIntro.Slave

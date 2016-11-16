@@ -1,0 +1,7 @@
+Name      : Kristal, The
+Publisher : Addictive Games
+Language  : German
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : KristalDe.Slave

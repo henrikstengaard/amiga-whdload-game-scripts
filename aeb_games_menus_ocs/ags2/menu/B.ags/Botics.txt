@@ -1,0 +1,6 @@
+Name      : Botics
+Publisher : Krisalis
+Year      : 1990
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2, Simultaneous
+Whdload   : Botics.slave

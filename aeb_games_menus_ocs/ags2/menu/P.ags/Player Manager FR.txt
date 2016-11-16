@@ -1,0 +1,7 @@
+Name      : Player Manager
+Publisher : Anco
+Language  : French
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : PlayerManagerFr.slave

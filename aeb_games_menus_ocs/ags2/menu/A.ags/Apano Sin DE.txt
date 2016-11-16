@@ -1,0 +1,6 @@
+Name      : Apano Sin
+Publisher : V.A.K. Entertainment
+Language  : German
+Year      : 2000
+Players   : 1 Only
+Whdload   : ApanoSinDe.Slave

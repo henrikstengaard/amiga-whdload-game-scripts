@@ -1,0 +1,6 @@
+Name      : Cubix
+Publisher : Media GmbH
+Year      : 1991
+Genre     : Brain - Logical
+Players   : 1 Only
+Whdload   : Cubix.Slave

@@ -1,0 +1,4 @@
+Name    : Tympanic Membrane
+Groups  : Panacea
+Type    : Musicdisk
+Whdload : TympanicMembrane.Slave

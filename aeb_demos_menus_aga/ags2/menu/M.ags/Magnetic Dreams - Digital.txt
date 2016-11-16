@@ -1,0 +1,4 @@
+Name    : Magnetic Dreams
+Groups  : Digital
+Type    : Demo
+Whdload : MagneticDreams.Slave

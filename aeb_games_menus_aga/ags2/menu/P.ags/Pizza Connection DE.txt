@@ -1,0 +1,7 @@
+Name      : Pizza Connection
+Publisher : Software 2000
+Language  : German
+Year      : 1994
+Genre     : Strategy - Company
+Players   : 1 to 8
+Whdload   : PizzaConnectionDe.Slave

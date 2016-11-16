@@ -1,0 +1,7 @@
+Name      : Wisielec
+Publisher : MarkSoft
+Language  : Polish
+Year      : 1994
+Genre     : Brain - Puzzle
+Players   : 1 Only
+Whdload   : WisielecPl.Slave

@@ -1,0 +1,7 @@
+Name      : Tennis Cup
+Publisher : Loriciel
+Language  : French
+Year      : 1989
+Genre     : Sports - Tennis
+Players   : 1 or 2, Simultaneous
+Whdload   : TennisCup512KbFr.Slave

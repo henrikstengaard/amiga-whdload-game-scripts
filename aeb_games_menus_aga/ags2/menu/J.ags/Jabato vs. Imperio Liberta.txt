@@ -1,0 +1,7 @@
+Name      : Jabato vs. Imperio: Libertad
+Publisher : Aventuras AD
+Language  : Spanish
+Year      : 1989
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : JabatoEs.slave

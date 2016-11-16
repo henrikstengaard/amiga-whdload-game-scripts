@@ -1,0 +1,7 @@
+Name      : Space MAX
+Publisher : Starbyte Software
+Language  : German
+Year      : 1992
+Genre     : Simulation - Space
+Players   : 1 Only
+Whdload   : SpaceMAXDe.Slave

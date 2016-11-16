@@ -1,0 +1,5 @@
+Name      : Popeye 2
+Publisher : Alternative Software
+Year      : 1992
+Players   : 1 Only
+Whdload   : Popeye2.Slave

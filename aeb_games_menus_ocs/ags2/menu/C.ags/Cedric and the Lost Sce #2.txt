@@ -1,0 +1,5 @@
+Name      : Cedric and the Lost Sceptre
+Publisher : Neo
+Year      : 1995
+Players   : 1
+Whdload   : CedricFast.Slave

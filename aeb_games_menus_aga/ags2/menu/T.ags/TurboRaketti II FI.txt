@@ -1,0 +1,6 @@
+Name      : TurboRaketti II
+Publisher : (unknown)
+Language  : Finnish
+Year      : 1993
+Players   : 2 Only, Simultaneous
+Whdload   : TurboRaketti2Fi.Slave

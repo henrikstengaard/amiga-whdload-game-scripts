@@ -1,0 +1,5 @@
+Name      : Jimmy Willburne - A La Recherche Du Peigne Perdu
+Language  : French
+Year      : 1994
+Players   : 1
+Whdload   : IntroFr.Slave

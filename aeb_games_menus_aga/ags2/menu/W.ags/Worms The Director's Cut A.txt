@@ -1,0 +1,6 @@
+Name      : Worms: The Director's Cut
+Publisher : Team 17
+Year      : 1997
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : WormsDirectorsCutAGA.Slave

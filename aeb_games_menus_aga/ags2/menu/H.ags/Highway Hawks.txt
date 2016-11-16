@@ -1,0 +1,6 @@
+Name      : Highway Hawks
+Publisher : Anco
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : HighwayHawks.Slave

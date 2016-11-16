@@ -1,0 +1,7 @@
+Name      : Crime City
+Publisher : Impressions
+Language  : German
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : CrimeCityDe.slave

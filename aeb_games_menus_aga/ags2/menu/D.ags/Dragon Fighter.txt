@@ -1,0 +1,5 @@
+Name      : Dragon Fighter
+Publisher : Idea Software
+Year      : 1991
+Players   : 1 Only
+Whdload   : DragonFighter.Slave

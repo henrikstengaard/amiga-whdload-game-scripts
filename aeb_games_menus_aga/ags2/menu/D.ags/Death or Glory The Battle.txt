@@ -1,0 +1,7 @@
+Name      : Death or Glory: The Battle of Morgan
+Publisher : Software 2000
+Language  : German
+Year      : 1994
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : DeathOrGloryDe.Slave

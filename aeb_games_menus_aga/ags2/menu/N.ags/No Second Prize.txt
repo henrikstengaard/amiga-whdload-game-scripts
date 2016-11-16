@@ -1,0 +1,6 @@
+Name      : No Second Prize
+Publisher : Thalion
+Year      : 1992
+Genre     : Racing - Motorcycle
+Players   : 1 Only
+Whdload   : NoSecondPrize.slave

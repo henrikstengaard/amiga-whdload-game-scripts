@@ -1,0 +1,6 @@
+Name      : Australo Piticus Mechanicus
+Publisher : Rainbow Arts
+Year      : 1988
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : AustraloPiticusMechanicus.Slave

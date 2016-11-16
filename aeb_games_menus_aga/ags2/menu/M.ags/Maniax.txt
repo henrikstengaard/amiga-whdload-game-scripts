@@ -1,0 +1,6 @@
+Name      : Maniax
+Publisher : Kingsoft
+Year      : 1989
+Genre     : Arcade - Tron
+Players   : 1 or 2
+Whdload   : Maniax.slave

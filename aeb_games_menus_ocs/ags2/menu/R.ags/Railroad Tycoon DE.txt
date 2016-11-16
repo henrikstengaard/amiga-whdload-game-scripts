@@ -1,0 +1,7 @@
+Name      : Railroad Tycoon
+Publisher : MicroProse Software
+Language  : German
+Year      : 1990
+Genre     : Simulation - Train
+Players   : 1 Only
+Whdload   : RailroadTycoonDe.slave

@@ -1,0 +1,6 @@
+Name      : Third Courier, The
+Publisher : Accolade
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : ThirdCourier.Slave

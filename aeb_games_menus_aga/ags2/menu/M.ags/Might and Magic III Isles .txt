@@ -1,0 +1,7 @@
+Name      : Might and Magic III: Isles of Terra
+Publisher : New World Computing
+Language  : German
+Year      : 1992
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : MightAndMagic3.Slave

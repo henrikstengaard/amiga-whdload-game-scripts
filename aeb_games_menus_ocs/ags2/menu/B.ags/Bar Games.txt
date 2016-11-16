@@ -1,0 +1,6 @@
+Name      : Bar Games
+Publisher : Accolade
+Year      : 1990
+Genre     : Sports - Multi-Event
+Players   : 1 to 4
+Whdload   : BarGames.Slave

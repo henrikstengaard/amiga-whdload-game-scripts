@@ -1,0 +1,7 @@
+Name      : Bundesliga Manager Hattrick
+Publisher : Software 2000
+Language  : German
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 to 4
+Whdload   : BundesligaManagerHattDe.Slave

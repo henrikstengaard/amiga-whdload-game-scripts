@@ -1,0 +1,5 @@
+Name      : Space Harrier
+Publisher : Elite
+Year      : 1989
+Players   : 1 Only
+Whdload   : SpaceHarrier.slave

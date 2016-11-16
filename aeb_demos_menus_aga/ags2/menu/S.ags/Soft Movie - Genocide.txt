@@ -1,0 +1,4 @@
+Name    : Soft Movie
+Groups  : Genocide
+Type    : Demo
+Whdload : SOFTMovie.Slave

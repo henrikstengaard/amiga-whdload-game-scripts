@@ -1,0 +1,6 @@
+Name    : Megademo
+Groups  : Beastie Boys
+Type    : Demo
+Party   : World of Wonders Copy-Party 1988
+Rank    : N/a
+Whdload : MegademoBeastieBoys.Slave

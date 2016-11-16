@@ -1,0 +1,5 @@
+Name    : Despair
+Groups  : LSD
+Type    : Demo
+Party   : Main Event 91
+Whdload : Despair.Slave

@@ -1,0 +1,7 @@
+Name      : Blueberry
+Publisher : Infogrames
+Language  : German
+Year      : 1988
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : BlueberryDe.Slave

@@ -1,0 +1,6 @@
+Name      : Aaargh!
+Publisher : Melbourne House
+Year      : 1988
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : Aaargh!Arcadia.Slave

@@ -1,0 +1,5 @@
+Name      : Pong
+Publisher : Amiga Power (Future Publishing)
+Year      : 1992
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : Pong.slave

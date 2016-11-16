@@ -1,0 +1,6 @@
+Name      : Bard's Tale, The: Tales of the Unknown
+Publisher : Electronic Arts
+Year      : 1986
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : BardsTale.Slave

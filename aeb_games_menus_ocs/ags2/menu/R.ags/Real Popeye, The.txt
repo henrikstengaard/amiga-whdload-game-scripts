@@ -1,0 +1,6 @@
+Name      : Real Popeye, The
+Publisher : (unknown)
+Year      : 1993
+Genre     : Platformer - Single Screen
+Players   : 1 or 2
+Whdload   : RealPopeye.Slave

@@ -1,0 +1,4 @@
+Name    : Hollywood Poker Slide
+Groups  : The Light Circle
+Type    : Slideshow
+Whdload : HollywoodPokerSlide.Slave

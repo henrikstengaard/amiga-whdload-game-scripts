@@ -1,0 +1,6 @@
+Name      : Doman
+Publisher : Mirage
+Language  : Polish
+Year      : 1995
+Players   : 1 or 2, Simultaneous
+Whdload   : DomanPl.Slave

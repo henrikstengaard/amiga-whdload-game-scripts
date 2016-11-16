@@ -1,0 +1,6 @@
+Name      : Guldkorn Expressen
+Publisher : SuperSoft
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 or 2
+Whdload   : GuldkornExpressenDk1MB.slave

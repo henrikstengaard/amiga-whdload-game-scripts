@@ -1,0 +1,6 @@
+Name      : Wall, The
+Publisher : Rainbow Arts
+Year      : 1988
+Genre     : Arcade - Breakout/Pong
+Players   : 1 Only
+Whdload   : Wall.Slave

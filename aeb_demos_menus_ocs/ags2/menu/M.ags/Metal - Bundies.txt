@@ -1,0 +1,4 @@
+Name    : Metal
+Groups  : Bundies
+Type    : Intro
+Whdload : Metal&Lace.Slave

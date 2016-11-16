@@ -1,0 +1,6 @@
+Name    : D.A.N.E
+Groups  : Kefrens
+Type    : Demo
+Party   : The Computer Crossroad 1993
+Rank    : 5th
+Whdload : DANE.slave

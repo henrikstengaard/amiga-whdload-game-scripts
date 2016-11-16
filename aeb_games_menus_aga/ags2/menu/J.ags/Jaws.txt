@@ -1,0 +1,5 @@
+Name      : Jaws
+Publisher : Screen 7
+Year      : 1989
+Players   : 1
+Whdload   : Jaws.Slave

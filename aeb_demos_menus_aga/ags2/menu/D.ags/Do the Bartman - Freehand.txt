@@ -1,0 +1,4 @@
+Name    : Do the Bartman
+Groups  : Freehand
+Type    : Musicdisk
+Whdload : DoTheBartman.Slave

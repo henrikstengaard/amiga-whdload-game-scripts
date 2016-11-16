@@ -1,0 +1,6 @@
+Name      : Seven Cities of Gold
+Publisher : Electronic Arts
+Year      : 1985
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : SevenCitiesOfGold.slave

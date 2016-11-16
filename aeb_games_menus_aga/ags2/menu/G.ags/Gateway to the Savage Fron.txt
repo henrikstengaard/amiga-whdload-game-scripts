@@ -1,0 +1,6 @@
+Name      : Gateway to the Savage Frontier
+Publisher : Strategic Simulations, Inc.
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : GatewayToSavageFrontier.Slave

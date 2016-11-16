@@ -1,0 +1,6 @@
+Name      : Arcade Trivia Quiz
+Publisher : Zeppelin Games
+Year      : 1991
+Genre     : Educational - Quiz
+Players   : 1 to 3
+Whdload   : ArcadeTriviaQuiz.slave

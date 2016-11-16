@@ -1,0 +1,6 @@
+Name      : Questron II
+Publisher : Strategic Simulations, Inc.
+Year      : 1988
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : Questron2.Slave

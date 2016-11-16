@@ -1,0 +1,4 @@
+Name    : Megamix 2 - The Pumpin' Track
+Groups  : Royal Amiga Force
+Type    : Musicdisk
+Whdload : MegaMix2.slave

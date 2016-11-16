@@ -1,0 +1,4 @@
+Name    : Extemporized
+Groups  : Digital
+Type    : Musicdisk
+Whdload : Extemporized.Slave

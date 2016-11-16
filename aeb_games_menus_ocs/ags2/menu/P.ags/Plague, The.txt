@@ -1,0 +1,5 @@
+Name      : Plague, The
+Publisher : Innerprise
+Year      : 1990
+Players   : 1 Only
+Whdload   : Plague.slave

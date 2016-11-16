@@ -1,0 +1,6 @@
+Name      : Operation Jupiter
+Publisher : Infogrames
+Language  : French
+Year      : 1988
+Players   : 1
+Whdload   : OperationJupiterFr.Slave

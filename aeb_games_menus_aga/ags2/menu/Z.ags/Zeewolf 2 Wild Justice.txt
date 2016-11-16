@@ -1,0 +1,5 @@
+Name      : Zeewolf 2: Wild Justice
+Publisher : Pinnacle
+Year      : 1995
+Players   : 1 Only
+Whdload   : Zeewolf2.Slave

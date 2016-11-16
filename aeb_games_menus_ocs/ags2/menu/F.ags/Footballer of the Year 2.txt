@@ -1,0 +1,6 @@
+Name      : Footballer of the Year 2
+Publisher : Gremlin Graphics
+Year      : 1989
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : FootballerOfTheYear2.slave

@@ -1,0 +1,6 @@
+Name      : Dragonstone
+Publisher : Core Design
+Year      : 1995
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : Dragonstone.slave

@@ -1,0 +1,7 @@
+Name      : DreamWeb
+Publisher : Empire Software
+Language  : German
+Year      : 1994
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : DreamWebDe.Slave

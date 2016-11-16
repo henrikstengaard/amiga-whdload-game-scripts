@@ -1,0 +1,6 @@
+Name      : Premier Manager 3 Deluxe
+Publisher : Gremlin
+Year      : 1996
+Genre     : Sport - Management
+Players   : 1 or 2
+Whdload   : PremierManager3Deluxe.Slave

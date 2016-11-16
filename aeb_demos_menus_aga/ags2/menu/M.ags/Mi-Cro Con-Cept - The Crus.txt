@@ -1,0 +1,4 @@
+Name    : Mi-Cro Con-Cept
+Groups  : The Crusaders
+Type    : Musicdisk
+Whdload : MicroConcept.slave

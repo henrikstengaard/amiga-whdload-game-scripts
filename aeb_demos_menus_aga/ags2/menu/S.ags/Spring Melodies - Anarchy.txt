@@ -1,0 +1,6 @@
+Name    : Spring Melodies
+Groups  : Anarchy
+Type    : Musicdisk
+Party   : Eastern Conference 1992
+Rank    : N/a
+Whdload : SpringMelodies.slave

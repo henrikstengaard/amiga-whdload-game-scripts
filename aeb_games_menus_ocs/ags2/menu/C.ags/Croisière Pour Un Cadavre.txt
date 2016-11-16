@@ -1,0 +1,5 @@
+Name      : Croisière Pour Un Cadavre
+Language  : French
+Year      : 1991
+Players   : 1
+Whdload   : CroisierePourUnCadavreFr.Slave

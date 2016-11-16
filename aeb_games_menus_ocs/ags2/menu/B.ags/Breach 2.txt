@@ -1,0 +1,6 @@
+Name      : Breach 2
+Publisher : Impressions
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : Breach2.Slave

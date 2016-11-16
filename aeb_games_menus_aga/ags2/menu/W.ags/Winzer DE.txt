@@ -1,0 +1,5 @@
+Name      : Winzer
+Publisher : Starbyte
+Language  : German
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : WinzerCDTVDe.Slave

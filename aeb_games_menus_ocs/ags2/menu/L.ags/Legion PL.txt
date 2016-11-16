@@ -1,0 +1,6 @@
+Name      : Legion
+Publisher : Gobi
+Language  : Polish
+Year      : 1996
+Genre     : Adventure - RPG 2D
+Whdload   : LegionPl.Slave

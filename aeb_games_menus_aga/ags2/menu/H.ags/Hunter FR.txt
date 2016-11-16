@@ -1,0 +1,7 @@
+Name      : Hunter
+Publisher : Activision
+Language  : French
+Year      : 1991
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : HunterFr.slave

@@ -1,0 +1,7 @@
+Name      : Panza Kick Boxing
+Publisher : Loriciel
+Language  : French
+Year      : 1990
+Genre     : Sports - Boxing
+Players   : 1 or 2, Simultaneous
+Whdload   : PanzaKickBoxingFr.Slave

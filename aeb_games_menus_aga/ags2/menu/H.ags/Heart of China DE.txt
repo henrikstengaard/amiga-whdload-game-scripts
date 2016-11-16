@@ -1,0 +1,7 @@
+Name      : Heart of China
+Publisher : Dynamix
+Language  : German
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : HeartOfChinaDe.Slave

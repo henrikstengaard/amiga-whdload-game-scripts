@@ -1,0 +1,7 @@
+Name      : Starlord
+Publisher : MicroProse Software
+Language  : German
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : StarlordDe.Slave

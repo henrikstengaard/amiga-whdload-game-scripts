@@ -1,0 +1,7 @@
+Name      : Rody VI
+Publisher : Lankhor
+Language  : French
+Year      : 1991
+Genre     : Multi Type - Games & Activities
+Players   : 1
+Whdload   : Rody&Mastico6Fr.Slave

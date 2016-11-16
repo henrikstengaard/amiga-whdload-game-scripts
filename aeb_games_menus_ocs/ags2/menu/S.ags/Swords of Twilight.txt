@@ -1,0 +1,6 @@
+Name      : Swords of Twilight
+Publisher : Electronic Arts
+Year      : 1989
+Genre     : Adventure - RPG 2D
+Players   : 1 to 3, Simultaneous
+Whdload   : SwordsOfTwilight.Slave

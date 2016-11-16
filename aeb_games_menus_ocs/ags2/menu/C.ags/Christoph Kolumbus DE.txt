@@ -1,0 +1,7 @@
+Name      : Christoph Kolumbus
+Publisher : Software 2000
+Language  : German
+Year      : 1994
+Genre     : Strategy - Trading
+Players   : 1 to 4
+Whdload   : ChristophKolumbusDe.slave

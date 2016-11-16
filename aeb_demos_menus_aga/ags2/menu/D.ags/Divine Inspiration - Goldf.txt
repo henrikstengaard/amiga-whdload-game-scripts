@@ -1,0 +1,4 @@
+Name    : Divine Inspiration
+Groups  : Goldfire
+Type    : Musicdisk
+Whdload : DivineInspiration.Slave

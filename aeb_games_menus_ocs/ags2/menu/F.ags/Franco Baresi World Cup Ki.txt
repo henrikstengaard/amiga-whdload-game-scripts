@@ -1,0 +1,7 @@
+Name      : Franco Baresi World Cup Kick Off
+Publisher : Anco
+Language  : Italian
+Year      : 1988
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : FrancoBaresiWorldCupIt.Slave

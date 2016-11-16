@@ -1,0 +1,7 @@
+Name      : Syndicate
+Publisher : Mindscape
+Language  : German
+Year      : 1995
+Genre     : Strategy - Company
+Players   : 1 Only
+Whdload   : SyndicateDe.slave

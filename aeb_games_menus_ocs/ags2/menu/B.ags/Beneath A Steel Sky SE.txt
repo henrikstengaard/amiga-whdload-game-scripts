@@ -1,0 +1,7 @@
+Name      : Beneath A Steel Sky
+Publisher : Virgin Interactive
+Language  : Swedish
+Year      : 1994
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : BeneathAStlSkySe.Slave

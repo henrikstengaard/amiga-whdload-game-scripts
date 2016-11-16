@@ -1,0 +1,6 @@
+Name      : Munsters, The
+Publisher : Again Again
+Year      : 1989
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : Munsters.Slave

@@ -1,0 +1,6 @@
+Name    : Vector Exterminator
+Groups  : Shining
+Type    : Demo
+Party   : Anarchy Easter Party 1991
+Rank    : 2nd
+Whdload : VectorExterminator.Slave

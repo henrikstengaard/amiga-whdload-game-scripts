@@ -1,0 +1,5 @@
+Name      : Scorpio
+Publisher : Kingsoft
+Year      : 1988
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Scorpio.Slave

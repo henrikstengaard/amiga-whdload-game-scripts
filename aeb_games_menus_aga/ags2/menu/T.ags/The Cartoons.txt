@@ -1,0 +1,5 @@
+Name      : The Cartoons
+Publisher : Loriciel
+Year      : 1993
+Players   : 1
+Whdload   : Cartoons.Slave

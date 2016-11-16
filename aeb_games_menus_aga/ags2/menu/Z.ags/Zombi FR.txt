@@ -1,0 +1,7 @@
+Name      : Zombi
+Publisher : Ubi Soft
+Language  : French
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : ZombiFr.Slave

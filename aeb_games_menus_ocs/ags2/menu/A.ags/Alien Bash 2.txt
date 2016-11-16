@@ -1,0 +1,5 @@
+Name      : Alien Bash 2
+Publisher : Amiga Format
+Year      : 1996
+Players   : 1 Only
+Whdload   : AlienBash2.slave

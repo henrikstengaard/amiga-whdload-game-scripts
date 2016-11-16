@@ -1,0 +1,7 @@
+Name      : Genesia
+Publisher : Mindscape
+Language  : French
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 3
+Whdload   : GenesiaFr.slave

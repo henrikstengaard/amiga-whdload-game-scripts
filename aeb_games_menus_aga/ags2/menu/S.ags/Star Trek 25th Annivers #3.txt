@@ -1,0 +1,7 @@
+Name      : Star Trek: 25th Anniversary
+Publisher : Interplay Productions
+Language  : French
+Year      : 1994
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : StarTrek25thAnnivAGAFr.Slave

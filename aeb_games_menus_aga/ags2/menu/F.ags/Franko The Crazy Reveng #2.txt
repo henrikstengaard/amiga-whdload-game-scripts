@@ -1,0 +1,6 @@
+Name      : Franko: The Crazy Revenge!
+Publisher : Mirage
+Language  : Polish
+Year      : 1994
+Players   : 1 Only
+Whdload   : FrankoPl.Slave

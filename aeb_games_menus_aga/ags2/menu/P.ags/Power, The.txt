@@ -1,0 +1,6 @@
+Name      : Power, The
+Publisher : Demonware
+Year      : 1991
+Genre     : Brain - Logical
+Players   : 1 or 2, Simultaneous
+Whdload   : Power.Slave

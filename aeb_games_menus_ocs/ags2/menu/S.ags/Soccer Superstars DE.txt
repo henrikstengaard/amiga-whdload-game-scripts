@@ -1,0 +1,7 @@
+Name      : Soccer Superstars
+Publisher : Flair Software
+Language  : German
+Year      : 1995
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : SoccerSuperstarsDe.Slave

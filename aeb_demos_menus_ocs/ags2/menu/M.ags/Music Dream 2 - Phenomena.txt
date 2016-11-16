@@ -1,0 +1,4 @@
+Name    : Music Dream 2
+Groups  : Phenomena
+Type    : Musicdisk
+Whdload : MusicDream2.Slave

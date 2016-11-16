@@ -1,0 +1,5 @@
+Name      : Scrolling Walls
+Publisher : Kingsoft
+Year      : 1988
+Players   : 1
+Whdload   : ScrollingWalls.Slave

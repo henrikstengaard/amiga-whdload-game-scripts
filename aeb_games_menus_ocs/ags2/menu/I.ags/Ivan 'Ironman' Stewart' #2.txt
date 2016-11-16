@@ -1,0 +1,6 @@
+Name      : Ivan 'Ironman' Stewart's Super Off Road
+Publisher : Virgin Games
+Year      : 1990
+Genre     : Racing - Overhead
+Players   : 1 to 3, Simultaneous
+Whdload   : SuperOffRoadNTSC.Slave

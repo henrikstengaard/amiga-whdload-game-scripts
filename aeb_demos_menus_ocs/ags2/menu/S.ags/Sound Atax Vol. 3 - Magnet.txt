@@ -1,0 +1,6 @@
+Name    : Sound Atax Vol. 3
+Groups  : Magnetic Fields
+Type    : Musicdisk
+Party   : Quartex Mayhem Silents Copy Party 1990
+Rank    : N/a
+Whdload : SoundAtaxVol3.Slave

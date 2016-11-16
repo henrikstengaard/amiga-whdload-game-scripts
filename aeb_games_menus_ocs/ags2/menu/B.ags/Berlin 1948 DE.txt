@@ -1,0 +1,7 @@
+Name      : Berlin 1948
+Publisher : Rainbow Arts
+Language  : German
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : Berlin1948De.Slave

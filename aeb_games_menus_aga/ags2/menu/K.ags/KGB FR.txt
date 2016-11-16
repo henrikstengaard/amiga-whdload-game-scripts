@@ -1,0 +1,7 @@
+Name      : KGB
+Publisher : Virgin Games
+Language  : French
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : KGBFr.Slave

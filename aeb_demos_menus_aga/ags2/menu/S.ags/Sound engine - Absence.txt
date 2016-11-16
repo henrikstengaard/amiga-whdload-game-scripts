@@ -1,0 +1,4 @@
+Name    : Sound engine
+Groups  : Absence
+Type    : Musicdisk
+Whdload : SoundEngine.Slave

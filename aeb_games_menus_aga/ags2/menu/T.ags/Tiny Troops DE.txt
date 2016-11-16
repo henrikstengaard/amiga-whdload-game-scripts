@@ -1,0 +1,7 @@
+Name      : Tiny Troops
+Publisher : Vulcan Software
+Language  : German
+Year      : 1997
+Genre     : Strategy - War
+Players   : 1 or 2, Simultaneous
+Whdload   : TinyTroopsCDDe.Slave

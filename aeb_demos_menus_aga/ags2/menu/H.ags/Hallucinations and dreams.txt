@@ -1,0 +1,6 @@
+Name    : Hallucinations and dreams - preview
+Groups  : Katharsis
+Type    : Demo
+Party   : Mountain Beer Copy Party (Zywiec) 1992
+Rank    : 3rd
+Whdload : Hallu&DreamsPrvKatharsis.Slave

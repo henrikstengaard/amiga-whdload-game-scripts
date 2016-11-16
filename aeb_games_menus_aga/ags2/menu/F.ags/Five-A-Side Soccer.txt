@@ -1,0 +1,5 @@
+Name      : Five-A-Side Soccer
+Publisher : (unknown)
+Year      : 1998
+Genre     : Sports - Football/Soccer
+Whdload   : FiveASideSoccer.Slave

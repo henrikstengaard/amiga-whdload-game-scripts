@@ -1,0 +1,4 @@
+Name    : The Last Sun
+Groups  : Ackerlight
+Type    : Demo
+Whdload : LastSun.Slave

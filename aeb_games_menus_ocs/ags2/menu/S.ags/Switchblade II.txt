@@ -1,0 +1,5 @@
+Name      : Switchblade II
+Publisher : Gremlin Graphics
+Year      : 1991
+Players   : 1 Only
+Whdload   : Switchblade2.Slave

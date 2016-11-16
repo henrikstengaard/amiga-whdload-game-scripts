@@ -1,0 +1,7 @@
+Name      : Wacus the Detective
+Publisher : L.K. Avalon
+Language  : Polish
+Year      : 1997
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : WacusTheDetectivePl.Slave

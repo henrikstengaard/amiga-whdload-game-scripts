@@ -1,0 +1,7 @@
+Name      : Freedom: Rebels in the Darkness
+Publisher : Coktel Vision
+Language  : Spanish
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : FreedomEs.Slave

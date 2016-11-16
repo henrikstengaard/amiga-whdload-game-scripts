@@ -1,0 +1,4 @@
+Name    : Honeycomb
+Groups  : Tristar & Red Sector Inc.
+Type    : Slideshow
+Whdload : HoneyComb.Slave

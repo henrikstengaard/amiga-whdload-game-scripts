@@ -1,0 +1,2007 @@
+IF NOT EXISTS "A-Games:T/TyphoonThompson/"
+  ECHO "ERROR: Path 'A-Games:T/TyphoonThompson/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TyphoonThompson/TyphoonThompson.Slave"
+  ECHO "ERROR: Path 'A-Games:T/TyphoonThompson/TyphoonThompson.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TyphoonThompson/igame.iff"
+  ECHO "ERROR: Path 'A-Games:T/TyphoonThompson/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0Demo/"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0Demo/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0Demo/T-Zer0Demo.Slave"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0Demo/T-Zer0Demo.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0Demo/igame.iff"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0Demo/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoAGA/"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoAGA/TZer0DemoAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoAGA/TZer0DemoAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0DemoAGA/"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0DemoAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0DemoAGA/T-Zer0DemoAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0DemoAGA/T-Zer0DemoAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/T-Zer0DemoAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:T/T-Zer0DemoAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoNoMovieAGA/"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoNoMovieAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoNoMovieAGA/TZer0DemoNoMovieAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoNoMovieAGA/TZer0DemoNoMovieAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:T/TZer0DemoNoMovieAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:T/TZer0DemoNoMovieAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownAGA/"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownAGA/UFOEnemyUnknownAGA.slave"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownAGA/UFOEnemyUnknownAGA.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownCD32/"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownCD32/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownCD32/UFOEnemyUnknownCD32.slave"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownCD32/UFOEnemyUnknownCD32.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UFOEnemyUnknownCD32/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UFOEnemyUnknownCD32/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ugh/"
+  ECHO "ERROR: Path 'A-Games:U/Ugh/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ugh/Ugh.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Ugh/Ugh.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ugh/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Ugh/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima3/"
+  ECHO "ERROR: Path 'A-Games:U/Ultima3/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima3/Ultima3.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Ultima3/Ultima3.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima3/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Ultima3/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima4/"
+  ECHO "ERROR: Path 'A-Games:U/Ultima4/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima4/Ultima4.slave"
+  ECHO "ERROR: Path 'A-Games:U/Ultima4/Ultima4.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima4/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Ultima4/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima5/"
+  ECHO "ERROR: Path 'A-Games:U/Ultima5/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima5/Ultima5.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Ultima5/Ultima5.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima5/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Ultima5/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima6/"
+  ECHO "ERROR: Path 'A-Games:U/Ultima6/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima6/Ultima6.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Ultima6/Ultima6.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Ultima6/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Ultima6/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateBodyBlowsCD32/"
+  ECHO "ERROR: Path 'A-Games:U/UltimateBodyBlowsCD32/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateBodyBlowsCD32/UltimateBodyBlowsCD32.slave"
+  ECHO "ERROR: Path 'A-Games:U/UltimateBodyBlowsCD32/UltimateBodyBlowsCD32.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateBodyBlowsCD32/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UltimateBodyBlowsCD32/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateGolf/"
+  ECHO "ERROR: Path 'A-Games:U/UltimateGolf/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateGolf/UltimateGolf.slave"
+  ECHO "ERROR: Path 'A-Games:U/UltimateGolf/UltimateGolf.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateGolf/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UltimateGolf/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimatePinballQuest/"
+  ECHO "ERROR: Path 'A-Games:U/UltimatePinballQuest/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimatePinballQuest/UltimatePinballQuest.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UltimatePinballQuest/UltimatePinballQuest.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimatePinballQuest/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UltimatePinballQuest/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateRide/"
+  ECHO "ERROR: Path 'A-Games:U/UltimateRide/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateRide/UltimateRide.slave"
+  ECHO "ERROR: Path 'A-Games:U/UltimateRide/UltimateRide.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateRide/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UltimateRide/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateXTremeRacingCD/"
+  ECHO "ERROR: Path 'A-Games:U/UltimateXTremeRacingCD/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateXTremeRacingCD/UltimateXTremeRacingCD.slave"
+  ECHO "ERROR: Path 'A-Games:U/UltimateXTremeRacingCD/UltimateXTremeRacingCD.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UltimateXTremeRacingCD/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UltimateXTremeRacingCD/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UMS2NationsAtWar/"
+  ECHO "ERROR: Path 'A-Games:U/UMS2NationsAtWar/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UMS2NationsAtWar/UMS2NationsAtWar.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UMS2NationsAtWar/UMS2NationsAtWar.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UMS2NationsAtWar/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UMS2NationsAtWar/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnderPressure/"
+  ECHO "ERROR: Path 'A-Games:U/UnderPressure/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnderPressure/UnderPressure.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UnderPressure/UnderPressure.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnderPressure/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UnderPressure/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uninvited/"
+  ECHO "ERROR: Path 'A-Games:U/Uninvited/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uninvited/Uninvited.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Uninvited/Uninvited.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uninvited/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Uninvited/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMilitarySim/"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMilitarySim/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMilitarySim/UniversalMilitarySim.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMilitarySim/UniversalMilitarySim.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMilitarySim/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMilitarySim/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMonsters/"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMonsters/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMonsters/UniversalMonsters.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMonsters/UniversalMonsters.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalMonsters/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UniversalMonsters/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalWarrior/"
+  ECHO "ERROR: Path 'A-Games:U/UniversalWarrior/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalWarrior/UniversalWarrior.slave"
+  ECHO "ERROR: Path 'A-Games:U/UniversalWarrior/UniversalWarrior.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniversalWarrior/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UniversalWarrior/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe/"
+  ECHO "ERROR: Path 'A-Games:U/Universe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe/Universe.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Universe/Universe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Universe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe3/"
+  ECHO "ERROR: Path 'A-Games:U/Universe3/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe3/Universe3.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Universe3/Universe3.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Universe3/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Universe3/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniverseCD32/"
+  ECHO "ERROR: Path 'A-Games:U/UniverseCD32/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniverseCD32/UniverseCD32.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UniverseCD32/UniverseCD32.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UniverseCD32/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UniverseCD32/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Unreal/"
+  ECHO "ERROR: Path 'A-Games:U/Unreal/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Unreal/Unreal.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Unreal/Unreal.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Unreal/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Unreal/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnrealNTSC/"
+  ECHO "ERROR: Path 'A-Games:U/UnrealNTSC/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnrealNTSC/UnrealNTSC.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UnrealNTSC/UnrealNTSC.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnrealNTSC/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UnrealNTSC/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnsensibleSoccer/"
+  ECHO "ERROR: Path 'A-Games:U/UnsensibleSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnsensibleSoccer/UnsensibleSoccer.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UnsensibleSoccer/UnsensibleSoccer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UnsensibleSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UnsensibleSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UNSquadron/"
+  ECHO "ERROR: Path 'A-Games:U/UNSquadron/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UNSquadron/UNSquadron.slave"
+  ECHO "ERROR: Path 'A-Games:U/UNSquadron/UNSquadron.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UNSquadron/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UNSquadron/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Untouchables/"
+  ECHO "ERROR: Path 'A-Games:U/Untouchables/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Untouchables/Untouchables.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Untouchables/Untouchables.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Untouchables/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Untouchables/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScope/"
+  ECHO "ERROR: Path 'A-Games:U/UpScope/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScope/UpScope.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UpScope/UpScope.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScope/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UpScope/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScopeArcadia/"
+  ECHO "ERROR: Path 'A-Games:U/UpScopeArcadia/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScopeArcadia/UpScopeArcadia.Slave"
+  ECHO "ERROR: Path 'A-Games:U/UpScopeArcadia/UpScopeArcadia.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/UpScopeArcadia/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/UpScopeArcadia/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium21MB/"
+  ECHO "ERROR: Path 'A-Games:U/Uridium21MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium21MB/Uridium21MB.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Uridium21MB/Uridium21MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium21MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Uridium21MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium22MB/"
+  ECHO "ERROR: Path 'A-Games:U/Uridium22MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium22MB/Uridium22MB.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Uridium22MB/Uridium22MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Uridium22MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Uridium22MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/USSJohnYoung/"
+  ECHO "ERROR: Path 'A-Games:U/USSJohnYoung/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/USSJohnYoung/USSJohnYoung.Slave"
+  ECHO "ERROR: Path 'A-Games:U/USSJohnYoung/USSJohnYoung.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/USSJohnYoung/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/USSJohnYoung/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia/"
+  ECHO "ERROR: Path 'A-Games:U/Utopia/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia/Utopia.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Utopia/Utopia.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Utopia/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia&NewWorlds/"
+  ECHO "ERROR: Path 'A-Games:U/Utopia&NewWorlds/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia&NewWorlds/Utopia&NewWorlds.Slave"
+  ECHO "ERROR: Path 'A-Games:U/Utopia&NewWorlds/Utopia&NewWorlds.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:U/Utopia&NewWorlds/igame.iff"
+  ECHO "ERROR: Path 'A-Games:U/Utopia&NewWorlds/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vader/"
+  ECHO "ERROR: Path 'A-Games:V/Vader/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vader/Vader.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vader/Vader.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vader/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vader/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaBeforeTheWar/"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaBeforeTheWar/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaBeforeTheWar/ValhallaBeforeTheWar.Slave"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaBeforeTheWar/ValhallaBeforeTheWar.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaBeforeTheWar/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaBeforeTheWar/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaLordOfInfinity/"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaLordOfInfinity/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaLordOfInfinity/ValhallaLordOfInfinity.Slave"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaLordOfInfinity/ValhallaLordOfInfinity.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ValhallaLordOfInfinity/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/ValhallaLordOfInfinity/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VampiresEmpire/"
+  ECHO "ERROR: Path 'A-Games:V/VampiresEmpire/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VampiresEmpire/VampiresEmpire.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VampiresEmpire/VampiresEmpire.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VampiresEmpire/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VampiresEmpire/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vaxine/"
+  ECHO "ERROR: Path 'A-Games:V/Vaxine/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vaxine/Vaxine.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vaxine/Vaxine.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vaxine/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vaxine/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vectorball/"
+  ECHO "ERROR: Path 'A-Games:V/Vectorball/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vectorball/Vectorball.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vectorball/Vectorball.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vectorball/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vectorball/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VegasGambler/"
+  ECHO "ERROR: Path 'A-Games:V/VegasGambler/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VegasGambler/VegasGambler.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VegasGambler/VegasGambler.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VegasGambler/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VegasGambler/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenomWing/"
+  ECHO "ERROR: Path 'A-Games:V/VenomWing/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenomWing/VenomWing.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VenomWing/VenomWing.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenomWing/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VenomWing/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrap/"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrap/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrap/VenusTheFlytrap.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrap/VenusTheFlytrap.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrap/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrap/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrapNoIntro/"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrapNoIntro/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrapNoIntro/VenusTheFlytrapNoIntro.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrapNoIntro/VenusTheFlytrapNoIntro.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VenusTheFlytrapNoIntro/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VenusTheFlytrapNoIntro/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VermeerDe/"
+  ECHO "ERROR: Path 'A-Games:V/VermeerDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VermeerDe/VermeerDe.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VermeerDe/VermeerDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VermeerDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VermeerDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VerteidigerKrone2CD32De/"
+  ECHO "ERROR: Path 'A-Games:V/VerteidigerKrone2CD32De/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VerteidigerKrone2CD32De/VerteidigerKrone2CD32De.slave"
+  ECHO "ERROR: Path 'A-Games:V/VerteidigerKrone2CD32De/VerteidigerKrone2CD32De.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VerteidigerKrone2CD32De/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VerteidigerKrone2CD32De/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.slave"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.old"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.old' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/ViajeAlCentroDeLaTierraEs/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VictoryRoad/"
+  ECHO "ERROR: Path 'A-Games:V/VictoryRoad/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VictoryRoad/VictoryRoad.slave"
+  ECHO "ERROR: Path 'A-Games:V/VictoryRoad/VictoryRoad.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VictoryRoad/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VictoryRoad/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VideoKid/"
+  ECHO "ERROR: Path 'A-Games:V/VideoKid/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VideoKid/VideoKid.slave"
+  ECHO "ERROR: Path 'A-Games:V/VideoKid/VideoKid.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VideoKid/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VideoKid/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vigilante/"
+  ECHO "ERROR: Path 'A-Games:V/Vigilante/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vigilante/Vigilante.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vigilante/Vigilante.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vigilante/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vigilante/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Vindicators/"
+  ECHO "ERROR: Path 'A-Games:W/Vindicators/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Vindicators/Vindicators.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Vindicators/Vindicators.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Vindicators/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Vindicators/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vindicators/"
+  ECHO "ERROR: Path 'A-Games:V/Vindicators/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vindicators/Vindicators.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vindicators/Vindicators.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vindicators/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vindicators/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Violator/"
+  ECHO "ERROR: Path 'A-Games:V/Violator/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Violator/Violator.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Violator/Violator.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Violator/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Violator/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/Virocop.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/Virocop.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/Virocop2Meg.slave"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/Virocop2Meg.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virocop/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Virocop/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirocopAGA/"
+  ECHO "ERROR: Path 'A-Games:V/VirocopAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirocopAGA/VirocopAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VirocopAGA/VirocopAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirocopAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirocopAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGA/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGA/VirtualKarting2AGA.slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGA/VirtualKarting2AGA.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGACD/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGACD/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGACD/VirtualKarting2AGACD.slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGACD/VirtualKarting2AGACD.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2AGACD/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2AGACD/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2CD/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2CD/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2CD/VirtualKarting2CD.slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2CD/VirtualKarting2CD.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2CD/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2CD/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2DemoAGA/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2DemoAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2DemoAGA/VirtualKarting2DemoAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2DemoAGA/VirtualKarting2DemoAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKarting2DemoAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKarting2DemoAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingAGA/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingAGA/VirtualKartingAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingAGA/VirtualKartingAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingDemoAGA/"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingDemoAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingDemoAGA/VirtualKartingDemoAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingDemoAGA/VirtualKartingDemoAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VirtualKartingDemoAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VirtualKartingDemoAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virus/"
+  ECHO "ERROR: Path 'A-Games:V/Virus/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virus/Virus.slave"
+  ECHO "ERROR: Path 'A-Games:V/Virus/Virus.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Virus/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Virus/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VitalLight/"
+  ECHO "ERROR: Path 'A-Games:V/VitalLight/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VitalLight/VitalLight.slave"
+  ECHO "ERROR: Path 'A-Games:V/VitalLight/VitalLight.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VitalLight/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VitalLight/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vixen/"
+  ECHO "ERROR: Path 'A-Games:V/Vixen/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vixen/Vixen.slave"
+  ECHO "ERROR: Path 'A-Games:V/Vixen/Vixen.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vixen/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vixen/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Viz/"
+  ECHO "ERROR: Path 'A-Games:V/Viz/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Viz/Viz.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Viz/Viz.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Viz/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Viz/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Volfied/"
+  ECHO "ERROR: Path 'A-Games:V/Volfied/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Volfied/Volfied.slave"
+  ECHO "ERROR: Path 'A-Games:V/Volfied/Volfied.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Volfied/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Volfied/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoodooNightmare/"
+  ECHO "ERROR: Path 'A-Games:V/VoodooNightmare/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoodooNightmare/VoodooNightmare.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VoodooNightmare/VoodooNightmare.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoodooNightmare/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VoodooNightmare/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Voyager/"
+  ECHO "ERROR: Path 'A-Games:V/Voyager/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Voyager/Voyager.slave"
+  ECHO "ERROR: Path 'A-Games:V/Voyager/Voyager.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Voyager/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Voyager/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyagesOfDiscovery/"
+  ECHO "ERROR: Path 'A-Games:V/VoyagesOfDiscovery/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyagesOfDiscovery/VoyagesOfDiscovery.slave"
+  ECHO "ERROR: Path 'A-Games:V/VoyagesOfDiscovery/VoyagesOfDiscovery.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyagesOfDiscovery/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VoyagesOfDiscovery/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyageursDuTempsFr/"
+  ECHO "ERROR: Path 'A-Games:V/VoyageursDuTempsFr/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyageursDuTempsFr/VoyageursDuTempsFr.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VoyageursDuTempsFr/VoyageursDuTempsFr.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VoyageursDuTempsFr/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VoyageursDuTempsFr/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom/"
+  ECHO "ERROR: Path 'A-Games:V/Vroom/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom/Vroom.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vroom/Vroom.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vroom/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/Vroom.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/Vroom.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/DataDisk.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/DataDisk.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VroomMultiPlayer/"
+  ECHO "ERROR: Path 'A-Games:V/VroomMultiPlayer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VroomMultiPlayer/VroomMultiplayer.Slave"
+  ECHO "ERROR: Path 'A-Games:V/VroomMultiPlayer/VroomMultiplayer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/VroomMultiPlayer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/VroomMultiPlayer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyper/"
+  ECHO "ERROR: Path 'A-Games:V/Vyper/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyper/Vyper.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vyper/Vyper.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyper/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vyper/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyrus/"
+  ECHO "ERROR: Path 'A-Games:V/Vyrus/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyrus/Vyrus.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vyrus/Vyrus.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:V/Vyrus/igame.iff"
+  ECHO "ERROR: Path 'A-Games:V/Vyrus/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyDarts/"
+  ECHO "ERROR: Path 'A-Games:W/WackyDarts/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyDarts/WackyDarts.slave"
+  ECHO "ERROR: Path 'A-Games:W/WackyDarts/WackyDarts.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyDarts/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WackyDarts/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyRaces/"
+  ECHO "ERROR: Path 'A-Games:W/WackyRaces/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyRaces/WackyRaces.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WackyRaces/WackyRaces.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WackyRaces/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WackyRaces/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WacusTheDetectivePl/"
+  ECHO "ERROR: Path 'A-Games:W/WacusTheDetectivePl/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WacusTheDetectivePl/WacusTheDetectivePl.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WacusTheDetectivePl/WacusTheDetectivePl.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WacusTheDetectivePl/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WacusTheDetectivePl/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/WalkerCrunchedNoSpeech.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/WalkerCrunchedNoSpeech.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/WalkerCrunched.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/WalkerCrunched.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerCrunched/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WalkerCrunched/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/WalkerDecrunchedNoSpeech.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/WalkerDecrunchedNoSpeech.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/WalkerDecrunched.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/WalkerDecrunched.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WalkerDecrunched/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WalkerDecrunched/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wall/"
+  ECHO "ERROR: Path 'A-Games:W/Wall/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wall/Wall.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wall/Wall.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wall/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wall/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanderer3D/"
+  ECHO "ERROR: Path 'A-Games:W/Wanderer3D/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanderer3D/Wanderer3D.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wanderer3D/Wanderer3D.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanderer3D/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wanderer3D/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanted/"
+  ECHO "ERROR: Path 'A-Games:W/Wanted/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanted/Wanted.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wanted/Wanted.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wanted/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wanted/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warhead/"
+  ECHO "ERROR: Path 'A-Games:W/Warhead/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warhead/Warhead.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Warhead/Warhead.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warhead/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Warhead/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInMiddleEarth/"
+  ECHO "ERROR: Path 'A-Games:W/WarInMiddleEarth/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInMiddleEarth/WarInMiddleEarth.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarInMiddleEarth/WarInMiddleEarth.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInMiddleEarth/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarInMiddleEarth/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInTheGulf/"
+  ECHO "ERROR: Path 'A-Games:W/WarInTheGulf/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInTheGulf/WarInTheGulf.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarInTheGulf/WarInTheGulf.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarInTheGulf/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarInTheGulf/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlocksQuest/"
+  ECHO "ERROR: Path 'A-Games:W/WarlocksQuest/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlocksQuest/WarlocksQuest.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarlocksQuest/WarlocksQuest.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlocksQuest/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarlocksQuest/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlockTheAvenger/"
+  ECHO "ERROR: Path 'A-Games:W/WarlockTheAvenger/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlockTheAvenger/WarlockTheAvenger.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarlockTheAvenger/WarlockTheAvenger.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarlockTheAvenger/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarlockTheAvenger/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warlords/"
+  ECHO "ERROR: Path 'A-Games:W/Warlords/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warlords/Warlords.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Warlords/Warlords.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warlords/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Warlords/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarMachine/"
+  ECHO "ERROR: Path 'A-Games:W/WarMachine/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarMachine/WarMachine.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarMachine/WarMachine.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarMachine/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarMachine/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarmUp/"
+  ECHO "ERROR: Path 'A-Games:W/WarmUp/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarmUp/WarmUp.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarmUp/WarmUp.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarmUp/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarmUp/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warp/"
+  ECHO "ERROR: Path 'A-Games:W/Warp/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warp/WARP.slave"
+  ECHO "ERROR: Path 'A-Games:W/Warp/WARP.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Warp/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Warp/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneCore/"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneCore/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneCore/WarZoneCore.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneCore/WarZoneCore.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneCore/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneCore/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneParadox/"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneParadox/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneParadox/WarzoneParadox.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneParadox/WarzoneParadox.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WarZoneParadox/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WarZoneParadox/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WatchtowerAGA/"
+  ECHO "ERROR: Path 'A-Games:W/WatchtowerAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WatchtowerAGA/WatchtowerAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WatchtowerAGA/WatchtowerAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WatchtowerAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WatchtowerAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waterloo/"
+  ECHO "ERROR: Path 'A-Games:W/Waterloo/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waterloo/Waterloo.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Waterloo/Waterloo.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waterloo/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Waterloo/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waxworks/"
+  ECHO "ERROR: Path 'A-Games:W/Waxworks/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waxworks/Waxworks.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Waxworks/Waxworks.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Waxworks/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Waxworks/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksDe/"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksDe/WaxworksDe.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksDe/WaxworksDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksFr/"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksFr/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksFr/WaxworksFr.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksFr/WaxworksFr.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WaxworksFr/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WaxworksFr/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey/"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey/WayneGretzkyHockey.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey/WayneGretzkyHockey.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey2/"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey2/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey2/WayneGretzkyHockey2.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey2/WayneGretzkyHockey2.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayneGretzkyHockey2/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WayneGretzkyHockey2/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragon/"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragon/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragon/WayOfTheLittleDragon.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragon/WayOfTheLittleDragon.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragon/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragon/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonAStar/"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonAStar/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonAStar/WayOfTheLittleDragonAStar.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonAStar/WayOfTheLittleDragonAStar.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonAStar/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonAStar/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonNTSC/"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonNTSC/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonNTSC/WayOfTheLittleDragonNTSC.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonNTSC/WayOfTheLittleDragonNTSC.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WayOfTheLittleDragonNTSC/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WayOfTheLittleDragonNTSC/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard/"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard/WCLeaderBoard.slave"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard/WCLeaderBoard.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard&DataDisks/"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard&DataDisks/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard&DataDisks/WCLeaderBoard&DataDisks.slave"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard&DataDisks/WCLeaderBoard&DataDisks.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WCLeaderBoard&DataDisks/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WCLeaderBoard&DataDisks/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WebOfTerror/"
+  ECHO "ERROR: Path 'A-Games:W/WebOfTerror/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WebOfTerror/WebOfTerror.slave"
+  ECHO "ERROR: Path 'A-Games:W/WebOfTerror/WebOfTerror.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WebOfTerror/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WebOfTerror/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecy/"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecy/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecy/WeenTheProphecy.slave"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecy/WeenTheProphecy.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecy/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecy/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyDe/"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyDe/WeenTheProphecyDe.slave"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyDe/WeenTheProphecyDe.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyEs/"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyEs/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyEs/WeenTheProphecyEs.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyEs/WeenTheProphecyEs.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyEs/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyEs/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyFr/"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyFr/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyFr/WeenTheProphecyFr.slave"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyFr/WeenTheProphecyFr.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyFr/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyFr/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyIt/"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyIt/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyIt/WeenTheProphecyIt.slave"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyIt/WeenTheProphecyIt.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeenTheProphecyIt/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeenTheProphecyIt/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeirdDreams/"
+  ECHO "ERROR: Path 'A-Games:W/WeirdDreams/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeirdDreams/WeirdDreams.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WeirdDreams/WeirdDreams.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WeirdDreams/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WeirdDreams/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Welltris/"
+  ECHO "ERROR: Path 'A-Games:W/Welltris/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Welltris/Welltris.slave"
+  ECHO "ERROR: Path 'A-Games:W/Welltris/Welltris.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Welltris/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Welltris/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccer/"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccer/WembleyIntSoccer.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccer/WembleyIntSoccer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccerAGA/"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccerAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccerAGA/WembleyIntSoccerAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccerAGA/WembleyIntSoccerAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyIntSoccerAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WembleyIntSoccerAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyRugbyLeague/"
+  ECHO "ERROR: Path 'A-Games:W/WembleyRugbyLeague/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyRugbyLeague/WembleyRugbyLeague.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WembleyRugbyLeague/WembleyRugbyLeague.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WembleyRugbyLeague/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WembleyRugbyLeague/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/data/"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/data/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/data/WesternGames.slave"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/data/WesternGames.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/data/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/data/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/WesternGames.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/WesternGames.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WesternGames/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WesternGames/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WestPhaser/"
+  ECHO "ERROR: Path 'A-Games:W/WestPhaser/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WestPhaser/WestPhaser.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WestPhaser/WestPhaser.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WestPhaser/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WestPhaser/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WheelsOnFire/"
+  ECHO "ERROR: Path 'A-Games:W/WheelsOnFire/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WheelsOnFire/WheelsOnFire.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WheelsOnFire/WheelsOnFire.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WheelsOnFire/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WheelsOnFire/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhereTimeStoodStill/"
+  ECHO "ERROR: Path 'A-Games:W/WhereTimeStoodStill/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhereTimeStoodStill/WhereTimeStoodStill.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WhereTimeStoodStill/WhereTimeStoodStill.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhereTimeStoodStill/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WhereTimeStoodStill/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whirligig/"
+  ECHO "ERROR: Path 'A-Games:W/Whirligig/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whirligig/Whirligig.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Whirligig/Whirligig.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whirligig/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Whirligig/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhirligigCracked/"
+  ECHO "ERROR: Path 'A-Games:W/WhirligigCracked/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhirligigCracked/WhirligigCracked.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WhirligigCracked/WhirligigCracked.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhirligigCracked/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WhirligigCracked/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhiteDeath/"
+  ECHO "ERROR: Path 'A-Games:W/WhiteDeath/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhiteDeath/WhiteDeath.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WhiteDeath/WhiteDeath.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhiteDeath/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WhiteDeath/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whizz/"
+  ECHO "ERROR: Path 'A-Games:W/Whizz/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whizz/Whizz.slave"
+  ECHO "ERROR: Path 'A-Games:W/Whizz/Whizz.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Whizz/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Whizz/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhizzAGA/"
+  ECHO "ERROR: Path 'A-Games:W/WhizzAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhizzAGA/WhizzAGA.slave"
+  ECHO "ERROR: Path 'A-Games:W/WhizzAGA/WhizzAGA.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhizzAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WhizzAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhoFramedRogerRabbit/"
+  ECHO "ERROR: Path 'A-Games:W/WhoFramedRogerRabbit/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhoFramedRogerRabbit/WhoFramedRogerRabbit.slave"
+  ECHO "ERROR: Path 'A-Games:W/WhoFramedRogerRabbit/WhoFramedRogerRabbit.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WhoFramedRogerRabbit/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WhoFramedRogerRabbit/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WibbleWorldGiddy/"
+  ECHO "ERROR: Path 'A-Games:W/WibbleWorldGiddy/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WibbleWorldGiddy/WibbleWorldGiddy.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WibbleWorldGiddy/WibbleWorldGiddy.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WibbleWorldGiddy/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WibbleWorldGiddy/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wicked/"
+  ECHO "ERROR: Path 'A-Games:W/Wicked/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wicked/Wicked.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wicked/Wicked.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wicked/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wicked/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WIEuropeIsCarmenSandiego/"
+  ECHO "ERROR: Path 'A-Games:W/WIEuropeIsCarmenSandiego/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WIEuropeIsCarmenSandiego/WIEuropeIsCarmenSandiego.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WIEuropeIsCarmenSandiego/WIEuropeIsCarmenSandiego.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WIEuropeIsCarmenSandiego/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WIEuropeIsCarmenSandiego/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildCupSoccer/"
+  ECHO "ERROR: Path 'A-Games:W/WildCupSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildCupSoccer/WildCupSoccer.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WildCupSoccer/WildCupSoccer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildCupSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WildCupSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildStreets/"
+  ECHO "ERROR: Path 'A-Games:W/WildStreets/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildStreets/WildStreets.slave"
+  ECHO "ERROR: Path 'A-Games:W/WildStreets/WildStreets.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildStreets/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WildStreets/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorld/"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorld/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorld/WildWestWorld.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorld/WildWestWorld.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorld/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorld/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorldDe/"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorldDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorldDe/WildWestWorldDe.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorldDe/WildWestWorldDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWestWorldDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WildWestWorldDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWheels/"
+  ECHO "ERROR: Path 'A-Games:W/WildWheels/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWheels/WildWheels.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WildWheels/WildWheels.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WildWheels/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WildWheels/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardFiles/"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardFiles/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardFiles/WindowWizardFiles.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardFiles/WindowWizardFiles.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardFiles/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardFiles/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardImage/"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardImage/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardImage/WindowWizardImage.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardImage/WindowWizardImage.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindowWizardImage/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindowWizardImage/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWilly/"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWilly/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWilly/WindSurfWilly.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWilly/WindSurfWilly.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWilly/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWilly/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFast/"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFast/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFast/WindSurfWillyFast.slave"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFast/WindSurfWillyFast.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFast/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFast/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFastFr/"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFastFr/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFastFr/WindSurfWillyFastFr.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFastFr/WindSurfWillyFastFr.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFastFr/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFastFr/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFr/"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFr/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFr/WindSurfWillyFr.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFr/WindSurfWillyFr.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WindSurfWillyFr/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WindSurfWillyFr/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Windwalker/"
+  ECHO "ERROR: Path 'A-Games:W/Windwalker/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Windwalker/Windwalker.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Windwalker/Windwalker.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Windwalker/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Windwalker/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommander/"
+  ECHO "ERROR: Path 'A-Games:W/WingCommander/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommander/WingCommander.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WingCommander/WingCommander.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommander/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WingCommander/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderCD32/"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderCD32/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderCD32/WingCommanderCD32.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderCD32/WingCommanderCD32.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderCD32/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderCD32/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderDe/"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderDe/WingCommanderDe.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderDe/WingCommanderDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingCommanderDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WingCommanderDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wings/"
+  ECHO "ERROR: Path 'A-Games:W/Wings/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wings/Wings.slave"
+  ECHO "ERROR: Path 'A-Games:W/Wings/Wings.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wings/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wings/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfDeath/"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfDeath/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfDeath/WingsOfDeath.slave"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfDeath/WingsOfDeath.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfDeath/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfDeath/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfFury/"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfFury/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfFury/WingsOfFury.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfFury/WingsOfFury.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WingsOfFury/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WingsOfFury/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinnieThePooh/"
+  ECHO "ERROR: Path 'A-Games:W/WinnieThePooh/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinnieThePooh/WinnieThePooh.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinnieThePooh/WinnieThePooh.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinnieThePooh/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinnieThePooh/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinningPost/"
+  ECHO "ERROR: Path 'A-Games:W/WinningPost/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinningPost/WinningPost.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinningPost/WinningPost.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinningPost/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinningPost/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterCamp/"
+  ECHO "ERROR: Path 'A-Games:W/WinterCamp/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterCamp/WinterCamp.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterCamp/WinterCamp.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterCamp/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterCamp/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterChallenge/"
+  ECHO "ERROR: Path 'A-Games:W/WinterChallenge/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterChallenge/WinterChallenge.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterChallenge/WinterChallenge.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterChallenge/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterChallenge/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterGames/"
+  ECHO "ERROR: Path 'A-Games:W/WinterGames/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterGames/WinterGames.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterGames/WinterGames.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterGames/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterGames/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympiad88/"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympiad88/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympiad88/WinterOlympiad88.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympiad88/WinterOlympiad88.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympiad88/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympiad88/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympics/"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympics/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympics/WinterOlympics.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympics/WinterOlympics.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterOlympics/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterOlympics/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterSupersports92/"
+  ECHO "ERROR: Path 'A-Games:W/WinterSupersports92/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterSupersports92/WinterSupersports92.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinterSupersports92/WinterSupersports92.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinterSupersports92/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinterSupersports92/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Winzer/"
+  ECHO "ERROR: Path 'A-Games:W/Winzer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Winzer/Winzer.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Winzer/Winzer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Winzer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Winzer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerCDTVDe/"
+  ECHO "ERROR: Path 'A-Games:W/WinzerCDTVDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerCDTVDe/WinzerCDTVDe.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinzerCDTVDe/WinzerCDTVDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerCDTVDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinzerCDTVDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerDe/"
+  ECHO "ERROR: Path 'A-Games:W/WinzerDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerDe/WinzerDe.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WinzerDe/WinzerDe.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WinzerDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WinzerDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WisielecPl/"
+  ECHO "ERROR: Path 'A-Games:W/WisielecPl/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WisielecPl/WisielecPl.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WisielecPl/WisielecPl.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WisielecPl/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WisielecPl/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITUSAIsCarmenSandiego/"
+  ECHO "ERROR: Path 'A-Games:W/WITUSAIsCarmenSandiego/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITUSAIsCarmenSandiego/WITUSAIsCarmenSandiego.slave"
+  ECHO "ERROR: Path 'A-Games:W/WITUSAIsCarmenSandiego/WITUSAIsCarmenSandiego.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITUSAIsCarmenSandiego/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WITUSAIsCarmenSandiego/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITWIsCarmenSandiego/"
+  ECHO "ERROR: Path 'A-Games:W/WITWIsCarmenSandiego/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITWIsCarmenSandiego/WITWIsCarmenSandiego.slave"
+  ECHO "ERROR: Path 'A-Games:W/WITWIsCarmenSandiego/WITWIsCarmenSandiego.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WITWIsCarmenSandiego/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WITWIsCarmenSandiego/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForg/"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForg/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForg/Wizardry6BaneCosmicForg.slave"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForg/Wizardry6BaneCosmicForg.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForg/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForg/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForgDe/"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForgDe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForgDe/Wizardry6BaneCosmicForgDe.slave"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForgDe/Wizardry6BaneCosmicForgDe.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizardry6BaneCosmicForgDe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wizardry6BaneCosmicForgDe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizball/"
+  ECHO "ERROR: Path 'A-Games:W/Wizball/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizball/Wizball.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wizball/Wizball.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizball/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wizball/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizkid/"
+  ECHO "ERROR: Path 'A-Games:W/Wizkid/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizkid/Wizkid.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wizkid/Wizkid.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wizkid/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wizkid/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WizNLiz/"
+  ECHO "ERROR: Path 'A-Games:W/WizNLiz/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WizNLiz/WizNLiz.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WizNLiz/WizNLiz.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WizNLiz/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WizNLiz/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfchild/"
+  ECHO "ERROR: Path 'A-Games:W/Wolfchild/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfchild/Wolfchild.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wolfchild/Wolfchild.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfchild/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wolfchild/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfpack/"
+  ECHO "ERROR: Path 'A-Games:W/Wolfpack/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfpack/Wolfpack.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wolfpack/Wolfpack.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wolfpack/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wolfpack/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderboyInMonsterland/"
+  ECHO "ERROR: Path 'A-Games:W/WonderboyInMonsterland/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderboyInMonsterland/WonderboyInMonsterland.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WonderboyInMonsterland/WonderboyInMonsterland.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderboyInMonsterland/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WonderboyInMonsterland/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderDog/"
+  ECHO "ERROR: Path 'A-Games:W/WonderDog/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderDog/WonderDog.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WonderDog/WonderDog.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WonderDog/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WonderDog/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wonderland/"
+  ECHO "ERROR: Path 'A-Games:W/Wonderland/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wonderland/Wonderland.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wonderland/Wonderland.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wonderland/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wonderland/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WoodysWorld/"
+  ECHO "ERROR: Path 'A-Games:W/WoodysWorld/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WoodysWorld/WoodysWorld.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WoodysWorld/WoodysWorld.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WoodysWorld/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WoodysWorld/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampBoxingManager/"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampBoxingManager/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampBoxingManager/WorldChampBoxingManager.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampBoxingManager/WorldChampBoxingManager.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampBoxingManager/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampBoxingManager/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampionshipSoccer/"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampionshipSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampionshipSoccer/WorldChampSoccer.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampionshipSoccer/WorldChampSoccer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldChampionshipSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldChampionshipSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCircuit/"
+  ECHO "ERROR: Path 'A-Games:W/WorldCircuit/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCircuit/WorldCircuit.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldCircuit/WorldCircuit.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCircuit/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldCircuit/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby/"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby/WorldClassRugby.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby/WorldClassRugby.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby5Nations/"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby5Nations/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby5Nations/WorldClassRugby5Nations.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby5Nations/WorldClassRugby5Nations.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby5Nations/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby5Nations/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby95/"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby95/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby95/WorldClassRugby95.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby95/WorldClassRugby95.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassRugby95/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassRugby95/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassSoccer/"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassSoccer/WorldClassSoccer.slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassSoccer/WorldClassSoccer.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldClassSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldClassSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCricket/"
+  ECHO "ERROR: Path 'A-Games:W/WorldCricket/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCricket/WorldCricket.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldCricket/WorldCricket.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCricket/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldCricket/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCup90/"
+  ECHO "ERROR: Path 'A-Games:W/WorldCup90/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCup90/WorldCup90.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldCup90/WorldCup90.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldCup90/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldCup90/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDarts/"
+  ECHO "ERROR: Path 'A-Games:W/WorldDarts/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDarts/WorldDarts.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldDarts/WorldDarts.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDarts/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldDarts/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDartsArcadia/"
+  ECHO "ERROR: Path 'A-Games:W/WorldDartsArcadia/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDartsArcadia/WorldDartsArcadia.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldDartsArcadia/WorldDartsArcadia.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldDartsArcadia/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldDartsArcadia/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldGames/"
+  ECHO "ERROR: Path 'A-Games:W/WorldGames/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldGames/WorldGames.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldGames/WorldGames.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldGames/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldGames/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldRugby/"
+  ECHO "ERROR: Path 'A-Games:W/WorldRugby/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldRugby/WorldRugby.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldRugby/WorldRugby.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldRugby/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldRugby/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldSoccer/"
+  ECHO "ERROR: Path 'A-Games:W/WorldSoccer/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldSoccer/WorldSoccer.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldSoccer/WorldSoccer.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldSoccer/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldSoccer/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldsOfLegend/"
+  ECHO "ERROR: Path 'A-Games:W/WorldsOfLegend/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldsOfLegend/WorldsOfLegend.slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldsOfLegend/WorldsOfLegend.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldsOfLegend/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldsOfLegend/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTourGolf/"
+  ECHO "ERROR: Path 'A-Games:W/WorldTourGolf/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTourGolf/WorldTourGolf.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldTourGolf/WorldTourGolf.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTourGolf/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldTourGolf/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTrophySoccerArcadia/"
+  ECHO "ERROR: Path 'A-Games:W/WorldTrophySoccerArcadia/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTrophySoccerArcadia/WorldTrophySoccerArcadia.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WorldTrophySoccerArcadia/WorldTrophySoccerArcadia.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WorldTrophySoccerArcadia/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WorldTrophySoccerArcadia/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms1MB/"
+  ECHO "ERROR: Path 'A-Games:W/Worms1MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms1MB/Worms1MB.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Worms1MB/Worms1MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms1MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Worms1MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms2MB/"
+  ECHO "ERROR: Path 'A-Games:W/Worms2MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms2MB/Worms2MB.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Worms2MB/Worms2MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Worms2MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Worms2MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD321MB/"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD321MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD321MB/WormsCD321MB.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD321MB/WormsCD321MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD321MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD321MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD322MB/"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD322MB/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD322MB/WormsCD322MB.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD322MB/WormsCD322MB.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsCD322MB/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WormsCD322MB/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsDirectorsCutAGA/"
+  ECHO "ERROR: Path 'A-Games:W/WormsDirectorsCutAGA/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsDirectorsCutAGA/WormsDirectorsCutAGA.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WormsDirectorsCutAGA/WormsDirectorsCutAGA.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WormsDirectorsCutAGA/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WormsDirectorsCutAGA/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wormsigns/"
+  ECHO "ERROR: Path 'A-Games:W/Wormsigns/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wormsigns/Wormsigns.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wormsigns/Wormsigns.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wormsigns/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wormsigns/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemon/"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemon/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemon/WrathOfTheDemon.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemon/WrathOfTheDemon.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemon/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemon/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemonCDTV/"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemonCDTV/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemonCDTV/WrathOfTheDemonCDTV.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemonCDTV/WrathOfTheDemonCDTV.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WrathOfTheDemonCDTV/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WrathOfTheDemonCDTV/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wreckers/"
+  ECHO "ERROR: Path 'A-Games:W/Wreckers/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wreckers/Wreckers.Slave"
+  ECHO "ERROR: Path 'A-Games:W/Wreckers/Wreckers.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/Wreckers/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/Wreckers/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFEuropeanRampageTour/"
+  ECHO "ERROR: Path 'A-Games:W/WWFEuropeanRampageTour/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFEuropeanRampageTour/WWFEuropeanRampageTour.Slave"
+  ECHO "ERROR: Path 'A-Games:W/WWFEuropeanRampageTour/WWFEuropeanRampageTour.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFEuropeanRampageTour/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WWFEuropeanRampageTour/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFWrestleMania/"
+  ECHO "ERROR: Path 'A-Games:W/WWFWrestleMania/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFWrestleMania/WWFWrestlemania.slave"
+  ECHO "ERROR: Path 'A-Games:W/WWFWrestleMania/WWFWrestlemania.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:W/WWFWrestleMania/igame.iff"
+  ECHO "ERROR: Path 'A-Games:W/WWFWrestleMania/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenex/"
+  ECHO "ERROR: Path 'A-Games:X/Xenex/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenex/Xenex.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenex/Xenex.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenex/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenex/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenomorph/"
+  ECHO "ERROR: Path 'A-Games:X/Xenomorph/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenomorph/Xenomorph.slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenomorph/Xenomorph.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenomorph/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenomorph/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon/"
+  ECHO "ERROR: Path 'A-Games:X/Xenon/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon/Xenon.slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenon/Xenon.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenon/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon21Disk/"
+  ECHO "ERROR: Path 'A-Games:X/Xenon21Disk/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon21Disk/Xenon21Disk.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenon21Disk/Xenon21Disk.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon21Disk/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenon21Disk/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon22Disk/"
+  ECHO "ERROR: Path 'A-Games:X/Xenon22Disk/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon22Disk/Xenon22Disk.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenon22Disk/Xenon22Disk.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon22Disk/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenon22Disk/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2CDTV/"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2CDTV/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2CDTV/Xenon2CDTV.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2CDTV/Xenon2CDTV.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2CDTV/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2CDTV/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2Demo/"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2Demo/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2Demo/Xenon2Demo.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2Demo/Xenon2Demo.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenon2Demo/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenon2Demo/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XenonArcadia/"
+  ECHO "ERROR: Path 'A-Games:X/XenonArcadia/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XenonArcadia/XenonArcadia.slave"
+  ECHO "ERROR: Path 'A-Games:X/XenonArcadia/XenonArcadia.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XenonArcadia/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/XenonArcadia/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenophobe/"
+  ECHO "ERROR: Path 'A-Games:X/Xenophobe/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenophobe/Xenophobe.slave"
+  ECHO "ERROR: Path 'A-Games:X/Xenophobe/Xenophobe.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xenophobe/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xenophobe/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xiphos/"
+  ECHO "ERROR: Path 'A-Games:X/Xiphos/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xiphos/Xiphos.Slave"
+  ECHO "ERROR: Path 'A-Games:X/Xiphos/Xiphos.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/Xiphos/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/Xiphos/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XIt/"
+  ECHO "ERROR: Path 'A-Games:X/XIt/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XIt/XIt.Slave"
+  ECHO "ERROR: Path 'A-Games:X/XIt/XIt.Slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XIt/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/XIt/igame.iff' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XmasLemmingsDemo1991/"
+  ECHO "ERROR: Path 'A-Games:X/XmasLemmingsDemo1991/' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XmasLemmingsDemo1991/XmasLemmingsDemo1991.slave"
+  ECHO "ERROR: Path 'A-Games:X/XmasLemmingsDemo1991/XmasLemmingsDemo1991.slave' doesn't exist!"
+ENDIF
+IF NOT EXISTS "A-Games:X/XmasLemmingsDemo1991/igame.iff"
+  ECHO "ERROR: Path 'A-Games:X/XmasLemmingsDemo1991/igame.iff' doesn't exist!"
+ENDIF

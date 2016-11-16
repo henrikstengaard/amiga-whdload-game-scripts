@@ -1,0 +1,6 @@
+Name      : Day Of The Pharaoh
+Publisher : Rainbow Arts (Softgold)
+Language  : German
+Year      : 1989
+Players   : 1
+Whdload   : DayOfThePharaohDe.Slave

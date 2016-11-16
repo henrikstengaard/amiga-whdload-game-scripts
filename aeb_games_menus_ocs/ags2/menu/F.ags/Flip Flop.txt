@@ -1,0 +1,6 @@
+Name      : Flip Flop
+Publisher : Kingsoft
+Year      : 1987
+Genre     : Board - Miscellaneous
+Players   : 1 Only
+Whdload   : FlipFlop.Slave

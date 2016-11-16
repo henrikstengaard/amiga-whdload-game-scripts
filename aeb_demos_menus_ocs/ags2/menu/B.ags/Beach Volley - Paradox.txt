@@ -1,0 +1,6 @@
+Name    : Beach Volley
+Groups  : Paradox
+Type    : Demo
+Party   : Alcatraz Pentcost 1990
+Rank    : 4th
+Whdload : BeachVolleyDemo.Slave

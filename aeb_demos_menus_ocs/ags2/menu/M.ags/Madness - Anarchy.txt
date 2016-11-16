@@ -1,0 +1,6 @@
+Name    : Madness
+Groups  : Anarchy
+Type    : Demo
+Party   : Magnetic Fields 1990
+Rank    : 1st
+Whdload : Madness.Slave

@@ -1,0 +1,6 @@
+Name      : Cannon Fodder: New Campaign
+Publisher : Sensible Software
+Year      : 2008
+Genre     : Shoot'em Up - Miscellaneous
+Players   : 1
+Whdload   : CannonFodderNewCampaign.slave

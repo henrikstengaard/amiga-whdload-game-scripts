@@ -1,0 +1,6 @@
+Name    : Digital Complexity
+Groups  : Crass
+Type    : Demo
+Party   : Alchemy OzCon 1 1992
+Rank    : 2nd
+Whdload : DigitalComplexityCrass.Slave

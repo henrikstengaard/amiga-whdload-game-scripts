@@ -1,0 +1,6 @@
+Name      : Carlos
+Publisher : Microids
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : Carlos.Slave

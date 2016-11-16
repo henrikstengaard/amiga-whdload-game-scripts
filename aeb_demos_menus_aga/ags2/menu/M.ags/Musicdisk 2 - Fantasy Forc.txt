@@ -1,0 +1,4 @@
+Name    : Musicdisk 2
+Groups  : Fantasy Force
+Type    : Musicdisk
+Whdload : MusicDisk2.Slave

@@ -1,0 +1,6 @@
+Name      : Dark Queen of Krynn, The
+Publisher : Strategic Simulations, Inc.
+Year      : 1992
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : DarkQueenOfKrynn.Slave

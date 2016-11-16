@@ -1,0 +1,32 @@
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+	execute S:Favourites "ags2" "M" "Maestro Jams vol.1 - Kefre"
+	IF $favouritesmode EQ "add"
+		SKIP end
+	ENDIF
+	IF $favouritesmode EQ "remove"
+		SKIP end
+	ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Demos:M/MaestroJamsVol1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MaestroJamsVol1.Slave" $whdloadargs
+ELSE
+	whdload "MaestroJamsVol1.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
+

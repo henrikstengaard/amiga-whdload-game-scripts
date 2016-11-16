@@ -1,0 +1,6 @@
+Name    : Impulse 2
+Groups  : Tilt,Old Bulls
+Type    : Demo
+Party   : The Party 1993
+Rank    : N/a
+Whdload : Impulse2.Slave

@@ -1,0 +1,6 @@
+Name      : Final Countdown
+Publisher : Demonware
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : FinalCountdown.Slave

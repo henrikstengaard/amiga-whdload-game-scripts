@@ -1,0 +1,4 @@
+Name    : Music Madness 2
+Groups  : Ipec Elite
+Type    : Musicdisk
+Whdload : MusicMadness2.Slave

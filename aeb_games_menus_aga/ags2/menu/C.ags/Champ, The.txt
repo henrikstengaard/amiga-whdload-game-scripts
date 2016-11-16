@@ -1,0 +1,6 @@
+Name      : Champ, The
+Publisher : Linel
+Year      : 1988
+Genre     : Sports - Boxing
+Players   : 1 or 2, Simultaneous
+Whdload   : Champ.Slave

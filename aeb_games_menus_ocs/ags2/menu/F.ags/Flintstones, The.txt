@@ -1,0 +1,6 @@
+Name      : Flintstones, The
+Publisher : Grandslam
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Flintstones.Slave

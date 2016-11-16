@@ -1,0 +1,4 @@
+Name    : Anarchy party slide
+Groups  : Razor 1911
+Type    : Slideshow
+Whdload : AnarchyPartySlide.Slave

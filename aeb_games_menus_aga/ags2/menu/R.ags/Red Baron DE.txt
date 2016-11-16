@@ -1,0 +1,7 @@
+Name      : Red Baron
+Publisher : Dynamix
+Language  : German
+Year      : 1992
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : RedBaronDe.slave

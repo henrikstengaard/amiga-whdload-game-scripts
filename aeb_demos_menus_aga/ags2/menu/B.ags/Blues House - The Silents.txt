@@ -1,0 +1,4 @@
+Name    : Blues House
+Groups  : The Silents
+Type    : Musicdisk
+Whdload : BluesHouse.Slave

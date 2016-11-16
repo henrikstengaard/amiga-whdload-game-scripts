@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Predators
+Type    : Demo
+Whdload : MegademoPredators.Slave

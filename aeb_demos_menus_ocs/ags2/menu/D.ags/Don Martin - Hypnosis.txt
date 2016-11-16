@@ -1,0 +1,6 @@
+Name    : Don Martin
+Groups  : Hypnosis
+Type    : Musicdisk
+Party   : Phenomena and Censor Party 1990
+Rank    : N/a
+Whdload : DonMartinMusicDisk.Slave

@@ -1,0 +1,6 @@
+Name      : Chaos Strikes Back
+Publisher : FTL
+Year      : 1989
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : ChaosStrikesBack.Slave

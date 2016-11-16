@@ -1,0 +1,7 @@
+Name      : Hexuma: Das Auge Des Kal
+Publisher : Software 2000
+Language  : German
+Year      : 1992
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : HexumaDe.Slave

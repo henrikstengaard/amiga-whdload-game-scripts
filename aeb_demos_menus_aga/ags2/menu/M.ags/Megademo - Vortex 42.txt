@@ -1,0 +1,5 @@
+Name    : Megademo
+Groups  : Vortex 42
+Type    : Megademo
+Party   : Vortex 42 Computer Meeting
+Whdload : MegademoVortex42.Slave

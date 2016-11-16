@@ -1,0 +1,6 @@
+Name    : Turmoil
+Groups  : Sanity
+Type    : Musicdisk
+Party   : The Party 1991
+Rank    : N/a
+Whdload : Turmoil.slave

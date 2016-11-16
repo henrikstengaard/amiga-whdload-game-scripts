@@ -1,0 +1,6 @@
+Name      : Sleeping Gods Lie
+Publisher : Empire Software
+Year      : 1989
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : SleepingGodsLie.Slave

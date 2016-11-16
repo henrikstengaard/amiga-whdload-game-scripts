@@ -1,0 +1,6 @@
+Name    : Pro S.I.A.K.
+Groups  : Flying Cows Inc.
+Type    : Demo
+Party   : Polish Autumn 1993
+Rank    : 2nd
+Whdload : ProSIAK.slave

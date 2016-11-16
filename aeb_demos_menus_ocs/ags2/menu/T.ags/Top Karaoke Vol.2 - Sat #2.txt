@@ -1,0 +1,4 @@
+Name    : Top Karaoke Vol.2
+Groups  : Saturne
+Type    : Musicdisk
+Whdload : TopKaraoke2AGA.Slave

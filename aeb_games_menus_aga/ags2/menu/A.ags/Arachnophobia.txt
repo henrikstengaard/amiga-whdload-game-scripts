@@ -1,0 +1,6 @@
+Name      : Arachnophobia
+Publisher : Titus Software
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : Arachnophobia.Slave

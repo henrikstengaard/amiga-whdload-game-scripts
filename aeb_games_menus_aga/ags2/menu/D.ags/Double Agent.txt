@@ -1,0 +1,6 @@
+Name      : Double Agent
+Publisher : Flair Software
+Year      : 1996
+Genre     : Strategy - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : DoubleAgent.slave

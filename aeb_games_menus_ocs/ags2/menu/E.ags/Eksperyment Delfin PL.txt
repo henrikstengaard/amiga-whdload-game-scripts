@@ -1,0 +1,7 @@
+Name      : Eksperyment Delfin
+Publisher : MarkSoft
+Language  : Polish
+Year      : 1995
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : EksperymentDelfinPl.Slave

@@ -1,0 +1,6 @@
+Name      : Pinball Hazard
+Publisher : Mirage
+Year      : 1996
+Genre     : Arcade - Pinball
+Players   : 1 to 5
+Whdload   : PinballHazard.Slave

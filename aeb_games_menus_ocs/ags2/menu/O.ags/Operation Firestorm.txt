@@ -1,0 +1,5 @@
+Name      : Operation Firestorm
+Publisher : F1 Licenceware
+Year      : 1993
+Players   : 1
+Whdload   : OperationFirestorm.slave

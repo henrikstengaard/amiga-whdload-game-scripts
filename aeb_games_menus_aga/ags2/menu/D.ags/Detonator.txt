@@ -1,0 +1,6 @@
+Name      : Detonator
+Publisher : Creative Vision
+Year      : 1987
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2
+Whdload   : Detonator.Slave

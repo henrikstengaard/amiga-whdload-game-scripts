@@ -1,0 +1,7 @@
+Name      : Lure of the Temptress
+Publisher : Virgin Games
+Language  : Italian
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : LureOfTheTemptressIt.slave

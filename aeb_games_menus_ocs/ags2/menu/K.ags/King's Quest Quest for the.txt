@@ -1,0 +1,6 @@
+Name      : King's Quest: Quest for the Crown
+Publisher : Sierra On-Line
+Year      : 1990
+Genre     : Adventure - Animated Graphics/Text
+Players   : 1 Only
+Whdload   : KingsQuestEnhanced.slave

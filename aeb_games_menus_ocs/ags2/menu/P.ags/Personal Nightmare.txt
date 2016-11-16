@@ -1,0 +1,6 @@
+Name      : Personal Nightmare
+Publisher : Horrorsoft
+Year      : 1989
+Genre     : Adventure - Click and Type
+Players   : 1 Only
+Whdload   : PersonalNightmare.Slave

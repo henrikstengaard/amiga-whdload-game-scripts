@@ -1,0 +1,5 @@
+Name      : Werner Flaschbier
+Publisher : PD/Freeware
+Year      : 1989
+Players   : 1
+Whdload   : FlaschbierNoIntro.Slave

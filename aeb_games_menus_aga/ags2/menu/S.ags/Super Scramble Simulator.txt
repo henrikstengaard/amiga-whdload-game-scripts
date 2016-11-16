@@ -1,0 +1,6 @@
+Name      : Super Scramble Simulator
+Publisher : Gremlin Graphics
+Year      : 1989
+Genre     : Racing - Motorcycle
+Players   : 1 to 6
+Whdload   : SuperScrambleSimulator.slave

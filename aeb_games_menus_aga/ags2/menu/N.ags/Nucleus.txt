@@ -1,0 +1,5 @@
+Name      : Nucleus
+Publisher : Microtec
+Year      : 1990
+Players   : 1 Only
+Whdload   : Nucleus.Slave

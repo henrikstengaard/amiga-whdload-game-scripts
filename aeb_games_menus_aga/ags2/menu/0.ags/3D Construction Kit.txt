@@ -1,0 +1,6 @@
+Name      : 3D Construction Kit
+Publisher : Domark
+Year      : 1991
+Genre     : Adventure - Construction Kit
+Players   : 1 Only
+Whdload   : 3DConstructionKit.Slave

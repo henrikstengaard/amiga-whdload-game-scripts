@@ -1,0 +1,5 @@
+Name      : Wembley International Soccer AGA
+Publisher : Audiogenic
+Year      : 1994
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : WembleyIntSoccerAGA.Slave

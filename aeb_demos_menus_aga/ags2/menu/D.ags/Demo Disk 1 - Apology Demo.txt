@@ -1,0 +1,4 @@
+Name    : Demo Disk 1
+Groups  : Apology
+Type    : Demo
+Whdload : DemodiskOne.Slave

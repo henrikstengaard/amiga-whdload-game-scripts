@@ -1,0 +1,5 @@
+Name      : Orbital Destroyer
+Publisher : Trojan
+Year      : 1990
+Players   : 1
+Whdload   : OrbitalDestroyer.Slave

@@ -1,0 +1,6 @@
+Name      : Suspicious Cargo
+Publisher : Gremlin Graphics
+Year      : 1991
+Genre     : Adventure - Graphics/Text
+Players   : 1 Only
+Whdload   : SuspiciousCargo.Slave

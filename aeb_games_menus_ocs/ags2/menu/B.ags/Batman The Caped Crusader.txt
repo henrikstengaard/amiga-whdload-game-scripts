@@ -1,0 +1,6 @@
+Name      : Batman: The Caped Crusader
+Publisher : Ocean
+Year      : 1988
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : BatmanCapedCrusader.Slave

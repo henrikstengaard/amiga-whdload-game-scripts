@@ -1,0 +1,6 @@
+Name      : Pac-Mania
+Publisher : Grandslam
+Year      : 1988
+Genre     : Arcade - Pac-Man
+Players   : 1 Only
+Whdload   : Pacmania.Slave

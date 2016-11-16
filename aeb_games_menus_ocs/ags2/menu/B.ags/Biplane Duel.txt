@@ -1,0 +1,5 @@
+Name      : Biplane Duel
+Publisher : (unknown)
+Year      : 1989
+Players   : 2 Only, Simultaneous
+Whdload   : BiplaneDuel.Slave

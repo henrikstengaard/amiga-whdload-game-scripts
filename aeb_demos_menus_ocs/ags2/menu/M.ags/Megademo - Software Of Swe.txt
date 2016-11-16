@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Software Of Sweden
+Type    : Demo
+Whdload : MegademoSOS.Slave

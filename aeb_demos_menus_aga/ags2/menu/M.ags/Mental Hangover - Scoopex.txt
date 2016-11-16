@@ -1,0 +1,6 @@
+Name    : Mental Hangover
+Groups  : Scoopex
+Type    : Demo
+Party   : Swedish Elite Easter Conference 1990
+Rank    : 1st
+Whdload : MentalHangover.Slave

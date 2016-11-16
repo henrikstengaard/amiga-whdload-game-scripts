@@ -1,0 +1,6 @@
+Name      : Chessmaster 2000, The
+Publisher : The Software Toolworks
+Year      : 1986
+Genre     : Board - Chess
+Players   : 1 or 2
+Whdload   : Chessmaster2000.Slave

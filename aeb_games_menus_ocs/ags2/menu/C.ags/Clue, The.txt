@@ -1,0 +1,6 @@
+Name      : Clue!, The
+Publisher : Kompart
+Year      : 1994
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : Clue.slave

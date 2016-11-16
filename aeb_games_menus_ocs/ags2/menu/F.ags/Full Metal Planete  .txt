@@ -1,0 +1,5 @@
+Name      : Full Metal Planete
+Publisher : Infogrames
+Year      : 1989
+Genre     : Strategy - War
+Whdload   : FullMetalPlaneteNTSCFiles.Slave

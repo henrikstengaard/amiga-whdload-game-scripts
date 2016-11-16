@@ -1,0 +1,4 @@
+Name    : Megademo
+Groups  : Northstar
+Type    : Megademo
+Whdload : MegademoNorthStar.Slave

@@ -1,0 +1,6 @@
+Name      : Time Runners 15: At the Speed of Light
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners15.Slave

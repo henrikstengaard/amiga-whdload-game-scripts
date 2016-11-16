@@ -1,0 +1,7 @@
+Name      : Ashes of Empire
+Publisher : Mirage
+Language  : German
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : AshesOfEmpireDe.Slave

@@ -1,0 +1,6 @@
+Name      : Armour-Geddon
+Publisher : Psygnosis
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : ArmourGeddonNTSC.Slave

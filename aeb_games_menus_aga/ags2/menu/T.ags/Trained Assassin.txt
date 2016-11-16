@@ -1,0 +1,4 @@
+Name      : Trained Assassin
+Publisher : Digital Magic
+Year      : 1989
+Whdload   : TrainedAssassin.Slave

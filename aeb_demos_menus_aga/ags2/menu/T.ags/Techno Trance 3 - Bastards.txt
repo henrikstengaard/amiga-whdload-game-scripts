@@ -1,0 +1,4 @@
+Name    : Techno Trance 3
+Groups  : Bastards
+Type    : Musicdisk
+Whdload : TechnoTrance3.Slave

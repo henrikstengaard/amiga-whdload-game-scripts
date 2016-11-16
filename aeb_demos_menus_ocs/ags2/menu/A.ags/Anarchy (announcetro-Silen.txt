@@ -1,0 +1,4 @@
+Name    : Anarchy (announcetro/Silents fr last demo)
+Groups  : The Silents,Anarchy
+Type    : Demo
+Whdload : AnarchyAnnouncetro.Slave

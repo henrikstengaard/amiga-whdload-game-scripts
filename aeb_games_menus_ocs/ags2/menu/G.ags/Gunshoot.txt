@@ -1,0 +1,4 @@
+Name      : Gunshoot
+Publisher : Axxiom
+Year      : 1988
+Whdload   : Gunshoot.Slave

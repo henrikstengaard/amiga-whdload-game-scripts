@@ -1,0 +1,7 @@
+Name      : Dragon Wars
+Publisher : Electronic Arts
+Language  : German
+Year      : 1990
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : DragonWarsDe.Slave

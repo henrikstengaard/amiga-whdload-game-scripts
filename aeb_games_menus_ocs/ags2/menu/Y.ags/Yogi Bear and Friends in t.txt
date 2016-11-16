@@ -1,0 +1,5 @@
+Name      : Yogi Bear and Friends in the Greed Monster
+Publisher : Hi-Tec Software
+Year      : 1990
+Players   : 1
+Whdload   : YogiBear&Friends.Slave

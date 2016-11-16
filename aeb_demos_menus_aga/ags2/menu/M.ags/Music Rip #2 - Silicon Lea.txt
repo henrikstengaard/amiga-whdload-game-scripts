@@ -1,0 +1,4 @@
+Name    : Music Rip #2
+Groups  : Silicon League
+Type    : Musicdisk
+Whdload : MusicRip2.Slave

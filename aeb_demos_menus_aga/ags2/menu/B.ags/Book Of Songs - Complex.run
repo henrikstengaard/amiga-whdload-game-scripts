@@ -1,0 +1,32 @@
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+	execute S:Favourites "ags2" "B" "Book Of Songs - Complex"
+	IF $favouritesmode EQ "add"
+		SKIP end
+	ENDIF
+	IF $favouritesmode EQ "remove"
+		SKIP end
+	ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Demos:B/BookOfSongs/"
+IF EXISTS ENV:whdloadargs
+	whdload "BookOfSongs.Slave" $whdloadargs
+ELSE
+	whdload "BookOfSongs.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
+

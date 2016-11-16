@@ -1,0 +1,6 @@
+Name      : Enemy: Tempest of Violence
+Publisher : Anachronia
+Year      : 1997
+Genre     : Adventure - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : Enemy(EasyPlay).Slave

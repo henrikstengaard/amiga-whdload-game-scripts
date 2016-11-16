@@ -1,0 +1,6 @@
+Name      : Seven Gates of Jambala, The
+Publisher : Unique
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : SevenGatesOfJambalaFiles.slave

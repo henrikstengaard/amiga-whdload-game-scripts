@@ -1,0 +1,5 @@
+Name      : The Way Of The Little Dragon
+Publisher : ReLINE (Softgold/micro-partner) / Axxiom (micro-partner/MicroProse)
+Year      : 1987
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : WayOfTheLittleDragonNTSC.Slave

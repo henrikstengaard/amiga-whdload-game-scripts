@@ -1,0 +1,7 @@
+Name      : Shanghai
+Publisher : Activision
+Language  : French
+Year      : 1986
+Genre     : Brain - Tile Removal
+Players   : 1 or 2
+Whdload   : ShanghaiFr.Slave

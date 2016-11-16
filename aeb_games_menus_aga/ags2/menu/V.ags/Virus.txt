@@ -1,0 +1,5 @@
+Name      : Virus
+Publisher : Firebird
+Year      : 1988
+Players   : 1 Only
+Whdload   : Virus.slave

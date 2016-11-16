@@ -1,0 +1,6 @@
+Name      : D-Day: The Beginning of the End
+Publisher : Impressions
+Language  : French
+Year      : 1994
+Genre     : Strategy - War
+Whdload   : DDayImpressionsFr.Slave

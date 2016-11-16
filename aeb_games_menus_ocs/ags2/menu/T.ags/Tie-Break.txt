@@ -1,0 +1,6 @@
+Name      : Tie-Break
+Publisher : Starbyte Software
+Year      : 1990
+Genre     : Sports - Tennis
+Players   : 1 to 4, Simultaneous
+Whdload   : TieBreak.Slave

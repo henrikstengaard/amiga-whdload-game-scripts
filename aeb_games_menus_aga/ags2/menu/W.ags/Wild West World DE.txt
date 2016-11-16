@@ -1,0 +1,7 @@
+Name      : Wild West World
+Publisher : US Gold
+Language  : German
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 or 2
+Whdload   : WildWestWorldDe.Slave

@@ -1,0 +1,6 @@
+Name      : Fiendish Freddy's Big Top o' Fun
+Publisher : Mindscape
+Year      : 1989
+Genre     : Sports - Multi-Event
+Players   : 1 to 5
+Whdload   : FiendishFreddysBigTopOFun.Slave

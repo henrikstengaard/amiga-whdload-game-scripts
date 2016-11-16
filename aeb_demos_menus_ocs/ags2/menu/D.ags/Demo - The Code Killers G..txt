@@ -1,0 +1,4 @@
+Name    : Demo
+Groups  : The Code Killers G.d.r.
+Type    : Demo
+Whdload : CodeKillersIntro.slave

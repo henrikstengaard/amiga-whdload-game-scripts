@@ -1,0 +1,6 @@
+Name      : Huckleberry Hound in Hollywood Capers
+Publisher : Alternative Software
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : HuckleberryHound.Slave

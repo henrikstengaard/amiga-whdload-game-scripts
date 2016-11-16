@@ -1,0 +1,6 @@
+Name      : Tower of Babel
+Publisher : Rainbird
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : TowerOfBabel.slave

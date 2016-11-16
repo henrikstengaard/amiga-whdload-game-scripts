@@ -1,0 +1,6 @@
+Name      : Anstoss
+Publisher : Sports (Ascon)
+Language  : German
+Year      : 1993
+Players   : 1 - 4 (1 simultaneous)
+Whdload   : AnstossDe.slave

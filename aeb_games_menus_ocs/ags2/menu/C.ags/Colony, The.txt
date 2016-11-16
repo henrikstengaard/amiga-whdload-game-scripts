@@ -1,0 +1,6 @@
+Name      : Colony, The
+Publisher : Mindscape
+Year      : 1990
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : Colony.Slave

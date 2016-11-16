@@ -1,0 +1,6 @@
+Name      : Quik the Thunder Rabbit
+Publisher : Titus Software
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : QuikThunderRabbit.slave

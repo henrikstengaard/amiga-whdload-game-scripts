@@ -1,0 +1,6 @@
+Name      : Eskimo Games
+Publisher : Magic Bytes
+Year      : 1989
+Genre     : Sports - Multi-Event
+Players   : 1 to 4, Simultaneous
+Whdload   : EskimoGames.Slave

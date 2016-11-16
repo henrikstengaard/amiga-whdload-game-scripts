@@ -1,0 +1,5 @@
+Name      : 1943: The Battle of Midway
+Publisher : Go!
+Year      : 1989
+Players   : 1 or 2, Simultaneous
+Whdload   : 1943.slave

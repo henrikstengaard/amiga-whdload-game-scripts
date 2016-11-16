@@ -1,0 +1,6 @@
+Name      : Stellar 7
+Publisher : Dynamix
+Language  : German
+Year      : 1991
+Players   : 1 Only
+Whdload   : Stellar7De.Slave

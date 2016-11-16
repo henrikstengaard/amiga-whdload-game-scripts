@@ -1,0 +1,5 @@
+Name      : Wizball
+Publisher : Ocean
+Year      : 1988
+Players   : 1 to 4, Simultaneous
+Whdload   : Wizball.Slave

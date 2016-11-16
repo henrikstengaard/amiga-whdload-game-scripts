@@ -1,0 +1,5 @@
+Name      : 1000 Miglia
+Publisher : Simulmondo
+Year      : 1992
+Players   : 1
+Whdload   : 1000Miglia.Slave

@@ -1,0 +1,7 @@
+Name      : Lords of the Realm
+Publisher : Impressions
+Language  : German
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 6
+Whdload   : LordsOfTheRealmAGADeFast.Slave

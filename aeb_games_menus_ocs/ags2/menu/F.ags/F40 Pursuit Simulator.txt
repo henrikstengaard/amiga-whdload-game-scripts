@@ -1,0 +1,6 @@
+Name      : F40 Pursuit Simulator
+Publisher : Titus Software
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : F40PursuitSimulator.Slave

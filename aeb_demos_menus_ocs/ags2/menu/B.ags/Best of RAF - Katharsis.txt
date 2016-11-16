@@ -1,0 +1,4 @@
+Name    : Best of RAF
+Groups  : Katharsis
+Type    : Musicdisk
+Whdload : BestOfRAFVol1.Slave

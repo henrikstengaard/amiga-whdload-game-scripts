@@ -1,0 +1,5 @@
+Name      : Emerald Mine 3 Professional
+Publisher : Kingsoft
+Year      : 1990
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : EmeraldMine3.slave

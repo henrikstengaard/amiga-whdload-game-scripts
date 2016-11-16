@@ -1,0 +1,7 @@
+Name      : Explora II
+Publisher : 16 32 Diffusion
+Language  : French
+Year      : 1988
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : Explora2Fr.Slave

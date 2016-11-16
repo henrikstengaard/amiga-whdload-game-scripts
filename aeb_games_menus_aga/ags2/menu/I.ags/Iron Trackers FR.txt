@@ -1,0 +1,7 @@
+Name      : Iron Trackers
+Publisher : Microids
+Language  : French
+Year      : 1989
+Genre     : Racing - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : IronTrackersFr.Slave

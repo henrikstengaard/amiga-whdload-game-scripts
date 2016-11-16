@@ -1,0 +1,6 @@
+Name      : Dimo's Quest
+Publisher : Boeder Software
+Year      : 1993
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+Whdload   : DimosQuest.Slave

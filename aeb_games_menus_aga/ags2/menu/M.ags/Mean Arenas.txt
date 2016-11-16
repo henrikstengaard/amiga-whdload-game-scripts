@@ -1,0 +1,6 @@
+Name      : Mean Arenas
+Publisher : ICE
+Year      : 1993
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 or 2
+Whdload   : MeanArenas.slave

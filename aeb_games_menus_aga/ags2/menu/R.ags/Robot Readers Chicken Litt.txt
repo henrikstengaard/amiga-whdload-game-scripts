@@ -1,0 +1,5 @@
+Name      : Robot Readers: Chicken Little
+Publisher : Hilton Android
+Year      : 1987
+Players   : 1
+Whdload   : RobotReaderChickenLittle.Slave

@@ -1,0 +1,5 @@
+Name      : Spellbound Dizzy
+Publisher : Codemasters
+Year      : 1992
+Players   : 1
+Whdload   : SpellboundDizzy.Slave

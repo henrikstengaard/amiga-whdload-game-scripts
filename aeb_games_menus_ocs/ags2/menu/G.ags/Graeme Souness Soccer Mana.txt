@@ -1,0 +1,6 @@
+Name      : Graeme Souness Soccer Manager
+Publisher : Zeppelin Games
+Year      : 1992
+Genre     : Sports - Football/Soccer
+Players   : 1 Only
+Whdload   : GraemeSounessSoccerManagr.Slave

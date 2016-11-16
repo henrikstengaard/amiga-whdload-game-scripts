@@ -1,0 +1,6 @@
+Name      : Black Tiger
+Publisher : US Gold
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : BlackTiger.slave

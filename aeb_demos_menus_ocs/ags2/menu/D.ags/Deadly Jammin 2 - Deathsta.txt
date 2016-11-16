@@ -1,0 +1,4 @@
+Name    : Deadly Jammin 2
+Groups  : Deathstar
+Type    : Musicdisk
+Whdload : DeadlyJammin2.Slave

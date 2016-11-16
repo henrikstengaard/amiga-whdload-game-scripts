@@ -1,0 +1,4 @@
+Name    : Sound De Light
+Groups  : Software Of Sweden
+Type    : Musicdisk
+Whdload : SoundDeLight.Slave

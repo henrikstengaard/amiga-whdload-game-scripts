@@ -1,0 +1,4 @@
+Name    : Musicland 2
+Groups  : Brainstorm
+Type    : Musicdisk
+Whdload : Musicland2.slave

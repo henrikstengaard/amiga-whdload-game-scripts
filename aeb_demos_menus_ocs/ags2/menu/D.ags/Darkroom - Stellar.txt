@@ -1,0 +1,6 @@
+Name    : Darkroom
+Groups  : Stellar
+Type    : 40k
+Party   : Assembly 1994
+Rank    : 3rd
+Whdload : Darkroom.Slave

@@ -1,0 +1,7 @@
+Name      : SimLife
+Publisher : Mindscape
+Language  : German
+Year      : 1993
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : SimLifeDe.Slave

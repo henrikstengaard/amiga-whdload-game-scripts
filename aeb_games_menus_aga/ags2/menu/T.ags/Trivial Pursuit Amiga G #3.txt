@@ -1,0 +1,7 @@
+Name      : Trivial Pursuit: Amiga Genus Edition
+Publisher : Domark
+Language  : French
+Year      : 1986
+Genre     : Educational - Quiz
+Players   : 1 to 6
+Whdload   : TrivialPursuitFr.slave

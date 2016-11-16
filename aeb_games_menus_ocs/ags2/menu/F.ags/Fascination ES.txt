@@ -1,0 +1,7 @@
+Name      : Fascination
+Publisher : Coktel Vision
+Language  : Spanish
+Year      : 1991
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : FascinationEs.Slave

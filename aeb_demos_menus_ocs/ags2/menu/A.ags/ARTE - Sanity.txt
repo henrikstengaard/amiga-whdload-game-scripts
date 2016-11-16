@@ -1,0 +1,6 @@
+Name    : ARTE
+Groups  : Sanity
+Type    : Demo
+Party   : The Party 1993
+Rank    : 3rd
+Whdload : Arte.Slave

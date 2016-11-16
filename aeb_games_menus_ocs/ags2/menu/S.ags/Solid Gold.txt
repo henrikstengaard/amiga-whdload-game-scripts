@@ -1,0 +1,6 @@
+Name      : Solid Gold
+Publisher : (unknown)
+Year      : 2013
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : SolidGold.slave

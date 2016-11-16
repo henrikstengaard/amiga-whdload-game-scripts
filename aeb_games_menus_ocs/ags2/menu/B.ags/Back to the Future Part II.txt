@@ -1,0 +1,6 @@
+Name      : Back to the Future Part III
+Publisher : Image Works
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : BackToTheFutureIII.Slave

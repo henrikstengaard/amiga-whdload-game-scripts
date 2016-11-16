@@ -1,0 +1,5 @@
+Name      : Mega Phoenix
+Publisher : Dinamic Software
+Year      : 1991
+Players   : 1 or 2
+Whdload   : MegaPhoenix.Slave

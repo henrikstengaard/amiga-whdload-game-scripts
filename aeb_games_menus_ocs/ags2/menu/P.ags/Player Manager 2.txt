@@ -1,0 +1,6 @@
+Name      : Player Manager 2
+Publisher : Anco
+Year      : 1995
+Genre     : Sports - Football/Soccer
+Players   : 1 to 4
+Whdload   : PlayerManager2.Slave

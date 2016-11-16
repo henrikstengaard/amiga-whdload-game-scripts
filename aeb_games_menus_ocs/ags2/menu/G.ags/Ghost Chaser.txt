@@ -1,0 +1,5 @@
+Name      : Ghost Chaser
+Publisher : Byte Back
+Year      : 1990
+Players   : 1
+Whdload   : GhostChaser.Slave

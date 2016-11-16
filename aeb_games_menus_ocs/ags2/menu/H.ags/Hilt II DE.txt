@@ -1,0 +1,6 @@
+Name      : Hilt II
+Publisher : 5th Dimension
+Language  : German
+Year      : 1996
+Players   : 1 - 2 (1 simultaneous)
+Whdload   : Hilt2De.Slave

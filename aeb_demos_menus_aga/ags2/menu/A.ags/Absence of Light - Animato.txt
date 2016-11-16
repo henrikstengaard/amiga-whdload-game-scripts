@@ -1,0 +1,6 @@
+Name    : Absence of Light
+Groups  : Animators
+Type    : Musicdisk
+Party   : CeBIT 1991
+Rank    : N/a
+Whdload : AbsenceOfLight.Slave

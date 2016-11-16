@@ -1,0 +1,6 @@
+Name      : Skidmarks
+Publisher : Acid Software
+Year      : 1993
+Genre     : Racing - Cars
+Players   : 1 to 4, Simultaneous
+Whdload   : Skidmarks.slave

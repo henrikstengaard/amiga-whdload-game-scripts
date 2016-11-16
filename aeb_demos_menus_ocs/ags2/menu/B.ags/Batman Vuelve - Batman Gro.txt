@@ -1,0 +1,6 @@
+Name    : Batman Vuelve
+Groups  : Batman Group
+Type    : Demo
+Party   : Posadas 1995
+Rank    : 1st
+Whdload : BatmanVuelve.Slave

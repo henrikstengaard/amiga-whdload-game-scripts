@@ -1,0 +1,5 @@
+Name      : Chess Simulator
+Publisher : Infogrames
+Year      : 1990
+Genre     : Board - Chess
+Whdload   : ChessSimulator.Slave

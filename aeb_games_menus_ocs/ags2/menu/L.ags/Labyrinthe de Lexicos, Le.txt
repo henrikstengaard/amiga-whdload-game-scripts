@@ -1,0 +1,6 @@
+Name      : Labyrinthe de Lexicos, Le
+Publisher : RETZ
+Language  : French
+Year      : 1990
+Players   : 1
+Whdload   : LabyrintheDeLexicosFr.Slave

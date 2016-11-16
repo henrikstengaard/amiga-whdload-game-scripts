@@ -1,0 +1,5 @@
+Name      : Super Twintris
+Publisher : Amiga Action / Amiga Power
+Year      : 1991
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : SuperTwintris.Slave

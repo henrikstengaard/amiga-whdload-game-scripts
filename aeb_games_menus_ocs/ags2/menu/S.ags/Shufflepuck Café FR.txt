@@ -1,0 +1,7 @@
+Name      : Shufflepuck Café
+Publisher : Brøderbund
+Language  : French
+Year      : 1989
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+Whdload   : ShufflepuckCafeFr.Slave

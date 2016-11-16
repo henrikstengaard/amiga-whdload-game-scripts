@@ -1,0 +1,6 @@
+Name      : King's Quest VI
+Publisher : Sierra
+Language  : German
+Year      : 1994
+Players   : 1
+Whdload   : KingsQuest6De.slave

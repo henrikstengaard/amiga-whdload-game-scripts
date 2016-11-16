@@ -1,0 +1,7 @@
+Name      : Elvira II: The Jaws of Cerberus
+Publisher : Accolade
+Language  : Spanish
+Year      : 1992
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : Elvira2Es.Slave

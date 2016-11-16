@@ -1,0 +1,6 @@
+Name    : Real Empathy
+Groups  : Virtual
+Type    : Demo
+Party   : The Party 1991
+Rank    : N/a
+Whdload : RealEmpathy.Slave

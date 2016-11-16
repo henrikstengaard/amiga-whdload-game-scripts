@@ -1,0 +1,6 @@
+Name      : Defender of the Crown II
+Publisher : Commodore
+Language  : French
+Year      : 1993
+Players   : 1
+Whdload   : DefenseurCouronne2CD32Fr.slave

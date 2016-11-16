@@ -1,0 +1,7 @@
+Name      : Siedler, Die
+Publisher : Blue Byte
+Language  : French
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 or 2, Simultaneous
+Whdload   : SettlersFr.slave

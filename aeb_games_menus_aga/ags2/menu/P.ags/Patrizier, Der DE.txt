@@ -1,0 +1,7 @@
+Name      : Patrizier, Der
+Publisher : Ascon Software
+Language  : German
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 4
+Whdload   : PatrizierDe.slave

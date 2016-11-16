@@ -1,0 +1,7 @@
+Name      : Dawn Patrol
+Publisher : Empire Interactive
+Language  : German
+Year      : 1994
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : DawnPatrolDe.Slave

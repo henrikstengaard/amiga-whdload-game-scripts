@@ -1,0 +1,6 @@
+Name      : Kaiser
+Publisher : Linel
+Language  : German
+Year      : 1989
+Genre     : Strategy - Trading
+Whdload   : KaiserDe.Slave

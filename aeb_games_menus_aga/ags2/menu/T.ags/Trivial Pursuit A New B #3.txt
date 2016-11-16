@@ -1,0 +1,7 @@
+Name      : Trivial Pursuit: A New Beginning
+Publisher : Domark
+Language  : French
+Year      : 1988
+Genre     : Educational - Quiz
+Players   : 1 to 6
+Whdload   : TrivialPursuitNewBeginFr.Slave

@@ -1,0 +1,4 @@
+Name    : Coma
+Groups  : Rebels
+Type    : Demo
+Whdload : Coma.Slave

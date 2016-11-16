@@ -1,0 +1,6 @@
+Name      : Who Framed Roger Rabbit
+Publisher : Buena Vista Software
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : WhoFramedRogerRabbit.slave

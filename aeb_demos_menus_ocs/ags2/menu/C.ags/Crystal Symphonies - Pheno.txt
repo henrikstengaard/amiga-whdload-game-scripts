@@ -1,0 +1,4 @@
+Name    : Crystal Symphonies
+Groups  : Phenomena
+Type    : Musicdisk
+Whdload : CrystalSymphonies.Slave

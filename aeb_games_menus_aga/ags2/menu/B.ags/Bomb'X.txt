@@ -1,0 +1,6 @@
+Name      : Bomb'X
+Publisher : Mediagogo
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : BombX.slave

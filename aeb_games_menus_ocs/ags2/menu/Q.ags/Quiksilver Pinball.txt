@@ -1,0 +1,6 @@
+Name      : Quiksilver Pinball
+Publisher : Actionworks
+Year      : 1990
+Genre     : Arcade - Pinball
+Players   : 1 or 2
+Whdload   : QuiksilverPinball.Slave

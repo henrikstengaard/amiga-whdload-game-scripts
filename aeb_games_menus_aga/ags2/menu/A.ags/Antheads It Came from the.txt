@@ -1,0 +1,6 @@
+Name      : Antheads: It Came from the Desert II Data Disk
+Publisher : Cinemaware
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : ItCameFromDesert2Antheads.slav

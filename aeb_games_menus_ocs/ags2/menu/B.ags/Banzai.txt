@@ -1,0 +1,5 @@
+Name      : Banzai
+Publisher : Swedish Software
+Year      : 1989
+Players   : 1 Only
+Whdload   : Banzai.Slave

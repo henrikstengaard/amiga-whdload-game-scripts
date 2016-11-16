@@ -1,0 +1,7 @@
+Name      : Landsitz von Mortville, Der
+Publisher : Lankhor
+Language  : German
+Year      : 1988
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : LandsitzVonMortvilleDe.Slave

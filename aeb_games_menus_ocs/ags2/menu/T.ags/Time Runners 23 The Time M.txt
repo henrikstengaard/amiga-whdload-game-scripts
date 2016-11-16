@@ -1,0 +1,6 @@
+Name      : Time Runners 23: The Time Monarch
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : TimeRunners23.Slave

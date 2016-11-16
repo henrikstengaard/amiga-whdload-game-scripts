@@ -1,0 +1,4 @@
+Name    : Pixel Nation
+Groups  : Defjam
+Type    : Demo
+Whdload : PixelNation.Slave

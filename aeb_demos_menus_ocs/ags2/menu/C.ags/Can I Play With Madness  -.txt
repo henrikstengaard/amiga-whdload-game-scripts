@@ -1,0 +1,5 @@
+Name    : Can I Play With Madness ?
+Groups  : Defcon One
+Type    : Demo
+Party   : Royal Amiga Force Conference 1991
+Whdload : CanIPlayWithMadness.Slave

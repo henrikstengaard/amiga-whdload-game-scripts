@@ -1,0 +1,6 @@
+Name      : Tetris
+Publisher : Infogrames
+Year      : 1988
+Genre     : Arcade - Tetris
+Players   : 1 to 6
+Whdload   : TetrisMirrorsoft.Slave

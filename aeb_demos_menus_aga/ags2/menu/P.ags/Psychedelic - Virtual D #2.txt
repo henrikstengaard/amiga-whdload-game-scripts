@@ -1,0 +1,6 @@
+Name    : Psychedelic
+Groups  : Virtual Dreams,Fairlight
+Type    : Demo
+Party   : The Party 1994
+Rank    : 2nd
+Whdload : PsychedelicAGA.Slave

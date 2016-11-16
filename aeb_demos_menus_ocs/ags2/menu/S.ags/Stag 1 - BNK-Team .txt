@@ -1,0 +1,4 @@
+Name    : Stag 1
+Groups  : BNK-Team
+Type    : Slideshow
+Whdload : StagSeries.slave

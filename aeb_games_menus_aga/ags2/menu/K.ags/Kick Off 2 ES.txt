@@ -1,0 +1,7 @@
+Name      : Kick Off 2
+Publisher : Anco
+Language  : Spanish
+Year      : 1990
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : KickOff2Es.slave

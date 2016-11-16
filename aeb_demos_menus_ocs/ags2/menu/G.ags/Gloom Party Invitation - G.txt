@@ -1,0 +1,4 @@
+Name    : Gloom Party Invitation
+Groups  : Gloom
+Type    : Invitation
+Whdload : GloomPartyInvitation.slave

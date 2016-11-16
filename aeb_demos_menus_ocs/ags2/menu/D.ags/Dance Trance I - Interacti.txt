@@ -1,0 +1,4 @@
+Name    : Dance Trance I
+Groups  : Interactive
+Type    : Musicdisk
+Whdload : DanceTrance.Slave

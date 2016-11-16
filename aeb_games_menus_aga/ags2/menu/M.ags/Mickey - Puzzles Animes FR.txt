@@ -1,0 +1,6 @@
+Name      : Mickey - Puzzles Animes
+Publisher : Disney
+Language  : French
+Year      : 1993
+Players   : 1
+Whdload   : MickeyPuzzlesAnimesFr.Slave
