@@ -24,6 +24,8 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$amsNameFormat,
 	[Parameter(Mandatory=$false)]
+	[string]$hstwbNameFormat,
+	[Parameter(Mandatory=$false)]
 	[string]$ags2MenuItemRunTemplateFile,
 	[Parameter(Mandatory=$false)]
 	[string]$amsMenuItemRunTemplateFile,
@@ -84,6 +86,14 @@ if ($iGame -and !$iGameNameFormat)
 }
 
 
+# exit, if HstWB name format is not defined
+if (!$hstwbNameFormat)
+{
+	Write-Error "HstWB name format is not defined"
+	exit 1
+}
+
+
 # resolve paths
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
 $whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
@@ -97,6 +107,7 @@ if ($amsMenuItemRunTemplateFile)
 {
 	$amsMenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($amsMenuItemRunTemplateFile)
 }
+$whdloadRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("whdload_run_template.txt")
 
 $maxMenuItemFileNameLength = 26
 
@@ -243,18 +254,18 @@ function BuildMenuItemFileName($name, $menuItemFileNameIndex)
 	return $menuItemFileName
 }
 
-function BuildMenuItemRunText($menuItemRunTemplateFile, $parameters)
+function BuildTemplateText($templateFile, $parameters)
 {
-	$menuItemRunTemplate = [System.IO.File]::ReadAllText($menuItemRunTemplateFile)
+	$templateText = [System.IO.File]::ReadAllText($templateFile)
 
 	foreach($name in $parameters.Keys)
 	{
 		$placeholderText = ('[$' + $name + ']')
 		$placeholderValue = $parameters.Get_Item($name)
-		$menuItemRunTemplate = $menuItemRunTemplate.Replace($placeholderText, $placeholderValue) 
+		$templateText = $templateText.Replace($placeholderText, $placeholderValue) 
 	}
 
-	return $menuItemRunTemplate
+	return $templateText
 }
 
 function BuildMenuItemChangeDirectoryText($dataPath)
@@ -320,6 +331,14 @@ function BuildMenuItemDetailText($whdloadSlave)
 }
 
 
+# make whdload output directory
+$whdloadOutputPath = [System.IO.Path]::Combine($outputPath, "whdload")
+if(!(Test-Path -Path $whdloadOutputPath))
+{
+	md $whdloadOutputPath | Out-Null
+}
+
+
 # make AGS2 output directory
 if ($ags2)
 {
@@ -330,15 +349,6 @@ if ($ags2)
 	}
 }
 
-# make iGame output directory
-if ($iGame)
-{
-	$iGameOutputPath = [System.IO.Path]::Combine($outputPath, "igame")
-	if(!(Test-Path -Path $iGameOutputPath))
-	{
-		md $iGameOutputPath | Out-Null
-	}
-}
 
 # make ams output directory
 if ($ams)
@@ -347,6 +357,17 @@ if ($ams)
 	if(!(Test-Path -Path $amsOutputPath))
 	{
 		md $amsOutputPath | Out-Null
+	}
+}
+
+
+# make igame output directory
+if ($igame)
+{
+	$iGameOutputPath = [System.IO.Path]::Combine($outputPath, "igame")
+	if(!(Test-Path -Path $iGameOutputPath))
+	{
+		md $iGameOutputPath | Out-Null
 	}
 }
 
@@ -388,6 +409,9 @@ $iGameReposLines = @()
 
 # ams variables 
 $amsMenuItemFileNameIndex = @{}
+
+# hstwb variables
+$hstwbMenuItemFileNameIndex = @{}
 
 
 if ($usePartitions)
@@ -469,6 +493,13 @@ foreach($whdloadSlave in $whdloadSlaves)
 			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + $whdloadSlaveFileName + "' doesn't exist!"""), 
 			"ENDIF") 
 
+
+    # build hstwb menuitem data files
+	$hstwbMenuItemDataLines = @(";HstWB menu item data")
+	$hstwbMenuItemDataLines += ("Name=" + (Capitalize (BuildName $hstwbNameFormat $whdloadSlave)))
+	$hstwbMenuItemDataLines += "RunFile=$whdloadSlaveFileName"
+
+
 	# build ags2 menu for whdload slave
 	if ($ags2)
 	{
@@ -504,7 +535,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		# build ags2 menu item start text	
 		$ags2MenuItemStartTextParameters = @{ "Menu" = "ags2"; "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = ($ags2MenuItemIndexName); "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
-		$ags2MenuItemStartText = BuildMenuItemRunText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
+		$ags2MenuItemStartText = BuildTemplateText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
 		
 		# write ags2 menu item start file	
 		WriteAmigaTextString $ags2MenuItemRunFile $ags2MenuItemStartText
@@ -515,6 +546,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 		
 		# write ags2 menu item txt file
 		WriteAmigaTextString $ags2MenuItemTxtFile $ags2MenuItemDetailText
+
+
+		# add ags2 name and filename to data lines
+		$hstwbMenuItemDataLines += "AGS2Name=$ags2Name"
+		$hstwbMenuItemDataLines += "AGS2IndexName=$ags2MenuItemIndexName"
+		$hstwbMenuItemDataLines += "AGS2FileName=$ags2MenuItemFileName"
 	}
 
 
@@ -575,7 +612,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 		
 		# build ams menu item start	text	
 		$amsMenuItemStartTextParameters = @{ "Menu" = "ams"; "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
-		$amsMenuItemStartText = BuildMenuItemRunText $amsMenuItemRunTemplateFile $amsMenuItemStartTextParameters
+		$amsMenuItemStartText = BuildTemplateText $amsMenuItemRunTemplateFile $amsMenuItemStartTextParameters
 		
 		# write ams menu item start file
 		WriteAmigaTextString $amsMenuItemStartFile $amsMenuItemStartText
@@ -586,6 +623,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 		
 		# write ams menu item txt file
 		WriteAmigaTextString $amsMenuItemTxtFile $amsMenuItemDetailText
+
+
+		# add ams name and filename to data lines
+		$hstwbMenuItemDataLines += "AMSName=$amsName"
+		$hstwbMenuItemDataLines += "AMSIndexName=$amsMenuItemIndexName"
+		$hstwbMenuItemDataLines += "AMSFileName=$amsMenuItemFileName"
 	}
 
 
@@ -596,6 +639,11 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$iGameName = BuildName $iGameNameFormat $whdloadSlave
 
 		$iGameMenuItemName = Capitalize $iGameName
+
+
+		# add igame name to data lines
+		$hstwbMenuItemDataLines += "iGameName=$iGameMenuItemName"
+
 
 		# add whdload slave to igame whdload list
 		if ($iGameWhdloadListLines.Count -eq 0)
@@ -619,6 +667,41 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# add game to igame gameslist lines
 		$iGameGamesListLines += $iGameGameLines
 	}
+
+
+	$whdloadAssignDir = [System.IO.Path]::Combine($whdloadOutputPath, $assignPath)
+	$whdloadSlaveDir = [System.IO.Path]::Combine($whdloadAssignDir, [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath).Replace("/", "\"))
+
+	if(!(Test-Path -Path $whdloadSlaveDir))
+	{
+		md $whdloadSlaveDir | Out-Null
+	}
+
+	# build hstwb menuitem run	text	
+	$whdloadRunTemplateParameters = @{ "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
+	$whdloadRunTemplateText = BuildTemplateText $whdloadRunTemplateFile $whdloadRunTemplateParameters
+
+	if ($hstwbMenuItemFileNameIndex.ContainsKey($whdloadSlaveDir))
+	{
+		$hstwbMenuItemFileNameCount = $hstwbMenuItemFileNameIndex.Get_Item($whdloadSlaveDir)
+		$hstwbMenuItemFileNameCount++
+	}
+	else
+	{
+		$hstwbMenuItemFileNameCount = 1
+	}
+
+	$hstwbMenuItemFileNameIndex.Set_Item($whdloadSlaveDir, $hstwbMenuItemFileNameCount)
+
+	$hstwbMenuItemFileName = "hstwbmenuitem{0}" -f $hstwbMenuItemFileNameCount
+
+	# write hstwb menuitem run file
+	$hstwbMenuItemRunFile = [System.IO.Path]::Combine($whdloadSlaveDir, ("{0}.run" -f $hstwbMenuItemFileName))
+	WriteAmigaTextString $hstwbMenuItemRunFile $whdloadRunTemplateText
+
+	# write hstwb menuitem data file
+	$hstwbMenuItemDataFile = [System.IO.Path]::Combine($whdloadSlaveDir, ("{0}.data" -f $hstwbMenuItemFileName))
+	WriteAmigaTextLines $hstwbMenuItemDataFile $hstwbMenuItemDataLines
 
 
 	# use whdload screenshot, if it exists in index	
@@ -661,20 +744,12 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# copy igame screenshot for whdload slave
 		if ($iGame)
 		{
-			$iGameAssignDir = [System.IO.Path]::Combine($iGameOutputPath, $assignPath)
-			$iGameWhdloadSlaveDir = [System.IO.Path]::Combine($iGameAssignDir, [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath).Replace("/", "\"))
-
 			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "igame.iff")
 			
 			# copy whdload screenshot file, if it exists
 			if (test-path -path $whdloadScreenshotFile)
 			{
-				if(!(Test-Path -Path $iGameWhdloadSlaveDir))
-				{
-					md $iGameWhdloadSlaveDir | Out-Null
-				}
-
-				Copy-Item $whdloadScreenshotFile $iGameWhdloadSlaveDir -force
+				Copy-Item $whdloadScreenshotFile $whdloadSlaveDir -force
 			}
 
 			$whdloadiGameScreenshotFile = $whdloadSlaveStartPath + "igame.iff"
