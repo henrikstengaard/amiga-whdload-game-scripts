@@ -80,8 +80,8 @@ $hardwarePattern = '(CD32|AGA|CDTV|CD)$'
 $languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi|Gr)$'
 $memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512kb|512Kb|512KB)$'
 $demoPattern = '(Demo\d?|Demos|Preview)$'
-$otherPattern = '(AmigaFormat|AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image\d?|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|&Profidisk|\dDisk|\(EasyPlay\))$'
-
+$otherPattern = '(AmigaFormat|AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image\d?|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|\dDisk|\(EasyPlay\))$'
+$compilationPattern = '(&Missions|&MissionDisk|&MissionDisks|&SceneryDisk\d*|&Hawaiian|&SceneryDisks|&CityDefense|&ExtraTime|&SpaceHarrier|&Missions|&ExtendedLevels|&CadaverThePayoff|&Planeteers|&ConstrSet|&ConstructionSet|&MstrTrcks|&DDisks|&DataDisk\d?|&DataDisks|&Profidisk|&Data|&TourDisk|&ChallengeGames|&VoyageBeyond|&RetrnFntZone|&RFantasyZone|&SummerGames2|&NewWorlds)'
 
 # Process whdload slaves
 $identicalWhdloadSlaveIndex = @{}
@@ -110,8 +110,9 @@ foreach ($whdloadSlave in $whdloadSlaves)
 	$memory = @()
 	$demo = @()
 	$other = @()
+	$compilation = @()
 	
-	while ($name -cmatch $hardwarePattern -or $name -cmatch $languagePattern -or $name -cmatch $memoryPattern -or $name -cmatch $demoPattern -or $name -cmatch $otherPattern)
+	while ($name -cmatch $hardwarePattern -or $name -cmatch $languagePattern -or $name -cmatch $memoryPattern -or $name -cmatch $demoPattern -or $name -cmatch $otherPattern -or $name -cmatch $compilationPattern)
 	{
 		if ($name -cmatch $hardwarePattern)
 		{
@@ -141,6 +142,12 @@ foreach ($whdloadSlave in $whdloadSlaves)
 		{
 			$other +=, ($name | Select-String -Pattern $otherPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1) 
 			$name = $name -creplace $otherPattern, ''
+		}
+
+		if ($name -cmatch $compilationPattern)
+		{
+			$compilation +=, ($name | Select-String -Pattern $compilationPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1) 
+			$name = $name -creplace $compilationPattern, ''
 		}
 	}
 
@@ -218,6 +225,7 @@ foreach ($whdloadSlave in $whdloadSlaves)
 	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredMemory' -Value ([string]::Join(',', $memory))
 	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredDemo' -Value ([string]::Join(',', $demo))
 	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredOther' -Value ([string]::Join(',', $other))
+	$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'FilteredCompilation' -Value ([string]::Join(',', $compilation))
 
 	$game = @{ "WhdloadSlave" = $whdloadSlave; "Name" = $name; "Hardware" = $hardware; "Language" = $language; "Memory" = $memory; "Demo" = $demo; "Other" = $other; "Rank" = $rank }
 	
