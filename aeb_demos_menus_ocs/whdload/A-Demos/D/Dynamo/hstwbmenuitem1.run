@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/Dynamo/"
+IF EXISTS ENV:whdloadargs
+	whdload "Dynamo.Slave" $whdloadargs
+ELSE
+	whdload "Dynamo.Slave"
+ENDIF

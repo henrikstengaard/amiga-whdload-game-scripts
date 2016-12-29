@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Authentik/"
+IF EXISTS ENV:whdloadargs
+	whdload "Authentik.Slave" $whdloadargs
+ELSE
+	whdload "Authentik.Slave"
+ENDIF

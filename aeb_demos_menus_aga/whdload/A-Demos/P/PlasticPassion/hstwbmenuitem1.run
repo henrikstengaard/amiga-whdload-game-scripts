@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PlasticPassion/"
+IF EXISTS ENV:whdloadargs
+	whdload "PlasticPassion.Slave" $whdloadargs
+ELSE
+	whdload "PlasticPassion.Slave"
+ENDIF

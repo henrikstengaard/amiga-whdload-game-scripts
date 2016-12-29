@@ -1,4 +1,5 @@
 Name      : Cedric and the Lost Sceptre
+Version   : FAST
 Publisher : Neo
 Year      : 1995
 Players   : 1

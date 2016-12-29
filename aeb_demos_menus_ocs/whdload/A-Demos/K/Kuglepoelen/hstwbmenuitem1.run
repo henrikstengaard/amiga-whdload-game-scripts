@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:K/Kuglepoelen/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kuglepoelen.Slave" $whdloadargs
+ELSE
+	whdload "Kuglepoelen.Slave"
+ENDIF

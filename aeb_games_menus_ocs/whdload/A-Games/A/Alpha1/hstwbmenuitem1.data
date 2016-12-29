@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alpha-1
+RunFile=Alpha1.Slave
+AGS2Name=Alpha-1
+AGS2IndexName=A
+AGS2FileName=Alpha-1
+iGameName=Alpha-1

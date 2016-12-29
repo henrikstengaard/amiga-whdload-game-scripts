@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChronoQuestDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChronoQuestDe.Slave" $whdloadargs
+ELSE
+	whdload "ChronoQuestDe.Slave"
+ENDIF

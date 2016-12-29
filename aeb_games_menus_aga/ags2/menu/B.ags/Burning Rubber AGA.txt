@@ -1,5 +1,6 @@
 Name      : Burning Rubber
+Version   : AGA
 Publisher : Ocean
 Year      : 1993
 Genre     : Racing - Cars
-Whdload   : BurningRubber2MB.slave
+Whdload   : BurningRubberAGA.slave

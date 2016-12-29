@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Red Zone
+RunFile=RedZone.Slave
+AGS2Name=Red Zone
+AGS2IndexName=R
+AGS2FileName=Red Zone
+iGameName=Red Zone

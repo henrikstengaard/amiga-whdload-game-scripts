@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Announce - Lemon.
+RunFile=Announce.Slave
+AGS2Name=Announce - Lemon.
+AGS2IndexName=A
+AGS2FileName=Announce - Lemon.
+iGameName=Announce - Lemon.

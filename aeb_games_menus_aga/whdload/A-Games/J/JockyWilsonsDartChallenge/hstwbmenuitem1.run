@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JockyWilsonsDartChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "JockyWilsonsDartChallenge.Slave" $whdloadargs
+ELSE
+	whdload "JockyWilsonsDartChallenge.Slave"
+ENDIF

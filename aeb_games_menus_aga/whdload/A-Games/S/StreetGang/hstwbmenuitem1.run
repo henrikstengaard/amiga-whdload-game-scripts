@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StreetGang/"
+IF EXISTS ENV:whdloadargs
+	whdload "StreetGang.slave" $whdloadargs
+ELSE
+	whdload "StreetGang.slave"
+ENDIF

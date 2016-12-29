@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PuttySquadDemoAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "PuttySquadDemoAGA.Slave" $whdloadargs
+ELSE
+	whdload "PuttySquadDemoAGA.Slave"
+ENDIF

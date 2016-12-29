@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GatewayToSavageFrontier/"
+IF EXISTS ENV:whdloadargs
+	whdload "GatewayToSavageFrontier.Slave" $whdloadargs
+ELSE
+	whdload "GatewayToSavageFrontier.Slave"
+ENDIF

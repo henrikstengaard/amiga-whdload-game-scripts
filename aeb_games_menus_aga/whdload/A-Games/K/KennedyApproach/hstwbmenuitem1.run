@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KennedyApproach/"
+IF EXISTS ENV:whdloadargs
+	whdload "KennedyApproach.Slave" $whdloadargs
+ELSE
+	whdload "KennedyApproach.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/HexadecimalPerfection/"
+IF EXISTS ENV:whdloadargs
+	whdload "HexadecimalPerfection.Slave" $whdloadargs
+ELSE
+	whdload "HexadecimalPerfection.Slave"
+ENDIF

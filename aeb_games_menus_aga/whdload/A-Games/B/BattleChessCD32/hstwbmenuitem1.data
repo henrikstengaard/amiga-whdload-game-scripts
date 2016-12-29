@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Battle Chess CD32
+RunFile=BattleChessCD32.Slave
+AGS2Name=Battle Chess CD32
+AGS2IndexName=B
+AGS2FileName=Battle Chess CD32
+iGameName=Battle Chess CD32

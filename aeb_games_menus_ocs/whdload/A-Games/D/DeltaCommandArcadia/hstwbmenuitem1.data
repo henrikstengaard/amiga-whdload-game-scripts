@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Delta Command
+RunFile=DeltaCommandArcadia.Slave
+AGS2Name=Delta Command
+AGS2IndexName=D
+AGS2FileName=Delta Command
+iGameName=Delta Command

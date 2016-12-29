@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Heimdall
+RunFile=Heimdall.Slave
+AGS2Name=Heimdall
+AGS2IndexName=H
+AGS2FileName=Heimdall
+iGameName=Heimdall

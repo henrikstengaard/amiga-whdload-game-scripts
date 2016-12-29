@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Uninvited/"
+IF EXISTS ENV:whdloadargs
+	whdload "Uninvited.Slave" $whdloadargs
+ELSE
+	whdload "Uninvited.Slave"
+ENDIF

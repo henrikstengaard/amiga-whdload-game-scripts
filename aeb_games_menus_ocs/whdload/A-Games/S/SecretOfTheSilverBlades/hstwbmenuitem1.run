@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SecretOfTheSilverBlades/"
+IF EXISTS ENV:whdloadargs
+	whdload "SecretOfTheSilverBlades.Slave" $whdloadargs
+ELSE
+	whdload "SecretOfTheSilverBlades.Slave"
+ENDIF

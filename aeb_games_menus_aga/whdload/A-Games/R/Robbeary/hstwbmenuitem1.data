@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Robbeary
+RunFile=Robbeary.Slave
+AGS2Name=Robbeary
+AGS2IndexName=R
+AGS2FileName=Robbeary
+iGameName=Robbeary

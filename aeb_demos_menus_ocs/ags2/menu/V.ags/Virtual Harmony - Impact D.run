@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:V/VirtualHarmony/VirtualHarmony.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "V" "Virtual Harmony - Impact D"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "V" "Virtual Harmony - Impact D"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:V/VirtualHarmony/"
 IF EXISTS ENV:whdloadargs
-	whdload "VirtualHarmony.slave" $whdloadargs
+  whdload "VirtualHarmony.slave" $whdloadargs
 ELSE
-	whdload "VirtualHarmony.slave"
+  whdload "VirtualHarmony.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

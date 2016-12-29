@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DistantArmies/"
+IF EXISTS ENV:whdloadargs
+	whdload "DistantArmies.Slave" $whdloadargs
+ELSE
+	whdload "DistantArmies.Slave"
+ENDIF

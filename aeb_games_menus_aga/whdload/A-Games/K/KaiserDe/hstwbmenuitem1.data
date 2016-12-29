@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Kaiser DE
+RunFile=KaiserDe.Slave
+AGS2Name=Kaiser DE
+AGS2IndexName=K
+AGS2FileName=Kaiser DE
+iGameName=Kaiser DE

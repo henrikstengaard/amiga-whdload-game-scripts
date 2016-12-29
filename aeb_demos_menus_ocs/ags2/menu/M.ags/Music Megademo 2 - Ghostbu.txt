@@ -1,4 +1,5 @@
 Name    : Music Megademo 2
+Version : Demo2
 Groups  : Ghostbusters
 Type    : Musicdisk
 Whdload : MusicMegaDemo2.Slave

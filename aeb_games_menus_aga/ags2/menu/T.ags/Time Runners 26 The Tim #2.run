@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:T/TimeRunnersSeries/TimeRunners26.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "T" "Time Runners 26 The Tim #2"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "T" "Time Runners 26 The Tim #2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:T/TimeRunnersSeries/"
 IF EXISTS ENV:whdloadargs
-	whdload "TimeRunners26.Slave" $whdloadargs
+  whdload "TimeRunners26.Slave" $whdloadargs
 ELSE
-	whdload "TimeRunners26.Slave"
+  whdload "TimeRunners26.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

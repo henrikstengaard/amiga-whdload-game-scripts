@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:V/VectorBobDemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "VectorBobDemo.slave" $whdloadargs
+ELSE
+	whdload "VectorBobDemo.slave"
+ENDIF

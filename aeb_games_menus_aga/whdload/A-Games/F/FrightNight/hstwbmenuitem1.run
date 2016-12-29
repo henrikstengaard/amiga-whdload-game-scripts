@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FrightNight/"
+IF EXISTS ENV:whdloadargs
+	whdload "FrightNight.Slave" $whdloadargs
+ELSE
+	whdload "FrightNight.Slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Fears
+Version   : AGA Censored
+Publisher : Manyk
+Year      : 1995
+Players   : 1 Only
+Whdload   : FearsAGACensored.slave

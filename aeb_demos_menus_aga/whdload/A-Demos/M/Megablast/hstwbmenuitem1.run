@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Megablast/"
+IF EXISTS ENV:whdloadargs
+	whdload "Megablast.Slave" $whdloadargs
+ELSE
+	whdload "Megablast.Slave"
+ENDIF

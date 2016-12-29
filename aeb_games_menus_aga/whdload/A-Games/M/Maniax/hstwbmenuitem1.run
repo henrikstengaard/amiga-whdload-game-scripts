@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Maniax/"
+IF EXISTS ENV:whdloadargs
+	whdload "Maniax.slave" $whdloadargs
+ELSE
+	whdload "Maniax.slave"
+ENDIF

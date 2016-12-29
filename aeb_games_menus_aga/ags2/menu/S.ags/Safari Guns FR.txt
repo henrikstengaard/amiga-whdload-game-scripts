@@ -1,6 +1,6 @@
 Name      : Safari Guns
-Publisher : Infogrames
 Language  : French
+Publisher : Infogrames
 Year      : 1989
 Players   : 1 Only
 Whdload   : SafariGunsFr.Slave

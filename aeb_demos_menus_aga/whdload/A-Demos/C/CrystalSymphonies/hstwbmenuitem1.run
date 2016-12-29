@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CrystalSymphonies/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrystalSymphonies.Slave" $whdloadargs
+ELSE
+	whdload "CrystalSymphonies.Slave"
+ENDIF

@@ -1,7 +1,0 @@
-Name      : Lords of the Realm
-Publisher : Impressions
-Language  : French
-Year      : 1994
-Genre     : Strategy - Miscellaneous
-Players   : 1 to 6
-Whdload   : LordsOfTheRealmAGAFrFast.slave

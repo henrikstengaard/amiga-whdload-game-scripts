@@ -1,6 +1,6 @@
 Name      : Hanse
-Publisher : Ariolasoft
 Language  : German
+Publisher : Ariolasoft
 Year      : 1988
 Genre     : Strategy - Miscellaneous
 Whdload   : HanseDe.Slave

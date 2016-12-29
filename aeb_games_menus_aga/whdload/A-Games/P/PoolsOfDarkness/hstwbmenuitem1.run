@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PoolsOfDarkness/"
+IF EXISTS ENV:whdloadargs
+	whdload "PoolsOfDarkness.slave" $whdloadargs
+ELSE
+	whdload "PoolsOfDarkness.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MPythonsFlyingCircus/"
+IF EXISTS ENV:whdloadargs
+	whdload "MPythonsFlyingCircus.Slave" $whdloadargs
+ELSE
+	whdload "MPythonsFlyingCircus.Slave"
+ENDIF

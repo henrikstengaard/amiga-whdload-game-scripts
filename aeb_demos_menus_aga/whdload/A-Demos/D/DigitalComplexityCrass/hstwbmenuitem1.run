@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DigitalComplexityCrass/"
+IF EXISTS ENV:whdloadargs
+	whdload "DigitalComplexityCrass.Slave" $whdloadargs
+ELSE
+	whdload "DigitalComplexityCrass.Slave"
+ENDIF

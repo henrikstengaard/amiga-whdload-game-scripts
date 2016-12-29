@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Operation Wolf
+RunFile=OperationWolf.Slave
+AGS2Name=Operation Wolf
+AGS2IndexName=O
+AGS2FileName=Operation Wolf
+iGameName=Operation Wolf

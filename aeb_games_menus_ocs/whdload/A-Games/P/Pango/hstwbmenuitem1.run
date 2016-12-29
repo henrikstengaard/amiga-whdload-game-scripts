@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Pango/"
+IF EXISTS ENV:whdloadargs
+	whdload "Pango.Slave" $whdloadargs
+ELSE
+	whdload "Pango.Slave"
+ENDIF

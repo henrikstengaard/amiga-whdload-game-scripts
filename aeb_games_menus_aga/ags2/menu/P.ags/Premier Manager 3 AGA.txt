@@ -1,4 +1,5 @@
 Name      : Premier Manager 3
+Version   : AGA
 Publisher : Gremlin Interactive
 Year      : 1994
 Genre     : Sports - Football/Soccer

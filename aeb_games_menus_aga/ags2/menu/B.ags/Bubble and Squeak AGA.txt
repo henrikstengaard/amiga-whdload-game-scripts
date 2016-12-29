@@ -1,4 +1,5 @@
 Name      : Bubble and Squeak
+Version   : AGA
 Publisher : Audiogenic
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

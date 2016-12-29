@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blastar
+RunFile=Blastar.slave
+AGS2Name=Blastar
+AGS2IndexName=B
+AGS2FileName=Blastar
+iGameName=Blastar

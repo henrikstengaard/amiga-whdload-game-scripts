@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:F/FaceAnotherDay/"
+IF EXISTS ENV:whdloadargs
+	whdload "FaceAnotherDay.Slave" $whdloadargs
+ELSE
+	whdload "FaceAnotherDay.Slave"
+ENDIF

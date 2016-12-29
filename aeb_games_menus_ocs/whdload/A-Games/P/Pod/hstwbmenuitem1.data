@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pod
+RunFile=Pod.Slave
+AGS2Name=Pod
+AGS2IndexName=P
+AGS2FileName=Pod
+iGameName=Pod

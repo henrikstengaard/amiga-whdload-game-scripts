@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RunTheGauntlet/"
+IF EXISTS ENV:whdloadargs
+	whdload "RunTheGauntlet.Slave" $whdloadargs
+ELSE
+	whdload "RunTheGauntlet.Slave"
+ENDIF

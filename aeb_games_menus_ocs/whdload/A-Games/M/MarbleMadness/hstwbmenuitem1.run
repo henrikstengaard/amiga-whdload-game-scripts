@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MarbleMadness/"
+IF EXISTS ENV:whdloadargs
+	whdload "MarbleMadness.Slave" $whdloadargs
+ELSE
+	whdload "MarbleMadness.Slave"
+ENDIF

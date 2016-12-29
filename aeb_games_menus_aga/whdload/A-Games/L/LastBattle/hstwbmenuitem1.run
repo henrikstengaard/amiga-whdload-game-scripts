@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LastBattle/"
+IF EXISTS ENV:whdloadargs
+	whdload "LastBattle.Slave" $whdloadargs
+ELSE
+	whdload "LastBattle.Slave"
+ENDIF

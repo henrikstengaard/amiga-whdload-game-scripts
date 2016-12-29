@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FascinationFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "FascinationFr.Slave" $whdloadargs
+ELSE
+	whdload "FascinationFr.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TitanicBlinky/"
+IF EXISTS ENV:whdloadargs
+	whdload "TitanicBlinky.Slave" $whdloadargs
+ELSE
+	whdload "TitanicBlinky.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DefenderOfTheCrownCDTV/"
+IF EXISTS ENV:whdloadargs
+	whdload "DefenderOfTheCrownCDTV.Slave" $whdloadargs
+ELSE
+	whdload "DefenderOfTheCrownCDTV.Slave"
+ENDIF

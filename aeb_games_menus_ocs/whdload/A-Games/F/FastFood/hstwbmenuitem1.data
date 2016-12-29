@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Fast Food!
+RunFile=FastFood.Slave
+AGS2Name=Fast Food!
+AGS2IndexName=F
+AGS2FileName=Fast Food
+iGameName=Fast Food!

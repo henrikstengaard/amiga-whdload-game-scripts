@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FluchtAusColditzDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "FluchtAusColditzDe.slave" $whdloadargs
+ELSE
+	whdload "FluchtAusColditzDe.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProjectXSECD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProjectXSECD32.slave" $whdloadargs
+ELSE
+	whdload "ProjectXSECD32.slave"
+ENDIF

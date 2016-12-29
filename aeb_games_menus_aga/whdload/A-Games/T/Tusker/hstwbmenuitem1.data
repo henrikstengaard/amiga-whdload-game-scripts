@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tusker
+RunFile=Tusker.Slave
+AGS2Name=Tusker
+AGS2IndexName=T
+AGS2FileName=Tusker
+iGameName=Tusker

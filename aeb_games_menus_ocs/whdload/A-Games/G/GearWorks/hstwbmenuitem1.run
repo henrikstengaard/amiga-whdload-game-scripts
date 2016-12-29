@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GearWorks/"
+IF EXISTS ENV:whdloadargs
+	whdload "GearWorks.Slave" $whdloadargs
+ELSE
+	whdload "GearWorks.Slave"
+ENDIF

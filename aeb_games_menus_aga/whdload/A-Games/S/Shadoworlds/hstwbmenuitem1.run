@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Shadoworlds/"
+IF EXISTS ENV:whdloadargs
+	whdload "Shadoworlds.Slave" $whdloadargs
+ELSE
+	whdload "Shadoworlds.Slave"
+ENDIF

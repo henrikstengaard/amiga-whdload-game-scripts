@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Paradroid90512KB/"
+IF EXISTS ENV:whdloadargs
+	whdload "Paradroid90512KB.Slave" $whdloadargs
+ELSE
+	whdload "Paradroid90512KB.Slave"
+ENDIF

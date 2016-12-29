@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pink Panther
+RunFile=PinkPanther.slave
+AGS2Name=Pink Panther
+AGS2IndexName=P
+AGS2FileName=Pink Panther
+iGameName=Pink Panther

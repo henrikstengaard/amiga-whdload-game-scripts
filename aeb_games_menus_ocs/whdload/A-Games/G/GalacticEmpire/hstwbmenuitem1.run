@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GalacticEmpire/"
+IF EXISTS ENV:whdloadargs
+	whdload "GalacticEmpire.Slave" $whdloadargs
+ELSE
+	whdload "GalacticEmpire.Slave"
+ENDIF

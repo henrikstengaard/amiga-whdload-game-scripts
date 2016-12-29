@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:S/StarTrek25thAnnivAGADe/StarTrek25thAnnivAGADe.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "S" "Star Trek 25th Annivers #2"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "S" "Star Trek 25th Annivers #2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:S/StarTrek25thAnnivAGADe/"
 IF EXISTS ENV:whdloadargs
-	whdload "StarTrek25thAnnivAGADe.Slave" $whdloadargs
+  whdload "StarTrek25thAnnivAGADe.Slave" $whdloadargs
 ELSE
-	whdload "StarTrek25thAnnivAGADe.Slave"
+  whdload "StarTrek25thAnnivAGADe.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

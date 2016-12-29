@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Better Maths
+RunFile=BetterMaths.Slave
+AGS2Name=Better Maths
+AGS2IndexName=B
+AGS2FileName=Better Maths
+iGameName=Better Maths

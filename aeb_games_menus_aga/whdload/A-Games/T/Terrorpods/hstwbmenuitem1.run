@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Terrorpods/"
+IF EXISTS ENV:whdloadargs
+	whdload "Terrorpods.Slave" $whdloadargs
+ELSE
+	whdload "Terrorpods.Slave"
+ENDIF

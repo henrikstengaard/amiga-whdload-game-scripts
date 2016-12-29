@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Return to Atlantis
+RunFile=ReturnToAtlantis.Slave
+AGS2Name=Return to Atlantis
+AGS2IndexName=R
+AGS2FileName=Return to Atlantis
+iGameName=Return to Atlantis

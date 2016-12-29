@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BubbaNStixCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "BubbaNStixCD32.slave" $whdloadargs
+ELSE
+	whdload "BubbaNStixCD32.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:F/FantasticArt/"
+IF EXISTS ENV:whdloadargs
+	whdload "FantasticArt.slave" $whdloadargs
+ELSE
+	whdload "FantasticArt.slave"
+ENDIF

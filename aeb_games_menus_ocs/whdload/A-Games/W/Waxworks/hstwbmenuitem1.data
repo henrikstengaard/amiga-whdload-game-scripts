@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Waxworks
+RunFile=Waxworks.Slave
+AGS2Name=Waxworks
+AGS2IndexName=W
+AGS2FileName=Waxworks
+iGameName=Waxworks

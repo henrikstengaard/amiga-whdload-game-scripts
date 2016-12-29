@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OperationCleanstreets/"
+IF EXISTS ENV:whdloadargs
+	whdload "OperationCleanstreets.Slave" $whdloadargs
+ELSE
+	whdload "OperationCleanstreets.Slave"
+ENDIF

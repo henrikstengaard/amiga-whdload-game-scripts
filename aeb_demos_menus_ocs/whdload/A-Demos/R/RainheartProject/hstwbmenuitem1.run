@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RainheartProject/"
+IF EXISTS ENV:whdloadargs
+	whdload "RainheartProject.Slave" $whdloadargs
+ELSE
+	whdload "RainheartProject.Slave"
+ENDIF

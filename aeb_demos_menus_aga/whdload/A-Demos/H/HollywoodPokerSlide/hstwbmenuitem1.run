@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/HollywoodPokerSlide/"
+IF EXISTS ENV:whdloadargs
+	whdload "HollywoodPokerSlide.Slave" $whdloadargs
+ELSE
+	whdload "HollywoodPokerSlide.Slave"
+ENDIF

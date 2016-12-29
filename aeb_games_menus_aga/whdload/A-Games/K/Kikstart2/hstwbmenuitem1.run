@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Kikstart2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kikstart2.Slave" $whdloadargs
+ELSE
+	whdload "Kikstart2.Slave"
+ENDIF

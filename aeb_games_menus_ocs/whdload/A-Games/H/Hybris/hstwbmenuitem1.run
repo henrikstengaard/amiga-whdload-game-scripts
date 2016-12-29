@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hybris/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hybris.Slave" $whdloadargs
+ELSE
+	whdload "Hybris.Slave"
+ENDIF

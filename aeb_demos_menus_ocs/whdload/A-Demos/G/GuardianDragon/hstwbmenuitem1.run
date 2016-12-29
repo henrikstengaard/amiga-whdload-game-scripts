@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/GuardianDragon/"
+IF EXISTS ENV:whdloadargs
+	whdload "GuardianDragon.slave" $whdloadargs
+ELSE
+	whdload "GuardianDragon.slave"
+ENDIF

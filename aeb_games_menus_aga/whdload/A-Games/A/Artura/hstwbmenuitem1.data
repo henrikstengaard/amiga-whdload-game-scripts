@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Artura
+RunFile=Artura.Slave
+AGS2Name=Artura
+AGS2IndexName=A
+AGS2FileName=Artura
+iGameName=Artura

@@ -1,4 +1,5 @@
 Name      : Arcade Snooker
+Version   : AGA
 Publisher : CU Amiga
 Year      : 1995
 Genre     : Sports - Snooker/Pool

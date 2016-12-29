@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PipeDream/"
+IF EXISTS ENV:whdloadargs
+	whdload "PipeDream.Slave" $whdloadargs
+ELSE
+	whdload "PipeDream.Slave"
+ENDIF

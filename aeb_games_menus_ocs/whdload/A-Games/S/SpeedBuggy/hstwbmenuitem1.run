@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpeedBuggy/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpeedBuggy.slave" $whdloadargs
+ELSE
+	whdload "SpeedBuggy.slave"
+ENDIF

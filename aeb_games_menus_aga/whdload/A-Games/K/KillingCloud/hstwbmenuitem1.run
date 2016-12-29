@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KillingCloud/"
+IF EXISTS ENV:whdloadargs
+	whdload "KillingCloud.Slave" $whdloadargs
+ELSE
+	whdload "KillingCloud.Slave"
+ENDIF

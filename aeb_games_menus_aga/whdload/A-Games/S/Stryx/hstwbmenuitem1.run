@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Stryx/"
+IF EXISTS ENV:whdloadargs
+	whdload "Stryx.Slave" $whdloadargs
+ELSE
+	whdload "Stryx.Slave"
+ENDIF

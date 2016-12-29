@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Detroit
+RunFile=Detroit.Slave
+AGS2Name=Detroit
+AGS2IndexName=D
+AGS2FileName=Detroit
+iGameName=Detroit

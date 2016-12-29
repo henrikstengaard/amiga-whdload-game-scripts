@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:S/SkarlaS/S.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "S" "S - Skarla S"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "S" "S - Skarla S"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:S/SkarlaS/"
 IF EXISTS ENV:whdloadargs
-	whdload "S.Slave" $whdloadargs
+  whdload "S.Slave" $whdloadargs
 ELSE
-	whdload "S.Slave"
+  whdload "S.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

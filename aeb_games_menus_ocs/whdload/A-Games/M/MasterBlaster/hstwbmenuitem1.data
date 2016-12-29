@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Master Blaster
+RunFile=MasterBlaster.Slave
+AGS2Name=Master Blaster
+AGS2IndexName=M
+AGS2FileName=Master Blaster
+iGameName=Master Blaster

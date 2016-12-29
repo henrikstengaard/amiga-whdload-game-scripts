@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TeraTunes/"
+IF EXISTS ENV:whdloadargs
+	whdload "TeraTunes.Slave" $whdloadargs
+ELSE
+	whdload "TeraTunes.Slave"
+ENDIF

@@ -847,8 +847,8 @@ ENDIF
 IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/"
   ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave"
-  ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave"
+  ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/igame.iff"
   ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/igame.iff' doesn't exist!"
@@ -856,8 +856,8 @@ ENDIF
 IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/"
   ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave"
-  ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave"
+  ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:B/Bloodwych&ExtendedLevels/igame.iff"
   ECHO "ERROR: Path 'A-Games:B/Bloodwych&ExtendedLevels/igame.iff' doesn't exist!"

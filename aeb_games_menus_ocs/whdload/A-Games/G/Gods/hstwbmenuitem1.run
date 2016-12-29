@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gods/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gods.Slave" $whdloadargs
+ELSE
+	whdload "Gods.Slave"
+ENDIF

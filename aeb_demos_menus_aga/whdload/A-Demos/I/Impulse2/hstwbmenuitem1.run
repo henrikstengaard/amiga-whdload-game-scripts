@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/Impulse2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Impulse2.Slave" $whdloadargs
+ELSE
+	whdload "Impulse2.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Stryx
+RunFile=Stryx.Slave
+AGS2Name=Stryx
+AGS2IndexName=S
+AGS2FileName=Stryx
+iGameName=Stryx

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wizball
+RunFile=Wizball.Slave
+AGS2Name=Wizball
+AGS2IndexName=W
+AGS2FileName=Wizball
+iGameName=Wizball

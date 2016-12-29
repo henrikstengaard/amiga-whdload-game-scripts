@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DOS/"
+IF EXISTS ENV:whdloadargs
+	whdload "DOS.Slave" $whdloadargs
+ELSE
+	whdload "DOS.Slave"
+ENDIF

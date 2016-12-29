@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BeyondTheFuture/"
+IF EXISTS ENV:whdloadargs
+	whdload "BeyondTheFuture.Slave" $whdloadargs
+ELSE
+	whdload "BeyondTheFuture.Slave"
+ENDIF

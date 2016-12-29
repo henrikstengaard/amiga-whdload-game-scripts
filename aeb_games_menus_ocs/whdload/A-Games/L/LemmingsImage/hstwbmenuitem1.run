@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LemmingsImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "LemmingsImage.Slave" $whdloadargs
+ELSE
+	whdload "LemmingsImage.Slave"
+ENDIF

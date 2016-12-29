@@ -1,6 +1,6 @@
 Name      : Knights of the Crystallion
-Publisher : US Gold
 Language  : German
+Publisher : US Gold
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only

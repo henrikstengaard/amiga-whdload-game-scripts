@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/242/"
+IF EXISTS ENV:whdloadargs
+	whdload "242.Slave" $whdloadargs
+ELSE
+	whdload "242.Slave"
+ENDIF

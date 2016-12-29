@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:W/WarInMiddleEarth/WarInMiddleEarth.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "W" "War in Middle Earth"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "W" "War in Middle Earth"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:W/WarInMiddleEarth/"
 IF EXISTS ENV:whdloadargs
-	whdload "WarInMiddleEarth.Slave" $whdloadargs
+  whdload "WarInMiddleEarth.Slave" $whdloadargs
 ELSE
-	whdload "WarInMiddleEarth.Slave"
+  whdload "WarInMiddleEarth.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

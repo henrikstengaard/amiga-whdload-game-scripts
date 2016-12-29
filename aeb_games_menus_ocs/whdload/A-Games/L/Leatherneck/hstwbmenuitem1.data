@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leatherneck
+RunFile=Leatherneck.Slave
+AGS2Name=Leatherneck
+AGS2IndexName=L
+AGS2FileName=Leatherneck
+iGameName=Leatherneck

@@ -1,4 +1,5 @@
 Name      : IK+
+Version   : CD32
 Publisher : System 3
 Year      : 1988
 Genre     : Sports - Fighting

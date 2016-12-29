@@ -1,6 +1,0 @@
-Name      : Lemmings 2: The Tribes
-Publisher : Psygnosis
-Year      : 1993
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : Lemmings21MB.slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Interphase AmigaFormat
+RunFile=InterphaseAmigaFormat.slave
+AGS2Name=Interphase AmigaFormat
+AGS2IndexName=I
+AGS2FileName=Interphase AmigaFormat
+iGameName=Interphase AmigaFormat

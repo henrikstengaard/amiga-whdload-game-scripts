@@ -1,6 +1,6 @@
 Name      : Vermeer
-Publisher : Ariolasoft
 Language  : German
+Publisher : Ariolasoft
 Year      : 1988
 Genre     : Strategy - Trading
 Players   : 1 to 4

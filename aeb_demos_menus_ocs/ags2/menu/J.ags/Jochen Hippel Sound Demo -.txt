@@ -1,4 +1,5 @@
 Name    : Jochen Hippel Sound Demo
+Version : Demo
 Groups  : Axis
 Type    : Musicdisk
 Party   : RAF Conference 1991

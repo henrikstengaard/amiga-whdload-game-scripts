@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Space Racer
+RunFile=SpaceRacer.Slave
+AGS2Name=Space Racer
+AGS2IndexName=S
+AGS2FileName=Space Racer
+iGameName=Space Racer

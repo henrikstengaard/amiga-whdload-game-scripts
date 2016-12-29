@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShockWave/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShockWave.Slave" $whdloadargs
+ELSE
+	whdload "ShockWave.Slave"
+ENDIF

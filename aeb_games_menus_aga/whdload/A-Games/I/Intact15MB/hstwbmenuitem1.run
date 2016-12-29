@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Intact15MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "Intact15MB.Slave" $whdloadargs
+ELSE
+	whdload "Intact15MB.Slave"
+ENDIF

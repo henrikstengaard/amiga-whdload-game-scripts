@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tensai Demo
+RunFile=TensaiDemo.Slave
+AGS2Name=Tensai Demo
+AGS2IndexName=T
+AGS2FileName=Tensai Demo
+iGameName=Tensai Demo

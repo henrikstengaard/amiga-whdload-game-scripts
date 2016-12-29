@@ -1,6 +1,6 @@
 Name      : B.A.T. II
-Publisher : Ubi Soft
 Language  : German
+Publisher : Ubi Soft
 Year      : 1992
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only

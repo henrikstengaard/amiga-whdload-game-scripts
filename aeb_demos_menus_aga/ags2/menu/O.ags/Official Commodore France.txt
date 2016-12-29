@@ -1,4 +1,5 @@
 Name    : Official Commodore France A1200 demo
+Version : AGA Demo
 Groups  : Digital
 Type    : Demo
 Whdload : A1200Demo.slave

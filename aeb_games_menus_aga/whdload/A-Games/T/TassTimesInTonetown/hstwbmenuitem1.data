@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tass Times in Tonetown
+RunFile=TassTimesInTonetown.Slave
+AGS2Name=Tass Times in Tonetown
+AGS2IndexName=T
+AGS2FileName=Tass Times in Tonetown
+iGameName=Tass Times in Tonetown

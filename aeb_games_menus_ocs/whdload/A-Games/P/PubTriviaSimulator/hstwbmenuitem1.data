@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pub Trivia Simulator
+RunFile=PubTriviaSimulator.Slave
+AGS2Name=Pub Trivia Simulator
+AGS2IndexName=P
+AGS2FileName=Pub Trivia Simulator
+iGameName=Pub Trivia Simulator

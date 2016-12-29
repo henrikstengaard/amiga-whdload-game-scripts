@@ -1,4 +1,5 @@
 Name    : Ankara Section Contact Intro
+Version : Intro
 Groups  : Bronx
 Type    : Intro
 Whdload : ContactIntro.Slave

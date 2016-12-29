@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProPowerBoatSimulator/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProPowerBoatSimulator.Slave" $whdloadargs
+ELSE
+	whdload "ProPowerBoatSimulator.Slave"
+ENDIF

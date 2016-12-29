@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Seconds Out..!
+RunFile=SecondsOut.Slave
+AGS2Name=Seconds Out..!
+AGS2IndexName=S
+AGS2FileName=Seconds Out..
+iGameName=Seconds Out..!

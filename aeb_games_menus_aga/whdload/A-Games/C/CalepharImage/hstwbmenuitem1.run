@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CalepharImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "CalepharImage.Slave" $whdloadargs
+ELSE
+	whdload "CalepharImage.Slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:D/DigitalConcert5/DigitalConcert5.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "D" "Digital Concert 5 - Flash"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "D" "Digital Concert 5 - Flash"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:D/DigitalConcert5/"
 IF EXISTS ENV:whdloadargs
-	whdload "DigitalConcert5.Slave" $whdloadargs
+  whdload "DigitalConcert5.Slave" $whdloadargs
 ELSE
-	whdload "DigitalConcert5.Slave"
+  whdload "DigitalConcert5.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

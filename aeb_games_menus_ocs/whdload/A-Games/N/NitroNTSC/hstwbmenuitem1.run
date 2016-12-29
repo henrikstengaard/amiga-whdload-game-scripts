@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NitroNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "NitroNTSC.slave" $whdloadargs
+ELSE
+	whdload "NitroNTSC.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Agony
+Version   : Demo
+Publisher : Psygnosis
+Year      : 1992
+Players   : 1 Only
+Whdload   : AgonyDemo.slave

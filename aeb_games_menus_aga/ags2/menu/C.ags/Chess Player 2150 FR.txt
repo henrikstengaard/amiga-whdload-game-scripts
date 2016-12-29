@@ -1,6 +1,6 @@
 Name      : Chess Player 2150
-Publisher : CP Software
 Language  : French
+Publisher : CP Software
 Year      : 1989
 Genre     : Board - Chess
 Whdload   : ChessPlayer2150Fr.Slave

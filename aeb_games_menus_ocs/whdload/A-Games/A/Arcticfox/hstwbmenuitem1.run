@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Arcticfox/"
+IF EXISTS ENV:whdloadargs
+	whdload "ArcticFox.Slave" $whdloadargs
+ELSE
+	whdload "ArcticFox.Slave"
+ENDIF

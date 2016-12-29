@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Big Run
+RunFile=BigRun.slave
+AGS2Name=Big Run
+AGS2IndexName=B
+AGS2FileName=Big Run
+iGameName=Big Run

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Superman/"
+IF EXISTS ENV:whdloadargs
+	whdload "Superman.Slave" $whdloadargs
+ELSE
+	whdload "Superman.Slave"
+ENDIF

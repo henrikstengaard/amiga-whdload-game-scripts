@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Operation Harrier
+RunFile=OperationHarrier.slave
+AGS2Name=Operation Harrier
+AGS2IndexName=O
+AGS2FileName=Operation Harrier
+iGameName=Operation Harrier

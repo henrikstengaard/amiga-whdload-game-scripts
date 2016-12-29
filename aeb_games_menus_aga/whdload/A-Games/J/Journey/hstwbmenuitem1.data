@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Journey
+RunFile=Journey.Slave
+AGS2Name=Journey
+AGS2IndexName=J
+AGS2FileName=Journey
+iGameName=Journey

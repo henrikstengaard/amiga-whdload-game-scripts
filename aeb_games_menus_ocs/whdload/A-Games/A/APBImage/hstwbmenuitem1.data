@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=All Points Bulletin Image
+RunFile=APBImage.slave
+AGS2Name=All Points Bulletin Image
+AGS2IndexName=A
+AGS2FileName=All Points Bulletin Image
+iGameName=All Points Bulletin Image

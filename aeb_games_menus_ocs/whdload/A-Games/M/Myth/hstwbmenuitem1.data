@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Myth
+RunFile=Myth.Slave
+AGS2Name=Myth
+AGS2IndexName=M
+AGS2FileName=Myth
+iGameName=Myth

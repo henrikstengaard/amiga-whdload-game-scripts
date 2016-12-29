@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Black Crypt
+RunFile=BlackCrypt.Slave
+AGS2Name=Black Crypt
+AGS2IndexName=B
+AGS2FileName=Black Crypt
+iGameName=Black Crypt

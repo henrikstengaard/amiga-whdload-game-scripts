@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LegendOfFaerghail/"
+IF EXISTS ENV:whdloadargs
+	whdload "LegendOfFaerghail.Slave" $whdloadargs
+ELSE
+	whdload "LegendOfFaerghail.Slave"
+ENDIF

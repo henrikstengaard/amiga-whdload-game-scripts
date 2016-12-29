@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NitroBoostChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "NitroBoostChallenge.slave" $whdloadargs
+ELSE
+	whdload "NitroBoostChallenge.slave"
+ENDIF

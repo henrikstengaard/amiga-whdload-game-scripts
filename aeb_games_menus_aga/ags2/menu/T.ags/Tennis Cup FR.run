@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:T/TennisCupFr/TennisCupFr.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "T" "Tennis Cup FR"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "T" "Tennis Cup FR"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -15,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:T/TennisCup1MbFr/"
+cd "A-Games:T/TennisCupFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "TennisCup1MbFr.Slave" $whdloadargs
+  whdload "TennisCupFr.Slave" $whdloadargs
 ELSE
-	whdload "TennisCup1MbFr.Slave"
+  whdload "TennisCupFr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

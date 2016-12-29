@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Super Ski
+RunFile=SuperSki.Slave
+AGS2Name=Super Ski
+AGS2IndexName=S
+AGS2FileName=Super Ski
+iGameName=Super Ski

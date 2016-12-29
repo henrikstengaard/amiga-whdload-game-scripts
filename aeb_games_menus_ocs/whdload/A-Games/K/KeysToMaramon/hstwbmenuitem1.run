@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KeysToMaramon/"
+IF EXISTS ENV:whdloadargs
+	whdload "KeysToMaramon.Slave" $whdloadargs
+ELSE
+	whdload "KeysToMaramon.Slave"
+ENDIF

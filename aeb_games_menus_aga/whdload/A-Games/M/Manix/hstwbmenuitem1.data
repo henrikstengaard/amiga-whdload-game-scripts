@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Manix
+RunFile=Manix.Slave
+AGS2Name=Manix
+AGS2IndexName=M
+AGS2FileName=Manix
+iGameName=Manix

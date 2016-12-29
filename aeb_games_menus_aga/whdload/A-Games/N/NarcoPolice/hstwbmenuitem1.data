@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Narco Police
+RunFile=NarcoPolice.Slave
+AGS2Name=Narco Police
+AGS2IndexName=N
+AGS2FileName=Narco Police
+iGameName=Narco Police

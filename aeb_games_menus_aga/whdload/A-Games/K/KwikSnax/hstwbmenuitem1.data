@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Kwik Snax
+RunFile=KwikSnax.slave
+AGS2Name=Kwik Snax
+AGS2IndexName=K
+AGS2FileName=Kwik Snax
+iGameName=Kwik Snax

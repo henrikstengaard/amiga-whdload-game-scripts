@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WarMachine/"
+IF EXISTS ENV:whdloadargs
+	whdload "WarMachine.Slave" $whdloadargs
+ELSE
+	whdload "WarMachine.Slave"
+ENDIF

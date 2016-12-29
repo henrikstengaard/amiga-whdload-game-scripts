@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blastaball
+RunFile=BlastaBallArcadia.Slave
+AGS2Name=Blastaball
+AGS2IndexName=B
+AGS2FileName=Blastaball
+iGameName=Blastaball

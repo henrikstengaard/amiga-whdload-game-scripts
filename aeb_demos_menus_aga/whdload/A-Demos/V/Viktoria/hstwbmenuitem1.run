@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:V/Viktoria/"
+IF EXISTS ENV:whdloadargs
+	whdload "Viktoria.Slave" $whdloadargs
+ELSE
+	whdload "Viktoria.Slave"
+ENDIF

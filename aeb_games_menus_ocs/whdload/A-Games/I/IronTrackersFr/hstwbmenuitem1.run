@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/IronTrackersFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "IronTrackersFr.Slave" $whdloadargs
+ELSE
+	whdload "IronTrackersFr.Slave"
+ENDIF

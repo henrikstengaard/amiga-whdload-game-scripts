@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuspiciousCargo/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuspiciousCargo.Slave" $whdloadargs
+ELSE
+	whdload "SuspiciousCargo.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WalkerCrunched/"
+IF EXISTS ENV:whdloadargs
+	whdload "WalkerCrunchedNoSpeech.Slave" $whdloadargs
+ELSE
+	whdload "WalkerCrunchedNoSpeech.Slave"
+ENDIF

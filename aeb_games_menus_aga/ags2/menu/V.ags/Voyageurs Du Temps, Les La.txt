@@ -1,6 +1,6 @@
 Name      : Voyageurs Du Temps, Les: La Menace
-Publisher : Delphine
 Language  : French
+Publisher : Delphine
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1

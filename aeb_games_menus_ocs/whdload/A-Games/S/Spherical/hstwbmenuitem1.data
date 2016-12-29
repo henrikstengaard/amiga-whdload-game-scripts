@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Spherical
+RunFile=Spherical.Slave
+AGS2Name=Spherical
+AGS2IndexName=S
+AGS2FileName=Spherical
+iGameName=Spherical

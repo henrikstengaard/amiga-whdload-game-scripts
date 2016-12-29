@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperCFast/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperCFast.Slave" $whdloadargs
+ELSE
+	whdload "SuperCFast.Slave"
+ENDIF

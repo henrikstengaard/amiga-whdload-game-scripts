@@ -1,0 +1,7 @@
+Name      : Drakkhen
+Version   : Files
+Publisher : Infogrames
+Year      : 1990
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : DrakkhenFiles.Slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperGridRunnerCracked/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperGridRunnerCracked.Slave" $whdloadargs
+ELSE
+	whdload "SuperGridRunnerCracked.Slave"
+ENDIF

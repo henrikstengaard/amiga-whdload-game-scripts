@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Global Gladiators
+RunFile=GlobalGladiators.slave
+AGS2Name=Global Gladiators
+AGS2IndexName=G
+AGS2FileName=Global Gladiators
+iGameName=Global Gladiators

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Indy Heat
+RunFile=IndyHeat.Slave
+AGS2Name=Indy Heat
+AGS2IndexName=I
+AGS2FileName=Indy Heat
+iGameName=Indy Heat

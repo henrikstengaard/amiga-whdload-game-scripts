@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Starbirds
+RunFile=Starbirds.Slave
+AGS2Name=Starbirds
+AGS2IndexName=S
+AGS2FileName=Starbirds
+iGameName=Starbirds

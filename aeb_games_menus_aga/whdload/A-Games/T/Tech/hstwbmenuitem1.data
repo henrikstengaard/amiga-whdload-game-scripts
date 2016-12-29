@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tech
+RunFile=Tech.Slave
+AGS2Name=Tech
+AGS2IndexName=T
+AGS2FileName=Tech
+iGameName=Tech

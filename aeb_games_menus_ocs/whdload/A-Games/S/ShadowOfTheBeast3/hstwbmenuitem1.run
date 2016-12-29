@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShadowOfTheBeast3/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShadowOfTheBeast3.slave" $whdloadargs
+ELSE
+	whdload "ShadowOfTheBeast3.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MentalImage1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MentalImage1.Slave" $whdloadargs
+ELSE
+	whdload "MentalImage1.Slave"
+ENDIF

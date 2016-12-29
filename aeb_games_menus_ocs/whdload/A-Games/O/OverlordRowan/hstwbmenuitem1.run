@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OverlordRowan/"
+IF EXISTS ENV:whdloadargs
+	whdload "OverlordRowan.Slave" $whdloadargs
+ELSE
+	whdload "OverlordRowan.Slave"
+ENDIF

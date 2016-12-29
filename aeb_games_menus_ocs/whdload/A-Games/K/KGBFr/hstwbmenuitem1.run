@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KGBFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "KGBFr.Slave" $whdloadargs
+ELSE
+	whdload "KGBFr.Slave"
+ENDIF

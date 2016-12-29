@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Plutos
+RunFile=Plutos.Slave
+AGS2Name=Plutos
+AGS2IndexName=P
+AGS2FileName=Plutos
+iGameName=Plutos

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PublicAttack/"
+IF EXISTS ENV:whdloadargs
+	whdload "PublicAttack.Slave" $whdloadargs
+ELSE
+	whdload "PublicAttack.Slave"
+ENDIF

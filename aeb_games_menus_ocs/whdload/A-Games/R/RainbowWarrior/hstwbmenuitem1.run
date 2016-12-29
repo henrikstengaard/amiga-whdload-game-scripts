@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RainbowWarrior/"
+IF EXISTS ENV:whdloadargs
+	whdload "RainbowWarrior.Slave" $whdloadargs
+ELSE
+	whdload "RainbowWarrior.Slave"
+ENDIF

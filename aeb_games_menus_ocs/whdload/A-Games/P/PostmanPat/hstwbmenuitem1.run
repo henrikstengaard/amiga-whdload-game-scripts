@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PostmanPat/"
+IF EXISTS ENV:whdloadargs
+	whdload "PostmanPat.Slave" $whdloadargs
+ELSE
+	whdload "PostmanPat.Slave"
+ENDIF

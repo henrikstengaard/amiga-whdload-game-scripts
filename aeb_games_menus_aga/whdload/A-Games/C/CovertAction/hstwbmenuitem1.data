@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Covert Action
+RunFile=CovertAction.Slave
+AGS2Name=Covert Action
+AGS2IndexName=C
+AGS2FileName=Covert Action
+iGameName=Covert Action

@@ -1,4 +1,5 @@
 Name      : D/Generation
+Version   : CD32
 Publisher : Mindscape
 Year      : 1992
 Genre     : Adventure - Isometric 3D

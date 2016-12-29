@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/XP8/"
+IF EXISTS ENV:whdloadargs
+	whdload "XP8.slave" $whdloadargs
+ELSE
+	whdload "XP8.slave"
+ENDIF

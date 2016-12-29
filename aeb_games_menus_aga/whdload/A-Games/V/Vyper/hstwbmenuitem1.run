@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Vyper/"
+IF EXISTS ENV:whdloadargs
+	whdload "Vyper.Slave" $whdloadargs
+ELSE
+	whdload "Vyper.Slave"
+ENDIF

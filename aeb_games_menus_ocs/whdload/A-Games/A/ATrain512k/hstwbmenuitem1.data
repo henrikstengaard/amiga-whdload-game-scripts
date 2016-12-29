@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=A-Train 512K
+RunFile=ATrain512k.Slave
+AGS2Name=A-Train 512K
+AGS2IndexName=A
+AGS2FileName=A-Train 512K
+iGameName=A-Train 512K

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HighwayHawks/"
+IF EXISTS ENV:whdloadargs
+	whdload "HighwayHawks.Slave" $whdloadargs
+ELSE
+	whdload "HighwayHawks.Slave"
+ENDIF

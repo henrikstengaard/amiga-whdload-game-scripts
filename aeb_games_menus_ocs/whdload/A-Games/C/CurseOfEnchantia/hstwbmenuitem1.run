@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CurseOfEnchantia/"
+IF EXISTS ENV:whdloadargs
+	whdload "CurseOfEnchantia.Slave" $whdloadargs
+ELSE
+	whdload "CurseOfEnchantia.Slave"
+ENDIF

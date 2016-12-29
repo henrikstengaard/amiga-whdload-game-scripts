@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Atomix/"
+IF EXISTS ENV:whdloadargs
+	whdload "atomix.slave" $whdloadargs
+ELSE
+	whdload "atomix.slave"
+ENDIF

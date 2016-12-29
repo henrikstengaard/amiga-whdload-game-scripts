@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SoulKitchenAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "SoulKitchenAGA.slave" $whdloadargs
+ELSE
+	whdload "SoulKitchenAGA.slave"
+ENDIF

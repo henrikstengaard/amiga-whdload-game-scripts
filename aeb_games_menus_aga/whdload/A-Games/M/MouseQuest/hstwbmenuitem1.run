@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MouseQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "MouseQuest.Slave" $whdloadargs
+ELSE
+	whdload "MouseQuest.Slave"
+ENDIF

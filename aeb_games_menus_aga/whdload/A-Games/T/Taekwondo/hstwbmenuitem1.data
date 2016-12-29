@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Taekwondo
+RunFile=Taekwondo.Slave
+AGS2Name=Taekwondo
+AGS2IndexName=T
+AGS2FileName=Taekwondo
+iGameName=Taekwondo

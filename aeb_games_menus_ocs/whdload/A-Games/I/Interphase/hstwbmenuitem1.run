@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Interphase/"
+IF EXISTS ENV:whdloadargs
+	whdload "Interphase.slave" $whdloadargs
+ELSE
+	whdload "Interphase.slave"
+ENDIF

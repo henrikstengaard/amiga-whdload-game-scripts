@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/Raverance/"
+IF EXISTS ENV:whdloadargs
+	whdload "Raverance.slave" $whdloadargs
+ELSE
+	whdload "Raverance.slave"
+ENDIF

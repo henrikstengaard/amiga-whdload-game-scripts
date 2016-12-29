@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NobbyTheAardvark/"
+IF EXISTS ENV:whdloadargs
+	whdload "NobbyTheAardvark.Slave" $whdloadargs
+ELSE
+	whdload "NobbyTheAardvark.Slave"
+ENDIF

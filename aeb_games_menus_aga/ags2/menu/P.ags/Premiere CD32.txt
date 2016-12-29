@@ -1,4 +1,5 @@
 Name      : Premiere
+Version   : CD32
 Publisher : Corkers (Core Design)
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

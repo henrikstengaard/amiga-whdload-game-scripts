@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PPHammer/"
+IF EXISTS ENV:whdloadargs
+	whdload "PPHammer.Slave" $whdloadargs
+ELSE
+	whdload "PPHammer.Slave"
+ENDIF

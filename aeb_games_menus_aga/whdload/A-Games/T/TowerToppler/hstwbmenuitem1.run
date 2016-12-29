@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TowerToppler/"
+IF EXISTS ENV:whdloadargs
+	whdload "TowerToppler.slave" $whdloadargs
+ELSE
+	whdload "TowerToppler.slave"
+ENDIF

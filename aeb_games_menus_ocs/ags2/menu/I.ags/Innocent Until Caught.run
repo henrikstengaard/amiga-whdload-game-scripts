@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:I/InnocentUntilCaught/InnocentUntilCaught.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "I" "Innocent Until Caught"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "I" "Innocent Until Caught"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:I/InnocentUntilCaught/"
 IF EXISTS ENV:whdloadargs
-	whdload "InnocentUntilCaught.slave" $whdloadargs
+  whdload "InnocentUntilCaught.slave" $whdloadargs
 ELSE
-	whdload "InnocentUntilCaught.slave"
+  whdload "InnocentUntilCaught.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

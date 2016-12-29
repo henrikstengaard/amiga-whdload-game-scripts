@@ -1,4 +1,5 @@
 Name      : Kick Off 3 European Challenge [AGA]
+Version   : AGA
 Publisher : Anco
 Year      : 1994
 Players   : 1-2(2 simultaneous)

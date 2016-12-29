@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GeishaDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "GeishaDe.Slave" $whdloadargs
+ELSE
+	whdload "GeishaDe.Slave"
+ENDIF

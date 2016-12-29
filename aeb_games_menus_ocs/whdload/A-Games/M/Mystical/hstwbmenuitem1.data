@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mystical
+RunFile=Mystical.Slave
+AGS2Name=Mystical
+AGS2IndexName=M
+AGS2FileName=Mystical
+iGameName=Mystical

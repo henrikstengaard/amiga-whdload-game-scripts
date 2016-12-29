@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/InterphaseAmigaFormat/"
+IF EXISTS ENV:whdloadargs
+	whdload "InterphaseAmigaFormat.slave" $whdloadargs
+ELSE
+	whdload "InterphaseAmigaFormat.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Microbes
+RunFile=Microbes.Slave
+AGS2Name=Microbes
+AGS2IndexName=M
+AGS2FileName=Microbes
+iGameName=Microbes

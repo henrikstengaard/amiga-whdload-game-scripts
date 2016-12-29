@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpellboundDizzy/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpellboundDizzy.Slave" $whdloadargs
+ELSE
+	whdload "SpellboundDizzy.Slave"
+ENDIF

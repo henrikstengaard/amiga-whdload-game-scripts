@@ -1,6 +1,6 @@
 Name      : Starlord
-Publisher : MicroProse Software
 Language  : German
+Publisher : MicroProse Software
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only

@@ -1,4 +1,5 @@
 Name      : Fatman: The Caped Consumer [AGA]
+Version   : AGA
 Publisher : Black Legend
 Year      : 1994
 Players   : 1

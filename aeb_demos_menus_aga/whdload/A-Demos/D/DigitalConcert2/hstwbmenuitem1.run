@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DigitalConcert2/"
+IF EXISTS ENV:whdloadargs
+	whdload "DigitalConcert2.Slave" $whdloadargs
+ELSE
+	whdload "DigitalConcert2.Slave"
+ENDIF

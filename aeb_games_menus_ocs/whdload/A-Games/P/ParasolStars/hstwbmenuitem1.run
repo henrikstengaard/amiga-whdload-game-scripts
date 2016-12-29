@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ParasolStars/"
+IF EXISTS ENV:whdloadargs
+	whdload "ParasolStars.Slave" $whdloadargs
+ELSE
+	whdload "ParasolStars.Slave"
+ENDIF

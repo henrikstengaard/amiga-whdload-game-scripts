@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LastDuel/"
+IF EXISTS ENV:whdloadargs
+	whdload "LastDuel.slave" $whdloadargs
+ELSE
+	whdload "LastDuel.slave"
+ENDIF

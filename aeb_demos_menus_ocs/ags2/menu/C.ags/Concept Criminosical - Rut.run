@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:C/ConceptCriminosical/ConceptCriminosical.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "C" "Concept Criminosical - Rut"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "C" "Concept Criminosical - Rut"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:C/ConceptCriminosical/"
 IF EXISTS ENV:whdloadargs
-	whdload "ConceptCriminosical.Slave" $whdloadargs
+  whdload "ConceptCriminosical.Slave" $whdloadargs
 ELSE
-	whdload "ConceptCriminosical.Slave"
+  whdload "ConceptCriminosical.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

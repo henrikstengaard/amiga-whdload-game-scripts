@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DayOfReckoning/"
+IF EXISTS ENV:whdloadargs
+	whdload "DayOfReckoning.Slave" $whdloadargs
+ELSE
+	whdload "DayOfReckoning.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Red Heat
+RunFile=RedHeat.Slave
+AGS2Name=Red Heat
+AGS2IndexName=R
+AGS2FileName=Red Heat
+iGameName=Red Heat

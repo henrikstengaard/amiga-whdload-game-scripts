@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProjectXv2/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProjectXv2.Slave" $whdloadargs
+ELSE
+	whdload "ProjectXv2.Slave"
+ENDIF

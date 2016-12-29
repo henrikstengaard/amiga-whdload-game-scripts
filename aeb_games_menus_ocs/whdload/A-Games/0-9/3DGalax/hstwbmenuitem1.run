@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/3DGalax/"
+IF EXISTS ENV:whdloadargs
+	whdload "3DGalax.Slave" $whdloadargs
+ELSE
+	whdload "3DGalax.Slave"
+ENDIF

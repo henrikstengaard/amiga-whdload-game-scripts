@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Detonator
+RunFile=Detonator.Slave
+AGS2Name=Detonator
+AGS2IndexName=D
+AGS2FileName=Detonator
+iGameName=Detonator

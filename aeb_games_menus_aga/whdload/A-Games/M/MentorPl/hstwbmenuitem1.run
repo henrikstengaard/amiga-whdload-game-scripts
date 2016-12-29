@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MentorPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "MentorPl.Slave" $whdloadargs
+ELSE
+	whdload "MentorPl.Slave"
+ENDIF

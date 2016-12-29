@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Mindfighter/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mindfighter.Slave" $whdloadargs
+ELSE
+	whdload "Mindfighter.Slave"
+ENDIF

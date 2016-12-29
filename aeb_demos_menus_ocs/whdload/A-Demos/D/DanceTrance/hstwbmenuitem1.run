@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DanceTrance/"
+IF EXISTS ENV:whdloadargs
+	whdload "DanceTrance.Slave" $whdloadargs
+ELSE
+	whdload "DanceTrance.Slave"
+ENDIF

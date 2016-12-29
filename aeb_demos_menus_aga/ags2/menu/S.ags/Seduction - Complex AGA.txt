@@ -1,4 +1,5 @@
 Name    : Seduction
+Version : AGA
 Groups  : Complex
 Type    : Musicdisk
 Whdload : Seduction.Slave

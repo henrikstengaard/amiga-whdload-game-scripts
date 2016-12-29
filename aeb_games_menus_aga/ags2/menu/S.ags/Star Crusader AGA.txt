@@ -1,4 +1,5 @@
 Name      : Star Crusader
+Version   : AGA
 Publisher : Gametek
 Year      : 1996
 Players   : 1 Only

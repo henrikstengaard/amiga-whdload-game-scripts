@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RevengeOfMutantCamelsNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "RevengeOfMutantCamelsNTSC.Slave" $whdloadargs
+ELSE
+	whdload "RevengeOfMutantCamelsNTSC.Slave"
+ENDIF

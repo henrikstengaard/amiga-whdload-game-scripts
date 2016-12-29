@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SevenGatesOfJambalaFiles/"
+IF EXISTS ENV:whdloadargs
+	whdload "SevenGatesOfJambalaFiles.slave" $whdloadargs
+ELSE
+	whdload "SevenGatesOfJambalaFiles.slave"
+ENDIF

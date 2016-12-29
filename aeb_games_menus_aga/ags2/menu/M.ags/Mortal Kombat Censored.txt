@@ -1,0 +1,6 @@
+Name      : Mortal Kombat
+Version   : Censored
+Publisher : Virgin Interactive
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+Whdload   : MortalKombatCensored.Slave

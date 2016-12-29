@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/Leander/"
+IF EXISTS ENV:whdloadargs
+	whdload "Leander.Slave" $whdloadargs
+ELSE
+	whdload "Leander.Slave"
+ENDIF

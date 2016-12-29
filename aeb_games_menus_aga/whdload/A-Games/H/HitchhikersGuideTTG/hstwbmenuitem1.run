@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HitchhikersGuideTTG/"
+IF EXISTS ENV:whdloadargs
+	whdload "HitchhikersGuideTTG.Slave" $whdloadargs
+ELSE
+	whdload "HitchhikersGuideTTG.Slave"
+ENDIF

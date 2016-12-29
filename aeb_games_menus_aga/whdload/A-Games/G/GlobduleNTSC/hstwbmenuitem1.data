@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Globdule NTSC
+RunFile=GlobduleNTSC.Slave
+AGS2Name=Globdule NTSC
+AGS2IndexName=G
+AGS2FileName=Globdule NTSC
+iGameName=Globdule NTSC

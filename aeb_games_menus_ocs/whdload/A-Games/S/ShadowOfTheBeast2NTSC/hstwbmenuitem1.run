@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShadowOfTheBeast2NTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShadowOfTheBeast2NTSC.Slave" $whdloadargs
+ELSE
+	whdload "ShadowOfTheBeast2NTSC.Slave"
+ENDIF

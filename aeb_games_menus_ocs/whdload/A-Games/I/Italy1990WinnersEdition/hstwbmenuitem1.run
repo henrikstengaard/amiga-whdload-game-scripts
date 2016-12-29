@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Italy1990WinnersEdition/"
+IF EXISTS ENV:whdloadargs
+	whdload "Italy1990WinnersEdition.slave" $whdloadargs
+ELSE
+	whdload "Italy1990WinnersEdition.slave"
+ENDIF

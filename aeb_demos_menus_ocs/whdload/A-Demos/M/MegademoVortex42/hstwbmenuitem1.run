@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegademoVortex42/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegademoVortex42.Slave" $whdloadargs
+ELSE
+	whdload "MegademoVortex42.Slave"
+ENDIF

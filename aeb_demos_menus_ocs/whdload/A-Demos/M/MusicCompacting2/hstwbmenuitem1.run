@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MusicCompacting2/"
+IF EXISTS ENV:whdloadargs
+	whdload "MusicCompacting2.Slave" $whdloadargs
+ELSE
+	whdload "MusicCompacting2.Slave"
+ENDIF

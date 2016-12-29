@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegademoFreedomForce/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegademoFreedomForce.Slave" $whdloadargs
+ELSE
+	whdload "MegademoFreedomForce.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GalaxyForce2/"
+IF EXISTS ENV:whdloadargs
+	whdload "GalaxyForce2.slave" $whdloadargs
+ELSE
+	whdload "GalaxyForce2.slave"
+ENDIF

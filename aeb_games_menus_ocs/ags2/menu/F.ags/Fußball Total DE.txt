@@ -1,6 +1,6 @@
 Name      : Fuﬂball Total!
-Publisher : Black Legend
 Language  : German
+Publisher : Black Legend
 Year      : 1994
 Players   : 1 - 64 (2 simultaneous)
 Whdload   : FussballTotalDe.Slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HarrierCombatSimulator/"
+IF EXISTS ENV:whdloadargs
+	whdload "HarrierCombatSimulator.Slave" $whdloadargs
+ELSE
+	whdload "HarrierCombatSimulator.Slave"
+ENDIF

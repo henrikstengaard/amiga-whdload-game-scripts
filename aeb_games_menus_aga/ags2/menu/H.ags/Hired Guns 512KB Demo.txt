@@ -1,0 +1,7 @@
+Name      : Hired Guns
+Version   : 512KB Demo
+Publisher : Psygnosis
+Year      : 1993
+Genre     : Adventure - RPG 3D
+Players   : 1 to 4, Simultaneous
+Whdload   : HiredGunsDemo512KB.Slave

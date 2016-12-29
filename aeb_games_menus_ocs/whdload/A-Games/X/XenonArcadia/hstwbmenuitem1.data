@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Xenon
+RunFile=XenonArcadia.slave
+AGS2Name=Xenon
+AGS2IndexName=X
+AGS2FileName=Xenon 
+iGameName=Xenon

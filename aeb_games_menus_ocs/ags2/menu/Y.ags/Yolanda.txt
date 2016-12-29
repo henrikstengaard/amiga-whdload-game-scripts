@@ -1,6 +1,0 @@
-Name      : Yolanda
-Publisher : Millennium
-Year      : 1990
-Genre     : Platformer - Single Screen
-Players   : 1 or 2
-Whdload   : YolandaFiles.Slave

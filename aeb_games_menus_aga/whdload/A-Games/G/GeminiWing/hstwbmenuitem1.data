@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gemini Wing
+RunFile=GeminiWing.slave
+AGS2Name=Gemini Wing
+AGS2IndexName=G
+AGS2FileName=Gemini Wing
+iGameName=Gemini Wing

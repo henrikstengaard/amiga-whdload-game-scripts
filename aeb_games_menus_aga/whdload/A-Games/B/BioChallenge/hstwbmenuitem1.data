@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bio Challenge
+RunFile=BioChallenge.Slave
+AGS2Name=Bio Challenge
+AGS2IndexName=B
+AGS2FileName=Bio Challenge
+iGameName=Bio Challenge

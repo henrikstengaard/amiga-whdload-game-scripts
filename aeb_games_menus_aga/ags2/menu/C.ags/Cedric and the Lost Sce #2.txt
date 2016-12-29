@@ -1,4 +1,5 @@
 Name      : Cedric and the Lost Sceptre
+Version   : CD32
 Publisher : Neo Software Produktions
 Year      : 1996
 Genre     : Platformer - Scrolling Screen

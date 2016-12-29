@@ -1,6 +1,6 @@
 Name      : The Clue!
-Publisher : Neo / Kompart
 Language  : German
+Publisher : Neo / Kompart
 Year      : 1994
 Players   : 1
 Whdload   : ClouDe.Slave

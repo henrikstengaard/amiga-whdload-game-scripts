@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Manhattan Dealers
+RunFile=ManhattanDealers.Slave
+AGS2Name=Manhattan Dealers
+AGS2IndexName=M
+AGS2FileName=Manhattan Dealers
+iGameName=Manhattan Dealers

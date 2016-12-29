@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SimLife DE
+RunFile=SimLifeDe.Slave
+AGS2Name=SimLife DE
+AGS2IndexName=S
+AGS2FileName=SimLife DE
+iGameName=SimLife DE

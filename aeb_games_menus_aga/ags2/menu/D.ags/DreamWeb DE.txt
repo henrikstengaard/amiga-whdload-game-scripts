@@ -1,6 +1,6 @@
 Name      : DreamWeb
-Publisher : Empire Software
 Language  : German
+Publisher : Empire Software
 Year      : 1994
 Genre     : Adventure - Point and Click
 Players   : 1 Only

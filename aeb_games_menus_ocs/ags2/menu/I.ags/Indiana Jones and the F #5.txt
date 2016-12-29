@@ -1,6 +1,6 @@
 Name      : Indiana Jones and the Fate of Atlantis
-Publisher : US Gold
 Language  : French
+Publisher : US Gold
 Year      : 1993
 Genre     : Adventure - Point and Click
 Players   : 1 Only

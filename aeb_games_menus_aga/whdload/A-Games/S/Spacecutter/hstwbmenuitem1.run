@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Spacecutter/"
+IF EXISTS ENV:whdloadargs
+	whdload "Spacecutter.Slave" $whdloadargs
+ELSE
+	whdload "Spacecutter.Slave"
+ENDIF

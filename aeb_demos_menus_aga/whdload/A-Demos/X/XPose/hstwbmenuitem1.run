@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:X/XPose/"
+IF EXISTS ENV:whdloadargs
+	whdload "XPose.Slave" $whdloadargs
+ELSE
+	whdload "XPose.Slave"
+ENDIF

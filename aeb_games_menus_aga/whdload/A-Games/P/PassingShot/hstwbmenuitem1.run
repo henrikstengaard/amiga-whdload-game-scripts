@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PassingShot/"
+IF EXISTS ENV:whdloadargs
+	whdload "PassingShot.Slave" $whdloadargs
+ELSE
+	whdload "PassingShot.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RoketzAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "RoketzAGA.Slave" $whdloadargs
+ELSE
+	whdload "RoketzAGA.Slave"
+ENDIF

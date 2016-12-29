@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Battle Valley
+RunFile=BattleValley.Slave
+AGS2Name=Battle Valley
+AGS2IndexName=B
+AGS2FileName=Battle Valley
+iGameName=Battle Valley

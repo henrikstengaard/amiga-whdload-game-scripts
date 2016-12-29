@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RackneysIsland/"
+IF EXISTS ENV:whdloadargs
+	whdload "RackneysIsland.Slave" $whdloadargs
+ELSE
+	whdload "RackneysIsland.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ATrain512kPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "ATrain512kPl.slave" $whdloadargs
+ELSE
+	whdload "ATrain512kPl.slave"
+ENDIF

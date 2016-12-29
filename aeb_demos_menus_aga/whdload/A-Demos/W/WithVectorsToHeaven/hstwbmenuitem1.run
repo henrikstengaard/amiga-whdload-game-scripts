@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WithVectorsToHeaven/"
+IF EXISTS ENV:whdloadargs
+	whdload "WithVectorsToHeaven.Slave" $whdloadargs
+ELSE
+	whdload "WithVectorsToHeaven.Slave"
+ENDIF

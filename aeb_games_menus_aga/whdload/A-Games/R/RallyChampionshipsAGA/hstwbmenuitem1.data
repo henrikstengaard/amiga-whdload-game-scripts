@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Rally Championships AGA
+RunFile=RallyChampionshipsAGA.Slave
+AGS2Name=Rally Championships AGA
+AGS2IndexName=R
+AGS2FileName=Rally Championships AGA
+iGameName=Rally Championships AGA

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TipOffNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "TipOffNTSC.Slave" $whdloadargs
+ELSE
+	whdload "TipOffNTSC.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BlackViper/"
+IF EXISTS ENV:whdloadargs
+	whdload "BlackViper.Slave" $whdloadargs
+ELSE
+	whdload "BlackViper.Slave"
+ENDIF

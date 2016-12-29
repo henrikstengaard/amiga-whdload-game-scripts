@@ -1,0 +1,6 @@
+Name      : Strip Poker: A Sizzling Game of Chance
+Publisher : Artworx
+Year      : 1986
+Genre     : Cards - Poker
+Players   : 1 Only
+Whdload   : StripPoker.Slave

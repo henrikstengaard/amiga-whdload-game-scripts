@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NaughtyOnesAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "NaughtyOnesAGA.Slave" $whdloadargs
+ELSE
+	whdload "NaughtyOnesAGA.Slave"
+ENDIF

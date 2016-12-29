@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/QuestForTheTimeBird/"
+IF EXISTS ENV:whdloadargs
+	whdload "QuestForTheTimeBird.Slave" $whdloadargs
+ELSE
+	whdload "QuestForTheTimeBird.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+Name      : Venus: The Flytrap
+Version   : NoIntro
+Publisher : Gremlin Graphics
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 or 2
+Whdload   : VenusTheFlytrapNoIntro.Slave

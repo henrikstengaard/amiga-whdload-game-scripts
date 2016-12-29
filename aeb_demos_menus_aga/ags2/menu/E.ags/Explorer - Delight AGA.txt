@@ -1,4 +1,5 @@
 Name    : Explorer
+Version : AGA
 Groups  : Delight
 Type    : Demo
 Party   : Analog Party 1994

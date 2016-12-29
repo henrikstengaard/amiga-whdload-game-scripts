@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BanditsRadio/"
+IF EXISTS ENV:whdloadargs
+	whdload "BanditsRadio.Slave" $whdloadargs
+ELSE
+	whdload "BanditsRadio.Slave"
+ENDIF

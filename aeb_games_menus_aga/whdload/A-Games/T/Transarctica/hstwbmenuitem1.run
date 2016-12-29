@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Transarctica/"
+IF EXISTS ENV:whdloadargs
+	whdload "Transarctica.Slave" $whdloadargs
+ELSE
+	whdload "Transarctica.Slave"
+ENDIF

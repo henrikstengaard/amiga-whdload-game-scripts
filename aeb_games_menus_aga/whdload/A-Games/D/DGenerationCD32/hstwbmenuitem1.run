@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DGenerationCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "DGenerationCD32.slave" $whdloadargs
+ELSE
+	whdload "DGenerationCD32.slave"
+ENDIF

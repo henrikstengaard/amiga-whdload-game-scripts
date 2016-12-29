@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hydra
+RunFile=Hydra.Slave
+AGS2Name=Hydra
+AGS2IndexName=H
+AGS2FileName=Hydra
+iGameName=Hydra

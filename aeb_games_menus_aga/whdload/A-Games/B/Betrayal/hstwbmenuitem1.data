@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Betrayal
+RunFile=Betrayal.Slave
+AGS2Name=Betrayal
+AGS2IndexName=B
+AGS2FileName=Betrayal
+iGameName=Betrayal

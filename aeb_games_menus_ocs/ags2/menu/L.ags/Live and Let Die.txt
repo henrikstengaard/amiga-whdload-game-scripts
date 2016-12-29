@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : Live&LetDie&SpaceHarrier.slave
+Whdload   : LiveAndLetDie.Slave

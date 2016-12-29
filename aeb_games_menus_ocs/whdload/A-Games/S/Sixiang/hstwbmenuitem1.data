@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sixiang
+RunFile=Sixiang.Slave
+AGS2Name=Sixiang
+AGS2IndexName=S
+AGS2FileName=Sixiang
+iGameName=Sixiang

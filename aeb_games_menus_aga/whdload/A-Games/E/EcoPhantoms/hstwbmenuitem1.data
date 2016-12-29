@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Eco Phantoms
+RunFile=EcoPhantoms.Slave
+AGS2Name=Eco Phantoms
+AGS2IndexName=E
+AGS2FileName=Eco Phantoms
+iGameName=Eco Phantoms

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bargon Attack
+RunFile=BargonAttack.Slave
+AGS2Name=Bargon Attack
+AGS2IndexName=B
+AGS2FileName=Bargon Attack
+iGameName=Bargon Attack

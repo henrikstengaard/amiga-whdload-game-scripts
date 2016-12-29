@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CelticLegends/"
+IF EXISTS ENV:whdloadargs
+	whdload "CelticLegends.Slave" $whdloadargs
+ELSE
+	whdload "CelticLegends.Slave"
+ENDIF

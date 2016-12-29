@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ingrid's Back!
+RunFile=IngridsBack.Slave
+AGS2Name=Ingrid's Back!
+AGS2IndexName=I
+AGS2FileName=Ingrid's Back
+iGameName=Ingrid's Back!

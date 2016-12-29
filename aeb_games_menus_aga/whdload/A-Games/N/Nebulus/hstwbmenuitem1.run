@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/Nebulus/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nebulus.Slave" $whdloadargs
+ELSE
+	whdload "Nebulus.Slave"
+ENDIF

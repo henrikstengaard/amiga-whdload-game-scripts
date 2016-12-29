@@ -1,0 +1,7 @@
+Name      : RoboCop 3
+Version   : NTSC
+Publisher : Ocean
+Year      : 1992
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : RoboCop3NTSC.slave

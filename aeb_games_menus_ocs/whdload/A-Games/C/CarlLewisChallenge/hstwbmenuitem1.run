@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CarlLewisChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "CarlLewisChallenge.slave" $whdloadargs
+ELSE
+	whdload "CarlLewisChallenge.slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : PGA European Tour
+Version   : AGA
 Publisher : Ocean
 Year      : 1994
 Genre     : Sports - Golf

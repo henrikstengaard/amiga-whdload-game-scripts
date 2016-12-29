@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LEDStorm/"
+IF EXISTS ENV:whdloadargs
+	whdload "LEDStorm.Slave" $whdloadargs
+ELSE
+	whdload "LEDStorm.Slave"
+ENDIF

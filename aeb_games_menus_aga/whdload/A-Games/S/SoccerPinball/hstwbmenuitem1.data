@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Soccer Pinball
+RunFile=SoccerPinball.slave
+AGS2Name=Soccer Pinball
+AGS2IndexName=S
+AGS2FileName=Soccer Pinball
+iGameName=Soccer Pinball

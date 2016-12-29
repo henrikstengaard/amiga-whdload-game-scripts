@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Shinobi
+RunFile=Shinobi.Slave
+AGS2Name=Shinobi
+AGS2IndexName=S
+AGS2FileName=Shinobi
+iGameName=Shinobi

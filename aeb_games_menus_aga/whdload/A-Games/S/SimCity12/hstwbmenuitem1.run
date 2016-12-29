@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SimCity12/"
+IF EXISTS ENV:whdloadargs
+	whdload "SimCity12.Slave" $whdloadargs
+ELSE
+	whdload "SimCity12.Slave"
+ENDIF

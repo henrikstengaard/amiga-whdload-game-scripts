@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AFewTunes/"
+IF EXISTS ENV:whdloadargs
+	whdload "AFewTunes.Slave" $whdloadargs
+ELSE
+	whdload "AFewTunes.Slave"
+ENDIF

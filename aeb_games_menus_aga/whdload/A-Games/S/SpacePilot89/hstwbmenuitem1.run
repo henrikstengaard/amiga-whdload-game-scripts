@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpacePilot89/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpacePilot89.Slave" $whdloadargs
+ELSE
+	whdload "SpacePilot89.Slave"
+ENDIF

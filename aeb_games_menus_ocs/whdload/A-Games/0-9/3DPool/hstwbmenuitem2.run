@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/3DPool/"
+IF EXISTS ENV:whdloadargs
+	whdload "3DPictures.Slave" $whdloadargs
+ELSE
+	whdload "3DPictures.Slave"
+ENDIF

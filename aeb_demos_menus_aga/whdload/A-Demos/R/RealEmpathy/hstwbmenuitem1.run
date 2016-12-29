@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RealEmpathy/"
+IF EXISTS ENV:whdloadargs
+	whdload "RealEmpathy.Slave" $whdloadargs
+ELSE
+	whdload "RealEmpathy.Slave"
+ENDIF

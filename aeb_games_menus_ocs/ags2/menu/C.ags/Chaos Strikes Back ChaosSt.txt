@@ -1,4 +1,6 @@
 Name      : Chaos Strikes Back
+Language  : German
+Version   : Util
 Publisher : FTL
 Year      : 1989
 Genre     : Adventure - RPG 3D

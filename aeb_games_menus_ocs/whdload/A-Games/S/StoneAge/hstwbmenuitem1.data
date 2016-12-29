@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Stone Age
+RunFile=StoneAge.slave
+AGS2Name=Stone Age
+AGS2IndexName=S
+AGS2FileName=Stone Age
+iGameName=Stone Age

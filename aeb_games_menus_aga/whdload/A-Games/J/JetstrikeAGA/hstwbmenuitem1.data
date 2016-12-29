@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Jetstrike Intro AGA
+RunFile=JetstrikeAGAIntro.Slave
+AGS2Name=Jetstrike Intro AGA
+AGS2IndexName=J
+AGS2FileName=Jetstrike Intro AGA
+iGameName=Jetstrike Intro AGA

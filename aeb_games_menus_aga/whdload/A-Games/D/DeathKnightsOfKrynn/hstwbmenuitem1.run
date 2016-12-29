@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DeathKnightsOfKrynn/"
+IF EXISTS ENV:whdloadargs
+	whdload "DeathKnightsOfKrynn.Slave" $whdloadargs
+ELSE
+	whdload "DeathKnightsOfKrynn.Slave"
+ENDIF

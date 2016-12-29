@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Dugger/"
+IF EXISTS ENV:whdloadargs
+	whdload "Dugger.Slave" $whdloadargs
+ELSE
+	whdload "Dugger.Slave"
+ENDIF

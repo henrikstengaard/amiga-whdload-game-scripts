@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DungeonMaster2AGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "DungeonMaster2AGA.Slave" $whdloadargs
+ELSE
+	whdload "DungeonMaster2AGA.Slave"
+ENDIF

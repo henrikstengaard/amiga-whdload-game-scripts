@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/P47Thunderbolt/"
+IF EXISTS ENV:whdloadargs
+	whdload "P47Thunderbolt.Slave" $whdloadargs
+ELSE
+	whdload "P47Thunderbolt.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MurdersInSpace/"
+IF EXISTS ENV:whdloadargs
+	whdload "MurdersInSpace.Slave" $whdloadargs
+ELSE
+	whdload "MurdersInSpace.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/20000LeaguesUnderTheSea/"
+IF EXISTS ENV:whdloadargs
+	whdload "20000LeaguesUnderTheSea.Slave" $whdloadargs
+ELSE
+	whdload "20000LeaguesUnderTheSea.Slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:M/MultiMegamix2/MultiMegamix2.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "M" "Multi Megamix 2 - Kefrens"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "M" "Multi Megamix 2 - Kefrens"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:M/MultiMegamix2/"
 IF EXISTS ENV:whdloadargs
-	whdload "MultiMegamix2.slave" $whdloadargs
+  whdload "MultiMegamix2.slave" $whdloadargs
 ELSE
-	whdload "MultiMegamix2.slave"
+  whdload "MultiMegamix2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

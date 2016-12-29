@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Afterburner
+RunFile=AfterBurnerActivision.Slave
+AGS2Name=Afterburner
+AGS2IndexName=A
+AGS2FileName=Afterburner
+iGameName=Afterburner

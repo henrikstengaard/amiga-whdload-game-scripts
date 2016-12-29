@@ -1,6 +1,6 @@
 Name      : Lettrix
-Publisher : Software 2000
 Language  : German
+Publisher : Software 2000
 Year      : 1990
 Genre     : Brain - Puzzle
 Players   : 1 or 2

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hostile Breed
+RunFile=HostileBreed.Slave
+AGS2Name=Hostile Breed
+AGS2IndexName=H
+AGS2FileName=Hostile Breed
+iGameName=Hostile Breed

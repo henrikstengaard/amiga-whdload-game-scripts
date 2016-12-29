@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Time/"
+IF EXISTS ENV:whdloadargs
+	whdload "Time.Slave" $whdloadargs
+ELSE
+	whdload "Time.Slave"
+ENDIF

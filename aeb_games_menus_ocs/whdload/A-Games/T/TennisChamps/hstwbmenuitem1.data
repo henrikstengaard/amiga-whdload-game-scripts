@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tennis Champs
+RunFile=TennisChamps.Slave
+AGS2Name=Tennis Champs
+AGS2IndexName=T
+AGS2FileName=Tennis Champs
+iGameName=Tennis Champs

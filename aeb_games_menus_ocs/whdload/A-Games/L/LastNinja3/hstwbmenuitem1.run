@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LastNinja3/"
+IF EXISTS ENV:whdloadargs
+	whdload "LastNinja3.Slave" $whdloadargs
+ELSE
+	whdload "LastNinja3.Slave"
+ENDIF

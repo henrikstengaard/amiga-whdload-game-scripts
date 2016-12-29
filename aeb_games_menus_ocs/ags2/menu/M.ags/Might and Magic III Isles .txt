@@ -1,6 +1,6 @@
 Name      : Might and Magic III: Isles of Terra
-Publisher : New World Computing
 Language  : German
+Publisher : New World Computing
 Year      : 1992
 Genre     : Adventure - RPG 3D
 Players   : 1 Only

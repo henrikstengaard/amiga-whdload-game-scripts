@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShanghaiFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShanghaiFr.Slave" $whdloadargs
+ELSE
+	whdload "ShanghaiFr.Slave"
+ENDIF

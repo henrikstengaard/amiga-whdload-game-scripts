@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=DragonScape
+RunFile=DragonScape.slave
+AGS2Name=DragonScape
+AGS2IndexName=D
+AGS2FileName=DragonScape
+iGameName=DragonScape

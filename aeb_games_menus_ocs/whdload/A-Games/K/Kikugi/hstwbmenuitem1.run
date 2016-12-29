@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Kikugi/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kikugi.Slave" $whdloadargs
+ELSE
+	whdload "Kikugi.Slave"
+ENDIF

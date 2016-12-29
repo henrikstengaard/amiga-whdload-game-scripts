@@ -1,4 +1,5 @@
 Name      : Charlie J. Cool
+Version   : AGA
 Publisher : NRC Software
 Year      : 1996
 Genre     : Platformer - Scrolling Screen

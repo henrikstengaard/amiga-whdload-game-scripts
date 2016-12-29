@@ -1,6 +1,0 @@
-Name      : Spirit of Adventure
-Publisher : Starbyte Software
-Language  : German
-Year      : 1991
-Genre     : Adventure - RPG 3D
-Whdload   : SpiritOfAdventureDe3Disk.slave

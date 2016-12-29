@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wolfpack
+RunFile=Wolfpack.Slave
+AGS2Name=Wolfpack
+AGS2IndexName=W
+AGS2FileName=Wolfpack
+iGameName=Wolfpack

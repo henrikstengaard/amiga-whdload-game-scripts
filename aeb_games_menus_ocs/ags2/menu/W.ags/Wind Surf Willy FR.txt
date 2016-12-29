@@ -1,7 +1,7 @@
 Name      : Wind Surf Willy
-Publisher : Silmarils
 Language  : French
+Publisher : Silmarils
 Year      : 1988
 Genre     : Sports - Water
 Players   : 1 or 2
-Whdload   : WindSurfWillyFastFr.Slave
+Whdload   : WindSurfWillyFr.Slave

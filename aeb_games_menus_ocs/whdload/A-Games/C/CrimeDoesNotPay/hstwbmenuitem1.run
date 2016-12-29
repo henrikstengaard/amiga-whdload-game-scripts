@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrimeDoesNotPay/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrimeDoesNotPay.Slave" $whdloadargs
+ELSE
+	whdload "CrimeDoesNotPay.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MuzaksDisk1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MuzaksDisk1.Slave" $whdloadargs
+ELSE
+	whdload "MuzaksDisk1.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MFTanks/"
+IF EXISTS ENV:whdloadargs
+	whdload "MFTanks.Slave" $whdloadargs
+ELSE
+	whdload "MFTanks.Slave"
+ENDIF

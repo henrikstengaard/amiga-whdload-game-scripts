@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DomanPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "DomanPl.Slave" $whdloadargs
+ELSE
+	whdload "DomanPl.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/3DBalls/"
+IF EXISTS ENV:whdloadargs
+	whdload "3DBalls.Slave" $whdloadargs
+ELSE
+	whdload "3DBalls.Slave"
+ENDIF

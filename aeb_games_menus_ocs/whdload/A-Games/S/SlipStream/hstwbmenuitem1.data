@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Slip Stream
+RunFile=SlipStream.Slave
+AGS2Name=Slip Stream
+AGS2IndexName=S
+AGS2FileName=Slip Stream
+iGameName=Slip Stream

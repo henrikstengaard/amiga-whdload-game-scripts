@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EntityNoIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "EntityNoIntro.slave" $whdloadargs
+ELSE
+	whdload "EntityNoIntro.slave"
+ENDIF

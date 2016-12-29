@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pool of Radiance
+RunFile=PoolOfRadiance.Slave
+AGS2Name=Pool of Radiance
+AGS2IndexName=P
+AGS2FileName=Pool of Radiance
+iGameName=Pool of Radiance

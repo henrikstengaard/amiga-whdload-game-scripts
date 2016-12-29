@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/UnrealNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "UnrealNTSC.Slave" $whdloadargs
+ELSE
+	whdload "UnrealNTSC.Slave"
+ENDIF

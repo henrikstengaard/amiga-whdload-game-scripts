@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bubble Bobble NTSC
+RunFile=BubbleBobbleNTSC.Slave
+AGS2Name=Bubble Bobble NTSC
+AGS2IndexName=B
+AGS2FileName=Bubble Bobble NTSC
+iGameName=Bubble Bobble NTSC

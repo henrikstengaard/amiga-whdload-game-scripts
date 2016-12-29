@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Benefactor
+RunFile=Benefactor.Slave
+AGS2Name=Benefactor
+AGS2IndexName=B
+AGS2FileName=Benefactor
+iGameName=Benefactor

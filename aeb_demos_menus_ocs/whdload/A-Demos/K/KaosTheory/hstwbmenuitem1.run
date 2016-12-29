@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:K/KaosTheory/"
+IF EXISTS ENV:whdloadargs
+	whdload "KaosTheory.Slave" $whdloadargs
+ELSE
+	whdload "KaosTheory.Slave"
+ENDIF

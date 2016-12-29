@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pool
+RunFile=Pool.Slave
+AGS2Name=Pool
+AGS2IndexName=P
+AGS2FileName=Pool
+iGameName=Pool

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/Nam19651975/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nam19651975.slave" $whdloadargs
+ELSE
+	whdload "Nam19651975.slave"
+ENDIF

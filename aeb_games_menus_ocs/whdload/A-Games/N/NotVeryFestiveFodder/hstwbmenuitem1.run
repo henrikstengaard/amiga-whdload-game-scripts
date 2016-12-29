@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NotVeryFestiveFodder/"
+IF EXISTS ENV:whdloadargs
+	whdload "NotVeryFestiveFodder.Slave" $whdloadargs
+ELSE
+	whdload "NotVeryFestiveFodder.Slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : Fightin' Spirit
+Version   : CD32
 Publisher : Neo Software Produktions
 Year      : 1996
 Players   : 1 or 2, Simultaneous

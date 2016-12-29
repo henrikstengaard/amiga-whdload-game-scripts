@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=One on One
+RunFile=OneOnOne.slave
+AGS2Name=One on One
+AGS2IndexName=O
+AGS2FileName=One on One
+iGameName=One on One

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/ThirdDimension/"
+IF EXISTS ENV:whdloadargs
+	whdload "ThirdDimension.Slave" $whdloadargs
+ELSE
+	whdload "ThirdDimension.Slave"
+ENDIF

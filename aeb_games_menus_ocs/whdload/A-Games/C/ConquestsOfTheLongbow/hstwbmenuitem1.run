@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ConquestsOfTheLongbow/"
+IF EXISTS ENV:whdloadargs
+	whdload "ConquestsOfTheLongbow.slave" $whdloadargs
+ELSE
+	whdload "ConquestsOfTheLongbow.slave"
+ENDIF

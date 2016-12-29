@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Carthage/"
+IF EXISTS ENV:whdloadargs
+	whdload "Carthage.Slave" $whdloadargs
+ELSE
+	whdload "Carthage.Slave"
+ENDIF

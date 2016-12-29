@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StackUp/"
+IF EXISTS ENV:whdloadargs
+	whdload "StackUp.Slave" $whdloadargs
+ELSE
+	whdload "StackUp.Slave"
+ENDIF

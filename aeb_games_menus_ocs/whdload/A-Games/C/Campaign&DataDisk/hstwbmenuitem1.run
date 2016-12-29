@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Campaign&DataDisk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Campaign&DataDisk.slave" $whdloadargs
+ELSE
+	whdload "Campaign&DataDisk.slave"
+ENDIF

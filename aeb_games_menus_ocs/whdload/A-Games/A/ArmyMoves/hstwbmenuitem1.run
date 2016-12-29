@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ArmyMoves/"
+IF EXISTS ENV:whdloadargs
+	whdload "ArmyMoves.slave" $whdloadargs
+ELSE
+	whdload "ArmyMoves.slave"
+ENDIF

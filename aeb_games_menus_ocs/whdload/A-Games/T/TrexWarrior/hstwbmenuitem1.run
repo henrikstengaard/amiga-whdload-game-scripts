@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TrexWarrior/"
+IF EXISTS ENV:whdloadargs
+	whdload "TrexWarrior.slave" $whdloadargs
+ELSE
+	whdload "TrexWarrior.slave"
+ENDIF

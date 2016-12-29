@@ -1,0 +1,6 @@
+Name      : Epic
+Version   : MissionDisk
+Publisher : Ocean
+Year      : 1992
+Players   : 1 Only
+Whdload   : Epic&MissionDisk.slave

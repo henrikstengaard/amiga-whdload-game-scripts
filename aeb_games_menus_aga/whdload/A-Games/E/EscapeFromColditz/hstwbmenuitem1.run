@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EscapeFromColditz/"
+IF EXISTS ENV:whdloadargs
+	whdload "EscapeFromColditz.slave" $whdloadargs
+ELSE
+	whdload "EscapeFromColditz.slave"
+ENDIF

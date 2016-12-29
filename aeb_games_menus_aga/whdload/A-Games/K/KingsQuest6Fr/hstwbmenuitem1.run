@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KingsQuest6Fr/"
+IF EXISTS ENV:whdloadargs
+	whdload "KingsQuest6Fr.slave" $whdloadargs
+ELSE
+	whdload "KingsQuest6Fr.slave"
+ENDIF

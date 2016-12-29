@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PulsatorDemoAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "PulsatorDemoAGA.Slave" $whdloadargs
+ELSE
+	whdload "PulsatorDemoAGA.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SecondsOut/"
+IF EXISTS ENV:whdloadargs
+	whdload "SecondsOut.Slave" $whdloadargs
+ELSE
+	whdload "SecondsOut.Slave"
+ENDIF

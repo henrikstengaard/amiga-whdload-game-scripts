@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Skyfox
+RunFile=Skyfox.slave
+AGS2Name=Skyfox
+AGS2IndexName=S
+AGS2FileName=Skyfox
+iGameName=Skyfox

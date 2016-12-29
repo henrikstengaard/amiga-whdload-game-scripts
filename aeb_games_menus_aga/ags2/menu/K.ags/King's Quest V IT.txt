@@ -1,6 +1,6 @@
 Name      : King's Quest V
-Publisher : Sierra
 Language  : Italian
+Publisher : Sierra
 Year      : 1991
 Players   : 1
 Whdload   : KingsQuest5It.slave

@@ -1,0 +1,6 @@
+Name      : Full Metal Planete
+Version   : Image
+Publisher : Infogrames
+Year      : 1989
+Genre     : Strategy - War
+Whdload   : FullMetalPlaneteImage.Slave

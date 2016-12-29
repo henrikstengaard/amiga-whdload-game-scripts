@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AfterBurnerSega/"
+IF EXISTS ENV:whdloadargs
+	whdload "AfterBurnerSega.Slave" $whdloadargs
+ELSE
+	whdload "AfterBurnerSega.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gods NTSC
+RunFile=GodsNTSC.slave
+AGS2Name=Gods NTSC
+AGS2IndexName=G
+AGS2FileName=Gods NTSC
+iGameName=Gods NTSC

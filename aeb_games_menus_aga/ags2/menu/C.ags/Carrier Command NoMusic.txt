@@ -1,0 +1,7 @@
+Name      : Carrier Command
+Version   : NoMusic
+Publisher : Rainbird
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : CarrierCommandNoMusic.Slave

@@ -1,4 +1,5 @@
 Name      : Treasure Island Dizzy
+Version   : CD32
 Publisher : Codemasters
 Year      : 1989
 Players   : 1

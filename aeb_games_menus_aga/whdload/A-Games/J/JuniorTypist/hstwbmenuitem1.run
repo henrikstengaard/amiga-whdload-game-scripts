@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JuniorTypist/"
+IF EXISTS ENV:whdloadargs
+	whdload "JuniorTypist.Slave" $whdloadargs
+ELSE
+	whdload "JuniorTypist.Slave"
+ENDIF

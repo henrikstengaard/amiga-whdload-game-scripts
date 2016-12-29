@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ComboRacer/"
+IF EXISTS ENV:whdloadargs
+	whdload "ComboRacer.Slave" $whdloadargs
+ELSE
+	whdload "ComboRacer.Slave"
+ENDIF

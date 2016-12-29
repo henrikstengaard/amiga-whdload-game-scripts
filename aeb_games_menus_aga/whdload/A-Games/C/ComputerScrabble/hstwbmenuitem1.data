@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Computer Scrabble
+RunFile=ComputerScrabble.Slave
+AGS2Name=Computer Scrabble
+AGS2IndexName=C
+AGS2FileName=Computer Scrabble
+iGameName=Computer Scrabble

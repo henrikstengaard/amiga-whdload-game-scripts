@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/InspirationIsNone/"
+IF EXISTS ENV:whdloadargs
+	whdload "InspirationIsNone.Slave" $whdloadargs
+ELSE
+	whdload "InspirationIsNone.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/Overload2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Overload2.Slave" $whdloadargs
+ELSE
+	whdload "Overload2.Slave"
+ENDIF

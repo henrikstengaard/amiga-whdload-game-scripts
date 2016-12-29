@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wing Commander CD32
+RunFile=WingCommanderCD32.Slave
+AGS2Name=Wing Commander CD32
+AGS2IndexName=W
+AGS2FileName=Wing Commander CD32
+iGameName=Wing Commander CD32

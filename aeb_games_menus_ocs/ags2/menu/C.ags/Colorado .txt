@@ -1,6 +1,0 @@
-Name      : Colorado
-Publisher : Silmarils
-Year      : 1990
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : ColoradoFast.Slave

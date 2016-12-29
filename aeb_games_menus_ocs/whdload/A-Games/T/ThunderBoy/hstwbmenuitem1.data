@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Thunderboy
+RunFile=ThunderBoy.Slave
+AGS2Name=Thunderboy
+AGS2IndexName=T
+AGS2FileName=Thunderboy
+iGameName=Thunderboy

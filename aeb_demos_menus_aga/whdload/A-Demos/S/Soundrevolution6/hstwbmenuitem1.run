@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Soundrevolution6/"
+IF EXISTS ENV:whdloadargs
+	whdload "Soundrevolution6.Slave" $whdloadargs
+ELSE
+	whdload "Soundrevolution6.Slave"
+ENDIF

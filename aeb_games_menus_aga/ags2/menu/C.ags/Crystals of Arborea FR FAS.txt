@@ -1,0 +1,8 @@
+Name      : Crystals of Arborea
+Language  : French
+Version   : FAST
+Publisher : Silmarils
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : CrystalsOfArboreaFrFast.Slave

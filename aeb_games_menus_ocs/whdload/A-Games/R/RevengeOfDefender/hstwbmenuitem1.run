@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RevengeOfDefender/"
+IF EXISTS ENV:whdloadargs
+	whdload "RevengeOfDefender.slave" $whdloadargs
+ELSE
+	whdload "RevengeOfDefender.slave"
+ENDIF

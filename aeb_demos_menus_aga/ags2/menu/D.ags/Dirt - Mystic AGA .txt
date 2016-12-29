@@ -1,4 +1,5 @@
 Name    : Dirt
+Version : AGA
 Groups  : Mystic
 Type    : Demo
 Party   : Intel Outside 1994

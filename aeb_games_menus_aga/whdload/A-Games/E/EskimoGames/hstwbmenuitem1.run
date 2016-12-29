@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EskimoGames/"
+IF EXISTS ENV:whdloadargs
+	whdload "EskimoGames.Slave" $whdloadargs
+ELSE
+	whdload "EskimoGames.Slave"
+ENDIF

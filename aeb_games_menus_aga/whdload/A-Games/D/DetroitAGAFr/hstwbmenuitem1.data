@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Detroit FR AGA
+RunFile=DetroitAGAFr.Slave
+AGS2Name=Detroit FR AGA
+AGS2IndexName=D
+AGS2FileName=Detroit FR AGA
+iGameName=Detroit FR AGA

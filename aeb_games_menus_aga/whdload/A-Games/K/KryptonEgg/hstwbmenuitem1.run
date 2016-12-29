@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KryptonEgg/"
+IF EXISTS ENV:whdloadargs
+	whdload "KryptonEgg.Slave" $whdloadargs
+ELSE
+	whdload "KryptonEgg.Slave"
+ENDIF

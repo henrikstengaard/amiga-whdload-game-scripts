@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alianator
+RunFile=Alianator.Slave
+AGS2Name=Alianator
+AGS2IndexName=A
+AGS2FileName=Alianator
+iGameName=Alianator

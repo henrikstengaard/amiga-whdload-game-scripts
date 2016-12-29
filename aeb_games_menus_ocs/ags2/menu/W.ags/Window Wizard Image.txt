@@ -1,0 +1,7 @@
+Name      : Window Wizard
+Version   : Image
+Publisher : Softgold
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : WindowWizardImage.Slave

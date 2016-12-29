@@ -1,4 +1,5 @@
 Name    : Beyond the future
+Version : AGA
 Groups  : Union
 Type    : Demo
 Party   : The Party 1994

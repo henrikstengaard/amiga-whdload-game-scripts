@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Logical CDTV
+RunFile=LogicalCDTV.Slave
+AGS2Name=Logical CDTV
+AGS2IndexName=L
+AGS2FileName=Logical CDTV
+iGameName=Logical CDTV

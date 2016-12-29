@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Anarchy/"
+IF EXISTS ENV:whdloadargs
+	whdload "Anarchy.Slave" $whdloadargs
+ELSE
+	whdload "Anarchy.Slave"
+ENDIF

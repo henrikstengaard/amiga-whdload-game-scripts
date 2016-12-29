@@ -1,4 +1,5 @@
 Name      : Enemy: Tempest of Violence
+Version   : (EasyPlay)
 Publisher : Anachronia
 Year      : 1997
 Genre     : Adventure - Miscellaneous

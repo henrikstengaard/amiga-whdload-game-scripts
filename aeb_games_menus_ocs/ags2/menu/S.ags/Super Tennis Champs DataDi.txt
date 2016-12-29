@@ -1,0 +1,7 @@
+Name      : Super Tennis Champs
+Version   : DataDisk
+Publisher : Audiogenic
+Year      : 1995
+Genre     : Sports - Tennis
+Players   : 1 to 4, Simultaneous
+Whdload   : SuprTennisChmps&DataDisks.Slave

@@ -1,0 +1,6 @@
+Name      : Katakis
+Version   : 1Disk
+Publisher : Rainbow Arts
+Year      : 1988
+Players   : 1 or 2
+Whdload   : Katakis1Disk.Slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DemoDiskQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "DemoDiskQuest.Slave" $whdloadargs
+ELSE
+	whdload "DemoDiskQuest.Slave"
+ENDIF

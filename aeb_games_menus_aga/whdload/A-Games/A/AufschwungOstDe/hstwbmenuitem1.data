@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Aufschwung Ost DE
+RunFile=AufschwungOstDe.slave
+AGS2Name=Aufschwung Ost DE
+AGS2IndexName=A
+AGS2FileName=Aufschwung Ost DE
+iGameName=Aufschwung Ost DE

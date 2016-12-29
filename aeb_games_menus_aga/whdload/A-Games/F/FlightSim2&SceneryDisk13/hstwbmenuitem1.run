@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FlightSim2&SceneryDisk13/"
+IF EXISTS ENV:whdloadargs
+	whdload "FlightSim2&SceneryDisk13.Slave" $whdloadargs
+ELSE
+	whdload "FlightSim2&SceneryDisk13.Slave"
+ENDIF

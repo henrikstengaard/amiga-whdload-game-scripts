@@ -1,0 +1,7 @@
+Name      : Battle Isle
+Version   : DataDisk
+Publisher : Ubi Soft
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : BattleIsle&DataDisks.Slave

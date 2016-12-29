@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SozzledSomersault/"
+IF EXISTS ENV:whdloadargs
+	whdload "SozzledSomersault.Slave" $whdloadargs
+ELSE
+	whdload "SozzledSomersault.Slave"
+ENDIF

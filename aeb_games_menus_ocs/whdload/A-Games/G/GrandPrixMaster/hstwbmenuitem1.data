@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Grand Prix Master
+RunFile=GrandPrixMaster.Slave
+AGS2Name=Grand Prix Master
+AGS2IndexName=G
+AGS2FileName=Grand Prix Master
+iGameName=Grand Prix Master

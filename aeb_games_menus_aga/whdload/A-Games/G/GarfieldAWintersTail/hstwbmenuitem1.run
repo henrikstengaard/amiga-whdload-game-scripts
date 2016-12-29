@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GarfieldAWintersTail/"
+IF EXISTS ENV:whdloadargs
+	whdload "GarfieldAWintersTail.Slave" $whdloadargs
+ELSE
+	whdload "GarfieldAWintersTail.Slave"
+ENDIF

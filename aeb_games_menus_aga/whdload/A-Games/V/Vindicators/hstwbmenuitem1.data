@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Vindicators
+RunFile=Vindicators.Slave
+AGS2Name=Vindicators
+AGS2IndexName=V
+AGS2FileName=Vindicators 
+iGameName=Vindicators

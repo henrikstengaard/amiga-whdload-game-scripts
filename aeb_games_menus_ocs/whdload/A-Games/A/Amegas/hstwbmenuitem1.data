@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Amegas
+RunFile=Amegas.Slave
+AGS2Name=Amegas
+AGS2IndexName=A
+AGS2FileName=Amegas
+iGameName=Amegas

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Putty CD32
+RunFile=SuperPuttyCD32.Slave
+AGS2Name=Putty CD32
+AGS2IndexName=P
+AGS2FileName=Putty CD32 
+iGameName=Putty CD32

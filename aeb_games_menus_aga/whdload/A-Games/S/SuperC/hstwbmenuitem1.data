@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Super C
+RunFile=SuperC.Slave
+AGS2Name=Super C
+AGS2IndexName=S
+AGS2FileName=Super C
+iGameName=Super C

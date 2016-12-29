@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Jinks
+RunFile=Jinks.Slave
+AGS2Name=Jinks
+AGS2IndexName=J
+AGS2FileName=Jinks
+iGameName=Jinks

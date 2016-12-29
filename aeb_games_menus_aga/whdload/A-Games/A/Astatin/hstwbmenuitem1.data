@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Astatin
+RunFile=Astatin.Slave
+AGS2Name=Astatin
+AGS2IndexName=A
+AGS2FileName=Astatin
+iGameName=Astatin

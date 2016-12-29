@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShufflepuckCafeFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShufflepuckCafeFr.Slave" $whdloadargs
+ELSE
+	whdload "ShufflepuckCafeFr.Slave"
+ENDIF

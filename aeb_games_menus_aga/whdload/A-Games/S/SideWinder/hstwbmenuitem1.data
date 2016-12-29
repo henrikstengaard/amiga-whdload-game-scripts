@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SideWinder
+RunFile=Sidewinder.Slave
+AGS2Name=SideWinder
+AGS2IndexName=S
+AGS2FileName=SideWinder
+iGameName=SideWinder

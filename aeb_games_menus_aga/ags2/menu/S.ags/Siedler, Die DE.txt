@@ -1,6 +1,6 @@
 Name      : Siedler, Die
-Publisher : Blue Byte
 Language  : German
+Publisher : Blue Byte
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 or 2, Simultaneous

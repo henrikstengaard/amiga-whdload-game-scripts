@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LeaderBoardTD1/"
+IF EXISTS ENV:whdloadargs
+	whdload "LeaderboardTD1.slave" $whdloadargs
+ELSE
+	whdload "LeaderboardTD1.slave"
+ENDIF

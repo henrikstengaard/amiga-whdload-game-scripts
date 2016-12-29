@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hole-In-One
+RunFile=HoleInOne.Slave
+AGS2Name=Hole-In-One
+AGS2IndexName=H
+AGS2FileName=Hole-In-One
+iGameName=Hole-In-One

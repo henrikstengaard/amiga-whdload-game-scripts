@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Firepower/"
+IF EXISTS ENV:whdloadargs
+	whdload "Firepower.Slave" $whdloadargs
+ELSE
+	whdload "Firepower.Slave"
+ENDIF

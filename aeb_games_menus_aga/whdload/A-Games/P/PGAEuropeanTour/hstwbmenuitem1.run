@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PGAEuropeanTour/"
+IF EXISTS ENV:whdloadargs
+	whdload "PGAEuropeanTour.Slave" $whdloadargs
+ELSE
+	whdload "PGAEuropeanTour.Slave"
+ENDIF

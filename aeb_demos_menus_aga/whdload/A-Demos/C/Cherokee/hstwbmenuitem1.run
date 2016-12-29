@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Cherokee/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cherokee.Slave" $whdloadargs
+ELSE
+	whdload "Cherokee.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Sorcerer Lord
-Publisher : Personal Software Services (PSS)
 Language  : French
+Publisher : Personal Software Services (PSS)
 Year      : 1988
 Genre     : Strategy - War
 Players   : 1 Only

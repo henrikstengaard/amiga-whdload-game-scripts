@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/Wayfarer/"
+IF EXISTS ENV:whdloadargs
+	whdload "Wayfarer.slave" $whdloadargs
+ELSE
+	whdload "Wayfarer.slave"
+ENDIF

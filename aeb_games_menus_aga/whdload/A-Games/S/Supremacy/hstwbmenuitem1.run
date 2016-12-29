@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Supremacy/"
+IF EXISTS ENV:whdloadargs
+	whdload "Supremacy.Slave" $whdloadargs
+ELSE
+	whdload "Supremacy.Slave"
+ENDIF

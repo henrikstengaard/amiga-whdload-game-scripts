@@ -1,4 +1,5 @@
 Name      : Myth
+Version   : CD32
 Publisher : Rainbird
 Year      : 1989
 Genre     : Adventure - Graphics/Text

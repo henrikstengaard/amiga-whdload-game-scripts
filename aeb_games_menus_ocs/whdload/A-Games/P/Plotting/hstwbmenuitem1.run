@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Plotting/"
+IF EXISTS ENV:whdloadargs
+	whdload "Plotting.slave" $whdloadargs
+ELSE
+	whdload "Plotting.slave"
+ENDIF

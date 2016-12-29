@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SimLifeAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "SimLifeAGA.Slave" $whdloadargs
+ELSE
+	whdload "SimLifeAGA.Slave"
+ENDIF

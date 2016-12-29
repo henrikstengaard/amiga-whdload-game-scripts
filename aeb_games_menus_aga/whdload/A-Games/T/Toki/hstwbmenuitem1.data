@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Toki
+RunFile=Toki.Slave
+AGS2Name=Toki
+AGS2IndexName=T
+AGS2FileName=Toki
+iGameName=Toki

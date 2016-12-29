@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Psyborg
+RunFile=Psyborg.Slave
+AGS2Name=Psyborg
+AGS2IndexName=P
+AGS2FileName=Psyborg
+iGameName=Psyborg

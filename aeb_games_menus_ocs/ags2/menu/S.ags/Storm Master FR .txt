@@ -1,6 +1,0 @@
-Name      : Storm Master
-Publisher : Silmarils
-Language  : French
-Year      : 1991
-Genre     : Strategy - War
-Whdload   : StormMasterFr.Slave

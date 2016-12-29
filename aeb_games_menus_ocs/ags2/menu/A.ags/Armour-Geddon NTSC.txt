@@ -1,0 +1,7 @@
+Name      : Armour-Geddon
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1991
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : ArmourGeddonNTSC.Slave

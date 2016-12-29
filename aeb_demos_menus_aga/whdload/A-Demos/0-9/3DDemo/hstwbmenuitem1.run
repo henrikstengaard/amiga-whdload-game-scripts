@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/3DDemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "3DDemo.Slave" $whdloadargs
+ELSE
+	whdload "3DDemo.Slave"
+ENDIF

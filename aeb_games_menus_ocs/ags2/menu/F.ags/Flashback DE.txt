@@ -1,6 +1,6 @@
 Name      : Flashback
-Publisher : US Gold
 Language  : German
+Publisher : US Gold
 Year      : 1993
 Genre     : Adventure - Arcade 2D
 Players   : 1 Only

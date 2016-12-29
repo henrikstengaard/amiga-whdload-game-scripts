@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChroniclesOfOmega/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChroniclesOfOmega.Slave" $whdloadargs
+ELSE
+	whdload "ChroniclesOfOmega.Slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Ork
+Version   : Demo
+Publisher : Psygnosis
+Year      : 1991
+Players   : 1 Only
+Whdload   : OrkDemo.Slave

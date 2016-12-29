@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Power/"
+IF EXISTS ENV:whdloadargs
+	whdload "Power.Slave" $whdloadargs
+ELSE
+	whdload "Power.Slave"
+ENDIF

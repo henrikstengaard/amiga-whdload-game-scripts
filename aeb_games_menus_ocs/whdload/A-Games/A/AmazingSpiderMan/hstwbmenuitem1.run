@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AmazingSpiderMan/"
+IF EXISTS ENV:whdloadargs
+	whdload "AmazingSpiderMan.slave" $whdloadargs
+ELSE
+	whdload "AmazingSpiderMan.slave"
+ENDIF

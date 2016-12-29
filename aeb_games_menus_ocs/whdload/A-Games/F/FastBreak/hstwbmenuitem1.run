@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FastBreak/"
+IF EXISTS ENV:whdloadargs
+	whdload "FastBreak.Slave" $whdloadargs
+ELSE
+	whdload "FastBreak.Slave"
+ENDIF

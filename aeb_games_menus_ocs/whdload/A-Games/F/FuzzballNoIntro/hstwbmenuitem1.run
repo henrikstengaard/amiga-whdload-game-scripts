@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FuzzballNoIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "FuzzballNoIntro.Slave" $whdloadargs
+ELSE
+	whdload "FuzzballNoIntro.Slave"
+ENDIF

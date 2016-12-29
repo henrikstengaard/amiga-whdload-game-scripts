@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mousetrap
+RunFile=Mousetrap.Slave
+AGS2Name=Mousetrap
+AGS2IndexName=M
+AGS2FileName=Mousetrap
+iGameName=Mousetrap

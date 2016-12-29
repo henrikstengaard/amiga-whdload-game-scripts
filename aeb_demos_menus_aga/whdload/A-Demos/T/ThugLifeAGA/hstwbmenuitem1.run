@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/ThugLifeAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "ThugLifeAGA.Slave" $whdloadargs
+ELSE
+	whdload "ThugLifeAGA.Slave"
+ENDIF

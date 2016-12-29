@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Armalyte
+RunFile=Armalyte.Slave
+AGS2Name=Armalyte
+AGS2IndexName=A
+AGS2FileName=Armalyte
+iGameName=Armalyte

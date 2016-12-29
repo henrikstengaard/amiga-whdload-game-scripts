@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dungeon Quest
+RunFile=DungeonQuest.Slave
+AGS2Name=Dungeon Quest
+AGS2IndexName=D
+AGS2FileName=Dungeon Quest
+iGameName=Dungeon Quest

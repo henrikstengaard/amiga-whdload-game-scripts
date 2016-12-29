@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dragon Strike
+RunFile=DragonStrike.Slave
+AGS2Name=Dragon Strike
+AGS2IndexName=D
+AGS2FileName=Dragon Strike
+iGameName=Dragon Strike

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Atom Smasher
+RunFile=AtomSmasher.Slave
+AGS2Name=Atom Smasher
+AGS2IndexName=A
+AGS2FileName=Atom Smasher
+iGameName=Atom Smasher

@@ -1,0 +1,7 @@
+Name      : Kick Off
+Version   : ExtraTime 2Disk
+Publisher : Anco
+Year      : 1989
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+Whdload   : KickOff&ExtraTime2Disk.Slave

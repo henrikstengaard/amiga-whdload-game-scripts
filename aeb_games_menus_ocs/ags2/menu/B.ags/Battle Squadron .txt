@@ -1,5 +1,0 @@
-Name      : Battle Squadron
-Publisher : Electronic Zoo
-Year      : 1989
-Players   : 1 or 2, Simultaneous
-Whdload   : BattleSquadronDemo.Slave

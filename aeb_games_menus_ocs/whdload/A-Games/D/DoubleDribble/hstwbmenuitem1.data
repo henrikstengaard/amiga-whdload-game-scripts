@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Double Dribble
+RunFile=DoubleDribble.slave
+AGS2Name=Double Dribble
+AGS2IndexName=D
+AGS2FileName=Double Dribble
+iGameName=Double Dribble

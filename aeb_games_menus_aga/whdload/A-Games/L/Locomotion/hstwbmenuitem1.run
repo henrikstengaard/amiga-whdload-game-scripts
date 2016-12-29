@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/Locomotion/"
+IF EXISTS ENV:whdloadargs
+	whdload "Locomotion.Slave" $whdloadargs
+ELSE
+	whdload "Locomotion.Slave"
+ENDIF

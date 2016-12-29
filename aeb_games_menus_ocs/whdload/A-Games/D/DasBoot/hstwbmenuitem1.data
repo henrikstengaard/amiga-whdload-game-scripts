@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Das Boot
+RunFile=DasBoot.Slave
+AGS2Name=Das Boot
+AGS2IndexName=D
+AGS2FileName=Das Boot
+iGameName=Das Boot

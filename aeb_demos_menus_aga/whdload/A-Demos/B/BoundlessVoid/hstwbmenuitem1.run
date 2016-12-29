@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BoundlessVoid/"
+IF EXISTS ENV:whdloadargs
+	whdload "BoundlessVoid.Slave" $whdloadargs
+ELSE
+	whdload "BoundlessVoid.Slave"
+ENDIF

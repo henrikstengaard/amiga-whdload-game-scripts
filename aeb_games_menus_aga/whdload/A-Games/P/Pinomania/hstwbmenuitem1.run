@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Pinomania/"
+IF EXISTS ENV:whdloadargs
+	whdload "Pinomania.Slave" $whdloadargs
+ELSE
+	whdload "Pinomania.Slave"
+ENDIF

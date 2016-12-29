@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Untouchables/"
+IF EXISTS ENV:whdloadargs
+	whdload "Untouchables.Slave" $whdloadargs
+ELSE
+	whdload "Untouchables.Slave"
+ENDIF

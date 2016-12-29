@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Terramex/"
+IF EXISTS ENV:whdloadargs
+	whdload "Terramex.Slave" $whdloadargs
+ELSE
+	whdload "Terramex.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/Exage/"
+IF EXISTS ENV:whdloadargs
+	whdload "Exage.Slave" $whdloadargs
+ELSE
+	whdload "Exage.Slave"
+ENDIF

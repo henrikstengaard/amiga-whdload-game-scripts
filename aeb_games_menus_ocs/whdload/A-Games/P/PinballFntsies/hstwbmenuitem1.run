@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PinballFntsies/"
+IF EXISTS ENV:whdloadargs
+	whdload "PinballFntsies.slave" $whdloadargs
+ELSE
+	whdload "PinballFntsies.slave"
+ENDIF

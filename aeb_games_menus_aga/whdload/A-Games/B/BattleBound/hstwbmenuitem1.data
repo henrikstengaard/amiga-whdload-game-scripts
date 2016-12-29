@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Battle Bound
+RunFile=BattleBound.Slave
+AGS2Name=Battle Bound
+AGS2IndexName=B
+AGS2FileName=Battle Bound
+iGameName=Battle Bound

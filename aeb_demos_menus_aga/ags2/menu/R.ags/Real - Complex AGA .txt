@@ -1,4 +1,5 @@
 Name    : Real
+Version : AGA
 Groups  : Complex
 Type    : Demo
 Party   : Saturne 1994

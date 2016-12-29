@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Warp
+RunFile=WARP.slave
+AGS2Name=Warp
+AGS2IndexName=W
+AGS2FileName=Warp
+iGameName=Warp

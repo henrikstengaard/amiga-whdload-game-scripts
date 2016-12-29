@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gunshoot
+RunFile=Gunshoot.Slave
+AGS2Name=Gunshoot
+AGS2IndexName=G
+AGS2FileName=Gunshoot
+iGameName=Gunshoot

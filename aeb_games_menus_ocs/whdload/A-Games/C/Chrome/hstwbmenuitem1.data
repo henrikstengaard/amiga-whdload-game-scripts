@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Chrome
+RunFile=Chrome.Slave
+AGS2Name=Chrome
+AGS2IndexName=C
+AGS2FileName=Chrome
+iGameName=Chrome

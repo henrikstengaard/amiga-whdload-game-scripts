@@ -1,0 +1,6 @@
+Name      : Breathless
+Version   : AGA 060
+Publisher : Power Computing
+Year      : 1996
+Players   : 1 Only
+Whdload   : BreathlessAGA060.Slave

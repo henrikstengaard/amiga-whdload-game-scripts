@@ -1,6 +1,0 @@
-Name      : Invest
-Publisher : Starbyte
-Language  : German
-Year      : 1990
-Players   : 1 - 4 (1 simultaneous)
-Whdload   : InvestDe2Disk.slave

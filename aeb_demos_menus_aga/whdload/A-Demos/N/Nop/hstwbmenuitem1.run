@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/Nop/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nop.Slave" $whdloadargs
+ELSE
+	whdload "Nop.Slave"
+ENDIF

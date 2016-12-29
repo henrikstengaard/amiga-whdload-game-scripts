@@ -1,4 +1,5 @@
 Name      : Kingpin: Arcade Sports Bowling
+Version   : Demo
 Publisher : Team 17
 Year      : 1995
 Players   : 1 - 6 (1 simultaneous)

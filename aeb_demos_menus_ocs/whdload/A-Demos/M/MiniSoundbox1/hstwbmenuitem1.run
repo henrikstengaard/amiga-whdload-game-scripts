@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MiniSoundbox1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MiniSoundbox1.Slave" $whdloadargs
+ELSE
+	whdload "MiniSoundbox1.Slave"
+ENDIF

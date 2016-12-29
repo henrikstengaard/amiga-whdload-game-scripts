@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Substance/"
+IF EXISTS ENV:whdloadargs
+	whdload "Substance.Slave" $whdloadargs
+ELSE
+	whdload "Substance.Slave"
+ENDIF

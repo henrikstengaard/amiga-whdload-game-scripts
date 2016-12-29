@@ -1,4 +1,5 @@
 Name      : Breathless
+Version   : AGA
 Publisher : Power Computing
 Year      : 1996
 Players   : 1 Only

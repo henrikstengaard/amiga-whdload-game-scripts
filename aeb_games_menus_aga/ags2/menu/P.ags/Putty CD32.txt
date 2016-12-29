@@ -1,4 +1,5 @@
 Name      : Putty
+Version   : CD32
 Publisher : System 3
 Year      : 1992
 Genre     : Platformer - Scrolling Screen

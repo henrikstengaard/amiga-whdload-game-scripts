@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JewelsOfDarkness/"
+IF EXISTS ENV:whdloadargs
+	whdload "JewelsOfDarkness.Slave" $whdloadargs
+ELSE
+	whdload "JewelsOfDarkness.Slave"
+ENDIF

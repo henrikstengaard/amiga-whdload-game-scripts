@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GuldkornExpressenDk1MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "GuldkornExpressenDk1MB.slave" $whdloadargs
+ELSE
+	whdload "GuldkornExpressenDk1MB.slave"
+ENDIF

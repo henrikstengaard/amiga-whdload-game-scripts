@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TwinTurbos/"
+IF EXISTS ENV:whdloadargs
+	whdload "TwinTurbos.slave" $whdloadargs
+ELSE
+	whdload "TwinTurbos.slave"
+ENDIF

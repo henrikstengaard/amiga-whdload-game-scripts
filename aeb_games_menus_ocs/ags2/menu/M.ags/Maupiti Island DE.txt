@@ -1,6 +1,6 @@
 Name      : Maupiti Island
-Publisher : Lankhor
 Language  : German
+Publisher : Lankhor
 Year      : 1990
 Genre     : Adventure - Animated Graphics/Text
 Players   : 1 Only

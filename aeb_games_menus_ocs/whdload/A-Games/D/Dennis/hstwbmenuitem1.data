@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dennis
+RunFile=Dennis.slave
+AGS2Name=Dennis
+AGS2IndexName=D
+AGS2FileName=Dennis
+iGameName=Dennis

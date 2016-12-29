@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CosmicSpacehead/"
+IF EXISTS ENV:whdloadargs
+	whdload "CosmicSpacehead.slave" $whdloadargs
+ELSE
+	whdload "CosmicSpacehead.slave"
+ENDIF

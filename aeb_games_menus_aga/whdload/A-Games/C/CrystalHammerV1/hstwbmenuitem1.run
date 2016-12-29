@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrystalHammerV1/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrystalHammerV1.Slave" $whdloadargs
+ELSE
+	whdload "CrystalHammerV1.Slave"
+ENDIF

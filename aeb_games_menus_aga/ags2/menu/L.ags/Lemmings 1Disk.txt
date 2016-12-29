@@ -1,0 +1,7 @@
+Name      : Lemmings
+Version   : 1Disk
+Publisher : Psygnosis
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2
+Whdload   : Lemmings1Disk.Slave

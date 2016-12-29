@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/Roots/"
+IF EXISTS ENV:whdloadargs
+	whdload "Roots.slave" $whdloadargs
+ELSE
+	whdload "Roots.slave"
+ENDIF

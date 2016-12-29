@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RedLightning/"
+IF EXISTS ENV:whdloadargs
+	whdload "RedLightning.slave" $whdloadargs
+ELSE
+	whdload "RedLightning.slave"
+ENDIF

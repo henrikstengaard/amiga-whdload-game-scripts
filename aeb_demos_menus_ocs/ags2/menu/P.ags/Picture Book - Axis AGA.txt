@@ -1,4 +1,5 @@
 Name    : Picture Book
+Version : AGA
 Groups  : Axis
 Type    : Demo
 Party   : Somewhere in Holland 1995

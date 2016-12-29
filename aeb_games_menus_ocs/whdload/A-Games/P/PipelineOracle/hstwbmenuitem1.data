@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pipeline
+RunFile=PipelineOracle.Slave
+AGS2Name=Pipeline
+AGS2IndexName=P
+AGS2FileName=Pipeline 
+iGameName=Pipeline

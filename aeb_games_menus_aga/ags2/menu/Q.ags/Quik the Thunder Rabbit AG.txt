@@ -1,4 +1,5 @@
 Name      : Quik the Thunder Rabbit
+Version   : AGA
 Publisher : Titus Software
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

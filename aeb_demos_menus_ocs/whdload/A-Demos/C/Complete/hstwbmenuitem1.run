@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Complete/"
+IF EXISTS ENV:whdloadargs
+	whdload "Complete.Slave" $whdloadargs
+ELSE
+	whdload "Complete.Slave"
+ENDIF

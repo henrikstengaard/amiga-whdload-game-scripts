@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GuildOfThieves/"
+IF EXISTS ENV:whdloadargs
+	whdload "GuildOfThieves.Slave" $whdloadargs
+ELSE
+	whdload "GuildOfThieves.Slave"
+ENDIF

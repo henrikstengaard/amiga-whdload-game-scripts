@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Omega
+RunFile=Omega.Slave
+AGS2Name=Omega
+AGS2IndexName=O
+AGS2FileName=Omega
+iGameName=Omega

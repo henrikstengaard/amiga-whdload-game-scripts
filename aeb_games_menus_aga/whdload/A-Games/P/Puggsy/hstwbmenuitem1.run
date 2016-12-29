@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Puggsy/"
+IF EXISTS ENV:whdloadargs
+	whdload "Puggsy.slave" $whdloadargs
+ELSE
+	whdload "Puggsy.slave"
+ENDIF

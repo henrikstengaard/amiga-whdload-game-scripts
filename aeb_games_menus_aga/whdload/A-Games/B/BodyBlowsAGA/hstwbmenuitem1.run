@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BodyBlowsAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "BodyBlowsAGA.Slave" $whdloadargs
+ELSE
+	whdload "BodyBlowsAGA.Slave"
+ENDIF

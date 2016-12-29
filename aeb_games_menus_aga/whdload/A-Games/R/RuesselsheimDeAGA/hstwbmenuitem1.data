@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Detroit DE AGA
+RunFile=RuesselsheimDeAGA.Slave
+AGS2Name=Detroit DE AGA
+AGS2IndexName=D
+AGS2FileName=Detroit DE AGA
+iGameName=Detroit DE AGA

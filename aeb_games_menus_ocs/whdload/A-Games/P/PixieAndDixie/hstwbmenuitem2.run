@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PixieAndDixie/"
+IF EXISTS ENV:whdloadargs
+	whdload "Pixie&Dixie.slave" $whdloadargs
+ELSE
+	whdload "Pixie&Dixie.slave"
+ENDIF

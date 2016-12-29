@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FinalFight512k/"
+IF EXISTS ENV:whdloadargs
+	whdload "FinalFight512k.slave" $whdloadargs
+ELSE
+	whdload "FinalFight512k.slave"
+ENDIF

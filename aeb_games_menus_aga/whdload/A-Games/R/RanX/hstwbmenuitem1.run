@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RanX/"
+IF EXISTS ENV:whdloadargs
+	whdload "RanX.Slave" $whdloadargs
+ELSE
+	whdload "RanX.Slave"
+ENDIF

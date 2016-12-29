@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CrazySounds2/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrazySounds2.Slave" $whdloadargs
+ELSE
+	whdload "CrazySounds2.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bug Bash
+RunFile=BugBash.Slave
+AGS2Name=Bug Bash
+AGS2IndexName=B
+AGS2FileName=Bug Bash
+iGameName=Bug Bash

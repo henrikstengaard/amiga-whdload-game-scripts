@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/Nightdawn/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nightdawn.slave" $whdloadargs
+ELSE
+	whdload "Nightdawn.slave"
+ENDIF

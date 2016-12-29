@@ -1,4 +1,5 @@
 Name      : Reunion
+Version   : AGA
 Publisher : Grandslam
 Year      : 1994
 Genre     : Strategy - Miscellaneous

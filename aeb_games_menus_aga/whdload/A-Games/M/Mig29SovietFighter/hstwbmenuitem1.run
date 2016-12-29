@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Mig29SovietFighter/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mig29SovietFighter.Slave" $whdloadargs
+ELSE
+	whdload "Mig29SovietFighter.Slave"
+ENDIF

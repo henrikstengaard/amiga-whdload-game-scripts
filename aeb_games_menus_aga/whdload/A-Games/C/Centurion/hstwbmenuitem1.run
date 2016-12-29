@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Centurion/"
+IF EXISTS ENV:whdloadargs
+	whdload "Centurion.Slave" $whdloadargs
+ELSE
+	whdload "Centurion.Slave"
+ENDIF

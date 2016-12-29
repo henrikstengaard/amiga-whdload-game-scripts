@@ -1,4 +1,5 @@
 Name      : Super Methane Bros
+Version   : CD32
 Publisher : Apache Software
 Year      : 1994
 Genre     : Platformer - Single Screen

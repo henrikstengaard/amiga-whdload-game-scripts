@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Logical
+RunFile=Logical.Slave
+AGS2Name=Logical
+AGS2IndexName=L
+AGS2FileName=Logical
+iGameName=Logical

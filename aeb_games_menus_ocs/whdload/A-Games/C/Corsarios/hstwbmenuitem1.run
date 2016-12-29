@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Corsarios/"
+IF EXISTS ENV:whdloadargs
+	whdload "Corsarios.Slave" $whdloadargs
+ELSE
+	whdload "Corsarios.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Chichén Itzá
-Publisher : Aventuras AD
 Language  : Spanish
+Publisher : Aventuras AD
 Year      : 1991
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only

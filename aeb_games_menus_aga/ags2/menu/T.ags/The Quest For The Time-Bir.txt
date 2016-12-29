@@ -1,4 +1,5 @@
 Name      : The Quest For The Time-Bird
+Version   : Files
 Publisher : Infogrames
 Year      : 1989
 Players   : 1

@@ -1,4 +1,5 @@
 Name      : Gunship 2000
+Version   : AGA
 Publisher : MicroProse Software
 Year      : 1993
 Genre     : Simulation - Flight

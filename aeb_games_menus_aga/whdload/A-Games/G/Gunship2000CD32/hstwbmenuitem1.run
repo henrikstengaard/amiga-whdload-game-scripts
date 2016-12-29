@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gunship2000CD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gunship2000CD32.slave" $whdloadargs
+ELSE
+	whdload "Gunship2000CD32.slave"
+ENDIF

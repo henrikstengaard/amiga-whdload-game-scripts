@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Pegasus/"
+IF EXISTS ENV:whdloadargs
+	whdload "Pegasus.Slave" $whdloadargs
+ELSE
+	whdload "Pegasus.Slave"
+ENDIF

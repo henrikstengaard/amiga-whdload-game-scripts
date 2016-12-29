@@ -1,6 +1,0 @@
-Name      : Detroit [AGA]
-Publisher : Impressions
-Language  : German
-Year      : 1994
-Players   : 1 - 4 (1 simultaneous)
-Whdload   : RuesselsheimDeAGA.Slave

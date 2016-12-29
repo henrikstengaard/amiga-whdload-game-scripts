@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Ork/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ork.Slave" $whdloadargs
+ELSE
+	whdload "Ork.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DebutPlanetSimulation/"
+IF EXISTS ENV:whdloadargs
+	whdload "DebutPlanetSimulation.Slave" $whdloadargs
+ELSE
+	whdload "DebutPlanetSimulation.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HudsonHawk/"
+IF EXISTS ENV:whdloadargs
+	whdload "HudsonHawk.Slave" $whdloadargs
+ELSE
+	whdload "HudsonHawk.Slave"
+ENDIF

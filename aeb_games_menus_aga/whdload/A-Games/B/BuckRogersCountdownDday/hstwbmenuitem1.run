@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BuckRogersCountdownDday/"
+IF EXISTS ENV:whdloadargs
+	whdload "BuckRogersCountdownDday.slave" $whdloadargs
+ELSE
+	whdload "BuckRogersCountdownDday.slave"
+ENDIF

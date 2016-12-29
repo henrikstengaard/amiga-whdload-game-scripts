@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Deflektor
+RunFile=Deflektor.slave
+AGS2Name=Deflektor
+AGS2IndexName=D
+AGS2FileName=Deflektor
+iGameName=Deflektor

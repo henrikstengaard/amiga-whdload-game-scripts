@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Entity NoIntro
+RunFile=EntityNoIntro.slave
+AGS2Name=Entity NoIntro
+AGS2IndexName=E
+AGS2FileName=Entity NoIntro
+iGameName=Entity NoIntro

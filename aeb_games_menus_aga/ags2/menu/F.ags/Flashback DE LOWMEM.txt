@@ -1,0 +1,8 @@
+Name      : Flashback
+Language  : German
+Version   : LOWMEM
+Publisher : US Gold
+Year      : 1993
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+Whdload   : FlashbackLowMemDe.slave

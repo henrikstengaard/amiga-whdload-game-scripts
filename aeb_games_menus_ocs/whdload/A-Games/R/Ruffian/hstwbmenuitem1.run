@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Ruffian/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ruffian.Slave" $whdloadargs
+ELSE
+	whdload "Ruffian.Slave"
+ENDIF

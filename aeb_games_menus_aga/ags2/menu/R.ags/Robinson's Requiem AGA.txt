@@ -1,4 +1,5 @@
 Name      : Robinson's Requiem
+Version   : AGA
 Publisher : Silmarils
 Year      : 1994
 Genre     : Adventure - RPG 3D

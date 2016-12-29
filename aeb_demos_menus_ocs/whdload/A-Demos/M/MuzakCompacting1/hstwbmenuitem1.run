@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MuzakCompacting1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MuzakCompacting1.Slave" $whdloadargs
+ELSE
+	whdload "MuzakCompacting1.Slave"
+ENDIF

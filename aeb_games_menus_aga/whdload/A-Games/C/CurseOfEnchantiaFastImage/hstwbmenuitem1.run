@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CurseOfEnchantiaFastImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "CurseOfEnchantiaFastImage.Slave" $whdloadargs
+ELSE
+	whdload "CurseOfEnchantiaFastImage.Slave"
+ENDIF

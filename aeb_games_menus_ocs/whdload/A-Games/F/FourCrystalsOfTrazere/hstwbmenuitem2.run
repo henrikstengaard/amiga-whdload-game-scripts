@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FourCrystalsOfTrazere/"
+IF EXISTS ENV:whdloadargs
+	whdload "FourCrystalsOfTrazere.Slave" $whdloadargs
+ELSE
+	whdload "FourCrystalsOfTrazere.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EyeOfTheBeholder2/"
+IF EXISTS ENV:whdloadargs
+	whdload "EyeOfTheBeholder2.Slave" $whdloadargs
+ELSE
+	whdload "EyeOfTheBeholder2.Slave"
+ENDIF

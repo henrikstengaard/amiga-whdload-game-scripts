@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Uridium22MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "Uridium22MB.Slave" $whdloadargs
+ELSE
+	whdload "Uridium22MB.Slave"
+ENDIF

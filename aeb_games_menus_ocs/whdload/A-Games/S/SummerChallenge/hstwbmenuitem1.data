@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Summer Challenge
+RunFile=SummerChallenge.Slave
+AGS2Name=Summer Challenge
+AGS2IndexName=S
+AGS2FileName=Summer Challenge
+iGameName=Summer Challenge

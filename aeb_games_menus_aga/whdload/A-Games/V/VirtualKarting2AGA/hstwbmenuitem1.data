@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Virtual Karting II AGA
+RunFile=VirtualKarting2AGA.slave
+AGS2Name=Virtual Karting II AGA
+AGS2IndexName=V
+AGS2FileName=Virtual Karting II AGA
+iGameName=Virtual Karting II AGA

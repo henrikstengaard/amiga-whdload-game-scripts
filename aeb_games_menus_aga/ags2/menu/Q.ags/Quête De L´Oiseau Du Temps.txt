@@ -1,6 +1,6 @@
 Name      : Quête De L´Oiseau Du Temps, La
-Publisher : Infogrames
 Language  : French
+Publisher : Infogrames
 Year      : 1989
 Players   : 1
 Whdload   : QueteDeLOiseauDuTempsFr.Slave

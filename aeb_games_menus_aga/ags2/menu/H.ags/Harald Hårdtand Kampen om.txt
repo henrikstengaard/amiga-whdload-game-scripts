@@ -1,4 +1,5 @@
 Name      : Harald Hårdtand: Kampen om de Rene Tænder
+Language  : Danish
 Publisher : Colgate-Palmolive
 Year      : 1992
 Genre     : Platformer - Scrolling Screen

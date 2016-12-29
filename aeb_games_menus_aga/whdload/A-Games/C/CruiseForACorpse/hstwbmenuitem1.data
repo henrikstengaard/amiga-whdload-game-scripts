@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cruise for a Corpse
+RunFile=CruiseForACorpse.Slave
+AGS2Name=Cruise for a Corpse
+AGS2IndexName=C
+AGS2FileName=Cruise for a Corpse
+iGameName=Cruise for a Corpse

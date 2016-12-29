@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:B/BlinkysScarySchool/BlinkysScarySchool.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "B" "Blinky's Scary School"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "B" "Blinky's Scary School"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:B/BlinkysScarySchool/"
 IF EXISTS ENV:whdloadargs
-	whdload "BlinkysScarySchool.Slave" $whdloadargs
+  whdload "BlinkysScarySchool.Slave" $whdloadargs
 ELSE
-	whdload "BlinkysScarySchool.Slave"
+  whdload "BlinkysScarySchool.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

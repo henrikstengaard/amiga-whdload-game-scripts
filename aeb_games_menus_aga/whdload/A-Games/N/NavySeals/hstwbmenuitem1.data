@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Navy Seals
+RunFile=NavySeals.Slave
+AGS2Name=Navy Seals
+AGS2IndexName=N
+AGS2FileName=Navy Seals
+iGameName=Navy Seals

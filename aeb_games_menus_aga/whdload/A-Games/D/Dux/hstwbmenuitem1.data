@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dux
+RunFile=Dux.Slave
+AGS2Name=Dux
+AGS2IndexName=D
+AGS2FileName=Dux
+iGameName=Dux

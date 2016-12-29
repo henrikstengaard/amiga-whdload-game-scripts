@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Superfrog CD32
+RunFile=SuperfrogCD32.Slave
+AGS2Name=Superfrog CD32
+AGS2IndexName=S
+AGS2FileName=Superfrog CD32
+iGameName=Superfrog CD32

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/2Unlimited/"
+IF EXISTS ENV:whdloadargs
+	whdload "2Unlimited.Slave" $whdloadargs
+ELSE
+	whdload "2Unlimited.Slave"
+ENDIF

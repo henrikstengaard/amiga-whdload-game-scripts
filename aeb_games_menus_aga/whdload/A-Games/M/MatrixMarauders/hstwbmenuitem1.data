@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Matrix Marauders
+RunFile=MatrixMarauders.slave
+AGS2Name=Matrix Marauders
+AGS2IndexName=M
+AGS2FileName=Matrix Marauders
+iGameName=Matrix Marauders

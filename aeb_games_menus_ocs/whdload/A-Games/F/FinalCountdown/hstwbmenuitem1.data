@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Final Countdown
+RunFile=FinalCountdown.Slave
+AGS2Name=Final Countdown
+AGS2IndexName=F
+AGS2FileName=Final Countdown
+iGameName=Final Countdown

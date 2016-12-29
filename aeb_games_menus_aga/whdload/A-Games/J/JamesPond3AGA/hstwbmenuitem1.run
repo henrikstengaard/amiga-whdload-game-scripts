@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JamesPond3AGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "JamesPond3AGA.slave" $whdloadargs
+ELSE
+	whdload "JamesPond3AGA.slave"
+ENDIF

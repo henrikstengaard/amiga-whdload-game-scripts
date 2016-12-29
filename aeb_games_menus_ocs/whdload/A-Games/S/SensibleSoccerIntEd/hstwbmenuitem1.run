@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SensibleSoccerIntEd/"
+IF EXISTS ENV:whdloadargs
+	whdload "SensibleSoccerIntEd512K.Slave" $whdloadargs
+ELSE
+	whdload "SensibleSoccerIntEd512K.Slave"
+ENDIF

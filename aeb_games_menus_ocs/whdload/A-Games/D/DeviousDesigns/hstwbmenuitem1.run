@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DeviousDesigns/"
+IF EXISTS ENV:whdloadargs
+	whdload "DeviousDesigns.Slave" $whdloadargs
+ELSE
+	whdload "DeviousDesigns.Slave"
+ENDIF

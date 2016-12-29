@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Giganoid/"
+IF EXISTS ENV:whdloadargs
+	whdload "Giganoid.Slave" $whdloadargs
+ELSE
+	whdload "Giganoid.Slave"
+ENDIF

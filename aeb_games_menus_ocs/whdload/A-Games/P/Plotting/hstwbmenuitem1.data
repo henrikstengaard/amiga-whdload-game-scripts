@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Plotting
+RunFile=Plotting.slave
+AGS2Name=Plotting
+AGS2IndexName=P
+AGS2FileName=Plotting
+iGameName=Plotting

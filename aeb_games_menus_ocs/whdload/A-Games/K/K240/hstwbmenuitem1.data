@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=K240
+RunFile=K240.Slave
+AGS2Name=K240
+AGS2IndexName=K
+AGS2FileName=K240
+iGameName=K240

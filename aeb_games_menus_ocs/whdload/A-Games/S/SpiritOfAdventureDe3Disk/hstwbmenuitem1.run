@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpiritOfAdventureDe3Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpiritOfAdventureDe3Disk.slave" $whdloadargs
+ELSE
+	whdload "SpiritOfAdventureDe3Disk.slave"
+ENDIF

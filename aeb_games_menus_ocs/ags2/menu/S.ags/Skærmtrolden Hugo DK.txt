@@ -1,4 +1,5 @@
 Name      : Skærmtrolden Hugo
+Language  : Danish
 Publisher : Silverrock Productions
 Year      : 1991
 Genre     : Arcade - Miscellaneous

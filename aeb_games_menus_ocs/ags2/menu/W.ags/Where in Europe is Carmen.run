@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:W/WIEuropeIsCarmenSandiego/WIEuropeIsCarmenSandiego.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "W" "Where in Europe is Carmen"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "W" "Where in Europe is Carmen"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:W/WIEuropeIsCarmenSandiego/"
 IF EXISTS ENV:whdloadargs
-	whdload "WIEuropeIsCarmenSandiego.Slave" $whdloadargs
+  whdload "WIEuropeIsCarmenSandiego.Slave" $whdloadargs
 ELSE
-	whdload "WIEuropeIsCarmenSandiego.Slave"
+  whdload "WIEuropeIsCarmenSandiego.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

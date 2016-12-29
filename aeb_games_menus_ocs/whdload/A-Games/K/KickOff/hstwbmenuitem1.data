@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Kick Off
+RunFile=KickOff.Slave
+AGS2Name=Kick Off
+AGS2IndexName=K
+AGS2FileName=Kick Off
+iGameName=Kick Off

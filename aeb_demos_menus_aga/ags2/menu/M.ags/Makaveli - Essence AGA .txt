@@ -1,4 +1,5 @@
 Name    : Makaveli
+Version : AGA
 Groups  : Essence
 Type    : Demo
 Party   : The Party 1996

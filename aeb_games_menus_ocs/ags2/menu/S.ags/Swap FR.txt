@@ -1,6 +1,6 @@
 Name      : Swap
-Publisher : Palace Software
 Language  : French
+Publisher : Palace Software
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only

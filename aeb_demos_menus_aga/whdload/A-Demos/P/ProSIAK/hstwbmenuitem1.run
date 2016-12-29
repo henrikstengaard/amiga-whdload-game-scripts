@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/ProSIAK/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProSIAK.slave" $whdloadargs
+ELSE
+	whdload "ProSIAK.slave"
+ENDIF

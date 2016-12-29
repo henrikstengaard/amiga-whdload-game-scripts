@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/F29Retaliator/"
+IF EXISTS ENV:whdloadargs
+	whdload "F29Retaliator.Slave" $whdloadargs
+ELSE
+	whdload "F29Retaliator.Slave"
+ENDIF

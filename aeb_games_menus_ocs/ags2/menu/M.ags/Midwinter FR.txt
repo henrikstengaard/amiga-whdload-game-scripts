@@ -1,6 +1,6 @@
 Name      : Midwinter
-Publisher : Rainbird
 Language  : French
+Publisher : Rainbird
 Year      : 1990
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only

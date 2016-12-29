@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/ViajeAlCentroDeLaTierraEs/"
+IF EXISTS ENV:whdloadargs
+	whdload "ViajeAlCentroDeLaTierraEs.slave" $whdloadargs
+ELSE
+	whdload "ViajeAlCentroDeLaTierraEs.slave"
+ENDIF

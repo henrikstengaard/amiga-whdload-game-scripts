@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/UniversalWarrior/"
+IF EXISTS ENV:whdloadargs
+	whdload "UniversalWarrior.slave" $whdloadargs
+ELSE
+	whdload "UniversalWarrior.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Prophecy1VikingChild/"
+IF EXISTS ENV:whdloadargs
+	whdload "Prophecy1VikingChild.slave" $whdloadargs
+ELSE
+	whdload "Prophecy1VikingChild.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:U/Unleashed/"
+IF EXISTS ENV:whdloadargs
+	whdload "Unleashed.Slave" $whdloadargs
+ELSE
+	whdload "Unleashed.Slave"
+ENDIF

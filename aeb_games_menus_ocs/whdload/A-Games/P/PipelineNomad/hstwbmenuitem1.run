@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PipelineNomad/"
+IF EXISTS ENV:whdloadargs
+	whdload "PipelineNomad.Slave" $whdloadargs
+ELSE
+	whdload "PipelineNomad.Slave"
+ENDIF

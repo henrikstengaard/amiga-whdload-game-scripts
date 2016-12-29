@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/Punisher/"
+IF EXISTS ENV:whdloadargs
+	whdload "Punisher.Slave" $whdloadargs
+ELSE
+	whdload "Punisher.Slave"
+ENDIF

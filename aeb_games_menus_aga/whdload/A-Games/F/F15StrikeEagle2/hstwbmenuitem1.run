@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/F15StrikeEagle2/"
+IF EXISTS ENV:whdloadargs
+	whdload "F15StrikeEagle2.Slave" $whdloadargs
+ELSE
+	whdload "F15StrikeEagle2.Slave"
+ENDIF

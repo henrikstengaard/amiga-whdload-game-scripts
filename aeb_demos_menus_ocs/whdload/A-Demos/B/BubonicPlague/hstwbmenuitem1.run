@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BubonicPlague/"
+IF EXISTS ENV:whdloadargs
+	whdload "BubonicPlague.Slave" $whdloadargs
+ELSE
+	whdload "BubonicPlague.Slave"
+ENDIF

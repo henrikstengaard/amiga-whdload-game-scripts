@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/ShedTears/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShedTears.Slave" $whdloadargs
+ELSE
+	whdload "ShedTears.Slave"
+ENDIF

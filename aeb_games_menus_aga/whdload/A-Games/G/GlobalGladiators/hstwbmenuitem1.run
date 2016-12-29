@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GlobalGladiators/"
+IF EXISTS ENV:whdloadargs
+	whdload "GlobalGladiators.slave" $whdloadargs
+ELSE
+	whdload "GlobalGladiators.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/ThunderHawkAH73MFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "ThunderHawkAH73MFr.Slave" $whdloadargs
+ELSE
+	whdload "ThunderHawkAH73MFr.Slave"
+ENDIF

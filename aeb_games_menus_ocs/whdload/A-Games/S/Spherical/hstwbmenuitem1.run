@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Spherical/"
+IF EXISTS ENV:whdloadargs
+	whdload "Spherical.Slave" $whdloadargs
+ELSE
+	whdload "Spherical.Slave"
+ENDIF

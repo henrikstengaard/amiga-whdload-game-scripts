@@ -1,4 +1,5 @@
 Name      : Bad Dudes vs. Dragonninja
+Version   : NTSC
 Publisher : Imagine (Ocean)
 Year      : 1989
 Players   : 1 - 2 (2 simultaneous)

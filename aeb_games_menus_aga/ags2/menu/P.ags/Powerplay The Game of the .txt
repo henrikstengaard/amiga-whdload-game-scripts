@@ -1,6 +1,6 @@
 Name      : Powerplay: The Game of the Gods
-Publisher : Arcana
 Language  : German
+Publisher : Arcana
 Year      : 1988
 Genre     : Educational - Quiz
 Players   : 1 to 4

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blasting - Gate
+RunFile=Blasting.Slave
+AGS2Name=Blasting - Gate
+AGS2IndexName=B
+AGS2FileName=Blasting - Gate
+iGameName=Blasting - Gate

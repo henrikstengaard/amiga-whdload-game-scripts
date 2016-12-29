@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Beam
+RunFile=Beam.Slave
+AGS2Name=Beam
+AGS2IndexName=B
+AGS2FileName=Beam
+iGameName=Beam

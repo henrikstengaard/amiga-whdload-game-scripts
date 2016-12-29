@@ -1,4 +1,5 @@
 Name      : Trolls
+Version   : CD32
 Publisher : Flair Software
 Year      : 1993
 Genre     : Platformer - Scrolling Screen

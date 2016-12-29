@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Giddy2HeroInAnEggShell/"
+IF EXISTS ENV:whdloadargs
+	whdload "Giddy2HeroInAnEggShell.Slave" $whdloadargs
+ELSE
+	whdload "Giddy2HeroInAnEggShell.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StarRay1Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "StarRay1Disk.slave" $whdloadargs
+ELSE
+	whdload "StarRay1Disk.slave"
+ENDIF

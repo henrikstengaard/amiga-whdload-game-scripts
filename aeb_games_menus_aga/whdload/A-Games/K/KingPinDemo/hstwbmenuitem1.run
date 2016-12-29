@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KingPinDemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "KingPinDemo.Slave" $whdloadargs
+ELSE
+	whdload "KingPinDemo.Slave"
+ENDIF

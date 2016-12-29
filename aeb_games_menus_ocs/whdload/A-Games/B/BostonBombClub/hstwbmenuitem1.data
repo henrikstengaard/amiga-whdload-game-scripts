@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Boston Bomb Club
+RunFile=BostonBombClub.Slave
+AGS2Name=Boston Bomb Club
+AGS2IndexName=B
+AGS2FileName=Boston Bomb Club
+iGameName=Boston Bomb Club

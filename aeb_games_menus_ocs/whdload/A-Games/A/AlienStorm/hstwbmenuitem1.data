@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alien Storm
+RunFile=AlienStorm.Slave
+AGS2Name=Alien Storm
+AGS2IndexName=A
+AGS2FileName=Alien Storm
+iGameName=Alien Storm

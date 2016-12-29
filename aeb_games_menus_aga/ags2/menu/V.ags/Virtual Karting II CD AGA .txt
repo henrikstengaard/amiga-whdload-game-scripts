@@ -1,0 +1,7 @@
+Name      : Virtual Karting II
+Version   : CD AGA
+Publisher : Islona Entertainment
+Year      : 1998
+Genre     : Racing - Miscellaneous
+Players   : 1 Only
+Whdload   : VirtualKarting2CD.slave

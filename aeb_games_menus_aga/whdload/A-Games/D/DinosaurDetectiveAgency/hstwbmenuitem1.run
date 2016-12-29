@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DinosaurDetectiveAgency/"
+IF EXISTS ENV:whdloadargs
+	whdload "DinosaurDetectiveAgency.Slave" $whdloadargs
+ELSE
+	whdload "DinosaurDetectiveAgency.Slave"
+ENDIF

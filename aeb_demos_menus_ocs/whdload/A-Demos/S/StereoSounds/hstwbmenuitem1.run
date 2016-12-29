@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/StereoSounds/"
+IF EXISTS ENV:whdloadargs
+	whdload "StereoSounds.Slave" $whdloadargs
+ELSE
+	whdload "StereoSounds.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Amberstar
+RunFile=Amberstar.slave
+AGS2Name=Amberstar
+AGS2IndexName=A
+AGS2FileName=Amberstar
+iGameName=Amberstar

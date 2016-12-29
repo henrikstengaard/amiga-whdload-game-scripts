@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=D/Generation
+RunFile=DGeneration.slave
+AGS2Name=D/Generation
+AGS2IndexName=D
+AGS2FileName=D-Generation
+iGameName=D/Generation

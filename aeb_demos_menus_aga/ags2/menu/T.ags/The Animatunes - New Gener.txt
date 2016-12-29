@@ -1,4 +1,5 @@
 Name    : The Animatunes
+Version : AGA
 Groups  : New Generation Crew
 Type    : Demo
 Whdload : Animatunes.slave

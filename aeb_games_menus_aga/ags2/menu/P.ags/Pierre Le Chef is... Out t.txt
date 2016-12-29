@@ -1,4 +1,5 @@
 Name      : Pierre Le Chef is... Out to Lunch
+Version   : AGA
 Publisher : Mindscape
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

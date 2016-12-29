@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ApidyaAudios/"
+IF EXISTS ENV:whdloadargs
+	whdload "ApidyaAudios.Slave" $whdloadargs
+ELSE
+	whdload "ApidyaAudios.Slave"
+ENDIF

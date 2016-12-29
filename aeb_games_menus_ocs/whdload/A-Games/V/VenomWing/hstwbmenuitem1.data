@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Venom Wing
+RunFile=VenomWing.Slave
+AGS2Name=Venom Wing
+AGS2IndexName=V
+AGS2FileName=Venom Wing
+iGameName=Venom Wing

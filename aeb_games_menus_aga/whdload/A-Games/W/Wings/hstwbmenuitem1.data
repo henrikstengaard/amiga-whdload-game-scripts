@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wings
+RunFile=Wings.slave
+AGS2Name=Wings
+AGS2IndexName=W
+AGS2FileName=Wings
+iGameName=Wings

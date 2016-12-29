@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Zyconix
+RunFile=Zyconix.Slave
+AGS2Name=Zyconix
+AGS2IndexName=Z
+AGS2FileName=Zyconix
+iGameName=Zyconix

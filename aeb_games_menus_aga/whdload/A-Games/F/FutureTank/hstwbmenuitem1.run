@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FutureTank/"
+IF EXISTS ENV:whdloadargs
+	whdload "FutureTank.slave" $whdloadargs
+ELSE
+	whdload "FutureTank.slave"
+ENDIF

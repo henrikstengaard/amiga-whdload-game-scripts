@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Jurassic Park AGA
+RunFile=JurassicParkAGA.slave
+AGS2Name=Jurassic Park AGA
+AGS2IndexName=J
+AGS2FileName=Jurassic Park AGA
+iGameName=Jurassic Park AGA

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ruffian
+RunFile=Ruffian.Slave
+AGS2Name=Ruffian
+AGS2IndexName=R
+AGS2FileName=Ruffian
+iGameName=Ruffian

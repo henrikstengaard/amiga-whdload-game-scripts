@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:S/SoundAtaxVol2/SoundAtaxVol2.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "S" "Sound Atax Vol. 2 - Magnet"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "S" "Sound Atax Vol. 2 - Magnet"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:S/SoundAtaxVol2/"
 IF EXISTS ENV:whdloadargs
-	whdload "SoundAtaxVol2.Slave" $whdloadargs
+  whdload "SoundAtaxVol2.Slave" $whdloadargs
 ELSE
-	whdload "SoundAtaxVol2.Slave"
+  whdload "SoundAtaxVol2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

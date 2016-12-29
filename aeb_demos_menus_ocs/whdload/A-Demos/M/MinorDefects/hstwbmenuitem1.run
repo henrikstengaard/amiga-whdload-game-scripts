@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MinorDefects/"
+IF EXISTS ENV:whdloadargs
+	whdload "MinorDefects.Slave" $whdloadargs
+ELSE
+	whdload "MinorDefects.Slave"
+ENDIF

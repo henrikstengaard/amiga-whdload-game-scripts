@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BATFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "BATFr.Slave" $whdloadargs
+ELSE
+	whdload "BATFr.Slave"
+ENDIF

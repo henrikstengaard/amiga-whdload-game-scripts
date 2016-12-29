@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Deep Core - Balance
+RunFile=Deepcore.Slave
+AGS2Name=Deep Core - Balance
+AGS2IndexName=D
+AGS2FileName=Deep Core - Balance
+iGameName=Deep Core - Balance

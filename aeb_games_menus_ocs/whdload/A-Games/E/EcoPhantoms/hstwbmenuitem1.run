@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EcoPhantoms/"
+IF EXISTS ENV:whdloadargs
+	whdload "EcoPhantoms.Slave" $whdloadargs
+ELSE
+	whdload "EcoPhantoms.Slave"
+ENDIF

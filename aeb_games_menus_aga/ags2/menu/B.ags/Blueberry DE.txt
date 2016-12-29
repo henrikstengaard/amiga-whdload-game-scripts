@@ -1,6 +1,6 @@
 Name      : Blueberry
-Publisher : Infogrames
 Language  : German
+Publisher : Infogrames
 Year      : 1988
 Genre     : Adventure - Animated Graphics/Text
 Players   : 1 Only

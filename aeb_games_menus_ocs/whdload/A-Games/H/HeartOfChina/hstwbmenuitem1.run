@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HeartOfChina/"
+IF EXISTS ENV:whdloadargs
+	whdload "HeartOfChina.Slave" $whdloadargs
+ELSE
+	whdload "HeartOfChina.Slave"
+ENDIF

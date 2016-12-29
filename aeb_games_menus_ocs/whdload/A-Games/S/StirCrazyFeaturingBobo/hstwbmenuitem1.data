@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bobo
+RunFile=StirCrazyFeaturingBobo.Slave
+AGS2Name=Bobo
+AGS2IndexName=B
+AGS2FileName=Bobo
+iGameName=Bobo

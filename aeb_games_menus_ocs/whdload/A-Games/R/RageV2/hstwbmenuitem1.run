@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RageV2/"
+IF EXISTS ENV:whdloadargs
+	whdload "RageV2.Slave" $whdloadargs
+ELSE
+	whdload "RageV2.Slave"
+ENDIF

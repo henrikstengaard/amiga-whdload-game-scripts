@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Apache&OverdriveDemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "Apache&OverdriveDemo.Slave" $whdloadargs
+ELSE
+	whdload "Apache&OverdriveDemo.Slave"
+ENDIF

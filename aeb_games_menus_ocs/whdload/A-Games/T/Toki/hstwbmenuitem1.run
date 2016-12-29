@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Toki/"
+IF EXISTS ENV:whdloadargs
+	whdload "Toki.Slave" $whdloadargs
+ELSE
+	whdload "Toki.Slave"
+ENDIF

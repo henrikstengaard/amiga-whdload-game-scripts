@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Viz
+RunFile=Viz.Slave
+AGS2Name=Viz
+AGS2IndexName=V
+AGS2FileName=Viz
+iGameName=Viz

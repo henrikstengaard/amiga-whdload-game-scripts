@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BatmanReturns/"
+IF EXISTS ENV:whdloadargs
+	whdload "BatmanReturns.Slave" $whdloadargs
+ELSE
+	whdload "BatmanReturns.Slave"
+ENDIF

@@ -1,7 +1,0 @@
-Name      : Alfabet Smierci
-Publisher : Arte
-Language  : Polish
-Year      : 1996
-Genre     : Adventure - Graphics/Text
-Players   : 1 Only
-Whdload   : AlfabetSmierciAGAPl.Slave

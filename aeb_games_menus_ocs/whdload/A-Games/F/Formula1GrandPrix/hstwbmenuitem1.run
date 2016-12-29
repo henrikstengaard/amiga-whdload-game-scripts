@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Formula1GrandPrix/"
+IF EXISTS ENV:whdloadargs
+	whdload "Formula1GrandPrix.Slave" $whdloadargs
+ELSE
+	whdload "Formula1GrandPrix.Slave"
+ENDIF

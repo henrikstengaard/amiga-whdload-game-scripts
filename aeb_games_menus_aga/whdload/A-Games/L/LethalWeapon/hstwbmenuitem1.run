@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LethalWeapon/"
+IF EXISTS ENV:whdloadargs
+	whdload "LethalWeapon.Slave" $whdloadargs
+ELSE
+	whdload "LethalWeapon.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ParanoiaComplex/"
+IF EXISTS ENV:whdloadargs
+	whdload "ParanoiaComplex.Slave" $whdloadargs
+ELSE
+	whdload "ParanoiaComplex.Slave"
+ENDIF

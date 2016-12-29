@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PharaohsCurse/"
+IF EXISTS ENV:whdloadargs
+	whdload "PharaohsCurse.Slave" $whdloadargs
+ELSE
+	whdload "PharaohsCurse.Slave"
+ENDIF

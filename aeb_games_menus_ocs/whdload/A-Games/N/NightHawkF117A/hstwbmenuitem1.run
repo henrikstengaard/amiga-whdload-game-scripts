@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NightHawkF117A/"
+IF EXISTS ENV:whdloadargs
+	whdload "NightHawkF117A.Slave" $whdloadargs
+ELSE
+	whdload "NightHawkF117A.Slave"
+ENDIF

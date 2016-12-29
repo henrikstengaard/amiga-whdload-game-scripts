@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tracker
+RunFile=Tracker.Slave
+AGS2Name=Tracker
+AGS2IndexName=T
+AGS2FileName=Tracker
+iGameName=Tracker

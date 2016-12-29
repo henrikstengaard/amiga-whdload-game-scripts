@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Vigilante
+RunFile=Vigilante.Slave
+AGS2Name=Vigilante
+AGS2IndexName=V
+AGS2FileName=Vigilante
+iGameName=Vigilante

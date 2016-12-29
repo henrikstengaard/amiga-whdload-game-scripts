@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/XTremeRacingAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "XTremeRacingAGA.slave" $whdloadargs
+ELSE
+	whdload "XTremeRacingAGA.slave"
+ENDIF

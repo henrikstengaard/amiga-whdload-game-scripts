@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SoundtrackerInjury2/"
+IF EXISTS ENV:whdloadargs
+	whdload "SoundtrackerInjury2.Slave" $whdloadargs
+ELSE
+	whdload "SoundtrackerInjury2.Slave"
+ENDIF

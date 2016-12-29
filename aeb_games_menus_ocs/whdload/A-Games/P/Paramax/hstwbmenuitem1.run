@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Paramax/"
+IF EXISTS ENV:whdloadargs
+	whdload "Paramax.Slave" $whdloadargs
+ELSE
+	whdload "Paramax.Slave"
+ENDIF

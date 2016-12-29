@@ -1,4 +1,5 @@
 Name      : Bundesliga Manager Hattrick
+Version   : AGA
 Publisher : Software 2000
 Year      : 1994
 Genre     : Sports - Football/Soccer

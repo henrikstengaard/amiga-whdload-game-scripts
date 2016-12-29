@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:L/LegendsOfValourFr/LegendsOfValourFr.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "L" "Legends of Valour FR"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "L" "Legends of Valour FR"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/LegendsOfValourFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "LegendsOfValourFr.Slave" $whdloadargs
+  whdload "LegendsOfValourFr.Slave" $whdloadargs
 ELSE
-	whdload "LegendsOfValourFr.Slave"
+  whdload "LegendsOfValourFr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

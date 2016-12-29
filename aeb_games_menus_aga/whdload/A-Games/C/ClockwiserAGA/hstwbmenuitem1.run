@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ClockwiserAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "ClockwiserAGA.Slave" $whdloadargs
+ELSE
+	whdload "ClockwiserAGA.Slave"
+ENDIF

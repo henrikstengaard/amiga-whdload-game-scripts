@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Football Glory
+RunFile=FootballGlory.Slave
+AGS2Name=Football Glory
+AGS2IndexName=F
+AGS2FileName=Football Glory
+iGameName=Football Glory

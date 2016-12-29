@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HeartOfTheDragon3Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "HeartOfTheDragon3Disk.Slave" $whdloadargs
+ELSE
+	whdload "HeartOfTheDragon3Disk.Slave"
+ENDIF

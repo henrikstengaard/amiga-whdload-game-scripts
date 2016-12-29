@@ -1,0 +1,7 @@
+Name      : Corporation
+Version   : 2Disk
+Publisher : Core Design
+Year      : 1990
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : Corporation2Disk.slave

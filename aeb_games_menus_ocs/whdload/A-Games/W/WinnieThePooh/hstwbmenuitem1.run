@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WinnieThePooh/"
+IF EXISTS ENV:whdloadargs
+	whdload "WinnieThePooh.Slave" $whdloadargs
+ELSE
+	whdload "WinnieThePooh.Slave"
+ENDIF

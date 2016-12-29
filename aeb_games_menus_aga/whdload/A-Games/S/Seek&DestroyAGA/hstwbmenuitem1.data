@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Seek and Destroy AGA
+RunFile=Seek&DestroyAGA.Slave
+AGS2Name=Seek and Destroy AGA
+AGS2IndexName=S
+AGS2FileName=Seek and Destroy AGA
+iGameName=Seek and Destroy AGA

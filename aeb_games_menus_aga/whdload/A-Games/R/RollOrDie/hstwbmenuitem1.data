@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Roll or Die
+RunFile=RollOrDie.slave
+AGS2Name=Roll or Die
+AGS2IndexName=R
+AGS2FileName=Roll or Die
+iGameName=Roll or Die

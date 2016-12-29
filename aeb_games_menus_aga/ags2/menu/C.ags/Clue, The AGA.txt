@@ -1,4 +1,5 @@
 Name      : Clue!, The
+Version   : AGA
 Publisher : Kompart
 Year      : 1994
 Genre     : Adventure - Point and Click

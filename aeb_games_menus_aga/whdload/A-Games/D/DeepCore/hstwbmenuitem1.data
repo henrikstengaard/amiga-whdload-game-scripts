@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Deep Core
+RunFile=DeepCore.slave
+AGS2Name=Deep Core
+AGS2IndexName=D
+AGS2FileName=Deep Core
+iGameName=Deep Core

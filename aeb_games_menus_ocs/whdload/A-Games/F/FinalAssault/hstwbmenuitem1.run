@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FinalAssault/"
+IF EXISTS ENV:whdloadargs
+	whdload "FinalAssault.Slave" $whdloadargs
+ELSE
+	whdload "FinalAssault.Slave"
+ENDIF

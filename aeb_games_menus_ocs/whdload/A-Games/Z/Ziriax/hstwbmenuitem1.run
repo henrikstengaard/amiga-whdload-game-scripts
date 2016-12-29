@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Z/Ziriax/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ziriax.Slave" $whdloadargs
+ELSE
+	whdload "Ziriax.Slave"
+ENDIF

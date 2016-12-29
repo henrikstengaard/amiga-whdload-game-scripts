@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Apache Demo
+RunFile=Apache&OverdriveDemo.Slave
+AGS2Name=Apache Demo
+AGS2IndexName=A
+AGS2FileName=Apache Demo
+iGameName=Apache Demo

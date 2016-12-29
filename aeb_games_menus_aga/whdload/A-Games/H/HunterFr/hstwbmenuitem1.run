@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HunterFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "HunterFr.slave" $whdloadargs
+ELSE
+	whdload "HunterFr.slave"
+ENDIF

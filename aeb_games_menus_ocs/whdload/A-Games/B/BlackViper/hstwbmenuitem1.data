@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Black Viper
+RunFile=BlackViper.Slave
+AGS2Name=Black Viper
+AGS2IndexName=B
+AGS2FileName=Black Viper
+iGameName=Black Viper

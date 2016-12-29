@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KartingGrandPrix/"
+IF EXISTS ENV:whdloadargs
+	whdload "KartingGrandPrix.Slave" $whdloadargs
+ELSE
+	whdload "KartingGrandPrix.Slave"
+ENDIF

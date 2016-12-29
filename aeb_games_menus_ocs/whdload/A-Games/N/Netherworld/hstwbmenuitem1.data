@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Netherworld
+RunFile=Netherworld.Slave
+AGS2Name=Netherworld
+AGS2IndexName=N
+AGS2FileName=Netherworld
+iGameName=Netherworld

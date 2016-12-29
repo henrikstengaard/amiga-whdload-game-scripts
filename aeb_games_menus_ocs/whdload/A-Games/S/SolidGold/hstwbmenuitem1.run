@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SolidGold/"
+IF EXISTS ENV:whdloadargs
+	whdload "SolidGold.slave" $whdloadargs
+ELSE
+	whdload "SolidGold.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Ishar2Es/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ishar2Es.Slave" $whdloadargs
+ELSE
+	whdload "Ishar2Es.Slave"
+ENDIF

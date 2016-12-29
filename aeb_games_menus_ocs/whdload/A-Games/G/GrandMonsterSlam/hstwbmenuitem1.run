@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GrandMonsterSlam/"
+IF EXISTS ENV:whdloadargs
+	whdload "GrandMonsterSlam.Slave" $whdloadargs
+ELSE
+	whdload "GrandMonsterSlam.Slave"
+ENDIF

@@ -1,5 +1,0 @@
-Name      : Denaris
-Publisher : Electronic Arts
-Year      : 1989
-Players   : 1 or 2
-Whdload   : Denaris1Disk.Slave

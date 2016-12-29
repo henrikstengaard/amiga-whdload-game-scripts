@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cytron/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cytron.slave" $whdloadargs
+ELSE
+	whdload "Cytron.slave"
+ENDIF

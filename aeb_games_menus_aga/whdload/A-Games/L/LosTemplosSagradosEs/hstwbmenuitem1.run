@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LosTemplosSagradosEs/"
+IF EXISTS ENV:whdloadargs
+	whdload "LosTemplosSagradosEs.slave" $whdloadargs
+ELSE
+	whdload "LosTemplosSagradosEs.slave"
+ENDIF

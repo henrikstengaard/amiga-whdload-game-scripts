@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RoadkillCD32NoIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "RoadKillCD32NoIntro.Slave" $whdloadargs
+ELSE
+	whdload "RoadKillCD32NoIntro.Slave"
+ENDIF

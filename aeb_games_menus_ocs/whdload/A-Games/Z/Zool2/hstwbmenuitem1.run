@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Z/Zool2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Zool2.Slave" $whdloadargs
+ELSE
+	whdload "Zool2.Slave"
+ENDIF

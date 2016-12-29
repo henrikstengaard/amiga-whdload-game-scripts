@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/StateOfTheArt/"
+IF EXISTS ENV:whdloadargs
+	whdload "StateOfTheArt.Slave" $whdloadargs
+ELSE
+	whdload "StateOfTheArt.Slave"
+ENDIF

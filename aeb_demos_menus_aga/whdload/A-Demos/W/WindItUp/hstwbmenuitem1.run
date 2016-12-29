@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WindItUp/"
+IF EXISTS ENV:whdloadargs
+	whdload "WindItUp.Slave" $whdloadargs
+ELSE
+	whdload "WindItUp.Slave"
+ENDIF

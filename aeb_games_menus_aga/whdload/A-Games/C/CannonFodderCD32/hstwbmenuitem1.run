@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CannonFodderCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "CannonFodderCD32.Slave" $whdloadargs
+ELSE
+	whdload "CannonFodderCD32.Slave"
+ENDIF

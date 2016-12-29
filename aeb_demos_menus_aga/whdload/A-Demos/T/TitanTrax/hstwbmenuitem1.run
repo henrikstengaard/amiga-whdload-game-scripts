@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TitanTrax/"
+IF EXISTS ENV:whdloadargs
+	whdload "TitanTrax.slave" $whdloadargs
+ELSE
+	whdload "TitanTrax.slave"
+ENDIF

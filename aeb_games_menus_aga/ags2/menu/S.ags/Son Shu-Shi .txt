@@ -1,6 +1,0 @@
-Name      : Son Shu-Shi
-Publisher : Expose Software
-Year      : 1992
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : SonShuShiFiles.Slave

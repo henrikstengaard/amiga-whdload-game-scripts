@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpaceCrusade&VoyageBeyond/"
+IF EXISTS ENV:whdloadargs
+	whdload "VoyageBeyond.Slave" $whdloadargs
+ELSE
+	whdload "VoyageBeyond.Slave"
+ENDIF

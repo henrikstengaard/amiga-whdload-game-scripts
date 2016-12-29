@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OperationThunderbolt/"
+IF EXISTS ENV:whdloadargs
+	whdload "OperationThunderbolt.Slave" $whdloadargs
+ELSE
+	whdload "OperationThunderbolt.Slave"
+ENDIF

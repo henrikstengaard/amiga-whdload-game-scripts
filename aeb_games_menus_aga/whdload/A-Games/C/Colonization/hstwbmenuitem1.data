@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Colonization
+RunFile=Colonization.Slave
+AGS2Name=Colonization
+AGS2IndexName=C
+AGS2FileName=Colonization
+iGameName=Colonization

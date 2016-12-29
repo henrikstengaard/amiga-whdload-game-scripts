@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Raffles
+RunFile=Raffles.slave
+AGS2Name=Raffles
+AGS2IndexName=R
+AGS2FileName=Raffles
+iGameName=Raffles

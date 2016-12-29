@@ -1,4 +1,5 @@
 Name      : Theme Park
+Version   : AGA
 Publisher : Electronic Arts
 Year      : 1994
 Genre     : Strategy - Miscellaneous

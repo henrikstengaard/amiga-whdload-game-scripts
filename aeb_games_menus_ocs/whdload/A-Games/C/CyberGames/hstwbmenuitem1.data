@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cyber Games
+RunFile=CyberGames.Slave
+AGS2Name=Cyber Games
+AGS2IndexName=C
+AGS2FileName=Cyber Games
+iGameName=Cyber Games

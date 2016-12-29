@@ -1,0 +1,7 @@
+Name      : Corporation
+Version   : Missions 3Disk
+Publisher : Core Design
+Year      : 1990
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+Whdload   : Corporation&Missions3Disk.slave

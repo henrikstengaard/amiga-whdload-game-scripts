@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Klax/"
+IF EXISTS ENV:whdloadargs
+	whdload "Klax.Slave" $whdloadargs
+ELSE
+	whdload "Klax.Slave"
+ENDIF

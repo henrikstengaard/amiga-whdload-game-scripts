@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Jupiter Probe
+RunFile=JupiterProbe.Slave
+AGS2Name=Jupiter Probe
+AGS2IndexName=J
+AGS2FileName=Jupiter Probe
+iGameName=Jupiter Probe

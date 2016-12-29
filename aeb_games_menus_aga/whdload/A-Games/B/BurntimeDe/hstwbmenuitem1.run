@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BurntimeDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "BurntimeDe.Slave" $whdloadargs
+ELSE
+	whdload "BurntimeDe.Slave"
+ENDIF

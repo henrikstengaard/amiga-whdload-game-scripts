@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Junior Typist
+RunFile=JuniorTypist.Slave
+AGS2Name=Junior Typist
+AGS2IndexName=J
+AGS2FileName=Junior Typist
+iGameName=Junior Typist

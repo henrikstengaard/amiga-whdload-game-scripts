@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hard Drivin'
+RunFile=HardDrivin.Slave
+AGS2Name=Hard Drivin'
+AGS2IndexName=H
+AGS2FileName=Hard Drivin'
+iGameName=Hard Drivin'

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/Legoland/"
+IF EXISTS ENV:whdloadargs
+	whdload "Legoland.Slave" $whdloadargs
+ELSE
+	whdload "Legoland.Slave"
+ENDIF

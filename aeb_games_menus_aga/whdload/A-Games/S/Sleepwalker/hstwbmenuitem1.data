@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sleepwalker
+RunFile=Sleepwalker.Slave
+AGS2Name=Sleepwalker
+AGS2IndexName=S
+AGS2FileName=Sleepwalker
+iGameName=Sleepwalker

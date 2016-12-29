@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Reunion
+RunFile=Reunion.Slave
+AGS2Name=Reunion
+AGS2IndexName=R
+AGS2FileName=Reunion
+iGameName=Reunion

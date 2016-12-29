@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Platoon
+RunFile=Platoon.Slave
+AGS2Name=Platoon
+AGS2IndexName=P
+AGS2FileName=Platoon
+iGameName=Platoon

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Mousetrap/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mousetrap.Slave" $whdloadargs
+ELSE
+	whdload "Mousetrap.Slave"
+ENDIF

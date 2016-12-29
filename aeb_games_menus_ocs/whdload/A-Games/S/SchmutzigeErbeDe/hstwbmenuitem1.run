@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SchmutzigeErbeDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "SchmutzigeErbeDe.Slave" $whdloadargs
+ELSE
+	whdload "SchmutzigeErbeDe.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MiamiViceTheme/"
+IF EXISTS ENV:whdloadargs
+	whdload "MiamiViceTheme.slave" $whdloadargs
+ELSE
+	whdload "MiamiViceTheme.slave"
+ENDIF

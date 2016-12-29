@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Driller
+RunFile=Driller.Slave
+AGS2Name=Driller
+AGS2IndexName=D
+AGS2FileName=Driller
+iGameName=Driller

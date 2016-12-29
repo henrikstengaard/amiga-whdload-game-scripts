@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Amiga Karate
+RunFile=AmigaKarate.Slave
+AGS2Name=Amiga Karate
+AGS2IndexName=A
+AGS2FileName=Amiga Karate
+iGameName=Amiga Karate

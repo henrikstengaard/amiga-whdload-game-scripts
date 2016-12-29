@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Violator
+RunFile=Violator.Slave
+AGS2Name=Violator
+AGS2IndexName=V
+AGS2FileName=Violator
+iGameName=Violator

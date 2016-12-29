@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/ReturnOfTheJedi/"
+IF EXISTS ENV:whdloadargs
+	whdload "ReturnOfTheJedi.slave" $whdloadargs
+ELSE
+	whdload "ReturnOfTheJedi.slave"
+ENDIF

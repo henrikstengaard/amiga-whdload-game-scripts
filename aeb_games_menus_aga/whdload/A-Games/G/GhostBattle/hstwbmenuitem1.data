@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ghost Battle
+RunFile=GhostBattle.Slave
+AGS2Name=Ghost Battle
+AGS2IndexName=G
+AGS2FileName=Ghost Battle
+iGameName=Ghost Battle

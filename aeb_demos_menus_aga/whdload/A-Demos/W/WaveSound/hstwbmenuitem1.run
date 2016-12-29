@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WaveSound/"
+IF EXISTS ENV:whdloadargs
+	whdload "WaveSound.Slave" $whdloadargs
+ELSE
+	whdload "WaveSound.Slave"
+ENDIF

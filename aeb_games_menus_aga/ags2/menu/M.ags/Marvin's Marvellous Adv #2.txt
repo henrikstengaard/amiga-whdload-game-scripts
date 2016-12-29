@@ -1,4 +1,5 @@
 Name      : Marvin's Marvellous Adventure
+Version   : CD32
 Publisher : 21st Century Entertainment
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

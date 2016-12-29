@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Biplane Duel
+RunFile=BiplaneDuel.Slave
+AGS2Name=Biplane Duel
+AGS2IndexName=B
+AGS2FileName=Biplane Duel
+iGameName=Biplane Duel

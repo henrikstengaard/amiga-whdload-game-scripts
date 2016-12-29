@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SecretOfMonkeyIsland/"
+IF EXISTS ENV:whdloadargs
+	whdload "SecretOfMonkeyIsland.slave" $whdloadargs
+ELSE
+	whdload "SecretOfMonkeyIsland.slave"
+ENDIF

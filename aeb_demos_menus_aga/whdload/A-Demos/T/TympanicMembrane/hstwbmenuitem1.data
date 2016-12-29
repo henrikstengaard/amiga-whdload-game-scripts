@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tympanic Membrane - Panacea
+RunFile=TympanicMembrane.Slave
+AGS2Name=Tympanic Membrane - Panacea
+AGS2IndexName=T
+AGS2FileName=Tympanic Membrane - Panace
+iGameName=Tympanic Membrane - Panacea

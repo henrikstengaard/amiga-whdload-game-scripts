@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Oktagon/"
+IF EXISTS ENV:whdloadargs
+	whdload "Oktagon.Slave" $whdloadargs
+ELSE
+	whdload "Oktagon.Slave"
+ENDIF

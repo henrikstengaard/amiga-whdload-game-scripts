@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=West Phaser
+RunFile=WestPhaser.Slave
+AGS2Name=West Phaser
+AGS2IndexName=W
+AGS2FileName=West Phaser
+iGameName=West Phaser

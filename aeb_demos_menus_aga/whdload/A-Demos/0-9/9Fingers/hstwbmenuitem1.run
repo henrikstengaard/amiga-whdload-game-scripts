@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/9Fingers/"
+IF EXISTS ENV:whdloadargs
+	whdload "9Fingers.Slave" $whdloadargs
+ELSE
+	whdload "9Fingers.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mega Motion
+RunFile=MegaMotion.slave
+AGS2Name=Mega Motion
+AGS2IndexName=M
+AGS2FileName=Mega Motion
+iGameName=Mega Motion

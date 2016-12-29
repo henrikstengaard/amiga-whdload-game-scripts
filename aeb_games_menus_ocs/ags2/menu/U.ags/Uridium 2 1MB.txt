@@ -1,0 +1,6 @@
+Name      : Uridium 2
+Version   : 1MB
+Publisher : Renegade
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+Whdload   : Uridium21MB.Slave

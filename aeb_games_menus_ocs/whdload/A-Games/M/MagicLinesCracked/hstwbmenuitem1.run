@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MagicLinesCracked/"
+IF EXISTS ENV:whdloadargs
+	whdload "MagicLinesCracked.Slave" $whdloadargs
+ELSE
+	whdload "MagicLinesCracked.Slave"
+ENDIF

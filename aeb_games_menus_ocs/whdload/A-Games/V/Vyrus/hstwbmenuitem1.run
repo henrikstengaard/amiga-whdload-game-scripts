@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Vyrus/"
+IF EXISTS ENV:whdloadargs
+	whdload "Vyrus.Slave" $whdloadargs
+ELSE
+	whdload "Vyrus.Slave"
+ENDIF

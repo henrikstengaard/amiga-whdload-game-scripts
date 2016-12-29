@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blue Angels
+RunFile=BlueAngels.Slave
+AGS2Name=Blue Angels
+AGS2IndexName=B
+AGS2FileName=Blue Angels
+iGameName=Blue Angels

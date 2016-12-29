@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hotshot
+RunFile=Hotshot.Slave
+AGS2Name=Hotshot
+AGS2IndexName=H
+AGS2FileName=Hotshot
+iGameName=Hotshot

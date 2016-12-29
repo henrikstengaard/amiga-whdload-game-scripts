@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Legacy TheGame
+RunFile=TheLegacyGame.slave
+AGS2Name=Legacy TheGame
+AGS2IndexName=L
+AGS2FileName=Legacy TheGame
+iGameName=Legacy TheGame

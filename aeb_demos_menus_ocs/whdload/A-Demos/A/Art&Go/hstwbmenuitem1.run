@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Art&Go/"
+IF EXISTS ENV:whdloadargs
+	whdload "Art&Go.Slave" $whdloadargs
+ELSE
+	whdload "Art&Go.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Castlevania
+RunFile=CastleVania.slave
+AGS2Name=Castlevania
+AGS2IndexName=C
+AGS2FileName=Castlevania
+iGameName=Castlevania

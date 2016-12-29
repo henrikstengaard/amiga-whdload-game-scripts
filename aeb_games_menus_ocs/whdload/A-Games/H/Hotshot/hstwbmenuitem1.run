@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hotshot/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hotshot.Slave" $whdloadargs
+ELSE
+	whdload "Hotshot.Slave"
+ENDIF

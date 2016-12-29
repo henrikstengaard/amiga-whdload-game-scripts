@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MatchOfTheDay/"
+IF EXISTS ENV:whdloadargs
+	whdload "MatchOfTheDay.Slave" $whdloadargs
+ELSE
+	whdload "MatchOfTheDay.Slave"
+ENDIF

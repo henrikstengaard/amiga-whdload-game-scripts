@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Elite
+RunFile=Elite.Slave
+AGS2Name=Elite
+AGS2IndexName=E
+AGS2FileName=Elite
+iGameName=Elite

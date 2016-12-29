@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/Psychotic/"
+IF EXISTS ENV:whdloadargs
+	whdload "Psychotic.Slave" $whdloadargs
+ELSE
+	whdload "Psychotic.Slave"
+ENDIF

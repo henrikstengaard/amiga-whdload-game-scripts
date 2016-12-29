@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:U/UltimateGameBoySimulator/"
+IF EXISTS ENV:whdloadargs
+	whdload "UltimateGameBoySimulator.Slave" $whdloadargs
+ELSE
+	whdload "UltimateGameBoySimulator.Slave"
+ENDIF

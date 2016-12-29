@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Corruption
+RunFile=Corruption.Slave
+AGS2Name=Corruption
+AGS2IndexName=C
+AGS2FileName=Corruption
+iGameName=Corruption

@@ -1,4 +1,5 @@
 Name      : Wheels on Fire
+Version   : AGA
 Publisher : Verkosoft
 Year      : 1997
 Genre     : Racing - Cars

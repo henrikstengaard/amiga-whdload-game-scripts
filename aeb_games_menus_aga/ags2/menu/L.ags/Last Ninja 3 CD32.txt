@@ -1,4 +1,5 @@
 Name      : Last Ninja 3
+Version   : CD32
 Publisher : System 3
 Year      : 1991
 Genre     : Adventure - Arcade 3D

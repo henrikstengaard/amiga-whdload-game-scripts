@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Fireblaster
+RunFile=Fireblaster.Slave
+AGS2Name=Fireblaster
+AGS2IndexName=F
+AGS2FileName=Fireblaster
+iGameName=Fireblaster

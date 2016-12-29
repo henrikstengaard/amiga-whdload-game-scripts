@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/Xybots/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xybots.Slave" $whdloadargs
+ELSE
+	whdload "Xybots.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blood Money
+RunFile=BloodMoney.slave
+AGS2Name=Blood Money
+AGS2IndexName=B
+AGS2FileName=Blood Money
+iGameName=Blood Money

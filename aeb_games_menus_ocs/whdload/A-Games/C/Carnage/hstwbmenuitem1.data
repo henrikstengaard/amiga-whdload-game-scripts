@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Carnage
+RunFile=Carnage.slave
+AGS2Name=Carnage
+AGS2IndexName=C
+AGS2FileName=Carnage
+iGameName=Carnage

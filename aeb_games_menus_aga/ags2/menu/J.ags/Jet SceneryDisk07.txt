@@ -1,0 +1,6 @@
+Name      : Jet
+Version   : SceneryDisk07
+Publisher : SubLOGIC
+Year      : 1988
+Genre     : Simulation - Flight
+Whdload   : Jet&SceneryDisk07.Slave

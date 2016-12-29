@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PinballIllusionsCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "PinballIllusionsCD32.slave" $whdloadargs
+ELSE
+	whdload "PinballIllusionsCD32.slave"
+ENDIF

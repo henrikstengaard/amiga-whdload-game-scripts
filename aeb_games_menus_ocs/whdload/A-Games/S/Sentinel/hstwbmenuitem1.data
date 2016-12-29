@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sentinel, The
+RunFile=Sentinel.slave
+AGS2Name=Sentinel, The
+AGS2IndexName=S
+AGS2FileName=Sentinel, The
+iGameName=Sentinel, The

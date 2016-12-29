@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GnomeRanger/"
+IF EXISTS ENV:whdloadargs
+	whdload "GnomeRanger.Slave" $whdloadargs
+ELSE
+	whdload "GnomeRanger.Slave"
+ENDIF

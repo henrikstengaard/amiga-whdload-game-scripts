@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Xybots
+RunFile=Xybots.Slave
+AGS2Name=Xybots
+AGS2IndexName=X
+AGS2FileName=Xybots
+iGameName=Xybots

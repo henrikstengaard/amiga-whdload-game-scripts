@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GraemeSounessVectorSoccer/"
+IF EXISTS ENV:whdloadargs
+	whdload "GraemeSounessVectorSoccer.Slave" $whdloadargs
+ELSE
+	whdload "GraemeSounessVectorSoccer.Slave"
+ENDIF

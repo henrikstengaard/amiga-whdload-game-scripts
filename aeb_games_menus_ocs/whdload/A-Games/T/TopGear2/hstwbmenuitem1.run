@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TopGear2/"
+IF EXISTS ENV:whdloadargs
+	whdload "TopGear2.Slave" $whdloadargs
+ELSE
+	whdload "TopGear2.Slave"
+ENDIF

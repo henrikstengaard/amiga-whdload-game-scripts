@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TimeRunners23/"
+IF EXISTS ENV:whdloadargs
+	whdload "TimeRunners23.Slave" $whdloadargs
+ELSE
+	whdload "TimeRunners23.Slave"
+ENDIF

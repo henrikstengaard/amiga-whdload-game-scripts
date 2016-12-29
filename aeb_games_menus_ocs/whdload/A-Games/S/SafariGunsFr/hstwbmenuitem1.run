@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SafariGunsFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "SafariGunsFr.Slave" $whdloadargs
+ELSE
+	whdload "SafariGunsFr.Slave"
+ENDIF

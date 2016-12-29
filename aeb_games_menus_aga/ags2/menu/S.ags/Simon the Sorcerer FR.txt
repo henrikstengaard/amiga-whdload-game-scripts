@@ -1,6 +1,6 @@
 Name      : Simon the Sorcerer
-Publisher : Blittersoft
 Language  : French
+Publisher : Blittersoft
 Year      : 1993
 Genre     : Adventure - Point and Click
 Players   : 1 Only

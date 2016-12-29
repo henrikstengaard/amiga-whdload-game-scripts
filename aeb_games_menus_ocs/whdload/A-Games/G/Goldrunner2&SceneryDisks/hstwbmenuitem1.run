@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Goldrunner2&SceneryDisks/"
+IF EXISTS ENV:whdloadargs
+	whdload "Goldrunner2&SceneryDisks.Slave" $whdloadargs
+ELSE
+	whdload "Goldrunner2&SceneryDisks.Slave"
+ENDIF

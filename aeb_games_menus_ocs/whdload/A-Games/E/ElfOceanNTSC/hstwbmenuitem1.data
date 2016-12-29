@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Elf NTSC
+RunFile=ElfOceanNTSC.Slave
+AGS2Name=Elf NTSC
+AGS2IndexName=E
+AGS2FileName=Elf NTSC
+iGameName=Elf NTSC

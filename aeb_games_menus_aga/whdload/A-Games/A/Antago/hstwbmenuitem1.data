@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Antago
+RunFile=Antago.Slave
+AGS2Name=Antago
+AGS2IndexName=A
+AGS2FileName=Antago
+iGameName=Antago

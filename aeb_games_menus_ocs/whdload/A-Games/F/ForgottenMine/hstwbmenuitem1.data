@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Forgotten Mine
+RunFile=ForgottenMine.slave
+AGS2Name=Forgotten Mine
+AGS2IndexName=F
+AGS2FileName=Forgotten Mine
+iGameName=Forgotten Mine

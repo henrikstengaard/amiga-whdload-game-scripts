@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Time Machine
+RunFile=TimeMachine.slave
+AGS2Name=Time Machine
+AGS2IndexName=T
+AGS2FileName=Time Machine
+iGameName=Time Machine

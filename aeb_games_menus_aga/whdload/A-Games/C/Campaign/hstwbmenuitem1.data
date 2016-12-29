@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Campaign
+RunFile=Campaign.slave
+AGS2Name=Campaign
+AGS2IndexName=C
+AGS2FileName=Campaign
+iGameName=Campaign

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sensible Soccer
+RunFile=SensibleSoccer.Slave
+AGS2Name=Sensible Soccer
+AGS2IndexName=S
+AGS2FileName=Sensible Soccer
+iGameName=Sensible Soccer

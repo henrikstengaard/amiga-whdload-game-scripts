@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/IndigoImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "IndigoImage.Slave" $whdloadargs
+ELSE
+	whdload "IndigoImage.Slave"
+ENDIF

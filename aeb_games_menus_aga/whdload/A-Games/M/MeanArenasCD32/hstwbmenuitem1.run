@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MeanArenasCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "MeanArenasCD32.slave" $whdloadargs
+ELSE
+	whdload "MeanArenasCD32.slave"
+ENDIF

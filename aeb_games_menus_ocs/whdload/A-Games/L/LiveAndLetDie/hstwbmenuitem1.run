@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LiveAndLetDie/"
+IF EXISTS ENV:whdloadargs
+	whdload "LiveAndLetDie.Slave" $whdloadargs
+ELSE
+	whdload "LiveAndLetDie.Slave"
+ENDIF

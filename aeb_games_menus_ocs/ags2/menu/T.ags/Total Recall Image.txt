@@ -1,0 +1,7 @@
+Name      : Total Recall
+Version   : Image
+Publisher : Ocean
+Year      : 1990
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : TotalRecallImage.Slave

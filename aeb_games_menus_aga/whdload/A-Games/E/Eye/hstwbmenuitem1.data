@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Eye
+RunFile=Eye.Slave
+AGS2Name=Eye
+AGS2IndexName=E
+AGS2FileName=Eye
+iGameName=Eye

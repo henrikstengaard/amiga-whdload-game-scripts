@@ -1,5 +1,0 @@
-Name      : Ork
-Publisher : Psygnosis
-Year      : 1991
-Players   : 1 Only
-Whdload   : OrkNTSC.slave

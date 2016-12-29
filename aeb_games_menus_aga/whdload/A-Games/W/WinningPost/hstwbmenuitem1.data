@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Winning Post
+RunFile=WinningPost.Slave
+AGS2Name=Winning Post
+AGS2IndexName=W
+AGS2FileName=Winning Post
+iGameName=Winning Post

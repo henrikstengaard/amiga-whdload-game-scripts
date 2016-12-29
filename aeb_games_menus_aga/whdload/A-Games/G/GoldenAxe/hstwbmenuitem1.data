@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Golden Axe
+RunFile=GoldenAxe.slave
+AGS2Name=Golden Axe
+AGS2IndexName=G
+AGS2FileName=Golden Axe
+iGameName=Golden Axe

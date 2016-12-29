@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RapIsCrap/"
+IF EXISTS ENV:whdloadargs
+	whdload "RapIsCrap.Slave" $whdloadargs
+ELSE
+	whdload "RapIsCrap.Slave"
+ENDIF

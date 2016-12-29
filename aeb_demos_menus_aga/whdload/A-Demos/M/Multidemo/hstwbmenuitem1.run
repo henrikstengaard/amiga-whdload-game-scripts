@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Multidemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "Multidemo.Slave" $whdloadargs
+ELSE
+	whdload "Multidemo.Slave"
+ENDIF

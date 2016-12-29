@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:J/Just4YourEars/"
+IF EXISTS ENV:whdloadargs
+	whdload "Just4YourEars.Slave" $whdloadargs
+ELSE
+	whdload "Just4YourEars.Slave"
+ENDIF

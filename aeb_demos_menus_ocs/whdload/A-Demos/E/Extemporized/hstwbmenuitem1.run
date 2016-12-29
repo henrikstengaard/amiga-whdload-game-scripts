@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/Extemporized/"
+IF EXISTS ENV:whdloadargs
+	whdload "Extemporized.Slave" $whdloadargs
+ELSE
+	whdload "Extemporized.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrimeWave/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrimeWave.slave" $whdloadargs
+ELSE
+	whdload "CrimeWave.slave"
+ENDIF

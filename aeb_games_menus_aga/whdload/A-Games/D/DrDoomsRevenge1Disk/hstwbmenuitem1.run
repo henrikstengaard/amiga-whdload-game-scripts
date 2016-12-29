@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DrDoomsRevenge1Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "DrDoomsRevenge1Disk.Slave" $whdloadargs
+ELSE
+	whdload "DrDoomsRevenge1Disk.Slave"
+ENDIF

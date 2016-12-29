@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Elite/"
+IF EXISTS ENV:whdloadargs
+	whdload "Elite.Slave" $whdloadargs
+ELSE
+	whdload "Elite.Slave"
+ENDIF

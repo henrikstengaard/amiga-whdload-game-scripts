@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:K/Kefmania/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kefmania.Slave" $whdloadargs
+ELSE
+	whdload "Kefmania.Slave"
+ENDIF

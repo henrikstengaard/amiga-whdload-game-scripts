@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Global Trek
+RunFile=GlobalTrek.Slave
+AGS2Name=Global Trek
+AGS2IndexName=G
+AGS2FileName=Global Trek
+iGameName=Global Trek

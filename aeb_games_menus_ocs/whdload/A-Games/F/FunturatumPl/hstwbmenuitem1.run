@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FunturatumPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "FunturatumPl.slave" $whdloadargs
+ELSE
+	whdload "FunturatumPl.slave"
+ENDIF

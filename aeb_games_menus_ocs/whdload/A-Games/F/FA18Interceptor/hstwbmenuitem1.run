@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FA18Interceptor/"
+IF EXISTS ENV:whdloadargs
+	whdload "FA18Interceptor.slave" $whdloadargs
+ELSE
+	whdload "FA18Interceptor.slave"
+ENDIF

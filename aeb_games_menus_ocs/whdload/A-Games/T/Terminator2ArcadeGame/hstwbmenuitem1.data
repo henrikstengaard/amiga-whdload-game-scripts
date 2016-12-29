@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=T2: The Arcade Game
+RunFile=Terminator2ArcadeGame.slave
+AGS2Name=T2: The Arcade Game
+AGS2IndexName=T
+AGS2FileName=T2 The Arcade Game 
+iGameName=T2: The Arcade Game

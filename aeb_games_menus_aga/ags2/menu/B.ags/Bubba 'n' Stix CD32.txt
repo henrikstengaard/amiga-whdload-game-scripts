@@ -1,4 +1,5 @@
 Name      : Bubba 'n' Stix
+Version   : CD32
 Publisher : Core Design
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

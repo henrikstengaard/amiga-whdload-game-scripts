@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpikeInTransylvania/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpikeInTransylvania.Slave" $whdloadargs
+ELSE
+	whdload "SpikeInTransylvania.Slave"
+ENDIF

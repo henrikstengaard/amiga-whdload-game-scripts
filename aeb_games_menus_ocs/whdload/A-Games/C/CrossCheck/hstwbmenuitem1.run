@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrossCheck/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrossCheck.slave" $whdloadargs
+ELSE
+	whdload "CrossCheck.slave"
+ENDIF

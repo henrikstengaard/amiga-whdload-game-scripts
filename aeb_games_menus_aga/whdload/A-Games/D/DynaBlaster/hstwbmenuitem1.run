@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DynaBlaster/"
+IF EXISTS ENV:whdloadargs
+	whdload "DynaBlaster.Slave" $whdloadargs
+ELSE
+	whdload "DynaBlaster.Slave"
+ENDIF

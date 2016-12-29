@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/Back2Base/"
+IF EXISTS ENV:whdloadargs
+	whdload "Back2Base.Slave" $whdloadargs
+ELSE
+	whdload "Back2Base.Slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:F/FightinSpiritAGA/FightinSpiritAGA.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "F" "Fightin' Spirit AGA"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "F" "Fightin' Spirit AGA"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/FightinSpiritAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "FightinSpiritAGA.Slave" $whdloadargs
+  whdload "FightinSpiritAGA.Slave" $whdloadargs
 ELSE
-	whdload "FightinSpiritAGA.Slave"
+  whdload "FightinSpiritAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

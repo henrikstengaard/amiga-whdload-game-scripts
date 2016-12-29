@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Populous/"
+IF EXISTS ENV:whdloadargs
+	whdload "Populous.Slave" $whdloadargs
+ELSE
+	whdload "Populous.Slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:D/DigitalComplexityCrass/DigitalComplexityCrass.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "D" "Digital Complexity - Crass"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "D" "Digital Complexity - Crass"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:D/DigitalComplexityCrass/"
 IF EXISTS ENV:whdloadargs
-	whdload "DigitalComplexityCrass.Slave" $whdloadargs
+  whdload "DigitalComplexityCrass.Slave" $whdloadargs
 ELSE
-	whdload "DigitalComplexityCrass.Slave"
+  whdload "DigitalComplexityCrass.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

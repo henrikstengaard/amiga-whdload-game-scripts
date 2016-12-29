@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Thunderbirds/"
+IF EXISTS ENV:whdloadargs
+	whdload "Thunderbirds.slave" $whdloadargs
+ELSE
+	whdload "Thunderbirds.slave"
+ENDIF

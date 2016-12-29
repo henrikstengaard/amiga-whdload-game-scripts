@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NeverEndingStory2/"
+IF EXISTS ENV:whdloadargs
+	whdload "NeverEndingStory2.slave" $whdloadargs
+ELSE
+	whdload "NeverEndingStory2.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FaeryTaleAdventure/"
+IF EXISTS ENV:whdloadargs
+	whdload "FaeryTaleAdventure.slave" $whdloadargs
+ELSE
+	whdload "FaeryTaleAdventure.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DreamWebDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "DreamWebDe.Slave" $whdloadargs
+ELSE
+	whdload "DreamWebDe.Slave"
+ENDIF

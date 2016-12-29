@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JungleStrikeCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "JungleStrikeCD32.Slave" $whdloadargs
+ELSE
+	whdload "JungleStrikeCD32.Slave"
+ENDIF

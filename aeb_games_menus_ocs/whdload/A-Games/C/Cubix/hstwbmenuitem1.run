@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cubix/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cubix.Slave" $whdloadargs
+ELSE
+	whdload "Cubix.Slave"
+ENDIF

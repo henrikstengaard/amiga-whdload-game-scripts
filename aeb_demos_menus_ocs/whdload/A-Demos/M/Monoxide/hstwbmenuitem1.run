@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Monoxide/"
+IF EXISTS ENV:whdloadargs
+	whdload "Monoxide.Slave" $whdloadargs
+ELSE
+	whdload "Monoxide.Slave"
+ENDIF

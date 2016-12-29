@@ -1,6 +1,7 @@
 Name      : Populous II: Trials of the Olympian Gods
+Version   : ChallengeGames
 Publisher : Electronic Arts
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : ChallengeGames.slave
+Whdload   : Populous2.slave

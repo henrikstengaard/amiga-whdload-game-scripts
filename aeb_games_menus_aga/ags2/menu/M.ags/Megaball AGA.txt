@@ -1,4 +1,5 @@
 Name      : Megaball
+Version   : AGA
 Publisher : Shareware
 Year      : 1991
 Players   : 1 - 2 (1 simultaneous)

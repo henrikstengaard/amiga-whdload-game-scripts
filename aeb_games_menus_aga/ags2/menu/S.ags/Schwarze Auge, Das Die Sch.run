@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:S/SchwarzeAugeDe/SchwarzeAugeDe.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "S" "Schwarze Auge, Das Die Sch"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "S" "Schwarze Auge, Das Die Sch"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:S/SchwarzeAugeDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "SchwarzeAugeDe.slave" $whdloadargs
+  whdload "SchwarzeAugeDe.slave" $whdloadargs
 ELSE
-	whdload "SchwarzeAugeDe.slave"
+  whdload "SchwarzeAugeDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

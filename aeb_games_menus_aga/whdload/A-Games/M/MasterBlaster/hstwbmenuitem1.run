@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MasterBlaster/"
+IF EXISTS ENV:whdloadargs
+	whdload "MasterBlaster.Slave" $whdloadargs
+ELSE
+	whdload "MasterBlaster.Slave"
+ENDIF

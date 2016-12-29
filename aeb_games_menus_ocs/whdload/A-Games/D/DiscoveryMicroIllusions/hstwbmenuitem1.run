@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DiscoveryMicroIllusions/"
+IF EXISTS ENV:whdloadargs
+	whdload "DiscoveryMicroIllusions.Slave" $whdloadargs
+ELSE
+	whdload "DiscoveryMicroIllusions.Slave"
+ENDIF

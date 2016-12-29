@@ -1,4 +1,5 @@
 Name      : Dragonstone
+Version   : CD32
 Publisher : Core Design
 Year      : 1995
 Genre     : Adventure - Miscellaneous

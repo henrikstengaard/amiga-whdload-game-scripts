@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CarrierCommandNoMusic/"
+IF EXISTS ENV:whdloadargs
+	whdload "CarrierCommandNoMusic.Slave" $whdloadargs
+ELSE
+	whdload "CarrierCommandNoMusic.Slave"
+ENDIF

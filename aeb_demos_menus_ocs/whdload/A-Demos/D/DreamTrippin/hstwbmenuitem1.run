@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DreamTrippin/"
+IF EXISTS ENV:whdloadargs
+	whdload "DreamTrippin.Slave" $whdloadargs
+ELSE
+	whdload "DreamTrippin.Slave"
+ENDIF

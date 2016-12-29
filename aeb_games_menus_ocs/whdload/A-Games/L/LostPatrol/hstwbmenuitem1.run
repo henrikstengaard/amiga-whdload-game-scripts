@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LostPatrol/"
+IF EXISTS ENV:whdloadargs
+	whdload "LostPatrol.Slave" $whdloadargs
+ELSE
+	whdload "LostPatrol.Slave"
+ENDIF

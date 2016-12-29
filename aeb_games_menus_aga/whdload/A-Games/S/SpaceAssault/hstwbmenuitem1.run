@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpaceAssault/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpaceAssault.slave" $whdloadargs
+ELSE
+	whdload "SpaceAssault.slave"
+ENDIF

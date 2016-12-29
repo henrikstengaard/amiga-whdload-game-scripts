@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sleepwalker AGA
+RunFile=SleepwalkerAGA.Slave
+AGS2Name=Sleepwalker AGA
+AGS2IndexName=S
+AGS2FileName=Sleepwalker AGA
+iGameName=Sleepwalker AGA

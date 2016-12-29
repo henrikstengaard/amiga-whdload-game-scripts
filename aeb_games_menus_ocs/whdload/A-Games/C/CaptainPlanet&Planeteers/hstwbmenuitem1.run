@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CaptainPlanet&Planeteers/"
+IF EXISTS ENV:whdloadargs
+	whdload "CaptainPlanet&Planeteers.Slave" $whdloadargs
+ELSE
+	whdload "CaptainPlanet&Planeteers.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpaceGun/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpaceGun.Slave" $whdloadargs
+ELSE
+	whdload "SpaceGun.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=AWESOME
+RunFile=Awesome.Slave
+AGS2Name=AWESOME
+AGS2IndexName=A
+AGS2FileName=AWESOME
+iGameName=AWESOME

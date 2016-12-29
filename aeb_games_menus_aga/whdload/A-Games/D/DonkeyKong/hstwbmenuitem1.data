@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Donkey Kong
+RunFile=DonkeyKong.slave
+AGS2Name=Donkey Kong
+AGS2IndexName=D
+AGS2FileName=Donkey Kong
+iGameName=Donkey Kong

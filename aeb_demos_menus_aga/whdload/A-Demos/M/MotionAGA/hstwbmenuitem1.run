@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MotionAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "MotionAGA.slave" $whdloadargs
+ELSE
+	whdload "MotionAGA.slave"
+ENDIF

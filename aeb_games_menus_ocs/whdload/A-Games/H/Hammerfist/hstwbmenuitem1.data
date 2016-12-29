@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hammerfist
+RunFile=Hammerfist.slave
+AGS2Name=Hammerfist
+AGS2IndexName=H
+AGS2FileName=Hammerfist
+iGameName=Hammerfist

@@ -1,4 +1,5 @@
 Name      : Jungle Strike
+Version   : CD32
 Publisher : Ocean
 Year      : 1994
 Players   : 1 Only

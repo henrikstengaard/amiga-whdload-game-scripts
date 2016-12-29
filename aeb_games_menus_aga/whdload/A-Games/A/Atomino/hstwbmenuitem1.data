@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Atomino
+RunFile=Atomino.slave
+AGS2Name=Atomino
+AGS2IndexName=A
+AGS2FileName=Atomino
+iGameName=Atomino

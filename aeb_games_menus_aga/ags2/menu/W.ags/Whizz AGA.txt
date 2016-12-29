@@ -1,4 +1,5 @@
 Name      : Whizz
+Version   : AGA
 Publisher : Flair Software
 Year      : 1994
 Genre     : Platformer - 3D

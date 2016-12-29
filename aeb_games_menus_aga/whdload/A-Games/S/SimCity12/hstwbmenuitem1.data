@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sim City
+RunFile=SimCity12.Slave
+AGS2Name=Sim City
+AGS2IndexName=S
+AGS2FileName=Sim City
+iGameName=Sim City

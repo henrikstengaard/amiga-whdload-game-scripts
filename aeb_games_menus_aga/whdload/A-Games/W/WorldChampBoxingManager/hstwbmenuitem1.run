@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WorldChampBoxingManager/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldChampBoxingManager.Slave" $whdloadargs
+ELSE
+	whdload "WorldChampBoxingManager.Slave"
+ENDIF

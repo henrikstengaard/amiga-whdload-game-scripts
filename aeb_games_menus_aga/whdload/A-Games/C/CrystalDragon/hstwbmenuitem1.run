@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrystalDragon/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrystalDragon.Slave" $whdloadargs
+ELSE
+	whdload "CrystalDragon.Slave"
+ENDIF

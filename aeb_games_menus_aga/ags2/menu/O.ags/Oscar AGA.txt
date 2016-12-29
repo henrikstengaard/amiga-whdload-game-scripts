@@ -1,4 +1,5 @@
 Name      : Oscar
+Version   : AGA
 Publisher : Flair Software
 Year      : 1993
 Genre     : Platformer - Scrolling Screen

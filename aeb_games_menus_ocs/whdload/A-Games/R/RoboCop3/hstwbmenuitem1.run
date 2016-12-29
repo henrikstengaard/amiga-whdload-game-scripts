@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RoboCop3/"
+IF EXISTS ENV:whdloadargs
+	whdload "RoboCop3.slave" $whdloadargs
+ELSE
+	whdload "RoboCop3.slave"
+ENDIF

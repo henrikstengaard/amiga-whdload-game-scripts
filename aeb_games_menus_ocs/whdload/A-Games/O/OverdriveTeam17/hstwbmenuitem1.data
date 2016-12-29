@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Overdrive
+RunFile=OverdriveTeam17.Slave
+AGS2Name=Overdrive
+AGS2IndexName=O
+AGS2FileName=Overdrive  
+iGameName=Overdrive

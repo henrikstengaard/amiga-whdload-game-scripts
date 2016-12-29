@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Bismarck/"
+IF EXISTS ENV:whdloadargs
+	whdload "Bismarck.Slave" $whdloadargs
+ELSE
+	whdload "Bismarck.Slave"
+ENDIF

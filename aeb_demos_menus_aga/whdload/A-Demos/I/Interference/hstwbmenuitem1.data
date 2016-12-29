@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Interference - Sanity
+RunFile=Interference.Slave
+AGS2Name=Interference - Sanity
+AGS2IndexName=I
+AGS2FileName=Interference - Sanity
+iGameName=Interference - Sanity

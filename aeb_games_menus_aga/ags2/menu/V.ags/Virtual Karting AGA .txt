@@ -1,6 +1,0 @@
-Name      : Virtual Karting
-Publisher : OTM
-Year      : 1995
-Genre     : Racing - Miscellaneous
-Players   : 1 Only
-Whdload   : VirtualKartingDemoAGA.Slave

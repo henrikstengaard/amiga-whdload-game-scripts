@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Celebration/"
+IF EXISTS ENV:whdloadargs
+	whdload "Celebration.Slave" $whdloadargs
+ELSE
+	whdload "Celebration.Slave"
+ENDIF

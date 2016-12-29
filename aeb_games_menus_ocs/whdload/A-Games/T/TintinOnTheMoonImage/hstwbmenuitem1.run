@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TintinOnTheMoonImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "TintinOnTheMoonImage.Slave" $whdloadargs
+ELSE
+	whdload "TintinOnTheMoonImage.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Super Cauldron
+RunFile=SuperCauldron.Slave
+AGS2Name=Super Cauldron
+AGS2IndexName=S
+AGS2FileName=Super Cauldron
+iGameName=Super Cauldron

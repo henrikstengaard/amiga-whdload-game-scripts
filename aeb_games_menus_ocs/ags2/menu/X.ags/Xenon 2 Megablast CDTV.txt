@@ -1,0 +1,6 @@
+Name      : Xenon 2: Megablast
+Version   : CDTV
+Publisher : Image Works
+Year      : 1989
+Players   : 1 or 2
+Whdload   : Xenon2CDTV.Slave

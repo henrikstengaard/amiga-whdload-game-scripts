@@ -1,0 +1,7 @@
+Name      : Elf
+Version   : NTSC
+Publisher : Ocean
+Year      : 1991
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+Whdload   : ElfOceanNTSC.Slave

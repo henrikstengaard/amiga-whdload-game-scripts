@@ -1,4 +1,5 @@
 Name      : Seven Gates of Jambala, The
+Version   : Image
 Publisher : Unique
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

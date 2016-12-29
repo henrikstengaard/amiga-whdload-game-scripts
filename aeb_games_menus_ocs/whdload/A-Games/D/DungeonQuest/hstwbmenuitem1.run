@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DungeonQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "DungeonQuest.Slave" $whdloadargs
+ELSE
+	whdload "DungeonQuest.Slave"
+ENDIF

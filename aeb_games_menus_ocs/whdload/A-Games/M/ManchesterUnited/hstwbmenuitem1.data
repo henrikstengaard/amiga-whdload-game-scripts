@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Manchester United
+RunFile=ManchesterUnited.Slave
+AGS2Name=Manchester United
+AGS2IndexName=M
+AGS2FileName=Manchester United
+iGameName=Manchester United

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tanglewood
+RunFile=Tanglewood.Slave
+AGS2Name=Tanglewood
+AGS2IndexName=T
+AGS2FileName=Tanglewood
+iGameName=Tanglewood

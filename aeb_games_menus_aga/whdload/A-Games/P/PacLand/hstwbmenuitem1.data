@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pac-Land
+RunFile=PacLand.Slave
+AGS2Name=Pac-Land
+AGS2IndexName=P
+AGS2FileName=Pac-Land
+iGameName=Pac-Land

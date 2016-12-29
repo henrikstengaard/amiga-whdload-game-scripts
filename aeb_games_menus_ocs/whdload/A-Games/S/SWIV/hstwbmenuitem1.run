@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SWIV/"
+IF EXISTS ENV:whdloadargs
+	whdload "SWIV.Slave" $whdloadargs
+ELSE
+	whdload "SWIV.Slave"
+ENDIF

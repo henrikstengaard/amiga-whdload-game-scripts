@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CurseOfEnchantiaChipImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "CurseOfEnchantiaChipImage.Slave" $whdloadargs
+ELSE
+	whdload "CurseOfEnchantiaChipImage.Slave"
+ENDIF

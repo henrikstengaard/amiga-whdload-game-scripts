@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=NUMERIC - Profecy
+RunFile=Numeric.Slave
+AGS2Name=NUMERIC - Profecy
+AGS2IndexName=N
+AGS2FileName=NUMERIC - Profecy
+iGameName=NUMERIC - Profecy

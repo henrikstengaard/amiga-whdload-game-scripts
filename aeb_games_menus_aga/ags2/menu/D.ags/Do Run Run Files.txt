@@ -1,0 +1,7 @@
+Name      : Do! Run Run
+Version   : Files
+Publisher : Electrocoin Software
+Year      : 1990
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 or 2
+Whdload   : MrDoRunRunFiles.Slave

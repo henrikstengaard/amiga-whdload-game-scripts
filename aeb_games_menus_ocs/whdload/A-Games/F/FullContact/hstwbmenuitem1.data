@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Full Contact
+RunFile=FullContact.slave
+AGS2Name=Full Contact
+AGS2IndexName=F
+AGS2FileName=Full Contact
+iGameName=Full Contact

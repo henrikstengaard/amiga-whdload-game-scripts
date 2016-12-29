@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dungeon Master
+RunFile=DungeonMaster.slave
+AGS2Name=Dungeon Master
+AGS2IndexName=D
+AGS2FileName=Dungeon Master
+iGameName=Dungeon Master

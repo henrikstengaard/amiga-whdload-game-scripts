@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Phalanx/"
+IF EXISTS ENV:whdloadargs
+	whdload "Phalanx.Slave" $whdloadargs
+ELSE
+	whdload "Phalanx.Slave"
+ENDIF

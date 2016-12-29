@@ -1,5 +1,0 @@
-Name      : Batman: The Movie
-Publisher : Ocean / Data East / Hit Squad
-Year      : 1989
-Players   : 1
-Whdload   : BatmanTheMovie2Disk.Slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arcticfox
+RunFile=ArcticFox.Slave
+AGS2Name=Arcticfox
+AGS2IndexName=A
+AGS2FileName=Arcticfox
+iGameName=Arcticfox

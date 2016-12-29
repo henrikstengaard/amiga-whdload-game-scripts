@@ -1,0 +1,6 @@
+Name      : StarRay
+Version   : 2Disk
+Publisher : Logotron
+Year      : 1988
+Players   : 1 Only
+Whdload   : StarRay2Disk.slave

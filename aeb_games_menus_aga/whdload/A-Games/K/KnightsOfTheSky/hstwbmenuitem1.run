@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KnightsOfTheSky/"
+IF EXISTS ENV:whdloadargs
+	whdload "KnightsOfTheSky.Slave" $whdloadargs
+ELSE
+	whdload "KnightsOfTheSky.Slave"
+ENDIF

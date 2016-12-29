@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cruncher Factory
+RunFile=CruncherFactory.Slave
+AGS2Name=Cruncher Factory
+AGS2IndexName=C
+AGS2FileName=Cruncher Factory
+iGameName=Cruncher Factory

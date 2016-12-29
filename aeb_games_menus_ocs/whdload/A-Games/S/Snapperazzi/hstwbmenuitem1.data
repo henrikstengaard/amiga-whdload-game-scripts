@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Snapperazzi
+RunFile=Snapperazzi.Slave
+AGS2Name=Snapperazzi
+AGS2IndexName=S
+AGS2FileName=Snapperazzi
+iGameName=Snapperazzi

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Geisha
+RunFile=Geisha.Slave
+AGS2Name=Geisha
+AGS2IndexName=G
+AGS2FileName=Geisha
+iGameName=Geisha

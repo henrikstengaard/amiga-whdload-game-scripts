@@ -1,0 +1,7 @@
+Name      : Dog Fight
+Version   : 15MB 512KB
+Publisher : MicroProse Software
+Year      : 1993
+Genre     : Simulation - Flight
+Players   : 1 Only
+Whdload   : Dogfight512KB15MB.slave

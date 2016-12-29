@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Roboter/"
+IF EXISTS ENV:whdloadargs
+	whdload "Roboter.Slave" $whdloadargs
+ELSE
+	whdload "Roboter.Slave"
+ENDIF

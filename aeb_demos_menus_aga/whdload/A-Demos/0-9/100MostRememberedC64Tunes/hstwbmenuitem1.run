@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/100MostRememberedC64Tunes/"
+IF EXISTS ENV:whdloadargs
+	whdload "100MostRememberedC64Tunes.Slave" $whdloadargs
+ELSE
+	whdload "100MostRememberedC64Tunes.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Switchblade2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Switchblade2.Slave" $whdloadargs
+ELSE
+	whdload "Switchblade2.Slave"
+ENDIF

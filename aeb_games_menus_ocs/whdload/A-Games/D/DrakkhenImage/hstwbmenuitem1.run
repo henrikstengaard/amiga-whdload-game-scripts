@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DrakkhenImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "DrakkhenImage.Slave" $whdloadargs
+ELSE
+	whdload "DrakkhenImage.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Winzer
+RunFile=Winzer.Slave
+AGS2Name=Winzer
+AGS2IndexName=W
+AGS2FileName=Winzer
+iGameName=Winzer

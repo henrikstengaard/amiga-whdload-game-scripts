@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ApanoSin/"
+IF EXISTS ENV:whdloadargs
+	whdload "ApanoSin.Slave" $whdloadargs
+ELSE
+	whdload "ApanoSin.Slave"
+ENDIF

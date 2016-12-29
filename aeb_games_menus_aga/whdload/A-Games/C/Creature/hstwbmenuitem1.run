@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Creature/"
+IF EXISTS ENV:whdloadargs
+	whdload "Creature.Slave" $whdloadargs
+ELSE
+	whdload "Creature.Slave"
+ENDIF

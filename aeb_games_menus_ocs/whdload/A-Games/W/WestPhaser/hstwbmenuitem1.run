@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WestPhaser/"
+IF EXISTS ENV:whdloadargs
+	whdload "WestPhaser.Slave" $whdloadargs
+ELSE
+	whdload "WestPhaser.Slave"
+ENDIF

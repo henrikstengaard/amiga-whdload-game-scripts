@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Carrier Command NoMusic
+RunFile=CarrierCommandNoMusic.Slave
+AGS2Name=Carrier Command NoMusic
+AGS2IndexName=C
+AGS2FileName=Carrier Command NoMusic
+iGameName=Carrier Command NoMusic

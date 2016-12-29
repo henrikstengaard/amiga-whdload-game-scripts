@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:Q/QED2/"
+IF EXISTS ENV:whdloadargs
+	whdload "QED2.Slave" $whdloadargs
+ELSE
+	whdload "QED2.Slave"
+ENDIF

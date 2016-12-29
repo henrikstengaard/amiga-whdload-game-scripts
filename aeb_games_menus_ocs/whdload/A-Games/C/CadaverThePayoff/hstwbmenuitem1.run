@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CadaverThePayoff/"
+IF EXISTS ENV:whdloadargs
+	whdload "CadaverThePayoff.Slave" $whdloadargs
+ELSE
+	whdload "CadaverThePayoff.Slave"
+ENDIF

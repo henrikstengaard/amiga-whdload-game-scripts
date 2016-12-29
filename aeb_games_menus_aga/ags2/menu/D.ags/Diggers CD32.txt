@@ -1,4 +1,5 @@
 Name      : Diggers
+Version   : CD32
 Publisher : Millennium
 Year      : 1993
 Genre     : Arcade - Miscellaneous

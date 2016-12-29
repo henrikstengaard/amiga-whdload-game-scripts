@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/ImpossibleMission2025/"
+IF EXISTS ENV:whdloadargs
+	whdload "ImpossibleMission2025.slave" $whdloadargs
+ELSE
+	whdload "ImpossibleMission2025.slave"
+ENDIF

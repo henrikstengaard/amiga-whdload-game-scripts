@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Dogfight512KB512KB/"
+IF EXISTS ENV:whdloadargs
+	whdload "Dogfight512KB512KB.slave" $whdloadargs
+ELSE
+	whdload "Dogfight512KB512KB.slave"
+ENDIF

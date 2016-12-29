@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dragon Tiles
+RunFile=DragonTiles.Slave
+AGS2Name=Dragon Tiles
+AGS2IndexName=D
+AGS2FileName=Dragon Tiles
+iGameName=Dragon Tiles

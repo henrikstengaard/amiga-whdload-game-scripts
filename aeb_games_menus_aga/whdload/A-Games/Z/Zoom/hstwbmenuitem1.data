@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Zoom!
+RunFile=Zoom.Slave
+AGS2Name=Zoom!
+AGS2IndexName=Z
+AGS2FileName=Zoom
+iGameName=Zoom!

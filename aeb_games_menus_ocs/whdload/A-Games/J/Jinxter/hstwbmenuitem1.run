@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/Jinxter/"
+IF EXISTS ENV:whdloadargs
+	whdload "Jinxter.Slave" $whdloadargs
+ELSE
+	whdload "Jinxter.Slave"
+ENDIF

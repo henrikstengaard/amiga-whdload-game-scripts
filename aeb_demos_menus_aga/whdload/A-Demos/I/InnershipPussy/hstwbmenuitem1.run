@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/InnershipPussy/"
+IF EXISTS ENV:whdloadargs
+	whdload "InnershipPussy.slave" $whdloadargs
+ELSE
+	whdload "InnershipPussy.slave"
+ENDIF

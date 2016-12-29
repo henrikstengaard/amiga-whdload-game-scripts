@@ -1,5 +1,0 @@
-Name      : Thunder Blade
-Publisher : US Gold
-Year      : 1989
-Players   : 1 Only
-Whdload   : ThunderBladeNTSC.Slave

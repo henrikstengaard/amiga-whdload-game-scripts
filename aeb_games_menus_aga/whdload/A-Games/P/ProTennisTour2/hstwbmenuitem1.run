@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProTennisTour2/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProTennisTour2.Slave" $whdloadargs
+ELSE
+	whdload "ProTennisTour2.Slave"
+ENDIF

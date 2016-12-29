@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AgonyDemo/"
+IF EXISTS ENV:whdloadargs
+	whdload "AgonyDemo.slave" $whdloadargs
+ELSE
+	whdload "AgonyDemo.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wind Surf Willy
+RunFile=WindSurfWilly.Slave
+AGS2Name=Wind Surf Willy
+AGS2IndexName=W
+AGS2FileName=Wind Surf Willy
+iGameName=Wind Surf Willy

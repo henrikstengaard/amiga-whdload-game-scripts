@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AuthentikAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "AuthentikAGA.Slave" $whdloadargs
+ELSE
+	whdload "AuthentikAGA.Slave"
+ENDIF

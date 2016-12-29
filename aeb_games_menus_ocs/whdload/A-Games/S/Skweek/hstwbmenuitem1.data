@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Skweek
+RunFile=Skweek.Slave
+AGS2Name=Skweek
+AGS2IndexName=S
+AGS2FileName=Skweek
+iGameName=Skweek

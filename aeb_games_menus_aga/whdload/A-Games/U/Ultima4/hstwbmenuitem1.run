@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Ultima4/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ultima4.slave" $whdloadargs
+ELSE
+	whdload "Ultima4.slave"
+ENDIF

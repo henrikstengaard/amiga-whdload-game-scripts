@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Flood
+RunFile=Flood.Slave
+AGS2Name=Flood
+AGS2IndexName=F
+AGS2FileName=Flood
+iGameName=Flood

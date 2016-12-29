@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DamagePreview/"
+IF EXISTS ENV:whdloadargs
+	whdload "DamagePreview.Slave" $whdloadargs
+ELSE
+	whdload "DamagePreview.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BackToTheFuturePart2/"
+IF EXISTS ENV:whdloadargs
+	whdload "BackToTheFuturePart2.slave" $whdloadargs
+ELSE
+	whdload "BackToTheFuturePart2.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TBird/"
+IF EXISTS ENV:whdloadargs
+	whdload "TBird.Slave" $whdloadargs
+ELSE
+	whdload "TBird.Slave"
+ENDIF

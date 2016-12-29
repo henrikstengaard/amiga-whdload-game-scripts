@@ -1,0 +1,6 @@
+Name      : Mortal Kombat II
+Version   : 1MB
+Publisher : Acclaim Entertainment
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+Whdload   : MortalKombat21MB.slave

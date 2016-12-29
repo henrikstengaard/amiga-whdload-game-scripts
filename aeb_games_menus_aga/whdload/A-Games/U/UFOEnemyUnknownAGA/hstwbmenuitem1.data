@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=UFO: Enemy Unknown AGA
+RunFile=UFOEnemyUnknownAGA.slave
+AGS2Name=UFO: Enemy Unknown AGA
+AGS2IndexName=U
+AGS2FileName=UFO Enemy Unknown AGA
+iGameName=UFO: Enemy Unknown AGA

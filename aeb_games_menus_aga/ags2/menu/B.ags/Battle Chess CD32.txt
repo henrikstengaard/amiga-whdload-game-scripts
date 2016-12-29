@@ -1,4 +1,5 @@
 Name      : Battle Chess
+Version   : CD32
 Publisher : Electronic Arts
 Year      : 1988
 Genre     : Board - Chess

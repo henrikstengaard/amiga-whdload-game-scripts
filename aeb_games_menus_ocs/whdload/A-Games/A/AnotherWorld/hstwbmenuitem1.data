@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Another World
+RunFile=AnotherWorld.slave
+AGS2Name=Another World
+AGS2IndexName=A
+AGS2FileName=Another World
+iGameName=Another World

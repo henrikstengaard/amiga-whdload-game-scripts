@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RinkADinkRedux/"
+IF EXISTS ENV:whdloadargs
+	whdload "RinkADinkRedux.Slave" $whdloadargs
+ELSE
+	whdload "RinkADinkRedux.Slave"
+ENDIF

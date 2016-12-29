@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Driller/"
+IF EXISTS ENV:whdloadargs
+	whdload "Driller.Slave" $whdloadargs
+ELSE
+	whdload "Driller.Slave"
+ENDIF

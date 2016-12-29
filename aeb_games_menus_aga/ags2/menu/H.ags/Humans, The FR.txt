@@ -1,6 +1,6 @@
 Name      : Humans, The
-Publisher : Mirage
 Language  : French
+Publisher : Mirage
 Year      : 1992
 Genre     : Arcade - Miscellaneous
 Whdload   : HumansFr.slave

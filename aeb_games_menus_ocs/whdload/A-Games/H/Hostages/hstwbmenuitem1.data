@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hostages
+RunFile=Hostages.Slave
+AGS2Name=Hostages
+AGS2IndexName=H
+AGS2FileName=Hostages
+iGameName=Hostages

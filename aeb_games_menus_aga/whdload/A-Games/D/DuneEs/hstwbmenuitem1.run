@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DuneEs/"
+IF EXISTS ENV:whdloadargs
+	whdload "DuneEs.Slave" $whdloadargs
+ELSE
+	whdload "DuneEs.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/LastSun/"
+IF EXISTS ENV:whdloadargs
+	whdload "LastSun.Slave" $whdloadargs
+ELSE
+	whdload "LastSun.Slave"
+ENDIF

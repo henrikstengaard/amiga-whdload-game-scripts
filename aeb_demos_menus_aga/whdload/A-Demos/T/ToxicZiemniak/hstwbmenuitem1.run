@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/ToxicZiemniak/"
+IF EXISTS ENV:whdloadargs
+	whdload "ToxicZiemniak.Slave" $whdloadargs
+ELSE
+	whdload "ToxicZiemniak.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SoundOfSilents/"
+IF EXISTS ENV:whdloadargs
+	whdload "SoundOfSilents.Slave" $whdloadargs
+ELSE
+	whdload "SoundOfSilents.Slave"
+ENDIF

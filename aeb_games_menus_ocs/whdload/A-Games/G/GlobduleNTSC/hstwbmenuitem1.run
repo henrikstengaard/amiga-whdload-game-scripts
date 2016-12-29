@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GlobduleNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "GlobduleNTSC.Slave" $whdloadargs
+ELSE
+	whdload "GlobduleNTSC.Slave"
+ENDIF

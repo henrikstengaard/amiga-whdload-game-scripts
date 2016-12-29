@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Operation: Cleanstreets
+RunFile=OperationCleanstreets.Slave
+AGS2Name=Operation: Cleanstreets
+AGS2IndexName=O
+AGS2FileName=Operation Cleanstreets
+iGameName=Operation: Cleanstreets

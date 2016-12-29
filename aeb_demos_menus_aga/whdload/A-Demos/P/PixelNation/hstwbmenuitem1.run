@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PixelNation/"
+IF EXISTS ENV:whdloadargs
+	whdload "PixelNation.Slave" $whdloadargs
+ELSE
+	whdload "PixelNation.Slave"
+ENDIF

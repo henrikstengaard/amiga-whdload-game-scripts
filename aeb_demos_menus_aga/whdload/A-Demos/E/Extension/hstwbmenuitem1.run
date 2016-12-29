@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/Extension/"
+IF EXISTS ENV:whdloadargs
+	whdload "Extension.Slave" $whdloadargs
+ELSE
+	whdload "Extension.Slave"
+ENDIF

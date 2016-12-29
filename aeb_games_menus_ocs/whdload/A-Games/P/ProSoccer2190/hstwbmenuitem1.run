@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProSoccer2190/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProSoccer2190.Slave" $whdloadargs
+ELSE
+	whdload "ProSoccer2190.Slave"
+ENDIF

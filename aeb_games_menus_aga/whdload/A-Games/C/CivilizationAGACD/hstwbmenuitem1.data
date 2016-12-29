@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Civilization CD AGA
+RunFile=CivilizationAGACD.Slave
+AGS2Name=Civilization CD AGA
+AGS2IndexName=C
+AGS2FileName=Civilization CD AGA
+iGameName=Civilization CD AGA

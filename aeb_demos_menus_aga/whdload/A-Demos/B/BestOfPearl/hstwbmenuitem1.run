@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BestOfPearl/"
+IF EXISTS ENV:whdloadargs
+	whdload "BestOfPearl.Slave" $whdloadargs
+ELSE
+	whdload "BestOfPearl.Slave"
+ENDIF

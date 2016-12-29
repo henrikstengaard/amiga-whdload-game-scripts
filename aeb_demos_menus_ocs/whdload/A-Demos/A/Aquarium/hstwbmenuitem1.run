@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Aquarium/"
+IF EXISTS ENV:whdloadargs
+	whdload "Aquarium.Slave" $whdloadargs
+ELSE
+	whdload "Aquarium.Slave"
+ENDIF

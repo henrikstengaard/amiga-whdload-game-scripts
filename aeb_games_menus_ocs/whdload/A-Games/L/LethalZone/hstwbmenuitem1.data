@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Lethal Zone
+RunFile=LethalZone.Slave
+AGS2Name=Lethal Zone
+AGS2IndexName=L
+AGS2FileName=Lethal Zone
+iGameName=Lethal Zone

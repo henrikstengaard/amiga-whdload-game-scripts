@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RuesselsheimDeAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "RuesselsheimDeAGA.Slave" $whdloadargs
+ELSE
+	whdload "RuesselsheimDeAGA.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/InfiniteDreamsLunatics/"
+IF EXISTS ENV:whdloadargs
+	whdload "InfiniteDreamsLunatics.Slave" $whdloadargs
+ELSE
+	whdload "InfiniteDreamsLunatics.Slave"
+ENDIF

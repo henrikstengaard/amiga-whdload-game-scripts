@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Colorado FR
+RunFile=ColoradoFr.Slave
+AGS2Name=Colorado FR
+AGS2IndexName=C
+AGS2FileName=Colorado FR
+iGameName=Colorado FR

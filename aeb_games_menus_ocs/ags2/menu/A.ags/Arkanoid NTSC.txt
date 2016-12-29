@@ -1,0 +1,7 @@
+Name      : Arkanoid
+Version   : NTSC
+Publisher : Discovery Software
+Year      : 1987
+Genre     : Arcade - Breakout/Pong
+Players   : 1 or 2
+Whdload   : ArkanoidNTSC.Slave

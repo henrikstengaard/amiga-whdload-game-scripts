@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NorthAndSouthFiles/"
+IF EXISTS ENV:whdloadargs
+	whdload "NorthAndSouthFiles.Slave" $whdloadargs
+ELSE
+	whdload "NorthAndSouthFiles.Slave"
+ENDIF

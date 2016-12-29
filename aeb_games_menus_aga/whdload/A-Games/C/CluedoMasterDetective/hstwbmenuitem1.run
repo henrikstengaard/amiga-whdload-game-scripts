@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CluedoMasterDetective/"
+IF EXISTS ENV:whdloadargs
+	whdload "CluedoMasterDetective.Slave" $whdloadargs
+ELSE
+	whdload "CluedoMasterDetective.Slave"
+ENDIF

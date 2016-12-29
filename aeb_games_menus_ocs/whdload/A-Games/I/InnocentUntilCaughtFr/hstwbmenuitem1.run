@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/InnocentUntilCaughtFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "InnocentUntilCaughtFr.slave" $whdloadargs
+ELSE
+	whdload "InnocentUntilCaughtFr.slave"
+ENDIF

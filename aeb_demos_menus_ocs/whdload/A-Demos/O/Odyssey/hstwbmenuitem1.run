@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/Odyssey/"
+IF EXISTS ENV:whdloadargs
+	whdload "Odyssey.Slave" $whdloadargs
+ELSE
+	whdload "Odyssey.Slave"
+ENDIF

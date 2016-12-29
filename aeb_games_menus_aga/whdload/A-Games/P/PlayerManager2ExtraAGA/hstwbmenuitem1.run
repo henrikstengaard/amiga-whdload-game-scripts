@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PlayerManager2ExtraAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "PlayerManager2ExtraAGA.Slave" $whdloadargs
+ELSE
+	whdload "PlayerManager2ExtraAGA.Slave"
+ENDIF

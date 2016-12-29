@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=DreamWeb
+RunFile=DreamWeb.Slave
+AGS2Name=DreamWeb
+AGS2IndexName=D
+AGS2FileName=DreamWeb
+iGameName=DreamWeb

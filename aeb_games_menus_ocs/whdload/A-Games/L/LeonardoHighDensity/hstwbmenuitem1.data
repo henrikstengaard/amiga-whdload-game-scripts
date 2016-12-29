@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leonardo
+RunFile=LeonardoHighDensity.Slave
+AGS2Name=Leonardo
+AGS2IndexName=L
+AGS2FileName=Leonardo 
+iGameName=Leonardo

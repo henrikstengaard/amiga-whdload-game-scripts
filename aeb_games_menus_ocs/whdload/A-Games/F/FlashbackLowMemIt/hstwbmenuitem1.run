@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FlashbackLowMemIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "FlashbackLowMemIt.slave" $whdloadargs
+ELSE
+	whdload "FlashbackLowMemIt.slave"
+ENDIF

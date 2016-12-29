@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Katakis2Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Katakis2Disk.Slave" $whdloadargs
+ELSE
+	whdload "Katakis2Disk.Slave"
+ENDIF

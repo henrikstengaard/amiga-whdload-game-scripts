@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=5th Gear
+RunFile=5thGear.Slave
+AGS2Name=5th Gear
+AGS2IndexName=0
+AGS2FileName=5th Gear
+iGameName=5th Gear

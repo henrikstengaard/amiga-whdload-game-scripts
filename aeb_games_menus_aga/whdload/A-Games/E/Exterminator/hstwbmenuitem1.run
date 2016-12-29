@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Exterminator/"
+IF EXISTS ENV:whdloadargs
+	whdload "Exterminator.slave" $whdloadargs
+ELSE
+	whdload "Exterminator.slave"
+ENDIF

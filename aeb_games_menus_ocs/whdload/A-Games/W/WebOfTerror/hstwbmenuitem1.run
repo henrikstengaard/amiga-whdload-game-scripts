@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WebOfTerror/"
+IF EXISTS ENV:whdloadargs
+	whdload "WebOfTerror.slave" $whdloadargs
+ELSE
+	whdload "WebOfTerror.slave"
+ENDIF

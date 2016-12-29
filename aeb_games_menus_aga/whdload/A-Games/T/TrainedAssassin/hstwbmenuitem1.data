@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Trained Assassin
+RunFile=TrainedAssassin.Slave
+AGS2Name=Trained Assassin
+AGS2IndexName=T
+AGS2FileName=Trained Assassin
+iGameName=Trained Assassin

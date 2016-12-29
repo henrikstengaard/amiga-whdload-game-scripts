@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PuggsInSpace/"
+IF EXISTS ENV:whdloadargs
+	whdload "PuggsInSpace.Slave" $whdloadargs
+ELSE
+	whdload "PuggsInSpace.Slave"
+ENDIF

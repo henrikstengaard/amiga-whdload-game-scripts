@@ -1,4 +1,5 @@
 Name      : Fire!
+Version   : CD32
 Publisher : New Deal Productions
 Year      : 1989
 Players   : 1 Only

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wing Commander
+RunFile=WingCommander.Slave
+AGS2Name=Wing Commander
+AGS2IndexName=W
+AGS2FileName=Wing Commander
+iGameName=Wing Commander

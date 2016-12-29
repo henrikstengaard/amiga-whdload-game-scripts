@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/OdeToRamon2/"
+IF EXISTS ENV:whdloadargs
+	whdload "OdeToRamon2.Slave" $whdloadargs
+ELSE
+	whdload "OdeToRamon2.Slave"
+ENDIF

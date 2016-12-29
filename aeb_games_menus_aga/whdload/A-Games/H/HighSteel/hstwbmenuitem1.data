@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=High Steel
+RunFile=HighSteel.Slave
+AGS2Name=High Steel
+AGS2IndexName=H
+AGS2FileName=High Steel
+iGameName=High Steel

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/GigaDemo3/"
+IF EXISTS ENV:whdloadargs
+	whdload "GigaDemo3.Slave" $whdloadargs
+ELSE
+	whdload "GigaDemo3.Slave"
+ENDIF

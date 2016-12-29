@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tennis Cup
+RunFile=TennisCup.Slave
+AGS2Name=Tennis Cup
+AGS2IndexName=T
+AGS2FileName=Tennis Cup
+iGameName=Tennis Cup

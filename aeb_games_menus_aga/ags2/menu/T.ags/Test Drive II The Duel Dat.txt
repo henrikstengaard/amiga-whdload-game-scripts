@@ -1,0 +1,7 @@
+Name      : Test Drive II: The Duel
+Version   : DataDisk
+Publisher : Accolade
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+Whdload   : TestDrive2&DataDisks.slave

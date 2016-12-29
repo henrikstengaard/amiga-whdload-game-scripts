@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EksperymentDelfinPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "EksperymentDelfinPl.Slave" $whdloadargs
+ELSE
+	whdload "EksperymentDelfinPl.Slave"
+ENDIF

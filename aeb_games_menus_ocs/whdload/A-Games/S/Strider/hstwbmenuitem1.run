@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Strider/"
+IF EXISTS ENV:whdloadargs
+	whdload "Strider.Slave" $whdloadargs
+ELSE
+	whdload "Strider.Slave"
+ENDIF

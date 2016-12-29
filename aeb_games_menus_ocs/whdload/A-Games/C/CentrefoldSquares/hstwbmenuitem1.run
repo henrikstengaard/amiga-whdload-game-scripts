@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CentrefoldSquares/"
+IF EXISTS ENV:whdloadargs
+	whdload "CentrefoldSquares.Slave" $whdloadargs
+ELSE
+	whdload "CentrefoldSquares.Slave"
+ENDIF

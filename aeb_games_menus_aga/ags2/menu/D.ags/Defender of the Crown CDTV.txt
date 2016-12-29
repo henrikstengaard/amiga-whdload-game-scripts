@@ -1,0 +1,7 @@
+Name      : Defender of the Crown
+Version   : CDTV
+Publisher : Cinemaware
+Year      : 1987
+Genre     : Strategy - War
+Players   : 1 Only
+Whdload   : DefenderOfTheCrownCDTV.Slave

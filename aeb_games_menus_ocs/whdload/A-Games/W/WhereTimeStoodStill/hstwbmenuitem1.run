@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WhereTimeStoodStill/"
+IF EXISTS ENV:whdloadargs
+	whdload "WhereTimeStoodStill.Slave" $whdloadargs
+ELSE
+	whdload "WhereTimeStoodStill.Slave"
+ENDIF

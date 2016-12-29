@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Borobodur/"
+IF EXISTS ENV:whdloadargs
+	whdload "Borobodur.Slave" $whdloadargs
+ELSE
+	whdload "Borobodur.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Historyline/"
+IF EXISTS ENV:whdloadargs
+	whdload "HistoryLine.Slave" $whdloadargs
+ELSE
+	whdload "HistoryLine.Slave"
+ENDIF

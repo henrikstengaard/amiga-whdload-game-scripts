@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Stratego/"
+IF EXISTS ENV:whdloadargs
+	whdload "Stratego.Slave" $whdloadargs
+ELSE
+	whdload "Stratego.Slave"
+ENDIF

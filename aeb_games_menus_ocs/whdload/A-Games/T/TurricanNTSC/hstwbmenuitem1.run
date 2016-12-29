@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TurricanNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "TurricanNTSC.Slave" $whdloadargs
+ELSE
+	whdload "TurricanNTSC.Slave"
+ENDIF

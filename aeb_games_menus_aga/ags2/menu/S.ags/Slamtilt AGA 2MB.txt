@@ -1,0 +1,7 @@
+Name      : Slamtilt
+Version   : AGA 2MB
+Publisher : 21st Century Entertainment
+Year      : 1996
+Genre     : Arcade - Pinball
+Players   : 1 to 8
+Whdload   : SlamTiltAGA2MB.Slave

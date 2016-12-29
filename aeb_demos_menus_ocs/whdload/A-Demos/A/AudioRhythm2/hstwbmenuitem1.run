@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AudioRhythm2/"
+IF EXISTS ENV:whdloadargs
+	whdload "AudioRhythm2.Slave" $whdloadargs
+ELSE
+	whdload "AudioRhythm2.Slave"
+ENDIF

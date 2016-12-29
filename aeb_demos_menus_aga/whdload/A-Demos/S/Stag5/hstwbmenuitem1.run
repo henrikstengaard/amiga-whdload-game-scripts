@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Stag5/"
+IF EXISTS ENV:whdloadargs
+	whdload "Stag5.slave" $whdloadargs
+ELSE
+	whdload "Stag5.slave"
+ENDIF

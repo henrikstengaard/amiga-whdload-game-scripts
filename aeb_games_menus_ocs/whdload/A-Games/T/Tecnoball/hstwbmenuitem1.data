@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tecnoball
+RunFile=Tecnoball.Slave
+AGS2Name=Tecnoball
+AGS2IndexName=T
+AGS2FileName=Tecnoball
+iGameName=Tecnoball

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:E/ETsRugbyLeague/ETsRugbyLeague.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "E" "E.T.'s Rugby League"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "E" "E.T.'s Rugby League"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:E/ETsRugbyLeague/"
 IF EXISTS ENV:whdloadargs
-	whdload "ETsRugbyLeague.Slave" $whdloadargs
+  whdload "ETsRugbyLeague.Slave" $whdloadargs
 ELSE
-	whdload "ETsRugbyLeague.Slave"
+  whdload "ETsRugbyLeague.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

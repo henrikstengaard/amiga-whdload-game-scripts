@@ -1,4 +1,5 @@
 Name    : Harmagedon
+Version : AGA
 Groups  : Infect
 Type    : Demo
 Party   : The Party 1993

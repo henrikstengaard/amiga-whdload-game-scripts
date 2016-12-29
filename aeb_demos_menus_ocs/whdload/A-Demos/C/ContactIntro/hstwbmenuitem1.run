@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/ContactIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "ContactIntro.Slave" $whdloadargs
+ELSE
+	whdload "ContactIntro.Slave"
+ENDIF

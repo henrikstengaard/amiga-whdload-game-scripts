@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/VenusTheFlytrap/"
+IF EXISTS ENV:whdloadargs
+	whdload "VenusTheFlytrap.Slave" $whdloadargs
+ELSE
+	whdload "VenusTheFlytrap.Slave"
+ENDIF

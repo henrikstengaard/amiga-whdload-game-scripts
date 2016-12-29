@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cannon Fodder
+RunFile=CannonFodder.slave
+AGS2Name=Cannon Fodder
+AGS2IndexName=C
+AGS2FileName=Cannon Fodder
+iGameName=Cannon Fodder

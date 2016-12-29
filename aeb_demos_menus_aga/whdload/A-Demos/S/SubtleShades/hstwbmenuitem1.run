@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SubtleShades/"
+IF EXISTS ENV:whdloadargs
+	whdload "SubtleShades.Slave" $whdloadargs
+ELSE
+	whdload "SubtleShades.Slave"
+ENDIF

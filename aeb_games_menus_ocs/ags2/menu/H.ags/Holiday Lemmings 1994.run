@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:L/LemmingsHoliday1994/LemmingsHoliday1994.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "H" "Holiday Lemmings 1994"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "H" "Holiday Lemmings 1994"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/LemmingsHoliday1994/"
 IF EXISTS ENV:whdloadargs
-	whdload "LemmingsHoliday1994.Slave" $whdloadargs
+  whdload "LemmingsHoliday1994.Slave" $whdloadargs
 ELSE
-	whdload "LemmingsHoliday1994.Slave"
+  whdload "LemmingsHoliday1994.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

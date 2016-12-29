@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Euro Soccer
+RunFile=EuroSoccer.Slave
+AGS2Name=Euro Soccer
+AGS2IndexName=E
+AGS2FileName=Euro Soccer
+iGameName=Euro Soccer

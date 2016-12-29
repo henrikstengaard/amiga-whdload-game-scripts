@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FederationOfFreeTraders/"
+IF EXISTS ENV:whdloadargs
+	whdload "FederationOfFreeTraders.slave" $whdloadargs
+ELSE
+	whdload "FederationOfFreeTraders.slave"
+ENDIF

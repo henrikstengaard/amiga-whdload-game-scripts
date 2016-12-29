@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FutureClassicsCollection/"
+IF EXISTS ENV:whdloadargs
+	whdload "FutureClassicsCollection.Slave" $whdloadargs
+ELSE
+	whdload "FutureClassicsCollection.Slave"
+ENDIF

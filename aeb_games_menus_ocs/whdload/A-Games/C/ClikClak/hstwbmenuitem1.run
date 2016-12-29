@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ClikClak/"
+IF EXISTS ENV:whdloadargs
+	whdload "ClikClak.Slave" $whdloadargs
+ELSE
+	whdload "ClikClak.Slave"
+ENDIF

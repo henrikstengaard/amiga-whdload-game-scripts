@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FutureWarsIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "FutureWarsIt.Slave" $whdloadargs
+ELSE
+	whdload "FutureWarsIt.Slave"
+ENDIF

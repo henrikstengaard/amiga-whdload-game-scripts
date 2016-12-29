@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Slayer/"
+IF EXISTS ENV:whdloadargs
+	whdload "Slayer.slave" $whdloadargs
+ELSE
+	whdload "Slayer.slave"
+ENDIF

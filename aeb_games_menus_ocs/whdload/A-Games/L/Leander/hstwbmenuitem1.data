@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leander
+RunFile=Leander.Slave
+AGS2Name=Leander
+AGS2IndexName=L
+AGS2FileName=Leander
+iGameName=Leander

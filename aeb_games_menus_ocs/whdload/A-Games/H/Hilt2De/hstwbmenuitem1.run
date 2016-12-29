@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hilt2De/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hilt2De.Slave" $whdloadargs
+ELSE
+	whdload "Hilt2De.Slave"
+ENDIF

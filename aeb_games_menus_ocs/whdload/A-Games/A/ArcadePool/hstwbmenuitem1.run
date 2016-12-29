@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ArcadePool/"
+IF EXISTS ENV:whdloadargs
+	whdload "ArcadePool.slave" $whdloadargs
+ELSE
+	whdload "ArcadePool.slave"
+ENDIF

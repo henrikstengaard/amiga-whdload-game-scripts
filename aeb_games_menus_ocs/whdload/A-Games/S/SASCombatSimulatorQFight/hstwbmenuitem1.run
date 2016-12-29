@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SASCombatSimulatorQFight/"
+IF EXISTS ENV:whdloadargs
+	whdload "SASCombatSimulatorQFight.Slave" $whdloadargs
+ELSE
+	whdload "SASCombatSimulatorQFight.Slave"
+ENDIF

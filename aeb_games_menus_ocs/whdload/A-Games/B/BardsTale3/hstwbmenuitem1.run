@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BardsTale3/"
+IF EXISTS ENV:whdloadargs
+	whdload "BardsTale3.slave" $whdloadargs
+ELSE
+	whdload "BardsTale3.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Q-Bic
+RunFile=QBic.slave
+AGS2Name=Q-Bic
+AGS2IndexName=Q
+AGS2FileName=Q-Bic
+iGameName=Q-Bic

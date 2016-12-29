@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Thexder/"
+IF EXISTS ENV:whdloadargs
+	whdload "Thexder.Slave" $whdloadargs
+ELSE
+	whdload "Thexder.Slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : Defender of the Crown II
+Version   : CD32
 Publisher : Commodore
 Year      : 1993
 Players   : 1

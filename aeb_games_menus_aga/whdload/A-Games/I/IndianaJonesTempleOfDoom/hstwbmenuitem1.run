@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/IndianaJonesTempleOfDoom/"
+IF EXISTS ENV:whdloadargs
+	whdload "IndianaJonesTempleOfDoom.slave" $whdloadargs
+ELSE
+	whdload "IndianaJonesTempleOfDoom.slave"
+ENDIF

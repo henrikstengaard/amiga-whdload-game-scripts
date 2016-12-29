@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NewZealandStory/"
+IF EXISTS ENV:whdloadargs
+	whdload "NewZealandStory.Slave" $whdloadargs
+ELSE
+	whdload "NewZealandStory.Slave"
+ENDIF

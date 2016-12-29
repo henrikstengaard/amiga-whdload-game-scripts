@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SonicalFantasia/"
+IF EXISTS ENV:whdloadargs
+	whdload "SonicalFantasia.Slave" $whdloadargs
+ELSE
+	whdload "SonicalFantasia.Slave"
+ENDIF

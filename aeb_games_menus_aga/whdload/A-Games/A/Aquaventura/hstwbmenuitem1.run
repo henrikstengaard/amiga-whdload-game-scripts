@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Aquaventura/"
+IF EXISTS ENV:whdloadargs
+	whdload "Aquaventura.slave" $whdloadargs
+ELSE
+	whdload "Aquaventura.slave"
+ENDIF

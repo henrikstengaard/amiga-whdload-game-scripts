@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CopperSlave/"
+IF EXISTS ENV:whdloadargs
+	whdload "CopperSlave.Slave" $whdloadargs
+ELSE
+	whdload "CopperSlave.Slave"
+ENDIF

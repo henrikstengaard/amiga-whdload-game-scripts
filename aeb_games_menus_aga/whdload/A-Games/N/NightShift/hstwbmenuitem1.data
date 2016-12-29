@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Night Shift
+RunFile=NightShift.slave
+AGS2Name=Night Shift
+AGS2IndexName=N
+AGS2FileName=Night Shift
+iGameName=Night Shift

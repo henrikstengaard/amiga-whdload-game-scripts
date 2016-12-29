@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FlightSimulator2/"
+IF EXISTS ENV:whdloadargs
+	whdload "FlightSimulator2.Slave" $whdloadargs
+ELSE
+	whdload "FlightSimulator2.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Block Out
+RunFile=BlockOut.slave
+AGS2Name=Block Out
+AGS2IndexName=B
+AGS2FileName=Block Out
+iGameName=Block Out

@@ -1,4 +1,5 @@
 Name    : 3d vector demo
+Version : Demo
 Groups  : Prophets AG,unicorn
 Type    : Demo
 Whdload : VectorDemo.Slave

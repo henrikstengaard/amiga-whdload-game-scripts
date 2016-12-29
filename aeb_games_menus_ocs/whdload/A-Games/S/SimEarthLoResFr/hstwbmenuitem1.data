@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SimEarth FR
+RunFile=SimEarthLoResFr.Slave
+AGS2Name=SimEarth FR
+AGS2IndexName=S
+AGS2FileName=SimEarth FR 
+iGameName=SimEarth FR

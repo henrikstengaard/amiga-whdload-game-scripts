@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Puzznic/"
+IF EXISTS ENV:whdloadargs
+	whdload "Puzznic.Slave" $whdloadargs
+ELSE
+	whdload "Puzznic.Slave"
+ENDIF

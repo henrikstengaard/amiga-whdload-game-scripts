@@ -1,6 +1,6 @@
 Name      : Lords of Doom
-Publisher : Starbyte Software
 Language  : German
+Publisher : Starbyte Software
 Year      : 1990
 Genre     : Adventure - RPG 3D
 Whdload   : LordsOfDoomDe.Slave

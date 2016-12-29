@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BardsTaleNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "BardsTaleNTSC.Slave" $whdloadargs
+ELSE
+	whdload "BardsTaleNTSC.Slave"
+ENDIF

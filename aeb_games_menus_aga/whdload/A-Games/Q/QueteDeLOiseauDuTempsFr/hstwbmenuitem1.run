@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/QueteDeLOiseauDuTempsFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "QueteDeLOiseauDuTempsFr.Slave" $whdloadargs
+ELSE
+	whdload "QueteDeLOiseauDuTempsFr.Slave"
+ENDIF

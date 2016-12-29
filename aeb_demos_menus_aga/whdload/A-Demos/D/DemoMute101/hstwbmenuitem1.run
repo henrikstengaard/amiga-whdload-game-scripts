@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DemoMute101/"
+IF EXISTS ENV:whdloadargs
+	whdload "DemoMute101.Slave" $whdloadargs
+ELSE
+	whdload "DemoMute101.Slave"
+ENDIF

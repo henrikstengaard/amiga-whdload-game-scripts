@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StripPotCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "StripPotCD32.Slave" $whdloadargs
+ELSE
+	whdload "StripPotCD32.Slave"
+ENDIF

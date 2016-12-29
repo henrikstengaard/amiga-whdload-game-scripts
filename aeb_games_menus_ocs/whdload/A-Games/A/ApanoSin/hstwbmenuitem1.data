@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Apano Sin
+RunFile=ApanoSin.Slave
+AGS2Name=Apano Sin
+AGS2IndexName=A
+AGS2FileName=Apano Sin
+iGameName=Apano Sin

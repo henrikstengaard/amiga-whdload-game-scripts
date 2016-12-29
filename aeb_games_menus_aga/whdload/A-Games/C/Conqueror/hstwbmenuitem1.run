@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Conqueror/"
+IF EXISTS ENV:whdloadargs
+	whdload "Conqueror.Slave" $whdloadargs
+ELSE
+	whdload "Conqueror.Slave"
+ENDIF

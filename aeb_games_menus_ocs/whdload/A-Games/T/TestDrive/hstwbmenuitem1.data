@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Test Drive
+RunFile=TestDrive.slave
+AGS2Name=Test Drive
+AGS2IndexName=T
+AGS2FileName=Test Drive
+iGameName=Test Drive

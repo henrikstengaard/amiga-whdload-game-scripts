@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cybernetix
+RunFile=Cybernetix.Slave
+AGS2Name=Cybernetix
+AGS2IndexName=C
+AGS2FileName=Cybernetix
+iGameName=Cybernetix

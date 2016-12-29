@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegaDemo2Budbrain/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaDemo2Budbrain.slave" $whdloadargs
+ELSE
+	whdload "MegaDemo2Budbrain.slave"
+ENDIF

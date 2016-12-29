@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Personal Nightmare
+RunFile=PersonalNightmare.Slave
+AGS2Name=Personal Nightmare
+AGS2IndexName=P
+AGS2FileName=Personal Nightmare
+iGameName=Personal Nightmare

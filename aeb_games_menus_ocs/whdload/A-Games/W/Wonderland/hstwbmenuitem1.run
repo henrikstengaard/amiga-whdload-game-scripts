@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/Wonderland/"
+IF EXISTS ENV:whdloadargs
+	whdload "Wonderland.Slave" $whdloadargs
+ELSE
+	whdload "Wonderland.Slave"
+ENDIF

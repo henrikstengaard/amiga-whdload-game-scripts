@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cavemania
+RunFile=Cavemania.slave
+AGS2Name=Cavemania
+AGS2IndexName=C
+AGS2FileName=Cavemania
+iGameName=Cavemania

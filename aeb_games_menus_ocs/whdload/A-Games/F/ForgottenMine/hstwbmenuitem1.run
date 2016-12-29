@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/ForgottenMine/"
+IF EXISTS ENV:whdloadargs
+	whdload "ForgottenMine.slave" $whdloadargs
+ELSE
+	whdload "ForgottenMine.slave"
+ENDIF

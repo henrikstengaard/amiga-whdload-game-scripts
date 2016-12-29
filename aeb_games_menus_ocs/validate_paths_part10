@@ -10,8 +10,8 @@ ENDIF
 IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/"
   ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/Populous2.slave"
-  ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/Populous2.slave' doesn't exist!"
+IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave"
+  ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/igame.iff"
   ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/igame.iff' doesn't exist!"
@@ -19,8 +19,8 @@ ENDIF
 IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/"
   ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave"
-  ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave' doesn't exist!"
+IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/Populous2.slave"
+  ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/Populous2.slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:P/Populous2&ChallengeGames/igame.iff"
   ECHO "ERROR: Path 'A-Games:P/Populous2&ChallengeGames/igame.iff' doesn't exist!"

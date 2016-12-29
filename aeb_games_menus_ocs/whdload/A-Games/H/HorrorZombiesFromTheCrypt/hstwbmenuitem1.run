@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HorrorZombiesFromTheCrypt/"
+IF EXISTS ENV:whdloadargs
+	whdload "HorrorZombiesFromTheCrypt.Slave" $whdloadargs
+ELSE
+	whdload "HorrorZombiesFromTheCrypt.Slave"
+ENDIF

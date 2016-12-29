@@ -1,0 +1,6 @@
+Name      : Final Fight
+Version   : 512K
+Publisher : US Gold
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : FinalFight512k.slave

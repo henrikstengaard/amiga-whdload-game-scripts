@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:W/WhereTimeStoodStill/WhereTimeStoodStill.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "W" "Where Time Stood Still"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "W" "Where Time Stood Still"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:W/WhereTimeStoodStill/"
 IF EXISTS ENV:whdloadargs
-	whdload "WhereTimeStoodStill.Slave" $whdloadargs
+  whdload "WhereTimeStoodStill.Slave" $whdloadargs
 ELSE
-	whdload "WhereTimeStoodStill.Slave"
+  whdload "WhereTimeStoodStill.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

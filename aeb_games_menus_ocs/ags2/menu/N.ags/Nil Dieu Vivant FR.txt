@@ -1,6 +1,6 @@
 Name      : Nil Dieu Vivant
-Publisher : Chip
 Language  : French
+Publisher : Chip
 Year      : 1989
 Players   : 1
 Whdload   : NilDieuVivantFr.Slave

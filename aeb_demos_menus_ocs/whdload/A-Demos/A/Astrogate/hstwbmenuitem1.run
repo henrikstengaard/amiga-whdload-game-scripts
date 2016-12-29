@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Astrogate/"
+IF EXISTS ENV:whdloadargs
+	whdload "Astrogate.Slave" $whdloadargs
+ELSE
+	whdload "Astrogate.Slave"
+ENDIF

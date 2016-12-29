@@ -1,0 +1,7 @@
+Name      : Lemmings
+Version   : NTSC Image
+Publisher : Psygnosis
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2
+Whdload   : LemmingsImageNTSC.Slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blobz AGA
+RunFile=Blobz.Slave
+AGS2Name=Blobz AGA
+AGS2IndexName=B
+AGS2FileName=Blobz AGA
+iGameName=Blobz AGA

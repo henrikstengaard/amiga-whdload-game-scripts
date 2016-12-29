@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Colors/"
+IF EXISTS ENV:whdloadargs
+	whdload "Colors.Slave" $whdloadargs
+ELSE
+	whdload "Colors.Slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : Daley Thompson's Olympic Challenge
+Version   : 1Disk
 Publisher : Ocean
 Year      : 1988
 Genre     : Sports - Multi-Event

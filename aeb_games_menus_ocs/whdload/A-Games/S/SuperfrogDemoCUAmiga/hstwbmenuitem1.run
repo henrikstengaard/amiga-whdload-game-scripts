@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperfrogDemoCUAmiga/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperfrogDemoCUAmiga.Slave" $whdloadargs
+ELSE
+	whdload "SuperfrogDemoCUAmiga.Slave"
+ENDIF

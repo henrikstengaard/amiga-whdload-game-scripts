@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MegaMotion/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaMotion.slave" $whdloadargs
+ELSE
+	whdload "MegaMotion.slave"
+ENDIF

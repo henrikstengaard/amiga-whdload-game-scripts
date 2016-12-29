@@ -1,4 +1,5 @@
 Name      : Diggers 2: Extractors
+Version   : CD32 Preview
 Year      : 1994
 Genre     : Arcade - Miscellaneous
 Players   : 1

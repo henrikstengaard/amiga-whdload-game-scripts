@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/Oasis/"
+IF EXISTS ENV:whdloadargs
+	whdload "Oasis.Slave" $whdloadargs
+ELSE
+	whdload "Oasis.Slave"
+ENDIF

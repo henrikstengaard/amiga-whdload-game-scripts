@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cool Spot
+RunFile=CoolSpot.Slave
+AGS2Name=Cool Spot
+AGS2IndexName=C
+AGS2FileName=Cool Spot
+iGameName=Cool Spot

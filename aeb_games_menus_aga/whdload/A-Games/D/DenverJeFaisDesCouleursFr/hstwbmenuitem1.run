@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DenverJeFaisDesCouleursFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "DenverJeFaisDesCouleursFr.Slave" $whdloadargs
+ELSE
+	whdload "DenverJeFaisDesCouleursFr.Slave"
+ENDIF

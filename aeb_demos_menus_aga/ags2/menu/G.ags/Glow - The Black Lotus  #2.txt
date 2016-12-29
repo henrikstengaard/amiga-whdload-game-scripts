@@ -1,4 +1,5 @@
 Name    : Glow
+Version : AGA
 Groups  : The Black Lotus
 Type    : Demo
 Party   : Icing 1996

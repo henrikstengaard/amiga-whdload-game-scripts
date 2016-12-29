@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BarbarianPsygnosis/"
+IF EXISTS ENV:whdloadargs
+	whdload "BarbarianPsygnosis.Slave" $whdloadargs
+ELSE
+	whdload "BarbarianPsygnosis.Slave"
+ENDIF

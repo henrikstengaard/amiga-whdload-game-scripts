@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=World Darts
+RunFile=WorldDartsArcadia.Slave
+AGS2Name=World Darts
+AGS2IndexName=W
+AGS2FileName=World Darts 
+iGameName=World Darts

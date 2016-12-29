@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:X/XTremeRacing&DataDisksAGA/XTremeRacing&DataDisksAGA.slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "X" "XTreme Racing DataDisk AGA"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Games:X/XTremeRacing&DataDisksAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "XTremeRacing&DataDisksAGA.slave" $whdloadargs
+ELSE
+  whdload "XTremeRacing&DataDisksAGA.slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Final Blow
+RunFile=FinalBlow.slave
+AGS2Name=Final Blow
+AGS2IndexName=F
+AGS2FileName=Final Blow
+iGameName=Final Blow

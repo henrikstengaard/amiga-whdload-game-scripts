@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WorldsWave/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldsWave.Slave" $whdloadargs
+ELSE
+	whdload "WorldsWave.Slave"
+ENDIF

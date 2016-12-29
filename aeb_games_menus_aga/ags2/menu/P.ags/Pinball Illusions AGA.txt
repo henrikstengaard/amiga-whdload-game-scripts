@@ -1,4 +1,5 @@
 Name      : Pinball Illusions
+Version   : AGA
 Publisher : 21st Century Entertainment
 Year      : 1995
 Genre     : Arcade - Pinball

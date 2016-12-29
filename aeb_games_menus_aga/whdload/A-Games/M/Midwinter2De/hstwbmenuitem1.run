@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Midwinter2De/"
+IF EXISTS ENV:whdloadargs
+	whdload "Midwinter2De.Slave" $whdloadargs
+ELSE
+	whdload "Midwinter2De.Slave"
+ENDIF

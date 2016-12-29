@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arcade Fruit Machine
+RunFile=ArcadeFruitMachine.Slave
+AGS2Name=Arcade Fruit Machine
+AGS2IndexName=A
+AGS2FileName=Arcade Fruit Machine
+iGameName=Arcade Fruit Machine

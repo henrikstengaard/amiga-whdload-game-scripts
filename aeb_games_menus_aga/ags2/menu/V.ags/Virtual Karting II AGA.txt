@@ -1,4 +1,5 @@
 Name      : Virtual Karting II
+Version   : AGA
 Publisher : Islona Entertainment
 Year      : 1998
 Genre     : Racing - Miscellaneous

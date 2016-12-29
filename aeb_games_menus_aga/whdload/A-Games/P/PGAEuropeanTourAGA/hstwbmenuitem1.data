@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=PGA European Tour AGA
+RunFile=PGAEuropeanTourAGA.Slave
+AGS2Name=PGA European Tour AGA
+AGS2IndexName=P
+AGS2FileName=PGA European Tour AGA
+iGameName=PGA European Tour AGA

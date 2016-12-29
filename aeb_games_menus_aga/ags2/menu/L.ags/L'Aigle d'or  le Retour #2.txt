@@ -1,6 +1,0 @@
-Name      : L'Aigle d'or : le Retour
-Publisher : Loriciel
-Language  : French
-Year      : 1991
-Players   : 1
-Whdload   : AigleDOrFr.slave

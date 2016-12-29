@@ -1,5 +1,0 @@
-Name      : Entity
-Publisher : Loriciel
-Year      : 1993
-Players   : 1 Only
-Whdload   : EntityNoIntro.slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sequential - Andromeda
+RunFile=Sequential.slave
+AGS2Name=Sequential - Andromeda
+AGS2IndexName=S
+AGS2FileName=Sequential - Andromeda
+iGameName=Sequential - Andromeda

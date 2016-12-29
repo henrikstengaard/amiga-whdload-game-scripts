@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PanzaKickBoxing/"
+IF EXISTS ENV:whdloadargs
+	whdload "PanzaKickBoxing.Slave" $whdloadargs
+ELSE
+	whdload "PanzaKickBoxing.Slave"
+ENDIF

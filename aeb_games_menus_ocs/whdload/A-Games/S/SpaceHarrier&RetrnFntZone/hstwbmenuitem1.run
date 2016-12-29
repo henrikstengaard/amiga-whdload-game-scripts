@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpaceHarrier&RetrnFntZone/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpaceHarrier.slave" $whdloadargs
+ELSE
+	whdload "SpaceHarrier.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pang
+RunFile=Pang.slave
+AGS2Name=Pang
+AGS2IndexName=P
+AGS2FileName=Pang
+iGameName=Pang

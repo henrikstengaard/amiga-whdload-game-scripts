@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ComputerThirdReich/"
+IF EXISTS ENV:whdloadargs
+	whdload "ComputerThirdReich.Slave" $whdloadargs
+ELSE
+	whdload "ComputerThirdReich.Slave"
+ENDIF

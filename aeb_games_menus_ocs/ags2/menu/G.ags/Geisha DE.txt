@@ -1,6 +1,6 @@
 Name      : Geisha
-Publisher : Coktel Vision
 Language  : German
+Publisher : Coktel Vision
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Whdload   : GeishaDe.Slave

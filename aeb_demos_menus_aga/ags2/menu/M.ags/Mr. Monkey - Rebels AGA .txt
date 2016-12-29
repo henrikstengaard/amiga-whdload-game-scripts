@@ -1,4 +1,5 @@
 Name    : Mr. Monkey
+Version : AGA
 Groups  : Rebels
 Type    : Demo
 Party   : South Sealand Party 1994

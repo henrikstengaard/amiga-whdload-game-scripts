@@ -1,6 +1,6 @@
 Name      : Mad TV
-Publisher : Rainbow Arts
 Language  : French
+Publisher : Rainbow Arts
 Year      : 1991
 Genre     : Strategy - Company
 Players   : 1 Only

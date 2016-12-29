@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Troddlers
+RunFile=Troddlers.Slave
+AGS2Name=Troddlers
+AGS2IndexName=T
+AGS2FileName=Troddlers
+iGameName=Troddlers

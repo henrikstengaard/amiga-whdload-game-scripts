@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Deflektor/"
+IF EXISTS ENV:whdloadargs
+	whdload "Deflektor.slave" $whdloadargs
+ELSE
+	whdload "Deflektor.slave"
+ENDIF

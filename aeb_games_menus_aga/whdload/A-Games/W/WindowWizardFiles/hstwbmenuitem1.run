@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WindowWizardFiles/"
+IF EXISTS ENV:whdloadargs
+	whdload "WindowWizardFiles.Slave" $whdloadargs
+ELSE
+	whdload "WindowWizardFiles.Slave"
+ENDIF

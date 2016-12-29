@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Acme1991Slideshow/"
+IF EXISTS ENV:whdloadargs
+	whdload "Acme1991Slideshow.Slave" $whdloadargs
+ELSE
+	whdload "Acme1991Slideshow.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Falcon MissionDisk
+RunFile=Falcon&MissionDisks.Slave
+AGS2Name=Falcon MissionDisk
+AGS2IndexName=F
+AGS2FileName=Falcon MissionDisk
+iGameName=Falcon MissionDisk

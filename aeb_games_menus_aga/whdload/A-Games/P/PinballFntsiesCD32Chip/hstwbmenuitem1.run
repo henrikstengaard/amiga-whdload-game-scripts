@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PinballFntsiesCD32Chip/"
+IF EXISTS ENV:whdloadargs
+	whdload "PinballFntsiesCD32Chip.slave" $whdloadargs
+ELSE
+	whdload "PinballFntsiesCD32Chip.slave"
+ENDIF

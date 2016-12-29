@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MickeysMemoryChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "MickeysMemoryChallenge.Slave" $whdloadargs
+ELSE
+	whdload "MickeysMemoryChallenge.Slave"
+ENDIF

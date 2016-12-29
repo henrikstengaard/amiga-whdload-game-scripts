@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Future Bike Simulator
+RunFile=FutureBikeSimulator.Slave
+AGS2Name=Future Bike Simulator
+AGS2IndexName=F
+AGS2FileName=Future Bike Simulator
+iGameName=Future Bike Simulator

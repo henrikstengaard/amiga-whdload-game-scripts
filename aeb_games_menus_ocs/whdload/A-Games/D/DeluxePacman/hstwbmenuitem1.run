@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DeluxePacman/"
+IF EXISTS ENV:whdloadargs
+	whdload "DeluxePacman.Slave" $whdloadargs
+ELSE
+	whdload "DeluxePacman.Slave"
+ENDIF

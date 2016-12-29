@@ -1,0 +1,5 @@
+Name      : Pulsator
+Version   : Demo
+Publisher : APC&TCP
+Players   : 1 - 2 (2 simultaneous)
+Whdload   : PulsatorDemo.Slave

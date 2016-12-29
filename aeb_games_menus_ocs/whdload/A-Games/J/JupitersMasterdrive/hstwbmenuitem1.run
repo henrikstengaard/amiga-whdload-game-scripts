@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JupitersMasterdrive/"
+IF EXISTS ENV:whdloadargs
+	whdload "JupitersMasterdrive.Slave" $whdloadargs
+ELSE
+	whdload "JupitersMasterdrive.Slave"
+ENDIF

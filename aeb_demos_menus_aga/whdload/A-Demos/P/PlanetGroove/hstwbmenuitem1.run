@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PlanetGroove/"
+IF EXISTS ENV:whdloadargs
+	whdload "PlanetGroove.slave" $whdloadargs
+ELSE
+	whdload "PlanetGroove.slave"
+ENDIF

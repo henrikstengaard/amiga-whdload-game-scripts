@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tetrix
+RunFile=Tetrix.Slave
+AGS2Name=Tetrix
+AGS2IndexName=T
+AGS2FileName=Tetrix
+iGameName=Tetrix

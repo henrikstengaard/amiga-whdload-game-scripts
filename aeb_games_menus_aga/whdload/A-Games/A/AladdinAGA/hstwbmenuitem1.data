@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Aladdin AGA
+RunFile=AladdinAGA.Slave
+AGS2Name=Aladdin AGA
+AGS2IndexName=A
+AGS2FileName=Aladdin AGA
+iGameName=Aladdin AGA

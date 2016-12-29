@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/3DNetAnalyzer/"
+IF EXISTS ENV:whdloadargs
+	whdload "3DNetAnalyzer.Slave" $whdloadargs
+ELSE
+	whdload "3DNetAnalyzer.Slave"
+ENDIF

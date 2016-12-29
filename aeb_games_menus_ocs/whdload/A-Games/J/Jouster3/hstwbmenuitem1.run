@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/Jouster3/"
+IF EXISTS ENV:whdloadargs
+	whdload "Jouster3.slave" $whdloadargs
+ELSE
+	whdload "Jouster3.slave"
+ENDIF

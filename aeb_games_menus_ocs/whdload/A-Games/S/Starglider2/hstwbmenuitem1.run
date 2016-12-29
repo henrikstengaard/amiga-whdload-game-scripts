@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Starglider2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Starglider2.Slave" $whdloadargs
+ELSE
+	whdload "Starglider2.Slave"
+ENDIF

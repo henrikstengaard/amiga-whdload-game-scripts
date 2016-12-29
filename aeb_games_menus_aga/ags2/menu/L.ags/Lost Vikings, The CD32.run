@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:L/LostVikingsCD32/LostVikingsCD32.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "L" "Lost Vikings, The CD32"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "L" "Lost Vikings, The CD32"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/LostVikingsCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "LostVikingsCD32.slave" $whdloadargs
+  whdload "LostVikingsCD32.slave" $whdloadargs
 ELSE
-	whdload "LostVikingsCD32.slave"
+  whdload "LostVikingsCD32.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

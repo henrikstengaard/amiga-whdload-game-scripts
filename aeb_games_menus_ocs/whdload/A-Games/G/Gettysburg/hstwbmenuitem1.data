@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gettysburg
+RunFile=Gettysburg.Slave
+AGS2Name=Gettysburg
+AGS2IndexName=G
+AGS2FileName=Gettysburg
+iGameName=Gettysburg

@@ -1,4 +1,5 @@
 Name    : Synthesis
+Version : AGA
 Groups  : Network
 Type    : Demo
 Party   : Assembly 1998

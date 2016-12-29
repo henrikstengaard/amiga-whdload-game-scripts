@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BundesligaManagerHattDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "BundesligaManagerHattDe.Slave" $whdloadargs
+ELSE
+	whdload "BundesligaManagerHattDe.Slave"
+ENDIF

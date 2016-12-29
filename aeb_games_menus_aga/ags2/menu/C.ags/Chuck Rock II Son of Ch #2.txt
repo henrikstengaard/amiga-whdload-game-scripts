@@ -1,4 +1,5 @@
 Name      : Chuck Rock II: Son of Chuck
+Version   : CD32
 Publisher : Core Design
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

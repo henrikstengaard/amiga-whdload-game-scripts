@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Crazy Shot
+RunFile=CrazyShot.Slave
+AGS2Name=Crazy Shot
+AGS2IndexName=C
+AGS2FileName=Crazy Shot
+iGameName=Crazy Shot

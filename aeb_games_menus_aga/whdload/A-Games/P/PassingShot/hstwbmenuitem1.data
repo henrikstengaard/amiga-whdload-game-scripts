@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Passing Shot
+RunFile=PassingShot.Slave
+AGS2Name=Passing Shot
+AGS2IndexName=P
+AGS2FileName=Passing Shot
+iGameName=Passing Shot

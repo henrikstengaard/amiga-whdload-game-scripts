@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:K/KingsQuestEnhanced/KingsQuestEnhanced.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "K" "King's Quest Quest for the"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "K" "King's Quest Quest for the"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:K/KingsQuestEnhanced/"
 IF EXISTS ENV:whdloadargs
-	whdload "KingsQuestEnhanced.slave" $whdloadargs
+  whdload "KingsQuestEnhanced.slave" $whdloadargs
 ELSE
-	whdload "KingsQuestEnhanced.slave"
+  whdload "KingsQuestEnhanced.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

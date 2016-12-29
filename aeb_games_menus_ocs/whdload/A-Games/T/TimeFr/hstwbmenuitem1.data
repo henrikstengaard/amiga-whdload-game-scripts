@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Time FR
+RunFile=TimeFr.Slave
+AGS2Name=Time FR
+AGS2IndexName=T
+AGS2FileName=Time FR
+iGameName=Time FR

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LemmingsCDTV/"
+IF EXISTS ENV:whdloadargs
+	whdload "LemmingsCDTV.Slave" $whdloadargs
+ELSE
+	whdload "LemmingsCDTV.Slave"
+ENDIF

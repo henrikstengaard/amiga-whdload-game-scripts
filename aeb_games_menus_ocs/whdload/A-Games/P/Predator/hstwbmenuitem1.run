@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Predator/"
+IF EXISTS ENV:whdloadargs
+	whdload "Predator.Slave" $whdloadargs
+ELSE
+	whdload "Predator.Slave"
+ENDIF

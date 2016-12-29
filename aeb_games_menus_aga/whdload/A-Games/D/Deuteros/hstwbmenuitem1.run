@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Deuteros/"
+IF EXISTS ENV:whdloadargs
+	whdload "Deuteros.Slave" $whdloadargs
+ELSE
+	whdload "Deuteros.Slave"
+ENDIF

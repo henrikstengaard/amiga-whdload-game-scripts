@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Morph AGA
+RunFile=MorphAGA.Slave
+AGS2Name=Morph AGA
+AGS2IndexName=M
+AGS2FileName=Morph AGA
+iGameName=Morph AGA

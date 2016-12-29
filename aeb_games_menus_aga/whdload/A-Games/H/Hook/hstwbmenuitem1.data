@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hook
+RunFile=Hook.slave
+AGS2Name=Hook
+AGS2IndexName=H
+AGS2FileName=Hook
+iGameName=Hook

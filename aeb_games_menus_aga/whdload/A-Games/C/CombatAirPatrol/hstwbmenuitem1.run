@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CombatAirPatrol/"
+IF EXISTS ENV:whdloadargs
+	whdload "CombatAirPatrol.slave" $whdloadargs
+ELSE
+	whdload "CombatAirPatrol.slave"
+ENDIF

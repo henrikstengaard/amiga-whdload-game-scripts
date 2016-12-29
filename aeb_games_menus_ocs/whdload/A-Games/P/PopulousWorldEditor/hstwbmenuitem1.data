@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Populous World Editor
+RunFile=PopulousWorldEditor.Slave
+AGS2Name=Populous World Editor
+AGS2IndexName=P
+AGS2FileName=Populous World Editor
+iGameName=Populous World Editor

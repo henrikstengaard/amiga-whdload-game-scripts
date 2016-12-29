@@ -1,6 +1,0 @@
-Name      : Great Courts 2
-Publisher : Ubi Soft
-Year      : 1991
-Genre     : Sports - Tennis
-Players   : 1 or 2, Simultaneous
-Whdload   : GreatCourts2512KB.Slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CapNCarnage/"
+IF EXISTS ENV:whdloadargs
+	whdload "CapNCarnage.slave" $whdloadargs
+ELSE
+	whdload "CapNCarnage.slave"
+ENDIF

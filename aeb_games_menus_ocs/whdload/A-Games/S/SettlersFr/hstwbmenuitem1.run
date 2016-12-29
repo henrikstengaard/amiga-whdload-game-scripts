@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SettlersFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "SettlersFr.slave" $whdloadargs
+ELSE
+	whdload "SettlersFr.slave"
+ENDIF

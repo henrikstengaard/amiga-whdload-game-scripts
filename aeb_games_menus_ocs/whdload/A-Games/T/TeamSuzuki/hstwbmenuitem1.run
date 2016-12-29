@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TeamSuzuki/"
+IF EXISTS ENV:whdloadargs
+	whdload "TeamSuzuki.slave" $whdloadargs
+ELSE
+	whdload "TeamSuzuki.slave"
+ENDIF

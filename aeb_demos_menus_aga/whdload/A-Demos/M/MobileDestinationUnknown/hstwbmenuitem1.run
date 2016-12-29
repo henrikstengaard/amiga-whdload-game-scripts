@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MobileDestinationUnknown/"
+IF EXISTS ENV:whdloadargs
+	whdload "MobileDestinationUnknown.slave" $whdloadargs
+ELSE
+	whdload "MobileDestinationUnknown.slave"
+ENDIF

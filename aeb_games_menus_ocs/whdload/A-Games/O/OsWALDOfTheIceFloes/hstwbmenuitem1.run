@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OsWALDOfTheIceFloes/"
+IF EXISTS ENV:whdloadargs
+	whdload "OsWALDOfTheIceFloes.Slave" $whdloadargs
+ELSE
+	whdload "OsWALDOfTheIceFloes.Slave"
+ENDIF

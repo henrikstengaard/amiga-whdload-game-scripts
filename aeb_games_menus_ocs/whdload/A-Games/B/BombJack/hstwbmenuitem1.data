@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bomb Jack
+RunFile=BombJack.slave
+AGS2Name=Bomb Jack
+AGS2IndexName=B
+AGS2FileName=Bomb Jack
+iGameName=Bomb Jack

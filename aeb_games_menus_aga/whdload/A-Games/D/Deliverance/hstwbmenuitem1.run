@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Deliverance/"
+IF EXISTS ENV:whdloadargs
+	whdload "Deliverance.Slave" $whdloadargs
+ELSE
+	whdload "Deliverance.Slave"
+ENDIF

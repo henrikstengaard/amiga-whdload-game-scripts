@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CheckedImplosion/"
+IF EXISTS ENV:whdloadargs
+	whdload "CheckedImplosion.Slave" $whdloadargs
+ELSE
+	whdload "CheckedImplosion.Slave"
+ENDIF

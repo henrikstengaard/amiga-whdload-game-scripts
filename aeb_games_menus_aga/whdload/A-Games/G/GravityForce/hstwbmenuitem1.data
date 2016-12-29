@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gravity-Force
+RunFile=GravityForce.Slave
+AGS2Name=Gravity-Force
+AGS2IndexName=G
+AGS2FileName=Gravity-Force
+iGameName=Gravity-Force

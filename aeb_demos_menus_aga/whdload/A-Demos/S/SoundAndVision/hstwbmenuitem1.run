@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SoundAndVision/"
+IF EXISTS ENV:whdloadargs
+	whdload "SoundAndVision.Slave" $whdloadargs
+ELSE
+	whdload "SoundAndVision.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Reunion AGA
+RunFile=ReunionAGA.Slave
+AGS2Name=Reunion AGA
+AGS2IndexName=R
+AGS2FileName=Reunion AGA
+iGameName=Reunion AGA

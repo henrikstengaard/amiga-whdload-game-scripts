@@ -1,4 +1,5 @@
 Name      : Humans III: Evolution Lost in Time...
+Version   : AGA
 Publisher : Gametek
 Year      : 1996
 Genre     : Arcade - Miscellaneous

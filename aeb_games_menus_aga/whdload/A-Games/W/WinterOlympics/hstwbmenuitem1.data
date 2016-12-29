@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Winter Olympics
+RunFile=WinterOlympics.Slave
+AGS2Name=Winter Olympics
+AGS2IndexName=W
+AGS2FileName=Winter Olympics
+iGameName=Winter Olympics

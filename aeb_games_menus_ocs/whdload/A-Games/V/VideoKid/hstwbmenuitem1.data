@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Videokid
+RunFile=VideoKid.slave
+AGS2Name=Videokid
+AGS2IndexName=V
+AGS2FileName=Videokid
+iGameName=Videokid

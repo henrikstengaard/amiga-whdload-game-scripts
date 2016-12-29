@@ -1,6 +1,6 @@
 Name      : Dragon Wars
-Publisher : Electronic Arts
 Language  : German
+Publisher : Electronic Arts
 Year      : 1990
 Genre     : Adventure - RPG 3D
 Players   : 1 Only

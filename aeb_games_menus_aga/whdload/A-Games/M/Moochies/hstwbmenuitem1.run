@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Moochies/"
+IF EXISTS ENV:whdloadargs
+	whdload "Moochies.Slave" $whdloadargs
+ELSE
+	whdload "Moochies.Slave"
+ENDIF

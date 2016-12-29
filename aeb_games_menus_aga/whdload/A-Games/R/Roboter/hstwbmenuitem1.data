@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Roboter
+RunFile=Roboter.Slave
+AGS2Name=Roboter
+AGS2IndexName=R
+AGS2FileName=Roboter
+iGameName=Roboter

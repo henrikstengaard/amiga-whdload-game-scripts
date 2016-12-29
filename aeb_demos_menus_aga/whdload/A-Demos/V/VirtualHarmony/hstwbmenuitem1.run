@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:V/VirtualHarmony/"
+IF EXISTS ENV:whdloadargs
+	whdload "VirtualHarmony.slave" $whdloadargs
+ELSE
+	whdload "VirtualHarmony.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Pong/"
+IF EXISTS ENV:whdloadargs
+	whdload "Pong.slave" $whdloadargs
+ELSE
+	whdload "Pong.slave"
+ENDIF

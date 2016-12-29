@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:X/Xenon2MusicRip/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xenon2MusicRip.Slave" $whdloadargs
+ELSE
+	whdload "Xenon2MusicRip.Slave"
+ENDIF

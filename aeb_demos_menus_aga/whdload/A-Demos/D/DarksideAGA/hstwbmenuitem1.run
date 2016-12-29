@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DarksideAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "DarksideAGA.Slave" $whdloadargs
+ELSE
+	whdload "DarksideAGA.Slave"
+ENDIF

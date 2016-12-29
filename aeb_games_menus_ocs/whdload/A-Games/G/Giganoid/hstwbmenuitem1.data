@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Giganoid
+RunFile=Giganoid.Slave
+AGS2Name=Giganoid
+AGS2IndexName=G
+AGS2FileName=Giganoid
+iGameName=Giganoid

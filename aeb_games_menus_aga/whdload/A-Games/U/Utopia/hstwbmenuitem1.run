@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Utopia/"
+IF EXISTS ENV:whdloadargs
+	whdload "Utopia.Slave" $whdloadargs
+ELSE
+	whdload "Utopia.Slave"
+ENDIF

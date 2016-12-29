@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/688AttackSub/"
+IF EXISTS ENV:whdloadargs
+	whdload "688AttackSub.slave" $whdloadargs
+ELSE
+	whdload "688AttackSub.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Subwar2050AGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "Subwar2050AGA.slave" $whdloadargs
+ELSE
+	whdload "Subwar2050AGA.slave"
+ENDIF

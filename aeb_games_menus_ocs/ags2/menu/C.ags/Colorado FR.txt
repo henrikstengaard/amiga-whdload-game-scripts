@@ -1,7 +1,7 @@
 Name      : Colorado
-Publisher : Silmarils
 Language  : French
+Publisher : Silmarils
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : ColoradoFastFr.slave
+Whdload   : ColoradoFr.Slave

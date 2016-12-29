@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Vader
+RunFile=Vader.Slave
+AGS2Name=Vader
+AGS2IndexName=V
+AGS2FileName=Vader
+iGameName=Vader

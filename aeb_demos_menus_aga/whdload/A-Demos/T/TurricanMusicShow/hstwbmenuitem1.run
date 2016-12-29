@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TurricanMusicShow/"
+IF EXISTS ENV:whdloadargs
+	whdload "TurricanMusicShow.Slave" $whdloadargs
+ELSE
+	whdload "TurricanMusicShow.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LoomFrKick13/"
+IF EXISTS ENV:whdloadargs
+	whdload "LoomFrKick13.slave" $whdloadargs
+ELSE
+	whdload "LoomFrKick13.slave"
+ENDIF

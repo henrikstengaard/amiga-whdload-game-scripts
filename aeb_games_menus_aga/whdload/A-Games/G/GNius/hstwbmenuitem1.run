@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GNius/"
+IF EXISTS ENV:whdloadargs
+	whdload "GNius.Slave" $whdloadargs
+ELSE
+	whdload "GNius.Slave"
+ENDIF

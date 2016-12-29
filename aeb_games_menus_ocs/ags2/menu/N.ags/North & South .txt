@@ -1,6 +1,0 @@
-Name      : North & South
-Publisher : Infogrames
-Year      : 1989
-Genre     : Strategy - War
-Players   : 1 or 2
-Whdload   : NorthAndSouthFiles.Slave

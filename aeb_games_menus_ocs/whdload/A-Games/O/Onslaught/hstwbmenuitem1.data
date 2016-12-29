@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Onslaught
+RunFile=Onslaught.slave
+AGS2Name=Onslaught
+AGS2IndexName=O
+AGS2FileName=Onslaught
+iGameName=Onslaught

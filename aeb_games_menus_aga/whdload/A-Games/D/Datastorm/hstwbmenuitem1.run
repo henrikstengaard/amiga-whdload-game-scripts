@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Datastorm/"
+IF EXISTS ENV:whdloadargs
+	whdload "Datastorm.Slave" $whdloadargs
+ELSE
+	whdload "Datastorm.Slave"
+ENDIF

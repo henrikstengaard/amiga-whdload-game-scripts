@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/ManoirDeMortvielleFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "ManoirDeMortvielleFr.Slave" $whdloadargs
+ELSE
+	whdload "ManoirDeMortvielleFr.Slave"
+ENDIF

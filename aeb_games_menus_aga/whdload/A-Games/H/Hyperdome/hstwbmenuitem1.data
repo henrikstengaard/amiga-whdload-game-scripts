@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hyperdome
+RunFile=Hyperdome.Slave
+AGS2Name=Hyperdome
+AGS2IndexName=H
+AGS2FileName=Hyperdome
+iGameName=Hyperdome

@@ -1,4 +1,5 @@
 Name      : Fury of the Furries
+Version   : CD32
 Publisher : Mindscape
 Year      : 1994
 Genre     : Arcade - Miscellaneous

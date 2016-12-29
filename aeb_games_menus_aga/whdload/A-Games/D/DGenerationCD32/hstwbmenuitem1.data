@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=D/Generation CD32
+RunFile=DGenerationCD32.slave
+AGS2Name=D/Generation CD32
+AGS2IndexName=D
+AGS2FileName=D-Generation CD32
+iGameName=D/Generation CD32

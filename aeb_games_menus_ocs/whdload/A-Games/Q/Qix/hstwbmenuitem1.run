@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/Qix/"
+IF EXISTS ENV:whdloadargs
+	whdload "Qix.Slave" $whdloadargs
+ELSE
+	whdload "Qix.Slave"
+ENDIF

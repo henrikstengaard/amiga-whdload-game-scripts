@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Capone
+RunFile=Capone.Slave
+AGS2Name=Capone
+AGS2IndexName=C
+AGS2FileName=Capone
+iGameName=Capone

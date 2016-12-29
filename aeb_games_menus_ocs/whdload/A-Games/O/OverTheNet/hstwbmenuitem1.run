@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OverTheNet/"
+IF EXISTS ENV:whdloadargs
+	whdload "OverTheNet.Slave" $whdloadargs
+ELSE
+	whdload "OverTheNet.Slave"
+ENDIF

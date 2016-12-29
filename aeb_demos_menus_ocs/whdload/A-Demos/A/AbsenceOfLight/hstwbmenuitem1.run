@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AbsenceOfLight/"
+IF EXISTS ENV:whdloadargs
+	whdload "AbsenceOfLight.Slave" $whdloadargs
+ELSE
+	whdload "AbsenceOfLight.Slave"
+ENDIF

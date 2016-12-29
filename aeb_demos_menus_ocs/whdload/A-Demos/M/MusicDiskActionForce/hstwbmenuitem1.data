@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Musicdisk - Action Force
+RunFile=MusicDiskActionForce.Slave
+AGS2Name=Musicdisk - Action Force
+AGS2IndexName=M
+AGS2FileName=Musicdisk - Action Force
+iGameName=Musicdisk - Action Force

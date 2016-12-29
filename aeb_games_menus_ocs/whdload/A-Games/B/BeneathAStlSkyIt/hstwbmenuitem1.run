@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BeneathAStlSkyIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "BeneathAStlSkyIt.Slave" $whdloadargs
+ELSE
+	whdload "BeneathAStlSkyIt.Slave"
+ENDIF

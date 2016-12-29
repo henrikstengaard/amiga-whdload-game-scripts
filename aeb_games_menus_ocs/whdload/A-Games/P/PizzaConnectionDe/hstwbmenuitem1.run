@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PizzaConnectionDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "PizzaConnectionDe.Slave" $whdloadargs
+ELSE
+	whdload "PizzaConnectionDe.Slave"
+ENDIF

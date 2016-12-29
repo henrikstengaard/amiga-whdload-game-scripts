@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/1000Miglia/"
+IF EXISTS ENV:whdloadargs
+	whdload "1000Miglia.Slave" $whdloadargs
+ELSE
+	whdload "1000Miglia.Slave"
+ENDIF

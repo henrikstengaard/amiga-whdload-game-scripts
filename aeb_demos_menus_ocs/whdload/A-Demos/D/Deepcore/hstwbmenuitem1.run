@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/Deepcore/"
+IF EXISTS ENV:whdloadargs
+	whdload "Deepcore.Slave" $whdloadargs
+ELSE
+	whdload "Deepcore.Slave"
+ENDIF

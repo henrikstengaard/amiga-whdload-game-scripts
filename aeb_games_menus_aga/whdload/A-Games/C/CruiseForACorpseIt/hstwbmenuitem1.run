@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CruiseForACorpseIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "CruiseForACorpseIt.Slave" $whdloadargs
+ELSE
+	whdload "CruiseForACorpseIt.Slave"
+ENDIF

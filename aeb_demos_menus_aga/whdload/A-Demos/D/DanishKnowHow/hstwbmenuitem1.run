@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DanishKnowHow/"
+IF EXISTS ENV:whdloadargs
+	whdload "DanishKnowHow.Slave" $whdloadargs
+ELSE
+	whdload "DanishKnowHow.Slave"
+ENDIF

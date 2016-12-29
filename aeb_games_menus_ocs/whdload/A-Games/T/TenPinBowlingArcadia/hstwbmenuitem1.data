@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SportTime Ten Pin Bowling
+RunFile=TenPinBowlingArcadia.Slave
+AGS2Name=SportTime Ten Pin Bowling
+AGS2IndexName=S
+AGS2FileName=SportTime Ten Pin Bowling
+iGameName=SportTime Ten Pin Bowling

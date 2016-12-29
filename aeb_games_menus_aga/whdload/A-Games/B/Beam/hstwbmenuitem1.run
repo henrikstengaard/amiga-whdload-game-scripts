@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Beam/"
+IF EXISTS ENV:whdloadargs
+	whdload "Beam.Slave" $whdloadargs
+ELSE
+	whdload "Beam.Slave"
+ENDIF

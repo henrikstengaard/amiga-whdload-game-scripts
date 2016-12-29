@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TubeWarriorsAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "TubeWarriorsAGA.Slave" $whdloadargs
+ELSE
+	whdload "TubeWarriorsAGA.Slave"
+ENDIF

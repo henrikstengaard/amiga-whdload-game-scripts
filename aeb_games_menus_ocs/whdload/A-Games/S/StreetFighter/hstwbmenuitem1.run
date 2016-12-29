@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StreetFighter/"
+IF EXISTS ENV:whdloadargs
+	whdload "StreetFighter.slave" $whdloadargs
+ELSE
+	whdload "StreetFighter.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DragonflightDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "DragonflightDe.Slave" $whdloadargs
+ELSE
+	whdload "DragonflightDe.Slave"
+ENDIF

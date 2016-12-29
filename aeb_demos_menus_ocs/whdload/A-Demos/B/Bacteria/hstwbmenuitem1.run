@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/Bacteria/"
+IF EXISTS ENV:whdloadargs
+	whdload "Bacteria.slave" $whdloadargs
+ELSE
+	whdload "Bacteria.slave"
+ENDIF

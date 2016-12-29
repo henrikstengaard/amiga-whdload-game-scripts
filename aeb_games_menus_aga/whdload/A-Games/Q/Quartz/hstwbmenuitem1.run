@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/Quartz/"
+IF EXISTS ENV:whdloadargs
+	whdload "Quartz.slave" $whdloadargs
+ELSE
+	whdload "Quartz.slave"
+ENDIF

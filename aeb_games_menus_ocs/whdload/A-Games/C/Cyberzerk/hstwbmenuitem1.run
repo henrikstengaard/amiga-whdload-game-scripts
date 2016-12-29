@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cyberzerk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cyberzerk.slave" $whdloadargs
+ELSE
+	whdload "Cyberzerk.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Overlander
+RunFile=Overlander.Slave
+AGS2Name=Overlander
+AGS2IndexName=O
+AGS2FileName=Overlander
+iGameName=Overlander

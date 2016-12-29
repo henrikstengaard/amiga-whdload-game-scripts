@@ -1,0 +1,5 @@
+Name      : BombPac
+Version   : AGA CD32 Aminet
+Year      : 1994
+Players   : 1
+Whdload   : BombPacCD32AGAAminet.Slave

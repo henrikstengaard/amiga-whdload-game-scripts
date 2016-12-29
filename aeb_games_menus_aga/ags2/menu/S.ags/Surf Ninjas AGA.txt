@@ -1,4 +1,5 @@
 Name      : Surf Ninjas
+Version   : AGA
 Publisher : MicroValue
 Year      : 1994
 Players   : 1 Only

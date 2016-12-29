@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mot
+RunFile=MOT.Slave
+AGS2Name=Mot
+AGS2IndexName=M
+AGS2FileName=Mot
+iGameName=Mot

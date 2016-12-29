@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:W/WithVectorsToHeaven/WithVectorsToHeaven.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "W" "With Vectors To Heaven - W"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "W" "With Vectors To Heaven - W"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:W/WithVectorsToHeaven/"
 IF EXISTS ENV:whdloadargs
-	whdload "WithVectorsToHeaven.Slave" $whdloadargs
+  whdload "WithVectorsToHeaven.Slave" $whdloadargs
 ELSE
-	whdload "WithVectorsToHeaven.Slave"
+  whdload "WithVectorsToHeaven.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

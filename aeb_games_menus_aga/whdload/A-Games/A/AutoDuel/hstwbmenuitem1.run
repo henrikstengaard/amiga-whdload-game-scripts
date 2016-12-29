@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AutoDuel/"
+IF EXISTS ENV:whdloadargs
+	whdload "AutoDuel.Slave" $whdloadargs
+ELSE
+	whdload "AutoDuel.Slave"
+ENDIF

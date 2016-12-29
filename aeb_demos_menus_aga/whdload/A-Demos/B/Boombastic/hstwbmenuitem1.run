@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/Boombastic/"
+IF EXISTS ENV:whdloadargs
+	whdload "Boombastic.slave" $whdloadargs
+ELSE
+	whdload "Boombastic.slave"
+ENDIF

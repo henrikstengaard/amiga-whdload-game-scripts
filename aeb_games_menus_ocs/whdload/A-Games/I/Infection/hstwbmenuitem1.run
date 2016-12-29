@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Infection/"
+IF EXISTS ENV:whdloadargs
+	whdload "Infection.Slave" $whdloadargs
+ELSE
+	whdload "Infection.Slave"
+ENDIF

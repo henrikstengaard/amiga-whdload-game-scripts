@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Khalaan/"
+IF EXISTS ENV:whdloadargs
+	whdload "Khalaan.Slave" $whdloadargs
+ELSE
+	whdload "Khalaan.Slave"
+ENDIF

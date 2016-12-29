@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BombTheBaseTuneshow2/"
+IF EXISTS ENV:whdloadargs
+	whdload "BombTheBaseTuneshow2.Slave" $whdloadargs
+ELSE
+	whdload "BombTheBaseTuneshow2.Slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : Simpsons, The: Bart vs. the Space Mutants
+Version   : 2Disk
 Publisher : Ocean
 Year      : 1991
 Genre     : Arcade - Miscellaneous

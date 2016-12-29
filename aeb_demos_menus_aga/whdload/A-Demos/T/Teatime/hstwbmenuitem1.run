@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/Teatime/"
+IF EXISTS ENV:whdloadargs
+	whdload "Teatime.Slave" $whdloadargs
+ELSE
+	whdload "Teatime.Slave"
+ENDIF

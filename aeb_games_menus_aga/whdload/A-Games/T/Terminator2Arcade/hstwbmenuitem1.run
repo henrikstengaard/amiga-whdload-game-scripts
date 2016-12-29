@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Terminator2Arcade/"
+IF EXISTS ENV:whdloadargs
+	whdload "Terminator2Arcade.Slave" $whdloadargs
+ELSE
+	whdload "Terminator2Arcade.Slave"
+ENDIF

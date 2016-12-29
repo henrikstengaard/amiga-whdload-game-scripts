@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MicroConcept/"
+IF EXISTS ENV:whdloadargs
+	whdload "MicroConcept.slave" $whdloadargs
+ELSE
+	whdload "MicroConcept.slave"
+ENDIF

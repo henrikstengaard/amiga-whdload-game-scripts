@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=European Football Champ
+RunFile=EuropeanFootballChamp.Slave
+AGS2Name=European Football Champ
+AGS2IndexName=E
+AGS2FileName=European Football Champ
+iGameName=European Football Champ

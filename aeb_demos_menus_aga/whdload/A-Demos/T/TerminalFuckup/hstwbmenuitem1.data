@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Terminal fuckup - Sanity
+RunFile=TerminalFuckup.Slave
+AGS2Name=Terminal fuckup - Sanity
+AGS2IndexName=T
+AGS2FileName=Terminal fuckup - Sanity
+iGameName=Terminal fuckup - Sanity

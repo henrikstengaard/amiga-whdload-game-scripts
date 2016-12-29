@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/Nitro/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nitro.slave" $whdloadargs
+ELSE
+	whdload "Nitro.slave"
+ENDIF

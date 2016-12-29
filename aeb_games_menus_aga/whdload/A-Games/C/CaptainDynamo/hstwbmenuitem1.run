@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CaptainDynamo/"
+IF EXISTS ENV:whdloadargs
+	whdload "CaptainDynamo.slave" $whdloadargs
+ELSE
+	whdload "CaptainDynamo.slave"
+ENDIF

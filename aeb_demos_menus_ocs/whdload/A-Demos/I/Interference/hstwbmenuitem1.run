@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/Interference/"
+IF EXISTS ENV:whdloadargs
+	whdload "Interference.Slave" $whdloadargs
+ELSE
+	whdload "Interference.Slave"
+ENDIF

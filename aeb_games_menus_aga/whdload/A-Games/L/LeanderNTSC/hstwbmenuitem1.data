@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leander NTSC
+RunFile=LeanderNTSC.Slave
+AGS2Name=Leander NTSC
+AGS2IndexName=L
+AGS2FileName=Leander NTSC
+iGameName=Leander NTSC

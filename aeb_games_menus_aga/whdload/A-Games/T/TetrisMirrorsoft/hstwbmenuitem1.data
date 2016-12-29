@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tetris
+RunFile=TetrisMirrorsoft.Slave
+AGS2Name=Tetris
+AGS2IndexName=T
+AGS2FileName=Tetris 
+iGameName=Tetris

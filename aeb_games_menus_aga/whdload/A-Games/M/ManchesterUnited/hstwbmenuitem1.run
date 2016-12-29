@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/ManchesterUnited/"
+IF EXISTS ENV:whdloadargs
+	whdload "ManchesterUnited.Slave" $whdloadargs
+ELSE
+	whdload "ManchesterUnited.Slave"
+ENDIF

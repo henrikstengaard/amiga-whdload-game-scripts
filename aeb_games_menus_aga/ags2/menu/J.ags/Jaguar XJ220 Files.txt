@@ -1,0 +1,7 @@
+Name      : Jaguar XJ220
+Version   : Files
+Publisher : Core Design
+Year      : 1992
+Genre     : Racing - Cars
+Players   : 1 or 2, Simultaneous
+Whdload   : JaguarXJ220Files.slave

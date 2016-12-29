@@ -1,4 +1,5 @@
 Name      : Deluxe Pacman
+Version   : AGA
 Publisher : (unknown)
 Year      : 1995
 Genre     : Arcade - Pac-Man

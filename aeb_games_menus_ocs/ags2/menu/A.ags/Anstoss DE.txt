@@ -1,6 +1,6 @@
 Name      : Anstoss
-Publisher : Sports (Ascon)
 Language  : German
+Publisher : Sports (Ascon)
 Year      : 1993
 Players   : 1 - 4 (1 simultaneous)
 Whdload   : AnstossDe.slave

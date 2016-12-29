@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BlueMax/"
+IF EXISTS ENV:whdloadargs
+	whdload "BlueMax.Slave" $whdloadargs
+ELSE
+	whdload "BlueMax.Slave"
+ENDIF

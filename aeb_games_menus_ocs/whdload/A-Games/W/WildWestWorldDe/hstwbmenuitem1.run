@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WildWestWorldDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "WildWestWorldDe.Slave" $whdloadargs
+ELSE
+	whdload "WildWestWorldDe.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Exterminator
+RunFile=Exterminator.slave
+AGS2Name=Exterminator
+AGS2IndexName=E
+AGS2FileName=Exterminator
+iGameName=Exterminator

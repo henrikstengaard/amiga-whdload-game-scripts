@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AbsoluteInebriation/"
+IF EXISTS ENV:whdloadargs
+	whdload "AbsoluteInebriation.Slave" $whdloadargs
+ELSE
+	whdload "AbsoluteInebriation.Slave"
+ENDIF

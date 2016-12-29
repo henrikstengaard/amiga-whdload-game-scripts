@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=F1
+RunFile=F1.slave
+AGS2Name=F1
+AGS2IndexName=F
+AGS2FileName=F1
+iGameName=F1

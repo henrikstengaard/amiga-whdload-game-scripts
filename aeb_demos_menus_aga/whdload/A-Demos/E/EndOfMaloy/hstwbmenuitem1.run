@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/EndOfMaloy/"
+IF EXISTS ENV:whdloadargs
+	whdload "EndOfMaloy.Slave" $whdloadargs
+ELSE
+	whdload "EndOfMaloy.Slave"
+ENDIF

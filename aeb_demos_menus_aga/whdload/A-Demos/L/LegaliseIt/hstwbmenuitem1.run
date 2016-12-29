@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/LegaliseIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "LegaliseIt.slave" $whdloadargs
+ELSE
+	whdload "LegaliseIt.slave"
+ENDIF

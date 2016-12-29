@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Technology2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Technology2.Slave" $whdloadargs
+ELSE
+	whdload "Technology2.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Apache Flight
+RunFile=ApacheFlight.slave
+AGS2Name=Apache Flight
+AGS2IndexName=A
+AGS2FileName=Apache Flight
+iGameName=Apache Flight

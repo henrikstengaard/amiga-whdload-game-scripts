@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PrisonNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "PrisonNTSC.Slave" $whdloadargs
+ELSE
+	whdload "PrisonNTSC.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Archipelagos
+RunFile=Archipelagos.slave
+AGS2Name=Archipelagos
+AGS2IndexName=A
+AGS2FileName=Archipelagos
+iGameName=Archipelagos

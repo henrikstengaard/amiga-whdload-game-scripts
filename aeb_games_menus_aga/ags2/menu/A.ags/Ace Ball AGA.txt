@@ -1,4 +1,5 @@
 Name      : Ace Ball
+Version   : AGA
 Publisher : Tim Soft
 Year      : 1995
 Players   : 1 - 2 (2 simultaneous)

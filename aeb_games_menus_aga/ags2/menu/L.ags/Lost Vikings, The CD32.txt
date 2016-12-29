@@ -1,4 +1,5 @@
 Name      : Lost Vikings, The
+Version   : CD32
 Publisher : Interplay Productions
 Year      : 1993
 Genre     : Platformer - Scrolling Screen

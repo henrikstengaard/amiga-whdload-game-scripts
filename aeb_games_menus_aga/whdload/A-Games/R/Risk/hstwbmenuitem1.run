@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Risk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Risk.Slave" $whdloadargs
+ELSE
+	whdload "Risk.Slave"
+ENDIF

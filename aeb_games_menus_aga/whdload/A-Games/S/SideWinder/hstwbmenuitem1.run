@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SideWinder/"
+IF EXISTS ENV:whdloadargs
+	whdload "Sidewinder.Slave" $whdloadargs
+ELSE
+	whdload "Sidewinder.Slave"
+ENDIF

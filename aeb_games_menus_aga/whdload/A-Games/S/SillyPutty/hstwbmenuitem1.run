@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SillyPutty/"
+IF EXISTS ENV:whdloadargs
+	whdload "SillyPutty.Slave" $whdloadargs
+ELSE
+	whdload "SillyPutty.Slave"
+ENDIF

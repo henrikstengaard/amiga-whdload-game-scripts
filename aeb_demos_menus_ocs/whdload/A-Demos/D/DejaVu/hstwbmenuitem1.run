@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DejaVu/"
+IF EXISTS ENV:whdloadargs
+	whdload "DejaVu.slave" $whdloadargs
+ELSE
+	whdload "DejaVu.slave"
+ENDIF

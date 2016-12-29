@@ -1,6 +1,6 @@
 Name      : Fascination
-Publisher : Coktel Vision
 Language  : Spanish
+Publisher : Coktel Vision
 Year      : 1991
 Genre     : Adventure - Point and Click
 Players   : 1 Only

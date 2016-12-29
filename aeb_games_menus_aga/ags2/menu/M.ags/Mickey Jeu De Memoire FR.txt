@@ -1,6 +1,6 @@
 Name      : Mickey Jeu De Memoire
-Publisher : Disney
 Language  : French
+Publisher : Disney
 Year      : 1993
 Players   : 1
 Whdload   : MickeyJeuDeMemoireFr.Slave

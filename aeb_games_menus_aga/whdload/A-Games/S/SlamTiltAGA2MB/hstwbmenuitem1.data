@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Slamtilt AGA 2MB
+RunFile=SlamTiltAGA2MB.Slave
+AGS2Name=Slamtilt AGA 2MB
+AGS2IndexName=S
+AGS2FileName=Slamtilt AGA 2MB
+iGameName=Slamtilt AGA 2MB

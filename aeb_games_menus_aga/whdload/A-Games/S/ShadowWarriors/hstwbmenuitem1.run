@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShadowWarriors/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShadowWarriors.Slave" $whdloadargs
+ELSE
+	whdload "ShadowWarriors.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Enforcer, The
+RunFile=Enforcer.Slave
+AGS2Name=Enforcer, The
+AGS2IndexName=E
+AGS2FileName=Enforcer, The
+iGameName=Enforcer, The

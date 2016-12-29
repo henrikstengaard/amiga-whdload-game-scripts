@@ -1,6 +1,6 @@
 Name      : Shufflepuck Café
-Publisher : Brøderbund
 Language  : French
+Publisher : Brøderbund
 Year      : 1989
 Genre     : Sports - Miscellaneous
 Players   : 1 Only

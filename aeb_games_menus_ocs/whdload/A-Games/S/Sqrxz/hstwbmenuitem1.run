@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Sqrxz/"
+IF EXISTS ENV:whdloadargs
+	whdload "Sqrxz.Slave" $whdloadargs
+ELSE
+	whdload "Sqrxz.Slave"
+ENDIF

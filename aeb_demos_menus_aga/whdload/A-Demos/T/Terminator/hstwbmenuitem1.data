@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=The Terminator - Status OK
+RunFile=Terminator.Slave
+AGS2Name=The Terminator - Status OK
+AGS2IndexName=T
+AGS2FileName=The Terminator - Status OK
+iGameName=The Terminator - Status OK

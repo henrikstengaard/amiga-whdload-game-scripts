@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MaxRally/"
+IF EXISTS ENV:whdloadargs
+	whdload "MaxRally.Slave" $whdloadargs
+ELSE
+	whdload "MaxRally.Slave"
+ENDIF

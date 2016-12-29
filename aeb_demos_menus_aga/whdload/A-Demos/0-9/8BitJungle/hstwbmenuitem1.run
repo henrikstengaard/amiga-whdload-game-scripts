@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:0-9/8BitJungle/"
+IF EXISTS ENV:whdloadargs
+	whdload "8BitJungle.Slave" $whdloadargs
+ELSE
+	whdload "8BitJungle.Slave"
+ENDIF

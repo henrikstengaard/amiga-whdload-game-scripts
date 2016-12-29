@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/InvestDe2Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "InvestDe2Disk.slave" $whdloadargs
+ELSE
+	whdload "InvestDe2Disk.slave"
+ENDIF

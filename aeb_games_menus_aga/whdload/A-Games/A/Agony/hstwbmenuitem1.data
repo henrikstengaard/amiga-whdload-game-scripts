@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Agony
+RunFile=Agony.Slave
+AGS2Name=Agony
+AGS2IndexName=A
+AGS2FileName=Agony
+iGameName=Agony

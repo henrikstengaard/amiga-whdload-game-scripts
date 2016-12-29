@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Fuzzball Intro
+RunFile=Intro.Slave
+AGS2Name=Fuzzball Intro
+AGS2IndexName=F
+AGS2FileName=Fuzzball Intro
+iGameName=Fuzzball Intro

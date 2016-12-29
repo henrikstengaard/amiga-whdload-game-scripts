@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Creatures
+RunFile=Creatures.Slave
+AGS2Name=Creatures
+AGS2IndexName=C
+AGS2FileName=Creatures
+iGameName=Creatures

@@ -1,4 +1,5 @@
 Name      : Benefactor
+Version   : CD32
 Publisher : Psygnosis
 Year      : 1994
 Genre     : Platformer - Single Screen

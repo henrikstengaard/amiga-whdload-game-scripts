@@ -1,0 +1,6 @@
+Name      : Turrican 3
+Version   : Demo
+Publisher : Softgold
+Year      : 1993
+Players   : 1 Only
+Whdload   : Turrican3Demo.Slave

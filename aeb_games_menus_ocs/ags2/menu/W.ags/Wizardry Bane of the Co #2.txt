@@ -1,6 +1,6 @@
 Name      : Wizardry: Bane of the Cosmic Forge
-Publisher : US Gold
 Language  : German
+Publisher : US Gold
 Year      : 1990
 Genre     : Adventure - RPG 3D
 Players   : 1 Only

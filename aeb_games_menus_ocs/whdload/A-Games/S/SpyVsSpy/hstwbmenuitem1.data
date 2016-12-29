@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Spy vs Spy
+RunFile=SpyVsSpy.Slave
+AGS2Name=Spy vs Spy
+AGS2IndexName=S
+AGS2FileName=Spy vs Spy
+iGameName=Spy vs Spy

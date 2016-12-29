@@ -1,4 +1,5 @@
 Name      : Links: The Challenge of Golf
+Version   : NTSC
 Publisher : US Gold
 Year      : 1992
 Genre     : Sports - Golf

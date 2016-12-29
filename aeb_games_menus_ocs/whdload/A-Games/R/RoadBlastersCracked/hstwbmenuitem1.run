@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RoadBlastersCracked/"
+IF EXISTS ENV:whdloadargs
+	whdload "RoadBlastersCracked.Slave" $whdloadargs
+ELSE
+	whdload "RoadBlastersCracked.Slave"
+ENDIF

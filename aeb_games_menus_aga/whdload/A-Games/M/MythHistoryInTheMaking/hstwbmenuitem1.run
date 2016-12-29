@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MythHistoryInTheMaking/"
+IF EXISTS ENV:whdloadargs
+	whdload "MythHistoryInTheMaking.Slave" $whdloadargs
+ELSE
+	whdload "MythHistoryInTheMaking.Slave"
+ENDIF

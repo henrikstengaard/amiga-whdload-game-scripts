@@ -1,0 +1,7 @@
+Name      : Storm Master
+Language  : German
+Version   : FAST
+Publisher : Silmarils
+Year      : 1991
+Genre     : Strategy - War
+Whdload   : StormMasterFastDe.slave

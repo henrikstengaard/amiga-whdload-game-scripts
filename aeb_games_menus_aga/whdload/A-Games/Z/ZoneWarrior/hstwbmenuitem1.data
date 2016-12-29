@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Zone Warrior
+RunFile=ZoneWarrior.slave
+AGS2Name=Zone Warrior
+AGS2IndexName=Z
+AGS2FileName=Zone Warrior
+iGameName=Zone Warrior

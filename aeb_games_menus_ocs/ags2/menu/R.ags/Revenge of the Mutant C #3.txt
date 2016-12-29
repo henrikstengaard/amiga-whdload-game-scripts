@@ -1,4 +1,5 @@
 Name      : Revenge of the Mutant Camels
+Version   : NTSC
 Publisher : Shareware
 Year      : 1992
 Players   : 1 - 2 (2 simultaneous)

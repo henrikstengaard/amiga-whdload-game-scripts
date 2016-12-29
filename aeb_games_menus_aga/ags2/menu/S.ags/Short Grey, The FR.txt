@@ -1,6 +1,6 @@
 Name      : Short Grey, The
-Publisher : Accrosoft
 Language  : French
+Publisher : Accrosoft
 Year      : 1993
 Genre     : Adventure - Point and Click
 Players   : 1

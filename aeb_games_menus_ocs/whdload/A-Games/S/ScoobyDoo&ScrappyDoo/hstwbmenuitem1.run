@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ScoobyDoo&ScrappyDoo/"
+IF EXISTS ENV:whdloadargs
+	whdload "ScoobyDoo&ScrappyDoo.slave" $whdloadargs
+ELSE
+	whdload "ScoobyDoo&ScrappyDoo.slave"
+ENDIF

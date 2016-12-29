@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:S/SensibleWorldOfSoccerEuro/SensibleWorldOfSoccerEuro.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "S" "Sensible World of Soccer  "
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "S" "Sensible World of Soccer  "
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:S/SensibleWorldOfSoccerEuro/"
 IF EXISTS ENV:whdloadargs
-	whdload "SensibleWorldOfSoccerEuro.Slave" $whdloadargs
+  whdload "SensibleWorldOfSoccerEuro.Slave" $whdloadargs
 ELSE
-	whdload "SensibleWorldOfSoccerEuro.Slave"
+  whdload "SensibleWorldOfSoccerEuro.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

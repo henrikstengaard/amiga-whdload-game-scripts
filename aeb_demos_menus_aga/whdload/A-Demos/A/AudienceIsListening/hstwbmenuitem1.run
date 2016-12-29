@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AudienceIsListening/"
+IF EXISTS ENV:whdloadargs
+	whdload "AudienceIsListening.Slave" $whdloadargs
+ELSE
+	whdload "AudienceIsListening.Slave"
+ENDIF

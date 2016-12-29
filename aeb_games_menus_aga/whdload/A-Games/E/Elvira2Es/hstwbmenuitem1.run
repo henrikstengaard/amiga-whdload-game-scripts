@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Elvira2Es/"
+IF EXISTS ENV:whdloadargs
+	whdload "Elvira2Es.Slave" $whdloadargs
+ELSE
+	whdload "Elvira2Es.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DoubleDragon2NTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "DoubleDragon2NTSC.Slave" $whdloadargs
+ELSE
+	whdload "DoubleDragon2NTSC.Slave"
+ENDIF

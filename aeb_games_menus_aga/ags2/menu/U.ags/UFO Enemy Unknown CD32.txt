@@ -1,4 +1,5 @@
 Name      : UFO: Enemy Unknown
+Version   : CD32
 Publisher : MicroProse Software
 Year      : 1994
 Genre     : Strategy - Miscellaneous

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Air Support
+RunFile=AirSupport.Slave
+AGS2Name=Air Support
+AGS2IndexName=A
+AGS2FileName=Air Support
+iGameName=Air Support

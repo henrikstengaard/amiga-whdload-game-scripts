@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WorldOfManga/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldOfManga.Slave" $whdloadargs
+ELSE
+	whdload "WorldOfManga.Slave"
+ENDIF

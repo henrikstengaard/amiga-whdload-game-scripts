@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bad Cat
+RunFile=BadCat.Slave
+AGS2Name=Bad Cat
+AGS2IndexName=B
+AGS2FileName=Bad Cat
+iGameName=Bad Cat

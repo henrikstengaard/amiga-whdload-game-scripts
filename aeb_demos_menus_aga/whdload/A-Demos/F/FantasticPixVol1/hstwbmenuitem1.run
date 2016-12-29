@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:F/FantasticPixVol1/"
+IF EXISTS ENV:whdloadargs
+	whdload "FantasticPixVol1.Slave" $whdloadargs
+ELSE
+	whdload "FantasticPixVol1.Slave"
+ENDIF

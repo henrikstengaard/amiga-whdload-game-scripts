@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Syndicate
+RunFile=Syndicate.slave
+AGS2Name=Syndicate
+AGS2IndexName=S
+AGS2FileName=Syndicate
+iGameName=Syndicate

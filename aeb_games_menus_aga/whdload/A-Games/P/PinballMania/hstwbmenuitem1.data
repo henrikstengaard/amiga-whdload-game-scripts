@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pinball Mania AGA
+RunFile=PinballMania.slave
+AGS2Name=Pinball Mania AGA
+AGS2IndexName=P
+AGS2FileName=Pinball Mania AGA
+iGameName=Pinball Mania AGA

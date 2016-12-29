@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Aquaventura
+RunFile=Aquaventura.slave
+AGS2Name=Aquaventura
+AGS2IndexName=A
+AGS2FileName=Aquaventura
+iGameName=Aquaventura

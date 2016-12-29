@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=War Machine
+RunFile=WarMachine.Slave
+AGS2Name=War Machine
+AGS2IndexName=W
+AGS2FileName=War Machine
+iGameName=War Machine

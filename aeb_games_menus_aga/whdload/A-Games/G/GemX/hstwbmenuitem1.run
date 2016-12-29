@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GemX/"
+IF EXISTS ENV:whdloadargs
+	whdload "GemX.slave" $whdloadargs
+ELSE
+	whdload "GemX.slave"
+ENDIF

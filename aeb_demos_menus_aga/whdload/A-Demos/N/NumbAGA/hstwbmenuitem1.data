@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Numb - Movement AGA
+RunFile=NumbAGA.Slave
+AGS2Name=Numb - Movement AGA
+AGS2IndexName=N
+AGS2FileName=Numb - Movement AGA 
+iGameName=Numb - Movement AGA

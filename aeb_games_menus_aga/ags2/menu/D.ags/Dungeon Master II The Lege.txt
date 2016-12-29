@@ -1,4 +1,5 @@
 Name      : Dungeon Master II: The Legend of Skullkeep
+Version   : AGA
 Publisher : Interplay Productions
 Year      : 1995
 Genre     : Adventure - RPG 3D

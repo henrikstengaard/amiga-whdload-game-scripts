@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TetrisPro/"
+IF EXISTS ENV:whdloadargs
+	whdload "TetrisPro.Slave" $whdloadargs
+ELSE
+	whdload "TetrisPro.Slave"
+ENDIF

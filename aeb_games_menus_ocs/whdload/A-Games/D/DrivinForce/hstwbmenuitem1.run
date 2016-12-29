@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DrivinForce/"
+IF EXISTS ENV:whdloadargs
+	whdload "DrivinForce.Slave" $whdloadargs
+ELSE
+	whdload "DrivinForce.Slave"
+ENDIF

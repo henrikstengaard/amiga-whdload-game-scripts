@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Battletech/"
+IF EXISTS ENV:whdloadargs
+	whdload "Battletech.Slave" $whdloadargs
+ELSE
+	whdload "Battletech.Slave"
+ENDIF

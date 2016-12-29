@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Street Gang
+RunFile=StreetGang.slave
+AGS2Name=Street Gang
+AGS2IndexName=S
+AGS2FileName=Street Gang
+iGameName=Street Gang

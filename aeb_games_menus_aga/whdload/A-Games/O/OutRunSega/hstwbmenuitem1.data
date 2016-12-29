@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Out Run
+RunFile=OutRunSega.slave
+AGS2Name=Out Run
+AGS2IndexName=O
+AGS2FileName=Out Run
+iGameName=Out Run

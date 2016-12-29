@@ -1,0 +1,7 @@
+Name      : Lionheart
+Version   : Demo1
+Publisher : Thalion
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : LionheartDemo1.Slave

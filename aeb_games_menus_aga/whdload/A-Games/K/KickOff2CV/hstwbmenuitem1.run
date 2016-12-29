@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KickOff2CV/"
+IF EXISTS ENV:whdloadargs
+	whdload "KickOff2CV.slave" $whdloadargs
+ELSE
+	whdload "KickOff2CV.slave"
+ENDIF

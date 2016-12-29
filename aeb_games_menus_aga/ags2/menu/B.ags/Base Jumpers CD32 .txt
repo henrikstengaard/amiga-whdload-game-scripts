@@ -1,4 +1,5 @@
 Name      : Base Jumpers
+Version   : CD32
 Publisher : Rasputin
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

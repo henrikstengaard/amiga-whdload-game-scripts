@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Flashback PL
+RunFile=FlashbackPl.slave
+AGS2Name=Flashback PL
+AGS2IndexName=F
+AGS2FileName=Flashback PL
+iGameName=Flashback PL

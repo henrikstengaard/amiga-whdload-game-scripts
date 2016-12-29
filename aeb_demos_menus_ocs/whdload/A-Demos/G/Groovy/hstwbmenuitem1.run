@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/Groovy/"
+IF EXISTS ENV:whdloadargs
+	whdload "Groovy.Slave" $whdloadargs
+ELSE
+	whdload "Groovy.Slave"
+ENDIF

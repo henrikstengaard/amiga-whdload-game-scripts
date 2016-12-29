@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Chuckie Egg
+RunFile=ChuckieEgg.Slave
+AGS2Name=Chuckie Egg
+AGS2IndexName=C
+AGS2FileName=Chuckie Egg
+iGameName=Chuckie Egg

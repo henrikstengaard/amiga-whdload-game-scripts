@@ -1,6 +1,6 @@
 Name      : Dino Wars
-Publisher : DigiTek Software
 Language  : German
+Publisher : DigiTek Software
 Year      : 1991
 Genre     : Board - Miscellaneous
 Players   : 1 or 2

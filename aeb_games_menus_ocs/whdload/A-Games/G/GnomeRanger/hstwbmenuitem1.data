@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gnome Ranger
+RunFile=GnomeRanger.Slave
+AGS2Name=Gnome Ranger
+AGS2IndexName=G
+AGS2FileName=Gnome Ranger
+iGameName=Gnome Ranger

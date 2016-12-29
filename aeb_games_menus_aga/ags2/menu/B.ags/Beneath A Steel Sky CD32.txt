@@ -1,4 +1,5 @@
 Name      : Beneath A Steel Sky
+Version   : CD32
 Publisher : Virgin Interactive
 Year      : 1994
 Genre     : Adventure - Point and Click

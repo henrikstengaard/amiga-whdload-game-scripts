@@ -1,6 +1,6 @@
 Name      : Mad Show
-Publisher : Silmarils
 Language  : French
+Publisher : Silmarils
 Year      : 1988
 Genre     : Arcade - Miscellaneous
 Players   : 1 to 4

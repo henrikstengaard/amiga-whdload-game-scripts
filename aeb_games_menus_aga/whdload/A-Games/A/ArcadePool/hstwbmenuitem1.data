@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arcade Pool
+RunFile=ArcadePool.slave
+AGS2Name=Arcade Pool
+AGS2IndexName=A
+AGS2FileName=Arcade Pool
+iGameName=Arcade Pool

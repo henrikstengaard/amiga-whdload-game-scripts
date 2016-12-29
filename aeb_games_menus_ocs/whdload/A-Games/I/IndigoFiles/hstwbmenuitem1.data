@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Indigo Files
+RunFile=IndigoFiles.Slave
+AGS2Name=Indigo Files
+AGS2IndexName=I
+AGS2FileName=Indigo Files
+iGameName=Indigo Files

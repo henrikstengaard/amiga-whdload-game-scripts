@@ -1,0 +1,6 @@
+Name      : Putty Squad
+Version   : AGA Demo
+Publisher : System 3
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : PuttySquadDemoAGA.Slave

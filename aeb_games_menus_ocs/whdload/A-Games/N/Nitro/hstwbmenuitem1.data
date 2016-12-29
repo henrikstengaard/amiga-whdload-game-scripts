@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Nitro
+RunFile=Nitro.slave
+AGS2Name=Nitro
+AGS2IndexName=N
+AGS2FileName=Nitro
+iGameName=Nitro

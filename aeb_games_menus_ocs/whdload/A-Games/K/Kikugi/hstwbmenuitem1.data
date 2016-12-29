@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Kikugi
+RunFile=Kikugi.Slave
+AGS2Name=Kikugi
+AGS2IndexName=K
+AGS2FileName=Kikugi
+iGameName=Kikugi

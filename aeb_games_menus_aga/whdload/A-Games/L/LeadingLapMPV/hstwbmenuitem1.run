@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LeadingLapMPV/"
+IF EXISTS ENV:whdloadargs
+	whdload "LeadingLapMPV.Slave" $whdloadargs
+ELSE
+	whdload "LeadingLapMPV.Slave"
+ENDIF

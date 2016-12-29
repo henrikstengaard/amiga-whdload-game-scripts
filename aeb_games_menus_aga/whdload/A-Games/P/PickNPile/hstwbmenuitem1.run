@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PickNPile/"
+IF EXISTS ENV:whdloadargs
+	whdload "PickNPile.Slave" $whdloadargs
+ELSE
+	whdload "PickNPile.Slave"
+ENDIF

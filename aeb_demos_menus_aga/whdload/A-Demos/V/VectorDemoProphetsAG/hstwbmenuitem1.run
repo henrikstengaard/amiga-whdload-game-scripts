@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:V/VectorDemoProphetsAG/"
+IF EXISTS ENV:whdloadargs
+	whdload "VectorDemoProphetsAG.Slave" $whdloadargs
+ELSE
+	whdload "VectorDemoProphetsAG.Slave"
+ENDIF

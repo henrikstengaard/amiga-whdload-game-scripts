@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Thunderbirds
+RunFile=Thunderbirds.slave
+AGS2Name=Thunderbirds
+AGS2IndexName=T
+AGS2FileName=Thunderbirds
+iGameName=Thunderbirds

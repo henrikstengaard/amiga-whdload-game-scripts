@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=TV Sports Basketball
+RunFile=TVSportsBasketball.Slave
+AGS2Name=TV Sports Basketball
+AGS2IndexName=T
+AGS2FileName=TV Sports Basketball
+iGameName=TV Sports Basketball

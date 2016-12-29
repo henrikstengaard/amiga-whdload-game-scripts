@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Fire and Ice
+RunFile=Fire&Ice.slave
+AGS2Name=Fire and Ice
+AGS2IndexName=F
+AGS2FileName=Fire and Ice
+iGameName=Fire and Ice

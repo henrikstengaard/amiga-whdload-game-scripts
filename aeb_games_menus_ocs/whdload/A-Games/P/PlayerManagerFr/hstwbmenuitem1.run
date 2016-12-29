@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PlayerManagerFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "PlayerManagerFr.slave" $whdloadargs
+ELSE
+	whdload "PlayerManagerFr.slave"
+ENDIF

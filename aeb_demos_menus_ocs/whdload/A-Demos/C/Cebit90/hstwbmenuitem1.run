@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Cebit90/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cebit90.Slave" $whdloadargs
+ELSE
+	whdload "Cebit90.Slave"
+ENDIF

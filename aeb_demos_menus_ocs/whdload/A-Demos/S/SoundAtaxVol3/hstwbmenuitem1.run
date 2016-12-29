@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SoundAtaxVol3/"
+IF EXISTS ENV:whdloadargs
+	whdload "SoundAtaxVol3.Slave" $whdloadargs
+ELSE
+	whdload "SoundAtaxVol3.Slave"
+ENDIF

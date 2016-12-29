@@ -1927,8 +1927,8 @@ ENDIF
 IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/"
   ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave"
-  ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave"
+  ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/igame.iff"
   ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/igame.iff' doesn't exist!"
@@ -1936,8 +1936,8 @@ ENDIF
 IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/"
   ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave"
-  ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave"
+  ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond/igame.iff"
   ECHO "ERROR: Path 'A-Games:S/SpaceCrusade&VoyageBeyond/igame.iff' doesn't exist!"

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Falcon&MissionDisks/"
+IF EXISTS ENV:whdloadargs
+	whdload "Falcon&MissionDisks.Slave" $whdloadargs
+ELSE
+	whdload "Falcon&MissionDisks.Slave"
+ENDIF

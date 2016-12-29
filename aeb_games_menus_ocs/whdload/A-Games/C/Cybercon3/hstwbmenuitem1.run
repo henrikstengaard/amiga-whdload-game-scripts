@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cybercon3/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cybercon3.Slave" $whdloadargs
+ELSE
+	whdload "Cybercon3.Slave"
+ENDIF

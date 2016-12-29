@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/3001OConnorsFight/"
+IF EXISTS ENV:whdloadargs
+	whdload "3001OConnorsFight.Slave" $whdloadargs
+ELSE
+	whdload "3001OConnorsFight.Slave"
+ENDIF

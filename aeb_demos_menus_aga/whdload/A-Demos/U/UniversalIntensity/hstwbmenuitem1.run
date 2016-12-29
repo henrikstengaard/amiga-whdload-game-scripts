@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:U/UniversalIntensity/"
+IF EXISTS ENV:whdloadargs
+	whdload "UniversalIntensity.Slave" $whdloadargs
+ELSE
+	whdload "UniversalIntensity.Slave"
+ENDIF

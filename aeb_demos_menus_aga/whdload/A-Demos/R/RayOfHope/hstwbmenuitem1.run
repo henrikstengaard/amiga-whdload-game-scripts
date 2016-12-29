@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/RayOfHope/"
+IF EXISTS ENV:whdloadargs
+	whdload "RayOfHope.Slave" $whdloadargs
+ELSE
+	whdload "RayOfHope.Slave"
+ENDIF

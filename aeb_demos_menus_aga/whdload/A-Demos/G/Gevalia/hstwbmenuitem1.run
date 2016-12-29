@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/Gevalia/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gevalia.Slave" $whdloadargs
+ELSE
+	whdload "Gevalia.Slave"
+ENDIF

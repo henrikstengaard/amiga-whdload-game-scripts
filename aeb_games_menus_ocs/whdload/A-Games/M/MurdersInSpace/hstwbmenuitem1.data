@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Murders in Space
+RunFile=MurdersInSpace.Slave
+AGS2Name=Murders in Space
+AGS2IndexName=M
+AGS2FileName=Murders in Space
+iGameName=Murders in Space

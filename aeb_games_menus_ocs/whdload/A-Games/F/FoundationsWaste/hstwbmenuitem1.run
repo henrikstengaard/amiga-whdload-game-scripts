@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FoundationsWaste/"
+IF EXISTS ENV:whdloadargs
+	whdload "FoundationsWaste.Slave" $whdloadargs
+ELSE
+	whdload "FoundationsWaste.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hostages/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hostages.Slave" $whdloadargs
+ELSE
+	whdload "Hostages.Slave"
+ENDIF

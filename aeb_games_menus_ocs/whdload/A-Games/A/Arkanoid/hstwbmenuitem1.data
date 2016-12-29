@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arkanoid
+RunFile=Arkanoid.Slave
+AGS2Name=Arkanoid
+AGS2IndexName=A
+AGS2FileName=Arkanoid
+iGameName=Arkanoid

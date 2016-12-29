@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/Ultima5/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ultima5.Slave" $whdloadargs
+ELSE
+	whdload "Ultima5.Slave"
+ENDIF

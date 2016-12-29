@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Popeye2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Popeye2.Slave" $whdloadargs
+ELSE
+	whdload "Popeye2.Slave"
+ENDIF

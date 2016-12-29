@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HardDrivin/"
+IF EXISTS ENV:whdloadargs
+	whdload "HardDrivin.Slave" $whdloadargs
+ELSE
+	whdload "HardDrivin.Slave"
+ENDIF

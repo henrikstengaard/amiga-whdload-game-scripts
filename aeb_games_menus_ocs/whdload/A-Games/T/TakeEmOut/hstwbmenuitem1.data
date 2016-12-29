@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Take 'Em Out
+RunFile=TakeEmOut.slave
+AGS2Name=Take 'Em Out
+AGS2IndexName=T
+AGS2FileName=Take 'Em Out
+iGameName=Take 'Em Out

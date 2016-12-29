@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OutRunEuropa/"
+IF EXISTS ENV:whdloadargs
+	whdload "OutRunEuropa.Slave" $whdloadargs
+ELSE
+	whdload "OutRunEuropa.Slave"
+ENDIF

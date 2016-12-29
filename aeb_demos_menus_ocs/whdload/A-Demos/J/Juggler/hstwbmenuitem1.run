@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:J/Juggler/"
+IF EXISTS ENV:whdloadargs
+	whdload "Juggler.Slave" $whdloadargs
+ELSE
+	whdload "Juggler.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/7Colors/"
+IF EXISTS ENV:whdloadargs
+	whdload "7Colors.Slave" $whdloadargs
+ELSE
+	whdload "7Colors.Slave"
+ENDIF

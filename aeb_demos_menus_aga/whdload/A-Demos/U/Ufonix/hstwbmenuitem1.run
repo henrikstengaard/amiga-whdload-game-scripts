@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:U/Ufonix/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ufonix.Slave" $whdloadargs
+ELSE
+	whdload "Ufonix.Slave"
+ENDIF

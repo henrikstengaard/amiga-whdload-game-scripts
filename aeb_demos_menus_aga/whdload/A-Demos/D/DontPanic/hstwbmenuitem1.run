@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DontPanic/"
+IF EXISTS ENV:whdloadargs
+	whdload "DontPanic.Slave" $whdloadargs
+ELSE
+	whdload "DontPanic.Slave"
+ENDIF

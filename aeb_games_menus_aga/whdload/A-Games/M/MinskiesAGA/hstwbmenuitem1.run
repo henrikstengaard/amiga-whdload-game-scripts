@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MinskiesAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "MinskiesAGA.slave" $whdloadargs
+ELSE
+	whdload "MinskiesAGA.slave"
+ENDIF

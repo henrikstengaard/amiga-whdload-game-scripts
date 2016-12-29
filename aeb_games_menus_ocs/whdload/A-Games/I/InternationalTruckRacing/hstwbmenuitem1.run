@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/InternationalTruckRacing/"
+IF EXISTS ENV:whdloadargs
+	whdload "InternationalTruckRacing.slave" $whdloadargs
+ELSE
+	whdload "InternationalTruckRacing.slave"
+ENDIF

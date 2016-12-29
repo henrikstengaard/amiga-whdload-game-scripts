@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=No Second Prize
+RunFile=NoSecondPrize.slave
+AGS2Name=No Second Prize
+AGS2IndexName=N
+AGS2FileName=No Second Prize
+iGameName=No Second Prize

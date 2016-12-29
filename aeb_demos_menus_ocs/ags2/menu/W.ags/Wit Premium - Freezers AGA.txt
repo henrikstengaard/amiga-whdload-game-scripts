@@ -1,4 +1,5 @@
 Name    : Wit Premium
+Version : AGA
 Groups  : Freezers
 Type    : Demo
 Party   : Gelloween 1994

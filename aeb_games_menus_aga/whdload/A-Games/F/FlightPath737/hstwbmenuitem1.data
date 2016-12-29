@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Flight Path 737
+RunFile=FlightPath737.Slave
+AGS2Name=Flight Path 737
+AGS2IndexName=F
+AGS2FileName=Flight Path 737
+iGameName=Flight Path 737

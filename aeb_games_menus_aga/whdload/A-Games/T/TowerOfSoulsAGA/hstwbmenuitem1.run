@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TowerOfSoulsAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "TowerOfSoulsAGA.Slave" $whdloadargs
+ELSE
+	whdload "TowerOfSoulsAGA.Slave"
+ENDIF

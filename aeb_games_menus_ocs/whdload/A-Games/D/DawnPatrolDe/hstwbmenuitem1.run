@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DawnPatrolDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "DawnPatrolDe.Slave" $whdloadargs
+ELSE
+	whdload "DawnPatrolDe.Slave"
+ENDIF

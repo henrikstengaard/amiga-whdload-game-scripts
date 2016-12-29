@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Quadralien
+RunFile=Quadralien.slave
+AGS2Name=Quadralien
+AGS2IndexName=Q
+AGS2FileName=Quadralien
+iGameName=Quadralien

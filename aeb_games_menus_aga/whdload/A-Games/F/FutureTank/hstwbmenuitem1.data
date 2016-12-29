@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Future Tank
+RunFile=FutureTank.slave
+AGS2Name=Future Tank
+AGS2IndexName=F
+AGS2FileName=Future Tank
+iGameName=Future Tank

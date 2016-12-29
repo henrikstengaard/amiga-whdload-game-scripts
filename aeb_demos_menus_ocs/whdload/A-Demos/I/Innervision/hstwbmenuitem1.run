@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:I/Innervision/"
+IF EXISTS ENV:whdloadargs
+	whdload "Innervision.Slave" $whdloadargs
+ELSE
+	whdload "Innervision.Slave"
+ENDIF

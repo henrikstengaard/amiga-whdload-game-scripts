@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sensible Golf
+RunFile=SensibleGolf.Slave
+AGS2Name=Sensible Golf
+AGS2IndexName=S
+AGS2FileName=Sensible Golf
+iGameName=Sensible Golf

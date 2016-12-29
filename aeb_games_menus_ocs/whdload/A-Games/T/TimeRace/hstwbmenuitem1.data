@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Time Race
+RunFile=TimeRace.Slave
+AGS2Name=Time Race
+AGS2IndexName=T
+AGS2FileName=Time Race
+iGameName=Time Race

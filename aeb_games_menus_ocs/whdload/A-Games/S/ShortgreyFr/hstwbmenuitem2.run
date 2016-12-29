@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShortgreyFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "IntroFr.Slave" $whdloadargs
+ELSE
+	whdload "IntroFr.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GemStoneLegend/"
+IF EXISTS ENV:whdloadargs
+	whdload "GemStoneLegend.Slave" $whdloadargs
+ELSE
+	whdload "GemStoneLegend.Slave"
+ENDIF

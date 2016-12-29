@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bugbomber
+RunFile=BugBomber.Slave
+AGS2Name=Bugbomber
+AGS2IndexName=B
+AGS2FileName=Bugbomber
+iGameName=Bugbomber

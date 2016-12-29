@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Top Secret
+RunFile=TopSecret.Slave
+AGS2Name=Top Secret
+AGS2IndexName=T
+AGS2FileName=Top Secret
+iGameName=Top Secret

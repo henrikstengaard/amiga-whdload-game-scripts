@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Megademo6Kefrens/"
+IF EXISTS ENV:whdloadargs
+	whdload "Megademo6Kefrens.Slave" $whdloadargs
+ELSE
+	whdload "Megademo6Kefrens.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Seek&DestroyAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "Seek&DestroyAGA.Slave" $whdloadargs
+ELSE
+	whdload "Seek&DestroyAGA.Slave"
+ENDIF

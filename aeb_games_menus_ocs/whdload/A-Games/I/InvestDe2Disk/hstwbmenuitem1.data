@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Invest DE 2Disk
+RunFile=InvestDe2Disk.slave
+AGS2Name=Invest DE 2Disk
+AGS2IndexName=I
+AGS2FileName=Invest DE 2Disk
+iGameName=Invest DE 2Disk

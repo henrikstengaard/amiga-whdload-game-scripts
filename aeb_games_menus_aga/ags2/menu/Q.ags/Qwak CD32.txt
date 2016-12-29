@@ -1,4 +1,5 @@
 Name      : Qwak
+Version   : CD32
 Publisher : Team 17
 Year      : 1993
 Genre     : Platformer - Single Screen

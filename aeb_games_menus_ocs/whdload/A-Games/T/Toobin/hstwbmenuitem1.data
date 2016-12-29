@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Toobin'
+RunFile=Toobin.Slave
+AGS2Name=Toobin'
+AGS2IndexName=T
+AGS2FileName=Toobin'
+iGameName=Toobin'

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BorrowedTime/"
+IF EXISTS ENV:whdloadargs
+	whdload "BorrowedTime.Slave" $whdloadargs
+ELSE
+	whdload "BorrowedTime.Slave"
+ENDIF

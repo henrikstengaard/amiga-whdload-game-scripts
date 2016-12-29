@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Frost Byte
+RunFile=FrostByte.Slave
+AGS2Name=Frost Byte
+AGS2IndexName=F
+AGS2FileName=Frost Byte
+iGameName=Frost Byte

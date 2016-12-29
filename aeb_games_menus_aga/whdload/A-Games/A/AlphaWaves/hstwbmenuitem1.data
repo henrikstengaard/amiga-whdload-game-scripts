@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alpha Waves
+RunFile=AlphaWaves.Slave
+AGS2Name=Alpha Waves
+AGS2IndexName=A
+AGS2FileName=Alpha Waves
+iGameName=Alpha Waves

@@ -1,4 +1,5 @@
 Name    : Gigademo 3
+Version : Demo3
 Groups  : Triangle,The Gang
 Type    : Demo
 Party   : Triangle - Amiga Lords party 1989

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RaceDrivinNoIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "RaceDrivinNoIntro.slave" $whdloadargs
+ELSE
+	whdload "RaceDrivinNoIntro.slave"
+ENDIF

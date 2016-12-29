@@ -1,4 +1,5 @@
 Name    : Nexus-7
+Version : AGA
 Groups  : Andromeda
 Type    : Demo
 Party   : The Party 1994

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cliffhanger/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cliffhanger.slave" $whdloadargs
+ELSE
+	whdload "Cliffhanger.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WarmUp/"
+IF EXISTS ENV:whdloadargs
+	whdload "WarmUp.Slave" $whdloadargs
+ELSE
+	whdload "WarmUp.Slave"
+ENDIF

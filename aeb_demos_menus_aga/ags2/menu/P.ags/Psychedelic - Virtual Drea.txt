@@ -1,4 +1,5 @@
 Name    : Psychedelic
+Version : AGA
 Groups  : Virtual Dreams
 Type    : Demo
 Party   : The Party 1994

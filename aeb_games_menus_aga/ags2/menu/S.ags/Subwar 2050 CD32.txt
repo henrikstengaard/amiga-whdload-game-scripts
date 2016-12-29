@@ -1,4 +1,5 @@
 Name      : Subwar 2050
+Version   : CD32
 Publisher : MicroProse Software
 Year      : 1995
 Genre     : Simulation - Marine

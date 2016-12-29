@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Ilyad/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ilyad.Slave" $whdloadargs
+ELSE
+	whdload "Ilyad.Slave"
+ENDIF

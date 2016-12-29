@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StormlordPrerelease/"
+IF EXISTS ENV:whdloadargs
+	whdload "StormlordPrerelease.Slave" $whdloadargs
+ELSE
+	whdload "StormlordPrerelease.Slave"
+ENDIF

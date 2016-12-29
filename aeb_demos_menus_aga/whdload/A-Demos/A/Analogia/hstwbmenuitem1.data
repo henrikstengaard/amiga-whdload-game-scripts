@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Analogia - Analog
+RunFile=Analogia.Slave
+AGS2Name=Analogia - Analog
+AGS2IndexName=A
+AGS2FileName=Analogia - Analog
+iGameName=Analogia - Analog

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Overlander/"
+IF EXISTS ENV:whdloadargs
+	whdload "Overlander.Slave" $whdloadargs
+ELSE
+	whdload "Overlander.Slave"
+ENDIF

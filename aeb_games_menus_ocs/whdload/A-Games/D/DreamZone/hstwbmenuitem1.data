@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dream Zone
+RunFile=DreamZone.Slave
+AGS2Name=Dream Zone
+AGS2IndexName=D
+AGS2FileName=Dream Zone
+iGameName=Dream Zone

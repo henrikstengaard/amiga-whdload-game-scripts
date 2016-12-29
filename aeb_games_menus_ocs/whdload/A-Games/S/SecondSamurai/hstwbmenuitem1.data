@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Second Samurai
+RunFile=SecondSamurai.slave
+AGS2Name=Second Samurai
+AGS2IndexName=S
+AGS2FileName=Second Samurai
+iGameName=Second Samurai

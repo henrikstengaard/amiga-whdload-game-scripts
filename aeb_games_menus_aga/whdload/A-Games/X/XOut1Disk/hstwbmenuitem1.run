@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/XOut1Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "XOut1Disk.Slave" $whdloadargs
+ELSE
+	whdload "XOut1Disk.Slave"
+ENDIF

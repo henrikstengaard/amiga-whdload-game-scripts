@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:J/Jukebox/"
+IF EXISTS ENV:whdloadargs
+	whdload "Jukebox.Slave" $whdloadargs
+ELSE
+	whdload "Jukebox.Slave"
+ENDIF

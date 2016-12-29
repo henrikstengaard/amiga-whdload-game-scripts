@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/Xenon2CDTV/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xenon2CDTV.Slave" $whdloadargs
+ELSE
+	whdload "Xenon2CDTV.Slave"
+ENDIF

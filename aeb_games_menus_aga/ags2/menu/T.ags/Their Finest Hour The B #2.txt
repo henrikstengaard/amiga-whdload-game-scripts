@@ -1,4 +1,5 @@
 Name      : Their Finest Hour: The Battle of Britain
+Version   : Missions
 Publisher : Lucasfilm Games
 Year      : 1990
 Genre     : Simulation - Flight

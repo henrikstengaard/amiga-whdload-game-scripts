@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/ThunderStrike/"
+IF EXISTS ENV:whdloadargs
+	whdload "Thunderstrike.Slave" $whdloadargs
+ELSE
+	whdload "Thunderstrike.Slave"
+ENDIF

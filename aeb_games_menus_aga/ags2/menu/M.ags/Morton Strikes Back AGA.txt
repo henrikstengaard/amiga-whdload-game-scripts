@@ -1,4 +1,5 @@
 Name      : Morton Strikes Back
+Version   : AGA
 Publisher : Confused Pelican
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

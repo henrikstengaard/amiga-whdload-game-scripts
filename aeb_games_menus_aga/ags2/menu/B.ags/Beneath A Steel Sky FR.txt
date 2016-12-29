@@ -1,6 +1,6 @@
 Name      : Beneath A Steel Sky
-Publisher : Virgin Interactive
 Language  : French
+Publisher : Virgin Interactive
 Year      : 1994
 Genre     : Adventure - Point and Click
 Players   : 1 Only

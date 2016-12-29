@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HotRubber/"
+IF EXISTS ENV:whdloadargs
+	whdload "HotRubber.Slave" $whdloadargs
+ELSE
+	whdload "HotRubber.Slave"
+ENDIF

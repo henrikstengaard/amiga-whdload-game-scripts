@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=24 Hour E Fix - Quartz Fix
+RunFile=24HourEFix.Slave
+AGS2Name=24 Hour E Fix - Quartz Fix
+AGS2IndexName=0
+AGS2FileName=24 Hour E Fix - Quartz Fix
+iGameName=24 Hour E Fix - Quartz Fix

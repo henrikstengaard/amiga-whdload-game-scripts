@@ -1,6 +1,6 @@
 Name      : Tony & Friends in Kellogg's Land
-Publisher : Rauser Advertainment
 Language  : German
+Publisher : Rauser Advertainment
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only

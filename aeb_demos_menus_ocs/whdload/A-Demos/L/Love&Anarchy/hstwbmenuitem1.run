@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/Love&Anarchy/"
+IF EXISTS ENV:whdloadargs
+	whdload "Love&Anarchy.slave" $whdloadargs
+ELSE
+	whdload "Love&Anarchy.slave"
+ENDIF

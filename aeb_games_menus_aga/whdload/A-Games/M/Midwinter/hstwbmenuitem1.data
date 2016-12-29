@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Midwinter
+RunFile=Midwinter.Slave
+AGS2Name=Midwinter
+AGS2IndexName=M
+AGS2FileName=Midwinter
+iGameName=Midwinter

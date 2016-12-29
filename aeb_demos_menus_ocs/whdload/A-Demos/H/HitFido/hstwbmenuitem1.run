@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/HitFido/"
+IF EXISTS ENV:whdloadargs
+	whdload "HitFido.Slave" $whdloadargs
+ELSE
+	whdload "HitFido.Slave"
+ENDIF

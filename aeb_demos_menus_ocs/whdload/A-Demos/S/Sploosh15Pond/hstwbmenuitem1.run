@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Sploosh15Pond/"
+IF EXISTS ENV:whdloadargs
+	whdload "Sploosh15Pond.Slave" $whdloadargs
+ELSE
+	whdload "Sploosh15Pond.Slave"
+ENDIF

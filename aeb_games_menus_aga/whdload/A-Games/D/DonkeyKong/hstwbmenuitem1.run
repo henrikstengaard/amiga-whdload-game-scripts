@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DonkeyKong/"
+IF EXISTS ENV:whdloadargs
+	whdload "DonkeyKong.slave" $whdloadargs
+ELSE
+	whdload "DonkeyKong.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Zeewolf
+RunFile=Zeewolf.slave
+AGS2Name=Zeewolf
+AGS2IndexName=Z
+AGS2FileName=Zeewolf
+iGameName=Zeewolf

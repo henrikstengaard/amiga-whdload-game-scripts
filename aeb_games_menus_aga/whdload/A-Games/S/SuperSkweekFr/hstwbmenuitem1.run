@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperSkweekFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperSkweekFr.Slave" $whdloadargs
+ELSE
+	whdload "SuperSkweekFr.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Space Assault
+RunFile=SpaceAssault.slave
+AGS2Name=Space Assault
+AGS2IndexName=S
+AGS2FileName=Space Assault
+iGameName=Space Assault

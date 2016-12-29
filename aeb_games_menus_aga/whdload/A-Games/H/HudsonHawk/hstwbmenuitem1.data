@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hudson Hawk
+RunFile=HudsonHawk.Slave
+AGS2Name=Hudson Hawk
+AGS2IndexName=H
+AGS2FileName=Hudson Hawk
+iGameName=Hudson Hawk

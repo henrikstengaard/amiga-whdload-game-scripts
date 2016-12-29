@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WorldDarts/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldDarts.Slave" $whdloadargs
+ELSE
+	whdload "WorldDarts.Slave"
+ENDIF

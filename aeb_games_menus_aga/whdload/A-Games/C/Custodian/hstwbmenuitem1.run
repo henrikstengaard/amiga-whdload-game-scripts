@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Custodian/"
+IF EXISTS ENV:whdloadargs
+	whdload "Custodian.Slave" $whdloadargs
+ELSE
+	whdload "Custodian.Slave"
+ENDIF

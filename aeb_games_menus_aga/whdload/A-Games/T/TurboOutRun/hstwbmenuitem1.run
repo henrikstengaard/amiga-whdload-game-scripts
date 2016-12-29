@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TurboOutRun/"
+IF EXISTS ENV:whdloadargs
+	whdload "TurboOutrun.slave" $whdloadargs
+ELSE
+	whdload "TurboOutrun.slave"
+ENDIF

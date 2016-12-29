@@ -1,3 +1,0 @@
-Name      : Calephar
-Players   : 1
-Whdload   : CalepharFiles.Slave

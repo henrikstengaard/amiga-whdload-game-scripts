@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sound engine - Absence
+RunFile=SoundEngine.Slave
+AGS2Name=Sound engine - Absence
+AGS2IndexName=S
+AGS2FileName=Sound engine - Absence
+iGameName=Sound engine - Absence

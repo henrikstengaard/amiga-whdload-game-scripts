@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hugo2Fi/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hugo2Fi.Slave" $whdloadargs
+ELSE
+	whdload "Hugo2Fi.Slave"
+ENDIF

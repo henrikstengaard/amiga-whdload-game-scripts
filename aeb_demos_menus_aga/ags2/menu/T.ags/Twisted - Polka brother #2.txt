@@ -1,4 +1,5 @@
 Name    : Twisted
+Version : AGA
 Groups  : Polka brothers
 Type    : Demo
 Party   : The Party 1994

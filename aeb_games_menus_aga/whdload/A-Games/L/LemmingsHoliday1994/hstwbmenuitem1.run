@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LemmingsHoliday1994/"
+IF EXISTS ENV:whdloadargs
+	whdload "LemmingsHoliday1994.Slave" $whdloadargs
+ELSE
+	whdload "LemmingsHoliday1994.Slave"
+ENDIF

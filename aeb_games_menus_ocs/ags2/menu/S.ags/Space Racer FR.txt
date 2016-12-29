@@ -1,6 +1,6 @@
 Name      : Space Racer
-Publisher : Loriciel
 Language  : French
+Publisher : Loriciel
 Year      : 1988
 Genre     : Racing - Miscellaneous
 Players   : 1 Only

@@ -1,6 +1,6 @@
 Name      : Aufschwung Ost
-Publisher : Sunflowers
 Language  : German
+Publisher : Sunflowers
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only

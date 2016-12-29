@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Z/ZOut/"
+IF EXISTS ENV:whdloadargs
+	whdload "ZOut.Slave" $whdloadargs
+ELSE
+	whdload "ZOut.Slave"
+ENDIF

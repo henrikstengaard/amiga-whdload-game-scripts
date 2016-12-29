@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dark Side
+RunFile=DarkSide.Slave
+AGS2Name=Dark Side
+AGS2IndexName=D
+AGS2FileName=Dark Side
+iGameName=Dark Side

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bob's Garden
+RunFile=BobsGarden.Slave
+AGS2Name=Bob's Garden
+AGS2IndexName=B
+AGS2FileName=Bob's Garden
+iGameName=Bob's Garden

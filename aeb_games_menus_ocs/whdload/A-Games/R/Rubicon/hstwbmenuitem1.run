@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Rubicon/"
+IF EXISTS ENV:whdloadargs
+	whdload "Rubicon.slave" $whdloadargs
+ELSE
+	whdload "Rubicon.slave"
+ENDIF

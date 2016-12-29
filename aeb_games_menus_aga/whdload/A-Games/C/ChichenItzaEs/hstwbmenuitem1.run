@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChichenItzaEs/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChichenItzaEs.slave" $whdloadargs
+ELSE
+	whdload "ChichenItzaEs.slave"
+ENDIF

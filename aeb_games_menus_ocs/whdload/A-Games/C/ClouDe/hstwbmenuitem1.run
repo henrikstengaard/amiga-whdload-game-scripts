@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ClouDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "ClouDe.Slave" $whdloadargs
+ELSE
+	whdload "ClouDe.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FullMetalPlaneteImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "FullMetalPlaneteImage.Slave" $whdloadargs
+ELSE
+	whdload "FullMetalPlaneteImage.Slave"
+ENDIF

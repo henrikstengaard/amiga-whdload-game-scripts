@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Super Seymour
+RunFile=SuperSeymourSavesPlanet.slave
+AGS2Name=Super Seymour
+AGS2IndexName=S
+AGS2FileName=Super Seymour
+iGameName=Super Seymour

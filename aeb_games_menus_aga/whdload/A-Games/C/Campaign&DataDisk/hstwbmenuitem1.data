@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Campaign DataDisk
+RunFile=Campaign&DataDisk.slave
+AGS2Name=Campaign DataDisk
+AGS2IndexName=C
+AGS2FileName=Campaign DataDisk
+iGameName=Campaign DataDisk

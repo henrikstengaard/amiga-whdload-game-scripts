@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wall, The
+RunFile=Wall.Slave
+AGS2Name=Wall, The
+AGS2IndexName=W
+AGS2FileName=Wall, The
+iGameName=Wall, The

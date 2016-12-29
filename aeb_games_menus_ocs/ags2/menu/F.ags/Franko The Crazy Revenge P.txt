@@ -1,6 +1,7 @@
 Name      : Franko: The Crazy Revenge!
-Publisher : Mirage
 Language  : Polish
+Version   : Censored
+Publisher : Mirage
 Year      : 1994
 Players   : 1 Only
 Whdload   : FrankoCensoredPl.slave

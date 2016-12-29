@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JaguarXJ220Image/"
+IF EXISTS ENV:whdloadargs
+	whdload "JaguarXJ220Image.slave" $whdloadargs
+ELSE
+	whdload "JaguarXJ220Image.slave"
+ENDIF

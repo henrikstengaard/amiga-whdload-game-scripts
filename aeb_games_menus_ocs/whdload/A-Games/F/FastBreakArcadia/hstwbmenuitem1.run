@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FastBreakArcadia/"
+IF EXISTS ENV:whdloadargs
+	whdload "FastBreakArcadia.Slave" $whdloadargs
+ELSE
+	whdload "FastBreakArcadia.Slave"
+ENDIF

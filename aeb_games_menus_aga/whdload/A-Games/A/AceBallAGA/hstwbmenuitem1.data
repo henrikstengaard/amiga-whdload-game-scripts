@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ace Ball AGA
+RunFile=AceBallAGA.Slave
+AGS2Name=Ace Ball AGA
+AGS2IndexName=A
+AGS2FileName=Ace Ball AGA
+iGameName=Ace Ball AGA

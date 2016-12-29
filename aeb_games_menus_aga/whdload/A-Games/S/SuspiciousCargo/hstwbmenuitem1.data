@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Suspicious Cargo
+RunFile=SuspiciousCargo.Slave
+AGS2Name=Suspicious Cargo
+AGS2IndexName=S
+AGS2FileName=Suspicious Cargo
+iGameName=Suspicious Cargo

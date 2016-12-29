@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Voyager
+RunFile=Voyager.slave
+AGS2Name=Voyager
+AGS2IndexName=V
+AGS2FileName=Voyager
+iGameName=Voyager

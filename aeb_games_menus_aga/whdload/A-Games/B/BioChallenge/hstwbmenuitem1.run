@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BioChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "BioChallenge.Slave" $whdloadargs
+ELSE
+	whdload "BioChallenge.Slave"
+ENDIF

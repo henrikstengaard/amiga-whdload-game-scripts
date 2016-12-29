@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Xenophobe
+RunFile=Xenophobe.slave
+AGS2Name=Xenophobe
+AGS2IndexName=X
+AGS2FileName=Xenophobe
+iGameName=Xenophobe

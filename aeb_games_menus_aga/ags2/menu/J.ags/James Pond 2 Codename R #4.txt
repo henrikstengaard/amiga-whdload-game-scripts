@@ -1,4 +1,5 @@
 Name      : James Pond 2: Codename RoboCod
+Version   : CD32
 Publisher : Millennium
 Year      : 1991
 Players   : 1

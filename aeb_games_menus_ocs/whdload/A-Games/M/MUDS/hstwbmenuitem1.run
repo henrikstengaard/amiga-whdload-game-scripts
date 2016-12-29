@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MUDS/"
+IF EXISTS ENV:whdloadargs
+	whdload "MUDS.slave" $whdloadargs
+ELSE
+	whdload "MUDS.slave"
+ENDIF

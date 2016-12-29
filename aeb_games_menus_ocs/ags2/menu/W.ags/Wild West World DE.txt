@@ -1,6 +1,6 @@
 Name      : Wild West World
-Publisher : US Gold
 Language  : German
+Publisher : US Gold
 Year      : 1992
 Genre     : Strategy - Miscellaneous
 Players   : 1 or 2

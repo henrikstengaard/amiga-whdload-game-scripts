@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Semi93Invitation/"
+IF EXISTS ENV:whdloadargs
+	whdload "Semi93Invitation.Slave" $whdloadargs
+ELSE
+	whdload "Semi93Invitation.Slave"
+ENDIF

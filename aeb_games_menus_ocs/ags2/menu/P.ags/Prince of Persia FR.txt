@@ -1,6 +1,6 @@
 Name      : Prince of Persia
-Publisher : Domark
 Language  : French
+Publisher : Domark
 Year      : 1991
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only

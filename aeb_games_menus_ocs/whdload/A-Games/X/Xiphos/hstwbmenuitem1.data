@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Xiphos
+RunFile=Xiphos.Slave
+AGS2Name=Xiphos
+AGS2IndexName=X
+AGS2FileName=Xiphos
+iGameName=Xiphos

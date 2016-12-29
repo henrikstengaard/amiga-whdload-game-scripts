@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Datastorm
+RunFile=Datastorm.Slave
+AGS2Name=Datastorm
+AGS2IndexName=D
+AGS2FileName=Datastorm
+iGameName=Datastorm

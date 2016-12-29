@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hellraider
+RunFile=Hellraider.slave
+AGS2Name=Hellraider
+AGS2IndexName=H
+AGS2FileName=Hellraider
+iGameName=Hellraider

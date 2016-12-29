@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Voyages of Discovery
+RunFile=VoyagesOfDiscovery.slave
+AGS2Name=Voyages of Discovery
+AGS2IndexName=V
+AGS2FileName=Voyages of Discovery
+iGameName=Voyages of Discovery

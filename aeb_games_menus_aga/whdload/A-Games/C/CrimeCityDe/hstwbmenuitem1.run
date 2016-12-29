@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CrimeCityDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "CrimeCityDe.slave" $whdloadargs
+ELSE
+	whdload "CrimeCityDe.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OverdriveTeam17/"
+IF EXISTS ENV:whdloadargs
+	whdload "OverdriveTeam17.Slave" $whdloadargs
+ELSE
+	whdload "OverdriveTeam17.Slave"
+ENDIF

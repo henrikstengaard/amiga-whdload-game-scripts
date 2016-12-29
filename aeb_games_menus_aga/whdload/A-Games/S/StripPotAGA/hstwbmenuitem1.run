@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StripPotAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "StripPotAGA.Slave" $whdloadargs
+ELSE
+	whdload "StripPotAGA.Slave"
+ENDIF

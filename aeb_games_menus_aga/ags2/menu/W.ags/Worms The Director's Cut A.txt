@@ -1,4 +1,5 @@
 Name      : Worms: The Director's Cut
+Version   : AGA
 Publisher : Team 17
 Year      : 1997
 Genre     : Strategy - Miscellaneous

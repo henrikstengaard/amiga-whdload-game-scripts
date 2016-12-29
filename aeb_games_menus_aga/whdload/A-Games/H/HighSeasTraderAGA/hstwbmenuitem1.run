@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HighSeasTraderAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "HighSeasTraderAGA.Slave" $whdloadargs
+ELSE
+	whdload "HighSeasTraderAGA.Slave"
+ENDIF

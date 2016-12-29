@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Deconstruction
+RunFile=Deconstruction.Slave
+AGS2Name=Deconstruction
+AGS2IndexName=D
+AGS2FileName=Deconstruction
+iGameName=Deconstruction

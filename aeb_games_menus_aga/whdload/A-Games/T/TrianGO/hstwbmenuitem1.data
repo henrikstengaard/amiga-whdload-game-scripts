@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=TrianGo
+RunFile=TrianGO.Slave
+AGS2Name=TrianGo
+AGS2IndexName=T
+AGS2FileName=TrianGo
+iGameName=TrianGo

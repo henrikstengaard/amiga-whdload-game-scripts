@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Crack
+RunFile=Crack.Slave
+AGS2Name=Crack
+AGS2IndexName=C
+AGS2FileName=Crack
+iGameName=Crack

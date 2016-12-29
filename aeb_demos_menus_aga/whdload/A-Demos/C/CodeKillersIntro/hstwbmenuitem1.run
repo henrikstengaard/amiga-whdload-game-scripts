@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CodeKillersIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "CodeKillersIntro.slave" $whdloadargs
+ELSE
+	whdload "CodeKillersIntro.slave"
+ENDIF

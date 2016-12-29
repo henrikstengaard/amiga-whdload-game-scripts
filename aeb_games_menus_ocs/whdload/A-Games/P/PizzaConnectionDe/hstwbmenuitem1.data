@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pizza Connection DE
+RunFile=PizzaConnectionDe.Slave
+AGS2Name=Pizza Connection DE
+AGS2IndexName=P
+AGS2FileName=Pizza Connection DE
+iGameName=Pizza Connection DE

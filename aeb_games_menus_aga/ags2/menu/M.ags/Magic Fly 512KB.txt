@@ -1,0 +1,7 @@
+Name      : Magic Fly
+Version   : 512KB
+Publisher : Electronic Arts
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : MagicFly512KB.Slave

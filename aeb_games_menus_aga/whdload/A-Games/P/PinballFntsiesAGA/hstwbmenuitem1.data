@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pinball Fantasies AGA
+RunFile=PinballFntsiesAGA.slave
+AGS2Name=Pinball Fantasies AGA
+AGS2IndexName=P
+AGS2FileName=Pinball Fantasies AGA
+iGameName=Pinball Fantasies AGA

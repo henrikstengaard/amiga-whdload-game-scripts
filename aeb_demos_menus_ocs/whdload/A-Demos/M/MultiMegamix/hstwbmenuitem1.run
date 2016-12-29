@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MultiMegamix/"
+IF EXISTS ENV:whdloadargs
+	whdload "MultiMegamix.slave" $whdloadargs
+ELSE
+	whdload "MultiMegamix.slave"
+ENDIF

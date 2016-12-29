@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Chromagic/"
+IF EXISTS ENV:whdloadargs
+	whdload "Chromagic.Slave" $whdloadargs
+ELSE
+	whdload "Chromagic.Slave"
+ENDIF

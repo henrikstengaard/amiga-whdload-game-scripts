@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WorldOfCommodoreAltVer/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldOfCommodoreAltVer.Slave" $whdloadargs
+ELSE
+	whdload "WorldOfCommodoreAltVer.Slave"
+ENDIF

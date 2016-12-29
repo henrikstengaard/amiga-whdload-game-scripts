@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/Links&DataDisks/"
+IF EXISTS ENV:whdloadargs
+	whdload "Links&DataDisks.Slave" $whdloadargs
+ELSE
+	whdload "Links&DataDisks.Slave"
+ENDIF

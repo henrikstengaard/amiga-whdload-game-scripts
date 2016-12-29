@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ditris
+RunFile=Ditris.Slave
+AGS2Name=Ditris
+AGS2IndexName=D
+AGS2FileName=Ditris
+iGameName=Ditris

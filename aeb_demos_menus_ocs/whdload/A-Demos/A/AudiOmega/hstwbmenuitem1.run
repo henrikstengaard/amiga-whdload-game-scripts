@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AudiOmega/"
+IF EXISTS ENV:whdloadargs
+	whdload "AudiOmega.Slave" $whdloadargs
+ELSE
+	whdload "AudiOmega.Slave"
+ENDIF

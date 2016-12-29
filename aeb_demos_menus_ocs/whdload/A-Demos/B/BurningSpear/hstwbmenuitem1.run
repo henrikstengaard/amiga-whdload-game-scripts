@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BurningSpear/"
+IF EXISTS ENV:whdloadargs
+	whdload "BurningSpear.Slave" $whdloadargs
+ELSE
+	whdload "BurningSpear.Slave"
+ENDIF

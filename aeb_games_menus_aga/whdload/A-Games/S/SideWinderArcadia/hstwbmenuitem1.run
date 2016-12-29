@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SideWinderArcadia/"
+IF EXISTS ENV:whdloadargs
+	whdload "SideWinderArcadia.Slave" $whdloadargs
+ELSE
+	whdload "SideWinderArcadia.Slave"
+ENDIF

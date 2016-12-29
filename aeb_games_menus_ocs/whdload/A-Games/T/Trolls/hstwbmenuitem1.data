@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Trolls
+RunFile=Trolls.Slave
+AGS2Name=Trolls
+AGS2IndexName=T
+AGS2FileName=Trolls
+iGameName=Trolls

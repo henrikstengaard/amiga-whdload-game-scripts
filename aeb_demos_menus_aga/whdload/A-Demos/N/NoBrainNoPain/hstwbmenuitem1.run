@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/NoBrainNoPain/"
+IF EXISTS ENV:whdloadargs
+	whdload "NoBrainNoPain.Slave" $whdloadargs
+ELSE
+	whdload "NoBrainNoPain.Slave"
+ENDIF

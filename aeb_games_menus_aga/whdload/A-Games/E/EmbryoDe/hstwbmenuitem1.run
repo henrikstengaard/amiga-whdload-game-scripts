@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EmbryoDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "EmbryoDe.Slave" $whdloadargs
+ELSE
+	whdload "EmbryoDe.Slave"
+ENDIF

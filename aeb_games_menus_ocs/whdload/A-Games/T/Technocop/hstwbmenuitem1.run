@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Technocop/"
+IF EXISTS ENV:whdloadargs
+	whdload "Technocop.Slave" $whdloadargs
+ELSE
+	whdload "Technocop.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Turbo Cup
-Publisher : Loriciel
 Language  : French
+Publisher : Loriciel
 Year      : 1988
 Genre     : Racing - Cars
 Players   : 1 Only

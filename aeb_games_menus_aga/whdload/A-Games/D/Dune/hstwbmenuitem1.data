@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dune
+RunFile=Dune.Slave
+AGS2Name=Dune
+AGS2IndexName=D
+AGS2FileName=Dune
+iGameName=Dune

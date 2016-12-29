@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RallyChampionships/"
+IF EXISTS ENV:whdloadargs
+	whdload "RallyChampionships.Slave" $whdloadargs
+ELSE
+	whdload "RallyChampionships.Slave"
+ENDIF

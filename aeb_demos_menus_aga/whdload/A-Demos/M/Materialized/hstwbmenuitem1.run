@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Materialized/"
+IF EXISTS ENV:whdloadargs
+	whdload "Materialized.Slave" $whdloadargs
+ELSE
+	whdload "Materialized.Slave"
+ENDIF

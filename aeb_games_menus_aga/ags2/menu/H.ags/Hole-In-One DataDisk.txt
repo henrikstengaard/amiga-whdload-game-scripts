@@ -1,0 +1,7 @@
+Name      : Hole-In-One
+Version   : DataDisk
+Publisher : DigiTek Software
+Year      : 1989
+Genre     : Sports - Golf
+Players   : 1 to 4
+Whdload   : HoleInOne&DataDisks.Slave

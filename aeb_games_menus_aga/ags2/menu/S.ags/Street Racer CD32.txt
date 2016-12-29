@@ -1,4 +1,5 @@
 Name      : Street Racer
+Version   : CD32
 Publisher : Guildhall
 Year      : 1997
 Genre     : Racing - Cars

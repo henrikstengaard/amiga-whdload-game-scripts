@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Eliminator
+RunFile=Eliminator.Slave
+AGS2Name=Eliminator
+AGS2IndexName=E
+AGS2FileName=Eliminator
+iGameName=Eliminator

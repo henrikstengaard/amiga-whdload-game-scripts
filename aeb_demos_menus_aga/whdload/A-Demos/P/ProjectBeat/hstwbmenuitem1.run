@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/ProjectBeat/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProjectBeat.Slave" $whdloadargs
+ELSE
+	whdload "ProjectBeat.Slave"
+ENDIF

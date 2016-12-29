@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tiny Troops
+RunFile=TinyTroops.Slave
+AGS2Name=Tiny Troops
+AGS2IndexName=T
+AGS2FileName=Tiny Troops
+iGameName=Tiny Troops

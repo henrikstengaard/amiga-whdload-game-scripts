@@ -1,0 +1,6 @@
+Name      : Alien Breed 3D
+Version   : CD32 NoMusic
+Publisher : Ocean
+Year      : 1995
+Players   : 1 or 2, Simultaneous
+Whdload   : AlienBreed3DNoMusicCD32.Slave

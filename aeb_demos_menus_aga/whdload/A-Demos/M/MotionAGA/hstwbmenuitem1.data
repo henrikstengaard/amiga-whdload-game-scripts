@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Motion (origin 2) - Bomb AGA
+RunFile=MotionAGA.slave
+AGS2Name=Motion (origin 2) - Bomb AGA
+AGS2IndexName=M
+AGS2FileName=Motion (origin 2) - Bom #2
+iGameName=Motion (origin 2) - Bomb AGA

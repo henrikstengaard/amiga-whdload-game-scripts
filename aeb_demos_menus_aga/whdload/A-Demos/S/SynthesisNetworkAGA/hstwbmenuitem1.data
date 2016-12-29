@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Synthesis - Network AGA
+RunFile=SynthesisNetworkAGA.slave
+AGS2Name=Synthesis - Network AGA
+AGS2IndexName=S
+AGS2FileName=Synthesis - Network AGA 
+iGameName=Synthesis - Network AGA

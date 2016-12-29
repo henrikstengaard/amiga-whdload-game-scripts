@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ConanTheCimmerian/"
+IF EXISTS ENV:whdloadargs
+	whdload "ConanTheCimmerian.Slave" $whdloadargs
+ELSE
+	whdload "ConanTheCimmerian.Slave"
+ENDIF

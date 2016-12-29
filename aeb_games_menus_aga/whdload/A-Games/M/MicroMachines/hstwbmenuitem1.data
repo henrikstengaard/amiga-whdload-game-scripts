@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Micro Machines
+RunFile=MicroMachines.slave
+AGS2Name=Micro Machines
+AGS2IndexName=M
+AGS2FileName=Micro Machines
+iGameName=Micro Machines

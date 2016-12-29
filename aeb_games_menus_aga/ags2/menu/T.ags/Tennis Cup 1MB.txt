@@ -1,0 +1,7 @@
+Name      : Tennis Cup
+Version   : 1MB
+Publisher : Loriciel
+Year      : 1989
+Genre     : Sports - Tennis
+Players   : 1 or 2, Simultaneous
+Whdload   : TennisCup1Mb.Slave

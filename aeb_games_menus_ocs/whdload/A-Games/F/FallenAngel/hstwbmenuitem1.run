@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FallenAngel/"
+IF EXISTS ENV:whdloadargs
+	whdload "FallenAngel.slave" $whdloadargs
+ELSE
+	whdload "FallenAngel.slave"
+ENDIF

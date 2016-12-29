@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Portal
+RunFile=Portal.slave
+AGS2Name=Portal
+AGS2IndexName=P
+AGS2FileName=Portal
+iGameName=Portal

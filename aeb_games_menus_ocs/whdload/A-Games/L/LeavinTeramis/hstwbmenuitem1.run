@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LeavinTeramis/"
+IF EXISTS ENV:whdloadargs
+	whdload "LeavinTeramis.Slave" $whdloadargs
+ELSE
+	whdload "LeavinTeramis.Slave"
+ENDIF

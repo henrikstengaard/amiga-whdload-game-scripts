@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/Wreckers/"
+IF EXISTS ENV:whdloadargs
+	whdload "Wreckers.Slave" $whdloadargs
+ELSE
+	whdload "Wreckers.Slave"
+ENDIF

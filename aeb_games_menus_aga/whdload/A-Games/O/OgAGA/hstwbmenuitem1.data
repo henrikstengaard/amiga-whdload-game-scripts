@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Trog AGA
+RunFile=OgAGA.Slave
+AGS2Name=Trog AGA
+AGS2IndexName=T
+AGS2FileName=Trog AGA
+iGameName=Trog AGA

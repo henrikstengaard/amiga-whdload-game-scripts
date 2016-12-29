@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Superfrog
+RunFile=Superfrog.Slave
+AGS2Name=Superfrog
+AGS2IndexName=S
+AGS2FileName=Superfrog
+iGameName=Superfrog

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Breach/"
+IF EXISTS ENV:whdloadargs
+	whdload "Breach.Slave" $whdloadargs
+ELSE
+	whdload "Breach.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RBI2Baseball/"
+IF EXISTS ENV:whdloadargs
+	whdload "RBI2Baseball.Slave" $whdloadargs
+ELSE
+	whdload "RBI2Baseball.Slave"
+ENDIF

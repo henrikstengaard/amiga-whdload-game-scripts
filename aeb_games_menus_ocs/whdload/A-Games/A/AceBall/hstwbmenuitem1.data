@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ace Ball
+RunFile=AceBall.Slave
+AGS2Name=Ace Ball
+AGS2IndexName=A
+AGS2FileName=Ace Ball
+iGameName=Ace Ball

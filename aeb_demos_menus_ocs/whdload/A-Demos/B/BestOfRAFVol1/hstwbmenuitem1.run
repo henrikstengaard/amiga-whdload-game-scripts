@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BestOfRAFVol1/"
+IF EXISTS ENV:whdloadargs
+	whdload "BestOfRAFVol1.Slave" $whdloadargs
+ELSE
+	whdload "BestOfRAFVol1.Slave"
+ENDIF

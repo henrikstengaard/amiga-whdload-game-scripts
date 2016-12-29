@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GalaxyBlast/"
+IF EXISTS ENV:whdloadargs
+	whdload "GalaxyBlast.Slave" $whdloadargs
+ELSE
+	whdload "GalaxyBlast.Slave"
+ENDIF

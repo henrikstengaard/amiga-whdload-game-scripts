@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Bloodwych&ExtendedLevels/"
+IF EXISTS ENV:whdloadargs
+	whdload "ExtendedLevels.Slave" $whdloadargs
+ELSE
+	whdload "ExtendedLevels.Slave"
+ENDIF

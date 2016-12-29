@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OperationFirestorm/"
+IF EXISTS ENV:whdloadargs
+	whdload "OperationFirestorm.slave" $whdloadargs
+ELSE
+	whdload "OperationFirestorm.slave"
+ENDIF

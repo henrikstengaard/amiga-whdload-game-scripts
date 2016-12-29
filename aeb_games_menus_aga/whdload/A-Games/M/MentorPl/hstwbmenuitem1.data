@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mentor PL
+RunFile=MentorPl.Slave
+AGS2Name=Mentor PL
+AGS2IndexName=M
+AGS2FileName=Mentor PL
+iGameName=Mentor PL

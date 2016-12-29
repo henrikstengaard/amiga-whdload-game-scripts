@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/Jet&SceneryDisk07/"
+IF EXISTS ENV:whdloadargs
+	whdload "Jet&SceneryDisk07.Slave" $whdloadargs
+ELSE
+	whdload "Jet&SceneryDisk07.Slave"
+ENDIF

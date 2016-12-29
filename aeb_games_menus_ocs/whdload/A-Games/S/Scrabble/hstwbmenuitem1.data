@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Scrabble
+RunFile=Scrabble.Slave
+AGS2Name=Scrabble
+AGS2IndexName=S
+AGS2FileName=Scrabble
+iGameName=Scrabble

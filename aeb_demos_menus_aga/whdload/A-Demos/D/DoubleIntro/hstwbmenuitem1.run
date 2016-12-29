@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DoubleIntro/"
+IF EXISTS ENV:whdloadargs
+	whdload "DoubleIntro.Slave" $whdloadargs
+ELSE
+	whdload "DoubleIntro.Slave"
+ENDIF

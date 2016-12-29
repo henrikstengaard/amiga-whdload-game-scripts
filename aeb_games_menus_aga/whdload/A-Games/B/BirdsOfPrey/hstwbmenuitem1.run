@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BirdsOfPrey/"
+IF EXISTS ENV:whdloadargs
+	whdload "BirdsOfPrey.slave" $whdloadargs
+ELSE
+	whdload "BirdsOfPrey.slave"
+ENDIF

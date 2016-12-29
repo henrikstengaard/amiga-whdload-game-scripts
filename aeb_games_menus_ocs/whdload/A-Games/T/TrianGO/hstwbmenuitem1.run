@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TrianGO/"
+IF EXISTS ENV:whdloadargs
+	whdload "TrianGO.Slave" $whdloadargs
+ELSE
+	whdload "TrianGO.Slave"
+ENDIF

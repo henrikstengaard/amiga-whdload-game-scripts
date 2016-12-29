@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Round the Bend!
+RunFile=RoundTheBend.Slave
+AGS2Name=Round the Bend!
+AGS2IndexName=R
+AGS2FileName=Round the Bend
+iGameName=Round the Bend!

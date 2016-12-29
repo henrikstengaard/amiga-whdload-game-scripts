@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SkyChase
+RunFile=SkyChase.Slave
+AGS2Name=SkyChase
+AGS2IndexName=S
+AGS2FileName=SkyChase
+iGameName=SkyChase

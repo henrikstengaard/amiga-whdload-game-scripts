@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HeroQuestDeFix/"
+IF EXISTS ENV:whdloadargs
+	whdload "HeroQuestDeFix.slave" $whdloadargs
+ELSE
+	whdload "HeroQuestDeFix.slave"
+ENDIF

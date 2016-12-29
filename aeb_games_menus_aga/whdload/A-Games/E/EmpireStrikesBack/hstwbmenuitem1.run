@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EmpireStrikesBack/"
+IF EXISTS ENV:whdloadargs
+	whdload "EmpireStrikesBack.Slave" $whdloadargs
+ELSE
+	whdload "EmpireStrikesBack.Slave"
+ENDIF

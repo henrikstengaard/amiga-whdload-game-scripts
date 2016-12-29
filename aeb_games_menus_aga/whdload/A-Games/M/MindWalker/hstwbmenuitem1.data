@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mind Walker
+RunFile=MindWalker.slave
+AGS2Name=Mind Walker
+AGS2IndexName=M
+AGS2FileName=Mind Walker
+iGameName=Mind Walker

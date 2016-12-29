@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MagicPocketsNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "MagicPocketsNTSC.Slave" $whdloadargs
+ELSE
+	whdload "MagicPocketsNTSC.Slave"
+ENDIF

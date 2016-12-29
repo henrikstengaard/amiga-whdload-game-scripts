@@ -1,0 +1,7 @@
+Name      : Targhan
+Language  : French
+Version   : FAST
+Publisher : Silmarils
+Year      : 1989
+Players   : 1 Only
+Whdload   : TarghanFastFr.slave

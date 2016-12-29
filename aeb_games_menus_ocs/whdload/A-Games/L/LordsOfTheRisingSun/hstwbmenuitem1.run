@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LordsOfTheRisingSun/"
+IF EXISTS ENV:whdloadargs
+	whdload "LordsOfTheRisingSun.slave" $whdloadargs
+ELSE
+	whdload "LordsOfTheRisingSun.slave"
+ENDIF

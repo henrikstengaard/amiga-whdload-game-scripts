@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DevilsKey/"
+IF EXISTS ENV:whdloadargs
+	whdload "DevilsKey.slave" $whdloadargs
+ELSE
+	whdload "DevilsKey.slave"
+ENDIF

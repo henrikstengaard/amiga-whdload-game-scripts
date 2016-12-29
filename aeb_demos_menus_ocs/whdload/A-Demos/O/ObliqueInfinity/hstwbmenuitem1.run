@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/ObliqueInfinity/"
+IF EXISTS ENV:whdloadargs
+	whdload "ObliqueInfinity.Slave" $whdloadargs
+ELSE
+	whdload "ObliqueInfinity.Slave"
+ENDIF

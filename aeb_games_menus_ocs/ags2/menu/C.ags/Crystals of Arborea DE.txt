@@ -1,6 +1,6 @@
 Name      : Crystals of Arborea
-Publisher : Silmarils
 Language  : German
+Publisher : Silmarils
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only

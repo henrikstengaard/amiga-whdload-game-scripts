@@ -1,0 +1,6 @@
+Name      : Chess Player 2150
+Language  : German
+Publisher : CP Software
+Year      : 1989
+Genre     : Board - Chess
+Whdload   : ChessPlayer2150De.Slave

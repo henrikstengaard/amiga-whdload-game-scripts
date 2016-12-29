@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=RISK
+RunFile=Risk.Slave
+AGS2Name=RISK
+AGS2IndexName=R
+AGS2FileName=RISK
+iGameName=RISK

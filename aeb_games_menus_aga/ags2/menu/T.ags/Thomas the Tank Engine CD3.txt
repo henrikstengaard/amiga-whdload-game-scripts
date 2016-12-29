@@ -1,4 +1,5 @@
 Name      : Thomas the Tank Engine
+Version   : CD32
 Publisher : Alternative Software
 Year      : 1992
 Genre     : Miscellaneous - (unknown)

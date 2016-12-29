@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Unreal NTSC
+RunFile=UnrealNTSC.Slave
+AGS2Name=Unreal NTSC
+AGS2IndexName=U
+AGS2FileName=Unreal NTSC
+iGameName=Unreal NTSC

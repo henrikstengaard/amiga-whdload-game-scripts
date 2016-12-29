@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Welltris
+RunFile=Welltris.slave
+AGS2Name=Welltris
+AGS2IndexName=W
+AGS2FileName=Welltris
+iGameName=Welltris

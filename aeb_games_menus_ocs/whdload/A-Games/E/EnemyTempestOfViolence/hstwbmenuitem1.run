@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EnemyTempestOfViolence/"
+IF EXISTS ENV:whdloadargs
+	whdload "EnemyTempestOfViolence.Slave" $whdloadargs
+ELSE
+	whdload "EnemyTempestOfViolence.Slave"
+ENDIF

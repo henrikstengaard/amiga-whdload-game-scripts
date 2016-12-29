@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PoliceQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "PoliceQuest.slave" $whdloadargs
+ELSE
+	whdload "PoliceQuest.slave"
+ENDIF

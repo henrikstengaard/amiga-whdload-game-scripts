@@ -1,4 +1,5 @@
 Name      : Blobz
+Version   : AGA
 Publisher : Apex Systems
 Year      : 1996
 Genre     : Arcade - Miscellaneous

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PeeWee/"
+IF EXISTS ENV:whdloadargs
+	whdload "PeeWee.Slave" $whdloadargs
+ELSE
+	whdload "PeeWee.Slave"
+ENDIF

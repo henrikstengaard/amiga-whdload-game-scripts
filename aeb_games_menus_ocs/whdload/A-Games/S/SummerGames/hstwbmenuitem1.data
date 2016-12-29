@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Summer Games
+RunFile=SummerGames.slave
+AGS2Name=Summer Games
+AGS2IndexName=S
+AGS2FileName=Summer Games
+iGameName=Summer Games

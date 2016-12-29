@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SummerGames/"
+IF EXISTS ENV:whdloadargs
+	whdload "SummerGames.slave" $whdloadargs
+ELSE
+	whdload "SummerGames.slave"
+ENDIF

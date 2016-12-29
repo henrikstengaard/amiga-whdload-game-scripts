@@ -1,6 +1,0 @@
-Name      : Window Wizard
-Publisher : Softgold
-Year      : 1991
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : WindowWizardFiles.Slave

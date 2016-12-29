@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Spell Bound
+RunFile=SpellBound.Slave
+AGS2Name=Spell Bound
+AGS2IndexName=S
+AGS2FileName=Spell Bound
+iGameName=Spell Bound

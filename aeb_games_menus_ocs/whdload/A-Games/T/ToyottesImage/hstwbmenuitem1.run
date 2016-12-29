@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/ToyottesImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "ToyottesImage.Slave" $whdloadargs
+ELSE
+	whdload "ToyottesImage.Slave"
+ENDIF

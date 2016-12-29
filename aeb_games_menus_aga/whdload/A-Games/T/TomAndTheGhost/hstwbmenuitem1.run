@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TomAndTheGhost/"
+IF EXISTS ENV:whdloadargs
+	whdload "TomAndTheGhost.Slave" $whdloadargs
+ELSE
+	whdload "TomAndTheGhost.Slave"
+ENDIF

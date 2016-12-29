@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegademoPrecise/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegademoPrecise.Slave" $whdloadargs
+ELSE
+	whdload "MegademoPrecise.Slave"
+ENDIF

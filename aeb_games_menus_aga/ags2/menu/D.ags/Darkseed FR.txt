@@ -1,6 +1,6 @@
 Name      : Darkseed
-Publisher : Cyberdreams
 Language  : French
+Publisher : Cyberdreams
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only

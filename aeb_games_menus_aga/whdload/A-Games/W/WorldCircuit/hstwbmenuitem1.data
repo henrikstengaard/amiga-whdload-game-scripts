@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=World Circuit
+RunFile=WorldCircuit.Slave
+AGS2Name=World Circuit
+AGS2IndexName=W
+AGS2FileName=World Circuit
+iGameName=World Circuit

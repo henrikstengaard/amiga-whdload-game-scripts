@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Power Pinball
+RunFile=PowerPinball.slave
+AGS2Name=Power Pinball
+AGS2IndexName=P
+AGS2FileName=Power Pinball
+iGameName=Power Pinball

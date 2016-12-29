@@ -1,4 +1,5 @@
 Name      : Sabre Team
+Version   : AGA
 Publisher : Krisalis
 Year      : 1992
 Genre     : Strategy - War

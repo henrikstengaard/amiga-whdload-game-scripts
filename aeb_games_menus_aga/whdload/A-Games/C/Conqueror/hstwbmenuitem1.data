@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Conqueror
+RunFile=Conqueror.Slave
+AGS2Name=Conqueror
+AGS2IndexName=C
+AGS2FileName=Conqueror
+iGameName=Conqueror

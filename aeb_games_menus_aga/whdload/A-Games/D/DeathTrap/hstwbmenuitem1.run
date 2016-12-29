@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DeathTrap/"
+IF EXISTS ENV:whdloadargs
+	whdload "DeathTrap.Slave" $whdloadargs
+ELSE
+	whdload "DeathTrap.Slave"
+ENDIF

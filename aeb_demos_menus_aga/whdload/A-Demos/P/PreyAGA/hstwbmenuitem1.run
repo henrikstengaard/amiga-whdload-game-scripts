@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PreyAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "PreyAGA.Slave" $whdloadargs
+ELSE
+	whdload "PreyAGA.Slave"
+ENDIF

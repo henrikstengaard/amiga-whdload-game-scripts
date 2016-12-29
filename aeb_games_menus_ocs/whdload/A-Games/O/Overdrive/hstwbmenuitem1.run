@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Overdrive/"
+IF EXISTS ENV:whdloadargs
+	whdload "Overdrive.Slave" $whdloadargs
+ELSE
+	whdload "Overdrive.Slave"
+ENDIF

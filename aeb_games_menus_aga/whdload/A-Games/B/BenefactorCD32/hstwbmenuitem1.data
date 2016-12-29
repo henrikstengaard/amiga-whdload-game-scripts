@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Benefactor CD32
+RunFile=BenefactorCD32.Slave
+AGS2Name=Benefactor CD32
+AGS2IndexName=B
+AGS2FileName=Benefactor CD32
+iGameName=Benefactor CD32

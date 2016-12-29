@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:M/MegaDemo8Kefrens/MegaDemo8Kefrens.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "M" "Megademo 8 - Kefrens"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "M" "Megademo 8 - Kefrens"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:M/MegaDemo8Kefrens/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegaDemo8Kefrens.Slave" $whdloadargs
+  whdload "MegaDemo8Kefrens.Slave" $whdloadargs
 ELSE
-	whdload "MegaDemo8Kefrens.Slave"
+  whdload "MegaDemo8Kefrens.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

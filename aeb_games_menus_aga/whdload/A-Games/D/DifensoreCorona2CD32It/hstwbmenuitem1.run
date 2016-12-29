@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DifensoreCorona2CD32It/"
+IF EXISTS ENV:whdloadargs
+	whdload "DifensoreCorona2CD32It.slave" $whdloadargs
+ELSE
+	whdload "DifensoreCorona2CD32It.slave"
+ENDIF

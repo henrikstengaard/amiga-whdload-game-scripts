@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Predator
+RunFile=Predator.Slave
+AGS2Name=Predator
+AGS2IndexName=P
+AGS2FileName=Predator
+iGameName=Predator

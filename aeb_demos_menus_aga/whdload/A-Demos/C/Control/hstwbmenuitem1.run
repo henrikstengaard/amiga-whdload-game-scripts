@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Control/"
+IF EXISTS ENV:whdloadargs
+	whdload "Control.slave" $whdloadargs
+ELSE
+	whdload "Control.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Motor Massacre
+RunFile=MotorMassacre.Slave
+AGS2Name=Motor Massacre
+AGS2IndexName=M
+AGS2FileName=Motor Massacre
+iGameName=Motor Massacre

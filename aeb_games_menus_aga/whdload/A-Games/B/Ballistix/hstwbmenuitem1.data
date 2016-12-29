@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ballistix
+RunFile=Ballistix.slave
+AGS2Name=Ballistix
+AGS2IndexName=B
+AGS2FileName=Ballistix
+iGameName=Ballistix

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/Nexus7/"
+IF EXISTS ENV:whdloadargs
+	whdload "Nexus7.Slave" $whdloadargs
+ELSE
+	whdload "Nexus7.Slave"
+ENDIF

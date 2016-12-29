@@ -1,6 +1,0 @@
-Name      : Kristal, The
-Publisher : Addictive Games
-Year      : 1989
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : KristalNTSC.Slave

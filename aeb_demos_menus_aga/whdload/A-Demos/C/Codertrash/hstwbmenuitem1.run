@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Codertrash/"
+IF EXISTS ENV:whdloadargs
+	whdload "Codertrash.Slave" $whdloadargs
+ELSE
+	whdload "Codertrash.Slave"
+ENDIF

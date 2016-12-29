@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LabyrinthDk/"
+IF EXISTS ENV:whdloadargs
+	whdload "LabyrinthDk.slave" $whdloadargs
+ELSE
+	whdload "LabyrinthDk.slave"
+ENDIF

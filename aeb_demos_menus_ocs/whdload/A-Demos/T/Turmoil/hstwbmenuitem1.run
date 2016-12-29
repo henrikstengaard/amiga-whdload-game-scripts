@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/Turmoil/"
+IF EXISTS ENV:whdloadargs
+	whdload "Turmoil.slave" $whdloadargs
+ELSE
+	whdload "Turmoil.slave"
+ENDIF

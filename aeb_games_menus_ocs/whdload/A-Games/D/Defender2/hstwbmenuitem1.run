@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Defender2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Defender2.Slave" $whdloadargs
+ELSE
+	whdload "Defender2.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Titan
+RunFile=Titan.slave
+AGS2Name=Titan
+AGS2IndexName=T
+AGS2FileName=Titan
+iGameName=Titan

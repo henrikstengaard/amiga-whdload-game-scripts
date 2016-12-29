@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Booly
+RunFile=Booly.Slave
+AGS2Name=Booly
+AGS2IndexName=B
+AGS2FileName=Booly
+iGameName=Booly

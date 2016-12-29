@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Vroom&DataDisk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Vroom.Slave" $whdloadargs
+ELSE
+	whdload "Vroom.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cybernoid2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cybernoid2.Slave" $whdloadargs
+ELSE
+	whdload "Cybernoid2.Slave"
+ENDIF

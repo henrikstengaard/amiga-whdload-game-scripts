@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Manchester United: Premier League Champions
+RunFile=ManchesterUnitedPLC.Slave
+AGS2Name=Manchester United: Premier League Champions
+AGS2IndexName=M
+AGS2FileName=Manchester United Premier
+iGameName=Manchester United: Premier League Champions

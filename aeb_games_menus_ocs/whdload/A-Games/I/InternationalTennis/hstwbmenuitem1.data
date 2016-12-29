@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=International Tennis
+RunFile=InternationalTennis.slave
+AGS2Name=International Tennis
+AGS2IndexName=I
+AGS2FileName=International Tennis
+iGameName=International Tennis

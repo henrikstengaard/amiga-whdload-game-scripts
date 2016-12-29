@@ -1,0 +1,7 @@
+Name      : Race Drivin'
+Version   : NoIntro
+Publisher : Domark
+Year      : 1991
+Genre     : Racing - Cars
+Players   : 1 or 2
+Whdload   : RaceDrivinNoIntro.slave

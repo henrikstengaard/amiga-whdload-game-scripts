@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BloodMoney/"
+IF EXISTS ENV:whdloadargs
+	whdload "BloodMoney.slave" $whdloadargs
+ELSE
+	whdload "BloodMoney.slave"
+ENDIF

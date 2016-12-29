@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SorceryPlus/"
+IF EXISTS ENV:whdloadargs
+	whdload "SorceryPlus.Slave" $whdloadargs
+ELSE
+	whdload "SorceryPlus.Slave"
+ENDIF

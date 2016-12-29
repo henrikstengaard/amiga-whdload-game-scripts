@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:W/Wizardry6BaneCosmicForgDe/Wizardry6BaneCosmicForgDe.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "W" "Wizardry Bane of the Co #2"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "W" "Wizardry Bane of the Co #2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:W/Wizardry6BaneCosmicForgDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "Wizardry6BaneCosmicForgDe.slave" $whdloadargs
+  whdload "Wizardry6BaneCosmicForgDe.slave" $whdloadargs
 ELSE
-	whdload "Wizardry6BaneCosmicForgDe.slave"
+  whdload "Wizardry6BaneCosmicForgDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

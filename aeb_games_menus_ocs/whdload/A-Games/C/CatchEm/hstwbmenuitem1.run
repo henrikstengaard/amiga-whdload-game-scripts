@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CatchEm/"
+IF EXISTS ENV:whdloadargs
+	whdload "CatchEm.slave" $whdloadargs
+ELSE
+	whdload "CatchEm.slave"
+ENDIF

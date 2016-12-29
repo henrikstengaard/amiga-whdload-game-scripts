@@ -1,0 +1,7 @@
+Name      : Bubble Bobble
+Version   : NTSC
+Publisher : Firebird
+Year      : 1988
+Genre     : Platformer - Single Screen
+Players   : 1 or 2, Simultaneous
+Whdload   : BubbleBobbleNTSC.Slave

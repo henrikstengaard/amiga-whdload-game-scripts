@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegaDemoAvenger/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaDemoAvenger.slave" $whdloadargs
+ELSE
+	whdload "MegaDemoAvenger.slave"
+ENDIF

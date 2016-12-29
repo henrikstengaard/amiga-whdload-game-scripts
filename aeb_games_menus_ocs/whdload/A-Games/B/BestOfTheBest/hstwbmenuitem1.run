@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BestOfTheBest/"
+IF EXISTS ENV:whdloadargs
+	whdload "BestOfTheBest.Slave" $whdloadargs
+ELSE
+	whdload "BestOfTheBest.Slave"
+ENDIF

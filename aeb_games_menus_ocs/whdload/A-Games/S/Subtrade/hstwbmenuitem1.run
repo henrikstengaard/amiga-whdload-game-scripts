@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Subtrade/"
+IF EXISTS ENV:whdloadargs
+	whdload "Subtrade.slave" $whdloadargs
+ELSE
+	whdload "Subtrade.slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Crime Wave
+RunFile=CrimeWave.slave
+AGS2Name=Crime Wave
+AGS2IndexName=C
+AGS2FileName=Crime Wave
+iGameName=Crime Wave

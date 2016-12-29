@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=ShockWave
+RunFile=ShockWave.Slave
+AGS2Name=ShockWave
+AGS2IndexName=S
+AGS2FileName=ShockWave
+iGameName=ShockWave

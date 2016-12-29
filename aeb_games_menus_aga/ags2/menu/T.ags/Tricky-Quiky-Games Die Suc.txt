@@ -1,6 +1,6 @@
 Name      : Tricky-Quiky-Games: Die Suche nach den Verschollenen Seiten
-Publisher : Nestlé
 Language  : German
+Publisher : Nestlé
 Year      : 1991
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only

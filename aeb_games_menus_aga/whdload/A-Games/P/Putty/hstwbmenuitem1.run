@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Putty/"
+IF EXISTS ENV:whdloadargs
+	whdload "Putty.slave" $whdloadargs
+ELSE
+	whdload "Putty.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hawkeye/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hawkeye.slave" $whdloadargs
+ELSE
+	whdload "Hawkeye.slave"
+ENDIF

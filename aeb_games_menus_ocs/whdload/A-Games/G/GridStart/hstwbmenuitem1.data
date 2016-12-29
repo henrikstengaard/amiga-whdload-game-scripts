@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Grid Start
+RunFile=GridStart.Slave
+AGS2Name=Grid Start
+AGS2IndexName=G
+AGS2FileName=Grid Start
+iGameName=Grid Start

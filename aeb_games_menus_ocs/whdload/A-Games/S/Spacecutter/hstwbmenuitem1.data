@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Spacecutter
+RunFile=Spacecutter.Slave
+AGS2Name=Spacecutter
+AGS2IndexName=S
+AGS2FileName=Spacecutter
+iGameName=Spacecutter

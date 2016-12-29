@@ -1,6 +1,6 @@
 Name      : Black Sect
-Publisher : Lankhor
 Language  : French
+Publisher : Lankhor
 Year      : 1994
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only

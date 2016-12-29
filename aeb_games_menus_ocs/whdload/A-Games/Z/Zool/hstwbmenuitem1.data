@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Zool
+RunFile=Zool.slave
+AGS2Name=Zool
+AGS2IndexName=Z
+AGS2FileName=Zool
+iGameName=Zool

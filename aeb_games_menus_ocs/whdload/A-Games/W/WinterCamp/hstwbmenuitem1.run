@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WinterCamp/"
+IF EXISTS ENV:whdloadargs
+	whdload "WinterCamp.Slave" $whdloadargs
+ELSE
+	whdload "WinterCamp.Slave"
+ENDIF

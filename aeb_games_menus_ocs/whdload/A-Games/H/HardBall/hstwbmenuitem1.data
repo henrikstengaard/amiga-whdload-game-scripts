@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hardball!
+RunFile=HardBall.Slave
+AGS2Name=Hardball!
+AGS2IndexName=H
+AGS2FileName=Hardball
+iGameName=Hardball!

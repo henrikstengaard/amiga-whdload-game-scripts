@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mean Machine
+RunFile=MeanMachine.slave
+AGS2Name=Mean Machine
+AGS2IndexName=M
+AGS2FileName=Mean Machine
+iGameName=Mean Machine

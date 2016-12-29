@@ -1,6 +1,6 @@
 Name      : Grand Prix 500 2
-Publisher : Microids
 Language  : French
+Publisher : Microids
 Year      : 1991
 Genre     : Racing - Motorcycle
 Players   : 1 or 2, Simultaneous

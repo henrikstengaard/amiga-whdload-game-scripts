@@ -1,6 +1,6 @@
 Name      : Poker Nights: Teresa Personally
-Publisher : VTO Pictures
 Language  : German
+Publisher : VTO Pictures
 Year      : 1993
 Genre     : Cards - Poker
 Players   : 1 Only

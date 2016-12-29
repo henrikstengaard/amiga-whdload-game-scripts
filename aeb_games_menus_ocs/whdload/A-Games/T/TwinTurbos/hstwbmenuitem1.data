@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Twin Turbos
+RunFile=TwinTurbos.slave
+AGS2Name=Twin Turbos
+AGS2IndexName=T
+AGS2FileName=Twin Turbos
+iGameName=Twin Turbos

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BatmanTheMovie2Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "BatmanTheMovie2Disk.Slave" $whdloadargs
+ELSE
+	whdload "BatmanTheMovie2Disk.Slave"
+ENDIF

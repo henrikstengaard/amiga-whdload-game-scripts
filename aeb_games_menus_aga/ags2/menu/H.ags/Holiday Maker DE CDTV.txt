@@ -1,0 +1,8 @@
+Name      : Holiday Maker
+Language  : German
+Version   : CDTV
+Publisher : Software 2000
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : HolidayMakerCDTVDe.Slave

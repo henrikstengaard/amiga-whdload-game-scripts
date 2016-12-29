@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Shadowlands/"
+IF EXISTS ENV:whdloadargs
+	whdload "Shadowlands.Slave" $whdloadargs
+ELSE
+	whdload "Shadowlands.Slave"
+ENDIF

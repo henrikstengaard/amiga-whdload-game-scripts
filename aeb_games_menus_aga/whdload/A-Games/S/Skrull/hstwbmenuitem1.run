@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Skrull/"
+IF EXISTS ENV:whdloadargs
+	whdload "Skrull.Slave" $whdloadargs
+ELSE
+	whdload "Skrull.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HighwayPatrol2/"
+IF EXISTS ENV:whdloadargs
+	whdload "HighwayPatrol2.Slave" $whdloadargs
+ELSE
+	whdload "HighwayPatrol2.Slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:C/CapitalPunishmentAGA/CapitalPunishmentAGA.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "C" "Capital Punishment AGA"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "C" "Capital Punishment AGA"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:C/CapitalPunishmentAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "CapitalPunishmentAGA.Slave" $whdloadargs
+  whdload "CapitalPunishmentAGA.Slave" $whdloadargs
 ELSE
-	whdload "CapitalPunishmentAGA.Slave"
+  whdload "CapitalPunishmentAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

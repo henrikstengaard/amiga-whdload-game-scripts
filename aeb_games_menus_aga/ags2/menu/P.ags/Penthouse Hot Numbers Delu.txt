@@ -1,6 +1,7 @@
 Name      : Penthouse Hot Numbers Deluxe AGA
-Publisher : Magic Bytes (Magic Bytes Verlag)
 Language  : German
+Version   : AGA
+Publisher : Magic Bytes (Magic Bytes Verlag)
 Year      : 1994
 Players   : 1 - 2 (1 simultaneous)
 Whdload   : PenthouseHotNumsDlxAGADe.Slave

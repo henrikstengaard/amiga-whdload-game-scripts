@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Emerald Mine
+RunFile=EmeraldMine.slave
+AGS2Name=Emerald Mine
+AGS2IndexName=E
+AGS2FileName=Emerald Mine
+iGameName=Emerald Mine

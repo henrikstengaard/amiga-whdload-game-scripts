@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/Gathering91Slideshow/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gathering91Slideshow.Slave" $whdloadargs
+ELSE
+	whdload "Gathering91Slideshow.Slave"
+ENDIF

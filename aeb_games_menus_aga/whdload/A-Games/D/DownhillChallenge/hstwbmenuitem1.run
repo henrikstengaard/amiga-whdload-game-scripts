@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DownhillChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "DownhillChallenge.Slave" $whdloadargs
+ELSE
+	whdload "DownhillChallenge.Slave"
+ENDIF

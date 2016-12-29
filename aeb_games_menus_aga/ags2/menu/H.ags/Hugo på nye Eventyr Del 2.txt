@@ -1,4 +1,5 @@
 Name      : Hugo på nye Eventyr Del 2
+Language  : Danish
 Publisher : Silverrock Productions
 Year      : 1992
 Genre     : Arcade - Miscellaneous

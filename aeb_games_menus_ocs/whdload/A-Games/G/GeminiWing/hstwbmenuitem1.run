@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GeminiWing/"
+IF EXISTS ENV:whdloadargs
+	whdload "GeminiWing.slave" $whdloadargs
+ELSE
+	whdload "GeminiWing.slave"
+ENDIF

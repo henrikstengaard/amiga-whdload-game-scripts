@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AufschwungOstDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "AufschwungOstDe.slave" $whdloadargs
+ELSE
+	whdload "AufschwungOstDe.slave"
+ENDIF

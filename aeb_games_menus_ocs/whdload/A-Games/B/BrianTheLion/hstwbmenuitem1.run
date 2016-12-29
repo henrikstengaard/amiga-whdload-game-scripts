@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BrianTheLion/"
+IF EXISTS ENV:whdloadargs
+	whdload "BrianTheLion.slave" $whdloadargs
+ELSE
+	whdload "BrianTheLion.slave"
+ENDIF

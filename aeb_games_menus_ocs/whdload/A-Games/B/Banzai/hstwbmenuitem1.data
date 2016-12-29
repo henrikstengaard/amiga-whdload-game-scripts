@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Banzai
+RunFile=Banzai.Slave
+AGS2Name=Banzai
+AGS2IndexName=B
+AGS2FileName=Banzai
+iGameName=Banzai

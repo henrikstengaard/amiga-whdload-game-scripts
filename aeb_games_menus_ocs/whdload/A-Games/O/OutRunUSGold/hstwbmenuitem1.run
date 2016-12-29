@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OutRunUSGold/"
+IF EXISTS ENV:whdloadargs
+	whdload "OutRunUSGold.slave" $whdloadargs
+ELSE
+	whdload "OutRunUSGold.slave"
+ENDIF

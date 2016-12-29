@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HellrunMachine/"
+IF EXISTS ENV:whdloadargs
+	whdload "HellrunMachine.Slave" $whdloadargs
+ELSE
+	whdload "HellrunMachine.Slave"
+ENDIF

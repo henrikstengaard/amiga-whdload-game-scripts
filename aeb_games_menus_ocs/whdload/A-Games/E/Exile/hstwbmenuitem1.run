@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Exile/"
+IF EXISTS ENV:whdloadargs
+	whdload "Exile.Slave" $whdloadargs
+ELSE
+	whdload "Exile.Slave"
+ENDIF

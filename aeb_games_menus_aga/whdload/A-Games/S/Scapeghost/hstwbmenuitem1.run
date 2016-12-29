@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Scapeghost/"
+IF EXISTS ENV:whdloadargs
+	whdload "Scapeghost.Slave" $whdloadargs
+ELSE
+	whdload "Scapeghost.Slave"
+ENDIF

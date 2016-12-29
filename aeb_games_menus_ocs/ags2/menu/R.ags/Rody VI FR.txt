@@ -1,6 +1,6 @@
 Name      : Rody VI
-Publisher : Lankhor
 Language  : French
+Publisher : Lankhor
 Year      : 1991
 Genre     : Multi Type - Games & Activities
 Players   : 1

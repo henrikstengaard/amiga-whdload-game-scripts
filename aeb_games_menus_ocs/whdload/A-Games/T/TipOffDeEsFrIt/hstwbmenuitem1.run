@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TipOffDeEsFrIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "TipOffDeEsFrIt.Slave" $whdloadargs
+ELSE
+	whdload "TipOffDeEsFrIt.Slave"
+ENDIF

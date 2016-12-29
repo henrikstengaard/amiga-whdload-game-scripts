@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FlightPath737/"
+IF EXISTS ENV:whdloadargs
+	whdload "FlightPath737.Slave" $whdloadargs
+ELSE
+	whdload "FlightPath737.Slave"
+ENDIF

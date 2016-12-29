@@ -1,5 +1,0 @@
-Name      : Turrican
-Publisher : Rainbow Arts
-Year      : 1990
-Players   : 1 Only
-Whdload   : TurricanDemo.Slave

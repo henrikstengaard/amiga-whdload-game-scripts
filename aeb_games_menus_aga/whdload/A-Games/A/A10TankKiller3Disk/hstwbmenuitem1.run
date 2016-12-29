@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/A10TankKiller3Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "A10TankKiller3Disk.Slave" $whdloadargs
+ELSE
+	whdload "A10TankKiller3Disk.Slave"
+ENDIF

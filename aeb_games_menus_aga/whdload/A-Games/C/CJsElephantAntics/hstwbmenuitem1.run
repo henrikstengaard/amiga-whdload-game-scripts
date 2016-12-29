@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CJsElephantAntics/"
+IF EXISTS ENV:whdloadargs
+	whdload "CJsElephantAntics.Slave" $whdloadargs
+ELSE
+	whdload "CJsElephantAntics.Slave"
+ENDIF

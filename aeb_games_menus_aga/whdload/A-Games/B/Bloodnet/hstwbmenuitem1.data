@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=BloodNet
+RunFile=Bloodnet.slave
+AGS2Name=BloodNet
+AGS2IndexName=B
+AGS2FileName=BloodNet
+iGameName=BloodNet

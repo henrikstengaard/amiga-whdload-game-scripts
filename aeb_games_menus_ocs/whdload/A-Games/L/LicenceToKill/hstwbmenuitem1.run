@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LicenceToKill/"
+IF EXISTS ENV:whdloadargs
+	whdload "LicenceToKill.Slave" $whdloadargs
+ELSE
+	whdload "LicenceToKill.Slave"
+ENDIF

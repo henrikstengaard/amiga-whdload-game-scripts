@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/M1TankPlatoon/"
+IF EXISTS ENV:whdloadargs
+	whdload "M1TankPlatoon.Slave" $whdloadargs
+ELSE
+	whdload "M1TankPlatoon.Slave"
+ENDIF

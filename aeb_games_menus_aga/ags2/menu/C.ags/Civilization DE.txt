@@ -1,6 +1,6 @@
 Name      : Civilization
-Publisher : Software Demon
 Language  : German
+Publisher : Software Demon
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only

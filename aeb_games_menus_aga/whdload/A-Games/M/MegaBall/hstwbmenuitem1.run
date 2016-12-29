@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MegaBall/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaBall.Slave" $whdloadargs
+ELSE
+	whdload "MegaBall.Slave"
+ENDIF

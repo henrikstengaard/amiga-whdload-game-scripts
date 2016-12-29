@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Roadkill AGA
+RunFile=RoadkillAGA.Slave
+AGS2Name=Roadkill AGA
+AGS2IndexName=R
+AGS2FileName=Roadkill AGA
+iGameName=Roadkill AGA

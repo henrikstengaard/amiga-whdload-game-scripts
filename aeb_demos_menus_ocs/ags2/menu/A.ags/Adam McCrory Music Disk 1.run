@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:M/MusicDisk1AdamMcCrory/MusicDisk1AdamMcCrory.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "A" "Adam McCrory Music Disk 1"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "A" "Adam McCrory Music Disk 1"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:M/MusicDisk1AdamMcCrory/"
 IF EXISTS ENV:whdloadargs
-	whdload "MusicDisk1AdamMcCrory.Slave" $whdloadargs
+  whdload "MusicDisk1AdamMcCrory.Slave" $whdloadargs
 ELSE
-	whdload "MusicDisk1AdamMcCrory.Slave"
+  whdload "MusicDisk1AdamMcCrory.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

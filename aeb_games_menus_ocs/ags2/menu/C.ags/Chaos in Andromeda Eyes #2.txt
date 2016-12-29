@@ -1,4 +1,5 @@
 Name      : Chaos in Andromeda: Eyes of the Eagle
+Version   : CDTV
 Publisher : On-line Entertainments
 Year      : 1992
 Genre     : Adventure - RPG 2D

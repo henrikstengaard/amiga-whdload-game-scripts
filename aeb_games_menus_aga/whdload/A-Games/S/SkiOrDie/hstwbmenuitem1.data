@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ski or Die
+RunFile=SkiOrDie.Slave
+AGS2Name=Ski or Die
+AGS2IndexName=S
+AGS2FileName=Ski or Die
+iGameName=Ski or Die

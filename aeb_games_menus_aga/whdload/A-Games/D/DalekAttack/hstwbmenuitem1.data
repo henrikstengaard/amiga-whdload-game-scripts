@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dalek Attack
+RunFile=DalekAttack.Slave
+AGS2Name=Dalek Attack
+AGS2IndexName=D
+AGS2FileName=Dalek Attack
+iGameName=Dalek Attack

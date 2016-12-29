@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TechnoTrance3/"
+IF EXISTS ENV:whdloadargs
+	whdload "TechnoTrance3.Slave" $whdloadargs
+ELSE
+	whdload "TechnoTrance3.Slave"
+ENDIF

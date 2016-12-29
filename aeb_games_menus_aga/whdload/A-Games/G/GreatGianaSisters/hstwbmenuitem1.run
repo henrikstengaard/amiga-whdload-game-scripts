@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GreatGianaSisters/"
+IF EXISTS ENV:whdloadargs
+	whdload "GreatGianaSisters.slave" $whdloadargs
+ELSE
+	whdload "GreatGianaSisters.slave"
+ENDIF

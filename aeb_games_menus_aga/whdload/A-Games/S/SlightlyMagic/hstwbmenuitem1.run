@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SlightlyMagic/"
+IF EXISTS ENV:whdloadargs
+	whdload "SlightlyMagic.slave" $whdloadargs
+ELSE
+	whdload "SlightlyMagic.slave"
+ENDIF

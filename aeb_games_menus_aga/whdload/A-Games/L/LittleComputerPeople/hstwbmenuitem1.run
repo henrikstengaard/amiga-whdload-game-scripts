@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LittleComputerPeople/"
+IF EXISTS ENV:whdloadargs
+	whdload "LittleComputerPeople.Slave" $whdloadargs
+ELSE
+	whdload "LittleComputerPeople.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Team Yankee
+RunFile=TeamYankee.Slave
+AGS2Name=Team Yankee
+AGS2IndexName=T
+AGS2FileName=Team Yankee
+iGameName=Team Yankee

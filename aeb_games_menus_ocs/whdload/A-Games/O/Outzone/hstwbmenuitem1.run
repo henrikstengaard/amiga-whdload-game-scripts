@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Outzone/"
+IF EXISTS ENV:whdloadargs
+	whdload "Outzone.Slave" $whdloadargs
+ELSE
+	whdload "Outzone.Slave"
+ENDIF

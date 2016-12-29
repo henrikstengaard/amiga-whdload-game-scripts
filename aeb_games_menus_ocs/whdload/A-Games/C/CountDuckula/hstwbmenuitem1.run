@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CountDuckula/"
+IF EXISTS ENV:whdloadargs
+	whdload "CountDuckula.slave" $whdloadargs
+ELSE
+	whdload "CountDuckula.slave"
+ENDIF

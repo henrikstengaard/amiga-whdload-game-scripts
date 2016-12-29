@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Unreal
+RunFile=Unreal.Slave
+AGS2Name=Unreal
+AGS2IndexName=U
+AGS2FileName=Unreal
+iGameName=Unreal

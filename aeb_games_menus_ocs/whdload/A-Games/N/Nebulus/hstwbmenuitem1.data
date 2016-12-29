@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Nebulus
+RunFile=Nebulus.Slave
+AGS2Name=Nebulus
+AGS2IndexName=N
+AGS2FileName=Nebulus
+iGameName=Nebulus

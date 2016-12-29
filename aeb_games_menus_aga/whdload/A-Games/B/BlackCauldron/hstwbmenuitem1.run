@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BlackCauldron/"
+IF EXISTS ENV:whdloadargs
+	whdload "BlackCauldron.Slave" $whdloadargs
+ELSE
+	whdload "BlackCauldron.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MorphAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "MorphAGA.Slave" $whdloadargs
+ELSE
+	whdload "MorphAGA.Slave"
+ENDIF

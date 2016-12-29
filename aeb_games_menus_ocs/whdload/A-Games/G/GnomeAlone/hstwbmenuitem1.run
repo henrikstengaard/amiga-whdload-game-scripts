@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GnomeAlone/"
+IF EXISTS ENV:whdloadargs
+	whdload "GnomeAlone.Slave" $whdloadargs
+ELSE
+	whdload "GnomeAlone.Slave"
+ENDIF

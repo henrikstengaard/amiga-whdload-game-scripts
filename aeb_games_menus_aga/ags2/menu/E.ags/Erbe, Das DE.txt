@@ -1,6 +1,6 @@
 Name      : Erbe, Das
-Publisher : Comad
 Language  : German
+Publisher : Comad
 Year      : 1991
 Genre     : Adventure
 Players   : 1

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Elfmania/"
+IF EXISTS ENV:whdloadargs
+	whdload "Elfmania.Slave" $whdloadargs
+ELSE
+	whdload "Elfmania.Slave"
+ENDIF

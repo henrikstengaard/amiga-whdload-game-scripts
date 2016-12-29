@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WCLeaderBoard&DataDisks/"
+IF EXISTS ENV:whdloadargs
+	whdload "WCLeaderBoard&DataDisks.slave" $whdloadargs
+ELSE
+	whdload "WCLeaderBoard&DataDisks.slave"
+ENDIF

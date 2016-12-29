@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DasBoot/"
+IF EXISTS ENV:whdloadargs
+	whdload "DasBoot.Slave" $whdloadargs
+ELSE
+	whdload "DasBoot.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Ivanhoe/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ivanhoe.slave" $whdloadargs
+ELSE
+	whdload "Ivanhoe.slave"
+ENDIF

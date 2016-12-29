@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/NegativeFX/"
+IF EXISTS ENV:whdloadargs
+	whdload "NegativeFX.Slave" $whdloadargs
+ELSE
+	whdload "NegativeFX.Slave"
+ENDIF

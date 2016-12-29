@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Rebellion/"
+IF EXISTS ENV:whdloadargs
+	whdload "Rebellion.slave" $whdloadargs
+ELSE
+	whdload "Rebellion.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SwordOfSodan/"
+IF EXISTS ENV:whdloadargs
+	whdload "SwordOfSodan.slave" $whdloadargs
+ELSE
+	whdload "SwordOfSodan.slave"
+ENDIF

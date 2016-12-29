@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=APB Files
+RunFile=APBFiles.slave
+AGS2Name=APB Files
+AGS2IndexName=A
+AGS2FileName=APB Files
+iGameName=APB Files

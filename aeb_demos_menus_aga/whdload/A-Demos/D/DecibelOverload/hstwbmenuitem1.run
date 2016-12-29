@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DecibelOverload/"
+IF EXISTS ENV:whdloadargs
+	whdload "DecibelOverload.Slave" $whdloadargs
+ELSE
+	whdload "DecibelOverload.Slave"
+ENDIF

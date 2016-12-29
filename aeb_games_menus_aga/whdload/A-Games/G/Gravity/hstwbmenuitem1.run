@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gravity/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gravity.Slave" $whdloadargs
+ELSE
+	whdload "Gravity.Slave"
+ENDIF

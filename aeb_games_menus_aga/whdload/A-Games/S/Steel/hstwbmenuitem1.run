@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Steel/"
+IF EXISTS ENV:whdloadargs
+	whdload "Steel.Slave" $whdloadargs
+ELSE
+	whdload "Steel.Slave"
+ENDIF

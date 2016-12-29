@@ -1,6 +1,0 @@
-Name      : Ghostbusters II
-Publisher : Activision
-Year      : 1990
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : Ghostbusters2NTSC.Slave

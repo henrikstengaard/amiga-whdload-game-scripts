@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Corsarios
+RunFile=Corsarios.Slave
+AGS2Name=Corsarios
+AGS2IndexName=C
+AGS2FileName=Corsarios
+iGameName=Corsarios

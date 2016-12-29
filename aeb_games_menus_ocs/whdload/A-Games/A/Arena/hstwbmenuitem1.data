@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arena
+RunFile=Arena.slave
+AGS2Name=Arena
+AGS2IndexName=A
+AGS2FileName=Arena
+iGameName=Arena

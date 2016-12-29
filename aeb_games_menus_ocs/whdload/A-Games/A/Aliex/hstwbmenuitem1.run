@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Aliex/"
+IF EXISTS ENV:whdloadargs
+	whdload "Aliex.Slave" $whdloadargs
+ELSE
+	whdload "Aliex.Slave"
+ENDIF

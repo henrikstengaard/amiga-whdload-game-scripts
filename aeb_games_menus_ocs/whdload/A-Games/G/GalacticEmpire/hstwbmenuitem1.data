@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Galactic Empire
+RunFile=GalacticEmpire.Slave
+AGS2Name=Galactic Empire
+AGS2IndexName=G
+AGS2FileName=Galactic Empire
+iGameName=Galactic Empire

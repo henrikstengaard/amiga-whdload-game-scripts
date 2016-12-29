@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/K240/"
+IF EXISTS ENV:whdloadargs
+	whdload "K240.Slave" $whdloadargs
+ELSE
+	whdload "K240.Slave"
+ENDIF

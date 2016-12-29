@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Powerdrome
+RunFile=Powerdrome.Slave
+AGS2Name=Powerdrome
+AGS2IndexName=P
+AGS2FileName=Powerdrome
+iGameName=Powerdrome

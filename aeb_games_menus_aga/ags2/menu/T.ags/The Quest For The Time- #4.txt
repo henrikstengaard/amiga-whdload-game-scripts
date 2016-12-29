@@ -1,6 +1,7 @@
 Name      : The Quest For The Time-Bird
-Publisher : Infogrames
 Language  : French
+Version   : Image
+Publisher : Infogrames
 Year      : 1989
 Players   : 1
 Whdload   : QueteLOiseauDuTempFrImage.Slave

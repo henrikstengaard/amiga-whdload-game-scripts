@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Utopia
+RunFile=Utopia.Slave
+AGS2Name=Utopia
+AGS2IndexName=U
+AGS2FileName=Utopia
+iGameName=Utopia

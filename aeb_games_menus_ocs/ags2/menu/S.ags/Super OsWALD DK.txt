@@ -1,4 +1,5 @@
 Name      : Super OsWALD
+Language  : Danish
 Publisher : Silverrock Productions
 Year      : 1990
 Genre     : Platformer - Scrolling Screen

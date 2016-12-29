@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gnome Alone
+RunFile=GnomeAlone.Slave
+AGS2Name=Gnome Alone
+AGS2IndexName=G
+AGS2FileName=Gnome Alone
+iGameName=Gnome Alone

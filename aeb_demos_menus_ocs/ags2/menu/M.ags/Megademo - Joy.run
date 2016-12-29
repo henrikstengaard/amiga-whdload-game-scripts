@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:M/MegademoJoy&MGF&TJC/MegademoJoy&MGF&TJC.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "M" "Megademo - Joy"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "M" "Megademo - Joy"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:M/MegademoJoy&MGF&TJC/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegademoJoy&MGF&TJC.Slave" $whdloadargs
+  whdload "MegademoJoy&MGF&TJC.Slave" $whdloadargs
 ELSE
-	whdload "MegademoJoy&MGF&TJC.Slave"
+  whdload "MegademoJoy&MGF&TJC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

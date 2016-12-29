@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Motion/"
+IF EXISTS ENV:whdloadargs
+	whdload "Motion.slave" $whdloadargs
+ELSE
+	whdload "Motion.slave"
+ENDIF

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:Q/QuestForGlory2/QuestForGlory2.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "Q" "Quest for Glory II Trial b"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "Q" "Quest for Glory II Trial b"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:Q/QuestForGlory2/"
 IF EXISTS ENV:whdloadargs
-	whdload "QuestForGlory2.Slave" $whdloadargs
+  whdload "QuestForGlory2.Slave" $whdloadargs
 ELSE
-	whdload "QuestForGlory2.Slave"
+  whdload "QuestForGlory2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

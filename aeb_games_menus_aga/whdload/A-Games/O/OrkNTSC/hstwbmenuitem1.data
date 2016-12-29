@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ork NTSC
+RunFile=OrkNTSC.slave
+AGS2Name=Ork NTSC
+AGS2IndexName=O
+AGS2FileName=Ork NTSC
+iGameName=Ork NTSC

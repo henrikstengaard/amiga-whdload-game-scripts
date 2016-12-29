@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChambersOfShaolin/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChambersOfShaolin.slave" $whdloadargs
+ELSE
+	whdload "ChambersOfShaolin.slave"
+ENDIF

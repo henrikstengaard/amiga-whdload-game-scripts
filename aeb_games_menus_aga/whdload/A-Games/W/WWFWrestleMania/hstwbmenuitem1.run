@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WWFWrestleMania/"
+IF EXISTS ENV:whdloadargs
+	whdload "WWFWrestlemania.slave" $whdloadargs
+ELSE
+	whdload "WWFWrestlemania.slave"
+ENDIF

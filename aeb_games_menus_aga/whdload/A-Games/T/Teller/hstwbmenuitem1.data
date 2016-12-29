@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Teller, The
+RunFile=Teller.Slave
+AGS2Name=Teller, The
+AGS2IndexName=T
+AGS2FileName=Teller, The
+iGameName=Teller, The

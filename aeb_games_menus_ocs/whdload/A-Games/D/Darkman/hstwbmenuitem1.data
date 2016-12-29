@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Darkman
+RunFile=Darkman.Slave
+AGS2Name=Darkman
+AGS2IndexName=D
+AGS2FileName=Darkman
+iGameName=Darkman

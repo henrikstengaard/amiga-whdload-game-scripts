@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bomb'X
+RunFile=BombX.slave
+AGS2Name=Bomb'X
+AGS2IndexName=B
+AGS2FileName=Bomb'X
+iGameName=Bomb'X

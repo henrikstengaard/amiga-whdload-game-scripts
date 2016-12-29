@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BasketIslandDemo1/"
+IF EXISTS ENV:whdloadargs
+	whdload "BasketIslandDemo1.Slave" $whdloadargs
+ELSE
+	whdload "BasketIslandDemo1.Slave"
+ENDIF

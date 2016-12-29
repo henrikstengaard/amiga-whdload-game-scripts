@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Puzznic
+RunFile=Puzznic.Slave
+AGS2Name=Puzznic
+AGS2IndexName=P
+AGS2FileName=Puzznic
+iGameName=Puzznic

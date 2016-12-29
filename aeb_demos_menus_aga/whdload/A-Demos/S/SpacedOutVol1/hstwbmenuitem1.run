@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SpacedOutVol1/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpacedOutVol1.Slave" $whdloadargs
+ELSE
+	whdload "SpacedOutVol1.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=International Ice Hockey
+RunFile=InternationalIceHockey.Slave
+AGS2Name=International Ice Hockey
+AGS2IndexName=I
+AGS2FileName=International Ice Hockey
+iGameName=International Ice Hockey

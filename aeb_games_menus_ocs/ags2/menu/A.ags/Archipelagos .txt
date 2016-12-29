@@ -1,6 +1,0 @@
-Name      : Archipelagos
-Publisher : Logotron
-Year      : 1989
-Genre     : Miscellaneous - (unknown)
-Players   : 1 Only
-Whdload   : ArchipelagosNTSC.Slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Super Scramble Simulator
+RunFile=SuperScrambleSimulator.slave
+AGS2Name=Super Scramble Simulator
+AGS2IndexName=S
+AGS2FileName=Super Scramble Simulator
+iGameName=Super Scramble Simulator

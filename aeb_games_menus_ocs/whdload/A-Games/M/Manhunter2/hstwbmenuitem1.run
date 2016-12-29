@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Manhunter2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Manhunter2.slave" $whdloadargs
+ELSE
+	whdload "Manhunter2.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PsychoSanta/"
+IF EXISTS ENV:whdloadargs
+	whdload "PsychoSanta.Slave" $whdloadargs
+ELSE
+	whdload "PsychoSanta.Slave"
+ENDIF

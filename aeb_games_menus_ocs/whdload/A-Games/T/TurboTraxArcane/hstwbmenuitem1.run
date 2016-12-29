@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TurboTraxArcane/"
+IF EXISTS ENV:whdloadargs
+	whdload "TurboTraxArcane512KB.Slave" $whdloadargs
+ELSE
+	whdload "TurboTraxArcane512KB.Slave"
+ENDIF

@@ -1,4 +1,5 @@
 Name      : Sensible Soccer v1.2 - International Edition
+Version   : CD32
 Publisher : Renegade
 Year      : 1994
 Genre     : Sports - Football/Soccer

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Vixen/"
+IF EXISTS ENV:whdloadargs
+	whdload "Vixen.slave" $whdloadargs
+ELSE
+	whdload "Vixen.slave"
+ENDIF

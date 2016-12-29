@@ -1,6 +1,6 @@
 Name      : Mean Streets
-Publisher : US Gold
 Language  : German
+Publisher : US Gold
 Year      : 1990
 Genre     : Adventure - Arcade 3D
 Players   : 1 Only

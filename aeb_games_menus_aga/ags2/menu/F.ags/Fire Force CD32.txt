@@ -1,4 +1,5 @@
 Name      : Fire Force
+Version   : CD32
 Publisher : ICE
 Year      : 1994
 Players   : 1 Only

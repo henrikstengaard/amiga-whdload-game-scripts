@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ColonelsBequest/"
+IF EXISTS ENV:whdloadargs
+	whdload "ColonelsBequest.slave" $whdloadargs
+ELSE
+	whdload "ColonelsBequest.slave"
+ENDIF

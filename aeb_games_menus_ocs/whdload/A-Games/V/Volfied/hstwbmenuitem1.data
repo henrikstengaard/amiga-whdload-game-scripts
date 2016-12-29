@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Volfied
+RunFile=Volfied.slave
+AGS2Name=Volfied
+AGS2IndexName=V
+AGS2FileName=Volfied
+iGameName=Volfied

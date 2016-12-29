@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Shanghai
+RunFile=Shanghai.Slave
+AGS2Name=Shanghai
+AGS2IndexName=S
+AGS2FileName=Shanghai
+iGameName=Shanghai

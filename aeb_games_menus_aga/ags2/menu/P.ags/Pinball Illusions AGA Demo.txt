@@ -1,0 +1,7 @@
+Name      : Pinball Illusions
+Version   : AGA Demo
+Publisher : 21st Century Entertainment
+Year      : 1995
+Genre     : Arcade - Pinball
+Players   : 1 to 8
+Whdload   : PinballIllusionsAGADemo.Slave

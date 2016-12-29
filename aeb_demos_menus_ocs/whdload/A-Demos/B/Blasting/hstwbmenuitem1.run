@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/Blasting/"
+IF EXISTS ENV:whdloadargs
+	whdload "Blasting.Slave" $whdloadargs
+ELSE
+	whdload "Blasting.Slave"
+ENDIF

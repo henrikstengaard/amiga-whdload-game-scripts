@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=A-Train CZ 512K
+RunFile=ATrain512kCz.slave
+AGS2Name=A-Train CZ 512K
+AGS2IndexName=A
+AGS2FileName=A-Train CZ 512K
+iGameName=A-Train CZ 512K

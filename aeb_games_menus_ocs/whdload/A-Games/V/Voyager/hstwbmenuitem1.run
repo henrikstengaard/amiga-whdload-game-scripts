@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Voyager/"
+IF EXISTS ENV:whdloadargs
+	whdload "Voyager.slave" $whdloadargs
+ELSE
+	whdload "Voyager.slave"
+ENDIF

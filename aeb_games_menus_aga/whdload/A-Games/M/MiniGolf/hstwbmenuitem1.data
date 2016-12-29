@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mini Golf
+RunFile=MiniGolf.Slave
+AGS2Name=Mini Golf
+AGS2IndexName=M
+AGS2FileName=Mini Golf
+iGameName=Mini Golf

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FullContact/"
+IF EXISTS ENV:whdloadargs
+	whdload "FullContact.slave" $whdloadargs
+ELSE
+	whdload "FullContact.slave"
+ENDIF

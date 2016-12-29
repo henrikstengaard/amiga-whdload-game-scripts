@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/Xenophobe/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xenophobe.slave" $whdloadargs
+ELSE
+	whdload "Xenophobe.slave"
+ENDIF

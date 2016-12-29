@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Revenge of Defender
+RunFile=RevengeOfDefender.slave
+AGS2Name=Revenge of Defender
+AGS2IndexName=R
+AGS2FileName=Revenge of Defender
+iGameName=Revenge of Defender

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChaosInAndromeda/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChaosInAndromeda.Slave" $whdloadargs
+ELSE
+	whdload "ChaosInAndromeda.Slave"
+ENDIF

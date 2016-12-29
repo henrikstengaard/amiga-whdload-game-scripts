@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Premier Manager
+RunFile=PremierManager.Slave
+AGS2Name=Premier Manager
+AGS2IndexName=P
+AGS2FileName=Premier Manager
+iGameName=Premier Manager

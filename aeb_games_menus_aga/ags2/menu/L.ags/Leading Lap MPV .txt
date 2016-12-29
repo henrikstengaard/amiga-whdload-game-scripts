@@ -1,5 +1,0 @@
-Name      : Leading Lap MPV
-Publisher : Black Legend
-Year      : 1995
-Genre     : Racing - Cars
-Whdload   : LeadingLapMPVCUAmiga.Slave

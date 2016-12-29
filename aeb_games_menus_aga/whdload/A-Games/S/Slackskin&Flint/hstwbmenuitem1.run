@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Slackskin&Flint/"
+IF EXISTS ENV:whdloadargs
+	whdload "Slackskin&Flint.Slave" $whdloadargs
+ELSE
+	whdload "Slackskin&Flint.Slave"
+ENDIF

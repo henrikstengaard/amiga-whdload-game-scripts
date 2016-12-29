@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tubular Worlds
+RunFile=TubularWorldsECS.Slave
+AGS2Name=Tubular Worlds
+AGS2IndexName=T
+AGS2FileName=Tubular Worlds
+iGameName=Tubular Worlds

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TowerOfBabel/"
+IF EXISTS ENV:whdloadargs
+	whdload "TowerOfBabel.slave" $whdloadargs
+ELSE
+	whdload "TowerOfBabel.slave"
+ENDIF

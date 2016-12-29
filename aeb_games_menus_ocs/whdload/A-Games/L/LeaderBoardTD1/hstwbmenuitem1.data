@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leader Board Tournament
+RunFile=LeaderboardTD1.slave
+AGS2Name=Leader Board Tournament
+AGS2IndexName=L
+AGS2FileName=Leader Board Tournament
+iGameName=Leader Board Tournament

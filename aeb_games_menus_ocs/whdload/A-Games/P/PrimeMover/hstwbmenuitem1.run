@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PrimeMover/"
+IF EXISTS ENV:whdloadargs
+	whdload "PrimeMover.Slave" $whdloadargs
+ELSE
+	whdload "PrimeMover.Slave"
+ENDIF

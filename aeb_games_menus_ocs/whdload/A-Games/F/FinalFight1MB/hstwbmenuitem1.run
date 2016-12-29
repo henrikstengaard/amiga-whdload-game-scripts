@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FinalFight1MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "FinalFight1MB.Slave" $whdloadargs
+ELSE
+	whdload "FinalFight1MB.Slave"
+ENDIF

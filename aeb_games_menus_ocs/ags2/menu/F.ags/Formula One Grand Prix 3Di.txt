@@ -1,0 +1,6 @@
+Name      : Formula One Grand Prix
+Version   : 3Disk
+Publisher : MicroProse Software
+Year      : 1991
+Genre     : Sports - Formula One
+Whdload   : FormulaOneGrandPrix3Disk.Slave

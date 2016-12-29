@@ -1,7 +1,0 @@
-Name      : Battle Isle
-Publisher : Ubi Soft
-Language  : German
-Year      : 1991
-Genre     : Strategy - War
-Players   : 1 Only
-Whdload   : BattleIsleDeIntro.Slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Speedball NTSC
+RunFile=SpeedballNTSC.slave
+AGS2Name=Speedball NTSC
+AGS2IndexName=S
+AGS2FileName=Speedball NTSC
+iGameName=Speedball NTSC

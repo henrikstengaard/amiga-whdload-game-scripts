@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Audio Violation - DEFEKT
+RunFile=AudioViolation.Slave
+AGS2Name=Audio Violation - DEFEKT
+AGS2IndexName=A
+AGS2FileName=Audio Violation - DEFEKT
+iGameName=Audio Violation - DEFEKT

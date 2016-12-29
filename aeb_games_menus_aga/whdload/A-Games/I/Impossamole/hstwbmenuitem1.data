@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Impossamole
+RunFile=Impossamole.Slave
+AGS2Name=Impossamole
+AGS2IndexName=I
+AGS2FileName=Impossamole
+iGameName=Impossamole

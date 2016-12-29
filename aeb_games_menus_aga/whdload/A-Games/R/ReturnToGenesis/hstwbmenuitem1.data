@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Return to Genesis
+RunFile=ReturnToGenesis.Slave
+AGS2Name=Return to Genesis
+AGS2IndexName=R
+AGS2FileName=Return to Genesis
+iGameName=Return to Genesis

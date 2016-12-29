@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Spot/"
+IF EXISTS ENV:whdloadargs
+	whdload "Spot.Slave" $whdloadargs
+ELSE
+	whdload "Spot.Slave"
+ENDIF

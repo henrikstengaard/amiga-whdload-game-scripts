@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=World Games
+RunFile=WorldGames.Slave
+AGS2Name=World Games
+AGS2IndexName=W
+AGS2FileName=World Games
+iGameName=World Games

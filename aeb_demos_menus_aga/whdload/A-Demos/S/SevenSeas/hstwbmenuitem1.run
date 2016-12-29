@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SevenSeas/"
+IF EXISTS ENV:whdloadargs
+	whdload "SevenSeas.Slave" $whdloadargs
+ELSE
+	whdload "SevenSeas.Slave"
+ENDIF

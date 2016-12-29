@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WaterproofFixed/"
+IF EXISTS ENV:whdloadargs
+	whdload "WaterproofFixed.Slave" $whdloadargs
+ELSE
+	whdload "WaterproofFixed.Slave"
+ENDIF

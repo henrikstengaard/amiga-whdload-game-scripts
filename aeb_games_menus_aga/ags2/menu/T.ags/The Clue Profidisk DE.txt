@@ -1,0 +1,7 @@
+Name      : The Clue!
+Language  : German
+Version   : Profidisk
+Publisher : Neo / Kompart
+Year      : 1994
+Players   : 1
+Whdload   : ClouDe&Profidisk.Slave

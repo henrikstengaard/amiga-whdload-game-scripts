@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FantasticDizzy/"
+IF EXISTS ENV:whdloadargs
+	whdload "FantasticDizzy.slave" $whdloadargs
+ELSE
+	whdload "FantasticDizzy.slave"
+ENDIF

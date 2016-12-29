@@ -1,4 +1,5 @@
 Name      : Ivan 'Ironman' Stewart's Super Off Road
+Version   : NTSC
 Publisher : Virgin Games
 Year      : 1990
 Genre     : Racing - Overhead

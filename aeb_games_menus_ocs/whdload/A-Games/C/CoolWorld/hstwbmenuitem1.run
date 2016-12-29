@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CoolWorld/"
+IF EXISTS ENV:whdloadargs
+	whdload "CoolWorld.slave" $whdloadargs
+ELSE
+	whdload "CoolWorld.slave"
+ENDIF

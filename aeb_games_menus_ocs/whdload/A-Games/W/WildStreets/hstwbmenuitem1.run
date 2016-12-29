@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WildStreets/"
+IF EXISTS ENV:whdloadargs
+	whdload "WildStreets.slave" $whdloadargs
+ELSE
+	whdload "WildStreets.slave"
+ENDIF

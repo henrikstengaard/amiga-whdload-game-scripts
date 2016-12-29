@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AfterBurnerActivision/"
+IF EXISTS ENV:whdloadargs
+	whdload "AfterBurnerActivision.Slave" $whdloadargs
+ELSE
+	whdload "AfterBurnerActivision.Slave"
+ENDIF

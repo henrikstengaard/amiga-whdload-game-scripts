@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/HuntFor7thOctober/"
+IF EXISTS ENV:whdloadargs
+	whdload "HuntFor7thOctober.Slave" $whdloadargs
+ELSE
+	whdload "HuntFor7thOctober.Slave"
+ENDIF

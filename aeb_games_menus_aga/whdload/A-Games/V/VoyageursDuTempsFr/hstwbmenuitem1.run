@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/VoyageursDuTempsFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "VoyageursDuTempsFr.Slave" $whdloadargs
+ELSE
+	whdload "VoyageursDuTempsFr.Slave"
+ENDIF

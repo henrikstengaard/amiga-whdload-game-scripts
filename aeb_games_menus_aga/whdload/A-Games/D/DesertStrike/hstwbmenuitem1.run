@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DesertStrike/"
+IF EXISTS ENV:whdloadargs
+	whdload "DesertStrike.slave" $whdloadargs
+ELSE
+	whdload "DesertStrike.slave"
+ENDIF

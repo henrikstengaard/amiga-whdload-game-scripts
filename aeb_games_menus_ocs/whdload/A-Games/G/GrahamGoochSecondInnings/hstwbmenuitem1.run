@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GrahamGoochSecondInnings/"
+IF EXISTS ENV:whdloadargs
+	whdload "GrahamGoochSecondInnings.Slave" $whdloadargs
+ELSE
+	whdload "GrahamGoochSecondInnings.Slave"
+ENDIF

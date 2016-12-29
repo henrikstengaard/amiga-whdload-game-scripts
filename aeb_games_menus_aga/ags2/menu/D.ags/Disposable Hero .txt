@@ -1,5 +1,0 @@
-Name      : Disposable Hero
-Publisher : Gremlin Graphics
-Year      : 1994
-Players   : 1 Only
-Whdload   : DisposableHeroFast.slave

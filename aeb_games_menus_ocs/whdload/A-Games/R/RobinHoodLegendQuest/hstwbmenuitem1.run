@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RobinHoodLegendQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "RobinHoodLegendQuest.slave" $whdloadargs
+ELSE
+	whdload "RobinHoodLegendQuest.slave"
+ENDIF

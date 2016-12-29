@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Stratego
+RunFile=Stratego.Slave
+AGS2Name=Stratego
+AGS2IndexName=S
+AGS2FileName=Stratego
+iGameName=Stratego

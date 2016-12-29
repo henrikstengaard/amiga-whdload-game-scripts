@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Hyperion/"
+IF EXISTS ENV:whdloadargs
+	whdload "Hyperion.Slave" $whdloadargs
+ELSE
+	whdload "Hyperion.Slave"
+ENDIF

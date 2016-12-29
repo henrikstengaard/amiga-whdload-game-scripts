@@ -1,4 +1,5 @@
 Name      : Slamtilt
+Version   : AGA
 Publisher : 21st Century Entertainment
 Year      : 1996
 Genre     : Arcade - Pinball

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RedBaronDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "RedBaronDe.slave" $whdloadargs
+ELSE
+	whdload "RedBaronDe.slave"
+ENDIF

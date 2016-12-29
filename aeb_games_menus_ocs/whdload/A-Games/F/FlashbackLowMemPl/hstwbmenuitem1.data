@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Flashback PL LOWMEM
+RunFile=FlashbackLowMemPl.slave
+AGS2Name=Flashback PL LOWMEM
+AGS2IndexName=F
+AGS2FileName=Flashback PL LOWMEM
+iGameName=Flashback PL LOWMEM

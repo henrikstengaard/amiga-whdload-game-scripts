@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SevenCitiesOfGold/"
+IF EXISTS ENV:whdloadargs
+	whdload "SevenCitiesOfGold.slave" $whdloadargs
+ELSE
+	whdload "SevenCitiesOfGold.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Sixiang/"
+IF EXISTS ENV:whdloadargs
+	whdload "Sixiang.Slave" $whdloadargs
+ELSE
+	whdload "Sixiang.Slave"
+ENDIF

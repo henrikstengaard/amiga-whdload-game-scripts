@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/QuestOfAgravain/"
+IF EXISTS ENV:whdloadargs
+	whdload "QuestOfAgravain.Slave" $whdloadargs
+ELSE
+	whdload "QuestOfAgravain.Slave"
+ENDIF

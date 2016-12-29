@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Postman Pat
+RunFile=PostmanPat.Slave
+AGS2Name=Postman Pat
+AGS2IndexName=P
+AGS2FileName=Postman Pat
+iGameName=Postman Pat

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Populous
+RunFile=Populous.Slave
+AGS2Name=Populous
+AGS2IndexName=P
+AGS2FileName=Populous
+iGameName=Populous

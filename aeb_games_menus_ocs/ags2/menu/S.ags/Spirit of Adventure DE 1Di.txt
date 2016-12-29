@@ -1,0 +1,7 @@
+Name      : Spirit of Adventure
+Language  : German
+Version   : 1Disk
+Publisher : Starbyte Software
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Whdload   : SpiritOfAdventureDe1Disk.slave

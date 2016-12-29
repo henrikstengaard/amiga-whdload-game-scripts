@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TwistedAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "TwistedAGA.Slave" $whdloadargs
+ELSE
+	whdload "TwistedAGA.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Epic&MissionDisk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Epic&MissionDisk.slave" $whdloadargs
+ELSE
+	whdload "Epic&MissionDisk.slave"
+ENDIF

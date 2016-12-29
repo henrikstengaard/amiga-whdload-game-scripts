@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KGB/"
+IF EXISTS ENV:whdloadargs
+	whdload "KGB.Slave" $whdloadargs
+ELSE
+	whdload "KGB.Slave"
+ENDIF

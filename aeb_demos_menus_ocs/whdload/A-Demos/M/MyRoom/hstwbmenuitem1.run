@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MyRoom/"
+IF EXISTS ENV:whdloadargs
+	whdload "MyRoom.Slave" $whdloadargs
+ELSE
+	whdload "MyRoom.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Paragliding Simulation
+RunFile=ParaglidingSimulation.Slave
+AGS2Name=Paragliding Simulation
+AGS2IndexName=P
+AGS2FileName=Paragliding Simulation
+iGameName=Paragliding Simulation

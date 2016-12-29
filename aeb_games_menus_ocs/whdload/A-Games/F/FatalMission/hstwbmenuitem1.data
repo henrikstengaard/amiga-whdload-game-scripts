@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Fatal Mission
+RunFile=FatalMission.slave
+AGS2Name=Fatal Mission
+AGS2IndexName=F
+AGS2FileName=Fatal Mission
+iGameName=Fatal Mission

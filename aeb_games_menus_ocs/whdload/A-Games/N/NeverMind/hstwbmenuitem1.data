@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Nevermind
+RunFile=Nevermind.Slave
+AGS2Name=Nevermind
+AGS2IndexName=N
+AGS2FileName=Nevermind
+iGameName=Nevermind

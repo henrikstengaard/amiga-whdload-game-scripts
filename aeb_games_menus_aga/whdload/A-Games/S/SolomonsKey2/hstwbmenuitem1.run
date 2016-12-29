@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SolomonsKey2/"
+IF EXISTS ENV:whdloadargs
+	whdload "SolomonsKey2.Slave" $whdloadargs
+ELSE
+	whdload "SolomonsKey2.Slave"
+ENDIF

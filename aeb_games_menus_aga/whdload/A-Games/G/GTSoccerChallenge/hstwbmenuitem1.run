@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/GTSoccerChallenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "GTSoccerChallenge.Slave" $whdloadargs
+ELSE
+	whdload "GTSoccerChallenge.Slave"
+ENDIF

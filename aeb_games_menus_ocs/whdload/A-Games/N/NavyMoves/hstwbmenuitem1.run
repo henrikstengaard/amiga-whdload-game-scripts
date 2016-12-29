@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:N/NavyMoves/"
+IF EXISTS ENV:whdloadargs
+	whdload "NavyMoves.Slave" $whdloadargs
+ELSE
+	whdload "NavyMoves.Slave"
+ENDIF

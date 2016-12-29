@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Populous2&ChallengeGames/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChallengeGames.slave" $whdloadargs
+ELSE
+	whdload "ChallengeGames.slave"
+ENDIF

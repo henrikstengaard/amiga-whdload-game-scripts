@@ -1,6 +1,0 @@
-Name      : Space Ace
-Publisher : ReadySoft
-Year      : 1989
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : SpaceAceDemo.Slave

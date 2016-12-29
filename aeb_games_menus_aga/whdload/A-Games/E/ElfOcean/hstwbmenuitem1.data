@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Elf
+RunFile=ElfOcean.slave
+AGS2Name=Elf
+AGS2IndexName=E
+AGS2FileName=Elf 
+iGameName=Elf

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BigTimeSensuality/"
+IF EXISTS ENV:whdloadargs
+	whdload "BigTimeSensuality.slave" $whdloadargs
+ELSE
+	whdload "BigTimeSensuality.slave"
+ENDIF

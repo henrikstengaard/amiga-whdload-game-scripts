@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Under Pressure
+RunFile=UnderPressure.Slave
+AGS2Name=Under Pressure
+AGS2IndexName=U
+AGS2FileName=Under Pressure
+iGameName=Under Pressure

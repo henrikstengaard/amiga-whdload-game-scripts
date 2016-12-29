@@ -1,4 +1,5 @@
 Name    : 1001 Stolen Ideas
+Version : AGA
 Groups  : Airwalk
 Type    : Demo
 Whdload : 1001StolenIdeas.Slave

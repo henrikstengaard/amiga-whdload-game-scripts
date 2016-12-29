@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Dugger
+RunFile=Dugger.Slave
+AGS2Name=Dugger
+AGS2IndexName=D
+AGS2FileName=Dugger
+iGameName=Dugger

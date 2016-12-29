@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Blasteroids
+RunFile=Blasteroids.Slave
+AGS2Name=Blasteroids
+AGS2IndexName=B
+AGS2FileName=Blasteroids
+iGameName=Blasteroids

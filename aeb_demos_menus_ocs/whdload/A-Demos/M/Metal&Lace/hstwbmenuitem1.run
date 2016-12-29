@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Metal&Lace/"
+IF EXISTS ENV:whdloadargs
+	whdload "Metal&Lace.Slave" $whdloadargs
+ELSE
+	whdload "Metal&Lace.Slave"
+ENDIF

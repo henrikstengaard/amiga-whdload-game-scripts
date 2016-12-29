@@ -1,6 +1,6 @@
 Name      : La Aventura Original
-Publisher : Aventuras AD
 Language  : Spanish
+Publisher : Aventuras AD
 Year      : 1989
 Players   : 1
 Whdload   : LaAventuraOriginalEs.slave

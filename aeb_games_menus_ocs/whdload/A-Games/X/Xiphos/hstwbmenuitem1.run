@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/Xiphos/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xiphos.Slave" $whdloadargs
+ELSE
+	whdload "Xiphos.Slave"
+ENDIF

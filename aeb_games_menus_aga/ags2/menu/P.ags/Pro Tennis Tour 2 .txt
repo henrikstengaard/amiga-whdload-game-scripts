@@ -1,6 +1,0 @@
-Name      : Pro Tennis Tour 2
-Publisher : Ubi Soft
-Year      : 1991
-Genre     : Sports - Tennis
-Players   : 1 or 2, Simultaneous
-Whdload   : ProTennisTour2512KB.Slave

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bubble Dizzy
+RunFile=BubbleDizzy.slave
+AGS2Name=Bubble Dizzy
+AGS2IndexName=B
+AGS2FileName=Bubble Dizzy
+iGameName=Bubble Dizzy

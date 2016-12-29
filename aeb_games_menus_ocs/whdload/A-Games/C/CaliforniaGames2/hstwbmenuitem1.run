@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CaliforniaGames2/"
+IF EXISTS ENV:whdloadargs
+	whdload "CaliforniaGames2.Slave" $whdloadargs
+ELSE
+	whdload "CaliforniaGames2.Slave"
+ENDIF

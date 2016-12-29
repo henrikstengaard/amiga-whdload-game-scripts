@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ChipsChallengeEpyx/"
+IF EXISTS ENV:whdloadargs
+	whdload "ChipsChallengeEpyx.Slave" $whdloadargs
+ELSE
+	whdload "ChipsChallengeEpyx.Slave"
+ENDIF

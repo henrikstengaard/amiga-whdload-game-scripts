@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leading Lap MPV CUAmiga
+RunFile=LeadingLapMPVCUAmiga.Slave
+AGS2Name=Leading Lap MPV CUAmiga
+AGS2IndexName=L
+AGS2FileName=Leading Lap MPV CUAmiga
+iGameName=Leading Lap MPV CUAmiga

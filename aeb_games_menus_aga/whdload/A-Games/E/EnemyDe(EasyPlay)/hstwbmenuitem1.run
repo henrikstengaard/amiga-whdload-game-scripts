@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EnemyDe(EasyPlay)/"
+IF EXISTS ENV:whdloadargs
+	whdload "EnemyDe(EasyPlay).Slave" $whdloadargs
+ELSE
+	whdload "EnemyDe(EasyPlay).Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bill's Tomato Game
+RunFile=BillsTomatoGame.slave
+AGS2Name=Bill's Tomato Game
+AGS2IndexName=B
+AGS2FileName=Bill's Tomato Game
+iGameName=Bill's Tomato Game

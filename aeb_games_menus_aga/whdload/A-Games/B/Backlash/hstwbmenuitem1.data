@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Backlash
+RunFile=Backlash.Slave
+AGS2Name=Backlash
+AGS2IndexName=B
+AGS2FileName=Backlash
+iGameName=Backlash

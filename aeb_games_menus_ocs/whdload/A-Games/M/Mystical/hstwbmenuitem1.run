@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Mystical/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mystical.Slave" $whdloadargs
+ELSE
+	whdload "Mystical.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Mickey's Memory Challenge
+RunFile=MickeysMemoryChallenge.Slave
+AGS2Name=Mickey's Memory Challenge
+AGS2IndexName=M
+AGS2FileName=Mickey's Memory Challenge
+iGameName=Mickey's Memory Challenge

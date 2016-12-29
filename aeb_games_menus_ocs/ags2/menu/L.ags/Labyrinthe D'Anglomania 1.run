@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:L/LabyrintheDAnglomania1Fr/LabyrintheDAnglomania1Fr.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "L" "Labyrinthe D'Anglomania 1"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "L" "Labyrinthe D'Anglomania 1"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/LabyrintheDAnglomania1Fr/"
 IF EXISTS ENV:whdloadargs
-	whdload "LabyrintheDAnglomania1Fr.Slave" $whdloadargs
+  whdload "LabyrintheDAnglomania1Fr.Slave" $whdloadargs
 ELSE
-	whdload "LabyrintheDAnglomania1Fr.Slave"
+  whdload "LabyrintheDAnglomania1Fr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

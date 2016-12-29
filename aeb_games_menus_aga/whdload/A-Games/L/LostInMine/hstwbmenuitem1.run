@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LostInMine/"
+IF EXISTS ENV:whdloadargs
+	whdload "LostInMine.slave" $whdloadargs
+ELSE
+	whdload "LostInMine.slave"
+ENDIF

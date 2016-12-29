@@ -1,6 +1,6 @@
 Name      : Player Manager
-Publisher : Anco
 Language  : French
+Publisher : Anco
 Year      : 1990
 Genre     : Sports - Football/Soccer
 Players   : 1 Only

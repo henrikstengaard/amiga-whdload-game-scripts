@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/StopFascism/"
+IF EXISTS ENV:whdloadargs
+	whdload "StopFascism.Slave" $whdloadargs
+ELSE
+	whdload "StopFascism.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Starush Image
+RunFile=StarushImage.Slave
+AGS2Name=Starush Image
+AGS2IndexName=S
+AGS2FileName=Starush Image
+iGameName=Starush Image

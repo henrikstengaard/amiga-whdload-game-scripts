@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JurassicPark/"
+IF EXISTS ENV:whdloadargs
+	whdload "JurassicPark.slave" $whdloadargs
+ELSE
+	whdload "JurassicPark.slave"
+ENDIF

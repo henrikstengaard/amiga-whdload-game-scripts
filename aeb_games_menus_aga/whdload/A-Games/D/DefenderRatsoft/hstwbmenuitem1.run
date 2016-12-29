@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DefenderRatsoft/"
+IF EXISTS ENV:whdloadargs
+	whdload "DefenderRatsoft.slave" $whdloadargs
+ELSE
+	whdload "DefenderRatsoft.slave"
+ENDIF

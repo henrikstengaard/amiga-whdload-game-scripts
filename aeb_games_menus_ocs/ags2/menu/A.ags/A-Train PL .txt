@@ -1,7 +1,0 @@
-Name      : A-Train
-Publisher : Ocean
-Language  : Polish
-Year      : 1992
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : ATrainPl.Slave

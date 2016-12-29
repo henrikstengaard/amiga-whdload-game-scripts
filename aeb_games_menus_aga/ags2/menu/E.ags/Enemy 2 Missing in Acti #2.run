@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:E/Enemy2MissingInAction/Enemy2MissingInAction.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "E" "Enemy 2 Missing in Acti #2"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "E" "Enemy 2 Missing in Acti #2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:E/Enemy2MissingInAction/"
 IF EXISTS ENV:whdloadargs
-	whdload "Enemy2MissingInAction.Slave" $whdloadargs
+  whdload "Enemy2MissingInAction.Slave" $whdloadargs
 ELSE
-	whdload "Enemy2MissingInAction.Slave"
+  whdload "Enemy2MissingInAction.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

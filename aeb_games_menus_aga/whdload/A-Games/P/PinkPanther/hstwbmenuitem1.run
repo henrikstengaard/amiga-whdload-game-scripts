@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PinkPanther/"
+IF EXISTS ENV:whdloadargs
+	whdload "PinkPanther.slave" $whdloadargs
+ELSE
+	whdload "PinkPanther.slave"
+ENDIF

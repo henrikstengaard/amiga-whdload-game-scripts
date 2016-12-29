@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/Vaxine/"
+IF EXISTS ENV:whdloadargs
+	whdload "Vaxine.Slave" $whdloadargs
+ELSE
+	whdload "Vaxine.Slave"
+ENDIF

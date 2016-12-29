@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Time Soldier
+RunFile=TimeSoldier.Slave
+AGS2Name=Time Soldier
+AGS2IndexName=T
+AGS2FileName=Time Soldier
+iGameName=Time Soldier

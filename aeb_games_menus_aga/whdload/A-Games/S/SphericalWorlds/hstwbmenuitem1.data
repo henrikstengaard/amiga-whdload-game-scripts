@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Spherical Worlds
+RunFile=SphericalWorlds.Slave
+AGS2Name=Spherical Worlds
+AGS2IndexName=S
+AGS2FileName=Spherical Worlds
+iGameName=Spherical Worlds

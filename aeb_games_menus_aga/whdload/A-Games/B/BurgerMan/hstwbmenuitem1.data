@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Burger Man
+RunFile=BurgerMan.Slave
+AGS2Name=Burger Man
+AGS2IndexName=B
+AGS2FileName=Burger Man
+iGameName=Burger Man

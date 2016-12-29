@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/Obitus/"
+IF EXISTS ENV:whdloadargs
+	whdload "Obitus.Slave" $whdloadargs
+ELSE
+	whdload "Obitus.Slave"
+ENDIF

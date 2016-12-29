@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Phantasie3/"
+IF EXISTS ENV:whdloadargs
+	whdload "Phantasie3.Slave" $whdloadargs
+ELSE
+	whdload "Phantasie3.Slave"
+ENDIF

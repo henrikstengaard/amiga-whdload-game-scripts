@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/Epilepsia/"
+IF EXISTS ENV:whdloadargs
+	whdload "Epilepsia.Slave" $whdloadargs
+ELSE
+	whdload "Epilepsia.Slave"
+ENDIF

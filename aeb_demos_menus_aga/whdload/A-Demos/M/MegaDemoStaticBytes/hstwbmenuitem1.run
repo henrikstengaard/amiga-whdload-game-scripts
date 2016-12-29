@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegaDemoStaticBytes/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaDemoStaticBytes.Slave" $whdloadargs
+ELSE
+	whdload "MegaDemoStaticBytes.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Emmanuelle
-Publisher : Tomahawk
 Language  : French
+Publisher : Tomahawk
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only

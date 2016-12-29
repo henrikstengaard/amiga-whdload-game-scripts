@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperObliteration/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperObliteration.Slave" $whdloadargs
+ELSE
+	whdload "SuperObliteration.Slave"
+ENDIF

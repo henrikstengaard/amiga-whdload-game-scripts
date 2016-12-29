@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Universe
+RunFile=Universe.Slave
+AGS2Name=Universe
+AGS2IndexName=U
+AGS2FileName=Universe
+iGameName=Universe

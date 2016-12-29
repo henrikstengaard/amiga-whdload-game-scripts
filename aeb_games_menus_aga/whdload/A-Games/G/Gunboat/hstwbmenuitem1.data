@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gunboat
+RunFile=Gunboat.Slave
+AGS2Name=Gunboat
+AGS2IndexName=G
+AGS2FileName=Gunboat
+iGameName=Gunboat

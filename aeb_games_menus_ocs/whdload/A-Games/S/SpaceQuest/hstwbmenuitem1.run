@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpaceQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpaceQuest.slave" $whdloadargs
+ELSE
+	whdload "SpaceQuest.slave"
+ENDIF

@@ -1,5 +1,0 @@
-Name      : Flight Simulator II
-Publisher : SubLOGIC
-Year      : 1988
-Genre     : Simulation - Flight
-Whdload   : FlightSim2&SceneryDisk13.Slave

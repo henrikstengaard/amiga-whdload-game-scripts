@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Museum/"
+IF EXISTS ENV:whdloadargs
+	whdload "Museum.Slave" $whdloadargs
+ELSE
+	whdload "Museum.Slave"
+ENDIF

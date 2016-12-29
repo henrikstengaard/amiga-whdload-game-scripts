@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pushover
+RunFile=PushOver.slave
+AGS2Name=Pushover
+AGS2IndexName=P
+AGS2FileName=Pushover
+iGameName=Pushover

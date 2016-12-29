@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gazza2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gazza2.Slave" $whdloadargs
+ELSE
+	whdload "Gazza2.Slave"
+ENDIF

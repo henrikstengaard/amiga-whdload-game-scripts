@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Magic Boy
+RunFile=MagicBoy.slave
+AGS2Name=Magic Boy
+AGS2IndexName=M
+AGS2FileName=Magic Boy
+iGameName=Magic Boy

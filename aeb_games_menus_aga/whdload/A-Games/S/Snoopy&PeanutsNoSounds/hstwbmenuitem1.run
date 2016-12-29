@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Snoopy&PeanutsNoSounds/"
+IF EXISTS ENV:whdloadargs
+	whdload "Snoopy&PeanutsNoSounds.Slave" $whdloadargs
+ELSE
+	whdload "Snoopy&PeanutsNoSounds.Slave"
+ENDIF

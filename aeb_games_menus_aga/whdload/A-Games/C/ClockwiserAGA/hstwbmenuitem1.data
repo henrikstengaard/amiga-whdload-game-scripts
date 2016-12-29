@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Clockwiser AGA
+RunFile=ClockwiserAGA.Slave
+AGS2Name=Clockwiser AGA
+AGS2IndexName=C
+AGS2FileName=Clockwiser AGA
+iGameName=Clockwiser AGA

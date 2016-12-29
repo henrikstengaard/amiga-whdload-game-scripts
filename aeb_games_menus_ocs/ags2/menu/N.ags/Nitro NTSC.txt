@@ -1,0 +1,7 @@
+Name      : Nitro
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1990
+Genre     : Racing - Overhead
+Players   : 1 to 3, Simultaneous
+Whdload   : NitroNTSC.slave

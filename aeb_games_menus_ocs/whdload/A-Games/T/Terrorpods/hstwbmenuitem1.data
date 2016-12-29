@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Terrorpods
+RunFile=Terrorpods.Slave
+AGS2Name=Terrorpods
+AGS2IndexName=T
+AGS2FileName=Terrorpods
+iGameName=Terrorpods

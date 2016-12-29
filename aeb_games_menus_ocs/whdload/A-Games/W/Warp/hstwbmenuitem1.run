@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/Warp/"
+IF EXISTS ENV:whdloadargs
+	whdload "WARP.slave" $whdloadargs
+ELSE
+	whdload "WARP.slave"
+ENDIF

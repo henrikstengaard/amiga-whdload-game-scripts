@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:P/PharaohsMatchArcadia/PharaohsMatchArcadia.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "P" "Pharaohs Match"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "P" "Pharaohs Match"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:P/PharaohsMatchArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "PharaohsMatchArcadia.Slave" $whdloadargs
+  whdload "PharaohsMatchArcadia.Slave" $whdloadargs
 ELSE
-	whdload "PharaohsMatchArcadia.Slave"
+  whdload "PharaohsMatchArcadia.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

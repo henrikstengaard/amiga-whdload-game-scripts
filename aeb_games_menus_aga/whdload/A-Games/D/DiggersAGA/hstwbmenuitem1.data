@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Diggers AGA
+RunFile=DiggersAGA.slave
+AGS2Name=Diggers AGA
+AGS2IndexName=D
+AGS2FileName=Diggers AGA
+iGameName=Diggers AGA

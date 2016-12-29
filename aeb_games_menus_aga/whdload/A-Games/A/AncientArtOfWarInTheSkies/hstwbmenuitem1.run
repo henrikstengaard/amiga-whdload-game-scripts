@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AncientArtOfWarInTheSkies/"
+IF EXISTS ENV:whdloadargs
+	whdload "AncientArtOfWarInTheSkies.Slave" $whdloadargs
+ELSE
+	whdload "AncientArtOfWarInTheSkies.Slave"
+ENDIF

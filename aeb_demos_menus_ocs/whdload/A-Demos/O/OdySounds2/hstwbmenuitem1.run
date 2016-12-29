@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/OdySounds2/"
+IF EXISTS ENV:whdloadargs
+	whdload "OdySounds2.Slave" $whdloadargs
+ELSE
+	whdload "OdySounds2.Slave"
+ENDIF

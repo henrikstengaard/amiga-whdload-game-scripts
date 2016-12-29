@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Commando/"
+IF EXISTS ENV:whdloadargs
+	whdload "Commando.Slave" $whdloadargs
+ELSE
+	whdload "Commando.Slave"
+ENDIF

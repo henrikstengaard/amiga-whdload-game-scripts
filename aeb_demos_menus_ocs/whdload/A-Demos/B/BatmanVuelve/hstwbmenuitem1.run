@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BatmanVuelve/"
+IF EXISTS ENV:whdloadargs
+	whdload "BatmanVuelve.Slave" $whdloadargs
+ELSE
+	whdload "BatmanVuelve.Slave"
+ENDIF

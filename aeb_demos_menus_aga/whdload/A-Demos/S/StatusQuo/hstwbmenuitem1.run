@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/StatusQuo/"
+IF EXISTS ENV:whdloadargs
+	whdload "StatusQuoFast.Slave" $whdloadargs
+ELSE
+	whdload "StatusQuoFast.Slave"
+ENDIF

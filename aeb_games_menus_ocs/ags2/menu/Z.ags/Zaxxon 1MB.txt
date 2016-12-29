@@ -1,0 +1,6 @@
+Name      : Zaxxon
+Version   : 1MB
+Publisher : (unknown)
+Year      : 1995
+Players   : 1 or 2, Simultaneous
+Whdload   : Zaxxon1MB.Slave

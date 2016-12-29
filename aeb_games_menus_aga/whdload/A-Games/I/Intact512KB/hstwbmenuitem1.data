@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Intact 512KB
+RunFile=Intact512KB.Slave
+AGS2Name=Intact 512KB
+AGS2IndexName=I
+AGS2FileName=Intact 512KB
+iGameName=Intact 512KB

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HellowoonDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "HellowoonDe.Slave" $whdloadargs
+ELSE
+	whdload "HellowoonDe.Slave"
+ENDIF

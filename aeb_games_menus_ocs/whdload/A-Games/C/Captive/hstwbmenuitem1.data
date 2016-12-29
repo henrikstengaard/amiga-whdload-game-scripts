@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Captive
+RunFile=Captive.slave
+AGS2Name=Captive
+AGS2IndexName=C
+AGS2FileName=Captive
+iGameName=Captive

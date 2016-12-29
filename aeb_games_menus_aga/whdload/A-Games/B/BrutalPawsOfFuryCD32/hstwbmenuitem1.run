@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BrutalPawsOfFuryCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "BrutalPawsOfFuryCD32.slave" $whdloadargs
+ELSE
+	whdload "BrutalPawsOfFuryCD32.slave"
+ENDIF

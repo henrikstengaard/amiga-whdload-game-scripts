@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AquanautF1Licenceware/"
+IF EXISTS ENV:whdloadargs
+	whdload "AquanautF1Licenceware.slave" $whdloadargs
+ELSE
+	whdload "AquanautF1Licenceware.slave"
+ENDIF

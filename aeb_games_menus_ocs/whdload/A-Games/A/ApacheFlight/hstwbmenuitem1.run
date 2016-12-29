@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ApacheFlight/"
+IF EXISTS ENV:whdloadargs
+	whdload "ApacheFlight.slave" $whdloadargs
+ELSE
+	whdload "ApacheFlight.slave"
+ENDIF

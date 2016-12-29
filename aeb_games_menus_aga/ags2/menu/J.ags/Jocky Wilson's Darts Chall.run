@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:J/JockyWilsonsDartChallenge/JockyWilsonsDartChallenge.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "J" "Jocky Wilson's Darts Chall"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "J" "Jocky Wilson's Darts Chall"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:J/JockyWilsonsDartChallenge/"
 IF EXISTS ENV:whdloadargs
-	whdload "JockyWilsonsDartChallenge.Slave" $whdloadargs
+  whdload "JockyWilsonsDartChallenge.Slave" $whdloadargs
 ELSE
-	whdload "JockyWilsonsDartChallenge.Slave"
+  whdload "JockyWilsonsDartChallenge.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

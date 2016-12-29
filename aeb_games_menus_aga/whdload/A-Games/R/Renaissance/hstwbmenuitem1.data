@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Renaissance
+RunFile=Renaissance.Slave
+AGS2Name=Renaissance
+AGS2IndexName=R
+AGS2FileName=Renaissance
+iGameName=Renaissance

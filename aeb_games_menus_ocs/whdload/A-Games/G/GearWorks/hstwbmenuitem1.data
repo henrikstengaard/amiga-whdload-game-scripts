@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gear Works
+RunFile=GearWorks.Slave
+AGS2Name=Gear Works
+AGS2IndexName=G
+AGS2FileName=Gear Works
+iGameName=Gear Works

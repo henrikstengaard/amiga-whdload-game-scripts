@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Magic Pockets
+RunFile=MagicPockets.Slave
+AGS2Name=Magic Pockets
+AGS2IndexName=M
+AGS2FileName=Magic Pockets
+iGameName=Magic Pockets

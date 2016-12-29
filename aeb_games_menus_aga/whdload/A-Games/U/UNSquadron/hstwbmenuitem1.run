@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/UNSquadron/"
+IF EXISTS ENV:whdloadargs
+	whdload "UNSquadron.slave" $whdloadargs
+ELSE
+	whdload "UNSquadron.slave"
+ENDIF

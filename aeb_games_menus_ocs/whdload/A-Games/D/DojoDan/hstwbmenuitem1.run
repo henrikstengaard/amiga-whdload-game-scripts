@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DojoDan/"
+IF EXISTS ENV:whdloadargs
+	whdload "DojoDan.Slave" $whdloadargs
+ELSE
+	whdload "DojoDan.Slave"
+ENDIF

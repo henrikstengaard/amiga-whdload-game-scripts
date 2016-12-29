@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Coma/"
+IF EXISTS ENV:whdloadargs
+	whdload "Coma.Slave" $whdloadargs
+ELSE
+	whdload "Coma.Slave"
+ENDIF

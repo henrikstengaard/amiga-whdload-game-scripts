@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Breach
+RunFile=Breach.Slave
+AGS2Name=Breach
+AGS2IndexName=B
+AGS2FileName=Breach
+iGameName=Breach

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Flashback CZ
+RunFile=FlashbackCz.slave
+AGS2Name=Flashback CZ
+AGS2IndexName=F
+AGS2FileName=Flashback CZ
+iGameName=Flashback CZ

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Racter
+RunFile=Racter.Slave
+AGS2Name=Racter
+AGS2IndexName=R
+AGS2FileName=Racter
+iGameName=Racter

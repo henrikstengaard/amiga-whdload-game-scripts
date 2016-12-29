@@ -1,0 +1,8 @@
+Name      : Lords of the Realm
+Language  : German
+Version   : AGA
+Publisher : Impressions
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 6
+Whdload   : LordsOfTheRealmAGADe.Slave

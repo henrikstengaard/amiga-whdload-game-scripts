@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/Contravention/"
+IF EXISTS ENV:whdloadargs
+	whdload "Contravention.Slave" $whdloadargs
+ELSE
+	whdload "Contravention.Slave"
+ENDIF

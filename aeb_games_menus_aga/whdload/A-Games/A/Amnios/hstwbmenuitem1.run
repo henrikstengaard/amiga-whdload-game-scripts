@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Amnios/"
+IF EXISTS ENV:whdloadargs
+	whdload "Amnios.Slave" $whdloadargs
+ELSE
+	whdload "Amnios.Slave"
+ENDIF

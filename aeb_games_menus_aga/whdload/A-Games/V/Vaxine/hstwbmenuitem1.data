@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Vaxine
+RunFile=Vaxine.Slave
+AGS2Name=Vaxine
+AGS2IndexName=V
+AGS2FileName=Vaxine
+iGameName=Vaxine

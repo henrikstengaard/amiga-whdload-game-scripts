@@ -1,4 +1,5 @@
 Name    : Artificial Paradise
+Version : AGA
 Groups  : New Generation Crew
 Type    : Demo
 Party   : Saturne 1994

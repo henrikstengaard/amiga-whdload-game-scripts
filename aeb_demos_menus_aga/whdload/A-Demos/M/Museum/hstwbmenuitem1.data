@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Museum - Alcatraz
+RunFile=Museum.Slave
+AGS2Name=Museum - Alcatraz
+AGS2IndexName=M
+AGS2FileName=Museum - Alcatraz
+iGameName=Museum - Alcatraz

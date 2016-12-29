@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/5thGear/"
+IF EXISTS ENV:whdloadargs
+	whdload "5thGear.Slave" $whdloadargs
+ELSE
+	whdload "5thGear.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MickeyPuzzlesAnimesFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "MickeyPuzzlesAnimesFr.Slave" $whdloadargs
+ELSE
+	whdload "MickeyPuzzlesAnimesFr.Slave"
+ENDIF

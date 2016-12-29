@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=ABC Monday Night Football
+RunFile=ABCMondayNightFootball.slave
+AGS2Name=ABC Monday Night Football
+AGS2IndexName=A
+AGS2FileName=ABC Monday Night Football
+iGameName=ABC Monday Night Football

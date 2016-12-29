@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gridiron/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gridiron.Slave" $whdloadargs
+ELSE
+	whdload "Gridiron.Slave"
+ENDIF

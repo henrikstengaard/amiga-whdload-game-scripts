@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Real - Complex AGA
+RunFile=Real.Slave
+AGS2Name=Real - Complex AGA
+AGS2IndexName=R
+AGS2FileName=Real - Complex AGA
+iGameName=Real - Complex AGA

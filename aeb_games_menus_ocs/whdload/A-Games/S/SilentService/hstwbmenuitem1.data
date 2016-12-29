@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Silent Service
+RunFile=SilentService.Slave
+AGS2Name=Silent Service
+AGS2IndexName=S
+AGS2FileName=Silent Service
+iGameName=Silent Service

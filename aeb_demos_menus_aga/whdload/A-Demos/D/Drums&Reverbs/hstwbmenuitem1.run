@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/Drums&Reverbs/"
+IF EXISTS ENV:whdloadargs
+	whdload "Drums&Reverbs.Slave" $whdloadargs
+ELSE
+	whdload "Drums&Reverbs.Slave"
+ENDIF

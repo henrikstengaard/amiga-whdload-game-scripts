@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Encounter
+RunFile=Encounter.slave
+AGS2Name=Encounter
+AGS2IndexName=E
+AGS2FileName=Encounter
+iGameName=Encounter

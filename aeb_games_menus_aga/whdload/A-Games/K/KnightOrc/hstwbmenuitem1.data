@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Knight Orc
+RunFile=KnightOrc.Slave
+AGS2Name=Knight Orc
+AGS2IndexName=K
+AGS2FileName=Knight Orc
+iGameName=Knight Orc

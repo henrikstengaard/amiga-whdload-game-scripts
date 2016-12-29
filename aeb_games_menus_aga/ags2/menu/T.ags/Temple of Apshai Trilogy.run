@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:T/TempleOfApshaiTrilogy/TempleOfApshaiTrilogy.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "T" "Temple of Apshai Trilogy"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "T" "Temple of Apshai Trilogy"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:T/TempleOfApshaiTrilogy/"
 IF EXISTS ENV:whdloadargs
-	whdload "TempleOfApshaiTrilogy.Slave" $whdloadargs
+  whdload "TempleOfApshaiTrilogy.Slave" $whdloadargs
 ELSE
-	whdload "TempleOfApshaiTrilogy.Slave"
+  whdload "TempleOfApshaiTrilogy.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

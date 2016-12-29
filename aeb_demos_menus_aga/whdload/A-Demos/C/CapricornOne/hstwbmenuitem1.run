@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CapricornOne/"
+IF EXISTS ENV:whdloadargs
+	whdload "CapricornOne.Slave" $whdloadargs
+ELSE
+	whdload "CapricornOne.Slave"
+ENDIF

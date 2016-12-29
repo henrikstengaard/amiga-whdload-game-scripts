@@ -1,6 +1,6 @@
 Name      : Dragons Breath
-Publisher : Palace Software
 Language  : French
+Publisher : Palace Software
 Year      : 1990
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 3

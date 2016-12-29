@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WormsCD322MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "WormsCD322MB.Slave" $whdloadargs
+ELSE
+	whdload "WormsCD322MB.Slave"
+ENDIF

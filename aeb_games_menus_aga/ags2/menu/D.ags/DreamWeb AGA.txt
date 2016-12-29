@@ -1,4 +1,5 @@
 Name      : DreamWeb
+Version   : AGA
 Publisher : Empire Software
 Year      : 1994
 Genre     : Adventure - Point and Click

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TennisCup512KbFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "TennisCup512KbFr.Slave" $whdloadargs
+ELSE
+	whdload "TennisCup512KbFr.Slave"
+ENDIF

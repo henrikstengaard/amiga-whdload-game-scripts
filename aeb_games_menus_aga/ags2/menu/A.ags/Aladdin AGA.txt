@@ -1,4 +1,5 @@
 Name      : Aladdin
+Version   : AGA
 Publisher : Virgin Interactive
 Year      : 1994
 Genre     : Platformer - Scrolling Screen

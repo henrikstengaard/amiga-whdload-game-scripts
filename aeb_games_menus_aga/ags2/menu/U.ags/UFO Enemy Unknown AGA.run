@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:U/UFOEnemyUnknownAGA/UFOEnemyUnknownAGA.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "U" "UFO Enemy Unknown AGA"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "U" "UFO Enemy Unknown AGA"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:U/UFOEnemyUnknownAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "UFOEnemyUnknownAGA.slave" $whdloadargs
+  whdload "UFOEnemyUnknownAGA.slave" $whdloadargs
 ELSE
-	whdload "UFOEnemyUnknownAGA.slave"
+  whdload "UFOEnemyUnknownAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

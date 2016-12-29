@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/TuneShow2/"
+IF EXISTS ENV:whdloadargs
+	whdload "TuneShow2.Slave" $whdloadargs
+ELSE
+	whdload "TuneShow2.Slave"
+ENDIF

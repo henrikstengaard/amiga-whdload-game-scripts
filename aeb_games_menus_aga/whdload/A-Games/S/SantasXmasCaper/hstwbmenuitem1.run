@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SantasXmasCaper/"
+IF EXISTS ENV:whdloadargs
+	whdload "SantasXmasCaper.Slave" $whdloadargs
+ELSE
+	whdload "SantasXmasCaper.Slave"
+ENDIF

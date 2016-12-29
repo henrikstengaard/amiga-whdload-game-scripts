@@ -1,6 +1,6 @@
 Name      : Ishar 2: Messengers of Doom
-Publisher : Silmarils
 Language  : Spanish
+Publisher : Silmarils
 Year      : 1993
 Genre     : Adventure - RPG 3D
 Players   : 1 Only

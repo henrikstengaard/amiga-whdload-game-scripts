@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BehindTheIronGate/"
+IF EXISTS ENV:whdloadargs
+	whdload "BehindTheIronGate.slave" $whdloadargs
+ELSE
+	whdload "BehindTheIronGate.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CroisierePourUnCadavreFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "CroisierePourUnCadavreFr.Slave" $whdloadargs
+ELSE
+	whdload "CroisierePourUnCadavreFr.Slave"
+ENDIF

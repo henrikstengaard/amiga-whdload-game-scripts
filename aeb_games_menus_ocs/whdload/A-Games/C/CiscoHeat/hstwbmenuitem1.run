@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CiscoHeat/"
+IF EXISTS ENV:whdloadargs
+	whdload "CiscoHeat.Slave" $whdloadargs
+ELSE
+	whdload "CiscoHeat.Slave"
+ENDIF

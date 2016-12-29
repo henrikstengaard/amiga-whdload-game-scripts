@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:V/ValhallaLordOfInfinity/ValhallaLordOfInfinity.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "V" "Valhalla and the Lord of I"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "V" "Valhalla and the Lord of I"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:V/ValhallaLordOfInfinity/"
 IF EXISTS ENV:whdloadargs
-	whdload "ValhallaLordOfInfinity.Slave" $whdloadargs
+  whdload "ValhallaLordOfInfinity.Slave" $whdloadargs
 ELSE
-	whdload "ValhallaLordOfInfinity.Slave"
+  whdload "ValhallaLordOfInfinity.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

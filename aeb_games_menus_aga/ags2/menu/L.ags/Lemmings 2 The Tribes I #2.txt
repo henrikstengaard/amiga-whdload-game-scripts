@@ -1,4 +1,5 @@
 Name      : Lemmings 2: The Tribes
+Version   : 512KB
 Publisher : Psygnosis
 Year      : 1993
 Genre     : Arcade - Miscellaneous

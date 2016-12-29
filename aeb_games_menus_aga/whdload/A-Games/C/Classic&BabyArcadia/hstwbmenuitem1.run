@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Classic&BabyArcadia/"
+IF EXISTS ENV:whdloadargs
+	whdload "Classic&BabyArcadia.Slave" $whdloadargs
+ELSE
+	whdload "Classic&BabyArcadia.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LineOfFire/"
+IF EXISTS ENV:whdloadargs
+	whdload "LineOfFire.slave" $whdloadargs
+ELSE
+	whdload "LineOfFire.slave"
+ENDIF

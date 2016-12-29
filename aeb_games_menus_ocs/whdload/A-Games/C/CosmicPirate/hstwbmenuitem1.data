@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cosmic Pirate
+RunFile=CosmicPirate.Slave
+AGS2Name=Cosmic Pirate
+AGS2IndexName=C
+AGS2FileName=Cosmic Pirate
+iGameName=Cosmic Pirate

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FastLane/"
+IF EXISTS ENV:whdloadargs
+	whdload "FastLane.Slave" $whdloadargs
+ELSE
+	whdload "FastLane.Slave"
+ENDIF

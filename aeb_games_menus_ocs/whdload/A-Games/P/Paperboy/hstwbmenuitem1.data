@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Paperboy
+RunFile=Paperboy.slave
+AGS2Name=Paperboy
+AGS2IndexName=P
+AGS2FileName=Paperboy
+iGameName=Paperboy

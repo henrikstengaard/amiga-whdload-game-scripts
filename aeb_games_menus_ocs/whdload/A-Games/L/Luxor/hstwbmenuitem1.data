@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Luxor
+RunFile=Luxor.Slave
+AGS2Name=Luxor
+AGS2IndexName=L
+AGS2FileName=Luxor
+iGameName=Luxor

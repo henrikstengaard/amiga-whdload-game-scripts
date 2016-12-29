@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/ThomasTankEngPinballAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "ThomasTankEngPinballAGA.Slave" $whdloadargs
+ELSE
+	whdload "ThomasTankEngPinballAGA.Slave"
+ENDIF

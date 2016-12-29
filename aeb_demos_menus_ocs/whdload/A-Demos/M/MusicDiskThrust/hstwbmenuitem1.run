@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MusicDiskThrust/"
+IF EXISTS ENV:whdloadargs
+	whdload "MusicDiskThrust.Slave" $whdloadargs
+ELSE
+	whdload "MusicDiskThrust.Slave"
+ENDIF

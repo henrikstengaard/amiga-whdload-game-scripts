@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuprStrtFtr2TrboCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuprStrtFtr2TrboIntroCD32.slave" $whdloadargs
+ELSE
+	whdload "SuprStrtFtr2TrboIntroCD32.slave"
+ENDIF

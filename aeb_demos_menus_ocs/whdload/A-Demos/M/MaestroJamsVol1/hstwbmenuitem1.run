@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MaestroJamsVol1/"
+IF EXISTS ENV:whdloadargs
+	whdload "MaestroJamsVol1.Slave" $whdloadargs
+ELSE
+	whdload "MaestroJamsVol1.Slave"
+ENDIF

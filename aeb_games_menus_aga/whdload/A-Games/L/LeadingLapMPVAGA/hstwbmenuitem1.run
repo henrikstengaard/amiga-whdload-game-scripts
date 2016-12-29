@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LeadingLapMPVAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "LeadingLapMPVAGA.slave" $whdloadargs
+ELSE
+	whdload "LeadingLapMPVAGA.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Ghostbusters2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ghostbusters2.Slave" $whdloadargs
+ELSE
+	whdload "Ghostbusters2.Slave"
+ENDIF

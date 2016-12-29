@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Croak!
+RunFile=Croak.Slave
+AGS2Name=Croak!
+AGS2IndexName=C
+AGS2FileName=Croak
+iGameName=Croak!

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Oktagon
+RunFile=Oktagon.Slave
+AGS2Name=Oktagon
+AGS2IndexName=O
+AGS2FileName=Oktagon
+iGameName=Oktagon

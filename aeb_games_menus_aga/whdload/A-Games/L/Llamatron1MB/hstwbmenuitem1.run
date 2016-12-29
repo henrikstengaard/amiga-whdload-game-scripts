@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/Llamatron1MB/"
+IF EXISTS ENV:whdloadargs
+	whdload "Llamatron1MB.Slave" $whdloadargs
+ELSE
+	whdload "Llamatron1MB.Slave"
+ENDIF

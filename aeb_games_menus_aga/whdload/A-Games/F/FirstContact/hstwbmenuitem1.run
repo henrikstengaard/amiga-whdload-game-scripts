@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FirstContact/"
+IF EXISTS ENV:whdloadargs
+	whdload "FirstContact.slave" $whdloadargs
+ELSE
+	whdload "FirstContact.slave"
+ENDIF

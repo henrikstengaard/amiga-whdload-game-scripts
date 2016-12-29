@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DirtAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "DirtAGA.Slave" $whdloadargs
+ELSE
+	whdload "DirtAGA.Slave"
+ENDIF

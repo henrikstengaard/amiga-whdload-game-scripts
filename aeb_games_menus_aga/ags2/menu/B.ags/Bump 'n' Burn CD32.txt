@@ -1,4 +1,5 @@
 Name      : Bump 'n' Burn
+Version   : CD32
 Publisher : Grandslam
 Year      : 1994
 Genre     : Racing - Cars

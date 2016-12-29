@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/Harpoon&Battleset4/"
+IF EXISTS ENV:whdloadargs
+	whdload "Harpoon&Battleset4.slave" $whdloadargs
+ELSE
+	whdload "Harpoon&Battleset4.slave"
+ENDIF

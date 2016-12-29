@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OperationStealthIt/"
+IF EXISTS ENV:whdloadargs
+	whdload "OperationStealthIt.slave" $whdloadargs
+ELSE
+	whdload "OperationStealthIt.slave"
+ENDIF

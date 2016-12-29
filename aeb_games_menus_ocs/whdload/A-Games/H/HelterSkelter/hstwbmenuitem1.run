@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HelterSkelter/"
+IF EXISTS ENV:whdloadargs
+	whdload "HelterSkelter.Slave" $whdloadargs
+ELSE
+	whdload "HelterSkelter.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:F/FullMoon/"
+IF EXISTS ENV:whdloadargs
+	whdload "FullMoon.Slave" $whdloadargs
+ELSE
+	whdload "FullMoon.Slave"
+ENDIF

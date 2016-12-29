@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WayneGretzkyHockey/"
+IF EXISTS ENV:whdloadargs
+	whdload "WayneGretzkyHockey.Slave" $whdloadargs
+ELSE
+	whdload "WayneGretzkyHockey.Slave"
+ENDIF

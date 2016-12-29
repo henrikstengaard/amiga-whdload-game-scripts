@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Raider
+RunFile=Raider.Slave
+AGS2Name=Raider
+AGS2IndexName=R
+AGS2FileName=Raider
+iGameName=Raider

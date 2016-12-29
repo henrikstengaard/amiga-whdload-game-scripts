@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Ork
+RunFile=Ork.Slave
+AGS2Name=Ork
+AGS2IndexName=O
+AGS2FileName=Ork
+iGameName=Ork

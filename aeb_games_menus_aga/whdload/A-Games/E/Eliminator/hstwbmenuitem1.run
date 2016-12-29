@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Eliminator/"
+IF EXISTS ENV:whdloadargs
+	whdload "Eliminator.Slave" $whdloadargs
+ELSE
+	whdload "Eliminator.Slave"
+ENDIF

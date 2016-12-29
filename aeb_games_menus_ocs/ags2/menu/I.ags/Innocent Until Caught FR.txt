@@ -1,6 +1,6 @@
 Name      : Innocent Until Caught
-Publisher : Psygnosis
 Language  : French
+Publisher : Psygnosis
 Year      : 1994
 Genre     : Adventure - Point and Click
 Players   : 1 Only

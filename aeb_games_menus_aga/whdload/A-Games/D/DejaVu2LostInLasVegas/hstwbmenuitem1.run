@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DejaVu2LostInLasVegas/"
+IF EXISTS ENV:whdloadargs
+	whdload "DejaVu2LostInLasVegas.Slave" $whdloadargs
+ELSE
+	whdload "DejaVu2LostInLasVegas.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Nitro NTSC
+RunFile=NitroNTSC.slave
+AGS2Name=Nitro NTSC
+AGS2IndexName=N
+AGS2FileName=Nitro NTSC
+iGameName=Nitro NTSC

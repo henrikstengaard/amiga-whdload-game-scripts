@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperScrambleSimulator/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperScrambleSimulator.slave" $whdloadargs
+ELSE
+	whdload "SuperScrambleSimulator.slave"
+ENDIF

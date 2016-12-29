@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Harley-Davidson
+RunFile=HarleyDavidson.Slave
+AGS2Name=Harley-Davidson
+AGS2IndexName=H
+AGS2FileName=Harley-Davidson
+iGameName=Harley-Davidson

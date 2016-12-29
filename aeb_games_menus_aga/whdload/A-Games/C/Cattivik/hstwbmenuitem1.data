@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cattivik
+RunFile=Cattivik.Slave
+AGS2Name=Cattivik
+AGS2IndexName=C
+AGS2FileName=Cattivik
+iGameName=Cattivik

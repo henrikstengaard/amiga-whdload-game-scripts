@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LostVikings/"
+IF EXISTS ENV:whdloadargs
+	whdload "LostVikings.Slave" $whdloadargs
+ELSE
+	whdload "LostVikings.Slave"
+ENDIF

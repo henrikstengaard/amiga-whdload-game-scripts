@@ -1,0 +1,7 @@
+Name      : Prince of Persia
+Version   : NTSC
+Publisher : Domark
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : PrinceOfPersiaNTSC.slave

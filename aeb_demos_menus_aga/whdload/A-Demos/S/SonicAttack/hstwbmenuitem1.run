@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SonicAttack/"
+IF EXISTS ENV:whdloadargs
+	whdload "SonicAttack.Slave" $whdloadargs
+ELSE
+	whdload "SonicAttack.Slave"
+ENDIF

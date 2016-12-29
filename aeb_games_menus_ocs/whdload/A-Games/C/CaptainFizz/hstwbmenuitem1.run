@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/CaptainFizz/"
+IF EXISTS ENV:whdloadargs
+	whdload "CaptainFizz.slave" $whdloadargs
+ELSE
+	whdload "CaptainFizz.slave"
+ENDIF

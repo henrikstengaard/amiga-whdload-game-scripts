@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Insects in Space
+RunFile=InsectsInSpace.slave
+AGS2Name=Insects in Space
+AGS2IndexName=I
+AGS2FileName=Insects in Space
+iGameName=Insects in Space

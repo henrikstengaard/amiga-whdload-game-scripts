@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Drakkhen Files
+RunFile=DrakkhenFiles.Slave
+AGS2Name=Drakkhen Files
+AGS2IndexName=D
+AGS2FileName=Drakkhen Files
+iGameName=Drakkhen Files

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Winter Games
+RunFile=WinterGames.Slave
+AGS2Name=Winter Games
+AGS2IndexName=W
+AGS2FileName=Winter Games
+iGameName=Winter Games

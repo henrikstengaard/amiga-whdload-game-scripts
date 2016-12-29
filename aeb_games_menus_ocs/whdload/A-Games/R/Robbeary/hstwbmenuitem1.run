@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Robbeary/"
+IF EXISTS ENV:whdloadargs
+	whdload "Robbeary.Slave" $whdloadargs
+ELSE
+	whdload "Robbeary.Slave"
+ENDIF

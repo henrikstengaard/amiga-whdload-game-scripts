@@ -1,4 +1,5 @@
 Name      : Legends
+Version   : CD32
 Publisher : Guildhall
 Year      : 1996
 Genre     : Adventure - Miscellaneous

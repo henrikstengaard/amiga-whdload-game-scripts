@@ -1,0 +1,7 @@
+Name      : Holiday Lemmings 1994
+Version   : Demo
+Publisher : Psygnosis
+Year      : 1994
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+Whdload   : LemmingsHolidayDemo.Slave

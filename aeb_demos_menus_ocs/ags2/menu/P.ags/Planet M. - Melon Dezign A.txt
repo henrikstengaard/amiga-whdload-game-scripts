@@ -1,4 +1,5 @@
 Name    : Planet M.
+Version : AGA
 Groups  : Melon Dezign
 Type    : Demo
 Party   : Somewhere in Holland 1995

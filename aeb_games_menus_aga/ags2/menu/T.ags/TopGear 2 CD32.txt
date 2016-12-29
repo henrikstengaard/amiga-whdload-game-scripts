@@ -1,4 +1,5 @@
 Name      : TopGear 2
+Version   : CD32
 Publisher : Gremlin Interactive
 Year      : 1994
 Genre     : Racing - Cars

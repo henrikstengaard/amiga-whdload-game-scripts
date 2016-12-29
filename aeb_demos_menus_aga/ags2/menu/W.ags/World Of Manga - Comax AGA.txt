@@ -1,4 +1,5 @@
 Name    : World Of Manga
+Version : AGA
 Groups  : Comax
 Type    : Slideshow
 Whdload : WorldOfMangaAGA.Slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PortesDuTempsFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "PortesDuTempsFr.Slave" $whdloadargs
+ELSE
+	whdload "PortesDuTempsFr.Slave"
+ENDIF

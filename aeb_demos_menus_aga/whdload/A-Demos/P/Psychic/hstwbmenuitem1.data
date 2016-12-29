@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Psychic - Effect
+RunFile=Psychic.Slave
+AGS2Name=Psychic - Effect
+AGS2IndexName=P
+AGS2FileName=Psychic - Effect
+iGameName=Psychic - Effect

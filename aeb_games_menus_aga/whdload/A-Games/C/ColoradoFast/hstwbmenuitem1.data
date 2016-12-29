@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Colorado FAST
+RunFile=ColoradoFast.Slave
+AGS2Name=Colorado FAST
+AGS2IndexName=C
+AGS2FileName=Colorado FAST
+iGameName=Colorado FAST

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ArabianNightsCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "ArabianNightsCD32.Slave" $whdloadargs
+ELSE
+	whdload "ArabianNightsCD32.Slave"
+ENDIF

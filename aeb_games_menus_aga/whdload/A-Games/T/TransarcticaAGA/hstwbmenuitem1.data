@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Transarctica AGA
+RunFile=TransarcticaAGA.Slave
+AGS2Name=Transarctica AGA
+AGS2IndexName=T
+AGS2FileName=Transarctica AGA
+iGameName=Transarctica AGA

@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:G/GoofysRailwayExpress/GoofysRailwayExpress.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "G" "Goofy's Railway Express"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "G" "Goofy's Railway Express"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:G/GoofysRailwayExpress/"
 IF EXISTS ENV:whdloadargs
-	whdload "GoofysRailwayExpress.Slave" $whdloadargs
+  whdload "GoofysRailwayExpress.Slave" $whdloadargs
 ELSE
-	whdload "GoofysRailwayExpress.Slave"
+  whdload "GoofysRailwayExpress.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

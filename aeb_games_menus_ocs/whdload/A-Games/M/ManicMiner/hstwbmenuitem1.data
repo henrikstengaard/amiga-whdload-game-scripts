@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Manic Miner
+RunFile=ManicMiner.slave
+AGS2Name=Manic Miner
+AGS2IndexName=M
+AGS2FileName=Manic Miner
+iGameName=Manic Miner

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CyberSounds/"
+IF EXISTS ENV:whdloadargs
+	whdload "CyberSounds.Slave" $whdloadargs
+ELSE
+	whdload "CyberSounds.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RockstarNTRTPl/"
+IF EXISTS ENV:whdloadargs
+	whdload "RockstarNTRTPl.Slave" $whdloadargs
+ELSE
+	whdload "RockstarNTRTPl.Slave"
+ENDIF

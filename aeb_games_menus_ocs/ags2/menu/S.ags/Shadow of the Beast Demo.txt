@@ -1,0 +1,7 @@
+Name      : Shadow of the Beast
+Version   : Demo
+Publisher : Psygnosis
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : ShadowOfTheBeastDemo.Slave

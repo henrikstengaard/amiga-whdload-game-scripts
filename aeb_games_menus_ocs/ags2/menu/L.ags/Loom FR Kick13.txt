@@ -1,0 +1,8 @@
+Name      : Loom
+Language  : French
+Version   : Kick13
+Publisher : Lucasfilm Games
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : LoomFrKick13.slave

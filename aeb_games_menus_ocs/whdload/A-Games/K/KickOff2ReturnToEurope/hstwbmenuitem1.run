@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KickOff2ReturnToEurope/"
+IF EXISTS ENV:whdloadargs
+	whdload "KickOff2ReturnToEurope.slave" $whdloadargs
+ELSE
+	whdload "KickOff2ReturnToEurope.slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Rise of the Dragon
-Publisher : Dynamix
 Language  : German
+Publisher : Dynamix
 Year      : 1991
 Genre     : Adventure - Point and Click
 Players   : 1 Only

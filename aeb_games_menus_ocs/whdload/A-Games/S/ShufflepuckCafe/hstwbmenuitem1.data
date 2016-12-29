@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Shufflepuck Café
+RunFile=ShufflepuckCafe.Slave
+AGS2Name=Shufflepuck Café
+AGS2IndexName=S
+AGS2FileName=Shufflepuck Café
+iGameName=Shufflepuck Café

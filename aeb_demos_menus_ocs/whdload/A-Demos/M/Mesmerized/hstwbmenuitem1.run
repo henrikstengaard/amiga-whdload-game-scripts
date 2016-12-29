@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Mesmerized/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mesmerized.Slave" $whdloadargs
+ELSE
+	whdload "Mesmerized.Slave"
+ENDIF

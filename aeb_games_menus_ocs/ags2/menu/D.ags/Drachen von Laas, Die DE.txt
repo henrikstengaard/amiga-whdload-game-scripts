@@ -1,6 +1,6 @@
 Name      : Drachen von Laas, Die
-Publisher : Attic Entertainment Software
 Language  : German
+Publisher : Attic Entertainment Software
 Year      : 1991
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only

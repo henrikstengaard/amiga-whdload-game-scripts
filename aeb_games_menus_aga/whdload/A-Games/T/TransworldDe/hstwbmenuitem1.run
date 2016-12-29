@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TransworldDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "TransworldDe.Slave" $whdloadargs
+ELSE
+	whdload "TransworldDe.Slave"
+ENDIF

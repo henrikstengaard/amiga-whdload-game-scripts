@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Necronom
+RunFile=Necronom.Slave
+AGS2Name=Necronom
+AGS2IndexName=N
+AGS2FileName=Necronom
+iGameName=Necronom

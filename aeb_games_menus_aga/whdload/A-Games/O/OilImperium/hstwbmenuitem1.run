@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OilImperium/"
+IF EXISTS ENV:whdloadargs
+	whdload "OilImperium.Slave" $whdloadargs
+ELSE
+	whdload "OilImperium.Slave"
+ENDIF

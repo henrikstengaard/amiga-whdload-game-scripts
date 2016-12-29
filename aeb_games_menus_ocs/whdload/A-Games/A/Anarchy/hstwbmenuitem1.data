@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Anarchy
+RunFile=Anarchy.Slave
+AGS2Name=Anarchy
+AGS2IndexName=A
+AGS2FileName=Anarchy
+iGameName=Anarchy

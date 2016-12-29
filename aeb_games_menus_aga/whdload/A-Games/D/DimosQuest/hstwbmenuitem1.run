@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DimosQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "DimosQuest.Slave" $whdloadargs
+ELSE
+	whdload "DimosQuest.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShadowFighterCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShadowFighterCD32.Slave" $whdloadargs
+ELSE
+	whdload "ShadowFighterCD32.Slave"
+ENDIF

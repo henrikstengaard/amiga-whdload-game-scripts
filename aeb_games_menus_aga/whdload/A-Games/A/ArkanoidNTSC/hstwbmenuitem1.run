@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/ArkanoidNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "ArkanoidNTSC.Slave" $whdloadargs
+ELSE
+	whdload "ArkanoidNTSC.Slave"
+ENDIF

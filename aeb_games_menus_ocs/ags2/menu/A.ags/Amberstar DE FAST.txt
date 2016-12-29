@@ -1,0 +1,8 @@
+Name      : Amberstar
+Language  : German
+Version   : FAST
+Publisher : Thalion
+Year      : 1992
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : AmberstarDeFast.slave

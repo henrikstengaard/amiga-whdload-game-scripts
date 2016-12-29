@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/GoaAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "GoaAGA.Slave" $whdloadargs
+ELSE
+	whdload "GoaAGA.Slave"
+ENDIF

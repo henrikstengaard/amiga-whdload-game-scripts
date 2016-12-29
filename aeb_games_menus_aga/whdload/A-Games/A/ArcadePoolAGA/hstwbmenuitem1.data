@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Arcade Pool AGA
+RunFile=ArcadePoolAGA.Slave
+AGS2Name=Arcade Pool AGA
+AGS2IndexName=A
+AGS2FileName=Arcade Pool AGA
+iGameName=Arcade Pool AGA

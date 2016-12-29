@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cisco Heat
+RunFile=CiscoHeat.Slave
+AGS2Name=Cisco Heat
+AGS2IndexName=C
+AGS2FileName=Cisco Heat
+iGameName=Cisco Heat

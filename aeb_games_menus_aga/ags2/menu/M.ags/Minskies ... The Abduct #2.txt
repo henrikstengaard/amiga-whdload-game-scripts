@@ -1,4 +1,5 @@
 Name      : Minskies ... The Abduction
+Version   : AGA
 Publisher : Guildhall
 Year      : 1996
 Genre     : Brain - Puzzle

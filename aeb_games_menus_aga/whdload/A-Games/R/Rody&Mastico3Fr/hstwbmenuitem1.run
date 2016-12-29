@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/Rody&Mastico3Fr/"
+IF EXISTS ENV:whdloadargs
+	whdload "Rody&Mastico3Fr.Slave" $whdloadargs
+ELSE
+	whdload "Rody&Mastico3Fr.Slave"
+ENDIF

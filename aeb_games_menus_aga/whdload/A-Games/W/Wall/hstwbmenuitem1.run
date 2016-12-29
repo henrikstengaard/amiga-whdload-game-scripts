@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/Wall/"
+IF EXISTS ENV:whdloadargs
+	whdload "Wall.Slave" $whdloadargs
+ELSE
+	whdload "Wall.Slave"
+ENDIF

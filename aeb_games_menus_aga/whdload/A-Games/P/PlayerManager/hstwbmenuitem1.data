@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Player Manager
+RunFile=PlayerManager.Slave
+AGS2Name=Player Manager
+AGS2IndexName=P
+AGS2FileName=Player Manager
+iGameName=Player Manager

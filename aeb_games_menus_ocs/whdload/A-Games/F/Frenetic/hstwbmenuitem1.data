@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Frenetic
+RunFile=Frenetic.Slave
+AGS2Name=Frenetic
+AGS2IndexName=F
+AGS2FileName=Frenetic
+iGameName=Frenetic

@@ -1,0 +1,7 @@
+Name      : A-Train
+Version   : ConstructionSet
+Publisher : Ocean
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+Whdload   : ATrain.Slave

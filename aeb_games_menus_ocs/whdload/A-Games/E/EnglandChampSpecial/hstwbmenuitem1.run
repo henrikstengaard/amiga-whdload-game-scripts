@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EnglandChampSpecial/"
+IF EXISTS ENV:whdloadargs
+	whdload "EnglandChampSpecial.Slave" $whdloadargs
+ELSE
+	whdload "EnglandChampSpecial.Slave"
+ENDIF

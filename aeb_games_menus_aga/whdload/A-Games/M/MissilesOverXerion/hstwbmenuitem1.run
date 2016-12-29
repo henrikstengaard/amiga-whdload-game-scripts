@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/MissilesOverXerion/"
+IF EXISTS ENV:whdloadargs
+	whdload "MissilesOverXerion.slave" $whdloadargs
+ELSE
+	whdload "MissilesOverXerion.slave"
+ENDIF

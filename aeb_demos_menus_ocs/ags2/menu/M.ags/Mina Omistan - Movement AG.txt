@@ -1,4 +1,5 @@
 Name    : Mina Omistan
+Version : AGA
 Groups  : Movement
 Type    : Demo
 Party   : Saturne 1994

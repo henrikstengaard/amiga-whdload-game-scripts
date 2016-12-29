@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tangram
+RunFile=Tangram.slave
+AGS2Name=Tangram
+AGS2IndexName=T
+AGS2FileName=Tangram
+iGameName=Tangram

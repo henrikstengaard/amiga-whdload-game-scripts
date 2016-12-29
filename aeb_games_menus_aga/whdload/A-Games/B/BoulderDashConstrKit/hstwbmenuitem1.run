@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BoulderDashConstrKit/"
+IF EXISTS ENV:whdloadargs
+	whdload "BoulderDashConstrKit.Slave" $whdloadargs
+ELSE
+	whdload "BoulderDashConstrKit.Slave"
+ENDIF

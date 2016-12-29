@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Aztec Challenge
+RunFile=AztecChallenge.Slave
+AGS2Name=Aztec Challenge
+AGS2IndexName=A
+AGS2FileName=Aztec Challenge
+iGameName=Aztec Challenge

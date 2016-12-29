@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/GloomPartyInvitation/"
+IF EXISTS ENV:whdloadargs
+	whdload "GloomPartyInvitation.slave" $whdloadargs
+ELSE
+	whdload "GloomPartyInvitation.slave"
+ENDIF

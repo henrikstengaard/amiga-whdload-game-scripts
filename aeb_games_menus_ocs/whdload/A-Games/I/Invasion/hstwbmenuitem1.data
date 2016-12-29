@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Invasion
+RunFile=Invasion.Slave
+AGS2Name=Invasion
+AGS2IndexName=I
+AGS2FileName=Invasion
+iGameName=Invasion

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/Mixolydian/"
+IF EXISTS ENV:whdloadargs
+	whdload "Mixolydian.Slave" $whdloadargs
+ELSE
+	whdload "Mixolydian.Slave"
+ENDIF

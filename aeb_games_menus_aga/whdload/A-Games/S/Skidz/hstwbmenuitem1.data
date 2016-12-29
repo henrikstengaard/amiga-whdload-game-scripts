@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Skidz
+RunFile=Skidz.Slave
+AGS2Name=Skidz
+AGS2IndexName=S
+AGS2FileName=Skidz
+iGameName=Skidz

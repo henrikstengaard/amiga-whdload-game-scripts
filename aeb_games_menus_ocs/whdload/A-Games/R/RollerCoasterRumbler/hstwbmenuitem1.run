@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RollerCoasterRumbler/"
+IF EXISTS ENV:whdloadargs
+	whdload "RollerCoasterRumbler.Slave" $whdloadargs
+ELSE
+	whdload "RollerCoasterRumbler.Slave"
+ENDIF

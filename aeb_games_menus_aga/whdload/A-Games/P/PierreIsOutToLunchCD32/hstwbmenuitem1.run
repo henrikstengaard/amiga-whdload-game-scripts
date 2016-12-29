@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/PierreIsOutToLunchCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "PierreIsOutToLunchCD32.Slave" $whdloadargs
+ELSE
+	whdload "PierreIsOutToLunchCD32.Slave"
+ENDIF

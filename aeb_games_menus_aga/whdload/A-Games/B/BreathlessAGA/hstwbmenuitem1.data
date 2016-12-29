@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Breathless AGA
+RunFile=BreathlessAGA.Slave
+AGS2Name=Breathless AGA
+AGS2IndexName=B
+AGS2FileName=Breathless AGA
+iGameName=Breathless AGA

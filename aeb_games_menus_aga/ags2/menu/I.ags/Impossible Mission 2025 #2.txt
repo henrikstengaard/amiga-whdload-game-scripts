@@ -1,4 +1,5 @@
 Name      : Impossible Mission 2025: The Special Edition
+Version   : AGA
 Publisher : MicroProse Software
 Year      : 1993
 Genre     : Adventure - Miscellaneous

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/AtomSmasher/"
+IF EXISTS ENV:whdloadargs
+	whdload "AtomSmasher.Slave" $whdloadargs
+ELSE
+	whdload "AtomSmasher.Slave"
+ENDIF

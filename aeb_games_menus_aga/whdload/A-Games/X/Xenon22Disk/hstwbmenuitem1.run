@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/Xenon22Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Xenon22Disk.Slave" $whdloadargs
+ELSE
+	whdload "Xenon22Disk.Slave"
+ENDIF

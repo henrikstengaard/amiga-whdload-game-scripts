@@ -1,4 +1,5 @@
 Name    : Fullmoon
+Version : AGA
 Groups  : Virtual Dreams,Fairlight
 Type    : Demo
 Party   : The Party 1993

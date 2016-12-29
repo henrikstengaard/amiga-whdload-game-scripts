@@ -1,0 +1,7 @@
+Name      : The Clue! [AGA]
+Language  : German
+Version   : AGA
+Publisher : Neo / Kompart
+Year      : 1994
+Players   : 1
+Whdload   : ClouDeAGA.Slave

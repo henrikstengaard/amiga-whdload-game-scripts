@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Space MAX DE
+RunFile=SpaceMAXDe.Slave
+AGS2Name=Space MAX DE
+AGS2IndexName=S
+AGS2FileName=Space MAX DE
+iGameName=Space MAX DE

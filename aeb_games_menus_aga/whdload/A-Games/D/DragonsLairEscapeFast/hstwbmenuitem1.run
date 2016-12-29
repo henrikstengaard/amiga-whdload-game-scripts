@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DragonsLairEscapeFast/"
+IF EXISTS ENV:whdloadargs
+	whdload "DragonsLairEscapeFast.slave" $whdloadargs
+ELSE
+	whdload "DragonsLairEscapeFast.slave"
+ENDIF

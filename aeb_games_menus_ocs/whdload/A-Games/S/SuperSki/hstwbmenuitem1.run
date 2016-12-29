@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperSki/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperSki.Slave" $whdloadargs
+ELSE
+	whdload "SuperSki.Slave"
+ENDIF

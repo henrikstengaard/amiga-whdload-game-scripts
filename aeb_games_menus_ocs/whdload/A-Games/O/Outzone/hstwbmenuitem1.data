@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Outzone
+RunFile=Outzone.Slave
+AGS2Name=Outzone
+AGS2IndexName=O
+AGS2FileName=Outzone
+iGameName=Outzone

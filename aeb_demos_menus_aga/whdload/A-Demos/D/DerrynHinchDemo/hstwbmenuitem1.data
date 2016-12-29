@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Hinch Demo - Decay Demo
+RunFile=DerrynHinchDemo.Slave
+AGS2Name=Hinch Demo - Decay Demo
+AGS2IndexName=H
+AGS2FileName=Hinch Demo - Decay Demo
+iGameName=Hinch Demo - Decay Demo

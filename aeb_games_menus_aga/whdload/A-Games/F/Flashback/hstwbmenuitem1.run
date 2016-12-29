@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Flashback/"
+IF EXISTS ENV:whdloadargs
+	whdload "Flashback.Slave" $whdloadargs
+ELSE
+	whdload "Flashback.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Midwinter II: Flames of Freedom
-Publisher : Rainbird
 Language  : German
+Publisher : Rainbird
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only

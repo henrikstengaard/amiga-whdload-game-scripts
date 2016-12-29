@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:H/How2SkinACat/"
+IF EXISTS ENV:whdloadargs
+	whdload "How2SkinACat.slave" $whdloadargs
+ELSE
+	whdload "How2SkinACat.slave"
+ENDIF

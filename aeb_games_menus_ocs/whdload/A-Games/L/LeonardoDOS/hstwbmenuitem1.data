@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Leonardo
+RunFile=LeonardoDOS.Slave
+AGS2Name=Leonardo
+AGS2IndexName=L
+AGS2FileName=Leonardo
+iGameName=Leonardo

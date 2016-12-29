@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Fire&Forget2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Fire&Forget2.Slave" $whdloadargs
+ELSE
+	whdload "Fire&Forget2.Slave"
+ENDIF

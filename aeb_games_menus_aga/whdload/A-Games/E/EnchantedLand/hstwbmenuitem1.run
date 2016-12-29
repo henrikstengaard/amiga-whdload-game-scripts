@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/EnchantedLand/"
+IF EXISTS ENV:whdloadargs
+	whdload "EnchantedLand.Slave" $whdloadargs
+ELSE
+	whdload "EnchantedLand.Slave"
+ENDIF

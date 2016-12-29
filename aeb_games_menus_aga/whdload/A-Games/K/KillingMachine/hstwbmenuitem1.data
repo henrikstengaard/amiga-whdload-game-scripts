@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Killing Machine
+RunFile=KillingMachine.Slave
+AGS2Name=Killing Machine
+AGS2IndexName=K
+AGS2FileName=Killing Machine
+iGameName=Killing Machine

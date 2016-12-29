@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperGrandPrix/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperGrandPrix.Slave" $whdloadargs
+ELSE
+	whdload "SuperGrandPrix.Slave"
+ENDIF

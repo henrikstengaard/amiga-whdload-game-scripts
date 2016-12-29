@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/Denaris2Disk/"
+IF EXISTS ENV:whdloadargs
+	whdload "Denaris2Disk.Slave" $whdloadargs
+ELSE
+	whdload "Denaris2Disk.Slave"
+ENDIF

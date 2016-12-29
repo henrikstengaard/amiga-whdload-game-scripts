@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MegaDemo2Scoopex/"
+IF EXISTS ENV:whdloadargs
+	whdload "MegaDemo2Scoopex.Slave" $whdloadargs
+ELSE
+	whdload "MegaDemo2Scoopex.Slave"
+ENDIF

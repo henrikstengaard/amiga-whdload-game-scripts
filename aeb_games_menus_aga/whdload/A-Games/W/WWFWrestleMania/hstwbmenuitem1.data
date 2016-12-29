@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=WWF WrestleMania
+RunFile=WWFWrestlemania.slave
+AGS2Name=WWF WrestleMania
+AGS2IndexName=W
+AGS2FileName=WWF WrestleMania
+iGameName=WWF WrestleMania

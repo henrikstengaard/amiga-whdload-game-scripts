@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cattivik/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cattivik.Slave" $whdloadargs
+ELSE
+	whdload "Cattivik.Slave"
+ENDIF

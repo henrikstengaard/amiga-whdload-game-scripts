@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alfred Chicken
+RunFile=AlfredChicken.Slave
+AGS2Name=Alfred Chicken
+AGS2IndexName=A
+AGS2FileName=Alfred Chicken
+iGameName=Alfred Chicken

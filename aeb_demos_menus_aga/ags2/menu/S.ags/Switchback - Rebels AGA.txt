@@ -1,4 +1,5 @@
 Name    : Switchback
+Version : AGA
 Groups  : Rebels
 Type    : Demo
 Party   : Doom&apos

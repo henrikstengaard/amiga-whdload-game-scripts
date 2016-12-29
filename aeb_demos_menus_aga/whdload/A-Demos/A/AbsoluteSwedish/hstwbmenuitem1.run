@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AbsoluteSwedish/"
+IF EXISTS ENV:whdloadargs
+	whdload "AbsoluteSwedish.Slave" $whdloadargs
+ELSE
+	whdload "AbsoluteSwedish.Slave"
+ENDIF

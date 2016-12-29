@@ -1,0 +1,7 @@
+Name      : Stormlord
+Version   : NTSC
+Publisher : Hewson
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : StormlordNTSC.Slave

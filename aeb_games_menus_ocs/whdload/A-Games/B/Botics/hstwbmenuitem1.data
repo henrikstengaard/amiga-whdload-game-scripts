@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Botics
+RunFile=Botics.slave
+AGS2Name=Botics
+AGS2IndexName=B
+AGS2FileName=Botics
+iGameName=Botics

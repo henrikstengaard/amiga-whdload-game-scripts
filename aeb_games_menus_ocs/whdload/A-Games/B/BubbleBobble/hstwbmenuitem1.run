@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BubbleBobble/"
+IF EXISTS ENV:whdloadargs
+	whdload "BubbleBobble.Slave" $whdloadargs
+ELSE
+	whdload "BubbleBobble.Slave"
+ENDIF

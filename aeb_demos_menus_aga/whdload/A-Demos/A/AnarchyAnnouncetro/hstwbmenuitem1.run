@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/AnarchyAnnouncetro/"
+IF EXISTS ENV:whdloadargs
+	whdload "AnarchyAnnouncetro.Slave" $whdloadargs
+ELSE
+	whdload "AnarchyAnnouncetro.Slave"
+ENDIF

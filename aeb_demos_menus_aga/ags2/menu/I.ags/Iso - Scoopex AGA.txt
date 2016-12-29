@@ -1,4 +1,5 @@
 Name    : Iso
+Version : AGA
 Groups  : Scoopex
 Type    : Demo
 Party   : Remedy 1995

@@ -1,6 +1,6 @@
 Name      : Wacus the Detective
-Publisher : L.K. Avalon
 Language  : Polish
+Publisher : L.K. Avalon
 Year      : 1997
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only

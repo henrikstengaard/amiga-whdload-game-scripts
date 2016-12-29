@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:F/FlowerPower/"
+IF EXISTS ENV:whdloadargs
+	whdload "FlowerPower.Slave" $whdloadargs
+ELSE
+	whdload "FlowerPower.Slave"
+ENDIF

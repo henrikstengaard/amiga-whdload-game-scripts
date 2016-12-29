@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/SongsOfInfinity/"
+IF EXISTS ENV:whdloadargs
+	whdload "SongsOfInfinity.Slave" $whdloadargs
+ELSE
+	whdload "SongsOfInfinity.Slave"
+ENDIF

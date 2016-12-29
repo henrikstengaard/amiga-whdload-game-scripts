@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TripleX/"
+IF EXISTS ENV:whdloadargs
+	whdload "TripleX.Slave" $whdloadargs
+ELSE
+	whdload "TripleX.Slave"
+ENDIF

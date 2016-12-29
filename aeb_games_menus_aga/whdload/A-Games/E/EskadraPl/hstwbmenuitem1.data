@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Eskadra PL
+RunFile=EskadraPl.Slave
+AGS2Name=Eskadra PL
+AGS2IndexName=E
+AGS2FileName=Eskadra PL
+iGameName=Eskadra PL

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/VitalLight/"
+IF EXISTS ENV:whdloadargs
+	whdload "VitalLight.slave" $whdloadargs
+ELSE
+	whdload "VitalLight.slave"
+ENDIF

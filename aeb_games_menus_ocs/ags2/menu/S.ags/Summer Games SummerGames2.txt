@@ -1,0 +1,7 @@
+Name      : Summer Games
+Version   : SummerGames2
+Publisher : US Gold
+Year      : 1992
+Genre     : Sports - Multi-Event
+Players   : 1 to 8
+Whdload   : SummerGames&SummerGames2.slave

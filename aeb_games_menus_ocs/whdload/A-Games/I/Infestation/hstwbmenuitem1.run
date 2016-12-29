@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/Infestation/"
+IF EXISTS ENV:whdloadargs
+	whdload "Infestation.slave" $whdloadargs
+ELSE
+	whdload "Infestation.slave"
+ENDIF

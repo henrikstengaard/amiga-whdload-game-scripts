@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Spaceship/"
+IF EXISTS ENV:whdloadargs
+	whdload "Spaceship.Slave" $whdloadargs
+ELSE
+	whdload "Spaceship.Slave"
+ENDIF

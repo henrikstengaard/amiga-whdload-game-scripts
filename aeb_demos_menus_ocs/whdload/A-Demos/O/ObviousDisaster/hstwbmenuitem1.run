@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/ObviousDisaster/"
+IF EXISTS ENV:whdloadargs
+	whdload "ObviousDisaster.Slave" $whdloadargs
+ELSE
+	whdload "ObviousDisaster.Slave"
+ENDIF

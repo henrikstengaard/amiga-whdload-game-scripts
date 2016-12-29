@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Sleepwalker/"
+IF EXISTS ENV:whdloadargs
+	whdload "Sleepwalker.Slave" $whdloadargs
+ELSE
+	whdload "Sleepwalker.Slave"
+ENDIF

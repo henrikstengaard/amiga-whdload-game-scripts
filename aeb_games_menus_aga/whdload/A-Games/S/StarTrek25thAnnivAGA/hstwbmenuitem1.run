@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StarTrek25thAnnivAGA/"
+IF EXISTS ENV:whdloadargs
+	whdload "StarTrek25thAnnivAGA.Slave" $whdloadargs
+ELSE
+	whdload "StarTrek25thAnnivAGA.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/LostWorld/"
+IF EXISTS ENV:whdloadargs
+	whdload "LostWorld.Slave" $whdloadargs
+ELSE
+	whdload "LostWorld.Slave"
+ENDIF

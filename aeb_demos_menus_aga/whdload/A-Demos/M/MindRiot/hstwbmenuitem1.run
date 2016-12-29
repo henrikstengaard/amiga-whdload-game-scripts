@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:M/MindRiot/"
+IF EXISTS ENV:whdloadargs
+	whdload "MindRiot.Slave" $whdloadargs
+ELSE
+	whdload "MindRiot.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Executioner/"
+IF EXISTS ENV:whdloadargs
+	whdload "Executioner.Slave" $whdloadargs
+ELSE
+	whdload "Executioner.Slave"
+ENDIF

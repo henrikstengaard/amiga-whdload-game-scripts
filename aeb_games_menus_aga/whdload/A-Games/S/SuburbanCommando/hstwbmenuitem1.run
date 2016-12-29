@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuburbanCommando/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuburbanCommando.Slave" $whdloadargs
+ELSE
+	whdload "SuburbanCommando.Slave"
+ENDIF

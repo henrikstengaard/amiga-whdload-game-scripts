@@ -1,0 +1,6 @@
+Name      : Babylonian Twins
+Version   : Demo
+Publisher : [unreleased]
+Year      : 1994
+Players   : 1
+Whdload   : BabylonianTwinsDemo.slave

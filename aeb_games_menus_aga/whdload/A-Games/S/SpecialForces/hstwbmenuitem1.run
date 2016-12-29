@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpecialForces/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpecialForces.slave" $whdloadargs
+ELSE
+	whdload "SpecialForces.slave"
+ENDIF

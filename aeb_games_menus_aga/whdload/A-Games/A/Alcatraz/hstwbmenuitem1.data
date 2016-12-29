@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Alcatraz
+RunFile=Alcatraz.Slave
+AGS2Name=Alcatraz
+AGS2IndexName=A
+AGS2FileName=Alcatraz
+iGameName=Alcatraz

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Bad Company
+RunFile=BadCompany.slave
+AGS2Name=Bad Company
+AGS2IndexName=B
+AGS2FileName=Bad Company
+iGameName=Bad Company

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Epic
+RunFile=Epic.slave
+AGS2Name=Epic
+AGS2IndexName=E
+AGS2FileName=Epic
+iGameName=Epic

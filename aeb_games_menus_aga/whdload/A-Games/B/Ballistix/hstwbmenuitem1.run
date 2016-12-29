@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/Ballistix/"
+IF EXISTS ENV:whdloadargs
+	whdload "Ballistix.slave" $whdloadargs
+ELSE
+	whdload "Ballistix.slave"
+ENDIF

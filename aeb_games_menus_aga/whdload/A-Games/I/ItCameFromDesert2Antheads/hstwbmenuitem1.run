@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:I/ItCameFromDesert2Antheads/"
+IF EXISTS ENV:whdloadargs
+	whdload "ItCameFromDesert2Antheads.slav" $whdloadargs
+ELSE
+	whdload "ItCameFromDesert2Antheads.slav"
+ENDIF

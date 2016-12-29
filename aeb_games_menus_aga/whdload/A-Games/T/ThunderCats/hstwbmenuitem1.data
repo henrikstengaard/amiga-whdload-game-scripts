@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=ThunderCats
+RunFile=ThunderCats.Slave
+AGS2Name=ThunderCats
+AGS2IndexName=T
+AGS2FileName=ThunderCats
+iGameName=ThunderCats

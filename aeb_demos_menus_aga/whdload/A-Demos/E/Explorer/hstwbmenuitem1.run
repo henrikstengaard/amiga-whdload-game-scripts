@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:E/Explorer/"
+IF EXISTS ENV:whdloadargs
+	whdload "Explorer.slave" $whdloadargs
+ELSE
+	whdload "Explorer.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/Scorpio/"
+IF EXISTS ENV:whdloadargs
+	whdload "Scorpio.Slave" $whdloadargs
+ELSE
+	whdload "Scorpio.Slave"
+ENDIF

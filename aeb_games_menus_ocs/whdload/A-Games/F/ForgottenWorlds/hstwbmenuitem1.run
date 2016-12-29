@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/ForgottenWorlds/"
+IF EXISTS ENV:whdloadargs
+	whdload "ForgottenWorlds.Slave" $whdloadargs
+ELSE
+	whdload "ForgottenWorlds.Slave"
+ENDIF

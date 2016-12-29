@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Prehistorik
+RunFile=Prehistorik.slave
+AGS2Name=Prehistorik
+AGS2IndexName=P
+AGS2FileName=Prehistorik
+iGameName=Prehistorik

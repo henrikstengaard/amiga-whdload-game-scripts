@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:W/WorldOfNoise1/"
+IF EXISTS ENV:whdloadargs
+	whdload "WorldOfNoise1.Slave" $whdloadargs
+ELSE
+	whdload "WorldOfNoise1.Slave"
+ENDIF

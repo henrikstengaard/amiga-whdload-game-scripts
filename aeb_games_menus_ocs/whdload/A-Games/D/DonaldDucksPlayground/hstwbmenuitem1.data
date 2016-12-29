@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Donald Duck's Playground
+RunFile=DonaldDucksPlayground.Slave
+AGS2Name=Donald Duck's Playground
+AGS2IndexName=D
+AGS2FileName=Donald Duck's Playground
+iGameName=Donald Duck's Playground

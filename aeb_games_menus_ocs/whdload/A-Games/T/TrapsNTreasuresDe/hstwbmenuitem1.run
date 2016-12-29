@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TrapsNTreasuresDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "TrapsNTreasuresDe.Slave" $whdloadargs
+ELSE
+	whdload "TrapsNTreasuresDe.Slave"
+ENDIF

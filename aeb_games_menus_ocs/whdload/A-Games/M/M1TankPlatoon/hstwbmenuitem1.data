@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=M1 Tank Platoon
+RunFile=M1TankPlatoon.Slave
+AGS2Name=M1 Tank Platoon
+AGS2IndexName=M
+AGS2FileName=M1 Tank Platoon
+iGameName=M1 Tank Platoon

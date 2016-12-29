@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:G/GroovyJives3/"
+IF EXISTS ENV:whdloadargs
+	whdload "GroovyJives3.Slave" $whdloadargs
+ELSE
+	whdload "GroovyJives3.Slave"
+ENDIF

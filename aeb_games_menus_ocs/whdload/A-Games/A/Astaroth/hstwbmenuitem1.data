@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Astaroth
+RunFile=Astaroth.Slave
+AGS2Name=Astaroth
+AGS2IndexName=A
+AGS2FileName=Astaroth
+iGameName=Astaroth

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Menace
+RunFile=Menace.Slave
+AGS2Name=Menace
+AGS2IndexName=M
+AGS2FileName=Menace
+iGameName=Menace

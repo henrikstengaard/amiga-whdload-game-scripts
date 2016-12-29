@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SwordOfHonour/"
+IF EXISTS ENV:whdloadargs
+	whdload "SwordOfHonour.slave" $whdloadargs
+ELSE
+	whdload "SwordOfHonour.slave"
+ENDIF

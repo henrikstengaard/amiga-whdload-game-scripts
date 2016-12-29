@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Exolon/"
+IF EXISTS ENV:whdloadargs
+	whdload "Exolon.Slave" $whdloadargs
+ELSE
+	whdload "Exolon.Slave"
+ENDIF

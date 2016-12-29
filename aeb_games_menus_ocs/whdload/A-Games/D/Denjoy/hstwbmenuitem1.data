@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Denjoy
+RunFile=Denjoy.Slave
+AGS2Name=Denjoy
+AGS2IndexName=D
+AGS2FileName=Denjoy
+iGameName=Denjoy

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Millennium22/"
+IF EXISTS ENV:whdloadargs
+	whdload "Millennium22.Slave" $whdloadargs
+ELSE
+	whdload "Millennium22.Slave"
+ENDIF

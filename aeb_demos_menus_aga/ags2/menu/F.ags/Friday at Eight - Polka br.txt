@@ -1,4 +1,5 @@
 Name    : Friday at Eight
+Version : AGA
 Groups  : Polka brothers
 Type    : Demo
 Party   : The Gathering 1994

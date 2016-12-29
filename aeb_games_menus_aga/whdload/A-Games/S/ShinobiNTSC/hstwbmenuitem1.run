@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShinobiNTSC/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShinobiNTSC.Slave" $whdloadargs
+ELSE
+	whdload "ShinobiNTSC.Slave"
+ENDIF

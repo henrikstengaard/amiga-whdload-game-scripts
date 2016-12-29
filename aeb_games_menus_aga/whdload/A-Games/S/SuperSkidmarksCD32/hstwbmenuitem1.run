@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperSkidmarksCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperSkidMarksCD32.Slave" $whdloadargs
+ELSE
+	whdload "SuperSkidMarksCD32.Slave"
+ENDIF

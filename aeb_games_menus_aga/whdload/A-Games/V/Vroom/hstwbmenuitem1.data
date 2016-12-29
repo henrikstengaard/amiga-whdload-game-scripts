@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Vroom
+RunFile=Vroom.Slave
+AGS2Name=Vroom
+AGS2IndexName=V
+AGS2FileName=Vroom
+iGameName=Vroom

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:R/RugbyTheWorldCup/"
+IF EXISTS ENV:whdloadargs
+	whdload "RugbyTheWorldCup.Slave" $whdloadargs
+ELSE
+	whdload "RugbyTheWorldCup.Slave"
+ENDIF

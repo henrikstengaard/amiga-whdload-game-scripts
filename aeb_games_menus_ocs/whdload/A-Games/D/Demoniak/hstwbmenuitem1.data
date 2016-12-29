@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Demoniak
+RunFile=Demoniak.Slave
+AGS2Name=Demoniak
+AGS2IndexName=D
+AGS2FileName=Demoniak
+iGameName=Demoniak

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gods
+RunFile=Gods.Slave
+AGS2Name=Gods
+AGS2IndexName=G
+AGS2FileName=Gods
+iGameName=Gods

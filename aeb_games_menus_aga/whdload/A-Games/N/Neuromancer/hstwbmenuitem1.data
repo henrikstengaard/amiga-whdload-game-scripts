@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Neuromancer
+RunFile=Neuromancer.Slave
+AGS2Name=Neuromancer
+AGS2IndexName=N
+AGS2FileName=Neuromancer
+iGameName=Neuromancer

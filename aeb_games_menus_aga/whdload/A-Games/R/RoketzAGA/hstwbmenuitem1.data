@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Roketz AGA
+RunFile=RoketzAGA.Slave
+AGS2Name=Roketz AGA
+AGS2IndexName=R
+AGS2FileName=Roketz AGA
+iGameName=Roketz AGA

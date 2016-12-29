@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DizzyCollection/"
+IF EXISTS ENV:whdloadargs
+	whdload "Disk2.Slave" $whdloadargs
+ELSE
+	whdload "Disk2.Slave"
+ENDIF

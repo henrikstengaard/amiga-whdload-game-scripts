@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Defender
+RunFile=DefenderRatsoft.slave
+AGS2Name=Defender
+AGS2IndexName=D
+AGS2FileName=Defender
+iGameName=Defender

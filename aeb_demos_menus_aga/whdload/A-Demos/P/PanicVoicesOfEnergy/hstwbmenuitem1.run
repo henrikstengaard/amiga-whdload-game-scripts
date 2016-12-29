@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:P/PanicVoicesOfEnergy/"
+IF EXISTS ENV:whdloadargs
+	whdload "PanicVoicesOfEnergy.Slave" $whdloadargs
+ELSE
+	whdload "PanicVoicesOfEnergy.Slave"
+ENDIF

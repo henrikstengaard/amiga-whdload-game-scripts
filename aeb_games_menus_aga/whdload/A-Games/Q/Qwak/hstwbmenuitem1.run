@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/Qwak/"
+IF EXISTS ENV:whdloadargs
+	whdload "Qwak.Slave" $whdloadargs
+ELSE
+	whdload "Qwak.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+Name      : Murders in Space
+Version   : Files
+Publisher : Infogrames
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+Whdload   : MurdersInSpaceFiles.Slave

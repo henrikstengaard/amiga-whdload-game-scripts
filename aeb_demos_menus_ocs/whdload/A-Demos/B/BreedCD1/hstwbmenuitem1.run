@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:B/BreedCD1/"
+IF EXISTS ENV:whdloadargs
+	whdload "BreedCD1.Slave" $whdloadargs
+ELSE
+	whdload "BreedCD1.Slave"
+ENDIF

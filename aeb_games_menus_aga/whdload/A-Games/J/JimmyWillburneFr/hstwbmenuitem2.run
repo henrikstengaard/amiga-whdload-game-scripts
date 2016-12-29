@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JimmyWillburneFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "IntroFr.Slave" $whdloadargs
+ELSE
+	whdload "IntroFr.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Operation Jupiter FR
+RunFile=OperationJupiterFr.Slave
+AGS2Name=Operation Jupiter FR
+AGS2IndexName=O
+AGS2FileName=Operation Jupiter FR
+iGameName=Operation Jupiter FR

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProjectXSEBTTR/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProjectXSEBTTR.Slave" $whdloadargs
+ELSE
+	whdload "ProjectXSEBTTR.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/4x4OffRoadRacing/"
+IF EXISTS ENV:whdloadargs
+	whdload "4x4OffRoadRacing.Slave" $whdloadargs
+ELSE
+	whdload "4x4OffRoadRacing.Slave"
+ENDIF

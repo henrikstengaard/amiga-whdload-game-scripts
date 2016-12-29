@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SalmonPinkMax/"
+IF EXISTS ENV:whdloadargs
+	whdload "SalmonPinkMax.Slave" $whdloadargs
+ELSE
+	whdload "SalmonPinkMax.Slave"
+ENDIF

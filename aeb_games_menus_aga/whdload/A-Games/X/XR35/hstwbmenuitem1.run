@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:X/XR35/"
+IF EXISTS ENV:whdloadargs
+	whdload "XR35.Slave" $whdloadargs
+ELSE
+	whdload "XR35.Slave"
+ENDIF

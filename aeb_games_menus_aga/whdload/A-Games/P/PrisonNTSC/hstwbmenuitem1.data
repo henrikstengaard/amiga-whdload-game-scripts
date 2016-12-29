@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Prison NTSC
+RunFile=PrisonNTSC.Slave
+AGS2Name=Prison NTSC
+AGS2IndexName=P
+AGS2FileName=Prison NTSC
+iGameName=Prison NTSC

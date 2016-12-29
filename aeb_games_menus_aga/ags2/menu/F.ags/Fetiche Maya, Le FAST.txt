@@ -1,0 +1,7 @@
+Name      : Fetiche Maya, Le
+Version   : FAST
+Publisher : Silmarils
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : MayaFast.slave

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JamesBondTheStealthAffair/"
+IF EXISTS ENV:whdloadargs
+	whdload "JamesBondTheStealthAffair.Slave" $whdloadargs
+ELSE
+	whdload "JamesBondTheStealthAffair.Slave"
+ENDIF

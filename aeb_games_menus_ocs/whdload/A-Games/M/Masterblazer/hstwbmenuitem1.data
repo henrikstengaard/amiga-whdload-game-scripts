@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Masterblazer
+RunFile=Masterblazer.slave
+AGS2Name=Masterblazer
+AGS2IndexName=M
+AGS2FileName=Masterblazer
+iGameName=Masterblazer

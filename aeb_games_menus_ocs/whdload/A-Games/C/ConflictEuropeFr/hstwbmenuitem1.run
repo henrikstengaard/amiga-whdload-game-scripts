@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ConflictEuropeFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "ConflictEuropeFr.Slave" $whdloadargs
+ELSE
+	whdload "ConflictEuropeFr.Slave"
+ENDIF

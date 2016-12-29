@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/Maya/"
+IF EXISTS ENV:whdloadargs
+	whdload "Maya.Slave" $whdloadargs
+ELSE
+	whdload "Maya.Slave"
+ENDIF

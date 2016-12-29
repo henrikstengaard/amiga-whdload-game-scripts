@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:P/PenthouseHotNumbers/PenthouseHotNumbers.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "P" "Penthouse Hot Numbers"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "P" "Penthouse Hot Numbers"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:P/PenthouseHotNumbers/"
 IF EXISTS ENV:whdloadargs
-	whdload "PenthouseHotNumbers.Slave" $whdloadargs
+  whdload "PenthouseHotNumbers.Slave" $whdloadargs
 ELSE
-	whdload "PenthouseHotNumbers.Slave"
+  whdload "PenthouseHotNumbers.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

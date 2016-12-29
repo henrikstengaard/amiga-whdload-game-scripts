@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TrivialPursuitNewBeginFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "TrivialPursuitNewBeginFr.Slave" $whdloadargs
+ELSE
+	whdload "TrivialPursuitNewBeginFr.Slave"
+ENDIF

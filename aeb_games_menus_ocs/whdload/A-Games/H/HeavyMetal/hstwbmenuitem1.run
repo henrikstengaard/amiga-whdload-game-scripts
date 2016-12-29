@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:H/HeavyMetal/"
+IF EXISTS ENV:whdloadargs
+	whdload "HeavyMetal.slave" $whdloadargs
+ELSE
+	whdload "HeavyMetal.slave"
+ENDIF

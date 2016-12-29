@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ConquestsOfCamelot/"
+IF EXISTS ENV:whdloadargs
+	whdload "ConquestsOfCamelot.slave" $whdloadargs
+ELSE
+	whdload "ConquestsOfCamelot.slave"
+ENDIF

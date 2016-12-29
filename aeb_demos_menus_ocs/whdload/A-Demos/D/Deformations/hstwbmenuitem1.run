@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/Deformations/"
+IF EXISTS ENV:whdloadargs
+	whdload "Deformations.slave" $whdloadargs
+ELSE
+	whdload "Deformations.slave"
+ENDIF

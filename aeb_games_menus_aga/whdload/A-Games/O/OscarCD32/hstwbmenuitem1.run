@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:O/OscarCD32/"
+IF EXISTS ENV:whdloadargs
+	whdload "OscarCD32.Slave" $whdloadargs
+ELSE
+	whdload "OscarCD32.Slave"
+ENDIF

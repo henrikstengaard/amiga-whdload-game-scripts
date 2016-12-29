@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Coloris/"
+IF EXISTS ENV:whdloadargs
+	whdload "Coloris.Slave" $whdloadargs
+ELSE
+	whdload "Coloris.Slave"
+ENDIF

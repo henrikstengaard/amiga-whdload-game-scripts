@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:L/LegalizeIt2/"
+IF EXISTS ENV:whdloadargs
+	whdload "LegalizeIt2.slave" $whdloadargs
+ELSE
+	whdload "LegalizeIt2.slave"
+ENDIF

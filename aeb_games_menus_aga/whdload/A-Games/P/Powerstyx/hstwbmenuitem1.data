@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Power Styx
+RunFile=Powerstyx.slave
+AGS2Name=Power Styx
+AGS2IndexName=P
+AGS2FileName=Power Styx
+iGameName=Power Styx

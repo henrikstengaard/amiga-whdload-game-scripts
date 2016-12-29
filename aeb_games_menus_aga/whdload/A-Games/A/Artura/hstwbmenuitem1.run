@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:A/Artura/"
+IF EXISTS ENV:whdloadargs
+	whdload "Artura.Slave" $whdloadargs
+ELSE
+	whdload "Artura.Slave"
+ENDIF

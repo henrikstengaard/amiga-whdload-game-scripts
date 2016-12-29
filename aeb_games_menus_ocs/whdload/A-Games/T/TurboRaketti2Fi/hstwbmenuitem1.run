@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TurboRaketti2Fi/"
+IF EXISTS ENV:whdloadargs
+	whdload "TurboRaketti2Fi.Slave" $whdloadargs
+ELSE
+	whdload "TurboRaketti2Fi.Slave"
+ENDIF

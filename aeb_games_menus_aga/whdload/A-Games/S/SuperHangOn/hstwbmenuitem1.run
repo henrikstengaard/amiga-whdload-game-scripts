@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SuperHangOn/"
+IF EXISTS ENV:whdloadargs
+	whdload "SuperHangOn.Slave" $whdloadargs
+ELSE
+	whdload "SuperHangOn.Slave"
+ENDIF

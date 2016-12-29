@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:Q/QuiksilverPinball/"
+IF EXISTS ENV:whdloadargs
+	whdload "QuiksilverPinball.Slave" $whdloadargs
+ELSE
+	whdload "QuiksilverPinball.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Wisielec PL
+RunFile=WisielecPl.Slave
+AGS2Name=Wisielec PL
+AGS2IndexName=W
+AGS2FileName=Wisielec PL
+iGameName=Wisielec PL

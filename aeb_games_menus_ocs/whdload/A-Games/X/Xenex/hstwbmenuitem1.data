@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Xenex
+RunFile=Xenex.Slave
+AGS2Name=Xenex
+AGS2IndexName=X
+AGS2FileName=Xenex
+iGameName=Xenex

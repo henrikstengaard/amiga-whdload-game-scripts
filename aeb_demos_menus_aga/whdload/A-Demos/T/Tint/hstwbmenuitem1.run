@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:T/Tint/"
+IF EXISTS ENV:whdloadargs
+	whdload "Tint.Slave" $whdloadargs
+ELSE
+	whdload "Tint.Slave"
+ENDIF

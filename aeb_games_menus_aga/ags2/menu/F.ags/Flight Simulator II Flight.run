@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:F/FlightSimulator2&Hawaiian/FlightSim2&Hawaiian.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "F" "Flight Simulator II Flight"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "F" "Flight Simulator II Flight"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/FlightSimulator2&Hawaiian/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlightSim2&Hawaiian.Slave" $whdloadargs
+  whdload "FlightSim2&Hawaiian.Slave" $whdloadargs
 ELSE
-	whdload "FlightSim2&Hawaiian.Slave"
+  whdload "FlightSim2&Hawaiian.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

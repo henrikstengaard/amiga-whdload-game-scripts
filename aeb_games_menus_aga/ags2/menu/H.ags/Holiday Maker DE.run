@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:H/HolidayMakerDe/HolidayMakerDe.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "H" "Holiday Maker DE"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "H" "Holiday Maker DE"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -15,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:H/HolidayMakerCDTVDe/"
+cd "A-Games:H/HolidayMakerDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "HolidayMakerCDTVDe.Slave" $whdloadargs
+  whdload "HolidayMakerDe.Slave" $whdloadargs
 ELSE
-	whdload "HolidayMakerCDTVDe.Slave"
+  whdload "HolidayMakerDe.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

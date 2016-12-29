@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/ClassicPucman/"
+IF EXISTS ENV:whdloadargs
+	whdload "ClassicPucman.slave" $whdloadargs
+ELSE
+	whdload "ClassicPucman.slave"
+ENDIF

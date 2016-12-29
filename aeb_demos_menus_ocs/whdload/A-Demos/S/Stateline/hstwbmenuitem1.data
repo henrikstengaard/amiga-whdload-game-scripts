@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Stateline - Complex
+RunFile=Stateline.Slave
+AGS2Name=Stateline - Complex
+AGS2IndexName=S
+AGS2FileName=Stateline - Complex
+iGameName=Stateline - Complex

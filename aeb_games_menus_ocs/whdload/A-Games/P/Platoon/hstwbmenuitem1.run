@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Platoon/"
+IF EXISTS ENV:whdloadargs
+	whdload "Platoon.Slave" $whdloadargs
+ELSE
+	whdload "Platoon.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Roboter
-Publisher : Werner
 Language  : German
+Publisher : Werner
 Year      : 1989
 Genre     : Shooter
 Players   : 1

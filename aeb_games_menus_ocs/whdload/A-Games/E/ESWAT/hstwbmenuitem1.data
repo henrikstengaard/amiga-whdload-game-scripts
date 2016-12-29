@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=ESWAT
+RunFile=ESWAT.Slave
+AGS2Name=ESWAT
+AGS2IndexName=E
+AGS2FileName=ESWAT
+iGameName=ESWAT

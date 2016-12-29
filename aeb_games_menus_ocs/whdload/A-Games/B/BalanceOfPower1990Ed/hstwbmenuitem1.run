@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:B/BalanceOfPower1990Ed/"
+IF EXISTS ENV:whdloadargs
+	whdload "BalanceOfPower1990Ed.Slave" $whdloadargs
+ELSE
+	whdload "BalanceOfPower1990Ed.Slave"
+ENDIF

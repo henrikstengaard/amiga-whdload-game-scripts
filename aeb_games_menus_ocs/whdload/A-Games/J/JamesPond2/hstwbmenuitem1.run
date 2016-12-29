@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:J/JamesPond2/"
+IF EXISTS ENV:whdloadargs
+	whdload "JamesPond2.Slave" $whdloadargs
+ELSE
+	whdload "JamesPond2.Slave"
+ENDIF

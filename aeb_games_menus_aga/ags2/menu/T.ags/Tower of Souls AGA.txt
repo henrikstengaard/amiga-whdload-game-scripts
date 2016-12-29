@@ -1,4 +1,5 @@
 Name      : Tower of Souls
+Version   : AGA
 Publisher : Black Legend
 Year      : 1995
 Genre     : Adventure - RPG 3D

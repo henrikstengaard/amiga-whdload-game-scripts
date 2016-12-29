@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=California Games
+RunFile=CaliforniaGames.Slave
+AGS2Name=California Games
+AGS2IndexName=C
+AGS2FileName=California Games
+iGameName=California Games

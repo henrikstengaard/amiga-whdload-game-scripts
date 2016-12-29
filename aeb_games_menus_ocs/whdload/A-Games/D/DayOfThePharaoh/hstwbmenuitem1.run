@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DayOfThePharaoh/"
+IF EXISTS ENV:whdloadargs
+	whdload "DayOfThePharaoh.Slave" $whdloadargs
+ELSE
+	whdload "DayOfThePharaoh.Slave"
+ENDIF

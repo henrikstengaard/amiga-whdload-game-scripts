@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Pinomania
+RunFile=Pinomania.Slave
+AGS2Name=Pinomania
+AGS2IndexName=P
+AGS2FileName=Pinomania
+iGameName=Pinomania

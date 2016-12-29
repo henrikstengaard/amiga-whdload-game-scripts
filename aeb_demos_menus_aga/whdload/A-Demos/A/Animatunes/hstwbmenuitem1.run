@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:A/Animatunes/"
+IF EXISTS ENV:whdloadargs
+	whdload "Animatunes.slave" $whdloadargs
+ELSE
+	whdload "Animatunes.slave"
+ENDIF

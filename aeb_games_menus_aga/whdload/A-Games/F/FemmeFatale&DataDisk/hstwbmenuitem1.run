@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FemmeFatale&DataDisk/"
+IF EXISTS ENV:whdloadargs
+	whdload "FemmeFatale&DataDisk.Slave" $whdloadargs
+ELSE
+	whdload "FemmeFatale&DataDisk.Slave"
+ENDIF

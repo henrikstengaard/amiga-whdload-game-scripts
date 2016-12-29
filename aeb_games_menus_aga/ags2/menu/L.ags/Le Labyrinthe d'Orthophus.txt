@@ -1,6 +1,6 @@
 Name      : Le Labyrinthe d'Orthophus
-Publisher : RETZ
 Language  : French
+Publisher : RETZ
 Year      : 1989
 Players   : 1
 Whdload   : LabyrintheDOrthophusFr.Slave

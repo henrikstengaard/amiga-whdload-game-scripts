@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LoomEsKick31/"
+IF EXISTS ENV:whdloadargs
+	whdload "LoomEsKick31.slave" $whdloadargs
+ELSE
+	whdload "LoomEsKick31.slave"
+ENDIF

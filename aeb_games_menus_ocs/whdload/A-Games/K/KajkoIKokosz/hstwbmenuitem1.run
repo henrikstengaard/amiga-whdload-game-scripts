@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/KajkoIKokosz/"
+IF EXISTS ENV:whdloadargs
+	whdload "KajkoIKokosz.slave" $whdloadargs
+ELSE
+	whdload "KajkoIKokosz.slave"
+ENDIF

@@ -1,6 +1,6 @@
 Name      : Rockstar: Never Trust Rotten Tangerines
-Publisher : Mirage
 Language  : Polish
+Publisher : Mirage
 Year      : 1996
 Genre     : Simulation - Miscellaneous
 Players   : 1 Only

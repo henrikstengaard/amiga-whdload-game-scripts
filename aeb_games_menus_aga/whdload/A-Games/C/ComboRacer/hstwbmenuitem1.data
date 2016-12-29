@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Combo Racer
+RunFile=ComboRacer.Slave
+AGS2Name=Combo Racer
+AGS2IndexName=C
+AGS2FileName=Combo Racer
+iGameName=Combo Racer

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Seduction/"
+IF EXISTS ENV:whdloadargs
+	whdload "Seduction.Slave" $whdloadargs
+ELSE
+	whdload "Seduction.Slave"
+ENDIF

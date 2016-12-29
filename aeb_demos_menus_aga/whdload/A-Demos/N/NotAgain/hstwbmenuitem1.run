@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/NotAgain/"
+IF EXISTS ENV:whdloadargs
+	whdload "NotAgain.slave" $whdloadargs
+ELSE
+	whdload "NotAgain.slave"
+ENDIF

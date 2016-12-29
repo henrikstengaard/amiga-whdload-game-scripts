@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Caesar
+RunFile=Caesar.Slave
+AGS2Name=Caesar
+AGS2IndexName=C
+AGS2FileName=Caesar
+iGameName=Caesar

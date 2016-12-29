@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FantasticVoyageCDTV/"
+IF EXISTS ENV:whdloadargs
+	whdload "FantasticVoyageCDTV.slave" $whdloadargs
+ELSE
+	whdload "FantasticVoyageCDTV.slave"
+ENDIF

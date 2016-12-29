@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Saint Dragon
+RunFile=SaintDragon.Slave
+AGS2Name=Saint Dragon
+AGS2IndexName=S
+AGS2FileName=Saint Dragon
+iGameName=Saint Dragon

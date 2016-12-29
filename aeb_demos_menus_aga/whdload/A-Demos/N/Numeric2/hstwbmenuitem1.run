@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:N/Numeric2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Numeric2.Slave" $whdloadargs
+ELSE
+	whdload "Numeric2.Slave"
+ENDIF

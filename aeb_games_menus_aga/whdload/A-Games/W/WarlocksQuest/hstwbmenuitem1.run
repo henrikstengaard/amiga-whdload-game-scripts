@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:W/WarlocksQuest/"
+IF EXISTS ENV:whdloadargs
+	whdload "WarlocksQuest.Slave" $whdloadargs
+ELSE
+	whdload "WarlocksQuest.Slave"
+ENDIF

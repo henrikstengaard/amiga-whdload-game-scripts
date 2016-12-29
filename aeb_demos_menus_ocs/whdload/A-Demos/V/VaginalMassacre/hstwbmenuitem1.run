@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:V/VaginalMassacre/"
+IF EXISTS ENV:whdloadargs
+	whdload "VaginalMassacre.slave" $whdloadargs
+ELSE
+	whdload "VaginalMassacre.slave"
+ENDIF

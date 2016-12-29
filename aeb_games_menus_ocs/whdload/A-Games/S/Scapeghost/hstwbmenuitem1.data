@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Scapeghost
+RunFile=Scapeghost.Slave
+AGS2Name=Scapeghost
+AGS2IndexName=S
+AGS2FileName=Scapeghost
+iGameName=Scapeghost

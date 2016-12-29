@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/FatalMission/"
+IF EXISTS ENV:whdloadargs
+	whdload "FatalMission.slave" $whdloadargs
+ELSE
+	whdload "FatalMission.slave"
+ENDIF

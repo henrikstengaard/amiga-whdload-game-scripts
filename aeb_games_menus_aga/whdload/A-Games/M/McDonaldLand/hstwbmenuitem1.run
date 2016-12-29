@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:M/McDonaldLand/"
+IF EXISTS ENV:whdloadargs
+	whdload "McDonaldLand.Slave" $whdloadargs
+ELSE
+	whdload "McDonaldLand.Slave"
+ENDIF

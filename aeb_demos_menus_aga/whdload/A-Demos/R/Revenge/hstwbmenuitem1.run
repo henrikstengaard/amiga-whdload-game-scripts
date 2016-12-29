@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:R/Revenge/"
+IF EXISTS ENV:whdloadargs
+	whdload "Revenge.Slave" $whdloadargs
+ELSE
+	whdload "Revenge.Slave"
+ENDIF

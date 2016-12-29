@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Frankenstein
+RunFile=Frankenstein.slave
+AGS2Name=Frankenstein
+AGS2IndexName=F
+AGS2FileName=Frankenstein
+iGameName=Frankenstein

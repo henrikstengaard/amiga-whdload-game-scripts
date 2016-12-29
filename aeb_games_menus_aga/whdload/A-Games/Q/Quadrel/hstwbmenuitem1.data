@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Quadrel
+RunFile=Quadrel.Slave
+AGS2Name=Quadrel
+AGS2IndexName=Q
+AGS2FileName=Quadrel
+iGameName=Quadrel

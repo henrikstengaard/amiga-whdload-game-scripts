@@ -1,4 +1,5 @@
 Name      : Roadkill
+Version   : AGA
 Publisher : Acid Software
 Year      : 1994
 Genre     : Racing - Overhead

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Gloom AGA
+RunFile=GloomAGA.slave
+AGS2Name=Gloom AGA
+AGS2IndexName=G
+AGS2FileName=Gloom AGA
+iGameName=Gloom AGA

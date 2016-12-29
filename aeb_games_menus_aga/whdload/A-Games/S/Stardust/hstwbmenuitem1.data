@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Stardust
+RunFile=Stardust.Slave
+AGS2Name=Stardust
+AGS2IndexName=S
+AGS2FileName=Stardust
+iGameName=Stardust

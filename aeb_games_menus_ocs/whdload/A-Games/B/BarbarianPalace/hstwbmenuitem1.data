@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Barbarian
+RunFile=BarbarianPalace.Slave
+AGS2Name=Barbarian
+AGS2IndexName=B
+AGS2FileName=Barbarian
+iGameName=Barbarian

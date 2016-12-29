@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:S/Shaft7/"
+IF EXISTS ENV:whdloadargs
+	whdload "Shaft7.Slave" $whdloadargs
+ELSE
+	whdload "Shaft7.Slave"
+ENDIF

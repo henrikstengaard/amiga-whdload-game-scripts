@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Black Hornet
+RunFile=BlackHornet.Slave
+AGS2Name=Black Hornet
+AGS2IndexName=B
+AGS2FileName=Black Hornet
+iGameName=Black Hornet

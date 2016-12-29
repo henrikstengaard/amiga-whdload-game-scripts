@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/ShermanM4/"
+IF EXISTS ENV:whdloadargs
+	whdload "ShermanM4.slave" $whdloadargs
+ELSE
+	whdload "ShermanM4.slave"
+ENDIF

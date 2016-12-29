@@ -1,4 +1,0 @@
-Name      : BombPac
-Year      : 1994
-Players   : 1
-Whdload   : BombPacCD32AGA.Slave

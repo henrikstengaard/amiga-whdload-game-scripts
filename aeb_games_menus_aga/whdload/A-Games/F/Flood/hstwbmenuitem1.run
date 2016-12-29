@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:F/Flood/"
+IF EXISTS ENV:whdloadargs
+	whdload "Flood.Slave" $whdloadargs
+ELSE
+	whdload "Flood.Slave"
+ENDIF

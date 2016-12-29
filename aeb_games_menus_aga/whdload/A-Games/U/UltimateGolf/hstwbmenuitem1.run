@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:U/UltimateGolf/"
+IF EXISTS ENV:whdloadargs
+	whdload "UltimateGolf.slave" $whdloadargs
+ELSE
+	whdload "UltimateGolf.slave"
+ENDIF

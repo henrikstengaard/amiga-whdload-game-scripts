@@ -1,6 +1,6 @@
 Name      : Mentor
-Publisher : MarkSoft
 Language  : Polish
+Publisher : MarkSoft
 Year      : 1994
 Players   : 1
 Whdload   : MentorPl.Slave

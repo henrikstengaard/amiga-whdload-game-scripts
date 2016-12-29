@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:D/DennisAGADesktopDynamite/"
+IF EXISTS ENV:whdloadargs
+	whdload "DennisAGA.slave" $whdloadargs
+ELSE
+	whdload "DennisAGA.slave"
+ENDIF

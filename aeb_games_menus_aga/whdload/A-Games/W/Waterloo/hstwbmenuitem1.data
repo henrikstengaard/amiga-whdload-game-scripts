@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Waterloo
+RunFile=Waterloo.Slave
+AGS2Name=Waterloo
+AGS2IndexName=W
+AGS2FileName=Waterloo
+iGameName=Waterloo

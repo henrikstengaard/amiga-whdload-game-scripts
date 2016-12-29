@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Transplant/"
+IF EXISTS ENV:whdloadargs
+	whdload "Transplant.Slave" $whdloadargs
+ELSE
+	whdload "Transplant.Slave"
+ENDIF

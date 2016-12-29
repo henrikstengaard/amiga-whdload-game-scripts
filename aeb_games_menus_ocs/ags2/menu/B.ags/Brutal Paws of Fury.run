@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:B/BrutalPawsOfFury/BrutalPawsOfFury.slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "B" "Brutal Paws of Fury"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "B" "Brutal Paws of Fury"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:B/BrutalPawsOfFury/"
 IF EXISTS ENV:whdloadargs
-	whdload "BrutalPawsOfFury.slave" $whdloadargs
+  whdload "BrutalPawsOfFury.slave" $whdloadargs
 ELSE
-	whdload "BrutalPawsOfFury.slave"
+  whdload "BrutalPawsOfFury.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

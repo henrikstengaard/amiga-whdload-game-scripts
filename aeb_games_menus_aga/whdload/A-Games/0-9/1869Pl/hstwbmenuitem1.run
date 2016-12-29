@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:0-9/1869Pl/"
+IF EXISTS ENV:whdloadargs
+	whdload "1869Pl.Slave" $whdloadargs
+ELSE
+	whdload "1869Pl.Slave"
+ENDIF

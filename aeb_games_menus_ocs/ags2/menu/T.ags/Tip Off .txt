@@ -1,6 +1,0 @@
-Name      : Tip Off
-Publisher : Anco
-Year      : 1991
-Genre     : Sports - Basketball
-Players   : 1 to 4, Simultaneous
-Whdload   : TipOffNTSC.Slave

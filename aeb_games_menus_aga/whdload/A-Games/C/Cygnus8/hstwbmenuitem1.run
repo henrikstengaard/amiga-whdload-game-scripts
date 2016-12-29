@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:C/Cygnus8/"
+IF EXISTS ENV:whdloadargs
+	whdload "Cygnus8.Slave" $whdloadargs
+ELSE
+	whdload "Cygnus8.Slave"
+ENDIF

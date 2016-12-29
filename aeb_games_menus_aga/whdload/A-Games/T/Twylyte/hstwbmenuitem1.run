@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/Twylyte/"
+IF EXISTS ENV:whdloadargs
+	whdload "Twylyte.Slave" $whdloadargs
+ELSE
+	whdload "Twylyte.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Tetra Quest
+RunFile=TetraQuest.slave
+AGS2Name=Tetra Quest
+AGS2IndexName=T
+AGS2FileName=Tetra Quest
+iGameName=Tetra Quest

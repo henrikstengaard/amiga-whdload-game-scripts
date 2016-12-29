@@ -1,4 +1,5 @@
 Name      : Space Crusade
+Version   : VoyageBeyond
 Publisher : Gremlin Graphics
 Year      : 1992
 Genre     : Adventure - Miscellaneous

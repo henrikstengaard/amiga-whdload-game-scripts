@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StarushImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "StarushImage.Slave" $whdloadargs
+ELSE
+	whdload "StarushImage.Slave"
+ENDIF

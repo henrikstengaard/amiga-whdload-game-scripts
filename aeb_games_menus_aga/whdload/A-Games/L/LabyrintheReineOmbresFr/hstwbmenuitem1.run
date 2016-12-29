@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LabyrintheReineOmbresFr/"
+IF EXISTS ENV:whdloadargs
+	whdload "LabyrintheReineOmbresFr.Slave" $whdloadargs
+ELSE
+	whdload "LabyrintheReineOmbresFr.Slave"
+ENDIF

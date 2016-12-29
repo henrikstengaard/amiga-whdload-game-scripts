@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StrikeAces/"
+IF EXISTS ENV:whdloadargs
+	whdload "StrikeAces.Slave" $whdloadargs
+ELSE
+	whdload "StrikeAces.Slave"
+ENDIF

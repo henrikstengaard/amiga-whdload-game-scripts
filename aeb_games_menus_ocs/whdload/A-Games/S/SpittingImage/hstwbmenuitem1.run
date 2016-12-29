@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpittingImage/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpittingImage.slave" $whdloadargs
+ELSE
+	whdload "SpittingImage.slave"
+ENDIF

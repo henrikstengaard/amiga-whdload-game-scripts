@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:D/DetKniber/"
+IF EXISTS ENV:whdloadargs
+	whdload "DetKniber.slave" $whdloadargs
+ELSE
+	whdload "DetKniber.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Starush
+Version   : Image
+Publisher : Ubi Soft
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+Whdload   : StarushImage.Slave

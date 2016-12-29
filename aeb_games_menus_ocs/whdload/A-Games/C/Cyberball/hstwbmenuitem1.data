@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Cyberball
+RunFile=Cyberball.slave
+AGS2Name=Cyberball
+AGS2IndexName=C
+AGS2FileName=Cyberball
+iGameName=Cyberball

@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Indianapolis 500
+RunFile=Indianapolis500.slave
+AGS2Name=Indianapolis 500
+AGS2IndexName=I
+AGS2FileName=Indianapolis 500
+iGameName=Indianapolis 500

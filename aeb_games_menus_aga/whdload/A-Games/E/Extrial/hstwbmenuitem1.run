@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:E/Extrial/"
+IF EXISTS ENV:whdloadargs
+	whdload "Extrial.slave" $whdloadargs
+ELSE
+	whdload "Extrial.slave"
+ENDIF

@@ -1,0 +1,7 @@
+Name      : Hired Guns
+Version   : 1MB
+Publisher : Psygnosis
+Year      : 1993
+Genre     : Adventure - RPG 3D
+Players   : 1 to 4, Simultaneous
+Whdload   : HiredGuns1MB.Slave

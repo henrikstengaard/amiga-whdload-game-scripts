@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:G/Gobliins2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Gobliins2.slave" $whdloadargs
+ELSE
+	whdload "Gobliins2.slave"
+ENDIF

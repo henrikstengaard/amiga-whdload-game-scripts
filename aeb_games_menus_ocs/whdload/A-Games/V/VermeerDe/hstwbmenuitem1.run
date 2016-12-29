@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:V/VermeerDe/"
+IF EXISTS ENV:whdloadargs
+	whdload "VermeerDe.Slave" $whdloadargs
+ELSE
+	whdload "VermeerDe.Slave"
+ENDIF

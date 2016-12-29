@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:K/Kristal/"
+IF EXISTS ENV:whdloadargs
+	whdload "Kristal.Slave" $whdloadargs
+ELSE
+	whdload "Kristal.Slave"
+ENDIF

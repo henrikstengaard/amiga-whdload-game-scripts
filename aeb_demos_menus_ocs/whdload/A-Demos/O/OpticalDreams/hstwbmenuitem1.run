@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:O/OpticalDreams/"
+IF EXISTS ENV:whdloadargs
+	whdload "OpticalDreams.Slave" $whdloadargs
+ELSE
+	whdload "OpticalDreams.Slave"
+ENDIF

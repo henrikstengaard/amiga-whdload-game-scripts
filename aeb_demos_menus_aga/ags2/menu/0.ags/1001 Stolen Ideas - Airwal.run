@@ -1,12 +1,16 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:0-9/1001StolenIdeas/1001StolenIdeas.Slave
+
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
-	execute S:Favourites "ags2" "0" "1001 Stolen Ideas - Airwal"
-	IF $favouritesmode EQ "add"
-		SKIP end
-	ENDIF
-	IF $favouritesmode EQ "remove"
-		SKIP end
-	ENDIF
+  execute S:AGS2Favourites "0" "1001 Stolen Ideas - Airwal"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
 ENDIF
 
 ; Start AGS2 Run Pre Script, if it exists
@@ -17,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Demos:0-9/1001StolenIdeas/"
 IF EXISTS ENV:whdloadargs
-	whdload "1001StolenIdeas.Slave" $whdloadargs
+  whdload "1001StolenIdeas.Slave" $whdloadargs
 ELSE
-	whdload "1001StolenIdeas.Slave"
+  whdload "1001StolenIdeas.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
@@ -29,4 +33,3 @@ ENDIF
 
 ; End
 LAB end
-

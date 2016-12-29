@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Apocalypse
+RunFile=Apocalypse.Slave
+AGS2Name=Apocalypse
+AGS2IndexName=A
+AGS2FileName=Apocalypse
+iGameName=Apocalypse

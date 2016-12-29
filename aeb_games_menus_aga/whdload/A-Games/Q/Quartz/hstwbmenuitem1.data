@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Quartz
+RunFile=Quartz.slave
+AGS2Name=Quartz
+AGS2IndexName=Q
+AGS2FileName=Quartz
+iGameName=Quartz

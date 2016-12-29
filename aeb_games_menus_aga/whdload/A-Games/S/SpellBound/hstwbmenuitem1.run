@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/SpellBound/"
+IF EXISTS ENV:whdloadargs
+	whdload "SpellBound.Slave" $whdloadargs
+ELSE
+	whdload "SpellBound.Slave"
+ENDIF

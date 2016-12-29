@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Sneech
+RunFile=Sneech.Slave
+AGS2Name=Sneech
+AGS2IndexName=S
+AGS2FileName=Sneech
+iGameName=Sneech

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:T/TopCat/"
+IF EXISTS ENV:whdloadargs
+	whdload "TopCat.Slave" $whdloadargs
+ELSE
+	whdload "TopCat.Slave"
+ENDIF

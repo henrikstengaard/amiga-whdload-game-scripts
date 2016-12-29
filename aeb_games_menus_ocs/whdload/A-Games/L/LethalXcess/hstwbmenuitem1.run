@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:L/LethalXcess/"
+IF EXISTS ENV:whdloadargs
+	whdload "LethalXcess.slave" $whdloadargs
+ELSE
+	whdload "LethalXcess.slave"
+ENDIF

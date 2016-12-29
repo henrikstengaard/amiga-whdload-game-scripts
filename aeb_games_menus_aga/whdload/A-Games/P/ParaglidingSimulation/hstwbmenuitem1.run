@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ParaglidingSimulation/"
+IF EXISTS ENV:whdloadargs
+	whdload "ParaglidingSimulation.Slave" $whdloadargs
+ELSE
+	whdload "ParaglidingSimulation.Slave"
+ENDIF

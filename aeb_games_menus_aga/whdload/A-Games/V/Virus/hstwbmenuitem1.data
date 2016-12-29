@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Virus
+RunFile=Virus.slave
+AGS2Name=Virus
+AGS2IndexName=V
+AGS2FileName=Virus
+iGameName=Virus

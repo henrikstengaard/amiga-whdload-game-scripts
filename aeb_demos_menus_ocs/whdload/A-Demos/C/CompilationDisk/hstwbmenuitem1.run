@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Demos:C/CompilationDisk/"
+IF EXISTS ENV:whdloadargs
+	whdload "CompilationDisk.Slave" $whdloadargs
+ELSE
+	whdload "CompilationDisk.Slave"
+ENDIF

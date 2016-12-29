@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/Paperboy2/"
+IF EXISTS ENV:whdloadargs
+	whdload "Paperboy2.slave" $whdloadargs
+ELSE
+	whdload "Paperboy2.slave"
+ENDIF

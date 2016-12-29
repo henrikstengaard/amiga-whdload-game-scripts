@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=Raffles CDTV
+RunFile=RafflesCDTV.slave
+AGS2Name=Raffles CDTV
+AGS2IndexName=R
+AGS2FileName=Raffles CDTV
+iGameName=Raffles CDTV

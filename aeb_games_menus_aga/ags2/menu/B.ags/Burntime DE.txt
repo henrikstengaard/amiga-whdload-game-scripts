@@ -1,6 +1,6 @@
 Name      : Burntime
-Publisher : Max Design
 Language  : German
+Publisher : Max Design
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 or 2

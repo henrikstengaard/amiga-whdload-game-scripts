@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:S/StarControl/"
+IF EXISTS ENV:whdloadargs
+	whdload "StarControl.Slave" $whdloadargs
+ELSE
+	whdload "StarControl.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Whdload
+cd "A-Games:P/ProTennisTour2512KB/"
+IF EXISTS ENV:whdloadargs
+	whdload "ProTennisTour2512KB.Slave" $whdloadargs
+ELSE
+	whdload "ProTennisTour2512KB.Slave"
+ENDIF
