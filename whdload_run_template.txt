@@ -1,0 +1,7 @@
+; Whdload
+cd "[$WhdloadSlaveStartPath]"
+IF EXISTS ENV:whdloadargs
+	whdload "[$WhdloadSlaveFileName]" $whdloadargs
+ELSE
+	whdload "[$WhdloadSlaveFileName]"
+ENDIF
