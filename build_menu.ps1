@@ -167,30 +167,78 @@ function BuildName($nameFormat, $whdloadSlave)
 
 	$name = $name -replace '\s*\[[^\[\]]*\]', ''
 
-	if ($whdloadSlave.FilteredHardware -and $whdloadSlave.FilteredHardware -match '(cd32|aga)')
+	$whdloadSlaveName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath) -replace '\.slave$'
+
+	if ($whdloadSlave.WhdloadName -ne $whdloadSlaveName)
 	{
-		$name += ' ' + $whdloadSlave.FilteredHardware.ToUpper()
+		$extra = $whdloadSlaveName.Replace($whdloadSlave.WhdloadName, '')
+
+		if ($whdloadSlave.DetailName)
+		{
+			$extra = $extra.Replace($whdloadSlave.DetailName, '')
+		}
+
+		if ($whdloadSlave.FilteredCompilation)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredCompilation, '')
+		}
+
+		if ($whdloadSlave.FilteredLanguage)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredLanguage, '')
+		}
+
+		if ($whdloadSlave.FilteredHardware)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredHardware, '')
+		}
+
+		if ($whdloadSlave.FilteredMemory)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredMemory, '')
+		}
+
+		if ($whdloadSlave.FilteredDemo)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredDemo, '')
+		}
+
+		if ($whdloadSlave.FilteredOther)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredOther, '')
+		}
+
+		$name += ' ' + $extra
+	}
+
+	if ($whdloadSlave.FilteredCompilation)
+	{
+		$name += ' ' + ($whdloadSlave.FilteredCompilation -replace '&', '' -replace ',', ' ')
 	}
 
 	if ($whdloadSlave.FilteredLanguage)
 	{
-		$name += ' ' + $whdloadSlave.FilteredLanguage.ToUpper()
+		$name += ' ' + ($whdloadSlave.FilteredLanguage.ToUpper() -replace ',', ' ')
 	}
 
-	# set whdload slave file name
-	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
-
-	# detect if extra is needed
-	$extra = $whdloadSlaveFileName -replace '\.slave', ''
-
-	if ($name.ToLower() -ne $extra.ToLower())
+	if ($whdloadSlave.FilteredHardware -notmatch '(ocs|ecs)')
 	{
-		$extra = $extra.Replace($whdloadSlave.WhdloadName, '')
+		$name += ' ' + ($whdloadSlave.FilteredHardware.ToUpper() -replace ',', ' ')
+	}
 
-		if ($extra.length -gt 0)
-		{
-			$name += ' ' + (Capitalize $extra)
-		}
+	if ($whdloadSlave.FilteredMemory)
+	{
+		$name += ' ' + ($whdloadSlave.FilteredMemory.ToUpper() -replace ',', ' ')
+	}
+
+	if ($whdloadSlave.FilteredDemo)
+	{
+		$name += ' ' + ($whdloadSlave.FilteredDemo -replace ',', ' ')
+	}
+
+	if ($whdloadSlave.FilteredOther)
+	{
+		$name += ' ' + ($whdloadSlave.FilteredOther -replace ',', ' ')
 	}
 
 	return $name
@@ -298,6 +346,7 @@ function BuildMenuItemDetailText($whdloadSlave)
 	{
 		switch ($whdloadSlave.FilteredLanguage.ToLower())
 		{
+			"dk" { $language = "Danish" }
 			"de" { $language = "German" }
 			"fr" { $language = "French" }
 			"it" { $language = "Italian" }
@@ -313,6 +362,38 @@ function BuildMenuItemDetailText($whdloadSlave)
 		{
 			$detailColumnsIndex.Set_Item("Language", $language)
 		}
+	}
+
+	$version = @()
+
+	if ($whdloadSlave.FilteredCompilation)
+	{
+		$version += $whdloadSlave.FilteredCompilation -replace '&', '' -replace ',', ' '
+	}
+	
+	if ($whdloadSlave.FilteredHardware -notmatch '(ocs|ecs)')
+	{
+		$version += $whdloadSlave.FilteredHardware.ToUpper() -replace ',', ' '
+	}
+
+	if ($whdloadSlave.FilteredMemory)
+	{
+		$version += $whdloadSlave.FilteredMemory.ToUpper() -replace ',', ' '
+	}
+
+	if ($whdloadSlave.FilteredDemo)
+	{
+		$version += $whdloadSlave.FilteredDemo -replace ',', ' '
+	}
+
+	if ($whdloadSlave.FilteredOther)
+	{
+		$version += $whdloadSlave.FilteredOther -replace ',', ' '
+	}
+
+	if ($version.Count -gt 0)
+	{
+		$detailColumnsIndex.Set_Item("Version", ($version -join ' '))
 	}
 
 	foreach($column in $detailColumnsList)
@@ -534,7 +615,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# build ags2 menu item start text	
-		$ags2MenuItemStartTextParameters = @{ "Menu" = "ags2"; "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = ($ags2MenuItemIndexName); "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
+		$ags2MenuItemStartTextParameters = @{ "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = $ags2MenuItemIndexName; "RunDir" = $whdloadSlaveStartPath; "RunFileName" = $whdloadSlaveFileName; "RunFile" = ($whdloadSlaveStartPath + $whdloadSlaveFileName) }
 		$ags2MenuItemStartText = BuildTemplateText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
 		
 		# write ags2 menu item start file	
@@ -610,8 +691,8 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$amsMenuItemIffFile = [System.IO.Path]::Combine($amsMenuItemPath, ($amsMenuItemFileName + ".iff"))
 
 		
-		# build ams menu item start	text	
-		$amsMenuItemStartTextParameters = @{ "Menu" = "ams"; "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
+		# build ams menu item start	text
+		$amsMenuItemStartTextParameters = @{ "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "RunDir" = $whdloadSlaveStartPath; "RunFileName" = $whdloadSlaveFileName; "RunFile" = ($whdloadSlaveStartPath + $whdloadSlaveFileName) }
 		$amsMenuItemStartText = BuildTemplateText $amsMenuItemRunTemplateFile $amsMenuItemStartTextParameters
 		
 		# write ams menu item start file
