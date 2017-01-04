@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:G/GoldOfTheAztecs_Kernal1.1/GoldOfTheAztecs(v1.1).Slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "G" "Gold of the Aztecs. The v1"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Games:G/GoldOfTheAztecs_Kernal1.1/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoldOfTheAztecs(v1.1).Slave" $whdloadargs
+ELSE
+  whdload "GoldOfTheAztecs(v1.1).Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

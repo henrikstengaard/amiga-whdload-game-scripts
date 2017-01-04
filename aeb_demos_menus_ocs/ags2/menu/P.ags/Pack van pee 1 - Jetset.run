@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:P/PackVanPee1/PackVanPee1.Slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "P" "Pack van pee 1 - Jetset"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Demos:P/PackVanPee1/"
+IF EXISTS ENV:whdloadargs
+  whdload "PackVanPee1.Slave" $whdloadargs
+ELSE
+  whdload "PackVanPee1.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Demos:T/TopKaraoke2AGA/TopKaraoke2AGA.Slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "T" "Top Karaoke Vol.2 - Sat V2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Demos:T/TopKaraoke2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "TopKaraoke2AGA.Slave" $whdloadargs
+ELSE
+  whdload "TopKaraoke2AGA.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

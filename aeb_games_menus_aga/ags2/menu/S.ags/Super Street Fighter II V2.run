@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:S/SuperStreetFighter2AGA/SuperStreetFighter2AGA.Slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "S" "Super Street Fighter II V2"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Games:S/SuperStreetFighter2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperStreetFighter2AGA.Slave" $whdloadargs
+ELSE
+  whdload "SuperStreetFighter2AGA.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

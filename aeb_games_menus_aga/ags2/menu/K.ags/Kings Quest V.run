@@ -1,0 +1,35 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=A-Games:K/KingsQuest5/KingsQuest5.slave
+
+; Favourites Mode
+IF EXISTS ENV:favouritesmode
+  execute S:AGS2Favourites "K" "Kings Quest V"
+  IF $favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Whdload
+cd "A-Games:K/KingsQuest5/"
+IF EXISTS ENV:whdloadargs
+  whdload "KingsQuest5.slave" $whdloadargs
+ELSE
+  whdload "KingsQuest5.slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
