@@ -1,0 +1,4 @@
+powershell -ExecutionPolicy Bypass -File build_aeb_whdload_package.ps1 -eabWhdloadPath "aeb_whdload_games_aga" -packageName "EAB WHDLoad Games AGA" -packageVersion "2.6.0" -packageInstallDir "WORKDIR:WHDLoad/Games"
+powershell -ExecutionPolicy Bypass -File build_aeb_whdload_package.ps1 -eabWhdloadPath "aeb_whdload_games_ocs" -packageName "EAB WHDLoad Games OCS" -packageVersion "2.6.0" -packageInstallDir "WORKDIR:WHDLoad/Games"
+powershell -ExecutionPolicy Bypass -File build_aeb_whdload_package.ps1 -eabWhdloadPath "aeb_whdload_demos_aga" -packageName "EAB WHDLoad Demos AGA" -packageVersion "2.6.0" -packageInstallDir "WORKDIR:WHDLoad/Demos"
+powershell -ExecutionPolicy Bypass -File build_aeb_whdload_package.ps1 -eabWhdloadPath "aeb_whdload_demos_ocs" -packageName "EAB WHDLoad Demos OCS" -packageVersion "2.6.0" -packageInstallDir "WORKDIR:WHDLoad/Demos"
