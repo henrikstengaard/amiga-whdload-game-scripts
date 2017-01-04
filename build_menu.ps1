@@ -173,14 +173,27 @@ function BuildName($nameFormat, $whdloadSlave)
 	{
 		$extra = $whdloadSlaveName.Replace($whdloadSlave.WhdloadName, '')
 
+		$whdloadNameWithoutHardware = $whdloadSlave.WhdloadName.Replace($whdloadSlave.FilteredHardware, '')
+		$extra = $extra.Replace($whdloadNameWithoutHardware, '')
+
 		if ($whdloadSlave.DetailName)
 		{
 			$extra = $extra.Replace($whdloadSlave.DetailName, '')
 		}
 
+		if ($whdloadSlave.FilteredName)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredName, '')
+		}
+
+		if ($whdloadSlave.FilteredHardware)
+		{
+			$extra = $extra.Replace($whdloadSlave.FilteredHardware, '')
+		}
+
 		if ($whdloadSlave.FilteredCompilation)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredCompilation, '')
+			$extra = $extra.Replace(($whdloadSlave.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', ''), '')
 		}
 
 		if ($whdloadSlave.FilteredLanguage)
@@ -208,12 +221,17 @@ function BuildName($nameFormat, $whdloadSlave)
 			$extra = $extra.Replace($whdloadSlave.FilteredOther, '')
 		}
 
-		$name += ' ' + $extra
+		$extra = $extra -replace '^[&_]', '' -replace '[&_]$', ''
+
+		if ($extra.Length -gt 0)
+		{
+			$name += ' ' + $extra
+		}
 	}
 
-	if ($whdloadSlave.FilteredCompilation)
+	if ($whdloadSlave.FilteredCompilation -and !$name.Contains($whdloadSlave.FilteredCompilation))
 	{
-		$name += ' ' + ($whdloadSlave.FilteredCompilation -replace '&', '' -replace ',', ' ')
+		$name += ' ' + ($whdloadSlave.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
 	}
 
 	if ($whdloadSlave.FilteredLanguage)
@@ -238,7 +256,7 @@ function BuildName($nameFormat, $whdloadSlave)
 
 	if ($whdloadSlave.FilteredOther)
 	{
-		$name += ' ' + ($whdloadSlave.FilteredOther -replace ',', ' ')
+		$name += ' ' + ($whdloadSlave.FilteredOther -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
 	}
 
 	return $name
@@ -356,6 +374,7 @@ function BuildMenuItemDetailText($whdloadSlave)
 			"cz" { $language = "Czech" }
 			"fi" { $language = "Finnish" }
 			"gr" { $language = "Greek" }
+			"cv" { $language = "Cabo Verde" }
 		}
 
 		if ($language)
@@ -630,9 +649,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# add ags2 name and filename to data lines
-		$hstwbMenuItemDataLines += "AGS2Name=$ags2Name"
-		$hstwbMenuItemDataLines += "AGS2IndexName=$ags2MenuItemIndexName"
-		$hstwbMenuItemDataLines += "AGS2FileName=$ags2MenuItemFileName"
+		$hstwbMenuItemDataLines += "AGS2Name=$ags2MenuItemFileName"
 	}
 
 
@@ -707,9 +724,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# add ams name and filename to data lines
-		$hstwbMenuItemDataLines += "AMSName=$amsName"
-		$hstwbMenuItemDataLines += "AMSIndexName=$amsMenuItemIndexName"
-		$hstwbMenuItemDataLines += "AMSFileName=$amsMenuItemFileName"
+		$hstwbMenuItemDataLines += "AMSName=$amsMenuItemFileName"
 	}
 
 
