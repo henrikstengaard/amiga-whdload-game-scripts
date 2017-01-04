@@ -77,10 +77,10 @@ foreach($whdloadSource in $whdloadSources)
 
 # Patterns for filtering versions of whdload slaves
 $hardwarePattern = '(CD32|AGA|CDTV|CD)$'
-$languagePattern = '(De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi|Gr)$'
-$memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512kb|512Kb|512KB)$'
-$demoPattern = '(Demo\d?|Demos|Preview)$'
-$otherPattern = '(AmigaFormat|AmigaAction|CUAmiga|TheOne|NoMusic|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image\d?|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|\dDisk|\(EasyPlay\))$'
+$languagePattern = '(En|De|DE|Fr|It|Se|Pl|Es|Cz|Dk|Fi|Gr|CV)$'
+$memoryPattern = '(Slow|Fast|LowMem|Chip|1MB|1Mb|2MB|15MB|512k|512K|512kb|512Kb|512KB)$'
+$demoPattern = '(Demo\d?|Demos|Preview|DemoLatest|DemoPlay|DemoRoll|Prerelease)$'
+$otherPattern = '(Alt|AmigaPower|AmigaFormat|AmigaAction|CUAmiga|TheOne|NoMusic|NoSounds|NoVoice|Fix|Fixed|Aminet|ComicRelief|Util|Files|Image\d?|060|Intro|NoIntro|NTSC|Censored|Kick31|Kick13|\dDisk|\(EasyPlay\)|_Kernal1.1|Cracked|HiRes|LoRes|Crunched|Decrunched)$'
 $compilationPattern = '(&Missions|&MissionDisk|&MissionDisks|&SceneryDisk\d*|&Hawaiian|&SceneryDisks|&CityDefense|&ExtraTime|&SpaceHarrier|&Missions|&ExtendedLevels|&CadaverThePayoff|&Planeteers|&ConstrSet|&ConstructionSet|&MstrTrcks|&DDisks|&DataDisk\d?|&DataDisks|&Profidisk|&Data|&TourDisk|&ChallengeGames|&VoyageBeyond|&RetrnFntZone|&RFantasyZone|&SummerGames2|&NewWorlds)'
 
 # Process whdload slaves
@@ -122,7 +122,13 @@ foreach ($whdloadSlave in $whdloadSlaves)
 
 		if ($name -cmatch $languagePattern)
 		{
-			$language +=, ($name | Select-String -Pattern $languagePattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
+			$match = ($name | Select-String -Pattern $languagePattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
+
+			if ($match -notmatch 'En')
+			{
+				$language +=, $match 
+			}
+
 			$name = $name -creplace $languagePattern, ''
 		}
 
@@ -146,10 +152,13 @@ foreach ($whdloadSlave in $whdloadSlaves)
 
 		if ($name -cmatch $compilationPattern)
 		{
-			$compilation +=, ($name | Select-String -Pattern $compilationPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1) 
+			$match = ($name | Select-String -Pattern $compilationPattern -CaseSensitive -AllMatches | % { $_.Matches } | % { $_.Groups[0].Value } | Select-Object -First 1)
+			$compilation +=, $match -replace '^&', ''
 			$name = $name -creplace $compilationPattern, ''
 		}
 	}
+
+	$name = $name -replace '&$', ''
 
 	# skip, if any exclude pattern matches hardware
 	if ($excludeHardwarePattern -and ($hardware | Where { $_ -match $excludeHardwarePattern }).Count -gt 0)
