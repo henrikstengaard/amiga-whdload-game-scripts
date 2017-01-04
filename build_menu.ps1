@@ -282,8 +282,8 @@ function WriteAmigaTextString($path, $text)
 
 function BuildMenuItemFileName($name, $menuItemFileNameIndex)
 {
-	# remove invalid characters from menu item file name
-	$menuItemFileName = $name -replace '[!:"\?\(\)\[\]]', '' -replace "/", "-"
+	# make menu item file name by normalizing text and remove file name invalid characters
+	$menuItemFileName = (Normalize $name) -replace ',', '.' -replace '[^a-z0-9\.&\-+ ]', ''
 
 	# if menu item file name is longer than max menu item file name length, then trim it to max menu item file name length characters
 	if ($menuItemFileName.length -gt $maxMenuItemFileNameLength)
@@ -306,7 +306,7 @@ function BuildMenuItemFileName($name, $menuItemFileNameIndex)
 			}
 			else
 			{
-				$newMenuItemFileName = $newMenuItemFileName.Substring(0,$newMenuItemFileName.length - $count.ToString().length - 2) + ' #' + $count
+				$newMenuItemFileName = $newMenuItemFileName.Substring(0,$newMenuItemFileName.length - $count.ToString().length - 2) + ' V' + $count
 				$count++
 			}
 		} while ($menuItemFileNameIndex.ContainsKey($newMenuItemFileName))
@@ -428,6 +428,45 @@ function BuildMenuItemDetailText($whdloadSlave)
 	$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "Whdload", [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath))
 	
 	return $menuItemDetailTextLines -join "`n"
+}
+
+function RemoveDiacritics([string]$text)
+{
+	$textFormD = $text.Normalize([System.Text.NormalizationForm]::FormD).ToCharArray()
+	$sb = New-Object -TypeName "System.Text.StringBuilder"
+
+	ForEach ($c in $textFormD)
+	{
+		$uc = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($c)
+		if ($uc -ne [System.Globalization.UnicodeCategory]::NonSpacingMark)
+		{
+			[void]$sb.Append($c)
+		}
+	}
+	
+	return $sb.ToString().Normalize([System.Text.NormalizationForm]::FormC)
+}
+
+function ConvertSuperscript([string]$text)
+{
+	$textFormKd = $text.Normalize([System.Text.NormalizationForm]::FormKD).ToCharArray()
+	$sb = New-Object -TypeName "System.Text.StringBuilder"
+
+	ForEach ($c in $textFormKd)
+	{
+		$uc = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($c)
+		if ($uc -ne [System.Globalization.UnicodeCategory]::NonSpacingMark)
+		{
+			[void]$sb.Append($c)
+		}
+	}
+
+	return $sb.ToString().Normalize([System.Text.NormalizationForm]::FormKC)
+}
+
+function Normalize([string]$text)
+{
+	return RemoveDiacritics (ConvertSuperscript $text)
 }
 
 
