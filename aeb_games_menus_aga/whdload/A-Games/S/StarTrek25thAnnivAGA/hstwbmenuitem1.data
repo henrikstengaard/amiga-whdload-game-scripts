@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Star Trek: 25th Anniversary AGA
 RunFile=StarTrek25thAnnivAGA.Slave
-AGS2Name=Star Trek: 25th Anniversary AGA
-AGS2IndexName=S
-AGS2FileName=Star Trek 25th Anniversary
+AGS2Name=Star Trek 25th Anniversary
 iGameName=Star Trek: 25th Anniversary AGA

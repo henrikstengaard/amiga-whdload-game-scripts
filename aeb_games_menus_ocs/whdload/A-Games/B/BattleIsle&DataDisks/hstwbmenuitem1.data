@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Battle Isle BattleIsle DataDisk
 RunFile=BattleIsle.Slave
-AGS2Name=Battle Isle BattleIsle DataDisk
-AGS2IndexName=B
-AGS2FileName=Battle Isle BattleIsle Dat
+AGS2Name=Battle Isle BattleIsle Dat
 iGameName=Battle Isle BattleIsle DataDisk

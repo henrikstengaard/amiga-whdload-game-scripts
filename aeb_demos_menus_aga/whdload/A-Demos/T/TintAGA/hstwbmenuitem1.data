@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Tint - The Black Lotus AGA
 RunFile=TintAGA.Slave
-AGS2Name=Tint - The Black Lotus AGA
-AGS2IndexName=T
-AGS2FileName=Tint - The Black Lotus  #2
+AGS2Name=Tint - The Black Lotus  #2
 iGameName=Tint - The Black Lotus AGA

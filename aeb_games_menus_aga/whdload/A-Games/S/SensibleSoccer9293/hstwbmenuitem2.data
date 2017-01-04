@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sensible Soccer: European Champions v1.1 (92/93 Edition)
 RunFile=SensibleSoccer9293.Slave
-AGS2Name=Sensible Soccer: European Champions v1.1 (92/93 Edition)
-AGS2IndexName=S
-AGS2FileName=Sensible Soccer Europea #2
+AGS2Name=Sensible Soccer Europea #2
 iGameName=Sensible Soccer: European Champions v1.1 (92/93 Edition)

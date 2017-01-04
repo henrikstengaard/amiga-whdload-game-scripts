@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Maximum velocity - The Silents
 RunFile=MaximumVelocity.Slave
-AGS2Name=Maximum velocity - The Silents
-AGS2IndexName=M
-AGS2FileName=Maximum velocity - The Sil
+AGS2Name=Maximum velocity - The Sil
 iGameName=Maximum velocity - The Silents

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Roadwars
 RunFile=RoadWarsArcadia.Slave
-AGS2Name=Roadwars
-AGS2IndexName=R
-AGS2FileName=Roadwars 
+AGS2Name=Roadwars 
 iGameName=Roadwars

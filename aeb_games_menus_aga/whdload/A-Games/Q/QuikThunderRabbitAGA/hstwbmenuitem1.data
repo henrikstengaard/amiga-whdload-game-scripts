@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Quik the Thunder Rabbit AGA
 RunFile=QuikThunderRabbitAGA.slave
-AGS2Name=Quik the Thunder Rabbit AGA
-AGS2IndexName=Q
-AGS2FileName=Quik the Thunder Rabbit AG
+AGS2Name=Quik the Thunder Rabbit AG
 iGameName=Quik the Thunder Rabbit AGA

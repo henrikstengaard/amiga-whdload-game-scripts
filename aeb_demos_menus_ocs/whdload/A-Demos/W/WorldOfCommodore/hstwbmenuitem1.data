@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=World of Commodore - Sanity
 RunFile=WorldOfCommodore.slave
-AGS2Name=World of Commodore - Sanity
-AGS2IndexName=W
-AGS2FileName=World of Commodore - Sanit
+AGS2Name=World of Commodore - Sanit
 iGameName=World of Commodore - Sanity

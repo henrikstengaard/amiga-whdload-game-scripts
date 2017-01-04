@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=UMS (Universal Military Simulator)
 RunFile=UniversalMilitarySim.Slave
-AGS2Name=UMS (Universal Military Simulator)
-AGS2IndexName=U
-AGS2FileName=UMS (Universal Military Si
+AGS2Name=UMS (Universal Military Si
 iGameName=UMS (Universal Military Simulator)

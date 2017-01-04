@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hero's Quest: So You Want To Be A Hero
 RunFile=QuestForGlory.slave
-AGS2Name=Hero's Quest: So You Want To Be A Hero
-AGS2IndexName=H
-AGS2FileName=Hero's Quest So You Want T
+AGS2Name=Hero's Quest So You Want T
 iGameName=Hero's Quest: So You Want To Be A Hero

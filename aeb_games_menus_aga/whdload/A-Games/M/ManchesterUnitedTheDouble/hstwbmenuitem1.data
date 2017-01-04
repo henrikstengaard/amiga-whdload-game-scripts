@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Manchester United: The Double
 RunFile=ManchesterUnitedTheDouble.slave
-AGS2Name=Manchester United: The Double
-AGS2IndexName=M
-AGS2FileName=Manchester United The Doub
+AGS2Name=Manchester United The Doub
 iGameName=Manchester United: The Double

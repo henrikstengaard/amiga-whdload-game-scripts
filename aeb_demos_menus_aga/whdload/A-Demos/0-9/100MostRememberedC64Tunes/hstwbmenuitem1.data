@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The 100 most remembered c64 game tunes - Sundell & Birk
 RunFile=100MostRememberedC64Tunes.Slave
-AGS2Name=The 100 most remembered c64 game tunes - Sundell & Birk
-AGS2IndexName=T
-AGS2FileName=The 100 most remembered c6
+AGS2Name=The 100 most remembered c6
 iGameName=The 100 most remembered c64 game tunes - Sundell & Birk

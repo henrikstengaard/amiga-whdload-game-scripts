@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Donk!: The Samurai Duck!
 RunFile=DonkTheSamuraiDuck.slave
-AGS2Name=Donk!: The Samurai Duck!
-AGS2IndexName=D
-AGS2FileName=Donk The Samurai Duck
+AGS2Name=Donk The Samurai Duck
 iGameName=Donk!: The Samurai Duck!

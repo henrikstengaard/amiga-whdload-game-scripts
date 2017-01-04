@@ -2,6 +2,4 @@
 Name=Chess Simulator
 RunFile=ChessSimulator.Slave
 AGS2Name=Chess Simulator
-AGS2IndexName=C
-AGS2FileName=Chess Simulator
 iGameName=Chess Simulator

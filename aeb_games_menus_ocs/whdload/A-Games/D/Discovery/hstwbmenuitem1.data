@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Discovery: In The Steps of Columbus
 RunFile=Discovery.Slave
-AGS2Name=Discovery: In The Steps of Columbus
-AGS2IndexName=D
-AGS2FileName=Discovery In The Steps of
+AGS2Name=Discovery In The Steps of
 iGameName=Discovery: In The Steps of Columbus

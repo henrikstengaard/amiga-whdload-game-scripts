@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Assassin: Special Edition
 RunFile=AssassinSpecialEdition.slave
-AGS2Name=Assassin: Special Edition
-AGS2IndexName=A
-AGS2FileName=Assassin Special Edition
+AGS2Name=Assassin Special Edition
 iGameName=Assassin: Special Edition

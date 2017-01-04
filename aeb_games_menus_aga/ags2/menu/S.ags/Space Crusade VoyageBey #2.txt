@@ -1,0 +1,7 @@
+Name      : Space Crusade
+Version   : VoyageBeyond
+Publisher : Gremlin Graphics
+Year      : 1992
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : VoyageBeyond.Slave

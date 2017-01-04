@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Not AGAin! - S.C.A.L.A. AGA
 RunFile=NotAgain.slave
-AGS2Name=Not AGAin! - S.C.A.L.A. AGA
-AGS2IndexName=N
-AGS2FileName=Not AGAin - S.C.A.L.A. AGA
+AGS2Name=Not AGAin - S.C.A.L.A. AGA
 iGameName=Not AGAin! - S.C.A.L.A. AGA

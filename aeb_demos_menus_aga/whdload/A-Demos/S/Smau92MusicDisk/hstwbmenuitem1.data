@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Smau 92 Music Disk - Nightfall
 RunFile=Smau92MusicDisk.Slave
-AGS2Name=Smau 92 Music Disk - Nightfall
-AGS2IndexName=S
-AGS2FileName=Smau 92 Music Disk - Night
+AGS2Name=Smau 92 Music Disk - Night
 iGameName=Smau 92 Music Disk - Nightfall

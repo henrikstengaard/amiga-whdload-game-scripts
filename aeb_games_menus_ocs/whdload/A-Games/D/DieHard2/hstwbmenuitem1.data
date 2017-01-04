@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Die Hard 2: Die Harder
 RunFile=DieHard2.Slave
-AGS2Name=Die Hard 2: Die Harder
-AGS2IndexName=D
-AGS2FileName=Die Hard 2 Die Harder
+AGS2Name=Die Hard 2 Die Harder
 iGameName=Die Hard 2: Die Harder

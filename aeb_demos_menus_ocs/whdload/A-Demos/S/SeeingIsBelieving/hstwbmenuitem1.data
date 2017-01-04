@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Seeing is believing - Anarchy
 RunFile=SeeingIsBelieving.slave
-AGS2Name=Seeing is believing - Anarchy
-AGS2IndexName=S
-AGS2FileName=Seeing is believing - Anar
+AGS2Name=Seeing is believing - Anar
 iGameName=Seeing is believing - Anarchy

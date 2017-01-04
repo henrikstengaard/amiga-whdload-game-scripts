@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Pinball Wizard
+Name=Pinball Wizard Prerelease
 RunFile=PinballWizardPrerelease.Slave
-AGS2Name=Pinball Wizard
-AGS2IndexName=P
-AGS2FileName=Pinball Wizard 
-iGameName=Pinball Wizard
+AGS2Name=Pinball Wizard Prerelease
+iGameName=Pinball Wizard Prerelease

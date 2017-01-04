@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Overdrive
 RunFile=OverdriveInfacto.Slave
-AGS2Name=Overdrive
-AGS2IndexName=O
-AGS2FileName=Overdrive 
+AGS2Name=Overdrive 
 iGameName=Overdrive

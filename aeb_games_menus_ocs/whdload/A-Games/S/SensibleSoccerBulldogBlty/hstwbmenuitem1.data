@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sensible Soccer: England vs Germany
 RunFile=SensibleSoccerBulldogBlty.Slave
-AGS2Name=Sensible Soccer: England vs Germany
-AGS2IndexName=S
-AGS2FileName=Sensible Soccer England vs
+AGS2Name=Sensible Soccer England vs
 iGameName=Sensible Soccer: England vs Germany

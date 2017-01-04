@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Incredible Crash Dummies, The
 RunFile=IncredibleCrashDummies.slave
-AGS2Name=Incredible Crash Dummies, The
-AGS2IndexName=I
-AGS2FileName=Incredible Crash Dummies,
+AGS2Name=Incredible Crash Dummies,
 iGameName=Incredible Crash Dummies, The

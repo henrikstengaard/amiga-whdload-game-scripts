@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Megademo 4 - Devil's Key - Alcatraz
 RunFile=DevilsKey.slave
-AGS2Name=Megademo 4 - Devil's Key - Alcatraz
-AGS2IndexName=M
-AGS2FileName=Megademo 4 - Devil's Key -
+AGS2Name=Megademo 4 - Devil's Key -
 iGameName=Megademo 4 - Devil's Key - Alcatraz

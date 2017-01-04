@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Vroom  DataDisk
+Name=Vroom DataDisk
 RunFile=Vroom.Slave
-AGS2Name=Vroom  DataDisk
-AGS2IndexName=V
-AGS2FileName=Vroom  DataDisk
-iGameName=Vroom  DataDisk
+AGS2Name=Vroom DataDisk
+iGameName=Vroom DataDisk

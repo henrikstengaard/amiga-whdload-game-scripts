@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=New Year Lemmings 1991/92
 RunFile=NewYearLemmings199192.Slave
-AGS2Name=New Year Lemmings 1991/92
-AGS2IndexName=N
-AGS2FileName=New Year Lemmings 1991-92
+AGS2Name=New Year Lemmings 1991-92
 iGameName=New Year Lemmings 1991/92

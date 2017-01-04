@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Desert Strike: Return to the Gulf
 RunFile=DesertStrike.slave
-AGS2Name=Desert Strike: Return to the Gulf
-AGS2IndexName=D
-AGS2FileName=Desert Strike Return to th
+AGS2Name=Desert Strike Return to th
 iGameName=Desert Strike: Return to the Gulf

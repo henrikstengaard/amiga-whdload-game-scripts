@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Xenon 2: Megablast CDTV
 RunFile=Xenon2CDTV.Slave
-AGS2Name=Xenon 2: Megablast CDTV
-AGS2IndexName=X
-AGS2FileName=Xenon 2 Megablast CDTV
+AGS2Name=Xenon 2 Megablast CDTV
 iGameName=Xenon 2: Megablast CDTV

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Maestro Jams vol.1 - Kefrens
 RunFile=MaestroJamsVol1.Slave
-AGS2Name=Maestro Jams vol.1 - Kefrens
-AGS2IndexName=M
-AGS2FileName=Maestro Jams vol.1 - Kefre
+AGS2Name=Maestro Jams vol.1 - Kefre
 iGameName=Maestro Jams vol.1 - Kefrens

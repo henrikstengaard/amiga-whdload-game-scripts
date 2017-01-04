@@ -1,0 +1,7 @@
+Name      : SimAnt
+Version   : LoRes
+Publisher : Ocean
+Year      : 1992
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : SimAntLoRes.Slave

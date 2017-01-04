@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Flight Simulator II SceneryDisk11
 RunFile=FlightSim2&SceneryDisk11.Slave
-AGS2Name=Flight Simulator II SceneryDisk11
-AGS2IndexName=F
-AGS2FileName=Flight Simulator II Sce #3
+AGS2Name=Flight Simulator II Sce #3
 iGameName=Flight Simulator II SceneryDisk11

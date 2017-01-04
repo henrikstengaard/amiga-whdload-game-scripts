@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Marvin's Marvellous Adventure AGA
 RunFile=MarvinsMarvellousAdvAGA.Slave
-AGS2Name=Marvin's Marvellous Adventure AGA
-AGS2IndexName=M
-AGS2FileName=Marvin's Marvellous Advent
+AGS2Name=Marvin's Marvellous Advent
 iGameName=Marvin's Marvellous Adventure AGA

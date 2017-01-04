@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Captain Planet and the Planeteers Planeteers
+Name=Captain Planet and the Planeteers
 RunFile=CaptainPlanet&Planeteers.Slave
-AGS2Name=Captain Planet and the Planeteers Planeteers
-AGS2IndexName=C
-AGS2FileName=Captain Planet and the Pla
-iGameName=Captain Planet and the Planeteers Planeteers
+AGS2Name=Captain Planet and the Pla
+iGameName=Captain Planet and the Planeteers

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sonic Attack - Dual Crew & Shining
 RunFile=SonicAttack.Slave
-AGS2Name=Sonic Attack - Dual Crew & Shining
-AGS2IndexName=S
-AGS2FileName=Sonic Attack - Dual Crew &
+AGS2Name=Sonic Attack - Dual Crew &
 iGameName=Sonic Attack - Dual Crew & Shining

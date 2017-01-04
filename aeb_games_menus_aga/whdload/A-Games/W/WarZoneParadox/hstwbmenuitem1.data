@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=War Zone
 RunFile=WarzoneParadox.Slave
-AGS2Name=War Zone
-AGS2IndexName=W
-AGS2FileName=War Zone 
+AGS2Name=War Zone 
 iGameName=War Zone

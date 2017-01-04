@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Out Run
 RunFile=OutRunUSGold.slave
-AGS2Name=Out Run
-AGS2IndexName=O
-AGS2FileName=Out Run 
+AGS2Name=Out Run 
 iGameName=Out Run

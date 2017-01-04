@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fuﬂball Total! DE
 RunFile=FussballTotalDe.Slave
-AGS2Name=Fuﬂball Total! DE
-AGS2IndexName=F
-AGS2FileName=Fuﬂball Total DE
+AGS2Name=Fuﬂball Total DE
 iGameName=Fuﬂball Total! DE

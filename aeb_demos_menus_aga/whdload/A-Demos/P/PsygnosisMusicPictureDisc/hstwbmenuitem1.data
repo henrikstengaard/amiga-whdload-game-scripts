@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S PsygnosisMusicPictureDis
 RunFile=PsygnosisMusicPictureDis.Slave
-AGS2Name=Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S PsygnosisMusicPictureDis
-AGS2IndexName=P
-AGS2FileName=Psygnosis Musical Picture
+AGS2Name=Psygnosis Musical Picture
 iGameName=Psygnosis Musical Picture Disc #1 - Psygnosis & S.R.S PsygnosisMusicPictureDis

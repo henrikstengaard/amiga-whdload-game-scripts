@@ -1,6 +1,0 @@
-Name      : Snoopy and Peanuts
-Publisher : The Edge
-Year      : 1989
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : Snoopy&PeanutsNoSounds.Slave

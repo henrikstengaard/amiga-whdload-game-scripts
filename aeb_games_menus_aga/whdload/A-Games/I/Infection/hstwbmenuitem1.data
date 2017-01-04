@@ -2,6 +2,4 @@
 Name=Infection
 RunFile=Infection.Slave
 AGS2Name=Infection
-AGS2IndexName=I
-AGS2FileName=Infection
 iGameName=Infection

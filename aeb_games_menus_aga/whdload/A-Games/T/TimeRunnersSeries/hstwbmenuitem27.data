@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Time Runners 12: A Target for the Cyborg TimeRunners12
 RunFile=TimeRunners12.Slave
-AGS2Name=Time Runners 12: A Target for the Cyborg TimeRunners12
-AGS2IndexName=T
-AGS2FileName=Time Runners 12 A Targe #2
+AGS2Name=Time Runners 12 A Targe #2
 iGameName=Time Runners 12: A Target for the Cyborg TimeRunners12

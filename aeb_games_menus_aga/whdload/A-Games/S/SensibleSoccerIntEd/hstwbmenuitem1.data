@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sensible Soccer v1.2 - International Edition 512K
 RunFile=SensibleSoccerIntEd512K.Slave
-AGS2Name=Sensible Soccer v1.2 - International Edition 512K
-AGS2IndexName=S
-AGS2FileName=Sensible Soccer v1.2 - Int
+AGS2Name=Sensible Soccer v1.2 - Int
 iGameName=Sensible Soccer v1.2 - International Edition 512K

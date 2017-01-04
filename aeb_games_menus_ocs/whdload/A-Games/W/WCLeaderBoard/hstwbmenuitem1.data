@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=World Class Leader Board
 RunFile=WCLeaderBoard.slave
-AGS2Name=World Class Leader Board
-AGS2IndexName=W
-AGS2FileName=World Class Leader Board 
+AGS2Name=World Class Leader Board 
 iGameName=World Class Leader Board

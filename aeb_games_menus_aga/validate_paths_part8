@@ -1315,8 +1315,8 @@ ENDIF
 IF NOT EXISTS "A-Games:L/Lemmings2512KB/"
   ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:L/Lemmings2512KB/Intro512KB.slave"
-  ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/Intro512KB.slave' doesn't exist!"
+IF NOT EXISTS "A-Games:L/Lemmings2512KB/Lemmings2512KB.slave"
+  ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/Lemmings2512KB.slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:L/Lemmings2512KB/igame.iff"
   ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/igame.iff' doesn't exist!"
@@ -1324,8 +1324,8 @@ ENDIF
 IF NOT EXISTS "A-Games:L/Lemmings2512KB/"
   ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:L/Lemmings2512KB/Lemmings2512KB.slave"
-  ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/Lemmings2512KB.slave' doesn't exist!"
+IF NOT EXISTS "A-Games:L/Lemmings2512KB/Intro512KB.slave"
+  ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/Intro512KB.slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:L/Lemmings2512KB/igame.iff"
   ECHO "ERROR: Path 'A-Games:L/Lemmings2512KB/igame.iff' doesn't exist!"

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Batman: The Movie
 RunFile=BatmanTheMovie.slave
-AGS2Name=Batman: The Movie
-AGS2IndexName=B
-AGS2FileName=Batman The Movie
+AGS2Name=Batman The Movie
 iGameName=Batman: The Movie

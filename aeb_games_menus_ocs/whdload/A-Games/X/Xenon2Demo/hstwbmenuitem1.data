@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Xenon 2: Megablast Demo
 RunFile=Xenon2Demo.Slave
-AGS2Name=Xenon 2: Megablast Demo
-AGS2IndexName=X
-AGS2FileName=Xenon 2 Megablast Demo
+AGS2Name=Xenon 2 Megablast Demo
 iGameName=Xenon 2: Megablast Demo

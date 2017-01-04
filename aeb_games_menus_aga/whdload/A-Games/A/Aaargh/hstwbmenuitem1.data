@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Aaargh!
 RunFile=Aaargh.Slave
-AGS2Name=Aaargh!
-AGS2IndexName=A
-AGS2FileName=Aaargh
+AGS2Name=Aaargh
 iGameName=Aaargh!

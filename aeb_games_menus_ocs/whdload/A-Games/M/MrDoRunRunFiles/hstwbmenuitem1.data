@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Do! Run Run Files
 RunFile=MrDoRunRunFiles.Slave
-AGS2Name=Do! Run Run Files
-AGS2IndexName=D
-AGS2FileName=Do Run Run Files
+AGS2Name=Do Run Run Files
 iGameName=Do! Run Run Files

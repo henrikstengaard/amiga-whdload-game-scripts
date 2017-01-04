@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Our definition of a boombastic demo style - Rebels
 RunFile=Boombastic.slave
-AGS2Name=Our definition of a boombastic demo style - Rebels
-AGS2IndexName=O
-AGS2FileName=Our definition of a boomba
+AGS2Name=Our definition of a boomba
 iGameName=Our definition of a boombastic demo style - Rebels

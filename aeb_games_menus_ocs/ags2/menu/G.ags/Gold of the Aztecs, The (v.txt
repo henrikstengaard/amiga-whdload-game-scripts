@@ -1,0 +1,7 @@
+Name      : Gold of the Aztecs, The
+Version   : _Kernal1.1
+Publisher : US Gold
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+Whdload   : GoldOfTheAztecs(v1.1).Slave

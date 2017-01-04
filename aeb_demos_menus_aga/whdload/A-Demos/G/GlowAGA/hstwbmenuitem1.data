@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Glow - The Black Lotus AGA
 RunFile=GlowAGA.slave
-AGS2Name=Glow - The Black Lotus AGA
-AGS2IndexName=G
-AGS2FileName=Glow - The Black Lotus  #2
+AGS2Name=Glow - The Black Lotus  #2
 iGameName=Glow - The Black Lotus AGA

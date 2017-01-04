@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Dog's Cogs - Nerve Axis AGA
 RunFile=DogsCogsAGA.Slave
-AGS2Name=The Dog's Cogs - Nerve Axis AGA
-AGS2IndexName=T
-AGS2FileName=The Dog's Cogs - Nerve  #2
+AGS2Name=The Dog's Cogs - Nerve  #2
 iGameName=The Dog's Cogs - Nerve Axis AGA

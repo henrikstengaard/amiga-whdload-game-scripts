@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Lords of the Realm FR AGA FAST
 RunFile=LordsOfTheRealmAGAFrFast.slave
-AGS2Name=Lords of the Realm FR AGA FAST
-AGS2IndexName=L
-AGS2FileName=Lords of the Realm FR AGA 
+AGS2Name=Lords of the Realm FR AGA 
 iGameName=Lords of the Realm FR AGA FAST

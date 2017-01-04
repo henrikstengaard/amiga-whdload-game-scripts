@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=SAS Combat Simulator
 RunFile=SASCombatSimulatorQFight.Slave
-AGS2Name=SAS Combat Simulator
-AGS2IndexName=S
-AGS2FileName=SAS Combat Simulator 
+AGS2Name=SAS Combat Simulator 
 iGameName=SAS Combat Simulator

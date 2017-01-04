@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Battle for the Ashes
+Name=Battle for the Ashes AmigaPower
 RunFile=BattleForAshesAmigaPower.Slave
-AGS2Name=Battle for the Ashes
-AGS2IndexName=B
-AGS2FileName=Battle for the Ashes 
-iGameName=Battle for the Ashes
+AGS2Name=Battle for the Ashes Amiga
+iGameName=Battle for the Ashes AmigaPower

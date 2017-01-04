@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sounds of Gnome - Mahoney & Kaktus,Northstar
 RunFile=SoundsOfGnome.slave
-AGS2Name=Sounds of Gnome - Mahoney & Kaktus,Northstar
-AGS2IndexName=S
-AGS2FileName=Sounds of Gnome - Mahoney
+AGS2Name=Sounds of Gnome - Mahoney
 iGameName=Sounds of Gnome - Mahoney & Kaktus,Northstar

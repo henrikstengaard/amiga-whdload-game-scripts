@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Manhunter 2: San Francisco
 RunFile=Manhunter2.slave
-AGS2Name=Manhunter 2: San Francisco
-AGS2IndexName=M
-AGS2FileName=Manhunter 2 San Francisco
+AGS2Name=Manhunter 2 San Francisco
 iGameName=Manhunter 2: San Francisco

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Kick Off 2 FR
 RunFile=KickOff2PlusWC90Fr.slave
-AGS2Name=Kick Off 2 FR
-AGS2IndexName=K
-AGS2FileName=Kick Off 2 FR 
+AGS2Name=Kick Off 2 FR 
 iGameName=Kick Off 2 FR

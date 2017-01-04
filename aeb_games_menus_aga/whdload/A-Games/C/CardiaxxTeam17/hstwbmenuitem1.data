@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cardiaxx
 RunFile=CardiaxxTeam17.Slave
-AGS2Name=Cardiaxx
-AGS2IndexName=C
-AGS2FileName=Cardiaxx 
+AGS2Name=Cardiaxx 
 iGameName=Cardiaxx

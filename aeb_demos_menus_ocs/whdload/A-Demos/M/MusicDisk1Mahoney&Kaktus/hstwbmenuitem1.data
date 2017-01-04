@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Musicdisk 1 - Mahoney & Kaktus
 RunFile=MusicDisk1Mahoney&Kaktus.Slave
-AGS2Name=Musicdisk 1 - Mahoney & Kaktus
-AGS2IndexName=M
-AGS2FileName=Musicdisk 1 - Mahoney & Ka
+AGS2Name=Musicdisk 1 - Mahoney & Ka
 iGameName=Musicdisk 1 - Mahoney & Kaktus

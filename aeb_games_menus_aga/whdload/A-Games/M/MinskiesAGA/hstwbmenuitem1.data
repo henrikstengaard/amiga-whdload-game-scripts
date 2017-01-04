@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Minskies ... The Abduction AGA
 RunFile=MinskiesAGA.slave
-AGS2Name=Minskies ... The Abduction AGA
-AGS2IndexName=M
-AGS2FileName=Minskies ... The Abduct #2
+AGS2Name=Minskies ... The Abduct #2
 iGameName=Minskies ... The Abduction AGA

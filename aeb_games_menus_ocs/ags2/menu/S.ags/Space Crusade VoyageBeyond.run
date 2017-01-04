@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave
+;RunFile=A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:S/SpaceCrusade&VoyageBeyond/"
 IF EXISTS ENV:whdloadargs
-  whdload "VoyageBeyond.Slave" $whdloadargs
+  whdload "SpaceCrusade.Slave" $whdloadargs
 ELSE
-  whdload "VoyageBeyond.Slave"
+  whdload "SpaceCrusade.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

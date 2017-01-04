@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sound Atax Vol. 1 - Magnetic Fields
 RunFile=SoundAtaxVol1.Slave
-AGS2Name=Sound Atax Vol. 1 - Magnetic Fields
-AGS2IndexName=S
-AGS2FileName=Sound Atax Vol. 1 - Magnet
+AGS2Name=Sound Atax Vol. 1 - Magnet
 iGameName=Sound Atax Vol. 1 - Magnetic Fields

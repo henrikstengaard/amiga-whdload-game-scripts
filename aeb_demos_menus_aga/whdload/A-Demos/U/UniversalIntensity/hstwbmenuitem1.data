@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Universal Intensity - Complex
 RunFile=UniversalIntensity.Slave
-AGS2Name=Universal Intensity - Complex
-AGS2IndexName=U
-AGS2FileName=Universal Intensity - Comp
+AGS2Name=Universal Intensity - Comp
 iGameName=Universal Intensity - Complex

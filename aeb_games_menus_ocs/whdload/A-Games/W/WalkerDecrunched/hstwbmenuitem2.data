@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Walker
+Name=Walker Decrunched
 RunFile=WalkerDecrunched.Slave
-AGS2Name=Walker
-AGS2IndexName=W
-AGS2FileName=Walker 
-iGameName=Walker
+AGS2Name=Walker Decrunched
+iGameName=Walker Decrunched

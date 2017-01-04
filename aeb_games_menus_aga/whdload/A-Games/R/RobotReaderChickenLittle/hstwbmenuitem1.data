@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Robot Readers: Chicken Little
 RunFile=RobotReaderChickenLittle.Slave
-AGS2Name=Robot Readers: Chicken Little
-AGS2IndexName=R
-AGS2FileName=Robot Readers Chicken Litt
+AGS2Name=Robot Readers Chicken Litt
 iGameName=Robot Readers: Chicken Little

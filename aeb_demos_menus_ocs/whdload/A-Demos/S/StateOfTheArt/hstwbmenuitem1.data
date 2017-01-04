@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=State of the Art - Spaceballs
 RunFile=StateOfTheArt.Slave
-AGS2Name=State of the Art - Spaceballs
-AGS2IndexName=S
-AGS2FileName=State of the Art - Spaceba
+AGS2Name=State of the Art - Spaceba
 iGameName=State of the Art - Spaceballs

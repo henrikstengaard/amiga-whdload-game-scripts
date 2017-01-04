@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Space Harrier SpaceHarrier RetrnFntZone
+Name=Space Harrier RetrnFntZone
 RunFile=SpaceHarrier.slave
-AGS2Name=Space Harrier SpaceHarrier RetrnFntZone
-AGS2IndexName=S
-AGS2FileName=Space Harrier SpaceHarrier
-iGameName=Space Harrier SpaceHarrier RetrnFntZone
+AGS2Name=Space Harrier RetrnFntZone
+iGameName=Space Harrier RetrnFntZone

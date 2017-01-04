@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hexuma: Das Auge Des Kal DE
 RunFile=HexumaDe.Slave
-AGS2Name=Hexuma: Das Auge Des Kal DE
-AGS2IndexName=H
-AGS2FileName=Hexuma Das Auge Des Kal DE
+AGS2Name=Hexuma Das Auge Des Kal DE
 iGameName=Hexuma: Das Auge Des Kal DE

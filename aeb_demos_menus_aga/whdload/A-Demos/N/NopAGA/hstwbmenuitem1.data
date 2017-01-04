@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Nop - Muffbusters AGA
 RunFile=NopAGA.Slave
-AGS2Name=Nop - Muffbusters AGA
-AGS2IndexName=N
-AGS2FileName=Nop - Muffbusters AGA 
+AGS2Name=Nop - Muffbusters AGA 
 iGameName=Nop - Muffbusters AGA

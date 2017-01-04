@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=SimEarth DE
+Name=SimEarth DE LoRes
 RunFile=SimEarthLoResDe.Slave
-AGS2Name=SimEarth DE
-AGS2IndexName=S
-AGS2FileName=SimEarth DE 
-iGameName=SimEarth DE
+AGS2Name=SimEarth DE LoRes
+iGameName=SimEarth DE LoRes

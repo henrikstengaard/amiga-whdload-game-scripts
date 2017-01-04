@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Twisted - Polka brothers AGA
 RunFile=TwistedAGA.Slave
-AGS2Name=Twisted - Polka brothers AGA
-AGS2IndexName=T
-AGS2FileName=Twisted - Polka brother #2
+AGS2Name=Twisted - Polka brother #2
 iGameName=Twisted - Polka brothers AGA

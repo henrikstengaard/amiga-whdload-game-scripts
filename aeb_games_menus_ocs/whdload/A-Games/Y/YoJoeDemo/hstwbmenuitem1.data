@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Yo! Joe! Demo
 RunFile=YoJoeDemo.Slave
-AGS2Name=Yo! Joe! Demo
-AGS2IndexName=Y
-AGS2FileName=Yo Joe Demo
+AGS2Name=Yo Joe Demo
 iGameName=Yo! Joe! Demo

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=John Barnes European Football
 RunFile=JohnBarnesEuroFootball.Slave
-AGS2Name=John Barnes European Football
-AGS2IndexName=J
-AGS2FileName=John Barnes European Footb
+AGS2Name=John Barnes European Footb
 iGameName=John Barnes European Football

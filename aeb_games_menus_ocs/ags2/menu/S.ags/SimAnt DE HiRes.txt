@@ -1,0 +1,8 @@
+Name      : SimAnt
+Language  : German
+Version   : HiRes
+Publisher : Ocean
+Year      : 1992
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+Whdload   : SimAntHiResDe.Slave

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Impact!
 RunFile=Impact.Slave
-AGS2Name=Impact!
-AGS2IndexName=I
-AGS2FileName=Impact
+AGS2Name=Impact
 iGameName=Impact!

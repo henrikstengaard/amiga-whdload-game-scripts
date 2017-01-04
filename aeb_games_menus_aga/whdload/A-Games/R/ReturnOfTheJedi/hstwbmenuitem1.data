@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Star Wars: Return of the Jedi
 RunFile=ReturnOfTheJedi.slave
-AGS2Name=Star Wars: Return of the Jedi
-AGS2IndexName=S
-AGS2FileName=Star Wars Return of the Je
+AGS2Name=Star Wars Return of the Je
 iGameName=Star Wars: Return of the Jedi

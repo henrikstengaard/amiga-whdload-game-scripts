@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Time Runners 08: The Impregnable Fortress
 RunFile=TimeRunners08.Slave
-AGS2Name=Time Runners 08: The Impregnable Fortress
-AGS2IndexName=T
-AGS2FileName=Time Runners 08 The Impreg
+AGS2Name=Time Runners 08 The Impreg
 iGameName=Time Runners 08: The Impregnable Fortress

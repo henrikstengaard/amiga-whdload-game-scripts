@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Allo Allo! Cartoon Fun!
 RunFile=AlloAllo.Slave
-AGS2Name=Allo Allo! Cartoon Fun!
-AGS2IndexName=A
-AGS2FileName=Allo Allo Cartoon Fun
+AGS2Name=Allo Allo Cartoon Fun
 iGameName=Allo Allo! Cartoon Fun!

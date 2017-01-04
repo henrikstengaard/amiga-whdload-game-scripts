@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Walker NoSpeech
+Name=Walker NoSpeech Decrunched
 RunFile=WalkerDecrunchedNoSpeech.Slave
-AGS2Name=Walker NoSpeech
-AGS2IndexName=W
-AGS2FileName=Walker NoSpeech 
-iGameName=Walker NoSpeech
+AGS2Name=Walker NoSpeech Decrunched
+iGameName=Walker NoSpeech Decrunched

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Chaos in Andromeda: Eyes of the Eagle CDTV
 RunFile=ChaosInAndromedaCDTV.Slave
-AGS2Name=Chaos in Andromeda: Eyes of the Eagle CDTV
-AGS2IndexName=C
-AGS2FileName=Chaos in Andromeda Eyes #2
+AGS2Name=Chaos in Andromeda Eyes #2
 iGameName=Chaos in Andromeda: Eyes of the Eagle CDTV

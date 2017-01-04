@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Enemy: Tempest of Violence (EasyPlay)
 RunFile=Enemy(EasyPlay).Slave
-AGS2Name=Enemy: Tempest of Violence (EasyPlay)
-AGS2IndexName=E
-AGS2FileName=Enemy Tempest of Violence
+AGS2Name=Enemy Tempest of Violence
 iGameName=Enemy: Tempest of Violence (EasyPlay)

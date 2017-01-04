@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Humans III: Evolution Lost in Time... AGA
 RunFile=Humans3AGA.Slave
-AGS2Name=Humans III: Evolution Lost in Time... AGA
-AGS2IndexName=H
-AGS2FileName=Humans III Evolution Lost
+AGS2Name=Humans III Evolution Lost
 iGameName=Humans III: Evolution Lost in Time... AGA

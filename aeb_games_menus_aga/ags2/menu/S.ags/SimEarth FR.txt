@@ -1,7 +1,0 @@
-Name      : SimEarth
-Language  : French
-Publisher : Ocean
-Year      : 1992
-Genre     : Simulation - Miscellaneous
-Players   : 1 Only
-Whdload   : SimEarthHiResFr.Slave

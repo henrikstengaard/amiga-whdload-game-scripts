@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Misja Harolda: Zaginiony w systemie PL
 RunFile=MisjaHaroldaPl.slave
-AGS2Name=Misja Harolda: Zaginiony w systemie PL
-AGS2IndexName=M
-AGS2FileName=Misja Harolda Zaginiony w
+AGS2Name=Misja Harolda Zaginiony w
 iGameName=Misja Harolda: Zaginiony w systemie PL

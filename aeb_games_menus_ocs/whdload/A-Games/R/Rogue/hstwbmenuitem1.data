@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Rogue: The Adventure Game
 RunFile=Rogue.Slave
-AGS2Name=Rogue: The Adventure Game
-AGS2IndexName=R
-AGS2FileName=Rogue The Adventure Game
+AGS2Name=Rogue The Adventure Game
 iGameName=Rogue: The Adventure Game

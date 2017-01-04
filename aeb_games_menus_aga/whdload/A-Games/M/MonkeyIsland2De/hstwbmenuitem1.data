@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Monkey Island 2: LeChuck's Revenge DE
 RunFile=MonkeyIsland2De.Slave
-AGS2Name=Monkey Island 2: LeChuck's Revenge DE
-AGS2IndexName=M
-AGS2FileName=Monkey Island 2 LeChuck's 
+AGS2Name=Monkey Island 2 LeChuck's 
 iGameName=Monkey Island 2: LeChuck's Revenge DE

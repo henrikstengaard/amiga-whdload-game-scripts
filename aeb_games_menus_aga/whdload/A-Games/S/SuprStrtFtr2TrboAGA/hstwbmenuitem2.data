@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Super Street Fighter II Turbo AGA
 RunFile=SuprStrtFtr2TrboAGA.slave
-AGS2Name=Super Street Fighter II Turbo AGA
-AGS2IndexName=S
-AGS2FileName=Super Street Fighter II #4
+AGS2Name=Super Street Fighter II #4
 iGameName=Super Street Fighter II Turbo AGA

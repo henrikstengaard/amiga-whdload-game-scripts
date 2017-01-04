@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cabaret Asteroids
 RunFile=CabaretAsteroidsRepacked.slave
-AGS2Name=Cabaret Asteroids
-AGS2IndexName=C
-AGS2FileName=Cabaret Asteroids 
+AGS2Name=Cabaret Asteroids 
 iGameName=Cabaret Asteroids

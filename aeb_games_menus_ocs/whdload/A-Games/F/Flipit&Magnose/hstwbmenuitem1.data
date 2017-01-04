@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Flip-it & Magnose: Water Carriers from Mars
 RunFile=Flipit&Magnose.slave
-AGS2Name=Flip-it & Magnose: Water Carriers from Mars
-AGS2IndexName=F
-AGS2FileName=Flip-it & Magnose Water Ca
+AGS2Name=Flip-it & Magnose Water Ca
 iGameName=Flip-it & Magnose: Water Carriers from Mars

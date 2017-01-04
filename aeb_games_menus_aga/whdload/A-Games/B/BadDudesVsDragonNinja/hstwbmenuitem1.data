@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Bad Dudes vs. Dragonninja
 RunFile=BadDudesVsDragonNinja.slave
-AGS2Name=Bad Dudes vs. Dragonninja
-AGS2IndexName=B
-AGS2FileName=Bad Dudes vs. Dragonninja 
+AGS2Name=Bad Dudes vs. Dragonninja 
 iGameName=Bad Dudes vs. Dragonninja

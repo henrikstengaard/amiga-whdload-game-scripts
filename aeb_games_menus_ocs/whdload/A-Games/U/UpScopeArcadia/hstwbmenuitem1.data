@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Up Scope
 RunFile=UpScopeArcadia.Slave
-AGS2Name=Up Scope
-AGS2IndexName=U
-AGS2FileName=Up Scope 
+AGS2Name=Up Scope 
 iGameName=Up Scope

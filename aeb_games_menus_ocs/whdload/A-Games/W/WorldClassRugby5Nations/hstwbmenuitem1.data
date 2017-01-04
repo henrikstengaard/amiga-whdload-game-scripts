@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=World Class Rugby: Five Nations Edition
 RunFile=WorldClassRugby5Nations.Slave
-AGS2Name=World Class Rugby: Five Nations Edition
-AGS2IndexName=W
-AGS2FileName=World Class Rugby Five Nat
+AGS2Name=World Class Rugby Five Nat
 iGameName=World Class Rugby: Five Nations Edition

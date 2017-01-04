@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Chaos Strikes Back ChaosStrikesBack Util
+Name=Chaos Strikes Back Util
 RunFile=ChaosStrikesBack.Slave
-AGS2Name=Chaos Strikes Back ChaosStrikesBack Util
-AGS2IndexName=C
-AGS2FileName=Chaos Strikes Back Chao #2
-iGameName=Chaos Strikes Back ChaosStrikesBack Util
+AGS2Name=Chaos Strikes Back Util
+iGameName=Chaos Strikes Back Util

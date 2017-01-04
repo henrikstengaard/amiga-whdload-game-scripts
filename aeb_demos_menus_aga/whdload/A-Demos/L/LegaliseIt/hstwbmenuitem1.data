@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Legalise It... - Anarchy IT
 RunFile=LegaliseIt.slave
-AGS2Name=Legalise It... - Anarchy IT
-AGS2IndexName=L
-AGS2FileName=Legalise It... - Anarchy I
+AGS2Name=Legalise It... - Anarchy I
 iGameName=Legalise It... - Anarchy IT

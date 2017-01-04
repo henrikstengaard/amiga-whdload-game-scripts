@@ -1,4 +1,5 @@
 Name      : Peter Beardsley's International Football
+Version   : Cracked
 Publisher : Grandslam
 Year      : 1988
 Genre     : Sports - Football/Soccer

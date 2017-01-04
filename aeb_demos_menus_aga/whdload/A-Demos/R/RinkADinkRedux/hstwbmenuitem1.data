@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Rink a Dink: REDUX - Lemon.
 RunFile=RinkADinkRedux.Slave
-AGS2Name=Rink a Dink: REDUX - Lemon.
-AGS2IndexName=R
-AGS2FileName=Rink a Dink REDUX - Lemon.
+AGS2Name=Rink a Dink REDUX - Lemon.
 iGameName=Rink a Dink: REDUX - Lemon.

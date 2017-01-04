@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Populous II: Trials of the Olympian Gods
 RunFile=Populous2.slave
-AGS2Name=Populous II: Trials of the Olympian Gods
-AGS2IndexName=P
-AGS2FileName=Populous II Trials of the
+AGS2Name=Populous II Trials of the
 iGameName=Populous II: Trials of the Olympian Gods

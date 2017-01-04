@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=4D Sports Driving MstrTrcks
 RunFile=4DSportsDriving&MstrTrcks.Slave
-AGS2Name=4D Sports Driving MstrTrcks
-AGS2IndexName=0
-AGS2FileName=4D Sports Driving MstrTrck
+AGS2Name=4D Sports Driving MstrTrck
 iGameName=4D Sports Driving MstrTrcks

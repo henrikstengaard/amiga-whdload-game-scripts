@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Barbarian
 RunFile=BarbarianPsygnosis.Slave
-AGS2Name=Barbarian
-AGS2IndexName=B
-AGS2FileName=Barbarian 
+AGS2Name=Barbarian 
 iGameName=Barbarian

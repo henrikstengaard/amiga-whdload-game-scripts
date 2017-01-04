@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Just For Your Ears - Brainwave
 RunFile=Just4YourEars.Slave
-AGS2Name=Just For Your Ears - Brainwave
-AGS2IndexName=J
-AGS2FileName=Just For Your Ears - Brain
+AGS2Name=Just For Your Ears - Brain
 iGameName=Just For Your Ears - Brainwave

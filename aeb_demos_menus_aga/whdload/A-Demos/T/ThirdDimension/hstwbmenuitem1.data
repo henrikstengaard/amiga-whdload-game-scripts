@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Third dimension - Cryptoburners
 RunFile=ThirdDimension.Slave
-AGS2Name=Third dimension - Cryptoburners
-AGS2IndexName=T
-AGS2FileName=Third dimension - Cryptobu
+AGS2Name=Third dimension - Cryptobu
 iGameName=Third dimension - Cryptoburners

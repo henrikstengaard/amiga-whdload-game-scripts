@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The enemies musics III - The Enemies
 RunFile=Musics3.Slave
-AGS2Name=The enemies musics III - The Enemies
-AGS2IndexName=T
-AGS2FileName=The enemies musics III - T
+AGS2Name=The enemies musics III - T
 iGameName=The enemies musics III - The Enemies

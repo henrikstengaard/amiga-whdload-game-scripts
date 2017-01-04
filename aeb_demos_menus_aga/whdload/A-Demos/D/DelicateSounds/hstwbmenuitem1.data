@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Delicate sounds - Razor 1911
 RunFile=DelicateSounds.Slave
-AGS2Name=Delicate sounds - Razor 1911
-AGS2IndexName=D
-AGS2FileName=Delicate sounds - Razor 19
+AGS2Name=Delicate sounds - Razor 19
 iGameName=Delicate sounds - Razor 1911

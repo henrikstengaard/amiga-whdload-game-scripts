@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cybernoid: The Fighting Machine
 RunFile=Cybernoid.Slave
-AGS2Name=Cybernoid: The Fighting Machine
-AGS2IndexName=C
-AGS2FileName=Cybernoid The Fighting Mac
+AGS2Name=Cybernoid The Fighting Mac
 iGameName=Cybernoid: The Fighting Machine

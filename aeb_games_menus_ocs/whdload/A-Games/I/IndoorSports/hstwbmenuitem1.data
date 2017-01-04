@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Indoor Sports: Volume 1
 RunFile=IndoorSports.Slave
-AGS2Name=Indoor Sports: Volume 1
-AGS2IndexName=I
-AGS2FileName=Indoor Sports Volume 1
+AGS2Name=Indoor Sports Volume 1
 iGameName=Indoor Sports: Volume 1

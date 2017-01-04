@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Gobliins 2: The Prince Buffoon ES
 RunFile=Gobliins2Es.slave
-AGS2Name=Gobliins 2: The Prince Buffoon ES
-AGS2IndexName=G
-AGS2FileName=Gobliins 2 The Prince B #3
+AGS2Name=Gobliins 2 The Prince B #3
 iGameName=Gobliins 2: The Prince Buffoon ES

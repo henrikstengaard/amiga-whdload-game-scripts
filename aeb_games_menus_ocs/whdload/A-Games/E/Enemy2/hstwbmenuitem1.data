@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Enemy 2: Missing in Action
 RunFile=Enemy2.Slave
-AGS2Name=Enemy 2: Missing in Action
-AGS2IndexName=E
-AGS2FileName=Enemy 2 Missing in Action
+AGS2Name=Enemy 2 Missing in Action
 iGameName=Enemy 2: Missing in Action

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Do! Run Run Image
 RunFile=MrDoRunRunImage.Slave
-AGS2Name=Do! Run Run Image
-AGS2IndexName=D
-AGS2FileName=Do Run Run Image
+AGS2Name=Do Run Run Image
 iGameName=Do! Run Run Image

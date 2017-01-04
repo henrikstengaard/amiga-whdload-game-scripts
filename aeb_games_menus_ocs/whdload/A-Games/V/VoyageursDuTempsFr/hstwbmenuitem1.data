@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Voyageurs Du Temps, Les: La Menace FR
 RunFile=VoyageursDuTempsFr.Slave
-AGS2Name=Voyageurs Du Temps, Les: La Menace FR
-AGS2IndexName=V
-AGS2FileName=Voyageurs Du Temps, Les La
+AGS2Name=Voyageurs Du Temps, Les La
 iGameName=Voyageurs Du Temps, Les: La Menace FR

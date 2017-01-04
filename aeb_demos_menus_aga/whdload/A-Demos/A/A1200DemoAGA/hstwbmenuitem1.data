@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Official Commodore France A1200 demo - Digital AGA Demo
 RunFile=A1200DemoAGA.slave
-AGS2Name=Official Commodore France A1200 demo - Digital AGA Demo
-AGS2IndexName=O
-AGS2FileName=Official Commodore France 
+AGS2Name=Official Commodore France 
 iGameName=Official Commodore France A1200 demo - Digital AGA Demo

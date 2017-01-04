@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Wall (Pink Floyd) - Split
 RunFile=WallSplit.slave
-AGS2Name=The Wall (Pink Floyd) - Split
-AGS2IndexName=T
-AGS2FileName=The Wall (Pink Floyd) - Sp
+AGS2Name=The Wall (Pink Floyd) - Sp
 iGameName=The Wall (Pink Floyd) - Split

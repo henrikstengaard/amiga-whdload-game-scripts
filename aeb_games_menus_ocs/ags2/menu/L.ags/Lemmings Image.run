@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:L/LemmingsAltImage/LemmingsAltImage.Slave
+;RunFile=A-Games:L/LemmingsImage/LemmingsImage.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:L/LemmingsAltImage/"
+cd "A-Games:L/LemmingsImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "LemmingsAltImage.Slave" $whdloadargs
+  whdload "LemmingsImage.Slave" $whdloadargs
 ELSE
-  whdload "LemmingsAltImage.Slave"
+  whdload "LemmingsImage.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

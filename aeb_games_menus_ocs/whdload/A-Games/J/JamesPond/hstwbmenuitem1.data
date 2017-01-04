@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=James Pond: Underwater Agent
 RunFile=JamesPond.slave
-AGS2Name=James Pond: Underwater Agent
-AGS2IndexName=J
-AGS2FileName=James Pond Underwater Agen
+AGS2Name=James Pond Underwater Agen
 iGameName=James Pond: Underwater Agent

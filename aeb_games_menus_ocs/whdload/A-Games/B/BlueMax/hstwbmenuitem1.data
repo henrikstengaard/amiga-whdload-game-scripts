@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Blue Max: Aces of the Great War
 RunFile=BlueMax.Slave
-AGS2Name=Blue Max: Aces of the Great War
-AGS2IndexName=B
-AGS2FileName=Blue Max Aces of the Great
+AGS2Name=Blue Max Aces of the Great
 iGameName=Blue Max: Aces of the Great War

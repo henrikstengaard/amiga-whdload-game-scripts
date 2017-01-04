@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hellowoon: Das Geheimnis des Zauberstabs DE
 RunFile=HellowoonDe.Slave
-AGS2Name=Hellowoon: Das Geheimnis des Zauberstabs DE
-AGS2IndexName=H
-AGS2FileName=Hellowoon Das Geheimnis de
+AGS2Name=Hellowoon Das Geheimnis de
 iGameName=Hellowoon: Das Geheimnis des Zauberstabs DE

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Planet M. - Melon Dezign AGA
 RunFile=PlanetMAGA.Slave
-AGS2Name=Planet M. - Melon Dezign AGA
-AGS2IndexName=P
-AGS2FileName=Planet M. - Melon Dezign A
+AGS2Name=Planet M. - Melon Dezign A
 iGameName=Planet M. - Melon Dezign AGA

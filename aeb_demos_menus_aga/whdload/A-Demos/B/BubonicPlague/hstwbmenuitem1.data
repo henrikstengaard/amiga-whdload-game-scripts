@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Bubonic Plague - Bloodsuckers
 RunFile=BubonicPlague.Slave
-AGS2Name=Bubonic Plague - Bloodsuckers
-AGS2IndexName=B
-AGS2FileName=Bubonic Plague - Bloodsuck
+AGS2Name=Bubonic Plague - Bloodsuck
 iGameName=Bubonic Plague - Bloodsuckers

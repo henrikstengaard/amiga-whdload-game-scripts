@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Music Compilation - Random Access
 RunFile=MusicCompilation.Slave
-AGS2Name=Music Compilation - Random Access
-AGS2IndexName=M
-AGS2FileName=Music Compilation - Random
+AGS2Name=Music Compilation - Random
 iGameName=Music Compilation - Random Access

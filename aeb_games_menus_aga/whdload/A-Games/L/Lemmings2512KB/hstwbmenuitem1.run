@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:L/Lemmings2512KB/"
 IF EXISTS ENV:whdloadargs
-	whdload "Intro512KB.slave" $whdloadargs
+	whdload "Lemmings2512KB.slave" $whdloadargs
 ELSE
-	whdload "Intro512KB.slave"
+	whdload "Lemmings2512KB.slave"
 ENDIF

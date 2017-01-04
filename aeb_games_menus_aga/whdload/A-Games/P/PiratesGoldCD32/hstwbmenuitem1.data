@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Pirates! Gold CD32
 RunFile=PiratesGoldCD32.slave
-AGS2Name=Pirates! Gold CD32
-AGS2IndexName=P
-AGS2FileName=Pirates Gold CD32
+AGS2Name=Pirates Gold CD32
 iGameName=Pirates! Gold CD32

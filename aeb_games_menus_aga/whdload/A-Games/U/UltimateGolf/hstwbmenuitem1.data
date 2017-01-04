@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Greg Norman's Ultimate Golf
 RunFile=UltimateGolf.slave
-AGS2Name=Greg Norman's Ultimate Golf
-AGS2IndexName=G
-AGS2FileName=Greg Norman's Ultimate Gol
+AGS2Name=Greg Norman's Ultimate Gol
 iGameName=Greg Norman's Ultimate Golf

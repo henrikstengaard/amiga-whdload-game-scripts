@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Darkside - The Black Lotus AGA
 RunFile=DarksideAGA.Slave
-AGS2Name=Darkside - The Black Lotus AGA
-AGS2IndexName=D
-AGS2FileName=Darkside - The Black Lo #2
+AGS2Name=Darkside - The Black Lo #2
 iGameName=Darkside - The Black Lotus AGA

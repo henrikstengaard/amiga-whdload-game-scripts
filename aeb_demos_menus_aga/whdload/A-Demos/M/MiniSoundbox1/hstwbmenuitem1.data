@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Mini Soundbox I - Shadow Light,Level 4
 RunFile=MiniSoundbox1.Slave
-AGS2Name=Mini Soundbox I - Shadow Light,Level 4
-AGS2IndexName=M
-AGS2FileName=Mini Soundbox I - Shadow L
+AGS2Name=Mini Soundbox I - Shadow L
 iGameName=Mini Soundbox I - Shadow Light,Level 4

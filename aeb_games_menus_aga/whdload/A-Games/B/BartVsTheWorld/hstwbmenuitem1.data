@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Simpsons, The: Bart vs. the World
 RunFile=BartVsTheWorld.Slave
-AGS2Name=Simpsons, The: Bart vs. the World
-AGS2IndexName=S
-AGS2FileName=Simpsons, The Bart vs.  #4
+AGS2Name=Simpsons, The Bart vs.  #4
 iGameName=Simpsons, The: Bart vs. the World

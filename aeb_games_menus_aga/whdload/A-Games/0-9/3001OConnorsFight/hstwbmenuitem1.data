@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=3001: O'Connors Fight
 RunFile=3001OConnorsFight.Slave
-AGS2Name=3001: O'Connors Fight
-AGS2IndexName=0
-AGS2FileName=3001 O'Connors Fight
+AGS2Name=3001 O'Connors Fight
 iGameName=3001: O'Connors Fight

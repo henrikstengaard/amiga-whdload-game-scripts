@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Spot
 RunFile=SpotArcadia.Slave
-AGS2Name=Spot
-AGS2IndexName=S
-AGS2FileName=Spot 
+AGS2Name=Spot 
 iGameName=Spot

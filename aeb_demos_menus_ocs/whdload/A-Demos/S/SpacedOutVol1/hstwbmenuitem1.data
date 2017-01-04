@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Spaced Out Vol. 1 - Magnetic Fields
 RunFile=SpacedOutVol1.Slave
-AGS2Name=Spaced Out Vol. 1 - Magnetic Fields
-AGS2IndexName=S
-AGS2FileName=Spaced Out Vol. 1 - Magnet
+AGS2Name=Spaced Out Vol. 1 - Magnet
 iGameName=Spaced Out Vol. 1 - Magnetic Fields

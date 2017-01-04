@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Quête De L´Oiseau Du Temps, La FR
 RunFile=QueteDeLOiseauDuTempsFr.Slave
-AGS2Name=Quête De L´Oiseau Du Temps, La FR
-AGS2IndexName=Q
-AGS2FileName=Quête De L´Oiseau Du Temps
+AGS2Name=Quête De L´Oiseau Du Temps
 iGameName=Quête De L´Oiseau Du Temps, La FR

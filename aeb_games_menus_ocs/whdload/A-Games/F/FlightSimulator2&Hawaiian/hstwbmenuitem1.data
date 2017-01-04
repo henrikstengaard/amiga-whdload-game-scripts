@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Flight Simulator II FlightSim2 Hawaiian
 RunFile=FlightSim2&Hawaiian.Slave
-AGS2Name=Flight Simulator II FlightSim2 Hawaiian
-AGS2IndexName=F
-AGS2FileName=Flight Simulator II Flight
+AGS2Name=Flight Simulator II Flight
 iGameName=Flight Simulator II FlightSim2 Hawaiian

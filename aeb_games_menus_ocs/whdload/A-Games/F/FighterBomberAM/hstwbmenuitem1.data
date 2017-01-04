@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fighter Bomber
 RunFile=FighterBomberAM.slave
-AGS2Name=Fighter Bomber
-AGS2IndexName=F
-AGS2FileName=Fighter Bomber 
+AGS2Name=Fighter Bomber 
 iGameName=Fighter Bomber

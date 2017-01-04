@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Love - Virtual Dreams,Fairlight AGA
 RunFile=LoveAGA.Slave
-AGS2Name=Love - Virtual Dreams,Fairlight AGA
-AGS2IndexName=L
-AGS2FileName=Love - Virtual Dreams,F #2
+AGS2Name=Love - Virtual Dreams,F #2
 iGameName=Love - Virtual Dreams,Fairlight AGA

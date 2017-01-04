@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Software - World Federation of Mad Hackers
 RunFile=Software.Slave
-AGS2Name=Software - World Federation of Mad Hackers
-AGS2IndexName=S
-AGS2FileName=Software - World Federatio
+AGS2Name=Software - World Federatio
 iGameName=Software - World Federation of Mad Hackers

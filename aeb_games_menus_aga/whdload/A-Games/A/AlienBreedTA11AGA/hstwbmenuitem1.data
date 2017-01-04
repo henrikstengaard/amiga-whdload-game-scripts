@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Alien Breed: Tower Assault AGA
 RunFile=AlienBreedTA11AGA.slave
-AGS2Name=Alien Breed: Tower Assault AGA
-AGS2IndexName=A
-AGS2FileName=Alien Breed Tower Assau #2
+AGS2Name=Alien Breed Tower Assau #2
 iGameName=Alien Breed: Tower Assault AGA

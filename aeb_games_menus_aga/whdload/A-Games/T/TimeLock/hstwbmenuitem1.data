@@ -2,6 +2,4 @@
 Name=Time Lock
 RunFile=TimeLock.slave
 AGS2Name=Time Lock
-AGS2IndexName=T
-AGS2FileName=Time Lock
 iGameName=Time Lock

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cutcreations - Static bytes
 RunFile=Cutcreations.Slave
-AGS2Name=Cutcreations - Static bytes
-AGS2IndexName=C
-AGS2FileName=Cutcreations - Static byte
+AGS2Name=Cutcreations - Static byte
 iGameName=Cutcreations - Static bytes

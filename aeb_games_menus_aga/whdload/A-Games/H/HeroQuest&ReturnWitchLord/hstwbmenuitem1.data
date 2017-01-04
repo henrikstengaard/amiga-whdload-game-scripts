@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=HeroQuest
 RunFile=HeroQuest&ReturnWitchLord.Slave
-AGS2Name=HeroQuest
-AGS2IndexName=H
-AGS2FileName=HeroQuest 
+AGS2Name=HeroQuest 
 iGameName=HeroQuest

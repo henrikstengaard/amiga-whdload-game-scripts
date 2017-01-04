@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Overlord
 RunFile=OverlordRowan.Slave
-AGS2Name=Overlord
-AGS2IndexName=O
-AGS2FileName=Overlord 
+AGS2Name=Overlord 
 iGameName=Overlord

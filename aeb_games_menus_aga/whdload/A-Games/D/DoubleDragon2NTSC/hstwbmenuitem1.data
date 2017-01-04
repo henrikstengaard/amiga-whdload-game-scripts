@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Double Dragon II: The Revenge NTSC
 RunFile=DoubleDragon2NTSC.Slave
-AGS2Name=Double Dragon II: The Revenge NTSC
-AGS2IndexName=D
-AGS2FileName=Double Dragon II The Re #2
+AGS2Name=Double Dragon II The Re #2
 iGameName=Double Dragon II: The Revenge NTSC

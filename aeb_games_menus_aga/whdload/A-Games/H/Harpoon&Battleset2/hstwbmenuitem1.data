@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Harpoon Battleset 2: North Atlantic Convoys
 RunFile=Harpoon&Battleset2.slave
-AGS2Name=Harpoon Battleset 2: North Atlantic Convoys
-AGS2IndexName=H
-AGS2FileName=Harpoon Battleset 2 North
+AGS2Name=Harpoon Battleset 2 North
 iGameName=Harpoon Battleset 2: North Atlantic Convoys

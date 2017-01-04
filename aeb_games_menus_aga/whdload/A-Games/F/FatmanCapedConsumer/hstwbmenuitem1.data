@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fatman: The Caped Consumer
 RunFile=FatmanCapedConsumer.Slave
-AGS2Name=Fatman: The Caped Consumer
-AGS2IndexName=F
-AGS2FileName=Fatman The Caped Consumer
+AGS2Name=Fatman The Caped Consumer
 iGameName=Fatman: The Caped Consumer

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=American Tag-Team Wrestling
 RunFile=AmericanTagTeamWrestling.Slave
-AGS2Name=American Tag-Team Wrestling
-AGS2IndexName=A
-AGS2FileName=American Tag-Team Wrestlin
+AGS2Name=American Tag-Team Wrestlin
 iGameName=American Tag-Team Wrestling

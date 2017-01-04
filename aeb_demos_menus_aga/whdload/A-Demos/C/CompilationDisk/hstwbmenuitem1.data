@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Compilation Disk - PowerLords
 RunFile=CompilationDisk.Slave
-AGS2Name=Compilation Disk - PowerLords
-AGS2IndexName=C
-AGS2FileName=Compilation Disk - PowerLo
+AGS2Name=Compilation Disk - PowerLo
 iGameName=Compilation Disk - PowerLords

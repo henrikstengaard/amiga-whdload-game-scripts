@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Poker Nights: Teresa Personally DE
 RunFile=PokerNightsDe.Slave
-AGS2Name=Poker Nights: Teresa Personally DE
-AGS2IndexName=P
-AGS2FileName=Poker Nights Teresa Person
+AGS2Name=Poker Nights Teresa Person
 iGameName=Poker Nights: Teresa Personally DE

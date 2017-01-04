@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Gold Rush!
 RunFile=GoldRush.slave
-AGS2Name=Gold Rush!
-AGS2IndexName=G
-AGS2FileName=Gold Rush
+AGS2Name=Gold Rush
 iGameName=Gold Rush!

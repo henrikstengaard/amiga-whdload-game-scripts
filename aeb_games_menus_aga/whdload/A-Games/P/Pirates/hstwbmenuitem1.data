@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Pirates!
 RunFile=Pirates.slave
-AGS2Name=Pirates!
-AGS2IndexName=P
-AGS2FileName=Pirates
+AGS2Name=Pirates
 iGameName=Pirates!

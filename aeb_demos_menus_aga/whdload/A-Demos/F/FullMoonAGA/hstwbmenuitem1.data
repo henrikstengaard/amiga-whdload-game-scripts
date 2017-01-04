@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fullmoon - Virtual Dreams,Fairlight AGA
 RunFile=FullMoonAGA.Slave
-AGS2Name=Fullmoon - Virtual Dreams,Fairlight AGA
-AGS2IndexName=F
-AGS2FileName=Fullmoon - Virtual Drea #2
+AGS2Name=Fullmoon - Virtual Drea #2
 iGameName=Fullmoon - Virtual Dreams,Fairlight AGA

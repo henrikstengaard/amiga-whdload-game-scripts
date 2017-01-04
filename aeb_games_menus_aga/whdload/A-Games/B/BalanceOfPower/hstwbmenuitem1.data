@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Balance of Power: Geopolitics in the Nuclear Age
 RunFile=BalanceOfPower.Slave
-AGS2Name=Balance of Power: Geopolitics in the Nuclear Age
-AGS2IndexName=B
-AGS2FileName=Balance of Power Geopoliti
+AGS2Name=Balance of Power Geopoliti
 iGameName=Balance of Power: Geopolitics in the Nuclear Age

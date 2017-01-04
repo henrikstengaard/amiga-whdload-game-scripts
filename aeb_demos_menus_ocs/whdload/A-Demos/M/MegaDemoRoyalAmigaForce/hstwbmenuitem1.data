@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Megademo - Royal Amiga Force
 RunFile=MegaDemoRoyalAmigaForce.slave
-AGS2Name=Megademo - Royal Amiga Force
-AGS2IndexName=M
-AGS2FileName=Megademo - Royal Amiga For
+AGS2Name=Megademo - Royal Amiga For
 iGameName=Megademo - Royal Amiga Force

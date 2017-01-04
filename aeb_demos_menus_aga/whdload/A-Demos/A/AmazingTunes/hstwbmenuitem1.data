@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Amazing Tunes - Share And Enjoy,Megaforce
 RunFile=AmazingTunes.Slave
-AGS2Name=Amazing Tunes - Share And Enjoy,Megaforce
-AGS2IndexName=A
-AGS2FileName=Amazing Tunes - Share And
+AGS2Name=Amazing Tunes - Share And
 iGameName=Amazing Tunes - Share And Enjoy,Megaforce

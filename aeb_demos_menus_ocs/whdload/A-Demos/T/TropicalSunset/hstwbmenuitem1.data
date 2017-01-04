@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Tropical sunset - The Silents
 RunFile=TropicalSunset.Slave
-AGS2Name=Tropical sunset - The Silents
-AGS2IndexName=T
-AGS2FileName=Tropical sunset - The Sile
+AGS2Name=Tropical sunset - The Sile
 iGameName=Tropical sunset - The Silents

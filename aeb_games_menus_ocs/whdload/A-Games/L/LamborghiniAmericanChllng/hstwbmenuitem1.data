@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Lamborghini American Challenge
 RunFile=LamborghiniAmericanChllng.slave
-AGS2Name=Lamborghini American Challenge
-AGS2IndexName=L
-AGS2FileName=Lamborghini American Chall
+AGS2Name=Lamborghini American Chall
 iGameName=Lamborghini American Challenge

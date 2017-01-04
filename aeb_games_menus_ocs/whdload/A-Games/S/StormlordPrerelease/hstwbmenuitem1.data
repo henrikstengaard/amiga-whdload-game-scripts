@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Stormlord
+Name=Stormlord Prerelease
 RunFile=StormlordPrerelease.Slave
-AGS2Name=Stormlord
-AGS2IndexName=S
-AGS2FileName=Stormlord 
-iGameName=Stormlord
+AGS2Name=Stormlord Prerelease
+iGameName=Stormlord Prerelease

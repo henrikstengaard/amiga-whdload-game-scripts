@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Manhunter: New York
 RunFile=Manhunter.slave
-AGS2Name=Manhunter: New York
-AGS2IndexName=M
-AGS2FileName=Manhunter New York
+AGS2Name=Manhunter New York
 iGameName=Manhunter: New York

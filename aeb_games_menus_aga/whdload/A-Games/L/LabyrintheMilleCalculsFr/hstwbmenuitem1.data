@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Labyrinthe Aux Mille Calculs, Le FR
 RunFile=LabyrintheMilleCalculsFr.Slave
-AGS2Name=Labyrinthe Aux Mille Calculs, Le FR
-AGS2IndexName=L
-AGS2FileName=Labyrinthe Aux Mille Calcu
+AGS2Name=Labyrinthe Aux Mille Calcu
 iGameName=Labyrinthe Aux Mille Calculs, Le FR

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Simpsons, The: Bart vs. the Space Mutants 2Disk
 RunFile=BartVsSpaceMutants2Disk.Slave
-AGS2Name=Simpsons, The: Bart vs. the Space Mutants 2Disk
-AGS2IndexName=S
-AGS2FileName=Simpsons, The Bart vs.  #3
+AGS2Name=Simpsons, The Bart vs.  #3
 iGameName=Simpsons, The: Bart vs. the Space Mutants 2Disk

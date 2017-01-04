@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Space Crusade VoyageBeyond VoyageBeyond
+Name=Space Crusade VoyageBeyond
 RunFile=VoyageBeyond.Slave
-AGS2Name=Space Crusade VoyageBeyond VoyageBeyond
-AGS2IndexName=S
-AGS2FileName=Space Crusade VoyageBeyond
-iGameName=Space Crusade VoyageBeyond VoyageBeyond
+AGS2Name=Space Crusade VoyageBey #2
+iGameName=Space Crusade VoyageBeyond

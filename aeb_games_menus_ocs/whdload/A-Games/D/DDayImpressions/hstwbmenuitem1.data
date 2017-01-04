@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=D-Day: The Beginning of the End
 RunFile=DDayImpressions.slave
-AGS2Name=D-Day: The Beginning of the End
-AGS2IndexName=D
-AGS2FileName=D-Day The Beginning of the
+AGS2Name=D-Day The Beginning of the
 iGameName=D-Day: The Beginning of the End

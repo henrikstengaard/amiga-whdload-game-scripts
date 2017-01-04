@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Best of the Best: Championship Karate
 RunFile=BestOfTheBest.Slave
-AGS2Name=Best of the Best: Championship Karate
-AGS2IndexName=B
-AGS2FileName=Best of the Best Champions
+AGS2Name=Best of the Best Champions
 iGameName=Best of the Best: Championship Karate

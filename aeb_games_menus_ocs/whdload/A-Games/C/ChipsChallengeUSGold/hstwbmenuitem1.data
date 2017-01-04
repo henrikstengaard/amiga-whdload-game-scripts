@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Chip's Challenge
 RunFile=ChipsChallengeUSGold.Slave
-AGS2Name=Chip's Challenge
-AGS2IndexName=C
-AGS2FileName=Chip's Challenge  
+AGS2Name=Chip's Challenge  
 iGameName=Chip's Challenge

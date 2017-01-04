@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=3d vector demo - Prophets AG,unicorn Demo
 RunFile=VectorDemo.Slave
-AGS2Name=3d vector demo - Prophets AG,unicorn Demo
-AGS2IndexName=0
-AGS2FileName=3d vector demo - Prophets
+AGS2Name=3d vector demo - Prophets
 iGameName=3d vector demo - Prophets AG,unicorn Demo

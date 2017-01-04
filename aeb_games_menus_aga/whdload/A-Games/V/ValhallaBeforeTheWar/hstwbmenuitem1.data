@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Valhalla: Before the War
 RunFile=ValhallaBeforeTheWar.Slave
-AGS2Name=Valhalla: Before the War
-AGS2IndexName=V
-AGS2FileName=Valhalla Before the War
+AGS2Name=Valhalla Before the War
 iGameName=Valhalla: Before the War

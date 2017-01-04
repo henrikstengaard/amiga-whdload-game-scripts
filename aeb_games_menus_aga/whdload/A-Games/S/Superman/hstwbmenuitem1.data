@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Superman: The Man of Steel
 RunFile=Superman.Slave
-AGS2Name=Superman: The Man of Steel
-AGS2IndexName=S
-AGS2FileName=Superman The Man of Steel
+AGS2Name=Superman The Man of Steel
 iGameName=Superman: The Man of Steel

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Chip Music Festival - Magnetic Fields
 RunFile=ChipMusicFestival.Slave
-AGS2Name=Chip Music Festival - Magnetic Fields
-AGS2IndexName=C
-AGS2FileName=Chip Music Festival - Magn
+AGS2Name=Chip Music Festival - Magn
 iGameName=Chip Music Festival - Magnetic Fields

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Ultima III: Exodus
 RunFile=Ultima3.Slave
-AGS2Name=Ultima III: Exodus
-AGS2IndexName=U
-AGS2FileName=Ultima III Exodus
+AGS2Name=Ultima III Exodus
 iGameName=Ultima III: Exodus

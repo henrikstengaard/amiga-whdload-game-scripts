@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Alien Breed: Tower Assault CD32
 RunFile=AlienBreedTACD32.slave
-AGS2Name=Alien Breed: Tower Assault CD32
-AGS2IndexName=A
-AGS2FileName=Alien Breed Tower Assau #3
+AGS2Name=Alien Breed Tower Assau #3
 iGameName=Alien Breed: Tower Assault CD32

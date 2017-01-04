@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=ACSYS: Autonomous Cybernetic System AGA Demo
 RunFile=ACSYSDemoAGA.Slave
-AGS2Name=ACSYS: Autonomous Cybernetic System AGA Demo
-AGS2IndexName=A
-AGS2FileName=ACSYS Autonomous Cyberneti
+AGS2Name=ACSYS Autonomous Cyberneti
 iGameName=ACSYS: Autonomous Cybernetic System AGA Demo

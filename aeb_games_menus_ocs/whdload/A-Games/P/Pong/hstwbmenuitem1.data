@@ -2,6 +2,4 @@
 Name=Pong
 RunFile=Pong.slave
 AGS2Name=Pong
-AGS2IndexName=P
-AGS2FileName=Pong
 iGameName=Pong

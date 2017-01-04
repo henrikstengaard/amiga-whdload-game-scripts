@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=D/Generation AGA
 RunFile=DGenerationAGA.slave
-AGS2Name=D/Generation AGA
-AGS2IndexName=D
-AGS2FileName=D-Generation AGA
+AGS2Name=D-Generation AGA
 iGameName=D/Generation AGA

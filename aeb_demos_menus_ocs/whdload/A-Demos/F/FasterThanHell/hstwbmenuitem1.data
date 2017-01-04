@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Faster Than Hell - World Federation of Mad Hackers
 RunFile=FasterThanHell.Slave
-AGS2Name=Faster Than Hell - World Federation of Mad Hackers
-AGS2IndexName=F
-AGS2FileName=Faster Than Hell - World F
+AGS2Name=Faster Than Hell - World F
 iGameName=Faster Than Hell - World Federation of Mad Hackers

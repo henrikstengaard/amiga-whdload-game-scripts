@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Gridiron!
 RunFile=Gridiron.Slave
-AGS2Name=Gridiron!
-AGS2IndexName=G
-AGS2FileName=Gridiron
+AGS2Name=Gridiron
 iGameName=Gridiron!

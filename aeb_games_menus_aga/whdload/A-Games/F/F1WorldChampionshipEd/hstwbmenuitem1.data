@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=F1 World Championship Edition
 RunFile=F1WorldChampionshipEd.slave
-AGS2Name=F1 World Championship Edition
-AGS2IndexName=F
-AGS2FileName=F1 World Championship Edit
+AGS2Name=F1 World Championship Edit
 iGameName=F1 World Championship Edition

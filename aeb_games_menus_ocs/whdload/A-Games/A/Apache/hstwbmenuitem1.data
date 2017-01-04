@@ -2,6 +2,4 @@
 Name=Apache
 RunFile=Apache.Slave
 AGS2Name=Apache
-AGS2IndexName=A
-AGS2FileName=Apache
 iGameName=Apache

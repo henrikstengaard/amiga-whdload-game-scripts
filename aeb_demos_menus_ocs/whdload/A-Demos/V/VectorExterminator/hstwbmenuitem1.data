@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Vector Exterminator - Shining
 RunFile=VectorExterminator.Slave
-AGS2Name=Vector Exterminator - Shining
-AGS2IndexName=V
-AGS2FileName=Vector Exterminator - Shin
+AGS2Name=Vector Exterminator - Shin
 iGameName=Vector Exterminator - Shining

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Kaos Theory - Pendle Europa
 RunFile=KaosTheory.Slave
-AGS2Name=Kaos Theory - Pendle Europa
-AGS2IndexName=K
-AGS2FileName=Kaos Theory - Pendle Europ
+AGS2Name=Kaos Theory - Pendle Europ
 iGameName=Kaos Theory - Pendle Europa

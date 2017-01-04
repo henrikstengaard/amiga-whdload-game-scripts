@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Music party 1990 - Cryptoburners
 RunFile=MusicParty1990.Slave
-AGS2Name=Music party 1990 - Cryptoburners
-AGS2IndexName=M
-AGS2FileName=Music party 1990 - Cryptob
+AGS2Name=Music party 1990 - Cryptob
 iGameName=Music party 1990 - Cryptoburners

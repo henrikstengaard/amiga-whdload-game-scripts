@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Beneath A Steel Sky CD32 NoVoice
 RunFile=BeneathAStlSkyCD32NoVoice.Slave
-AGS2Name=Beneath A Steel Sky CD32 NoVoice
-AGS2IndexName=B
-AGS2FileName=Beneath A Steel Sky CD32 N
+AGS2Name=Beneath A Steel Sky CD32 N
 iGameName=Beneath A Steel Sky CD32 NoVoice

@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=Lemmings Files
+Name=Lemmings Files Alt
 RunFile=LemmingsAltFiles.Slave
-AGS2Name=Lemmings Files
-AGS2IndexName=L
-AGS2FileName=Lemmings Files
-iGameName=Lemmings Files
+AGS2Name=Lemmings Files Alt
+iGameName=Lemmings Files Alt

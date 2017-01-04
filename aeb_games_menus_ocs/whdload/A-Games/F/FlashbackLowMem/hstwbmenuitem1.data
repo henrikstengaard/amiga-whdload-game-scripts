@@ -2,6 +2,4 @@
 Name=Flashback LOWMEM
 RunFile=FlashbackLowMem.slave
 AGS2Name=Flashback LOWMEM
-AGS2IndexName=F
-AGS2FileName=Flashback LOWMEM
 iGameName=Flashback LOWMEM

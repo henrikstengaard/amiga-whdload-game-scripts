@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sly Spy: Secret Agent
 RunFile=SlySpySecretAgent.slave
-AGS2Name=Sly Spy: Secret Agent
-AGS2IndexName=S
-AGS2FileName=Sly Spy Secret Agent
+AGS2Name=Sly Spy Secret Agent
 iGameName=Sly Spy: Secret Agent

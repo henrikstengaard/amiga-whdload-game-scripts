@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Nick Faldo's Championship Golf
 RunFile=NickFaldosChampGolf.Slave
-AGS2Name=Nick Faldo's Championship Golf
-AGS2IndexName=N
-AGS2FileName=Nick Faldo's Championship
+AGS2Name=Nick Faldo's Championship
 iGameName=Nick Faldo's Championship Golf

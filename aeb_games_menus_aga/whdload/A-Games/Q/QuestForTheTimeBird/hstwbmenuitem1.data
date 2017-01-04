@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Quest For The Time-Bird, The
 RunFile=QuestForTheTimeBird.Slave
-AGS2Name=Quest For The Time-Bird, The
-AGS2IndexName=Q
-AGS2FileName=Quest For The Time-Bird, T
+AGS2Name=Quest For The Time-Bird, T
 iGameName=Quest For The Time-Bird, The

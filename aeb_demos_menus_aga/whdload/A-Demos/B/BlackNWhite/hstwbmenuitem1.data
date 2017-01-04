@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Black'n White Slide - Drifters,Pentagon (Amiga)
 RunFile=BlackNWhite.Slave
-AGS2Name=Black'n White Slide - Drifters,Pentagon (Amiga)
-AGS2IndexName=B
-AGS2FileName=Black'n White Slide - Drif
+AGS2Name=Black'n White Slide - Drif
 iGameName=Black'n White Slide - Drifters,Pentagon (Amiga)

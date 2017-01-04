@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Star Goose!
 RunFile=StarGoose.Slave
-AGS2Name=Star Goose!
-AGS2IndexName=S
-AGS2FileName=Star Goose
+AGS2Name=Star Goose
 iGameName=Star Goose!

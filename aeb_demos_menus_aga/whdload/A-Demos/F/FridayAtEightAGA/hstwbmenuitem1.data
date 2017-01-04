@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Friday at Eight - Polka brothers AGA
 RunFile=FridayAtEightAGA.Slave
-AGS2Name=Friday at Eight - Polka brothers AGA
-AGS2IndexName=F
-AGS2FileName=Friday at Eight - Polka #2
+AGS2Name=Friday at Eight - Polka #2
 iGameName=Friday at Eight - Polka brothers AGA

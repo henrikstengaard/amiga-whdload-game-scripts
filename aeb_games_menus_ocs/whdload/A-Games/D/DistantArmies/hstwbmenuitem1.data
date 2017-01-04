@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Distant Armies: A Playing History of Chess
 RunFile=DistantArmies.Slave
-AGS2Name=Distant Armies: A Playing History of Chess
-AGS2IndexName=D
-AGS2FileName=Distant Armies A Playing H
+AGS2Name=Distant Armies A Playing H
 iGameName=Distant Armies: A Playing History of Chess

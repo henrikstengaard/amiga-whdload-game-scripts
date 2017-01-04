@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Escape from the Planet of the Robot Monsters
 RunFile=EscapeFTPOTRobotMonsters.slave
-AGS2Name=Escape from the Planet of the Robot Monsters
-AGS2IndexName=E
-AGS2FileName=Escape from the Planet of
+AGS2Name=Escape from the Planet of
 iGameName=Escape from the Planet of the Robot Monsters

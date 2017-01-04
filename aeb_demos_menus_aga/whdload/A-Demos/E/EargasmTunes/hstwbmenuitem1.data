@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Eargasm Tunes - The Silents
 RunFile=EargasmTunes.Slave
-AGS2Name=Eargasm Tunes - The Silents
-AGS2IndexName=E
-AGS2FileName=Eargasm Tunes - The Silent
+AGS2Name=Eargasm Tunes - The Silent
 iGameName=Eargasm Tunes - The Silents

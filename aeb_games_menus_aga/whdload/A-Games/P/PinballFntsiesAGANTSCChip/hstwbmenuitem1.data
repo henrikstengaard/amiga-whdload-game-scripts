@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Pinball Fantasies AGA CHIP NTSC
 RunFile=PinballFntsiesAGANTSCChip.slave
-AGS2Name=Pinball Fantasies AGA CHIP NTSC
-AGS2IndexName=P
-AGS2FileName=Pinball Fantasies AGA C #2
+AGS2Name=Pinball Fantasies AGA C #2
 iGameName=Pinball Fantasies AGA CHIP NTSC

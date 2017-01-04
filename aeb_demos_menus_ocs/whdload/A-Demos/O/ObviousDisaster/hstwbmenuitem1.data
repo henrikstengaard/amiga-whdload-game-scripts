@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Obvious Disaster - Phenomena
 RunFile=ObviousDisaster.Slave
-AGS2Name=Obvious Disaster - Phenomena
-AGS2IndexName=O
-AGS2FileName=Obvious Disaster - Phenome
+AGS2Name=Obvious Disaster - Phenome
 iGameName=Obvious Disaster - Phenomena

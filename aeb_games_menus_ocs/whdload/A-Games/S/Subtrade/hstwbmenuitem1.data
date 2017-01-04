@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Subtrade: Return to Irata
 RunFile=Subtrade.slave
-AGS2Name=Subtrade: Return to Irata
-AGS2IndexName=S
-AGS2FileName=Subtrade Return to Irata
+AGS2Name=Subtrade Return to Irata
 iGameName=Subtrade: Return to Irata

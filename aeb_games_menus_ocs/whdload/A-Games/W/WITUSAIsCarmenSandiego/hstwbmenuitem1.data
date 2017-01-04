@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Where in the USA is Carmen Sandiego?
 RunFile=WITUSAIsCarmenSandiego.slave
-AGS2Name=Where in the USA is Carmen Sandiego?
-AGS2IndexName=W
-AGS2FileName=Where in the USA is Carmen
+AGS2Name=Where in the USA is Carmen
 iGameName=Where in the USA is Carmen Sandiego?

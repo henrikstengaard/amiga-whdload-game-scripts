@@ -2,6 +2,4 @@
 Name=Custodian
 RunFile=Custodian.Slave
 AGS2Name=Custodian
-AGS2IndexName=C
-AGS2FileName=Custodian
 iGameName=Custodian

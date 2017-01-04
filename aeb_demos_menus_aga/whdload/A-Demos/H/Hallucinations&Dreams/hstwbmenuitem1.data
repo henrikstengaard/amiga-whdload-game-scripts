@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hallucinations and Dreams - Union
 RunFile=Hallucinations&Dreams.Slave
-AGS2Name=Hallucinations and Dreams - Union
-AGS2IndexName=H
-AGS2FileName=Hallucinations and Dreams 
+AGS2Name=Hallucinations and Dreams 
 iGameName=Hallucinations and Dreams - Union

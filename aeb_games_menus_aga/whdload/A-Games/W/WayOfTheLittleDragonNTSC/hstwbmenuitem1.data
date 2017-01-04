@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Way Of The Little Dragon NTSC
 RunFile=WayOfTheLittleDragonNTSC.Slave
-AGS2Name=The Way Of The Little Dragon NTSC
-AGS2IndexName=T
-AGS2FileName=The Way Of The Little D #3
+AGS2Name=The Way Of The Little D #3
 iGameName=The Way Of The Little Dragon NTSC

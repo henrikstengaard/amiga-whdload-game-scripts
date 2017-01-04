@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fast Break
 RunFile=FastBreakArcadia.Slave
-AGS2Name=Fast Break
-AGS2IndexName=F
-AGS2FileName=Fast Break 
+AGS2Name=Fast Break 
 iGameName=Fast Break

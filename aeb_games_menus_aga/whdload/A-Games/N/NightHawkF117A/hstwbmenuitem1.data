@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=F-117A Nighthawk Stealth Fighter 2.0
 RunFile=NightHawkF117A.Slave
-AGS2Name=F-117A Nighthawk Stealth Fighter 2.0
-AGS2IndexName=F
-AGS2FileName=F-117A Nighthawk Stealth F
+AGS2Name=F-117A Nighthawk Stealth F
 iGameName=F-117A Nighthawk Stealth Fighter 2.0

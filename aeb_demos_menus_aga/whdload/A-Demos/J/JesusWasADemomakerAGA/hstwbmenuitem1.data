@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Jesus was a demomaker - Ramses AGA
 RunFile=JesusWasADemomakerAGA.Slave
-AGS2Name=Jesus was a demomaker - Ramses AGA
-AGS2IndexName=J
-AGS2FileName=Jesus was a demomaker - #2
+AGS2Name=Jesus was a demomaker - #2
 iGameName=Jesus was a demomaker - Ramses AGA

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Inspiration is none - Anarchy
 RunFile=InspirationIsNone.Slave
-AGS2Name=Inspiration is none - Anarchy
-AGS2IndexName=I
-AGS2FileName=Inspiration is none - Anar
+AGS2Name=Inspiration is none - Anar
 iGameName=Inspiration is none - Anarchy

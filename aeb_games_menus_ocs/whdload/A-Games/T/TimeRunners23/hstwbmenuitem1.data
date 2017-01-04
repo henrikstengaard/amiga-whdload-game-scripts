@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Time Runners 23: The Time Monarch
 RunFile=TimeRunners23.Slave
-AGS2Name=Time Runners 23: The Time Monarch
-AGS2IndexName=T
-AGS2FileName=Time Runners 23 The Time M
+AGS2Name=Time Runners 23 The Time M
 iGameName=Time Runners 23: The Time Monarch

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Llamatron: 2112 1MB
 RunFile=Llamatron1MB.Slave
-AGS2Name=Llamatron: 2112 1MB
-AGS2IndexName=L
-AGS2FileName=Llamatron 2112 1MB
+AGS2Name=Llamatron 2112 1MB
 iGameName=Llamatron: 2112 1MB

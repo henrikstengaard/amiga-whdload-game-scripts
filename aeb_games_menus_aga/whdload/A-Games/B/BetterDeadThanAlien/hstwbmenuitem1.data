@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Better Dead Than Alien!
 RunFile=BetterDeadThanAlien.Slave
-AGS2Name=Better Dead Than Alien!
-AGS2IndexName=B
-AGS2FileName=Better Dead Than Alien
+AGS2Name=Better Dead Than Alien
 iGameName=Better Dead Than Alien!

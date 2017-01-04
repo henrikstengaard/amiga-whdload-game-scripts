@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Kick Off 2: Return to Europe
 RunFile=KickOff2ReturnToEurope.slave
-AGS2Name=Kick Off 2: Return to Europe
-AGS2IndexName=K
-AGS2FileName=Kick Off 2 Return to Europ
+AGS2Name=Kick Off 2 Return to Europ
 iGameName=Kick Off 2: Return to Europe

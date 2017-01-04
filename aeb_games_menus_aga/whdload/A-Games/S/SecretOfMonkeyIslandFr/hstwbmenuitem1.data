@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Secret of Monkey Island, The FR
 RunFile=SecretOfMonkeyIslandFr.slave
-AGS2Name=Secret of Monkey Island, The FR
-AGS2IndexName=S
-AGS2FileName=Secret of Monkey Island #4
+AGS2Name=Secret of Monkey Island #4
 iGameName=Secret of Monkey Island, The FR

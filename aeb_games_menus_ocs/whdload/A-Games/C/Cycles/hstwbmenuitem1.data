@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cycles, The: International Grand Prix Racing
 RunFile=Cycles.Slave
-AGS2Name=Cycles, The: International Grand Prix Racing
-AGS2IndexName=C
-AGS2FileName=Cycles, The International
+AGS2Name=Cycles, The International
 iGameName=Cycles, The: International Grand Prix Racing

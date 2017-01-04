@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Soulkitchen - The Silents AGA
 RunFile=SoulKitchenAGA.slave
-AGS2Name=Soulkitchen - The Silents AGA
-AGS2IndexName=S
-AGS2FileName=Soulkitchen - The Silents 
+AGS2Name=Soulkitchen - The Silents 
 iGameName=Soulkitchen - The Silents AGA

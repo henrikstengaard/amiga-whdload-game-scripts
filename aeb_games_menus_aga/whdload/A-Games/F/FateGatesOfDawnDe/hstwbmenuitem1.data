@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fate: Gates of Dawn DE
 RunFile=FateGatesOfDawnDe.Slave
-AGS2Name=Fate: Gates of Dawn DE
-AGS2IndexName=F
-AGS2FileName=Fate Gates of Dawn DE
+AGS2Name=Fate Gates of Dawn DE
 iGameName=Fate: Gates of Dawn DE

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Dylan Dog: The Murderers
 RunFile=DylanDogTheMurderers.slave
-AGS2Name=Dylan Dog: The Murderers
-AGS2IndexName=D
-AGS2FileName=Dylan Dog The Murderers
+AGS2Name=Dylan Dog The Murderers
 iGameName=Dylan Dog: The Murderers

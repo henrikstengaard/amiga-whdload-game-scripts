@@ -1,0 +1,7 @@
+Name      : Battle for the Ashes
+Version   : AmigaPower
+Publisher : Audiogenic
+Year      : 1995
+Genre     : Sports - Cricket
+Players   : 1 or 2, Simultaneous
+Whdload   : BattleForAshesAmigaPower.Slave

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Death Bringer
 RunFile=DeathBringerSpotlight.Slave
-AGS2Name=Death Bringer
-AGS2IndexName=D
-AGS2FileName=Death Bringer 
+AGS2Name=Death Bringer 
 iGameName=Death Bringer

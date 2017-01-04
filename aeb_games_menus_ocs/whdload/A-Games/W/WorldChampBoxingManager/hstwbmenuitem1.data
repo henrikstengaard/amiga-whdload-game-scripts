@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=World Championship Boxing Manager
 RunFile=WorldChampBoxingManager.Slave
-AGS2Name=World Championship Boxing Manager
-AGS2IndexName=W
-AGS2FileName=World Championship Boxing
+AGS2Name=World Championship Boxing
 iGameName=World Championship Boxing Manager

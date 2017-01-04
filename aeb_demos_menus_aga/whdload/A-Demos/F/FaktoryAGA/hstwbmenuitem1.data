@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Faktory - Virtual Dreams,Fairlight AGA
 RunFile=FaktoryAGA.Slave
-AGS2Name=Faktory - Virtual Dreams,Fairlight AGA
-AGS2IndexName=F
-AGS2FileName=Faktory - Virtual Dream #2
+AGS2Name=Faktory - Virtual Dream #2
 iGameName=Faktory - Virtual Dreams,Fairlight AGA

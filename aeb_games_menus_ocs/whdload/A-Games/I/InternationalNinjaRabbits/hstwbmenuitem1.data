@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=International Ninja Rabbits
 RunFile=InternationalNinjaRabbits.Slave
-AGS2Name=International Ninja Rabbits
-AGS2IndexName=I
-AGS2FileName=International Ninja Rabbit
+AGS2Name=International Ninja Rabbit
 iGameName=International Ninja Rabbits

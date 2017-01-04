@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Castles II: Siege & Conquest CD32
 RunFile=Castles2CD32.Slave
-AGS2Name=Castles II: Siege & Conquest CD32
-AGS2IndexName=C
-AGS2FileName=Castles II Siege & Conques
+AGS2Name=Castles II Siege & Conques
 iGameName=Castles II: Siege & Conquest CD32

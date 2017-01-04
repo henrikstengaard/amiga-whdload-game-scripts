@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Strip Poker II
 RunFile=StripPoker2+.Slave
-AGS2Name=Strip Poker II
-AGS2IndexName=S
-AGS2FileName=Strip Poker II  
+AGS2Name=Strip Poker II  
 iGameName=Strip Poker II

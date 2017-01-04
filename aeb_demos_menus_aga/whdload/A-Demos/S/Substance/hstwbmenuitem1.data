@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Substance - Quartex,Alliance design
 RunFile=Substance.Slave
-AGS2Name=Substance - Quartex,Alliance design
-AGS2IndexName=S
-AGS2FileName=Substance - Quartex,Allian
+AGS2Name=Substance - Quartex,Allian
 iGameName=Substance - Quartex,Alliance design

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hymns From The Bible 3 - Arcane
 RunFile=HymnsFromTheBible3.Slave
-AGS2Name=Hymns From The Bible 3 - Arcane
-AGS2IndexName=H
-AGS2FileName=Hymns From The Bible 3 - A
+AGS2Name=Hymns From The Bible 3 - A
 iGameName=Hymns From The Bible 3 - Arcane

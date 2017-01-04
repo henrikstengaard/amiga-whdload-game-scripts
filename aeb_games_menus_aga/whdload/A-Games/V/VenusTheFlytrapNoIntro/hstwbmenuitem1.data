@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Venus: The Flytrap NoIntro
 RunFile=VenusTheFlytrapNoIntro.Slave
-AGS2Name=Venus: The Flytrap NoIntro
-AGS2IndexName=V
-AGS2FileName=Venus The Flytrap NoIntro
+AGS2Name=Venus The Flytrap NoIntro
 iGameName=Venus: The Flytrap NoIntro

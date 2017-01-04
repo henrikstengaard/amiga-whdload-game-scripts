@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hexadecimal perfection - Action Direct
 RunFile=HexadecimalPerfection.Slave
-AGS2Name=Hexadecimal perfection - Action Direct
-AGS2IndexName=H
-AGS2FileName=Hexadecimal perfection - A
+AGS2Name=Hexadecimal perfection - A
 iGameName=Hexadecimal perfection - Action Direct

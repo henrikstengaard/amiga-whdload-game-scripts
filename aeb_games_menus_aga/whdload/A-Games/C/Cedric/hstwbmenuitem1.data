@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Cedric and the Lost Sceptre
 RunFile=Cedric.Slave
-AGS2Name=Cedric and the Lost Sceptre
-AGS2IndexName=C
-AGS2FileName=Cedric and the Lost Sceptr
+AGS2Name=Cedric and the Lost Sceptr
 iGameName=Cedric and the Lost Sceptre

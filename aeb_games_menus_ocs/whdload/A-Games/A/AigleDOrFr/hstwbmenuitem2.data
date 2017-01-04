@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=L'Aigle d'or : le Retour FR
 RunFile=AigleDOrFr.slave
-AGS2Name=L'Aigle d'or : le Retour FR
-AGS2IndexName=L
-AGS2FileName=L'Aigle d'or  le Retour FR
+AGS2Name=L'Aigle d'or  le Retour FR
 iGameName=L'Aigle d'or : le Retour FR

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Back to the Future Part II
 RunFile=BackToTheFuturePart2.slave
-AGS2Name=Back to the Future Part II
-AGS2IndexName=B
-AGS2FileName=Back to the Future Part #2
+AGS2Name=Back to the Future Part #2
 iGameName=Back to the Future Part II

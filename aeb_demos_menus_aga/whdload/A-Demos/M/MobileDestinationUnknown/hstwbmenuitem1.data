@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Mobile Destination Unknown - Spaceballs
 RunFile=MobileDestinationUnknown.slave
-AGS2Name=Mobile Destination Unknown - Spaceballs
-AGS2IndexName=M
-AGS2FileName=Mobile Destination Unknown
+AGS2Name=Mobile Destination Unknown
 iGameName=Mobile Destination Unknown - Spaceballs

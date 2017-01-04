@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Artificial Paradise - New Generation Crew AGA
 RunFile=ArtificialParadiseAGA.slave
-AGS2Name=Artificial Paradise - New Generation Crew AGA
-AGS2IndexName=A
-AGS2FileName=Artificial Paradise - New 
+AGS2Name=Artificial Paradise - New 
 iGameName=Artificial Paradise - New Generation Crew AGA

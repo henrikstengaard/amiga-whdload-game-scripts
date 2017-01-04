@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Wizardry: Bane of the Cosmic Forge
 RunFile=Wizardry6BaneCosmicForg.slave
-AGS2Name=Wizardry: Bane of the Cosmic Forge
-AGS2IndexName=W
-AGS2FileName=Wizardry Bane of the Cosmi
+AGS2Name=Wizardry Bane of the Cosmi
 iGameName=Wizardry: Bane of the Cosmic Forge

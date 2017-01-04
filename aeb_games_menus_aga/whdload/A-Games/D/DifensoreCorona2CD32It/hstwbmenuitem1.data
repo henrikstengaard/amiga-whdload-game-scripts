@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Defender of the Crown II IT CD32
 RunFile=DifensoreCorona2CD32It.slave
-AGS2Name=Defender of the Crown II IT CD32
-AGS2IndexName=D
-AGS2FileName=Defender of the Crown II I
+AGS2Name=Defender of the Crown II I
 iGameName=Defender of the Crown II IT CD32

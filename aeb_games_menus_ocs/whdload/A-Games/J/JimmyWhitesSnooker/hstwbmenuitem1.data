@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Jimmy White's Whirlwind Snooker
 RunFile=JimmyWhitesSnooker.slave
-AGS2Name=Jimmy White's Whirlwind Snooker
-AGS2IndexName=J
-AGS2FileName=Jimmy White's Whirlwind Sn
+AGS2Name=Jimmy White's Whirlwind Sn
 iGameName=Jimmy White's Whirlwind Snooker

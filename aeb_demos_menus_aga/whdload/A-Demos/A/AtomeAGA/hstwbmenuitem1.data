@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Atome - Skarla AGA
 RunFile=AtomeAGA.Slave
-AGS2Name=Atome - Skarla AGA
-AGS2IndexName=A
-AGS2FileName=Atome - Skarla AGA 
+AGS2Name=Atome - Skarla AGA 
 iGameName=Atome - Skarla AGA

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Clue!, The AGA
 RunFile=ClueAGA.slave
-AGS2Name=Clue!, The AGA
-AGS2IndexName=C
-AGS2FileName=Clue, The AGA
+AGS2Name=Clue, The AGA
 iGameName=Clue!, The AGA

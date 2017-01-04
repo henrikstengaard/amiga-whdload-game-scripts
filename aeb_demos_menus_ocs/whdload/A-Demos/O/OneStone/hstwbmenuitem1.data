@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=One Stone -Sport Aid- - Quest
 RunFile=OneStone.slave
-AGS2Name=One Stone -Sport Aid- - Quest
-AGS2IndexName=O
-AGS2FileName=One Stone -Sport Aid- - Qu
+AGS2Name=One Stone -Sport Aid- - Qu
 iGameName=One Stone -Sport Aid- - Quest

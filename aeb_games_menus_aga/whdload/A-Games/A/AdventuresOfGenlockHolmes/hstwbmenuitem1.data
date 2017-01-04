@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Adventures of Genlock Holmes
 RunFile=AdventuresOfGenlockHolmes.Slave
-AGS2Name=The Adventures of Genlock Holmes
-AGS2IndexName=T
-AGS2FileName=The Adventures of Genlock
+AGS2Name=The Adventures of Genlock
 iGameName=The Adventures of Genlock Holmes

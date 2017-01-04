@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Adventures of Robin Hood, The
 RunFile=AdventuresOfRobinHood.slave
-AGS2Name=Adventures of Robin Hood, The
-AGS2IndexName=A
-AGS2FileName=Adventures of Robin Hood,
+AGS2Name=Adventures of Robin Hood,
 iGameName=Adventures of Robin Hood, The

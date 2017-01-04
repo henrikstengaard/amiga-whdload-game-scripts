@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Snap! - Rebels
 RunFile=Snap.slave
-AGS2Name=Snap! - Rebels
-AGS2IndexName=S
-AGS2FileName=Snap - Rebels
+AGS2Name=Snap - Rebels
 iGameName=Snap! - Rebels

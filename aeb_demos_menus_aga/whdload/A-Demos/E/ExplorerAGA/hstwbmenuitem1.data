@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Explorer - Delight AGA
 RunFile=ExplorerAGA.slave
-AGS2Name=Explorer - Delight AGA
-AGS2IndexName=E
-AGS2FileName=Explorer - Delight AGA 
+AGS2Name=Explorer - Delight AGA 
 iGameName=Explorer - Delight AGA

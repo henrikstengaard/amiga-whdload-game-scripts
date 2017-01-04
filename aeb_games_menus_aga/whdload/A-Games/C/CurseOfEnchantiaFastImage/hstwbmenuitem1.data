@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Curse of Enchantia FAST Image
 RunFile=CurseOfEnchantiaFastImage.Slave
-AGS2Name=Curse of Enchantia FAST Image
-AGS2IndexName=C
-AGS2FileName=Curse of Enchantia FAST Im
+AGS2Name=Curse of Enchantia FAST Im
 iGameName=Curse of Enchantia FAST Image

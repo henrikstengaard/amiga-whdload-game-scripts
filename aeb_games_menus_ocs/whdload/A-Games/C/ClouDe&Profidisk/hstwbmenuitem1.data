@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Clue! Profidisk DE
 RunFile=ClouDe&Profidisk.Slave
-AGS2Name=The Clue! Profidisk DE
-AGS2IndexName=T
-AGS2FileName=The Clue Profidisk DE
+AGS2Name=The Clue Profidisk DE
 iGameName=The Clue! Profidisk DE

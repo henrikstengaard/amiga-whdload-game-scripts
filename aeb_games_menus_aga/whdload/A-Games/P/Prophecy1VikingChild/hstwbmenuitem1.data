@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Prophecy I: The Viking Child
 RunFile=Prophecy1VikingChild.slave
-AGS2Name=Prophecy I: The Viking Child
-AGS2IndexName=P
-AGS2FileName=Prophecy I The Viking Chil
+AGS2Name=Prophecy I The Viking Chil
 iGameName=Prophecy I: The Viking Child

@@ -1502,7 +1502,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=A-Train ATrain ConstrSet 512K
+title=A-Train ConstrSet 512K
 genre=Unknown
 path=A-Games:A/ATrain&ConstrSet512k/ATrain512k.slave
 favorite=0
@@ -1511,7 +1511,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=A-Train ATrain ConstructionSet
+title=A-Train ConstructionSet
 genre=Unknown
 path=A-Games:A/ATrain&ConstructionSet/ATrain.Slave
 favorite=0
@@ -2231,7 +2231,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Battle for the Ashes
+title=Battle for the Ashes AmigaPower
 genre=Unknown
 path=A-Games:B/BattleForAshesAmigaPower/BattleForAshesAmigaPower.Slave
 favorite=0
@@ -2852,7 +2852,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Bloodwych  ExtendedLevels
+title=Bloodwych ExtendedLevels
 genre=Unknown
 path=A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave
 favorite=0
@@ -2861,7 +2861,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Bloodwych ExtendedLevels ExtendedLevels
+title=Bloodwych ExtendedLevels
 genre=Unknown
 path=A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave
 favorite=0
@@ -3698,7 +3698,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Captain Planet and the Planeteers Planeteers
+title=Captain Planet and the Planeteers
 genre=Unknown
 path=A-Games:C/CaptainPlanet&Planeteers/CaptainPlanet&Planeteers.Slave
 favorite=0
@@ -4112,7 +4112,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Chaos Strikes Back ChaosStrikesBack DE Util
+title=Chaos Strikes Back DE Util
 genre=Unknown
 path=A-Games:C/ChaosStrikesBack&DeUtil/ChaosStrikesBack.Slave
 favorite=0
@@ -4121,7 +4121,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Chaos Strikes Back ChaosStrikesBack Util
+title=Chaos Strikes Back Util
 genre=Unknown
 path=A-Games:C/ChaosStrikesBack&EnUtil/ChaosStrikesBack.Slave
 favorite=0
@@ -4130,7 +4130,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Chaos Strikes Back ChaosStrikesBack FR Util
+title=Chaos Strikes Back FR Util
 genre=Unknown
 path=A-Games:C/ChaosStrikesBack&FrUtil/ChaosStrikesBack.Slave
 favorite=0
@@ -10241,7 +10241,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Gold of the Aztecs, The GoldOfTheAztecs(v1.1)
+title=Gold of the Aztecs, The (v1.1) Kernal1.1
 genre=Unknown
 path=A-Games:G/GoldOfTheAztecs_Kernal1.1/GoldOfTheAztecs(v1.1).Slave
 favorite=0
@@ -12698,7 +12698,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Karate King KarateKing&CityDefence CityDefense
+title=Karate King CityDefence CityDefense
 genre=Unknown
 path=A-Games:K/KarateKing&CityDefense/KarateKing&CityDefence.Slave
 favorite=0
@@ -12860,7 +12860,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Kick Off 2
+title=Kick Off 2 CV
 genre=Unknown
 path=A-Games:K/KickOff2CV/KickOff2CV.slave
 favorite=0
@@ -12896,7 +12896,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Kick Off 2: The Final Whistle
+title=Kick Off 2: The Final Whistle CV
 genre=Unknown
 path=A-Games:K/KickOff2FinalWhistleCV/KickOff2FinalWhistleCV.slave
 favorite=0
@@ -13922,7 +13922,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Lemmings Files
+title=Lemmings Files Alt
 genre=Unknown
 path=A-Games:L/LemmingsAltFiles/LemmingsAltFiles.Slave
 favorite=0
@@ -13931,7 +13931,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Lemmings Image
+title=Lemmings Image Alt
 genre=Unknown
 path=A-Games:L/LemmingsAltImage/LemmingsAltImage.Slave
 favorite=0
@@ -14822,7 +14822,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Magic Lines
+title=Magic Lines Cracked
 genre=Unknown
 path=A-Games:M/MagicLinesCracked/MagicLinesCracked.Slave
 favorite=0
@@ -15704,7 +15704,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Might and Magic III: Isles of Terra MightAndMagic3 DE
+title=Might and Magic III: Isles of Terra DE
 genre=Unknown
 path=A-Games:M/MightAndMagic3De/MightAndMagic3.Slave
 favorite=0
@@ -17540,7 +17540,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Peter Beardsley's International Football
+title=Peter Beardsley's International Football Cracked
 genre=Unknown
 path=A-Games:P/PeterBeardsleysIFCracked/PeterBeardsleysIFCracked.Slave
 favorite=0
@@ -17720,7 +17720,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Pinball Wizard
+title=Pinball Wizard Prerelease
 genre=Unknown
 path=A-Games:P/PinballWizardPrerelease/PinballWizardPrerelease.Slave
 favorite=0
@@ -18053,7 +18053,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Populous  DataDisk
+title=Populous DataDisk
 genre=Unknown
 path=A-Games:P/Populous&DataDisks/Populous.Slave
 favorite=0
@@ -18071,7 +18071,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Populous II: Trials of the Olympian Gods ChallengeGames ChallengeGames
+title=Populous II: Trials of the Olympian Gods ChallengeGames
 genre=Unknown
 path=A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave
 favorite=0
@@ -18080,7 +18080,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Populous II: Trials of the Olympian Gods Populous2 ChallengeGames
+title=Populous II: Trials of the Olympian Gods ChallengeGames
 genre=Unknown
 path=A-Games:P/Populous2&ChallengeGames/Populous2.slave
 favorite=0
@@ -19475,7 +19475,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=RoadBlasters
+title=RoadBlasters Cracked
 genre=Unknown
 path=A-Games:R/RoadBlastersCracked/RoadBlastersCracked.Slave
 favorite=0
@@ -20906,7 +20906,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt
+title=SimAnt HiRes
 genre=Unknown
 path=A-Games:S/SimAntHiRes/SimAntHiRes.Slave
 favorite=0
@@ -20915,7 +20915,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt DE
+title=SimAnt DE HiRes
 genre=Unknown
 path=A-Games:S/SimAntHiResDe/SimAntHiResDe.Slave
 favorite=0
@@ -20924,7 +20924,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt FR
+title=SimAnt FR HiRes
 genre=Unknown
 path=A-Games:S/SimAntHiResFr/SimAntHiResFr.Slave
 favorite=0
@@ -20933,7 +20933,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt
+title=SimAnt LoRes
 genre=Unknown
 path=A-Games:S/SimAntLoRes/SimAntLoRes.Slave
 favorite=0
@@ -20942,7 +20942,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt DE
+title=SimAnt DE LoRes
 genre=Unknown
 path=A-Games:S/SimAntLoResDe/SimAntLoResDe.Slave
 favorite=0
@@ -20951,7 +20951,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimAnt FR
+title=SimAnt FR LoRes
 genre=Unknown
 path=A-Games:S/SimAntLoResFr/SimAntLoResFr.Slave
 favorite=0
@@ -20969,7 +20969,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Sim City
+title=Sim City 512K
 genre=Unknown
 path=A-Games:S/SimCity512K/SimCity512K.Slave
 favorite=0
@@ -20987,7 +20987,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth
+title=SimEarth HiRes
 genre=Unknown
 path=A-Games:S/SimEarthHiRes/SimEarthHiRes.Slave
 favorite=0
@@ -20996,7 +20996,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth DE
+title=SimEarth DE HiRes
 genre=Unknown
 path=A-Games:S/SimEarthHiResDe/SimEarthHiResDe.Slave
 favorite=0
@@ -21005,7 +21005,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth FR
+title=SimEarth FR HiRes
 genre=Unknown
 path=A-Games:S/SimEarthHiResFr/SimEarthHiResFr.Slave
 favorite=0
@@ -21014,7 +21014,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth
+title=SimEarth LoRes
 genre=Unknown
 path=A-Games:S/SimEarthLoRes/SimEarthLoRes.Slave
 favorite=0
@@ -21023,7 +21023,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth DE
+title=SimEarth DE LoRes
 genre=Unknown
 path=A-Games:S/SimEarthLoResDe/SimEarthLoResDe.Slave
 favorite=0
@@ -21032,7 +21032,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=SimEarth FR
+title=SimEarth FR LoRes
 genre=Unknown
 path=A-Games:S/SimEarthLoResFr/SimEarthLoResFr.Slave
 favorite=0
@@ -21275,7 +21275,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Slackskin & Flint
+title=Slackskin & Flint Cracked
 genre=Unknown
 path=A-Games:S/Slackskin&FlintCracked/Slackskin&FlintCracked.Slave
 favorite=0
@@ -21392,7 +21392,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Snoopy and Peanuts
+title=Snoopy and Peanuts NoSounds
 genre=Unknown
 path=A-Games:S/Snoopy&PeanutsNoSounds/Snoopy&PeanutsNoSounds.Slave
 favorite=0
@@ -21662,7 +21662,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Space Crusade SpaceCrusade VoyageBeyond
+title=Space Crusade VoyageBeyond
 genre=Unknown
 path=A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave
 favorite=0
@@ -21671,7 +21671,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Space Crusade VoyageBeyond VoyageBeyond
+title=Space Crusade VoyageBeyond
 genre=Unknown
 path=A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave
 favorite=0
@@ -21707,7 +21707,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Space Harrier SpaceHarrier RetrnFntZone
+title=Space Harrier RetrnFntZone
 genre=Unknown
 path=A-Games:S/SpaceHarrier&RetrnFntZone/SpaceHarrier.slave
 favorite=0
@@ -22400,7 +22400,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Stormlord
+title=Stormlord Prerelease
 genre=Unknown
 path=A-Games:S/StormlordPrerelease/StormlordPrerelease.Slave
 favorite=0
@@ -22868,7 +22868,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Grid Runner
+title=Grid Runner Cracked
 genre=Unknown
 path=A-Games:S/SuperGridRunnerCracked/SuperGridRunnerCracked.Slave
 favorite=0
@@ -25919,18 +25919,18 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Vroom DataDisk DataDisk
+title=Vroom DataDisk
 genre=Unknown
-path=A-Games:V/Vroom&DataDisk/DataDisk.Slave
+path=A-Games:V/Vroom&DataDisk/Vroom.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
 hidden=0
 
 index=0
-title=Vroom  DataDisk
+title=Vroom DataDisk
 genre=Unknown
-path=A-Games:V/Vroom&DataDisk/Vroom.Slave
+path=A-Games:V/Vroom&DataDisk/DataDisk.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -25991,7 +25991,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Walker NoSpeech
+title=Walker NoSpeech Crunched
 genre=Unknown
 path=A-Games:W/WalkerCrunched/WalkerCrunchedNoSpeech.Slave
 favorite=0
@@ -26000,7 +26000,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Walker
+title=Walker Crunched
 genre=Unknown
 path=A-Games:W/WalkerCrunched/WalkerCrunched.Slave
 favorite=0
@@ -26009,7 +26009,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Walker NoSpeech
+title=Walker NoSpeech Decrunched
 genre=Unknown
 path=A-Games:W/WalkerDecrunched/WalkerDecrunchedNoSpeech.Slave
 favorite=0
@@ -26018,7 +26018,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Walker
+title=Walker Decrunched
 genre=Unknown
 path=A-Games:W/WalkerDecrunched/WalkerDecrunched.Slave
 favorite=0
@@ -26387,7 +26387,7 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Whirligig
+title=Whirligig Cracked
 genre=Unknown
 path=A-Games:W/WhirligigCracked/WhirligigCracked.Slave
 favorite=0

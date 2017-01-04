@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Fiendish Freddy's Big Top o' Fun
 RunFile=FiendishFreddysBigTopOFun.Slave
-AGS2Name=Fiendish Freddy's Big Top o' Fun
-AGS2IndexName=F
-AGS2FileName=Fiendish Freddy's Big Top
+AGS2Name=Fiendish Freddy's Big Top
 iGameName=Fiendish Freddy's Big Top o' Fun

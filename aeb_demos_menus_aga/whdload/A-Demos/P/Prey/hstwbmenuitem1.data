@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=The Prey - Polka brothers AGA
 RunFile=Prey.Slave
-AGS2Name=The Prey - Polka brothers AGA
-AGS2IndexName=T
-AGS2FileName=The Prey - Polka brothers
+AGS2Name=The Prey - Polka brothers
 iGameName=The Prey - Polka brothers AGA

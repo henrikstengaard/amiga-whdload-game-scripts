@@ -1,7 +1,5 @@
 ;HstWB menu item data
-Name=SimAnt DE
+Name=SimAnt DE LoRes
 RunFile=SimAntLoResDe.Slave
-AGS2Name=SimAnt DE
-AGS2IndexName=S
-AGS2FileName=SimAnt DE 
-iGameName=SimAnt DE
+AGS2Name=SimAnt DE LoRes
+iGameName=SimAnt DE LoRes

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Playbyte Commercial - Shining
 RunFile=PlaybyteCommercial.Slave
-AGS2Name=Playbyte Commercial - Shining
-AGS2IndexName=P
-AGS2FileName=Playbyte Commercial - Shin
+AGS2Name=Playbyte Commercial - Shin
 iGameName=Playbyte Commercial - Shining

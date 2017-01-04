@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Top Karaoke Vol.1 - Saturne
 RunFile=TopKaraoke1.Slave
-AGS2Name=Top Karaoke Vol.1 - Saturne
-AGS2IndexName=T
-AGS2FileName=Top Karaoke Vol.1 - Saturn
+AGS2Name=Top Karaoke Vol.1 - Saturn
 iGameName=Top Karaoke Vol.1 - Saturne

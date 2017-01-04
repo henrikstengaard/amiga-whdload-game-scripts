@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Multi Player Soccer Manager
 RunFile=MultiPlayerSoccerManager.Slave
-AGS2Name=Multi Player Soccer Manager
-AGS2IndexName=M
-AGS2FileName=Multi Player Soccer Manage
+AGS2Name=Multi Player Soccer Manage
 iGameName=Multi Player Soccer Manager

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Thomas the Tank Engine CD32
 RunFile=ThomasTankEngPinballCD32.Slave
-AGS2Name=Thomas the Tank Engine CD32
-AGS2IndexName=T
-AGS2FileName=Thomas the Tank Engine CD3
+AGS2Name=Thomas the Tank Engine CD3
 iGameName=Thomas the Tank Engine CD32

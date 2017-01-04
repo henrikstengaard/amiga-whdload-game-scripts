@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Dragon's Lair II: Time Warp
 RunFile=DragonsLair2.Slave
-AGS2Name=Dragon's Lair II: Time Warp
-AGS2IndexName=D
-AGS2FileName=Dragon's Lair II Time Warp
+AGS2Name=Dragon's Lair II Time Warp
 iGameName=Dragon's Lair II: Time Warp

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Future Wars: Time Travellers
 RunFile=FutureWars.Slave
-AGS2Name=Future Wars: Time Travellers
-AGS2IndexName=F
-AGS2FileName=Future Wars Time Traveller
+AGS2Name=Future Wars Time Traveller
 iGameName=Future Wars: Time Travellers

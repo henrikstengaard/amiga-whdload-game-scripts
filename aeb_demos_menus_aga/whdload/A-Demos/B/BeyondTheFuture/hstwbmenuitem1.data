@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Beyond the future - Union AGA
 RunFile=BeyondTheFuture.Slave
-AGS2Name=Beyond the future - Union AGA
-AGS2IndexName=B
-AGS2FileName=Beyond the future - Union
+AGS2Name=Beyond the future - Union
 iGameName=Beyond the future - Union AGA

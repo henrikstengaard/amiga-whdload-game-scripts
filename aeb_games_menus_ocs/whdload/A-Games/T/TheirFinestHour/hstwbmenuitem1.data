@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Their Finest Hour: The Battle of Britain
 RunFile=TheirFinestHour.Slave
-AGS2Name=Their Finest Hour: The Battle of Britain
-AGS2IndexName=T
-AGS2FileName=Their Finest Hour The Batt
+AGS2Name=Their Finest Hour The Batt
 iGameName=Their Finest Hour: The Battle of Britain

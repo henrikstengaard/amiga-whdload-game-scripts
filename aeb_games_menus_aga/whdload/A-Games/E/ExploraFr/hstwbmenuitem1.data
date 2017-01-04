@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Explora: Time Run FR
 RunFile=ExploraFr.Slave
-AGS2Name=Explora: Time Run FR
-AGS2IndexName=E
-AGS2FileName=Explora Time Run FR
+AGS2Name=Explora Time Run FR
 iGameName=Explora: Time Run FR

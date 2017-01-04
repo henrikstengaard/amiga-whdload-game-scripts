@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Project-X
 RunFile=ProjectXv2.Slave
-AGS2Name=Project-X
-AGS2IndexName=P
-AGS2FileName=Project-X 
+AGS2Name=Project-X 
 iGameName=Project-X

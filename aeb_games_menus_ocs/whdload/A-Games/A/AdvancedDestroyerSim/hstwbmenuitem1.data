@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Advanced Destroyer Simulator
 RunFile=AdvancedDestroyerSim.Slave
-AGS2Name=Advanced Destroyer Simulator
-AGS2IndexName=A
-AGS2FileName=Advanced Destroyer Simulat
+AGS2Name=Advanced Destroyer Simulat
 iGameName=Advanced Destroyer Simulator

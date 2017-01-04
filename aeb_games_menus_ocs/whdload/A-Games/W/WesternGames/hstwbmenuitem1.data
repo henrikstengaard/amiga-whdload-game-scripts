@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Western Games
 RunFile=WesternGames.Slave
-AGS2Name=Western Games
-AGS2IndexName=W
-AGS2FileName=Western Games 
+AGS2Name=Western Games 
 iGameName=Western Games

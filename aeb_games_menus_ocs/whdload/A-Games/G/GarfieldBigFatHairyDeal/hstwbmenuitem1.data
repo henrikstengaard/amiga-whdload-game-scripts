@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Garfield: Big, Fat, Hairy Deal
 RunFile=GarfieldBigFatHairyDeal.Slave
-AGS2Name=Garfield: Big, Fat, Hairy Deal
-AGS2IndexName=G
-AGS2FileName=Garfield Big, Fat, Hairy D
+AGS2Name=Garfield Big, Fat, Hairy D
 iGameName=Garfield: Big, Fat, Hairy Deal

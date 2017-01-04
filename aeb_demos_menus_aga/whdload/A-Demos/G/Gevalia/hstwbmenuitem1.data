@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Gevalia - Polka brothers AGA
 RunFile=Gevalia.Slave
-AGS2Name=Gevalia - Polka brothers AGA
-AGS2IndexName=G
-AGS2FileName=Gevalia - Polka brothers A
+AGS2Name=Gevalia - Polka brothers A
 iGameName=Gevalia - Polka brothers AGA

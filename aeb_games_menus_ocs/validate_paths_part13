@@ -1837,8 +1837,8 @@ ENDIF
 IF NOT EXISTS "A-Games:V/Vroom&DataDisk/"
   ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:V/Vroom&DataDisk/DataDisk.Slave"
-  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/DataDisk.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/Vroom.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/Vroom.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:V/Vroom&DataDisk/igame.iff"
   ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/igame.iff' doesn't exist!"
@@ -1846,8 +1846,8 @@ ENDIF
 IF NOT EXISTS "A-Games:V/Vroom&DataDisk/"
   ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/' doesn't exist!"
 ENDIF
-IF NOT EXISTS "A-Games:V/Vroom&DataDisk/Vroom.Slave"
-  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/Vroom.Slave' doesn't exist!"
+IF NOT EXISTS "A-Games:V/Vroom&DataDisk/DataDisk.Slave"
+  ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/DataDisk.Slave' doesn't exist!"
 ENDIF
 IF NOT EXISTS "A-Games:V/Vroom&DataDisk/igame.iff"
   ECHO "ERROR: Path 'A-Games:V/Vroom&DataDisk/igame.iff' doesn't exist!"

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Ween: The Prophecy
 RunFile=WeenTheProphecy.slave
-AGS2Name=Ween: The Prophecy
-AGS2IndexName=W
-AGS2FileName=Ween The Prophecy
+AGS2Name=Ween The Prophecy
 iGameName=Ween: The Prophecy

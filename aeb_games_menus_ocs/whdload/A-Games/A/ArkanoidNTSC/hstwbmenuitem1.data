@@ -2,6 +2,4 @@
 Name=Arkanoid NTSC
 RunFile=ArkanoidNTSC.Slave
 AGS2Name=Arkanoid NTSC
-AGS2IndexName=A
-AGS2FileName=Arkanoid NTSC
 iGameName=Arkanoid NTSC

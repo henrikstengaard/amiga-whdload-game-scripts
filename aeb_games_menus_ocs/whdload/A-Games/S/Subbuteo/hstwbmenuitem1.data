@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Subbuteo: The Computer Game
 RunFile=Subbuteo.Slave
-AGS2Name=Subbuteo: The Computer Game
-AGS2IndexName=S
-AGS2FileName=Subbuteo The Computer Game
+AGS2Name=Subbuteo The Computer Game
 iGameName=Subbuteo: The Computer Game

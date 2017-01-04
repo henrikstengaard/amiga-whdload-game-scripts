@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Flies: Attack on Earth DE
 RunFile=FliesAttackOnEarthDe.Slave
-AGS2Name=Flies: Attack on Earth DE
-AGS2IndexName=F
-AGS2FileName=Flies Attack on Earth DE
+AGS2Name=Flies Attack on Earth DE
 iGameName=Flies: Attack on Earth DE

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Time Runners 24: Beyond All Dimensions
 RunFile=TimeRunners24.Slave
-AGS2Name=Time Runners 24: Beyond All Dimensions
-AGS2IndexName=T
-AGS2FileName=Time Runners 24 Beyond All
+AGS2Name=Time Runners 24 Beyond All
 iGameName=Time Runners 24: Beyond All Dimensions

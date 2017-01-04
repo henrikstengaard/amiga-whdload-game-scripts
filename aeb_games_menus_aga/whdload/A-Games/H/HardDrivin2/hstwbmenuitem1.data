@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hard Drivin'
 RunFile=HardDrivin2.Slave
-AGS2Name=Hard Drivin'
-AGS2IndexName=H
-AGS2FileName=Hard Drivin' 
+AGS2Name=Hard Drivin' 
 iGameName=Hard Drivin'

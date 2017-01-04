@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Humans 2: The Jurassic Levels
 RunFile=Humans2.slave
-AGS2Name=Humans 2: The Jurassic Levels
-AGS2IndexName=H
-AGS2FileName=Humans 2 The Jurassic Leve
+AGS2Name=Humans 2 The Jurassic Leve
 iGameName=Humans 2: The Jurassic Levels

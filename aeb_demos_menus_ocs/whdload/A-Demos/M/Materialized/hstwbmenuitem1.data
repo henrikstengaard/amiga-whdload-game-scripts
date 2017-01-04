@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Materialized - Cryptoburners
 RunFile=Materialized.Slave
-AGS2Name=Materialized - Cryptoburners
-AGS2IndexName=M
-AGS2FileName=Materialized - Cryptoburne
+AGS2Name=Materialized - Cryptoburne
 iGameName=Materialized - Cryptoburners

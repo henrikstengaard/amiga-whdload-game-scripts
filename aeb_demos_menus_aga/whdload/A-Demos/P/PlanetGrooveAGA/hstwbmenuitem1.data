@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Hoi Saga Demo I - Planet Groove - Team hoi AGA
 RunFile=PlanetGrooveAGA.slave
-AGS2Name=Hoi Saga Demo I - Planet Groove - Team hoi AGA
-AGS2IndexName=H
-AGS2FileName=Hoi Saga Demo I - Plane #2
+AGS2Name=Hoi Saga Demo I - Plane #2
 iGameName=Hoi Saga Demo I - Planet Groove - Team hoi AGA

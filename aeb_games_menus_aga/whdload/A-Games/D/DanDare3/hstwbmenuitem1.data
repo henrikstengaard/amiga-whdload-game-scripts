@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Dan Dare III: The Escape
 RunFile=DanDare3.slave
-AGS2Name=Dan Dare III: The Escape
-AGS2IndexName=D
-AGS2FileName=Dan Dare III The Escape
+AGS2Name=Dan Dare III The Escape
 iGameName=Dan Dare III: The Escape

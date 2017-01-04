@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Megademo - Software Of Sweden
 RunFile=MegademoSOS.Slave
-AGS2Name=Megademo - Software Of Sweden
-AGS2IndexName=M
-AGS2FileName=Megademo - Software Of Swe
+AGS2Name=Megademo - Software Of Swe
 iGameName=Megademo - Software Of Sweden

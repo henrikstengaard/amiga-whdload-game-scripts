@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Graham Gooch World Class Cricket
 RunFile=GrahamGoochWCCricket.Slave
-AGS2Name=Graham Gooch World Class Cricket
-AGS2IndexName=G
-AGS2FileName=Graham Gooch World Class C
+AGS2Name=Graham Gooch World Class C
 iGameName=Graham Gooch World Class Cricket

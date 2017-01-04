@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Graeme Souness Vector Soccer
 RunFile=GraemeSounessVectorSoccer.Slave
-AGS2Name=Graeme Souness Vector Soccer
-AGS2IndexName=G
-AGS2FileName=Graeme Souness Vector Socc
+AGS2Name=Graeme Souness Vector Socc
 iGameName=Graeme Souness Vector Soccer

@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Viaje al Centro de la Tierra ES
 RunFile=ViajeAlCentroDeLaTierraEs.slave
-AGS2Name=Viaje al Centro de la Tierra ES
-AGS2IndexName=V
-AGS2FileName=Viaje al Centro de la Tier
+AGS2Name=Viaje al Centro de la Tier
 iGameName=Viaje al Centro de la Tierra ES

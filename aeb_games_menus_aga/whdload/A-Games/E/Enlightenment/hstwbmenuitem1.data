@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Enlightenment: Druid II
 RunFile=Enlightenment.Slave
-AGS2Name=Enlightenment: Druid II
-AGS2IndexName=E
-AGS2FileName=Enlightenment Druid II
+AGS2Name=Enlightenment Druid II
 iGameName=Enlightenment: Druid II

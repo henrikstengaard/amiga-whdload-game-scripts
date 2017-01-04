@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=ATR: All Terrain Racing Demo
 RunFile=AllTerrainRacingXmasDemo.Slave
-AGS2Name=ATR: All Terrain Racing Demo
-AGS2IndexName=A
-AGS2FileName=ATR All Terrain Racing Dem
+AGS2Name=ATR All Terrain Racing Dem
 iGameName=ATR: All Terrain Racing Demo

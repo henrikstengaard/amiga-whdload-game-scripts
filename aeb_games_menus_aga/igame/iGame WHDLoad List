@@ -81,9 +81,9 @@ A-Games:   AlienBreed3D2AGA            Alien Breed 3D 2: The Killing Grounds AGA
 A-Games:   AlienBreed3DAGA             Alien Breed 3D AGA
 A-Games:   AlienBreed3DAGAFixed        Alien Breed 3D AGA Fixed
 A-Games:   AlienBreed3DCD32            Alien Breed 3D CD32
-A-Games:   AlienBreed3DDemoLatestAGA   Alien Breed 3D AlienBreed3DDemoLatest AGA
-A-Games:   AlienBreed3DDemoPlayAGA     Alien Breed 3D AGA
-A-Games:   AlienBreed3DDemoRollAGA     Alien Breed 3D AGA
+A-Games:   AlienBreed3DDemoLatestAGA   Alien Breed 3D AGA DemoLatest
+A-Games:   AlienBreed3DDemoPlayAGA     Alien Breed 3D AGA DemoPlay
+A-Games:   AlienBreed3DDemoRollAGA     Alien Breed 3D AGA DemoRoll
 A-Games:   AlienBreed3DNoMusicAGA      Alien Breed 3D AGA NoMusic
 A-Games:   AlienBreed3DNoMusicCD32     Alien Breed 3D CD32 NoMusic
 A-Games:   AlienBreedSpecialEdition    Alien Breed: Special Edition 1992
@@ -193,8 +193,8 @@ A-Games:   AtominoDe                   Atomino DE
 A-Games:   Atomix                      Atomix
 A-Games:   AtomSmasher                 Atom Smasher
 A-Games:   ATrain                      A-Train
-A-Games:   ATrain&ConstrSet512k        A-Train ATrain ConstrSet 512K
-A-Games:   ATrain&ConstructionSet      A-Train ATrain ConstructionSet
+A-Games:   ATrain&ConstrSet512k        A-Train ConstrSet 512K
+A-Games:   ATrain&ConstructionSet      A-Train ConstructionSet
 A-Games:   ATrain512k                  A-Train 512K
 A-Games:   ATrain512kCz                A-Train CZ 512K
 A-Games:   ATrain512kDe                A-Train DE 512K
@@ -281,7 +281,7 @@ A-Games:   BattleChessCD32             Battle Chess CD32
 A-Games:   BattleChessCDTV             Battle Chess CDTV
 A-Games:   BattleCommand               Battle Command
 A-Games:   BattleForAshes              Battle for the Ashes
-A-Games:   BattleForAshesAmigaPower    Battle for the Ashes
+A-Games:   BattleForAshesAmigaPower    Battle for the Ashes AmigaPower
 A-Games:   Battlehawks1942             Battlehawks 1942
 A-Games:   BattleIsle                  Battle Isle
 A-Games:   BattleIsle&DataDisks        Battle Isle DataDisk
@@ -360,8 +360,8 @@ A-Games:   BloodMoney                  Blood Money
 A-Games:   Bloodnet                    BloodNet
 A-Games:   BloodnetAGA                 BloodNet AGA
 A-Games:   Bloodwych                   Bloodwych
-A-Games:   Bloodwych&ExtendedLevels    Bloodwych  ExtendedLevels
-A-Games:   Bloodwych&ExtendedLevels    Bloodwych ExtendedLevels ExtendedLevels
+A-Games:   Bloodwych&ExtendedLevels    Bloodwych ExtendedLevels
+A-Games:   Bloodwych&ExtendedLevels    Bloodwych ExtendedLevels
 A-Games:   BlueAngel69                 Blue Angel 69
 A-Games:   BlueAngels                  Blue Angels
 A-Games:   BlueberryDe                 Blueberry DE
@@ -479,7 +479,7 @@ A-Games:   Capone                      Capone
 A-Games:   CaptainBlood                Captain Blood
 A-Games:   CaptainDynamo               Captain Dynamo
 A-Games:   CaptainFizz                 Captain Fizz Meets the Blaster-Trons
-A-Games:   CaptainPlanet&Planeteers    Captain Planet and the Planeteers Planeteers
+A-Games:   CaptainPlanet&Planeteers    Captain Planet and the Planeteers
 A-Games:   Captive                     Captive
 A-Games:   Carcharodon                 Carcharodon: White Sharks
 A-Games:   CardiaxxElectronicZoo       Cardiaxx
@@ -531,9 +531,9 @@ A-Games:   ChaosEngineCD32             Chaos Engine, The CD32
 A-Games:   ChaosEngineDemo             Chaos Engine, The Demo
 A-Games:   ChaosInAndromeda            Chaos in Andromeda: Eyes of the Eagle
 A-Games:   ChaosInAndromedaCDTV        Chaos in Andromeda: Eyes of the Eagle CDTV
-A-Games:   ChaosStrikesBack&DeUtil     Chaos Strikes Back ChaosStrikesBack DE Util
-A-Games:   ChaosStrikesBack&EnUtil     Chaos Strikes Back ChaosStrikesBack Util
-A-Games:   ChaosStrikesBack&FrUtil     Chaos Strikes Back ChaosStrikesBack FR Util
+A-Games:   ChaosStrikesBack&DeUtil     Chaos Strikes Back DE Util
+A-Games:   ChaosStrikesBack&EnUtil     Chaos Strikes Back Util
+A-Games:   ChaosStrikesBack&FrUtil     Chaos Strikes Back FR Util
 A-Games:   CharlieJCool                Charlie J. Cool
 A-Games:   CharlieJCoolAGA             Charlie J. Cool AGA
 A-Games:   ChaseHQ                     Chase HQ
@@ -1271,7 +1271,7 @@ A-Games:   GoldenEagle                 Golden Eagle Intro
 A-Games:   GoldenEagle                 Golden Eagle
 A-Games:   GoldenPath                  Golden Path
 A-Games:   GoldOfTheAztecs             Gold of the Aztecs, The
-A-Games:   GoldOfTheAztecs_Kernal1.1   Gold of the Aztecs, The GoldOfTheAztecs(v1.1)
+A-Games:   GoldOfTheAztecs_Kernal1.1   Gold of the Aztecs, The (v1.1) Kernal1.1
 A-Games:   Goldrunner                  Goldrunner
 A-Games:   Goldrunner2                 Goldrunner II
 A-Games:   Goldrunner2&SceneryDisks    Goldrunner II SceneryDisk
@@ -1566,7 +1566,7 @@ A-Games:   KalasPuffExpressenSe1MB     Kalas Puffs Expressen SE 1MB
 A-Games:   KalasPuffExpressenSe512KB   Kalas Puffs Expressen SE 512KB
 A-Games:   Kamikaze                    Kamikaze
 A-Games:   KarateKid2                  Karate Kid Part II, The
-A-Games:   KarateKing&CityDefense      Karate King KarateKing&CityDefence CityDefense
+A-Games:   KarateKing&CityDefense      Karate King CityDefence CityDefense
 A-Games:   KartingGrandPrix            Karting Grand Prix
 A-Games:   Katakis1Disk                Katakis 1Disk
 A-Games:   Katakis2Disk                Katakis 2Disk
@@ -1584,11 +1584,11 @@ A-Games:   KickOff&ExtraTime1Disk      Kick Off ExtraTime 1Disk
 A-Games:   KickOff&ExtraTime2Disk      Kick Off ExtraTime 2Disk
 A-Games:   KickOff2                    Kick Off 2
 A-Games:   KickOff216                  Kick Off 2
-A-Games:   KickOff2CV                  Kick Off 2
+A-Games:   KickOff2CV                  Kick Off 2 CV
 A-Games:   KickOff2De                  Kick Off 2 DE
 A-Games:   KickOff2Es                  Kick Off 2 ES
 A-Games:   KickOff2FinalWhistle        Kick Off 2: The Final Whistle
-A-Games:   KickOff2FinalWhistleCV      Kick Off 2: The Final Whistle
+A-Games:   KickOff2FinalWhistleCV      Kick Off 2: The Final Whistle CV
 A-Games:   KickOff2FinalWhistleDe      Kick Off 2: The Final Whistle KickOff2FW DE
 A-Games:   KickOff2Fr                  Kick Off 2 FR
 A-Games:   KickOff2It                  Kick Off 2 IT
@@ -1706,12 +1706,12 @@ A-Games:   LeisureSuitLarry5De         Leisure Suit Larry 5: Passionate Patti do
 A-Games:   Lemmings1Disk               Lemmings 1Disk
 A-Games:   Lemmings21MB                Lemmings 2: The Tribes 1MB
 A-Games:   Lemmings21MB                Lemmings 2: The Tribes Intro 1MB
-A-Games:   Lemmings2512KB              Lemmings 2: The Tribes Intro 512KB
 A-Games:   Lemmings2512KB              Lemmings 2: The Tribes 512KB
+A-Games:   Lemmings2512KB              Lemmings 2: The Tribes Intro 512KB
 A-Games:   Lemmings2Demo               Lemmings 2: The Tribes Demo
 A-Games:   Lemmings2Disk               Lemmings 2Disk
-A-Games:   LemmingsAltFiles            Lemmings Files
-A-Games:   LemmingsAltImage            Lemmings Image
+A-Games:   LemmingsAltFiles            Lemmings Files Alt
+A-Games:   LemmingsAltImage            Lemmings Image Alt
 A-Games:   LemmingsCDTV                Lemmings CDTV
 A-Games:   LemmingsDemo                Lemmings Demo
 A-Games:   LemmingsFiles               Lemmings Files
@@ -1820,7 +1820,7 @@ A-Games:   MagicJohnsonsBasketball     Magic Johnson's Basketball
 A-Games:   MagiclandDizzy              Magicland Dizzy
 A-Games:   MagiclandDizzy              Magicland Dizzy
 A-Games:   MagicLines                  Magic Lines
-A-Games:   MagicLinesCracked           Magic Lines
+A-Games:   MagicLinesCracked           Magic Lines Cracked
 A-Games:   MagicPockets                Magic Pockets
 A-Games:   MagicPocketsDemo            Magic Pockets Demo
 A-Games:   MagicPocketsNTSC            Magic Pockets NTSC
@@ -1923,7 +1923,7 @@ A-Games:   MiG29MSuperFulcrum          MiG-29M Super Fulcrum
 A-Games:   Mig29SovietFighter          MIG-29 Soviet Fighter
 A-Games:   Might&Magic2                Might and Magic II: Gates to Another World
 A-Games:   MightAndMagic3              Might and Magic III: Isles of Terra
-A-Games:   MightAndMagic3De            Might and Magic III: Isles of Terra MightAndMagic3 DE
+A-Games:   MightAndMagic3De            Might and Magic III: Isles of Terra DE
 A-Games:   MightyBombJack              Mighty Bombjack
 A-Games:   MikeReadsComputerPopQuiz    Mike Read's Computer Pop Quiz
 A-Games:   MikroMortalTennis           Mikro Mortal Tennis
@@ -2144,7 +2144,7 @@ A-Games:   Perihelion                  Perihelion
 A-Games:   PersianGulfInferno          Persian Gulf Inferno, The
 A-Games:   PersonalNightmare           Personal Nightmare
 A-Games:   PeterBeardsleysIF           Peter Beardsley's International Football
-A-Games:   PeterBeardsleysIFCracked    Peter Beardsley's International Football
+A-Games:   PeterBeardsleysIFCracked    Peter Beardsley's International Football Cracked
 A-Games:   PeterSchmeichelSoccer       Peter Schmeichel Soccer
 A-Games:   PGAEuropeanTour             PGA European Tour
 A-Games:   PGAEuropeanTourAGA          PGA European Tour AGA
@@ -2179,7 +2179,7 @@ A-Games:   PinballMania                Pinball Mania AGA
 A-Games:   PinballPrelude              Pinball Prelude
 A-Games:   PinballPreludeAGA           Pinball Prelude AGA
 A-Games:   PinballWizard               Pinball Wizard
-A-Games:   PinballWizardPrerelease     Pinball Wizard
+A-Games:   PinballWizardPrerelease     Pinball Wizard Prerelease
 A-Games:   Pinkie                      Pinkie
 A-Games:   PinkPanther                 Pink Panther
 A-Games:   Pinomania                   Pinomania
@@ -2218,10 +2218,10 @@ A-Games:   PoolsOfDarkness             Pools of Darkness
 A-Games:   PoolsOfDarknessDe           Pools of Darkness DE
 A-Games:   Popeye2                     Popeye 2
 A-Games:   Populous                    Populous
-A-Games:   Populous&DataDisks          Populous  DataDisk
+A-Games:   Populous&DataDisks          Populous DataDisk
 A-Games:   Populous2                   Populous II: Trials of the Olympian Gods
-A-Games:   Populous2&ChallengeGames    Populous II: Trials of the Olympian Gods ChallengeGames ChallengeGames
-A-Games:   Populous2&ChallengeGames    Populous II: Trials of the Olympian Gods Populous2 ChallengeGames
+A-Games:   Populous2&ChallengeGames    Populous II: Trials of the Olympian Gods ChallengeGames
+A-Games:   Populous2&ChallengeGames    Populous II: Trials of the Olympian Gods ChallengeGames
 A-Games:   PopulousWorldEditor         Populous World Editor
 A-Games:   Portal                      Portal
 A-Games:   PortesDuTempsFr             Portes du Temps, Les FR
@@ -2393,7 +2393,7 @@ A-Games:   RiseOfTheRobotsCD32         Rise of the Robots CD32
 A-Games:   Risk                        RISK
 A-Games:   RiskyWoods                  Risky Woods
 A-Games:   RoadBlasters                RoadBlasters
-A-Games:   RoadBlastersCracked         RoadBlasters
+A-Games:   RoadBlastersCracked         RoadBlasters Cracked
 A-Games:   RoadkillAGA                 Roadkill AGA
 A-Games:   RoadkillCD32                Roadkill CD32
 A-Games:   RoadkillCD32NoIntro         Roadkill CD32 NoIntro
@@ -2567,21 +2567,21 @@ A-Games:   SilentService2              Silent Service II
 A-Games:   SiliconDreams               Silicon Dreams
 A-Games:   Silkworm                    Silk Worm
 A-Games:   SillyPutty                  Putty
-A-Games:   SimAntHiRes                 SimAnt
-A-Games:   SimAntHiResDe               SimAnt DE
-A-Games:   SimAntHiResFr               SimAnt FR
-A-Games:   SimAntLoRes                 SimAnt
-A-Games:   SimAntLoResDe               SimAnt DE
-A-Games:   SimAntLoResFr               SimAnt FR
+A-Games:   SimAntHiRes                 SimAnt HiRes
+A-Games:   SimAntHiResDe               SimAnt DE HiRes
+A-Games:   SimAntHiResFr               SimAnt FR HiRes
+A-Games:   SimAntLoRes                 SimAnt LoRes
+A-Games:   SimAntLoResDe               SimAnt DE LoRes
+A-Games:   SimAntLoResFr               SimAnt FR LoRes
 A-Games:   SimCity12                   Sim City
-A-Games:   SimCity512K                 Sim City
+A-Games:   SimCity512K                 Sim City 512K
 A-Games:   SimCityCDTV                 Sim City CDTV
-A-Games:   SimEarthHiRes               SimEarth
-A-Games:   SimEarthHiResDe             SimEarth DE
-A-Games:   SimEarthHiResFr             SimEarth FR
-A-Games:   SimEarthLoRes               SimEarth
-A-Games:   SimEarthLoResDe             SimEarth DE
-A-Games:   SimEarthLoResFr             SimEarth FR
+A-Games:   SimEarthHiRes               SimEarth HiRes
+A-Games:   SimEarthHiResDe             SimEarth DE HiRes
+A-Games:   SimEarthHiResFr             SimEarth FR HiRes
+A-Games:   SimEarthLoRes               SimEarth LoRes
+A-Games:   SimEarthLoResDe             SimEarth DE LoRes
+A-Games:   SimEarthLoResFr             SimEarth FR LoRes
 A-Games:   SimLife                     SimLife
 A-Games:   SimLifeAGA                  SimLife AGA
 A-Games:   SimLifeDe                   SimLife DE
@@ -2615,7 +2615,7 @@ A-Games:   Skyfox                      Skyfox
 A-Games:   Skyfox2                     Skyfox II: The Cygnus Conflict
 A-Games:   SkyHighStuntman             Sky High Stuntman
 A-Games:   Slackskin&Flint             Slackskin & Flint
-A-Games:   Slackskin&FlintCracked      Slackskin & Flint
+A-Games:   Slackskin&FlintCracked      Slackskin & Flint Cracked
 A-Games:   SlamTiltAGA                 Slamtilt AGA
 A-Games:   SlamTiltAGA2MB              Slamtilt AGA 2MB
 A-Games:   SlamTiltDemoAGA             Slamtilt AGA Demo
@@ -2633,7 +2633,7 @@ A-Games:   SmashTV                     Smash TV
 A-Games:   Snapperazzi                 Snapperazzi
 A-Games:   Sneech                      Sneech
 A-Games:   Snoopy&Peanuts              Snoopy and Peanuts
-A-Games:   Snoopy&PeanutsNoSounds      Snoopy and Peanuts
+A-Games:   Snoopy&PeanutsNoSounds      Snoopy and Peanuts NoSounds
 A-Games:   SnowBrosFiles               Snow Bros. Files
 A-Games:   SnowBrosImage               Snow Bros. Image
 A-Games:   SnowStrike                  Snow Strike
@@ -2666,12 +2666,12 @@ A-Games:   SpaceAceDemo                Space Ace Demo
 A-Games:   SpaceAssault                Space Assault
 A-Games:   Spaceball                   Spaceball
 A-Games:   SpaceCrusade                Space Crusade
-A-Games:   SpaceCrusade&VoyageBeyond   Space Crusade SpaceCrusade VoyageBeyond
-A-Games:   SpaceCrusade&VoyageBeyond   Space Crusade VoyageBeyond VoyageBeyond
+A-Games:   SpaceCrusade&VoyageBeyond   Space Crusade VoyageBeyond
+A-Games:   SpaceCrusade&VoyageBeyond   Space Crusade VoyageBeyond
 A-Games:   Spacecutter                 Spacecutter
 A-Games:   SpaceGun                    Space Gun
 A-Games:   SpaceHarrier                Space Harrier
-A-Games:   SpaceHarrier&RetrnFntZone   Space Harrier SpaceHarrier RetrnFntZone
+A-Games:   SpaceHarrier&RetrnFntZone   Space Harrier RetrnFntZone
 A-Games:   SpaceHarrier&RFantasyZone   Space Harrier RFantasyZone
 A-Games:   SpaceHarrier2               Space Harrier II
 A-Games:   SpaceHulk                   Space Hulk
@@ -2755,7 +2755,7 @@ A-Games:   StoneAge                    Stone Age
 A-Games:   Stormball                   Stormball
 A-Games:   Stormlord                   Stormlord
 A-Games:   StormlordNTSC               Stormlord NTSC
-A-Games:   StormlordPrerelease         Stormlord
+A-Games:   StormlordPrerelease         Stormlord Prerelease
 A-Games:   StormMaster                 Storm Master
 A-Games:   StormMasterDe               Storm Master DE
 A-Games:   StormMasterFast             Storm Master FAST
@@ -2814,7 +2814,7 @@ A-Games:   SuperfrogDemoCUAmiga        Superfrog Demo CUAmiga
 A-Games:   SuperfrogDemoTheOne         Superfrog Demo TheOne
 A-Games:   SuperGrandPrix              Super Grand Prix
 A-Games:   SuperGridRunner             Grid Runner
-A-Games:   SuperGridRunnerCracked      Grid Runner
+A-Games:   SuperGridRunnerCracked      Grid Runner Cracked
 A-Games:   SuperHangOn                 Super Hang-On
 A-Games:   SuperheroDemo               Superhero Demo
 A-Games:   SuperLoopzAGA               Super Loopz AGA
@@ -2845,9 +2845,9 @@ A-Games:   SuperStreetFighter2DXAGA    Super Street Fighter II: The New Challeng
 A-Games:   SuperTetris                 Super Tetris
 A-Games:   SuperTwintris               Super Twintris
 A-Games:   Supremacy                   Supremacy
-A-Games:   SuprStrtFtr2TrboAGA         Super Street Fighter II Turbo SuprStrtFtr2TrboIntro AGA
+A-Games:   SuprStrtFtr2TrboAGA         Super Street Fighter II Turbo Intro AGA
 A-Games:   SuprStrtFtr2TrboAGA         Super Street Fighter II Turbo AGA
-A-Games:   SuprStrtFtr2TrboCD32        Super Street Fighter II Turbo SuprStrtFtr2TrboIntro CD32
+A-Games:   SuprStrtFtr2TrboCD32        Super Street Fighter II Turbo Intro CD32
 A-Games:   SuprStrtFtr2TrboCD32        Super Street Fighter II Turbo CD32
 A-Games:   SuprTennisChmps             Super Tennis Champs
 A-Games:   SuprTennisChmps&DataDisks   Super Tennis Champs DataDisk
@@ -3198,18 +3198,18 @@ A-Games:   Voyager                     Voyager
 A-Games:   VoyagesOfDiscovery          Voyages of Discovery
 A-Games:   VoyageursDuTempsFr          Voyageurs Du Temps, Les: La Menace FR
 A-Games:   Vroom                       Vroom
-A-Games:   Vroom&DataDisk              Vroom  DataDisk
-A-Games:   Vroom&DataDisk              Vroom DataDisk DataDisk
+A-Games:   Vroom&DataDisk              Vroom DataDisk
+A-Games:   Vroom&DataDisk              Vroom DataDisk
 A-Games:   VroomMultiPlayer            Vroom Multi-Player
 A-Games:   Vyper                       Vyper
 A-Games:   Vyrus                       Vyrus
 A-Games:   WackyDarts                  Wacky Darts
 A-Games:   WackyRaces                  Wacky Races
 A-Games:   WacusTheDetectivePl         Wacus the Detective PL
-A-Games:   WalkerCrunched              Walker NoSpeech
-A-Games:   WalkerCrunched              Walker
-A-Games:   WalkerDecrunched            Walker NoSpeech
-A-Games:   WalkerDecrunched            Walker
+A-Games:   WalkerCrunched              Walker NoSpeech Crunched
+A-Games:   WalkerCrunched              Walker Crunched
+A-Games:   WalkerDecrunched            Walker NoSpeech Decrunched
+A-Games:   WalkerDecrunched            Walker Decrunched
 A-Games:   Wall                        Wall, The
 A-Games:   Wanderer3D                  Wanderer 3D
 A-Games:   Wanted                      Wanted
@@ -3253,7 +3253,7 @@ A-Games:   WestPhaser                  West Phaser
 A-Games:   WheelsOnFire                Wheels on Fire AGA
 A-Games:   WhereTimeStoodStill         Where Time Stood Still
 A-Games:   Whirligig                   Whirligig
-A-Games:   WhirligigCracked            Whirligig
+A-Games:   WhirligigCracked            Whirligig Cracked
 A-Games:   WhiteDeath                  White Death: Battle for Velikiye Luki, November 1942
 A-Games:   Whizz                       Whizz
 A-Games:   WhizzAGA                    Whizz AGA

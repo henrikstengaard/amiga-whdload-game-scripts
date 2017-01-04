@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Sierra Soccer: World Challenge Edition
 RunFile=SierraSoccer.Slave
-AGS2Name=Sierra Soccer: World Challenge Edition
-AGS2IndexName=S
-AGS2FileName=Sierra Soccer World Challe
+AGS2Name=Sierra Soccer World Challe
 iGameName=Sierra Soccer: World Challenge Edition

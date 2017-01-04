@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Bundesliga Manager Hattrick BundesligaManagerHat AGA
 RunFile=BundesligaManagerHat.Slave
-AGS2Name=Bundesliga Manager Hattrick BundesligaManagerHat AGA
-AGS2IndexName=B
-AGS2FileName=Bundesliga Manager Hattric
+AGS2Name=Bundesliga Manager Hattric
 iGameName=Bundesliga Manager Hattrick BundesligaManagerHat AGA

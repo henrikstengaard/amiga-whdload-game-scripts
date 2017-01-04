@@ -1,7 +1,5 @@
 ;HstWB menu item data
 Name=Circle Scroller - United Forces
 RunFile=CircleScroller.Slave
-AGS2Name=Circle Scroller - United Forces
-AGS2IndexName=C
-AGS2FileName=Circle Scroller - United F
+AGS2Name=Circle Scroller - United F
 iGameName=Circle Scroller - United Forces
