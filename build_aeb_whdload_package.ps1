@@ -33,14 +33,8 @@ function WriteAmigaTextLines($path, $lines)
 
 
 # resolve paths
-#$eabWhdloadPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("aeb_whdload_games_aga")
 $eabWhdloadPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($eabWhdloadPath)
-#$packageName = "EAB WHDLoad Games"
-#$packageVersion = "2.6.0"
-#$packageInstallDir = "WORKDIR:WHDLoad/Games"
 $packagePath = [System.IO.Path]::Combine($eabWhdloadPath, "package")
-
-
 
 
 $installLines = @()
