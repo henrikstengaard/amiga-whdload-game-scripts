@@ -2,7 +2,7 @@
 # -----------------------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-01-04
+# Date:   2017-01-24
 #
 # A PowerShell script to build whdload package.
 
@@ -101,6 +101,6 @@ $packageInstallScriptFile = [System.IO.Path]::Combine($packagePath, "Install")
 WriteAmigaTextLines $packageInstallScriptFile $installLines
 
 # write package ini file
-$packageIniLines = @("[Package]",("Name={0}" -f $packageName), ("Version={0}" -f $packageVersion), "Dependencies=")
+$packageIniLines = @("[Package]",("Name={0}" -f $packageName), ("Version={0}" -f $packageVersion), "Dependencies=", "Assigns=WHDLOADDIR", "[DefaultAssigns]", "WHDLOADDIR=DH1:")
 $packageIniFile = [System.IO.Path]::Combine($packagePath, "package.ini")
 [System.IO.File]::WriteAllText($packageIniFile, ($packageIniLines -join [System.Environment]::NewLine))
