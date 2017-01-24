@@ -3,12 +3,12 @@
 ;RunFile=A-Games:B/BardsTale3/BardsTale3.slave
 
 ; Favourites Mode
-IF EXISTS ENV:favouritesmode
+IF EXISTS ENV:ags2favouritesmode
   execute S:AGS2Favourites "B" "Bards Tale III. The Thief"
-  IF $favouritesmode EQ "add"
+  IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
-  IF $favouritesmode EQ "remove"
+  IF $ags2favouritesmode EQ "remove"
     SKIP end
   ENDIF
 ENDIF

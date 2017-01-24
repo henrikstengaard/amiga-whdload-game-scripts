@@ -3,12 +3,12 @@
 ;RunFile=A-Games:G/Giddy2HeroInAnEggShell/Giddy2HeroInAnEggShell.Slave
 
 ; Favourites Mode
-IF EXISTS ENV:favouritesmode
+IF EXISTS ENV:ags2favouritesmode
   execute S:AGS2Favourites "G" "Giddy II Hero in an Egg Sh"
-  IF $favouritesmode EQ "add"
+  IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
-  IF $favouritesmode EQ "remove"
+  IF $ags2favouritesmode EQ "remove"
     SKIP end
   ENDIF
 ENDIF

@@ -3,12 +3,12 @@
 ;RunFile=A-Games:B/B17FlyingFortressDemo/B17FlyingFortressDemo.Slave
 
 ; Favourites Mode
-IF EXISTS ENV:favouritesmode
+IF EXISTS ENV:ags2favouritesmode
   execute S:AGS2Favourites "B" "B-17 Flying Fortress Demo"
-  IF $favouritesmode EQ "add"
+  IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
-  IF $favouritesmode EQ "remove"
+  IF $ags2favouritesmode EQ "remove"
     SKIP end
   ENDIF
 ENDIF

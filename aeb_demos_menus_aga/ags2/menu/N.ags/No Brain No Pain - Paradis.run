@@ -3,12 +3,12 @@
 ;RunFile=A-Demos:N/NoBrainNoPainParadise/NoBrainNoPainParadise.Slave
 
 ; Favourites Mode
-IF EXISTS ENV:favouritesmode
+IF EXISTS ENV:ags2favouritesmode
   execute S:AGS2Favourites "N" "No Brain No Pain - Paradis"
-  IF $favouritesmode EQ "add"
+  IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
-  IF $favouritesmode EQ "remove"
+  IF $ags2favouritesmode EQ "remove"
     SKIP end
   ENDIF
 ENDIF

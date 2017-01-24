@@ -3,12 +3,12 @@
 ;RunFile=A-Games:C/ChessPlayer2150DE/ChessPlayer2150De.Slave
 
 ; Favourites Mode
-IF EXISTS ENV:favouritesmode
+IF EXISTS ENV:ags2favouritesmode
   execute S:AGS2Favourites "C" "Chess Player 2150 DE"
-  IF $favouritesmode EQ "add"
+  IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
-  IF $favouritesmode EQ "remove"
+  IF $ags2favouritesmode EQ "remove"
     SKIP end
   ENDIF
 ENDIF
