@@ -283,7 +283,7 @@ function WriteAmigaTextString($path, $text)
 function BuildMenuItemFileName($name, $menuItemFileNameIndex)
 {
 	# make menu item file name by normalizing text and remove file name invalid characters
-	$menuItemFileName = (Normalize $name) -replace ',', '.' -replace '[^a-z0-9\.&\-+_ ]', ''
+	$menuItemFileName = (Normalize $name) -replace ',', '.' -replace '[^a-z0-9\.\-+_ ]', '' -replace '\s+', ' '
 
 	# if menu item file name is longer than max menu item file name length, then trim it to max menu item file name length characters
 	if ($menuItemFileName.length -gt $maxMenuItemFileNameLength)
