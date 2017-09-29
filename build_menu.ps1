@@ -645,16 +645,15 @@ foreach($whdloadSlave in $whdloadSlaves)
 		# build ags2 name
 		$ags2Name = Capitalize (BuildName $ags2NameFormat $whdloadSlave)
 
-		# add whdload slave to ags2 whdload list
-		if ($ags2WhdloadListLines.Count -eq 0)
-		{
-			$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "AGS2")
-		}
-		$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $ags2Name)
-
 		# build ags2 menu item file name
 		$ags2MenuItemFileName = BuildMenuItemFileName $ags2Name $ags2MenuItemFileNameIndex
 		
+		# add whdload slave to ags2 whdload list
+		if ($ags2WhdloadListLines.Count -eq 0)
+		{
+			$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2,-26}   {3}") -f "Assign", "Whdload", "AGS2", "Name")
+		}
+		$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2,-26}   {3}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $ags2MenuItemFileName, $ags2Name)
 
 		$ags2MenuDir = [System.IO.Path]::Combine($ags2OutputPath, "menu")
 		$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
