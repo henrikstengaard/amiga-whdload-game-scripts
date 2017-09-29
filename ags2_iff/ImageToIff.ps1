@@ -382,6 +382,28 @@ if (!(test-path -path $imagePath))
 # read image
 $image = new-object System.Drawing.Bitmap($imagePath)
 
+# TODO convert image to 4 or 8 bpp indexed
+# $colors = @{}
+
+# for ($y = 0; $y -lt $image.Height; $y++)
+# {
+#     for ($x = 0; $x -lt $image.Height; $x++)
+#     {
+#         $color = $image.GetPixel($x, $y)
+
+#         $hash = "{0},{1},{2}" -f $color.R, $color.B, $color.G
+
+#         if (!$colors.ContainsKey($hash))
+#         {
+#             $colors.Set_Item($hash, $color)
+#         }
+#     }
+# }
+
+
+
+
+
 # check if image is a 4-bpp or 8-bpp indexed image
 if ($image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format4bppIndexed -and $image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format8bppIndexed)
 {
