@@ -1,6 +1,0 @@
-Name      : Leisure Suit Larry
-Publisher : Sierra
-Year      : 1987
-Genre     : Adventure - Animated Graphics/Text
-Players   : 1
-Whdload   : LeisureSuitLarry.slave

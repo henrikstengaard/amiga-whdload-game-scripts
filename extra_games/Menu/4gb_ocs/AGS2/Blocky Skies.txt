@@ -1,5 +1,0 @@
-Name      : Blocky Skies
-Developer : Enable Software Pty Ltd.
-Year      : 2016
-Genre     : Brain - Memory
-Players   : 1

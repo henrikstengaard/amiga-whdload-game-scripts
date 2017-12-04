@@ -1,5 +1,0 @@
-Name      : Center Court 2
-Developer : Gernot Fritsche
-Year      : 2016
-Genre     : Sports - Tennis
-Players   : 1 to 4, Simultaneous 

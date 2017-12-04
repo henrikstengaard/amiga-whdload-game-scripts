@@ -1,5 +1,0 @@
-Name      : Sqrxz 2: Two Seconds Until Death 
-Developer : Retroguru
-Year      : 2012
-Genre     : Platformer - Scrolling Screen
-Players   : 1

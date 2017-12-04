@@ -1,4 +1,0 @@
-Name      : Monsters Of Terror
-Year      : 1995
-Genre     : Arcade - Labyrinth/Maze
-Players   : 1 to 4, Simultaneous
