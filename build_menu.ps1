@@ -2,7 +2,7 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-10-11
+# Date:   2017-12-19
 #
 # A PowerShell script to build AGS2, AMS and iGame menus. 
 # Whdload slave details file is used for building AGS2 and AMS menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
@@ -10,12 +10,14 @@
 
 Param(
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadSlavesFile,
-	[Parameter(Mandatory=$true)]
 	[string]$outputPath,
-	[Parameter(Mandatory=$true)]
+	[Parameter(Mandatory=$false)]
+	[string]$entriesFiles,
+	[Parameter(Mandatory=$false)]
+	[string]$sourcesFile,
+	[Parameter(Mandatory=$false)]
 	[string]$assignName,
-	[Parameter(Mandatory=$true)]
+	[Parameter(Mandatory=$false)]
 	[string]$detailColumns,
 	[Parameter(Mandatory=$false)]
 	[string]$ags2NameFormat,
@@ -24,13 +26,17 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$amsNameFormat,
 	[Parameter(Mandatory=$false)]
+	[string]$hstLauncherNameFormat,
+	[Parameter(Mandatory=$false)]
 	[string]$hstwbNameFormat,
 	[Parameter(Mandatory=$false)]
 	[string]$ags2MenuItemRunTemplateFile,
 	[Parameter(Mandatory=$false)]
 	[string]$amsMenuItemRunTemplateFile,
 	[Parameter(Mandatory=$false)]
-	[string]$whdloadScreenshotsFile,
+	[string]$detailsFiles,
+	[Parameter(Mandatory=$false)]
+	[string]$screenshotsFiles,
 	[Parameter(Mandatory=$false)]
 	[switch]$usePartitions,
 	[Parameter(Mandatory=$false)]
@@ -42,9 +48,26 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[switch]$iGame,
 	[Parameter(Mandatory=$false)]
-	[switch]$ams
+	[switch]$ams,
+	[Parameter(Mandatory=$false)]
+	[switch]$hstLauncher,
+	[Parameter(Mandatory=$false)]
+	[switch]$noDataIndex
 )
 
+# exit, if neither entries files or sources file is defined
+if (!$entriesFiles -and !$sourcesFile)
+{
+	Write-Error "Entries files or sources file is not defined"
+	exit 1
+}
+
+# exit, if entries files is used and assign name is not defined
+if ($entriesFiles -and !$assignName)
+{
+	Write-Error "Assign name is not defined"
+	exit 1
+}
 
 # exit, if ags2 is enabled and ags2 name format is not defined
 if ($ags2 -and !$ags2NameFormat)
@@ -96,9 +119,7 @@ if (!$hstwbNameFormat)
 
 # resolve paths
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
-$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
-$whdloadScreenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadScreenshotsFile)
-$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
+
 if ($ags2MenuItemRunTemplateFile)
 {
 	$ags2MenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ags2MenuItemRunTemplateFile)
@@ -107,12 +128,15 @@ if ($amsMenuItemRunTemplateFile)
 {
 	$amsMenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($amsMenuItemRunTemplateFile)
 }
-$whdloadRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("whdload_run_template.txt")
+
+$runWhdloadTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_whdload_template.txt")
+$runScriptTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_script_template.txt")
+$runFileTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_file_template.txt")
 
 $maxMenuItemFileNameLength = 26
 
 # detail columns
-$detailColumnsList = @( "Whdload" )
+$detailColumnsList = @( "RunFile" )
 $detailColumnsList +=, $detailColumns -split ','
 $detailColumnsPadding = ($detailColumnsList | sort @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
 
@@ -120,9 +144,9 @@ $detailColumnsPadding = ($detailColumnsList | sort @{expression={$_.Length};Asce
 # get index name from first character in name
 function GetIndexName($name)
 {
-	if (($name -replace '^[^a-z0-9]+', '') -match '^[0-9]') 
+	if (($name -replace '^[^a-z0-9]+', '') -match '^[0-9]')
 	{
-		$indexName = "0"
+		$indexName = "0-9"
 	}
 	else
 	{
@@ -147,11 +171,11 @@ function Capitalize([string]$text)
 	return $text.Substring(0,1).ToUpper() + $text.Substring(1)
 }
 
-function BuildName($nameFormat, $whdloadSlave)
+function BuildName($nameFormat, $entry)
 {
 	$name = $nameFormat
 
-	$nameFormatProperties = $whdloadSlave.psobject.Properties | where { $nameFormat -match $_.Name }
+	$nameFormatProperties = $entry.psobject.Properties | where { $nameFormat -match $_.Name }
 
 	if ($nameFormatProperties.Count -gt 0)
 	{
@@ -162,63 +186,66 @@ function BuildName($nameFormat, $whdloadSlave)
 	}
 	else
 	{
-		$name = $whdloadSlave.WhdloadName	
+		$name = $entry.EntryName	
 	}
 
 	$name = $name -replace '\s*\[[^\[\]]*\]', ''
 
-	$whdloadSlaveName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath) -replace '\.slave$'
+	$entryName = (Split-Path $entry.RunFile -Leaf) -replace '\.slave$'
 
-	if ($whdloadSlave.WhdloadName -ne $whdloadSlaveName)
+	if ($entry.RunType -match 'whdload' -and $entry.EntryName -ne $entryName)
 	{
-		$extra = $whdloadSlaveName.Replace($whdloadSlave.WhdloadName, '')
+		$extra = $entryName.Replace($entry.EntryName, '')
 
-		$whdloadNameWithoutHardware = $whdloadSlave.WhdloadName.Replace($whdloadSlave.FilteredHardware, '')
-		$extra = $extra.Replace($whdloadNameWithoutHardware, '')
-
-		if ($whdloadSlave.DetailName)
+		if ($entry.FilteredHardware)
 		{
-			$extra = $extra.Replace($whdloadSlave.DetailName, '')
+			$entryNameWithoutHardware = $entry.EntryName.Replace($entry.FilteredHardware, '')
+			$extra = $extra.Replace($entryNameWithoutHardware, '')
 		}
 
-		if ($whdloadSlave.FilteredName)
+		if ($entry.DetailName)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredName, '')
+			$extra = $extra.Replace($entry.DetailName, '')
 		}
 
-		if ($whdloadSlave.FilteredHardware)
+		if ($entry.FilteredName)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredHardware, '')
+			$extra = $extra.Replace($entry.FilteredName, '')
 		}
 
-		if ($whdloadSlave.FilteredCompilation)
+		if ($entry.FilteredHardware)
 		{
-			$extra = $extra.Replace(($whdloadSlave.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', ''), '')
+			$extra = $extra.Replace($entry.FilteredHardware, '')
 		}
 
-		if ($whdloadSlave.FilteredLanguage)
+		if ($entry.FilteredCompilation)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredLanguage, '')
+			$extra = $extra.Replace(($entry.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', ''), '')
 		}
 
-		if ($whdloadSlave.FilteredHardware)
+		if ($entry.FilteredLanguage)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredHardware, '')
+			$extra = $extra.Replace($entry.FilteredLanguage, '')
 		}
 
-		if ($whdloadSlave.FilteredMemory)
+		if ($entry.FilteredHardware)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredMemory, '')
+			$extra = $extra.Replace($entry.FilteredHardware, '')
 		}
 
-		if ($whdloadSlave.FilteredDemo)
+		if ($entry.FilteredMemory)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredDemo, '')
+			$extra = $extra.Replace($entry.FilteredMemory, '')
 		}
 
-		if ($whdloadSlave.FilteredOther)
+		if ($entry.FilteredDemo)
 		{
-			$extra = $extra.Replace($whdloadSlave.FilteredOther, '')
+			$extra = $extra.Replace($entry.FilteredDemo, '')
+		}
+
+		if ($entry.FilteredOther)
+		{
+			$extra = $extra.Replace($entry.FilteredOther, '')
 		}
 
 		$extra = $extra -replace '^[&_]', '' -replace '[&_]$', ''
@@ -229,34 +256,34 @@ function BuildName($nameFormat, $whdloadSlave)
 		}
 	}
 
-	if ($whdloadSlave.FilteredCompilation -and !$name.Contains($whdloadSlave.FilteredCompilation))
+	if ($entry.FilteredCompilation -and !$name.Contains($entry.FilteredCompilation))
 	{
-		$name += ' ' + ($whdloadSlave.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredCompilation -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
 	}
 
-	if ($whdloadSlave.FilteredLanguage)
+	if ($entry.FilteredLanguage)
 	{
-		$name += ' ' + ($whdloadSlave.FilteredLanguage.ToUpper() -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredLanguage.ToUpper() -replace ',', ' ')
 	}
 
-	if ($whdloadSlave.FilteredHardware -notmatch '(ocs|ecs)')
+	if ($entry.FilteredHardware -and $entry.FilteredHardware -notmatch '(ocs|ecs)')
 	{
-		$name += ' ' + ($whdloadSlave.FilteredHardware.ToUpper() -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredHardware.ToUpper() -replace ',', ' ')
 	}
 
-	if ($whdloadSlave.FilteredMemory)
+	if ($entry.FilteredMemory)
 	{
-		$name += ' ' + ($whdloadSlave.FilteredMemory.ToUpper() -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredMemory.ToUpper() -replace ',', ' ')
 	}
 
-	if ($whdloadSlave.FilteredDemo)
+	if ($entry.FilteredDemo)
 	{
-		$name += ' ' + ($whdloadSlave.FilteredDemo -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredDemo -replace ',', ' ')
 	}
 
-	if ($whdloadSlave.FilteredOther)
+	if ($entry.FilteredOther)
 	{
-		$name += ' ' + ($whdloadSlave.FilteredOther -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
+		$name += ' ' + ($entry.FilteredOther -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
 	}
 
 	return $name
@@ -339,30 +366,30 @@ function BuildMenuItemChangeDirectoryText($dataPath)
 	return ("Assign Data: " + $dataPath + "`nExecute RAM:AMSLoader")
 }
 
-function BuildMenuItemDetailText($whdloadSlave)
+function BuildMenuItemDetailText($entry)
 {
 	# build menu item text lines
 	$menuItemDetailTextLines = @()
 
 	$detailColumnsIndex = @{}
 
-	if ($whdloadSlave.DetailMatch -and $whdloadSlave.DetailMatch -ne '')
+	if ($entry.DetailMatch -and $entry.DetailMatch -ne '')
 	{
-		foreach ($property in ($whdloadSlave.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
+		foreach ($property in ($entry.psobject.Properties | Where { $_.Name -match '^Detail' -and $_.Value } ))
 		{
 			$detailColumnsIndex.Set_Item(($property.Name -replace '^Detail', ''), (Capitalize $property.Value))
 		}
 	}
 	else
 	{
-		Write-Host ("Warning: No details for whdload name '" + $whdloadSlave.WhdloadName + "', query '" + $whdloadSlave.Query + "'")
+		Write-Host ("Warning: No details for whdload name '" + $entry.EntryName + "', query '" + $entry.Query + "'")
 
-		$detailColumnsIndex.Set_Item("Name", (Capitalize $whdloadSlave.WhdloadSlaveName.Replace("CD??", "CD32")))
+		$detailColumnsIndex.Set_Item("Name", (Capitalize $entry.EntryName.Replace("CD??", "CD32")))
 	}
 
-	if ($whdloadSlave.FilteredLanguage)
+	if ($entry.FilteredLanguage)
 	{
-		switch ($whdloadSlave.FilteredLanguage.ToLower())
+		switch ($entry.FilteredLanguage.ToLower())
 		{
 			"dk" { $language = "Danish" }
 			"de" { $language = "German" }
@@ -385,29 +412,29 @@ function BuildMenuItemDetailText($whdloadSlave)
 
 	$version = @()
 
-	if ($whdloadSlave.FilteredCompilation)
+	if ($entry.FilteredCompilation)
 	{
-		$version += $whdloadSlave.FilteredCompilation -replace '&', '' -replace ',', ' '
+		$version += $entry.FilteredCompilation -replace '&', '' -replace ',', ' '
 	}
 	
-	if ($whdloadSlave.FilteredHardware -notmatch '(ocs|ecs)')
+	if ($entry.FilteredHardware -and $entry.FilteredHardware -notmatch '(ocs|ecs)')
 	{
-		$version += $whdloadSlave.FilteredHardware.ToUpper() -replace ',', ' '
+		$version += $entry.FilteredHardware.ToUpper() -replace ',', ' '
 	}
 
-	if ($whdloadSlave.FilteredMemory)
+	if ($entry.FilteredMemory)
 	{
-		$version += $whdloadSlave.FilteredMemory.ToUpper() -replace ',', ' '
+		$version += $entry.FilteredMemory.ToUpper() -replace ',', ' '
 	}
 
-	if ($whdloadSlave.FilteredDemo)
+	if ($entry.FilteredDemo)
 	{
-		$version += $whdloadSlave.FilteredDemo -replace ',', ' '
+		$version += $entry.FilteredDemo -replace ',', ' '
 	}
 
-	if ($whdloadSlave.FilteredOther)
+	if ($entry.FilteredOther)
 	{
-		$version += $whdloadSlave.FilteredOther -replace ',', ' '
+		$version += $entry.FilteredOther -replace ',', ' '
 	}
 
 	if ($version.Count -gt 0)
@@ -425,7 +452,7 @@ function BuildMenuItemDetailText($whdloadSlave)
 		$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f $column, $detailColumnsIndex.Get_Item($column))
 	}
 
-	$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "Whdload", [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath))
+	$menuItemDetailTextLines += (("{0,-" + $detailColumnsPadding + "} : {1}") -f "RunFile", [System.IO.Path]::GetFileName($entry.RunFile))
 	
 	return $menuItemDetailTextLines -join "`n"
 }
@@ -470,11 +497,11 @@ function Normalize([string]$text)
 }
 
 
-# make whdload output directory
-$whdloadOutputPath = [System.IO.Path]::Combine($outputPath, "whdload")
-if(!(Test-Path -Path $whdloadOutputPath))
+# make data output directory
+$dataOutputPath = [System.IO.Path]::Combine($outputPath, "data")
+if(!(Test-Path -Path $dataOutputPath))
 {
-	md $whdloadOutputPath | Out-Null
+	md $dataOutputPath | Out-Null
 }
 
 
@@ -510,24 +537,95 @@ if ($igame)
 	}
 }
 
-
-# read whdload slaves
-$whdloadSlaves = Import-Csv -Delimiter ';' $whdloadSlavesFile | sort @{expression={$_.WhdloadName};Ascending=$true} 
-
-# read whdload screenshots file
-$whdloadScreenshots = Import-Csv -Delimiter ';' $whdloadScreenshotsFile
-
-# index whdload screenshots
-$whdloadScreenshotsIndex = @{}
-
-foreach($whdloadScreenshot in $whdloadScreenshots)
+# make hst launcher output directory
+if ($hstLauncher)
 {
-	if ($whdloadScreenshotsIndex.ContainsKey($whdloadScreenshot.WhdloadSlaveFilePath))
+	$hstLauncherOutputPath = [System.IO.Path]::Combine($outputPath, "hstlauncher")
+	if(!(Test-Path -Path $hstLauncherOutputPath))
 	{
-		continue;
+		md $hstLauncherOutputPath | Out-Null
+	}
+}
+
+
+# read entries files
+$entries = @()
+
+if ($sourcesFile)
+{
+	$sourcesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($sourcesFile)
+
+	$sources = @()
+	Write-Host ("Reading sources file '{0}'" -f $sourcesFile)
+	$sources += import-csv -delimiter ';' -path $sourcesFile -encoding utf8 
+
+	foreach($source in $sources)
+	{
+		$entriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($source.EntriesFile)
+		Write-Host ("Reading entries file '{0}'" -f $entriesFile)
+		$sourceEntries = @()
+		$sourceEntries += import-csv -delimiter ';' -path $entriesFile -encoding utf8
+
+		$sourceEntries | Foreach-Object { $_ | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $source.AssignName -Force }
 	}
 
-	$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.WhdloadSlaveFilePath, $whdloadScreenshot.ScreenshotDirectoryName)
+	$entries += $sourceEntries
+}
+else
+{
+	foreach($entriesFile in ($entriesFiles -Split ','))
+	{
+		$entriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesFile)
+		Write-Host ("Reading entries file '{0}'" -f $entriesFile)
+		$entries += import-csv -delimiter ';' -path $entriesFile -encoding utf8 
+	}
+
+	$entries | Foreach-Object { $_ | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName -Force }
+}
+
+
+# read whdload screenshots files
+$whdloadScreenshotsIndex = @{}
+
+foreach($screenshotsFile in ($screenshotsFiles -Split ','))
+{
+	$screenshotsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotsFile)
+	Write-Host ("Reading screenshots file '{0}'" -f $screenshotsFile)
+	$whdloadScreenshots = @()
+	$whdloadScreenshots += import-csv -delimiter ';' -path $screenshotsFile -encoding utf8 
+
+	$whdloadScreenshotsDir = [System.IO.Path]::GetDirectoryName($screenshotsFile)
+
+	foreach($whdloadScreenshot in $whdloadScreenshots)
+	{
+		if ($whdloadScreenshotsIndex.ContainsKey($whdloadScreenshot.RunFile))
+		{
+			continue;
+		}
+	
+		$whdloadScreenshotsIndex.Set_Item($whdloadScreenshot.RunFile, (Join-Path $whdloadScreenshotsDir -ChildPath $whdloadScreenshot.ScreenshotDirectoryName))
+	}
+}
+
+
+# read details files
+$detailsIndex = @{}
+foreach($detailsFile in ($detailsFiles -Split ','))
+{
+	$detailsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($detailsFile)
+	Write-Host ("Reading details file '{0}'" -f $detailsFile)
+	$detailsEntries = @()
+	$detailsEntries += import-csv -delimiter ';' -path $detailsFile -encoding utf8 
+
+	foreach($detailsEntry in $detailsEntries)
+	{
+		if ($detailsIndex.ContainsKey($detailsEntry.RunFile.ToLower()))
+		{
+			continue;
+		}
+	
+		$detailsIndex.Set_Item($detailsEntry.RunFile.ToLower(), $detailsEntry)
+	}
 }
 
 
@@ -536,15 +634,12 @@ $partitionNumber = 1
 $partitionSize = 0
 $whdloadSizeIndex = @{}
 
-# screenshot variables
-$whdloadScreenshotsPath = [System.IO.Path]::GetDirectoryName($whdloadScreenshotsFile)
-
 # ags2 variables 
 $ags2MenuItemFileNameIndex = @{}
 
 # igame variables
 $iGameGamesListLines = @()
-$iGameReposLines = @()
+$iGameReposIndex = @{}
 
 # ams variables 
 $amsMenuItemFileNameIndex = @{}
@@ -553,107 +648,144 @@ $amsMenuItemFileNameIndex = @{}
 $hstwbMenuItemFileNameIndex = @{}
 
 
-if ($usePartitions)
-{
-	$iGameReposLines += ($assignName + $partitionNumber)
-}
-else
-{
-	$iGameReposLines += $assignName
-}
-
 # other output variables
 $validatePathsPartScript = 1
 $validatePathsPartScriptLines = @()
-$ags2WhdloadListLines = @()
-$iGameWhdloadListLines = @()
-$amsWhdloadListLines = @()
-$whdloadListColumnsPadding = ($whdloadSlaves | sort @{expression={$_.WhdloadName.Length};Ascending=$false} | Select-Object -First 1).WhdloadName.Length
+$ags2ListLines = @()
+$iGameListLines = @()
+$amsListLines = @()
+$hstLauncherListLines = @()
+$entryColumnPadding = ($entries | Sort-Object @{expression={$_.EntryName.Length};Ascending=$false} | Select-Object -First 1).EntryName.Length
+$runFileColumnPadding = ($entries | ForEach-Object { Split-Path $_.RunFile -Leaf } | Sort-Object @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
 
+$hstLauncherMenu = @{}
+
+$detailsNotFoundCount = 0
+$screenshotsNotFoundCount = 0
 
 # build menu from whdload slaves
-foreach($whdloadSlave in $whdloadSlaves)
+foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=$true}))
 {
 	# increase partition number, if using partitions and whdload size if larger than partition split size	
 	if ($usePartitions)
 	{
-		if (!$whdloadSizeIndex.ContainsKey($whdloadSlave.WhdloadName))
+		if (!$whdloadSizeIndex.ContainsKey($entry.EntryName))
 		{
 			# add whdload size to index
-			$whdloadSizeIndex.Set_Item($whdloadSlave.WhdloadName, $whdloadSlave.WhdloadSize)
+			$whdloadSizeIndex.Set_Item($entry.EntryName, $entry.WhdloadSize)
 
 			# increase partition number, if whdload size and partition size is greater than partition split size
-			if (($partitionSize + $whdloadSlave.WhdloadSize) -gt $partitionSplitSize)
+			if (($partitionSize + $entry.WhdloadSize) -gt $partitionSplitSize)
 			{
 				$partitionNumber++
 				$partitionSize = 0
-
-				$iGameReposLines += ($assignName + $partitionNumber)
 			}
 
 			# add whdload slave size to partition size
-			$partitionSize += $whdloadSlave.WhdloadSize
+			$partitionSize += $entry.WhdloadSize
 		}
 
 		# set assign path with partition number
-		$assignPath = $assignName + $partitionNumber
+		$assignPath = $entry.AssignName + $partitionNumber
 
-		# add assign name property to whdload slave
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value ($assignName + $partitionNumber)
+		# update assign name with partition number
+		$entry | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value ($entry.AssignName + $partitionNumber) -Force
 	}
 	else 
 	{
 		# set assign path
-		$assignPath = $assignName
-
-		# add assign name property to whdload slave
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName
+		$assignPath = $entry.AssignName
 	}
 
+	if (!$iGameReposIndex.ContainsKey($assignPath))
+	{
+		$iGameReposIndex.Set_Item($assignPath, $true)
+	}
+
+	# set rundir, replace blackslash with slash and add index name, if it doesn't exist
+	$runDir = [System.IO.Path]::GetDirectoryName($entry.RunFile).Replace("\", "/")
+	if (!$noDataIndex -and $runDir -notmatch '^(0\-9|[a-z])/')
+	{
+		$indexName = GetIndexName $runDir
+		$runDir = "{0}/{1}" -f $indexName, $runDir
+	}
 
 	# set whdload slave start path and replace backslash with slash
-	$whdloadSlaveStartPath = ($assignPath + ":" + [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath)).Replace("\", "/")
+	$entryRunDir = ($assignPath + ":" + $runDir)
 
 	# add tailing slash, if not present
-	if ($whdloadSlaveStartPath -notmatch '/$')
+	if ($entryRunDir -notmatch '/$')
 	{
-		$whdloadSlaveStartPath += "/"
+		$entryRunDir += "/"
 	}
 
 	# set whdload slave file name
-	$whdloadSlaveFileName = [System.IO.Path]::GetFileName($whdloadSlave.WhdloadSlaveFilePath)
+	$entryFileName = [System.IO.Path]::GetFileName($entry.RunFile)
 
 	# add whdload slave path checks to validate paths script 
 	$validatePathsPartScriptLines += @( 
-			("IF NOT EXISTS """ + $whdloadSlaveStartPath + """"), 
-			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + "' doesn't exist!"""), 
+			("IF NOT EXISTS """ + $entryRunDir + """"), 
+			("  ECHO ""ERROR: Path '" + $entryRunDir + "' doesn't exist!"""), 
 			"ENDIF", 
-			("IF NOT EXISTS """ + $whdloadSlaveStartPath + $whdloadSlaveFileName + """"), 
-			("  ECHO ""ERROR: Path '" + $whdloadSlaveStartPath + $whdloadSlaveFileName + "' doesn't exist!"""), 
+			("IF NOT EXISTS """ + $entryRunDir + $entryFileName + """"), 
+			("  ECHO ""ERROR: Path '" + $entryRunDir + $entryFileName + "' doesn't exist!"""), 
 			"ENDIF") 
 
+	if ($detailsIndex.ContainsKey($entry.RunFile.ToLower()))
+	{
+		$detailsEntry = $detailsIndex.Get_Item($entry.RunFile.ToLower())
+	}
+	else
+	{
+		$detailsNotFoundCount++
+		$detailsEntry = $entry
+		Write-Host ("No detail for " + $entry.RunFile)
+	}
 
     # build hstwb menuitem data files
 	$hstwbMenuItemDataLines = @(";HstWB menu item data")
-	$hstwbMenuItemDataLines += ("Name=" + (Capitalize (BuildName $hstwbNameFormat $whdloadSlave)))
-	$hstwbMenuItemDataLines += "RunFile=$whdloadSlaveFileName"
+	$hstwbMenuItemDataLines += ("Name=" + (Capitalize (BuildName $hstwbNameFormat $detailsEntry)))
+	$hstwbMenuItemDataLines += "RunFile=$entryFileName"
 
+
+	$runTemplateFile = ''
+	
+	if ($entry.RunType -match 'whdload')
+	{
+		$runTemplateFile = $runWhdloadTemplateFile
+	}
+	elseif ($entry.RunType -match 'runscript')
+	{
+		$runTemplateFile = $runScriptTemplateFile
+	}
+	elseif ($entry.RunType -match 'file')
+	{
+		$runTemplateFile = $runFileTemplateFile
+	}
+	else
+	{
+		throw ("Entry '{0}' with run type '{1}' is unsupported!" -f $entry.EntryName, $entry.RunType)
+	}
+
+	$runTemplateParameters = @{ "EntryRunDir" = $entryRunDir; "EntryFileName" = $entryFileName }
+	$runTemplateText = BuildTemplateText $runTemplateFile $runTemplateParameters
+	
 
 	# build ags2 menu for whdload slave
 	if ($ags2)
 	{
 		# build ags2 name
-		$ags2Name = Capitalize (BuildName $ags2NameFormat $whdloadSlave)
+		$ags2Name = Capitalize (BuildName $ags2NameFormat $detailsEntry)
 
 		# build ags2 menu item file name
 		$ags2MenuItemFileName = BuildMenuItemFileName $ags2Name $ags2MenuItemFileNameIndex
 		
 		# add whdload slave to ags2 whdload list
-		if ($ags2WhdloadListLines.Count -eq 0)
+		if ($ags2ListLines.Count -eq 0)
 		{
-			$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2,-26}   {3}") -f "Assign", "Whdload", "AGS2", "Name")
+			$ags2ListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3,-26}   {4}") -f "Assign", "Entry", "RunFile", "AGS2", "Name")
 		}
-		$ags2WhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2,-26}   {3}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $ags2MenuItemFileName, $ags2Name)
+		$ags2ListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3,-26}   {4}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $ags2MenuItemFileName, $ags2Name)
 
 		$ags2MenuDir = [System.IO.Path]::Combine($ags2OutputPath, "menu")
 		$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
@@ -672,7 +804,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# build ags2 menu item start text	
-		$ags2MenuItemStartTextParameters = @{ "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = $ags2MenuItemIndexName; "RunDir" = $whdloadSlaveStartPath; "RunFileName" = $whdloadSlaveFileName; "RunFile" = ($whdloadSlaveStartPath + $whdloadSlaveFileName) }
+		$ags2MenuItemStartTextParameters = @{ "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = $ags2MenuItemIndexName; "RunTemplate" = $runTemplateText; "RunFile" = ($entryRunDir + $entryFileName) }
 		$ags2MenuItemStartText = BuildTemplateText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
 		
 		# write ags2 menu item start file	
@@ -680,7 +812,14 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# build ags2 menu item detail text
-		$ags2MenuItemDetailText = BuildMenuItemDetailText $whdloadSlave
+		if ($detailsEntry)
+		{
+			$ags2MenuItemDetailText = BuildMenuItemDetailText $detailsEntry
+		}
+		else
+		{
+			$ags2MenuItemDetailText = ''
+		}
 		
 		# write ags2 menu item txt file
 		WriteAmigaTextString $ags2MenuItemTxtFile $ags2MenuItemDetailText
@@ -694,14 +833,14 @@ foreach($whdloadSlave in $whdloadSlaves)
 	if ($ams)
 	{
 		# build ams name
-		$amsName = Capitalize (BuildName $amsNameFormat $whdloadSlave)
+		$amsName = Capitalize (BuildName $amsNameFormat $detailsEntry)
 
 		# add whdload slave to ams whdload list
-		if ($amsWhdloadListLines.Count -eq 0)
+		if ($amsListLines.Count -eq 0)
 		{
-			$amsWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "AMS")
+			$amsListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "AMS")
 		}
-		$amsWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $amsName)
+		$amsListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $amsName)
 
 
 		# build ams menu item file name
@@ -747,7 +886,7 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		
 		# build ams menu item start	text
-		$amsMenuItemStartTextParameters = @{ "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "RunDir" = $whdloadSlaveStartPath; "RunFileName" = $whdloadSlaveFileName; "RunFile" = ($whdloadSlaveStartPath + $whdloadSlaveFileName) }
+		$amsMenuItemStartTextParameters = @{ "MenuItemFileName" = $amsMenuItemFileName; "MenuItemIndexName" = $amsMenuItemIndexName; "RunDir" = $entryRunDir; "RunFileName" = $entryFileName; "RunFile" = ($entryRunDir + $entryFileName) }
 		$amsMenuItemStartText = BuildTemplateText $amsMenuItemRunTemplateFile $amsMenuItemStartTextParameters
 		
 		# write ams menu item start file
@@ -755,22 +894,28 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 		
 		# build ams menu item detail text
-		$amsMenuItemDetailText = BuildMenuItemDetailText $whdloadSlave
+		if ($detailsEntry)
+		{
+			$amsMenuItemDetailText = BuildMenuItemDetailText $detailsEntry
+		}
+		else
+		{
+			$amsMenuItemDetailText = ''
+		}
 		
 		# write ams menu item txt file
 		WriteAmigaTextString $amsMenuItemTxtFile $amsMenuItemDetailText
-
-
+		
 		# add ams name and filename to data lines
 		$hstwbMenuItemDataLines += "AMSName=$amsMenuItemFileName"
 	}
 
 
 	# build igame menu for whdload slave
-	if ($iGame)
+	if ($iGame -and $entry.RunType -match '(whdload|file)')
 	{
 		# build igame name
-		$iGameName = BuildName $iGameNameFormat $whdloadSlave
+		$iGameName = BuildName $iGameNameFormat $detailsEntry
 
 		$iGameMenuItemName = Capitalize $iGameName
 
@@ -780,18 +925,18 @@ foreach($whdloadSlave in $whdloadSlaves)
 
 
 		# add whdload slave to igame whdload list
-		if ($iGameWhdloadListLines.Count -eq 0)
+		if ($iGameListLines.Count -eq 0)
 		{
-			$iGameWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f "Assign", "Whdload", "iGame")
+			$iGameListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "iGame")
 		}
-		$iGameWhdloadListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $whdloadListColumnsPadding + "}   {2}") -f ($assignPath + ":"), $whdloadSlave.WhdloadName, $iGameMenuItemName)
+		$iGameListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $iGameMenuItemName)
 
 		# build igame game gameslist lines
 		$iGameGameLines = @(
 			"index=0",
 			("title=" + $iGameMenuItemName),
 			"genre=Unknown",
-			("path=" + $whdloadSlaveStartPath + $whdloadSlaveFileName),
+			("path=" + $entryRunDir + $entryFileName),
 			"favorite=0",
 			"timesplayed=0",
 			"lastplayed=0",
@@ -802,22 +947,53 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$iGameGamesListLines += $iGameGameLines
 	}
 
-
-	$whdloadAssignDir = [System.IO.Path]::Combine($whdloadOutputPath, $assignPath)
-	$whdloadSlaveDir = [System.IO.Path]::Combine($whdloadAssignDir, [System.IO.Path]::GetDirectoryName($whdloadSlave.WhdloadSlaveFilePath).Replace("/", "\"))
-
-	if(!(Test-Path -Path $whdloadSlaveDir))
+	if ($hstLauncher)
 	{
-		md $whdloadSlaveDir | Out-Null
+		$hstLauncherName = Capitalize (BuildName $hstLauncherNameFormat $detailsEntry)
+
+		if ($hstLauncherListLines.Count -eq 0)
+		{
+			$hstLauncherListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "HST Launcher")
+		}
+		$hstLauncherListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $hstLauncherName)
+		
+		$menuIndexName = GetIndexName $hstLauncherName
+
+		if ($hstLauncherMenu.ContainsKey($menuIndexName))
+		{
+			$menuIndexEntries = $hstLauncherMenu.Get_Item($menuIndexName)
+		}
+		else
+		{
+			$menuIndexEntries = @()
+		}
+
+		$menuIndexEntries += @{ 'Name' = $hstLauncherName; 'RunTemplateText' = $runTemplateText }
+
+		$hstLauncherMenu.Set_Item($menuIndexName, $menuIndexEntries)
 	}
 
-	# build hstwb menuitem run	text	
-	$whdloadRunTemplateParameters = @{ "WhdloadSlaveStartPath" = $whdloadSlaveStartPath; "WhdloadSlaveFileName" = $whdloadSlaveFileName }
-	$whdloadRunTemplateText = BuildTemplateText $whdloadRunTemplateFile $whdloadRunTemplateParameters
+	$dataAssignDir = [System.IO.Path]::Combine($dataOutputPath, $assignPath)
+	$entryDir = [System.IO.Path]::Combine($dataAssignDir, [System.IO.Path]::GetDirectoryName($entry.RunFile).Replace("/", "\"))
 
-	if ($hstwbMenuItemFileNameIndex.ContainsKey($whdloadSlaveDir))
+	$parentEntryDir = Split-Path $entryDir -Parent
+
+	# add entry index directory to entrydir, if parent entry directory doesn't contain an index directory
+	if (!$noDataIndex -and $parentEntryDir -notmatch '\\(0|0\-9|[a-z])$')
 	{
-		$hstwbMenuItemFileNameCount = $hstwbMenuItemFileNameIndex.Get_Item($whdloadSlaveDir)
+		$entryDirName = Split-Path $entryDir -Leaf
+		$entryDir = Join-Path $parentEntryDir -ChildPath (Join-Path (GetIndexName $entryFileName) -ChildPath $entryDirName)
+	}
+
+	if(!(Test-Path -Path $entryDir))
+	{
+		md $entryDir | Out-Null
+	}
+
+	
+	if ($hstwbMenuItemFileNameIndex.ContainsKey($entryDir))
+	{
+		$hstwbMenuItemFileNameCount = $hstwbMenuItemFileNameIndex.Get_Item($entryDir)
 		$hstwbMenuItemFileNameCount++
 	}
 	else
@@ -825,68 +1001,67 @@ foreach($whdloadSlave in $whdloadSlaves)
 		$hstwbMenuItemFileNameCount = 1
 	}
 
-	$hstwbMenuItemFileNameIndex.Set_Item($whdloadSlaveDir, $hstwbMenuItemFileNameCount)
+	$hstwbMenuItemFileNameIndex.Set_Item($entryDir, $hstwbMenuItemFileNameCount)
 
 	$hstwbMenuItemFileName = "hstwbmenuitem{0}" -f $hstwbMenuItemFileNameCount
 
 	# write hstwb menuitem run file
-	$hstwbMenuItemRunFile = [System.IO.Path]::Combine($whdloadSlaveDir, ("{0}.run" -f $hstwbMenuItemFileName))
-	WriteAmigaTextString $hstwbMenuItemRunFile $whdloadRunTemplateText
+	$hstwbMenuItemRunFile = [System.IO.Path]::Combine($entryDir, ("{0}.run" -f $hstwbMenuItemFileName))
+	WriteAmigaTextString $hstwbMenuItemRunFile $runTemplateText
 
 	# write hstwb menuitem data file
-	$hstwbMenuItemDataFile = [System.IO.Path]::Combine($whdloadSlaveDir, ("{0}.data" -f $hstwbMenuItemFileName))
+	$hstwbMenuItemDataFile = [System.IO.Path]::Combine($entryDir, ("{0}.data" -f $hstwbMenuItemFileName))
 	WriteAmigaTextLines $hstwbMenuItemDataFile $hstwbMenuItemDataLines
 
 
 	# use whdload screenshot, if it exists in index	
-	if ($whdloadScreenshotsIndex.ContainsKey($whdloadSlave.WhdloadSlaveFilePath))
+	if ($whdloadScreenshotsIndex.ContainsKey($entry.RunFile.ToLower()))
 	{
-		$screenshotDirectoryName = $whdloadScreenshotsIndex.Get_Item($whdloadSlave.WhdloadSlaveFilePath)
-		$whdloadScreenshotPath = [System.IO.Path]::Combine($whdloadScreenshotsPath, $screenshotDirectoryName)
+		$whdloadScreenshotDir = $whdloadScreenshotsIndex.Get_Item($entry.RunFile.ToLower())
 		
 		# copy ags2 screenshot for whdload slave
 		if ($ags2)
 		{
 			if ($aga)
 			{
-				$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ags2aga.iff")
+				$ags2ScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotDir, "ags2aga.iff")
 			}
 			else
 			{
-				$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ags2ocs.iff")
+				$ags2ScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotDir, "ags2ocs.iff")
 			}
 		
-			# copy whdload screenshot file, if it exists
-			if (test-path -path $whdloadScreenshotFile)
+			# copy ags2 screenshot file, if it exists
+			if (test-path -path $ags2ScreenshotFile)
 			{
-				Copy-Item $whdloadScreenshotFile $ags2MenuItemIffFile -force
+				Copy-Item $ags2ScreenshotFile $ags2MenuItemIffFile -force
 			}
 		}
 
 		# copy ams screenshot for whdload slave
 		if ($ams)
 		{
-			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "ams.iff")
+			$amsScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotDir, "ams.iff")
 			
-			# copy whdload screenshot file, if it exists
-			if (test-path -path $whdloadScreenshotFile)
+			# copy ams screenshot file, if it exists
+			if (test-path -path $amsScreenshotFile)
 			{
-				Copy-Item $whdloadScreenshotFile $amsMenuItemIffFile -force
+				Copy-Item $amsScreenshotFile $amsMenuItemIffFile -force
 			}
 		}
 
 		# copy igame screenshot for whdload slave
 		if ($iGame)
 		{
-			$whdloadScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotPath, "igame.iff")
+			$iGameScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotDir, "igame.iff")
 			
 			# copy whdload screenshot file, if it exists
-			if (test-path -path $whdloadScreenshotFile)
+			if (test-path -path $iGameScreenshotFile)
 			{
-				Copy-Item $whdloadScreenshotFile $whdloadSlaveDir -force
+				Copy-Item $iGameScreenshotFile $entryDir -force
 			}
 
-			$whdloadiGameScreenshotFile = $whdloadSlaveStartPath + "igame.iff"
+			$whdloadiGameScreenshotFile = $entryRunDir + "igame.iff"
 
 			# add igame path checks to validate paths script
 			$validatePathsPartScriptLines += @( 
@@ -895,8 +1070,10 @@ foreach($whdloadSlave in $whdloadSlaves)
 					"ENDIF") 
 		}
 	}
-	else {
-		Write-Host ("No screenshot for " + $whdloadSlave.WhdloadSlaveFilePath)
+	else
+	{
+		$screenshotsNotFoundCount++
+		Write-Host ("No screenshot for " + $entry.RunFile)
 	}
 
 	# write validate paths part script, if it has more than 2000 lines
@@ -926,29 +1103,29 @@ for ($i = 1; $i -le $validatePathsPartScript; $i++)
 $validatePathsScriptFile = [System.IO.Path]::Combine($outputPath, "validate_paths")
 WriteAmigaTextLines $validatePathsScriptFile $validatePathsScriptLines
 
-# write whdload slaves file
-$whdloadSlavesFile = [System.IO.Path]::Combine($outputPath, "whdload_slaves.csv")
-$whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesFile -NoTypeInformation -Encoding UTF8
+# write entries file
+$entriesFile = [System.IO.Path]::Combine($outputPath, "entries.csv")
+$entries | export-csv -delimiter ';' -path $entriesFile -NoTypeInformation -Encoding UTF8
 
 if ($ags2)
 {
-	# write ags2 whdload list file 
-	$ags2WhdloadListFile = [System.IO.Path]::Combine($ags2OutputPath, "AGS2 WHDLoad List")
-	WriteAmigaTextLines $ags2WhdloadListFile $ags2WhdloadListLines
+	# write ags2 list file 
+	$ags2ListFile = [System.IO.Path]::Combine($ags2OutputPath, "AGS2 List")
+	WriteAmigaTextLines $ags2ListFile $ags2ListLines
 }
 
 if ($ams)
 {
-	# write ams whdload list file 
-	$amsWhdloadListFile = [System.IO.Path]::Combine($amsOutputPath, "AMS WHDLoad List")
-	WriteAmigaTextLines $amsWhdloadListFile $amsWhdloadListLines
+	# write ams list file 
+	$amsListFile = [System.IO.Path]::Combine($amsOutputPath, "AMS List")
+	WriteAmigaTextLines $amsListFile $amsListLines
 }
 
 if ($iGame)
 {
-	# write igame whdload list file 
-	$iGameWhdloadListFile = [System.IO.Path]::Combine($iGameOutputPath, "iGame WHDLoad List")
-	WriteAmigaTextLines $iGameWhdloadListFile $iGameWhdloadListLines
+	# write igame list file 
+	$iGameListFile = [System.IO.Path]::Combine($iGameOutputPath, "iGame List")
+	WriteAmigaTextLines $iGameListFile $iGameListLines
 	
 	# write igame gameslist file
 	$iGameGamesListFile = [System.IO.Path]::Combine($iGameOutputPath, "gameslist.")
@@ -956,5 +1133,70 @@ if ($iGame)
 
 	# write igame repos file
 	$iGameReposFile = [System.IO.Path]::Combine($iGameOutputPath, "repos.")
-	WriteAmigaTextLines $iGameReposFile $iGameReposLines
+	$iGameReposLines = @()
+	$iGameReposLines += $iGameReposIndex.Keys | Sort-Object
+	WriteAmigaTextLines $iGameReposFile ($iGameReposLines)
 }
+
+if ($hstLauncher)
+{
+	$searchListLines = @()
+	$menuIndexCount = 0
+	
+	$hstLauncherMenuDir = Join-Path $hstLauncherOutputPath -ChildPath 'menu'
+
+	if(!(Test-Path -Path $hstLauncherMenuDir))
+	{
+		mkdir $hstLauncherMenuDir | Out-Null
+	}
+
+	foreach ($menuIndexName in ($hstLauncherMenu.Keys | Sort-Object))
+	{
+		$menuIndexCount++
+		$menuIndexEntries = $hstLauncherMenu.Get_Item($menuIndexName)
+
+		$menuIndexDir = Join-Path $hstLauncherMenuDir -ChildPath $menuIndexCount
+		if(!(Test-Path -Path $menuIndexDir))
+		{
+			mkdir $menuIndexDir | Out-Null
+		}
+
+		$menuIndexListLines = @()
+		$menuEntryCount = 0
+		foreach ($menuIndexEntry in $menuIndexEntries)
+		{
+			$menuIndexListLines += $menuIndexEntry.Name
+
+			$menuEntryCount++
+			$menuItemRunFileName = '{0}.run' -f $menuEntryCount
+			$menuItemRunFile = Join-Path $menuIndexDir -ChildPath $menuItemRunFileName
+
+			$searchListLines += @($menuIndexEntry.Name, ("{0}/{1}" -f $menuIndexCount, $menuItemRunFileName)) -join "`t"
+			
+			# write menu item run file	
+			WriteAmigaTextString $menuItemRunFile $menuIndexEntry.RunTemplateText
+		}
+
+		# write entries menu list file
+		$menuIndexListFile = Join-Path $menuIndexDir -ChildPath 'menu.lst'
+		WriteAmigaTextLines $menuIndexListFile $menuIndexListLines
+	}
+
+	# write index menu list file
+	$mainMenuListLines = @()
+	$mainMenuListLines += $hstLauncherMenu.Keys | Sort-Object
+	$mainMenuListFile = Join-Path $hstLauncherMenuDir -ChildPath 'menu.lst'
+	WriteAmigaTextLines $mainMenuListFile $mainMenuListLines
+	
+	# write search list file
+	$searchListFile = Join-Path $hstLauncherMenuDir -ChildPath 'search.lst'
+	WriteAmigaTextLines $searchListFile $searchListLines
+
+	# write hst launcher list file
+	$hstLauncherListFile = [System.IO.Path]::Combine($hstLauncherOutputPath, "HST Launcher List")
+	WriteAmigaTextLines $hstLauncherListFile $hstLauncherListLines
+}
+
+
+Write-Host ("{0} details not found" -f $detailsNotFoundCount)
+Write-Host ("{0} screenshots not found" -f $screenshotsNotFoundCount)
