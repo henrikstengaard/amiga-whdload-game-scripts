@@ -18,13 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "[$RunDir]"
-IF EXISTS ENV:whdloadargs
-  whdload "[$RunFileName]" $whdloadargs
-ELSE
-  whdload "[$RunFileName]"
-ENDIF
+[$RunTemplate]
 
 ; Start AGS2 Run Post Script, if it exists
 IF EXISTS S:AGS2RunPost

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "[$EntryRunDir]"
+IF EXISTS ENV:whdloadargs
+  whdload "[$EntryFileName]" $whdloadargs
+ELSE
+  whdload "[$EntryFileName]"
+ENDIF
