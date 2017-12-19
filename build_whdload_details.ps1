@@ -2,7 +2,7 @@
 # ---------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-08-28
+# Date:   2017-12-19
 #
 # A PowerShell script to build whdload details by finding exact and best matching detail items from multiple sources. 
 # Lucene is used to query and find best matching detail items using keywords built from detail item id, name, publisher and languages.
@@ -23,15 +23,15 @@ using namespace Lucene.Net.Search
 
 Param(
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadSlavesFile,
+	[string]$entriesFile,
 	[Parameter(Mandatory=$true)]
 	[string]$detailsSourcesFile,
 	[Parameter(Mandatory=$true)]
 	[int32]$minScore,
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadSlavesDetailsFile,
+	[string]$entriesDetailsFile,
 	[Parameter(Mandatory=$false)]
-	[switch]$noExactWhdloadNameMatching,
+	[switch]$noExactEntryNameMatching,
 	[Parameter(Mandatory=$false)]
 	[switch]$noExactWhdloadSlaveNameMatching,
 	[Parameter(Mandatory=$false)]
@@ -243,7 +243,7 @@ function MakeFileName([string]$text)
 	return $text
 }
 
-function AddDetailItemColumns($whdloadSlave, $detailItem)
+function AddDetailItemColumns($entry, $detailItem)
 {
 	foreach($property in $detailItem.psobject.Properties)
 	{
@@ -252,25 +252,26 @@ function AddDetailItemColumns($whdloadSlave, $detailItem)
 			continue
 		}
 
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name ('Detail' + $property.Name) -Value $property.Value -Force
+		$entry | Add-Member -MemberType NoteProperty -Name ('Detail' + $property.Name) -Value $property.Value -Force
 	}
 }
 
 
 # resolve paths
-$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
+$entriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesFile)
 $detailsSourcesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($detailsSourcesFile)
-$whdloadSlavesDetailsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesDetailsFile)
+$entriesDetailsFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesDetailsFile)
 
 
 # read whdload slaves
-$whdloadSlaves = Import-Csv -Delimiter ';' $whdloadSlavesFile | sort @{expression={$_.WhdloadName};Ascending=$true} 
+$entries = @()
+$entries += Import-Csv -Delimiter ';' $entriesFile | Sort-Object @{expression={$_.EntryName};Ascending=$true} 
 
 # read screenshot sources
-$detailSources = Import-Csv -Delimiter ';' $detailsSourcesFile
+$detailSources = @()
+$detailSources += Import-Csv -Delimiter ';' $detailsSourcesFile
 
 $detailSourceIndex = @{}
-
 
 # Process detail items for exact matching
 for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
@@ -348,15 +349,15 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 	Write-Host ("Done")
 
 	Write-Host ("Finding exact matching detail items from '" + $detailSource.SourceName + "'...")
-	foreach($whdloadSlave in ($whdloadSlaves | Where { $_.DetailMatch -eq $null }))
+	foreach($entry in ($entries | Where-Object { $_.DetailMatch -eq $null }))
 	{
-		$name = $whdloadSlave.WhdloadName.ToLower()
+		$name = $entry.EntryName.ToLower()
 
 		$detailItem = $null
 		$matchingDetailItems = $null
 
 		# use whdload name to get exact matching detail items
-		if (!$noExactWhdloadNameMatching -and $detailItemsIndex.ContainsKey($name))
+		if (!$noExactEntryNameMatching -and $detailItemsIndex.ContainsKey($name))
 		{
 			$matchingDetailItems = $detailItemsIndex.Get_Item($name)
 		}
@@ -364,21 +365,21 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		# use query to get exact matching detail items
 		if (!$matchingDetailItems)
 		{
-			$query = $whdloadSlave.Query -replace '[-\s]+', ''
+			$query = $entry.Query -replace '[-\s]+', ''
 			$matchingDetailItems = $detailItemsIndex.Get_Item($query)
 		}
 
 		# use filtered name to get exact matching detail items
-		if (!$noExactFilteredNameMatching -and !$matchingDetailItems -and $whdloadSlave.FilteredName)
+		if (!$noExactFilteredNameMatching -and !$matchingDetailItems -and $entry.FilteredName)
 		{
-			$filteredName = $whdloadSlave.FilteredName.ToLower()
+			$filteredName = $entry.FilteredName.ToLower()
 			$matchingDetailItems = $detailItemsIndex.Get_Item($filteredName)
 		}
 
 		# use whdload slave name to get exact matching detail items
-		if (!$noExactWhdloadSlaveNameMatching -and !$matchingDetailItems -and $whdloadSlave.WhdloadSlaveName)
+		if (!$noExactWhdloadSlaveNameMatching -and !$matchingDetailItems -and $entry.WhdloadSlaveName)
 		{
-			$whdloadSlaveNameKeywords = (MakeKeywords (Normalize $whdloadSlave.WhdloadSlaveName)) -replace '\s+', ''
+			$whdloadSlaveNameKeywords = (MakeKeywords (Normalize $entry.WhdloadSlaveName)) -replace '\s+', ''
 			$matchingDetailItems = $detailItemsIndex.Get_Item($whdloadSlaveNameKeywords)
 		}
 
@@ -399,12 +400,12 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		$detailItem = $matchingDetailItems | Select-Object -First 1
 
 		# add exact matching detail item match, score and source
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailMatch' -Value 'Exact'
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailScore' -Value '100'
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailSource' -Value $detailSource.SourceName
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailMatch' -Value 'Exact'
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailScore' -Value '100'
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailSource' -Value $detailSource.SourceName
 
-		# add detail item columns to whdload slave 
-		AddDetailItemColumns $whdloadSlave $detailItem
+		# add detail item columns to entry
+		AddDetailItemColumns $entry $detailItem
 	}
 	Write-Host ("Done")
 
@@ -423,9 +424,9 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 	Write-Host ("Done")
 
 	Write-Host ("Finding best matching detail items from '" + $detailSource.SourceName + "'...")
-	foreach($whdloadSlave in ($whdloadSlaves | Where { $_.DetailMatch -eq $null }))
+	foreach($entry in ($entries | Where-Object { $_.DetailMatch -eq $null }))
 	{
-		$matchingDetailItems = FindBestMatchingItems $whdloadSlave.Query
+		$matchingDetailItems = FindBestMatchingItems $entry.Query
 
 		# skip whdload slave, if no matching detail items exist
 		if (!$matchingDetailItems)
@@ -438,22 +439,22 @@ for ($priority = 0; $priority -lt $detailSources.Count;$priority++)
 		$detailItem = $firstMatchingDetailItem.Item
 
 		# add best matching detail item match, score and source
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailMatch' -Value 'Best'
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailScore' -Value $firstMatchingDetailItem.Score
-		$whdloadSlave | Add-Member -MemberType NoteProperty -Name 'DetailSource' -Value $detailSource.SourceName
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailMatch' -Value 'Best'
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailScore' -Value $firstMatchingDetailItem.Score
+		$entry | Add-Member -MemberType NoteProperty -Name 'DetailSource' -Value $detailSource.SourceName
 
-		# add detail item columns to whdload slave 
-		AddDetailItemColumns $whdloadSlave $detailItem
+		# add detail item columns to entry
+		AddDetailItemColumns $entry $detailItem
 	}
 	Write-Host ("Done")
 }
 
 
-# Write number of whdload slaves that doesn't have a detail match
-$whdloadSlavesNoMatch = @()
-$whdloadSlavesNoMatch += $whdloadSlaves | Where { $_.DetailMatch -eq $null }
-Write-Host ($whdloadSlavesNoMatch.Count.ToString() + " whdload slaves doesn't have a detail match")
+# Write number of entries that doesn't have a detail match
+$entriesNoMatch = @()
+$entriesNoMatch += $entries | Where-Object { $_.DetailMatch -eq $null }
+Write-Host ("{0} whdload slaves doesn't have a detail match" -f $entriesNoMatch.Count)
 
 
-# Write whdload slaves details file
-$whdloadSlaves | export-csv -delimiter ';' -path $whdloadSlavesDetailsFile -NoTypeInformation -Encoding UTF8
+# Write entries details file
+$entries | export-csv -delimiter ';' -path $entriesDetailsFile -NoTypeInformation -Encoding UTF8
