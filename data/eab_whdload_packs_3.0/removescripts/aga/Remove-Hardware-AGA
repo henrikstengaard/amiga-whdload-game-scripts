@@ -1,0 +1,627 @@
+IF EXISTS "A-Games:B/Blobz"
+  Delete >NIL: "A-Games:B/Blobz" ALL
+ENDIF
+IF EXISTS "A-Games:B/BreathlessDemo"
+  Delete >NIL: "A-Games:B/BreathlessDemo" ALL
+ENDIF
+IF EXISTS "A-Games:B/BundesligaManagerHattDe"
+  Delete >NIL: "A-Games:B/BundesligaManagerHattDe" ALL
+ENDIF
+IF EXISTS "A-Games:B/BurningRubber2MB"
+  Delete >NIL: "A-Games:B/BurningRubber2MB" ALL
+ENDIF
+IF EXISTS "A-Games:E/EvilsDoomDemo"
+  Delete >NIL: "A-Games:E/EvilsDoomDemo" ALL
+ENDIF
+IF EXISTS "A-Games:G/GloomDemo"
+  Delete >NIL: "A-Games:G/GloomDemo" ALL
+ENDIF
+IF EXISTS "A-Games:M/MasterAxe"
+  Delete >NIL: "A-Games:M/MasterAxe" ALL
+ENDIF
+IF EXISTS "A-Games:M/MissilesOverXerion"
+  Delete >NIL: "A-Games:M/MissilesOverXerion" ALL
+ENDIF
+IF EXISTS "A-Games:N/NuxeliaDemo"
+  Delete >NIL: "A-Games:N/NuxeliaDemo" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballMania"
+  Delete >NIL: "A-Games:P/PinballMania" ALL
+ENDIF
+IF EXISTS "A-Games:U/UltimateXTremeRacingCD"
+  Delete >NIL: "A-Games:U/UltimateXTremeRacingCD" ALL
+ENDIF
+IF EXISTS "A-Games:W/WheelsOnFire"
+  Delete >NIL: "A-Games:W/WheelsOnFire" ALL
+ENDIF
+IF EXISTS "A-Games:0-9/1869AGA"
+  Delete >NIL: "A-Games:0-9/1869AGA" ALL
+ENDIF
+IF EXISTS "A-Games:0-9/1869AGADe"
+  Delete >NIL: "A-Games:0-9/1869AGADe" ALL
+ENDIF
+IF EXISTS "A-Games:A/AceBallAGAPl"
+  Delete >NIL: "A-Games:A/AceBallAGAPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/ACSYSDemoAGA"
+  Delete >NIL: "A-Games:A/ACSYSDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AladdinAGA"
+  Delete >NIL: "A-Games:A/AladdinAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlfabetSmierciAGAPl"
+  Delete >NIL: "A-Games:A/AlfabetSmierciAGAPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlfredChickenAGA"
+  Delete >NIL: "A-Games:A/AlfredChickenAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed2AGA"
+  Delete >NIL: "A-Games:A/AlienBreed2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DNoMusicAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DNoMusicAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DDemoPlayAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DDemoPlayAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DDemoLatestAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DDemoLatestAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DDemoRollAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DDemoRollAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3D2AGA"
+  Delete >NIL: "A-Games:A/AlienBreed3D2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreedTAAGA"
+  Delete >NIL: "A-Games:A/AlienBreedTAAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreedTA11AGA"
+  Delete >NIL: "A-Games:A/AlienBreedTA11AGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AllNewWorldOfLemmingsAGA"
+  Delete >NIL: "A-Games:A/AllNewWorldOfLemmingsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/ArcadePoolAGA"
+  Delete >NIL: "A-Games:A/ArcadePoolAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/ArcadeSnookerAGA"
+  Delete >NIL: "A-Games:A/ArcadeSnookerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BansheeAGA"
+  Delete >NIL: "A-Games:B/BansheeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BasketIslandDemo2AGA"
+  Delete >NIL: "A-Games:B/BasketIslandDemo2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BasketIslandDemo1AGA"
+  Delete >NIL: "A-Games:B/BasketIslandDemo1AGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BiingAGADe"
+  Delete >NIL: "A-Games:B/BiingAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:B/BlackViperAGA"
+  Delete >NIL: "A-Games:B/BlackViperAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BloodnetAGA"
+  Delete >NIL: "A-Games:B/BloodnetAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BodyBlowsAGA"
+  Delete >NIL: "A-Games:B/BodyBlowsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BodyBlowsGalacticAGA"
+  Delete >NIL: "A-Games:B/BodyBlowsGalacticAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BombPacCD32AGA"
+  Delete >NIL: "A-Games:B/BombPacCD32AGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BombPacCD32AGAAminet"
+  Delete >NIL: "A-Games:B/BombPacCD32AGAAminet" ALL
+ENDIF
+IF EXISTS "A-Games:B/BreathlessAGA"
+  Delete >NIL: "A-Games:B/BreathlessAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BreathlessAGA060"
+  Delete >NIL: "A-Games:B/BreathlessAGA060" ALL
+ENDIF
+IF EXISTS "A-Games:B/BrianTheLionAGA"
+  Delete >NIL: "A-Games:B/BrianTheLionAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BrutalFootballAGA"
+  Delete >NIL: "A-Games:B/BrutalFootballAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/Bubble&SqueakAGA"
+  Delete >NIL: "A-Games:B/Bubble&SqueakAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BurningRubberAGA"
+  Delete >NIL: "A-Games:B/BurningRubberAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BurnoutAGA"
+  Delete >NIL: "A-Games:B/BurnoutAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BurntimeAGA"
+  Delete >NIL: "A-Games:B/BurntimeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BurntimeAGADe"
+  Delete >NIL: "A-Games:B/BurntimeAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:C/CapitalPunishmentAGACD"
+  Delete >NIL: "A-Games:C/CapitalPunishmentAGACD" ALL
+ENDIF
+IF EXISTS "A-Games:C/CapitalPunishmentAGA"
+  Delete >NIL: "A-Games:C/CapitalPunishmentAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChaosEngineAGA"
+  Delete >NIL: "A-Games:C/ChaosEngineAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChaosEngine2AGA"
+  Delete >NIL: "A-Games:C/ChaosEngine2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CharlieJCoolAGA"
+  Delete >NIL: "A-Games:C/CharlieJCoolAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChristophKolumbusAGADe"
+  Delete >NIL: "A-Games:C/ChristophKolumbusAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationAGACD"
+  Delete >NIL: "A-Games:C/CivilizationAGACD" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationAGA"
+  Delete >NIL: "A-Games:C/CivilizationAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationAGADe"
+  Delete >NIL: "A-Games:C/CivilizationAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:C/ClockwiserAGA"
+  Delete >NIL: "A-Games:C/ClockwiserAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ClouDeAGA"
+  Delete >NIL: "A-Games:C/ClouDeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ClouDeAGA&Profidisk"
+  Delete >NIL: "A-Games:C/ClouDeAGA&Profidisk" ALL
+ENDIF
+IF EXISTS "A-Games:C/ClueAGA"
+  Delete >NIL: "A-Games:C/ClueAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CoalaAGA"
+  Delete >NIL: "A-Games:C/CoalaAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/ColonizationAGA"
+  Delete >NIL: "A-Games:C/ColonizationAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DangerousStreetsAGA"
+  Delete >NIL: "A-Games:D/DangerousStreetsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DeathMaskAGA"
+  Delete >NIL: "A-Games:D/DeathMaskAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DeconstructionAGA"
+  Delete >NIL: "A-Games:D/DeconstructionAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DeluxeGalagaAGA"
+  Delete >NIL: "A-Games:D/DeluxeGalagaAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DeluxePacmanAGA"
+  Delete >NIL: "A-Games:D/DeluxePacmanAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DennisAGA"
+  Delete >NIL: "A-Games:D/DennisAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DetroitAGA"
+  Delete >NIL: "A-Games:D/DetroitAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DetroitAGAFr"
+  Delete >NIL: "A-Games:D/DetroitAGAFr" ALL
+ENDIF
+IF EXISTS "A-Games:D/DGenerationAGA"
+  Delete >NIL: "A-Games:D/DGenerationAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DiggersAGA"
+  Delete >NIL: "A-Games:D/DiggersAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DonkTheSamuraiDuckAGA"
+  Delete >NIL: "A-Games:D/DonkTheSamuraiDuckAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DragonTilesAGA"
+  Delete >NIL: "A-Games:D/DragonTilesAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DreamWebAGA"
+  Delete >NIL: "A-Games:D/DreamWebAGA" ALL
+ENDIF
+IF EXISTS "A-Games:D/DreamWebAGADe"
+  Delete >NIL: "A-Games:D/DreamWebAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:D/DungeonMaster2AGA"
+  Delete >NIL: "A-Games:D/DungeonMaster2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:F/FantasyFlyerAGA"
+  Delete >NIL: "A-Games:F/FantasyFlyerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:F/FatmanCapedConsumerAGA"
+  Delete >NIL: "A-Games:F/FatmanCapedConsumerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:F/FearsAGA"
+  Delete >NIL: "A-Games:F/FearsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:F/FearsAGACensored"
+  Delete >NIL: "A-Games:F/FearsAGACensored" ALL
+ENDIF
+IF EXISTS "A-Games:F/FightinSpiritAGA"
+  Delete >NIL: "A-Games:F/FightinSpiritAGA" ALL
+ENDIF
+IF EXISTS "A-Games:F/FootballGloryAGA"
+  Delete >NIL: "A-Games:F/FootballGloryAGA" ALL
+ENDIF
+IF EXISTS "A-Games:G/GloomAGA"
+  Delete >NIL: "A-Games:G/GloomAGA" ALL
+ENDIF
+IF EXISTS "A-Games:G/Gunship2000AGA"
+  Delete >NIL: "A-Games:G/Gunship2000AGA" ALL
+ENDIF
+IF EXISTS "A-Games:H/Heimdall2AGA"
+  Delete >NIL: "A-Games:H/Heimdall2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:H/HighSeasTraderAGA"
+  Delete >NIL: "A-Games:H/HighSeasTraderAGA" ALL
+ENDIF
+IF EXISTS "A-Games:H/Humans3AGA"
+  Delete >NIL: "A-Games:H/Humans3AGA" ALL
+ENDIF
+IF EXISTS "A-Games:I/ImpossibleMission2025AGA"
+  Delete >NIL: "A-Games:I/ImpossibleMission2025AGA" ALL
+ENDIF
+IF EXISTS "A-Games:I/IsharAGA"
+  Delete >NIL: "A-Games:I/IsharAGA" ALL
+ENDIF
+IF EXISTS "A-Games:I/Ishar2AGA"
+  Delete >NIL: "A-Games:I/Ishar2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:I/Ishar3AGA"
+  Delete >NIL: "A-Games:I/Ishar3AGA" ALL
+ENDIF
+IF EXISTS "A-Games:J/JamesPond2AGA"
+  Delete >NIL: "A-Games:J/JamesPond2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:J/JamesPond3AGA"
+  Delete >NIL: "A-Games:J/JamesPond3AGA" ALL
+ENDIF
+IF EXISTS "A-Games:J/JetstrikeAGA"
+  Delete >NIL: "A-Games:J/JetstrikeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:J/JetstrikeAGA"
+  Delete >NIL: "A-Games:J/JetstrikeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:J/JurassicParkAGA"
+  Delete >NIL: "A-Games:J/JurassicParkAGA" ALL
+ENDIF
+IF EXISTS "A-Games:K/KickOff3EC_AGA"
+  Delete >NIL: "A-Games:K/KickOff3EC_AGA" ALL
+ENDIF
+IF EXISTS "A-Games:L/LeadingLapMPVAGA"
+  Delete >NIL: "A-Games:L/LeadingLapMPVAGA" ALL
+ENDIF
+IF EXISTS "A-Games:L/LeadingLapMPVAGACUAmiga"
+  Delete >NIL: "A-Games:L/LeadingLapMPVAGACUAmiga" ALL
+ENDIF
+IF EXISTS "A-Games:L/LegendsAGA"
+  Delete >NIL: "A-Games:L/LegendsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:L/LionKingAGA"
+  Delete >NIL: "A-Games:L/LionKingAGA" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGA"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGA" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGAFast"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFast" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGAFr"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFr" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGADe"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGAFrFast"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFrFast" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGADeFast"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGADeFast" ALL
+ENDIF
+IF EXISTS "A-Games:M/MarvinsMarvellousAdvAGA"
+  Delete >NIL: "A-Games:M/MarvinsMarvellousAdvAGA" ALL
+ENDIF
+IF EXISTS "A-Games:M/MegaBallAGA"
+  Delete >NIL: "A-Games:M/MegaBallAGA" ALL
+ENDIF
+IF EXISTS "A-Games:M/MinskiesAGA"
+  Delete >NIL: "A-Games:M/MinskiesAGA" ALL
+ENDIF
+IF EXISTS "A-Games:M/MorphAGA"
+  Delete >NIL: "A-Games:M/MorphAGA" ALL
+ENDIF
+IF EXISTS "A-Games:M/MortonStrikesBackAGA"
+  Delete >NIL: "A-Games:M/MortonStrikesBackAGA" ALL
+ENDIF
+IF EXISTS "A-Games:N/NaughtyOnesAGA"
+  Delete >NIL: "A-Games:N/NaughtyOnesAGA" ALL
+ENDIF
+IF EXISTS "A-Games:N/NigelMansellsWrldChmpAGA"
+  Delete >NIL: "A-Games:N/NigelMansellsWrldChmpAGA" ALL
+ENDIF
+IF EXISTS "A-Games:O/OgAGA"
+  Delete >NIL: "A-Games:O/OgAGA" ALL
+ENDIF
+IF EXISTS "A-Games:O/OscarAGA"
+  Delete >NIL: "A-Games:O/OscarAGA" ALL
+ENDIF
+IF EXISTS "A-Games:O/OverkillAGA"
+  Delete >NIL: "A-Games:O/OverkillAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PenthouseHotNumsDlxAGADe"
+  Delete >NIL: "A-Games:P/PenthouseHotNumsDlxAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:P/PGAEuropeanTourAGA"
+  Delete >NIL: "A-Games:P/PGAEuropeanTourAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PierreIsOutToLunchAGA"
+  Delete >NIL: "A-Games:P/PierreIsOutToLunchAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesAGA"
+  Delete >NIL: "A-Games:P/PinballFntsiesAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesAGANTSC"
+  Delete >NIL: "A-Games:P/PinballFntsiesAGANTSC" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesAGAChip"
+  Delete >NIL: "A-Games:P/PinballFntsiesAGAChip" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesAGANTSCChip"
+  Delete >NIL: "A-Games:P/PinballFntsiesAGANTSCChip" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballIllusionsAGA"
+  Delete >NIL: "A-Games:P/PinballIllusionsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballIllusionsAGADemo"
+  Delete >NIL: "A-Games:P/PinballIllusionsAGADemo" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballPreludeAGA"
+  Delete >NIL: "A-Games:P/PinballPreludeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PlayerManager2ExtraAGA"
+  Delete >NIL: "A-Games:P/PlayerManager2ExtraAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PremierManager3AGA"
+  Delete >NIL: "A-Games:P/PremierManager3AGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PrimalRageAGA"
+  Delete >NIL: "A-Games:P/PrimalRageAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PulsatorDemoAGA"
+  Delete >NIL: "A-Games:P/PulsatorDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PuttySquadAGA"
+  Delete >NIL: "A-Games:P/PuttySquadAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PuttySquadDemoAGA"
+  Delete >NIL: "A-Games:P/PuttySquadDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:Q/QuikThunderRabbitAGA"
+  Delete >NIL: "A-Games:Q/QuikThunderRabbitAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RallyChampionshipsAGA"
+  Delete >NIL: "A-Games:R/RallyChampionshipsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/ReunionAGA"
+  Delete >NIL: "A-Games:R/ReunionAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/ReunionAGADe"
+  Delete >NIL: "A-Games:R/ReunionAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:R/RiseOfTheRobotsAGA"
+  Delete >NIL: "A-Games:R/RiseOfTheRobotsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RoadkillAGA"
+  Delete >NIL: "A-Games:R/RoadkillAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RobinsonsRequiemAGA"
+  Delete >NIL: "A-Games:R/RobinsonsRequiemAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RoketzAGA"
+  Delete >NIL: "A-Games:R/RoketzAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RuesselsheimDeAGA"
+  Delete >NIL: "A-Games:R/RuesselsheimDeAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SabreTeamAGA"
+  Delete >NIL: "A-Games:S/SabreTeamAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SecondSamuraiAGA"
+  Delete >NIL: "A-Games:S/SecondSamuraiAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/Seek&DestroyAGA"
+  Delete >NIL: "A-Games:S/Seek&DestroyAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SeelenturmAGADe"
+  Delete >NIL: "A-Games:S/SeelenturmAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:S/ShadowFighterAGA"
+  Delete >NIL: "A-Games:S/ShadowFighterAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/ShaqFuAGA"
+  Delete >NIL: "A-Games:S/ShaqFuAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SimonTheSorcererAGA"
+  Delete >NIL: "A-Games:S/SimonTheSorcererAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SimonTheSorcererAGAFr"
+  Delete >NIL: "A-Games:S/SimonTheSorcererAGAFr" ALL
+ENDIF
+IF EXISTS "A-Games:S/SimonTheSorcererAGADe"
+  Delete >NIL: "A-Games:S/SimonTheSorcererAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:S/SkeletonKrewAGA"
+  Delete >NIL: "A-Games:S/SkeletonKrewAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SkidmarksAGA"
+  Delete >NIL: "A-Games:S/SkidmarksAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SlamTiltAGA"
+  Delete >NIL: "A-Games:S/SlamTiltAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SlamTiltAGA2MB"
+  Delete >NIL: "A-Games:S/SlamTiltAGA2MB" ALL
+ENDIF
+IF EXISTS "A-Games:S/SlamTiltDemoAGA"
+  Delete >NIL: "A-Games:S/SlamTiltDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SleepwalkerAGA"
+  Delete >NIL: "A-Games:S/SleepwalkerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SleepwalkerAGAComicRelief"
+  Delete >NIL: "A-Games:S/SleepwalkerAGAComicRelief" ALL
+ENDIF
+IF EXISTS "A-Games:S/SoccerKidAGA"
+  Delete >NIL: "A-Games:S/SoccerKidAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SoccerSuperstarsAGA"
+  Delete >NIL: "A-Games:S/SoccerSuperstarsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SperisLegacyAGA"
+  Delete >NIL: "A-Games:S/SperisLegacyAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/StarCrusaderAGA"
+  Delete >NIL: "A-Games:S/StarCrusaderAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/StarTrek25thAnnivAGA"
+  Delete >NIL: "A-Games:S/StarTrek25thAnnivAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/StarTrek25thAnnivAGAFr"
+  Delete >NIL: "A-Games:S/StarTrek25thAnnivAGAFr" ALL
+ENDIF
+IF EXISTS "A-Games:S/StarTrek25thAnnivAGADe"
+  Delete >NIL: "A-Games:S/StarTrek25thAnnivAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:S/StripPotAGA"
+  Delete >NIL: "A-Games:S/StripPotAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/Subwar2050AGA"
+  Delete >NIL: "A-Games:S/Subwar2050AGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperLoopzAGA"
+  Delete >NIL: "A-Games:S/SuperLoopzAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperStardustAGA"
+  Delete >NIL: "A-Games:S/SuperStardustAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperStreetFighter2AGA"
+  Delete >NIL: "A-Games:S/SuperStreetFighter2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperStreetFighter2DXAGA"
+  Delete >NIL: "A-Games:S/SuperStreetFighter2DXAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuprStrtFtr2TrboAGA"
+  Delete >NIL: "A-Games:S/SuprStrtFtr2TrboAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuprStrtFtr2TrboAGA"
+  Delete >NIL: "A-Games:S/SuprStrtFtr2TrboAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SurfNinjasAGA"
+  Delete >NIL: "A-Games:S/SurfNinjasAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/ThemeParkAGA"
+  Delete >NIL: "A-Games:T/ThemeParkAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/ThomasTankEngPinballAGA"
+  Delete >NIL: "A-Games:T/ThomasTankEngPinballAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TinToyAdventureAGA"
+  Delete >NIL: "A-Games:T/TinToyAdventureAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TopGear2AGA"
+  Delete >NIL: "A-Games:T/TopGear2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TornadoAGA"
+  Delete >NIL: "A-Games:T/TornadoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TotalCarnageAGA"
+  Delete >NIL: "A-Games:T/TotalCarnageAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TowerOfSoulsAGA"
+  Delete >NIL: "A-Games:T/TowerOfSoulsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TransarcticaAGA"
+  Delete >NIL: "A-Games:T/TransarcticaAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TrollsAGA"
+  Delete >NIL: "A-Games:T/TrollsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TubeWarriorsAGA"
+  Delete >NIL: "A-Games:T/TubeWarriorsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TubularWorldsAGA"
+  Delete >NIL: "A-Games:T/TubularWorldsAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TZer0DemoAGA"
+  Delete >NIL: "A-Games:T/TZer0DemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:T/TZer0DemoNoMovieAGA"
+  Delete >NIL: "A-Games:T/TZer0DemoNoMovieAGA" ALL
+ENDIF
+IF EXISTS "A-Games:U/UFOEnemyUnknownAGA"
+  Delete >NIL: "A-Games:U/UFOEnemyUnknownAGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirocopAGA"
+  Delete >NIL: "A-Games:V/VirocopAGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKartingAGA"
+  Delete >NIL: "A-Games:V/VirtualKartingAGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKartingDemoAGA"
+  Delete >NIL: "A-Games:V/VirtualKartingDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKarting2AGACD"
+  Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKarting2AGA"
+  Delete >NIL: "A-Games:V/VirtualKarting2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKarting2DemoAGA"
+  Delete >NIL: "A-Games:V/VirtualKarting2DemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:W/WatchtowerAGA"
+  Delete >NIL: "A-Games:W/WatchtowerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:W/WembleyIntSoccerAGA"
+  Delete >NIL: "A-Games:W/WembleyIntSoccerAGA" ALL
+ENDIF
+IF EXISTS "A-Games:W/WhizzAGA"
+  Delete >NIL: "A-Games:W/WhizzAGA" ALL
+ENDIF
+IF EXISTS "A-Games:W/WormsDirectorsCutAGA"
+  Delete >NIL: "A-Games:W/WormsDirectorsCutAGA" ALL
+ENDIF
+IF EXISTS "A-Games:X/XP8AGA"
+  Delete >NIL: "A-Games:X/XP8AGA" ALL
+ENDIF
+IF EXISTS "A-Games:X/XTremeRacingAGA"
+  Delete >NIL: "A-Games:X/XTremeRacingAGA" ALL
+ENDIF
+IF EXISTS "A-Games:X/XTremeRacing&DataDisksAGA"
+  Delete >NIL: "A-Games:X/XTremeRacing&DataDisksAGA" ALL
+ENDIF
+IF EXISTS "A-Games:Z/ZombieApocalypse2AGA"
+  Delete >NIL: "A-Games:Z/ZombieApocalypse2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:Z/ZoolAGA"
+  Delete >NIL: "A-Games:Z/ZoolAGA" ALL
+ENDIF
+IF EXISTS "A-Games:Z/Zool2AGA"
+  Delete >NIL: "A-Games:Z/Zool2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:SimLifeAGA"
+  Delete >NIL: "A-Games:SimLifeAGA" ALL
+ENDIF

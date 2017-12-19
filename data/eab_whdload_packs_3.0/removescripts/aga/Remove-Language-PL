@@ -1,0 +1,75 @@
+IF EXISTS "A-Games:0-9/1869Pl"
+  Delete >NIL: "A-Games:0-9/1869Pl" ALL
+ENDIF
+IF EXISTS "A-Games:A/AceBallPl"
+  Delete >NIL: "A-Games:A/AceBallPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/ATrainPl"
+  Delete >NIL: "A-Games:A/ATrainPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/ATrain512kPl"
+  Delete >NIL: "A-Games:A/ATrain512kPl" ALL
+ENDIF
+IF EXISTS "A-Games:B/BezKompromisuPl"
+  Delete >NIL: "A-Games:B/BezKompromisuPl" ALL
+ENDIF
+IF EXISTS "A-Games:C/CytadelaPl"
+  Delete >NIL: "A-Games:C/CytadelaPl" ALL
+ENDIF
+IF EXISTS "A-Games:D/DomanPl"
+  Delete >NIL: "A-Games:D/DomanPl" ALL
+ENDIF
+IF EXISTS "A-Games:E/EksperymentDelfinPl"
+  Delete >NIL: "A-Games:E/EksperymentDelfinPl" ALL
+ENDIF
+IF EXISTS "A-Games:E/EskadraPl"
+  Delete >NIL: "A-Games:E/EskadraPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FastBrainPl"
+  Delete >NIL: "A-Games:F/FastBrainPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackPl"
+  Delete >NIL: "A-Games:F/FlashbackPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackLowMemPl"
+  Delete >NIL: "A-Games:F/FlashbackLowMemPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FrankoPl"
+  Delete >NIL: "A-Games:F/FrankoPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FrankoCensoredPl"
+  Delete >NIL: "A-Games:F/FrankoCensoredPl" ALL
+ENDIF
+IF EXISTS "A-Games:F/FunturatumPl"
+  Delete >NIL: "A-Games:F/FunturatumPl" ALL
+ENDIF
+IF EXISTS "A-Games:K/KajkoIKokoszPl"
+  Delete >NIL: "A-Games:K/KajkoIKokoszPl" ALL
+ENDIF
+IF EXISTS "A-Games:L/LegionPl"
+  Delete >NIL: "A-Games:L/LegionPl" ALL
+ENDIF
+IF EXISTS "A-Games:M/MentorPl"
+  Delete >NIL: "A-Games:M/MentorPl" ALL
+ENDIF
+IF EXISTS "A-Games:M/MisjaHaroldaPl"
+  Delete >NIL: "A-Games:M/MisjaHaroldaPl" ALL
+ENDIF
+IF EXISTS "A-Games:R/RockstarNTRTPl"
+  Delete >NIL: "A-Games:R/RockstarNTRTPl" ALL
+ENDIF
+IF EXISTS "A-Games:W/WacusTheDetectivePl"
+  Delete >NIL: "A-Games:W/WacusTheDetectivePl" ALL
+ENDIF
+IF EXISTS "A-Games:W/WisielecPl"
+  Delete >NIL: "A-Games:W/WisielecPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/AceBallAGAPl"
+  Delete >NIL: "A-Games:A/AceBallAGAPl" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlfabetSmierciAGAPl"
+  Delete >NIL: "A-Games:A/AlfabetSmierciAGAPl" ALL
+ENDIF
+IF EXISTS "A-Games:WPotrzaskuPl"
+  Delete >NIL: "A-Games:WPotrzaskuPl" ALL
+ENDIF

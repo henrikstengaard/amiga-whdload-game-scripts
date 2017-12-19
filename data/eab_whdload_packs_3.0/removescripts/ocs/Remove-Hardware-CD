@@ -1,0 +1,15 @@
+IF EXISTS "A-Games:C/CivilizationCD"
+  Delete >NIL: "A-Games:C/CivilizationCD" ALL
+ENDIF
+IF EXISTS "A-Games:S/SphericalWorldsCD"
+  Delete >NIL: "A-Games:S/SphericalWorldsCD" ALL
+ENDIF
+IF EXISTS "A-Games:T/TinyTroopsCD"
+  Delete >NIL: "A-Games:T/TinyTroopsCD" ALL
+ENDIF
+IF EXISTS "A-Games:T/TinyTroopsCDDe"
+  Delete >NIL: "A-Games:T/TinyTroopsCDDe" ALL
+ENDIF
+IF EXISTS "A-Games:EmeraldMinesCD"
+  Delete >NIL: "A-Games:EmeraldMinesCD" ALL
+ENDIF

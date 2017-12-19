@@ -1,0 +1,12 @@
+IF EXISTS "A-Games:H/Hugo1Fi"
+  Delete >NIL: "A-Games:H/Hugo1Fi" ALL
+ENDIF
+IF EXISTS "A-Games:H/Hugo2Fi"
+  Delete >NIL: "A-Games:H/Hugo2Fi" ALL
+ENDIF
+IF EXISTS "A-Games:S/SkaermtroldenHugoFi"
+  Delete >NIL: "A-Games:S/SkaermtroldenHugoFi" ALL
+ENDIF
+IF EXISTS "A-Games:T/TurboRaketti2Fi"
+  Delete >NIL: "A-Games:T/TurboRaketti2Fi" ALL
+ENDIF

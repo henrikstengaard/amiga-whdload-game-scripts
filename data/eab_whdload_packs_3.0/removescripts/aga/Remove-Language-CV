@@ -1,0 +1,6 @@
+IF EXISTS "A-Games:K/KickOff2CV"
+  Delete >NIL: "A-Games:K/KickOff2CV" ALL
+ENDIF
+IF EXISTS "A-Games:K/KickOff2FinalWhistleCV"
+  Delete >NIL: "A-Games:K/KickOff2FinalWhistleCV" ALL
+ENDIF

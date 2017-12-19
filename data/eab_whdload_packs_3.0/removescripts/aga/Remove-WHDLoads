@@ -1,0 +1,530 @@
+; Remove WHDLoads
+; ---------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2017-12-12
+;
+; A remove WHDLoads script to remove unwanted WHDLoads language and hardware versions.
+
+
+; Show error, if WHDLoads assign 'A-Games' doesn't exist
+Assign >NIL: EXISTS A-Games:
+IF WARN
+  REQUESTCHOICE >NIL: "Error" "WHDLoads assign 'A-Games' doesn't exist!*N*NPlease verify WHDLoads assign is configured." "OK"
+  SKIP end
+ENDIF
+
+
+; Reset selected remove whdloads options
+; --------------------------------------
+IF EXISTS "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  Delete >NIL: "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+ENDIF
+IF EXISTS "T:928568b84963ceb76aaaa2cae9afdbfa"
+  Delete >NIL: "T:928568b84963ceb76aaaa2cae9afdbfa"
+ENDIF
+IF EXISTS "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  Delete >NIL: "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+ENDIF
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+ENDIF
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+ENDIF
+IF EXISTS "T:04c19fa1e772ab66f0aad2efe61f25cd"
+  Delete >NIL: "T:04c19fa1e772ab66f0aad2efe61f25cd"
+ENDIF
+IF EXISTS "T:f0aa03aaca953a9a63b4459663d00134"
+  Delete >NIL: "T:f0aa03aaca953a9a63b4459663d00134"
+ENDIF
+IF EXISTS "T:11aedd0e432747c2bcd97b82808d24a0"
+  Delete >NIL: "T:11aedd0e432747c2bcd97b82808d24a0"
+ENDIF
+IF EXISTS "T:f214a7d42e0de5875d55189e01e2e187"
+  Delete >NIL: "T:f214a7d42e0de5875d55189e01e2e187"
+ENDIF
+IF EXISTS "T:cd32106bcb6de321930cf34574ea388c"
+  Delete >NIL: "T:cd32106bcb6de321930cf34574ea388c"
+ENDIF
+IF EXISTS "T:9b7d173b068dc4d5517bfae92d676437"
+  Delete >NIL: "T:9b7d173b068dc4d5517bfae92d676437"
+ENDIF
+IF EXISTS "T:f003c44deab679aa2edfaff864c77402"
+  Delete >NIL: "T:f003c44deab679aa2edfaff864c77402"
+ENDIF
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+ENDIF
+IF EXISTS "T:4170acd6af571e8d0d59fdad999cc605"
+  Delete >NIL: "T:4170acd6af571e8d0d59fdad999cc605"
+ENDIF
+IF EXISTS "T:008d01b7493795c8f5296bdbf71ef833"
+  Delete >NIL: "T:008d01b7493795c8f5296bdbf71ef833"
+ENDIF
+IF EXISTS "T:eeea562d3be679ee3e7f29ade30cb8e4"
+  Delete >NIL: "T:eeea562d3be679ee3e7f29ade30cb8e4"
+ENDIF
+
+
+; Build remove WHDLoads menu
+; --------------------------
+LAB removewhdloadsmenu
+echo "" NOLINE >T:removewhdloadsmenu
+
+; Language 'CV' menu
+echo "Language CV : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'CZ' menu
+echo "Language CZ : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:928568b84963ceb76aaaa2cae9afdbfa"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'DE' menu
+echo "Language DE : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'DK' menu
+echo "Language DK : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'EN' menu
+echo "Language EN : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'ES' menu
+echo "Language ES : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:04c19fa1e772ab66f0aad2efe61f25cd"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'FI' menu
+echo "Language FI : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:f0aa03aaca953a9a63b4459663d00134"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'FR' menu
+echo "Language FR : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:11aedd0e432747c2bcd97b82808d24a0"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'GR' menu
+echo "Language GR : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:f214a7d42e0de5875d55189e01e2e187"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'IT' menu
+echo "Language IT : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:cd32106bcb6de321930cf34574ea388c"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'PL' menu
+echo "Language PL : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:9b7d173b068dc4d5517bfae92d676437"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Language 'SE' menu
+echo "Language SE : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:f003c44deab679aa2edfaff864c77402"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Hardware 'AGA' menu
+echo "Hardware AGA : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Hardware 'CD' menu
+echo "Hardware CD : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:4170acd6af571e8d0d59fdad999cc605"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Hardware 'CD32' menu
+echo "Hardware CD32 : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:008d01b7493795c8f5296bdbf71ef833"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+
+; Hardware 'CDTV' menu
+echo "Hardware CDTV : " NOLINE >>T:removewhdloadsmenu
+IF EXISTS "T:eeea562d3be679ee3e7f29ade30cb8e4"
+  echo "YES" >>T:removewhdloadsmenu
+ELSE
+  echo "NO " >>T:removewhdloadsmenu
+ENDIF
+echo "==============================" >>T:removewhdloadsmenu
+echo "Remove selected WHDLoads" >>T:removewhdloadsmenu
+echo "Quit" >>T:removewhdloadsmenu
+
+; Show remove whdloads menu
+set removewhdloadsmenu ""
+set removewhdloadsmenu "`ReqList CLONERT I=T:removewhdloadsmenu H="Remove Game WHDLoads" PAGE=18`"
+delete >NIL: T:removewhdloadsmenu
+
+; Language 'CV' option
+IF "$removewhdloadsmenu" eq "1"
+  IF EXISTS "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+    Delete >NIL: "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  ELSE
+    echo "" NOLINE >"T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  ENDIF
+ENDIF
+
+; Language 'CZ' option
+IF "$removewhdloadsmenu" eq "2"
+  IF EXISTS "T:928568b84963ceb76aaaa2cae9afdbfa"
+    Delete >NIL: "T:928568b84963ceb76aaaa2cae9afdbfa"
+  ELSE
+    echo "" NOLINE >"T:928568b84963ceb76aaaa2cae9afdbfa"
+  ENDIF
+ENDIF
+
+; Language 'DE' option
+IF "$removewhdloadsmenu" eq "3"
+  IF EXISTS "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+    Delete >NIL: "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  ELSE
+    echo "" NOLINE >"T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  ENDIF
+ENDIF
+
+; Language 'DK' option
+IF "$removewhdloadsmenu" eq "4"
+  IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+    Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  ELSE
+    echo "" NOLINE >"T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  ENDIF
+ENDIF
+
+; Language 'EN' option
+IF "$removewhdloadsmenu" eq "5"
+  IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+    Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  ELSE
+    echo "" NOLINE >"T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  ENDIF
+ENDIF
+
+; Language 'ES' option
+IF "$removewhdloadsmenu" eq "6"
+  IF EXISTS "T:04c19fa1e772ab66f0aad2efe61f25cd"
+    Delete >NIL: "T:04c19fa1e772ab66f0aad2efe61f25cd"
+  ELSE
+    echo "" NOLINE >"T:04c19fa1e772ab66f0aad2efe61f25cd"
+  ENDIF
+ENDIF
+
+; Language 'FI' option
+IF "$removewhdloadsmenu" eq "7"
+  IF EXISTS "T:f0aa03aaca953a9a63b4459663d00134"
+    Delete >NIL: "T:f0aa03aaca953a9a63b4459663d00134"
+  ELSE
+    echo "" NOLINE >"T:f0aa03aaca953a9a63b4459663d00134"
+  ENDIF
+ENDIF
+
+; Language 'FR' option
+IF "$removewhdloadsmenu" eq "8"
+  IF EXISTS "T:11aedd0e432747c2bcd97b82808d24a0"
+    Delete >NIL: "T:11aedd0e432747c2bcd97b82808d24a0"
+  ELSE
+    echo "" NOLINE >"T:11aedd0e432747c2bcd97b82808d24a0"
+  ENDIF
+ENDIF
+
+; Language 'GR' option
+IF "$removewhdloadsmenu" eq "9"
+  IF EXISTS "T:f214a7d42e0de5875d55189e01e2e187"
+    Delete >NIL: "T:f214a7d42e0de5875d55189e01e2e187"
+  ELSE
+    echo "" NOLINE >"T:f214a7d42e0de5875d55189e01e2e187"
+  ENDIF
+ENDIF
+
+; Language 'IT' option
+IF "$removewhdloadsmenu" eq "10"
+  IF EXISTS "T:cd32106bcb6de321930cf34574ea388c"
+    Delete >NIL: "T:cd32106bcb6de321930cf34574ea388c"
+  ELSE
+    echo "" NOLINE >"T:cd32106bcb6de321930cf34574ea388c"
+  ENDIF
+ENDIF
+
+; Language 'PL' option
+IF "$removewhdloadsmenu" eq "11"
+  IF EXISTS "T:9b7d173b068dc4d5517bfae92d676437"
+    Delete >NIL: "T:9b7d173b068dc4d5517bfae92d676437"
+  ELSE
+    echo "" NOLINE >"T:9b7d173b068dc4d5517bfae92d676437"
+  ENDIF
+ENDIF
+
+; Language 'SE' option
+IF "$removewhdloadsmenu" eq "12"
+  IF EXISTS "T:f003c44deab679aa2edfaff864c77402"
+    Delete >NIL: "T:f003c44deab679aa2edfaff864c77402"
+  ELSE
+    echo "" NOLINE >"T:f003c44deab679aa2edfaff864c77402"
+  ENDIF
+ENDIF
+
+; Hardware 'AGA' option
+IF "$removewhdloadsmenu" eq "13"
+  IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+    Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+  ELSE
+    echo "" NOLINE >"T:b13b6429c6c3ddc1531b364fdfd82457"
+  ENDIF
+ENDIF
+
+; Hardware 'CD' option
+IF "$removewhdloadsmenu" eq "14"
+  IF EXISTS "T:4170acd6af571e8d0d59fdad999cc605"
+    Delete >NIL: "T:4170acd6af571e8d0d59fdad999cc605"
+  ELSE
+    echo "" NOLINE >"T:4170acd6af571e8d0d59fdad999cc605"
+  ENDIF
+ENDIF
+
+; Hardware 'CD32' option
+IF "$removewhdloadsmenu" eq "15"
+  IF EXISTS "T:008d01b7493795c8f5296bdbf71ef833"
+    Delete >NIL: "T:008d01b7493795c8f5296bdbf71ef833"
+  ELSE
+    echo "" NOLINE >"T:008d01b7493795c8f5296bdbf71ef833"
+  ENDIF
+ENDIF
+
+; Hardware 'CDTV' option
+IF "$removewhdloadsmenu" eq "16"
+  IF EXISTS "T:eeea562d3be679ee3e7f29ade30cb8e4"
+    Delete >NIL: "T:eeea562d3be679ee3e7f29ade30cb8e4"
+  ELSE
+    echo "" NOLINE >"T:eeea562d3be679ee3e7f29ade30cb8e4"
+  ENDIF
+ENDIF
+
+; Remove selected whdloads option
+IF "$removewhdloadsmenu" eq "18"
+  set confirm `RequestChoice "Confirm" "Are you sure you want to remove selected WHDLoads?" "Yes|No"`
+  IF "$confirm" EQ "1"
+    SKIP runremovewhdloads
+  ENDIF
+ENDIF
+
+; Quit option
+IF "$removewhdloadsmenu" eq "19"
+  SKIP end
+ENDIF
+
+SKIP BACK removewhdloadsmenu
+
+
+; Remove WHDLoads
+; ---------------
+LAB runremovewhdloads
+
+echo "*e[1mRemoving WHDLoads...*e[0m"
+
+; Remove language 'CV', if it's selected
+IF EXISTS "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  echo "Language CV..."
+  execute "Remove-Language-CV"
+ENDIF
+
+; Remove language 'CZ', if it's selected
+IF EXISTS "T:928568b84963ceb76aaaa2cae9afdbfa"
+  echo "Language CZ..."
+  execute "Remove-Language-CZ"
+ENDIF
+
+; Remove language 'DE', if it's selected
+IF EXISTS "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  echo "Language DE..."
+  execute "Remove-Language-DE"
+ENDIF
+
+; Remove language 'DK', if it's selected
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  echo "Language DK..."
+  execute "Remove-Language-DK"
+ENDIF
+
+; Remove language 'EN', if it's selected
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  echo "Language EN..."
+  execute "Remove-Language-EN"
+ENDIF
+
+; Remove language 'ES', if it's selected
+IF EXISTS "T:04c19fa1e772ab66f0aad2efe61f25cd"
+  echo "Language ES..."
+  execute "Remove-Language-ES"
+ENDIF
+
+; Remove language 'FI', if it's selected
+IF EXISTS "T:f0aa03aaca953a9a63b4459663d00134"
+  echo "Language FI..."
+  execute "Remove-Language-FI"
+ENDIF
+
+; Remove language 'FR', if it's selected
+IF EXISTS "T:11aedd0e432747c2bcd97b82808d24a0"
+  echo "Language FR..."
+  execute "Remove-Language-FR"
+ENDIF
+
+; Remove language 'GR', if it's selected
+IF EXISTS "T:f214a7d42e0de5875d55189e01e2e187"
+  echo "Language GR..."
+  execute "Remove-Language-GR"
+ENDIF
+
+; Remove language 'IT', if it's selected
+IF EXISTS "T:cd32106bcb6de321930cf34574ea388c"
+  echo "Language IT..."
+  execute "Remove-Language-IT"
+ENDIF
+
+; Remove language 'PL', if it's selected
+IF EXISTS "T:9b7d173b068dc4d5517bfae92d676437"
+  echo "Language PL..."
+  execute "Remove-Language-PL"
+ENDIF
+
+; Remove language 'SE', if it's selected
+IF EXISTS "T:f003c44deab679aa2edfaff864c77402"
+  echo "Language SE..."
+  execute "Remove-Language-SE"
+ENDIF
+
+; Remove hardware 'AGA', if it's selected
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  echo "Hardware AGA..."
+  execute "Remove-Hardware-AGA"
+ENDIF
+
+; Remove hardware 'CD', if it's selected
+IF EXISTS "T:4170acd6af571e8d0d59fdad999cc605"
+  echo "Hardware CD..."
+  execute "Remove-Hardware-CD"
+ENDIF
+
+; Remove hardware 'CD32', if it's selected
+IF EXISTS "T:008d01b7493795c8f5296bdbf71ef833"
+  echo "Hardware CD32..."
+  execute "Remove-Hardware-CD32"
+ENDIF
+
+; Remove hardware 'CDTV', if it's selected
+IF EXISTS "T:eeea562d3be679ee3e7f29ade30cb8e4"
+  echo "Hardware CDTV..."
+  execute "Remove-Hardware-CDTV"
+ENDIF
+echo "Done"
+
+
+echo ""
+echo "Remove WHDLoads is complete."
+echo ""
+ask "Press ENTER to continue"
+
+; End
+LAB end
+
+; Delete temp files, if they exist
+IF EXISTS "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+  Delete >NIL: "T:a5c8c3544bc49ebacde4ffe04bf34de0"
+ENDIF
+IF EXISTS "T:928568b84963ceb76aaaa2cae9afdbfa"
+  Delete >NIL: "T:928568b84963ceb76aaaa2cae9afdbfa"
+ENDIF
+IF EXISTS "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+  Delete >NIL: "T:3a52f3c22ed6fcde5bf696a6c02c9e73"
+ENDIF
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+ENDIF
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+ENDIF
+IF EXISTS "T:04c19fa1e772ab66f0aad2efe61f25cd"
+  Delete >NIL: "T:04c19fa1e772ab66f0aad2efe61f25cd"
+ENDIF
+IF EXISTS "T:f0aa03aaca953a9a63b4459663d00134"
+  Delete >NIL: "T:f0aa03aaca953a9a63b4459663d00134"
+ENDIF
+IF EXISTS "T:11aedd0e432747c2bcd97b82808d24a0"
+  Delete >NIL: "T:11aedd0e432747c2bcd97b82808d24a0"
+ENDIF
+IF EXISTS "T:f214a7d42e0de5875d55189e01e2e187"
+  Delete >NIL: "T:f214a7d42e0de5875d55189e01e2e187"
+ENDIF
+IF EXISTS "T:cd32106bcb6de321930cf34574ea388c"
+  Delete >NIL: "T:cd32106bcb6de321930cf34574ea388c"
+ENDIF
+IF EXISTS "T:9b7d173b068dc4d5517bfae92d676437"
+  Delete >NIL: "T:9b7d173b068dc4d5517bfae92d676437"
+ENDIF
+IF EXISTS "T:f003c44deab679aa2edfaff864c77402"
+  Delete >NIL: "T:f003c44deab679aa2edfaff864c77402"
+ENDIF
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+ENDIF
+IF EXISTS "T:4170acd6af571e8d0d59fdad999cc605"
+  Delete >NIL: "T:4170acd6af571e8d0d59fdad999cc605"
+ENDIF
+IF EXISTS "T:008d01b7493795c8f5296bdbf71ef833"
+  Delete >NIL: "T:008d01b7493795c8f5296bdbf71ef833"
+ENDIF
+IF EXISTS "T:eeea562d3be679ee3e7f29ade30cb8e4"
+  Delete >NIL: "T:eeea562d3be679ee3e7f29ade30cb8e4"
+ENDIF

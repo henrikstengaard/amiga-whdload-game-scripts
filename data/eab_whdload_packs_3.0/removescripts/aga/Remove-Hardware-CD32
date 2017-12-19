@@ -1,0 +1,351 @@
+IF EXISTS "A-Games:A/AlfredChickenCD32"
+  Delete >NIL: "A-Games:A/AlfredChickenCD32" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DCD32"
+  Delete >NIL: "A-Games:A/AlienBreed3DCD32" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DNoMusicCD32"
+  Delete >NIL: "A-Games:A/AlienBreed3DNoMusicCD32" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreedTACD32"
+  Delete >NIL: "A-Games:A/AlienBreedTACD32" ALL
+ENDIF
+IF EXISTS "A-Games:A/ArabianNightsCD32"
+  Delete >NIL: "A-Games:A/ArabianNightsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:A/ArcadePoolCD32"
+  Delete >NIL: "A-Games:A/ArcadePoolCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BansheeCD32"
+  Delete >NIL: "A-Games:B/BansheeCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BaseJumpersCD32"
+  Delete >NIL: "A-Games:B/BaseJumpersCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BattleChessCD32"
+  Delete >NIL: "A-Games:B/BattleChessCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BattletoadsCD32"
+  Delete >NIL: "A-Games:B/BattletoadsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BeneathAStlSkyCD32"
+  Delete >NIL: "A-Games:B/BeneathAStlSkyCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BeneathAStlSkyCD32NoVoice"
+  Delete >NIL: "A-Games:B/BeneathAStlSkyCD32NoVoice" ALL
+ENDIF
+IF EXISTS "A-Games:B/BenefactorCD32"
+  Delete >NIL: "A-Games:B/BenefactorCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BlackViperCD32"
+  Delete >NIL: "A-Games:B/BlackViperCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BlackViperCD32"
+  Delete >NIL: "A-Games:B/BlackViperCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BombPacCD32AGA"
+  Delete >NIL: "A-Games:B/BombPacCD32AGA" ALL
+ENDIF
+IF EXISTS "A-Games:B/BombPacCD32AGAAminet"
+  Delete >NIL: "A-Games:B/BombPacCD32AGAAminet" ALL
+ENDIF
+IF EXISTS "A-Games:B/BrutalFootballCD32"
+  Delete >NIL: "A-Games:B/BrutalFootballCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BrutalPawsOfFuryCD32"
+  Delete >NIL: "A-Games:B/BrutalPawsOfFuryCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BubbaNStixCD32"
+  Delete >NIL: "A-Games:B/BubbaNStixCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/Bubble&SqueakCD32"
+  Delete >NIL: "A-Games:B/Bubble&SqueakCD32" ALL
+ENDIF
+IF EXISTS "A-Games:B/BumpNBurnCD32"
+  Delete >NIL: "A-Games:B/BumpNBurnCD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/CannonFodderCD32"
+  Delete >NIL: "A-Games:C/CannonFodderCD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/Castles2CD32"
+  Delete >NIL: "A-Games:C/Castles2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/CedricCD32"
+  Delete >NIL: "A-Games:C/CedricCD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/CedricCD32Fast"
+  Delete >NIL: "A-Games:C/CedricCD32Fast" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChaosEngineCD32"
+  Delete >NIL: "A-Games:C/ChaosEngineCD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChuckRockCD32"
+  Delete >NIL: "A-Games:C/ChuckRockCD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChuckRock2CD32"
+  Delete >NIL: "A-Games:C/ChuckRock2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:C/ClockwiserCD32"
+  Delete >NIL: "A-Games:C/ClockwiserCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DarkSeedCD32"
+  Delete >NIL: "A-Games:D/DarkSeedCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DefenderOfTheCrown2CD32"
+  Delete >NIL: "A-Games:D/DefenderOfTheCrown2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DefenseurCouronne2CD32Fr"
+  Delete >NIL: "A-Games:D/DefenseurCouronne2CD32Fr" ALL
+ENDIF
+IF EXISTS "A-Games:D/DefensorDeLaCorona2CD32Es"
+  Delete >NIL: "A-Games:D/DefensorDeLaCorona2CD32Es" ALL
+ENDIF
+IF EXISTS "A-Games:D/DennisCD32"
+  Delete >NIL: "A-Games:D/DennisCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DGenerationCD32"
+  Delete >NIL: "A-Games:D/DGenerationCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DifensoreCorona2CD32It"
+  Delete >NIL: "A-Games:D/DifensoreCorona2CD32It" ALL
+ENDIF
+IF EXISTS "A-Games:D/DiggersCD32"
+  Delete >NIL: "A-Games:D/DiggersCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DisposableHeroCD32"
+  Delete >NIL: "A-Games:D/DisposableHeroCD32" ALL
+ENDIF
+IF EXISTS "A-Games:D/DragonstoneCD32"
+  Delete >NIL: "A-Games:D/DragonstoneCD32" ALL
+ENDIF
+IF EXISTS "A-Games:E/ExtractorsPreviewCD32"
+  Delete >NIL: "A-Games:E/ExtractorsPreviewCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FearsCD32"
+  Delete >NIL: "A-Games:F/FearsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FightinSpiritCD32"
+  Delete >NIL: "A-Games:F/FightinSpiritCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/Fire&IceCD32"
+  Delete >NIL: "A-Games:F/Fire&IceCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FireForceCD32"
+  Delete >NIL: "A-Games:F/FireForceCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlinkCD32"
+  Delete >NIL: "A-Games:F/FlinkCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlyHarderCD32"
+  Delete >NIL: "A-Games:F/FlyHarderCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FrontierCD32"
+  Delete >NIL: "A-Games:F/FrontierCD32" ALL
+ENDIF
+IF EXISTS "A-Games:F/FuryOfTheFurriesCD32"
+  Delete >NIL: "A-Games:F/FuryOfTheFurriesCD32" ALL
+ENDIF
+IF EXISTS "A-Games:G/GloomCD32"
+  Delete >NIL: "A-Games:G/GloomCD32" ALL
+ENDIF
+IF EXISTS "A-Games:G/GuardianCD32"
+  Delete >NIL: "A-Games:G/GuardianCD32" ALL
+ENDIF
+IF EXISTS "A-Games:G/Gunship2000CD32"
+  Delete >NIL: "A-Games:G/Gunship2000CD32" ALL
+ENDIF
+IF EXISTS "A-Games:H/Heimdall2CD32"
+  Delete >NIL: "A-Games:H/Heimdall2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:H/HumansCD32"
+  Delete >NIL: "A-Games:H/HumansCD32" ALL
+ENDIF
+IF EXISTS "A-Games:I/InternationalKarate+CD32"
+  Delete >NIL: "A-Games:I/InternationalKarate+CD32" ALL
+ENDIF
+IF EXISTS "A-Games:J/JamesPond2CD32"
+  Delete >NIL: "A-Games:J/JamesPond2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:J/JamesPond3CD32"
+  Delete >NIL: "A-Games:J/JamesPond3CD32" ALL
+ENDIF
+IF EXISTS "A-Games:J/JungleStrikeCD32"
+  Delete >NIL: "A-Games:J/JungleStrikeCD32" ALL
+ENDIF
+IF EXISTS "A-Games:K/KidChaosCD32"
+  Delete >NIL: "A-Games:K/KidChaosCD32" ALL
+ENDIF
+IF EXISTS "A-Games:K/KingpinCD32"
+  Delete >NIL: "A-Games:K/KingpinCD32" ALL
+ENDIF
+IF EXISTS "A-Games:L/LastNinja3CD32"
+  Delete >NIL: "A-Games:L/LastNinja3CD32" ALL
+ENDIF
+IF EXISTS "A-Games:L/LegendsCD32"
+  Delete >NIL: "A-Games:L/LegendsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:L/LostVikingsCD32"
+  Delete >NIL: "A-Games:L/LostVikingsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:L/LotusCD32"
+  Delete >NIL: "A-Games:L/LotusCD32" ALL
+ENDIF
+IF EXISTS "A-Games:L/LunarCCD32"
+  Delete >NIL: "A-Games:L/LunarCCD32" ALL
+ENDIF
+IF EXISTS "A-Games:M/MarvinsMarvellousAdvCD32"
+  Delete >NIL: "A-Games:M/MarvinsMarvellousAdvCD32" ALL
+ENDIF
+IF EXISTS "A-Games:M/MeanArenasCD32"
+  Delete >NIL: "A-Games:M/MeanArenasCD32" ALL
+ENDIF
+IF EXISTS "A-Games:M/MorphCD32"
+  Delete >NIL: "A-Games:M/MorphCD32" ALL
+ENDIF
+IF EXISTS "A-Games:M/MythHistoryInMakingCD32"
+  Delete >NIL: "A-Games:M/MythHistoryInMakingCD32" ALL
+ENDIF
+IF EXISTS "A-Games:N/NaughtyOnesCD32"
+  Delete >NIL: "A-Games:N/NaughtyOnesCD32" ALL
+ENDIF
+IF EXISTS "A-Games:N/NickFaldosChampGolfCD32"
+  Delete >NIL: "A-Games:N/NickFaldosChampGolfCD32" ALL
+ENDIF
+IF EXISTS "A-Games:N/NigelMansellsWrldChmpCD32"
+  Delete >NIL: "A-Games:N/NigelMansellsWrldChmpCD32" ALL
+ENDIF
+IF EXISTS "A-Games:O/OscarCD32"
+  Delete >NIL: "A-Games:O/OscarCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PGAEuropeanTourCD32"
+  Delete >NIL: "A-Games:P/PGAEuropeanTourCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PierreIsOutToLunchCD32"
+  Delete >NIL: "A-Games:P/PierreIsOutToLunchCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesCD32"
+  Delete >NIL: "A-Games:P/PinballFntsiesCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesCD32Chip"
+  Delete >NIL: "A-Games:P/PinballFntsiesCD32Chip" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballIllusionsCD32"
+  Delete >NIL: "A-Games:P/PinballIllusionsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PiratesGoldCD32"
+  Delete >NIL: "A-Games:P/PiratesGoldCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PremiereCD32"
+  Delete >NIL: "A-Games:P/PremiereCD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/ProjectXSECD32"
+  Delete >NIL: "A-Games:P/ProjectXSECD32" ALL
+ENDIF
+IF EXISTS "A-Games:P/PuttyCD32"
+  Delete >NIL: "A-Games:P/PuttyCD32" ALL
+ENDIF
+IF EXISTS "A-Games:Q/QuikThunderRabbitCD32"
+  Delete >NIL: "A-Games:Q/QuikThunderRabbitCD32" ALL
+ENDIF
+IF EXISTS "A-Games:Q/QwakCD32"
+  Delete >NIL: "A-Games:Q/QwakCD32" ALL
+ENDIF
+IF EXISTS "A-Games:R/RiseOfTheRobotsCD32"
+  Delete >NIL: "A-Games:R/RiseOfTheRobotsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:R/RoadkillCD32"
+  Delete >NIL: "A-Games:R/RoadkillCD32" ALL
+ENDIF
+IF EXISTS "A-Games:R/RoadkillCD32NoIntro"
+  Delete >NIL: "A-Games:R/RoadkillCD32NoIntro" ALL
+ENDIF
+IF EXISTS "A-Games:S/SabreTeamCD32"
+  Delete >NIL: "A-Games:S/SabreTeamCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SensibleSoccerIntlEdCD32"
+  Delete >NIL: "A-Games:S/SensibleSoccerIntlEdCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/ShadowFighterCD32"
+  Delete >NIL: "A-Games:S/ShadowFighterCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SkeletonKrewCD32"
+  Delete >NIL: "A-Games:S/SkeletonKrewCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SoccerKidCD32"
+  Delete >NIL: "A-Games:S/SoccerKidCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/Speedball2CD32"
+  Delete >NIL: "A-Games:S/Speedball2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SperisLegacyCD32"
+  Delete >NIL: "A-Games:S/SperisLegacyCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/StreetRacerCD32"
+  Delete >NIL: "A-Games:S/StreetRacerCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/StripPotCD32"
+  Delete >NIL: "A-Games:S/StripPotCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/Subwar2050CD32"
+  Delete >NIL: "A-Games:S/Subwar2050CD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperfrogCD32"
+  Delete >NIL: "A-Games:S/SuperfrogCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperfrogCD32"
+  Delete >NIL: "A-Games:S/SuperfrogCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperMethaneBrosCD32"
+  Delete >NIL: "A-Games:S/SuperMethaneBrosCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperPuttyCD32"
+  Delete >NIL: "A-Games:S/SuperPuttyCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperSkidmarksCD32"
+  Delete >NIL: "A-Games:S/SuperSkidmarksCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuprStrtFtr2TrboCD32"
+  Delete >NIL: "A-Games:S/SuprStrtFtr2TrboCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuprStrtFtr2TrboCD32"
+  Delete >NIL: "A-Games:S/SuprStrtFtr2TrboCD32" ALL
+ENDIF
+IF EXISTS "A-Games:S/SyndicateCD32"
+  Delete >NIL: "A-Games:S/SyndicateCD32" ALL
+ENDIF
+IF EXISTS "A-Games:T/ThomasTankEngPinballCD32"
+  Delete >NIL: "A-Games:T/ThomasTankEngPinballCD32" ALL
+ENDIF
+IF EXISTS "A-Games:T/TopGear2CD32"
+  Delete >NIL: "A-Games:T/TopGear2CD32" ALL
+ENDIF
+IF EXISTS "A-Games:T/TreasureIslandDizzyCD32"
+  Delete >NIL: "A-Games:T/TreasureIslandDizzyCD32" ALL
+ENDIF
+IF EXISTS "A-Games:T/TrollsCD32"
+  Delete >NIL: "A-Games:T/TrollsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:U/UFOEnemyUnknownCD32"
+  Delete >NIL: "A-Games:U/UFOEnemyUnknownCD32" ALL
+ENDIF
+IF EXISTS "A-Games:U/UltimateBodyBlowsCD32"
+  Delete >NIL: "A-Games:U/UltimateBodyBlowsCD32" ALL
+ENDIF
+IF EXISTS "A-Games:U/UniverseCD32"
+  Delete >NIL: "A-Games:U/UniverseCD32" ALL
+ENDIF
+IF EXISTS "A-Games:V/VerteidigerKrone2CD32De"
+  Delete >NIL: "A-Games:V/VerteidigerKrone2CD32De" ALL
+ENDIF
+IF EXISTS "A-Games:W/WingCommanderCD32"
+  Delete >NIL: "A-Games:W/WingCommanderCD32" ALL
+ENDIF
+IF EXISTS "A-Games:W/WormsCD321MB"
+  Delete >NIL: "A-Games:W/WormsCD321MB" ALL
+ENDIF
+IF EXISTS "A-Games:W/WormsCD322MB"
+  Delete >NIL: "A-Games:W/WormsCD322MB" ALL
+ENDIF
+IF EXISTS "A-Games:Z/ZoolCD32"
+  Delete >NIL: "A-Games:Z/ZoolCD32" ALL
+ENDIF

@@ -1,0 +1,233 @@
+; 'A' index directory
+echo "Installing 'A'..."
+
+; Copy 'AlterEgo' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/AlterEgo.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/AlterEgo.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "AlterEgo"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/AlterEgo"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/AlterEgo" "$entrydir" ALL
+ENDIF
+
+; Copy 'AnotherWorldTheLostLevel' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/AnotherWorldTheLostLevel.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/AnotherWorldTheLostLevel.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "AnotherWorldTheLostLevel"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/AnotherWorldTheLostLevel"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/AnotherWorldTheLostLevel" "$entrydir" ALL
+ENDIF
+
+; 'B' index directory
+echo "Installing 'B'..."
+
+; Copy 'BlockySkies' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/BlockySkies.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/BlockySkies.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "BlockySkies"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/BlockySkies"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/BlockySkies" "$entrydir" ALL
+ENDIF
+
+; 'C' index directory
+echo "Installing 'C'..."
+
+; Copy 'CC2AGA' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/CC2AGA.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/CC2AGA.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "CC2AGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/CC2AGA"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/CC2AGA" "$entrydir" ALL
+ENDIF
+
+; 'G' index directory
+echo "Installing 'G'..."
+
+; Copy 'GianaSistersSE' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "GianaSistersSE"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE" "$entrydir" ALL
+ENDIF
+
+; Copy 'GianaSistersSE' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "GianaSistersSE"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE" "$entrydir" ALL
+ENDIF
+
+; 'H' index directory
+echo "Installing 'H'..."
+
+; Copy 'HeartOfTheAlienReduxAGA' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/HeartOfTheAlienReduxAGA.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/HeartOfTheAlienReduxAGA.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "HeartOfTheAlienReduxAGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/HeartOfTheAlienReduxAGA"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/HeartOfTheAlienReduxAGA" "$entrydir" ALL
+ENDIF
+
+; 'M' index directory
+echo "Installing 'M'..."
+
+; Copy 'MonstersOfTerrorAGA' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/MonstersOfTerrorAGA.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/MonstersOfTerrorAGA.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "MonstersOfTerrorAGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/MonstersOfTerrorAGA"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/MonstersOfTerrorAGA" "$entrydir" ALL
+ENDIF
+
+; 'N' index directory
+echo "Installing 'N'..."
+
+; Copy 'NoMansLand' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/NoMansLand.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/NoMansLand.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "NoMansLand"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/NoMansLand"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/NoMansLand" "$entrydir" ALL
+ENDIF
+
+; 'O' index directory
+echo "Installing 'O'..."
+
+; Copy 'OnEscapeeAGA' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/OnEscapeeAGA.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/OnEscapeeAGA.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "OnEscapeeAGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/OnEscapeeAGA"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/OnEscapeeAGA" "$entrydir" ALL
+ENDIF
+
+; 'S' index directory
+echo "Installing 'S'..."
+
+; Copy 'ScorchedTanks' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/ScorchedTanks.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/ScorchedTanks.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "ScorchedTanks"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/ScorchedTanks"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/ScorchedTanks" "$entrydir" ALL
+ENDIF
+
+; Copy 'SimCity2000AGA' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/SimCity2000AGA.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SimCity2000AGA.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "SimCity2000AGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/SimCity2000AGA"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SimCity2000AGA" "$entrydir" ALL
+ENDIF
+
+; Copy 'Sqrxz2' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/Sqrxz2.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/Sqrxz2.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "Sqrxz2"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/Sqrxz2"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/Sqrxz2" "$entrydir" ALL
+ENDIF
+
+; Copy 'SuperCars2' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/SuperCars2.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SuperCars2.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "SuperCars2"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/SuperCars2"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SuperCars2" "$entrydir" ALL
+ENDIF
+
+; Copy 'SWOS1617' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/SWOS1617.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SWOS1617.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "SWOS1617"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/SWOS1617"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/SWOS1617" "$entrydir" ALL
+ENDIF
+
+; 'T' index directory
+echo "Installing 'T'..."
+
+; Copy 'TanksFurry' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/TanksFurry.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/TanksFurry.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "TanksFurry"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/TanksFurry"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/TanksFurry" "$entrydir" ALL
+ENDIF
+
+; Copy 'TotalPattern' entry directory
+IF EXISTS "USERPACKAGEDIR:HD-Games/TotalPattern.info"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/TotalPattern.info" "$INSTALLDIR"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "TotalPattern"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:HD-Games/TotalPattern"
+  Copy >NIL: "USERPACKAGEDIR:HD-Games/TotalPattern" "$entrydir" ALL
+ENDIF

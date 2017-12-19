@@ -1,0 +1,15 @@
+IF EXISTS "A-Games:A/ATrainCz"
+  Delete >NIL: "A-Games:A/ATrainCz" ALL
+ENDIF
+IF EXISTS "A-Games:A/ATrain512kCz"
+  Delete >NIL: "A-Games:A/ATrain512kCz" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackCz"
+  Delete >NIL: "A-Games:F/FlashbackCz" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackLowMemCz"
+  Delete >NIL: "A-Games:F/FlashbackLowMemCz" ALL
+ENDIF
+IF EXISTS "A-Games:F/FrontierCz"
+  Delete >NIL: "A-Games:F/FrontierCz" ALL
+ENDIF

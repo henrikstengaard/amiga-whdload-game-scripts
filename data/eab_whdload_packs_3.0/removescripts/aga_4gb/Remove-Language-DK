@@ -1,0 +1,21 @@
+IF EXISTS "A-Games:G/GuldkornExpressenDk512KB"
+  Delete >NIL: "A-Games:G/GuldkornExpressenDk512KB" ALL
+ENDIF
+IF EXISTS "A-Games:H/HaraldHaardtandDk"
+  Delete >NIL: "A-Games:H/HaraldHaardtandDk" ALL
+ENDIF
+IF EXISTS "A-Games:H/Hugo1Dk"
+  Delete >NIL: "A-Games:H/Hugo1Dk" ALL
+ENDIF
+IF EXISTS "A-Games:H/Hugo2Dk"
+  Delete >NIL: "A-Games:H/Hugo2Dk" ALL
+ENDIF
+IF EXISTS "A-Games:L/LabyrinthDk"
+  Delete >NIL: "A-Games:L/LabyrinthDk" ALL
+ENDIF
+IF EXISTS "A-Games:S/SkaermtroldenHugoDk"
+  Delete >NIL: "A-Games:S/SkaermtroldenHugoDk" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuperOsWALDDk"
+  Delete >NIL: "A-Games:S/SuperOsWALDDk" ALL
+ENDIF

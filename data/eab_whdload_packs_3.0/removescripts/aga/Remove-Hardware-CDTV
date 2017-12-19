@@ -1,0 +1,60 @@
+IF EXISTS "A-Games:B/BattleChessCDTV"
+  Delete >NIL: "A-Games:B/BattleChessCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:C/ChaosInAndromedaCDTV"
+  Delete >NIL: "A-Games:C/ChaosInAndromedaCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:C/CurseOfRaCDTV"
+  Delete >NIL: "A-Games:C/CurseOfRaCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:D/DefenderOfTheCrownCDTV"
+  Delete >NIL: "A-Games:D/DefenderOfTheCrownCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:F/FantasticVoyageCDTV"
+  Delete >NIL: "A-Games:F/FantasticVoyageCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:G/GuySpyCDTV"
+  Delete >NIL: "A-Games:G/GuySpyCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:H/HolidayMakerCDTVDe"
+  Delete >NIL: "A-Games:H/HolidayMakerCDTVDe" ALL
+ENDIF
+IF EXISTS "A-Games:L/LemmingsCDTV"
+  Delete >NIL: "A-Games:L/LemmingsCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:L/LogicalCDTV"
+  Delete >NIL: "A-Games:L/LogicalCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:P/PowerPinballCDTV"
+  Delete >NIL: "A-Games:P/PowerPinballCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:P/PsychoKillerCDTV"
+  Delete >NIL: "A-Games:P/PsychoKillerCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:R/RafflesCDTV"
+  Delete >NIL: "A-Games:R/RafflesCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:S/SimCityCDTV"
+  Delete >NIL: "A-Games:S/SimCityCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:T/TownWithNoNameCDTV"
+  Delete >NIL: "A-Games:T/TownWithNoNameCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:T/TurricanCDTV"
+  Delete >NIL: "A-Games:T/TurricanCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:T/Turrican2CDTV"
+  Delete >NIL: "A-Games:T/Turrican2CDTV" ALL
+ENDIF
+IF EXISTS "A-Games:W/WinzerCDTVDe"
+  Delete >NIL: "A-Games:W/WinzerCDTVDe" ALL
+ENDIF
+IF EXISTS "A-Games:W/WrathOfTheDemonCDTV"
+  Delete >NIL: "A-Games:W/WrathOfTheDemonCDTV" ALL
+ENDIF
+IF EXISTS "A-Games:X/Xenon2CDTV"
+  Delete >NIL: "A-Games:X/Xenon2CDTV" ALL
+ENDIF
+IF EXISTS "A-Games:BattlestormCDTV"
+  Delete >NIL: "A-Games:BattlestormCDTV" ALL
+ENDIF

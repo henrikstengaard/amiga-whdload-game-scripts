@@ -1,0 +1,99 @@
+IF EXISTS "A-Games:C/ChichenItzaEs"
+  Delete >NIL: "A-Games:C/ChichenItzaEs" ALL
+ENDIF
+IF EXISTS "A-Games:C/CruiseForACorpseEs"
+  Delete >NIL: "A-Games:C/CruiseForACorpseEs" ALL
+ENDIF
+IF EXISTS "A-Games:D/DarkSeedEs"
+  Delete >NIL: "A-Games:D/DarkSeedEs" ALL
+ENDIF
+IF EXISTS "A-Games:D/DuneEs"
+  Delete >NIL: "A-Games:D/DuneEs" ALL
+ENDIF
+IF EXISTS "A-Games:E/Elvira2Es"
+  Delete >NIL: "A-Games:E/Elvira2Es" ALL
+ENDIF
+IF EXISTS "A-Games:E/EmmanuelleEs"
+  Delete >NIL: "A-Games:E/EmmanuelleEs" ALL
+ENDIF
+IF EXISTS "A-Games:F/FascinationEs"
+  Delete >NIL: "A-Games:F/FascinationEs" ALL
+ENDIF
+IF EXISTS "A-Games:F/FreedomEs"
+  Delete >NIL: "A-Games:F/FreedomEs" ALL
+ENDIF
+IF EXISTS "A-Games:F/FutureWarsEs"
+  Delete >NIL: "A-Games:F/FutureWarsEs" ALL
+ENDIF
+IF EXISTS "A-Games:G/GeishaEs"
+  Delete >NIL: "A-Games:G/GeishaEs" ALL
+ENDIF
+IF EXISTS "A-Games:G/Gobliins2Es"
+  Delete >NIL: "A-Games:G/Gobliins2Es" ALL
+ENDIF
+IF EXISTS "A-Games:I/IndianaJonesAtlantisAdvEs"
+  Delete >NIL: "A-Games:I/IndianaJonesAtlantisAdvEs" ALL
+ENDIF
+IF EXISTS "A-Games:I/IndianaJonesLastCrusAdvEs"
+  Delete >NIL: "A-Games:I/IndianaJonesLastCrusAdvEs" ALL
+ENDIF
+IF EXISTS "A-Games:I/IsharEs"
+  Delete >NIL: "A-Games:I/IsharEs" ALL
+ENDIF
+IF EXISTS "A-Games:I/Ishar2Es"
+  Delete >NIL: "A-Games:I/Ishar2Es" ALL
+ENDIF
+IF EXISTS "A-Games:J/JabatoEs"
+  Delete >NIL: "A-Games:J/JabatoEs" ALL
+ENDIF
+IF EXISTS "A-Games:K/KickOff2Es"
+  Delete >NIL: "A-Games:K/KickOff2Es" ALL
+ENDIF
+IF EXISTS "A-Games:L/LaAventuraEspacialEs"
+  Delete >NIL: "A-Games:L/LaAventuraEspacialEs" ALL
+ENDIF
+IF EXISTS "A-Games:L/LaAventuraOriginalEs"
+  Delete >NIL: "A-Games:L/LaAventuraOriginalEs" ALL
+ENDIF
+IF EXISTS "A-Games:L/LaDiosaDeCozumelEs"
+  Delete >NIL: "A-Games:L/LaDiosaDeCozumelEs" ALL
+ENDIF
+IF EXISTS "A-Games:L/LoomEsKick31"
+  Delete >NIL: "A-Games:L/LoomEsKick31" ALL
+ENDIF
+IF EXISTS "A-Games:L/LoomEsKick13"
+  Delete >NIL: "A-Games:L/LoomEsKick13" ALL
+ENDIF
+IF EXISTS "A-Games:L/LosTemplosSagradosEs"
+  Delete >NIL: "A-Games:L/LosTemplosSagradosEs" ALL
+ENDIF
+IF EXISTS "A-Games:M/MayaEs"
+  Delete >NIL: "A-Games:M/MayaEs" ALL
+ENDIF
+IF EXISTS "A-Games:M/MayaFastEs"
+  Delete >NIL: "A-Games:M/MayaFastEs" ALL
+ENDIF
+IF EXISTS "A-Games:M/MonkeyIsland2Es"
+  Delete >NIL: "A-Games:M/MonkeyIsland2Es" ALL
+ENDIF
+IF EXISTS "A-Games:O/OperationStealthEs"
+  Delete >NIL: "A-Games:O/OperationStealthEs" ALL
+ENDIF
+IF EXISTS "A-Games:P/PowerplayEs"
+  Delete >NIL: "A-Games:P/PowerplayEs" ALL
+ENDIF
+IF EXISTS "A-Games:S/SecretOfMonkeyIslandEs"
+  Delete >NIL: "A-Games:S/SecretOfMonkeyIslandEs" ALL
+ENDIF
+IF EXISTS "A-Games:T/TipOffDeEsFrIt"
+  Delete >NIL: "A-Games:T/TipOffDeEsFrIt" ALL
+ENDIF
+IF EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs"
+  Delete >NIL: "A-Games:V/ViajeAlCentroDeLaTierraEs" ALL
+ENDIF
+IF EXISTS "A-Games:V/ViajeAlCentroDeLaTierraEs"
+  Delete >NIL: "A-Games:V/ViajeAlCentroDeLaTierraEs" ALL
+ENDIF
+IF EXISTS "A-Games:W/WeenTheProphecyEs"
+  Delete >NIL: "A-Games:W/WeenTheProphecyEs" ALL
+ENDIF

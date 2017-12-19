@@ -1,0 +1,90 @@
+IF EXISTS "A-Games:A/AnotherWorldIt"
+  Delete >NIL: "A-Games:A/AnotherWorldIt" ALL
+ENDIF
+IF EXISTS "A-Games:B/BeneathAStlSkyIt"
+  Delete >NIL: "A-Games:B/BeneathAStlSkyIt" ALL
+ENDIF
+IF EXISTS "A-Games:C/CruiseForACorpseIt"
+  Delete >NIL: "A-Games:C/CruiseForACorpseIt" ALL
+ENDIF
+IF EXISTS "A-Games:D/DuneIt"
+  Delete >NIL: "A-Games:D/DuneIt" ALL
+ENDIF
+IF EXISTS "A-Games:E/Elvira2It"
+  Delete >NIL: "A-Games:E/Elvira2It" ALL
+ENDIF
+IF EXISTS "A-Games:F/FascinationIt"
+  Delete >NIL: "A-Games:F/FascinationIt" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackIt"
+  Delete >NIL: "A-Games:F/FlashbackIt" ALL
+ENDIF
+IF EXISTS "A-Games:F/FlashbackLowMemIt"
+  Delete >NIL: "A-Games:F/FlashbackLowMemIt" ALL
+ENDIF
+IF EXISTS "A-Games:F/FrancoBaresiWorldCupIt"
+  Delete >NIL: "A-Games:F/FrancoBaresiWorldCupIt" ALL
+ENDIF
+IF EXISTS "A-Games:F/FutureWarsIt"
+  Delete >NIL: "A-Games:F/FutureWarsIt" ALL
+ENDIF
+IF EXISTS "A-Games:G/Gobliins2It"
+  Delete >NIL: "A-Games:G/Gobliins2It" ALL
+ENDIF
+IF EXISTS "A-Games:I/IndianaJonesAtlantisAdvIt"
+  Delete >NIL: "A-Games:I/IndianaJonesAtlantisAdvIt" ALL
+ENDIF
+IF EXISTS "A-Games:I/IndianaJonesLastCrusAdvIt"
+  Delete >NIL: "A-Games:I/IndianaJonesLastCrusAdvIt" ALL
+ENDIF
+IF EXISTS "A-Games:K/KickOff2It"
+  Delete >NIL: "A-Games:K/KickOff2It" ALL
+ENDIF
+IF EXISTS "A-Games:K/KickOff2PlusWC90It"
+  Delete >NIL: "A-Games:K/KickOff2PlusWC90It" ALL
+ENDIF
+IF EXISTS "A-Games:K/KingsQuest5It"
+  Delete >NIL: "A-Games:K/KingsQuest5It" ALL
+ENDIF
+IF EXISTS "A-Games:L/LegendOfKyrandiaIt"
+  Delete >NIL: "A-Games:L/LegendOfKyrandiaIt" ALL
+ENDIF
+IF EXISTS "A-Games:L/LureOfTheTemptressIt"
+  Delete >NIL: "A-Games:L/LureOfTheTemptressIt" ALL
+ENDIF
+IF EXISTS "A-Games:M/MonkeyIsland2It"
+  Delete >NIL: "A-Games:M/MonkeyIsland2It" ALL
+ENDIF
+IF EXISTS "A-Games:N/NathanNeverIt"
+  Delete >NIL: "A-Games:N/NathanNeverIt" ALL
+ENDIF
+IF EXISTS "A-Games:O/OperationStealthIt"
+  Delete >NIL: "A-Games:O/OperationStealthIt" ALL
+ENDIF
+IF EXISTS "A-Games:P/PlayerManagerIt"
+  Delete >NIL: "A-Games:P/PlayerManagerIt" ALL
+ENDIF
+IF EXISTS "A-Games:P/ProfeziaIt"
+  Delete >NIL: "A-Games:P/ProfeziaIt" ALL
+ENDIF
+IF EXISTS "A-Games:S/SecretOfMonkeyIslandIt"
+  Delete >NIL: "A-Games:S/SecretOfMonkeyIslandIt" ALL
+ENDIF
+IF EXISTS "A-Games:S/ShadowSorcererDeFrIt"
+  Delete >NIL: "A-Games:S/ShadowSorcererDeFrIt" ALL
+ENDIF
+IF EXISTS "A-Games:T/TipOffDeEsFrIt"
+  Delete >NIL: "A-Games:T/TipOffDeEsFrIt" ALL
+ENDIF
+IF EXISTS "A-Games:W/WeenTheProphecyIt"
+  Delete >NIL: "A-Games:W/WeenTheProphecyIt" ALL
+ENDIF
+IF EXISTS "A-Games:X/XIt"
+  Delete >NIL: "A-Games:X/XIt" ALL
+ENDIF
+IF EXISTS "A-Games:Z/ZakMcKrackenIt"
+  Delete >NIL: "A-Games:Z/ZakMcKrackenIt" ALL
+ENDIF
+IF EXISTS "A-Games:D/DifensoreCorona2CD32It"
+  Delete >NIL: "A-Games:D/DifensoreCorona2CD32It" ALL
+ENDIF

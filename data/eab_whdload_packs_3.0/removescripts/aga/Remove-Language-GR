@@ -1,0 +1,3 @@
+IF EXISTS "A-Games:P/PowerplayGr"
+  Delete >NIL: "A-Games:P/PowerplayGr" ALL
+ENDIF

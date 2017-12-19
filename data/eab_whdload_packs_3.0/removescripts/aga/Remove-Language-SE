@@ -1,0 +1,9 @@
+IF EXISTS "A-Games:B/BeneathAStlSkySe"
+  Delete >NIL: "A-Games:B/BeneathAStlSkySe" ALL
+ENDIF
+IF EXISTS "A-Games:K/KalasPuffExpressenSe512KB"
+  Delete >NIL: "A-Games:K/KalasPuffExpressenSe512KB" ALL
+ENDIF
+IF EXISTS "A-Games:K/KalasPuffExpressenSe1MB"
+  Delete >NIL: "A-Games:K/KalasPuffExpressenSe1MB" ALL
+ENDIF
