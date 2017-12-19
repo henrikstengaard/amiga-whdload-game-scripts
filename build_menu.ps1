@@ -567,9 +567,8 @@ if ($sourcesFile)
 		$sourceEntries += import-csv -delimiter ';' -path $entriesFile -encoding utf8
 
 		$sourceEntries | Foreach-Object { $_ | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $source.AssignName -Force }
+		$entries += $sourceEntries
 	}
-
-	$entries += $sourceEntries
 }
 else
 {
