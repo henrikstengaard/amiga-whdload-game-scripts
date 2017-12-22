@@ -18,11 +18,11 @@ Installation of the scripts is quite easy and can be done one the following ways
 
 # Amiga English Board WHDLoad Packs
 
-This section describes scripts developed for Amiga English Board WHDLoad Packs.
+This section describes scripts developed for English Amiga Board WHDLoad Packs.
 
-## 1. Download Amiga English Board WHDLoad Packs
+## 1. Download English Amiga Board WHDLoad Packs
 
-A PowerShell script to download whdload packs from Amiga English Board ftp server. The script downloads games and demoes whdload packs, uncompress archives and copies whdload packs with update packs in combined folders.
+A PowerShell script to download whdload packs from English Amiga Board ftp server. The script downloads games and demoes whdload packs, uncompress archives and copies whdload packs with update packs in combined folders.
 
 1. Double-click 'download_aeb_whdload_packs.cmd' in Windows Explorer or start 'download_aeb_whdload_packs.ps1' from Powershell to run script.
 2. Wait for whdload packs being downloaded, uncompressed and copied to combined folders in output folder 'aeb_whdload_packs'.
@@ -31,29 +31,36 @@ A PowerShell script to download whdload packs from Amiga English Board ftp serve
 
 A PowerShell script to build whdload slave list csv file with a list of whdload slave path and details read from slave files.
 
-1. Double-click 'build_whdload_slave_list.cmd' in Windows Explorer or start 'build_whdload_slave_list.ps1' from Powershell to run script.
+1. Double-click 'build_whdload_slave_list.cmd' in Windows Explorer or start from command prompt to run script.
 2. Wait for whdload slave list being built.
 
-## 3. Filter Amiga English Board WHDLoad Packs
+## 3. Filter English Amiga Board WHDLoad Packs
 
-A PowerShell script to filter whdload packs from Amiga English Board by excluding hardware and language versions and picking best version.
+A PowerShell script to filter whdload packs from English Amiga Board by excluding hardware and language versions and picking best version.
 
-1. Double-click 'filter_aeb_whdload_packs.cmd' in Windows Explorer or start 'filter_aeb_whdload_packs.ps1' from Powershell to run script.
-2. Wait for whdload packs being filtered and copied to output folders 'aeb_whdload_games' and 'aeb_whdload_games_aga'.
+1. Double-click 'filter_eab_whdload_packs.cmd' in Windows Explorer or start from command prompt to run script.
+2. Wait for whdload packs being filtered and copied to output folders 'eab_whdload_games' and 'eab_whdload_games_aga'.
 
-## 4. Build whdload screenshot queries
+## 4. Build whdload queries
 
-A PowerShell script to build whdload screenshot queries used for finding best matching screenshot.
+A PowerShell script to build whdload queries used for finding best matching screenshot and details.
 
-1. Double-click 'build_whdload_screenshot_queries.cmd' in Windows Explorer or start 'build_whdload_screenshot_queries.ps1' from Powershell to run script.
-2. Wait for whdload screenshot queries being built.
+1. Double-click 'build_whdload_queries.cmd' in Windows Explorer or start from command prompt to run script.
+2. Wait for whdload queries being built.
 
 ## 5. Build whdload screenshots
 
-A PowerShell script to build whdload screenshots for iGame and AGS2 in AGA and OCS mode. Lucene is used to index screenshots for better search and matching between games and screenshots.
+A PowerShell script to build whdload screenshots for iGame and AGS2 in AGA and OCS mode. Lucene is used to index screenshots for better search and matching between demos/games and screenshots.
 
-1. Double-click 'build_whdload_screenshots_new.cmd' in Windows Explorer or start 'build_whdload_screenshots_new.ps1' from Powershell to run script.
+1. Double-click 'build_whdload_screenshots_new.cmd' in Windows Explorer or start from command prompt to run script.
 2. Wait for whdload screenshots being converted to iGame, AGS2 AGA and OCS iff files.
+
+## 6. Build whdload details
+
+A PowerShell script to build whdload details for iGame and AGS2 in AGA and OCS mode. Lucene is used to index details for better search and matching between demos/games and details.
+
+1. Double-click 'build_whdload_details.cmd' in Windows Explorer or start from command prompt to run script.
+2. Wait for whdload details being built.
 
 # Whdownload Games
 
