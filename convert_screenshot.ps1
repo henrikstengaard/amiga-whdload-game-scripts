@@ -2,15 +2,15 @@
 # ------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-09-27
+# Date:   2017-12-22
 #
 # A PowerShell script to convert a screenshot for iGame and AGS2 in AGA and OCS mode.
 #
 # Following software is required for running this script.
 #
 # Image Magick:
-# http://www.imagemagick.org/script/binary-releases.php
-# http://www.imagemagick.org/download/binaries/ImageMagick-6.9.3-7-Q8-x64-dll.exe
+# https://www.imagemagick.org/script/binary-releases.php
+# https://www.imagemagick.org/download/binaries/ImageMagick-7.0.7-4-Q8-x64-dll.exe
 #
 # XnView with NConvert
 # http://www.xnview.com/en/xnview/#downloads
@@ -18,11 +18,11 @@
 #
 # Python for imgtoiff:
 # https://www.python.org/downloads/
-# https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi
+# https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi
 # 
 # Pillow for imgtoiff:
 # https://pypi.python.org/pypi/Pillow/2.7.0
-# https://pypi.python.org/packages/2.7/P/Pillow/Pillow-2.7.0.win32-py2.7.exe#md5=a776412924049796bf34e8fa7af680db
+# https://pypi.python.org/packages/68/c6/43a4e50bd9b1f3b69bda76c466c2fdb0ab2a70159a246ccd0169b0abb374/Pillow-2.7.0.win32-py2.7.exe#md5=a776412924049796bf34e8fa7af680db
 
 
 Param(
@@ -43,12 +43,39 @@ Param(
 
 # programs 
 $nconvertPath = "${Env:ProgramFiles(x86)}\XnView\nconvert.exe"
-$imageMagickConvertPath = "$env:ProgramFiles\ImageMagick-6.9.3-Q8\convert.exe"
+$pythonFile = "c:\Python27\python.exe"
 $imageToIffPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\ImageToIff.ps1")
 $imgToIffAgaPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-aga.py")
 $imgToIffOcsPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-ocs.py")
 $amsPaletteImagePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\AMS_palette.png")
 $mapImagePalettePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\map_image_palette.ps1")
+
+
+# get image magick directory from program files
+$imageMagickDirectory = Get-ChildItem $env:ProgramFiles | Where-Object { $_.Name -match 'ImageMagick' } | Select-Object -First 1
+
+# fail, if image magick directory doesn't exist
+if (!$imageMagickDirectory)
+{
+	Write-Error "Error: Image Magick doesn't exist in program files '$env:ProgramFiles'!"
+	exit 1
+}
+
+# image magick v7 file 
+$imageMagickFile = Join-Path -Path $imageMagickDirectory.FullName -ChildPath 'magick.exe'
+
+# check if image magick v6 file exist, if image magick v7 doesn't exist
+if (!(Test-Path -path $imageMagickFile))
+{
+    $imageMagickFile = Join-Path -Path $imageMagickDirectory.FullName -ChildPath 'convert.exe'
+
+    if (!(Test-Path -path $imageMagickFile))
+    {
+        Write-Error "Error: Image Magick 'magick.exe' or 'convert.exe' file doesn't exist!"
+        exit 1
+    }
+}
+
 
 # start process
 function StartProcess($fileName, $arguments)
@@ -128,9 +155,9 @@ if (!$noiGameScreenshot)
 	$imageMagickConvertiGameArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGameScreenshotFile"""
 
 	# exit, if ImageMagick fails
-	if ((StartProcess $imageMagickConvertPath $imageMagickConvertiGameArgs) -ne 0)
+	if ((StartProcess $imageMagickFile $imageMagickConvertiGameArgs) -ne 0)
 	{
-		Write-Error "Failed to run '$imageMagickConvertPath' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
+		Write-Error "Failed to run '$imageMagickFile' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -164,9 +191,9 @@ if (!$noAgaScreenshot)
 	$imageMagickConvertAgs2AgaArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 ""$imageMagickConvertAgs2AgaScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
-	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2AgaArgs) -ne 0)
+	if ((StartProcess $imageMagickFile $imageMagickConvertAgs2AgaArgs) -ne 0)
 	{
-		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
+		Write-Error "Failed to run '$imageMagickFile' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2AgaArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -182,9 +209,9 @@ if (!$noAgaScreenshot)
 	# use imgtoiff-aga to make AGS2 AGA Game screenshot file
 	$imgToIffAgs2AgaScreenshotArgs = """$imgToIffAgaPath"" --aga --pack 1 ""$imageMagickConvertAgs2AgaScreenshotFile"" ""$ags2AgaScreenshotFile"""
 
-	if ((StartProcess "python" $imgToIffAgs2AgaScreenshotArgs) -ne 0)
+	if ((StartProcess $pythonFile $imgToIffAgs2AgaScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run 'python' for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imgToIffAgs2AgaScreenshotArgs'"
+		Write-Error "Failed to run '$pythonFile' for '$imageMagickConvertAgs2AgaScreenshotFile' with arguments '$imgToIffAgs2AgaScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -212,9 +239,9 @@ if (!$noOcsScreenshot)
 	$imageMagickConvertAgs2OcsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 4 -colors 11 ""$imageMagickConvertAgs2OcsScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
-	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAgs2OcsArgs) -ne 0)
+	if ((StartProcess $imageMagickFile $imageMagickConvertAgs2OcsArgs) -ne 0)
 	{
-		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
+		Write-Error "Failed to run '$imageMagickFile' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAgs2OcsArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -230,9 +257,9 @@ if (!$noOcsScreenshot)
 	# use imgtoiff-ocs to make AGS2 OCS Game screenshot file
 	$imgToIffAgs2OcsScreenshotArgs = """$imgToIffOcsPath"" --ocs --pack 1 ""$imageMagickConvertAgs2OcsScreenshotFile"" ""$ags2OcsScreenshotFile"""
 
-	if ((StartProcess "python" $imgToIffAgs2OcsScreenshotArgs) -ne 0)
+	if ((StartProcess $pythonFile $imgToIffAgs2OcsScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run 'python' for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imgToIffAgs2OcsScreenshotArgs'"
+		Write-Error "Failed to run '$pythonFile' for '$imageMagickConvertAgs2OcsScreenshotFile' with arguments '$imgToIffAgs2OcsScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -260,9 +287,9 @@ if (!$noAmsScreenshot)
 	$imageMagickConvertAmsArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 200 +dither -map ""$amsPaletteImagePath"" PNG8:""$imageMagickConvertAmsScreenshotFile"""
 
 	# exit, if ImageMagick convert fails
-	if ((StartProcess $imageMagickConvertPath $imageMagickConvertAmsArgs) -ne 0)
+	if ((StartProcess $imageMagickFile $imageMagickConvertAmsArgs) -ne 0)
 	{
-		Write-Error "Failed to run '$imageMagickConvertPath' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAmsArgs'"
+		Write-Error "Failed to run '$imageMagickFile' convert for '$tempScreenshotFile' with arguments '$imageMagickConvertAmsArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
