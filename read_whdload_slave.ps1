@@ -1,8 +1,8 @@
 # Read WHDLoad Slave
 # ------------------
 #
-# Author: Henrik Nørfjand Stengaard
-# Date:   2016-03-04
+# Author: Henrik NÃ¸rfjand Stengaard
+# Date:   2017-10-22
 #
 # A PowerShell script to read and print whdload slave information.
 
@@ -10,6 +10,7 @@ Param(
 	[Parameter(Mandatory=$true)]
 	[string]$path
 )
+
 
 # read little endian unsigned short from offset in bytes
 function ReadLittleEndianUnsignedShort($bytes, $offset)
@@ -32,9 +33,11 @@ function ReadLittleEndianUnsignedLong($bytes, $offset)
 # read a string with fixed length from offset in bytes
 function ReadStringWithLength($bytes, $offset, $length)
 {
+	$iso88591 = [System.Text.Encoding]::GetEncoding("ISO-8859-1");
+	
 	$stringBytes = New-Object byte[]($length)
 	[Array]::Copy($bytes, $offset, $stringBytes, 0, $length)
-	return [System.Text.Encoding]::ASCII.GetString($stringBytes)
+	return $iso88591.GetString($stringBytes)
 }
 
 # read a string with variable length from offset in bytes
