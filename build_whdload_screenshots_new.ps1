@@ -2,7 +2,7 @@
 # -------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-06-03
+# Date:   2017-12-22
 #
 # A PowerShell script to build whdload screenshots for iGame and AGS2 in AGA and OCS mode.
 # Lucene is used to index screenshots for better search and matching between games and screenshots
@@ -24,9 +24,9 @@ using namespace Lucene.Net.Search
 
 Param(
 	[Parameter(Mandatory=$true)]
-	[string]$screenshotQueriesFile,
+	[string]$queriesFile,
 	[Parameter(Mandatory=$true)]
-	[string]$screenshotSourcesFile,
+	[string]$sourcesFile,
 	[Parameter(Mandatory=$true)]
 	[string]$outputPath,
 	[Parameter(Mandatory=$false)]
@@ -202,9 +202,9 @@ function UniqueWords($text)
 }
 
 # read screenshot list
-function ReadScreenshotList($screenshotSourcesIndexDir, $screenshotSource, $priority)
+function ReadScreenshotList($sourcesIndexDir, $screenshotSource, $priority)
 {
-	$screenshotIndexFile = [System.IO.Path]::Combine($screenshotSourcesIndexDir, $screenshotSource.SourceName.ToLower() + ".csv")
+	$screenshotIndexFile = [System.IO.Path]::Combine($sourcesIndexDir, $screenshotSource.SourceName.ToLower() + ".csv")
 
 	$screenshots = @()
 	
@@ -342,15 +342,15 @@ if(!(test-path -path $outputPath))
 
 # Read screenshot queries
 $screenshotQueries = @()
-$screenshotQueries += (Import-Csv -Delimiter ';' ($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotQueriesFile)))
+$screenshotQueries += (Import-Csv -Delimiter ';' ($ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($queriesFile)))
 
 
 # Read screenshot sources
-$screenshotSourcesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($screenshotSourcesFile)
-$screenshotSourcesIndexDir = [System.IO.Path]::GetDirectoryName($screenshotSourcesFile)
+$sourcesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($sourcesFile)
+$sourcesIndexDir = [System.IO.Path]::GetDirectoryName($sourcesFile)
 
 $screenshotSources = @()
-$screenshotSources += (Import-Csv -Delimiter ';' $screenshotSourcesFile)
+$screenshotSources += (Import-Csv -Delimiter ';' $sourcesFile)
 
 $screenshots = @()
 
@@ -360,7 +360,7 @@ for ($i = 0; $i -lt $screenshotSources.Count; $i++)
  	$screenshotSource = $screenshotSources[$i]
 
 	Write-Host ("Reading screenshot list from '" + $screenshotSource.SourceName + "'...")
- 	$screenshots += ReadScreenshotList $screenshotSourcesIndexDir $screenshotSource $priority
+ 	$screenshots += ReadScreenshotList $sourcesIndexDir $screenshotSource $priority
 	Write-Host ("Done")
 }
 
@@ -393,7 +393,7 @@ Write-Host ("Done")
 Write-Host ("Finding exact matching screenshots...")
 ForEach ($screenshotQuery in $screenshotQueries)
 {
-	$name = $screenshotQuery.WhdloadName.ToLower()
+	$name = $screenshotQuery.EntryName.ToLower()
 
 	# find screenshots using whdload name
 	$matchingScreenshots = $screenshotsIndex.Get_Item($name)
@@ -483,7 +483,9 @@ Write-Host "Done"
 
 
 # Write number of whdload slaves that doesn't have a screenshot match
-Write-Host ("" + ($screenshotQueries | Where { $_.ScreenshotMatch -eq $null }).Count + " whdload slaves doesn't have a screenshot match")
+$entriesNoMatch = @()
+$entriesNoMatch += $screenshotQueries | Where-Object { $_.ScreenshotMatch -eq $null }
+Write-Host ("{0} entrie(s) doesn't have a screenshot match" -f $entriesNoMatch.Count)
 
 
 # write screenshots list
@@ -511,7 +513,7 @@ $overviewHtmlLines += "<h1>$overviewTitle</h1>"
 $overviewNameListIndex = @{}
 ForEach ($screenshotQuery in $screenshotQueries)
 {
-	$name = $screenshotQuery.WhdloadName
+	$name = $screenshotQuery.EntryName
 	
 	if ($overviewNameListIndex.ContainsKey($name))
 	{
@@ -522,7 +524,7 @@ ForEach ($screenshotQuery in $screenshotQueries)
 		$nameList = @()
 	}
 
-	$nameList += ($name + " " + [System.IO.Path]::GetFileName($screenshotQuery.WhdloadSlaveFilePath))
+	$nameList += ($name + " " + [System.IO.Path]::GetFileName($screenshotQuery.RunFile))
 
 	$overviewNameListIndex.Set_Item($name, $nameList)
 }
@@ -531,7 +533,7 @@ ForEach ($screenshotQuery in $screenshotQueries)
 $overviewNameIndex = @{}
 ForEach ($screenshotQuery in $screenshotQueries)
 {
-	$name = $screenshotQuery.WhdloadName
+	$name = $screenshotQuery.EntryName
 	
 	if ($overviewNameIndex.ContainsKey($name))
 	{
@@ -580,9 +582,9 @@ if (!$noConvertScreenshots)
 
 		# create screenshot output path
 		md $screenshotOutputPath | Out-Null
-		
+
 		# convert screenshot
-		& $convertScreenshotPath -screenshotFile $screenshotQuery.ScreenshotFile -outputPath $screenshotOutputPath
+		& $convertScreenshotPath -screenshotFile $screenshotQuery.ScreenshotFile -outputPath $screenshotOutputPath -noAmsScreenshot
 	}
 	Write-Host "Done"
 }

@@ -1,14 +1,8 @@
-:: Obsolete
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "demos_screenshot_data\aeb_whdload_demos_screenshots_queries.csv" -screenshotSourcesFile "demos_screenshot_data\demos_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_demos"
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "demos_screenshot_data\aeb_whdload_demos_aga_screenshots_queries.csv" -screenshotSourcesFile "demos_screenshot_data\demos_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_demos_aga"
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "games_screenshot_data\aeb_whdload_games_screenshots_queries.csv" -screenshotSourcesFile "games_screenshot_data\games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games" -minScore 1
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "games_screenshot_data\aeb_whdload_games_aga_screenshots_queries.csv" -screenshotSourcesFile "games_screenshot_data\games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games_aga" -minScore 1
-::powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "games_screenshot_data\aeb_whdload_games_cd32_screenshots_queries.csv" -screenshotSourcesFile "games_screenshot_data\games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games_cd32" -minScore 1
-
 :: Demos
-powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "demos_screenshot_data\aeb_whdload_demos_ocs_screenshots_queries.csv" -screenshotSourcesFile "demos_screenshot_data\demos_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_demos_ocs" -noConvertScreenshots
-powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "demos_screenshot_data\aeb_whdload_demos_aga_screenshots_queries.csv" -screenshotSourcesFile "demos_screenshot_data\demos_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_demos_aga" -noConvertScreenshots
+powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -queriesFile "data\eab_whdload_packs_3.0\screenshots\demos_screenshot_queries.csv" -sourcesFile "data\eab_whdload_packs_3.0\screenshots\demos_screenshot_sources.csv" -outputPath "data\eab_whdload_packs_3.0\screenshots\demos_screenshots"
 
 :: Games
-powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "games_screenshot_data\aeb_whdload_games_ocs_screenshots_queries.csv" -screenshotSourcesFile "games_screenshot_data\games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games_ocs" -minScore 1 -noConvertScreenshots
-powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -screenshotQueriesFile "games_screenshot_data\aeb_whdload_games_aga_screenshots_queries.csv" -screenshotSourcesFile "games_screenshot_data\games_screenshot_sources.csv" -outputPath "screenshots\aeb_whdload_games_aga" -minScore 1 -noConvertScreenshots
+powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -queriesFile "data\eab_whdload_packs_3.0\screenshots\games_screenshot_queries.csv" -sourcesFile "data\eab_whdload_packs_3.0\screenshots\games_screenshot_sources.csv" -outputPath "data\eab_whdload_packs_3.0\screenshots\games_screenshots" -minScore 1
+
+:: HD-Games
+powershell -ExecutionPolicy Bypass -File build_whdload_screenshots_new.ps1 -queriesFile "data\hd-games\screenshots\hd-games_screenshot_queries.csv" -sourcesFile "data\hd-games\screenshots\hd-games_screenshot_sources.csv" -outputPath "data\hd-games\screenshots\hd-games_screenshots" -minScore 1
