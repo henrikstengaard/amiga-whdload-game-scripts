@@ -149,15 +149,15 @@ foreach ($entry in $entries)
 
 	if (($hardware | Where { $_ -match 'CD32' }).Count -gt 0)
 	{
-		$rank = 4
+		$rank = 40
 	}
 	elseif (($hardware | Where { $_ -match 'AGA' }).Count -gt 0)
 	{
-		$rank = 3
+		$rank = 30
 	}
 	elseif (($hardware | Where { $_ -match 'CDTV' }).Count -gt 0)
 	{
-		$rank = 2
+		$rank = 20
 	}
 
 	$rank -= $language.Count
@@ -176,7 +176,7 @@ foreach ($entry in $entries)
 	
 	if ($lowestMemory)
 	{
-		$rank -= $lowestMemory / 512000
+		$rank -= ($lowestMemory / 51200)
 	}
 	
 	$kick = $other | Where { $_ -match '^kick\d+'} | % { $_ -replace '^kick', '' } | Select-Object -First 1
@@ -188,14 +188,7 @@ foreach ($entry in $entries)
 	
 	$rank -= ($other | Where { $_ -match '^Files$'} ).Count
 
-	# $whdloadIndexName = $name
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredName' -Value $name -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredHardware' -Value ([string]::Join(',', $hardware)) -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredLanguage' -Value ([string]::Join(',', $language)) -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredMemory' -Value ([string]::Join(',', $memory)) -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredDemo' -Value ([string]::Join(',', $demo)) -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredOther' -Value ([string]::Join(',', $other)) -Force
-	# $entry | Add-Member -MemberType NoteProperty -Name 'FilteredCompilation' -Value ([string]::Join(',', $compilation)) -Force
+	$rank -= ($entry.RunDir.Length * 2)
 
 	$game = @{ "Entry" = $entry; "Name" = $name; "Hardware" = $hardware; "Language" = $language; "Memory" = $memory; "Demo" = $demo; "Other" = $other; "Rank" = $rank }
 
@@ -219,14 +212,14 @@ $filteredEntries = @()
 
 foreach ($name in ($identicalEntriesIndex.Keys | Sort-Object))
 {
-	$identicalentries = @()
-	$identicalentries += ($identicalEntriesIndex.Get_Item($name) | Sort-Object @{expression={$_.Rank};Ascending=$false})
+	$identicalEntries = @()
+	$identicalEntries += ($identicalEntriesIndex.Get_Item($name) | Sort-Object @{expression={$_.Rank};Ascending=$false})
 	
 	if ($eachHardware)
 	{
 		$hardwareList = @()
 	
-		foreach($entry in $identicalentries)
+		foreach($entry in $identicalEntries)
 		{
 			if ($hardwareList -contains $entry.Hardware)
 			{
@@ -239,11 +232,14 @@ foreach ($name in ($identicalEntriesIndex.Keys | Sort-Object))
 		foreach ($hardware in $hardwareList)
 		{
 			$entriesHardware = @()
-			$entriesHardware +=, ($identicalentries | Where { $_.Hardware -contains $hardware })
+			$entriesHardware +=, ($identicalEntries | Where-Object { $_.Hardware -contains $hardware })
 			
-			if ($bestVersion)
+			if ($bestVersion -and $entriesHardware.Count -gt 1)
 			{
-				$entriesHardware = $entriesHardware | Select-Object -First 1
+				$bestHardwareEntry = $entriesHardware | Select-Object -First 1
+				$bestHardwareEntries = @()
+				$bestHardwareEntries += $entriesHardware | Where-Object { $_.Entry.RunDir -eq $bestHardwareEntry.Entry.RunDir } | Sort-Object @{expression={$_.Entry.RunFile};Ascending=$true}
+				$entriesHardware = $bestHardwareEntries
 			}
 
 			foreach($entry in $entriesHardware)
@@ -254,12 +250,15 @@ foreach ($name in ($identicalEntriesIndex.Keys | Sort-Object))
 	}
 	else
 	{
-		if ($bestVersion)
+		if ($bestVersion -and $identicalEntries.Count -gt 1)
 		{
-			$identicalentries = $identicalentries | Select-Object -First 1
+			$bestIdenticalEntry = $identicalEntries | Select-Object -First 1
+			$bestIdenticalEntries = @()
+			$bestIdenticalEntries += $identicalEntries | Where-Object { $_.Entry.RunDir -eq $bestIdenticalEntry.Entry.RunDir } | Sort-Object @{expression={$_.Entry.RunFile};Ascending=$true}
+			$identicalEntries = $bestIdenticalEntries
 		}
 
-		foreach($entry in $identicalentries)
+		foreach($entry in $identicalEntries)
 		{
 			$filteredEntries +=, $entry.Entry
 		}
