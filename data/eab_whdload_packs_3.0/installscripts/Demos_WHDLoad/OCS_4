@@ -534,18 +534,6 @@ IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc"
   Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc" "$entrydir" ALL
 ENDIF
 
-; Copy 'PsygnosisMusicPictureDisc' entry directory
-IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc.info"
-  Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "P/PsygnosisMusicPictureDisc"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc"
-  Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc" "$entrydir" ALL
-ENDIF
-
 ; Copy 'PublicAttack' entry directory
 IF EXISTS "USERPACKAGEDIR:P/PublicAttack.info"
   Copy >NIL: "USERPACKAGEDIR:P/PublicAttack.info" "$indexdir"
@@ -1764,18 +1752,6 @@ IF EXISTS "USERPACKAGEDIR:S/StatusQuo"
   Copy >NIL: "USERPACKAGEDIR:S/StatusQuo" "$entrydir" ALL
 ENDIF
 
-; Copy 'StatusQuo' entry directory
-IF EXISTS "USERPACKAGEDIR:S/StatusQuo.info"
-  Copy >NIL: "USERPACKAGEDIR:S/StatusQuo.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "S/StatusQuo"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:S/StatusQuo"
-  Copy >NIL: "USERPACKAGEDIR:S/StatusQuo" "$entrydir" ALL
-ENDIF
-
 ; Copy 'StereoSounds' entry directory
 IF EXISTS "USERPACKAGEDIR:S/StereoSounds.info"
   Copy >NIL: "USERPACKAGEDIR:S/StereoSounds.info" "$indexdir"
@@ -2000,4 +1976,28 @@ IF NOT EXISTS "$entrydir"
 ENDIF
 IF EXISTS "USERPACKAGEDIR:T/TaylorDayneTITMH"
   Copy >NIL: "USERPACKAGEDIR:T/TaylorDayneTITMH" "$entrydir" ALL
+ENDIF
+
+; Copy 'Teatime' entry directory
+IF EXISTS "USERPACKAGEDIR:T/Teatime.info"
+  Copy >NIL: "USERPACKAGEDIR:T/Teatime.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "T/Teatime"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:T/Teatime"
+  Copy >NIL: "USERPACKAGEDIR:T/Teatime" "$entrydir" ALL
+ENDIF
+
+; Copy 'TechnologicalDeath' entry directory
+IF EXISTS "USERPACKAGEDIR:T/TechnologicalDeath.info"
+  Copy >NIL: "USERPACKAGEDIR:T/TechnologicalDeath.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "T/TechnologicalDeath"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:T/TechnologicalDeath"
+  Copy >NIL: "USERPACKAGEDIR:T/TechnologicalDeath" "$entrydir" ALL
 ENDIF

@@ -1,27 +1,3 @@
-; Copy 'LordsOfTheRealmAGADe' entry directory
-IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADe.info"
-  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADe.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "L/LordsOfTheRealmAGADe"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADe"
-  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADe" "$entrydir" ALL
-ENDIF
-
-; Copy 'LordsOfTheRealmAGADeFast' entry directory
-IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast.info"
-  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "L/LordsOfTheRealmAGADeFast"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast"
-  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast" "$entrydir" ALL
-ENDIF
-
 ; Copy 'LordsOfTheRealmAGAFast' entry directory
 IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGAFast.info"
   Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGAFast.info" "$indexdir"
@@ -1280,18 +1256,6 @@ IF EXISTS "USERPACKAGEDIR:S/SuperfrogCD32"
   Copy >NIL: "USERPACKAGEDIR:S/SuperfrogCD32" "$entrydir" ALL
 ENDIF
 
-; Copy 'SuperfrogCD32' entry directory
-IF EXISTS "USERPACKAGEDIR:S/SuperfrogCD32.info"
-  Copy >NIL: "USERPACKAGEDIR:S/SuperfrogCD32.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "S/SuperfrogCD32"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:S/SuperfrogCD32"
-  Copy >NIL: "USERPACKAGEDIR:S/SuperfrogCD32" "$entrydir" ALL
-ENDIF
-
 ; Copy 'SuperLoopzAGA' entry directory
 IF EXISTS "USERPACKAGEDIR:S/SuperLoopzAGA.info"
   Copy >NIL: "USERPACKAGEDIR:S/SuperLoopzAGA.info" "$indexdir"
@@ -1386,30 +1350,6 @@ IF NOT EXISTS "$entrydir"
 ENDIF
 IF EXISTS "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA"
   Copy >NIL: "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA" "$entrydir" ALL
-ENDIF
-
-; Copy 'SuprStrtFtr2TrboAGA' entry directory
-IF EXISTS "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA.info"
-  Copy >NIL: "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "S/SuprStrtFtr2TrboAGA"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA"
-  Copy >NIL: "USERPACKAGEDIR:S/SuprStrtFtr2TrboAGA" "$entrydir" ALL
-ENDIF
-
-; Copy 'SuprStrtFtr2TrboCD32' entry directory
-IF EXISTS "USERPACKAGEDIR:S/SuprStrtFtr2TrboCD32.info"
-  Copy >NIL: "USERPACKAGEDIR:S/SuprStrtFtr2TrboCD32.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "S/SuprStrtFtr2TrboCD32"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:S/SuprStrtFtr2TrboCD32"
-  Copy >NIL: "USERPACKAGEDIR:S/SuprStrtFtr2TrboCD32" "$entrydir" ALL
 ENDIF
 
 ; Copy 'SuprStrtFtr2TrboCD32' entry directory
@@ -1998,4 +1938,28 @@ IF NOT EXISTS "$entrydir"
 ENDIF
 IF EXISTS "USERPACKAGEDIR:Z/Zool2AGA"
   Copy >NIL: "USERPACKAGEDIR:Z/Zool2AGA" "$entrydir" ALL
+ENDIF
+
+; Copy 'ZoolAGA' entry directory
+IF EXISTS "USERPACKAGEDIR:Z/ZoolAGA.info"
+  Copy >NIL: "USERPACKAGEDIR:Z/ZoolAGA.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "Z/ZoolAGA"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:Z/ZoolAGA"
+  Copy >NIL: "USERPACKAGEDIR:Z/ZoolAGA" "$entrydir" ALL
+ENDIF
+
+; Copy 'ZoolCD32' entry directory
+IF EXISTS "USERPACKAGEDIR:Z/ZoolCD32.info"
+  Copy >NIL: "USERPACKAGEDIR:Z/ZoolCD32.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "Z/ZoolCD32"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:Z/ZoolCD32"
+  Copy >NIL: "USERPACKAGEDIR:Z/ZoolCD32" "$entrydir" ALL
 ENDIF

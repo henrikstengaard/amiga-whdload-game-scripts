@@ -1,27 +1,3 @@
-; Copy 'Teatime' entry directory
-IF EXISTS "USERPACKAGEDIR:T/Teatime.info"
-  Copy >NIL: "USERPACKAGEDIR:T/Teatime.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "T/Teatime"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:T/Teatime"
-  Copy >NIL: "USERPACKAGEDIR:T/Teatime" "$entrydir" ALL
-ENDIF
-
-; Copy 'TechnologicalDeath' entry directory
-IF EXISTS "USERPACKAGEDIR:T/TechnologicalDeath.info"
-  Copy >NIL: "USERPACKAGEDIR:T/TechnologicalDeath.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "T/TechnologicalDeath"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:T/TechnologicalDeath"
-  Copy >NIL: "USERPACKAGEDIR:T/TechnologicalDeath" "$entrydir" ALL
-ENDIF
-
 ; Copy 'Technomania' entry directory
 IF EXISTS "USERPACKAGEDIR:T/Technomania.info"
   Copy >NIL: "USERPACKAGEDIR:T/Technomania.info" "$indexdir"

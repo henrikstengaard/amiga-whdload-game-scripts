@@ -1120,18 +1120,6 @@ IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc"
   Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc" "$entrydir" ALL
 ENDIF
 
-; Copy 'PsygnosisMusicPictureDisc' entry directory
-IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc.info"
-  Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "P/PsygnosisMusicPictureDisc"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc"
-  Copy >NIL: "USERPACKAGEDIR:P/PsygnosisMusicPictureDisc" "$entrydir" ALL
-ENDIF
-
 ; Copy 'PublicAttack' entry directory
 IF EXISTS "USERPACKAGEDIR:P/PublicAttack.info"
   Copy >NIL: "USERPACKAGEDIR:P/PublicAttack.info" "$indexdir"
@@ -2000,4 +1988,16 @@ IF NOT EXISTS "$entrydir"
 ENDIF
 IF EXISTS "USERPACKAGEDIR:S/SoundDeLight"
   Copy >NIL: "USERPACKAGEDIR:S/SoundDeLight" "$entrydir" ALL
+ENDIF
+
+; Copy 'SoundDemo' entry directory
+IF EXISTS "USERPACKAGEDIR:S/SoundDemo.info"
+  Copy >NIL: "USERPACKAGEDIR:S/SoundDemo.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "S/SoundDemo"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:S/SoundDemo"
+  Copy >NIL: "USERPACKAGEDIR:S/SoundDemo" "$entrydir" ALL
 ENDIF

@@ -1171,27 +1171,27 @@ IF EXISTS "USERPACKAGEDIR:A/APBImage"
 ENDIF
 
 ; Copy 'ApidyaAudios' entry directory
-IF EXISTS "USERPACKAGEDIR:A/ApidyaAudios/data.info"
-  Copy >NIL: "USERPACKAGEDIR:A/ApidyaAudios/data.info" "$indexdir"
+IF EXISTS "USERPACKAGEDIR:A/ApidyaAudios.info"
+  Copy >NIL: "USERPACKAGEDIR:A/ApidyaAudios.info" "$indexdir"
 ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "A/ApidyaAudios/data"`"
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "A/ApidyaAudios"`"
 IF NOT EXISTS "$entrydir"
   MakePath >NIL: "$entrydir"
 ENDIF
-IF EXISTS "USERPACKAGEDIR:A/ApidyaAudios/data"
-  Copy >NIL: "USERPACKAGEDIR:A/ApidyaAudios/data" "$entrydir" ALL
+IF EXISTS "USERPACKAGEDIR:A/ApidyaAudios"
+  Copy >NIL: "USERPACKAGEDIR:A/ApidyaAudios" "$entrydir" ALL
 ENDIF
 
 ; Copy 'ApidyaKaiko' entry directory
-IF EXISTS "USERPACKAGEDIR:A/ApidyaKaiko/data.info"
-  Copy >NIL: "USERPACKAGEDIR:A/ApidyaKaiko/data.info" "$indexdir"
+IF EXISTS "USERPACKAGEDIR:A/ApidyaKaiko.info"
+  Copy >NIL: "USERPACKAGEDIR:A/ApidyaKaiko.info" "$indexdir"
 ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "A/ApidyaKaiko/data"`"
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "A/ApidyaKaiko"`"
 IF NOT EXISTS "$entrydir"
   MakePath >NIL: "$entrydir"
 ENDIF
-IF EXISTS "USERPACKAGEDIR:A/ApidyaKaiko/data"
-  Copy >NIL: "USERPACKAGEDIR:A/ApidyaKaiko/data" "$entrydir" ALL
+IF EXISTS "USERPACKAGEDIR:A/ApidyaKaiko"
+  Copy >NIL: "USERPACKAGEDIR:A/ApidyaKaiko" "$entrydir" ALL
 ENDIF
 
 ; Copy 'Apocalypse' entry directory

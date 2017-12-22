@@ -484,18 +484,6 @@ IF EXISTS "USERPACKAGEDIR:B/BlackViperCD32"
   Copy >NIL: "USERPACKAGEDIR:B/BlackViperCD32" "$entrydir" ALL
 ENDIF
 
-; Copy 'BlackViperCD32' entry directory
-IF EXISTS "USERPACKAGEDIR:B/BlackViperCD32.info"
-  Copy >NIL: "USERPACKAGEDIR:B/BlackViperCD32.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "B/BlackViperCD32"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:B/BlackViperCD32"
-  Copy >NIL: "USERPACKAGEDIR:B/BlackViperCD32" "$entrydir" ALL
-ENDIF
-
 ; Copy 'BloodnetAGA' entry directory
 IF EXISTS "USERPACKAGEDIR:B/BloodnetAGA.info"
   Copy >NIL: "USERPACKAGEDIR:B/BloodnetAGA.info" "$indexdir"
@@ -1824,18 +1812,6 @@ IF EXISTS "USERPACKAGEDIR:J/JetstrikeAGA"
   Copy >NIL: "USERPACKAGEDIR:J/JetstrikeAGA" "$entrydir" ALL
 ENDIF
 
-; Copy 'JetstrikeAGA' entry directory
-IF EXISTS "USERPACKAGEDIR:J/JetstrikeAGA.info"
-  Copy >NIL: "USERPACKAGEDIR:J/JetstrikeAGA.info" "$indexdir"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "J/JetstrikeAGA"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:J/JetstrikeAGA"
-  Copy >NIL: "USERPACKAGEDIR:J/JetstrikeAGA" "$entrydir" ALL
-ENDIF
-
 ; Copy 'JungleStrikeCD32' entry directory
 IF EXISTS "USERPACKAGEDIR:J/JungleStrikeCD32.info"
   Copy >NIL: "USERPACKAGEDIR:J/JungleStrikeCD32.info" "$indexdir"
@@ -1998,4 +1974,28 @@ IF NOT EXISTS "$entrydir"
 ENDIF
 IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGA"
   Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGA" "$entrydir" ALL
+ENDIF
+
+; Copy 'LordsOfTheRealmAGADe' entry directory
+IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADe.info"
+  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADe.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "L/LordsOfTheRealmAGADe"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADe"
+  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADe" "$entrydir" ALL
+ENDIF
+
+; Copy 'LordsOfTheRealmAGADeFast' entry directory
+IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast.info"
+  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast.info" "$indexdir"
+ENDIF
+set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "L/LordsOfTheRealmAGADeFast"`"
+IF NOT EXISTS "$entrydir"
+  MakePath >NIL: "$entrydir"
+ENDIF
+IF EXISTS "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast"
+  Copy >NIL: "USERPACKAGEDIR:L/LordsOfTheRealmAGADeFast" "$entrydir" ALL
 ENDIF

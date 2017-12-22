@@ -2,7 +2,7 @@
 # ----------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-11-07
+# Date:   2017-12-22
 #
 # A PowerShell script to build whdload install script used to install whdload demos or games based on entries files.
 
@@ -87,8 +87,15 @@ $installScriptFilename = Split-Path $installScriptFile -Leaf
 $installScriptPartCount = 0;
 $installScriptPartLines = @()
 
+$entriesRunDirIndex = @{}
+
 foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=$true}))
 {
+	if ($entriesRunDirIndex.ContainsKey($entry.RunDir))
+	{
+		continue
+	}
+
 	if ($copyEntries -and $filterEntriesIndex.Count -gt 0 -and !$filterEntriesIndex.ContainsKey($entry.RunFile))
 	{
 		continue
@@ -190,6 +197,8 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 
 		$installScriptPartLines += ''
 	}
+
+	$entriesRunDirIndex.Set_Item($entry.RunDir, $true)
 }
 
 # write install script part file, if install script part lines are present

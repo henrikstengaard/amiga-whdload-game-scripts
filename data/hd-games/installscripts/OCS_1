@@ -55,18 +55,6 @@ IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE"
   Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE" "$entrydir" ALL
 ENDIF
 
-; Copy 'GianaSistersSE' entry directory
-IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE.info"
-  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE.info" "$INSTALLDIR"
-ENDIF
-set entrydir "`execute INSTALLDIR:S/CombinePath "$INSTALLDIR" "GianaSistersSE"`"
-IF NOT EXISTS "$entrydir"
-  MakePath >NIL: "$entrydir"
-ENDIF
-IF EXISTS "USERPACKAGEDIR:HD-Games/GianaSistersSE"
-  Copy >NIL: "USERPACKAGEDIR:HD-Games/GianaSistersSE" "$entrydir" ALL
-ENDIF
-
 ; 'N' index directory
 echo "Installing 'N'..."
 
