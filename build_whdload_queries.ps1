@@ -2,14 +2,14 @@
 # ---------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-08-22
+# Date:   2017-12-22
 #
 # A PowerShell script to build whdload queries used for finding best matching detail and screenshot.
 
 
 Param(
 	[Parameter(Mandatory=$true)]
-	[string]$whdloadSlavesFile,
+	[string]$entriesFiles,
 	[Parameter(Mandatory=$true)]
 	[string]$queriesFile,
 	[Parameter(Mandatory=$false)]
@@ -28,6 +28,8 @@ Param(
 	[string]$appendQueryText
 )
 
+
+Import-Module (Resolve-Path('text.psm1')) -Force
 
 function MakeComparableName([string]$text)
 {
@@ -137,77 +139,40 @@ function UniqueWords($text)
 	return [string]::Join(" ", $uniqueKeywords)
 }
 
-function RemoveDiacritics([string]$text)
-{
-	$textFormD = $text.Normalize([System.Text.NormalizationForm]::FormD).ToCharArray()
-	$sb = New-Object -TypeName "System.Text.StringBuilder"
 
-	ForEach ($c in $textFormD)
-	{
-		$uc = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($c)
-		if ($uc -ne [System.Globalization.UnicodeCategory]::NonSpacingMark)
-		{
-			[void]$sb.Append($c)
-		}
-	}
-	
-	return $sb.ToString().Normalize([System.Text.NormalizationForm]::FormC)
-}
-
-function ConvertSuperscript([string]$text)
-{
-	$textFormKd = $text.Normalize([System.Text.NormalizationForm]::FormKD).ToCharArray()
-	$sb = New-Object -TypeName "System.Text.StringBuilder"
-
-	ForEach ($c in $textFormKd)
-	{
-		$uc = [System.Globalization.CharUnicodeInfo]::GetUnicodeCategory($c)
-		if ($uc -ne [System.Globalization.UnicodeCategory]::NonSpacingMark)
-		{
-			[void]$sb.Append($c)
-		}
-	}
-
-	return $sb.ToString().Normalize([System.Text.NormalizationForm]::FormKC)
-}
-
-function Normalize([string]$text)
-{
-	return RemoveDiacritics (ConvertSuperscript $text)
-}
-
-
-# Resolve paths
-$whdloadSlavesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($whdloadSlavesFile)
+# resolve paths
 $queriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($queriesFile)
 
-
-# Read whdload slave list
-$whdloadSlaveItems = import-csv -delimiter ';' -path $whdloadSlavesFile -encoding utf8
-
-$queryPatches = @()
+# read entries files
+$entries = @()
+foreach($entriesFile in ($entriesFiles -Split ','))
+{
+	$entriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesFile)
+	Write-Host ("Reading entries file '{0}'" -f $entriesFile)
+	$entries += import-csv -delimiter ';' -path $entriesFile -encoding utf8 
+}
 
 # read query patches
+$queryPatches = @()
 if ($queryPatchesFile)
 {
 	$queryPatchesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($queryPatchesFile)
 	$queryPatches += (import-csv -delimiter ';' -path $queryPatchesFile -encoding utf8)
 }
 
-
 # build query patches index
 $queryPatchesIndex = @{}
-$queryPatches | % { $queryPatchesIndex.Set_Item($_.WhdloadName.ToLower(), $_.QueryPatch.ToLower()) }
+$queryPatches | % { $queryPatchesIndex.Set_Item($_.EntryName.ToLower(), $_.QueryPatch.ToLower()) }
 
 $queryPatchCount = 0
 
 # process whdload slave items
-foreach($whdloadSlaveItem in $whdloadSlaveItems)
+foreach($entry in $entries)
 {
-	if ($queryPatchesIndex.ContainsKey($whdloadSlaveItem.WhdloadName.ToLower()))
+	if ($queryPatchesIndex.ContainsKey($entry.EntryName.ToLower()))
 	{
 		$queryPatchCount++
-		$query = $queryPatchesIndex.Get_Item($whdloadSlaveItem.WhdloadName.ToLower())
+		$query = $queryPatchesIndex.Get_Item($entry.EntryName.ToLower())
 	}
 	else
 	{
@@ -215,28 +180,30 @@ foreach($whdloadSlaveItem in $whdloadSlaveItems)
 		
 		if (!$noWhdloadName)
 		{
-			$name = $whdloadSlaveItem.WhdloadName
+			$name = $entry.EntryName
 		}
 
-		if ($addFilteredName -and $whdloadSlaveItem.FilteredName -and ($name -ne $whdloadSlaveItem.FilteredName))
+		if ($addFilteredName -and $entry.FilteredName -and ($name -ne $entry.FilteredName))
 		{
-			$name += " " + $whdloadSlaveItem.FilteredName
+			$name += " " + $entry.FilteredName
 		}
 
-		if ($addWhdloadSlaveName -and $whdloadSlaveItem.WhdloadSlaveName -and ($whdloadSlaveItem.WhdloadName -ne $whdloadSlaveItem.WhdloadSlaveName))
+		if ($addWhdloadSlaveName -and $entry.WhdloadSlaveName -and ($entry.EntryName -ne $entry.WhdloadSlaveName))
 		{
-			$name += " " + $whdloadSlaveItem.WhdloadSlaveName
+			$name += " " + $entry.WhdloadSlaveName
 		}
 
-		if ($addWhdloadSlaveCopy -and $whdloadSlaveItem.WhdloadSlaveCopy)
+		if ($addWhdloadSlaveCopy -and $entry.WhdloadSlaveCopy)
 		{
-			$name += " " + ($whdloadSlaveItem.WhdloadSlaveCopy -replace '\d{4}', ' ')
+			$name += " " + ($entry.WhdloadSlaveCopy -replace '\d{4}', ' ')
 		}
 
-		$query = UniqueWords (MakeComparableName (Normalize $name))
+		$query = UniqueWords (MakeComparableName (NormalizeText $name))
 		
 		# remove single letters
-		$query = [string]::Join(" ", ($query -split ' ' | Where { $_ -notmatch '^[a-z]$' }))
+		$words = @()
+		$words += $query -split ' ' | Where-Object { $_ -notmatch '^[a-z]$' }
+		$query = [string]::Join(" ", $words)
 
 		if ($removeQueryWordsPattern -and ($removeQueryWordsPattern -ne ''))
 		{
@@ -252,11 +219,10 @@ foreach($whdloadSlaveItem in $whdloadSlaveItems)
 	$query = ($query -replace '\s+',' ').Trim()
 
 	# Add query to whdload slave item
-	$whdloadSlaveItem | Add-Member -MemberType NoteProperty -Name Query -Value $query
+	$entry | Add-Member -MemberType NoteProperty -Name Query -Value $query
 }
 
 Write-Host "$queryPatchCount queries patched"
 
-# Write queries file
-$whdloadSlaveItems | export-csv -delimiter ';' -path $queriesFile -NoTypeInformation -Encoding UTF8
-
+# write queries file
+$entries | export-csv -delimiter ';' -path $queriesFile -NoTypeInformation -Encoding UTF8
