@@ -304,17 +304,17 @@ ENDIF
 IF EXISTS "A-Games:A/APBFiles"
   Delete >NIL: "A-Games:A/APBFiles" ALL
 ENDIF
-IF EXISTS "A-Games:A/ApidyaAudios/data"
-  Delete >NIL: "A-Games:A/ApidyaAudios/data" ALL
-ENDIF
 IF EXISTS "A-Games:A/ApidyaAudios"
   Delete >NIL: "A-Games:A/ApidyaAudios" ALL
 ENDIF
-IF EXISTS "A-Games:A/ApidyaKaiko/data"
-  Delete >NIL: "A-Games:A/ApidyaKaiko/data" ALL
+IF EXISTS "A-Games:A/ApidyaAudios/data"
+  Delete >NIL: "A-Games:A/ApidyaAudios/data" ALL
 ENDIF
 IF EXISTS "A-Games:A/ApidyaKaiko"
   Delete >NIL: "A-Games:A/ApidyaKaiko" ALL
+ENDIF
+IF EXISTS "A-Games:A/ApidyaKaiko/data"
+  Delete >NIL: "A-Games:A/ApidyaKaiko/data" ALL
 ENDIF
 IF EXISTS "A-Games:A/Apocalypse"
   Delete >NIL: "A-Games:A/Apocalypse" ALL
@@ -1312,11 +1312,11 @@ ENDIF
 IF EXISTS "A-Games:C/CityDefence"
   Delete >NIL: "A-Games:C/CityDefence" ALL
 ENDIF
-IF EXISTS "A-Games:C/CivilizationCD"
-  Delete >NIL: "A-Games:C/CivilizationCD" ALL
-ENDIF
 IF EXISTS "A-Games:C/Civilization"
   Delete >NIL: "A-Games:C/Civilization" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationCD"
+  Delete >NIL: "A-Games:C/CivilizationCD" ALL
 ENDIF
 IF EXISTS "A-Games:C/CJInTheUSA"
   Delete >NIL: "A-Games:C/CJInTheUSA" ALL
@@ -1891,50 +1891,50 @@ ENDIF
 IF EXISTS "A-Games:D/Dogfight512KB512KB"
   Delete >NIL: "A-Games:D/Dogfight512KB512KB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight1MB512KB"
-  Delete >NIL: "A-Games:D/Dogfight1MB512KB" ALL
-ENDIF
-IF EXISTS "A-Games:D/Dogfight1MB2MB"
-  Delete >NIL: "A-Games:D/Dogfight1MB2MB" ALL
-ENDIF
-IF EXISTS "A-Games:D/Dogfight512KB1MB"
-  Delete >NIL: "A-Games:D/Dogfight512KB1MB" ALL
-ENDIF
 IF EXISTS "A-Games:D/Dogfight2MB1MB"
   Delete >NIL: "A-Games:D/Dogfight2MB1MB" ALL
 ENDIF
 IF EXISTS "A-Games:D/Dogfight1MB1MB"
   Delete >NIL: "A-Games:D/Dogfight1MB1MB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight15MB1MB"
-  Delete >NIL: "A-Games:D/Dogfight15MB1MB" ALL
+IF EXISTS "A-Games:D/Dogfight1MB2MB"
+  Delete >NIL: "A-Games:D/Dogfight1MB2MB" ALL
 ENDIF
 IF EXISTS "A-Games:D/Dogfight1MB15MB"
   Delete >NIL: "A-Games:D/Dogfight1MB15MB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight2MB512KB"
-  Delete >NIL: "A-Games:D/Dogfight2MB512KB" ALL
+IF EXISTS "A-Games:D/Dogfight15MB1MB"
+  Delete >NIL: "A-Games:D/Dogfight15MB1MB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight512KB2MB"
-  Delete >NIL: "A-Games:D/Dogfight512KB2MB" ALL
+IF EXISTS "A-Games:D/Dogfight1MB512KB"
+  Delete >NIL: "A-Games:D/Dogfight1MB512KB" ALL
+ENDIF
+IF EXISTS "A-Games:D/Dogfight512KB1MB"
+  Delete >NIL: "A-Games:D/Dogfight512KB1MB" ALL
 ENDIF
 IF EXISTS "A-Games:D/Dogfight2MB2MB"
   Delete >NIL: "A-Games:D/Dogfight2MB2MB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight15MB15MB"
-  Delete >NIL: "A-Games:D/Dogfight15MB15MB" ALL
+IF EXISTS "A-Games:D/Dogfight512KB2MB"
+  Delete >NIL: "A-Games:D/Dogfight512KB2MB" ALL
 ENDIF
-IF EXISTS "A-Games:D/Dogfight2MB15MB"
-  Delete >NIL: "A-Games:D/Dogfight2MB15MB" ALL
-ENDIF
-IF EXISTS "A-Games:D/Dogfight15MB512KB"
-  Delete >NIL: "A-Games:D/Dogfight15MB512KB" ALL
+IF EXISTS "A-Games:D/Dogfight2MB512KB"
+  Delete >NIL: "A-Games:D/Dogfight2MB512KB" ALL
 ENDIF
 IF EXISTS "A-Games:D/Dogfight15MB2MB"
   Delete >NIL: "A-Games:D/Dogfight15MB2MB" ALL
 ENDIF
+IF EXISTS "A-Games:D/Dogfight2MB15MB"
+  Delete >NIL: "A-Games:D/Dogfight2MB15MB" ALL
+ENDIF
+IF EXISTS "A-Games:D/Dogfight15MB15MB"
+  Delete >NIL: "A-Games:D/Dogfight15MB15MB" ALL
+ENDIF
 IF EXISTS "A-Games:D/Dogfight512KB15MB"
   Delete >NIL: "A-Games:D/Dogfight512KB15MB" ALL
+ENDIF
+IF EXISTS "A-Games:D/Dogfight15MB512KB"
+  Delete >NIL: "A-Games:D/Dogfight15MB512KB" ALL
 ENDIF
 IF EXISTS "A-Games:D/DogsOfWar"
   Delete >NIL: "A-Games:D/DogsOfWar" ALL
@@ -2050,11 +2050,11 @@ ENDIF
 IF EXISTS "A-Games:D/DrakkhenImage"
   Delete >NIL: "A-Games:D/DrakkhenImage" ALL
 ENDIF
-IF EXISTS "A-Games:D/DrakkhenImageNTSC"
-  Delete >NIL: "A-Games:D/DrakkhenImageNTSC" ALL
-ENDIF
 IF EXISTS "A-Games:D/DrakkhenFiles"
   Delete >NIL: "A-Games:D/DrakkhenFiles" ALL
+ENDIF
+IF EXISTS "A-Games:D/DrakkhenImageNTSC"
+  Delete >NIL: "A-Games:D/DrakkhenImageNTSC" ALL
 ENDIF
 IF EXISTS "A-Games:D/DrakkhenFilesNTSC"
   Delete >NIL: "A-Games:D/DrakkhenFilesNTSC" ALL
@@ -2659,11 +2659,11 @@ ENDIF
 IF EXISTS "A-Games:F/FullMetalPlaneteImage"
   Delete >NIL: "A-Games:F/FullMetalPlaneteImage" ALL
 ENDIF
-IF EXISTS "A-Games:F/FullMetalPlaneteNTSCImage"
-  Delete >NIL: "A-Games:F/FullMetalPlaneteNTSCImage" ALL
-ENDIF
 IF EXISTS "A-Games:F/FullMetalPlaneteFiles"
   Delete >NIL: "A-Games:F/FullMetalPlaneteFiles" ALL
+ENDIF
+IF EXISTS "A-Games:F/FullMetalPlaneteNTSCImage"
+  Delete >NIL: "A-Games:F/FullMetalPlaneteNTSCImage" ALL
 ENDIF
 IF EXISTS "A-Games:F/FullMetalPlaneteNTSCFiles"
   Delete >NIL: "A-Games:F/FullMetalPlaneteNTSCFiles" ALL
@@ -3832,14 +3832,14 @@ ENDIF
 IF EXISTS "A-Games:L/LemmingsAltImage"
   Delete >NIL: "A-Games:L/LemmingsAltImage" ALL
 ENDIF
+IF EXISTS "A-Games:L/LemmingsAltFiles"
+  Delete >NIL: "A-Games:L/LemmingsAltFiles" ALL
+ENDIF
 IF EXISTS "A-Games:L/LemmingsImageNTSC"
   Delete >NIL: "A-Games:L/LemmingsImageNTSC" ALL
 ENDIF
 IF EXISTS "A-Games:L/LemmingsFilesNTSC"
   Delete >NIL: "A-Games:L/LemmingsFilesNTSC" ALL
-ENDIF
-IF EXISTS "A-Games:L/LemmingsAltFiles"
-  Delete >NIL: "A-Games:L/LemmingsAltFiles" ALL
 ENDIF
 IF EXISTS "A-Games:L/LemmingsDemo"
   Delete >NIL: "A-Games:L/LemmingsDemo" ALL
@@ -3850,14 +3850,14 @@ ENDIF
 IF EXISTS "A-Games:L/Lemmings21MB"
   Delete >NIL: "A-Games:L/Lemmings21MB" ALL
 ENDIF
+IF EXISTS "A-Games:L/Lemmings2Demo"
+  Delete >NIL: "A-Games:L/Lemmings2Demo" ALL
+ENDIF
 IF EXISTS "A-Games:L/Lemmings2NTSC512KB"
   Delete >NIL: "A-Games:L/Lemmings2NTSC512KB" ALL
 ENDIF
 IF EXISTS "A-Games:L/Lemmings2NTSC1MB"
   Delete >NIL: "A-Games:L/Lemmings2NTSC1MB" ALL
-ENDIF
-IF EXISTS "A-Games:L/Lemmings2Demo"
-  Delete >NIL: "A-Games:L/Lemmings2Demo" ALL
 ENDIF
 IF EXISTS "A-Games:L/LemmingsHolidayDemo"
   Delete >NIL: "A-Games:L/LemmingsHolidayDemo" ALL
@@ -4600,11 +4600,11 @@ ENDIF
 IF EXISTS "A-Games:N/NorthAndSouthImage"
   Delete >NIL: "A-Games:N/NorthAndSouthImage" ALL
 ENDIF
-IF EXISTS "A-Games:N/NorthAndSouthImageNTSC"
-  Delete >NIL: "A-Games:N/NorthAndSouthImageNTSC" ALL
-ENDIF
 IF EXISTS "A-Games:N/NorthAndSouthFiles"
   Delete >NIL: "A-Games:N/NorthAndSouthFiles" ALL
+ENDIF
+IF EXISTS "A-Games:N/NorthAndSouthImageNTSC"
+  Delete >NIL: "A-Games:N/NorthAndSouthImageNTSC" ALL
 ENDIF
 IF EXISTS "A-Games:N/NorthAndSouthFilesNTSC"
   Delete >NIL: "A-Games:N/NorthAndSouthFilesNTSC" ALL
@@ -6079,11 +6079,11 @@ ENDIF
 IF EXISTS "A-Games:S/Spherical"
   Delete >NIL: "A-Games:S/Spherical" ALL
 ENDIF
-IF EXISTS "A-Games:S/SphericalWorldsCD"
-  Delete >NIL: "A-Games:S/SphericalWorldsCD" ALL
-ENDIF
 IF EXISTS "A-Games:S/SphericalWorlds"
   Delete >NIL: "A-Games:S/SphericalWorlds" ALL
+ENDIF
+IF EXISTS "A-Games:S/SphericalWorldsCD"
+  Delete >NIL: "A-Games:S/SphericalWorldsCD" ALL
 ENDIF
 IF EXISTS "A-Games:S/SpikeInTransylvania"
   Delete >NIL: "A-Games:S/SpikeInTransylvania" ALL
@@ -6856,11 +6856,11 @@ ENDIF
 IF EXISTS "A-Games:T/TinySkweeks"
   Delete >NIL: "A-Games:T/TinySkweeks" ALL
 ENDIF
-IF EXISTS "A-Games:T/TinyTroopsCD"
-  Delete >NIL: "A-Games:T/TinyTroopsCD" ALL
-ENDIF
 IF EXISTS "A-Games:T/TinyTroops"
   Delete >NIL: "A-Games:T/TinyTroops" ALL
+ENDIF
+IF EXISTS "A-Games:T/TinyTroopsCD"
+  Delete >NIL: "A-Games:T/TinyTroopsCD" ALL
 ENDIF
 IF EXISTS "A-Games:T/TipOff"
   Delete >NIL: "A-Games:T/TipOff" ALL
@@ -7270,17 +7270,17 @@ ENDIF
 IF EXISTS "A-Games:W/WackyRaces"
   Delete >NIL: "A-Games:W/WackyRaces" ALL
 ENDIF
-IF EXISTS "A-Games:W/WalkerDecrunched"
-  Delete >NIL: "A-Games:W/WalkerDecrunched" ALL
-ENDIF
-IF EXISTS "A-Games:W/WalkerDecrunched"
-  Delete >NIL: "A-Games:W/WalkerDecrunched" ALL
-ENDIF
 IF EXISTS "A-Games:W/WalkerCrunched"
   Delete >NIL: "A-Games:W/WalkerCrunched" ALL
 ENDIF
 IF EXISTS "A-Games:W/WalkerCrunched"
   Delete >NIL: "A-Games:W/WalkerCrunched" ALL
+ENDIF
+IF EXISTS "A-Games:W/WalkerDecrunched"
+  Delete >NIL: "A-Games:W/WalkerDecrunched" ALL
+ENDIF
+IF EXISTS "A-Games:W/WalkerDecrunched"
+  Delete >NIL: "A-Games:W/WalkerDecrunched" ALL
 ENDIF
 IF EXISTS "A-Games:W/Wall"
   Delete >NIL: "A-Games:W/Wall" ALL
@@ -7735,11 +7735,11 @@ ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DCD32"
   Delete >NIL: "A-Games:A/AlienBreed3DCD32" ALL
 ENDIF
-IF EXISTS "A-Games:A/AlienBreed3DNoMusicCD32"
-  Delete >NIL: "A-Games:A/AlienBreed3DNoMusicCD32" ALL
-ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DNoMusicCD32"
+  Delete >NIL: "A-Games:A/AlienBreed3DNoMusicCD32" ALL
 ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DNoMusicAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DNoMusicAGA" ALL
@@ -7747,11 +7747,11 @@ ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DDemoPlayAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DDemoPlayAGA" ALL
 ENDIF
-IF EXISTS "A-Games:A/AlienBreed3DDemoLatestAGA"
-  Delete >NIL: "A-Games:A/AlienBreed3DDemoLatestAGA" ALL
-ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DDemoRollAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DDemoRollAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DDemoLatestAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DDemoLatestAGA" ALL
 ENDIF
 IF EXISTS "A-Games:A/AlienBreed3D2AGA"
   Delete >NIL: "A-Games:A/AlienBreed3D2AGA" ALL
@@ -7876,11 +7876,11 @@ ENDIF
 IF EXISTS "A-Games:C/CannonFodderCD32"
   Delete >NIL: "A-Games:C/CannonFodderCD32" ALL
 ENDIF
-IF EXISTS "A-Games:C/CapitalPunishmentAGACD"
-  Delete >NIL: "A-Games:C/CapitalPunishmentAGACD" ALL
-ENDIF
 IF EXISTS "A-Games:C/CapitalPunishmentAGA"
   Delete >NIL: "A-Games:C/CapitalPunishmentAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CapitalPunishmentAGACD"
+  Delete >NIL: "A-Games:C/CapitalPunishmentAGACD" ALL
 ENDIF
 IF EXISTS "A-Games:C/Castles2CD32"
   Delete >NIL: "A-Games:C/Castles2CD32" ALL
@@ -7909,11 +7909,11 @@ ENDIF
 IF EXISTS "A-Games:C/ChuckRock2CD32"
   Delete >NIL: "A-Games:C/ChuckRock2CD32" ALL
 ENDIF
-IF EXISTS "A-Games:C/CivilizationAGACD"
-  Delete >NIL: "A-Games:C/CivilizationAGACD" ALL
-ENDIF
 IF EXISTS "A-Games:C/CivilizationAGA"
   Delete >NIL: "A-Games:C/CivilizationAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationAGACD"
+  Delete >NIL: "A-Games:C/CivilizationAGACD" ALL
 ENDIF
 IF EXISTS "A-Games:C/ClockwiserCD32"
   Delete >NIL: "A-Games:C/ClockwiserCD32" ALL
@@ -8221,11 +8221,11 @@ ENDIF
 IF EXISTS "A-Games:P/PinballFntsiesCD32"
   Delete >NIL: "A-Games:P/PinballFntsiesCD32" ALL
 ENDIF
-IF EXISTS "A-Games:P/PinballFntsiesCD32Chip"
-  Delete >NIL: "A-Games:P/PinballFntsiesCD32Chip" ALL
-ENDIF
 IF EXISTS "A-Games:P/PinballFntsiesAGA"
   Delete >NIL: "A-Games:P/PinballFntsiesAGA" ALL
+ENDIF
+IF EXISTS "A-Games:P/PinballFntsiesCD32Chip"
+  Delete >NIL: "A-Games:P/PinballFntsiesCD32Chip" ALL
 ENDIF
 IF EXISTS "A-Games:P/PinballFntsiesAGANTSC"
   Delete >NIL: "A-Games:P/PinballFntsiesAGANTSC" ALL
@@ -8302,11 +8302,11 @@ ENDIF
 IF EXISTS "A-Games:R/RoadkillCD32"
   Delete >NIL: "A-Games:R/RoadkillCD32" ALL
 ENDIF
-IF EXISTS "A-Games:R/RoadkillCD32NoIntro"
-  Delete >NIL: "A-Games:R/RoadkillCD32NoIntro" ALL
-ENDIF
 IF EXISTS "A-Games:R/RoadkillAGA"
   Delete >NIL: "A-Games:R/RoadkillAGA" ALL
+ENDIF
+IF EXISTS "A-Games:R/RoadkillCD32NoIntro"
+  Delete >NIL: "A-Games:R/RoadkillCD32NoIntro" ALL
 ENDIF
 IF EXISTS "A-Games:R/RobinsonsRequiemAGA"
   Delete >NIL: "A-Games:R/RobinsonsRequiemAGA" ALL
@@ -8353,11 +8353,11 @@ ENDIF
 IF EXISTS "A-Games:S/SlamTiltAGA"
   Delete >NIL: "A-Games:S/SlamTiltAGA" ALL
 ENDIF
-IF EXISTS "A-Games:S/SlamTiltAGA2MB"
-  Delete >NIL: "A-Games:S/SlamTiltAGA2MB" ALL
-ENDIF
 IF EXISTS "A-Games:S/SlamTiltDemoAGA"
   Delete >NIL: "A-Games:S/SlamTiltDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SlamTiltAGA2MB"
+  Delete >NIL: "A-Games:S/SlamTiltAGA2MB" ALL
 ENDIF
 IF EXISTS "A-Games:S/SleepwalkerAGA"
   Delete >NIL: "A-Games:S/SleepwalkerAGA" ALL
@@ -8521,11 +8521,11 @@ ENDIF
 IF EXISTS "A-Games:V/VirtualKartingDemoAGA"
   Delete >NIL: "A-Games:V/VirtualKartingDemoAGA" ALL
 ENDIF
-IF EXISTS "A-Games:V/VirtualKarting2AGACD"
-  Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
-ENDIF
 IF EXISTS "A-Games:V/VirtualKarting2AGA"
   Delete >NIL: "A-Games:V/VirtualKarting2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKarting2AGACD"
+  Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
 ENDIF
 IF EXISTS "A-Games:V/VirtualKarting2DemoAGA"
   Delete >NIL: "A-Games:V/VirtualKarting2DemoAGA" ALL

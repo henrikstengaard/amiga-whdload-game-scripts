@@ -28,6 +28,9 @@ ENDIF
 IF EXISTS "A-Games:0-9/3DPool"
   Delete >NIL: "A-Games:0-9/3DPool" ALL
 ENDIF
+IF EXISTS "A-Games:0-9/3DPool"
+  Delete >NIL: "A-Games:0-9/3DPool" ALL
+ENDIF
 IF EXISTS "A-Games:0-9/3DWorldSoccer"
   Delete >NIL: "A-Games:0-9/3DWorldSoccer" ALL
 ENDIF
@@ -286,11 +289,11 @@ ENDIF
 IF EXISTS "A-Games:A/APBImage"
   Delete >NIL: "A-Games:A/APBImage" ALL
 ENDIF
-IF EXISTS "A-Games:A/ApidyaAudios/data"
-  Delete >NIL: "A-Games:A/ApidyaAudios/data" ALL
+IF EXISTS "A-Games:A/ApidyaAudios"
+  Delete >NIL: "A-Games:A/ApidyaAudios" ALL
 ENDIF
-IF EXISTS "A-Games:A/ApidyaKaiko/data"
-  Delete >NIL: "A-Games:A/ApidyaKaiko/data" ALL
+IF EXISTS "A-Games:A/ApidyaKaiko"
+  Delete >NIL: "A-Games:A/ApidyaKaiko" ALL
 ENDIF
 IF EXISTS "A-Games:A/Apocalypse"
   Delete >NIL: "A-Games:A/Apocalypse" ALL
@@ -550,6 +553,9 @@ ENDIF
 IF EXISTS "A-Games:B/BartVsSpaceMutants2Disk"
   Delete >NIL: "A-Games:B/BartVsSpaceMutants2Disk" ALL
 ENDIF
+IF EXISTS "A-Games:B/BartVsSpaceMutants2Disk"
+  Delete >NIL: "A-Games:B/BartVsSpaceMutants2Disk" ALL
+ENDIF
 IF EXISTS "A-Games:B/BartVsTheWorld"
   Delete >NIL: "A-Games:B/BartVsTheWorld" ALL
 ENDIF
@@ -759,6 +765,9 @@ IF EXISTS "A-Games:B/Bloodnet"
 ENDIF
 IF EXISTS "A-Games:B/Bloodwych"
   Delete >NIL: "A-Games:B/Bloodwych" ALL
+ENDIF
+IF EXISTS "A-Games:B/Bloodwych&ExtendedLevels"
+  Delete >NIL: "A-Games:B/Bloodwych&ExtendedLevels" ALL
 ENDIF
 IF EXISTS "A-Games:B/Bloodwych&ExtendedLevels"
   Delete >NIL: "A-Games:B/Bloodwych&ExtendedLevels" ALL
@@ -1717,6 +1726,9 @@ ENDIF
 IF EXISTS "A-Games:D/DizzyCollection"
   Delete >NIL: "A-Games:D/DizzyCollection" ALL
 ENDIF
+IF EXISTS "A-Games:D/DizzyCollection"
+  Delete >NIL: "A-Games:D/DizzyCollection" ALL
+ENDIF
 IF EXISTS "A-Games:D/DizzyDice"
   Delete >NIL: "A-Games:D/DizzyDice" ALL
 ENDIF
@@ -1725,6 +1737,9 @@ IF EXISTS "A-Games:D/DizzyPanic"
 ENDIF
 IF EXISTS "A-Games:D/DizzyPrinceOfTheYolkfolk"
   Delete >NIL: "A-Games:D/DizzyPrinceOfTheYolkfolk" ALL
+ENDIF
+IF EXISTS "A-Games:D/DizzysExcellentAdventures"
+  Delete >NIL: "A-Games:D/DizzysExcellentAdventures" ALL
 ENDIF
 IF EXISTS "A-Games:D/DizzysExcellentAdventures"
   Delete >NIL: "A-Games:D/DizzysExcellentAdventures" ALL
@@ -2002,6 +2017,9 @@ ENDIF
 IF EXISTS "A-Games:E/Entity"
   Delete >NIL: "A-Games:E/Entity" ALL
 ENDIF
+IF EXISTS "A-Games:E/Entity"
+  Delete >NIL: "A-Games:E/Entity" ALL
+ENDIF
 IF EXISTS "A-Games:E/Epic"
   Delete >NIL: "A-Games:E/Epic" ALL
 ENDIF
@@ -2076,6 +2094,9 @@ IF EXISTS "A-Games:E/EyeOfTheBeholder"
 ENDIF
 IF EXISTS "A-Games:E/EyeOfTheBeholder2"
   Delete >NIL: "A-Games:E/EyeOfTheBeholder2" ALL
+ENDIF
+IF EXISTS "A-Games:E/EyeOfTheStorm"
+  Delete >NIL: "A-Games:E/EyeOfTheStorm" ALL
 ENDIF
 IF EXISTS "A-Games:E/EyeOfTheStorm"
   Delete >NIL: "A-Games:E/EyeOfTheStorm" ALL
@@ -2326,6 +2347,9 @@ ENDIF
 IF EXISTS "A-Games:F/FlyFighter"
   Delete >NIL: "A-Games:F/FlyFighter" ALL
 ENDIF
+IF EXISTS "A-Games:F/FlyFighter"
+  Delete >NIL: "A-Games:F/FlyFighter" ALL
+ENDIF
 IF EXISTS "A-Games:F/FlyHarder"
   Delete >NIL: "A-Games:F/FlyHarder" ALL
 ENDIF
@@ -2361,6 +2385,9 @@ IF EXISTS "A-Games:F/FormulaOneGrandPrix4Disk"
 ENDIF
 IF EXISTS "A-Games:F/FoundationsWaste"
   Delete >NIL: "A-Games:F/FoundationsWaste" ALL
+ENDIF
+IF EXISTS "A-Games:F/FourCrystalsOfTrazere"
+  Delete >NIL: "A-Games:F/FourCrystalsOfTrazere" ALL
 ENDIF
 IF EXISTS "A-Games:F/FourCrystalsOfTrazere"
   Delete >NIL: "A-Games:F/FourCrystalsOfTrazere" ALL
@@ -2418,6 +2445,9 @@ IF EXISTS "A-Games:F/FutureTank"
 ENDIF
 IF EXISTS "A-Games:F/FutureWars"
   Delete >NIL: "A-Games:F/FutureWars" ALL
+ENDIF
+IF EXISTS "A-Games:F/Fuzzball"
+  Delete >NIL: "A-Games:F/Fuzzball" ALL
 ENDIF
 IF EXISTS "A-Games:F/Fuzzball"
   Delete >NIL: "A-Games:F/Fuzzball" ALL
@@ -2589,6 +2619,9 @@ IF EXISTS "A-Games:G/Gods"
 ENDIF
 IF EXISTS "A-Games:G/GoldenAxe"
   Delete >NIL: "A-Games:G/GoldenAxe" ALL
+ENDIF
+IF EXISTS "A-Games:G/GoldenEagle"
+  Delete >NIL: "A-Games:G/GoldenEagle" ALL
 ENDIF
 IF EXISTS "A-Games:G/GoldenEagle"
   Delete >NIL: "A-Games:G/GoldenEagle" ALL
@@ -3124,6 +3157,9 @@ ENDIF
 IF EXISTS "A-Games:J/Jetstrike"
   Delete >NIL: "A-Games:J/Jetstrike" ALL
 ENDIF
+IF EXISTS "A-Games:J/Jetstrike"
+  Delete >NIL: "A-Games:J/Jetstrike" ALL
+ENDIF
 IF EXISTS "A-Games:J/JewelsOfDarkness"
   Delete >NIL: "A-Games:J/JewelsOfDarkness" ALL
 ENDIF
@@ -3411,6 +3447,12 @@ IF EXISTS "A-Games:L/LEDStorm"
 ENDIF
 IF EXISTS "A-Games:L/Legacy"
   Delete >NIL: "A-Games:L/Legacy" ALL
+ENDIF
+IF EXISTS "A-Games:L/Legacy"
+  Delete >NIL: "A-Games:L/Legacy" ALL
+ENDIF
+IF EXISTS "A-Games:L/LegendMindscape"
+  Delete >NIL: "A-Games:L/LegendMindscape" ALL
 ENDIF
 IF EXISTS "A-Games:L/LegendMindscape"
   Delete >NIL: "A-Games:L/LegendMindscape" ALL
@@ -3783,6 +3825,9 @@ IF EXISTS "A-Games:M/MervTheMerciless"
 ENDIF
 IF EXISTS "A-Games:M/MetalLaw"
   Delete >NIL: "A-Games:M/MetalLaw" ALL
+ENDIF
+IF EXISTS "A-Games:M/MetalMasters"
+  Delete >NIL: "A-Games:M/MetalMasters" ALL
 ENDIF
 IF EXISTS "A-Games:M/MetalMasters"
   Delete >NIL: "A-Games:M/MetalMasters" ALL
@@ -4435,6 +4480,9 @@ ENDIF
 IF EXISTS "A-Games:P/PixieAndDixie"
   Delete >NIL: "A-Games:P/PixieAndDixie" ALL
 ENDIF
+IF EXISTS "A-Games:P/PixieAndDixie"
+  Delete >NIL: "A-Games:P/PixieAndDixie" ALL
+ENDIF
 IF EXISTS "A-Games:P/Plague"
   Delete >NIL: "A-Games:P/Plague" ALL
 ENDIF
@@ -4488,6 +4536,9 @@ IF EXISTS "A-Games:P/Populous"
 ENDIF
 IF EXISTS "A-Games:P/Populous2"
   Delete >NIL: "A-Games:P/Populous2" ALL
+ENDIF
+IF EXISTS "A-Games:P/Populous2&ChallengeGames"
+  Delete >NIL: "A-Games:P/Populous2&ChallengeGames" ALL
 ENDIF
 IF EXISTS "A-Games:P/Populous2&ChallengeGames"
   Delete >NIL: "A-Games:P/Populous2&ChallengeGames" ALL
@@ -4795,6 +4846,9 @@ ENDIF
 IF EXISTS "A-Games:R/Renegades"
   Delete >NIL: "A-Games:R/Renegades" ALL
 ENDIF
+IF EXISTS "A-Games:R/Renegades"
+  Delete >NIL: "A-Games:R/Renegades" ALL
+ENDIF
 IF EXISTS "A-Games:R/Resolution101"
   Delete >NIL: "A-Games:R/Resolution101" ALL
 ENDIF
@@ -5020,6 +5074,9 @@ ENDIF
 IF EXISTS "A-Games:S/Scorpion"
   Delete >NIL: "A-Games:S/Scorpion" ALL
 ENDIF
+IF EXISTS "A-Games:S/Scorpion"
+  Delete >NIL: "A-Games:S/Scorpion" ALL
+ENDIF
 IF EXISTS "A-Games:S/Scrabble"
   Delete >NIL: "A-Games:S/Scrabble" ALL
 ENDIF
@@ -5053,6 +5110,12 @@ ENDIF
 IF EXISTS "A-Games:S/SensibleSoccer"
   Delete >NIL: "A-Games:S/SensibleSoccer" ALL
 ENDIF
+IF EXISTS "A-Games:S/SensibleSoccer"
+  Delete >NIL: "A-Games:S/SensibleSoccer" ALL
+ENDIF
+IF EXISTS "A-Games:S/SensibleSoccer9293"
+  Delete >NIL: "A-Games:S/SensibleSoccer9293" ALL
+ENDIF
 IF EXISTS "A-Games:S/SensibleSoccer9293"
   Delete >NIL: "A-Games:S/SensibleSoccer9293" ALL
 ENDIF
@@ -5061,6 +5124,12 @@ IF EXISTS "A-Games:S/SensibleSoccerBulldogBlty"
 ENDIF
 IF EXISTS "A-Games:S/SensibleSoccerEuro"
   Delete >NIL: "A-Games:S/SensibleSoccerEuro" ALL
+ENDIF
+IF EXISTS "A-Games:S/SensibleSoccerEuro"
+  Delete >NIL: "A-Games:S/SensibleSoccerEuro" ALL
+ENDIF
+IF EXISTS "A-Games:S/SensibleSoccerIntEd"
+  Delete >NIL: "A-Games:S/SensibleSoccerIntEd" ALL
 ENDIF
 IF EXISTS "A-Games:S/SensibleSoccerIntEd"
   Delete >NIL: "A-Games:S/SensibleSoccerIntEd" ALL
@@ -5251,6 +5320,9 @@ ENDIF
 IF EXISTS "A-Games:S/SkyChase"
   Delete >NIL: "A-Games:S/SkyChase" ALL
 ENDIF
+IF EXISTS "A-Games:S/SkyChase"
+  Delete >NIL: "A-Games:S/SkyChase" ALL
+ENDIF
 IF EXISTS "A-Games:S/Skyfox"
   Delete >NIL: "A-Games:S/Skyfox" ALL
 ENDIF
@@ -5364,6 +5436,9 @@ IF EXISTS "A-Games:S/Spaceball"
 ENDIF
 IF EXISTS "A-Games:S/SpaceCrusade"
   Delete >NIL: "A-Games:S/SpaceCrusade" ALL
+ENDIF
+IF EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond"
+  Delete >NIL: "A-Games:S/SpaceCrusade&VoyageBeyond" ALL
 ENDIF
 IF EXISTS "A-Games:S/SpaceCrusade&VoyageBeyond"
   Delete >NIL: "A-Games:S/SpaceCrusade&VoyageBeyond" ALL
@@ -5655,6 +5730,9 @@ IF EXISTS "A-Games:S/SuperCars2Disk"
 ENDIF
 IF EXISTS "A-Games:S/SuperCauldron"
   Delete >NIL: "A-Games:S/SuperCauldron" ALL
+ENDIF
+IF EXISTS "A-Games:S/Superfrog"
+  Delete >NIL: "A-Games:S/Superfrog" ALL
 ENDIF
 IF EXISTS "A-Games:S/Superfrog"
   Delete >NIL: "A-Games:S/Superfrog" ALL
@@ -6055,6 +6133,93 @@ ENDIF
 IF EXISTS "A-Games:T/TimeRunnersSeries"
   Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
 ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
+IF EXISTS "A-Games:T/TimeRunnersSeries"
+  Delete >NIL: "A-Games:T/TimeRunnersSeries" ALL
+ENDIF
 IF EXISTS "A-Games:T/TimeScanner"
   Delete >NIL: "A-Games:T/TimeScanner" ALL
 ENDIF
@@ -6205,6 +6370,9 @@ ENDIF
 IF EXISTS "A-Games:T/TubularWorldsECS"
   Delete >NIL: "A-Games:T/TubularWorldsECS" ALL
 ENDIF
+IF EXISTS "A-Games:T/TubularWorldsECS"
+  Delete >NIL: "A-Games:T/TubularWorldsECS" ALL
+ENDIF
 IF EXISTS "A-Games:T/Turbo"
   Delete >NIL: "A-Games:T/Turbo" ALL
 ENDIF
@@ -6213,6 +6381,9 @@ IF EXISTS "A-Games:T/TurboCup"
 ENDIF
 IF EXISTS "A-Games:T/TurboOutRun"
   Delete >NIL: "A-Games:T/TurboOutRun" ALL
+ENDIF
+IF EXISTS "A-Games:T/TurboTraxArcane"
+  Delete >NIL: "A-Games:T/TurboTraxArcane" ALL
 ENDIF
 IF EXISTS "A-Games:T/TurboTraxArcane"
   Delete >NIL: "A-Games:T/TurboTraxArcane" ALL
@@ -6385,6 +6556,9 @@ ENDIF
 IF EXISTS "A-Games:V/Virocop"
   Delete >NIL: "A-Games:V/Virocop" ALL
 ENDIF
+IF EXISTS "A-Games:V/Virocop"
+  Delete >NIL: "A-Games:V/Virocop" ALL
+ENDIF
 IF EXISTS "A-Games:V/Virus"
   Delete >NIL: "A-Games:V/Virus" ALL
 ENDIF
@@ -6415,6 +6589,9 @@ ENDIF
 IF EXISTS "A-Games:V/Vroom&DataDisk"
   Delete >NIL: "A-Games:V/Vroom&DataDisk" ALL
 ENDIF
+IF EXISTS "A-Games:V/Vroom&DataDisk"
+  Delete >NIL: "A-Games:V/Vroom&DataDisk" ALL
+ENDIF
 IF EXISTS "A-Games:V/VroomMultiPlayer"
   Delete >NIL: "A-Games:V/VroomMultiPlayer" ALL
 ENDIF
@@ -6430,8 +6607,11 @@ ENDIF
 IF EXISTS "A-Games:W/WackyRaces"
   Delete >NIL: "A-Games:W/WackyRaces" ALL
 ENDIF
-IF EXISTS "A-Games:W/WalkerDecrunched"
-  Delete >NIL: "A-Games:W/WalkerDecrunched" ALL
+IF EXISTS "A-Games:W/WalkerCrunched"
+  Delete >NIL: "A-Games:W/WalkerCrunched" ALL
+ENDIF
+IF EXISTS "A-Games:W/WalkerCrunched"
+  Delete >NIL: "A-Games:W/WalkerCrunched" ALL
 ENDIF
 IF EXISTS "A-Games:W/Wall"
   Delete >NIL: "A-Games:W/Wall" ALL

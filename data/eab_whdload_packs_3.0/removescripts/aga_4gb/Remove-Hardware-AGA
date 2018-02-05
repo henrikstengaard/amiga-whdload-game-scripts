@@ -217,6 +217,9 @@ ENDIF
 IF EXISTS "A-Games:J/JetstrikeAGA"
   Delete >NIL: "A-Games:J/JetstrikeAGA" ALL
 ENDIF
+IF EXISTS "A-Games:J/JetstrikeAGA"
+  Delete >NIL: "A-Games:J/JetstrikeAGA" ALL
+ENDIF
 IF EXISTS "A-Games:J/JurassicParkAGA"
   Delete >NIL: "A-Games:J/JurassicParkAGA" ALL
 ENDIF
@@ -378,6 +381,9 @@ IF EXISTS "A-Games:S/SuperStreetFighter2AGA"
 ENDIF
 IF EXISTS "A-Games:S/SuperStreetFighter2DXAGA"
   Delete >NIL: "A-Games:S/SuperStreetFighter2DXAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SuprStrtFtr2TrboAGA"
+  Delete >NIL: "A-Games:S/SuprStrtFtr2TrboAGA" ALL
 ENDIF
 IF EXISTS "A-Games:S/SuprStrtFtr2TrboAGA"
   Delete >NIL: "A-Games:S/SuprStrtFtr2TrboAGA" ALL

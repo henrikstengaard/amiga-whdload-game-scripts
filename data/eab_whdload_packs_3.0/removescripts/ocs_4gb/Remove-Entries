@@ -1,21 +1,21 @@
-; Remove WHDLoads
-; ---------------
+; Remove entries
+; --------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-12
+; Date: 2018-01-16
 ;
-; A remove WHDLoads script to remove unwanted WHDLoads language and hardware versions.
+; An AmigaDOS script to remove unwanted entries language and hardware versions.
 
 
-; Show error, if WHDLoads assign 'A-Games' doesn't exist
+; Show error, if assign 'A-Games' doesn't exist
 Assign >NIL: EXISTS A-Games:
 IF WARN
-  REQUESTCHOICE >NIL: "Error" "WHDLoads assign 'A-Games' doesn't exist!*N*NPlease verify WHDLoads assign is configured." "OK"
+  REQUESTCHOICE >NIL: "Error" "Assign 'A-Games' doesn't exist!*N*NPlease verify assign is configured." "OK"
   SKIP end
 ENDIF
 
 
-; Reset selected remove whdloads options
-; --------------------------------------
+; Reset selected remove entries options
+; -------------------------------------
 IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
   Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
 ENDIF
@@ -24,37 +24,37 @@ IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
 ENDIF
 
 
-; Build remove WHDLoads menu
-; --------------------------
-LAB removewhdloadsmenu
-echo "" NOLINE >T:removewhdloadsmenu
+; Build remove entries menu
+; -------------------------
+LAB removeentriesmenu
+echo "" NOLINE >T:removeentriesmenu
 
 ; Language 'DK' menu
-echo "Language DK : " NOLINE >>T:removewhdloadsmenu
+echo "Language DK : " NOLINE >>T:removeentriesmenu
 IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
-  echo "YES" >>T:removewhdloadsmenu
+  echo "YES" >>T:removeentriesmenu
 ELSE
-  echo "NO " >>T:removewhdloadsmenu
+  echo "NO " >>T:removeentriesmenu
 ENDIF
 
 ; Language 'EN' menu
-echo "Language EN : " NOLINE >>T:removewhdloadsmenu
+echo "Language EN : " NOLINE >>T:removeentriesmenu
 IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
-  echo "YES" >>T:removewhdloadsmenu
+  echo "YES" >>T:removeentriesmenu
 ELSE
-  echo "NO " >>T:removewhdloadsmenu
+  echo "NO " >>T:removeentriesmenu
 ENDIF
-echo "==============================" >>T:removewhdloadsmenu
-echo "Remove selected WHDLoads" >>T:removewhdloadsmenu
-echo "Quit" >>T:removewhdloadsmenu
+echo "==============================" >>T:removeentriesmenu
+echo "Remove selected entries" >>T:removeentriesmenu
+echo "Quit" >>T:removeentriesmenu
 
-; Show remove whdloads menu
-set removewhdloadsmenu ""
-set removewhdloadsmenu "`ReqList CLONERT I=T:removewhdloadsmenu H="Remove Game WHDLoads" PAGE=18`"
-delete >NIL: T:removewhdloadsmenu
+; Show remove entries menu
+set removeentriesmenu ""
+set removeentriesmenu "`C:RequestList TITLE="Remove Game Entries" LISTFILE="T:removeentriesmenu" WIDTH=320 LINES=20`"
+delete >NIL: T:removeentriesmenu
 
 ; Language 'DK' option
-IF "$removewhdloadsmenu" eq "1"
+IF "$removeentriesmenu" eq "1"
   IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
     Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
   ELSE
@@ -63,7 +63,7 @@ IF "$removewhdloadsmenu" eq "1"
 ENDIF
 
 ; Language 'EN' option
-IF "$removewhdloadsmenu" eq "2"
+IF "$removeentriesmenu" eq "2"
   IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
     Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
   ELSE
@@ -71,27 +71,27 @@ IF "$removewhdloadsmenu" eq "2"
   ENDIF
 ENDIF
 
-; Remove selected whdloads option
-IF "$removewhdloadsmenu" eq "4"
-  set confirm `RequestChoice "Confirm" "Are you sure you want to remove selected WHDLoads?" "Yes|No"`
+; Remove selected entries option
+IF "$removeentriesmenu" eq "4"
+  set confirm `RequestChoice "Confirm" "Are you sure you want to remove selected entries?" "Yes|No"`
   IF "$confirm" EQ "1"
-    SKIP runremovewhdloads
+    SKIP runremoveentries
   ENDIF
 ENDIF
 
 ; Quit option
-IF "$removewhdloadsmenu" eq "5"
+IF "$removeentriesmenu" eq "5"
   SKIP end
 ENDIF
 
-SKIP BACK removewhdloadsmenu
+SKIP BACK removeentriesmenu
 
 
-; Remove WHDLoads
+; Remove entries
 ; ---------------
-LAB runremovewhdloads
+LAB runremoveentries
 
-echo "*e[1mRemoving WHDLoads...*e[0m"
+echo "*e[1mRemoving entries...*e[0m"
 
 ; Remove language 'DK', if it's selected
 IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
@@ -108,7 +108,7 @@ echo "Done"
 
 
 echo ""
-echo "Remove WHDLoads is complete."
+echo "Remove entries is complete."
 echo ""
 ask "Press ENTER to continue"
 

@@ -67,11 +67,11 @@ ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DDemoPlayAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DDemoPlayAGA" ALL
 ENDIF
-IF EXISTS "A-Games:A/AlienBreed3DDemoLatestAGA"
-  Delete >NIL: "A-Games:A/AlienBreed3DDemoLatestAGA" ALL
-ENDIF
 IF EXISTS "A-Games:A/AlienBreed3DDemoRollAGA"
   Delete >NIL: "A-Games:A/AlienBreed3DDemoRollAGA" ALL
+ENDIF
+IF EXISTS "A-Games:A/AlienBreed3DDemoLatestAGA"
+  Delete >NIL: "A-Games:A/AlienBreed3DDemoLatestAGA" ALL
 ENDIF
 IF EXISTS "A-Games:A/AlienBreed3D2AGA"
   Delete >NIL: "A-Games:A/AlienBreed3D2AGA" ALL
@@ -148,11 +148,11 @@ ENDIF
 IF EXISTS "A-Games:B/BurntimeAGADe"
   Delete >NIL: "A-Games:B/BurntimeAGADe" ALL
 ENDIF
-IF EXISTS "A-Games:C/CapitalPunishmentAGACD"
-  Delete >NIL: "A-Games:C/CapitalPunishmentAGACD" ALL
-ENDIF
 IF EXISTS "A-Games:C/CapitalPunishmentAGA"
   Delete >NIL: "A-Games:C/CapitalPunishmentAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CapitalPunishmentAGACD"
+  Delete >NIL: "A-Games:C/CapitalPunishmentAGACD" ALL
 ENDIF
 IF EXISTS "A-Games:C/ChaosEngineAGA"
   Delete >NIL: "A-Games:C/ChaosEngineAGA" ALL
@@ -166,11 +166,11 @@ ENDIF
 IF EXISTS "A-Games:C/ChristophKolumbusAGADe"
   Delete >NIL: "A-Games:C/ChristophKolumbusAGADe" ALL
 ENDIF
-IF EXISTS "A-Games:C/CivilizationAGACD"
-  Delete >NIL: "A-Games:C/CivilizationAGACD" ALL
-ENDIF
 IF EXISTS "A-Games:C/CivilizationAGA"
   Delete >NIL: "A-Games:C/CivilizationAGA" ALL
+ENDIF
+IF EXISTS "A-Games:C/CivilizationAGACD"
+  Delete >NIL: "A-Games:C/CivilizationAGACD" ALL
 ENDIF
 IF EXISTS "A-Games:C/CivilizationAGADe"
   Delete >NIL: "A-Games:C/CivilizationAGADe" ALL
@@ -316,14 +316,14 @@ ENDIF
 IF EXISTS "A-Games:L/LordsOfTheRealmAGA"
   Delete >NIL: "A-Games:L/LordsOfTheRealmAGA" ALL
 ENDIF
-IF EXISTS "A-Games:L/LordsOfTheRealmAGAFast"
-  Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFast" ALL
-ENDIF
 IF EXISTS "A-Games:L/LordsOfTheRealmAGAFr"
   Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFr" ALL
 ENDIF
 IF EXISTS "A-Games:L/LordsOfTheRealmAGADe"
   Delete >NIL: "A-Games:L/LordsOfTheRealmAGADe" ALL
+ENDIF
+IF EXISTS "A-Games:L/LordsOfTheRealmAGAFast"
+  Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFast" ALL
 ENDIF
 IF EXISTS "A-Games:L/LordsOfTheRealmAGAFrFast"
   Delete >NIL: "A-Games:L/LordsOfTheRealmAGAFrFast" ALL
@@ -472,11 +472,11 @@ ENDIF
 IF EXISTS "A-Games:S/SlamTiltAGA"
   Delete >NIL: "A-Games:S/SlamTiltAGA" ALL
 ENDIF
-IF EXISTS "A-Games:S/SlamTiltAGA2MB"
-  Delete >NIL: "A-Games:S/SlamTiltAGA2MB" ALL
-ENDIF
 IF EXISTS "A-Games:S/SlamTiltDemoAGA"
   Delete >NIL: "A-Games:S/SlamTiltDemoAGA" ALL
+ENDIF
+IF EXISTS "A-Games:S/SlamTiltAGA2MB"
+  Delete >NIL: "A-Games:S/SlamTiltAGA2MB" ALL
 ENDIF
 IF EXISTS "A-Games:S/SleepwalkerAGA"
   Delete >NIL: "A-Games:S/SleepwalkerAGA" ALL
@@ -583,11 +583,11 @@ ENDIF
 IF EXISTS "A-Games:V/VirtualKartingDemoAGA"
   Delete >NIL: "A-Games:V/VirtualKartingDemoAGA" ALL
 ENDIF
-IF EXISTS "A-Games:V/VirtualKarting2AGACD"
-  Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
-ENDIF
 IF EXISTS "A-Games:V/VirtualKarting2AGA"
   Delete >NIL: "A-Games:V/VirtualKarting2AGA" ALL
+ENDIF
+IF EXISTS "A-Games:V/VirtualKarting2AGACD"
+  Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
 ENDIF
 IF EXISTS "A-Games:V/VirtualKarting2DemoAGA"
   Delete >NIL: "A-Games:V/VirtualKarting2DemoAGA" ALL
