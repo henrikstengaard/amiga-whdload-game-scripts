@@ -1,7 +1,0 @@
-Name      : Speedball
-Version   : NTSC
-Publisher : Image Works
-Year      : 1988
-Genre     : Sports - Miscellaneous
-Players   : 1 or 2, Simultaneous
-Whdload   : SpeedballNTSC.slave

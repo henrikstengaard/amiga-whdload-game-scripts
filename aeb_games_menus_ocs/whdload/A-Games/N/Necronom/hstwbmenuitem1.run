@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/Necronom/"
-IF EXISTS ENV:whdloadargs
-	whdload "Necronom.Slave" $whdloadargs
-ELSE
-	whdload "Necronom.Slave"
-ENDIF

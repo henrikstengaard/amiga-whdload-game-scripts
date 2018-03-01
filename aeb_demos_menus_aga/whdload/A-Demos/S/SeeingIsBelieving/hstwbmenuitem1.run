@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SeeingIsBelieving/"
-IF EXISTS ENV:whdloadargs
-	whdload "SeeingIsBelieving.slave" $whdloadargs
-ELSE
-	whdload "SeeingIsBelieving.slave"
-ENDIF

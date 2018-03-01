@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/Archon2/"
-IF EXISTS ENV:whdloadargs
-	whdload "Archon2.slave" $whdloadargs
-ELSE
-	whdload "Archon2.slave"
-ENDIF

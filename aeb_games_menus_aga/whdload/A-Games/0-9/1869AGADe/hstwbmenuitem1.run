@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:0-9/1869AGADe/"
-IF EXISTS ENV:whdloadargs
-	whdload "1869AGADe.Slave" $whdloadargs
-ELSE
-	whdload "1869AGADe.Slave"
-ENDIF

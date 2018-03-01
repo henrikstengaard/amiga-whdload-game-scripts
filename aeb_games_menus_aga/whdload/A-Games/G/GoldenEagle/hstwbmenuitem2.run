@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/GoldenEagle/"
-IF EXISTS ENV:whdloadargs
-	whdload "GoldenEagle.slave" $whdloadargs
-ELSE
-	whdload "GoldenEagle.slave"
-ENDIF

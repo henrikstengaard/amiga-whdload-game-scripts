@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/ZombieApocalypse2AGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "ZombieApocalypse2AGA.Slave" $whdloadargs
-ELSE
-	whdload "ZombieApocalypse2AGA.Slave"
-ENDIF

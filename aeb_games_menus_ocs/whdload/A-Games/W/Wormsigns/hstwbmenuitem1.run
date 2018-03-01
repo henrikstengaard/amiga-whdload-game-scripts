@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/Wormsigns/"
-IF EXISTS ENV:whdloadargs
-	whdload "Wormsigns.Slave" $whdloadargs
-ELSE
-	whdload "Wormsigns.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/Heimdall2/"
-IF EXISTS ENV:whdloadargs
-	whdload "Heimdall2.Slave" $whdloadargs
-ELSE
-	whdload "Heimdall2.Slave"
-ENDIF

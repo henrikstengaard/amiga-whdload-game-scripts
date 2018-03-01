@@ -1,7 +1,0 @@
-Name      : Syndicate
-Version   : CD32
-Publisher : Mindscape
-Year      : 1995
-Genre     : Strategy - Company
-Players   : 1 Only
-Whdload   : SyndicateCD32.slave

@@ -1,6 +1,0 @@
-Name      : Fascination
-Publisher : Coktel Vision
-Year      : 1991
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : Fascination.Slave

@@ -1,7 +1,0 @@
-Name      : D/Generation
-Version   : AGA
-Publisher : Mindscape
-Year      : 1992
-Genre     : Adventure - Isometric 3D
-Players   : 1 Only
-Whdload   : DGenerationAGA.slave

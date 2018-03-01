@@ -1,7 +1,0 @@
-Name      : Beneath A Steel Sky
-Language  : Italian
-Publisher : Virgin Interactive
-Year      : 1994
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : BeneathAStlSkyIt.Slave

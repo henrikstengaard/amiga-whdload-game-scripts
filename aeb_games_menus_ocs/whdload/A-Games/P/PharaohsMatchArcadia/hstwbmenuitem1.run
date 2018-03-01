@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PharaohsMatchArcadia/"
-IF EXISTS ENV:whdloadargs
-	whdload "PharaohsMatchArcadia.Slave" $whdloadargs
-ELSE
-	whdload "PharaohsMatchArcadia.Slave"
-ENDIF

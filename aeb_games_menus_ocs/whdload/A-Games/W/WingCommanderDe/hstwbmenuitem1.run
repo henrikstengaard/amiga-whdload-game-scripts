@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WingCommanderDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "WingCommanderDe.Slave" $whdloadargs
-ELSE
-	whdload "WingCommanderDe.Slave"
-ENDIF

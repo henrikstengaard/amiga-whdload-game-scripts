@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BansheeAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "BansheeAGA.slave" $whdloadargs
-ELSE
-	whdload "BansheeAGA.slave"
-ENDIF

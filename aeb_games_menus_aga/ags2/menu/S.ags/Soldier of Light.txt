@@ -1,5 +1,0 @@
-Name      : Soldier of Light
-Publisher : ACE
-Year      : 1988
-Players   : 1 Only
-Whdload   : SoldierOfLight.slave

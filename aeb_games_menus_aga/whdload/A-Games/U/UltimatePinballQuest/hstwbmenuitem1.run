@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:U/UltimatePinballQuest/"
-IF EXISTS ENV:whdloadargs
-	whdload "UltimatePinballQuest.Slave" $whdloadargs
-ELSE
-	whdload "UltimatePinballQuest.Slave"
-ENDIF

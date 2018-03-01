@@ -1,6 +1,0 @@
-Name      : BloodNet [AGA]
-Version   : AGA
-Publisher : Gametek / Microprose
-Year      : 1995
-Players   : 1
-Whdload   : BloodnetAGA.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CedricCD32Fast/"
-IF EXISTS ENV:whdloadargs
-	whdload "CedricCD32Fast.Slave" $whdloadargs
-ELSE
-	whdload "CedricCD32Fast.Slave"
-ENDIF

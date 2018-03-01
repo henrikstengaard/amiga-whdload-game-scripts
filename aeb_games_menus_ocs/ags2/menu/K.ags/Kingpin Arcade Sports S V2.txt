@@ -1,7 +1,0 @@
-Name      : Kingpin: Arcade Sports Series Bowling
-Version   : 1MB
-Publisher : Team 17
-Year      : 1995
-Genre     : Sports - Bowling
-Players   : 1 to 6
-Whdload   : Kingpin1Mb.Slave

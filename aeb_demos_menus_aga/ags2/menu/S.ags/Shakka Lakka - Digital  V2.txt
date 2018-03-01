@@ -1,5 +1,0 @@
-Name    : Shakka Lakka
-Version : AGA
-Groups  : Digital
-Type    : Demo
-Whdload : ShakkaLakkaAGA.Slave

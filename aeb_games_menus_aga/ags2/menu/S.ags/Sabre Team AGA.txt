@@ -1,7 +1,0 @@
-Name      : Sabre Team
-Version   : AGA
-Publisher : Krisalis
-Year      : 1992
-Genre     : Strategy - War
-Players   : 1 Only
-Whdload   : SabreTeamAGA.Slave

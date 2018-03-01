@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/MagiclandDizzy/data/"
-IF EXISTS ENV:whdloadargs
-	whdload "MagiclandDizzy.slave" $whdloadargs
-ELSE
-	whdload "MagiclandDizzy.slave"
-ENDIF

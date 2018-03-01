@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/Trog/"
-IF EXISTS ENV:whdloadargs
-	whdload "Trog.Slave" $whdloadargs
-ELSE
-	whdload "Trog.Slave"
-ENDIF

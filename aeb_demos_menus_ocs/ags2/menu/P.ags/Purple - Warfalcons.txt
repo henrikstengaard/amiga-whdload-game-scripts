@@ -1,4 +1,0 @@
-Name    : Purple
-Groups  : Warfalcons
-Type    : Demo
-Whdload : Purple.Slave

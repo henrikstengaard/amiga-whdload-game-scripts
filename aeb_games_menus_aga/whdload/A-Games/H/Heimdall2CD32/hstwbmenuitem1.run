@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/Heimdall2CD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "Heimdall2CD32.Slave" $whdloadargs
-ELSE
-	whdload "Heimdall2CD32.Slave"
-ENDIF

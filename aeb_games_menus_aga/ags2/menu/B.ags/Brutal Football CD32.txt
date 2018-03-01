@@ -1,6 +1,0 @@
-Name      : Brutal Football
-Version   : CD32
-Publisher : Millennium
-Year      : 1993
-Players   : 1 - 8 (2 simultaneous)
-Whdload   : BrutalFootballCD32.Slave

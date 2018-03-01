@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/Hyperdome/"
-IF EXISTS ENV:whdloadargs
-	whdload "Hyperdome.Slave" $whdloadargs
-ELSE
-	whdload "Hyperdome.Slave"
-ENDIF

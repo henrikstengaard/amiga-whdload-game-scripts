@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TotalRecallFiles/"
-IF EXISTS ENV:whdloadargs
-	whdload "TotalRecallFiles.Slave" $whdloadargs
-ELSE
-	whdload "TotalRecallFiles.Slave"
-ENDIF

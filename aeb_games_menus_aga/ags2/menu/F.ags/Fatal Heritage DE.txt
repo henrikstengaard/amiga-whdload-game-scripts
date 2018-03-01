@@ -1,7 +1,0 @@
-Name      : Fatal Heritage
-Language  : German
-Publisher : Delta Konzept
-Year      : 1990
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : FatalHeritageDe.Slave

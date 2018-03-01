@@ -1,7 +1,0 @@
-Name    : Mina Omistan
-Version : AGA
-Groups  : Movement
-Type    : Demo
-Party   : Saturne 1994
-Rank    : 5th
-Whdload : MinaOmistanAGA.Slave

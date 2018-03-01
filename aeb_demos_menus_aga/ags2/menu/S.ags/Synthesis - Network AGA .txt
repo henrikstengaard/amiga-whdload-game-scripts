@@ -1,7 +1,0 @@
-Name    : Synthesis
-Version : AGA
-Groups  : Network
-Type    : Demo
-Party   : Assembly 1998
-Rank    : 3rd
-Whdload : SynthesisNetworkAGA.slave

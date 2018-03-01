@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AlfredChickenCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "AlfredChickenCD32.slave" $whdloadargs
-ELSE
-	whdload "AlfredChickenCD32.slave"
-ENDIF

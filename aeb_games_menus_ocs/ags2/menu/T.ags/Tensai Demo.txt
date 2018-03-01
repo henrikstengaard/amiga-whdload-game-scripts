@@ -1,6 +1,0 @@
-Name      : Tensai
-Version   : Demo
-Publisher : Grandslam
-Year      : [unreleased]
-Players   : 1
-Whdload   : TensaiDemo.Slave

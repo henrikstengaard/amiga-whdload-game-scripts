@@ -1,7 +1,0 @@
-Name      : Super Skweek
-Version   : 512K
-Publisher : Loriciel
-Year      : 1990
-Genre     : Brain - Puzzle
-Players   : 1 or 2, Simultaneous
-Whdload   : SuperSkweek512k.Slave

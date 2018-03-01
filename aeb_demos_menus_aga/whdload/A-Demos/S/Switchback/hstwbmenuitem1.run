@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/Switchback/"
-IF EXISTS ENV:whdloadargs
-	whdload "Switchback.Slave" $whdloadargs
-ELSE
-	whdload "Switchback.Slave"
-ENDIF

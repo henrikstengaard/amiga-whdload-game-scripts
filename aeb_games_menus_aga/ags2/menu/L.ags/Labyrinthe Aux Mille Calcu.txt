@@ -1,6 +1,0 @@
-Name      : Labyrinthe Aux Mille Calculs, Le
-Language  : French
-Publisher : RETZ
-Year      : 1989
-Players   : 1
-Whdload   : LabyrintheMilleCalculsFr.Slave

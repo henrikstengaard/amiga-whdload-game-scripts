@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PinballPrelude/"
-IF EXISTS ENV:whdloadargs
-	whdload "PinballPrelude.slave" $whdloadargs
-ELSE
-	whdload "PinballPrelude.slave"
-ENDIF

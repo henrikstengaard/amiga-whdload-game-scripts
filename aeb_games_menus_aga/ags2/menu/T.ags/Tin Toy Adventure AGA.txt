@@ -1,7 +1,0 @@
-Name      : Tin Toy Adventure
-Version   : AGA
-Publisher : Mutation Software
-Year      : 1996
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : TinToyAdventureAGA.Slave

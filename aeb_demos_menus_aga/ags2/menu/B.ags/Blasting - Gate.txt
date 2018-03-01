@@ -1,4 +1,0 @@
-Name    : Blasting
-Groups  : Gate
-Type    : Demo
-Whdload : Blasting.Slave

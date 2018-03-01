@@ -1,7 +1,0 @@
-Name    : When we ride on our enemies
-Version : AGA
-Groups  : Skarla
-Type    : Demo
-Party   : Mekka &amp
-Rank    : 2nd
-Whdload : WhenWeRideAGA.slave

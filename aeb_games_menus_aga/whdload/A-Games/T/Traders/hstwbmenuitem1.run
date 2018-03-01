@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/Traders/"
-IF EXISTS ENV:whdloadargs
-	whdload "Traders.slave" $whdloadargs
-ELSE
-	whdload "Traders.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/Zynaps/"
-IF EXISTS ENV:whdloadargs
-	whdload "Zynaps.slave" $whdloadargs
-ELSE
-	whdload "Zynaps.slave"
-ENDIF

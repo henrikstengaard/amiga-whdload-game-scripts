@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BurningRubber/data/"
-IF EXISTS ENV:whdloadargs
-	whdload "RipDisk2.slave" $whdloadargs
-ELSE
-	whdload "RipDisk2.slave"
-ENDIF

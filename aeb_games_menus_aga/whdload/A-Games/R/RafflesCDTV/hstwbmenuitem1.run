@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RafflesCDTV/"
-IF EXISTS ENV:whdloadargs
-	whdload "RafflesCDTV.slave" $whdloadargs
-ELSE
-	whdload "RafflesCDTV.slave"
-ENDIF

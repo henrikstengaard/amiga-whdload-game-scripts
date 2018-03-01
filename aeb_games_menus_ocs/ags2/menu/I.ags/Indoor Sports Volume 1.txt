@@ -1,6 +1,0 @@
-Name      : Indoor Sports: Volume 1
-Publisher : Mindscape
-Year      : 1987
-Genre     : Sports - Multi-Event
-Players   : 1 to 4, Simultaneous
-Whdload   : IndoorSports.Slave

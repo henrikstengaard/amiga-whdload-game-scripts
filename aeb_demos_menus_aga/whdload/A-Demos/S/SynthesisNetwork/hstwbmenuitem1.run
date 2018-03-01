@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SynthesisNetwork/"
-IF EXISTS ENV:whdloadargs
-	whdload "SynthesisNetwork.slave" $whdloadargs
-ELSE
-	whdload "SynthesisNetwork.slave"
-ENDIF

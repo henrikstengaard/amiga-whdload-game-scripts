@@ -1,7 +1,0 @@
-Name      : Schwarze Auge, Das: Die Schicksalsklinge
-Language  : German
-Publisher : Attic Entertainment Software
-Year      : 1992
-Genre     : Adventure - RPG 3D
-Players   : 1 Only
-Whdload   : SchwarzeAugeDe.slave

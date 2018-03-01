@@ -1,6 +1,0 @@
-Name      : Humans, The
-Version   : CD32
-Publisher : Mirage
-Year      : 1992
-Genre     : Arcade - Miscellaneous
-Whdload   : HumansCD32.slave

@@ -1,7 +1,0 @@
-Name      : Curse of Enchantia
-Version   : FAST Image
-Publisher : Core Design
-Year      : 1992
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : CurseOfEnchantiaFastImage.Slave

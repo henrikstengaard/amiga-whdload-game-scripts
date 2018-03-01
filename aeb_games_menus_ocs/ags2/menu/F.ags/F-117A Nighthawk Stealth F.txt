@@ -1,5 +1,0 @@
-Name      : F-117A Nighthawk Stealth Fighter 2.0
-Publisher : MicroProse
-Year      : 1993
-Players   : 1
-Whdload   : NightHawkF117A.Slave

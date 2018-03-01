@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AventuresDeMoktarFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "AventuresDeMoktarFr.slave" $whdloadargs
-ELSE
-	whdload "AventuresDeMoktarFr.slave"
-ENDIF

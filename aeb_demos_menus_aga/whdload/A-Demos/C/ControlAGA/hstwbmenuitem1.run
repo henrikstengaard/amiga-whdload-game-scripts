@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:C/ControlAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "ControlAGA.slave" $whdloadargs
-ELSE
-	whdload "ControlAGA.slave"
-ENDIF

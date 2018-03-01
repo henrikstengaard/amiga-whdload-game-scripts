@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SoulKitchen/"
-IF EXISTS ENV:whdloadargs
-	whdload "SoulKitchen.slave" $whdloadargs
-ELSE
-	whdload "SoulKitchen.slave"
-ENDIF

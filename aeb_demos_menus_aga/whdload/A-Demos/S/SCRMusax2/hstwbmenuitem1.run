@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SCRMusax2/"
-IF EXISTS ENV:whdloadargs
-	whdload "SCRMusax2.Slave" $whdloadargs
-ELSE
-	whdload "SCRMusax2.Slave"
-ENDIF

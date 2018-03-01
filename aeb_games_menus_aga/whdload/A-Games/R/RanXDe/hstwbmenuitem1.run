@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RanXDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "RanXDe.Slave" $whdloadargs
-ELSE
-	whdload "RanXDe.Slave"
-ENDIF

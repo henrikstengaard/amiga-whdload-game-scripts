@@ -1,6 +1,0 @@
-Name      : Breathless
-Version   : AGA Demo
-Publisher : Power Computing
-Year      : 1996
-Players   : 1 Only
-Whdload   : BreathlessDemo.Slave

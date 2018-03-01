@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PowermongerWW1Edition/"
-IF EXISTS ENV:whdloadargs
-	whdload "PowermongerWW1Edition.slave" $whdloadargs
-ELSE
-	whdload "PowermongerWW1Edition.slave"
-ENDIF

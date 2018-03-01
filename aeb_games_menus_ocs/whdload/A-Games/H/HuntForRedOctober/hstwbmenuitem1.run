@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HuntForRedOctober/"
-IF EXISTS ENV:whdloadargs
-	whdload "HuntForRedOctober.Slave" $whdloadargs
-ELSE
-	whdload "HuntForRedOctober.Slave"
-ENDIF

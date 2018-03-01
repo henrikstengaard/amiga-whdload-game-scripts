@@ -1,4 +1,0 @@
-Name    : Megademo 2
-Groups  : Bass
-Type    : Demo
-Whdload : Megademo2Bass.slave

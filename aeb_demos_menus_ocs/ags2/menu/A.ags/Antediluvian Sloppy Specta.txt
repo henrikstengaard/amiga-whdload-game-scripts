@@ -1,4 +1,0 @@
-Name    : Antediluvian Sloppy Spectacle
-Groups  : Essence
-Type    : Demo
-Whdload : A.S.S.slave

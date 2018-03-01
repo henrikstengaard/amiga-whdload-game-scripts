@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:X/XTremeRacing&DataDisksAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "XTremeRacing&DataDisksAGA.slave" $whdloadargs
-ELSE
-	whdload "XTremeRacing&DataDisksAGA.slave"
-ENDIF

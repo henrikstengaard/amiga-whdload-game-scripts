@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RingsOfMedusaGoldDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "RingsOfMedusaGoldDe.Slave" $whdloadargs
-ELSE
-	whdload "RingsOfMedusaGoldDe.Slave"
-ENDIF

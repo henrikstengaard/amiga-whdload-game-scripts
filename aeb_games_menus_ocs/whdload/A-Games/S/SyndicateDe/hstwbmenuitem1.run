@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SyndicateDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "SyndicateDe.slave" $whdloadargs
-ELSE
-	whdload "SyndicateDe.slave"
-ENDIF

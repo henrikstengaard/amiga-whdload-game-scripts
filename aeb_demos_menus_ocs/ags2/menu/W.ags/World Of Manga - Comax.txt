@@ -1,4 +1,0 @@
-Name    : World Of Manga
-Groups  : Comax
-Type    : Slideshow
-Whdload : WorldOfManga.Slave

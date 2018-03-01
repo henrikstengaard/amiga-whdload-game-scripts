@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Sextimates/"
-IF EXISTS ENV:whdloadargs
-	whdload "Sextimates.Slave" $whdloadargs
-ELSE
-	whdload "Sextimates.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BattleForAshesAmigaPower/"
-IF EXISTS ENV:whdloadargs
-	whdload "BattleForAshesAmigaPower.Slave" $whdloadargs
-ELSE
-	whdload "BattleForAshesAmigaPower.Slave"
-ENDIF

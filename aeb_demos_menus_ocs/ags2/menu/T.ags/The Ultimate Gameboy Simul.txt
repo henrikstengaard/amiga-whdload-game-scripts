@@ -1,4 +1,0 @@
-Name    : The Ultimate Gameboy Simulator - Tetris
-Groups  : Symbiosis
-Type    : Game
-Whdload : UltimateGameBoySimulator.Slave

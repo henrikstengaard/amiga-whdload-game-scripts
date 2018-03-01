@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RocketRanger/"
-IF EXISTS ENV:whdloadargs
-	whdload "RocketRanger.Slave" $whdloadargs
-ELSE
-	whdload "RocketRanger.Slave"
-ENDIF

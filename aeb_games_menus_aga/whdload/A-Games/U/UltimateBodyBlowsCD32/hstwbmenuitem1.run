@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:U/UltimateBodyBlowsCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "UltimateBodyBlowsCD32.slave" $whdloadargs
-ELSE
-	whdload "UltimateBodyBlowsCD32.slave"
-ENDIF

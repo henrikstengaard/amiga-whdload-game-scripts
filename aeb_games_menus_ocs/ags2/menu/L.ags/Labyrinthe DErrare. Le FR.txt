@@ -1,6 +1,0 @@
-Name      : Labyrinthe D'Errare, Le
-Language  : French
-Publisher : RETZ
-Year      : 1990
-Players   : 1
-Whdload   : LabyrintheDErrareFr.Slave

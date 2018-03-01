@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Chicago90/"
-IF EXISTS ENV:whdloadargs
-	whdload "Chicago90.Slave" $whdloadargs
-ELSE
-	whdload "Chicago90.Slave"
-ENDIF

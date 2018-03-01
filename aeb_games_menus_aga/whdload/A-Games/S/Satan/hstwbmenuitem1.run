@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Satan/"
-IF EXISTS ENV:whdloadargs
-	whdload "Satan.slave" $whdloadargs
-ELSE
-	whdload "Satan.slave"
-ENDIF

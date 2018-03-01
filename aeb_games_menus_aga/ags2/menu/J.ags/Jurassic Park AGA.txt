@@ -1,6 +1,0 @@
-Name      : Jurassic Park
-Version   : AGA
-Publisher : Ocean
-Year      : 1993
-Players   : 1 Only
-Whdload   : JurassicParkAGA.slave

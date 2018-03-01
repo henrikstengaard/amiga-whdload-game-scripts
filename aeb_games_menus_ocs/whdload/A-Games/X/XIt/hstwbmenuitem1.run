@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:X/XIt/"
-IF EXISTS ENV:whdloadargs
-	whdload "XIt.Slave" $whdloadargs
-ELSE
-	whdload "XIt.Slave"
-ENDIF

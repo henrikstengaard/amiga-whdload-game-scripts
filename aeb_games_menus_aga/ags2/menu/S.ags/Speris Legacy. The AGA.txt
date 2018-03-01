@@ -1,7 +1,0 @@
-Name      : Speris Legacy, The
-Version   : AGA
-Publisher : Team 17
-Year      : 1996
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : SperisLegacyAGA.Slave

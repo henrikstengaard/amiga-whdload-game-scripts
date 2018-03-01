@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PGAEuropeanTourAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "PGAEuropeanTourAGA.Slave" $whdloadargs
-ELSE
-	whdload "PGAEuropeanTourAGA.Slave"
-ENDIF

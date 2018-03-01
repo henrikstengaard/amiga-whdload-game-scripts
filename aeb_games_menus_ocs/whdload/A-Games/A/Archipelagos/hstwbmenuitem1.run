@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/Archipelagos/"
-IF EXISTS ENV:whdloadargs
-	whdload "Archipelagos.slave" $whdloadargs
-ELSE
-	whdload "Archipelagos.slave"
-ENDIF

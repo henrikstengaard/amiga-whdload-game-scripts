@@ -1,7 +1,0 @@
-Name      : Freedom: Rebels in the Darkness
-Language  : German
-Publisher : Coktel Vision
-Year      : 1988
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : FreedomDe.Slave

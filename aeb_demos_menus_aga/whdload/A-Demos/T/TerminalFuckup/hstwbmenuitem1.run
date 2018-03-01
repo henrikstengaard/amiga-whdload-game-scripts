@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:T/TerminalFuckup/"
-IF EXISTS ENV:whdloadargs
-	whdload "TerminalFuckup.Slave" $whdloadargs
-ELSE
-	whdload "TerminalFuckup.Slave"
-ENDIF

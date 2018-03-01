@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Campaign/"
-IF EXISTS ENV:whdloadargs
-	whdload "Campaign.slave" $whdloadargs
-ELSE
-	whdload "Campaign.slave"
-ENDIF

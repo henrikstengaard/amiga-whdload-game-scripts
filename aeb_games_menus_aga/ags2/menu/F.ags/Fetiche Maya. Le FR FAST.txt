@@ -1,8 +1,0 @@
-Name      : Fetiche Maya, Le
-Language  : French
-Version   : FAST
-Publisher : Silmarils
-Year      : 1989
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : MayaFastFr.slave

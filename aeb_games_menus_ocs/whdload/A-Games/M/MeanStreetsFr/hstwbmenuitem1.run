@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/MeanStreetsFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "MeanStreetsFr.slave" $whdloadargs
-ELSE
-	whdload "MeanStreetsFr.slave"
-ENDIF

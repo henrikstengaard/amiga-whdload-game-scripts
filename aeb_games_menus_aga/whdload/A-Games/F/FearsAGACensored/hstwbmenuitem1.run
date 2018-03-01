@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FearsAGACensored/"
-IF EXISTS ENV:whdloadargs
-	whdload "FearsAGACensored.slave" $whdloadargs
-ELSE
-	whdload "FearsAGACensored.slave"
-ENDIF

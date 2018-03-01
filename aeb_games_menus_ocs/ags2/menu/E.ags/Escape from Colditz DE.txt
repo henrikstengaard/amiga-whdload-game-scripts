@@ -1,7 +1,0 @@
-Name      : Escape from Colditz
-Language  : German
-Publisher : Digital Magic Software
-Year      : 1991
-Genre     : Adventure - Arcade 3D
-Players   : 1 Only
-Whdload   : FluchtAusColditzDe.slave

@@ -1,5 +1,0 @@
-Name      : Tetrix
-Publisher : Amiga Fun Gold Edition (CompuTec Verlag)
-Year      : 1991
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : Tetrix.Slave

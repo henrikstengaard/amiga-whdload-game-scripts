@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/Pandora/"
-IF EXISTS ENV:whdloadargs
-	whdload "Pandora.Slave" $whdloadargs
-ELSE
-	whdload "Pandora.Slave"
-ENDIF

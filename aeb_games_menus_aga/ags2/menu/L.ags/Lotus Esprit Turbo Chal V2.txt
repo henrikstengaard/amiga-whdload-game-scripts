@@ -1,7 +1,0 @@
-Name      : Lotus Esprit Turbo Challenge
-Version   : CD32
-Publisher : Gremlin Graphics
-Year      : 1990
-Genre     : Racing - Cars
-Players   : 1 or 2, Simultaneous
-Whdload   : LotusCD32.Slave

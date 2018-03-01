@@ -1,6 +1,0 @@
-Name      : Total Carnage
-Version   : AGA
-Publisher : ICE
-Year      : 1994
-Players   : 1 or 2, Simultaneous
-Whdload   : TotalCarnageAGA.Slave

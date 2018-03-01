@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/ZoolCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "ZoolCD32.slave" $whdloadargs
-ELSE
-	whdload "ZoolCD32.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MinaOmistan/"
-IF EXISTS ENV:whdloadargs
-	whdload "MinaOmistan.Slave" $whdloadargs
-ELSE
-	whdload "MinaOmistan.Slave"
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Rody & Mastico II
-Language  : French
-Publisher : Lankhor
-Year      : 1990
-Players   : 1
-Whdload   : Rody&Mastico2Fr.Slave

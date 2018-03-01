@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BlackLamp/"
-IF EXISTS ENV:whdloadargs
-	whdload "BlackLamp.Slave" $whdloadargs
-ELSE
-	whdload "BlackLamp.Slave"
-ENDIF

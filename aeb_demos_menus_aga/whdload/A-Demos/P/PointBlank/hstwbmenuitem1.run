@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/PointBlank/"
-IF EXISTS ENV:whdloadargs
-	whdload "PointBlank.Slave" $whdloadargs
-ELSE
-	whdload "PointBlank.Slave"
-ENDIF

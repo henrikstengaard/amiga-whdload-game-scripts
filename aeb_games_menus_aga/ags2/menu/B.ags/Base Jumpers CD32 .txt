@@ -1,7 +1,0 @@
-Name      : Base Jumpers
-Version   : CD32
-Publisher : Rasputin
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 to 4
-Whdload   : BaseJumpersCD32.slave

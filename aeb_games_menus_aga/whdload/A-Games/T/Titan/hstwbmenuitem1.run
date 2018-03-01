@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/Titan/"
-IF EXISTS ENV:whdloadargs
-	whdload "Titan.slave" $whdloadargs
-ELSE
-	whdload "Titan.slave"
-ENDIF

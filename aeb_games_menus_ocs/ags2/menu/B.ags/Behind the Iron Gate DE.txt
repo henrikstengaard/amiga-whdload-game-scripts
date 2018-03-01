@@ -1,6 +1,0 @@
-Name      : Behind the Iron Gate
-Language  : German
-Publisher : Black Legend
-Year      : 1995
-Players   : 1 Only
-Whdload   : BehindTheIronGateDe.slave

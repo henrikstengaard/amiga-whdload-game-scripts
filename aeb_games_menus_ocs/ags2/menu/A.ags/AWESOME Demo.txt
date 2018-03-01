@@ -1,6 +1,0 @@
-Name      : AWESOME
-Version   : Demo
-Publisher : Psygnosis
-Year      : 1990
-Players   : 1 Only
-Whdload   : AwesomeDemo.Slave

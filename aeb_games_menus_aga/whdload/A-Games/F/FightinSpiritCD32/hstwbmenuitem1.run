@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FightinSpiritCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "FightinSpiritCD32.slave" $whdloadargs
-ELSE
-	whdload "FightinSpiritCD32.slave"
-ENDIF

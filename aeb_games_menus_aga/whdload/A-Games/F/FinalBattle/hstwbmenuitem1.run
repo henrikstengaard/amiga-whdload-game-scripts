@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FinalBattle/"
-IF EXISTS ENV:whdloadargs
-	whdload "FinalBattle.slave" $whdloadargs
-ELSE
-	whdload "FinalBattle.slave"
-ENDIF

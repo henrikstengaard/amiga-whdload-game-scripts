@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SheFox/"
-IF EXISTS ENV:whdloadargs
-	whdload "SheFox.slave" $whdloadargs
-ELSE
-	whdload "SheFox.slave"
-ENDIF

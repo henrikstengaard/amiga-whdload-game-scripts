@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/Prehistorik/"
-IF EXISTS ENV:whdloadargs
-	whdload "Prehistorik.slave" $whdloadargs
-ELSE
-	whdload "Prehistorik.slave"
-ENDIF

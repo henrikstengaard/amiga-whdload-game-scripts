@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RiskyWoods/"
-IF EXISTS ENV:whdloadargs
-	whdload "RiskyWoods.Slave" $whdloadargs
-ELSE
-	whdload "RiskyWoods.Slave"
-ENDIF

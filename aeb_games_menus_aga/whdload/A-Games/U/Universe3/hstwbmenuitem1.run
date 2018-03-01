@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:U/Universe3/"
-IF EXISTS ENV:whdloadargs
-	whdload "Universe3.Slave" $whdloadargs
-ELSE
-	whdload "Universe3.Slave"
-ENDIF

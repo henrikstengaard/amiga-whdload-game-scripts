@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SideShow/"
-IF EXISTS ENV:whdloadargs
-	whdload "SideShow.Slave" $whdloadargs
-ELSE
-	whdload "SideShow.Slave"
-ENDIF

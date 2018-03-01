@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SanctuaryDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "SanctuaryDe.Slave" $whdloadargs
-ELSE
-	whdload "SanctuaryDe.Slave"
-ENDIF

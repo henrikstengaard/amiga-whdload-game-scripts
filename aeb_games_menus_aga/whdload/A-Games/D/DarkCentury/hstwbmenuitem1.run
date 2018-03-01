@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DarkCentury/"
-IF EXISTS ENV:whdloadargs
-	whdload "DarkCentury.Slave" $whdloadargs
-ELSE
-	whdload "DarkCentury.Slave"
-ENDIF

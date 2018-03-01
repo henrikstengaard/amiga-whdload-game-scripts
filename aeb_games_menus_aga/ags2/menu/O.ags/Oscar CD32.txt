@@ -1,7 +1,0 @@
-Name      : Oscar
-Version   : CD32
-Publisher : Flair Software
-Year      : 1993
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : OscarCD32.Slave

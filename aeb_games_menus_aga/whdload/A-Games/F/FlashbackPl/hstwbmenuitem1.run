@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FlashbackPl/"
-IF EXISTS ENV:whdloadargs
-	whdload "FlashbackPl.slave" $whdloadargs
-ELSE
-	whdload "FlashbackPl.slave"
-ENDIF

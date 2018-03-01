@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/Virus/"
-IF EXISTS ENV:whdloadargs
-	whdload "Virus.slave" $whdloadargs
-ELSE
-	whdload "Virus.slave"
-ENDIF

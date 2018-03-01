@@ -1,7 +1,0 @@
-Name      : Darkseed
-Version   : CD32
-Publisher : Cyberdreams
-Year      : 1992
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : DarkSeedCD32.Slave

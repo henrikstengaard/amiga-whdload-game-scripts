@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ColoradoFast/"
-IF EXISTS ENV:whdloadargs
-	whdload "ColoradoFast.Slave" $whdloadargs
-ELSE
-	whdload "ColoradoFast.Slave"
-ENDIF

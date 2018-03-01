@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/Logo/"
-IF EXISTS ENV:whdloadargs
-	whdload "Logo.Slave" $whdloadargs
-ELSE
-	whdload "Logo.Slave"
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Western Games
-Publisher : Magic Bytes
-Year      : 1987
-Genre     : Sports - Multi-Event
-Players   : 1 or 2, Simultaneous
-Whdload   : WesternGames.slave

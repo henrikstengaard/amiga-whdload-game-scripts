@@ -1,4 +1,0 @@
-Name    : Just For Your Ears
-Groups  : Brainwave
-Type    : Musicdisk
-Whdload : Just4YourEars.Slave

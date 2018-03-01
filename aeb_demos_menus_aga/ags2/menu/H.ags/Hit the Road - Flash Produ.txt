@@ -1,5 +1,0 @@
-Name    : Hit the Road
-Groups  : Flash Production
-Type    : Megademo
-Party   : Dominators, Upfront and Trilogy Christmas Party 89
-Whdload : HitTheRoad.Slave

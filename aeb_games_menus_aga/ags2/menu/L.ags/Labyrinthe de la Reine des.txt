@@ -1,6 +1,0 @@
-Name      : Labyrinthe de la Reine des Ombres, Le
-Language  : French
-Publisher : RETZ
-Year      : 1991
-Players   : 1
-Whdload   : LabyrintheReineOmbresFr.Slave

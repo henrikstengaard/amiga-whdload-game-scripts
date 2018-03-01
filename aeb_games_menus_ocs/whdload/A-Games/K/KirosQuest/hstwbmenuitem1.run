@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/KirosQuest/"
-IF EXISTS ENV:whdloadargs
-	whdload "KirosQuest.Slave" $whdloadargs
-ELSE
-	whdload "KirosQuest.Slave"
-ENDIF

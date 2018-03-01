@@ -1,4 +1,0 @@
-Name    : Stop Fascism
-Groups  : Alcatraz,Interactive
-Type    : Demo
-Whdload : StopFascism.Slave

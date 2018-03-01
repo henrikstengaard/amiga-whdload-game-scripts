@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FastBrainPl/"
-IF EXISTS ENV:whdloadargs
-	whdload "FastBrainPl.slave" $whdloadargs
-ELSE
-	whdload "FastBrainPl.slave"
-ENDIF

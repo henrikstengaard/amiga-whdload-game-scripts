@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TennisCup/"
-IF EXISTS ENV:whdloadargs
-	whdload "TennisCup.Slave" $whdloadargs
-ELSE
-	whdload "TennisCup.Slave"
-ENDIF

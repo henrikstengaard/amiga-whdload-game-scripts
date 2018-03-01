@@ -1,7 +1,0 @@
-Name      : Soccer Superstars
-Version   : AGA
-Publisher : Flair Software
-Year      : 1995
-Genre     : Sports - Football/Soccer
-Players   : 1 or 2, Simultaneous
-Whdload   : SoccerSuperstarsAGA.Slave

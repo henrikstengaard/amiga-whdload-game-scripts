@@ -1,6 +1,0 @@
-Name      : Rody Noël
-Language  : French
-Publisher : Lankhor
-Year      : 1991
-Players   : 1
-Whdload   : Rody&Mastico4RodyNoelFr.Slave

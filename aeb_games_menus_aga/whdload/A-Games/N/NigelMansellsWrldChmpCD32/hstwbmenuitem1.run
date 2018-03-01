@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/NigelMansellsWrldChmpCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "NigelMansellsWrldChmpCD32.slave" $whdloadargs
-ELSE
-	whdload "NigelMansellsWrldChmpCD32.slave"
-ENDIF

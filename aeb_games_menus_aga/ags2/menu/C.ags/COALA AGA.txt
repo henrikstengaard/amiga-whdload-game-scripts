@@ -1,7 +1,0 @@
-Name      : COALA
-Version   : AGA
-Publisher : Empire Interactive
-Year      : 1995
-Genre     : Simulation - Flight
-Players   : 1 Only
-Whdload   : CoalaAGA.Slave

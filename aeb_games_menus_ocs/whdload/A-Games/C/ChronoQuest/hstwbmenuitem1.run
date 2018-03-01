@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ChronoQuest/"
-IF EXISTS ENV:whdloadargs
-	whdload "ChronoQuest.Slave" $whdloadargs
-ELSE
-	whdload "ChronoQuest.Slave"
-ENDIF

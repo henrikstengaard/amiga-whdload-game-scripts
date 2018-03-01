@@ -1,6 +1,0 @@
-Name      : Crystal Hammer
-Publisher : ReLINE Software
-Year      : 1988
-Genre     : Arcade - Breakout/Pong
-Players   : 1 or 2
-Whdload   : CrystalHammerV2.Slave

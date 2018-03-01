@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:W/WorldsWave4/"
-IF EXISTS ENV:whdloadargs
-	whdload "WorldsWave4.Slave" $whdloadargs
-ELSE
-	whdload "WorldsWave4.Slave"
-ENDIF

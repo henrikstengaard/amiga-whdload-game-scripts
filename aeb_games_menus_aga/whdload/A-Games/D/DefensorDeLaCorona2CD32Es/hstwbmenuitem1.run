@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DefensorDeLaCorona2CD32Es/"
-IF EXISTS ENV:whdloadargs
-	whdload "DefensorDeLaCorona2CD32Es.slave" $whdloadargs
-ELSE
-	whdload "DefensorDeLaCorona2CD32Es.slave"
-ENDIF

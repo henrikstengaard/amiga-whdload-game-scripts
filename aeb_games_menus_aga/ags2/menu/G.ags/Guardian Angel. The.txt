@@ -1,5 +1,0 @@
-Name      : Guardian Angel, The
-Publisher : Codemasters
-Year      : 1989
-Players   : 1 Only
-Whdload   : GuardianAngel.Slave

@@ -1,6 +1,0 @@
-Name      : Sanctuary
-Language  : German
-Publisher : Lifestyle
-Year      : 1991
-Players   : 1
-Whdload   : SanctuaryDe.Slave

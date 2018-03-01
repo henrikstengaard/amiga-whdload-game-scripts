@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/NoSecondPrize/"
-IF EXISTS ENV:whdloadargs
-	whdload "NoSecondPrize.slave" $whdloadargs
-ELSE
-	whdload "NoSecondPrize.slave"
-ENDIF

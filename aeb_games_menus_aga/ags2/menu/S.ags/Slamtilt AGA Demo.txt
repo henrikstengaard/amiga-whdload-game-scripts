@@ -1,7 +1,0 @@
-Name      : Slamtilt
-Version   : AGA Demo
-Publisher : 21st Century Entertainment
-Year      : 1996
-Genre     : Arcade - Pinball
-Players   : 1 to 8
-Whdload   : SlamTiltDemoAGA.Slave

@@ -1,6 +1,0 @@
-Name      : Seek and Destroy
-Version   : AGA
-Publisher : Mindscape
-Year      : 1994
-Players   : 1 or 2
-Whdload   : Seek&DestroyAGA.Slave

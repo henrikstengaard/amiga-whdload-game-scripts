@@ -1,6 +1,0 @@
-Name      : Jonathan
-Language  : German
-Publisher : Software 2000
-Year      : 1993
-Players   : 1
-Whdload   : JonathanDe.Slave

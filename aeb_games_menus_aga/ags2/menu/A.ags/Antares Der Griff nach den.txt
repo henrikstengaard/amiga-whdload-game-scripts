@@ -1,6 +1,0 @@
-Name      : Antares: Der Griff nach den Sternen
-Language  : German
-Publisher : Bomico
-Year      : 1990
-Players   : 1
-Whdload   : AntaresDe.Slave

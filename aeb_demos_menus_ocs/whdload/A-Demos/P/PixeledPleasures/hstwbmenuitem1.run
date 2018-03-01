@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/PixeledPleasures/"
-IF EXISTS ENV:whdloadargs
-	whdload "PixeledPleasures.Slave" $whdloadargs
-ELSE
-	whdload "PixeledPleasures.Slave"
-ENDIF

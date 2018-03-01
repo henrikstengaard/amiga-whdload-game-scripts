@@ -1,7 +1,0 @@
-Name      : Roadkill
-Version   : AGA
-Publisher : Acid Software
-Year      : 1994
-Genre     : Racing - Overhead
-Players   : 1 Only
-Whdload   : RoadkillAGA.Slave

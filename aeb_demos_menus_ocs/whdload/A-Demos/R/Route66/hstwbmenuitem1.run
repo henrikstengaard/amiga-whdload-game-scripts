@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:R/Route66/"
-IF EXISTS ENV:whdloadargs
-	whdload "Route66.Slave" $whdloadargs
-ELSE
-	whdload "Route66.Slave"
-ENDIF

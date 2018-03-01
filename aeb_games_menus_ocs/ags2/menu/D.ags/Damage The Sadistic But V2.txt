@@ -1,6 +1,0 @@
-Name      : Damage: The Sadistic Butchering of Humanity
-Version   : Preview
-Publisher : Suomi-Peli
-Year      : 1996
-Players   : 1 Only
-Whdload   : DamagePreview.Slave

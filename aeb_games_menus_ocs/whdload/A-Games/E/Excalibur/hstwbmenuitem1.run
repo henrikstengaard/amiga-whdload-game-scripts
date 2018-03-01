@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/Excalibur/"
-IF EXISTS ENV:whdloadargs
-	whdload "Excalibur.Slave" $whdloadargs
-ELSE
-	whdload "Excalibur.Slave"
-ENDIF

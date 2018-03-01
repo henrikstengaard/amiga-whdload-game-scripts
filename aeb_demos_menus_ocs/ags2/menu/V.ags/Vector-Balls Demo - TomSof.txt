@@ -1,5 +1,0 @@
-Name    : Vector-Balls Demo
-Version : Demo
-Groups  : TomSoft
-Type    : Demo
-Whdload : VectorBallsDemo.Slave

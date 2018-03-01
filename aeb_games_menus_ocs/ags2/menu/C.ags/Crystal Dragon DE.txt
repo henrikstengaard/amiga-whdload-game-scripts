@@ -1,7 +1,0 @@
-Name      : Crystal Dragon
-Language  : German
-Publisher : Black Legend
-Year      : 1994
-Genre     : Adventure - RPG 3D
-Players   : 1 Only
-Whdload   : CrystalDragonDe.slave

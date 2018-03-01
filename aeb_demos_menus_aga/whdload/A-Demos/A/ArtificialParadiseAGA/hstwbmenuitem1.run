@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:A/ArtificialParadiseAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "ArtificialParadiseAGA.slave" $whdloadargs
-ELSE
-	whdload "ArtificialParadiseAGA.slave"
-ENDIF

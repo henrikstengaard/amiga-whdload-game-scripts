@@ -1,7 +1,0 @@
-Name      : Psycho Killer
-Version   : CDTV
-Publisher : On-line
-Year      : 1992
-Genre     : Adventure - Animated
-Players   : 1
-Whdload   : PsychoKillerCDTV.Slave

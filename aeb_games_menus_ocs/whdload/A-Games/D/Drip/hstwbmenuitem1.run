@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Drip/"
-IF EXISTS ENV:whdloadargs
-	whdload "Drip.Slave" $whdloadargs
-ELSE
-	whdload "Drip.Slave"
-ENDIF

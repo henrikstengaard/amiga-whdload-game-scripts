@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MusicDisk1Prologic/"
-IF EXISTS ENV:whdloadargs
-	whdload "MusicDisk1Prologic.Slave" $whdloadargs
-ELSE
-	whdload "MusicDisk1Prologic.Slave"
-ENDIF

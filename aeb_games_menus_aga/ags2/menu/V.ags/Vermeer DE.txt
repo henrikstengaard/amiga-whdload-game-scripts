@@ -1,7 +1,0 @@
-Name      : Vermeer
-Language  : German
-Publisher : Ariolasoft
-Year      : 1988
-Genre     : Strategy - Trading
-Players   : 1 to 4
-Whdload   : VermeerDe.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/MiG29Fulcrum/"
-IF EXISTS ENV:whdloadargs
-	whdload "MiG29Fulcrum.Slave" $whdloadargs
-ELSE
-	whdload "MiG29Fulcrum.Slave"
-ENDIF

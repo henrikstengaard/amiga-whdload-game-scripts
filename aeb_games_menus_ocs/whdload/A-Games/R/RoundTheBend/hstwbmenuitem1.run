@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RoundTheBend/"
-IF EXISTS ENV:whdloadargs
-	whdload "RoundTheBend.Slave" $whdloadargs
-ELSE
-	whdload "RoundTheBend.Slave"
-ENDIF

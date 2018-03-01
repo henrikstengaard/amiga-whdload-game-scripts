@@ -1,7 +1,0 @@
-Name    : Beyond the future
-Version : AGA
-Groups  : Union
-Type    : Demo
-Party   : The Party 1994
-Rank    : 9th
-Whdload : BeyondTheFutureAGA.Slave

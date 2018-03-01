@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DeathSword/"
-IF EXISTS ENV:whdloadargs
-	whdload "DeathSword.Slave" $whdloadargs
-ELSE
-	whdload "DeathSword.Slave"
-ENDIF

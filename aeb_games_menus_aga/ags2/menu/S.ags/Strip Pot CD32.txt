@@ -1,7 +1,0 @@
-Name      : Strip Pot
-Version   : CD32
-Publisher : Guildhall
-Year      : 1994
-Genre     : Gambling - Slot Machine
-Players   : 1 Only
-Whdload   : StripPotCD32.Slave

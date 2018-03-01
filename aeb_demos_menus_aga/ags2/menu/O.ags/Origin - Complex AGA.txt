@@ -1,7 +1,0 @@
-Name    : Origin
-Version : AGA
-Groups  : Complex
-Type    : Demo
-Party   : The Party 1993
-Rank    : 1st
-Whdload : Origin.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AlienSyndrome/"
-IF EXISTS ENV:whdloadargs
-	whdload "AlienSyndrome.Slave" $whdloadargs
-ELSE
-	whdload "AlienSyndrome.Slave"
-ENDIF

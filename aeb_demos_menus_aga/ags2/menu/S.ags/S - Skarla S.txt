@@ -1,6 +1,0 @@
-Name    : S
-Groups  : Skarla
-Type    : 40k
-Party   : The Party 1994
-Rank    : 17th
-Whdload : S.Slave

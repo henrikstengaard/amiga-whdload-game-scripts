@@ -1,6 +1,0 @@
-Name      : Carton Rouge
-Language  : French
-Publisher : Sports (Ascon)
-Year      : 1994
-Players   : 1 - 4 (1 simultaneous)
-Whdload   : CartonRougeFr.slave

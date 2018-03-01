@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HumansCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "HumansCD32.slave" $whdloadargs
-ELSE
-	whdload "HumansCD32.slave"
-ENDIF

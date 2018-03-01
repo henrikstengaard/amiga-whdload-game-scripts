@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TakeEmOut/"
-IF EXISTS ENV:whdloadargs
-	whdload "TakeEmOut.slave" $whdloadargs
-ELSE
-	whdload "TakeEmOut.slave"
-ENDIF

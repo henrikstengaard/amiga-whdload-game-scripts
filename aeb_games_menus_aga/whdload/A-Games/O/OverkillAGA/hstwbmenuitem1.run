@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:O/OverkillAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "OverkillAGA.slave" $whdloadargs
-ELSE
-	whdload "OverkillAGA.slave"
-ENDIF

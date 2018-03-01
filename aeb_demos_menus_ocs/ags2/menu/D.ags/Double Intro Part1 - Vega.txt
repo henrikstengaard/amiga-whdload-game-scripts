@@ -1,5 +1,0 @@
-Name    : Double Intro Part1
-Version : Intro
-Groups  : Vega
-Type    : Intro
-Whdload : DoubleIntro.Slave

@@ -1,5 +1,0 @@
-Name      : Super Monaco GP
-Publisher : U.S. Gold
-Year      : 1991
-Players   : 1
-Whdload   : SuperMonacoGP.slave

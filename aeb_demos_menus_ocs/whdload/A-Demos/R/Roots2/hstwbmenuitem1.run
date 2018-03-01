@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:R/Roots2/"
-IF EXISTS ENV:whdloadargs
-	whdload "Roots2.Slave" $whdloadargs
-ELSE
-	whdload "Roots2.Slave"
-ENDIF

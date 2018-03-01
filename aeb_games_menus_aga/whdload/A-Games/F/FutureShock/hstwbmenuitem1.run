@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FutureShock/"
-IF EXISTS ENV:whdloadargs
-	whdload "FutureShock.slave" $whdloadargs
-ELSE
-	whdload "FutureShock.slave"
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Tennis Champs
-Publisher : Amiga Power (Future Publishing)
-Year      : 1995
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : TennisChamps.Slave

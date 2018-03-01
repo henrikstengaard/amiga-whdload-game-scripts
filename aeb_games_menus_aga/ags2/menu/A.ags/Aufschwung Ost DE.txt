@@ -1,7 +1,0 @@
-Name      : Aufschwung Ost
-Language  : German
-Publisher : Sunflowers
-Year      : 1993
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : AufschwungOstDe.slave

@@ -1,7 +1,0 @@
-Name      : Powerplay: The Game of the Gods
-Language  : Spanish
-Publisher : Arcana
-Year      : 1988
-Genre     : Educational - Quiz
-Players   : 1 to 4
-Whdload   : PowerplayEs.Slave

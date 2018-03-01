@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FrontierDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "FrontierDe.slave" $whdloadargs
-ELSE
-	whdload "FrontierDe.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/VroomMultiPlayer/"
-IF EXISTS ENV:whdloadargs
-	whdload "VroomMultiplayer.Slave" $whdloadargs
-ELSE
-	whdload "VroomMultiplayer.Slave"
-ENDIF

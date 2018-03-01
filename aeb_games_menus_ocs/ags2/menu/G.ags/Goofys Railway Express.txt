@@ -1,5 +1,0 @@
-Name      : Goofy's Railway Express
-Publisher : Disney Software
-Genre     : Educational - Children
-Players   : 1 Only
-Whdload   : GoofysRailwayExpress.Slave

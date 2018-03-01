@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Q/QuestForGlory/"
-IF EXISTS ENV:whdloadargs
-	whdload "QuestForGlory.slave" $whdloadargs
-ELSE
-	whdload "QuestForGlory.slave"
-ENDIF

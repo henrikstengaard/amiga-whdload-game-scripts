@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CrackDown/"
-IF EXISTS ENV:whdloadargs
-	whdload "CrackDown.Slave" $whdloadargs
-ELSE
-	whdload "CrackDown.Slave"
-ENDIF

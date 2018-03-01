@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AlteredDestiny/"
-IF EXISTS ENV:whdloadargs
-	whdload "AlteredDestiny.slave" $whdloadargs
-ELSE
-	whdload "AlteredDestiny.slave"
-ENDIF

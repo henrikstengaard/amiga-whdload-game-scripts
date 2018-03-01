@@ -1,6 +1,0 @@
-Name      : Roketz
-Version   : AGA
-Publisher : (unknown)
-Year      : 1995
-Players   : 1 Only
-Whdload   : RoketzAGA.Slave

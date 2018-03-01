@@ -1,7 +1,0 @@
-Name      : Dragon Tiles
-Version   : AGA
-Publisher : Central Licenceware Register
-Year      : 1992
-Genre     : Brain - Tile Removal
-Players   : 1 Only
-Whdload   : DragonTilesAGA.Slave

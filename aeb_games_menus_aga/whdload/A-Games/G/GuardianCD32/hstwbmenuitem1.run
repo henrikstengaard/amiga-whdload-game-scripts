@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/GuardianCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "GuardianCD32.slave" $whdloadargs
-ELSE
-	whdload "GuardianCD32.slave"
-ENDIF

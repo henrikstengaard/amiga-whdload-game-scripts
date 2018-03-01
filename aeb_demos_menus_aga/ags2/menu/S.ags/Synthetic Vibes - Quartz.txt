@@ -1,6 +1,0 @@
-Name    : Synthetic Vibes
-Groups  : Quartz
-Type    : Musicdisk
-Party   : World of Commodore 1991
-Rank    : N/a
-Whdload : SyntheticVibes.Slave

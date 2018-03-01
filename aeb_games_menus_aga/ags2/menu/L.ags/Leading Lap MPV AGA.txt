@@ -1,6 +1,0 @@
-Name      : Leading Lap MPV
-Version   : AGA
-Publisher : Black Legend
-Year      : 1995
-Genre     : Racing - Cars
-Whdload   : LeadingLapMPVAGA.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/MadTVDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "MadTVDe.Slave" $whdloadargs
-ELSE
-	whdload "MadTVDe.Slave"
-ENDIF

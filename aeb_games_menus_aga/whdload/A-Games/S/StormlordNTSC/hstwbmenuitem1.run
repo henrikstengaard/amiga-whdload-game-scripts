@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/StormlordNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "StormlordNTSC.Slave" $whdloadargs
-ELSE
-	whdload "StormlordNTSC.Slave"
-ENDIF

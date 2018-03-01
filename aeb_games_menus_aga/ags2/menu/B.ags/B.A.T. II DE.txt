@@ -1,7 +1,0 @@
-Name      : B.A.T. II
-Language  : German
-Publisher : Ubi Soft
-Year      : 1992
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : BAT2De.slave

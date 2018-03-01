@@ -1,7 +1,0 @@
-Name      : Voyageurs Du Temps, Les: La Menace
-Language  : French
-Publisher : Delphine
-Year      : 1989
-Genre     : Adventure - Point and Click
-Players   : 1
-Whdload   : VoyageursDuTempsFr.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:A/Amplifier1/"
-IF EXISTS ENV:whdloadargs
-	whdload "Amplifier1.Slave" $whdloadargs
-ELSE
-	whdload "Amplifier1.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name      : Flies: Attack on Earth
-Language  : German
-Publisher : Rainbow Arts
-Year      : 1993
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : FliesAttackOnEarthDe.Slave

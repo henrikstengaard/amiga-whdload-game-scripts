@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Possessed
-Type    : Demo
-Whdload : MegademoPossessed.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LostDutchmanMine/"
-IF EXISTS ENV:whdloadargs
-	whdload "LostDutchmanMine.Slave" $whdloadargs
-ELSE
-	whdload "LostDutchmanMine.Slave"
-ENDIF

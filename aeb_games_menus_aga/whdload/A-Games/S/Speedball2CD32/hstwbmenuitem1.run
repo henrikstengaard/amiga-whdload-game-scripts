@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Speedball2CD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "Speedball2CD32.Slave" $whdloadargs
-ELSE
-	whdload "Speedball2CD32.Slave"
-ENDIF

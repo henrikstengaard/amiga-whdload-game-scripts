@@ -1,8 +1,0 @@
-Name      : DreamWeb
-Language  : German
-Version   : AGA
-Publisher : Empire Software
-Year      : 1994
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : DreamWebAGADe.Slave

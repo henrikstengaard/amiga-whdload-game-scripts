@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:K/KiwiCrap/"
-IF EXISTS ENV:whdloadargs
-	whdload "KiwiCrap.Slave" $whdloadargs
-ELSE
-	whdload "KiwiCrap.Slave"
-ENDIF

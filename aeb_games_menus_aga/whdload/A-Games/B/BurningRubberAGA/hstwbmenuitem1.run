@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BurningRubberAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "BurningRubberAGA.slave" $whdloadargs
-ELSE
-	whdload "BurningRubberAGA.slave"
-ENDIF

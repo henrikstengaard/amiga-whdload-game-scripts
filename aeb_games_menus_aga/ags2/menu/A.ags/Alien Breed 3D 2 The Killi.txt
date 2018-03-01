@@ -1,6 +1,0 @@
-Name      : Alien Breed 3D 2: The Killing Grounds
-Version   : AGA
-Publisher : Team 17
-Year      : 1996
-Players   : 1 or 2, Simultaneous
-Whdload   : AlienBreed3D2AGA.slave

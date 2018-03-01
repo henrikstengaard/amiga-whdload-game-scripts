@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:B/BeatBox/"
-IF EXISTS ENV:whdloadargs
-	whdload "BeatBox.Slave" $whdloadargs
-ELSE
-	whdload "BeatBox.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:E/Elysium/"
-IF EXISTS ENV:whdloadargs
-	whdload "Elysium.Slave" $whdloadargs
-ELSE
-	whdload "Elysium.Slave"
-ENDIF

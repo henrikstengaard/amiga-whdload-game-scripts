@@ -1,7 +1,0 @@
-Name    : Explorer
-Version : AGA
-Groups  : Delight
-Type    : Demo
-Party   : Analog Party 1994
-Rank    : N/a
-Whdload : Explorer.slave

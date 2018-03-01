@@ -1,4 +1,0 @@
-Name    : Jehova goes Hitech
-Groups  : Voice
-Type    : Demo
-Whdload : JehovaGoesHitech.Slave

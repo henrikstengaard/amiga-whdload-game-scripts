@@ -1,4 +1,0 @@
-Name    : Minor Defects
-Groups  : Grace
-Type    : Musicdisk
-Whdload : MinorDefects.Slave

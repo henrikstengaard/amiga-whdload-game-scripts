@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:I/Interspace/"
-IF EXISTS ENV:whdloadargs
-	whdload "Interspace.Slave" $whdloadargs
-ELSE
-	whdload "Interspace.Slave"
-ENDIF

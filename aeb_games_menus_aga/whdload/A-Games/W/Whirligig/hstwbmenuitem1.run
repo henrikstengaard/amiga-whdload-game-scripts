@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/Whirligig/"
-IF EXISTS ENV:whdloadargs
-	whdload "Whirligig.Slave" $whdloadargs
-ELSE
-	whdload "Whirligig.Slave"
-ENDIF

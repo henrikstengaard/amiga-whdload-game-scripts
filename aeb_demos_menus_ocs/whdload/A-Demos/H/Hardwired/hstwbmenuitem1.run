@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:H/Hardwired/"
-IF EXISTS ENV:whdloadargs
-	whdload "Hardwired.Slave" $whdloadargs
-ELSE
-	whdload "Hardwired.Slave"
-ENDIF

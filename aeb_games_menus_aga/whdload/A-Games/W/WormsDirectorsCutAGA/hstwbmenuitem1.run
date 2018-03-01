@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WormsDirectorsCutAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "WormsDirectorsCutAGA.Slave" $whdloadargs
-ELSE
-	whdload "WormsDirectorsCutAGA.Slave"
-ENDIF

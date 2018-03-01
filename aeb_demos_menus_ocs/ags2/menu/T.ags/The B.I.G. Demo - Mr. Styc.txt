@@ -1,5 +1,0 @@
-Name    : The B.I.G. Demo
-Version : Demo
-Groups  : Mr. Styckx
-Type    : Musicdisk
-Whdload : BIGDemo.Slave

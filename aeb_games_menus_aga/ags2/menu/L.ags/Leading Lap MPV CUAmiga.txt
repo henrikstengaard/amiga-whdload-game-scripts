@@ -1,6 +1,0 @@
-Name      : Leading Lap MPV
-Version   : CUAmiga
-Publisher : Black Legend
-Year      : 1995
-Genre     : Racing - Cars
-Whdload   : LeadingLapMPVCUAmiga.Slave

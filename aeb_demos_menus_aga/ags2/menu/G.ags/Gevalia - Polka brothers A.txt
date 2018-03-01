@@ -1,7 +1,0 @@
-Name    : Gevalia
-Version : AGA
-Groups  : Polka brothers
-Type    : Demo
-Party   : South Sealand Party 1994
-Rank    : 2nd
-Whdload : Gevalia.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ConflictMiddleEastPolSim/"
-IF EXISTS ENV:whdloadargs
-	whdload "ConflictMiddleEastPolSim.Slave" $whdloadargs
-ELSE
-	whdload "ConflictMiddleEastPolSim.Slave"
-ENDIF

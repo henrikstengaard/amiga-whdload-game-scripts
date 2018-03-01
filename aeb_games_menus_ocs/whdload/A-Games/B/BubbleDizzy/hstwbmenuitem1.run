@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BubbleDizzy/"
-IF EXISTS ENV:whdloadargs
-	whdload "BubbleDizzy.slave" $whdloadargs
-ELSE
-	whdload "BubbleDizzy.slave"
-ENDIF

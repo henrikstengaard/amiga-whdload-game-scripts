@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:A/AudioX/"
-IF EXISTS ENV:whdloadargs
-	whdload "AudioX.slave" $whdloadargs
-ELSE
-	whdload "AudioX.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PremiereCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "PremiereCD32.Slave" $whdloadargs
-ELSE
-	whdload "PremiereCD32.Slave"
-ENDIF

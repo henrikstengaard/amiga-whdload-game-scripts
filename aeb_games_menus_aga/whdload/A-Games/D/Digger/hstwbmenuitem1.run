@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Digger/"
-IF EXISTS ENV:whdloadargs
-	whdload "Digger.Slave" $whdloadargs
-ELSE
-	whdload "Digger.Slave"
-ENDIF

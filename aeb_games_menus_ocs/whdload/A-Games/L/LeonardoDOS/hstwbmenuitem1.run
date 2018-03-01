@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LeonardoDOS/"
-IF EXISTS ENV:whdloadargs
-	whdload "LeonardoDOS.Slave" $whdloadargs
-ELSE
-	whdload "LeonardoDOS.Slave"
-ENDIF

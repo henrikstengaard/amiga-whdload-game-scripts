@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/Elvira/"
-IF EXISTS ENV:whdloadargs
-	whdload "Elvira.Slave" $whdloadargs
-ELSE
-	whdload "Elvira.Slave"
-ENDIF

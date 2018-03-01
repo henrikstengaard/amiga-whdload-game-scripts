@@ -1,7 +1,0 @@
-Name      : Police Quest III: The Kindred
-Language  : German
-Publisher : Sierra On-Line
-Year      : 1992
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : PoliceQuest3De.slave

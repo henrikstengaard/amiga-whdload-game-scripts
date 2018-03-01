@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/EyeOfTheStorm/"
-IF EXISTS ENV:whdloadargs
-	whdload "Intro.Slave" $whdloadargs
-ELSE
-	whdload "Intro.Slave"
-ENDIF

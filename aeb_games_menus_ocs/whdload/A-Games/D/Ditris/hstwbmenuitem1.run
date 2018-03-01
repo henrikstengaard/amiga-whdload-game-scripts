@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Ditris/"
-IF EXISTS ENV:whdloadargs
-	whdload "Ditris.Slave" $whdloadargs
-ELSE
-	whdload "Ditris.Slave"
-ENDIF

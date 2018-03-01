@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SoundMania2Pussy/"
-IF EXISTS ENV:whdloadargs
-	whdload "SoundMania2Pussy.Slave" $whdloadargs
-ELSE
-	whdload "SoundMania2Pussy.Slave"
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Brutal Football
-Publisher : Millennium
-Year      : 1993
-Players   : 1 - 8 (2 simultaneous)
-Whdload   : BrutalFootball.slave

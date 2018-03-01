@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:W/WallSplit/"
-IF EXISTS ENV:whdloadargs
-	whdload "WallSplit.slave" $whdloadargs
-ELSE
-	whdload "WallSplit.slave"
-ENDIF

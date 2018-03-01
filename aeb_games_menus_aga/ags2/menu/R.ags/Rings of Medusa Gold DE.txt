@@ -1,6 +1,0 @@
-Name      : Rings of Medusa Gold
-Language  : German
-Publisher : Starbyte Software
-Year      : 1994
-Players   : 1
-Whdload   : RingsOfMedusaGoldDe.Slave

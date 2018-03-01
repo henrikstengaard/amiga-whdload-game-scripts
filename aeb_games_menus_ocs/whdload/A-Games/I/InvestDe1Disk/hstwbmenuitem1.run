@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:I/InvestDe1Disk/"
-IF EXISTS ENV:whdloadargs
-	whdload "InvestDe1Disk.slave" $whdloadargs
-ELSE
-	whdload "InvestDe1Disk.slave"
-ENDIF

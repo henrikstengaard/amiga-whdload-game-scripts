@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TurricanDemo/"
-IF EXISTS ENV:whdloadargs
-	whdload "TurricanDemo.Slave" $whdloadargs
-ELSE
-	whdload "TurricanDemo.Slave"
-ENDIF

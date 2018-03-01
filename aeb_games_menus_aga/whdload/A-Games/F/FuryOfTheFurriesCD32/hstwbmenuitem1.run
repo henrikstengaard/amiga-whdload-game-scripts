@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FuryOfTheFurriesCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "FuryOfTheFurriesCD32.Slave" $whdloadargs
-ELSE
-	whdload "FuryOfTheFurriesCD32.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SpaceHulk/"
-IF EXISTS ENV:whdloadargs
-	whdload "SpaceHulk.Slave" $whdloadargs
-ELSE
-	whdload "SpaceHulk.Slave"
-ENDIF

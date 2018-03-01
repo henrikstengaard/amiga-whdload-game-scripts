@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RaceDrivin/"
-IF EXISTS ENV:whdloadargs
-	whdload "RaceDrivin.slave" $whdloadargs
-ELSE
-	whdload "RaceDrivin.slave"
-ENDIF

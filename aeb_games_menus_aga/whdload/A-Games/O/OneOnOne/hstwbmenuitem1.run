@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:O/OneOnOne/"
-IF EXISTS ENV:whdloadargs
-	whdload "OneOnOne.slave" $whdloadargs
-ELSE
-	whdload "OneOnOne.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BlockShock/"
-IF EXISTS ENV:whdloadargs
-	whdload "BlockShock.Slave" $whdloadargs
-ELSE
-	whdload "BlockShock.Slave"
-ENDIF

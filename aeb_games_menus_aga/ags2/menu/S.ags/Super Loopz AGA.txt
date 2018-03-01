@@ -1,7 +1,0 @@
-Name      : Super Loopz
-Version   : AGA
-Publisher : Audiogenic
-Year      : 1995
-Genre     : Brain - Puzzle
-Players   : 2 Only, Simultaneous
-Whdload   : SuperLoopzAGA.Slave

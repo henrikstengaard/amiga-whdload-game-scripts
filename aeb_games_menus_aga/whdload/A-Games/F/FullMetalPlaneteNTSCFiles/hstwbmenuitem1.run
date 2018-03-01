@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FullMetalPlaneteNTSCFiles/"
-IF EXISTS ENV:whdloadargs
-	whdload "FullMetalPlaneteNTSCFiles.Slave" $whdloadargs
-ELSE
-	whdload "FullMetalPlaneteNTSCFiles.Slave"
-ENDIF

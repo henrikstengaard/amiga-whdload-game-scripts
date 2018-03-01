@@ -1,7 +1,0 @@
-Name      : Superfrog
-Version   : CD32
-Publisher : Team 17
-Year      : 1993
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : SuperfrogCD32.Slave

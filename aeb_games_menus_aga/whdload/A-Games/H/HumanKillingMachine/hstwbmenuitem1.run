@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HumanKillingMachine/"
-IF EXISTS ENV:whdloadargs
-	whdload "HumanKillingMachine.slave" $whdloadargs
-ELSE
-	whdload "HumanKillingMachine.slave"
-ENDIF

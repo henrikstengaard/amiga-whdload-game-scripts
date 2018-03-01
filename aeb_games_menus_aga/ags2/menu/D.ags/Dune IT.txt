@@ -1,7 +1,0 @@
-Name      : Dune
-Language  : Italian
-Publisher : Virgin Games
-Year      : 1992
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : DuneIt.Slave

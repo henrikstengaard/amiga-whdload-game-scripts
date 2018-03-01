@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/Mirror/"
-IF EXISTS ENV:whdloadargs
-	whdload "Mirror.Slave" $whdloadargs
-ELSE
-	whdload "Mirror.Slave"
-ENDIF

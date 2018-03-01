@@ -1,7 +1,0 @@
-Name      : XTreme Racing
-Version   : AGA
-Publisher : Black Magic
-Year      : 1995
-Genre     : Racing - Cars
-Players   : 1 to 4, Simultaneous
-Whdload   : XTremeRacingAGA.slave

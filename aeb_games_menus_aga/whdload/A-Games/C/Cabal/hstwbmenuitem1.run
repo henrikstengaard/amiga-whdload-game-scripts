@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Cabal/"
-IF EXISTS ENV:whdloadargs
-	whdload "Cabal.Slave" $whdloadargs
-ELSE
-	whdload "Cabal.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BionicCommando/"
-IF EXISTS ENV:whdloadargs
-	whdload "BionicCommando.slave" $whdloadargs
-ELSE
-	whdload "BionicCommando.slave"
-ENDIF

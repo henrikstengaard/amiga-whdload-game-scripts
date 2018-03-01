@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DrakkhenFilesFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "DrakkhenFilesFr.Slave" $whdloadargs
-ELSE
-	whdload "DrakkhenFilesFr.Slave"
-ENDIF

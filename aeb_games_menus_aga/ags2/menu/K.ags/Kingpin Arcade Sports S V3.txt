@@ -1,7 +1,0 @@
-Name      : Kingpin: Arcade Sports Series Bowling
-Version   : CD32
-Publisher : Team 17
-Year      : 1995
-Genre     : Sports - Bowling
-Players   : 1 to 6
-Whdload   : KingpinCD32.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WayneGretzkyHockey2/"
-IF EXISTS ENV:whdloadargs
-	whdload "WayneGretzkyHockey2.Slave" $whdloadargs
-ELSE
-	whdload "WayneGretzkyHockey2.Slave"
-ENDIF

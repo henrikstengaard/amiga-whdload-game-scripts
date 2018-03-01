@@ -1,7 +1,0 @@
-Name      : Nick Faldo's Championship Golf
-Version   : CD32
-Publisher : Grandslam
-Year      : 1994
-Genre     : Sports - Golf
-Players   : 1 to 4
-Whdload   : NickFaldosChampGolfCD32.Slave

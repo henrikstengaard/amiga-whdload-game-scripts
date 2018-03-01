@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Carcharodon/"
-IF EXISTS ENV:whdloadargs
-	whdload "Carcharodon.Slave" $whdloadargs
-ELSE
-	whdload "Carcharodon.Slave"
-ENDIF

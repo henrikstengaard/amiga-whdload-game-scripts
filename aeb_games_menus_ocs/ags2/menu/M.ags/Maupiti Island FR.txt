@@ -1,7 +1,0 @@
-Name      : Maupiti Island
-Language  : French
-Publisher : Lankhor
-Year      : 1990
-Genre     : Adventure - Animated Graphics/Text
-Players   : 1 Only
-Whdload   : MaupitiIslandFr.Slave

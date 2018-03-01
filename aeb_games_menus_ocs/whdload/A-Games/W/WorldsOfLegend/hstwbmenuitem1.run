@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WorldsOfLegend/"
-IF EXISTS ENV:whdloadargs
-	whdload "WorldsOfLegend.slave" $whdloadargs
-ELSE
-	whdload "WorldsOfLegend.slave"
-ENDIF

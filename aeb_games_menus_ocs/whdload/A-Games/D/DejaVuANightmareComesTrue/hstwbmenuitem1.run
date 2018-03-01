@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DejaVuANightmareComesTrue/"
-IF EXISTS ENV:whdloadargs
-	whdload "DejaVuANightmareComesTrue.Slave" $whdloadargs
-ELSE
-	whdload "DejaVuANightmareComesTrue.Slave"
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Citadel
-Language  : Polish
-Publisher : Black Legend
-Year      : 1995
-Players   : 1 Only
-Whdload   : CytadelaPl.slave

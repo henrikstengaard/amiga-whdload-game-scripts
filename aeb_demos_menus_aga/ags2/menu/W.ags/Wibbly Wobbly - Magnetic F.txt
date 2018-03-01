@@ -1,4 +1,0 @@
-Name    : Wibbly Wobbly
-Groups  : Magnetic Fields
-Type    : Demo
-Whdload : WibblyWobbly.Slave

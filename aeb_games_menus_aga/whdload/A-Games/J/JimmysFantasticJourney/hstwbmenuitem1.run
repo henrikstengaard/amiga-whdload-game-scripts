@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:J/JimmysFantasticJourney/"
-IF EXISTS ENV:whdloadargs
-	whdload "JimmysFantasticJourney.slave" $whdloadargs
-ELSE
-	whdload "JimmysFantasticJourney.slave"
-ENDIF

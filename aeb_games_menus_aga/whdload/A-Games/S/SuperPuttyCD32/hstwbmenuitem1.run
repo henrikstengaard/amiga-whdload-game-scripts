@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SuperPuttyCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "SuperPuttyCD32.Slave" $whdloadargs
-ELSE
-	whdload "SuperPuttyCD32.Slave"
-ENDIF

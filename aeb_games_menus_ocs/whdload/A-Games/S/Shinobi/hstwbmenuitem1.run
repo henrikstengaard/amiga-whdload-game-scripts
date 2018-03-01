@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Shinobi/"
-IF EXISTS ENV:whdloadargs
-	whdload "Shinobi.Slave" $whdloadargs
-ELSE
-	whdload "Shinobi.Slave"
-ENDIF

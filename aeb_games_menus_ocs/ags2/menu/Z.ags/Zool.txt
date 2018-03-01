@@ -1,5 +1,0 @@
-Name      : Zool
-Publisher : Gremlin
-Year      : 1992
-Players   : 1
-Whdload   : Zool.slave

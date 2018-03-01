@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:G/GlowAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "GlowAGA.slave" $whdloadargs
-ELSE
-	whdload "GlowAGA.slave"
-ENDIF

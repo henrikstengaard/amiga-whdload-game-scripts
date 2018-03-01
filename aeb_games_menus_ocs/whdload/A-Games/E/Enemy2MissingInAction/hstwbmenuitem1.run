@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/Enemy2MissingInAction/"
-IF EXISTS ENV:whdloadargs
-	whdload "Enemy2MissingInAction.Slave" $whdloadargs
-ELSE
-	whdload "Enemy2MissingInAction.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TopSecret/"
-IF EXISTS ENV:whdloadargs
-	whdload "TopSecret.Slave" $whdloadargs
-ELSE
-	whdload "TopSecret.Slave"
-ENDIF

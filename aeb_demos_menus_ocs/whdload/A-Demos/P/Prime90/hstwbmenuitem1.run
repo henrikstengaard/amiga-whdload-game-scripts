@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/Prime90/"
-IF EXISTS ENV:whdloadargs
-	whdload "Prime90.Slave" $whdloadargs
-ELSE
-	whdload "Prime90.Slave"
-ENDIF

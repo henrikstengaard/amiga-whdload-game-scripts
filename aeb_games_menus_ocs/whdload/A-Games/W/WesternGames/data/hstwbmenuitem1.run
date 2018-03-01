@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WesternGames/data/"
-IF EXISTS ENV:whdloadargs
-	whdload "WesternGames.slave" $whdloadargs
-ELSE
-	whdload "WesternGames.slave"
-ENDIF

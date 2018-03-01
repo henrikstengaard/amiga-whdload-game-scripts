@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:F/FractalTunes/"
-IF EXISTS ENV:whdloadargs
-	whdload "FractalTunes.Slave" $whdloadargs
-ELSE
-	whdload "FractalTunes.Slave"
-ENDIF

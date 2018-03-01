@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:U/UFOEnemyUnknownCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "UFOEnemyUnknownCD32.slave" $whdloadargs
-ELSE
-	whdload "UFOEnemyUnknownCD32.slave"
-ENDIF

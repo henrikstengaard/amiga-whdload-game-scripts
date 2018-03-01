@@ -1,6 +1,0 @@
-Name      : Hilt: Against the Hoardes
-Publisher : Scorpius
-Year      : 1994
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : Hilt.Slave

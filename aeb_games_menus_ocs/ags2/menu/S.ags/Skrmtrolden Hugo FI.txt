@@ -1,7 +1,0 @@
-Name      : Skærmtrolden Hugo
-Language  : Finnish
-Publisher : Silverrock Productions
-Year      : 1991
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : SkaermtroldenHugoFi.Slave

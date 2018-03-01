@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/Hacker/"
-IF EXISTS ENV:whdloadargs
-	whdload "Hacker.Slave" $whdloadargs
-ELSE
-	whdload "Hacker.Slave"
-ENDIF

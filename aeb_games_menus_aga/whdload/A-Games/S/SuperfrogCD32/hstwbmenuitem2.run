@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SuperfrogCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "SuperfrogCD32.Slave" $whdloadargs
-ELSE
-	whdload "SuperfrogCD32.Slave"
-ENDIF

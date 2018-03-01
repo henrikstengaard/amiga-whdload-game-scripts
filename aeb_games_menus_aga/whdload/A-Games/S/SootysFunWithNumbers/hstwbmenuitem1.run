@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SootysFunWithNumbers/"
-IF EXISTS ENV:whdloadargs
-	whdload "SootysFunWithNumbers.slave" $whdloadargs
-ELSE
-	whdload "SootysFunWithNumbers.slave"
-ENDIF

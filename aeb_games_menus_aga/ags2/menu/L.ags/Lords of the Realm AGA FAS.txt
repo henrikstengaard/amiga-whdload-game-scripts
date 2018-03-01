@@ -1,7 +1,0 @@
-Name      : Lords of the Realm
-Version   : AGA FAST
-Publisher : Impressions
-Year      : 1994
-Genre     : Strategy - Miscellaneous
-Players   : 1 to 6
-Whdload   : LordsOfTheRealmAGAFast.slave

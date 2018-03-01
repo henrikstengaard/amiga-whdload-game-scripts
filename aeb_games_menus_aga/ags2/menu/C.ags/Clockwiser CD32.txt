@@ -1,7 +1,0 @@
-Name      : Clockwiser
-Version   : CD32
-Publisher : Rasputin
-Year      : 1994
-Genre     : Brain - Puzzle
-Players   : 1 Only
-Whdload   : ClockwiserCD32.Slave

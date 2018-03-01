@@ -1,6 +1,0 @@
-Name      : Bez Kompromisu
-Language  : Polish
-Publisher : MarkSoft
-Genre     : Adventure - Arcade 2D
-Players   : 1 Only
-Whdload   : BezKompromisuPl.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:W/Wild/"
-IF EXISTS ENV:whdloadargs
-	whdload "Wild.Slave" $whdloadargs
-ELSE
-	whdload "Wild.Slave"
-ENDIF

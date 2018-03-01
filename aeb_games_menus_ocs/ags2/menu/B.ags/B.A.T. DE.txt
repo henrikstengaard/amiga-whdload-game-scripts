@@ -1,7 +1,0 @@
-Name      : B.A.T.
-Language  : German
-Publisher : Ubi Soft
-Year      : 1990
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : BATDe.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FlaschbierNoIntro/"
-IF EXISTS ENV:whdloadargs
-	whdload "FlaschbierNoIntro.Slave" $whdloadargs
-ELSE
-	whdload "FlaschbierNoIntro.Slave"
-ENDIF

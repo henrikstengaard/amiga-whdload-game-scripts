@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/Galaxy89/"
-IF EXISTS ENV:whdloadargs
-	whdload "Galaxy89.slave" $whdloadargs
-ELSE
-	whdload "Galaxy89.slave"
-ENDIF

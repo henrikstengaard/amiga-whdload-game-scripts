@@ -1,6 +1,0 @@
-Name      : Pawn, The
-Publisher : Rainbird
-Year      : 1986
-Genre     : Adventure - Graphics/Text
-Players   : 1 Only
-Whdload   : Pawn.Slave

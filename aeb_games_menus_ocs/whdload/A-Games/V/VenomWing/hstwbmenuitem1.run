@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/VenomWing/"
-IF EXISTS ENV:whdloadargs
-	whdload "VenomWing.Slave" $whdloadargs
-ELSE
-	whdload "VenomWing.Slave"
-ENDIF

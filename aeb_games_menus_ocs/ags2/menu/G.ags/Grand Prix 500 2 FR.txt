@@ -1,7 +1,0 @@
-Name      : Grand Prix 500 2
-Language  : French
-Publisher : Microids
-Year      : 1991
-Genre     : Racing - Motorcycle
-Players   : 1 or 2, Simultaneous
-Whdload   : GrandPrix5002Fr.slave

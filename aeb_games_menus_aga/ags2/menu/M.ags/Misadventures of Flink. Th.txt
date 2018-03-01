@@ -1,7 +1,0 @@
-Name      : Misadventures of Flink, The
-Version   : CD32
-Publisher : Psygnosis
-Year      : 1995
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : FlinkCD32.Slave

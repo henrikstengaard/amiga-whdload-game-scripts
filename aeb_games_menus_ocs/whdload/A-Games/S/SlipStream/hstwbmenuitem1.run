@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SlipStream/"
-IF EXISTS ENV:whdloadargs
-	whdload "SlipStream.Slave" $whdloadargs
-ELSE
-	whdload "SlipStream.Slave"
-ENDIF

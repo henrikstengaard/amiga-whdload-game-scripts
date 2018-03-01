@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:J/JupiterProbe/"
-IF EXISTS ENV:whdloadargs
-	whdload "JupiterProbe.Slave" $whdloadargs
-ELSE
-	whdload "JupiterProbe.Slave"
-ENDIF

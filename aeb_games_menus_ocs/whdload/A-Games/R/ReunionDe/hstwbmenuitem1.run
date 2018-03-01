@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/ReunionDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "ReunionDe.Slave" $whdloadargs
-ELSE
-	whdload "ReunionDe.Slave"
-ENDIF

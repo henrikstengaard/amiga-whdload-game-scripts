@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AdvancedDestroyerSim/"
-IF EXISTS ENV:whdloadargs
-	whdload "AdvancedDestroyerSim.Slave" $whdloadargs
-ELSE
-	whdload "AdvancedDestroyerSim.Slave"
-ENDIF

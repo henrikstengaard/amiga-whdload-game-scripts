@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/Moonfall/"
-IF EXISTS ENV:whdloadargs
-	whdload "Moonfall.Slave" $whdloadargs
-ELSE
-	whdload "Moonfall.Slave"
-ENDIF

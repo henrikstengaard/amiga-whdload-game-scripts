@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BeneathAStlSkyCD32NoVoice/"
-IF EXISTS ENV:whdloadargs
-	whdload "BeneathAStlSkyCD32NoVoice.Slave" $whdloadargs
-ELSE
-	whdload "BeneathAStlSkyCD32NoVoice.Slave"
-ENDIF

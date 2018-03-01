@@ -1,6 +1,0 @@
-Name      : Playroom, The: La Chambre De Peppy
-Language  : French
-Publisher : Infogrames
-Year      : 1992
-Players   : 1 - 2 (1 simultaneous)
-Whdload   : PlayroomFr.Slave

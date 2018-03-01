@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/B17FlyingFortressDemo/"
-IF EXISTS ENV:whdloadargs
-	whdload "B17FlyingFortressDemo.Slave" $whdloadargs
-ELSE
-	whdload "B17FlyingFortressDemo.Slave"
-ENDIF

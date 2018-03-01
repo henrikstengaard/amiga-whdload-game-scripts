@@ -1,7 +1,0 @@
-Name      : X-It
-Language  : Italian
-Publisher : Psygnosis
-Year      : 1995
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : XIt.Slave

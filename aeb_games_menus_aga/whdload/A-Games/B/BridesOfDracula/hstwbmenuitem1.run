@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BridesOfDracula/"
-IF EXISTS ENV:whdloadargs
-	whdload "BridesOfDracula.slave" $whdloadargs
-ELSE
-	whdload "BridesOfDracula.slave"
-ENDIF

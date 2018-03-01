@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/F17Challenge/"
-IF EXISTS ENV:whdloadargs
-	whdload "F17Challenge.Slave" $whdloadargs
-ELSE
-	whdload "F17Challenge.Slave"
-ENDIF

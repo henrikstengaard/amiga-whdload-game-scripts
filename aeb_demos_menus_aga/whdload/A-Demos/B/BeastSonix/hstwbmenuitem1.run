@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:B/BeastSonix/"
-IF EXISTS ENV:whdloadargs
-	whdload "BeastSonix.Slave" $whdloadargs
-ELSE
-	whdload "BeastSonix.Slave"
-ENDIF

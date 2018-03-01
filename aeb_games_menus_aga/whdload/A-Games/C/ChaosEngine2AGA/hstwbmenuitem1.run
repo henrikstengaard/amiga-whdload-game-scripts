@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ChaosEngine2AGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "ChaosEngine2AGA.Slave" $whdloadargs
-ELSE
-	whdload "ChaosEngine2AGA.Slave"
-ENDIF

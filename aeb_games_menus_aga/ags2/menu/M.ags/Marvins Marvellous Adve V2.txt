@@ -1,7 +1,0 @@
-Name      : Marvin's Marvellous Adventure
-Version   : CD32
-Publisher : 21st Century Entertainment
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : MarvinsMarvellousAdvCD32.Slave

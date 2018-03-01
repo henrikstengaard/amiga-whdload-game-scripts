@@ -1,7 +1,0 @@
-Name      : Universe
-Version   : CD32
-Publisher : Core Design
-Year      : 1994
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : UniverseCD32.Slave

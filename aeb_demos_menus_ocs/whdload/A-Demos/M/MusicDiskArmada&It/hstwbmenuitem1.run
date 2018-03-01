@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MusicDiskArmada&It/"
-IF EXISTS ENV:whdloadargs
-	whdload "MusicDiskArmada&It.Slave" $whdloadargs
-ELSE
-	whdload "MusicDiskArmada&It.Slave"
-ENDIF

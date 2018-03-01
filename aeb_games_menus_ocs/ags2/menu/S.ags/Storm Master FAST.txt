@@ -1,6 +1,0 @@
-Name      : Storm Master
-Version   : FAST
-Publisher : Silmarils
-Year      : 1991
-Genre     : Strategy - War
-Whdload   : StormMasterFast.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/APBFiles/"
-IF EXISTS ENV:whdloadargs
-	whdload "APBFiles.slave" $whdloadargs
-ELSE
-	whdload "APBFiles.slave"
-ENDIF

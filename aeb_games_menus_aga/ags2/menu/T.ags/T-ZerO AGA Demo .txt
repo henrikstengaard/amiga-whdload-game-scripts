@@ -1,6 +1,0 @@
-Name      : T-ZerO
-Version   : AGA Demo
-Publisher : PXL
-Year      : 1999
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : T-Zer0DemoAGA.Slave

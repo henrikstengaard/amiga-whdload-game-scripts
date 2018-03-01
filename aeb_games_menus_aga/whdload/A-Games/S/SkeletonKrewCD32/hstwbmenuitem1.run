@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SkeletonKrewCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "SkeletonKrewCD32.slave" $whdloadargs
-ELSE
-	whdload "SkeletonKrewCD32.slave"
-ENDIF

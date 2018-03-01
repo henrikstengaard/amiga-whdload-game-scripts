@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/Profezia/"
-IF EXISTS ENV:whdloadargs
-	whdload "Profezia.Slave" $whdloadargs
-ELSE
-	whdload "Profezia.Slave"
-ENDIF

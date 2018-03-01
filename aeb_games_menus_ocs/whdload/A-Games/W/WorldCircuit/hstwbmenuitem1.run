@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:W/WorldCircuit/"
-IF EXISTS ENV:whdloadargs
-	whdload "WorldCircuit.Slave" $whdloadargs
-ELSE
-	whdload "WorldCircuit.Slave"
-ENDIF

@@ -1,4 +1,0 @@
-Name    : Decibel overload
-Groups  : Cue-X Developments
-Type    : Musicdisk
-Whdload : DecibelOverload.Slave

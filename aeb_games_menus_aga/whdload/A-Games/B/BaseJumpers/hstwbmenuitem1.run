@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BaseJumpers/"
-IF EXISTS ENV:whdloadargs
-	whdload "BaseJumpers.slave" $whdloadargs
-ELSE
-	whdload "BaseJumpers.slave"
-ENDIF

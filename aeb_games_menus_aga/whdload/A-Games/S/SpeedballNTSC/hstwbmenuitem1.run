@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SpeedballNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "SpeedballNTSC.slave" $whdloadargs
-ELSE
-	whdload "SpeedballNTSC.slave"
-ENDIF

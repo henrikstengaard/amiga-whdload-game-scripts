@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/Synthesis/"
-IF EXISTS ENV:whdloadargs
-	whdload "Synthesis.Slave" $whdloadargs
-ELSE
-	whdload "Synthesis.Slave"
-ENDIF

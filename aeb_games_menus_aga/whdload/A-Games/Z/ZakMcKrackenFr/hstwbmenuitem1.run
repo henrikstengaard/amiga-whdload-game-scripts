@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/ZakMcKrackenFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "ZakMcKrackenFr.slave" $whdloadargs
-ELSE
-	whdload "ZakMcKrackenFr.slave"
-ENDIF

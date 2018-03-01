@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/Banzai/"
-IF EXISTS ENV:whdloadargs
-	whdload "Banzai.Slave" $whdloadargs
-ELSE
-	whdload "Banzai.Slave"
-ENDIF

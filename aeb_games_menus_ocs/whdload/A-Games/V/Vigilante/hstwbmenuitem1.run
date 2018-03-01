@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/Vigilante/"
-IF EXISTS ENV:whdloadargs
-	whdload "Vigilante.Slave" $whdloadargs
-ELSE
-	whdload "Vigilante.Slave"
-ENDIF

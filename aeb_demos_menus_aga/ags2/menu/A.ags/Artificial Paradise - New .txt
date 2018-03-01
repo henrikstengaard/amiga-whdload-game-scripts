@@ -1,7 +1,0 @@
-Name    : Artificial Paradise
-Version : AGA
-Groups  : New Generation Crew
-Type    : Demo
-Party   : Saturne 1994
-Rank    : 2nd
-Whdload : ArtificialParadiseAGA.slave

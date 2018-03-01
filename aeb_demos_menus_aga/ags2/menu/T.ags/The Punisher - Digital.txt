@@ -1,4 +1,0 @@
-Name    : The Punisher
-Groups  : Digital
-Type    : Demo
-Whdload : Punisher.Slave

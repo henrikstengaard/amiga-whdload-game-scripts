@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Civilization/"
-IF EXISTS ENV:whdloadargs
-	whdload "Civilization.Slave" $whdloadargs
-ELSE
-	whdload "Civilization.Slave"
-ENDIF

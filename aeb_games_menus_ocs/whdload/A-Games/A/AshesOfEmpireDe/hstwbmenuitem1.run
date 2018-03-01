@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AshesOfEmpireDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "AshesOfEmpireDe.Slave" $whdloadargs
-ELSE
-	whdload "AshesOfEmpireDe.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name    : Roots
-Version : AGA
-Groups  : Sanity
-Type    : Demo
-Party   : The Party 1994
-Rank    : 8th
-Whdload : RootsAGA.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CoolSpot/"
-IF EXISTS ENV:whdloadargs
-	whdload "CoolSpot.Slave" $whdloadargs
-ELSE
-	whdload "CoolSpot.Slave"
-ENDIF

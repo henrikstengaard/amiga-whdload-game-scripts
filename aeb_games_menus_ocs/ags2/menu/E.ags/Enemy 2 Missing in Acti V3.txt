@@ -1,7 +1,0 @@
-Name      : Enemy 2: Missing in Action
-Language  : German
-Publisher : Anachronia
-Year      : 2013
-Genre     : Adventure - Arcade 2D
-Players   : 1 or 2, Simultaneous
-Whdload   : Enemy2MissingInActionDe.Slave

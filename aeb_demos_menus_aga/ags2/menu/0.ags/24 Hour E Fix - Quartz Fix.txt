@@ -1,5 +1,0 @@
-Name    : 24 Hour E Fix
-Version : Fix
-Groups  : Quartz
-Type    : Musicdisk
-Whdload : 24HourEFix.Slave

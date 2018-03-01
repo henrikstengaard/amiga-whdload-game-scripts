@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ChuckRockCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "ChuckRockCD32.Slave" $whdloadargs
-ELSE
-	whdload "ChuckRockCD32.Slave"
-ENDIF

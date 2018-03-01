@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FireForceCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "FireForceCD32.slave" $whdloadargs
-ELSE
-	whdload "FireForceCD32.slave"
-ENDIF

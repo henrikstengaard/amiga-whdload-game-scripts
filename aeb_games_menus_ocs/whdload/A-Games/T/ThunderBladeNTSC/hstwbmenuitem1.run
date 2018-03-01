@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/ThunderBladeNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "ThunderBladeNTSC.Slave" $whdloadargs
-ELSE
-	whdload "ThunderBladeNTSC.Slave"
-ENDIF

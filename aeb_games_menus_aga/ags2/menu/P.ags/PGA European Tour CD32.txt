@@ -1,7 +1,0 @@
-Name      : PGA European Tour
-Version   : CD32
-Publisher : Ocean
-Year      : 1994
-Genre     : Sports - Golf
-Players   : 1 to 4
-Whdload   : PGAEuropeanTourCD32.Slave

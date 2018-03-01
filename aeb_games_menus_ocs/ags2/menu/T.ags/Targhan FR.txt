@@ -1,6 +1,0 @@
-Name      : Targhan
-Language  : French
-Publisher : Silmarils
-Year      : 1989
-Players   : 1 Only
-Whdload   : TarghanFr.Slave

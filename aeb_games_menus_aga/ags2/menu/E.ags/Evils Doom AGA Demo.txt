@@ -1,5 +1,0 @@
-Name      : Evil's Doom
-Version   : AGA Demo
-Publisher : Titan
-Year      : 1996
-Whdload   : EvilsDoomDemo.Slave

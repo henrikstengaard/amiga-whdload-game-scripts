@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/Flipit&Magnose/"
-IF EXISTS ENV:whdloadargs
-	whdload "Flipit&Magnose.slave" $whdloadargs
-ELSE
-	whdload "Flipit&Magnose.slave"
-ENDIF

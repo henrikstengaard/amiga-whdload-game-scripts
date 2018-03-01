@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:N/Numeric/"
-IF EXISTS ENV:whdloadargs
-	whdload "Numeric.Slave" $whdloadargs
-ELSE
-	whdload "Numeric.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name      : Football Glory
-Version   : AGA
-Publisher : Black Legend
-Year      : 1994
-Genre     : Sports - Football/Soccer
-Players   : 1 or 2, Simultaneous
-Whdload   : FootballGloryAGA.Slave

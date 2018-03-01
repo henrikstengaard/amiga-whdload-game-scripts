@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:O/Oblivion/"
-IF EXISTS ENV:whdloadargs
-	whdload "Oblivion.Slave" $whdloadargs
-ELSE
-	whdload "Oblivion.Slave"
-ENDIF

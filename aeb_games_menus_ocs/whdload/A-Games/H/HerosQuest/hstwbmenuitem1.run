@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HerosQuest/"
-IF EXISTS ENV:whdloadargs
-	whdload "HerosQuest.Slave" $whdloadargs
-ELSE
-	whdload "HerosQuest.Slave"
-ENDIF

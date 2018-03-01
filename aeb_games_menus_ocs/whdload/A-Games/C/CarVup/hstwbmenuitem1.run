@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CarVup/"
-IF EXISTS ENV:whdloadargs
-	whdload "CarVup.Slave" $whdloadargs
-ELSE
-	whdload "CarVup.Slave"
-ENDIF

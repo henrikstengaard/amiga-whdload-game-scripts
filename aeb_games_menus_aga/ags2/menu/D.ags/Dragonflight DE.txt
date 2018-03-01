@@ -1,7 +1,0 @@
-Name      : Dragonflight
-Language  : German
-Publisher : Thalion
-Year      : 1990
-Genre     : Adventure - RPG 2D
-Players   : 1 Only
-Whdload   : DragonflightDe.Slave

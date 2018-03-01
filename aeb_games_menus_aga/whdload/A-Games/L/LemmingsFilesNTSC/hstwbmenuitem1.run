@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LemmingsFilesNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "LemmingsFilesNTSC.Slave" $whdloadargs
-ELSE
-	whdload "LemmingsFilesNTSC.Slave"
-ENDIF

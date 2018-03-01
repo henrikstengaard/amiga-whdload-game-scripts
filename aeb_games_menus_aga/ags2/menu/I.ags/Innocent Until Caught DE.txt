@@ -1,7 +1,0 @@
-Name      : Innocent Until Caught
-Language  : German
-Publisher : Psygnosis
-Year      : 1994
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : InnocentUntilCaughtDe.slave

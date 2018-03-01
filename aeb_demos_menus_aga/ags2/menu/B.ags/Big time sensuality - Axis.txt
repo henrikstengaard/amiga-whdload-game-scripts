@@ -1,5 +1,0 @@
-Name    : Big time sensuality
-Version : AGA
-Groups  : Axis
-Type    : Demo
-Whdload : BigTimeSensuality.slave

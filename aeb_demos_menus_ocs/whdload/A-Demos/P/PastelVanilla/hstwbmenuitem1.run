@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/PastelVanilla/"
-IF EXISTS ENV:whdloadargs
-	whdload "PastelVanilla.Slave" $whdloadargs
-ELSE
-	whdload "PastelVanilla.Slave"
-ENDIF

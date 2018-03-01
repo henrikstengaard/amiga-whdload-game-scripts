@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SlamTiltAGA2MB/"
-IF EXISTS ENV:whdloadargs
-	whdload "SlamTiltAGA2MB.Slave" $whdloadargs
-ELSE
-	whdload "SlamTiltAGA2MB.Slave"
-ENDIF

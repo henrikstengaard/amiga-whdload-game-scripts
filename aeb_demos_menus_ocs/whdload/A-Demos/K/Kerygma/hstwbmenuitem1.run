@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:K/Kerygma/"
-IF EXISTS ENV:whdloadargs
-	whdload "Kerygma.Slave" $whdloadargs
-ELSE
-	whdload "Kerygma.Slave"
-ENDIF

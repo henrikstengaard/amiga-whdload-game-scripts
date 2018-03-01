@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/KGBDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "KGBDe.Slave" $whdloadargs
-ELSE
-	whdload "KGBDe.Slave"
-ENDIF

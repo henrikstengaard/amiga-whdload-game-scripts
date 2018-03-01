@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HexumaDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "HexumaDe.Slave" $whdloadargs
-ELSE
-	whdload "HexumaDe.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Damocles/"
-IF EXISTS ENV:whdloadargs
-	whdload "Damocles.slave" $whdloadargs
-ELSE
-	whdload "Damocles.slave"
-ENDIF

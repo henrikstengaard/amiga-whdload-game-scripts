@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PlayerManager/"
-IF EXISTS ENV:whdloadargs
-	whdload "PlayerManager.Slave" $whdloadargs
-ELSE
-	whdload "PlayerManager.Slave"
-ENDIF

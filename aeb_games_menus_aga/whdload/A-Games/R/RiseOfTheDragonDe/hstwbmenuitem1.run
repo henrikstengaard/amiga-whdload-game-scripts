@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RiseOfTheDragonDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "RiseOfTheDragonDe.Slave" $whdloadargs
-ELSE
-	whdload "RiseOfTheDragonDe.Slave"
-ENDIF

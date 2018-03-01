@@ -1,6 +1,0 @@
-Name      : Shadow Fighter
-Version   : AGA
-Publisher : Gremlin Interactive
-Year      : 1995
-Players   : 1 or 2, Simultaneous
-Whdload   : ShadowFighterAGA.Slave

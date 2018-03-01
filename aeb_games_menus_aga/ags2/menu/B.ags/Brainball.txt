@@ -1,6 +1,0 @@
-Name      : Brainball
-Publisher : Amiga Mania
-Year      : 1992
-Genre     : Brain - Puzzle
-Players   : 1 Only
-Whdload   : Brainball.slave

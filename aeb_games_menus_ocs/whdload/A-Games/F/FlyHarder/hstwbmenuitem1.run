@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FlyHarder/"
-IF EXISTS ENV:whdloadargs
-	whdload "FlyHarder.slave" $whdloadargs
-ELSE
-	whdload "FlyHarder.slave"
-ENDIF

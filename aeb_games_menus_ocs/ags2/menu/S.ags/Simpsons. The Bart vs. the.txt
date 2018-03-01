@@ -1,7 +1,0 @@
-Name      : Simpsons, The: Bart vs. the Space Mutants
-Version   : 1Disk
-Publisher : Ocean
-Year      : 1991
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : BartVsSpaceMutants1Disk.Slave

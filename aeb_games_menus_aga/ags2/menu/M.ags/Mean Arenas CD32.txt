@@ -1,7 +1,0 @@
-Name      : Mean Arenas
-Version   : CD32
-Publisher : ICE
-Year      : 1993
-Genre     : Arcade - Labyrinth/Maze
-Players   : 1 or 2
-Whdload   : MeanArenasCD32.slave

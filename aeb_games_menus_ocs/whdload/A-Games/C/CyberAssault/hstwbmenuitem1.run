@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CyberAssault/"
-IF EXISTS ENV:whdloadargs
-	whdload "CyberAssault.Slave" $whdloadargs
-ELSE
-	whdload "CyberAssault.Slave"
-ENDIF

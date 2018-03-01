@@ -1,7 +1,0 @@
-Name      : Detroit
-Version   : AGA
-Publisher : Impressions
-Year      : 1994
-Genre     : Strategy - Company
-Players   : 1 to 4
-Whdload   : DetroitAGA.Slave

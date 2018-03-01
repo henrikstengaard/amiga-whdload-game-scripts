@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DragonsLair/"
-IF EXISTS ENV:whdloadargs
-	whdload "DragonsLair.Slave" $whdloadargs
-ELSE
-	whdload "DragonsLair.Slave"
-ENDIF

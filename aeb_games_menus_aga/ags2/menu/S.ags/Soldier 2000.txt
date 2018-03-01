@@ -1,5 +1,0 @@
-Name      : Soldier 2000
-Publisher : Artronic
-Year      : 1990
-Players   : 1
-Whdload   : Soldier2000.Slave

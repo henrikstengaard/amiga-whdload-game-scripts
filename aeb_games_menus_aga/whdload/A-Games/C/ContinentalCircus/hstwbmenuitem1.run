@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ContinentalCircus/"
-IF EXISTS ENV:whdloadargs
-	whdload "ContinentalCircus.Slave" $whdloadargs
-ELSE
-	whdload "ContinentalCircus.Slave"
-ENDIF

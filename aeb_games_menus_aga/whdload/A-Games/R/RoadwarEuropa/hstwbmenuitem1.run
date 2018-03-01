@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RoadwarEuropa/"
-IF EXISTS ENV:whdloadargs
-	whdload "RoadwarEuropa.Slave" $whdloadargs
-ELSE
-	whdload "RoadwarEuropa.Slave"
-ENDIF

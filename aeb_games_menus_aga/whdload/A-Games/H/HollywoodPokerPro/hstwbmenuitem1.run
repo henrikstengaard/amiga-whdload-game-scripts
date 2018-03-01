@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:H/HollywoodPokerPro/"
-IF EXISTS ENV:whdloadargs
-	whdload "HollywoodPokerPro.Slave" $whdloadargs
-ELSE
-	whdload "HollywoodPokerPro.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/Sumea/"
-IF EXISTS ENV:whdloadargs
-	whdload "Sumea.Slave" $whdloadargs
-ELSE
-	whdload "Sumea.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:V/VoyageFantasyForce/"
-IF EXISTS ENV:whdloadargs
-	whdload "VoyageFantasyForce.slave" $whdloadargs
-ELSE
-	whdload "VoyageFantasyForce.slave"
-ENDIF

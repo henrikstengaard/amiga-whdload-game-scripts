@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:L/LoonyTunes/"
-IF EXISTS ENV:whdloadargs
-	whdload "LoonyTunes.Slave" $whdloadargs
-ELSE
-	whdload "LoonyTunes.Slave"
-ENDIF

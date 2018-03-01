@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Q/QuikThunderRabbitAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "QuikThunderRabbitAGA.slave" $whdloadargs
-ELSE
-	whdload "QuikThunderRabbitAGA.slave"
-ENDIF

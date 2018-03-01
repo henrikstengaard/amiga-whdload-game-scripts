@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TintinOnTheMoonFiles/"
-IF EXISTS ENV:whdloadargs
-	whdload "TintinOnTheMoonFiles.Slave" $whdloadargs
-ELSE
-	whdload "TintinOnTheMoonFiles.Slave"
-ENDIF

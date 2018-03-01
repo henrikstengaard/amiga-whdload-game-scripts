@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BuilderLand/"
-IF EXISTS ENV:whdloadargs
-	whdload "BuilderLand.Slave" $whdloadargs
-ELSE
-	whdload "BuilderLand.Slave"
-ENDIF

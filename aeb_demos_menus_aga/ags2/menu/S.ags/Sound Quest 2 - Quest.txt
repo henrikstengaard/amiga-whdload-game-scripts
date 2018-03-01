@@ -1,4 +1,0 @@
-Name    : Sound Quest #2
-Groups  : Quest
-Type    : Musicdisk
-Whdload : SoundQuest2.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:V/Vectordance/"
-IF EXISTS ENV:whdloadargs
-	whdload "Vectordance.Slave" $whdloadargs
-ELSE
-	whdload "Vectordance.Slave"
-ENDIF

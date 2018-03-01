@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:C/ChipAttack/"
-IF EXISTS ENV:whdloadargs
-	whdload "ChipAttack.Slave" $whdloadargs
-ELSE
-	whdload "ChipAttack.Slave"
-ENDIF

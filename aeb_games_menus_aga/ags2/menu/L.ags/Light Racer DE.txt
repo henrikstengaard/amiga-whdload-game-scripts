@@ -1,6 +1,0 @@
-Name      : Light Racer
-Language  : German
-Publisher : Freeware
-Year      : 1989
-Players   : 1 - 2 (2 simultaneous)
-Whdload   : LightRacerDe.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CurseOfEnchantiaFastFiles/"
-IF EXISTS ENV:whdloadargs
-	whdload "CurseOfEnchantiaFastFiles.Slave" $whdloadargs
-ELSE
-	whdload "CurseOfEnchantiaFastFiles.Slave"
-ENDIF

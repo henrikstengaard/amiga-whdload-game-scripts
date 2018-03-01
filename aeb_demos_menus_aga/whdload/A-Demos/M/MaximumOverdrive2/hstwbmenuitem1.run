@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MaximumOverdrive2/"
-IF EXISTS ENV:whdloadargs
-	whdload "MaximumOverdrive2.Slave" $whdloadargs
-ELSE
-	whdload "MaximumOverdrive2.Slave"
-ENDIF

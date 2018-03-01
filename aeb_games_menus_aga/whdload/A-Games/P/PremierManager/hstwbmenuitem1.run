@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PremierManager/"
-IF EXISTS ENV:whdloadargs
-	whdload "PremierManager.Slave" $whdloadargs
-ELSE
-	whdload "PremierManager.Slave"
-ENDIF

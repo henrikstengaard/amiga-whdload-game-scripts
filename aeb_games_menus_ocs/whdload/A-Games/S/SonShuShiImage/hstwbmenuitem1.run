@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SonShuShiImage/"
-IF EXISTS ENV:whdloadargs
-	whdload "SonShuShiImage.Slave" $whdloadargs
-ELSE
-	whdload "SonShuShiImage.Slave"
-ENDIF

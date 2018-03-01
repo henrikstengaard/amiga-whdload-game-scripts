@@ -1,4 +1,0 @@
-Name    : Megademo
-Groups  : Megaforce
-Type    : Megademo
-Whdload : MegademoMegaforce.Slave

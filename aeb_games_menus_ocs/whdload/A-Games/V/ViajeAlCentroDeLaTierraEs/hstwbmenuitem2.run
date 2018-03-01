@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/ViajeAlCentroDeLaTierraEs/"
-IF EXISTS ENV:whdloadargs
-	whdload "ViajeAlCentroDeLaTierraEs.old" $whdloadargs
-ELSE
-	whdload "ViajeAlCentroDeLaTierraEs.old"
-ENDIF

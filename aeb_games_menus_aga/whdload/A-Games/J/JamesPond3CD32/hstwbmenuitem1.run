@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:J/JamesPond3CD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "JamesPond3CD32.slave" $whdloadargs
-ELSE
-	whdload "JamesPond3CD32.slave"
-ENDIF

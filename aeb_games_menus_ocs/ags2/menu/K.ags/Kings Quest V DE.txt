@@ -1,6 +1,0 @@
-Name      : King's Quest V
-Language  : German
-Publisher : Sierra
-Year      : 1991
-Players   : 1
-Whdload   : KingsQuest5De.slave

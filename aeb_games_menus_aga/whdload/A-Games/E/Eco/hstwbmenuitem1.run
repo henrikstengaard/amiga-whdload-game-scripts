@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/Eco/"
-IF EXISTS ENV:whdloadargs
-	whdload "Eco.Slave" $whdloadargs
-ELSE
-	whdload "Eco.Slave"
-ENDIF

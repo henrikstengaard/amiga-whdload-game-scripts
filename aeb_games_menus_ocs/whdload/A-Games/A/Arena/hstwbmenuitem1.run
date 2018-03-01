@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/Arena/"
-IF EXISTS ENV:whdloadargs
-	whdload "Arena.slave" $whdloadargs
-ELSE
-	whdload "Arena.slave"
-ENDIF

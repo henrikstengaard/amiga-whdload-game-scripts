@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TipOff/"
-IF EXISTS ENV:whdloadargs
-	whdload "TipOff.Slave" $whdloadargs
-ELSE
-	whdload "TipOff.Slave"
-ENDIF

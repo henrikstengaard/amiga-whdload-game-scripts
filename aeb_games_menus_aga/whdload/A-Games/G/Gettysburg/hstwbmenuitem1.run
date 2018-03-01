@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/Gettysburg/"
-IF EXISTS ENV:whdloadargs
-	whdload "Gettysburg.Slave" $whdloadargs
-ELSE
-	whdload "Gettysburg.Slave"
-ENDIF

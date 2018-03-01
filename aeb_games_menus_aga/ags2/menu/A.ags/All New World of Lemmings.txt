@@ -1,7 +1,0 @@
-Name      : All New World of Lemmings
-Version   : AGA
-Publisher : Psygnosis
-Year      : 1995
-Genre     : Arcade - Miscellaneous
-Players   : 1 Only
-Whdload   : AllNewWorldOfLemmingsAGA.slave

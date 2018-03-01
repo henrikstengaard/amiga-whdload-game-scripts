@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DreamWebAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "DreamWebAGA.Slave" $whdloadargs
-ELSE
-	whdload "DreamWebAGA.Slave"
-ENDIF

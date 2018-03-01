@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/Multica/"
-IF EXISTS ENV:whdloadargs
-	whdload "Multica.slave" $whdloadargs
-ELSE
-	whdload "Multica.slave"
-ENDIF

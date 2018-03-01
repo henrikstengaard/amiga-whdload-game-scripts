@@ -1,7 +1,0 @@
-Name      : Pirates! Gold
-Version   : CD32
-Publisher : MicroProse Software
-Year      : 1994
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : PiratesGoldCD32.slave

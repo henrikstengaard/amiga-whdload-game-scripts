@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/Kult/"
-IF EXISTS ENV:whdloadargs
-	whdload "Kult.slave" $whdloadargs
-ELSE
-	whdload "Kult.slave"
-ENDIF

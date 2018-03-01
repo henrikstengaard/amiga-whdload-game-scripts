@@ -1,4 +1,0 @@
-Name    : Bernard Sumner Music Disk 1
-Groups  : Relay
-Type    : Musicdisk
-Whdload : BernhardSumnerMD1.Slave

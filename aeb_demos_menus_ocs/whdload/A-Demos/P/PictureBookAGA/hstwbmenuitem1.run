@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/PictureBookAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "PictureBookAGA.Slave" $whdloadargs
-ELSE
-	whdload "PictureBookAGA.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BloodnetAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "BloodnetAGA.slave" $whdloadargs
-ELSE
-	whdload "BloodnetAGA.slave"
-ENDIF

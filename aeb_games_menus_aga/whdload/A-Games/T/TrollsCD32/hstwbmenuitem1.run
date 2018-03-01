@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TrollsCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "TrollsCD32.Slave" $whdloadargs
-ELSE
-	whdload "TrollsCD32.Slave"
-ENDIF

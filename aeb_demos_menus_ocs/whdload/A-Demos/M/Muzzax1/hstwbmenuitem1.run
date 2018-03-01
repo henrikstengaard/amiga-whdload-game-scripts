@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/Muzzax1/"
-IF EXISTS ENV:whdloadargs
-	whdload "Muzzax1.slave" $whdloadargs
-ELSE
-	whdload "Muzzax1.slave"
-ENDIF

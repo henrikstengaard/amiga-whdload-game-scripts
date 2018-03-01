@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/KickOff96/"
-IF EXISTS ENV:whdloadargs
-	whdload "KickOff96.slave" $whdloadargs
-ELSE
-	whdload "KickOff96.slave"
-ENDIF

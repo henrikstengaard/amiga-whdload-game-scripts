@@ -1,4 +1,0 @@
-Name    : Legalize It 2
-Groups  : Anarchy
-Type    : Musicdisk
-Whdload : LegalizeIt2.slave

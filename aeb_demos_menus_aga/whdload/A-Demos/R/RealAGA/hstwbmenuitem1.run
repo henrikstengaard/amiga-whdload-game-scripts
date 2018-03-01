@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:R/RealAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "RealAGA.Slave" $whdloadargs
-ELSE
-	whdload "RealAGA.Slave"
-ENDIF

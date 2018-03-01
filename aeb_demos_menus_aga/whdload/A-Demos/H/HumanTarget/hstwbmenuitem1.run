@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:H/HumanTarget/"
-IF EXISTS ENV:whdloadargs
-	whdload "HumanTarget.slave" $whdloadargs
-ELSE
-	whdload "HumanTarget.slave"
-ENDIF

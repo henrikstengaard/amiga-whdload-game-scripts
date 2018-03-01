@@ -1,7 +1,0 @@
-Name      : Virtual Karting II
-Version   : AGA Demo
-Publisher : Islona Entertainment
-Year      : 1998
-Genre     : Racing - Miscellaneous
-Players   : 1 Only
-Whdload   : VirtualKarting2DemoAGA.Slave

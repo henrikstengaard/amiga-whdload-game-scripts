@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ChaosStrikesBack&FrUtil/"
-IF EXISTS ENV:whdloadargs
-	whdload "ChaosStrikesBack.Slave" $whdloadargs
-ELSE
-	whdload "ChaosStrikesBack.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:N/Nugget/"
-IF EXISTS ENV:whdloadargs
-	whdload "Nugget.Slave" $whdloadargs
-ELSE
-	whdload "Nugget.Slave"
-ENDIF

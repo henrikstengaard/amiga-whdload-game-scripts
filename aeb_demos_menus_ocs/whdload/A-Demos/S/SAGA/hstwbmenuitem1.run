@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "SAGA.Slave" $whdloadargs
-ELSE
-	whdload "SAGA.Slave"
-ENDIF

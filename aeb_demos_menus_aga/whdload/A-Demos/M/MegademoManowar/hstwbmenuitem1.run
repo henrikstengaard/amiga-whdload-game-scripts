@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MegademoManowar/"
-IF EXISTS ENV:whdloadargs
-	whdload "MegademoManowar.Slave" $whdloadargs
-ELSE
-	whdload "MegademoManowar.Slave"
-ENDIF

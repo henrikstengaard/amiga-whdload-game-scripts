@@ -1,7 +1,0 @@
-Name      : Daley Thompson's Olympic Challenge
-Version   : 2Disk
-Publisher : Ocean
-Year      : 1988
-Genre     : Sports - Multi-Event
-Players   : 1 Only
-Whdload   : DaleyThompsonsOC2Disk.Slave

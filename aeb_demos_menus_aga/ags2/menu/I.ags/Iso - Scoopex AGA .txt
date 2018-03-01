@@ -1,7 +1,0 @@
-Name    : Iso
-Version : AGA
-Groups  : Scoopex
-Type    : Demo
-Party   : Remedy 1995
-Rank    : 3rd
-Whdload : IsoAGA.slave

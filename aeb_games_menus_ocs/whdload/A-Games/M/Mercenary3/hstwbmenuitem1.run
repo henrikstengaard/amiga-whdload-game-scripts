@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:M/Mercenary3/"
-IF EXISTS ENV:whdloadargs
-	whdload "Mercenary3.Slave" $whdloadargs
-ELSE
-	whdload "Mercenary3.Slave"
-ENDIF

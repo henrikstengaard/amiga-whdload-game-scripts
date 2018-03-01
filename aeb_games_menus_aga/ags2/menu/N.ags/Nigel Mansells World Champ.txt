@@ -1,7 +1,0 @@
-Name      : Nigel Mansell's World Championship
-Version   : AGA
-Publisher : Gremlin Graphics
-Year      : 1992
-Genre     : Sports - Formula One
-Players   : 1 Only
-Whdload   : NigelMansellsWrldChmpAGA.slave

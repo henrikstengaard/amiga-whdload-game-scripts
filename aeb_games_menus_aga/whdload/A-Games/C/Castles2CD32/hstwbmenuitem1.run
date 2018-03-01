@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Castles2CD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "Castles2CD32.Slave" $whdloadargs
-ELSE
-	whdload "Castles2CD32.Slave"
-ENDIF

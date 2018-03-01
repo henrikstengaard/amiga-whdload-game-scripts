@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PacMania/"
-IF EXISTS ENV:whdloadargs
-	whdload "Pacmania.Slave" $whdloadargs
-ELSE
-	whdload "Pacmania.Slave"
-ENDIF

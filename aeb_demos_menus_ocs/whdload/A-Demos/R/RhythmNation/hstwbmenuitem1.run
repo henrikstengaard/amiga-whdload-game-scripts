@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:R/RhythmNation/"
-IF EXISTS ENV:whdloadargs
-	whdload "RhythmNation.Slave" $whdloadargs
-ELSE
-	whdload "RhythmNation.Slave"
-ENDIF

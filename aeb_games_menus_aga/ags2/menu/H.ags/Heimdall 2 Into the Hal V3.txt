@@ -1,7 +1,0 @@
-Name      : Heimdall 2: Into the Hall of Worlds
-Version   : CD32
-Publisher : Core Design
-Year      : 1994
-Genre     : Adventure - Miscellaneous
-Players   : 1 Only
-Whdload   : Heimdall2CD32.Slave

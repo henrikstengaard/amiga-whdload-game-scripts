@@ -1,5 +1,0 @@
-Name      : 3D World Soccer
-Publisher : Simulmondo
-Year      : 1992
-Genre     : Sports - Football/Soccer
-Whdload   : 3DWorldSoccer.Slave

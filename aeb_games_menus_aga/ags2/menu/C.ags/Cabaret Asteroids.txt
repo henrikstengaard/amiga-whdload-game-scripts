@@ -1,5 +1,0 @@
-Name      : Cabaret Asteroids
-Publisher : The One / Amiga Action
-Year      : 1991
-Players   : 1 - 2 (1 simultaneous)
-Whdload   : CabaretAsteroids.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:E/EstprobalMastic/"
-IF EXISTS ENV:whdloadargs
-	whdload "EstprobalMastic.Slave" $whdloadargs
-ELSE
-	whdload "EstprobalMastic.Slave"
-ENDIF

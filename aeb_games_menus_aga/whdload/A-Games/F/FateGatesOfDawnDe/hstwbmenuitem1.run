@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FateGatesOfDawnDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "FateGatesOfDawnDe.Slave" $whdloadargs
-ELSE
-	whdload "FateGatesOfDawnDe.Slave"
-ENDIF

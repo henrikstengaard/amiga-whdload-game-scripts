@@ -1,6 +1,0 @@
-Name      : Fly Harder
-Version   : CD32
-Publisher : Starbyte Software
-Year      : 1993
-Players   : 1 Only
-Whdload   : FlyHarderCD32.slave

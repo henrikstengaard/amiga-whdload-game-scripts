@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/Zool2AGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "Zool2AGA.Slave" $whdloadargs
-ELSE
-	whdload "Zool2AGA.Slave"
-ENDIF

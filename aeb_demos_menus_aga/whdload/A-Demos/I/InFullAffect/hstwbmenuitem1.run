@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:I/InFullAffect/"
-IF EXISTS ENV:whdloadargs
-	whdload "InFullAffect.Slave" $whdloadargs
-ELSE
-	whdload "InFullAffect.Slave"
-ENDIF

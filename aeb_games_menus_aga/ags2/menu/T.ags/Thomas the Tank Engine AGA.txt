@@ -1,7 +1,0 @@
-Name      : Thomas the Tank Engine
-Version   : AGA
-Publisher : Alternative Software
-Year      : 1992
-Genre     : Miscellaneous - (unknown)
-Players   : 1 or 2
-Whdload   : ThomasTankEngPinballAGA.Slave

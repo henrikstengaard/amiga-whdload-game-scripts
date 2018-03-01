@@ -1,4 +1,0 @@
-Name    : Amplifier 1
-Groups  : Dimension 4
-Type    : Musicdisk
-Whdload : Amplifier1.Slave

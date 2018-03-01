@@ -1,7 +1,0 @@
-Name      : Portes du Temps, Les
-Language  : French
-Publisher : Legend Software
-Year      : 1989
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : PortesDuTempsFr.Slave

@@ -1,5 +1,0 @@
-;HstWB menu item data
-Name=Pipeline
-RunFile=PipelineNomad.Slave
-AGS2Name=Pipeline
-iGameName=Pipeline

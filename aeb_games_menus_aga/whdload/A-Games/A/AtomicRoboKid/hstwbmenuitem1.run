@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AtomicRoboKid/"
-IF EXISTS ENV:whdloadargs
-	whdload "AtomicRobokid.slave" $whdloadargs
-ELSE
-	whdload "AtomicRobokid.slave"
-ENDIF

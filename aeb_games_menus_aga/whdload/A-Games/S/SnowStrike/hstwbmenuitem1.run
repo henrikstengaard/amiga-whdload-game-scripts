@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SnowStrike/"
-IF EXISTS ENV:whdloadargs
-	whdload "SnowStrike.Slave" $whdloadargs
-ELSE
-	whdload "SnowStrike.Slave"
-ENDIF

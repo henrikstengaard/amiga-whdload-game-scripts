@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Cubulus/"
-IF EXISTS ENV:whdloadargs
-	whdload "Cubulus.Slave" $whdloadargs
-ELSE
-	whdload "Cubulus.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SwitchbackAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "SwitchbackAGA.Slave" $whdloadargs
-ELSE
-	whdload "SwitchbackAGA.Slave"
-ENDIF

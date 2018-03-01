@@ -1,5 +1,0 @@
-Name      : Hyperion
-Publisher : Black Legend
-Year      : 1992
-Players   : 1 Only
-Whdload   : Hyperion.Slave

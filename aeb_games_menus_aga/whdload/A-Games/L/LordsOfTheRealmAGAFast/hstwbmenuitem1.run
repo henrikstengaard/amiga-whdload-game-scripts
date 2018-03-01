@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LordsOfTheRealmAGAFast/"
-IF EXISTS ENV:whdloadargs
-	whdload "LordsOfTheRealmAGAFast.slave" $whdloadargs
-ELSE
-	whdload "LordsOfTheRealmAGAFast.slave"
-ENDIF

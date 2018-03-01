@@ -1,6 +1,0 @@
-Name    : 5 Yards
-Groups  : Vision
-Type    : Intro
-Party   : RAF Conference 1991
-Rank    : N/a
-Whdload : 5Yards.Slave

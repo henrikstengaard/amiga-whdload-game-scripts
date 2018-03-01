@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:Z/Zyconix/"
-IF EXISTS ENV:whdloadargs
-	whdload "Zyconix.Slave" $whdloadargs
-ELSE
-	whdload "Zyconix.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:F/FutureSynthetix/"
-IF EXISTS ENV:whdloadargs
-	whdload "FutureSynthetix.Slave" $whdloadargs
-ELSE
-	whdload "FutureSynthetix.Slave"
-ENDIF

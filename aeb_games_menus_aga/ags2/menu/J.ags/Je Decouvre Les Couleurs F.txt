@@ -1,6 +1,0 @@
-Name      : Je Découvre Les Couleurs
-Language  : French
-Publisher : Loriciel
-Year      : 1990
-Players   : 1
-Whdload   : DenverJeFaisDesCouleursFr.Slave

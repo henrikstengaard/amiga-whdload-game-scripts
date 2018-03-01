@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:I/InsectorHectiInterChange/"
-IF EXISTS ENV:whdloadargs
-	whdload "InsectorHectiInterChange.Slave" $whdloadargs
-ELSE
-	whdload "InsectorHectiInterChange.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name      : Virtual Karting
-Version   : AGA
-Publisher : OTM
-Year      : 1995
-Genre     : Racing - Miscellaneous
-Players   : 1 Only
-Whdload   : VirtualKartingAGA.Slave

@@ -1,7 +1,0 @@
-Name    : Friday at Eight
-Version : AGA
-Groups  : Polka brothers
-Type    : Demo
-Party   : The Gathering 1994
-Rank    : 3rd
-Whdload : FridayAtEightAGA.Slave

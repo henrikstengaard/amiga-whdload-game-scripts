@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DuneFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "DuneFr.Slave" $whdloadargs
-ELSE
-	whdload "DuneFr.Slave"
-ENDIF

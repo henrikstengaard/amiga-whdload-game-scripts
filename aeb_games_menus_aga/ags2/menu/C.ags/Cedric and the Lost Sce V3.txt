@@ -1,6 +1,0 @@
-Name      : Cedric and the Lost Sceptre
-Version   : CD32 FAST
-Publisher : Neo
-Year      : 1995
-Players   : 1
-Whdload   : CedricCD32Fast.Slave

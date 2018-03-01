@@ -1,4 +1,0 @@
-Name    : Bruno's Musicbox II
-Groups  : Gate
-Type    : Musicdisk
-Whdload : BrunosMusicBox2.Slave

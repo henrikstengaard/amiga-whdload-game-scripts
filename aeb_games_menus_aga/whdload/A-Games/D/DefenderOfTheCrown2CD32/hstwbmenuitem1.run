@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DefenderOfTheCrown2CD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "DefenderOfTheCrown2CD32.slave" $whdloadargs
-ELSE
-	whdload "DefenderOfTheCrown2CD32.slave"
-ENDIF

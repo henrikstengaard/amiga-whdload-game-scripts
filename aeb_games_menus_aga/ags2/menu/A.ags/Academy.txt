@@ -1,5 +1,0 @@
-Name      : Academy
-Publisher : CRL
-Year      : 1988
-Players   : 1
-Whdload   : Academy.slave

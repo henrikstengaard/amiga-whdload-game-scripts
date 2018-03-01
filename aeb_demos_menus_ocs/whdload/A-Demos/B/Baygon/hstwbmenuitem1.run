@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:B/Baygon/"
-IF EXISTS ENV:whdloadargs
-	whdload "Baygon.Slave" $whdloadargs
-ELSE
-	whdload "Baygon.Slave"
-ENDIF

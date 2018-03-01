@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/Cavitas/"
-IF EXISTS ENV:whdloadargs
-	whdload "Cavitas.Slave" $whdloadargs
-ELSE
-	whdload "Cavitas.Slave"
-ENDIF

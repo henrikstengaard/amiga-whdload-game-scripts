@@ -1,7 +1,0 @@
-Name    : Maximum Overdrive 2
-Version : AGA
-Groups  : Rage
-Type    : Demo
-Party   : Assembly 1994
-Rank    : 6th
-Whdload : MaximumOverdrive2.Slave

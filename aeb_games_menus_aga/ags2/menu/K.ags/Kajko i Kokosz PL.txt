@@ -1,7 +1,0 @@
-Name      : Kajko i Kokosz
-Language  : Polish
-Publisher : Seven Stars
-Year      : 1995
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : KajkoIKokoszPl.Slave

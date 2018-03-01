@@ -1,7 +1,0 @@
-Name      : Speedball 2: Brutal Deluxe
-Version   : CD32
-Publisher : Image Works
-Year      : 1990
-Genre     : Sports - Miscellaneous
-Players   : 1 or 2, Simultaneous
-Whdload   : Speedball2CD32.Slave

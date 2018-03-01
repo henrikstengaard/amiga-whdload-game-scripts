@@ -1,7 +1,0 @@
-Name      : Marvin's Marvellous Adventure
-Version   : AGA
-Publisher : 21st Century Entertainment
-Year      : 1994
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : MarvinsMarvellousAdvAGA.Slave

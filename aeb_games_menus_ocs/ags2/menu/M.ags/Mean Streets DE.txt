@@ -1,7 +1,0 @@
-Name      : Mean Streets
-Language  : German
-Publisher : US Gold
-Year      : 1990
-Genre     : Adventure - Arcade 3D
-Players   : 1 Only
-Whdload   : MeanStreetsDe.slave

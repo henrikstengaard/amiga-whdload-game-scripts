@@ -1,4 +1,0 @@
-Name    : Gladiator music
-Groups  : Cryptoburners
-Type    : Musicdisk
-Whdload : GladiatorMusic.Slave

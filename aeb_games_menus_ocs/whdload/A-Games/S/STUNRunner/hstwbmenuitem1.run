@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/STUNRunner/"
-IF EXISTS ENV:whdloadargs
-	whdload "STUNRunner.Slave" $whdloadargs
-ELSE
-	whdload "STUNRunner.Slave"
-ENDIF

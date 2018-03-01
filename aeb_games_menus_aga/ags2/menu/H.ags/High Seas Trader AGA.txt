@@ -1,7 +1,0 @@
-Name      : High Seas Trader
-Version   : AGA
-Publisher : Impressions
-Year      : 1995
-Genre     : Strategy - Trading
-Players   : 1 Only
-Whdload   : HighSeasTraderAGA.Slave

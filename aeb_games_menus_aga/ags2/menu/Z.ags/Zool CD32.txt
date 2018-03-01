@@ -1,6 +1,0 @@
-Name      : Zool
-Version   : CD32
-Publisher : Gremlin
-Year      : 1992
-Players   : 1
-Whdload   : ZoolCD32.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:M/MusicBoxCopyride/"
-IF EXISTS ENV:whdloadargs
-	whdload "MusicBoxCopyride.Slave" $whdloadargs
-ELSE
-	whdload "MusicBoxCopyride.Slave"
-ENDIF

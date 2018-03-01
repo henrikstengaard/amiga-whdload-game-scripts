@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/GadgetLostInTime/"
-IF EXISTS ENV:whdloadargs
-	whdload "GadgetLostInTime.slave" $whdloadargs
-ELSE
-	whdload "GadgetLostInTime.slave"
-ENDIF

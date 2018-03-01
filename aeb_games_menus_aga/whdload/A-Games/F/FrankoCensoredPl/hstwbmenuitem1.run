@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FrankoCensoredPl/"
-IF EXISTS ENV:whdloadargs
-	whdload "FrankoCensoredPl.slave" $whdloadargs
-ELSE
-	whdload "FrankoCensoredPl.slave"
-ENDIF

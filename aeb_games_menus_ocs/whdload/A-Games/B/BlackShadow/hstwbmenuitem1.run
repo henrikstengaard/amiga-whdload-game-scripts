@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BlackShadow/"
-IF EXISTS ENV:whdloadargs
-	whdload "BlackShadow.Slave" $whdloadargs
-ELSE
-	whdload "BlackShadow.Slave"
-ENDIF

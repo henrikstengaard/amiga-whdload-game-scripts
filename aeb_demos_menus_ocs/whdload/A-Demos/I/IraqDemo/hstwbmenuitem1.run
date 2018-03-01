@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:I/IraqDemo/"
-IF EXISTS ENV:whdloadargs
-	whdload "IraqDemo.Slave" $whdloadargs
-ELSE
-	whdload "IraqDemo.Slave"
-ENDIF

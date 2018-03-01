@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/StarWars/"
-IF EXISTS ENV:whdloadargs
-	whdload "StarWars.slave" $whdloadargs
-ELSE
-	whdload "StarWars.slave"
-ENDIF

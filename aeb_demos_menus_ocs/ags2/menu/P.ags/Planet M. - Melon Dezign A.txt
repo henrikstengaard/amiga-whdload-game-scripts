@@ -1,7 +1,0 @@
-Name    : Planet M.
-Version : AGA
-Groups  : Melon Dezign
-Type    : Demo
-Party   : Somewhere in Holland 1995
-Rank    : 1st
-Whdload : PlanetMAGA.Slave

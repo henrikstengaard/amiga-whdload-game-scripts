@@ -1,5 +1,0 @@
-Name      : Galactic Conqueror
-Publisher : Titus Software
-Year      : 1988
-Players   : 1 Only
-Whdload   : GalacticConqueror.Slave

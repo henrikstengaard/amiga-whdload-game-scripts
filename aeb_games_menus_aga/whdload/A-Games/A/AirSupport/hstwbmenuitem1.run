@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AirSupport/"
-IF EXISTS ENV:whdloadargs
-	whdload "AirSupport.Slave" $whdloadargs
-ELSE
-	whdload "AirSupport.Slave"
-ENDIF

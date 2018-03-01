@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:J/JabatoEs/"
-IF EXISTS ENV:whdloadargs
-	whdload "JabatoEs.slave" $whdloadargs
-ELSE
-	whdload "JabatoEs.slave"
-ENDIF

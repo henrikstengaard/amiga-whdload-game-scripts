@@ -1,6 +1,0 @@
-Name      : Interphase
-Version   : AmigaFormat
-Publisher : Image Works
-Year      : 1990
-Players   : 1 Only
-Whdload   : InterphaseAmigaFormat.slave

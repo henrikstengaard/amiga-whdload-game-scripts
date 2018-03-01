@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/Rampart/"
-IF EXISTS ENV:whdloadargs
-	whdload "Rampart.Slave" $whdloadargs
-ELSE
-	whdload "Rampart.Slave"
-ENDIF

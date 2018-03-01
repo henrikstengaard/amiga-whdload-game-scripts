@@ -1,4 +1,0 @@
-Name    : Megademo 2
-Groups  : Bronx
-Type    : Demo
-Whdload : MegaDemo2Bronx.Slave

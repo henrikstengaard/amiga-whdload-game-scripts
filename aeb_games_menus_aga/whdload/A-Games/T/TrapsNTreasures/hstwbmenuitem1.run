@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TrapsNTreasures/"
-IF EXISTS ENV:whdloadargs
-	whdload "TrapsNTreasures.Slave" $whdloadargs
-ELSE
-	whdload "TrapsNTreasures.Slave"
-ENDIF

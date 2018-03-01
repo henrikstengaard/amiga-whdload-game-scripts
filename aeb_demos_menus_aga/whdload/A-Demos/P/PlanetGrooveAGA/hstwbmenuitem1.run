@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:P/PlanetGrooveAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "PlanetGrooveAGA.slave" $whdloadargs
-ELSE
-	whdload "PlanetGrooveAGA.slave"
-ENDIF

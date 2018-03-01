@@ -1,4 +1,0 @@
-Name    : Autumn nights
-Groups  : Palace
-Type    : Musicdisk
-Whdload : AutumnNights.Slave

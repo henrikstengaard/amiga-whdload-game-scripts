@@ -1,6 +1,0 @@
-Name      : Super Ski
-Language  : French
-Publisher : Microids / Loriciels
-Year      : 1988
-Players   : 1 - 6 (1 simultaneous)
-Whdload   : SuperSkiFr.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TotalRecall/"
-IF EXISTS ENV:whdloadargs
-	whdload "TotalRecall.slave" $whdloadargs
-ELSE
-	whdload "TotalRecall.slave"
-ENDIF

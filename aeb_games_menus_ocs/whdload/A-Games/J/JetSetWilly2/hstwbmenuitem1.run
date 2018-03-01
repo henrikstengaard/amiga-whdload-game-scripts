@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:J/JetSetWilly2/"
-IF EXISTS ENV:whdloadargs
-	whdload "JetSetWilly2.slave" $whdloadargs
-ELSE
-	whdload "JetSetWilly2.slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name    : The Engine
-Version : AGA
-Groups  : Ramses
-Type    : Demo
-Party   : Euskal 1997
-Rank    : 1st
-Whdload : Engine.Slave

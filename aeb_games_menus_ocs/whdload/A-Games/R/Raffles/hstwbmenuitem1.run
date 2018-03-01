@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/Raffles/"
-IF EXISTS ENV:whdloadargs
-	whdload "Raffles.slave" $whdloadargs
-ELSE
-	whdload "Raffles.slave"
-ENDIF

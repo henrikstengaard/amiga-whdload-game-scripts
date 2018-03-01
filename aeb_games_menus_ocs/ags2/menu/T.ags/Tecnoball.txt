@@ -1,5 +1,0 @@
-Name      : Tecnoball
-Publisher : TLK Games
-Year      : 1991
-Players   : 1 - 6 (1 simultaneous)
-Whdload   : Tecnoball.Slave

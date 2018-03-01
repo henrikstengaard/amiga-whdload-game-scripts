@@ -1,5 +1,0 @@
-Name      : F1 Tornado
-Publisher : Zeppelin Games
-Year      : 1992
-Players   : 1 Only
-Whdload   : F1Tornado.Slave

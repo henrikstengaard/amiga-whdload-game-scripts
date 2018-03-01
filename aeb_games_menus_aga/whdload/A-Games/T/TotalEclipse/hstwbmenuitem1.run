@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TotalEclipse/"
-IF EXISTS ENV:whdloadargs
-	whdload "TotalEclipse.Slave" $whdloadargs
-ELSE
-	whdload "TotalEclipse.Slave"
-ENDIF

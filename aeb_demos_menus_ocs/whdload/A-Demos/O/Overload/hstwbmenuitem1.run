@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:O/Overload/"
-IF EXISTS ENV:whdloadargs
-	whdload "Overload.Slave" $whdloadargs
-ELSE
-	whdload "Overload.Slave"
-ENDIF

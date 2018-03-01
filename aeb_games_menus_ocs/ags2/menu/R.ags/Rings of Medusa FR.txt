@@ -1,7 +1,0 @@
-Name      : Rings of Medusa
-Language  : French
-Publisher : Starbyte Software
-Year      : 1989
-Genre     : Adventure - RPG 2D
-Players   : 1 Only
-Whdload   : RingsOfMedusaFr.Slave

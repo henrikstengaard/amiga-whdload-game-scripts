@@ -1,7 +1,0 @@
-Name    : Love
-Version : AGA
-Groups  : Virtual Dreams,Fairlight
-Type    : Demo
-Party   : South Sealand Party 1994
-Rank    : 1st
-Whdload : Love.Slave

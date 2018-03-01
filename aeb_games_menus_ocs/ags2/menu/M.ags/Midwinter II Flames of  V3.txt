@@ -1,7 +1,0 @@
-Name      : Midwinter II: Flames of Freedom
-Language  : French
-Publisher : Rainbird
-Year      : 1991
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : Midwinter2Fr.Slave

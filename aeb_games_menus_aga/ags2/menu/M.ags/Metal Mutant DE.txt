@@ -1,6 +1,0 @@
-Name      : Metal Mutant
-Language  : German
-Publisher : Silmarils
-Year      : 1991
-Players   : 1 Only
-Whdload   : MetalMutantDe.slave

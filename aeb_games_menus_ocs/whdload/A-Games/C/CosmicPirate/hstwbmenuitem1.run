@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/CosmicPirate/"
-IF EXISTS ENV:whdloadargs
-	whdload "CosmicPirate.Slave" $whdloadargs
-ELSE
-	whdload "CosmicPirate.Slave"
-ENDIF

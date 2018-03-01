@@ -1,6 +1,0 @@
-Name      : 4D Sports Boxing
-Publisher : Mindscape
-Year      : 1991
-Genre     : Sports - Boxing
-Players   : 1 or 2, Simultaneous
-Whdload   : 4DSportsBoxing.Slave

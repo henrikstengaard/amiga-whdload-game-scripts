@@ -1,7 +1,0 @@
-Name    : QED 2
-Version : AGA
-Groups  : Talent
-Type    : Demo
-Party   : The Gathering 1994
-Rank    : 4th
-Whdload : QED2.Slave

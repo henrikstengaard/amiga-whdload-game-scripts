@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RomeAD92/"
-IF EXISTS ENV:whdloadargs
-	whdload "RomeAD92.Slave" $whdloadargs
-ELSE
-	whdload "RomeAD92.Slave"
-ENDIF

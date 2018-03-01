@@ -1,6 +1,0 @@
-Name      : Khalaan
-Publisher : Rainbow Arts
-Year      : 1991
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : Khalaan.Slave

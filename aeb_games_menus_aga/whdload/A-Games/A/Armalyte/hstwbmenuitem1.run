@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/Armalyte/"
-IF EXISTS ENV:whdloadargs
-	whdload "Armalyte.Slave" $whdloadargs
-ELSE
-	whdload "Armalyte.Slave"
-ENDIF

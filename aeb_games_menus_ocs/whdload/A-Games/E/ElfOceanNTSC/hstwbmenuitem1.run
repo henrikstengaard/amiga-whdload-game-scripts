@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:E/ElfOceanNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "ElfOceanNTSC.Slave" $whdloadargs
-ELSE
-	whdload "ElfOceanNTSC.Slave"
-ENDIF

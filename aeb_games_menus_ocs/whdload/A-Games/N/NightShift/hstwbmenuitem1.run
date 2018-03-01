@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/NightShift/"
-IF EXISTS ENV:whdloadargs
-	whdload "NightShift.slave" $whdloadargs
-ELSE
-	whdload "NightShift.slave"
-ENDIF

@@ -1,6 +1,0 @@
-Name    : The Best of Pearl
-Groups  : Byte Busters
-Type    : Musicdisk
-Party   : Maximum Pleasure 1991
-Rank    : N/a
-Whdload : BestOfPearl.Slave

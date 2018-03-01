@@ -1,7 +1,0 @@
-Name      : Mad TV
-Language  : German
-Publisher : Rainbow Arts
-Year      : 1991
-Genre     : Strategy - Company
-Players   : 1 Only
-Whdload   : MadTVDe.Slave

@@ -1,6 +1,0 @@
-Name      : XP8
-Version   : AGA
-Publisher : Effigy Software
-Year      : 1996
-Players   : 1 or 2, Simultaneous
-Whdload   : XP8AGA.slave

@@ -1,7 +1,0 @@
-Name    : Emptyhead
-Version : AGA
-Groups  : Rednex
-Type    : Demo
-Party   : The Party 1993
-Rank    : 6th
-Whdload : EmptyheadAGA.Slave

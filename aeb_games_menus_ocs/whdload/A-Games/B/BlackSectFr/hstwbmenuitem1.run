@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BlackSectFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "BlackSectFr.Slave" $whdloadargs
-ELSE
-	whdload "BlackSectFr.Slave"
-ENDIF

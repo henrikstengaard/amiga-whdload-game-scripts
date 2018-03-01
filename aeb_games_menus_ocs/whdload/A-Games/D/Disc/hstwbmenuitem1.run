@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Disc/"
-IF EXISTS ENV:whdloadargs
-	whdload "Disc.Slave" $whdloadargs
-ELSE
-	whdload "Disc.Slave"
-ENDIF

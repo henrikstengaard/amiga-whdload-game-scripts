@@ -1,7 +1,0 @@
-Name      : A-Train
-Version   : ConstrSet 512K
-Publisher : Ocean
-Year      : 1992
-Genre     : Strategy - Miscellaneous
-Players   : 1 Only
-Whdload   : ATrain512k.slave

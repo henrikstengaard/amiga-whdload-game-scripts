@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AlienBash2/"
-IF EXISTS ENV:whdloadargs
-	whdload "AlienBash2.slave" $whdloadargs
-ELSE
-	whdload "AlienBash2.slave"
-ENDIF

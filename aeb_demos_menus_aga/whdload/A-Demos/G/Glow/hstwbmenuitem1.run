@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:G/Glow/"
-IF EXISTS ENV:whdloadargs
-	whdload "Glow.slave" $whdloadargs
-ELSE
-	whdload "Glow.slave"
-ENDIF

@@ -1,7 +1,0 @@
-Name      : Cruise for a Corpse
-Language  : German
-Publisher : US Gold
-Year      : 1991
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : CruiseForACorpseDe.Slave

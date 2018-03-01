@@ -1,5 +1,0 @@
-Name      : Trog
-Version   : AGA
-Year      : 1992
-Players   : 1
-Whdload   : OgAGA.Slave

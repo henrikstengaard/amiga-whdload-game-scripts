@@ -1,7 +1,0 @@
-Name      : Frontier: Elite II
-Language  : Czech
-Publisher : Gametek
-Year      : 1993
-Genre     : Simulation - Space
-Players   : 1 Only
-Whdload   : FrontierCz.slave

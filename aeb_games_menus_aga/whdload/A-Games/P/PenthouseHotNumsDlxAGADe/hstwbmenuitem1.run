@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:P/PenthouseHotNumsDlxAGADe/"
-IF EXISTS ENV:whdloadargs
-	whdload "PenthouseHotNumsDlxAGADe.Slave" $whdloadargs
-ELSE
-	whdload "PenthouseHotNumsDlxAGADe.Slave"
-ENDIF

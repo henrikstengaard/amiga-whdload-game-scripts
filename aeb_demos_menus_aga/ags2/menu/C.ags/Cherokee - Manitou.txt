@@ -1,4 +1,0 @@
-Name    : Cherokee
-Groups  : Manitou
-Type    : Musicdisk
-Whdload : Cherokee.Slave

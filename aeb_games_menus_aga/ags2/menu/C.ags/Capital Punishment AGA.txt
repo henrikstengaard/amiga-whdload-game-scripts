@@ -1,6 +1,0 @@
-Name      : Capital Punishment
-Version   : AGA
-Publisher : PXL Computers
-Year      : 1996
-Players   : 1 or 2, Simultaneous
-Whdload   : CapitalPunishmentAGA.Slave

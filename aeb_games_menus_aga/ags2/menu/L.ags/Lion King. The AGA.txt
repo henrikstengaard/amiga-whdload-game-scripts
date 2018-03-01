@@ -1,7 +1,0 @@
-Name      : Lion King, The
-Version   : AGA
-Publisher : Virgin Interactive
-Year      : 1995
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : LionKingAGA.Slave

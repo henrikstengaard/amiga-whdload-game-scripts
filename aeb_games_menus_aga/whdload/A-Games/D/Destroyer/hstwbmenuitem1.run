@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/Destroyer/"
-IF EXISTS ENV:whdloadargs
-	whdload "Destroyer.Slave" $whdloadargs
-ELSE
-	whdload "Destroyer.Slave"
-ENDIF

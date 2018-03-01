@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/GBAChampionshipBB/"
-IF EXISTS ENV:whdloadargs
-	whdload "GBAChampionshipBB.Slave" $whdloadargs
-ELSE
-	whdload "GBAChampionshipBB.Slave"
-ENDIF

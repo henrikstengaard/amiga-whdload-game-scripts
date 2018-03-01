@@ -1,6 +1,0 @@
-Name      : The Paranoia Complex
-Language  : German
-Publisher : Magic Bytes (micro-partner/Ariolasoft)
-Year      : 1989
-Players   : 1
-Whdload   : ParanoiaComplexDe.Slave

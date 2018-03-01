@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BombPacCD32AGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "BombPacCD32AGA.Slave" $whdloadargs
-ELSE
-	whdload "BombPacCD32AGA.Slave"
-ENDIF

@@ -1,6 +1,0 @@
-Name      : Mickey ABC: Une journée à la fête
-Language  : French
-Publisher : Disney
-Year      : 1992
-Players   : 1
-Whdload   : MickeyABCFr.Slave

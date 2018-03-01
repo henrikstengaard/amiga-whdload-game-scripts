@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/Killerball/"
-IF EXISTS ENV:whdloadargs
-	whdload "Killerball.Slave" $whdloadargs
-ELSE
-	whdload "Killerball.Slave"
-ENDIF

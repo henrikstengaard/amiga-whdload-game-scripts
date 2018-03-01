@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LandsitzVonMortvilleDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "LandsitzVonMortvilleDe.Slave" $whdloadargs
-ELSE
-	whdload "LandsitzVonMortvilleDe.Slave"
-ENDIF

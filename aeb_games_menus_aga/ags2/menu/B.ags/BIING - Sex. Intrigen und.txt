@@ -1,7 +1,0 @@
-Name      : BIING! - Sex, Intrigen und Skalpelle [AGA]
-Language  : German
-Version   : AGA
-Publisher : Magic Bytes
-Year      : 1995
-Players   : 1
-Whdload   : BiingAGADe.slave

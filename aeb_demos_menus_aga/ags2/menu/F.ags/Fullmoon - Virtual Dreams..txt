@@ -1,7 +1,0 @@
-Name    : Fullmoon
-Version : AGA
-Groups  : Virtual Dreams,Fairlight
-Type    : Demo
-Party   : The Party 1993
-Rank    : 2nd
-Whdload : FullMoon.Slave

@@ -1,7 +1,0 @@
-Name      : Nuxelia
-Version   : AGA Demo
-Publisher : Craze & Pelegolas
-Year      : 1998
-Genre     : Platform, Scrolling
-Players   : 1
-Whdload   : NuxeliaDemo.Slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/ArmourGeddonNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "ArmourGeddonNTSC.Slave" $whdloadargs
-ELSE
-	whdload "ArmourGeddonNTSC.Slave"
-ENDIF

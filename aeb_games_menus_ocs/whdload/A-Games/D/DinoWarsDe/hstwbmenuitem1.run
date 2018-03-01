@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DinoWarsDe/"
-IF EXISTS ENV:whdloadargs
-	whdload "DinoWarsDe.Slave" $whdloadargs
-ELSE
-	whdload "DinoWarsDe.Slave"
-ENDIF

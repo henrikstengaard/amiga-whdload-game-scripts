@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LoomKick13/"
-IF EXISTS ENV:whdloadargs
-	whdload "LoomKick13.slave" $whdloadargs
-ELSE
-	whdload "LoomKick13.slave"
-ENDIF

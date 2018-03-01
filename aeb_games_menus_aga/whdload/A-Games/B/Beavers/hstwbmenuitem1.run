@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/Beavers/"
-IF EXISTS ENV:whdloadargs
-	whdload "Beavers.slave" $whdloadargs
-ELSE
-	whdload "Beavers.slave"
-ENDIF

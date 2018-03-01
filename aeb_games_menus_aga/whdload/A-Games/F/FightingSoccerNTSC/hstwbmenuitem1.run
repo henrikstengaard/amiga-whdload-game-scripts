@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FightingSoccerNTSC/"
-IF EXISTS ENV:whdloadargs
-	whdload "FightingSoccerNTSC.slave" $whdloadargs
-ELSE
-	whdload "FightingSoccerNTSC.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:G/GalacticConqueror/"
-IF EXISTS ENV:whdloadargs
-	whdload "GalacticConqueror.Slave" $whdloadargs
-ELSE
-	whdload "GalacticConqueror.Slave"
-ENDIF

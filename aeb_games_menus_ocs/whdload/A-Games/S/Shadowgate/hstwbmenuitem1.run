@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Shadowgate/"
-IF EXISTS ENV:whdloadargs
-	whdload "Shadowgate.Slave" $whdloadargs
-ELSE
-	whdload "Shadowgate.Slave"
-ENDIF

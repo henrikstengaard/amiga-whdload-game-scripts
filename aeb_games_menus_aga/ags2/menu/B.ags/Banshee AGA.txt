@@ -1,6 +1,0 @@
-Name      : Banshee
-Version   : AGA
-Publisher : Core Design
-Year      : 1994
-Players   : 1 or 2, Simultaneous
-Whdload   : BansheeAGA.slave

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DeconstructionAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "DeconstructionAGA.Slave" $whdloadargs
-ELSE
-	whdload "DeconstructionAGA.Slave"
-ENDIF

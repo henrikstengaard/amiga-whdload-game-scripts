@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SDICinemaware/"
-IF EXISTS ENV:whdloadargs
-	whdload "SDICinemaware.Slave" $whdloadargs
-ELSE
-	whdload "SDICinemaware.Slave"
-ENDIF

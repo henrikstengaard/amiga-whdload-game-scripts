@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:I/IndianaJonesAtlantisAct/"
-IF EXISTS ENV:whdloadargs
-	whdload "IndianaJonesAtlantisAct.slave" $whdloadargs
-ELSE
-	whdload "IndianaJonesAtlantisAct.slave"
-ENDIF

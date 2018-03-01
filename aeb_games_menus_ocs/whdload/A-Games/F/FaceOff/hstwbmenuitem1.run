@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FaceOff/"
-IF EXISTS ENV:whdloadargs
-	whdload "FaceOff.Slave" $whdloadargs
-ELSE
-	whdload "FaceOff.Slave"
-ENDIF

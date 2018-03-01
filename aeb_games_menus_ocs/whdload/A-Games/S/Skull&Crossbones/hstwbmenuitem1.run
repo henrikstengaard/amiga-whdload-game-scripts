@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Skull&Crossbones/"
-IF EXISTS ENV:whdloadargs
-	whdload "Skull&CrossBones.slave" $whdloadargs
-ELSE
-	whdload "Skull&CrossBones.slave"
-ENDIF

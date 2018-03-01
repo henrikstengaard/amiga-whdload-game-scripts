@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SystemViolation/"
-IF EXISTS ENV:whdloadargs
-	whdload "SystemViolation.Slave" $whdloadargs
-ELSE
-	whdload "SystemViolation.Slave"
-ENDIF

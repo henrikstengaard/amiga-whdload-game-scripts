@@ -1,7 +1,0 @@
-Name    : Tint
-Version : AGA
-Groups  : The Black Lotus
-Type    : Demo
-Party   : The Gathering 1996
-Rank    : 1st
-Whdload : TintAGA.Slave

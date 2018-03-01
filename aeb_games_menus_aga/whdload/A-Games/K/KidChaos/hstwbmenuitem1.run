@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:K/KidChaos/"
-IF EXISTS ENV:whdloadargs
-	whdload "KidChaos.slave" $whdloadargs
-ELSE
-	whdload "KidChaos.slave"
-ENDIF

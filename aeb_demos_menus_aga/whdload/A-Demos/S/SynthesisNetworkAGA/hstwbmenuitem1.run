@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SynthesisNetworkAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "SynthesisNetworkAGA.slave" $whdloadargs
-ELSE
-	whdload "SynthesisNetworkAGA.slave"
-ENDIF

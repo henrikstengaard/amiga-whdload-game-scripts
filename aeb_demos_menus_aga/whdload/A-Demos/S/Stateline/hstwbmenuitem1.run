@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/Stateline/"
-IF EXISTS ENV:whdloadargs
-	whdload "Stateline.Slave" $whdloadargs
-ELSE
-	whdload "Stateline.Slave"
-ENDIF

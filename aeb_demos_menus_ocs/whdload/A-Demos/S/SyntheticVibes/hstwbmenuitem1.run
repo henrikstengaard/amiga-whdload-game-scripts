@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:S/SyntheticVibes/"
-IF EXISTS ENV:whdloadargs
-	whdload "SyntheticVibes.Slave" $whdloadargs
-ELSE
-	whdload "SyntheticVibes.Slave"
-ENDIF

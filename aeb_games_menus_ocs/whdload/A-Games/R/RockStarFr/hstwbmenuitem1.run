@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RockStarFr/"
-IF EXISTS ENV:whdloadargs
-	whdload "RockStarFr.slave" $whdloadargs
-ELSE
-	whdload "RockStarFr.slave"
-ENDIF

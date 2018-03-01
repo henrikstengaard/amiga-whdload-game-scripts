@@ -1,6 +1,0 @@
-Name      : Tom and the Ghost
-Publisher : Ubi Soft
-Year      : 1990
-Genre     : Platformer - Scrolling Screen
-Players   : 1 Only
-Whdload   : TomAndTheGhost.Slave

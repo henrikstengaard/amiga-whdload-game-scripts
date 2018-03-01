@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/LunarCCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "LunarCCD32.slave" $whdloadargs
-ELSE
-	whdload "LunarCCD32.slave"
-ENDIF

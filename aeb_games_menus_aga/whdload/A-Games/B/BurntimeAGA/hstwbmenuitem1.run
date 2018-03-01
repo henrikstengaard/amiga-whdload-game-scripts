@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BurntimeAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "BurntimeAGA.Slave" $whdloadargs
-ELSE
-	whdload "BurntimeAGA.Slave"
-ENDIF

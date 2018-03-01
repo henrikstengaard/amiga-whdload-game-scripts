@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:R/RType2/"
-IF EXISTS ENV:whdloadargs
-	whdload "RType2.Slave" $whdloadargs
-ELSE
-	whdload "RType2.Slave"
-ENDIF

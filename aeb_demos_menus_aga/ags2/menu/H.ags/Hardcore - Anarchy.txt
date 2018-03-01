@@ -1,4 +1,0 @@
-Name    : Hardcore
-Groups  : Anarchy
-Type    : Demo
-Whdload : Hardcore.slave

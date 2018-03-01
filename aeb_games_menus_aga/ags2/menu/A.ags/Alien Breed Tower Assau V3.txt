@@ -1,6 +1,0 @@
-Name      : Alien Breed: Tower Assault
-Version   : CD32
-Publisher : Team 17
-Year      : 1994
-Players   : 1 or 2, Simultaneous
-Whdload   : AlienBreedTACD32.slave

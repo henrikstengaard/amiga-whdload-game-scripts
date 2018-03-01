@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:C/ClassicBoardGames/"
-IF EXISTS ENV:whdloadargs
-	whdload "ClassicBoardGames.slave" $whdloadargs
-ELSE
-	whdload "ClassicBoardGames.slave"
-ENDIF

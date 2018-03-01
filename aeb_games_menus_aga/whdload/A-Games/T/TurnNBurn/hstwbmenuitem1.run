@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:T/TurnNBurn/"
-IF EXISTS ENV:whdloadargs
-	whdload "TurnNBurn.slave" $whdloadargs
-ELSE
-	whdload "TurnNBurn.slave"
-ENDIF

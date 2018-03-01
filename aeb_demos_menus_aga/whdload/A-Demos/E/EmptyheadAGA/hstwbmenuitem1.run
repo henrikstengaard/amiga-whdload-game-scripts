@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:E/EmptyheadAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "EmptyheadAGA.Slave" $whdloadargs
-ELSE
-	whdload "EmptyheadAGA.Slave"
-ENDIF

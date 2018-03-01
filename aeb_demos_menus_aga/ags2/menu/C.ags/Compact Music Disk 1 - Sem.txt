@@ -1,4 +1,0 @@
-Name    : Compact Music Disk 1
-Groups  : Semtex
-Type    : Musicdisk
-Whdload : CompactMusicDisk1.Slave

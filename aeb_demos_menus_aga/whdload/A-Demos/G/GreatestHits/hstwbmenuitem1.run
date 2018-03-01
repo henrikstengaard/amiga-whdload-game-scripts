@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:G/GreatestHits/"
-IF EXISTS ENV:whdloadargs
-	whdload "GreatestHits.Slave" $whdloadargs
-ELSE
-	whdload "GreatestHits.Slave"
-ENDIF

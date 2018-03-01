@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:G/GuardianDragon2/"
-IF EXISTS ENV:whdloadargs
-	whdload "GuardianDragon2.slave" $whdloadargs
-ELSE
-	whdload "GuardianDragon2.slave"
-ENDIF

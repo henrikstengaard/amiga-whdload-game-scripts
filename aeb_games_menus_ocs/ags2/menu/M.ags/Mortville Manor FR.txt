@@ -1,7 +1,0 @@
-Name      : Mortville Manor
-Language  : French
-Publisher : Lankhor
-Year      : 1988
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : ManoirDeMortvielleFr.Slave

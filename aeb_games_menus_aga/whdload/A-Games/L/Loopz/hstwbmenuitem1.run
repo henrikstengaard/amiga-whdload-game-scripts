@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:L/Loopz/"
-IF EXISTS ENV:whdloadargs
-	whdload "Loopz.Slave" $whdloadargs
-ELSE
-	whdload "Loopz.Slave"
-ENDIF

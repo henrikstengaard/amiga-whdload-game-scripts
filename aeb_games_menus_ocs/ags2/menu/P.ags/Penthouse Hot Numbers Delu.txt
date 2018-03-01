@@ -1,6 +1,0 @@
-Name      : Penthouse Hot Numbers Deluxe
-Language  : German
-Publisher : Magic Bytes
-Year      : 1994
-Genre     : Brain - Puzzle
-Whdload   : PenthouseHotNumsDlxDe.Slave

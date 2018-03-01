@@ -1,7 +1,0 @@
-Name    : Pee Wee
-Version : AGA
-Groups  : Complex
-Type    : Demo
-Party   : Assembly 1994
-Rank    : N/a
-Whdload : PeeWeeAGA.Slave

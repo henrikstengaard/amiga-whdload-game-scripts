@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AbandonedPlaces2/"
-IF EXISTS ENV:whdloadargs
-	whdload "AbandonedPlaces2.Slave" $whdloadargs
-ELSE
-	whdload "AbandonedPlaces2.Slave"
-ENDIF

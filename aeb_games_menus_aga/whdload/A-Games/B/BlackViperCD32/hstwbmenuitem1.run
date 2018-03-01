@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BlackViperCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "IntroCD32.Slave" $whdloadargs
-ELSE
-	whdload "IntroCD32.Slave"
-ENDIF

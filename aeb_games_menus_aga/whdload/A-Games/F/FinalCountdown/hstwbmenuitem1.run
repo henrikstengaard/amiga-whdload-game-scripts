@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:F/FinalCountdown/"
-IF EXISTS ENV:whdloadargs
-	whdload "FinalCountdown.Slave" $whdloadargs
-ELSE
-	whdload "FinalCountdown.Slave"
-ENDIF

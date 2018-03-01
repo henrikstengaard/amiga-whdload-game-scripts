@@ -1,3 +1,0 @@
-Name    : Compilation Disk
-Groups  : PowerLords
-Whdload : CompilationDisk.Slave

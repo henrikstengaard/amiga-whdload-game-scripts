@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:D/Darkside/"
-IF EXISTS ENV:whdloadargs
-	whdload "Darkside.Slave" $whdloadargs
-ELSE
-	whdload "Darkside.Slave"
-ENDIF

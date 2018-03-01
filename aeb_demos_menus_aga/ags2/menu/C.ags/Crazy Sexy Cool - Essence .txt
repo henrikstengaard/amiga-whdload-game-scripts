@@ -1,7 +1,0 @@
-Name    : Crazy Sexy Cool
-Version : AGA
-Groups  : Essence
-Type    : Demo
-Party   : The Party 1995
-Rank    : 5th
-Whdload : CrazySexyCoolAGA.Slave

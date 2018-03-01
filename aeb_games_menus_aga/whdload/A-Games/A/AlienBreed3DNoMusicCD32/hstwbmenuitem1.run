@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/AlienBreed3DNoMusicCD32/"
-IF EXISTS ENV:whdloadargs
-	whdload "AlienBreed3DNoMusicCD32.Slave" $whdloadargs
-ELSE
-	whdload "AlienBreed3DNoMusicCD32.Slave"
-ENDIF

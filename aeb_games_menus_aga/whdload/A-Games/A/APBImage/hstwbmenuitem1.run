@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:A/APBImage/"
-IF EXISTS ENV:whdloadargs
-	whdload "APBImage.slave" $whdloadargs
-ELSE
-	whdload "APBImage.slave"
-ENDIF

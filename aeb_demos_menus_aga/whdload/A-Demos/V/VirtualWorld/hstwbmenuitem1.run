@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:V/VirtualWorld/"
-IF EXISTS ENV:whdloadargs
-	whdload "VirtualWorld.Slave" $whdloadargs
-ELSE
-	whdload "VirtualWorld.Slave"
-ENDIF

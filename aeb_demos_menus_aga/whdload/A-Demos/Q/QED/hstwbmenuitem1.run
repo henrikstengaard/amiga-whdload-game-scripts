@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:Q/QED/"
-IF EXISTS ENV:whdloadargs
-	whdload "QED.Slave" $whdloadargs
-ELSE
-	whdload "QED.Slave"
-ENDIF

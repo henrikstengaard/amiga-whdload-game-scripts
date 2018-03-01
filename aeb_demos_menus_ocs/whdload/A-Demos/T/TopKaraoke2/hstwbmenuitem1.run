@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:T/TopKaraoke2/"
-IF EXISTS ENV:whdloadargs
-	whdload "TopKaraoke2.Slave" $whdloadargs
-ELSE
-	whdload "TopKaraoke2.Slave"
-ENDIF

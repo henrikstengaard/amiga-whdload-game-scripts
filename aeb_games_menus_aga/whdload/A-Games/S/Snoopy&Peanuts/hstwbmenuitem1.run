@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/Snoopy&Peanuts/"
-IF EXISTS ENV:whdloadargs
-	whdload "Snoopy&Peanuts.Slave" $whdloadargs
-ELSE
-	whdload "Snoopy&Peanuts.Slave"
-ENDIF

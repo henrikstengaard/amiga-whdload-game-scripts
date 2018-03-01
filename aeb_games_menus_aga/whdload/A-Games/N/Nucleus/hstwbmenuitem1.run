@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/Nucleus/"
-IF EXISTS ENV:whdloadargs
-	whdload "Nucleus.Slave" $whdloadargs
-ELSE
-	whdload "Nucleus.Slave"
-ENDIF

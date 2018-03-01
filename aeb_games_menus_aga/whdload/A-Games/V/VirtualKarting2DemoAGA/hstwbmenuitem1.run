@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:V/VirtualKarting2DemoAGA/"
-IF EXISTS ENV:whdloadargs
-	whdload "VirtualKarting2DemoAGA.Slave" $whdloadargs
-ELSE
-	whdload "VirtualKarting2DemoAGA.Slave"
-ENDIF

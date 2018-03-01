@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:B/BatmanTheMovie/"
-IF EXISTS ENV:whdloadargs
-	whdload "BatmanTheMovie.slave" $whdloadargs
-ELSE
-	whdload "BatmanTheMovie.slave"
-ENDIF

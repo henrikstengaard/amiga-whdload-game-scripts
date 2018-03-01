@@ -1,7 +1,0 @@
-Name      : Erbe, Das
-Language  : German
-Publisher : Comad
-Year      : 1991
-Genre     : Adventure
-Players   : 1
-Whdload   : ErbeDe.Slave

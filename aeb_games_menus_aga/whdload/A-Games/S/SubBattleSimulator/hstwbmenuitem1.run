@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SubBattleSimulator/"
-IF EXISTS ENV:whdloadargs
-	whdload "SubBattleSimulator.Slave" $whdloadargs
-ELSE
-	whdload "SubBattleSimulator.Slave"
-ENDIF

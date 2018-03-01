@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:D/DefenderOfTheCrown/"
-IF EXISTS ENV:whdloadargs
-	whdload "DefenderOfTheCrown.Slave" $whdloadargs
-ELSE
-	whdload "DefenderOfTheCrown.Slave"
-ENDIF

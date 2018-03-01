@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:S/SuperSkweek512k/"
-IF EXISTS ENV:whdloadargs
-	whdload "SuperSkweek512k.Slave" $whdloadargs
-ELSE
-	whdload "SuperSkweek512k.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Games:N/NinjaRemix/"
-IF EXISTS ENV:whdloadargs
-	whdload "NinjaRemix.slave" $whdloadargs
-ELSE
-	whdload "NinjaRemix.slave"
-ENDIF

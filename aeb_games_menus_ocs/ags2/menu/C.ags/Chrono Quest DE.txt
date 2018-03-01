@@ -1,7 +1,0 @@
-Name      : Chrono Quest
-Language  : German
-Publisher : Psygnosis
-Year      : 1988
-Genre     : Adventure - Point and Click
-Players   : 1 Only
-Whdload   : ChronoQuestDe.Slave

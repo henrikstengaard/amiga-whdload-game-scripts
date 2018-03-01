@@ -1,7 +1,0 @@
-; Whdload
-cd "A-Demos:E/Engine/"
-IF EXISTS ENV:whdloadargs
-	whdload "Engine.Slave" $whdloadargs
-ELSE
-	whdload "Engine.Slave"
-ENDIF
