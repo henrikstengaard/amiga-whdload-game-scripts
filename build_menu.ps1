@@ -528,14 +528,27 @@ if ($ams)
 
 
 # make igame output directory
+$iGameOutputPath = Join-Path $outputPath -ChildPath 'igame'
+$iGame320x128OutputDir = Join-Path $iGameOutputPath -ChildPath '320x128'
+$iGame320x256OutputDir = Join-Path $iGameOutputPath -ChildPath '320x256'
 if ($igame)
 {
-	$iGameOutputPath = [System.IO.Path]::Combine($outputPath, "igame")
 	if(!(Test-Path -Path $iGameOutputPath))
 	{
-		md $iGameOutputPath | Out-Null
+		mkdir $iGameOutputPath | Out-Null
+	}
+
+	if(!(Test-Path -Path $iGame320x128OutputDir))
+	{
+		mkdir $iGame320x128OutputDir | Out-Null
+	}
+
+	if(!(Test-Path -Path $iGame320x256OutputDir))
+	{
+		mkdir $iGame320x256OutputDir | Out-Null
 	}
 }
+
 
 # make hst launcher output directory
 if ($hstLauncher)
@@ -972,27 +985,41 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		$hstLauncherMenu.Set_Item($menuIndexName, $menuIndexEntries)
 	}
 
-	$dataAssignDir = [System.IO.Path]::Combine($dataOutputPath, $assignPath)
-	$entryDir = [System.IO.Path]::Combine($dataAssignDir, [System.IO.Path]::GetDirectoryName($entry.RunFile).Replace("/", "\"))
-
+	$entryDir = Split-Path ($entry.RunFile.Replace("/", "\")) -Parent
 	$parentEntryDir = Split-Path $entryDir -Parent
 
+	if (!$parentEntryDir)
+	{
+		$parentEntryDir = ''
+	}
+
 	# add entry index directory to entrydir, if parent entry directory doesn't contain an index directory
-	if (!$noDataIndex -and $parentEntryDir -notmatch '\\(0|0\-9|[a-z])$')
+	if (!$noDataIndex -and $parentEntryDir -notmatch '\\?(0|0\-9|[a-z])$')
 	{
-		$entryDirName = Split-Path $entryDir -Leaf
-		$entryDir = Join-Path $parentEntryDir -ChildPath (Join-Path (GetIndexName $entryFileName) -ChildPath $entryDirName)
+		if ($parentEntryDir)
+		{
+			$entryDirName = Split-Path $entryDir -Leaf
+			$entryDir = Join-Path $parentEntryDir -ChildPath (Join-Path (GetIndexName $entryFileName) -ChildPath $entryDirName)
+		}
+		else
+		{
+			$entryDir = Join-Path (GetIndexName $entryFileName) -ChildPath $entryDir
+		}
 	}
 
-	if(!(Test-Path -Path $entryDir))
-	{
-		md $entryDir | Out-Null
-	}
 
+	# build data content
+	$dataAssignDir = Join-Path $dataOutputPath -ChildPath $assignPath
+	$dataAssignEntryDir = Join-Path $dataAssignDir -ChildPath $entryDir
+
+	if(!(Test-Path -Path $dataAssignEntryDir))
+	{
+		mkdir $dataAssignEntryDir | Out-Null
+	}
 	
-	if ($hstwbMenuItemFileNameIndex.ContainsKey($entryDir))
+	if ($hstwbMenuItemFileNameIndex.ContainsKey($dataAssignEntryDir))
 	{
-		$hstwbMenuItemFileNameCount = $hstwbMenuItemFileNameIndex.Get_Item($entryDir)
+		$hstwbMenuItemFileNameCount = $hstwbMenuItemFileNameIndex.Get_Item($dataAssignEntryDir)
 		$hstwbMenuItemFileNameCount++
 	}
 	else
@@ -1000,16 +1027,16 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		$hstwbMenuItemFileNameCount = 1
 	}
 
-	$hstwbMenuItemFileNameIndex.Set_Item($entryDir, $hstwbMenuItemFileNameCount)
+	$hstwbMenuItemFileNameIndex.Set_Item($dataAssignEntryDir, $hstwbMenuItemFileNameCount)
 
 	$hstwbMenuItemFileName = "hstwbmenuitem{0}" -f $hstwbMenuItemFileNameCount
 
 	# write hstwb menuitem run file
-	$hstwbMenuItemRunFile = [System.IO.Path]::Combine($entryDir, ("{0}.run" -f $hstwbMenuItemFileName))
+	$hstwbMenuItemRunFile = Join-Path $dataAssignEntryDir -ChildPath ("{0}.run" -f $hstwbMenuItemFileName)
 	WriteAmigaTextString $hstwbMenuItemRunFile $runTemplateText
 
 	# write hstwb menuitem data file
-	$hstwbMenuItemDataFile = [System.IO.Path]::Combine($entryDir, ("{0}.data" -f $hstwbMenuItemFileName))
+	$hstwbMenuItemDataFile = Join-Path $dataAssignEntryDir -ChildPath ("{0}.data" -f $hstwbMenuItemFileName)
 	WriteAmigaTextLines $hstwbMenuItemDataFile $hstwbMenuItemDataLines
 
 
@@ -1052,21 +1079,35 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		# copy igame screenshot for whdload slave
 		if ($iGame)
 		{
-			$iGameScreenshotFile = [System.IO.Path]::Combine($whdloadScreenshotDir, "igame.iff")
-			
-			# copy whdload screenshot file, if it exists
-			if (test-path -path $iGameScreenshotFile)
+			# copy igame 320x128 screenshot file, if it exists
+			$iGame320x128ScreenshotFile = Join-Path $whdloadScreenshotDir -ChildPath 'igame_320x128.iff'
+			if (test-path -path $iGame320x128ScreenshotFile)
 			{
-				Copy-Item $iGameScreenshotFile $entryDir -force
+				$iGame320x128EntryOutputDir = Join-Path $iGame320x128OutputDir -ChildPath $entryDir
+
+				if(!(Test-Path -Path $iGame320x128EntryOutputDir))
+				{
+					mkdir $iGame320x128EntryOutputDir | Out-Null
+				}
+
+				$iGame320x128EntryOutputFile = Join-Path $iGame320x128EntryOutputDir -ChildPath 'igame.iff'
+				Copy-Item $iGame320x128ScreenshotFile $iGame320x128EntryOutputFile -force
 			}
 
-			$whdloadiGameScreenshotFile = $entryRunDir + "igame.iff"
+			# copy igame 320x256 screenshot file, if it exists
+			$iGame320x256ScreenshotFile = Join-Path $whdloadScreenshotDir -ChildPath 'igame_320x256.iff'
+			if (test-path -path $iGame320x256ScreenshotFile)
+			{
+				$iGame320x256EntryOutputDir = Join-Path $iGame320x256OutputDir -ChildPath $entryDir
 
-			# add igame path checks to validate paths script
-			$validatePathsPartScriptLines += @( 
-					("IF NOT EXISTS """ + $whdloadiGameScreenshotFile + """"), 
-					("  ECHO ""ERROR: Path '" + $whdloadiGameScreenshotFile +  "' doesn't exist!"""), 
-					"ENDIF") 
+				if(!(Test-Path -Path $iGame320x256EntryOutputDir))
+				{
+					mkdir $iGame320x256EntryOutputDir | Out-Null
+				}
+				
+				$iGame320x256EntryOutputFile = Join-Path $iGame320x256EntryOutputDir -ChildPath 'igame.iff'
+				Copy-Item $iGame320x256ScreenshotFile $iGame320x256EntryOutputFile -force
+			}
 		}
 	}
 	else
