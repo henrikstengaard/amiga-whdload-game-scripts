@@ -146,35 +146,65 @@ if ((StartProcess $nconvertPath $tempScreenshotArgs) -ne 0)
 
 
 # make igame screenshot
-$iGameScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame.iff")
+$iGame320x128ScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x128.iff")
+$iGame320x256ScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x256.iff")
 
 if (!$noiGameScreenshot)
 {
 	# use ImageMagick to make iGame screenshot: Resize to 320 x 128 pixels, set bit depth to 8 (255 colors) and limit colors to 255
-	$imageMagickConvertiGameScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame.png")
-	$imageMagickConvertiGameArgs = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGameScreenshotFile"""
+	$imageMagickConvertiGame320x128ScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x128.png")
+	$imageMagickConvertiGame320x128Args = """$tempScreenshotFile"" -resize 320x128! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGame320x128ScreenshotFile"""
 
 	# exit, if ImageMagick fails
-	if ((StartProcess $imageMagickFile $imageMagickConvertiGameArgs) -ne 0)
+	if ((StartProcess $imageMagickFile $imageMagickConvertiGame320x128Args) -ne 0)
 	{
-		Write-Error "Failed to run '$imageMagickFile' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGameArgs'"
+		Write-Error "Failed to run '$imageMagickFile' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGame320x128Args'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
 
 	# use first screenshot, image magick converted an animated gif
-	$imageMagickConvertiGameFirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame-0.png")
-	if (test-path -path $imageMagickConvertiGameFirstScreenshotFile)
+	$imageMagickConvertiGame320x128FirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x128-0.png")
+	if (test-path -path $imageMagickConvertiGame320x128FirstScreenshotFile)
 	{
-		$imageMagickConvertiGameScreenshotFile = $imageMagickConvertiGameFirstScreenshotFile
+		Write-Host ("Use first '{0}'" -f $imageMagickConvertiGame320x128FirstScreenshotFile)
+		$imageMagickConvertiGame320x128ScreenshotFile = $imageMagickConvertiGame320x128FirstScreenshotFile
 	}
 
+	# use nconvert to make iGame screenshot file
+	$nconvertiGame320x128ScreenshotArgs = "-out iff -c 1 -o ""$iGame320x128ScreenshotFile"" ""$imageMagickConvertiGame320x128ScreenshotFile"""
+	if ((StartProcess $nconvertPath $nconvertiGame320x128ScreenshotArgs) -ne 0)
+	{
+		Write-Error "Failed to run '$nconvertPath' for '$imageMagickConvertiGame320x128ScreenshotFile' with arguments '$nconvertiGame320x128ScreenshotArgs'"
+		remove-item $tempPath -recurse
+		exit 1
+	}
+
+	# use ImageMagick to make iGame screenshot: Resize to 320 x 256 pixels, set bit depth to 8 (255 colors) and limit colors to 255
+	$imageMagickConvertiGame320x256ScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x256.png")
+	$imageMagickConvertiGame320x256Args = """$tempScreenshotFile"" -resize 320x256! -filter Point -depth 8 -colors 255 ""$imageMagickConvertiGame320x256ScreenshotFile"""
+
+	# exit, if ImageMagick fails
+	if ((StartProcess $imageMagickFile $imageMagickConvertiGame320x256Args) -ne 0)
+	{
+		Write-Error "Failed to run '$imageMagickFile' for '$tempScreenshotFile' with arguments '$imageMagickConvertiGame320x256Args'"
+		remove-item $tempPath -recurse
+		exit 1
+	}
+
+	# use first screenshot, image magick converted an animated gif
+	$imageMagickConvertiGame320x256FirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "igame_320x256-0.png")
+	if (test-path -path $imageMagickConvertiGame320x256FirstScreenshotFile)
+	{
+		Write-Host ("Use first '{0}'" -f $imageMagickConvertiGame320x256FirstScreenshotFile)
+		$imageMagickConvertiGame320x256ScreenshotFile = $imageMagickConvertiGame320x256FirstScreenshotFile
+	}
 
 	# use nconvert to make iGame screenshot file
-	$nconvertiGameScreenshotArgs = "-out iff -c 1 -o ""$iGameScreenshotFile"" ""$imageMagickConvertiGameScreenshotFile"""
-	if ((StartProcess $nconvertPath $nconvertiGameScreenshotArgs) -ne 0)
+	$nconvertiGame320x256ScreenshotArgs = "-out iff -c 1 -o ""$iGame320x256ScreenshotFile"" ""$imageMagickConvertiGame320x256ScreenshotFile"""
+	if ((StartProcess $nconvertPath $nconvertiGame320x256ScreenshotArgs) -ne 0)
 	{
-		Write-Error "Failed to run '$nconvertPath' for '$imageMagickConvertiGameScreenshotFile' with arguments '$nconvertiGameScreenshotArgs'"
+		Write-Error "Failed to run '$nconvertPath' for '$imageMagickConvertiGame320x256ScreenshotFile' with arguments '$nconvertiGame320x256ScreenshotArgs'"
 		remove-item $tempPath -recurse
 		exit 1
 	}
@@ -200,7 +230,7 @@ if (!$noAgaScreenshot)
 
 	# use first screenshot, image magick converted an animated gif
 	$imageMagickConvertAgs2AgaFirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2aga-0.png")
-	if (test-path -path $imageMagickConvertiGameFirstScreenshotFile)
+	if (test-path -path $imageMagickConvertAgs2AgaFirstScreenshotFile)
 	{
 		$imageMagickConvertAgs2AgaScreenshotFile = $imageMagickConvertAgs2AgaFirstScreenshotFile
 	}
@@ -248,11 +278,10 @@ if (!$noOcsScreenshot)
 
 	# use first screenshot, image magick converted an animated gif
 	$imageMagickConvertAgs2OcsFirstScreenshotFile = [System.IO.Path]::Combine($tempPath, "ags2ocs-0.png")
-	if (test-path -path $imageMagickConvertiGameFirstScreenshotFile)
+	if (test-path -path $imageMagickConvertAgs2OcsFirstScreenshotFile)
 	{
 		$imageMagickConvertAgs2OcsScreenshotFile = $imageMagickConvertAgs2OcsFirstScreenshotFile
 	}
-
 
 	# use imgtoiff-ocs to make AGS2 OCS Game screenshot file
 	$imgToIffAgs2OcsScreenshotArgs = """$imgToIffOcsPath"" --ocs --pack 1 ""$imageMagickConvertAgs2OcsScreenshotFile"" ""$ags2OcsScreenshotFile"""
@@ -332,7 +361,8 @@ if(!(test-path -path $outputPath))
 
 # screenshot files
 $outputScreenshotFile = [System.IO.Path]::Combine($outputPath, "screenshot.png")
-$outputiGameScreenshotFile = [System.IO.Path]::Combine($outputPath, "igame.iff")
+$outputiGame320x128ScreenshotFile = [System.IO.Path]::Combine($outputPath, "igame_320x128.iff")
+$outputiGame320x256ScreenshotFile = [System.IO.Path]::Combine($outputPath, "igame_320x256.iff")
 $outputAgs2AgaScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2aga.iff")
 $outputAgs2OcsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ags2ocs.iff")
 $outputAmsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ams.iff")
@@ -341,9 +371,14 @@ $outputAmsScreenshotFile = [System.IO.Path]::Combine($outputPath, "ams.iff")
 # copy screenshots files to output 
 Copy-Item $tempScreenshotFile $outputScreenshotFile -force
 
-if (test-path -path $iGameScreenshotFile)
+if (test-path -path $iGame320x128ScreenshotFile)
 {
-	Copy-Item $iGameScreenshotFile $outputiGameScreenshotFile -force
+	Copy-Item $iGame320x128ScreenshotFile $outputiGame320x128ScreenshotFile -force
+}
+
+if (test-path -path $iGame320x256ScreenshotFile)
+{
+	Copy-Item $iGame320x256ScreenshotFile $outputiGame320x256ScreenshotFile -force
 }
 
 if (test-path -path $ags2AgaScreenshotFile)
