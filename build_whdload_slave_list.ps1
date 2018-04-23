@@ -2,7 +2,7 @@
 # ------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-03
+# Date:   2018-04-23
 #
 # A PowerShell script to build whdload slave list csv file with a list of whdload name and path to whdload slave file.
 
@@ -13,14 +13,14 @@ Param(
 	[string]$entriesFile
 )
 
-
-Import-Module (Resolve-Path('data.psm1')) -Force
-
+# imports
+$scriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
+Import-Module (join-path -Path $scriptDir -ChildPath 'data.psm1') -Force
 
 # paths
 $entriesDir = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesDir)
 $entriesFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($entriesFile)
-$readWhdloadSlaveFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("read_whdload_slave.ps1")
+$readWhdloadSlaveFile = Join-Path -Path $scriptDir -ChildPath "read_whdload_slave.ps1"
 
 # find entries in entries dir
 $entries = @()
