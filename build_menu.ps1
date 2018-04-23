@@ -675,6 +675,8 @@ $hstLauncherMenu = @{}
 $detailsNotFoundCount = 0
 $screenshotsNotFoundCount = 0
 
+$ags2CsvList = New-Object System.Collections.Generic.List[System.Object]
+
 # build menu from whdload slaves
 foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=$true}))
 {
@@ -808,6 +810,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 			md $ags2MenuItemPath | Out-Null
 		}
 
+		$ags2CsvList.add(@{ "EntryName" = $entry.EntryName; "RunFile" = $entry.RunFile; "RunDir" = $entry.RunDir; "AGS2MenuItemFileName" = (Join-Path ("{0}.ags" -f $ags2MenuItemIndexName) -ChildPath $ags2MenuItemFileName) })
 
 		# set ags2 menu files
 		$ags2MenuItemRunFile = [System.IO.Path]::Combine($ags2MenuItemPath, ($ags2MenuItemFileName + ".run"))
@@ -1152,6 +1155,12 @@ if ($ags2)
 	# write ags2 list file 
 	$ags2ListFile = [System.IO.Path]::Combine($ags2OutputPath, "AGS2 List")
 	WriteAmigaTextLines $ags2ListFile $ags2ListLines
+
+	# write ags2 csv list file 
+	$ags2CsvListFile = Join-Path $ags2OutputPath -ChildPath "AGS2 List.csv"
+
+	# write output file
+	$ags2CsvList | ForEach-Object{ New-Object PSObject -Property $_ } | export-csv -delimiter ';' -path $ags2CsvListFile -NoTypeInformation -Encoding UTF8	
 }
 
 if ($ams)
