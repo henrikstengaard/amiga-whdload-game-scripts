@@ -2,7 +2,7 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-19
+# Date:   2018-05-16
 #
 # A PowerShell script to build AGS2, AMS and iGame menus. 
 # Whdload slave details file is used for building AGS2 and AMS menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
@@ -30,7 +30,9 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[string]$hstwbNameFormat,
 	[Parameter(Mandatory=$false)]
-	[string]$ags2MenuItemRunTemplateFile,
+	[string]$ags2RunTemplateFile,
+	[Parameter(Mandatory=$false)]
+	[string]$hstLauncherRunTemplateFile,
 	[Parameter(Mandatory=$false)]
 	[string]$amsMenuItemRunTemplateFile,
 	[Parameter(Mandatory=$false)]
@@ -52,7 +54,9 @@ Param(
 	[Parameter(Mandatory=$false)]
 	[switch]$hstLauncher,
 	[Parameter(Mandatory=$false)]
-	[switch]$noDataIndex
+	[switch]$noDataIndex,
+	[Parameter(Mandatory=$false)]
+	[string]$menuTitle
 )
 
 # exit, if neither entries files or sources file is defined
@@ -78,7 +82,7 @@ if ($ags2 -and !$ags2NameFormat)
 
 
 # exit, if ags2 is enabled and ags2 menu item file template file not defined
-if ($ags2 -and !$ags2MenuItemRunTemplateFile)
+if ($ags2 -and !$ags2RunTemplateFile)
 {
 	Write-Error "AGS2 menu item file template file is not defined for AGS2 menu"
 	exit 1
@@ -117,21 +121,28 @@ if (!$hstwbNameFormat)
 }
 
 
-# resolve paths
+# paths
+$scriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
 $outputPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($outputPath)
 
-if ($ags2MenuItemRunTemplateFile)
+if ($ags2RunTemplateFile)
 {
-	$ags2MenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ags2MenuItemRunTemplateFile)
+	$ags2RunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ags2RunTemplateFile)
 }
+
+if ($hstLauncherRunTemplateFile)
+{
+	$hstLauncherRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($hstLauncherRunTemplateFile)
+}
+
 if ($amsMenuItemRunTemplateFile)
 {
 	$amsMenuItemRunTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($amsMenuItemRunTemplateFile)
 }
 
-$runWhdloadTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_whdload_template.txt")
-$runScriptTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_script_template.txt")
-$runFileTemplateFile = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("run_file_template.txt")
+$runWhdloadTemplateFile = Join-Path -Path $scriptDir -ChildPath "run_whdload_template.txt"
+$runScriptTemplateFile = Join-Path -Path $scriptDir -ChildPath "run_script_template.txt"
+$runFileTemplateFile = Join-Path -Path $scriptDir -ChildPath "run_file_template.txt"
 
 $maxMenuItemFileNameLength = 26
 
@@ -658,6 +669,7 @@ $amsMenuItemFileNameIndex = @{}
 
 # hstwb variables
 $hstwbMenuItemFileNameIndex = @{}
+$hstLauncherFileNameIndex = @{}
 
 
 # other output variables
@@ -670,12 +682,15 @@ $hstLauncherListLines = @()
 $entryColumnPadding = ($entries | Sort-Object @{expression={$_.EntryName.Length};Ascending=$false} | Select-Object -First 1).EntryName.Length
 $runFileColumnPadding = ($entries | ForEach-Object { Split-Path $_.RunFile -Leaf } | Sort-Object @{expression={$_.Length};Ascending=$false} | Select-Object -First 1).Length
 
-$hstLauncherMenu = @{}
+$hstLauncherMenuIndex = @{}
 
 $detailsNotFoundCount = 0
 $screenshotsNotFoundCount = 0
 
 $ags2CsvList = New-Object System.Collections.Generic.List[System.Object]
+
+$hstLauncherEntriesLines = New-Object System.Collections.Generic.List[System.Object]
+
 
 # build menu from whdload slaves
 foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=$true}))
@@ -820,7 +835,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 
 		# build ags2 menu item start text	
 		$ags2MenuItemStartTextParameters = @{ "MenuItemFileName" = $ags2MenuItemFileName; "MenuItemIndexName" = $ags2MenuItemIndexName; "RunTemplate" = $runTemplateText; "RunFile" = ($entryRunDir + $entryFileName) }
-		$ags2MenuItemStartText = BuildTemplateText $ags2MenuItemRunTemplateFile $ags2MenuItemStartTextParameters
+		$ags2MenuItemStartText = BuildTemplateText $ags2RunTemplateFile $ags2MenuItemStartTextParameters
 		
 		# write ags2 menu item start file	
 		WriteAmigaTextString $ags2MenuItemRunFile $ags2MenuItemStartText
@@ -972,42 +987,55 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		}
 		$hstLauncherListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $hstLauncherName)
 		
-		$menuIndexName = GetIndexName $hstLauncherName
+		$indexName = GetIndexName $hstLauncherName
 
-		if ($hstLauncherMenu.ContainsKey($menuIndexName))
+		$hstLauncherMenuDir = Join-Path $hstLauncherOutputPath -ChildPath "menu"
+		$hstLauncherMenuIndexDir = Join-Path $hstLauncherMenuDir -ChildPath $indexName
+
+		if(!(Test-Path -Path $hstLauncherMenuIndexDir))
 		{
-			$menuIndexEntries = $hstLauncherMenu.Get_Item($menuIndexName)
+			mkdir $hstLauncherMenuIndexDir | Out-Null
+		}
+
+		# build hst launcher file name
+		$hstLauncherFileName = BuildMenuItemFileName $hstLauncherName $hstLauncherFileNameIndex
+		
+		# build hst launcher run text
+		$entryRunFile = $entryRunDir + $entryFileName
+		$hstLauncherRunTextParameters = @{ 
+			"RunTemplate" = $runTemplateText;
+			"RunFile" = $entryRunFile
+		}
+		$hstLauncherRunText = BuildTemplateText $hstLauncherRunTemplateFile $hstLauncherRunTextParameters
+		
+		# write hst launcher run file
+		$hstLauncherRunFile = Join-Path $hstLauncherMenuIndexDir -ChildPath ("{0}.run" -f $hstLauncherFileName)
+		WriteAmigaTextString $hstLauncherRunFile $hstLauncherRunText
+
+		$hstLauncherMenuFile = "{0}/{1}" -f $indexName, $hstLauncherFileName
+		$hstLauncherEntryLine = @($hstLauncherName, $hstLauncherMenuFile, $entryRunFile) -join "`t"
+
+		$hstLauncherEntriesLines.Add($hstLauncherEntryLine)
+		
+		if ($hstLauncherMenuIndex.ContainsKey($indexName))
+		{
+			$menuIndexLines = $hstLauncherMenuIndex.Get_Item($indexName)
 		}
 		else
 		{
-			$menuIndexEntries = @()
+			$menuIndexLines = New-Object System.Collections.Generic.List[System.Object]
+			$hstLauncherMenuIndex.Set_Item($indexName, $menuIndexLines)
 		}
 
-		$menuIndexEntries += @{ 'Name' = $hstLauncherName; 'RunTemplateText' = $runTemplateText }
-
-		$hstLauncherMenu.Set_Item($menuIndexName, $menuIndexEntries)
+		$menuIndexLines.Add($hstLauncherEntryLine)
 	}
 
 	$entryDir = Split-Path ($entry.RunFile.Replace("/", "\")) -Parent
-	$parentEntryDir = Split-Path $entryDir -Parent
-
-	if (!$parentEntryDir)
-	{
-		$parentEntryDir = ''
-	}
 
 	# add entry index directory to entrydir, if parent entry directory doesn't contain an index directory
-	if (!$noDataIndex -and $parentEntryDir -notmatch '\\?(0|0\-9|[a-z])$')
+	if (!$noDataIndex -and $parentEntryDir -notmatch '^(.*\\)?(#|0|0\-9|[a-z])$')
 	{
-		if ($parentEntryDir)
-		{
-			$entryDirName = Split-Path $entryDir -Leaf
-			$entryDir = Join-Path $parentEntryDir -ChildPath (Join-Path (GetIndexName $entryFileName) -ChildPath $entryDirName)
-		}
-		else
-		{
-			$entryDir = Join-Path (GetIndexName $entryFileName) -ChildPath $entryDir
-		}
+		$entryDir = Join-Path (GetIndexName $entryFileName) -ChildPath $entryDir
 	}
 
 
@@ -1189,57 +1217,50 @@ if ($iGame)
 
 if ($hstLauncher)
 {
-	$searchListLines = @()
-	$menuIndexCount = 0
-	
-	$hstLauncherMenuDir = Join-Path $hstLauncherOutputPath -ChildPath 'menu'
-
-	if(!(Test-Path -Path $hstLauncherMenuDir))
-	{
-		mkdir $hstLauncherMenuDir | Out-Null
-	}
-
-	foreach ($menuIndexName in ($hstLauncherMenu.Keys | Sort-Object))
-	{
-		$menuIndexCount++
-		$menuIndexEntries = $hstLauncherMenu.Get_Item($menuIndexName)
-
-		$menuIndexDir = Join-Path $hstLauncherMenuDir -ChildPath $menuIndexCount
-		if(!(Test-Path -Path $menuIndexDir))
-		{
-			mkdir $menuIndexDir | Out-Null
-		}
-
-		$menuIndexListLines = @()
-		$menuEntryCount = 0
-		foreach ($menuIndexEntry in $menuIndexEntries)
-		{
-			$menuIndexListLines += $menuIndexEntry.Name
-
-			$menuEntryCount++
-			$menuItemRunFileName = '{0}.run' -f $menuEntryCount
-			$menuItemRunFile = Join-Path $menuIndexDir -ChildPath $menuItemRunFileName
-
-			$searchListLines += @($menuIndexEntry.Name, ("{0}/{1}" -f $menuIndexCount, $menuItemRunFileName)) -join "`t"
-			
-			# write menu item run file	
-			WriteAmigaTextString $menuItemRunFile $menuIndexEntry.RunTemplateText
-		}
-
-		# write entries menu list file
-		$menuIndexListFile = Join-Path $menuIndexDir -ChildPath 'menu.lst'
-		WriteAmigaTextLines $menuIndexListFile $menuIndexListLines
-	}
-
-	# write index menu list file
+	# write main menu list file
 	$mainMenuListLines = @()
-	$mainMenuListLines += $hstLauncherMenu.Keys | Sort-Object
+	$mainMenuListLines += $hstLauncherMenuIndex.Keys | Sort-Object | ForEach-Object { "{0}`t{0}`t{0}" -f $_ }
 	$mainMenuListFile = Join-Path $hstLauncherMenuDir -ChildPath 'menu.lst'
 	WriteAmigaTextLines $mainMenuListFile $mainMenuListLines
-	
-	# write search list file
-	$searchListFile = Join-Path $hstLauncherMenuDir -ChildPath 'search.lst'
-	WriteAmigaTextLines $searchListFile $searchListLines
+
+	# write menu list file for each index
+	foreach ($indexName in ($hstLauncherMenuIndex.Keys | Sort-Object))
+	{
+		$indexMenuLines = $hstLauncherMenuIndex.Get_Item($indexName)
+
+		$indexDir = Join-Path $hstLauncherMenuDir -ChildPath $indexName
+		if(!(Test-Path -Path $indexDir))
+		{
+			mkdir $indexDir | Out-Null
+		}
+
+		# write index menu list file
+		$indexMenuListFile = Join-Path $indexDir -ChildPath 'menu.lst'
+		WriteAmigaTextLines $indexMenuListFile $indexMenuLines.ToArray()
+
+		# copy index menu list file to index entries list file
+		$indexEntriesListFile = Join-Path $indexDir -ChildPath 'entries.lst'
+		Copy-Item $indexMenuListFile -Destination $indexEntriesListFile
+
+		# write index title file
+		$indexTitleFile = Join-Path $indexDir -ChildPath 'title.txt'
+		WriteAmigaTextLines $indexTitleFile @($indexName)
+	}
+
+	# write all file
+	$hstLauncherAllFile = Join-Path $hstLauncherMenuDir -ChildPath 'all.lst'
+	WriteAmigaTextLines $hstLauncherAllFile $hstLauncherEntriesLines.ToArray()
+
+	# write search file
+	$hstLauncherSearchFile = Join-Path $hstLauncherMenuDir -ChildPath 'search.lst'
+	Copy-Item $hstLauncherAllFile -Destination $hstLauncherSearchFile
+
+	# write title file, if menu title is defined
+	if ($menuTitle)
+	{
+		$hstLauncherTitleFile = Join-Path $hstLauncherMenuDir -ChildPath 'title.txt'
+		WriteAmigaTextLines $hstLauncherTitleFile @($menuTitle)
+	}
 
 	# write hst launcher list file
 	$hstLauncherListFile = [System.IO.Path]::Combine($hstLauncherOutputPath, "HST Launcher List")

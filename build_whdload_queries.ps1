@@ -2,7 +2,7 @@
 # ---------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-22
+# Date:   2018-05-16
 #
 # A PowerShell script to build whdload queries used for finding best matching detail and screenshot.
 
@@ -29,7 +29,10 @@ Param(
 )
 
 
-Import-Module (Resolve-Path('text.psm1')) -Force
+# imports
+$scriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
+Import-Module (join-path -Path $scriptDir -ChildPath 'text.psm1') -Force
+
 
 function MakeComparableName([string]$text)
 {
@@ -223,6 +226,13 @@ foreach($entry in $entries)
 }
 
 Write-Host "$queryPatchCount queries patched"
+
+# create queries directory, if it doesn't exist
+$queriesDir = Split-Path $queriesFile -Parent
+if (!(Test-Path $queriesDir))
+{
+	mkdir $queriesDir | Out-Null
+}
 
 # write queries file
 $entries | export-csv -delimiter ';' -path $queriesFile -NoTypeInformation -Encoding UTF8

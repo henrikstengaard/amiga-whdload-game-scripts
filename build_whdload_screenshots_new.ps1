@@ -2,7 +2,7 @@
 # -------------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-22
+# Date:   2018-05-16
 #
 # A PowerShell script to build whdload screenshots for iGame and AGS2 in AGA and OCS mode.
 # Lucene is used to index screenshots for better search and matching between games and screenshots
@@ -36,12 +36,9 @@ Param(
 )
 
 
-# root
-$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
-
-
-# programs 
-$convertScreenshotPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("convert_screenshot.ps1")
+# paths
+$scriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
+$convertScreenshotPath = Join-Path -Path $scriptDir -ChildPath "convert_screenshot.ps1"
 
 
 # lucene

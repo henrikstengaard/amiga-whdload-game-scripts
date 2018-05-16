@@ -1,5 +1,5 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
+; AGS2 run script
+; ---------------
 ;RunFile=[$RunFile]
 
 ; Favourites Mode

@@ -1,0 +1,5 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=[$RunFile]
+
+[$RunTemplate]

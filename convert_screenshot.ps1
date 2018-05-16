@@ -2,7 +2,7 @@
 # ------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-22
+# Date:   2018-05-16
 #
 # A PowerShell script to convert a screenshot for iGame and AGS2 in AGA and OCS mode.
 #
@@ -41,14 +41,15 @@ Param(
 )
 
 
-# programs 
+# paths
+$scriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
 $nconvertPath = "${Env:ProgramFiles(x86)}\XnView\nconvert.exe"
 $pythonFile = "c:\Python27\python.exe"
-$imageToIffPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\ImageToIff.ps1")
-$imgToIffAgaPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-aga.py")
-$imgToIffOcsPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\imgtoiff-ocs.py")
-$amsPaletteImagePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\AMS_palette.png")
-$mapImagePalettePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("ags2_iff\map_image_palette.ps1")
+$imageToIffPath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\ImageToIff.ps1"
+$imgToIffAgaPath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\imgtoiff-aga.py"
+$imgToIffOcsPath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\imgtoiff-ocs.py"
+$amsPaletteImagePath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\AMS_palette.png"
+$mapImagePalettePath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\map_image_palette.ps1"
 
 
 # get image magick directory from program files
