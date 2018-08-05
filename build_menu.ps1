@@ -2,7 +2,7 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2018-05-16
+# Date:   2018-08-05
 #
 # A PowerShell script to build AGS2, AMS and iGame menus. 
 # Whdload slave details file is used for building AGS2 and AMS menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
@@ -164,7 +164,7 @@ function GetIndexName($name)
 		$indexName = $name.Substring(0,1)
 	}
 
-	return $indexName
+	return $indexName.ToUpper()
 }
 
 function Capitalize([string]$text)
@@ -1030,13 +1030,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		$menuIndexLines.Add($hstLauncherEntryLine)
 	}
 
-	$entryDir = Split-Path ($entry.RunFile.Replace("/", "\")) -Parent
-
-	# add entry index directory to entrydir, if parent entry directory doesn't contain an index directory
-	if (!$noDataIndex -and $parentEntryDir -notmatch '^(.*\\)?(#|0|0\-9|[a-z])$')
-	{
-		$entryDir = Join-Path (GetIndexName $entryFileName) -ChildPath $entryDir
-	}
+	$entryDir = $runDir.Replace("/", "\")
 
 
 	# build data content
