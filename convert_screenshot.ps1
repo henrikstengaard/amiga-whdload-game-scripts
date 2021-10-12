@@ -2,7 +2,7 @@
 # ------------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2018-05-16
+# Date:   2021-10-12
 #
 # A PowerShell script to convert a screenshot for iGame and AGS2 in AGA and OCS mode.
 #
@@ -53,12 +53,12 @@ $mapImagePalettePath = Join-Path -Path $scriptDir -ChildPath "ags2_iff\map_image
 
 
 # get image magick directory from program files
-$imageMagickDirectory = Get-ChildItem $env:ProgramFiles | Where-Object { $_.Name -match 'ImageMagick' } | Select-Object -First 1
+$imageMagickDirectory = Get-ChildItem $env:ProgramW6432 | Where-Object { $_.Name -match 'ImageMagick' } | Select-Object -First 1
 
 # fail, if image magick directory doesn't exist
 if (!$imageMagickDirectory)
 {
-	Write-Error "Error: Image Magick doesn't exist in program files '$env:ProgramFiles'!"
+	Write-Error "Error: Image Magick doesn't exist in program files '$env:ProgramW6432'!"
 	exit 1
 }
 

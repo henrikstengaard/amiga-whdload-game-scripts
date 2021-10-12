@@ -2,7 +2,7 @@
 # -----------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-12-19
+# Date:   2021-10-12
 #
 # A PowerShell script to build entries set.
 # The script filters whdload packs by excluding hardware, language versions, calculate rank based on hardware, language, demo, memory and other texts. 
@@ -14,6 +14,12 @@ Param(
 	[string]$entriesFiles,
 	[Parameter(Mandatory=$true)]
 	[string]$outputEntriesSetFile,
+	[Parameter(Mandatory=$false)]
+	[string]$assignName,
+	[Parameter(Mandatory=$false)]
+	[string]$setName,
+	[Parameter(Mandatory=$false)]
+	[string]$appendName,
 	[Parameter(Mandatory=$false)]
 	[string]$excludeHardwarePattern,
 	[Parameter(Mandatory=$false)]
@@ -318,6 +324,48 @@ $outputDir = Split-Path $outputEntriesSetFile -Parent
 if(!(test-path -path $outputDir))
 {
 	mkdir $outputDir | Out-Null
+}
+
+foreach($filteredEntry in $filteredEntries)
+{
+    if ($assignName)
+    {
+        # add assign name
+        if ($filteredEntry.AssignName)
+        {
+            $filteredEntry.AssignName = $assignName
+        }
+        else
+        {
+            $filteredEntry | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName
+        }
+    }
+
+    if ($setName)
+    {
+        # add set name
+        if ($filteredEntry.SetName)
+        {
+            $filteredEntry.SetName = $setName
+        }
+        else
+        {
+            $filteredEntry | Add-Member -MemberType NoteProperty -Name 'SetName' -Value $setName
+        }
+    }
+
+    if ($appendName)
+    {
+        # add append name
+        if ($filteredEntry.AppendName)
+        {
+            $filteredEntry.AppendName = $appendName
+        }
+        else
+        {
+            $filteredEntry | Add-Member -MemberType NoteProperty -Name 'AppendName' -Value $appendName
+        }
+    }
 }
 
 # write filtered entries list

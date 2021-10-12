@@ -2,7 +2,7 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2018-08-05
+# Date:   2021-10-12
 #
 # A PowerShell script to build AGS2, AMS and iGame menus. 
 # Whdload slave details file is used for building AGS2 and AMS menu item text per whdload slave and whdload screenshots file can optionally be used to add screenshots for each whdload slave.
@@ -63,13 +63,6 @@ Param(
 if (!$entriesFiles -and !$sourcesFile)
 {
 	Write-Error "Entries files or sources file is not defined"
-	exit 1
-}
-
-# exit, if entries files is used and assign name is not defined
-if ($entriesFiles -and !$assignName)
-{
-	Write-Error "Assign name is not defined"
 	exit 1
 }
 
@@ -182,7 +175,7 @@ function Capitalize([string]$text)
 	return $text.Substring(0,1).ToUpper() + $text.Substring(1)
 }
 
-function BuildName($nameFormat, $entry)
+function BuildName($nameFormat, $e, $entry)
 {
 	$name = $nameFormat
 
@@ -297,6 +290,11 @@ function BuildName($nameFormat, $entry)
 		$name += ' ' + ($entry.FilteredOther -replace '^[&_]', '' -replace '[&_]$', '' -replace ',', ' ')
 	}
 
+    if ($e.AppendName)
+    {
+		$name += $e.AppendName
+    }
+
 	return $name
 }
 
@@ -377,7 +375,7 @@ function BuildMenuItemChangeDirectoryText($dataPath)
 	return ("Assign Data: " + $dataPath + "`nExecute RAM:AMSLoader")
 }
 
-function BuildMenuItemDetailText($entry)
+function BuildMenuItemDetailText($e, $entry)
 {
 	# build menu item text lines
 	$menuItemDetailTextLines = @()
@@ -603,7 +601,10 @@ else
 		$entries += import-csv -delimiter ';' -path $entriesFile -encoding utf8 
 	}
 
-	$entries | Foreach-Object { $_ | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName -Force }
+    if ($assignName)
+    {
+        $entries | Foreach-Object { $_ | Add-Member -MemberType NoteProperty -Name 'AssignName' -Value $assignName -Force }
+    }
 }
 
 
@@ -692,6 +693,27 @@ $ags2CsvList = New-Object System.Collections.Generic.List[System.Object]
 $hstLauncherEntriesLines = New-Object System.Collections.Generic.List[System.Object]
 
 
+$assignPathLength = 0
+$setNameLength = 0
+
+if ($assignName)
+{
+    $assignPathLength = $assignName.length
+}
+
+foreach($entry in $entries)
+{
+    if ($entry.AssignName -and $entry.AssignName.length -gt $assignPathLength)
+    {
+        $assignPathLength = $entry.AssignName.length
+    }
+
+    if ($entry.SetName -and $entry.SetName.length -gt $setNameLength)
+    {
+        $setNameLength = $entry.SetName.length
+    }
+}
+
 # build menu from whdload slaves
 foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=$true}))
 {
@@ -773,7 +795,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 
     # build hstwb menuitem data files
 	$hstwbMenuItemDataLines = @(";HstWB menu item data")
-	$hstwbMenuItemDataLines += ("Name=" + (Capitalize (BuildName $hstwbNameFormat $detailsEntry)))
+	$hstwbMenuItemDataLines += ("Name=" + (Capitalize (BuildName $hstwbNameFormat $entry $detailsEntry)))
 	$hstwbMenuItemDataLines += "RunFile=$entryFileName"
 
 
@@ -800,11 +822,12 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 	$runTemplateText = BuildTemplateText $runTemplateFile $runTemplateParameters
 	
 
+
 	# build ags2 menu for whdload slave
 	if ($ags2)
 	{
 		# build ags2 name
-		$ags2Name = Capitalize (BuildName $ags2NameFormat $detailsEntry)
+		$ags2Name = Capitalize (BuildName $ags2NameFormat $entry $detailsEntry)
 
 		# build ags2 menu item file name
 		$ags2MenuItemFileName = BuildMenuItemFileName $ags2Name $ags2MenuItemFileNameIndex
@@ -812,9 +835,9 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		# add whdload slave to ags2 whdload list
 		if ($ags2ListLines.Count -eq 0)
 		{
-			$ags2ListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3,-26}   {4}") -f "Assign", "Entry", "RunFile", "AGS2", "Name")
+			$ags2ListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4,-26}   {5}") -f "Assign", "Set", "Entry", "RunFile", "AGS2", "Name")
 		}
-		$ags2ListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3,-26}   {4}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $ags2MenuItemFileName, $ags2Name)
+		$ags2ListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4,-26}   {5}") -f ($assignPath + ":"), $entry.SetName, $entry.EntryName, $entryFileName, $ags2MenuItemFileName, $ags2Name)
 
 		$ags2MenuDir = [System.IO.Path]::Combine($ags2OutputPath, "menu")
 		$ags2MenuItemIndexName = GetIndexName $ags2MenuItemFileName
@@ -844,7 +867,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		# build ags2 menu item detail text
 		if ($detailsEntry)
 		{
-			$ags2MenuItemDetailText = BuildMenuItemDetailText $detailsEntry
+			$ags2MenuItemDetailText = BuildMenuItemDetailText $entry $detailsEntry
 		}
 		else
 		{
@@ -863,14 +886,14 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 	if ($ams)
 	{
 		# build ams name
-		$amsName = Capitalize (BuildName $amsNameFormat $detailsEntry)
+		$amsName = Capitalize (BuildName $amsNameFormat $entry $detailsEntry)
 
 		# add whdload slave to ams whdload list
 		if ($amsListLines.Count -eq 0)
 		{
-			$amsListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "AMS")
+			$amsListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f "Assign", "Set", "Entry", "RunFile", "AMS")
 		}
-		$amsListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $amsName)
+		$amsListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f ($assignPath + ":"), $entry.SetName, $entry.EntryName, $entryFileName, $amsName)
 
 
 		# build ams menu item file name
@@ -926,7 +949,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		# build ams menu item detail text
 		if ($detailsEntry)
 		{
-			$amsMenuItemDetailText = BuildMenuItemDetailText $detailsEntry
+			$amsMenuItemDetailText = BuildMenuItemDetailText $entry $detailsEntry
 		}
 		else
 		{
@@ -945,7 +968,7 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 	if ($iGame -and $entry.RunType -match '(whdload|file)')
 	{
 		# build igame name
-		$iGameName = BuildName $iGameNameFormat $detailsEntry
+		$iGameName = BuildName $iGameNameFormat $entry $detailsEntry
 
 		$iGameMenuItemName = Capitalize $iGameName
 
@@ -957,9 +980,9 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 		# add whdload slave to igame whdload list
 		if ($iGameListLines.Count -eq 0)
 		{
-			$iGameListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "iGame")
+			$iGameListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f "Assign", "Set", "Entry", "RunFile", "iGame")
 		}
-		$iGameListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $iGameMenuItemName)
+		$iGameListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f ($assignPath + ":"), $entry.SetName, $entry.EntryName, $entryFileName, $iGameMenuItemName)
 
 		# build igame game gameslist lines
 		$iGameGameLines = @(
@@ -979,13 +1002,13 @@ foreach($entry in ($entries | Sort-Object @{expression={$_.EntryName};Ascending=
 
 	if ($hstLauncher)
 	{
-		$hstLauncherName = Capitalize (BuildName $hstLauncherNameFormat $detailsEntry)
+		$hstLauncherName = Capitalize (BuildName $hstLauncherNameFormat $entry $detailsEntry)
 
 		if ($hstLauncherListLines.Count -eq 0)
 		{
-			$hstLauncherListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f "Assign", "Entry", "RunFile", "HST Launcher")
+			$hstLauncherListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f "Assign", "Set", "Entry", "RunFile", "HST Launcher")
 		}
-		$hstLauncherListLines += (("{0,-" + ($assignPath.Length + 1) + "}   {1,-" + $entryColumnPadding + "}   {2,-" + $runFileColumnPadding + "}   {3}") -f ($assignPath + ":"), $entry.EntryName, $entryFileName, $hstLauncherName)
+		$hstLauncherListLines += (("{0,-" + ($assignPathLength + 1) + "}   {1,-" + $setNameLength + "}   {2,-" + $entryColumnPadding + "}   {3,-" + $runFileColumnPadding + "}   {4}") -f ($assignPath + ":"), $entry.SetName, $entry.EntryName, $entryFileName, $hstLauncherName)
 		
 		$indexName = GetIndexName $hstLauncherName
 

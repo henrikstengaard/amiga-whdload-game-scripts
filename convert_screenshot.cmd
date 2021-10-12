@@ -1,1 +1,10 @@
-powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "screenshots\GameBase Amiga v2.0 Screenshots\B\Banshee_(AGA)_2.png" -outputPath "ags2_iff\test"
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\AGS2-Games.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\AGS2-Games" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\AGS2-WB13.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\AGS2-WB13" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\HstWB-Demo-Selector.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\HstWB-Demo-Selector" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\HstWB-Game-Selector.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\HstWB-Game-Selector" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\StatMat-Batman-Pack.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\StatMat-Batman-Pack" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed-Demos.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed-Demos" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed-Games.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\StatMat-Brushed-Games" -noiGameScreenshot -noAmsScreenshot
+powershell -ExecutionPolicy Bypass -File convert_screenshot.ps1 -screenshotFile "d:\Temp\4gb\pc\ags2_skins\StatMat-WB12.png" -outputPath "d:\Temp\4gb\pc\ags2_skins\StatMat-WB12" -noiGameScreenshot -noAmsScreenshot
+
