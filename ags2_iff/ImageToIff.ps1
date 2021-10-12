@@ -2,11 +2,12 @@
 # ------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2016-08-17
+# Date:   2021-10-08
 #
 # A PowerShell script to convert an image to iff in ILBM format. The image must be a 4-bpp or 8-bpp indexed image.
 # Ported from imgtoiff.py python script by Per Olofsson, https://github.com/MagerValp/ArcadeGameSelector 
-# PackBits is originally written by Mikhail Korobov, https://github.com/kmike/packbits
+# c# getpixel from https://stackoverflow.com/questions/51071944/how-can-i-work-with-1-bit-and-4-bit-images
+# Pack bits Compress from https://commons.apache.org/proper/commons-imaging/jacoco/org.apache.commons.imaging.common/PackBits.java.html
 
 Param(
 	[Parameter(Mandatory=$true)]
@@ -109,8 +110,16 @@ function ColorMapChunk($image, $depth)
 }
 
 # create camg chunk
-function CamgChunk()
+function CamgChunk($image, $depth)
 {
+	$cmagStream = New-Object System.IO.MemoryStream
+	
+    #$cmagWriter = New-Object System.IO.BinaryWriter($cmagStream)
+    #$cmagWriter.WriteByte((GetLittleEndianUnsignedLongBytes $depth))
+
+	#return IffChunk 'CAMG' $cmagStream.ToArray()
+    return ,$cmagStream.ToArray()
+
     # if mode is not None:
         # camg = iff_chunk("CAMG", struct.pack(">L", mode))
     # else:
@@ -126,6 +135,77 @@ function CamgChunk()
 
 }
 
+function GetPaletteIndex($imageBytes, $stride, $height, $depth, $x, $y)
+{
+    # Get the bit index of the specified pixel
+    #$biti = (if ($stride -gt 0) { $y } else { $y - $height + 1}) * $stride * 8 + $x * $depth
+    $offset = $y
+    if ($stride -lt 0)
+    {
+        $offset = ($y - $height + 1)
+    }
+
+    $biti = ($offset * $stride * 8) + ($x * $depth)
+
+    # Get the byte index
+    $i = [math]::floor($biti / 8)
+
+    # Get color components count
+    #$cCount = [math]::floor($depth / 8)
+
+    #$dataLength = $imageBytes.Length - $cCount
+
+    #Write-Host $biti, $i
+
+    #if ($i -gt $dataLength)
+    #{
+    #    throw 'IndexOutOfRangeException'
+    #}
+
+#    if ($image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format4bppIndexed -and $image.PixelFormat -ne [System.Drawing.Imaging.PixelFormat]::Format8bppIndexed)
+
+    # if (ColorDepth == 32) // For 32 bpp get Red, Green, Blue and Alpha
+    # {
+    #     byte b = _imageData[i];
+    #     byte g = _imageData[i + 1];
+    #     byte r = _imageData[i + 2];
+    #     byte a = _imageData[i + 3]; // a
+    #     clr = Color.FromArgb(a, r, g, b);
+    # }
+    # if (ColorDepth == 24) // For 24 bpp get Red, Green and Blue
+    # {
+    #     byte b = _imageData[i];
+    #     byte g = _imageData[i + 1];
+    #     byte r = _imageData[i + 2];
+    #     clr = Color.FromArgb(r, g, b);
+    # }
+    $c = 0
+    if ($depth -eq 8)
+    {
+        $c = $imageBytes[$i]
+    }
+    if ($depth -eq 4)
+    {
+        if ($biti % 8 -eq 0)
+        {
+            $c = $imageBytes[$i] -shr 4
+        }
+        else
+        {
+            $c = $imageBytes[$i] -band 0x0F
+        }
+    }
+    if ($depth -eq 1)
+    {
+        $bbi = $biti % 8
+        $mask = $bbi -shl 1
+        $c = if (($imageBytes[$i] -band $mask) -ne 0) { 1 } else { 0 }
+    }
+
+    return $c
+}
+
+
 # convert image to planes
 function ConvertPlanar($image, $depth)
 {
@@ -133,7 +213,8 @@ function ConvertPlanar($image, $depth)
 	$lockmode = [System.Drawing.Imaging.ImageLockMode]::ReadOnly               
 	$imageData = $image.LockBits($rect, $lockmode, $image.PixelFormat);
 	$dataPointer = $imageData.Scan0;
-	$totalBytes = $imageData.Stride * $image.Height;
+
+    $totalBytes = $imageData.Stride * $image.Height;
 	$imageBytes = New-Object byte[] $totalBytes
 	[System.Runtime.InteropServices.Marshal]::Copy($dataPointer, $imageBytes, 0, $totalBytes);                
 	$image.UnlockBits($imageData);
@@ -153,30 +234,12 @@ function ConvertPlanar($image, $depth)
 	For ($y = 0; $y -lt $image.height; $y++)
 	{
 		$rowoffset = $y * $bpr
-		For ($x = 0; $x -lt $imageData.width; $x++)
+		For ($x = 0; $x -lt $image.width; $x++)
 		{
 			$offset = $rowoffset + [math]::floor($x / 8)
 			$xmod = 7 - ($x -band 7)
 			
-			if ($depth -eq 8)
-			{
-				$imageIndex = ($y * $image.width) + $x
-				$paletteIndex = $imageBytes[$imageIndex]
-			}
-			else
-			{
-				$imageIndex = ($y * $imageData.Stride) + [math]::floor($x / 2)
-				$paletteIndex = $imageBytes[$imageIndex]
-				
-				if (($x -band 1) -eq 1)
-				{
-					$paletteIndex = $paletteIndex -band 0x0F
-				}
-				else
-				{
-					$paletteIndex = $paletteIndex -shr $depth
-				}
-			}
+            $paletteIndex = GetPaletteIndex $imageBytes $imageData.Stride $image.Height $depth $x $y
 			
 			For ($plane = 0; $plane -lt $depth; $plane++)
 			{
@@ -188,131 +251,89 @@ function ConvertPlanar($image, $depth)
 	return $bpr, $planes
 }
 
-# finish raw encoding
-function FinishRaw($rleStream, $bufferStream)
-{
-	if ($bufferStream.length -eq 0)
-	{
-		return
-	}
+function FindNextDuplicate($bytes, $start) {
+    #// int last = -1;
+    if ($start -ge $bytes.length) {
+        return -1
+    }
 
-	$rleStream.WriteByte($bufferStream.length - 1)
-	$bufferStream.WriteTo($rleStream)
-	$bufferStream.SetLength(0)
+    $prev = $bytes[$start]
+
+    for ($i = $start + 1; $i -lt $bytes.length; $i++) {
+        $b = $bytes[$i]
+
+        if ($b -eq $prev) {
+            return $i - 1
+        }
+
+        $prev = $b
+    }
+
+    return -1
 }
 
-# finish rle encoding
-function FinishRle($rleStream, $count, $byte)
+function FindRunLength($bytes, $start)
 {
-    $rleStream.WriteByte(256 - ($count - 1))
-    $rleStream.WriteByte($byte)
+    $b = $bytes[$start]
+
+    $i = 0
+
+    for ($i = $start + 1; ($i -lt $bytes.length) -and ($bytes[$i] -eq $b); $i++)
+    {
+        # do nothing
+    }
+
+    return $i - $start
 }
 
-# pack using run length encoding
-function PackBits($data)
+function Compress($bytes)
 {
-    # https://github.com/kmike/packbits
-    # 
-    # Copyright (c) 2013 Mikhail Korobov
-    # 
-    # Permission is hereby granted, free of charge, to any person obtaining a copy
-    # of this software and associated documentation files (the "Software"), to deal
-    # in the Software without restriction, including without limitation the rights
-    # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    # copies of the Software, and to permit persons to whom the Software is
-    # furnished to do so, subject to the following conditions:
-    # 
-    # The above copyright notice and this permission notice shall be included in
-    # all copies or substantial portions of the Software.
-    # 
-    # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    # THE SOFTWARE.
+    $baos = New-Object System.IO.MemoryStream
+    # max length 1 extra byte for every 128
+    $ptr = 0;
+    while ($ptr -lt $bytes.length) {
+        $dup = FindNextDuplicate $bytes $ptr
 
-    if ($data.Count -eq 0)
-	{
-        return $data
-	}
+        if ($dup -eq $ptr) {
+            # write run length
+            $len = FindRunLength $bytes $dup
+            $actualLen = [Math]::min($len, 128)
+            $baos.WriteByte(256-($actualLen - 1))
+            $baos.WriteByte($bytes[$ptr])
+            $ptr += $actualLen
+        } else {
+            # write literals
+            $len = $dup - $ptr
 
-    $rleStream = New-Object System.IO.MemoryStream
-    
-    if ($data.Count -eq 1)
-	{
-		$rleStream.WriteByte(0)
-		$rleStream.WriteByte($data[0])
-		return ,$rleStream.ToArray()
-	}
-	
-    $count = 0
-    $maxLength = 127
-	
-    $bufferStream = New-Object System.IO.MemoryStream
+            # if ($dup -gt 0) {
+            #     $runlen = FindRunLength $bytes $dup
+            #     if ($runlen -lt 3) {
+            #         # may want to discard next run.
+            #         $nextptr = $ptr + $len + $runlen
+            #         $nextdup = FindNextDuplicate $bytes $nextptr
+            #         if ($nextdup -ne $nextptr) {
+            #             # discard 2-byte run
+            #             $dup = $nextdup
+            #             $len = $dup - $ptr
+            #         }
+            #     }
+            # }
 
-	$state = 'raw'
-    
-    For ($pos = 0; $pos -lt $data.Count - 1; $pos++)
-	{
-		$byte = $data[$pos]
-	
-		if ($byte -eq $data[$pos + 1])
-		{
-            if ($state -eq 'raw')
-			{
-                # end of RAW data
-                FinishRaw $rleStream $bufferStream
-                $state = 'rle'
-                $count = 1
-			}
-            elseif ($state -eq 'rle')
-			{
-				if ($count -eq $maxLength)
-				{
-					FinishRle $rleStream $count $byte
+            if ($dup -lt 0) {
+                $len = $bytes.length - $ptr
+            }
+            $actualLen = [Math]::min($len, 128)
 
-					$count = 0
-				}
-				$count++
-			}
-		}
-		else
-		{
-            if ($state -eq 'rle')
-			{
-				$count++
-				FinishRle $rleStream $count $byte
-				$state = 'raw'
-				$count = 0
-			}
-            elseif($state -eq 'raw')
-			{
-				if ($bufferStream.length -eq $maxLength)
-				{
-                    # restart the encoding
-					FinishRaw $rleStream $bufferStream
-				}
-				
-				$bufferStream.WriteByte($byte)
-			}
-		}
-	}
-	
-    if ($state -eq 'raw')
-	{
-		$bufferStream.WriteByte($byte)
-		FinishRaw $rleStream $bufferStream
-	}
-	else
-	{
-		$count++
-		FinishRle $rleStream $count $byte
-	}
-	
-	return ,$rleStream.ToArray()
+            $baos.WriteByte($actualLen - 1)
+            for ($i = 0; $i -lt $actualLen; $i++) {
+                $baos.WriteByte($bytes[$ptr])
+                $ptr++
+            }
+        }
+    }
+    return ,$baos.ToArray()
 }
+
 
 # create body chunk
 function CreateBodyChunk($image, $depth, $pack)
@@ -332,7 +353,7 @@ function CreateBodyChunk($image, $depth, $pack)
 
 			if ($pack)
 			{
-				$row = PackBits $row
+				$row = Compress $row
 			}
 			
 			$bodyStream.Write($row, 0, $row.Count)
@@ -353,6 +374,7 @@ function CreateIlbmImage($image, $pack)
 	$ilbmWriter.Write([System.Text.Encoding]::ASCII.GetBytes('ILBM'))
 	$ilbmWriter.Write((BitMapHeaderChunk $image $depth))
 	$ilbmWriter.Write((ColorMapChunk $image $depth))
+	$ilbmWriter.Write((CamgChunk $image $depth))
 	$ilbmWriter.Write((CreateBodyChunk $image $depth $pack))
     
     return IffChunk 'FORM' $ilbmStream.ToArray()
@@ -399,9 +421,6 @@ $image = new-object System.Drawing.Bitmap($imagePath)
 #         }
 #     }
 # }
-
-
-
 
 
 # check if image is a 4-bpp or 8-bpp indexed image
