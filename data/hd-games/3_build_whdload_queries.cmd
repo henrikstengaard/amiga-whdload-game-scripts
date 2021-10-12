@@ -1,0 +1,3 @@
+:: HD-Games
+powershell -ExecutionPolicy Bypass -File ..\..\build_whdload_queries.ps1 -entriesFiles "filtered\hd-games_filtered.csv" -queryPatchesFile "screenshots\hd-games_screenshot_query_patches.csv" -queriesFile "screenshots\hd-games_screenshot_queries.csv" -addFilteredName -removeQueryWordsPattern "^(Demo|Disk|OCS|ECS|AGA|CDTV|CD32)$"
+powershell -ExecutionPolicy Bypass -File ..\..\build_whdload_queries.ps1 -entriesFiles "filtered\hd-games_filtered.csv" -queryPatchesFile "details\hd-games_detail_query_patches.csv" -queriesFile "details\hd-games_detail_queries.csv" -addFilteredName -removeQueryWordsPattern "^(Demo|Disk|OCS|ECS|AGA|CDTV|CD32)$"

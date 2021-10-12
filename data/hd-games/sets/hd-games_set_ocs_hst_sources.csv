@@ -1,4 +1,4 @@
 EntriesFile;AssignName
-data\eab_whdload_packs_3.0\sets\ocs\Games_WHDLoad_set_OCS.csv;A-Games
-data\eab_whdload_packs_3.0\sets\ocs\Games_WHDLoad_UnpackOnAmiga_set_OCS.csv;A-Games
-data\hd-games\sets\hd-games_set_ocs.csv;HD-Games
+..\eab_whdload_packs_retroplay_2019-02-25\sets\ocs\games_set_ocs.csv;A-Games
+..\eab_whdload_packs_retroplay_2019-02-25\sets\ocs\games-beta-unreleased_set_ocs.csv;A-Games
+sets\hd-games_set_ocs.csv;HD-Games

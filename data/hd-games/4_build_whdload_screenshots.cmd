@@ -1,0 +1,2 @@
+:: HD-Games
+powershell -ExecutionPolicy Bypass -File ..\..\build_whdload_screenshots_new.ps1 -queriesFile "screenshots\hd-games_screenshot_queries.csv" -sourcesFile "screenshots\hd-games_screenshot_sources.csv" -outputPath "screenshots\hd-games_screenshots" -minScore 1

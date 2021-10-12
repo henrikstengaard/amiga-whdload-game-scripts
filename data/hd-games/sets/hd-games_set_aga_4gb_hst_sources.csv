@@ -1,3 +1,4 @@
 EntriesFile;AssignName
-data\eab_whdload_packs_3.0\sets\aga_4gb\games_aga_4gb.csv;A-Games
-data\hd-games\sets\hd-games_set_aga_4gb.csv;HD-Games
+..\eab_whdload_packs_retroplay_2019-02-25\sets\aga\games_set_aga.csv;A-Games
+..\eab_whdload_packs_retroplay_2019-02-25\sets\aga\games-beta-unreleased_set_aga.csv;A-Games
+sets\hd-games_set_aga_4gb.csv;HD-Games

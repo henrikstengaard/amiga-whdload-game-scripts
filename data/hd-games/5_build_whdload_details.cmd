@@ -1,0 +1,2 @@
+:: HD-Games
+powershell -ExecutionPolicy Bypass -File ..\..\build_whdload_details.ps1 -entriesFile "details\hd-games_detail_queries.csv" -detailsSourcesFile "details\hd-games_detail_sources.csv" -minScore 1 -entriesDetailsFile "details\hd-games_details.csv"
